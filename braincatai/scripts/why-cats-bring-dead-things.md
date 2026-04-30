@@ -40,10 +40,12 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 ## Full Voiceover (whole video, single block — paste into TTS)
 
 ```
-When your cat drops a dead mouse at your feet — it's not a gift. It's an insult. Cats are born hunters. Mother cats teach kittens to hunt by bringing them prey — first dead, then half-alive — so they can practice. So when YOUR cat brings you a dead bird? She thinks you're a kitten who can't hunt. She's trying to keep you alive. Even indoor cats do this with toys — bringing them to you because she's worried you'll starve. So next time? Say thank you. She loves you that much. Follow Brain for more cat secrets.
+Your cat just dropped a dead mouse at your feet. Don't say thanks yet. Here's what it really means. Cats are amazing hunters. Mama cats catch food and bring it to their babies — to teach them how. So when YOUR cat brings you a mouse? She thinks YOU'RE her baby. And she's worried you can't catch your own food. Even house cats do this with toys! It's how she says "I've got you." So next time, just say thank you. That's a lot of love. Follow Brain for more cat secrets.
 ```
 
-Word count: **104 words** ≈ 50–55 sec at 130 wpm.
+Word count: **97 words** ≈ 50 sec at 130 wpm.
+
+> Written for kids and adults — friendly, simple, no jargon.
 
 ---
 
@@ -70,7 +72,7 @@ Static low-angle shot of Brain looking up at camera, very slow push-in on his fa
 **🎙️ Voiceover:**
 
 ```
-When your cat drops a dead mouse at your feet... it's not a gift.
+Your cat just dropped a dead mouse at your feet. Don't say thanks yet.
 ```
 
 ---
@@ -94,7 +96,7 @@ Snap-zoom in on Brain's face, eyebrow raises slowly, smirk forms, glasses catch 
 **🎙️ Voiceover:**
 
 ```
-It's an INSULT.
+Here's what it really means.
 ```
 
 ---
@@ -118,7 +120,7 @@ Brain taps the pointer twice on the chalkboard drawing, gestures from cat silhou
 **🎙️ Voiceover:**
 
 ```
-Cats are born hunters.
+Cats are amazing hunters.
 ```
 
 ---
@@ -142,7 +144,7 @@ Mother cat silhouette walks slowly forward and gently sets the toy mouse down in
 **🎙️ Voiceover:**
 
 ```
-Mother cats teach kittens to hunt by bringing them prey — first dead, then half-alive — so they can practice.
+Mama cats catch food and bring it to their babies — to teach them how.
 ```
 
 ---
@@ -166,7 +168,7 @@ Slight push-in on Brain, paw raises and points up at the towering human silhouet
 **🎙️ Voiceover:**
 
 ```
-So when YOUR cat brings you a dead bird? She thinks you're a kitten who can't hunt.
+So when YOUR cat brings you a mouse? She thinks YOU'RE her baby.
 ```
 
 ---
@@ -190,7 +192,7 @@ Brain carefully places the gift down with both paws, looks up at camera with wat
 **🎙️ Voiceover:**
 
 ```
-She's trying to keep you alive.
+And she's worried you can't catch your own food.
 ```
 
 ---
@@ -214,7 +216,7 @@ Brain points at each toy in turn, paw moves left to right across the lineup, wor
 **🎙️ Voiceover:**
 
 ```
-Even indoor cats do this with toys — she's worried you'll starve.
+Even house cats do this with toys! It's how she says "I've got you."
 ```
 
 ---
@@ -238,7 +240,7 @@ Brain winks slowly, raises paw and waves it once toward camera, golden sparkles 
 **🎙️ Voiceover:**
 
 ```
-Say thank you. She loves you that much. Follow Brain for more cat secrets.
+So next time, just say thank you. That's a lot of love. Follow Brain for more cat secrets.
 ```
 
 ---

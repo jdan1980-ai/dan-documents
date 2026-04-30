@@ -24,6 +24,10 @@ One sentence — what does the viewer learn or feel?
 
 > 
 
+## ✍️ Voiceover rule
+
+Every line must be understandable for **a 9-year-old AND a 40-year-old**. Write like you're telling a friend something cool, not like a textbook. No jargon, no scary words, no "umm/basically/actually." See [style-guide.md §9](./style-guide.md#9-editorial-voice-writing-style) for the swap table.
+
 ---
 
 ## 🔒 Locked Brain Prompt (always prepend)

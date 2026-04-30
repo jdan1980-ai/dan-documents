@@ -182,26 +182,51 @@ ugly, scary, aggressive expression
 
 ## 9. Editorial Voice (Writing Style)
 
+### Audience: everyone (kids and adults)
+
+Every script must work for **a 9-year-old AND a 40-year-old**. Write the way you'd talk to a curious friend at a coffee shop — warm, simple, direct. Not a teacher, not a presenter, not a robot.
+
+**The rule:** if a 9-year-old wouldn't immediately get a word, swap it.
+
+| ❌ Don't say | ✅ Say instead |
+|--------------|----------------|
+| prey | food / mouse / bird |
+| insult | mean / rude |
+| starve | not have food |
+| wavelength | type of light |
+| atmosphere | air around Earth |
+| scatter | bounce around |
+| frequency | beat / vibration |
+| domesticated | tamed |
+| ancestors | great-great-grandparents |
+| evolved | changed over a long time |
+
 ### Do
 
 - Open with a contradiction or shocking fact ("The sky isn't actually blue.")
-- Use "you" — speak directly to the viewer
-- Short sentences. Punchy rhythm.
+- Use "you" and "your cat" — speak directly to the viewer
+- **Short sentences.** Punchy rhythm. One idea per sentence.
+- Use everyday words a kid hears at home
 - Use one analogy per video — make the abstract concrete
-- End with a teaser or question
+- End with a teaser or warm sign-off
 
 ### Don't
 
 - Start with "Hi guys, today we're going to talk about…"
 - Use jargon without immediate plain-English translation
+- Use dark/scary words for kids' ears (starve, kill, die, brutal, savage)
 - Apologize ("Sorry this is complicated…")
-- Pad with "umm" or filler
+- Pad with "umm," "basically," "actually" (overused), or filler
 - Promise more than the video delivers (clickbait that under-delivers)
 
-### Vocabulary tier
+### Tone: human, not robotic
 
-- 8th-grade reading level. If a 13-year-old wouldn't get it, simplify.
-- Exception: when teaching a *new* term, define it on screen + voice.
+Read your script out loud. If it sounds like a Wikipedia entry, rewrite it. It should sound like *one person telling another person something cool*.
+
+- ❌ "Felines possess a sophisticated hunting instinct…"
+- ✅ "Cats are amazing hunters."
+- ❌ "This phenomenon is caused by Rayleigh scattering."
+- ✅ "Tiny bits of air bounce blue light all over the place."
 
 ---
 

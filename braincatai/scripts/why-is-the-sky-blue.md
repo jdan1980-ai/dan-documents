@@ -38,10 +38,12 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 ## Full Voiceover (whole video, single block — paste into TTS)
 
 ```
-The sky isn't actually blue. Your eyes are lying to you. Sunlight looks white, but it's every color mixed together — red, orange, yellow, green, blue, violet. When sunlight hits Earth's atmosphere, tiny air molecules scatter the shorter wavelengths — blue and violet — way more than the others. Your eyes see more blue than violet, so the sky looks blue. On Mars? The sky is red. Same physics, different air. Mind blown? Follow Brain for more facts that break your brain.
+The sky isn't really blue. Your eyes are tricking you. Sunlight looks white, but it's actually every color mixed together — red, orange, yellow, green, blue, and purple. When sunlight hits the air around Earth, tiny bits of air bounce the blue light all over the place. So all that bouncing blue is what you see when you look up. And on Mars? The sky is red — because Mars has a different kind of air. Pretty cool, right? Follow Brain for more facts that break your brain.
 ```
 
-Word count: **88 words** ≈ 50 sec at 130 wpm.
+Word count: **92 words** ≈ 50 sec at 130 wpm.
+
+> Written for kids and adults — friendly, simple, no jargon.
 
 ---
 
@@ -66,7 +68,7 @@ Slow camera push-in on Brain's shocked face, Brain's eyes widen further, ears tw
 **🎙️ Voiceover:**
 
 ```
-The sky isn't actually blue.
+The sky isn't really blue.
 ```
 
 ---
@@ -88,7 +90,7 @@ Tight on Brain's face, eyes narrow then widen, paw taps chin twice, glasses catc
 **🎙️ Voiceover:**
 
 ```
-Your eyes are lying to you.
+Your eyes are tricking you.
 ```
 
 ---
@@ -110,7 +112,7 @@ Sunbeam slowly enters the prism, rainbow blooms outward in a smooth fan, sparkle
 **🎙️ Voiceover:**
 
 ```
-Sunlight looks white, but it's every color mixed together.
+Sunlight looks white, but it's actually every color mixed together.
 ```
 
 ---
@@ -132,7 +134,7 @@ Color orbs gently bob in mid-air, Brain's paw sweeps across them left to right, 
 **🎙️ Voiceover:**
 
 ```
-Red, orange, yellow, green, blue, violet.
+Red, orange, yellow, green, blue, and purple.
 ```
 
 ---
@@ -154,7 +156,7 @@ Blue light waves enter the frame and bounce wildly off the air molecule spheres,
 **🎙️ Voiceover:**
 
 ```
-Tiny air molecules scatter blue light way more than the others.
+Tiny bits of air bounce the blue light all over the place.
 ```
 
 ---
@@ -176,7 +178,7 @@ Brain's eyes spiral, mouth opens in a silent "wow", paws press cheeks, blue spar
 **🎙️ Voiceover:**
 
 ```
-That's why the sky looks blue.
+And all that bouncing blue is what you see when you look up!
 ```
 
 ---
@@ -198,7 +200,7 @@ Wide shot opens to reveal Brain on Mars, slow camera pan across the red sky, Bra
 **🎙️ Voiceover:**
 
 ```
-On Mars? The sky is red. Same physics, different air.
+On Mars, the sky is red — because Mars has a different kind of air.
 ```
 
 ---
@@ -220,7 +222,7 @@ Brain winks, raises paw and waves it once, confetti bursts and slowly drifts dow
 **🎙️ Voiceover:**
 
 ```
-Mind blown? Follow Brain for more facts that break your brain.
+Pretty cool, right? Follow Brain for more facts that break your brain.
 ```
 
 ---
