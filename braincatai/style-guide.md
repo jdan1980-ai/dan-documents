@@ -55,7 +55,7 @@ The single source of truth for the channel's visual, audio, and editorial style.
 
 ## 3. Color Palette
 
-Lock these for visual consistency.
+Lock these for **Brain's character only**. Backgrounds and environments are NOT locked — they're chosen per video and must stay consistent within that video.
 
 | Role | Name | Hex | Use |
 |------|------|-----|-----|
@@ -65,17 +65,15 @@ Lock these for visual consistency.
 | Eyes | Sparkle Green | `#3DDC84` | Brain's eyes |
 | Accessories gold | Brass Gold | `#D4A93A` | Glasses frame + heart tag |
 | Collar | Saddle Brown | `#7A4E2D` | Leather collar |
-| Background hero | Deep Purple | `#3B1E5E` | Brand bokeh background |
-| Background sparkle | Lilac Glow | `#B98CFF` | Bokeh highlights, sparkles |
-| Brand | Electric Yellow | `#FFD23F` | On-screen text, thumbnails |
-| Hot | Coral Red | `#FF5C5C` | Alarm/wrong/wow text |
+| Brand text | Electric Yellow | `#FFD23F` | On-screen text, thumbnails |
+| Hot accent | Coral Red | `#FF5C5C` | "Wow" / correction text |
 | Outline | Soft Charcoal | `#2A2A2A` | Text stroke, shadows |
 
 **Rules:**
-- Never more than 3 dominant colors in one frame
-- Default background = deep purple bokeh (brand signature)
-- Yellow text on purple background = highest CTR for thumbnails
-- Coral red ONLY for "wow"/correction moments — keep it rare so it stays loud
+- Brain's colors are **locked across every video**
+- Background/environment colors are chosen **per video** based on the story (kitchen, wild grass, living room, etc.)
+- Yellow + charcoal stroke text always works for thumbnails regardless of background
+- Coral red ONLY for "wow" moments — keep it rare so it stays loud
 
 ---
 
@@ -99,7 +97,7 @@ Lock these for visual consistency.
 
 - **Frame rate:** 30 fps (24 fps for cinematic beats)
 - **Aspect:** 1080x1920 (9:16)
-- **Style:** **Pixar-style 3D render** — soft fur, cinematic lighting, shallow depth of field, deep purple bokeh background with sparkles, 4K detail
+- **Style:** **Pixar-style 3D render** — soft fur, cinematic lighting, shallow depth of field, 4K detail. Background is per-video, not locked to a single look.
 - **Cuts:** Fast — average shot length **2–3 seconds** (longer = retention drop)
 - **Transitions:** Whip pans, zooms, simple dissolves. No fancy wipes.
 - **Brain's motion:** Always something moving — tail flick, ear twitch, whisker twitch, blink. **Never static for >1 sec.**
@@ -156,18 +154,17 @@ Lock these for visual consistency.
 
 ## 8. Locked AI Prompt Block
 
-Paste this **exact string** at the top of every animation prompt. It locks Brain's look across every video.
+Paste this **exact string** at the top of every image prompt. It locks **only Brain's look** — the world/background is chosen per video.
 
 ```
 Cute orange tabby kitten named Brain, big round sparkling green eyes,
 small thin round gold-framed glasses, brown leather collar with
 gold heart-shaped tag engraved "Brain", soft fluffy orange fur with
 darker tabby stripes, pink nose, long white whiskers, Pixar 3D render
-style, deep purple bokeh background with sparkles, cinematic lighting,
-4K, vertical 9:16 composition.
+style, cinematic lighting, 4K, vertical 9:16 composition.
 ```
 
-Then append the per-shot description (action, expression, scene context) after this block.
+Then append: **the locked scene/world block for this video** (see §8b) **+ the per-shot action and expression**.
 
 ### Negative prompts (always include)
 
@@ -176,6 +173,39 @@ Then append the per-shot description (action, expression, scene context) after t
 low quality, blurry, distorted face, extra limbs, missing glasses,
 missing collar, missing heart tag, watermark, text in image, logo,
 ugly, scary, aggressive expression
+```
+
+---
+
+## 8b. Scene Continuity (per-video world locks)
+
+The locked block in §8 only describes **Brain**. Every script must define its own visual world at the top and reuse the **exact same wording** across scenes that share a location.
+
+### The rules
+
+1. **Pick 1–3 locations max per video.** More than that breaks visual flow.
+2. **Lock each location as a named block** at the top of the script (e.g., `INT. KITCHEN — DAY` or `EXT. WILD GRASS — GOLDEN HOUR`) with a single descriptive paragraph.
+3. **Identical wording = identical look.** If Scene 1 and Scene 5 are both in the kitchen, paste the *exact same* kitchen description into both image prompts. Don't paraphrase.
+4. **The CTA scene (Scene 8) must match the world.** End in one of the locations already used in the video, in the same lighting and style. Never end in a generic "purple bokeh + confetti" outro — that breaks continuity.
+5. **Group scenes by location** in the script's structure so it's obvious which scenes share a setting.
+
+### Example location block
+
+```
+INT. COZY LIVING ROOM — DAY
+Cozy modern living room with warm wooden floor, soft beige sofa
+in background, large window with soft afternoon daylight from the
+left, small green potted plant near the window, warm honey-colored
+ambient light, slight depth of field with sofa softly out of focus.
+```
+
+Then in each scene's image prompt:
+
+```
+[Locked Brain block from §8]
+[INT. COZY LIVING ROOM — DAY paragraph above, copy-pasted exactly]
+[Per-shot action: e.g., "Brain walks forward and gently places a small
+toy mouse on the wooden floor, looks up at camera with calm expression."]
 ```
 
 ---
@@ -257,8 +287,12 @@ Read your script out loud. If it sounds like a Wikipedia entry, rewrite it. It s
 - ❌ 2D / flat / anime style — must be Pixar 3D
 - ❌ Brain without **glasses** or **heart-tag collar** (signature elements)
 - ❌ Wrong fur color (must be orange tabby, not grey/black/cream)
+- ❌ **Locking a single brand background across all videos** (e.g., always purple bokeh) — backgrounds are per-video, not channel-wide
+- ❌ **Different versions of the same room across scenes** — if Scene 1 and Scene 4 are both in the kitchen, they must look identical (same lighting, same furniture, same angle of light)
+- ❌ **CTA in a generic confetti/bokeh world** that doesn't match the rest of the video — Scene 8 must take place in one of the locations already used
 - ❌ Slow openings ("Hello everyone…")
 - ❌ More than 1 idea per video
+- ❌ More than 3 distinct locations in one 60-second Short
 - ❌ Politics, controversy, NSFW
 - ❌ AI hallucinated "facts" without source
 - ❌ Recurring co-stars — Brain is alone (one-off guests OK)

@@ -32,10 +32,10 @@ Every line must be understandable for **a 9-year-old AND a 40-year-old**. Write 
 
 ## 🔒 Locked Brain Prompt (always prepend)
 
-Paste this at the **start of every Nano Banana image prompt** to lock Brain's look:
+Paste this at the **start of every Nano Banana image prompt** to lock Brain's look. Only Brain is locked — the background is chosen per-video below.
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition.
 ```
 
 **Negative prompts (Nano Banana):**
@@ -43,6 +43,43 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 ```
 2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive expression
 ```
+
+---
+
+## 🏠 Scene Settings (lock locations for THIS video)
+
+Pick 1–3 locations max for this video. Write each as a single descriptive paragraph and **paste the exact same wording** into every scene that uses that location. The CTA scene (Scene 8) must use one of these locations — never a generic outro background. See [style-guide.md §8b](./style-guide.md#8b-scene-continuity-per-video-world-locks).
+
+### Location A — `INT. / EXT. NAME — TIME OF DAY`
+
+```
+
+```
+
+### Location B — `INT. / EXT. NAME — TIME OF DAY` (delete if not used)
+
+```
+
+```
+
+### Location C — `INT. / EXT. NAME — TIME OF DAY` (delete if not used)
+
+```
+
+```
+
+### Scene → location map
+
+| Scene | Location | Notes |
+|-------|----------|-------|
+| 1 | A | |
+| 2 | A | |
+| 3 | | |
+| 4 | | |
+| 5 | | |
+| 6 | | |
+| 7 | | |
+| 8 (CTA) | **must match one above** | |
 
 ---
 
@@ -63,11 +100,14 @@ Paste this into your TTS tool (e.g. ElevenLabs) as one read for natural pacing. 
 ## Scene 1 — HOOK (0–7 sec)
 
 **Beat purpose:** grab attention in the first 2 seconds. Contradiction or shocking statement.
+**Location:** A / B / C (mark from the map above)
 
 **🎨 Image prompt (Nano Banana):**
 
+> Format: `[Locked Brain prompt] + [exact location block from above] + [per-shot action]`
+
 ```
-[Locked Brain prompt] + scene staging here
+
 ```
 
 **🎬 Animation prompt (Veo 3):**
