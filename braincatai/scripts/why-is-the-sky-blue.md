@@ -258,29 +258,55 @@ Light cinematic instrumental, 60 sec, sparkling chimes + soft strings, 110 BPM, 
 
 ## SEO Pack
 
+> **vidIQ optimization rules:**
+> - Title: 40–70 chars, end with `🐱 | Cat Psychology` for channel brand consistency
+> - Description: ≥ 250 chars, repeat main keyword 2–3 times, include 5+ supporting keywords, hashtags + CTA at end
+> - Tags: 20–25 tags, mix broad + long-tail, total under 450 chars, always include `cat psychology, brain cat, did you know, mind blowing facts`
+
 **Final title:**
 
 ```
-Why Is the Sky Blue? (You're Wrong) 🐱
+Why Is the Sky Blue? (You're Wrong) 🐱 | Cat Psychology
 ```
 
-**Description:**
+Alt titles to A/B test:
 
 ```
-The sky isn't really blue — your eyes are tricking you. Here's the real reason in under a minute, explained by Brain. 🐱✨
-#shorts #braincatai #science #spacefacts #rayleigh
+Why Is the Sky Blue? It's NOT What You Think 🐱
+The Sky Isn't Blue (And Here's the Proof) 🐱 Science Facts
+Why Mars Has a RED Sky 🐱 | Mind Blown
 ```
 
-**Tags:**
+**Description (≥ 250 chars, vidIQ-optimized):**
 
 ```
-sky blue, why is the sky blue, rayleigh scattering, science shorts, science for kids, ai cat, animated cat, educational shorts, space facts, mars sky, physics explained, brain cat, cat science
+Why is the sky blue? 🐱 You think you know — but you're wrong! In this Short, Brain the curious orange tabby kitten reveals the real reason the sky LOOKS blue (spoiler: it's not actually blue at all — your eyes are tricking you).
+
+Sunlight is made of every color mixed together — red, orange, yellow, green, blue, and purple. When sunlight hits Earth's air, tiny bits of air bounce the blue light all over the place. That's the bouncing blue you see when you look up! And on Mars? The sky is red, because Mars has a totally different kind of air. 🤯
+
+Mind-blowing science fact for kids and adults — explained in under a minute by Brain. 🧠✨
+
+🐱 Follow Brain for more mind-blowing facts, cat psychology, science secrets, and "wait, what?!" moments every week.
+
+#shorts #didyouknow #scienceshorts #braincatai #catpsychology #mindblown #sciencefacts
 ```
 
-**Hashtags:**
+**Tags (paste comma-separated into YouTube tags field):**
 
 ```
-#shorts #braincatai #sciencefacts #didyouknow #rayleigh
+why is the sky blue, why is the sky blue for kids, science facts, science shorts, science for kids, mind blowing facts, did you know, did you know facts, brain cat, ai cat, animated cat, cat psychology, sky color, sky blue science, rayleigh scattering, light scattering, mars sky color, why mars sky is red, space facts, earth science, atmosphere facts, physics for kids, educational shorts, science explained, animal science
+```
+
+**Hashtags (top 3 show under the title — order matters):**
+
+```
+#shorts #didyouknow #scienceshorts
+```
+
+Extended set (for description body):
+
+```
+#shorts #didyouknow #scienceshorts #braincatai #catpsychology #mindblown #sciencefacts
 ```
 
 **Thumbnail concept:**
