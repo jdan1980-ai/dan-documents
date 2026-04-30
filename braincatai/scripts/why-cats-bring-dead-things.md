@@ -249,6 +249,26 @@ Maybe say thank you next time. Follow Brain... for more secrets.
 
 ---
 
+## 🎵 Music Prompt (paste into Suno / Udio / Mubert / ElevenLabs Music)
+
+```
+Light playful slightly mysterious cinematic instrumental for a 60-second YouTube Short about cat psychology. Soft pizzicato strings, warm acoustic guitar, gentle bell accents, occasional muted piano. ~95 BPM. Slight comedic bounce in the middle (around 30-40 seconds) for a humor beat. Swells warm and emotional in the final third (40-50 seconds) for a heartfelt reveal. Gentle uplifting outro at 50 seconds. No vocals. Mood: warm, curious, slightly comedic in the middle, emotional payoff at the end. Royalty-free style.
+```
+
+**Alt prompt (shorter, for tools with character limits):**
+
+```
+Light playful instrumental, 60 sec, pizzicato strings + warm guitar, 95 BPM, slight comedic bounce mid, emotional swell at 40s, no vocals, cat psychology short background.
+```
+
+## Assembly in Google Vids
+
+1. Upload all 8 animated clips in order (Scene 1 → Scene 8)
+2. Add VO track from TTS (one continuous file is easier — split clips if needed to match)
+3. Add music track at -18 LUFS, voice at -12 LUFS (~6 dB voice over music)
+4. Add burn-in captions, top third of frame, max 4 words on screen
+5. Add SFX cues per editing notes below
+
 ## Editing Notes
 
 - **Hard cut** Scene 1 → 2 (mouse drop → smug pose lands the joke)

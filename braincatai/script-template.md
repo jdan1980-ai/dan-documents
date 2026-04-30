@@ -252,6 +252,28 @@ Camera motion + Brain's action + facial expression + duration ~7s
 
 ---
 
+## 🎵 Music Prompt (paste into Suno / Udio / Mubert / ElevenLabs Music)
+
+Write a single instrumental music prompt for the whole 60-sec video. Specify mood, instruments, BPM, build-up moments, no vocals, royalty-free.
+
+```
+
+```
+
+**Alt prompt (shorter, for tools with character limits):**
+
+```
+
+```
+
+## Assembly in Google Vids
+
+1. Upload all 8 animated clips in order (Scene 1 → Scene 8)
+2. Add VO track from TTS (one continuous file is easier — split clips if needed to match)
+3. Add music track at -18 LUFS, voice at -12 LUFS (~6 dB voice over music)
+4. Add burn-in captions, top third of frame, max 4 words on screen
+5. Add SFX cues per editing notes below
+
 ## Editing Notes
 
 - Cut between scenes with hard cuts or whip-pans

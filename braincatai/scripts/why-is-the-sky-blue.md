@@ -35,13 +35,15 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 
 ---
 
-## Full Voiceover (whole video, single block — paste into TTS)
+## Full Voiceover (whole video, single block — paste into Google Vids voiceover)
+
+> **Pause cues:** `...` = ~0.5s breath. Read warm, like telling a friend something cool. Don't rush.
 
 ```
-The sky isn't really blue. Your eyes are tricking you. Sunlight looks white, but it's actually every color mixed together — red, orange, yellow, green, blue, and purple. When sunlight hits the air around Earth, tiny bits of air bounce the blue light all over the place. So all that bouncing blue is what you see when you look up. And on Mars? The sky is red — because Mars has a different kind of air. Pretty cool, right? Follow Brain for more facts that break your brain.
+Look up. You see a blue sky... right? Wrong. The sky isn't actually blue. Your eyes are tricking you. Sunlight looks white. But it's really every color mixed together. Red, orange, yellow, green, blue... and purple. When sunlight hits the air around Earth... tiny bits of air bounce the blue light all over the place. So everywhere you look up... you see all that bouncing blue. And on Mars? The sky is red. Because Mars has a totally different kind of air. Pretty cool, right? Follow Brain... for more facts that break your brain.
 ```
 
-Word count: **92 words** ≈ 50 sec at 130 wpm.
+Word count: **104 words** ≈ 55–60 sec at ~130 wpm with the dramatic pauses.
 
 > Written for kids and adults — friendly, simple, no jargon.
 
@@ -68,7 +70,7 @@ Slow camera push-in on Brain's shocked face, Brain's eyes widen further, ears tw
 **🎙️ Voiceover:**
 
 ```
-The sky isn't really blue.
+Look up. You see a blue sky... right?
 ```
 
 ---
@@ -90,7 +92,7 @@ Tight on Brain's face, eyes narrow then widen, paw taps chin twice, glasses catc
 **🎙️ Voiceover:**
 
 ```
-Your eyes are tricking you.
+Wrong. The sky isn't actually blue. Your eyes are tricking you.
 ```
 
 ---
@@ -112,7 +114,7 @@ Sunbeam slowly enters the prism, rainbow blooms outward in a smooth fan, sparkle
 **🎙️ Voiceover:**
 
 ```
-Sunlight looks white, but it's actually every color mixed together.
+Sunlight looks white. But it's really every color mixed together.
 ```
 
 ---
@@ -134,7 +136,7 @@ Color orbs gently bob in mid-air, Brain's paw sweeps across them left to right, 
 **🎙️ Voiceover:**
 
 ```
-Red, orange, yellow, green, blue, and purple.
+Red, orange, yellow, green, blue... and purple.
 ```
 
 ---
@@ -156,7 +158,7 @@ Blue light waves enter the frame and bounce wildly off the air molecule spheres,
 **🎙️ Voiceover:**
 
 ```
-Tiny bits of air bounce the blue light all over the place.
+When sunlight hits the air around Earth... tiny bits of air bounce the blue light all over the place.
 ```
 
 ---
@@ -178,7 +180,7 @@ Brain's eyes spiral, mouth opens in a silent "wow", paws press cheeks, blue spar
 **🎙️ Voiceover:**
 
 ```
-And all that bouncing blue is what you see when you look up!
+So everywhere you look up... you see all that bouncing blue.
 ```
 
 ---
@@ -200,7 +202,7 @@ Wide shot opens to reveal Brain on Mars, slow camera pan across the red sky, Bra
 **🎙️ Voiceover:**
 
 ```
-On Mars, the sky is red — because Mars has a different kind of air.
+And on Mars? The sky is red. Because Mars has a totally different kind of air.
 ```
 
 ---
@@ -222,10 +224,30 @@ Brain winks, raises paw and waves it once, confetti bursts and slowly drifts dow
 **🎙️ Voiceover:**
 
 ```
-Pretty cool, right? Follow Brain for more facts that break your brain.
+Pretty cool, right? Follow Brain... for more facts that break your brain.
 ```
 
 ---
+
+## 🎵 Music Prompt (paste into Suno / Udio / Mubert / ElevenLabs Music)
+
+```
+Light playful curious cinematic instrumental for a 60-second YouTube Short about a science fact. Soft sparkling chimes, twinkling celesta, and gentle plucked strings. ~110 BPM. Sense of cosmic wonder and discovery. Slight build-up and warm swell at 30 seconds for the big reveal, gentle uplifting outro at 50 seconds. No vocals. No drums until 25 seconds, then soft light drums kick in. Mood: magical, curious, friendly, like a kids' science show that adults also love. Royalty-free style.
+```
+
+**Alt prompt (shorter, for tools with character limits):**
+
+```
+Light cinematic instrumental, 60 sec, sparkling chimes + soft strings, 110 BPM, cosmic wonder mood, warm swell at 30s, no vocals, science short background.
+```
+
+## Assembly in Google Vids
+
+1. Upload all 8 animated clips in order (Scene 1 → Scene 8)
+2. Add VO track from TTS (one continuous file is easier — split clips if needed to match)
+3. Add music track at -18 LUFS, voice at -12 LUFS (~6 dB voice over music)
+4. Add burn-in captions, top third of frame, max 4 words on screen
+5. Add SFX cues per editing notes below
 
 ## Editing Notes
 
