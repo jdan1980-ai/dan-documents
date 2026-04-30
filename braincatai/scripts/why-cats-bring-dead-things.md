@@ -1,7 +1,7 @@
 # Script — Why Your Cat Brings You Dead Things (NOT a Gift)
 
 **Pipeline:** 8 scenes → image in Nano Banana → animation in Veo 3 → glue together.
-**Total runtime:** ~56 sec.
+**Total runtime:** ~55 sec.
 
 > **Note:** Reference images already generated. Use the per-scene **image prompt** below to match your existing photo to the right scene, or skip image gen entirely and feed your photo + animation prompt directly into Veo 3.
 
@@ -9,7 +9,7 @@
 
 ## Meta
 
-- **Title (working):** Your Cat Thinks You're a TERRIBLE Hunter 🐱
+- **Title (working):** Your Cat Thinks You're Its Kitten 🐱
 - **Slug:** why-cats-bring-dead-things
 - **Category:** Cat Psychology
 - **Series:** standalone
@@ -19,7 +19,13 @@
 
 ## Audience Promise
 
-In under a minute, viewer learns the real reason cats bring dead prey home — and feels both insulted and loved.
+In under a minute, viewer learns the real reason cats bring dead prey home — laughs, gets emotional, and feels loved.
+
+---
+
+## ✍️ Voiceover rule
+
+Conversational. Use the dramatic pauses (`...`) — they're what makes the read land. Read warm, like telling a friend something cool. See [style-guide.md §9](../style-guide.md#9-editorial-voice-writing-style).
 
 ---
 
@@ -40,12 +46,10 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 ## Full Voiceover (whole video, single block — paste into TTS)
 
 ```
-Your cat just dropped a dead mouse at your feet. Don't say thanks yet. Here's what it really means. Cats are amazing hunters. Mama cats catch food and bring it to their babies — to teach them how. So when YOUR cat brings you a mouse? She thinks YOU'RE her baby. And she's worried you can't catch your own food. Even house cats do this with toys! It's how she says "I've got you." So next time, just say thank you. That's a lot of love. Follow Brain for more cat secrets.
+Your cat walks up to you... and drops a dead mouse at your feet. Gross? Yes. But also... it's the highest compliment your cat can give you. Here's why. In the wild, mother cats teach their kittens how to hunt. They bring back prey... and show the babies what to do. Your cat sees you as part of its family. Maybe even... as its kitten. And your cat has noticed something. You never hunt. You never bring back food. You can't even catch a fly without making a scene. So your cat decided... someone has to teach you. That dead mouse? It's not a gift. It's a lesson. Your cat is literally trying to keep you alive. Maybe say thank you next time. Follow Brain... for more secrets.
 ```
 
-Word count: **97 words** ≈ 50 sec at 130 wpm.
-
-> Written for kids and adults — friendly, simple, no jargon.
+Word count: **140 words** ≈ 60 sec at ~140 wpm with the dramatic pauses.
 
 ---
 
@@ -53,182 +57,182 @@ Word count: **97 words** ≈ 50 sec at 130 wpm.
 
 ---
 
-## Scene 1 — HOOK (0–7 sec)
+## Scene 1 — HOOK (0–5 sec)
 
-**Beat:** Shock open. Show the dead-mouse moment from Brain's POV — and *contradict* the common assumption.
+**Beat:** The dead mouse moment, dropped at viewer's feet.
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting proudly with a tiny cartoon-style dead mouse placed on the floor in front of him, paw resting on the mouse, looking up directly at camera with a serious deadpan expression, eyes intense.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain walking forward toward camera, gently placing a small cartoon-style dead mouse on the floor in front of him, looking up at the camera with a calm matter-of-fact expression.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Static low-angle shot of Brain looking up at camera, very slow push-in on his face, slight whisker twitch, single slow blink, dead mouse stays still on the floor, soft purple bokeh shifts gently behind him. Duration 7 seconds.
+Brain walks into frame from the left carrying a small mouse in his mouth, gently sets it down on the floor with a soft thud, then looks up directly at the camera with a calm steady gaze, single slow blink. Duration 5 seconds.
 ```
 
 **🎙️ Voiceover:**
 
 ```
-Your cat just dropped a dead mouse at your feet. Don't say thanks yet.
+Your cat walks up to you... and drops a dead mouse at your feet.
 ```
 
 ---
 
-## Scene 2 — Curiosity gap (7–14 sec)
+## Scene 2 — Reframe (5–12 sec)
 
-**Beat:** Reveal the twist. One word: insult.
+**Beat:** "Gross — but actually a compliment." Smug, chest-puffed Brain.
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Extreme close-up portrait of Brain with one eyebrow raised dramatically, smug half-lidded eyes, slight smirk on his mouth, glasses glinting with a sharp light flare across the lens.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting tall and proud, chest puffed out, one paw resting on his chest like he just earned a medal, smug satisfied half-smile, glasses glinting with a subtle highlight.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Snap-zoom in on Brain's face, eyebrow raises slowly, smirk forms, glasses catch a quick light flare and reflection sweep, slow tail flick visible at bottom of frame. Duration 7 seconds.
+Brain puffs out his chest with pride, raises one paw and places it on his chest like accepting a medal, slight smug head tilt to the side, slow proud blink, gold heart tag on collar shimmers. Duration 7 seconds.
 ```
 
 **🎙️ Voiceover:**
 
 ```
-Here's what it really means.
+Gross? Yes. But also... it's the highest compliment your cat can give you.
 ```
 
 ---
 
-## Scene 3 — Setup (14–21 sec)
+## Scene 3 — Setup (12–18 sec)
 
-**Beat:** Establish that cats are hunters. Show Brain in "teacher" mode.
+**Beat:** "Here's why" — open the educational window, show wild mother + kittens.
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain standing on hind legs in front of a small chalkboard with a chalk drawing of a stalking cat silhouette and a tiny mouse, holding a wooden pointer stick in his paw, professorial pose, focused expression.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain standing in a soft warm-lit wild grassy scene at golden hour, looking off to the side where a softly glowing silhouette of a larger mother cat is crouched in stalking posture with a small kitten silhouette behind her watching attentively.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Brain taps the pointer twice on the chalkboard drawing, gestures from cat silhouette to mouse, pointer drawing a small arrow, soft chalk dust puffs, gentle camera dolly-in. Duration 7 seconds.
+Slow camera pan across the wild grassy scene from left to right, mother cat silhouette stalking forward in slow motion, kitten silhouette mimicking her movement, golden grass swaying gently, Brain in foreground watching with curious expression. Duration 6 seconds.
 ```
 
 **🎙️ Voiceover:**
 
 ```
-Cats are amazing hunters.
+Here's why. In the wild, mother cats teach their kittens how to hunt.
 ```
 
 ---
 
-## Scene 4 — Build-up (21–28 sec)
+## Scene 4 — Build (18–24 sec)
 
-**Beat:** Mother cats teach kittens by bringing them prey. Show the maternal lesson.
+**Beat:** Mother brings prey home and shows kittens what to do.
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting attentively as a kitten student, looking up at a softly glowing silhouette of a larger mother cat in the background carrying a small toy mouse in her mouth, warm spotlight on Brain, motherly aura around the silhouette.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Soft glowing silhouette of a mother cat gently dropping a small toy mouse on the ground in front of two small attentive kitten silhouettes, warm honey-colored light, Brain visible in foreground watching with focused interest.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Mother cat silhouette walks slowly forward and gently sets the toy mouse down in front of Brain, Brain's eyes widen with focused attention, ears perk up, gentle warm glow pulses around the silhouette, smooth slow zoom on Brain. Duration 7 seconds.
+Mother cat silhouette walks forward and gently sets the small mouse down in front of the kittens, the two kittens lean forward in curiosity with synchronized movement, ears perked, soft warm light pulses gently. Duration 6 seconds.
 ```
 
 **🎙️ Voiceover:**
 
 ```
-Mama cats catch food and bring it to their babies — to teach them how.
+They bring back prey... and show the babies what to do.
 ```
 
 ---
 
-## Scene 5 — Core explanation (28–35 sec)
+## Scene 5 — Connect (24–31 sec)
 
-**Beat:** The "aha" moment. YOUR cat treats you like a kitten.
+**Beat:** Emotional connect — your cat sees YOU as family. Maybe even her kitten.
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain standing in front of a giant cartoon-style human silhouette towering above him, Brain pointing one paw up at the human and giving a knowing, slightly pitying look directly at the camera, glasses tilted forward.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain looking straight up at the camera with big sparkling teary loving green eyes, soft pink heart symbol gently floating in the air above his head, warm glowing aura around him, paw raised tenderly.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Slight push-in on Brain, paw raises and points up at the towering human silhouette, Brain shakes his head slowly with a sympathetic look, gives camera a knowing glance, ears tilt back slightly. Duration 7 seconds.
+Slow zoom in on Brain's face, his eyes get bigger and shinier, slow soft blink, a small pink heart symbol gently rises from above his head and pulses warmly, soft golden glow pulses around him. Duration 7 seconds.
 ```
 
 **🎙️ Voiceover:**
 
 ```
-So when YOUR cat brings you a mouse? She thinks YOU'RE her baby.
+Your cat sees you as part of its family. Maybe even... as its kitten.
 ```
 
 ---
 
-## Scene 6 — Twist / aha (35–42 sec)
+## Scene 6 — Humor (31–39 sec) ⭐ THE COMEDY BEAT
 
-**Beat:** The emotional turn. She's not insulting you — she's worried about you.
+**Beat:** Brain deadpans while a clumsy human flails after a fly. Visual gag drives retention.
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain standing on his hind legs and gently placing a small wrapped gift box (containing the dead mouse from before) on the floor with both paws, looking up with a soft caring expression, big sparkling teary green eyes, warm glow around him.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain in foreground with a deadpan unimpressed face-paw expression (paw covering half his face), watching a clumsy cartoon human silhouette in the background dramatically jumping and flailing arms trying to catch a tiny annoying fly buzzing around their head.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Brain carefully places the gift down with both paws, looks up at camera with watery sparkling eyes, single soft blink, a tiny pink heart symbol pops into the air above him, warm pulsing glow. Duration 7 seconds.
+Brain in foreground watches with deadpan expression, paw slowly rises to cover half his face in disbelief, in the background a cartoon human silhouette comically flails arms and jumps trying to catch a small buzzing fly, fly zips erratically, slow disappointed head shake from Brain, single dry blink. Duration 8 seconds.
 ```
 
 **🎙️ Voiceover:**
 
 ```
-And she's worried you can't catch your own food.
+And your cat has noticed something. You never hunt. You never bring back food. You can't even catch a fly without making a scene.
 ```
 
 ---
 
-## Scene 7 — Bonus fact (42–49 sec)
+## Scene 7 — Reveal (39–48 sec) ⭐ THE PAYOFF
 
-**Beat:** Even indoor cats do this — with toys. Reinforce and broaden the fact.
+**Beat:** The big reveal stacked into one shot. "It's a lesson. She's keeping you alive."
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain standing in a cozy stylized living room scene, surrounded by colorful cat toys — a felt mouse, a feathered ball, a yarn ball — arranged in a neat row in front of him, Brain pointing at the toys with one paw, concerned worried expression.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain standing in a teaching pose, gesturing with one paw toward the small dead mouse on the floor in front of him as if presenting a lesson, then looking up at the camera with serious caring eyes, soft warm spotlight on him.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Brain points at each toy in turn, paw moves left to right across the lineup, worried head-tilt, toys gently bob in place, soft warm room lighting, gentle camera pan following his paw. Duration 7 seconds.
+Brain gestures toward the mouse with his paw like a teacher introducing a lesson, then turns slowly to face the camera, eyes get softer and more sincere, gentle slow zoom in on his face, single warm blink, soft glow pulses around him. Duration 9 seconds.
 ```
 
 **🎙️ Voiceover:**
 
 ```
-Even house cats do this with toys! It's how she says "I've got you."
+So your cat decided... someone has to teach you. That dead mouse? It's not a gift. It's a lesson. Your cat is literally trying to keep you alive.
 ```
 
 ---
 
-## Scene 8 — CTA / outro (49–56 sec)
+## Scene 8 — CTA (48–55 sec)
 
-**Beat:** Wink, follow, brand close.
+**Beat:** Soft warm sign-off. Wink + sparkles + follow.
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain winking with one eye closed, raised paw in a friendly "follow me" gesture, big warm smile, golden sparkles and confetti bursting around him, his gold heart-shaped collar tag glinting prominently.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain winking with one eye closed, raised paw in a friendly "follow me" gesture, big warm smile, golden sparkles and confetti bursting around him, gold heart-shaped collar tag glinting prominently.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -240,51 +244,57 @@ Brain winks slowly, raises paw and waves it once toward camera, golden sparkles 
 **🎙️ Voiceover:**
 
 ```
-So next time, just say thank you. That's a lot of love. Follow Brain for more cat secrets.
+Maybe say thank you next time. Follow Brain... for more secrets.
 ```
 
 ---
 
 ## Editing Notes
 
-- **Hard cut** between Scene 1 → 2 (lands the "INSULT" punch)
-- **Whip-pan** between Scene 5 (looking up at human) → Scene 6 (looking down at gift)
+- **Hard cut** Scene 1 → 2 (mouse drop → smug pose lands the joke)
+- **Soft dissolve** Scene 4 → 5 (wild scene → emotional connect)
+- **Whip-pan** Scene 5 → 6 (loving look → comedy beat — keeps energy)
+- **Slow fade** Scene 7 → 8 (emotional payoff cools into warm CTA)
 - Burn-in subtitles, max 4 words on screen, top third
 - Voice -12 LUFS, music -18 LUFS
+- Honor the **dramatic pauses** in VO — TTS should respect the `...` as 0.5s holds
 - **SFX cues:**
-  - 0:00 — record-scratch + low ominous note on "not a gift"
-  - 0:07 — sharp ding/sting on "INSULT"
-  - 0:22 — soft chime under mother-cat reveal
-  - 0:36 — heart-pulse SFX on the emotional turn
-  - 0:50 — meow on CTA
-- **Music:** Light, slightly mysterious cat-themed track, ~100 BPM, swells warm in Scene 6
+  - 0:00 — soft footstep + thud as Brain drops mouse
+  - 0:05 — small "ta-da" chime on smug chest-puff
+  - 0:12 — gentle warm chime on wild scene reveal
+  - 0:24 — heart-pulse sound on emotional connect
+  - 0:31 — buzzing fly + comedic flop SFX in humor beat
+  - 0:39 — soft warm swell builds through reveal
+  - 0:48 — meow on CTA
+- **Music:** Light playful track, slightly mysterious in middle, swells warm in Scene 7, ~100 BPM
 
 ## SEO Pack
 
 **Final title:**
 
 ```
-Your Cat Thinks You're a TERRIBLE Hunter 🐱
+Your Cat Thinks You're Its Kitten 🐱
 ```
 
 Alt titles to A/B test:
 
 ```
-Your Cat's Dead Mouse Isn't a Gift. It's an Insult 🐱
+Your Cat's Dead Mouse Is Actually a Compliment 🐱
 Why Your Cat Brings You Dead Things (NOT What You Think)
+Your Cat Is Trying to Teach You to Hunt 🐱
 ```
 
 **Description:**
 
 ```
-Your cat dropping a dead mouse at your feet isn't a gift — it's because she thinks you're a kitten who can't hunt. The real reason behind one of cat psychology's most misunderstood behaviors, in under a minute. 🐱✨
-#shorts #braincatai #catpsychology #catfacts #cathunter
+That dead mouse your cat dropped at your feet? It's not a gift — it's a lesson. Your cat thinks you're its kitten and is literally trying to keep you alive. The real reason in under a minute. 🐱✨
+#shorts #braincatai #catpsychology #catfacts
 ```
 
 **Tags:**
 
 ```
-why cats bring dead animals, why cats bring dead mice, cat psychology, cat behavior, cat brings gifts, why does my cat bring me dead things, cat hunting, mother cat, cat shorts, ai cat, animated cat, brain cat, cat facts
+why cats bring dead animals, why cats bring dead mice, cat psychology, cat behavior, cat brings gifts, why does my cat bring me dead things, cat hunting, mother cat, cat shorts, ai cat, animated cat, brain cat, cat facts, cats teaching humans
 ```
 
 **Hashtags:**
@@ -295,7 +305,7 @@ why cats bring dead animals, why cats bring dead mice, cat psychology, cat behav
 
 **Thumbnail concept:**
 
-> Brain with deadpan smug expression looking at camera, tiny cartoon mouse at his paws, giant text "NOT A GIFT 🐱" in Electric Yellow with charcoal stroke, deep purple bokeh background.
+> Brain with deadpan unimpressed face-paw expression, tiny dead mouse at his paws, giant text "YOU'RE HER KITTEN 🐱" in Electric Yellow with charcoal stroke, deep purple bokeh background.
 
 ---
 
