@@ -283,28 +283,60 @@ Write a single instrumental music prompt for the whole 60-sec video. Specify moo
 
 ## SEO Pack
 
-**Final title** (≤ 60 chars):
+> **vidIQ optimization rules (target 80+/100):**
+> - **Title:** 40–70 chars, include main keyword (`cat psychology` always for this channel), use `|` to add the niche tag, end with 🐱
+> - **Description:** ≥ 250 chars, repeat main keyword 2–3 times, include 5+ supporting keywords, include emoji, end with hashtag block + follow CTA
+> - **Tags:** 20–25 tags, mix broad (1 word) + medium (2 words) + long-tail (3–5 words), total under 450 chars
+> - **Hashtags in title bar:** only first 3 show under title — pick the 3 strongest, `#shorts` always first
+> - Always include: `cat psychology, cat facts, cat behavior, brain cat, did you know, mind blowing facts`
+
+**Final title** (40–70 chars, end with `🐱 | Cat Psychology`):
 
 ```
 
 ```
 
-**Description:**
+Alt titles to A/B test:
+
+```
+
+
+```
+
+**Description (≥ 250 chars, repeat main keyword 2–3×):**
+
+```
+
+
+🐱 Follow Brain for more cat psychology, cat facts, and cat secrets every week.
+
+#shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts
+```
+
+**Tags (paste comma-separated into YouTube tags field — base set + 5–10 video-specific):**
+
+Base set (always include):
+
+```
+cat psychology, cat facts, cat behavior, cat secrets, cat science, cat communication, cat body language, feline behavior, understanding cats, facts about cats, animal facts, animal science, did you know, mind blowing facts, brain cat, cat facts daily, cat behavior funny, cat domestication, cats vs humans
+```
+
+Video-specific (add 5–10 long-tail tags matching this video):
 
 ```
 
 ```
 
-**Tags:**
+**Hashtags (top 3 show under the title — order matters):**
 
 ```
-
+#shorts #catpsychology #catfacts
 ```
 
-**Hashtags:**
+Extended set (for description body):
 
 ```
-#shorts #braincatai 
+#shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts
 ```
 
 **Thumbnail concept:**

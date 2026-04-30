@@ -290,37 +290,54 @@ Light playful instrumental, 60 sec, pizzicato strings + warm guitar, 95 BPM, sli
 
 ## SEO Pack
 
+> **vidIQ optimization rules:**
+> - Title: 40–70 chars, include main keyword (`cat psychology`)
+> - Description: **≥ 250 chars**, repeat main keyword 2–3 times, include 5+ supporting keywords, end with hashtags + CTA
+> - Tags: **20–25 tags**, mix broad (1 word) + medium (2 words) + long-tail (3–5 words), total under 450 chars
+> - Hashtags: 3–5 strong ones, `#shorts` always first
+
 **Final title:**
 
 ```
-Your Cat Thinks You're Its Kitten 🐱
+Your Cat Thinks You're Its Kitten 🐱 | Cat Psychology
 ```
 
 Alt titles to A/B test:
 
 ```
-Your Cat's Dead Mouse Is Actually a Compliment 🐱
-Why Your Cat Brings You Dead Things (NOT What You Think)
-Your Cat Is Trying to Teach You to Hunt 🐱
+Your Cat's Dead Mouse Is a COMPLIMENT 🐱 Cat Psychology
+Why Your Cat Brings You Dead Mice (Cat Psychology)
+Your Cat Is Trying to Teach You to Hunt 🐱 Cat Facts
 ```
 
 **Description:**
 
 ```
-That dead mouse your cat dropped at your feet? It's not a gift — it's a lesson. Your cat thinks you're its kitten and is literally trying to keep you alive. The real reason in under a minute. 🐱✨
-#shorts #braincatai #catpsychology #catfacts
+Your cat just dropped a dead mouse at your feet — and it's NOT what you think! 🐱 In this Cat Psychology Short, Brain reveals the real reason cats bring dead animals to humans (it's actually the highest compliment your cat can give you).
+
+In the wild, mother cats teach their kittens to hunt by bringing prey home. So when your cat drops a dead mouse at your feet, she thinks YOU are her kitten — and she's literally trying to keep you alive. Mind-blowing cat behavior in under a minute! 🧠✨
+
+🐱 Follow Brain for more cat psychology, cat facts, and cat secrets every week.
+
+#shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts
 ```
 
-**Tags:**
+**Tags (paste comma-separated into YouTube tags field):**
 
 ```
-why cats bring dead animals, why cats bring dead mice, cat psychology, cat behavior, cat brings gifts, why does my cat bring me dead things, cat hunting, mother cat, cat shorts, ai cat, animated cat, brain cat, cat facts, cats teaching humans
+cat psychology, cat facts, cat behavior, cat secrets, cat science, cat communication, cat body language, feline behavior, understanding cats, facts about cats, why cats bring dead animals, why cats bring dead mice, cat brings dead mouse, why does my cat bring me dead things, cats bringing gifts, mother cat teaches kittens, cat hunting instinct, why cats hunt, your cat thinks you're its kitten, cat behavior funny, cat domestication, animal facts, animal science, did you know, mind blowing facts, brain cat, cat facts daily, cats vs humans
 ```
 
-**Hashtags:**
+**Hashtags (top 3 show under the title — order matters):**
 
 ```
-#shorts #braincatai #catpsychology #catbehavior #catfacts
+#shorts #catpsychology #catfacts
+```
+
+Extended hashtag set (for description body):
+
+```
+#shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts
 ```
 
 **Thumbnail concept:**
