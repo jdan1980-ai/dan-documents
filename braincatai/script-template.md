@@ -41,8 +41,18 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 **Negative prompts (Nano Banana):**
 
 ```
-2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive expression
+2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive expression, mouth open as if talking, lip-sync, talking cat
 ```
+
+## ⚠️ Veo 3 animation rule — mouth stays closed
+
+Every `🎬 Animation prompt` block in this script must end with:
+
+```
+Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body.
+```
+
+Exceptions (state explicitly when used): brief held jaw-drop for shock, single yawn, one soft meow on CTA.
 
 ---
 

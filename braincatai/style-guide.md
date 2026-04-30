@@ -46,7 +46,7 @@ The single source of truth for the channel's visual, audio, and editorial style.
 
 ### What Brain NEVER does
 
-- Speaks visibly (mouth syncing) — voiceover only, Brain *reacts*
+- **Opens his mouth as if talking.** Brain's mouth stays **closed** during voiceover. The narration is off-camera — Brain doesn't speak the words. He reacts with **eyes, ears, whiskers, body**. Mouth opening is allowed ONLY for: brief jaw-drop on shock (held), yawn (sleepy), or one soft meow on CTA — never repetitive open/close that mimics talking.
 - Appears without **glasses** or **collar with gold heart tag** (signature elements — always on)
 - Looks photorealistic or 2D-flat (always Pixar 3D render)
 - Looks angry/aggressive — keep it warm and curious
@@ -172,8 +172,22 @@ Then append: **the locked scene/world block for this video** (see §8b) **+ the 
 2D, flat, anime, cel-shaded, photorealistic cat, multiple cats,
 low quality, blurry, distorted face, extra limbs, missing glasses,
 missing collar, missing heart tag, watermark, text in image, logo,
-ugly, scary, aggressive expression
+ugly, scary, aggressive expression, mouth open as if talking,
+lip-sync, talking cat, mouth movement, chattering
 ```
+
+### Animation prompt rule (Veo 3)
+
+Every animation prompt must end with this line:
+
+```
+Mouth stays closed throughout, no lip-sync, no talking motion. Expressions are conveyed through eyes, ears, whiskers, and body language.
+```
+
+Exceptions (state explicitly per shot when used):
+- Brief held jaw-drop for shock (single beat, not repeated)
+- Single yawn for sleepy/bored beat
+- One soft meow at CTA (single mouth motion, then closed)
 
 ---
 
@@ -287,6 +301,7 @@ Read your script out loud. If it sounds like a Wikipedia entry, rewrite it. It s
 - ❌ 2D / flat / anime style — must be Pixar 3D
 - ❌ Brain without **glasses** or **heart-tag collar** (signature elements)
 - ❌ Wrong fur color (must be orange tabby, not grey/black/cream)
+- ❌ **Brain opening his mouth as if talking / lip-syncing the voiceover** — Brain never speaks the lines. Mouth stays closed; reactions through eyes and body only.
 - ❌ **Locking a single brand background across all videos** (e.g., always purple bokeh) — backgrounds are per-video, not channel-wide
 - ❌ **Different versions of the same room across scenes** — if Scene 1 and Scene 4 are both in the kitchen, they must look identical (same lighting, same furniture, same angle of light)
 - ❌ **CTA in a generic confetti/bokeh world** that doesn't match the rest of the video — Scene 8 must take place in one of the locations already used

@@ -38,8 +38,12 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 **Negative prompts (Nano Banana):**
 
 ```
-2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive expression
+2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive expression, mouth open as if talking, lip-sync, talking cat
 ```
+
+## ⚠️ Animation rule — Brain's mouth stays closed
+
+Brain does **NOT** speak the voiceover. Narration is off-camera. Every animation prompt below ends with the lock line: *"Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body."*
 
 ---
 
@@ -70,7 +74,7 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Brain walks into frame from the left carrying a small mouse in his mouth, gently sets it down on the floor with a soft thud, then looks up directly at the camera with a calm steady gaze, single slow blink. Duration 5 seconds.
+Brain walks into frame from the left carrying a small mouse in his mouth, gently sets it down on the floor with a soft thud, then looks up directly at the camera with a calm steady gaze, single slow blink. Mouth stays closed throughout (after the mouse is set down), no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body. Duration 5 seconds.
 ```
 
 **🎙️ Voiceover:**
@@ -94,7 +98,7 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Brain puffs out his chest with pride, raises one paw and places it on his chest like accepting a medal, slight smug head tilt to the side, slow proud blink, gold heart tag on collar shimmers. Duration 7 seconds.
+Brain puffs out his chest with pride, raises one paw and places it on his chest like accepting a medal, slight smug head tilt to the side, slow proud blink, gold heart tag on collar shimmers. Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body. Duration 7 seconds.
 ```
 
 **🎙️ Voiceover:**
@@ -118,7 +122,7 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Slow camera pan across the wild grassy scene from left to right, mother cat silhouette stalking forward in slow motion, kitten silhouette mimicking her movement, golden grass swaying gently, Brain in foreground watching with curious expression. Duration 6 seconds.
+Slow camera pan across the wild grassy scene from left to right, mother cat silhouette stalking forward in slow motion, kitten silhouette mimicking her movement, golden grass swaying gently, Brain in foreground watching with curious expression. Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body. Duration 6 seconds.
 ```
 
 **🎙️ Voiceover:**
@@ -142,7 +146,7 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Mother cat silhouette walks forward and gently sets the small mouse down in front of the kittens, the two kittens lean forward in curiosity with synchronized movement, ears perked, soft warm light pulses gently. Duration 6 seconds.
+Mother cat silhouette walks forward and gently sets the small mouse down in front of the kittens, the two kittens lean forward in curiosity with synchronized movement, ears perked, soft warm light pulses gently. Brain in foreground keeps mouth closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body. Duration 6 seconds.
 ```
 
 **🎙️ Voiceover:**
@@ -166,7 +170,7 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Slow zoom in on Brain's face, his eyes get bigger and shinier, slow soft blink, a small pink heart symbol gently rises from above his head and pulses warmly, soft golden glow pulses around him. Duration 7 seconds.
+Slow zoom in on Brain's face, his eyes get bigger and shinier, slow soft blink, a small pink heart symbol gently rises from above his head and pulses warmly, soft golden glow pulses around him. Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body. Duration 7 seconds.
 ```
 
 **🎙️ Voiceover:**
@@ -190,7 +194,7 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Brain in foreground watches with deadpan expression, paw slowly rises to cover half his face in disbelief, in the background a cartoon human silhouette comically flails arms and jumps trying to catch a small buzzing fly, fly zips erratically, slow disappointed head shake from Brain, single dry blink. Duration 8 seconds.
+Brain in foreground watches with deadpan expression, paw slowly rises to cover half his face in disbelief, in the background a cartoon human silhouette comically flails arms and jumps trying to catch a small buzzing fly, fly zips erratically, slow disappointed head shake from Brain, single dry blink. Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body. Duration 8 seconds.
 ```
 
 **🎙️ Voiceover:**
@@ -214,7 +218,7 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Brain gestures toward the mouse with his paw like a teacher introducing a lesson, then turns slowly to face the camera, eyes get softer and more sincere, gentle slow zoom in on his face, single warm blink. Duration 8 seconds.
+Brain gestures toward the mouse with his paw like a teacher introducing a lesson, then turns slowly to face the camera, eyes get softer and more sincere, gentle slow zoom in on his face, single warm blink. Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body. Duration 8 seconds.
 ```
 
 **🎙️ Voiceover:**
@@ -238,7 +242,7 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Brain looks straight at camera with sincere caring eyes, soft warm glow pulses around him for the emotional line, then he winks slowly and raises a paw to wave once toward camera, gold heart tag shimmers, gentle zoom-in on his face. Duration 8 seconds.
+Brain looks straight at camera with sincere caring eyes, soft warm glow pulses around him for the emotional line, then he winks slowly and raises a paw to wave once toward camera, gold heart tag shimmers, gentle zoom-in on his face. Mouth stays closed throughout (one optional soft single meow allowed at the very end as the wink lands), no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body. Duration 8 seconds.
 ```
 
 **🎙️ Voiceover:**
