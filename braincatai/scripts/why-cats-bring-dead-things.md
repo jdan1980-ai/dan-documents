@@ -46,10 +46,10 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 ## Full Voiceover (whole video, single block — paste into TTS)
 
 ```
-Your cat walks up to you... and drops a dead mouse at your feet. Gross? Yes. But also... it's the highest compliment your cat can give you. Here's why. In the wild, mother cats teach their kittens how to hunt. They bring back prey... and show the babies what to do. Your cat sees you as part of its family. Maybe even... as its kitten. And your cat has noticed something. You never hunt. You never bring back food. You can't even catch a fly without making a scene. So your cat decided... someone has to teach you. That dead mouse? It's not a gift. It's a lesson. Your cat is literally trying to keep you alive. Maybe say thank you next time. Follow Brain... for more secrets.
+Your cat walks up to you... and drops a dead mouse at your feet. Gross? Yes. But also... it's the highest compliment your cat can give you. Here's why. In the wild, mother cats teach their kittens how to hunt. They bring back prey... and show the babies what to do. Your cat sees you as part of its family. Maybe even... as its kitten. And your cat has noticed... you never hunt. You can't even catch a fly. So your cat decided to teach you. That mouse? It's not a gift. It's a lesson. She's literally trying to keep you alive. Maybe say thank you. Follow Brain... for more secrets.
 ```
 
-Word count: **140 words** ≈ 60 sec at ~140 wpm with the dramatic pauses.
+Word count: **113 words** ≈ 55–58 sec at ~130 wpm with the dramatic pauses. Each scene is now **≤ 8 sec of speech** (Veo 3 max per clip).
 
 ---
 
@@ -177,7 +177,7 @@ Your cat sees you as part of its family. Maybe even... as its kitten.
 
 ---
 
-## Scene 6 — Humor (31–39 sec) ⭐ THE COMEDY BEAT
+## Scene 6 — Humor (34–42 sec) ⭐ THE COMEDY BEAT
 
 **Beat:** Brain deadpans while a clumsy human flails after a fly. Visual gag drives retention.
 
@@ -196,38 +196,38 @@ Brain in foreground watches with deadpan expression, paw slowly rises to cover h
 **🎙️ Voiceover:**
 
 ```
-And your cat has noticed something. You never hunt. You never bring back food. You can't even catch a fly without making a scene.
+And your cat has noticed... you never hunt. You can't even catch a fly.
 ```
 
 ---
 
-## Scene 7 — Reveal (39–48 sec) ⭐ THE PAYOFF
+## Scene 7 — Reveal (42–50 sec) ⭐ THE PAYOFF
 
-**Beat:** The big reveal stacked into one shot. "It's a lesson. She's keeping you alive."
+**Beat:** The reveal — "It's not a gift. It's a lesson."
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain standing in a teaching pose, gesturing with one paw toward the small dead mouse on the floor in front of him as if presenting a lesson, then looking up at the camera with serious caring eyes, soft warm spotlight on him.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition. Brain standing in a teaching pose, gesturing with one paw toward the small dead mouse on the floor in front of him as if presenting a lesson, looking up at the camera with serious caring eyes, soft warm spotlight on him.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Brain gestures toward the mouse with his paw like a teacher introducing a lesson, then turns slowly to face the camera, eyes get softer and more sincere, gentle slow zoom in on his face, single warm blink, soft glow pulses around him. Duration 9 seconds.
+Brain gestures toward the mouse with his paw like a teacher introducing a lesson, then turns slowly to face the camera, eyes get softer and more sincere, gentle slow zoom in on his face, single warm blink. Duration 8 seconds.
 ```
 
 **🎙️ Voiceover:**
 
 ```
-So your cat decided... someone has to teach you. That dead mouse? It's not a gift. It's a lesson. Your cat is literally trying to keep you alive.
+So your cat decided to teach you. That mouse? It's not a gift. It's a lesson.
 ```
 
 ---
 
-## Scene 8 — CTA (48–55 sec)
+## Scene 8 — Emotional close + CTA (50–58 sec)
 
-**Beat:** Soft warm sign-off. Wink + sparkles + follow.
+**Beat:** Big emotional payoff line, then warm wink + follow. The line "she's literally trying to keep you alive" lands first, then the CTA softens into the wink.
 
 **🎨 Image prompt (Nano Banana):**
 
@@ -238,13 +238,13 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Brain winks slowly, raises paw and waves it once toward camera, golden sparkles burst around his head and drift down softly, gold heart tag shimmers with a light flare, gentle zoom-in on his face. Duration 7 seconds.
+Brain looks straight at camera with sincere caring eyes, soft warm glow pulses around him for the emotional line, then he winks slowly and raises a paw to wave once toward camera, gold heart tag shimmers, gentle zoom-in on his face. Duration 8 seconds.
 ```
 
 **🎙️ Voiceover:**
 
 ```
-Maybe say thank you next time. Follow Brain... for more secrets.
+She's literally trying to keep you alive. Maybe say thank you. Follow Brain... for more secrets.
 ```
 
 ---
