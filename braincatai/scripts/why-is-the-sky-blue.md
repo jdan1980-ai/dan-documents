@@ -50,14 +50,25 @@ Word count: **89 words** ≈ 45 sec at 120 wpm (read with energy → ~42 sec).
 
 ### AI animation prompts
 
-Style locked: `2D animated cat, BrainCatAI style, vibrant colors, expressive eyes, vertical 9:16, clean flat shading`
+**Locked style block** (prepend to every shot prompt — see [style-guide.md §8](../style-guide.md#8-locked-ai-prompt-block)):
 
-- **Beat 1:** Cat lying on grass looking up at bright blue sky, jaw dropped in shock, exaggerated wide eyes, vertical 9:16
-- **Beat 2:** Close-up of cat squinting suspiciously at the sky, one eyebrow raised, paw on chin
-- **Beat 3:** Cat holding a glass prism, white sunbeam entering, splitting into rainbow on the other side, sparkles
-- **Beat 4:** Cat shrunk to molecule size floating among glowing blue and red light waves, blue waves bouncing off the cat in all directions, red waves passing through
-- **Beat 5:** Cat in astronaut helmet standing on red Martian surface, dusty red-orange sky, Earth visible as small dot in distance
-- **Beat 6:** Cat winking at camera, paw raised in a "follow me" gesture, confetti background
+```
+Cute orange tabby kitten named Brain, big round sparkling green eyes,
+small thin round gold-framed glasses, brown leather collar with
+gold heart-shaped tag engraved "Brain", soft fluffy orange fur with
+darker tabby stripes, pink nose, long white whiskers, Pixar 3D render
+style, deep purple bokeh background with sparkles, cinematic lighting,
+4K, vertical 9:16 composition.
+```
+
+Per-shot continuations:
+
+- **Beat 1:** …Brain lying on grass under a bright blue sky, looking up, jaw dropped in shock, eyes wide and sparkling.
+- **Beat 2:** …close-up of Brain squinting suspiciously, one eyebrow raised, paw on chin, glasses glinting.
+- **Beat 3:** …Brain holding a glass prism, white sunbeam entering, splitting into rainbow on the other side, sparkles around.
+- **Beat 4:** …Brain shrunk to molecule size, floating among glowing blue and red light waves, blue waves bouncing off in all directions, red waves passing through.
+- **Beat 5:** …Brain in astronaut helmet standing on red Martian surface (glasses still on under helmet), dusty red-orange sky, Earth visible as a small dot.
+- **Beat 6:** …Brain winking at camera, raised paw in a "follow me" gesture, confetti and sparkles around.
 
 ### Voiceover
 

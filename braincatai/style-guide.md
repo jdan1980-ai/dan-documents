@@ -13,16 +13,18 @@ The single source of truth for the channel's visual, audio, and editorial style.
 
 ---
 
-## 2. The Cat (Main Character)
+## 2. The Cat (Main Character) — "Brain"
 
 ### Look
 
-- **Species:** Generic shorthair cat, slightly stylized (not realistic)
-- **Body:** Round, plush proportions — head ~40% of body height for expressiveness
-- **Fur color:** **Warm cream/beige** with soft white belly and paws *(lock this)*
-- **Eyes:** Oversized, **bright cyan-blue**, glossy highlights — eyes are the main acting tool
-- **Markings:** Small dark grey spot on left ear (signature detail for recognition)
-- **Pupils:** Cartoon-flexible — can go pinprick (shock), heart (love), spiral (confused), star (excited)
+- **Name:** Brain
+- **Species:** Cute orange tabby kitten
+- **Body:** Round, plush kitten proportions — large head, small body
+- **Fur:** Soft fluffy orange with **darker tabby stripes**, pink nose, long white whiskers
+- **Eyes:** Big, round, **sparkling green**, glossy highlights — main acting tool
+- **Glasses:** Small, thin, round, **gold-framed** — always on Brain
+- **Collar:** **Brown leather** with a **gold heart-shaped tag** engraved "Brain"
+- **Pupils:** Expressive — can go pinprick (shock), heart (love), spiral (confused), star (excited)
 
 ### Personality
 
@@ -42,12 +44,12 @@ The single source of truth for the channel's visual, audio, and editorial style.
 | 😴 Bored | Skipping over filler | Yawn, slumped pose |
 | 😉 Wink | CTA/outro | One eye closed, raised paw |
 
-### What the cat NEVER does
+### What Brain NEVER does
 
-- Speaks visibly (mouth syncing) — voiceover only, the cat *reacts*
-- Wears clothes regularly (only situational: spacesuit, lab coat)
-- Has photorealistic detail
-- Looks angry/aggressive — keep it warm
+- Speaks visibly (mouth syncing) — voiceover only, Brain *reacts*
+- Appears without **glasses** or **collar with gold heart tag** (signature elements — always on)
+- Looks photorealistic or 2D-flat (always Pixar 3D render)
+- Looks angry/aggressive — keep it warm and curious
 
 ---
 
@@ -57,18 +59,22 @@ Lock these for visual consistency.
 
 | Role | Name | Hex | Use |
 |------|------|-----|-----|
-| Primary | Cream Cat | `#F5E1B8` | Cat fur |
-| Belly | Warm White | `#FFF6E3` | Cat belly, paws, chin |
-| Accent | Cyan Eye | `#3FD0F2` | Cat eyes, key glow effects |
+| Fur primary | Tabby Orange | `#F2994A` | Brain's fur base |
+| Fur stripes | Burnt Sienna | `#B65A2C` | Tabby stripes |
+| Belly | Warm Cream | `#FFE7C2` | Belly, chin, paws |
+| Eyes | Sparkle Green | `#3DDC84` | Brain's eyes |
+| Accessories gold | Brass Gold | `#D4A93A` | Glasses frame + heart tag |
+| Collar | Saddle Brown | `#7A4E2D` | Leather collar |
+| Background hero | Deep Purple | `#3B1E5E` | Brand bokeh background |
+| Background sparkle | Lilac Glow | `#B98CFF` | Bokeh highlights, sparkles |
 | Brand | Electric Yellow | `#FFD23F` | On-screen text, thumbnails |
 | Hot | Coral Red | `#FF5C5C` | Alarm/wrong/wow text |
-| Background dark | Midnight | `#0F1B2D` | Space, "what if" scenes |
-| Background light | Sky Mint | `#D9F2EC` | Default scenes |
-| Outline | Soft Charcoal | `#2A2A2A` | Cat outlines, text shadow |
+| Outline | Soft Charcoal | `#2A2A2A` | Text stroke, shadows |
 
 **Rules:**
 - Never more than 3 dominant colors in one frame
-- Yellow text on dark background = highest CTR for thumbnails
+- Default background = deep purple bokeh (brand signature)
+- Yellow text on purple background = highest CTR for thumbnails
 - Coral red ONLY for "wow"/correction moments — keep it rare so it stays loud
 
 ---
@@ -93,10 +99,10 @@ Lock these for visual consistency.
 
 - **Frame rate:** 30 fps (24 fps for cinematic beats)
 - **Aspect:** 1080x1920 (9:16)
-- **Style:** 2D flat with soft shading, slight squash & stretch
+- **Style:** **Pixar-style 3D render** — soft fur, cinematic lighting, shallow depth of field, deep purple bokeh background with sparkles, 4K detail
 - **Cuts:** Fast — average shot length **2–3 seconds** (longer = retention drop)
-- **Transitions:** Whip pans, zooms, simple dissolves. No fancy 3D wipes.
-- **Cat motion:** Always something moving — tail flick, ear twitch, blink. **Never a static cat for >1 sec.**
+- **Transitions:** Whip pans, zooms, simple dissolves. No fancy wipes.
+- **Brain's motion:** Always something moving — tail flick, ear twitch, whisker twitch, blink. **Never static for >1 sec.**
 
 ### Beat-to-shot mapping
 
@@ -150,25 +156,26 @@ Lock these for visual consistency.
 
 ## 8. Locked AI Prompt Block
 
-Paste this **exact string** at the top of every animation prompt. It locks visual consistency across videos.
+Paste this **exact string** at the top of every animation prompt. It locks Brain's look across every video.
 
 ```
-2D animated cat character, BrainCatAI style:
-cream/beige fur (#F5E1B8), warm white belly,
-oversized cyan-blue eyes (#3FD0F2) with glossy highlights,
-small dark grey spot on left ear, expressive cartoon proportions,
-soft flat shading, charcoal outlines, vertical 9:16 composition,
-vibrant playful colors, clean background, no text in image.
+Cute orange tabby kitten named Brain, big round sparkling green eyes,
+small thin round gold-framed glasses, brown leather collar with
+gold heart-shaped tag engraved "Brain", soft fluffy orange fur with
+darker tabby stripes, pink nose, long white whiskers, Pixar 3D render
+style, deep purple bokeh background with sparkles, cinematic lighting,
+4K, vertical 9:16 composition.
 ```
 
-Then append the per-shot description after this block.
+Then append the per-shot description (action, expression, scene context) after this block.
 
 ### Negative prompts (always include)
 
 ```
-realistic cat, photorealistic, multiple cats,
-low quality, blurry, distorted face, extra limbs,
-watermark, text, logo, ugly, scary, aggressive expression
+2D, flat, anime, cel-shaded, photorealistic cat, multiple cats,
+low quality, blurry, distorted face, extra limbs, missing glasses,
+missing collar, missing heart tag, watermark, text in image, logo,
+ugly, scary, aggressive expression
 ```
 
 ---
@@ -222,12 +229,14 @@ watermark, text, logo, ugly, scary, aggressive expression
 
 ## 11. Don'ts (Brand Killers)
 
-- ❌ Photorealistic cat
+- ❌ 2D / flat / anime style — must be Pixar 3D
+- ❌ Brain without **glasses** or **heart-tag collar** (signature elements)
+- ❌ Wrong fur color (must be orange tabby, not grey/black/cream)
 - ❌ Slow openings ("Hello everyone…")
 - ❌ More than 1 idea per video
 - ❌ Politics, controversy, NSFW
 - ❌ AI hallucinated "facts" without source
-- ❌ Mixing this cat with other characters as recurring co-stars (guests OK, but the cat is alone)
+- ❌ Recurring co-stars — Brain is alone (one-off guests OK)
 
 ---
 
