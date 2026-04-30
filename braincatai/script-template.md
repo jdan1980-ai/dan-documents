@@ -1,6 +1,10 @@
 # Script Template — BrainCatAI Short
 
-Copy this file to `scripts/<slug>.md` and fill in the fields. Keep total runtime **30–60 sec**.
+**Pipeline:** 8 scenes → image in Nano Banana → animation in Veo 3 → glue together.
+**Total runtime:** ≤ 60 sec (target ~7 sec per scene).
+
+Copy this file to `scripts/<slug>.md` and fill in the fields.
+Every prompt and voiceover line is in its own code block — click the copy icon and paste straight into the tool.
 
 ---
 
@@ -8,10 +12,9 @@ Copy this file to `scripts/<slug>.md` and fill in the fields. Keep total runtime
 
 - **Title (working):**
 - **Slug:** (e.g. `why-sky-blue`)
-- **Category:** (Science / Biology / Math / Psychology / AI / History / Trivia)
-- **Series:** (Cat Asks Why / What If / TIL / standalone)
-- **Target length:** 45 sec
-- **Status:** idea | script | storyboard | rendered | published
+- **Category:** Science / Biology / Math / Psychology / AI / History / Trivia
+- **Series:** Cat Asks Why / What If / TIL / standalone
+- **Status:** idea | script | images | animation | edited | published
 - **Date created:**
 - **Publish date:**
 
@@ -19,80 +22,272 @@ Copy this file to `scripts/<slug>.md` and fill in the fields. Keep total runtime
 
 One sentence — what does the viewer learn or feel?
 
-> Example: "Viewer will know why the sky is blue and feel smarter for it."
+> 
 
 ---
 
-## Beat Sheet
+## 🔒 Locked Brain Prompt (always prepend)
 
-| # | Time | Voiceover | Cat action / expression | Visual / on-screen text |
-|---|------|-----------|-------------------------|-------------------------|
-| 1 | 0–2s   | **HOOK:** | | |
-| 2 | 2–5s   | **Curiosity gap:** | | |
-| 3 | 5–15s  | **Setup:** | | |
-| 4 | 15–30s | **Explanation:** | | |
-| 5 | 30–45s | **Payoff:** | | |
-| 6 | 45–55s | **CTA:** | | |
-
-## Voiceover (clean read)
-
-Paste here the full VO as one block — what TTS or you will read end-to-end.
+Paste this at the **start of every Nano Banana image prompt** to lock Brain's look:
 
 ```
-[VO TEXT HERE]
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, deep purple bokeh background with sparkles, cinematic lighting, 4K, vertical 9:16 composition.
 ```
 
-Word count target: **80–120 words** for 45 sec.
+**Negative prompts (Nano Banana):**
+
+```
+2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive expression
+```
 
 ---
 
-## Production
+## Full Voiceover (whole video, single block)
 
-### AI animation prompts
+Paste this into your TTS tool (e.g. ElevenLabs) as one read for natural pacing. Word target **80–120 words** ≈ 50 sec at 130 wpm.
 
-Per beat, the prompt for the cat scene (style locked: `2D animated cat, BrainCatAI style, vibrant colors, expressive eyes`).
+```
 
-- Beat 1:
-- Beat 2:
-- Beat 3:
-- Beat 4:
-- Beat 5:
-- Beat 6:
-
-### Voiceover
-
-- **Voice:** (e.g. ElevenLabs "Adam", energetic male)
-- **Pace:** fast (160–180 wpm)
-- **Tone:** curious, slightly playful
-
-### Music / SFX
-
-- **Music:** (track name + mood)
-- **SFX cues:**
-  - 0:00 — whoosh on hook
-  - 0:XX — ding on payoff
-  - 0:XX — meow on CTA
-
-### B-roll / overlays
-
-- On-screen text per beat (bold, max 4 words at a time)
-- Stock footage / diagrams needed:
+```
 
 ---
+
+# Scenes
+
+---
+
+## Scene 1 — HOOK (0–7 sec)
+
+**Beat purpose:** grab attention in the first 2 seconds. Contradiction or shocking statement.
+
+**🎨 Image prompt (Nano Banana):**
+
+```
+[Locked Brain prompt] + scene staging here
+```
+
+**🎬 Animation prompt (Veo 3):**
+
+```
+Camera motion + Brain's action + facial expression + duration ~7s
+```
+
+**🎙️ Voiceover:**
+
+```
+
+```
+
+---
+
+## Scene 2 — Curiosity gap (7–14 sec)
+
+**Beat purpose:** promise the answer, make viewer need to keep watching.
+
+**🎨 Image prompt (Nano Banana):**
+
+```
+
+```
+
+**🎬 Animation prompt (Veo 3):**
+
+```
+
+```
+
+**🎙️ Voiceover:**
+
+```
+
+```
+
+---
+
+## Scene 3 — Setup (14–21 sec)
+
+**Beat purpose:** introduce the concept / context.
+
+**🎨 Image prompt (Nano Banana):**
+
+```
+
+```
+
+**🎬 Animation prompt (Veo 3):**
+
+```
+
+```
+
+**🎙️ Voiceover:**
+
+```
+
+```
+
+---
+
+## Scene 4 — Build-up (21–28 sec)
+
+**Beat purpose:** add the first piece of the explanation.
+
+**🎨 Image prompt (Nano Banana):**
+
+```
+
+```
+
+**🎬 Animation prompt (Veo 3):**
+
+```
+
+```
+
+**🎙️ Voiceover:**
+
+```
+
+```
+
+---
+
+## Scene 5 — Core explanation (28–35 sec)
+
+**Beat purpose:** deliver the key insight visually.
+
+**🎨 Image prompt (Nano Banana):**
+
+```
+
+```
+
+**🎬 Animation prompt (Veo 3):**
+
+```
+
+```
+
+**🎙️ Voiceover:**
+
+```
+
+```
+
+---
+
+## Scene 6 — Twist / aha moment (35–42 sec)
+
+**Beat purpose:** the "wow" payoff. Brain reacts mind-blown.
+
+**🎨 Image prompt (Nano Banana):**
+
+```
+
+```
+
+**🎬 Animation prompt (Veo 3):**
+
+```
+
+```
+
+**🎙️ Voiceover:**
+
+```
+
+```
+
+---
+
+## Scene 7 — Bonus fact / contrast (42–49 sec)
+
+**Beat purpose:** one extra surprising fact that reinforces the topic.
+
+**🎨 Image prompt (Nano Banana):**
+
+```
+
+```
+
+**🎬 Animation prompt (Veo 3):**
+
+```
+
+```
+
+**🎙️ Voiceover:**
+
+```
+
+```
+
+---
+
+## Scene 8 — CTA / outro (49–56 sec)
+
+**Beat purpose:** wink at camera, call to follow. Keep it ≤ 6 sec.
+
+**🎨 Image prompt (Nano Banana):**
+
+```
+
+```
+
+**🎬 Animation prompt (Veo 3):**
+
+```
+
+```
+
+**🎙️ Voiceover:**
+
+```
+
+```
+
+---
+
+## Editing Notes
+
+- Cut between scenes with hard cuts or whip-pans
+- Burn-in subtitles (max 4 words on screen at a time, top third)
+- Voice -12 LUFS, music -18 LUFS
+- Add SFX: whoosh on transitions, ding on aha moment, meow on CTA
 
 ## SEO Pack
 
-- **Final title:** (≤ 60 chars, include curiosity)
-- **Description:** (2–3 sentences + 5 hashtags)
-- **Tags:** comma-separated, 10–15
-- **Hashtags:** `#shorts #braincatai #...` (max 5)
-- **Thumbnail concept:** (cat expression + 1–2 word text)
+**Final title** (≤ 60 chars):
+
+```
+
+```
+
+**Description:**
+
+```
+
+```
+
+**Tags:**
+
+```
+
+```
+
+**Hashtags:**
+
+```
+#shorts #braincatai 
+```
+
+**Thumbnail concept:**
+
+> 
 
 ---
 
 ## Post-publish metrics
-
-Fill in 48h and 7d after publishing.
 
 | Metric | 48h | 7d | 30d |
 |--------|-----|----|----|
@@ -104,4 +299,4 @@ Fill in 48h and 7d after publishing.
 | Comments |   |    |    |
 | Subs gained |       |    |    |
 
-### Notes / what worked / what didn't
+### Notes — what worked / what didn't
