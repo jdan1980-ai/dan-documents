@@ -15,7 +15,7 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 **Negative prompts (Nano Banana):**
 
 ```
-2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, missing glasses, missing collar, missing heart tag, watermark, ugly, scary, aggressive expression, mouth open as if talking, lip-sync, talking cat
+2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, extra paws, five legs, six legs, both front paws raised, two paws raised together, missing glasses, missing collar, missing heart tag, watermark, ugly, scary, aggressive expression, mouth open as if talking, lip-sync, talking cat, duplicate text, repeated text, double labels, two subscribe buttons, two like buttons, "SUBSCRIBE" written twice, multiple labels, repeated words, stuttered text, garbled text, misspelled text
 ```
 
 ---
@@ -24,9 +24,24 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 
 Use this to generate the still that Veo 3 will animate. Background can be neutral warm OR matched to the video's main location (recommended: neutral warm glow so the end card works on every video).
 
+> **Text rendering note:** AI image models often "stutter" on text and draw labels twice. The prompt below uses **icon-only LIKE button** (no text) and **SUBSCRIBE button with the word rendered exactly once on the button surface**. If the model still duplicates text, see the **fallback option below** — generate buttons WITHOUT any text and add labels as Google Vids overlays after.
+
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting centered facing camera, ONLY his right front paw is raised in a friendly mid-wave gesture (the left front paw stays firmly on the ground, both back paws on the ground — total of 4 paws visible, NO extra limbs), big warm smile in the eyes (mouth closed), gold heart-shaped collar tag glinting prominently. Above his head: large bold cartoon text "THANKS FOR WATCHING" in bright Electric Yellow #FFD23F with thick charcoal #2A2A2A stroke, slight playful tilt of 3 degrees. To the bottom-left of Brain: a floating 3D YouTube-style LIKE button (red thumbs-up icon inside a rounded button, soft outward glow). To the bottom-right of Brain: a floating 3D SUBSCRIBE button (red rectangular button with white text "SUBSCRIBE" and a small bell icon, soft outward glow). Soft warm honey-colored ambient background with gentle bokeh, peaceful celebratory mood.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting centered facing camera, ONLY his right front paw is raised in a friendly mid-wave gesture (the left front paw stays firmly on the ground, both back paws on the ground — total of 4 paws visible, NO extra limbs), big warm smile in the eyes (mouth closed), gold heart-shaped collar tag glinting prominently. Above his head: large bold cartoon text "THANKS FOR WATCHING" written EXACTLY ONCE in bright Electric Yellow #FFD23F with thick charcoal #2A2A2A stroke, slight playful tilt of 3 degrees, no duplicate or repeated words. To the bottom-left of Brain: a single floating 3D YouTube-style thumbs-up icon button — JUST the white thumbs-up symbol on a rounded red square, NO text labels next to it or under it, soft outward glow. To the bottom-right of Brain: a single floating 3D red rectangular YouTube subscribe button with the word "SUBSCRIBE" rendered EXACTLY ONCE in clean white text on the button face plus a small bell icon to the right of the word, NO additional "SUBSCRIBE" labels nearby, soft outward glow. Soft warm honey-colored ambient background with gentle bokeh, peaceful celebratory mood.
 ```
+
+### 🛟 Fallback if AI keeps duplicating text
+
+If Nano Banana still draws labels twice no matter what, generate this **text-free version**:
+
+```
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting centered facing camera, ONLY his right front paw is raised in a friendly mid-wave gesture (the left front paw stays firmly on the ground, both back paws on the ground — total of 4 paws visible, NO extra limbs), big warm smile in the eyes (mouth closed), gold heart-shaped collar tag glinting prominently. To the bottom-left of Brain: a single floating 3D rounded red square button with a clean white thumbs-up icon, NO text on or near the button, soft outward glow. To the bottom-right of Brain: a single floating 3D red rectangular button shape with a small bell icon, NO text on the button, soft outward glow. Empty space above Brain's head for text to be added later. Soft warm honey-colored ambient background with gentle bokeh, peaceful celebratory mood.
+```
+
+Then **add in Google Vids as text overlays** (perfect text rendering, full control):
+- "THANKS FOR WATCHING" — Bangers font, Electric Yellow #FFD23F, charcoal stroke, top of frame, bounce-in animation
+- "LIKE" — small white text under the thumbs-up button (or skip — the icon is universally recognized)
+- "SUBSCRIBE" — white text on the red rectangle, or skip if AI already wrote it cleanly
 
 ---
 
