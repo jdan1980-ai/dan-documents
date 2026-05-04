@@ -45,6 +45,7 @@ If editing the script's title, scenes, or VO, **re-verify tags reflect the new t
 - 1–3 locations max per video; identical wording across scenes that share a location.
 - CTA scene must take place in one of the video's existing locations — never a generic confetti/bokeh outro.
 - Brain's mouth stays **closed** throughout — no lip-sync, no talking motion. Reactions go through eyes, ears, whiskers, body. Exceptions: held jaw-drop on shock, single yawn, one soft meow on CTA.
+- Brain has **4 paws** (2 front + 2 back) — only **ONE front paw at a time** is raised (wave/point/gesture). Both front paws raised together causes AI to generate 5+ legs / extra limbs.
 - Each scene's voiceover ≤ 8 sec of speech (Veo 3 max clip length).
 - VO must work for kids AND adults — no jargon, no scary words. See `style-guide.md` §9 swap table.
 

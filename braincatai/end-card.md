@@ -25,7 +25,7 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 Use this to generate the still that Veo 3 will animate. Background can be neutral warm OR matched to the video's main location (recommended: neutral warm glow so the end card works on every video).
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting centered facing camera, both front paws raised in a friendly mid-wave gesture, big warm smile in the eyes (mouth closed), gold heart-shaped collar tag glinting prominently. Above his head: large bold cartoon text "THANKS FOR WATCHING" in bright Electric Yellow #FFD23F with thick charcoal #2A2A2A stroke, slight playful tilt of 3 degrees. To the bottom-left of Brain: a floating 3D YouTube-style LIKE button (red thumbs-up icon inside a rounded button, soft outward glow). To the bottom-right of Brain: a floating 3D SUBSCRIBE button (red rectangular button with white text "SUBSCRIBE" and a small bell icon, soft outward glow). Soft warm honey-colored ambient background with gentle bokeh, peaceful celebratory mood.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting centered facing camera, ONLY his right front paw is raised in a friendly mid-wave gesture (the left front paw stays firmly on the ground, both back paws on the ground — total of 4 paws visible, NO extra limbs), big warm smile in the eyes (mouth closed), gold heart-shaped collar tag glinting prominently. Above his head: large bold cartoon text "THANKS FOR WATCHING" in bright Electric Yellow #FFD23F with thick charcoal #2A2A2A stroke, slight playful tilt of 3 degrees. To the bottom-left of Brain: a floating 3D YouTube-style LIKE button (red thumbs-up icon inside a rounded button, soft outward glow). To the bottom-right of Brain: a floating 3D SUBSCRIBE button (red rectangular button with white text "SUBSCRIBE" and a small bell icon, soft outward glow). Soft warm honey-colored ambient background with gentle bokeh, peaceful celebratory mood.
 ```
 
 ---
@@ -37,13 +37,15 @@ Use this when you want the end card right after Scene 8's wink and need to keep 
 ```
 SHOT: Static medium shot, eye-level, Brain centered.
 
-TIME 0–1s: Brain raises both front paws and gives a warm friendly two-paw wave with a small bounce. Big smile in the eyes.
+TIME 0–1s: Brain raises ONLY his right front paw and gives a warm friendly side-to-side wave (two small waves). His left front paw stays firmly on the ground. Total of 4 paws visible — no extra limbs. Big smile in the eyes.
 
 TIME 1–2s: The "THANKS FOR WATCHING" text bounces in from the top with a soft pop and settles with a gentle wobble. Simultaneously the LIKE button (bottom-left) and SUBSCRIBE button (bottom-right) bounce in from off-screen and pulse once each — LIKE pulses with a tiny "+1" spark, SUBSCRIBE pulses red with a small bell-ring shimmer.
 
-TIME 2–3s: Brain holds the wave pose with a slow warm blink, gold heart tag glints once.
+TIME 2–3s: Brain holds the wave pose (one paw still raised, the other still on the ground) with a slow warm blink, gold heart tag glints once.
 
-MOUTH RULE (strict): Mouth stays completely closed the entire 3 seconds. No lip-sync. No chewing motion. No chattering. No mouth movement of any kind. All emotion comes through eyes, ears, whiskers, and the wave gesture.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. Only ONE front paw is raised at a time. The other front paw and both back paws stay on the ground. NEVER show 5 paws, extra limbs, or both front paws raised together.
+
+MOUTH RULE (strict): Mouth stays completely closed the entire 3 seconds. No lip-sync. No chewing motion. No chattering. No mouth movement of any kind. All emotion comes through eyes, ears, whiskers, and the single-paw wave.
 
 STYLE: Pixar 3D render, cinematic warm lighting, vertical 9:16, soft depth of field.
 ```
@@ -57,13 +59,15 @@ Use this when you want a longer, more polished closing — standalone outro, or 
 ```
 SHOT: Static medium shot, eye-level, Brain centered, frame includes Brain plus space for buttons and text.
 
-TIME 0–1.5s: Brain raises both front paws and gives a warm friendly two-paw wave (small bounce on each side). Big smile in the eyes. Gold heart tag glints softly.
+TIME 0–1.5s: Brain raises ONLY his right front paw and gives a warm friendly side-to-side wave (three small waves). His left front paw stays firmly on the ground. Total of 4 paws visible — no extra limbs. Big smile in the eyes. Gold heart tag glints softly.
 
-TIME 1.5–3s: The "THANKS FOR WATCHING" text bounces in from the top with a soft pop, lands, and settles with a gentle wobble. Brain glances up at the text with a happy nod.
+TIME 1.5–3s: Brain lowers his right paw back to the ground. The "THANKS FOR WATCHING" text bounces in from the top with a soft pop, lands, and settles with a gentle wobble. Brain glances up at the text with a happy nod.
 
 TIME 3–4.5s: The LIKE button (bottom-left) bounces in from off-screen and pulses bright with a small "+1" sparkle. Half a beat later the SUBSCRIBE button (bottom-right) bounces in and pulses red with a tiny bell-ring shimmer.
 
-TIME 4.5–6s: Brain winks slowly at camera, raises one paw to point first at the LIKE button then at the SUBSCRIBE button. Soft warm light pulses around him.
+TIME 4.5–6s: Brain winks slowly at camera. He raises his right front paw ONCE (left paw stays on ground) and points first at the LIKE button, then sweeps the same paw to point at the SUBSCRIBE button. Soft warm light pulses around him.
+
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. At any moment, AT MOST ONE front paw is raised. The other front paw and both back paws always stay on the ground. NEVER show 5 paws, extra limbs, or both front paws raised together.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 6 seconds. No lip-sync. No chewing motion. No chattering. No mouth movement of any kind. All emotion comes through eyes, ears, whiskers, and gestures. ONE optional soft single meow allowed at TIME 5.5s as the wink lands — single mouth motion, then closed again.
 
