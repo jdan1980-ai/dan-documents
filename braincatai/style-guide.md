@@ -272,6 +272,18 @@ Read your script out loud. If it sounds like a Wikipedia entry, rewrite it. It s
 - ❌ "This phenomenon is caused by Rayleigh scattering."
 - ✅ "Tiny bits of air bounce blue light all over the place."
 
+### CTA variants (final voiceover line of every video)
+
+The last line of every Short is a "follow Brain" sign-off, varied to match the topic. Pick one per video:
+
+- `Follow Brain... for more cat secrets.` — cat psychology videos
+- `Follow Brain... for more brain hacks.` — brain/psychology videos
+- `Follow Brain... for more facts that break your brain.` — general "wow" facts
+- `Follow Brain for more facts that tune up your brain.` — brain/health/wellness videos
+- `Follow Brain... for more "wait, what?!" moments.` — surprise / mind-blow facts
+
+Always lead with the topic-specific emotional close BEFORE the follow line (see existing scripts for examples).
+
 ---
 
 ## 10. Title & Thumbnail Patterns
