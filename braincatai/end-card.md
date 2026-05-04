@@ -20,31 +20,23 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 
 ---
 
-## 🎨 Image prompt (Nano Banana) — **DEFAULT: text-free, icons only**
+## 🎨 Image prompt (Nano Banana)
 
-Mentioning the words "LIKE" or "SUBSCRIBE" in an AI image prompt makes the model render them in **two places** — once on the button face and once as a label nearby. The cleanest fix: **don't put any text in the AI image at all**. Just generate Brain + two button-shaped objects with icons. Then add all text (THANKS FOR WATCHING / LIKE / SUBSCRIBE) as **overlays in Google Vids** where you have full font and animation control.
-
-```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting centered facing camera, ONLY his right front paw is raised in a friendly mid-wave gesture (the left front paw stays firmly on the ground, both back paws on the ground — total of 4 paws visible, NO extra limbs), big warm smile in the eyes (mouth closed), gold heart-shaped collar tag glinting prominently. To the bottom-left of Brain: a single floating 3D rounded red square button with a clean white thumbs-up icon centered on it, NO text or letters anywhere on or near the button, soft outward glow. To the bottom-right of Brain: a single floating 3D red rectangular button shape with a single white bell icon centered on it, NO text or letters anywhere on or near the button, soft outward glow. Empty negative space above Brain's head and around both buttons reserved for text overlays to be added later — keep that space clean and uncluttered. NO text, NO words, NO letters, NO labels anywhere in the image. Soft warm honey-colored ambient background with gentle bokeh, peaceful celebratory mood.
-```
-
-### Then add text overlays in Google Vids (after rendering)
-
-| Overlay | Position | Style |
-|---------|----------|-------|
-| **THANKS FOR WATCHING** | Top of frame | Bangers font, Electric Yellow `#FFD23F`, charcoal `#2A2A2A` stroke, bounce-in animation |
-| **LIKE** | Small text under thumbs-up button (optional — icon is recognizable) | White, Inter Bold, simple fade-in |
-| **SUBSCRIBE** | White text on the red rectangle (centered over the bell icon shifts left) | White, Bangers, simple fade-in or pulse |
-
-Generate Brain + buttons **once**, save as `assets/end-card-base.png`, then reuse for every video — text overlays are added per-video at edit time.
-
-### 🛟 Alternative: with text rendered by AI (less reliable)
-
-If you really want the AI to render the text directly (skipping Google Vids overlay step), use this prompt — but be ready to regenerate 2–3 times until the text comes out clean:
+Final version: **only one text in the image — "THANKS FOR WATCHING"** at the top. Both buttons are **icon-only** (thumbs-up icon for like, bell icon for subscribe) with **no LIKE / SUBSCRIBE words**. The icons are universally recognized — no labels needed.
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting centered facing camera, ONLY his right front paw is raised in a friendly mid-wave gesture (the left front paw stays firmly on the ground, both back paws on the ground — total of 4 paws visible, NO extra limbs), big warm smile in the eyes (mouth closed), gold heart-shaped collar tag glinting prominently. Above his head: large bold cartoon text reading "THANKS FOR WATCHING" rendered EXACTLY ONCE in bright Electric Yellow #FFD23F with thick charcoal #2A2A2A stroke, slight playful tilt of 3 degrees. To the bottom-left of Brain: ONE single floating 3D rounded red square button with a clean white thumbs-up icon — NO words, NO letters, NO text labels of any kind on or near this button. To the bottom-right of Brain: ONE single floating 3D red rectangular YouTube subscribe button with the single word "SUBSCRIBE" rendered EXACTLY ONCE in clean white text directly on the button face — and a small bell icon also on the button — NO duplicate "SUBSCRIBE" text anywhere else, NO additional labels around the button. Total of THREE pieces of text in the entire image: "THANKS FOR WATCHING" (top), "Brain" engraved on collar tag, and "SUBSCRIBE" (on right button) — no other text exists anywhere. Soft warm honey-colored ambient background with gentle bokeh, peaceful celebratory mood.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting centered facing camera, ONLY his right front paw is raised in a friendly mid-wave gesture (the left front paw stays firmly on the ground, both back paws on the ground — total of 4 paws visible, NO extra limbs), big warm smile in the eyes (mouth closed), gold heart-shaped collar tag glinting prominently. Above his head: large bold cartoon text reading "THANKS FOR WATCHING" rendered EXACTLY ONCE in bright Electric Yellow #FFD23F with thick charcoal #2A2A2A stroke, slight playful tilt of 3 degrees, no duplicate or repeated words. To the bottom-left of Brain: ONE single floating 3D rounded red square button with a clean white thumbs-up icon centered on it — NO words, NO letters, NO text labels of any kind on or near this button, just the icon, soft outward glow. To the bottom-right of Brain: ONE single floating 3D red rectangular button with a clean white bell icon centered on it — NO words, NO letters, NO text labels of any kind on or near this button, just the icon, soft outward glow. The ONLY text anywhere in the entire image is "THANKS FOR WATCHING" at the top and "Brain" engraved on the collar tag — there must be NO other text, NO LIKE label, NO SUBSCRIBE label, NO additional words anywhere else. Soft warm honey-colored ambient background with gentle bokeh, peaceful celebratory mood.
 ```
+
+### 🛟 Fallback: text-free image + Google Vids overlay
+
+If Nano Banana still messes up "THANKS FOR WATCHING" (duplicates, garbles, misspells), generate the image **completely text-free** and add the title in Google Vids as a text overlay:
+
+```
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting centered facing camera, ONLY his right front paw is raised in a friendly mid-wave gesture (the left front paw stays firmly on the ground, both back paws on the ground — total of 4 paws visible, NO extra limbs), big warm smile in the eyes (mouth closed), gold heart-shaped collar tag glinting prominently. To the bottom-left of Brain: ONE single floating 3D rounded red square button with a clean white thumbs-up icon centered on it, NO text on or near the button, just the icon, soft outward glow. To the bottom-right of Brain: ONE single floating 3D red rectangular button with a clean white bell icon centered on it, NO text on or near the button, just the icon, soft outward glow. Empty negative space above Brain's head reserved for a title to be added later — keep that space clean and uncluttered. NO text, NO words, NO letters, NO labels anywhere in the image (the only allowed text is "Brain" engraved on the collar tag). Soft warm honey-colored ambient background with gentle bokeh, peaceful celebratory mood.
+```
+
+Then in Google Vids: add **"THANKS FOR WATCHING"** overlay at the top — Bangers font, Electric Yellow `#FFD23F`, thick charcoal `#2A2A2A` stroke, bounce-in animation.
 
 ---
 
@@ -57,11 +49,13 @@ SHOT: Static medium shot, eye-level, Brain centered.
 
 TIME 0–1s: Brain raises ONLY his right front paw and gives a warm friendly side-to-side wave (two small waves). His left front paw stays firmly on the ground. Total of 4 paws visible — no extra limbs. Big smile in the eyes.
 
-TIME 1–2s: The "THANKS FOR WATCHING" text bounces in from the top with a soft pop and settles with a gentle wobble. Simultaneously the LIKE button (bottom-left) and SUBSCRIBE button (bottom-right) bounce in from off-screen and pulse once each — LIKE pulses with a tiny "+1" spark, SUBSCRIBE pulses red with a small bell-ring shimmer.
+TIME 1–2s: The "THANKS FOR WATCHING" text bounces in from the top with a soft pop and settles with a gentle wobble. Simultaneously the red thumbs-up icon button (bottom-left) and the red bell icon button (bottom-right) bounce in from off-screen and pulse once each — thumbs-up button pulses with a tiny "+1" sparkle, bell button pulses red with a small bell-ring shimmer.
 
 TIME 2–3s: Brain holds the wave pose (one paw still raised, the other still on the ground) with a slow warm blink, gold heart tag glints once.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. Only ONE front paw is raised at a time. The other front paw and both back paws stay on the ground. NEVER show 5 paws, extra limbs, or both front paws raised together.
+
+TEXT RULE (strict): The ONLY text in this scene is "THANKS FOR WATCHING" rendered exactly once at the top. The two buttons stay icon-only — NO "LIKE" word, NO "SUBSCRIBE" word, NO additional labels appear at any time during the 3 seconds.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 3 seconds. No lip-sync. No chewing motion. No chattering. No mouth movement of any kind. All emotion comes through eyes, ears, whiskers, and the single-paw wave.
 
@@ -81,11 +75,13 @@ TIME 0–1.5s: Brain raises ONLY his right front paw and gives a warm friendly s
 
 TIME 1.5–3s: Brain lowers his right paw back to the ground. The "THANKS FOR WATCHING" text bounces in from the top with a soft pop, lands, and settles with a gentle wobble. Brain glances up at the text with a happy nod.
 
-TIME 3–4.5s: The LIKE button (bottom-left) bounces in from off-screen and pulses bright with a small "+1" sparkle. Half a beat later the SUBSCRIBE button (bottom-right) bounces in and pulses red with a tiny bell-ring shimmer.
+TIME 3–4.5s: The red thumbs-up icon button (bottom-left) bounces in from off-screen and pulses bright with a small "+1" sparkle. Half a beat later the red bell icon button (bottom-right) bounces in and pulses with a tiny bell-ring shimmer.
 
-TIME 4.5–6s: Brain winks slowly at camera. He raises his right front paw ONCE (left paw stays on ground) and points first at the LIKE button, then sweeps the same paw to point at the SUBSCRIBE button. Soft warm light pulses around him.
+TIME 4.5–6s: Brain winks slowly at camera. He raises his right front paw ONCE (left paw stays on ground) and points first at the thumbs-up icon button, then sweeps the same paw to point at the bell icon button. Soft warm light pulses around him.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. At any moment, AT MOST ONE front paw is raised. The other front paw and both back paws always stay on the ground. NEVER show 5 paws, extra limbs, or both front paws raised together.
+
+TEXT RULE (strict): The ONLY text in this scene is "THANKS FOR WATCHING" rendered exactly once at the top. Both buttons stay icon-only — NO "LIKE" word, NO "SUBSCRIBE" word, NO additional labels appear at any time during the 6 seconds.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 6 seconds. No lip-sync. No chewing motion. No chattering. No mouth movement of any kind. All emotion comes through eyes, ears, whiskers, and gestures. ONE optional soft single meow allowed at TIME 5.5s as the wink lands — single mouth motion, then closed again.
 
