@@ -282,6 +282,8 @@ Camera motion + Brain's action + facial expression + duration ~7s
 
 **Beat purpose:** wink at camera, call to follow. Keep it ≤ 6 sec.
 
+> **End card:** after Scene 8, append the reusable Brain end card (Thanks For Watching + Like + Subscribe). See [end-card.md](./end-card.md) for the prompts. Use **Short variant (3 sec)** by default to keep total runtime under 60 sec.
+
 **🎨 Image prompt (Nano Banana):**
 
 ```
