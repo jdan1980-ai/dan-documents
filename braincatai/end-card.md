@@ -20,28 +20,31 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 
 ---
 
-## 🎨 Image prompt (Nano Banana)
+## 🎨 Image prompt (Nano Banana) — **DEFAULT: text-free, icons only**
 
-Use this to generate the still that Veo 3 will animate. Background can be neutral warm OR matched to the video's main location (recommended: neutral warm glow so the end card works on every video).
-
-> **Text rendering note:** AI image models often "stutter" on text and draw labels twice. The prompt below uses **icon-only LIKE button** (no text) and **SUBSCRIBE button with the word rendered exactly once on the button surface**. If the model still duplicates text, see the **fallback option below** — generate buttons WITHOUT any text and add labels as Google Vids overlays after.
+Mentioning the words "LIKE" or "SUBSCRIBE" in an AI image prompt makes the model render them in **two places** — once on the button face and once as a label nearby. The cleanest fix: **don't put any text in the AI image at all**. Just generate Brain + two button-shaped objects with icons. Then add all text (THANKS FOR WATCHING / LIKE / SUBSCRIBE) as **overlays in Google Vids** where you have full font and animation control.
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting centered facing camera, ONLY his right front paw is raised in a friendly mid-wave gesture (the left front paw stays firmly on the ground, both back paws on the ground — total of 4 paws visible, NO extra limbs), big warm smile in the eyes (mouth closed), gold heart-shaped collar tag glinting prominently. Above his head: large bold cartoon text "THANKS FOR WATCHING" written EXACTLY ONCE in bright Electric Yellow #FFD23F with thick charcoal #2A2A2A stroke, slight playful tilt of 3 degrees, no duplicate or repeated words. To the bottom-left of Brain: a single floating 3D YouTube-style thumbs-up icon button — JUST the white thumbs-up symbol on a rounded red square, NO text labels next to it or under it, soft outward glow. To the bottom-right of Brain: a single floating 3D red rectangular YouTube subscribe button with the word "SUBSCRIBE" rendered EXACTLY ONCE in clean white text on the button face plus a small bell icon to the right of the word, NO additional "SUBSCRIBE" labels nearby, soft outward glow. Soft warm honey-colored ambient background with gentle bokeh, peaceful celebratory mood.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting centered facing camera, ONLY his right front paw is raised in a friendly mid-wave gesture (the left front paw stays firmly on the ground, both back paws on the ground — total of 4 paws visible, NO extra limbs), big warm smile in the eyes (mouth closed), gold heart-shaped collar tag glinting prominently. To the bottom-left of Brain: a single floating 3D rounded red square button with a clean white thumbs-up icon centered on it, NO text or letters anywhere on or near the button, soft outward glow. To the bottom-right of Brain: a single floating 3D red rectangular button shape with a single white bell icon centered on it, NO text or letters anywhere on or near the button, soft outward glow. Empty negative space above Brain's head and around both buttons reserved for text overlays to be added later — keep that space clean and uncluttered. NO text, NO words, NO letters, NO labels anywhere in the image. Soft warm honey-colored ambient background with gentle bokeh, peaceful celebratory mood.
 ```
 
-### 🛟 Fallback if AI keeps duplicating text
+### Then add text overlays in Google Vids (after rendering)
 
-If Nano Banana still draws labels twice no matter what, generate this **text-free version**:
+| Overlay | Position | Style |
+|---------|----------|-------|
+| **THANKS FOR WATCHING** | Top of frame | Bangers font, Electric Yellow `#FFD23F`, charcoal `#2A2A2A` stroke, bounce-in animation |
+| **LIKE** | Small text under thumbs-up button (optional — icon is recognizable) | White, Inter Bold, simple fade-in |
+| **SUBSCRIBE** | White text on the red rectangle (centered over the bell icon shifts left) | White, Bangers, simple fade-in or pulse |
+
+Generate Brain + buttons **once**, save as `assets/end-card-base.png`, then reuse for every video — text overlays are added per-video at edit time.
+
+### 🛟 Alternative: with text rendered by AI (less reliable)
+
+If you really want the AI to render the text directly (skipping Google Vids overlay step), use this prompt — but be ready to regenerate 2–3 times until the text comes out clean:
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting centered facing camera, ONLY his right front paw is raised in a friendly mid-wave gesture (the left front paw stays firmly on the ground, both back paws on the ground — total of 4 paws visible, NO extra limbs), big warm smile in the eyes (mouth closed), gold heart-shaped collar tag glinting prominently. To the bottom-left of Brain: a single floating 3D rounded red square button with a clean white thumbs-up icon, NO text on or near the button, soft outward glow. To the bottom-right of Brain: a single floating 3D red rectangular button shape with a small bell icon, NO text on the button, soft outward glow. Empty space above Brain's head for text to be added later. Soft warm honey-colored ambient background with gentle bokeh, peaceful celebratory mood.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. Brain sitting centered facing camera, ONLY his right front paw is raised in a friendly mid-wave gesture (the left front paw stays firmly on the ground, both back paws on the ground — total of 4 paws visible, NO extra limbs), big warm smile in the eyes (mouth closed), gold heart-shaped collar tag glinting prominently. Above his head: large bold cartoon text reading "THANKS FOR WATCHING" rendered EXACTLY ONCE in bright Electric Yellow #FFD23F with thick charcoal #2A2A2A stroke, slight playful tilt of 3 degrees. To the bottom-left of Brain: ONE single floating 3D rounded red square button with a clean white thumbs-up icon — NO words, NO letters, NO text labels of any kind on or near this button. To the bottom-right of Brain: ONE single floating 3D red rectangular YouTube subscribe button with the single word "SUBSCRIBE" rendered EXACTLY ONCE in clean white text directly on the button face — and a small bell icon also on the button — NO duplicate "SUBSCRIBE" text anywhere else, NO additional labels around the button. Total of THREE pieces of text in the entire image: "THANKS FOR WATCHING" (top), "Brain" engraved on collar tag, and "SUBSCRIBE" (on right button) — no other text exists anywhere. Soft warm honey-colored ambient background with gentle bokeh, peaceful celebratory mood.
 ```
-
-Then **add in Google Vids as text overlays** (perfect text rendering, full control):
-- "THANKS FOR WATCHING" — Bangers font, Electric Yellow #FFD23F, charcoal stroke, top of frame, bounce-in animation
-- "LIKE" — small white text under the thumbs-up button (or skip — the icon is universally recognized)
-- "SUBSCRIBE" — white text on the red rectangle, or skip if AI already wrote it cleanly
 
 ---
 
