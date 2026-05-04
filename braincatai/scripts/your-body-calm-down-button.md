@@ -97,7 +97,19 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 **🎬 Animation prompt (Veo 3):**
 
 ```
-Brain looks straight at camera with an intense knowing look, paw raises and points firmly at his own chest, a soft glowing pulse appears at his chest like a hidden button, single slow blink. Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body. Duration 8 seconds.
+SHOT: Static medium close-up, eye-level camera, Brain centered in frame.
+
+TIME 0–2s: Brain sits still, looks directly into the camera lens with a calm, focused gaze. Ears slightly forward, one subtle whisker twitch.
+
+TIME 2–5s: Brain slowly raises his right front paw and gently places it flat on the center of his own chest, briefly glances down at his paw, then returns his eyes to the camera.
+
+TIME 5–7s: A soft warm cyan light gently pulses outward from under his paw three times, like a slow heartbeat — small radius, soft glow, not flashy.
+
+TIME 7–8s: Brain holds eye contact with camera and gives a single slow, soft blink.
+
+MOUTH RULE (strict): Mouth stays completely closed the entire 8 seconds. No lip-sync. No chewing motion. No chattering. No mouth movement of any kind. All emotion comes through eyes, ears, and whiskers.
+
+STYLE: Pixar 3D render, cinematic warm lighting, vertical 9:16, soft depth of field.
 ```
 
 **🎙️ Voiceover:**

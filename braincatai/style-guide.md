@@ -178,16 +178,36 @@ lip-sync, talking cat, mouth movement, chattering
 
 ### Animation prompt rule (Veo 3)
 
-Every animation prompt must end with this line:
+Veo 3 generates the cleanest motion when prompts are **structured by time** rather than written as a flowing paragraph. Use this template:
 
 ```
-Mouth stays closed throughout, no lip-sync, no talking motion. Expressions are conveyed through eyes, ears, whiskers, and body language.
+SHOT: [camera framing + movement] (e.g. "Static medium close-up, eye-level")
+
+TIME 0–Xs: [Brain's pose / micro-movement]
+TIME X–Ys: [main action]
+TIME Y–Zs: [reaction / effect]
+TIME Z–end: [closing beat]
+
+MOUTH RULE (strict): Mouth stays completely closed the entire [N] seconds. No lip-sync. No chewing motion. No chattering. No mouth movement of any kind. All emotion comes through eyes, ears, and whiskers.
+
+STYLE: Pixar 3D render, cinematic warm lighting, vertical 9:16, soft depth of field.
 ```
 
-Exceptions (state explicitly per shot when used):
+Exceptions to MOUTH RULE (state explicitly per shot when used, or Veo will default to closed):
 - Brief held jaw-drop for shock (single beat, not repeated)
 - Single yawn for sleepy/bored beat
 - One soft meow at CTA (single mouth motion, then closed)
+
+### Veo 3 prompt principles (apply to every scene)
+
+1. **Timeline > flowing description.** Break the action into 2–4 timed beats. Veo struggles to sequence "look, then raise paw, then glow" in one sentence — it tries to do all three at once.
+2. **Concrete physical details, not abstractions.** "Ears slightly forward, single whisker twitch" works. "Knowing look" doesn't.
+3. **Camera always stated.** "Static medium close-up" / "Slow push-in" / "Slight dolly right". Veo defaults to weird camera moves if you don't lock it.
+4. **One main action arc per shot.** A 7-second clip should have one big motion — not three. Stack 2–3 micro-beats around it (settling pose, the action, the closing blink).
+5. **Hard mouth rule in its own block.** Never bury "mouth closed" inside a sentence with other actions — it gets ignored. Put it in a dedicated MOUTH RULE block with multiple repeated negations.
+6. **Avoid metaphors in motion descriptions.** "Hidden button" → "soft glow under his paw, three pulses, small radius". "Like accepting a medal" → "raises paw, places flat on chest, holds for 1 second".
+7. **Specify glow/light effects with numbers.** "Three pulses, small radius" not "a glowing pulse". "Cyan tint" not "soft color".
+8. **End each clip with a held beat or blink.** Veo handles transitions between shots better when the end is calm rather than mid-motion.
 
 ---
 
