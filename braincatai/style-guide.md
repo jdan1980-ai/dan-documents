@@ -158,14 +158,18 @@ Lock these for **Brain's character only**. Backgrounds and environments are NOT 
 Paste this **exact string** at the top of every image prompt. It locks **only Brain's look** — the world/background is chosen per video.
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes,
-small thin round gold-framed glasses, brown leather collar with
-gold heart-shaped tag engraved "Brain", soft fluffy orange fur with
+Cute orange tabby kitten named Brain, big round sparkling VIVID
+EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT
+brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin
+round gold-framed glasses, brown leather collar with gold
+heart-shaped tag engraved "Brain", soft fluffy orange fur with
 darker tabby stripes, pink nose, long white whiskers, Pixar 3D render
 style, cinematic lighting, 4K, vertical 9:16 composition.
 ```
 
 Then append: **the locked scene/world block for this video** (see §8b) **+ the per-shot action and expression**.
+
+> ⚠️ **Eye color trap:** Warm/golden lighting often causes Nano Banana and Veo 3 to render Brain's eyes as brown/amber/hazel even though "green" is in the prompt. Always specify EMERALD GREEN with hex `#3DDC84`, repeat the green-eye reminder in the per-shot description, and include all wrong colors in negatives. For Veo 3, add an explicit `EYE COLOR RULE (strict)` block alongside ANATOMY and MOUTH rules.
 
 ### Negative prompts (always include)
 
@@ -176,7 +180,10 @@ five legs, six legs, both front paws raised, two paws raised together,
 missing glasses, missing collar, missing heart tag, watermark,
 text in image, logo, ugly, scary, aggressive expression,
 mouth open as if talking, lip-sync, talking cat,
-mouth movement, chattering
+mouth movement, chattering,
+brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes,
+dark eyes, brown iris, amber iris, wrong eye color,
+eye color tinted by lighting, warm-tinted eyes
 ```
 
 ### Animation prompt rule (Veo 3)
@@ -190,6 +197,8 @@ TIME 0–Xs: [Brain's pose / micro-movement]
 TIME X–Ys: [main action]
 TIME Y–Zs: [reaction / effect]
 TIME Z–end: [closing beat]
+
+EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout the entire [N] seconds. NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden. Warm/golden lighting must NOT tint the iris brown or amber. The iris stays vivid emerald green even in shadow, even when half-closed during a slow blink.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. AT MOST ONE front paw is raised at any moment. The other front paw and both back paws stay on the ground. NEVER show 5 paws, extra limbs, or both front paws raised together.
 
@@ -338,6 +347,7 @@ Always lead with the topic-specific emotional close BEFORE the follow line (see 
 - ❌ 2D / flat / anime style — must be Pixar 3D
 - ❌ Brain without **glasses** or **heart-tag collar** (signature elements)
 - ❌ Wrong fur color (must be orange tabby, not grey/black/cream)
+- ❌ **Wrong eye color** — Brain's eyes must be BRIGHT EMERALD GREEN (`#3DDC84`), never brown, amber, yellow, hazel, or golden. Warm lighting must not tint the iris. Always include the eye-color spec + hex in image prompts and an `EYE COLOR RULE (strict)` block in Veo 3 prompts.
 - ❌ **Brain opening his mouth as if talking / lip-syncing the voiceover** — Brain never speaks the lines. Mouth stays closed; reactions through eyes and body only.
 - ❌ **Brain raising both front paws simultaneously** — causes 5+ legs / extra limb artifacts. Only ONE front paw at a time, others stay on the ground.
 - ❌ **Locking a single brand background across all videos** (e.g., always purple bokeh) — backgrounds are per-video, not channel-wide

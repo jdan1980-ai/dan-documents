@@ -19,13 +19,13 @@ The viewer learns what a cat's slow blink actually means AND gets a trick to try
 ## 🔒 Locked Brain Prompt (always prepend)
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition.
 ```
 
 **Negative prompts (Nano Banana):**
 
 ```
-2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, extra paws, five legs, six legs, both front paws raised, two paws raised together, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive expression, mouth open as if talking, lip-sync, talking cat, mouth movement, chattering
+2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, extra paws, five legs, six legs, both front paws raised, two paws raised together, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive expression, mouth open as if talking, lip-sync, talking cat, mouth movement, chattering, brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes, dark eyes, brown iris, amber iris, wrong eye color, eye color tinted by lighting, warm-tinted eyes
 ```
 
 ---
@@ -99,19 +99,21 @@ If they blink back — congratulations. Your cat loves you. Follow Brain for mor
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain sitting centered on the warm wooden floor, facing camera directly, eyes in a soft half-lidded slow-blink pose — eyes 60% closed, relaxed and warm, slight head tilt to the right, both ears gently forward, all 4 paws resting on the floor, tail curled neatly beside him. Calm, loving expression.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain sitting centered on the warm wooden floor, facing camera directly, eyes in a soft half-lidded slow-blink pose — eyes 60% closed but the visible portion of the iris is BRIGHT EMERALD GREEN, relaxed and warm expression, slight head tilt to the right, both ears gently forward, all 4 paws resting on the floor, tail curled neatly beside him. Calm, loving expression. The eye color must remain bright emerald green even with the warm lighting — do not let the warm tones tint the eyes brown or amber.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Static medium close-up, eye-level, Brain centered in frame.
+SHOT: Static medium close-up, eye-level, Brain centered in frame. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber, not yellow.
 
-TIME 0–2s: Brain sits facing camera, both eyes fully open, warm curious expression, tail gives one slow relaxed flick behind him. Ears perked forward.
+TIME 0–2s: Brain sits facing camera, both eyes fully open showing vivid emerald green irises, warm curious expression, tail gives one slow relaxed flick behind him. Ears perked forward.
 
-TIME 2–5.5s: Brain performs a slow deliberate blink — eyes close very slowly over 1.5 seconds, hold fully closed for 0.5 seconds, then open slowly over 1 second. Ears stay relaxed and slightly outward during the blink.
+TIME 2–5.5s: Brain performs a slow deliberate blink — eyes close very slowly over 1.5 seconds (the visible green iris remains vivid emerald green during the close), hold fully closed for 0.5 seconds, then open slowly over 1 second revealing the bright green eyes again. Ears stay relaxed and slightly outward during the blink.
 
-TIME 5.5–7s: Brain holds the warm post-blink half-lidded gaze directly at camera, one ear gives a small forward twitch, tail tip curls slightly.
+TIME 5.5–7s: Brain holds the warm post-blink half-lidded gaze directly at camera, the green eyes still visibly emerald green even half-closed, one ear gives a small forward twitch, tail tip curls slightly.
+
+EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout the entire 7 seconds. The warm golden lighting must NOT tint the eyes brown, amber, yellow, or hazel. The iris stays vivid green even in shadow and even when half-closed.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. All 4 paws stay on the ground throughout. No front paw is raised at any point. NEVER show 5 paws, extra limbs, or any paw leaving the ground.
 

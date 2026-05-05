@@ -35,24 +35,30 @@ Every line must be understandable for **a 9-year-old AND a 40-year-old**. Write 
 Paste this at the **start of every Nano Banana image prompt** to lock Brain's look. Only Brain is locked — the background is chosen per-video below.
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition.
 ```
+
+> ⚠️ **Eye color trap:** Warm lighting often pushes the AI to render brown/amber eyes even though "green" is in the prompt. Always include the hex `#3DDC84`, repeat the emerald-green note in per-shot descriptions, and add the `EYE COLOR RULE (strict)` block in Veo 3 prompts.
 
 **Negative prompts (Nano Banana):**
 
 ```
-2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive expression, mouth open as if talking, lip-sync, talking cat
+2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, extra paws, five legs, six legs, both front paws raised, two paws raised together, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive expression, mouth open as if talking, lip-sync, talking cat, mouth movement, chattering, brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes, dark eyes, brown iris, amber iris, wrong eye color, eye color tinted by lighting, warm-tinted eyes
 ```
 
-## ⚠️ Veo 3 animation rule — mouth stays closed
+## ⚠️ Veo 3 animation rules — eye color, mouth, anatomy
 
-Every `🎬 Animation prompt` block in this script must end with:
+Every `🎬 Animation prompt` block must include three strict rule blocks before STYLE:
 
 ```
-Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body.
+EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber, NOT yellow, NOT hazel. Warm lighting must NOT tint the iris. Stays vivid green even half-closed.
+
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. AT MOST ONE front paw raised at any moment. NEVER show 5 paws or extra limbs.
+
+MOUTH RULE (strict): Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body.
 ```
 
-Exceptions (state explicitly when used): brief held jaw-drop for shock, single yawn, one soft meow on CTA.
+Exceptions to MOUTH RULE (state explicitly when used): brief held jaw-drop for shock, single yawn, one soft meow on CTA.
 
 ---
 
