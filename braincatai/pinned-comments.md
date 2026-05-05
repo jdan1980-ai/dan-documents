@@ -1,0 +1,142 @@
+# Pinned Comments — All BrainCatAI Videos
+
+Закрепы для каждого Shorts. Цель — поднять engagement (комменты = алгоритмический буст). Каждый закреп заканчивается вопросом или интерактивом, который лёгко ответить с телефона.
+
+**Как использовать:**
+1. Открыть видео на YouTube → написать комментарий от имени канала
+2. Нажать ⋮ на своём комментарии → **Pin**
+3. Отвечать на ответы первые 24 часа — это удвоит engagement
+
+---
+
+## Опубликованные
+
+### 1. Your Cat's Purr Can Heal Your Bones (22 апр)
+
+```
+Has your cat ever purred on you when you felt sick or sad? 🐱 Drop a 💚 if you've felt it work.
+```
+
+### 2. The Secret Behind Your Cat's Mysterious Stare (23 апр)
+
+```
+Does your cat stare at you for no reason? 👀 What's the longest stare-off you've had with them?
+```
+
+### 3. How Cats ALWAYS Land on Their Feet (24 апр)
+
+```
+Has your cat ever survived a fall that should've hurt them? 😱 Tell me the story below 👇
+```
+
+### 4. Why Cats "Make Biscuits" on You (25 апр)
+
+```
+Does your cat make biscuits on YOU 🐾 or only on blankets? What's their favorite kneading spot?
+```
+
+### 5. Your Cat Doesn't Know Your Face (26 апр)
+
+```
+So how does YOUR cat actually recognize you? 🐱 By voice? Smell? Footsteps? Comment below 👇
+```
+
+### 6. Why Cats Sleep 16 Hours a Day (27 апр)
+
+```
+What's your cat's weirdest sleeping spot? 😴 Mine sleeps in places that defy physics. Show me yours 👇
+```
+
+### 7. Why Cats Are AFRAID of Cucumbers (28 апр)
+
+```
+🚨 Please don't actually try this — it really scares them. But what's the WEIRDEST thing your cat is afraid of? 😹
+```
+
+### 8. Why Your Cat Chooses a Box Over a $100 Bed (29 апр)
+
+```
+Did you also waste money on a fancy cat bed they ignored? 📦 What's the cheapest thing your cat loves more than toys?
+```
+
+### 9. Does Cats Have 9 Lives? (30 апр)
+
+```
+How many lives do cats have where you live? 🌍 In Spain it's 7, Turkey 6, USA 9 — drop your country below 👇
+```
+
+### 10. How Cats SCAMMED Humans for 10,000 Years (1 мая)
+
+```
+Be honest — is your cat the boss of your house? 😼 Drop a 👑 if yes, 🐾 if you're still pretending you're in charge.
+```
+
+### 11. Did you know why Is the Sky Blue? (2 мая)
+
+```
+What's another "fact" you grew up believing that turned out to be wrong? 🤯 Best one gets a heart from me 💚
+```
+
+### 12. Why Your Cat Brings You Dead Things (3 мая)
+
+```
+Has your cat ever brought you a "gift"? 🐭 What was it? (No judgment — we've all been there 😅)
+```
+
+### 13. Why Does Your Cat Push Things Off Tables? (4 мая)
+
+```
+What's the most expensive thing your cat has ever knocked off a table? 💔 Confess below 👇
+```
+
+### 14. Why Your Cat Chirps At Birds (5 мая)
+
+```
+Does YOUR cat chirp or chatter at birds? 🐦 Try recording it next time — it's the funniest sound on Earth!
+```
+
+---
+
+## Запланированные
+
+### 15. Why You Forget Why You Walked Into a Room (6 мая) — Brain Hacks
+
+```
+How many times did this happen to you TODAY? 🚪 Drop your number — bet you can't beat 5 😂
+```
+
+### 16. The "Stop Stress" Button Inside Your Body (7 мая) — Brain Hacks
+
+```
+Did you just try the slow exhale? 🌬️ Drop a 🟢 if you feel calmer, 🔴 if not. I read every comment.
+```
+
+### 17. Your Cat's COLOR Tells You Its Gender (8 мая) — Cat Psychology
+
+```
+What color is YOUR cat — and is it a boy or a girl? 🐱 Did the science match? Comment below 👇
+```
+
+### 18. Why Cats Slow Blink — "I Love You" (9 мая) — Cat Psychology
+
+```
+Did you try the slow blink with your cat? 👁️💚 Did they blink back? Tell me — I'll heart every reply!
+```
+
+---
+
+## Принципы, по которым написаны закрепы
+
+1. **Один вопрос на комментарий** — запутанные опросы убивают ответы
+2. **Эмоджи как кнопка** — если можно ответить просто 💚 / 🟢 / 👑 — порог входа минимальный
+3. **"Your cat" / "your" в каждом** — личный крючок, не общий
+4. **Без общих "tell us your thoughts"** — конкретный вопрос с конкретной зацепкой
+5. **Confess / Be honest / No judgment** — снимает барьер делиться неловким
+6. **Туториальные видео (Vagus Nerve, Slow Blink)** — закреп подтверждает что они только что попробовали → отвечать естественно
+7. **Country/local angle** (9 Lives) — мировая аудитория Shorts любит узнавать "у вас тоже?"
+
+## Когда писать закреп
+
+- **Сразу при публикации** — пока видео свежее, первые комменты определяют тон ветки
+- **Закрепить 1 закреп на видео** — больше нельзя
+- **Отвечать на первые 10–20 ответов** — удваивает engagement, YouTube видит «активная ветка»
