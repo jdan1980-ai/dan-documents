@@ -44,10 +44,10 @@ INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor,
 INT. SUNNY WINDOWSILL — AFTERNOON. Wide clean wooden windowsill in front of a tall glass window, warm afternoon sunlight streaming directly through the glass from outside, a soft white sheer curtain partially pulled back on the right side, blurred green leaves of an outdoor tree softly visible through the glass with shallow depth of field, warm honey-amber lighting tone matching the rest of the home, uncluttered windowsill surface, peaceful indoor scene.
 ```
 
-### Location C — `INT. COZY BOOKSHELF NOOK — AFTERNOON`
+### Location C — `INT. COZY MICRO-LAB — AFTERNOON`
 
 ```
-INT. COZY BOOKSHELF NOOK — AFTERNOON. Cozy reading nook with a wooden shelf full of warm-toned vintage hardcover books in deep amber, cream, and forest green spines, one open hardback book lying flat on the shelf next to Brain showing blank cream pages, a small brass desk lamp glowing softly from the upper right, dust motes floating gently in a beam of warm light, deep amber and cream tones, shallow depth of field with bookshelf softly out of focus behind, scholarly cozy atmosphere matching the warm tone of the rest of the home.
+INT. COZY MICRO-LAB — AFTERNOON. Cute Pixar-style miniature science lab with rounded soft-edged white desk surface, a small chrome microscope on the right side of the desk, a tiny clipboard with hand-drawn cat-blink diagrams resting flat on the desk, a soft pastel wall chart in the background showing two cartoon cats slow-blinking at each other, clean cream-white walls, a warm tungsten desk lamp glowing softly from the upper right, warm honey-amber afternoon light coming from a window off-frame on the left, scholarly cozy atmosphere — clean and scientific but warm, never sterile or cold.
 ```
 
 ### Scene → location map
@@ -58,7 +58,7 @@ INT. COZY BOOKSHELF NOOK — AFTERNOON. Cozy reading nook with a wooden shelf fu
 | 2 | A | Brain excited, paw forward |
 | 3 | **B** | Brain on windowsill — hard stare at something outside |
 | 4 | A | Brain performs warm slow blink (love version) |
-| 5 | **C** | Brain among books — "scientists tested it" |
+| 5 | **C** | Brain in lab coat as scientist — "scientists tested it" |
 | 6 | A | Heart pupils, love moment |
 | 7 | A | Tutorial blink — demonstrate for viewer |
 | 8 (CTA) | A | Wave + closing slow blink — same intimate setting as start |
@@ -241,29 +241,33 @@ But a slow blink says the opposite: I trust you. You're safe.
 
 ## Scene 5 — Core explanation (28–35 sec)
 
-**Beat purpose:** The science — University of Sussex study. Cats blink back. Visual: Brain in a scholarly book nook reacts with amazement.
+**Beat purpose:** The science — University of Sussex study. Cats blink back. Visual: Brain dressed as a scientist in a tiny white lab coat reacts with amazement.
 **Location:** C
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BOOKSHELF NOOK — AFTERNOON. Cozy reading nook with a wooden shelf full of warm-toned vintage hardcover books in deep amber, cream, and forest green spines, one open hardback book lying flat on the shelf next to Brain showing blank cream pages, a small brass desk lamp glowing softly from the upper right, dust motes floating gently in a beam of warm light, deep amber and cream tones, shallow depth of field with bookshelf softly out of focus behind, scholarly cozy atmosphere matching the warm tone of the rest of the home. Brain sitting on the shelf next to the open book with a wide-eyed surprised-delight expression — eyes fully open and round with pupils slightly dilated, tiny constellation of small sparkle stars around his eyes, ONLY his right front paw raised and placed flat on his chest in a "wow" gesture — left front paw and both back paws firmly on the wooden shelf surface. Eyebrows raised high, ears perked wide forward.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY MICRO-LAB — AFTERNOON. Cute Pixar-style miniature science lab with rounded soft-edged white desk surface, a small chrome microscope on the right side of the desk, a tiny clipboard with hand-drawn cat-blink diagrams resting flat on the desk, a soft pastel wall chart in the background showing two cartoon cats slow-blinking at each other, clean cream-white walls, a warm tungsten desk lamp glowing softly from the upper right, warm honey-amber afternoon light coming from a window off-frame on the left, scholarly cozy atmosphere — clean and scientific but warm, never sterile or cold. Brain wearing a small clean white lab coat over his brown leather collar (the gold heart-shaped collar tag must remain clearly visible at the neckline, NOT hidden by the coat), sitting at the lab desk facing camera, wide-eyed surprised-delight expression with BRIGHT EMERALD GREEN irises vivid even under the warm lighting, pupils slightly dilated, tiny constellation of small sparkle stars around his eyes, ONLY his right front paw raised and placed flat on his chest over the lab coat in a "wow" gesture — left front paw resting on the desk surface, both back paws planted firmly on a small stool. Eyebrows raised high, ears perked wide forward. Gold-framed glasses still on. The scientist look fits the topic.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Static medium close-up, eye-level, Brain sitting on the shelf next to the open book.
+SHOT: Static medium close-up, eye-level, Brain at the lab desk in his lab coat, framing includes Brain in focus and the soft blurred microscope and clipboard around him. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
 
-TIME 0–2s: Brain faces camera with neutral curious expression, ears perked forward, glances briefly at the open book beside him then back to camera.
+TIME 0–2s: Brain sits at the lab desk in a small clean white lab coat (brown collar with gold heart tag still visible at the neckline), facing camera with a neutral curious expression, ears perked forward, glances briefly at the clipboard on the desk then back to camera.
 
-TIME 2–5s: Brain's eyes go wide — pupils dilate slightly, eyebrows shoot up. A small constellation of four or five tiny sparkle stars bursts around his eyes, glows for 1 second, then fades. Brain raises ONLY his right front paw and places it flat on his chest (a "mind-blown" or "wow" gesture) — left front paw and both back paws stay firmly on the wooden shelf.
+TIME 2–5s: Brain's eyes go wide with discovery — pupils dilate slightly, eyebrows shoot up. A small constellation of four or five tiny sparkle stars bursts around his eyes, glows for 1 second, then fades. Brain raises ONLY his right front paw and places it flat on his chest over the lab coat in a "mind-blown" gesture — left front paw stays resting on the desk surface, both back paws stay planted on the stool.
 
-TIME 5–7s: Brain holds the wide-eyed paw-on-chest pose, looking at camera with amazed delight, dust motes drift gently behind him in the warm beam of light. One ear gives a small excited flick.
+TIME 5–7s: Brain holds the wide-eyed paw-on-chest pose, looking at camera with amazed delight, the wall chart behind him is softly visible. One ear gives a small excited flick.
 
-ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. ONLY the right front paw is raised (placed flat on chest). Left front paw and both back paws stay on the shelf at all times. NEVER show 5 paws, extra limbs, or both front paws raised together.
+EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout the entire 7 seconds. NOT brown, NOT amber, NOT yellow, NOT hazel. Warm tungsten lighting must NOT tint the iris. The iris stays vivid emerald green even in shadow.
 
-MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement. Surprise conveyed entirely through wide eyes, sparkles, and raised paw.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. ONLY the right front paw is raised (placed flat on chest over the lab coat). Left front paw rests on the desk. Both back paws stay on the stool at all times. NEVER show 5 paws, extra limbs, or both front paws raised together.
+
+MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement. Surprise conveyed entirely through wide eyes, sparkles, and the raised paw.
+
+WARDROBE RULE (strict): Brain wears a small clean white lab coat over his brown leather collar throughout. The brown collar and gold heart-shaped "Brain" tag MUST remain clearly visible at the neckline — the lab coat does NOT cover them. Gold-framed glasses stay on.
 
 STYLE: Pixar 3D render, cinematic warm lighting, vertical 9:16, soft depth of field.
 ```

@@ -52,6 +52,25 @@ The single source of truth for the channel's visual, audio, and editorial style.
 - Looks photorealistic or 2D-flat (always Pixar 3D render)
 - Looks angry/aggressive — keep it warm and curious
 
+### Thematic costumes (use only for matching scene topics)
+
+When a scene's voiceover references a specific role (scientists, doctors, detectives, astronauts, chefs, etc.), Brain dresses for the role to visually reinforce the topic. The costume goes **on top of his locked elements** — collar, gold heart tag, and gold-framed glasses **must always remain visible**. Use sparingly: usually one themed scene per video, never the whole video.
+
+| Voiceover topic | Brain's outfit | Setting |
+|------------------|----------------|---------|
+| "Scientists tested it…" / studies / experiments | Tiny white **lab coat** over collar (collar visible) | Cozy micro-lab — desk, microscope, clipboard, pastel wall chart |
+| "Doctors found…" / medical / health | Small white **doctor's coat** + tiny stethoscope around neck | Cozy clinic corner |
+| "Detectives discovered…" / investigation / mystery | Small **trench coat** + tiny magnifying glass in paw | Dim cozy study with case board |
+| "Astronauts found…" / space / NASA | Tiny **space suit** with helmet open | Soft starlit window backdrop |
+| "Historians proved…" / ancient / history | Tiny **scholar's robe** + small scroll | Cozy library nook |
+| "Chefs say…" / food / cooking | Small white **chef's hat** + tiny apron | Warm cozy kitchen |
+
+**Rules for every costume:**
+- Collar with gold heart tag stays visible at the neckline (NEVER covered)
+- Gold-framed glasses stay on
+- Costume is small, clean, Pixar-style — never realistic or sterile
+- Add a `WARDROBE RULE (strict)` block in the Veo 3 prompt locking the costume + visibility of collar/glasses
+
 ---
 
 ## 3. Color Palette
