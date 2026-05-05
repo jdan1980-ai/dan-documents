@@ -38,18 +38,30 @@ Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin
 INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere.
 ```
 
+### Location B — `INT. SUNNY WINDOWSILL — AFTERNOON`
+
+```
+INT. SUNNY WINDOWSILL — AFTERNOON. Wide clean wooden windowsill in front of a tall glass window, warm afternoon sunlight streaming directly through the glass from outside, a soft white sheer curtain partially pulled back on the right side, blurred green leaves of an outdoor tree softly visible through the glass with shallow depth of field, warm honey-amber lighting tone matching the rest of the home, uncluttered windowsill surface, peaceful indoor scene.
+```
+
+### Location C — `INT. COZY BOOKSHELF NOOK — AFTERNOON`
+
+```
+INT. COZY BOOKSHELF NOOK — AFTERNOON. Cozy reading nook with a wooden shelf full of warm-toned vintage hardcover books in deep amber, cream, and forest green spines, one open hardback book lying flat on the shelf next to Brain showing blank cream pages, a small brass desk lamp glowing softly from the upper right, dust motes floating gently in a beam of warm light, deep amber and cream tones, shallow depth of field with bookshelf softly out of focus behind, scholarly cozy atmosphere matching the warm tone of the rest of the home.
+```
+
 ### Scene → location map
 
 | Scene | Location | Notes |
 |-------|----------|-------|
-| 1 | A | Brain slow blinks at camera |
+| 1 | A | Brain slow blinks at camera (intimate) |
 | 2 | A | Brain excited, paw forward |
-| 3 | A | Brain demonstrates hard stare, then looks away |
-| 4 | A | Brain performs instructional slow blink |
-| 5 | A | Brain reacts to surprise reveal |
+| 3 | **B** | Brain on windowsill — hard stare at something outside |
+| 4 | A | Brain performs warm slow blink (love version) |
+| 5 | **C** | Brain among books — "scientists tested it" |
 | 6 | A | Heart pupils, love moment |
 | 7 | A | Tutorial blink — demonstrate for viewer |
-| 8 (CTA) | A | Wave + closing slow blink |
+| 8 (CTA) | A | Wave + closing slow blink — same intimate setting as start |
 
 ---
 
@@ -154,26 +166,27 @@ And here's the wild part — you can send it back.
 
 ## Scene 3 — Setup (14–21 sec)
 
-**Beat purpose:** Explain cat eye contact = aggression. Sets up the contrast.
+**Beat purpose:** Explain cat eye contact = aggression. Sets up the contrast. Visual break: Brain crouched on a sunny windowsill demonstrating a hard outdoor stare.
+**Location:** B
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain sitting still with an intense unblinking stare directly at camera — pupils narrowed to thin vertical slits, ears pulled slightly back, posture slightly stiff, whiskers pulled forward, tail held rigid. All 4 paws on the ground. This is the demonstration "aggression stare" face — intense but not scary.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. SUNNY WINDOWSILL — AFTERNOON. Wide clean wooden windowsill in front of a tall glass window, warm afternoon sunlight streaming directly through the glass from outside, a soft white sheer curtain partially pulled back on the right side, blurred green leaves of an outdoor tree softly visible through the glass with shallow depth of field, warm honey-amber lighting tone matching the rest of the home, uncluttered windowsill surface, peaceful indoor scene. Brain crouched low on the windowsill in a focused predator pose — body slightly tense and lowered, all 4 paws planted on the wooden surface, pupils narrowed to thin vertical slits, eyes locked through the glass at something outside (off-camera, slightly to the right), ears slightly pulled back, whiskers pulled forward, tail held rigid behind him. The demonstration "aggression stare" face — intense but not scary.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Static medium close-up, slightly higher angle looking down at Brain.
+SHOT: Static medium close-up, eye-level with Brain on the windowsill, framing includes Brain in focus and the soft blurred green outside through the glass behind him.
 
-TIME 0–3s: Brain sits perfectly still facing camera, eyes wide open and unblinking, pupils narrowed to thin slits, ears slightly back, tail held stiff — the hard-stare face. Holds this pose without moving, no blinks.
+TIME 0–3s: Brain crouched low on the windowsill, body slightly tense, eyes wide open and unblinking, pupils narrowed to thin slits, locked on something through the glass off-camera to the right. Ears slightly back, tail held stiff — the hard-stare face. Holds this pose without moving, no blinks.
 
-TIME 3–5.5s: Brain continues the hard unblinking stare, posture remains slightly stiff and tense. Whiskers pulled slightly forward.
+TIME 3–5.5s: Brain continues the unblinking outdoor stare, whiskers pulled slightly forward, a single small twitch runs along his back.
 
-TIME 5.5–7s: Brain breaks the stare — quickly looks to the side away from camera, body posture instantly relaxes, ears come forward, tail loosens.
+TIME 5.5–7s: Brain breaks the stare — quickly turns his head back toward camera (away from the window), body posture instantly relaxes, ears come forward, tail loosens softly.
 
-ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. All 4 paws stay on the ground throughout. No paw is raised. NEVER show 5 paws or extra limbs.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. All 4 paws stay planted on the windowsill throughout. No paw is raised. NEVER show 5 paws or extra limbs.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement. All tension shown through narrowed eyes, stiff ears, and rigid posture only.
 
@@ -226,26 +239,27 @@ But a slow blink says the opposite: I trust you. You're safe.
 
 ## Scene 5 — Core explanation (28–35 sec)
 
-**Beat purpose:** The science — University of Sussex study. Cats blink back.
+**Beat purpose:** The science — University of Sussex study. Cats blink back. Visual: Brain in a scholarly book nook reacts with amazement.
+**Location:** C
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain with a wide-eyed surprised-delight expression — eyes fully open and round with pupils slightly dilated, tiny constellation of small sparkle stars around his eyes, ONLY his right front paw raised and placed flat on his chest in a "wow" gesture — left front paw and both back paws firmly on the ground. Eyebrows raised high. Ears perked wide forward.
+Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BOOKSHELF NOOK — AFTERNOON. Cozy reading nook with a wooden shelf full of warm-toned vintage hardcover books in deep amber, cream, and forest green spines, one open hardback book lying flat on the shelf next to Brain showing blank cream pages, a small brass desk lamp glowing softly from the upper right, dust motes floating gently in a beam of warm light, deep amber and cream tones, shallow depth of field with bookshelf softly out of focus behind, scholarly cozy atmosphere matching the warm tone of the rest of the home. Brain sitting on the shelf next to the open book with a wide-eyed surprised-delight expression — eyes fully open and round with pupils slightly dilated, tiny constellation of small sparkle stars around his eyes, ONLY his right front paw raised and placed flat on his chest in a "wow" gesture — left front paw and both back paws firmly on the wooden shelf surface. Eyebrows raised high, ears perked wide forward.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Static medium close-up, eye-level.
+SHOT: Static medium close-up, eye-level, Brain sitting on the shelf next to the open book.
 
-TIME 0–2s: Brain faces camera with neutral curious expression, ears perked forward, tail still.
+TIME 0–2s: Brain faces camera with neutral curious expression, ears perked forward, glances briefly at the open book beside him then back to camera.
 
-TIME 2–5s: Brain's eyes go wide — pupils dilate slightly, eyebrows shoot up. A small constellation of four or five tiny sparkle stars bursts around his eyes, glows for 1 second, then fades. Brain raises ONLY his right front paw and places it flat on his chest (a "mind-blown" or "wow" gesture) — left front paw and both back paws stay firmly on the ground.
+TIME 2–5s: Brain's eyes go wide — pupils dilate slightly, eyebrows shoot up. A small constellation of four or five tiny sparkle stars bursts around his eyes, glows for 1 second, then fades. Brain raises ONLY his right front paw and places it flat on his chest (a "mind-blown" or "wow" gesture) — left front paw and both back paws stay firmly on the wooden shelf.
 
-TIME 5–7s: Brain holds the wide-eyed paw-on-chest pose, looking at camera with amazed delight. One ear gives a small excited flick.
+TIME 5–7s: Brain holds the wide-eyed paw-on-chest pose, looking at camera with amazed delight, dust motes drift gently behind him in the warm beam of light. One ear gives a small excited flick.
 
-ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. ONLY the right front paw is raised (placed flat on chest). Left front paw and both back paws stay on the ground at all times. NEVER show 5 paws, extra limbs, or both front paws raised together.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. ONLY the right front paw is raised (placed flat on chest). Left front paw and both back paws stay on the shelf at all times. NEVER show 5 paws, extra limbs, or both front paws raised together.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement. Surprise conveyed entirely through wide eyes, sparkles, and raised paw.
 
