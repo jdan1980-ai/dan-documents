@@ -93,25 +93,27 @@ Congrats. Your cat is your mom now. Follow Brain for more cat secrets.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain sitting on a soft cream pillow on the bed in a 3/4 view facing camera, the very tip of his pink tongue poking out slightly between his lips in a held mid-lick aftermath gesture (mouth otherwise closed, just the tiny tongue tip visible — a single held cute pose), big satisfied affectionate vivid emerald green eyes, slight playful smirk in the eyes, ONLY his right front paw raised and tucked under his chin in a delicate post-grooming gesture, left front paw and both back paws tucked under him on the pillow. A few long thin strands of golden-brown human hair draped across the pillow next to Brain (clearly the hair he was just licking). Soft warm morning light haloing his fur.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain sitting comfortably on top of a soft cream pillow that is RESTING DIRECTLY ON THE BED (the pillow is one of the bed's pillows — cream sheets visibly surround and tuck around the pillow, the pillow is clearly part of the bed, not a standalone object), shown in a 3/4 view facing camera in any natural relaxed kitten pose. The very tip of his pink tongue pokes out slightly between his closed lips in a held mid-lick aftermath gesture (mouth otherwise closed, just the tiny tongue tip visible — a single held cute pose). Big satisfied affectionate vivid emerald green eyes, slight playful smirk in the eyes, ears perked softly forward. The pillow surface is CLEAN — no hair, no debris, no stray strands. Soft warm morning light halos his fur. Brain has 4 paws total — let him sit naturally however suits the pose.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Static medium close-up, eye-level, Brain on the pillow facing camera in 3/4 view. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
+SHOT: Static medium close-up, eye-level, Brain on a pillow that's clearly resting on the bed, facing camera in 3/4 view. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
 
-TIME 0–2s: Brain holds the post-lick pose — tip of pink tongue poking out slightly between his closed lips (single held tongue-tip, not opening/closing), satisfied affectionate vivid emerald green eyes, right front paw delicately tucked under his chin, gold heart tag glints once.
+TIME 0–2s: Brain holds the post-lick pose — tip of pink tongue poking out slightly between his closed lips (single held tongue-tip, not opening/closing), satisfied affectionate vivid emerald green eyes, gold heart tag glints once. He stays still in his natural sitting pose.
 
-TIME 2–4s: Brain slowly retracts the tongue tip back into his closed mouth in one smooth motion (mouth then stays closed), eyes give a slow knowing slow-blink at camera, the strands of golden-brown human hair on the pillow next to him are softly highlighted by morning light.
+TIME 2–4s: Brain slowly retracts the tongue tip back into his closed mouth in one smooth motion (mouth then stays closed), eyes give a slow knowing slow-blink at camera.
 
 TIME 4–7s: Brain holds eye contact with camera, eyes warm and a little smug, ears perked forward, tail tip flicks slowly behind him.
 
 EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber. Warm morning light does NOT tint the iris.
 
-ANATOMY RULE (strict): 4 paws total. ONLY the right front paw is raised (under chin). Left front paw and both back paws tucked under him on the pillow. NEVER 5 paws or extra limbs.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER show 5 paws or extra limbs.
 
 MOUTH RULE (single held tongue-tip exception): Mouth stays mostly closed throughout. Only the tip of the pink tongue is visible poking out between closed lips for TIME 0–2s, then retracts smoothly. After 2s the mouth is fully closed and stays closed. NO chewing, NO chattering, NO lip-sync, NO repeated open-close. One single held tongue-tip motion at the start.
+
+PILLOW RULE: The pillow stays resting on the bed throughout — it is clearly a bed pillow with cream sheets around it. The pillow surface stays clean — no hair, no debris.
 
 STYLE: Pixar 3D render, cinematic warm morning lighting, vertical 9:16, soft depth of field.
 ```
@@ -132,7 +134,7 @@ Your cat just licked your hair. That wasn't random. That was a confession.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain sitting on the bed facing camera with a knowing playful smirk in his vivid emerald green eyes, slight head tilt to the right, eyebrows raised in a "let me explain" expression, mouth completely closed, ONLY his right front paw raised and pointing very slightly toward camera in a "listen up" gesture, left front paw and both back paws tucked under him on the bed.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain sitting on the bed facing camera in any natural sitting pose with a knowing playful smirk in his vivid emerald green eyes, slight head tilt to the right, eyebrows raised in a "let me explain" expression, mouth completely closed. Brain has 4 paws total — let him sit however suits the pose naturally.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -142,13 +144,13 @@ SHOT: Static medium close-up, eye-level, Brain on the bed centered. Brain has BR
 
 TIME 0–2s: Brain sits on the bed facing camera with a knowing playful smirk in his vivid emerald green eyes, head tilts very slightly to the right, ears perk forward.
 
-TIME 2–5s: Brain raises ONLY his right front paw and points it very slightly toward camera in a "listen up" gesture, eyebrows lift slightly. Left front paw and both back paws stay tucked under him on the bed.
+TIME 2–5s: Brain's eyebrows lift in a small "listen up" expression, ears swivel forward, tail flicks once with playful energy. He stays in his natural sitting pose.
 
-TIME 5–7s: Brain holds the paw-point pose, gives one slow knowing blink, gold heart tag on collar glints softly.
+TIME 5–7s: Brain gives one slow knowing blink, gold heart tag on collar glints softly.
 
 EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
-ANATOMY RULE (strict): 4 paws total. ONLY the right front paw raised (pointing slightly toward camera). Left front paw and both back paws on the bed. NEVER 5 paws or extra limbs.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER 5 paws or extra limbs.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement.
 
@@ -171,7 +173,7 @@ And what they're saying is wilder than you think.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY MICRO-LAB — MORNING. Cute Pixar-style miniature science lab with a rounded soft-edged white desk surface, a small chrome microscope on the right side of the desk, a tiny clipboard with hand-drawn cat-grooming diagrams resting flat on the desk, a soft pastel wall chart in the background showing a family-tree of cats with hearts connecting them (allogrooming chart), clean cream-white walls with a window showing soft warm morning daylight from the upper right, scholarly cozy atmosphere — clean and scientific but warm, never sterile or cold. Brain wearing a small clean white lab coat over his brown leather collar with a deep V-cut neckline showing the brown collar and gold heart-shaped "Brain" tag prominently (the tag must remain clearly visible at the neckline, NOT hidden by the coat), sitting at the lab desk facing camera with a confident teaching expression, vivid emerald green eyes intelligent and warm, ONLY his right front paw raised pointing back at the family-tree wall chart of grooming cats, left front paw resting on the clipboard, both back paws planted firmly on a small stool. Eyebrows raised slightly in teaching mode. Gold-framed glasses on.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY MICRO-LAB — MORNING. Cute Pixar-style miniature science lab with a rounded soft-edged white desk surface, a small chrome microscope on the right side of the desk, a tiny clipboard with hand-drawn cat-grooming diagrams resting flat on the desk, a soft pastel wall chart in the background showing a family-tree of cats with hearts connecting them (allogrooming chart), clean cream-white walls with a window showing soft warm morning daylight from the upper right, scholarly cozy atmosphere — clean and scientific but warm, never sterile or cold. Brain wearing a small clean white lab coat over his brown leather collar with a deep V-cut neckline showing the brown collar and gold heart-shaped "Brain" tag prominently (the tag must remain clearly visible at the neckline, NOT hidden by the coat), at the lab desk in any natural pose facing camera with a confident teaching expression, vivid emerald green eyes intelligent and warm. Eyebrows raised slightly in teaching mode. Gold-framed glasses on. The family-tree wall chart prominently visible behind him. Brain has 4 paws total — let him pose naturally.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -179,15 +181,15 @@ Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN ey
 ```
 SHOT: Static medium close-up, eye-level, Brain in lab coat at the lab desk, the family-tree wall chart visible in soft focus behind him. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
 
-TIME 0–2s: Brain sits at the lab desk in his small white lab coat (brown collar with gold heart tag clearly visible at the V-cut neckline), facing camera with a confident teaching expression, glances briefly at the wall chart behind him.
+TIME 0–2s: Brain at the lab desk in his small white lab coat (brown collar with gold heart tag clearly visible at the V-cut neckline), facing camera with a confident teaching expression, glances briefly at the wall chart behind him then back to camera.
 
-TIME 2–5s: Brain raises ONLY his right front paw and points behind him at the family-tree wall chart of cats — small soft heart-glow lines briefly appear connecting the cat figures on the chart, pulsing gently twice. Left front paw stays on the clipboard, both back paws on the stool.
+TIME 2–5s: Behind Brain on the family-tree wall chart, soft heart-glow lines briefly appear connecting the cat figures, pulsing gently twice. Brain looks at the chart with a knowing nod then back to camera, eyebrows lifted in teaching mode.
 
-TIME 5–7s: Brain lowers the paw partway and looks back at camera with a small confident nod, one ear gives a forward flick.
+TIME 5–7s: Brain holds eye contact with camera with a small confident nod, one ear gives a forward flick.
 
 EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
-ANATOMY RULE (strict): 4 paws. ONLY right front paw raised (pointing at chart). Left front paw on clipboard, both back paws on stool. NEVER 5 paws or extra limbs.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER 5 paws or extra limbs.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement.
 
@@ -212,7 +214,7 @@ In cat colonies, only family grooms each other. Strangers don't get licked.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain sitting on the bed facing camera with a proud satisfied "you're mine now" expression — vivid emerald green eyes warm and confident, slight smug uplift to the corner of the closed mouth, head held high with regal posture, chest puffed slightly, ONLY his right front paw raised and placed flat on his own chest in a "I claim you" gesture, left front paw and both back paws tucked under him on the bed. Empty space in the upper-right of the frame for a stamp/badge text overlay to be added in Google Vids later.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain sitting on the bed in any natural pose facing camera with a proud satisfied "you're mine now" expression — vivid emerald green eyes warm and confident, slight smug uplift to the corner of the closed mouth, head held high with regal posture, chest puffed slightly, ears tall and forward. Empty space in the upper-right of the frame for a stamp/badge text overlay to be added in Google Vids later. Brain has 4 paws total — let him sit naturally.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -220,15 +222,15 @@ Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN ey
 ```
 SHOT: Static medium close-up, eye-level, Brain on the bed centered. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
 
-TIME 0–2s: Brain sits proudly on the bed facing camera, vivid emerald green eyes warm and confident, head held high, tail swishing slowly behind him.
+TIME 0–2s: Brain sits proudly on the bed facing camera in his natural pose, vivid emerald green eyes warm and confident, head held high, tail swishing slowly behind him.
 
-TIME 2–5s: Brain raises ONLY his right front paw and places it flat on his own chest in a "I claim you" gesture, eyebrows lift in regal pride. Left front paw and both back paws stay tucked under him on the bed. The gold heart tag on collar glints once warmly.
+TIME 2–5s: Brain's chest puffs slightly, eyebrows lift in regal pride, head tilts up an extra notch as if claiming you. The gold heart tag on collar glints once warmly.
 
-TIME 5–7s: Brain holds the paw-on-chest pose, gives one slow proud blink, ears perk forward.
+TIME 5–7s: Brain gives one slow proud blink, ears perk forward, holds the regal pose.
 
 EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
-ANATOMY RULE (strict): 4 paws total. ONLY the right front paw raised (on his own chest). Left front paw and both back paws tucked under him. NEVER 5 paws or extra limbs.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER 5 paws or extra limbs.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds, with a slight smug uplift at the corners. No lip-sync. No chewing. No chattering. No mouth movement.
 
@@ -255,7 +257,7 @@ So when your cat licks YOUR hair... you've officially been adopted.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY MICRO-LAB — MORNING. Cute Pixar-style miniature science lab with a rounded soft-edged white desk surface, a small chrome microscope on the right side of the desk, a tiny clipboard with hand-drawn cat-grooming diagrams resting flat on the desk, a soft pastel wall chart in the background, clean cream-white walls with a window showing soft warm morning daylight from the upper right, scholarly cozy atmosphere. Brain wearing a small clean white lab coat over his brown leather collar with a deep V-cut neckline showing the brown collar and gold heart-shaped "Brain" tag prominently (must remain clearly visible). Floating gently in the air to Brain's right is a soft glowing translucent holographic illustration in pastel tones — a cartoon mother cat tenderly licking a tiny round kitten, the hologram emits a gentle warm glow with subtle pixel-style edges. Brain looking warmly at the hologram with vivid emerald green eyes, soft tender expression, ONLY his right front paw raised toward the hologram in a presenting gesture, left front paw resting on the clipboard, both back paws planted on a small stool.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY MICRO-LAB — MORNING. Cute Pixar-style miniature science lab with a rounded soft-edged white desk surface, a small chrome microscope on the right side of the desk, a tiny clipboard with hand-drawn cat-grooming diagrams resting flat on the desk, a soft pastel wall chart in the background, clean cream-white walls with a window showing soft warm morning daylight from the upper right, scholarly cozy atmosphere. Brain wearing a small clean white lab coat over his brown leather collar with a deep V-cut neckline showing the brown collar and gold heart-shaped "Brain" tag prominently (must remain clearly visible). Floating gently in the air to Brain's right is a soft glowing translucent holographic illustration in pastel tones — a cartoon mother cat tenderly licking a tiny round kitten, the hologram emits a gentle warm glow with subtle pixel-style edges. Brain at the lab desk in any natural pose, looking warmly at the hologram with vivid emerald green eyes, soft tender expression. Brain has 4 paws total — let him sit naturally.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -263,15 +265,15 @@ Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN ey
 ```
 SHOT: Static medium close-up, eye-level, Brain in lab coat at the lab desk, the soft glowing holographic mother-and-kitten illustration floating gently to his right. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
 
-TIME 0–2s: Brain sits at the lab desk in his lab coat looking forward, then turns his head softly to look at the hologram floating to his right. The hologram pulses gently with a warm glow.
+TIME 0–2s: Brain at the lab desk in his lab coat looking forward, then turns his head softly to look at the hologram floating to his right. The hologram pulses gently with a warm glow.
 
-TIME 2–5s: The cartoon mother cat in the hologram performs a tender slow lick on the tiny kitten's head, the kitten's eyes happy half-closed in love. Brain raises ONLY his right front paw toward the hologram in a soft presenting gesture, looks back at camera with a tender warm expression.
+TIME 2–5s: The cartoon mother cat in the hologram performs a tender slow lick on the tiny kitten's head, the kitten's eyes happy half-closed in love. Brain looks at the hologram with tender warm vivid emerald green eyes, then back to camera with the same soft expression.
 
 TIME 5–7s: Brain holds the warm gaze at camera, the hologram pulses one more time then softens, gold heart tag glints.
 
 EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
-ANATOMY RULE (strict): 4 paws. ONLY the right front paw raised (presenting hologram). Left front paw on clipboard, both back paws on stool. NEVER 5 paws or extra limbs.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER 5 paws or extra limbs.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement. Tenderness conveyed through eyes only.
 
@@ -298,7 +300,7 @@ But here's the twist. Mother cats lick kittens to clean them.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain sitting on the bed facing camera, leaning very slightly forward toward camera with a deeply caring tender parental expression — vivid emerald green eyes warm and concerned-affectionate (the way a mother looks at her clumsy child), eyebrows softened, head tilted gently to the right, ONLY his right front paw raised and extended toward camera in a tender "let me help you" reaching gesture, left front paw and both back paws tucked under him on the bed. A tiny soft pink heart sparkle visible near his cheek to convey tenderness.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain on the bed in any natural pose facing camera, leaning very slightly forward toward camera with a deeply caring tender parental expression — vivid emerald green eyes warm and concerned-affectionate (the way a mother looks at her clumsy child), eyebrows softened, head tilted gently to the right. A tiny soft pink heart sparkle visible near his cheek to convey tenderness. Brain has 4 paws total — let him sit naturally.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -306,15 +308,15 @@ Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN ey
 ```
 SHOT: Static medium close-up, slight slow push-in (frame moves 5% closer over 7 seconds), eye-level. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
 
-TIME 0–2s: Brain sits on the bed facing camera with deeply caring vivid emerald green eyes, head tilts gently to the right, soft warm expression.
+TIME 0–2s: Brain on the bed facing camera with deeply caring vivid emerald green eyes, head tilts gently to the right, soft warm expression.
 
-TIME 2–5s: Brain raises ONLY his right front paw and extends it slowly toward camera in a tender reaching gesture, as if reaching out to clean a kitten that can't clean itself. Left front paw and both back paws stay tucked under him on the bed. A tiny soft pink heart sparkle appears briefly near his cheek and dissolves.
+TIME 2–5s: Brain leans his head and shoulders very slightly forward toward camera with a tender concerned expression, as if checking on a kitten that can't clean itself. A tiny soft pink heart sparkle appears briefly near his cheek and dissolves.
 
-TIME 5–7s: Brain holds the reaching paw pose, gives one slow loving blink, soft warm pulse of light around him.
+TIME 5–7s: Brain gives one slow loving blink, soft warm pulse of light around him, ears softened.
 
 EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
-ANATOMY RULE (strict): 4 paws total. ONLY the right front paw is raised (extended toward camera). Left front paw and both back paws on the bed. NEVER 5 paws or extra limbs.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER 5 paws or extra limbs.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement. All tenderness through eyes and the reaching paw.
 
@@ -337,7 +339,7 @@ Your cat thinks YOU are a clumsy kitten who can't groom yourself.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain shown in 3/4 profile lovingly rubbing his right cheek against a soft cream pillow with a few long thin strands of golden-brown human hair draped across it (the same hair he was licking earlier). Vivid emerald green eyes contentedly half-closed in a warm slow blink, mouth completely closed, soft pink translucent shimmer-glow emanates from his cheek where it touches the pillow (visualizing the scent transferring to the human's hair). All 4 paws planted on the bed surface — none raised. Sweet possessive expression.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain shown in 3/4 profile lovingly rubbing his right cheek against a clean soft cream pillow that is resting on the bed (no hair, no debris on the pillow — just a soft clean pillow surface). Vivid emerald green eyes contentedly half-closed in a warm blissful expression, mouth completely closed, a soft pink translucent shimmer-glow emanates from his cheek where it touches the pillow (visualizing his scent being deposited onto the pillow). 4 paws total in any natural relaxed pose on the bed (positions of paws don't matter — just 4 of them). Sweet possessive expression.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -345,17 +347,19 @@ Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN ey
 ```
 SHOT: Static medium close-up from the side at eye-level showing Brain in 3/4 profile rubbing his cheek against the pillow. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
 
-TIME 0–2s: Brain begins lovingly rubbing his right cheek against the cream pillow with hair on it, vivid emerald green eyes contentedly half-closed.
+TIME 0–2s: Brain begins lovingly rubbing his right cheek against the clean cream pillow on the bed, vivid emerald green eyes contentedly half-closed.
 
-TIME 2–5s: Brain rubs his cheek gently 2–3 times across the pillow, each rub leaves a soft pink translucent shimmer-glow on the pillow visualizing the scent transferring. Eyes blissfully half-closed.
+TIME 2–5s: Brain rubs his cheek gently 2–3 times across the pillow, each rub leaves a soft pink translucent shimmer-glow on the pillow surface visualizing his scent being deposited. Eyes blissfully half-closed.
 
 TIME 5–7s: Brain pulls his cheek away from the pillow and looks at the soft glow with a satisfied possessive expression, ears perked forward, the glow pulses gently once and fades.
 
 EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
-ANATOMY RULE (strict): 4 paws total, all planted on the bed surface throughout. NO paw raised. NEVER 5 paws or extra limbs.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. They can be in any natural pose on the bed. NEVER 5 paws or extra limbs.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement.
+
+PILLOW RULE: The pillow stays clean — no hair, no debris on its surface.
 
 STYLE: Pixar 3D render, cinematic warm morning lighting, vertical 9:16, soft depth of field.
 ```
@@ -378,7 +382,7 @@ They're also marking you with their scent. Other cats can tell — you're taken.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain sitting centered on the bed facing camera with a warm joyful expression, vivid emerald green eyes bright with affection, ONLY his right front paw raised in a friendly mid-wave gesture — left front paw and both back paws tucked under him on the bed. Big warm smile in the eyes, gold heart-shaped collar tag glinting prominently.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain sitting centered on the bed facing camera with a warm joyful expression, vivid emerald green eyes bright with affection, one front paw raised in a friendly mid-wave gesture. Big warm smile in the eyes, gold heart-shaped collar tag glinting prominently. Brain has 4 paws total — let him pose naturally otherwise.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -388,13 +392,13 @@ SHOT: Static medium shot, eye-level, Brain centered on the bed. Brain has BRIGHT
 
 TIME 0–2s: Brain sits on the bed facing camera with bright happy vivid emerald green eyes, tail does one slow happy flick. Gold heart tag catches the light once.
 
-TIME 2–5s: Brain raises ONLY his right front paw and gives a gentle friendly wave — two side-to-side motions. Left front paw and both back paws stay tucked under him on the bed.
+TIME 2–5s: Brain raises one front paw and gives a gentle friendly wave — two side-to-side motions. Only one paw moves; the rest of him stays in his natural seated pose.
 
-TIME 5–7s: Brain lowers the right paw, then performs one final slow blink at camera — eyes close slowly, hold 0.5s, open slowly — as a warm farewell. Gold heart tag glints once.
+TIME 5–7s: Brain lowers the waving paw, then performs one final slow blink at camera — eyes close slowly, hold 0.5s, open slowly — as a warm farewell. Gold heart tag glints once.
 
 EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
-ANATOMY RULE (strict): 4 paws. ONLY the right front paw raised for waving. Left front paw and both back paws on the bed. NEVER 5 paws or extra limbs.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER 5 paws or extra limbs.
 
 MOUTH RULE (strict): Mouth stays closed throughout. One single soft meow allowed at TIME 4s as the wave peaks — single brief mouth motion, then fully closed again.
 

@@ -53,7 +53,7 @@ Every `🎬 Animation prompt` block must include three strict rule blocks before
 ```
 EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber, NOT yellow, NOT hazel. Warm lighting must NOT tint the iris. Stays vivid green even half-closed.
 
-ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. AT MOST ONE front paw raised at any moment. NEVER show 5 paws or extra limbs.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER show 5 paws or extra limbs. Don't over-specify paw positions — just keep the count at 4.
 
 MOUTH RULE (strict): Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body.
 ```

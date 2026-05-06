@@ -47,7 +47,7 @@ The single source of truth for the channel's visual, audio, and editorial style.
 ### What Brain NEVER does
 
 - **Opens his mouth as if talking.** Brain's mouth stays **closed** during voiceover. The narration is off-camera — Brain doesn't speak the words. He reacts with **eyes, ears, whiskers, body**. Mouth opening is allowed ONLY for: brief jaw-drop on shock (held), yawn (sleepy), or one soft meow on CTA — never repetitive open/close that mimics talking.
-- **Raises both front paws at the same time.** Brain has exactly **4 paws** (2 front + 2 back). Only **ONE front paw at a time** is raised — for waving, pointing, holding objects, gestures. The other front paw and both back paws stay on the ground. Two-paw poses cause AI generation artifacts (5+ legs, extra limbs).
+- **Raises both front paws at the same time.** Brain has exactly **4 paws** (2 front + 2 back). **AT MOST ONE paw is raised or extended at a time** — for waving, pointing, holding objects, gestures. The other 3 paws can be in **any natural pose** (sitting, tucked, draped, on a surface) — don't over-specify them. The only hard constraint is the count (4) and the single raise (1). Two-paw poses cause AI generation artifacts (5+ legs, extra limbs).
 - Appears without **glasses** or **collar with gold heart tag** (signature elements — always on)
 - Looks photorealistic or 2D-flat (always Pixar 3D render)
 - Looks angry/aggressive — keep it warm and curious
@@ -219,7 +219,7 @@ TIME Z–end: [closing beat]
 
 EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout the entire [N] seconds. NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden. Warm/golden lighting must NOT tint the iris brown or amber. The iris stays vivid emerald green even in shadow, even when half-closed during a slow blink.
 
-ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. AT MOST ONE front paw is raised at any moment. The other front paw and both back paws stay on the ground. NEVER show 5 paws, extra limbs, or both front paws raised together.
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER show 5 paws or extra limbs. Don't over-specify paw positions in the prompt — just keep the count at 4.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire [N] seconds. No lip-sync. No chewing motion. No chattering. No mouth movement of any kind. All emotion comes through eyes, ears, and whiskers.
 
@@ -368,7 +368,7 @@ Always lead with the topic-specific emotional close BEFORE the follow line (see 
 - ❌ Wrong fur color (must be orange tabby, not grey/black/cream)
 - ❌ **Wrong eye color** — Brain's eyes must be BRIGHT EMERALD GREEN (`#3DDC84`), never brown, amber, yellow, hazel, or golden. Warm lighting must not tint the iris. Always include the eye-color spec + hex in image prompts and an `EYE COLOR RULE (strict)` block in Veo 3 prompts.
 - ❌ **Brain opening his mouth as if talking / lip-syncing the voiceover** — Brain never speaks the lines. Mouth stays closed; reactions through eyes and body only.
-- ❌ **Brain raising both front paws simultaneously** — causes 5+ legs / extra limb artifacts. Only ONE front paw at a time, others stay on the ground.
+- ❌ **Brain raising two paws simultaneously** — causes 5+ legs / extra limb artifacts. AT MOST ONE paw raised at a time. The other 3 paws can be in any natural pose — don't over-specify.
 - ❌ **Locking a single brand background across all videos** (e.g., always purple bokeh) — backgrounds are per-video, not channel-wide
 - ❌ **Different versions of the same room across scenes** — if Scene 1 and Scene 4 are both in the kitchen, they must look identical (same lighting, same furniture, same angle of light)
 - ❌ **CTA in a generic confetti/bokeh world** that doesn't match the rest of the video — Scene 8 must take place in one of the locations already used
