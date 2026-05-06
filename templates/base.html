@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% block title %}YouTube Analytics{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/htmx.org@2.0.3"></script>
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased min-h-screen">
+    <header class="bg-white border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center gap-6">
+            <a href="/" class="text-xl font-bold text-red-600">YT Analytics</a>
+            <nav class="flex gap-5 text-sm">
+                <a href="/channel" class="hover:text-red-600 {% if page == 'channel' %}text-red-600 font-semibold{% endif %}">Канал</a>
+                <a href="/video" class="hover:text-red-600 {% if page == 'video' %}text-red-600 font-semibold{% endif %}">Видео</a>
+                <a href="/keywords" class="hover:text-red-600 {% if page == 'keywords' %}text-red-600 font-semibold{% endif %}">Ключевики</a>
+                <a href="/title" class="hover:text-red-600 {% if page == 'title' %}text-red-600 font-semibold{% endif %}">Заголовок</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-8">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="max-w-6xl mx-auto px-6 py-8 text-xs text-slate-500">
+        Данные: YouTube Data API v3 + yt-dlp + youtube-transcript-api · Кеш SQLite
+    </footer>
+
+    <div id="loading-indicator" class="htmx-indicator fixed top-4 right-4 bg-red-600 text-white px-4 py-2 rounded shadow">
+        Загружаю...
+    </div>
+</body>
+</html>

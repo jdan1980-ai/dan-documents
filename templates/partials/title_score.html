@@ -1,0 +1,24 @@
+<div class="bg-white p-5 rounded-lg border border-slate-200 space-y-4">
+    <div>
+        <h3 class="text-lg font-semibold">«{{ title }}»</h3>
+        <p class="text-sm text-slate-600 mt-1">Оценка: <strong>{{ result.score }}/100</strong></p>
+    </div>
+
+    <div class="w-full bg-slate-200 rounded-full h-3">
+        <div class="bg-red-600 h-3 rounded-full" style="width: {{ result.score }}%"></div>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+        <div><span class="text-slate-500">Длина:</span> {{ result.factors.length }} симв.</div>
+        <div><span class="text-slate-500">Цифры:</span> {{ "да" if result.factors.has_number else "нет" }}</div>
+        <div><span class="text-slate-500">Вопрос:</span> {{ "да" if result.factors.has_question else "нет" }}</div>
+        <div><span class="text-slate-500">Скобки:</span> {{ "да" if result.factors.has_brackets else "нет" }}</div>
+        <div><span class="text-slate-500">CAPS-доля:</span> {{ result.factors.upper_ratio }}</div>
+        <div><span class="text-slate-500">Кликбейт:</span> {{ result.factors.clickbait_markers }}</div>
+        <div><span class="text-slate-500">Позитив:</span> {{ result.factors.positive_markers }}</div>
+    </div>
+
+    <div class="text-xs text-slate-500">
+        Идеальная длина: 40-70 символов · Цифры в заголовке улучшают CTR · Слишком много CAPS снижает доверие
+    </div>
+</div>

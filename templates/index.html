@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="text-center mb-12">
+    <h1 class="text-4xl font-bold mb-3">Анализируй YouTube бесплатно</h1>
+    <p class="text-slate-600 max-w-2xl mx-auto">
+        Канал, видео, ключевые слова и заголовки — данные из YouTube Data API,
+        yt-dlp и транскриптов. Без подписок и платных API.
+    </p>
+</section>
+
+<section class="grid md:grid-cols-2 gap-6">
+    <a href="/channel" class="block bg-white p-6 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+        <h2 class="text-lg font-semibold mb-1">Анализ канала</h2>
+        <p class="text-sm text-slate-600">Статистика, частота загрузок, выбросы (видео, которые «выстрелили»), топ-видео.</p>
+    </a>
+    <a href="/video" class="block bg-white p-6 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+        <h2 class="text-lg font-semibold mb-1">Анализ видео</h2>
+        <p class="text-sm text-slate-600">Заголовок, SEO, транскрипт, ключевые слова, сравнение с медианой канала.</p>
+    </a>
+    <a href="/keywords" class="block bg-white p-6 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+        <h2 class="text-lg font-semibold mb-1">Ключевые слова</h2>
+        <p class="text-sm text-slate-600">Поиск по запросу, оценка конкуренции, связанные ключевики.</p>
+    </a>
+    <a href="/title" class="block bg-white p-6 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+        <h2 class="text-lg font-semibold mb-1">Скоринг заголовка</h2>
+        <p class="text-sm text-slate-600">Оценка длины, эмоциональности, наличия чисел, кликбейт-маркеров.</p>
+    </a>
+</section>
+{% endblock %}

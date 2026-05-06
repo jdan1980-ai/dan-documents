@@ -1,0 +1,11 @@
+{% macro num(n) %}{% if n is none %}—{% elif n >= 1_000_000 %}{{ "%.1f"|format(n/1_000_000) }}M{% elif n >= 1_000 %}{{ "%.1f"|format(n/1_000) }}K{% else %}{{ n }}{% endif %}{% endmacro %}
+
+{% macro stat(label, value, hint='') %}
+<div class="bg-white p-4 rounded-lg border border-slate-200">
+    <div class="text-xs text-slate-500 uppercase tracking-wide">{{ label }}</div>
+    <div class="text-2xl font-semibold mt-1">{{ value }}</div>
+    {% if hint %}<div class="text-xs text-slate-500 mt-1">{{ hint }}</div>{% endif %}
+</div>
+{% endmacro %}
+
+{% macro duration(seconds) %}{% set h = seconds // 3600 %}{% set m = (seconds % 3600) // 60 %}{% set s = seconds % 60 %}{% if h %}{{ h }}:{{ "%02d"|format(m) }}:{{ "%02d"|format(s) }}{% else %}{{ m }}:{{ "%02d"|format(s) }}{% endif %}{% endmacro %}

@@ -1,0 +1,96 @@
+{% from "partials/_macros.html" import num, stat %}
+
+<div class="space-y-6">
+    <div class="flex items-start gap-5 bg-white p-5 rounded-lg border border-slate-200">
+        {% if channel.thumbnail %}
+        <img src="{{ channel.thumbnail }}" alt="" class="w-20 h-20 rounded-full" />
+        {% endif %}
+        <div class="flex-1">
+            <h2 class="text-xl font-bold">{{ channel.title }}</h2>
+            <div class="text-sm text-slate-600 mt-1">
+                {% if channel.country %}{{ channel.country }} · {% endif %}
+                {% if channel.published_at %}с {{ channel.published_at[:10] }}{% endif %}
+            </div>
+            {% if channel.description %}
+            <p class="text-sm text-slate-700 mt-3 line-clamp-3">{{ channel.description[:300] }}{% if channel.description|length > 300 %}...{% endif %}</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {{ stat("Подписчики", num(channel.subscribers)) }}
+        {{ stat("Всего просмотров", num(channel.views)) }}
+        {{ stat("Видео", num(channel.videos_count)) }}
+        {{ stat("Engagement", "%s%%"|format(summary.engagement_rate), "лайки + комменты от просмотров") }}
+        {{ stat("Медиана просмотров", num(summary.median_views), "по %s видео"|format(summary.videos_analyzed)) }}
+        {{ stat("Среднее", num(summary.avg_views)) }}
+        {{ stat("Загрузок/неделю", summary.upload_frequency_per_week) }}
+        {{ stat("Максимум", num(summary.max_views)) }}
+    </div>
+
+    {% if series %}
+    <div class="bg-white p-5 rounded-lg border border-slate-200">
+        <h3 class="text-lg font-semibold mb-3">Динамика просмотров</h3>
+        <div id="chart-views"></div>
+        <script>
+            (function() {
+                const data = {{ series|tojson }};
+                Plotly.newPlot('chart-views', [{
+                    x: data.map(d => d.date),
+                    y: data.map(d => d.views),
+                    type: 'bar',
+                    marker: {color: '#dc2626'}
+                }], {
+                    margin: {t: 10, l: 50, r: 10, b: 40},
+                    xaxis: {title: ''},
+                    yaxis: {title: 'Просмотры'},
+                    height: 300
+                }, {responsive: true, displayModeBar: false});
+            })();
+        </script>
+    </div>
+    {% endif %}
+
+    {% if outliers %}
+    <div class="bg-white p-5 rounded-lg border border-slate-200">
+        <h3 class="text-lg font-semibold mb-1">Выбросы (видео, которые «выстрелили»)</h3>
+        <p class="text-sm text-slate-600 mb-4">Опередили медианные просмотры канала более чем в N раз.</p>
+        <div class="space-y-2">
+        {% for v in outliers %}
+            <a href="{{ video_url(v.id) }}" target="_blank" class="flex items-center gap-4 p-3 hover:bg-slate-50 rounded">
+                {% if v.thumbnail %}<img src="{{ v.thumbnail }}" alt="" class="w-24 h-14 object-cover rounded" />{% endif %}
+                <div class="flex-1 min-w-0">
+                    <div class="font-medium truncate">{{ v.title }}</div>
+                    <div class="text-xs text-slate-500">{{ v.published_at[:10] if v.published_at else '' }}</div>
+                </div>
+                <div class="text-right">
+                    <div class="font-semibold">{{ num(v.views) }}</div>
+                    <div class="text-xs text-green-600">×{{ v.multiplier }} медианы</div>
+                </div>
+            </a>
+        {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if top_videos %}
+    <div class="bg-white p-5 rounded-lg border border-slate-200">
+        <h3 class="text-lg font-semibold mb-4">Топ-10 по просмотрам</h3>
+        <div class="space-y-2">
+        {% for v in top_videos %}
+            <a href="{{ video_url(v.id) }}" target="_blank" class="flex items-center gap-4 p-3 hover:bg-slate-50 rounded">
+                {% if v.thumbnail %}<img src="{{ v.thumbnail }}" alt="" class="w-24 h-14 object-cover rounded" />{% endif %}
+                <div class="flex-1 min-w-0">
+                    <div class="font-medium truncate">{{ v.title }}</div>
+                    <div class="text-xs text-slate-500">{{ v.published_at[:10] if v.published_at else '' }}</div>
+                </div>
+                <div class="text-right">
+                    <div class="font-semibold">{{ num(v.views) }}</div>
+                    <div class="text-xs text-slate-500">{{ num(v.likes) }} 👍</div>
+                </div>
+            </a>
+        {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>
