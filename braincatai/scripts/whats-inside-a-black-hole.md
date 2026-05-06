@@ -146,19 +146,19 @@ What if you fell into a hole where even light can't escape? That's a black hole.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY OBSERVATORY — NIGHT. Cozy reading nook by a tall window facing a deep navy starry night sky, a small brass-and-wood telescope on a tripod aimed out the window, a soft cream armchair with a folded amber knit blanket, a small wooden desk with an open astronomy book and a tiny brass orrery model of the solar system, warm tungsten reading lamp glowing from the upper-left, deep navy and warm amber color palette, shallow depth of field with the window stars softly glowing, scholarly cozy atmosphere. Brain backed away from the telescope, sitting on the desk facing camera with a worried-curious expression, eyebrows knit slightly, ONLY his right front paw raised and tucked thoughtfully under his chin in a "hmm" gesture, left front paw and both back paws planted on the desk. The telescope visible behind him still pointed at the window.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY OBSERVATORY — NIGHT. Cozy reading nook by a tall window facing a deep navy starry night sky, a small brass-and-wood telescope on a tripod aimed out the window, a soft cream armchair with a folded amber knit blanket, a small wooden desk with an open astronomy book and a tiny brass orrery model of the solar system, warm tungsten reading lamp glowing from the upper-left, deep navy and warm amber color palette, shallow depth of field with the window stars softly glowing, scholarly cozy atmosphere. Brain backed away from the telescope, sitting on the desk in profile (3/4 turn) staring out the tall window at the deep starry night sky beyond, vivid emerald green eyes wide and worried-curious, eyebrows knit slightly, ONLY his right front paw raised and tucked thoughtfully under his chin in a "hmm" gesture, left front paw and both back paws planted on the desk. The faint reflection of the starry sky in his glasses. The telescope visible to the left of frame still pointing at the window.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Static medium close-up, eye-level. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
+SHOT: Static medium close-up, eye-level, Brain shown in 3/4 profile staring out the window at the night sky. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
 
-TIME 0–2s: Brain sits on the desk with eyebrows knit slightly, vivid emerald green eyes glancing once toward the telescope behind him then back to camera with a worried-curious expression.
+TIME 0–2s: Brain sits on the desk in 3/4 profile, eyes locked out the tall window at the deep starry sky, vivid emerald green eyes worried-curious, eyebrows knit slightly. The faint window starlight reflects softly on his glasses.
 
-TIME 2–5s: Brain raises ONLY his right front paw and tucks it thoughtfully under his chin in a "hmm" pose, head tilts very slightly to the right. Left front paw and both back paws stay on the desk.
+TIME 2–5s: Brain raises ONLY his right front paw and tucks it thoughtfully under his chin in a "hmm" pose, head tilts very slightly without breaking the gaze toward the window. Left front paw and both back paws stay on the desk.
 
-TIME 5–7s: Brain holds the thoughtful chin-paw pose, gives one slow blink, ears swivel slightly forward in curiosity.
+TIME 5–7s: Brain holds the chin-paw window-gaze pose, gives one slow blink, then briefly turns his head toward camera at the very last beat (final 0.5s) with the same worried-curious expression — as if asking the viewer the question.
 
 EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
