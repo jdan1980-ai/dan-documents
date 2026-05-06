@@ -107,23 +107,25 @@ So thanks, Einstein, for keeping us out. Follow Brain for more facts that break 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY OBSERVATORY — NIGHT. Cozy reading nook by a tall window facing a deep navy starry night sky, a small brass-and-wood telescope on a tripod aimed out the window, a soft cream armchair with a folded amber knit blanket, a small wooden desk with an open astronomy book and a tiny brass orrery model of the solar system, warm tungsten reading lamp glowing from the upper-left, deep navy and warm amber color palette, shallow depth of field with the window stars softly glowing, scholarly cozy atmosphere. Brain standing on the desk next to the telescope with one eye pressed against the eyepiece, the OTHER eye visible to camera and stretched HUGE in shock — vivid emerald green iris with pinprick pupil, ears pulled forward, fur slightly poofed in alarm, ONLY his right front paw raised gripping the telescope tube, left front paw and both back paws on the desk surface. A tiny reflection of a swirling orange accretion disk visible in the lens of his glasses.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY OBSERVATORY — NIGHT. Cozy reading nook by a tall window facing a deep navy starry night sky, a small brass-and-wood telescope on a tripod aimed out the window, a soft cream armchair with a folded amber knit blanket, a small wooden desk with an open astronomy book and a tiny brass orrery model of the solar system, warm tungsten reading lamp glowing from the upper-left, deep navy and warm amber color palette, shallow depth of field with the window stars softly glowing, scholarly cozy atmosphere. Brain sitting on the desk in 3/4 side view, head turned and tilted forward so his face is pressed right up against the telescope's eyepiece (the eyepiece touching the side of his face just under his right eye), his head fully engaged with the telescope. The camera shows Brain's left side: his left eye is visible to the viewer and is HUGE in shock with vivid emerald green iris and a pinprick pupil, mouth open in a single held cartoon jaw-drop, ears pulled forward sharply, fur slightly poofed along his back in alarm. ONLY his right front paw is raised and resting on the telescope tube near the eyepiece (steadying the telescope), his left front paw rests on the desk, both back paws planted on the desk. A tiny reflection of a swirling orange accretion disk visible in the lens of his gold-framed glasses. The telescope is the dominant prop in the frame, clearly being used by Brain.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Static medium close-up, eye-level, Brain at the telescope, framing includes Brain in focus and the soft window starlight behind. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
+SHOT: Static medium close-up from a slight side angle, eye-level. Brain is shown in 3/4 side view with his face pressed against the telescope's eyepiece — telescope clearly in frame and clearly being used by Brain. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
 
-TIME 0–2s: Brain peers calmly through the telescope eyepiece, the visible eye relaxed and curious, ONLY his right front paw on the telescope tube, left front paw on the desk, tail relaxed.
+TIME 0–2s: Brain peers calmly through the telescope eyepiece, his face pressed gently against the eyepiece, the camera-side eye (his left eye) relaxed and curious, ONLY his right front paw on the telescope tube steadying it, left front paw on the desk, tail relaxed.
 
-TIME 2–4s: The visible eye SUDDENLY snaps wide open — pupil shrinks to a pinprick of vivid emerald green iris, fur poofs slightly along his spine, ears pull forward sharply, a tiny reflection of a swirling orange accretion disk flashes across his glasses lens.
+TIME 2–4s: Brain's visible left eye SUDDENLY snaps wide open — pupil shrinks to a pinprick of vivid emerald green iris, fur poofs slightly along his spine, ears pull forward sharply, a tiny reflection of a swirling orange accretion disk flashes across his glasses lens. Brain's face stays pressed against the eyepiece — he does NOT pull away.
 
-TIME 4–7s: Brain freezes in shocked awe, holding the telescope, jaw drops open in a single held jaw-drop (no chewing, no chattering, just held open in shock), ears stay perked forward.
+TIME 4–7s: Brain freezes in shocked awe, face still at the eyepiece, mouth drops open in a single held jaw-drop and stays held open through 7s. Right paw stays on telescope tube. Ears stay perked forward.
 
 EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber, NOT yellow, NOT hazel. Warm tungsten lighting must NOT tint the iris.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. ONLY the right front paw is on the telescope. Left front paw and both back paws stay on the desk. NEVER show 5 paws or extra limbs.
+
+POSITION RULE (strict): Brain's face is pressed against the telescope eyepiece for the entire 7 seconds — he does NOT move away from the telescope at any point. The telescope is clearly visible in the frame and Brain is clearly using it.
 
 MOUTH RULE (exception — single held jaw-drop): Mouth stays closed for 0–4s. At TIME 4s the mouth opens once into a held jaw-drop of shock and stays held in that single open position through 7s. NO chewing, NO chattering, NO repeated open-close, NO lip-sync. One single hold.
 
@@ -146,23 +148,25 @@ What if you fell into a hole where even light can't escape? That's a black hole.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY OBSERVATORY — NIGHT. Cozy reading nook by a tall window facing a deep navy starry night sky, a small brass-and-wood telescope on a tripod aimed out the window, a soft cream armchair with a folded amber knit blanket, a small wooden desk with an open astronomy book and a tiny brass orrery model of the solar system, warm tungsten reading lamp glowing from the upper-left, deep navy and warm amber color palette, shallow depth of field with the window stars softly glowing, scholarly cozy atmosphere. Brain backed away from the telescope, sitting on the desk in profile (3/4 turn) staring out the tall window at the deep starry night sky beyond, vivid emerald green eyes wide and worried-curious, eyebrows knit slightly, ONLY his right front paw raised and tucked thoughtfully under his chin in a "hmm" gesture, left front paw and both back paws planted on the desk. The faint reflection of the starry sky in his glasses. The telescope visible to the left of frame still pointing at the window.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY OBSERVATORY — NIGHT. Cozy reading nook by a tall window facing a deep navy starry night sky, a small brass-and-wood telescope on a tripod aimed out the window, a soft cream armchair with a folded amber knit blanket, a small wooden desk with an open astronomy book and a tiny brass orrery model of the solar system, warm tungsten reading lamp glowing from the upper-left, deep navy and warm amber color palette, shallow depth of field with the window stars softly glowing, scholarly cozy atmosphere. Brain has just pulled his face back from the telescope eyepiece and is now sitting on the desk RIGHT NEXT TO the telescope, his head turned toward camera with a worried-curious processing expression, both vivid emerald green eyes now fully visible to camera (wide, contemplative, eyebrows knit slightly). ONLY his right front paw is raised and resting protectively on the telescope tube — like he's still connected to it but processing what he just saw. Left front paw and both back paws planted on the desk. The telescope is prominently in the frame next to him, clearly the same telescope from Scene 1, eyepiece still pointing at the window. The faint starry sky visible through the window in the background.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Static medium close-up, eye-level, Brain shown in 3/4 profile staring out the window at the night sky. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
+SHOT: Static medium close-up, eye-level. Brain is sitting on the desk right next to the telescope, his right paw resting on the telescope tube, head turned toward camera. The telescope is prominently in frame next to him. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
 
-TIME 0–2s: Brain sits on the desk in 3/4 profile, eyes locked out the tall window at the deep starry sky, vivid emerald green eyes worried-curious, eyebrows knit slightly. The faint window starlight reflects softly on his glasses.
+TIME 0–2s: Brain sits on the desk next to the telescope with his right front paw resting on the telescope tube, head turned toward camera, vivid emerald green eyes worried-curious, eyebrows knit slightly, mouth closed (recovered from the Scene 1 jaw-drop). Tail flicks once slowly.
 
-TIME 2–5s: Brain raises ONLY his right front paw and tucks it thoughtfully under his chin in a "hmm" pose, head tilts very slightly without breaking the gaze toward the window. Left front paw and both back paws stay on the desk.
+TIME 2–5s: Brain glances briefly back at the telescope eyepiece (a quick worried look at it), then back to camera. The right paw stays on the telescope tube the whole time. Left front paw and both back paws stay on the desk.
 
-TIME 5–7s: Brain holds the chin-paw window-gaze pose, gives one slow blink, then briefly turns his head toward camera at the very last beat (final 0.5s) with the same worried-curious expression — as if asking the viewer the question.
+TIME 5–7s: Brain holds eye contact with camera, gives one slow blink, ears perk slightly forward as if the question lingers. The right paw remains on the telescope tube.
 
 EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
-ANATOMY RULE (strict): 4 paws total. ONLY the right front paw is raised (under chin). Left front paw and both back paws on the desk. NEVER show 5 paws or extra limbs.
+ANATOMY RULE (strict): 4 paws total. ONLY the right front paw is raised (resting on the telescope tube the entire scene). Left front paw and both back paws stay on the desk. NEVER show 5 paws or extra limbs.
+
+POSITION RULE (strict): Brain stays sitting right next to the telescope for the entire 7 seconds with his right paw on the telescope tube. The telescope is the second main subject of the frame and must clearly be visible next to Brain.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement.
 
