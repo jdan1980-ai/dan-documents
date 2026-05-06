@@ -40,14 +40,18 @@ YouTube Shorts channel — animated AI cat (Brain) explains cat psychology and b
 
 If editing the script's title, scenes, or VO, **re-verify tags reflect the new title and content**. Tags are not optional and must be reviewed on every edit.
 
+**Every time a new script is created, ALWAYS append its pinned comment to `braincatai/pinned-comments.md`** — never skip. The pinned comment is already drafted inside each script's editing notes. Add it as the next numbered entry in the published or scheduled section, with date or "TBD". This file is the canonical place the user goes to copy-paste the comment when uploading.
+
 **Other locked rules** (full detail in `style-guide.md`):
 - Lock only Brain's character, NOT the background. Backgrounds are per-video.
 - 1–3 locations max per video; identical wording across scenes that share a location.
 - CTA scene must take place in one of the video's existing locations — never a generic confetti/bokeh outro.
 - Brain's mouth stays **closed** throughout — no lip-sync, no talking motion. Reactions go through eyes, ears, whiskers, body. Exceptions: held jaw-drop on shock, single yawn, one soft meow on CTA.
-- Brain has **4 paws** (2 front + 2 back) — only **ONE front paw at a time** is raised (wave/point/gesture). Both front paws raised together causes AI to generate 5+ legs / extra limbs.
+- Brain has **4 paws** (2 front + 2 back). The only constraint is the count — don't over-specify paw positions in prompts (it makes every shot look identical). NEVER show 5 paws or extra limbs.
+- Brain's eyes are **bright emerald green** (`#3DDC84`) — never brown/amber/hazel. Warm lighting tends to tint them; always include the hex spec and `EYE COLOR RULE (strict)` in Veo 3 prompts.
 - Each scene's voiceover ≤ 8 sec of speech (Veo 3 max clip length).
 - VO must work for kids AND adults — no jargon, no scary words. See `style-guide.md` §9 swap table.
+- Scientist/doctor/detective/etc. costume scenes — see `style-guide.md` §2 thematic costumes table. Wardrobe must keep collar + heart tag visible at the V-cut neckline.
 
 ## Notes
 

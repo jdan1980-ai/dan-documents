@@ -123,6 +123,18 @@ What color is YOUR cat — and is it a boy or a girl? 🐱 Did the science match
 Did you try the slow blink with your cat? 👁️💚 Did they blink back? Tell me — I'll heart every reply!
 ```
 
+### 19. What's Inside a Black Hole? (TBD) — Brain Hacks
+
+```
+Would YOU go into a black hole if you could? 🕳️ Drop a 🚀 if yes, 💀 if absolutely not 👇
+```
+
+### 20. Why Your Cat Licks Your Hair (TBD) — Cat Psychology
+
+```
+Does YOUR cat lick your hair? 🐱 Drop a 💚 if yes — apparently you've been adopted. Tell me what your cat thinks you are below 👇
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
