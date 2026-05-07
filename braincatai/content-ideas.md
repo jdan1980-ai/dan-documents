@@ -266,7 +266,7 @@ The cat should *react* (surprised, smug, confused, "aha!") to keep retention. Us
 
 ---
 
-## 📅 Еженедельный график рубрик (черновик — нужно подтвердить)
+## 📅 Еженедельный график рубрик ✅ APPROVED (May 7, 2026)
 
 > **Зачем:** субскрайберы ждут конкретный контент в конкретный день → выше return rate → выше алгоритмическая раздача. Также проще планировать production batch'ами.
 
@@ -330,3 +330,35 @@ The cat should *react* (surprised, smug, confused, "aha!") to keep retention. Us
 | Воскресенье | Cat Psychology #2 (выходной — высокий viewer time) |
 
 = 4 видео/неделю, 3 рубрики, более устойчивый темп.
+
+---
+
+## 🎬 Long-form publishing schedule ✅ APPROVED (May 7, 2026)
+
+- **Production starts:** May 8, 2026 (завтра)
+- **Publishing:** с июня 2026, **раз в месяц** (заменяет 1 день недельной рубрики в дату публикации)
+- **Первое видео:** Cat Evolution (15 мин, все 6 эпох, TTS, без глав — структура локнута выше)
+
+### 📋 Day 1 (May 8) kickoff checklist
+
+Когда сядем работать завтра — идём в этом порядке. Каждый пункт ниже — задача на сессию:
+
+1. **Brain Reference Sheet** ⭐ САМЫЙ ВАЖНЫЙ — генерим ОДИН эталонный портрет Brain (frontal, neutral background, neutral light) → сохраняем в `braincatai/assets/brain-reference.png` → используем как **image-to-image anchor** для ВСЕХ 50+ Veo 3 клипов и 50+ stills в long-form. Без этого character drift убьёт consistency на 15-минутном видео. (Это §D fix из style-guide TODO.)
+2. **Расширить style-guide §2 thematic costumes** — добавить 5 новых костюмов для эпох:
+   - 🦷 Smilodon Brain (саблезубые клыки + первобытный look)
+   - 🌍 Migrant/Explorer Brain (для эпохи спреда по континентам)
+   - 🏺 Egyptian Brain (с египетским золотым обручем + египетский ohm)
+   - 🏠 Victorian Brain (бабочка + цилиндр для эпохи селекции)
+   - 🧬 Geneticist Brain (более продвинутый учёный — лабкот + DNA-helix prop)
+3. **Создать 5 новых location blocks** в style-guide или прямо в скрипте:
+   - 🌳 EXT. PREHISTORIC FOREST — DAWN (45 млн лет)
+   - ❄️ EXT. ICE AGE PLAINS — DAY (саблезубые)
+   - 🌍 EXT. SAVANNAH MIGRATION — GOLDEN HOUR (спред)
+   - 🏺 INT. EGYPTIAN TEMPLE — TORCHLIGHT (одомашнивание)
+   - 🏠 INT. VICTORIAN PARLOR — DAY (modern breeds)
+   - 🧬 INT. ADVANCED GENETIC LAB — NIGHT (future)
+4. **Полный VO script** (~1700–2000 слов на 15 мин) — пишем главу за главой, каждая ~250 слов
+5. **Music brief** — оркестральный documentary + variations per эпоха (prehistoric drums → ice age strings → Egyptian flute → Victorian piano → cosmic synth)
+
+**Что готовлю заранее (сегодня вечером, если хочешь):**
+Можно прямо сейчас написать draft костюмов + location blocks в style-guide, чтобы завтра не тратить на это время. Скажи — сделаю.
