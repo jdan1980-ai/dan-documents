@@ -208,33 +208,39 @@ In cat colonies, only family grooms each other. Strangers don't get licked.
 
 ## Scene 4 — Build-up (21–28 sec)
 
-**Beat purpose:** "You've been adopted." Visual variety: Brain stalks slowly toward camera as the camera pushes in — anticipation builds, ends at a regal close-up. Add "ADOPTED" stamp text overlay in Google Vids.
+**Beat purpose:** Visual literally shows Brain licking a human's hair — the strongest possible match to the VO. Ends with ADOPTED stamp overlay landing the punchline.
 **Location:** A | **Wardrobe:** Regular Brain
+
+> ⚠️ **Human in frame** — first time in this video. Show ONLY the back of the person's head and their long hair fanned on the pillow; face is turned AWAY from camera and out of frame. This avoids AI face artifacts and keeps the focus on Brain.
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. LOW-ANGLE MEDIUM CLOSE-UP from a slightly low camera position looking up at Brain on the bed — this angle makes him feel imposing and regal. Brain mid-stride walking confidently across the bed sheets directly toward camera, vivid emerald green eyes locked on camera with a proud "you're mine now" expression, head held high, ears tall and forward, chest puffed slightly forward, tail held high in a confident hooked S-curve behind him. Soft warm light catches the gold heart-shaped tag and makes it gleam. The bed sheets are softly rumpled where his paws press down with each step. Empty space in the upper-right of the frame for a stamp/badge text overlay to be added in Google Vids later. Brain has 4 paws total.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. SIDE-VIEW MEDIUM CLOSE-UP. In the right half of the frame: the back of a sleeping human's head resting on a soft cream pillow on the bed — the person's face is fully turned AWAY from camera and out of frame (only the back of the skull and hair are visible — NO face, NO profile, NO features). Long flowing chestnut-brown human hair fans gently across the pillow toward the left of frame. The human is rendered in matching Pixar 3D style, soft and clean, no realistic detail. In the left half of the frame: Brain stands gently next to the person's head on the pillow, leaning his face down with full focus and tenderness toward a single thick strand of the human's hair, his pink tongue extended forward in a soft mid-lick action TOUCHING the strand of hair (a sustained gentle lick, not a quick flick — like a mother grooming her kitten). Vivid emerald green eyes blissfully half-closed in concentration, eyebrows softened, ears perked forward. Brain has 4 paws total. Empty negative space in the upper-right corner of the frame above the person's head — reserved for an "ADOPTED ✓" stamp overlay added in Google Vids later.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Low-angle medium shot looking slightly up at Brain on the bed sheets. Slow continuous PUSH-IN over the 7 seconds (camera dollies forward ~15% closer, ending at a tight close-up on his head and shoulders). Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
+SHOT: Side-view medium close-up. Slight slow PUSH-IN over 7 seconds (~8% closer) toward the lick action. Frame composition: human's head and hair on the right (face fully turned away — no face visible, no features, only back of head and hair), Brain on the left of the pillow leaning into the hair. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
 
-TIME 0–2s: Brain stalks forward slowly across the bed sheets toward camera with a deliberate confident gait, vivid emerald green eyes locked directly on camera, ears forward, tail held in a high confident S-curve. Each step makes the cream sheets dip subtly.
+TIME 0–1.5s: Brain leans his face slowly toward the strand of human hair on the pillow, vivid emerald green eyes focused and tender, ears perk forward, whiskers twitch.
 
-TIME 2–5s: Brain takes one more slow step then settles into a regal seated pose facing camera as the push-in continues. Chest puffs slightly, eyebrows lift in pride, head tilts up an extra notch. Gold heart tag glints brightly once.
+TIME 1.5–4.5s: Brain extends his pink tongue and gives a slow gentle SUSTAINED lick to the strand of human hair — one long deliberate grooming motion (not a quick flick), like a mother cat cleaning her kitten. Eyes blissfully half-close in concentration. Camera continues slow push-in.
 
-TIME 5–7s: Push-in completes near close-up. Brain gives one slow proud blink, then a single soft "I claim you" tail flick. Soft warm halo pulses around him once.
+TIME 4.5–6s: Brain finishes the lick, retracts his tongue smoothly back into his mouth (mouth then closes fully and stays closed). He pulls his face back from the hair an inch and looks toward camera with a satisfied possessive expression.
+
+TIME 6–7s: Brain holds the satisfied gaze, gold heart tag glints once. Soft warm light pulse around him.
 
 EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER 5 paws or extra limbs.
 
-MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds, with a slight smug uplift at the corners. No lip-sync. No chewing. No chattering. No mouth movement.
+MOUTH RULE (single sustained lick exception): Mouth stays closed for 0–1.5s. At TIME 1.5s the pink tongue extends out for a SINGLE sustained gentle lick on the hair lasting 3 seconds, then retracts smoothly at TIME 4.5s and stays closed for the rest. ONE single deliberate lick motion — NO chewing, NO chattering, NO repeated open-close, NO lip-sync.
 
-NEGATIVE SPACE RULE: Keep the upper-right of the frame uncluttered — a stamp/badge text overlay will be added in editing. Do NOT put complex elements in that area.
+HUMAN RULE (strict): The human in the right half of the frame has their face FULLY turned away from camera. Only the back of the head and the long chestnut-brown hair are visible. NO face, NO profile, NO eyes, NO mouth, NO ears in frame. Render in matching Pixar 3D style, simple and clean. The human stays still (sleeping) — NO movement from the human at any point.
+
+NEGATIVE SPACE RULE: Keep the upper-right corner of the frame uncluttered above the person's head — an "ADOPTED ✓" stamp/badge overlay will be added in editing. Do NOT put complex elements in that area.
 
 STYLE: Pixar 3D render, cinematic warm morning lighting, vertical 9:16, soft depth of field.
 ```
