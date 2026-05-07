@@ -1,0 +1,115 @@
+# Production Status — BrainCatAI
+
+Single source of truth для статуса каждого видео по pipeline. Обновляется при каждом изменении статуса.
+
+**Pipeline стадии:** 📝 script → 🎨 images → 🎬 animated → 🎞️ assembled → ⏰ scheduled → 📤 published
+
+---
+
+## 🗓️ Расписание
+
+### Опубликовано
+
+| Дата | День | Видео | Рубрика | Slug | Метрики |
+|------|------|-------|---------|------|---------|
+| 22 апр | Вт | Your Cat's Purr Can Heal Your Bones | Cat Psychology | — | См. analytics |
+| 23 апр | Ср | The Secret Behind Your Cat's Mysterious Stare | Cat Psychology | — | См. analytics |
+| 24 апр | Чт | How Cats ALWAYS Land on Their Feet | Cat Psychology | — | См. analytics |
+| 25 апр | Пт | Why Cats "Make Biscuits" on You | Cat Psychology | — | См. analytics |
+| 26 апр | Сб | Your Cat Doesn't Know Your Face | Cat Psychology | — | См. analytics |
+| 27 апр | Вс | Why Cats Sleep 16 Hours a Day | Cat Psychology | — | См. analytics |
+| 28 апр | Пн | Why Cats Are AFRAID of Cucumbers | Cat Psychology | — | См. analytics |
+| 29 апр | Вт | Why Your Cat Chooses a Box Over a $100 Bed | Cat Psychology | — | См. analytics |
+| 30 апр | Ср | Does Cats Have 9 Lives? | Cat Psychology | — | См. analytics |
+| 1 мая | Чт | How Cats SCAMMED Humans for 10,000 Years | Cat Psychology | — | См. analytics |
+| 2 мая | Пт | Why Is the Sky Blue? | Brain Hacks | `why-is-the-sky-blue` | См. analytics |
+| 3 мая | Сб | Why Your Cat Brings You Dead Things | Cat Psychology | `why-cats-bring-dead-things` | См. analytics |
+| 4 мая | Вс | Why Does Your Cat Push Things Off Tables? | Cat Psychology | — | См. analytics |
+| 5 мая | Пн | Why Your Cat Chirps At Birds | Cat Psychology | — | См. analytics |
+| 6 мая | Ср | Why You Forget Walking Into a Room | Brain Hacks | `why-you-forget-walking-into-room` | published — TBD |
+| 7 мая | Чт | The "Stop Stress" Button (Vagus Nerve) | Brain Hacks | `your-body-calm-down-button` | published — TBD |
+
+### Запланировано в YouTube Studio (locked)
+
+| Дата | День | Видео | Рубрика | Slug | Pipeline статус |
+|------|------|-------|---------|------|------------------|
+| 8 мая | Пт | Your Cat's COLOR Tells You Its Gender | Cat Psychology | `orange-cats-are-boys` | ⏰ scheduled |
+| 9 мая | Сб | Your Cat Says "I Love You" Every Day (Slow Blink) | Cat Psychology | `why-cats-slow-blink` | ⏰ scheduled |
+| 10 мая | Вс | What's Inside a Black Hole? | Did You Know-style / Brain Hacks | `whats-inside-a-black-hole` | ⏰ scheduled |
+| 11 мая | Пн | Your Cat Treats You Like... (Hair Licking) | Cat Psychology | `why-cats-lick-your-hair` | ⏰ scheduled |
+| 12 мая | Вт | Why Music Gives You Goosebumps | Brain Hacks | `why-music-gives-you-goosebumps` | ⏰ scheduled |
+
+### План на 13-19 мая (по утверждённой rubric)
+
+| Дата | День | Рубрика | Тема | Slug | Статус |
+|------|------|---------|------|------|--------|
+| 13 мая | Ср | Cat Psychology | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
+| 14 мая | Чт | Kids Trend | Why Your Kid Won't Stop Saying 6-7 | `why-kids-say-6-7` | 📝 script готов |
+| 15 мая | Пт | What If? | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
+| 16 мая | Сб | Cat Psychology | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
+| 17 мая | Вс | Did You Know | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
+| 18 мая | Пн | Cat Psychology | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
+| 19 мая | Вт | Brain Hacks | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
+
+### Long-form pipeline
+
+| Видео | Старт production | Publish target | Статус |
+|-------|------------------|-----------------|--------|
+| Cat Evolution (15 мин) | 8 мая 2026 | июнь 2026 | 📝 структура есть, скрипт ⏳ |
+
+---
+
+## 🔑 Кандидаты на 13-19 мая (черновик)
+
+Источник: backlog в `content-ideas.md`. Финализируется после vidIQ анализа (12 мая возвращаются credits).
+
+### 13 мая (Ср — Cat Psychology)
+- 🟢 **Why Cats Hate Closed Doors** — universal experience, low Shorts saturation
+- 🟢 Why Your Cat Stares at You for No Reason
+
+### 15 мая (Пт — What If?)
+- 🟢 **What If Earth Stopped Spinning?** — visual extreme, cat flying off scenery
+- 🟢 What If Humans Had Tails?
+- 🟢 What If You Fell Through Earth?
+
+### 16 мая (Сб — Cat Psychology)
+- 🟢 **Your Cat Sees You as a Giant Weird-Looking Cat** — relatable mind-blow, новая для нас
+- 🟢 Why Cats Roll on Their Backs (NOT for belly rubs)
+
+### 17 мая (Вс — Did You Know)
+- 🟢 **Your Stomach Gets a New Lining Every Few Days** — universal mind-blow
+- 🟢 Cleopatra Lived Closer to the Moon Landing Than to the Pyramids
+- 🟢 Sharks Existed Before Trees
+
+### 18 мая (Пн — Cat Psychology)
+- 🟢 **Why Cats Slow Blink** ✅ уже сделан — переиспользуем сильную тему
+- 🟢 Why Your Cat Meows ONLY at Humans (not other cats)
+- 🟢 Cats Can Hear You Blinking
+
+### 19 мая (Вт — Brain Hacks)
+- 🟢 **Why You Forget Names Instantly** — universal experience
+- 🟢 The Phantom Vibration Effect (you feel phone buzz that didn't happen)
+- 🟢 Why You Can't Tickle Yourself
+
+---
+
+## Pipeline статус в работе (текущие скрипты)
+
+| Slug | Дата | 📝 | 🎨 | 🎬 | 🎞️ | ⏰ | 📤 |
+|------|------|----|----|----|-----|-----|-----|
+| `orange-cats-are-boys` | 8 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
+| `why-cats-slow-blink` | 9 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
+| `whats-inside-a-black-hole` | 10 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
+| `why-cats-lick-your-hair` | 11 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
+| `why-music-gives-you-goosebumps` | 12 мая | ✅ | 🟡 in progress | ⏳ | ⏳ | ⏳ | ⏳ |
+| `why-kids-say-6-7` | 14 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+
+(Уточни — какие именно стадии уже готовы. Я предполагал что для запланированных в YouTube всё готово до scheduled статуса.)
+
+---
+
+## Как использовать этот файл
+
+- **Мне (Claude):** обновляю при каждой правке/новом скрипте
+- **Тебе:** одна страница где видно что где находится, что нужно делать дальше, и что в очереди
+- **Pipeline статусы:** ⏳ pending → 🟡 in progress → ✅ done
