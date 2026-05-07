@@ -132,6 +132,46 @@ Lock these for **Brain's character only**. Backgrounds and environments are NOT 
 | Payoff | Close-up reaction + bold text |
 | CTA | Cat looking at camera, brand colors |
 
+### 5b. Scene variety & dynamism (retention rule)
+
+Identical framing across 8 scenes = viewers swipe away. Every script must deliberately vary three axes per scene to keep eyes engaged:
+
+**1. Shot size — rotate, never repeat back-to-back:**
+- Extreme close-up (eye / mouth / paw detail)
+- Close-up (face fills frame)
+- Medium close-up (head + shoulders + collar tag)
+- Medium (full body of Brain + immediate prop)
+- Wide / establishing (Brain inside the location, smaller in frame)
+- Overhead / top-down (rare, for impact)
+
+**2. Camera motion — at least 3 different moves across 8 scenes:**
+- Static (default — overuse = boring)
+- Slow push-in (1–5 % over the clip — emotional moments)
+- Slow pull-back (reveals more of the world)
+- Slight dolly left or right
+- Tilt up / down (when Brain looks up at something)
+- Whip-pan transition (between scenes, not within)
+
+**3. Brain's pose / angle — never two scenes in a row from the same angle:**
+- Front-facing (camera looks at Brain head-on)
+- 3/4 view (most flattering, default)
+- Profile (side view — strong for action like cheek-rub, lick, telescope)
+- From behind (over-the-shoulder showing what Brain is seeing)
+- Low angle looking up (makes Brain feel authoritative — good for scientist scenes)
+- High angle looking down (makes Brain feel small/cute — good for hook beats)
+
+**Per-scene checklist (apply when writing every shot):**
+
+- [ ] Is this shot size different from the previous scene's?
+- [ ] Is the camera doing something different from the previous scene? (static is allowed but no more than 2 statics in a row)
+- [ ] Is Brain's angle to camera different from the previous scene?
+- [ ] Is something on screen always moving (tail flick, ear twitch, whisker twitch, blink, fur ripple, glow pulse)?
+- [ ] Does the cut land on a VO beat or stress, not a fixed 7-sec interval?
+
+**Anti-pattern (avoid):** 6+ scenes of "Brain sitting medium close-up facing camera" — even if expressions vary, the framing reads as a single static talking-head and retention drops.
+
+**Pro tip:** Sketch the 8 shot sizes before writing prompts. A rhythm like CU → wide → low-medium → push-in CU → side profile → slow zoom CU → overhead → centered medium is far more dynamic than 8 medium-close-ups in a row.
+
 ---
 
 ## 6. Audio
