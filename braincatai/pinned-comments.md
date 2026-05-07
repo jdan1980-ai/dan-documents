@@ -135,6 +135,12 @@ Would YOU go into a black hole if you could? 🕳️ Drop a 🚀 if yes, 💀 if
 Does YOUR cat lick your hair? 🐱 Drop a 💚 if yes — apparently you've been adopted. Tell me what your cat thinks you are below 👇
 ```
 
+### 21. Why Music Gives You Goosebumps (TBD) — Brain Hacks
+
+```
+What song gives YOU goosebumps every time? 🎶 Drop the title below — let me build the ultimate frisson playlist 💚
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
