@@ -132,3 +132,58 @@ The cat should *react* (surprised, smug, confused, "aha!") to keep retention. Us
 - **Avg view duration > 80%** = strong hook
 - **Swipe-away in first 3s** = bad hook, recut
 - **Shares > likes ratio** = viral signal, double down on that format
+
+---
+
+## 🎬 Long-form videos (NEW format — not Shorts)
+
+Канал может расширяться в long-form (10–15+ минут) для глубоких тем. Это **другой формат** со своими правилами:
+
+- **Длительность:** 10–15 минут (не 60 сек)
+- **Aspect ratio:** 16:9 horizontal (не 9:16)
+- **Пайплайн отличается:** Veo 3 максимум 8 сек на клип → нужно ~80–120 клипов на 12-мин видео + статичные изображения + B-roll + диаграммы + анимированные графики
+- **VO темп медленнее:** ~120 wpm (vs 130 для Shorts), с паузами для драматического эффекта
+- **Структура:** глава́ми (chapters) с YouTube-маркерами, не 8 сцен
+- **Hook:** первые **15–30 сек** должны зацепить (вместо 2 сек в Shorts)
+- **Mid-roll retention beats:** каждые 2–3 минуты нужен payoff/surprise чтобы зритель не ушёл
+- **End screen + cards:** на последней минуте — рекомендации других видео
+- **Brain как narrator/host:** через всё видео + появляется в разных костюмах/эпохах
+- **SEO:** длинный title (60–100 chars), описание 1500+ chars, главы (chapters) с timestamps в описании
+
+### Идея в работе: **The Evolution of Cats** (10–15 мин)
+
+**Концепция:** Brain ведёт зрителя через 45 миллионов лет эволюции кошачьих — от первых хищников до домашних котов. Brain меняет костюмы по эпохам.
+
+**Возможные главы (chapters):**
+
+| Время | Глава | Brain look | Что показываем |
+|-------|-------|-----------|-----------------|
+| 0:00 | Hook + cold open | Modern Brain | "Your house cat is a 45-million-year-old killing machine" |
+| 0:30 | Intro + промис | Modern Brain | Brain показывает family tree кошачьих |
+| 1:30 | **Origin: Proailurus** (45 млн лет назад) | **Prehistoric/cave Brain** | Первые настоящие кошки — древесные хищники |
+| 3:30 | **Saber-tooths era** (Smilodon, 2.5 млн лет) | Smilodon-style Brain (with mock-up tusks?) | Размер, охота, почему вымерли |
+| 5:30 | **Cats spread across the planet** | Map-explorer Brain | Льв, тигр, гепард, рысь — common ancestors |
+| 7:30 | **Domestication** (10K лет назад, Near East/Egypt) | **Egyptian Brain** (с золотым обручем + ohm) | Как кошки одомашнили *себя* |
+| 10:00 | **Modern breeds** | **Victorian Brain** + variants | Селекция, генетика окрасов |
+| 12:00 | **Future of cats** + payoff | Modern Brain | DNA studies, что дальше |
+| 13:30 | CTA + end screen | Modern Brain | Subscribe, watch next |
+
+**Production challenges:**
+- Brain в разных эпохах = много новых costume prompts → расширить тематический список в style-guide §2
+- Локации: prehistoric forest, savannah, ancient Egypt temple, Victorian parlor, modern bedroom — 5+ локаций (нарушает 1–3 правило **только для long-form**)
+- Veo 3 limit: ~80–120 клипов значит много рендеринга. Можно мешать с still images (cinemagraphs) для экономии
+- Animated maps + family-tree diagrams в Google Vids (не в Veo 3)
+
+**SEO направление:**
+- Title: "The Wild Evolution of Cats: From Saber-Tooths to House Cats" (~60 chars)
+- Категория: Education / Science
+- Тэги: cat evolution, history of cats, cat ancestors, saber tooth tiger, ancient egypt cats, cat domestication
+
+**Что нужно решить перед production:**
+1. Целевая длительность — 10 или 15 мин?
+2. Озвучка — TTS (ElevenLabs) или твой голос?
+3. Главы / без глав?
+4. Какие конкретно эпохи покрыть (3–4 самые сильные, или все 6)?
+5. Visual budget — сколько Veo 3 клипов готов потратить (~80 vs 120)?
+
+**Отложено для:** отдельной планировочной сессии, когда подойдём вплотную. Сначала закончим текущий цикл Shorts.
