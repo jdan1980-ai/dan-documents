@@ -52,6 +52,7 @@ If editing the script's title, scenes, or VO, **re-verify tags reflect the new t
 - Each scene's voiceover ≤ 8 sec of speech (Veo 3 max clip length).
 - VO must work for kids AND adults — no jargon, no scary words. See `style-guide.md` §9 swap table.
 - Scientist/doctor/detective/etc. costume scenes — see `style-guide.md` §2 thematic costumes table. Wardrobe must keep collar + heart tag visible at the V-cut neckline.
+- **Visualize the VO literally — show, don't pose.** If the VO names a concrete thing or action, the visual must literally show it (Brain licking the hair, holographic mother+kitten, thought-bubble of clumsy kitten, etc.). Generic "Brain sits with X expression" wastes Veo 3 credits. See `style-guide.md` §5d for tools (holograms, thought-bubbles, off-frame humans, costumes).
 
 ## Notes
 

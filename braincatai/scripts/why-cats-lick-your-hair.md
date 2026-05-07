@@ -300,33 +300,35 @@ But here's the twist. Mother cats lick kittens to clean them.
 
 ## Scene 6 — Twist / aha moment (35–42 sec)
 
-**Beat purpose:** Emotional payoff — your cat thinks YOU are a kitten who needs grooming. Brain looks lovingly/parentally at camera (the viewer is the kitten).
+**Beat purpose:** Visualize the VO literally — show what Brain THINKS of the viewer. A thought-bubble above Brain reveals a tiny stylized cartoon "clumsy kitten" failing to groom itself, while Brain watches with tender amused parental concern.
 **Location:** A | **Wardrobe:** Regular Brain
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain on the bed in any natural pose facing camera, leaning very slightly forward toward camera with a deeply caring tender parental expression — vivid emerald green eyes warm and concerned-affectionate (the way a mother looks at her clumsy child), eyebrows softened, head tilted gently to the right. A tiny soft pink heart sparkle visible near his cheek to convey tenderness. Brain has 4 paws total — let him sit naturally.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain on the bed in any natural pose looking up and slightly to his right with a deeply tender concerned-amused PARENTAL expression — vivid emerald green eyes warm and softly amused (the way a mother looks at her clumsy child trying to do something for the first time), eyebrows softened, head tilted gently. Above Brain's head and to his right floats a soft glowing translucent CARTOON THOUGHT-BUBBLE rendered as a fluffy cloud shape with three small bubble dots leading from Brain's head up to it. INSIDE the thought-bubble: a stylized cartoon illustration of a tiny clumsy kitten figure (clearly drawn as a 2D cute cartoon doodle, NOT a second realistic 3D cat) attempting to groom itself but failing comically — fur sticking up in messy tufts on top of its head, one paw raised in the wrong direction trying to reach its own back, pink tongue sticking out at an awkward angle, eyes crossed adorably. The thought-bubble has soft pastel colors and gentle glow, clearly stylized as Brain's THOUGHT, not a real other cat. A small soft pink heart sparkle visible near Brain's cheek conveying tenderness. Brain has 4 paws total.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Static medium close-up, slight slow push-in (frame moves 5% closer over 7 seconds), eye-level. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
+SHOT: Static medium close-up, slight slow PUSH-IN (frame moves ~5% closer over 7 seconds) toward Brain's tender expression. Frame composition: Brain in lower-left, thought-bubble in upper-right above his head. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
 
-TIME 0–2s: Brain on the bed facing camera with deeply caring vivid emerald green eyes, head tilts gently to the right, soft warm expression.
+TIME 0–2s: Brain on the bed looks up and slightly to his right, vivid emerald green eyes warm and softly amused. The cartoon thought-bubble fades in above his head with the three small connecting bubbles popping in one by one.
 
-TIME 2–5s: Brain leans his head and shoulders very slightly forward toward camera with a tender concerned expression, as if checking on a kitten that can't clean itself. A tiny soft pink heart sparkle appears briefly near his cheek and dissolves.
+TIME 2–5s: INSIDE the thought-bubble, the tiny clumsy cartoon kitten attempts to groom itself — its paw waves in the wrong direction trying to reach its own back, its tongue sticks out the wrong way, it falls over softly to one side then sits back up with its fur even more messy. Brain watches this with a deeply tender amused parental expression, eyebrows softened, the corners of his closed mouth in a small loving smile-shape.
 
-TIME 5–7s: Brain gives one slow loving blink, soft warm pulse of light around him, ears softened.
+TIME 5–7s: A small soft pink heart sparkle pulses briefly near Brain's cheek. Brain gives one slow loving blink at the thought-bubble, the bubble pulses warmly once and softens. Soft warm halo around Brain.
 
 EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER 5 paws or extra limbs.
 
-MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement. All tenderness through eyes and the reaching paw.
+MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds, with a small loving smile-uplift at the corners. No lip-sync. No chewing. No chattering. No mouth movement.
 
-STYLE: Pixar 3D render, cinematic warm morning lighting, vertical 9:16, soft depth of field.
+THOUGHT-BUBBLE RULE: The cartoon kitten inside the thought-bubble is clearly stylized as a 2D cute doodle illustration — flat colors, simple linework, soft pastel palette — NOT a realistic 3D cat. It is unmistakably Brain's thought, not a second real character in the scene. The bubble has soft glow with the three connecting bubbles always linking it to Brain's head.
+
+STYLE: Pixar 3D render for Brain and bedroom; the thought-bubble is a 2D cartoon overlay floating in 3D space. Cinematic warm morning lighting, vertical 9:16, soft depth of field.
 ```
 
 **🎙️ Voiceover:**

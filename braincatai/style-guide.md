@@ -220,6 +220,38 @@ If your prompt could describe a stuffed-animal-on-a-stick, rewrite it.
 
 **Per-script test:** read the 8 animation prompts in sequence. If you can't picture distinct physical actions in each, rewrite.
 
+### 5d. Visualize the VO literally — show, don't pose (credit-saver rule)
+
+**If the VO names a concrete thing or action, the visual must literally show it.** Don't waste Veo 3 credits on generic "Brain sits with X expression" shots when the VO is describing something specific that can be shown.
+
+**Examples:**
+
+| VO line | ❌ Lazy visual | ✅ Literal visual |
+|---------|----------------|--------------------|
+| "Your cat licks your hair" | Brain on a bed looking smug | Brain mid-lick on a strand of human's hair (face turned away) |
+| "Mother cats lick kittens to clean them" | Brain looking warmly at camera | Holographic cartoon of mother cat licking a tiny kitten |
+| "Your cat thinks YOU are a clumsy kitten" | Brain with caring expression | Thought-bubble above Brain showing a cartoon clumsy kitten failing to groom itself |
+| "Cats stretch like a noodle in a black hole" | Brain looking surprised in space | Brain's body literally stretched 4× into a noodle |
+| "Cats slow blink to say 'I love you'" | Brain looking at camera lovingly | Brain performing a deliberate slow blink + tiny heart pupils |
+| "Scientists tested it" | Brain looking thoughtful | Brain in lab coat with chart/diagram of the experiment |
+
+**Tools to literalize abstract VO without rendering "multiple cats":**
+
+- **Holographic floating illustration** beside Brain (cartoon stylized, never photoreal — used for "mother cat licks kitten", "cats spread across the planet", scientific diagrams)
+- **Thought-bubble above Brain's head** (used for what Brain is thinking — "your cat thinks YOU are a clumsy kitten", "cat dreams of mice")
+- **Reflection in glasses / mirror / water** (used for showing the human / showing what Brain sees)
+- **Off-frame human (face turned away)** (for VO lines that involve the viewer/human directly)
+- **Costume on Brain** (scientist / detective / chef / explorer / saber-tooth / Egyptian — see §2 thematic costumes)
+
+**Why this matters:**
+
+1. **Retention** — viewers stay when each scene visually delivers a fresh idea
+2. **Credits** — Veo 3 clips cost real money; a generic talking-head is a wasted clip
+3. **Memorability** — viewers remember the visual moment, not the text on top of it
+4. **Algorithm** — distinct frames per scene → higher engagement signal → more reach
+
+**Per-scene check:** open every script's animation prompt next to its VO line. Ask: *if I muted the audio, would a viewer still understand what's being said from the visual alone?* If no, rewrite the visual.
+
 ---
 
 ## 6. Audio
