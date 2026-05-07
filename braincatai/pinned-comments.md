@@ -141,6 +141,12 @@ Does YOUR cat lick your hair? 🐱 Drop a 💚 if yes — apparently you've been
 What song gives YOU goosebumps every time? 🎶 Drop the title below — let me build the ultimate frisson playlist 💚
 ```
 
+### 22. Why Your Kid Won't Stop Saying 6-7 (TBD) — Brain Hacks / Kids Trend
+
+```
+Be honest — did you Google "6-7" before clicking this? 🤣 Drop a 🤚 if yes. And tell me what OTHER kid words confuse you 👇
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы

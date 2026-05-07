@@ -225,3 +225,108 @@ The cat should *react* (surprised, smug, confused, "aha!") to keep retention. Us
 - ⏳ Music brief — оркестральный documentary tone
 
 **Отложено для:** отдельной планировочной сессии. Сначала закончим текущий цикл Shorts.
+
+---
+
+## 👶 Kids Trend / Meme Explainers (новая рубрика)
+
+Объяснение современных детских мемов / трендов / сленга для родителей и учителей. Высокий search intent — взрослые ищут «что значит X» когда дети дома повторяют. Brain Hacks niche подходит.
+
+**Производственные особенности:**
+- Целевая аудитория: **родители 25–45**, не дети
+- Title pattern: `Why Your Kid Won't Stop Saying X` / `What Does X Actually Mean?`
+- Brain в роли «explainer для растерянных родителей»
+- Часто можно использовать литеральные жесты / визуализацию мема
+- Pinned comment: «Be honest — did you Google this before clicking?» (низкий порог)
+
+### Backlog тем (приоритет = текущая релевантность)
+
+| 🔥 Приоритет | Тема | Что объясняем | Жест/визуал |
+|--------------|------|----------------|-------------|
+| 🟢 в работе | **6-7** | Skrilla "Doot Doot" + LaMelo Ball 6'7" + рука вверх/рука вниз | Жест 6-7, баскетбольная майка |
+| 🟢 ВЫСОКИЙ | **Skibidi Toilet** | Анимационный YouTube-сериал, теперь означает «cringe» / «brainrot» | Brain в туалете-голове |
+| 🟢 ВЫСОКИЙ | **Gyatt** | Реакция на чью-то фигуру (от GD: God damn) | Brain делает большие глаза |
+| 🟡 СРЕДНИЙ | **Rizz / Rizzler** | Charisma / способность флиртовать | Brain в стиле «pickup artist» |
+| 🟡 СРЕДНИЙ | **Sigma / Alpha male** | Псевдо-доминантная мужественность из мемов | Brain в очках-pилотках |
+| 🟡 СРЕДНИЙ | **Ohio** | Используется как «странное / cursed» (откуда — мемы про штат Огайо) | Brain в страшном Огайо-визуале |
+| 🟡 СРЕДНИЙ | **Bussin** | Очень вкусно / отлично | Brain ест кусок и взрывается |
+| 🟡 СРЕДНИЙ | **Mewing / mogging** | Тренд на челюстную линию + сравнение лиц | Brain поджимает подбородок |
+| 🟢 ВЫСОКИЙ | **Brainrot vocabulary explainer** | Skibidi + Gyatt + Sigma + Rizz в одном (compilation) | Все мемы по очереди |
+| 🟡 СРЕДНИЙ | **Demure** ("very mindful, very demure") | Trend 2024 от Jools Lebron | Brain в скромной позе |
+| 🟢 ВЫСОКИЙ | **NPC behavior** | "Standing like an NPC" / NPC streamers | Brain застрявший в петле |
+| 🟡 СРЕДНИЙ | **Pookie / cooked** | Pookie = ласково / cooked = всё пропало | Brain в двух состояниях |
+| 🟢 ВЫСОКИЙ | **Cap / no cap** | Cap = ложь / no cap = правда | Brain с кепкой / без |
+| 🟡 СРЕДНИЙ | **Slay / slaying** | Делать что-то невероятно круто | Brain в роли super-star |
+
+**Что лучше делать в первую очередь:**
+1. **6-7** (в работе) — пиковый запрос
+2. **Skibidi Toilet explainer** — массивная аудитория ищет
+3. **Brainrot vocabulary** (compilation) — серия слов сразу = retention
+4. **Gyatt / Rizz / Sigma** (compilation или отдельно) — высокий search
+
+---
+
+## 📅 Еженедельный график рубрик (черновик — нужно подтвердить)
+
+> **Зачем:** субскрайберы ждут конкретный контент в конкретный день → выше return rate → выше алгоритмическая раздача. Также проще планировать production batch'ами.
+
+### Анализ существующих данных канала
+
+Из `analytics/2026-05-snapshot.md`:
+
+| Рубрика | Сделано | Лучший результат | Конверсия в сабы |
+|---------|---------|-------------------|------------------|
+| **Cat Psychology** | 13 видео | Dead Things 998 / 32 likes | **7.0/1K** (Dead Things) |
+| **Brain Hacks** | 1 опубликовано (Sky Blue) + 2 в очереди (Doorway, Vagus) | Sky Blue 1 367 / 29 likes / 11 subs | **8.0/1K** ⭐ ЛУЧШЕЕ |
+| **Kids Trend** | 0 (новая рубрика) | n/a | — |
+| **Long-form** | 0 (в плане) | n/a | — |
+
+**Sky Blue (Brain Hacks) дал лучшую конверсию** — 8 сабов на 1 000 просмотров. Это сильный сигнал что Brain Hacks работает на канале не хуже Cat Psychology.
+
+### Предлагаемый график (Mon → Sun)
+
+| День | Рубрика | Почему | Sample topics |
+|------|---------|--------|---------------|
+| **🐱 Понедельник** | Cat Psychology | Старт недели + cute content = высокий watch time | Slow Blink, Hair Licking, Make Biscuits |
+| **🧠 Вторник** | Brain Hacks | Учебная тематика для рабочей недели | Doorway Effect, Vagus Nerve, Goosebumps |
+| **🐱 Среда** | Cat Psychology | Закрепляем core ниши (она самая большая по volume) | Bring Dead Things, Box Over Bed |
+| **👶 Четверг** | Kids Trend Explainer | Родители вечером скроллят + готовы к meme контенту | 6-7, Skibidi, Gyatt |
+| **🧪 Пятница** | What If? / Hypothetical | Weekend mood — играем с экстремальными сценариями | What If Earth Stopped, What If Humans Had Tails |
+| **🐱 Суббота** | Cat Psychology | Высокий viewer time в выходной + основная аудитория | Cats Hate Closed Doors, Cats See You as Giant Cat |
+| **🌌 Воскресенье** | Did You Know / Mind-Blow | Длинные сессии Shorts — последний штрих недели | Bananas Radioactive, Sharks Before Trees, Octopus 3 Hearts |
+
+**Распределение по неделе:**
+- Cat Psychology: **3×/неделю** (Mon, Wed, Sat) — основная ниша
+- Brain Hacks: **1×/неделю** (Tue) — стабильно сильная конверсия
+- Kids Trend: **1×/неделю** (Thu) — новая рубрика, тестируем
+- What If: **1×/неделю** (Fri) — playful angle
+- Did You Know: **1×/неделю** (Sun) — viral facts
+
+**= 7 видео в неделю.** Если темп слишком плотный — можно сократить до 5 (убрать среду+воскресенье или объединить).
+
+### Раз в месяц (бонус)
+
+- **Один Long-form** (10–15 мин) — например, Cat Evolution, заменяет 1 день рубрики
+
+### Что нужно для финализации графика
+
+1. **Анализ конкретного спроса** через vidIQ (credits возвращаются 12 мая 2026):
+   - `vidiq_keyword_research` — точные search volume по 6-7, skibidi, gyatt, frisson, slow blink, etc.
+   - `vidiq_outliers` — какие конкретно темы в каждой рубрике аномально вирусят
+   - `vidiq_breakout_channels` — кто из каналов в этих нишах резко растёт
+2. **Google Trends проверка** — какие темы трендят сейчас в каждой рубрике
+3. **A/B тест 4 недели** — после полного цикла смотрим какой день/рубрика дала лучший retention + sub conversion
+4. **Уточнить бюджет:** 7 видео в неделю = ~28 в месяц = серьёзный production. Если столько не вытянуть — урезаем до 4-5 в неделю
+
+### Альтернативный лёгкий вариант: 4 видео в неделю
+
+Если 7/неделю слишком много:
+
+| День | Рубрика |
+|------|---------|
+| Понедельник | Cat Psychology |
+| Среда | Brain Hacks |
+| Пятница | Kids Trend Explainer |
+| Воскресенье | Cat Psychology #2 (выходной — высокий viewer time) |
+
+= 4 видео/неделю, 3 рубрики, более устойчивый темп.
