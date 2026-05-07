@@ -180,10 +180,36 @@ The cat should *react* (surprised, smug, confused, "aha!") to keep retention. Us
 - Тэги: cat evolution, history of cats, cat ancestors, saber tooth tiger, ancient egypt cats, cat domestication
 
 **Что нужно решить перед production:**
-1. Целевая длительность — 10 или 15 мин?
-2. Озвучка — TTS (ElevenLabs) или твой голос?
-3. Главы / без глав?
-4. Какие конкретно эпохи покрыть (3–4 самые сильные, или все 6)?
-5. Visual budget — сколько Veo 3 клипов готов потратить (~80 vs 120)?
+1. ~~Целевая длительность — 10 или 15 мин?~~ → **10 мин**
+2. ~~Озвучка — TTS или твой голос?~~ → **TTS, тот же ElevenLabs голос как в Shorts** (Adam/Charlie) для бренд-консистенции, темп 110–120 wpm
+3. ~~Главы / без глав?~~ → **Без глав** — плавный story flow, обязательны mid-roll hooks каждые 2–3 мин чтобы удерживать
+4. ~~Какие конкретно эпохи покрыть?~~ → **3–4 эпохи глубоко** (по 2–2.5 мин каждая), не все 6. Топ-3 по виральному потенциалу:
+   - 🦷 **Saber-tooth era** (визуально мощно — большие зубы, охота, вымирание)
+   - 🏺 **Egyptian domestication** (emotional — коты одомашнили себя, поклонение)
+   - 🏠 **Modern breeds + DNA** (relatable — все знают своих котов)
+   - Опционально 4-я: 🌳 Proailurus как короткий пролог (60 сек)
+5. **Visual budget mix на 10 мин (~120 ассетов):**
+   - **Veo 3 animated clips:** ~35–40 шт × 5–8 сек (Brain в action/костюмах/реакциях)
+   - **Still images** (Nano Banana): ~30–40 шт × 4–6 сек + Ken Burns zoom в Google Vids
+   - **Motion graphics** (Google Vids): ~15 шт × 5–8 сек (карты, family tree, графики)
+   - **Stock B-roll** (Pexels/Pond5): ~5–10 шт × 4–5 сек (природа, древний Египет, DNA)
+   - **Avg shot length:** 5 сек (vs 2–3 в Shorts) — long-form позволяет дышать
+   - **Cinemagraphs:** для пассивных моментов — still + лёгкая анимация в Google Vids (туман, шерсть, моргание) вместо Veo 3 = экономия
+
+### Структура 10-мин видео (без глав)
+
+| Время | Beat | Что |
+|-------|------|-----|
+| 0:00–0:30 | **Cold open hook** | "Your house cat is a 45-million-year-old killing machine" — Brain в современной комнате, реакция шок |
+| 0:30–1:30 | **Setup + промис** | Brain показывает family tree, "сегодня узнаешь как мы прошли путь от X до Y" |
+| 1:30–3:30 | **Эпоха 1: Saber-tooth era** | Brain в Smilodon-стиле, охота, размер, вымирание |
+| 3:30–3:45 | **Mid-roll hook #1** | "Но самое странное — кошки до сих пор делают то, что делали саблезубые..." |
+| 3:45–6:00 | **Эпоха 2: Egyptian domestication** | Egyptian Brain в храме, коты одомашнили себя, поклонение, мифология |
+| 6:00–6:15 | **Mid-roll hook #2** | "А современные коты считают тебя..." |
+| 6:15–8:30 | **Эпоха 3: Modern breeds + DNA** | Victorian Brain → modern Brain, генетика окрасов, breed selection |
+| 8:30–9:30 | **Payoff: что дальше** | DNA studies, future of cats, мощный mind-blow факт |
+| 9:30–10:00 | **CTA + end screen** | "Subscribe для long-form каждый месяц + watch next" |
+
+**Опциональная 4-я эпоха** (Proailurus): вставить 60 сек между Setup (1:30) и Saber-tooth (надо сократить две другие эпохи на 30 сек каждая)
 
 **Отложено для:** отдельной планировочной сессии, когда подойдём вплотную. Сначала закончим текущий цикл Shorts.
