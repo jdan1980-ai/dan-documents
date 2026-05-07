@@ -57,6 +57,23 @@ Single source of truth для статуса каждого видео по pipe
 |-------|------------------|-----------------|--------|
 | Cat Evolution (15 мин) | 8 мая 2026 | июнь 2026 | 📝 структура есть, скрипт ⏳ |
 
+#### Cat Evolution — 8-day production sprint
+
+User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп copy текущий Shorts pipeline.
+
+| День | Дата | Задача | Деливерабл |
+|------|------|--------|-----------|
+| **Day 1** | 8 мая Пт | **Foundation** | Brain Reference Sheet + 5 костюмов + 6 локаций в style-guide + полный VO script (~1700 слов) + asset shotlist по эпохам |
+| Day 2 | 9 мая Сб | 🌳 Эра 1: Proailurus | ~12 ассетов для 1:00-3:00 |
+| Day 3 | 10 мая Вс | 🦷 Эра 2: Saber-tooths | ~12 ассетов для 3:00-5:00 |
+| Day 4 | 11 мая Пн | 🌍 Эра 3: Spread | ~12 ассетов для 5:20-7:20 |
+| Day 5 | 12 мая Вт | 🏺 Эра 4: Egyptian (anchor) | ~14 ассетов для 7:20-9:30 |
+| Day 6 | 13 мая Ср | 🏠 Эра 5: Modern breeds | ~12 ассетов для 9:50-11:50 |
+| Day 7 | 14 мая Чт | 🧬 Эра 6: Future | ~10 ассетов для 11:50-13:30 |
+| **Day 8** | 15 мая Пт | **Assembly** | Hook + intro + emotional close + Google Vids склейка + ElevenLabs VO + Suno music + subtitles + thumbnail + SEO + schedule |
+
+Финиш: **15 мая** → публикация в июне с 2+ неделями буфера на полировку.
+
 ---
 
 ## 🔑 Кандидаты на 13-19 мая (черновик)
