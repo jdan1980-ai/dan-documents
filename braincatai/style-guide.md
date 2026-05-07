@@ -473,3 +473,48 @@ Always lead with the topic-specific emotional close BEFORE the follow line (see 
 
 - v1.0 — Initial style guide
 - Update this file when a rule changes. Add a note in the [content-ideas](./content-ideas.md) or specific script if it's a one-off exception.
+
+---
+
+## 📝 Known issues + planned fixes (TODO — apply on next batch)
+
+User feedback: Brain looks **slightly different across scenes of the same video** — sometimes chubbier (Sc 2 of hair-licking), sometimes more adult/realistic (low-angle CU like Sc 4), sometimes off-color (overhead like Sc 7). This is classic AI character drift between independent generations.
+
+### Root causes
+- The Locked Brain prompt is short (no body proportions, no age, no saturation lock)
+- Each Nano Banana generation is independent — text-only locking can't perfectly hold a character
+- Camera angles (low / overhead / wide) bias the AI toward chubby / adult / faded interpretations
+
+### Planned fixes (apply when revising the style guide / template)
+
+**A. Extend the Locked Brain prompt** with proportion + age + saturation locks:
+
+```
+Cute orange tabby kitten named Brain — YOUNG KITTEN (~4 months equivalent, NOT adult, NOT teenage), small lean kitten body (NOT chubby, NOT plump, NOT fat), Pixar kitten proportions (large head + small slender torso + plump cheeks + small button nose), big round sparkling VIVID EMERALD GREEN eyes (#3DDC84) at ~30% of face area (kitten-baby proportions), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur — saturation locked at medium-warm tabby orange #F2994A primary with burnt sienna #B65A2C stripes (NOT brighter, NOT darker, NOT washed out), pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition.
+```
+
+**B. Add a CONSISTENCY RULE block to every Veo 3 prompt** alongside EYE COLOR / ANATOMY / MOUTH:
+
+```
+CONSISTENCY RULE (strict): Preserve Brain's body proportions, fur saturation, and kitten-age appearance EXACTLY from the start frame. Do NOT age him up. Do NOT make him chubbier or thinner. Do NOT shift the fur color saturation between frames.
+```
+
+**C. Per-angle anti-drift guards**
+
+- **Overhead / top-down shots:** add `"Brain stays in his normal lean kitten proportions at this angle — overhead view does NOT make him look chubby or fat. Fur saturation stays at medium tabby orange #F2994A even with the floor color reflecting light upward."`
+- **Low-angle close-ups:** add `"Low angle does NOT make Brain look adult, imposing, or older — he stays as a young plump-cheeked kitten."`
+- **Wide / pulled-back shots:** add `"Brain stays clearly recognizable as the same young kitten — at distance his body proportions and fur saturation must not drift."`
+
+**D. Generate a Brain Reference Sheet (highest-leverage fix)**
+
+Standard production move:
+1. Generate ONE canonical Brain image — frontal portrait, neutral background, neutral light, perfect proportions
+2. Save as `braincatai/assets/brain-reference.png`
+3. For every new scene, use Nano Banana's **image-to-image / reference-image** feature with this canonical image as the reference
+4. Result: drastically tighter character consistency across an entire video
+
+This is the single biggest fix. Text-only character locks always drift; image-anchored locks drift much less.
+
+### When to apply
+
+Apply A + B + C **before the next batch of scripts**, or in a single sweeping refactor of style-guide.md / script-template.md. Apply D **before starting the long-form Cat Evolution video** — character consistency matters more there than in 60-sec Shorts.
