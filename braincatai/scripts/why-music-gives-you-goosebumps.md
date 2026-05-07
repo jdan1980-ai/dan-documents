@@ -338,6 +338,8 @@ MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-
 
 WARDROBE RULE (strict): Brain wears the cat-friendly headphones throughout — headband between his ears, cups behind his ears. Brown collar and gold heart tag visible. Glasses on.
 
+HEADPHONES RULE (strict): Brain has EXACTLY ONE pair of headphones, located ON HIS HEAD only — the headband arches between his ears, the cups rest just behind his ears. There is NO second pair of headphones anywhere on him. Around his NECK there is ONLY the brown leather collar with the gold heart-shaped "Brain" tag — NO neckband headphones, NO choker, NO duplicate headphone cups, NO white band hanging on the neck. The collar must NOT be confused with or duplicated as a second pair of headphones. ONE headphones on head, ONE collar at neck — never both items in both places.
+
 HOLOGRAM RULE: The prehistoric ancestor in the hologram is clearly stylized as a 2D cartoon doodle illustration — flat colors, simple linework, NOT a realistic 3D cat. It is unmistakably a translucent overlay, not a second character in the scene.
 
 SLOW-MOTION RULE: Time runs at approximately half-speed throughout — fur movements, blinks, and head turns all stretched and dramatic. This is the video's pattern interrupt; it should feel visibly slower than other scenes.
