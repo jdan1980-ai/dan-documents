@@ -172,6 +172,54 @@ Identical framing across 8 scenes = viewers swipe away. Every script must delibe
 
 **Pro tip:** Sketch the 8 shot sizes before writing prompts. A rhythm like CU → wide → low-medium → push-in CU → side profile → slow zoom CU → overhead → centered medium is far more dynamic than 8 medium-close-ups in a row.
 
+### 5c. Make Brain alive — action over poses (retention rule)
+
+Static talking-head Brain kills retention. Brain is a curious energetic kitten — **every scene needs a clear action beat, not just an emotion held for 7 seconds**. Viewers swipe away when nothing physically happens.
+
+**Action vocabulary to use in prompts:**
+
+| Beat type | Verbs |
+|-----------|-------|
+| Snap reactions | pounces, lands, recoils, flinches, jumps back, snaps head, double-takes, fur poofs, ears snap back, tail puffs |
+| Investigations | sniffs, paws at, taps, pokes, peers, leans, tilts head, follows with eyes |
+| Movement | scampers, dashes, darts, leaps into frame, slinks, pivots, circles |
+| Play | swats, stalks, crouches, springs, play-bows, chases (off-camera) |
+| Comedy beats | freeze-frame mid-air, slow recover, slow blink double-take, exaggerated shrug |
+
+**Anti-vocab (drop from prompts — they read as static):**
+
+- "sits and looks at camera"
+- "has a [emotion] expression"
+- "holds eye contact"
+- "maintains the pose"
+- "stays still while X happens around him"
+
+If your prompt could describe a stuffed-animal-on-a-stick, rewrite it.
+
+**Stack 2–3 micro-motions per scene** (overlap them on the timeline):
+
+> Bad: "Brain sits with curious expression."
+> Good: "Brain's tail flicks twice → ears swivel forward → he leans in slightly → eyes dart to the side → blink → looks back at camera."
+
+**Reaction shots > pose shots.** Brain should react to something — an off-camera sound, an on-screen prop, a sudden glow, a falling object. Reactions feel alive; poses feel posed.
+
+**Pattern interrupt (exactly one per video):** somewhere in the 8 scenes, do something visually surprising — sudden zoom, freeze-frame with screen-flash, Brain breaks the fourth wall with a knowing wink, a prop suddenly appears/transforms, quick speed-ramp (slow → fast). Place it on the twist or payoff beat. Used once, it spikes retention; used more, it loses power.
+
+**Beat-by-beat punch checklist (apply to every scene):**
+
+| Beat | Required punch element |
+|------|------------------------|
+| HOOK (Sc 1) | Snap reaction — eyes pop / fur poof / jaw drop / head whips around. The first 2 seconds must startle. |
+| Curiosity gap (Sc 2) | A specific micro-action (paw raises, head tilt, tail curl into question mark) — never just "thinks" |
+| Setup (Sc 3) | Brain physically interacts with the explanatory prop (swats chart, points dramatically, jumps onto desk) |
+| Build-up (Sc 4) | Anticipation — Brain crouches, pauses, freezes, builds tension |
+| Core (Sc 5) | The big visual payoff — transformation / reveal / movement spike |
+| Twist (Sc 6) | Pattern interrupt — pupil shape changes, hearts appear, color shift, freeze flash |
+| Bonus (Sc 7) | Callback or visual joke — small physical comedy beat |
+| CTA (Sc 8) | Wave + personality — ear flick during wave, tail curl, slow blink, soft meow |
+
+**Per-script test:** read the 8 animation prompts in sequence. If you can't picture distinct physical actions in each, rewrite.
+
 ---
 
 ## 6. Audio
