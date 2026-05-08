@@ -1,7 +1,7 @@
 """Fetch full video stats for both channels via yt-dlp and save as Markdown."""
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 from yt_dlp import YoutubeDL
@@ -19,8 +19,8 @@ CHANNELS = {
 }
 
 
-def fetch_channel(url: str) -> list[dict]:
-    """Fetch all videos for a channel with full stats."""
+def fetch_tab(url: str, tab: str) -> list[dict]:
+    """Fetch a single tab (/videos or /shorts) for a channel."""
     opts = {
         "quiet": True,
         "no_warnings": True,
@@ -28,9 +28,17 @@ def fetch_channel(url: str) -> list[dict]:
         "extract_flat": False,
         "playlistend": 200,
         "nocheckcertificate": True,
+        "ignoreerrors": True,
     }
-    with YoutubeDL(opts) as ydl:
-        info = ydl.extract_info(f"{url}/videos", download=False)
+    full_url = f"{url}/{tab}" if tab else url
+    try:
+        with YoutubeDL(opts) as ydl:
+            info = ydl.extract_info(full_url, download=False)
+    except Exception as e:
+        print(f"    [!] /{tab} failed: {e}", file=sys.stderr)
+        return []
+    if not info:
+        return []
     entries = info.get("entries") or []
     videos = []
     for e in entries:
@@ -47,9 +55,21 @@ def fetch_channel(url: str) -> list[dict]:
                 "upload_date": e.get("upload_date") or "",
                 "url": f"https://youtube.com/watch?v={e.get('id')}",
                 "tags": e.get("tags") or [],
+                "tab": tab or "main",
             }
         )
     return videos
+
+
+def fetch_channel(url: str) -> list[dict]:
+    """Fetch all videos for a channel: long-form + shorts, deduped by id."""
+    by_id: dict[str, dict] = {}
+    for tab in ("videos", "shorts"):
+        print(f"    [.] /{tab}...", file=sys.stderr)
+        for v in fetch_tab(url, tab):
+            if v["id"] and v["id"] not in by_id:
+                by_id[v["id"]] = v
+    return list(by_id.values())
 
 
 def fmt_dur(s: int) -> str:
@@ -78,6 +98,8 @@ def to_markdown(channel_label: str, channel_url: str, videos: list[dict]) -> str
     total_comments = sum(v["comments"] for v in videos)
     avg_views = total_views // max(len(videos), 1)
     median_views = sorted([v["views"] for v in videos])[len(videos) // 2]
+    shorts_count = sum(1 for v in videos if v.get("tab") == "shorts")
+    long_count = sum(1 for v in videos if v.get("tab") == "videos")
 
     lines = [
         f"## {channel_label}",
@@ -86,7 +108,7 @@ def to_markdown(channel_label: str, channel_url: str, videos: list[dict]) -> str
         f"",
         f"| Метрика | Значение |",
         f"|---|---|",
-        f"| Всего видео | {len(videos)} |",
+        f"| Всего видео | {len(videos)} (long: {long_count}, shorts: {shorts_count}) |",
         f"| Сумма просмотров | {total_views:,} |",
         f"| Сумма лайков | {total_likes:,} |",
         f"| Сумма комментов | {total_comments:,} |",
@@ -95,15 +117,17 @@ def to_markdown(channel_label: str, channel_url: str, videos: list[dict]) -> str
         f"",
         f"### Все видео (по убыванию просмотров)",
         f"",
-        f"| # | Видео | 👁 | 👍 | 💬 | ⏱ | Дата |",
-        f"|---|---|---:|---:|---:|---:|---|",
+        f"| # | Видео | 👁 | 👍 | 💬 | ⏱ | Дата | Тип |",
+        f"|---|---|---:|---:|---:|---:|---|---|",
     ]
     for i, v in enumerate(sorted_videos, 1):
         title = v["title"].replace("|", "\\|")[:80]
+        tab = v.get("tab", "")
+        kind = "🩳 short" if tab == "shorts" else "🎬 long" if tab == "videos" else ""
         lines.append(
             f"| {i} | [{title}]({v['url']}) "
             f"| {v['views']:,} | {v['likes']:,} | {v['comments']:,} "
-            f"| {fmt_dur(v['duration_s'])} | {fmt_date(v['upload_date'])} |"
+            f"| {fmt_dur(v['duration_s'])} | {fmt_date(v['upload_date'])} | {kind} |"
         )
     return "\n".join(lines) + "\n"
 
@@ -116,7 +140,7 @@ def main():
     md_parts = [
         "# Snapshot статистики каналов",
         "",
-        f"_Собрано: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')} через yt-dlp_",
+        f"_Собрано: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} через yt-dlp_",
         "",
     ]
 
