@@ -20,12 +20,17 @@ CHANNELS = {
 
 
 def fetch_tab(url: str, tab: str) -> list[dict]:
-    """Fetch a single tab (/videos or /shorts) for a channel."""
+    """Fetch a single tab (/videos or /shorts) for a channel.
+
+    Uses extract_flat='in_playlist' to read each video's basic stats
+    from the channel/shorts listing page without doing per-video format
+    probing (which fails on Shorts in many yt-dlp versions).
+    """
     opts = {
         "quiet": True,
         "no_warnings": True,
         "skip_download": True,
-        "extract_flat": False,
+        "extract_flat": "in_playlist",
         "playlistend": 200,
         "nocheckcertificate": True,
         "ignoreerrors": True,
@@ -44,6 +49,8 @@ def fetch_tab(url: str, tab: str) -> list[dict]:
     for e in entries:
         if not e:
             continue
+        thumbs = e.get("thumbnails") or []
+        thumb_url = thumbs[-1].get("url") if thumbs else e.get("thumbnail")
         videos.append(
             {
                 "id": e.get("id"),
@@ -55,6 +62,7 @@ def fetch_tab(url: str, tab: str) -> list[dict]:
                 "upload_date": e.get("upload_date") or "",
                 "url": f"https://youtube.com/watch?v={e.get('id')}",
                 "tags": e.get("tags") or [],
+                "thumbnail": thumb_url,
                 "tab": tab or "main",
             }
         )
