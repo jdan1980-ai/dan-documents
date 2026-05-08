@@ -25,31 +25,47 @@ This file is the single source of truth for the StillWave channel. All productio
 
 ---
 
-## 🎨 Aesthetic — HYBRID spec (Tokyo Skyscraper Apartment baseline)
+## 🎨 Aesthetic — HYBRID spec (Spacious Tokyo Penthouse baseline)
 
-**Default backdrop for all hybrid videos:** Modern luxury minimalist Japanese apartment on a high floor of a Tokyo / Osaka / Kyoto skyscraper at night, with floor-to-ceiling windows or balcony showing the massive Japanese cityscape — countless neon signs (kanji + katakana in pink, cyan, electric green, warm amber), distant skyscrapers with lit windows extending to horizon, red taillight streaks of cars on highways below, warm yellow street lights of Tokyo creating a sea of urban glow.
+**Default backdrop for all hybrid videos:** Spacious open-plan luxury Japanese penthouse on a high floor of a Tokyo / Osaka / Kyoto skyscraper at night. **Massive corner-wrap or full-wall floor-to-ceiling glass windows** are the dominant visual feature (>50% of visible interior surfaces). Beyond the glass: massive Japanese cityscape — countless neon signs (kanji + katakana in pink, cyan, electric green, warm amber), distant skyscrapers with lit windows extending to horizon, **red taillight streaks of cars on highways below**, warm yellow street lights of Tokyo creating a sea of urban glow.
 
-Every new-format thumbnail/scene must include all five:
+The room **breathes** — high ceilings (12–14 ft), generous negative space across floor and walls, sense of luxury through emptiness. Three light sources balance the scene:
 
-1. **Modern luxury Japanese apartment interior** (high floor) — minimalist, dark walnut / cedar / oak finishes, low desk or kotatsu-style table, floor-to-ceiling windows or balcony
-2. **Big Japanese city night view through windows** — neon signs (kanji/katakana characters glowing in pink/cyan/green/amber), distant skyscrapers with lit windows, **red taillight streaks of cars on highways below**, warm yellow street lights, occasional rain on glass
-3. **Modern productivity prop** (one or more): closed/open MacBook, ceramic coffee mug, open notebook with leather cover, brass desk lamp, fountain pen
-4. **ONE Japanese accent** (rotate per video):
+- 🔥 **Fireplace** (warm amber, left wall) — modern linear gas fireplace embedded in a slate stone or charcoal-stained wood feature wall, long horizontal flame visible behind tinted glass
+- 💻 **Open MacBook screen glow** (warm soft, on the desk) — laptop is ALWAYS OPEN with content actively visible (writing app / code editor / research notes — match the use case)
+- 🌃 **Cool neon city** through the windows (right / back) — pink, cyan, amber accents through possibly rain-streaked glass
+
+Every new-format thumbnail/scene must include all six:
+
+1. **Spacious open-plan luxury Japanese penthouse interior** — high ceilings, sense of breathing room, dark walnut / cedar / oak finishes + slate stone accents, low desk or kotatsu-style table
+2. **Massive floor-to-ceiling windows** showing big Japanese city night view (neon kanji/katakana signs, distant skyscrapers, red taillight streaks below) — windows must be the dominant feature, NOT a small accent
+3. **Modern minimalist fireplace** on a side wall — long horizontal flame, warm amber glow casting into the room
+4. **OPEN MacBook with active screen content** — writing app / code editor / research notes (match the use case). Screen content rendered as **abstract horizontal text-stripe patterns**, NEVER readable letters (avoids garbled-text artifact)
+5. **ONE Japanese accent** (rotate per video):
    - 🌿 Bonsai (black pine, juniper) on desk
    - 🏮 Andon paper lantern (warm amber glow) on desk or windowsill
    - 🍵 Japanese ceramic tea cup with steam
    - 📜 Hanging scroll with kanji calligraphy on wall (atmospheric only, unreadable)
    - 🌸 Ikebana arrangement
    - 🎴 Shoji-inspired interior screens (modern interpretation, not traditional)
-5. **Photorealistic cinematic style**:
-   - 16:9 wide cinematic framing, slightly asymmetric
-   - Floor-to-ceiling window dominates the right (or left) side of the frame
-   - Shallow depth of field on the foreground prop, city lights as soft bokeh through the glass
-   - Muted dark interior palette (charcoal blacks, walnut/cedar browns) contrasted with vibrant but soft neon city accents (pink, cyan, amber) and red taillight streaks
-   - Atmospheric depth: 3 distinct planes (foreground prop / mid-ground floor-to-ceiling window / background neon Tokyo skyline)
-   - **NO text, NO logos, NO watermarks** in image
+6. **Photorealistic cinematic style**:
+   - Ultra-wide 16:9 cinematic framing showing the spacious room
+   - Shallow depth of field on the foreground prop, city lights + fireplace flame as soft glowing bokeh
+   - Muted dark interior palette (charcoal blacks, walnut/cedar browns, slate gray stone) contrasted with vibrant but soft neon city accents (pink, cyan, amber) AND warm fireplace amber
+   - Atmospheric depth: 4 distinct planes (foreground prop / mid-ground room with fireplace / background floor-to-ceiling windows / far-background neon Tokyo skyline)
+   - **NO text, NO logos, NO watermarks** in image (laptop screen UI doesn't count — describe screen content as abstract stripe patterns, not readable letters)
 
-This Tokyo-apartment backdrop is the NEW visual signature of StillWave. Every hybrid video uses it. Different videos vary the **prop, mood (rainy / clear / misty / snowing), interior light (warm laptop glow / paper lantern / desk lamp), and Japanese accent** — but the apartment + neon city view stays consistent. Builds brand recognition.
+This Spacious Tokyo Penthouse backdrop is the LOCKED visual signature of StillWave. Every hybrid video uses it. Different videos vary the **prop, mood (rainy / clear / misty / snowing), Japanese accent, and laptop screen content** — but the spacious penthouse + massive windows + fireplace stays consistent. Builds brand recognition.
+
+### Laptop screen content per use case
+
+| Video use case | Screen content (described as abstract patterns) |
+|----------------|-------------------------------------------------|
+| Coding / programming | Dark VS Code-style editor with horizontal stripes in green/blue/orange syntax-highlight colors (NOT readable code) |
+| Writing / journaling | Clean dark writing app with paragraph-shaped horizontal text stripes and a blinking cursor (NOT readable text) |
+| Studying / research | Notes app with mixed text stripes and occasional bigger heading blocks, dark mode |
+| Trading / analysis | Dark trading dashboard with abstract candle-stick chart shapes and number stripes |
+| Reading | E-reader-style page with horizontal text stripes, warm reading mode |
 
 ## Old format (иероглиф / Hz / sumi-e) — still allowed in Phase 1–2
 
@@ -59,25 +75,68 @@ Continue using the original style for the videos that aren't in the new format y
 
 ## 🛠️ Pipeline
 
-| Stage | Long-form video | Shorts |
-|-------|------------------|--------|
-| Music | Suno AI v5.5 | Suno AI v5.5 |
-| Image | NanoBanana 16:9 | NanoBanana 9:16 |
-| Video | **❌ NOT NEEDED — static image + audio** | Flow / Kling 9:16 (motion still required for Shorts) |
-| Assembly | **`ffmpeg`** combines image + audio | CapCut + ffmpeg |
-| Thumbnail | The same NanoBanana 16:9 image — no separate thumbnail step | Frame extracted from Shorts |
+Long-form has TWO mode options. **Default = Mode B (looped motion)** for the Phase 1 batch and beyond — gives the video life (rain on glass / fireplace flicker / laptop screen activity) without overspending on credits.
 
-### ffmpeg encode command (long-form static-image videos)
+### Mode A — Static image + audio (cheapest, no Flow/Kling)
+
+| Stage | Long-form |
+|-------|-----------|
+| Music | Suno AI v5.5 |
+| Image | NanoBanana 16:9 |
+| Video | ❌ Not generated — single still image |
+| Assembly | `ffmpeg` loops the still for the audio length |
+| Thumbnail | Same NanoBanana 16:9 image |
 
 ```bash
 ffmpeg -loop 1 -i thumbnail.jpg -i music.mp3 \
   -c:v libx264 -tune stillimage -pix_fmt yuv420p -r 1 \
-  -c:a aac -b:a 192k -shortest output.mp4
+  -c:a aac -b:a 192k -shortest -t 7200 output.mp4
+```
+
+Use for: budget runs, fastest turnaround, or if Flow/Kling gives bad results.
+
+### Mode B — Looped motion video + audio (default for Phase 1+)
+
+| Stage | Long-form |
+|-------|-----------|
+| Music | Suno AI v5.5 |
+| Image | NanoBanana 16:9 (start frame) |
+| Video | **Flow / Kling — 8-second seamless loop** with subtle motion (rain on glass, fireplace flicker, laptop screen activity) |
+| Assembly | `ffmpeg -stream_loop -1` repeats the 8-sec loop for the full audio length |
+| Thumbnail | Same NanoBanana 16:9 image |
+
+```bash
+ffmpeg -stream_loop -1 -i loop.mp4 -i music.mp3 \
+  -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
+  -c:a aac -b:a 192k -shortest -t 7200 output.mp4
+```
+
+Faster alternative (no re-encode — requires loop already in 1080p H.264 yuv420p):
+
+```bash
+ffmpeg -stream_loop -1 -i loop.mp4 -i music.mp3 \
+  -c:v copy -c:a aac -b:a 192k -shortest -t 7200 output.mp4
 ```
 
 For specific length use `-t 7200` (2H), `-t 10800` (3H), `-t 28800` (8H).
 
-> **`-r 1`** = 1 frame per second (since image is static, no need for higher fps — saves filesize 30×).
+### Loop motion rules (for Flow / Kling prompts)
+
+- **Camera locked** — no pan, zoom, dolly, or shake. Frame stays identical to the start image.
+- **3–4 motion elements only** — rain on glass / fireplace flicker / laptop screen activity / steam from a cup. Pick 3–4 max.
+- **Everything else still** — bonsai, tea cup itself, table, walls, furniture, distant city. Static.
+- **Distant cars / red taillights:** static shapes — NOT visibly moving (full traffic motion would be too distracting for ambient focus).
+- **Loop must be perfectly seamless** — last frame matches first frame. The looped audio is 2–3 hours long, so any seam shows up 900+ times. Pick repeating cycles for typewriter screen text and rain to ensure clean loop join.
+- **Subtle, not dramatic** — viewers leave this on for hours. Distracting motion = swipe-away.
+
+### Shorts pipeline (unchanged)
+
+| Stage | Tool |
+|-------|------|
+| Music | Suno AI v5.5 |
+| Image | NanoBanana 9:16 |
+| Video | Flow / Kling 9:16 (15–60 sec subtle motion loop — Shorts still need motion) |
+| Assembly | CapCut + ffmpeg |
 
 ---
 

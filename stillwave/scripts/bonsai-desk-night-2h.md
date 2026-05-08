@@ -7,7 +7,7 @@
 - **Format:** Long-form
 - **Length:** 2H (7 200 sec)
 - **Phase:** 1 (soft intro — balanced hybrid: modern dominant + Japanese accent)
-- **Aesthetic:** Hybrid Tokyo Apartment — high-floor skyscraper desk + open MacBook + bonsai + neon Tokyo skyline through floor-to-ceiling window
+- **Aesthetic:** Spacious Tokyo Penthouse — corner-wrap floor-to-ceiling windows + light rain on glass + neon Tokyo + modern linear fireplace + open MacBook with code editor + bonsai + coffee mug
 - **Status:** script ready — awaiting Suno + NanoBanana generation
 - **Upload date:** TBD (week of May 13–19)
 
@@ -37,34 +37,67 @@ Lo-fi minimal piano figure with deep sub-bass pulse every 8 bars, soft rain ambi
 ## 3. 🎨 NanoBanana prompt 16:9 (thumbnail + video visual)
 
 ```
-Photorealistic cinematic interior scene, modern luxury minimalist Japanese apartment on a high floor of a Tokyo skyscraper at night, light rain on the floor-to-ceiling window. Floor-to-ceiling glass windows dominate the right two-thirds of the frame. Beyond the windows: massive Japanese cityscape stretching to horizon — countless neon signs (kanji and katakana characters glowing in pink, cyan, electric green, warm amber, magenta), distant skyscrapers with lit windows in vertical grids, red taillight streaks of cars on highways and streets winding far below, warm yellow street lights of Tokyo creating a sea of urban glow. Light rain streaks on the glass, neon city visible but slightly distorted into beautiful bokeh. Foreground inside the apartment (left third of frame): dark walnut writing desk perpendicular to the window with an open silver MacBook laptop (warm amber screen glow as the dominant interior light source), a small Japanese black pine bonsai in a clay pot on the corner of the desk catching the city neon glow, a ceramic coffee mug with subtle steam rising, an open notebook with leather cover. Muted dark interior palette (charcoal blacks, walnut browns, warm amber laptop glow as the central highlight) contrasted with vibrant but soft neon city accents (pink, cyan, amber, red taillights) bokeh through the glass. Atmospheric depth across three planes: foreground desk with bonsai and laptop, mid-ground rain-streaked floor-to-ceiling window, background neon Tokyo skyline with red taillight motion blur. Wide cinematic 16:9 framing slightly asymmetric. Shallow depth of field on the bonsai and laptop with city neon as soft glowing bokeh. The laptop screen glow reflects subtly off the wet window. NO text in image. NO logos. NO watermarks. 4K detail, photorealistic rendering, high cinematic quality, late-night Tokyo apartment mood.
+Photorealistic cinematic interior scene, spacious open-plan luxury Japanese penthouse on a high floor of a Tokyo skyscraper at night, light rain on the floor-to-ceiling windows. High 14-foot ceilings, generous negative space, sense of breathing architectural grandeur. Massive CORNER-WRAP floor-to-ceiling glass windows dominate the right and back walls of the frame (windows make up over 60% of the visible interior surfaces). Beyond the windows: massive Japanese cityscape stretching to horizon — countless neon signs (kanji and katakana characters glowing in pink, cyan, electric green, warm amber, magenta), distant skyscrapers with lit windows in vertical grids, red taillight streaks of cars on highways and streets winding far below, warm yellow street lights of Tokyo creating a sea of urban glow. Light rain streaks on the glass, neon city slightly distorted into soft bokeh. Foreground (left third of frame): dark walnut writing desk perpendicular to the window with an OPEN silver MacBook laptop showing a dark VS Code-style code editor — multiple horizontal stripes in green/blue/orange syntax-highlight colors (NOT readable code, only abstract colored stripes), warm soft screen glow as the central interior light source. A small Japanese black pine bonsai in a clay pot on the corner of the desk catching the city neon glow, a ceramic coffee mug with subtle steam rising, an open notebook with leather cover. To the LEFT WALL of the room (visible at the left edge of frame): modern linear gas fireplace embedded in a charcoal-stained wood feature wall — long horizontal flame visible behind tinted glass casting warm amber glow into the room. Empty negative space across the polished walnut floor and high ceiling — luxury through emptiness, not clutter. Three light sources balance: warm amber fireplace glow on the left, warm amber laptop screen glow on the desk, cool neon city accents through the rainy glass on the right. Muted dark interior palette (deep charcoal blacks, walnut browns, slate gray stone) contrasted with vibrant soft neon city accents (pink, cyan, amber, red taillights) and warm fireplace amber. Atmospheric depth across four planes: foreground desk with bonsai and laptop, mid-ground spacious room with fireplace, background rain-streaked corner windows, far-background neon Tokyo skyline with red taillight motion blur. Ultra-wide cinematic 16:9 framing showing the spacious penthouse. Shallow depth of field on the bonsai and laptop with city neon, fireplace flame, and rain as soft glowing bokeh. NO text overlays in image. NO logos. NO watermarks. NO readable letters anywhere (laptop screen content stays as abstract colored stripe patterns). 4K detail, photorealistic rendering, high cinematic quality, late-night Tokyo penthouse mood.
 ```
 
 ## 4. 🎨 NanoBanana prompt 9:16 (vertical Shorts version)
 
 ```
-Photorealistic cinematic vertical 9:16 scene, modern luxury minimalist Japanese apartment on a high floor of a Tokyo skyscraper at night with light rain on the floor-to-ceiling window. Lower portion of frame: dark walnut desk with an open silver MacBook (warm amber screen glow as main light), a small Japanese black pine bonsai in a clay pot on the corner, a ceramic coffee mug with steam, an open notebook with leather cover. Upper two-thirds of frame: floor-to-ceiling glass window with light rain streaks, beyond the glass — neon Tokyo cityscape (kanji and katakana signs in pink, cyan, electric green, amber), distant skyscrapers with lit windows, red taillight streaks of cars on highways far below. Muted dark interior palette + vibrant neon city bokeh through the rainy glass. Vertical depth: bottom = desk and bonsai, middle = laptop screen + window edge, top = rainy window with neon Tokyo bokeh. NO text in image. NO logos. NO watermarks. 4K, photorealistic, late-night Tokyo apartment mood.
+Photorealistic cinematic vertical 9:16 scene, spacious open-plan luxury Japanese penthouse on a high floor of a Tokyo skyscraper at night with light rain on the floor-to-ceiling windows. High ceilings, sense of breathing space. Lower third of frame: dark walnut desk with an OPEN silver MacBook showing a dark VS Code-style code editor (horizontal stripes in green/blue/orange syntax-highlight colors, NOT readable code, warm soft screen glow), a small Japanese black pine bonsai in a clay pot on the corner, a ceramic coffee mug with steam, an open notebook with leather cover. Middle of frame: spacious room interior with warm amber glow from a modern linear gas fireplace visible on the left wall (long horizontal flame behind tinted glass) — fireplace adds warmth to the empty floor space. Upper two-thirds of frame: massive floor-to-ceiling glass window with light rain streaks, beyond the glass — neon Tokyo cityscape (kanji and katakana signs in pink, cyan, electric green, amber), distant skyscrapers with lit windows, red taillight streaks of cars on highways far below. Three light sources: fireplace amber on the left, warm laptop glow on the desk, cool neon city through rainy glass. Muted dark interior palette + warm fireplace amber + vibrant neon city bokeh through rainy glass. NO text overlays in image. NO logos. NO watermarks. NO readable letters (laptop screen stays abstract colored stripes). 4K, photorealistic, late-night Tokyo penthouse mood.
 ```
 
 ---
 
-## 5. 🛠️ ffmpeg encode command (2H = 7 200 sec)
+## 5. 🎬 Flow / Kling motion loop prompt (8-second seamless loop)
+
+> Use the NanoBanana 16:9 image as the start frame. Generate an 8-second perfectly seamless loop, then ffmpeg loops it for 2H.
+
+```
+SUBTLE 8-SECOND SEAMLESS LOOP for a 2-hour focus video. Photorealistic cinematic spacious Tokyo penthouse interior at night with light rain. Camera is COMPLETELY LOCKED — absolutely no pan, no zoom, no dolly, no camera shake. The frame stays identical to the start image.
+
+THREE continuous motion elements that loop seamlessly:
+
+1. RAIN ON GLASS: Light rain streaks continuously run down the floor-to-ceiling glass windows throughout the entire 8 seconds. Droplets form on top and trickle diagonally to the bottom edge at varied natural speeds. The rain motion is gentle but constant — never stops.
+
+2. FIREPLACE FLAMES (left wall): Long horizontal flames in the modern linear gas fireplace flicker gently and continuously — small flame tongues rise and fall, occasional brighter flicker, gentle warm amber light pulses subtly on the wall around the fireplace. Flames never fully go out, never stop moving.
+
+3. LAPTOP SCREEN (foreground desk): On the open MacBook code editor, abstract colored horizontal stripes (green/blue/orange syntax-highlight colors, NOT readable code) shift subtly — one stripe at the bottom appears (typewriter-style adding a new line of "code") over 4 seconds, the screen scrolls up by one stripe at the loop point and starts over. Cursor at end of last line blinks slowly. NEVER readable letters — only abstract colored stripe shapes.
+
+EVERYTHING ELSE STAYS COMPLETELY STILL:
+- Coffee mug steam rises gently in a sub-loop (very subtle wisp)
+- Coffee mug itself: still
+- Bonsai: still — no leaf movement, no swaying
+- Notebook, table, walls, ceiling, fireplace surround: still
+- Distant city (red taillights, neon signs): static — visible but NOT visibly moving
+
+The loop must be PERFECTLY SEAMLESS — last frame matches first frame so ffmpeg looping creates invisible joins. NO new objects appear. NO scene transitions. NO camera moves.
+
+Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, late-night Tokyo penthouse mood. Dominant motion: rain on glass + fireplace flicker + subtle code editor activity.
+```
+
+## 6. 🛠️ ffmpeg encode command (loop the 8-sec video to 2H + audio)
 
 ```bash
-ffmpeg -loop 1 -i bonsai-desk-night-2h.jpg -i bonsai-desk-night-2h.mp3 \
-  -c:v libx264 -tune stillimage -pix_fmt yuv420p -r 1 \
+ffmpeg -stream_loop -1 -i bonsai-desk-night-2h-loop.mp4 -i bonsai-desk-night-2h.mp3 \
+  -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
   -c:a aac -b:a 192k -shortest -t 7200 bonsai-desk-night-2h.mp4
 ```
 
+> Alternative (no re-encode, faster — requires loop already in 1080p H.264 yuv420p):
+> ```
+> ffmpeg -stream_loop -1 -i bonsai-desk-night-2h-loop.mp4 -i bonsai-desk-night-2h.mp3 \
+>   -c:v copy -c:a aac -b:a 192k -shortest -t 7200 bonsai-desk-night-2h.mp4
+> ```
+
 ---
 
-## 6. 📝 YouTube Title (Phase 1 format)
+## 7. 📝 YouTube Title (Phase 1 format)
 
 ```
 Deep Focus Music — Bonsai Desk Late Night | 2H Coding, Writing & Hyperfocus
 ```
 
-## 7. 📝 YouTube Description
+## 8. 📝 YouTube Description
 
 ```
 🌃 It's 3 AM. The city is asleep. Your bonsai is the only one watching you work.
@@ -86,25 +119,25 @@ Pour yourself a coffee, dim the room, let your bonsai keep watch.
 #deepwork #lofistudy #latenightmusic #codingmusic #focusmusic
 ```
 
-## 8. 🏷️ Tags (18 tags — primary keywords first)
+## 9. 🏷️ Tags (18 tags — primary keywords first)
 
 ```
 deep focus music, deep work music, focus music, late night music, coding music, programming music, study music, work music, productivity music, lo-fi study, lofi night, hyperfocus music, no distractions, ambient lofi, bonsai music, 3am focus, japanese minimal, concentration music
 ```
 
-## 9. # Hashtags
+## 10. # Hashtags
 
 ```
 #deepwork #lofistudy #latenightmusic #codingmusic #focusmusic
 ```
 
-## 10. 📌 Pinned comment
+## 11. 📌 Pinned comment
 
 ```
 🌃 It's late and you're still working. What's the project? Drop a 💻 if coding, ✍️ if writing, 📊 if studying, ☕ if just thinking — and subscribe for more late-night sessions every week.
 ```
 
-## 11. 🔁 A/B title variant
+## 12. 🔁 A/B title variant
 
 ```
 Lo-Fi Focus Music — Bonsai & Rain at 3 AM | 2H Late Night Coding & Writing
