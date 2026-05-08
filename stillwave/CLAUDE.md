@@ -25,27 +25,31 @@ This file is the single source of truth for the StillWave channel. All productio
 
 ---
 
-## 🎨 Aesthetic — HYBRID spec
+## 🎨 Aesthetic — HYBRID spec (Tokyo Skyscraper Apartment baseline)
 
-Every new-format thumbnail/scene must include all four:
+**Default backdrop for all hybrid videos:** Modern luxury minimalist Japanese apartment on a high floor of a Tokyo / Osaka / Kyoto skyscraper at night, with floor-to-ceiling windows or balcony showing the massive Japanese cityscape — countless neon signs (kanji + katakana in pink, cyan, electric green, warm amber), distant skyscrapers with lit windows extending to horizon, red taillight streaks of cars on highways below, warm yellow street lights of Tokyo creating a sea of urban glow.
 
-1. **Modern productivity prop** (one or more): closed/open MacBook, ceramic coffee mug, open notebook with leather cover, brass desk lamp, fountain pen
-2. **ONE Japanese accent** (pick one per video, rotate):
-   - 🌿 Bonsai (black pine, juniper) on desk or windowsill
-   - 🏮 Andon paper lantern (warm amber glow)
+Every new-format thumbnail/scene must include all five:
+
+1. **Modern luxury Japanese apartment interior** (high floor) — minimalist, dark walnut / cedar / oak finishes, low desk or kotatsu-style table, floor-to-ceiling windows or balcony
+2. **Big Japanese city night view through windows** — neon signs (kanji/katakana characters glowing in pink/cyan/green/amber), distant skyscrapers with lit windows, **red taillight streaks of cars on highways below**, warm yellow street lights, occasional rain on glass
+3. **Modern productivity prop** (one or more): closed/open MacBook, ceramic coffee mug, open notebook with leather cover, brass desk lamp, fountain pen
+4. **ONE Japanese accent** (rotate per video):
+   - 🌿 Bonsai (black pine, juniper) on desk
+   - 🏮 Andon paper lantern (warm amber glow) on desk or windowsill
    - 🍵 Japanese ceramic tea cup with steam
    - 📜 Hanging scroll with kanji calligraphy on wall (atmospheric only, unreadable)
    - 🌸 Ikebana arrangement
-   - 🎴 Shoji paper screens
-   - 🎋 Bamboo grove or single bamboo stalk
-   - 🪨 Stone basin (tsukubai) outside the window
-3. **Atmospheric mood** (pick one): light rain, mist, dusk, late night, dawn fog, soft snow
-4. **Photorealistic cinematic style** (NOT sumi-e / illustration / cartoon):
+   - 🎴 Shoji-inspired interior screens (modern interpretation, not traditional)
+5. **Photorealistic cinematic style**:
    - 16:9 wide cinematic framing, slightly asymmetric
-   - Shallow depth of field on the foreground prop
-   - Muted natural palette: deep forest greens / wet wood browns / soft misty grays / warm amber accent
-   - Atmospheric depth: 3 distinct planes (foreground prop / mid-ground nature or window / background mountains-or-mist-or-city)
+   - Floor-to-ceiling window dominates the right (or left) side of the frame
+   - Shallow depth of field on the foreground prop, city lights as soft bokeh through the glass
+   - Muted dark interior palette (charcoal blacks, walnut/cedar browns) contrasted with vibrant but soft neon city accents (pink, cyan, amber) and red taillight streaks
+   - Atmospheric depth: 3 distinct planes (foreground prop / mid-ground floor-to-ceiling window / background neon Tokyo skyline)
    - **NO text, NO logos, NO watermarks** in image
+
+This Tokyo-apartment backdrop is the NEW visual signature of StillWave. Every hybrid video uses it. Different videos vary the **prop, mood (rainy / clear / misty / snowing), interior light (warm laptop glow / paper lantern / desk lamp), and Japanese accent** — but the apartment + neon city view stays consistent. Builds brand recognition.
 
 ## Old format (иероглиф / Hz / sumi-e) — still allowed in Phase 1–2
 

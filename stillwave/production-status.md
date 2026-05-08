@@ -16,7 +16,7 @@ See `published-videos.md` for the full table with metrics.
 
 | Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎞️ | ⏰ | 📤 |
 |------|-------|--------|----|----|----|-----|-----|-----|
-| `tea-house-rain-2h` | Quiet Focus Music — Japanese Tea House Rain | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `tokyo-apartment-rain-2h` | Quiet Focus Music — Tokyo Apartment Rain | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
@@ -26,9 +26,9 @@ These are the first 3 hybrid-format videos for the gradual transition (Phase 1 =
 
 | Date | Slug | Aesthetic-lean | Why |
 |------|------|----------------|-----|
-| TBD | `tea-house-rain-2h` | Most Japanese (engawa + shoji + bamboo + tea) | Bridge — feels familiar to current audience, introduces new format softly |
-| TBD | `bonsai-desk-night-2h` | Balanced (modern desk + bonsai + city night) | Tests new dark city aesthetic + Japanese accent |
-| TBD | `lantern-glow-study-3h` | Modern-leaning (study room + lantern + mountain silhouette) | Tests Phase 2 direction — minimum Japanese accent, maximum focus on the productivity scene |
+| TBD | `tokyo-apartment-rain-2h` | Tokyo apartment + heavy rain on glass + neon city + tea + bonsai | Most rain-ambient of the 3, strongest "deep work + Tokyo night" hook |
+| TBD | `bonsai-desk-night-2h` | Tokyo apartment + open MacBook (warm screen glow) + bonsai + neon city | Most "coding/programming" hook, laptop is the hero |
+| TBD | `lantern-glow-study-3h` | Tokyo apartment + paper andon lantern (warm vs neon contrast) + closed laptop + book | Most "scholarly/study" hook, lantern is the hero, longest at 3H |
 
 Mix the 3 with current иероглиф / Hz format videos so the channel doesn't shift too fast.
 
