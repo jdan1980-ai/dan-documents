@@ -20,6 +20,26 @@ YouTube Shorts channel — animated AI cat (Brain) explains cat psychology and b
 - `braincatai/content-ideas.md` — backlog
 - `braincatai/scripts/<slug>.md` — one file per video
 
+### StillWave (`/stillwave`)
+
+YouTube channel — Japanese ambient · meditation · sleep · focus music. Handle: @stillwavezen.
+
+**Pipeline:** Suno AI v5.5 (music) → NanoBanana (image 16:9 + 9:16) → Flow / Kling (video loop) → CapCut + ffmpeg (edit) → Canva MCP (thumbnail).
+
+**Source of truth files:**
+- `stillwave/CLAUDE.md` — project rules + 5 triggers (`SW:`, `SWS:`, `GAP: SW`, `CAL:`, `THUMB:`)
+- `stillwave/published-videos.md` — every published video with stats
+- `stillwave/competitor-tracker.md` — 5 tracked competitors
+- `stillwave/content-ideas.md` — backlog (output of GAP/CAL runs)
+- `stillwave/production-status.md` — pipeline tracker
+
+**Trigger summary** (full spec in `stillwave/CLAUDE.md`):
+- `SW: [тема]` → 11-item long-video package (Suno + Nano + Flow + YouTube copy)
+- `SWS: [тема]` → 11-item Shorts package
+- `GAP: SW` → top 10 unused themes + top 3 recommendations
+- `CAL: [месяц]` → analytics + monthly calendar (4 videos / week)
+- `THUMB: [тема]` → 4 Canva variants
+
 #### MANDATORY rules (do not skip)
 
 **Every time a script is created OR meaningfully edited, ALWAYS update the full SEO Pack — never skip tags.** The user has flagged this as a recurring miss. The SEO Pack must include:
