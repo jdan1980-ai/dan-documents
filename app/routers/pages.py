@@ -3,6 +3,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 
 from ..config import PROJECT_ROOT
+from ..presets import PRESETS
 
 
 router = APIRouter()
@@ -46,4 +47,16 @@ def title_scorer_page(request: Request):
     return templates.TemplateResponse(
         "title.html",
         {"request": request, "page": "title"},
+    )
+
+
+@router.get("/competitors", response_class=HTMLResponse)
+def competitors_page(request: Request):
+    presets = [
+        {"key": k, "label": v.get("label", k), "count": len(v.get("competitors") or [])}
+        for k, v in PRESETS.items()
+    ]
+    return templates.TemplateResponse(
+        "competitors.html",
+        {"request": request, "page": "competitors", "presets": presets},
     )

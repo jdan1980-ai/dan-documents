@@ -216,3 +216,70 @@ def age_days(published_at: str | None) -> int | None:
     if not dt:
         return None
     return (datetime.now(timezone.utc) - dt).days
+
+
+def find_breakouts(
+    channels_data: list[dict[str, Any]],
+    days_window: int = 90,
+    min_multiplier: float = 2.0,
+    min_views: int = 1000,
+) -> list[dict[str, Any]]:
+    """Find recent breakout videos across competitor channels.
+
+    A breakout = video published within ``days_window`` whose views are
+    >= ``min_multiplier`` × that channel's median (from its analyzed history).
+    The output is the replicable-formula list: titles + thumbnails + multiplier.
+
+    ``channels_data`` items: ``{"channel": <channel dict>, "videos": [<video>...]}``.
+    """
+    now = datetime.now(timezone.utc)
+    breakouts: list[dict[str, Any]] = []
+
+    for entry in channels_data:
+        ch = entry.get("channel") or {}
+        videos = entry.get("videos") or []
+        if len(videos) < 5:
+            continue
+        med = median(v["views"] for v in videos) or 1
+        for v in videos:
+            dt = _parse_dt(v.get("published_at"))
+            if not dt:
+                continue
+            age = (now - dt).days
+            if age < 0 or age > days_window:
+                continue
+            if v["views"] < min_views:
+                continue
+            multiplier = v["views"] / med
+            if multiplier < min_multiplier:
+                continue
+            breakouts.append(
+                {
+                    **v,
+                    "channel_id": ch.get("id"),
+                    "channel_title": ch.get("title"),
+                    "channel_subs": ch.get("subscribers"),
+                    "channel_median_views": int(med),
+                    "multiplier": round(multiplier, 1),
+                    "age_days": age,
+                }
+            )
+
+    return sorted(breakouts, key=lambda b: b["multiplier"], reverse=True)
+
+
+def competitor_summary(channels_data: list[dict[str, Any]]) -> dict[str, Any]:
+    """Aggregate stats across a competitor cohort — useful for benchmarking."""
+    total_channels = len(channels_data)
+    total_videos = sum(len(e.get("videos") or []) for e in channels_data)
+    medians = [
+        median(v["views"] for v in e["videos"])
+        for e in channels_data
+        if e.get("videos")
+    ]
+    cohort_median = int(median(medians)) if medians else 0
+    return {
+        "total_channels": total_channels,
+        "total_videos": total_videos,
+        "cohort_median_views": cohort_median,
+    }

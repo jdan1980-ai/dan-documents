@@ -1,3 +1,4 @@
+from statistics import median
 from typing import Optional
 
 from fastapi import APIRouter, Form, HTTPException, Request
@@ -5,6 +6,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 
 from ..config import PROJECT_ROOT
+from ..presets import PRESETS
 from ..services import analytics, transcripts, youtube, ytdlp
 
 
@@ -202,6 +204,96 @@ def title_score_endpoint(
     return templates.TemplateResponse(
         "partials/title_score.html",
         {"request": request, "title": title, "result": result},
+    )
+
+
+@router.post("/competitors/breakouts", response_class=HTMLResponse)
+def competitor_breakouts(
+    request: Request,
+    preset: str = Form(""),
+    channels: str = Form(""),
+    days_window: int = Form(90),
+    min_multiplier: float = Form(2.0),
+    videos_per_channel: int = Form(50),
+):
+    """Find recent breakout videos across a cohort of competitor channels."""
+    queries: list[str] = []
+    if preset and preset in PRESETS:
+        queries = [c["id"] for c in PRESETS[preset].get("competitors", [])]
+    extra = [line.strip() for line in (channels or "").splitlines() if line.strip()]
+    queries.extend(extra)
+
+    if not queries:
+        return templates.TemplateResponse(
+            "partials/error.html",
+            {"request": request, "error": "Укажи preset или хотя бы один канал."},
+            status_code=400,
+        )
+
+    days_window = max(1, min(365, days_window))
+    min_multiplier = max(1.1, min(20.0, min_multiplier))
+    videos_per_channel = max(10, min(200, videos_per_channel))
+
+    channels_data: list[dict] = []
+    failed: list[str] = []
+
+    for q in queries:
+        try:
+            channel_id = youtube.resolve_channel(q)
+            if not channel_id:
+                failed.append(q)
+                continue
+            ch = youtube.get_channel(channel_id)
+            if not ch or not ch.get("uploads_playlist"):
+                failed.append(q)
+                continue
+            video_ids = youtube.list_channel_video_ids(
+                ch["uploads_playlist"], limit=videos_per_channel
+            )
+            videos = youtube.get_videos(video_ids)
+            channels_data.append({"channel": ch, "videos": videos})
+        except youtube.YouTubeAPIError as e:
+            failed.append(f"{q} ({e})")
+
+    if not channels_data:
+        return templates.TemplateResponse(
+            "partials/error.html",
+            {
+                "request": request,
+                "error": "Ни один канал не удалось загрузить. " + ", ".join(failed[:5]),
+            },
+            status_code=400,
+        )
+
+    breakouts = analytics.find_breakouts(
+        channels_data,
+        days_window=days_window,
+        min_multiplier=min_multiplier,
+    )
+    summary = analytics.competitor_summary(channels_data)
+
+    per_channel = [
+        {
+            "channel": e["channel"],
+            "median": int(median(v["views"] for v in e["videos"])) if e["videos"] else 0,
+            "videos_count": len(e["videos"]),
+        }
+        for e in channels_data
+    ]
+    per_channel.sort(key=lambda c: c["median"], reverse=True)
+
+    return templates.TemplateResponse(
+        "partials/breakouts_report.html",
+        {
+            "request": request,
+            "breakouts": breakouts[:50],
+            "summary": summary,
+            "per_channel": per_channel,
+            "failed": failed,
+            "days_window": days_window,
+            "min_multiplier": min_multiplier,
+            "video_url": _video_url,
+        },
     )
 
 
