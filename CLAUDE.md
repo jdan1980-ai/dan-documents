@@ -15,6 +15,7 @@ YouTube Shorts channel — animated AI cat (Brain) explains cat psychology and b
 **Pipeline:** 8 scenes → image in Nano Banana → animation in Veo 3 → assembly in Google Vids.
 
 **Source of truth files:**
+- `braincatai/director-checklist.md` — **master production playbook** with mandatory mantras, per-stage checklists, troubleshooting table, and analytics-based learnings. Read this before starting any new video.
 - `braincatai/style-guide.md` — character, color, audio, editorial, locked AI prompts
 - `braincatai/script-template.md` — copy-paste template for every new video
 - `braincatai/content-ideas.md` — backlog

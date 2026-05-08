@@ -3,6 +3,8 @@
 **Pipeline:** 8 scenes → image in Nano Banana → animation in Veo 3 → glue together.
 **Total runtime:** ≤ 60 sec (target ~7 sec per scene).
 
+> ⚠️ **Before you start, read [`director-checklist.md`](./director-checklist.md)** — the master playbook with mantras, per-stage checklists, troubleshooting, and analytics-based learnings. Reading the 5 mantras (top of that file) is non-optional for every new video.
+
 Copy this file to `scripts/<slug>.md` and fill in the fields.
 Every prompt and voiceover line is in its own code block — click the copy icon and paste straight into the tool.
 
