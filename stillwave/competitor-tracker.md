@@ -4,6 +4,8 @@
 
 ## Tracked channels
 
+### Original Japanese-zen niche
+
 | # | Channel | What we watch |
 |---|---------|----------------|
 | 1 | Hikari Zen | Japanese zen meditation aesthetic |
@@ -11,6 +13,18 @@
 | 3 | Zen Samurai Meditations | Иероглиф / samurai-themed titles |
 | 4 | Samurai Relax | Long-form samurai aesthetic |
 | 5 | Zen Silent Temple | Temple ambient / Hz frequencies |
+
+### Deep work / focus music niche (added May 8 — for hybrid pivot reference)
+
+| # | Channel | URL | What we watch |
+|---|---------|-----|----------------|
+| 6 | **MERSO — Deep Work Music** | (TBD) | Dark city/penthouse aesthetic, "Deep Work Music — [Mood] [Concept] for [Use cases]" title pattern, 2-word ALL CAPS thumbnail overlay (CALM WORK, QUIET WORK, NIGHT WORK), 244K views per video, 2-3H length, channel growing fast. Recurring black cat silhouette in some thumbnails. |
+| 7 | **Power Hour Focus** | https://www.youtube.com/watch?v=LhMyAYil3N8 | Photorealistic Japanese veranda + MacBook + coffee aesthetic. ZEN MODE / FLOW STATE / CEO MODE recurring "modes" series. Daily uploads. Title pattern: "Deep Focus Music \| ZEN Mode Flow for Calm Productivity". 462K views, only 5K subs (massive virality). |
+
+### Why both groups matter
+
+- **Japanese-zen** — current StillWave audience baseline. Don't lose them.
+- **Deep work / focus** — target audience for the gradual hybrid pivot. Videos in that niche regularly hit 100K+ views with small subs (huge upside).
 
 ## Use during `GAP: SW` and `CAL:` runs
 

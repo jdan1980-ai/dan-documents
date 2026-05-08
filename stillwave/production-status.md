@@ -12,17 +12,25 @@ See `published-videos.md` for the full table with metrics.
 
 ## In production / scheduled
 
-| Slug | Title | Format | Length | 📝 | 🎵 | 🎨 | 🎬 | 🎞️ | ⏰ | 📤 |
-|------|-------|--------|--------|----|----|----|----|-----|-----|-----|
-| _none yet_ | | | | | | | | | | |
+> Pipeline для long-form статической картинки: 📝 script → 🎵 suno generated → 🎨 image generated → 🎬 ~~not needed~~ → 🎞️ ffmpeg encoded → ⏰ scheduled → 📤 published.
 
-## Planned for next week (TBD — set via `SW:` triggers)
+| Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎞️ | ⏰ | 📤 |
+|------|-------|--------|----|----|----|-----|-----|-----|
+| `tea-house-rain-2h` | Quiet Focus Music — Japanese Tea House Rain | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
-| Slot | Date | Format | Theme |
-|------|------|--------|-------|
-| 1 | TBD | Long video | TBD |
-| 2 | TBD | Long video | TBD |
-| 3 | TBD | Long video | TBD |
+## Phase 1 batch — week of May 13–19
+
+These are the first 3 hybrid-format videos for the gradual transition (Phase 1 = 1 of 4 / week, but we're running 3 as a test batch). Each script file under `scripts/` has the full 11-item `SW:` package: Suno A + Suno B + NanoBanana 16:9 + NanoBanana 9:16 + ffmpeg command + Title + Description + Tags + Hashtags + Pinned comment + A/B variant.
+
+| Date | Slug | Aesthetic-lean | Why |
+|------|------|----------------|-----|
+| TBD | `tea-house-rain-2h` | Most Japanese (engawa + shoji + bamboo + tea) | Bridge — feels familiar to current audience, introduces new format softly |
+| TBD | `bonsai-desk-night-2h` | Balanced (modern desk + bonsai + city night) | Tests new dark city aesthetic + Japanese accent |
+| TBD | `lantern-glow-study-3h` | Modern-leaning (study room + lantern + mountain silhouette) | Tests Phase 2 direction — minimum Japanese accent, maximum focus on the productivity scene |
+
+Mix the 3 with current иероглиф / Hz format videos so the channel doesn't shift too fast.
 
 ## Workflow per video
 

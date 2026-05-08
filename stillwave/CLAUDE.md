@@ -5,21 +5,75 @@ This file is the single source of truth for the StillWave channel. All productio
 ## Channel info
 
 - **Channel:** StillWave
-- **Handle:** [@stillvavezen](https://www.youtube.com/@stillwavezen)
-- **Niche:** Japanese ambient · meditation · sleep · focus music
-- **Aesthetic:** dark navy/teal, minimalist, zen
-- **Tagline:** Sleep · Focus · Meditation
+- **Handle:** [@stillwavezen](https://www.youtube.com/@stillwavezen)
+- **Niche:** Japanese ambient → **expanding to deep work / focus music for coding / studying / late-night work** (gradual hybrid pivot, see Phase plan below)
+- **Aesthetic:** **HYBRID** — modern productivity scene + 1 Japanese accent (see §Aesthetic below)
+- **Tagline:** Sleep · Focus · Meditation · Deep Work
 - **Cadence:** 4 videos / week
 
-## Pipeline
+## ⏳ Format transition plan (May 2026 — June 2026)
 
-| Stage | Tool |
-|-------|------|
-| Music | Suno AI v5.5 |
-| Images | NanoBanana (Google AI) — 16:9 thumbnail + 9:16 Shorts |
-| Video | Flow / Kling |
-| Edit | CapCut (Russian + English) + ffmpeg |
-| Thumbnails | Canva MCP via Claude (`THUMB:` trigger). Backup: Python/Pillow script |
+> **Why gradual?** YouTube's algorithm takes 2–3 weeks to "re-categorize" a channel after a niche shift. Sudden change kills 30–50% of impressions. We phase the new format in slowly.
+
+| Phase | Period | New-format videos / week | Old format (иероглиф / Hz) / week |
+|-------|--------|---------------------------|------------------------------------|
+| **Phase 1** — soft intro | weeks 1–2 (May 8 → May 22) | 1 of 4 | 3 of 4 |
+| **Phase 2** — half-and-half | weeks 3–4 (May 22 → Jun 5) | 2 of 4 | 2 of 4 |
+| **Phase 3** — new norm | week 5+ (from Jun 5) | 3–4 of 4 | 1 of 4 (legacy / niche) |
+
+**Current phase:** Phase 1 (soft intro). Update this line as we move forward.
+
+---
+
+## 🎨 Aesthetic — HYBRID spec
+
+Every new-format thumbnail/scene must include all four:
+
+1. **Modern productivity prop** (one or more): closed/open MacBook, ceramic coffee mug, open notebook with leather cover, brass desk lamp, fountain pen
+2. **ONE Japanese accent** (pick one per video, rotate):
+   - 🌿 Bonsai (black pine, juniper) on desk or windowsill
+   - 🏮 Andon paper lantern (warm amber glow)
+   - 🍵 Japanese ceramic tea cup with steam
+   - 📜 Hanging scroll with kanji calligraphy on wall (atmospheric only, unreadable)
+   - 🌸 Ikebana arrangement
+   - 🎴 Shoji paper screens
+   - 🎋 Bamboo grove or single bamboo stalk
+   - 🪨 Stone basin (tsukubai) outside the window
+3. **Atmospheric mood** (pick one): light rain, mist, dusk, late night, dawn fog, soft snow
+4. **Photorealistic cinematic style** (NOT sumi-e / illustration / cartoon):
+   - 16:9 wide cinematic framing, slightly asymmetric
+   - Shallow depth of field on the foreground prop
+   - Muted natural palette: deep forest greens / wet wood browns / soft misty grays / warm amber accent
+   - Atmospheric depth: 3 distinct planes (foreground prop / mid-ground nature or window / background mountains-or-mist-or-city)
+   - **NO text, NO logos, NO watermarks** in image
+
+## Old format (иероглиф / Hz / sumi-e) — still allowed in Phase 1–2
+
+Continue using the original style for the videos that aren't in the new format yet. Don't kill it — phase it down per the table above.
+
+---
+
+## 🛠️ Pipeline
+
+| Stage | Long-form video | Shorts |
+|-------|------------------|--------|
+| Music | Suno AI v5.5 | Suno AI v5.5 |
+| Image | NanoBanana 16:9 | NanoBanana 9:16 |
+| Video | **❌ NOT NEEDED — static image + audio** | Flow / Kling 9:16 (motion still required for Shorts) |
+| Assembly | **`ffmpeg`** combines image + audio | CapCut + ffmpeg |
+| Thumbnail | The same NanoBanana 16:9 image — no separate thumbnail step | Frame extracted from Shorts |
+
+### ffmpeg encode command (long-form static-image videos)
+
+```bash
+ffmpeg -loop 1 -i thumbnail.jpg -i music.mp3 \
+  -c:v libx264 -tune stillimage -pix_fmt yuv420p -r 1 \
+  -c:a aac -b:a 192k -shortest output.mp4
+```
+
+For specific length use `-t 7200` (2H), `-t 10800` (3H), `-t 28800` (8H).
+
+> **`-r 1`** = 1 frame per second (since image is static, no need for higher fps — saves filesize 30×).
 
 ---
 
@@ -54,27 +108,40 @@ ALWAYS use this format:
 | ✅ Use | ❌ Don't use |
 |--------|--------------|
 | moss on stone steps, mist rising from still pond | emotional, powerful |
-| samurai sitting by fire, mind clear | sweeping, uplifting |
+| programmer awake at 3 AM, bonsai watching, code on screen | sweeping, uplifting |
 | temple bell at dawn, frost on bamboo | beautiful, moving |
 
 Concrete imagery — never abstract emotional adjectives.
 
 ---
 
-## 📝 Title format
+## 📝 Title format (3-phase evolution)
+
+### Phase 1 (current) — keyword-first English, иероглиф dropped from title
 
 ```
-[Иероглиф] — [Romaji] | [English phrase] — [benefit]
+Quiet Focus Music — Japanese Tea House Rain | 2H Deep Work
 ```
 
-Example:
+### Phase 2 — add brand prefix "StillWave —"
+
 ```
-森林浴 — SHINRIN-YOKU | Ancient Cedar Forest — Deep Healing
+StillWave — Quiet Tea Garden Focus | 2H Coding & Writing
 ```
+
+### Phase 3 — established branded format
+
+```
+StillWave — Lantern Glow Focus | 3H Late Night Coding
+```
+
+**Иероглиф stays in:** description body, playlist titles, tags. **Removed from:** video title, thumbnail.
 
 ## 🎨 Design rules
 
-- **No glow / effects on text** — plain solid colors only
+- **Photorealistic cinematic** style (NOT sumi-e / illustration)
+- **No text on thumbnail image** — the title handles itself in YouTube UI
+- **No glow / effects on text anywhere** — plain solid colors only when text is needed
 - **All YouTube copy in English** (descriptions, titles, tags, hashtags)
 
 ---
@@ -95,11 +162,11 @@ When the user types one of these in chat, follow the trigger spec exactly.
 
 1. **Suno Prompt A** — Style field (instruments / atmosphere / BPM + locked tail)
 2. **Suno Prompt B** — Lyrics field ([no lyrics, no vocals, instrumental only] + scene structure)
-3. **NanoBanana prompt 16:9** (4K, dark navy/teal, photorealistic, no text)
-4. **NanoBanana prompt 9:16** (vertical Shorts version, same theme)
-5. **Flow / Kling prompt 16:9** (ultra slow motion, 0.2-0.3× speed, loop)
-6. **YouTube Title** (иероглиф — romaji | English — benefit)
-7. **YouTube Description** (English, SEO, concept explanation, benefits list, timestamps, CTA)
+3. **NanoBanana prompt 16:9** (4K, photorealistic, hybrid aesthetic, no text)
+4. **NanoBanana prompt 9:16** (vertical version of the same scene for Shorts cross-promo)
+5. **ffmpeg encode command** with target length
+6. **YouTube Title** (per current Phase format)
+7. **YouTube Description** (English, SEO, concept explanation, benefits list, timestamps if applicable, CTA)
 8. **Tags** (15-20, primary keywords first)
 9. **Hashtags** (3-5)
 10. **Pinned Comment** (subscription CTA + engagement question)
@@ -112,9 +179,9 @@ When the user types one of these in chat, follow the trigger spec exactly.
 **Deliver this 11-item package:**
 
 1. **Concept & Hook** (first 2 seconds)
-2. **NanoBanana prompt 9:16** (vertical, 4K)
+2. **NanoBanana prompt 9:16** (vertical, 4K, hybrid aesthetic)
 3. **NanoBanana prompt 16:9** (horizontal version)
-4. **Flow / Kling prompt 9:16** (15-60 sec loop)
+4. **Flow / Kling prompt 9:16** (15-60 sec subtle motion loop — Shorts still need motion)
 5. **Text overlay** (3 lines max, plain solid colors)
 6. **Shorts Title** (max 60 chars, hook-first)
 7. **Description** (2-3 lines + link to full video)
@@ -127,35 +194,36 @@ When the user types one of these in chat, follow the trigger spec exactly.
 
 1. Review `published-videos.md`
 2. Search competitors for new content
-3. Google Trends: japanese zen meditation keywords
-4. **TOP 10 unused themes** with: иероглиф + romaji + English / Why gap exists / Suggested title / Demand: High/Medium/Low
+3. Google Trends: japanese zen + deep focus + work music keywords
+4. **TOP 10 unused themes** with: theme + suggested title (current Phase) + Why gap exists / Demand: High/Medium/Low
 5. **TOP 3 recommendations** with priority order
 
 ### `CAL: [месяц]` → MONTHLY CALENDAR + ANALYTICS
 
-**Step 1 — Analytics:** Pull VidIQ analytics (@stillwavezen). Metrics: views, watch time, avg duration, subscribers, likes, comments. Best/worst performer. Best upload day + time. Best format (Hz / иероглиф / Study With Me).
+**Step 1 — Analytics:** Pull VidIQ analytics (@stillwavezen). Metrics: views, watch time, avg duration, subscribers, likes, comments. Best/worst performer. Best upload day + time. Best format (Hz / иероглиф / Deep Work hybrid).
 
-**Step 2 — Competitor check:** New videos from competitors since last CAL. New trends or formats they test.
+**Step 2 — Competitor check:** New videos from MERSO / Power Hour Focus / Hikari Zen / etc. since last CAL. New trends or formats they test.
 
-**Step 3 — Gap (mini):** 16 best unused themes for the month.
+**Step 3 — Gap (mini):** 16 best unused themes for the month, balanced for the current Phase ratio.
 
-**Step 4 — Calendar (4 videos / week):** For each slot: Week + Day (best day from analytics) / Video concept + format / Priority (🔥 High / 🟡 Medium / 🟢 Experiment) / Effort (Low / Medium / High).
+**Step 4 — Calendar (4 videos / week):** For each slot: Week + Day (best day from analytics) / Video concept + format (new hybrid OR legacy иероглиф) / Priority (🔥 High / 🟡 Medium / 🟢 Experiment) / Effort (Low / Medium / High).
 
 **Step 5 — Recommendations:** Best format to double down this month / one experiment to try / what to stop doing / thumbnail+title pattern working best.
 
-### `THUMB: [тема]` → CANVA THUMBNAIL
+### `THUMB: [тема]` → CANVA THUMBNAIL (legacy / special-case)
 
-1. Generate 4 variants via Canva MCP. Style: dark navy/teal, sumi-e ink wash texture, traditional Japanese calligraphy kanji, plain solid white text — no glow on text.
-2. User picks variant (1-4)
-3. Convert to editable Canva design
-4. Return edit link
+Default for new format: **NanoBanana 16:9 image is the thumbnail itself** — no Canva step needed.
+
+Use Canva ONLY when a special variant is needed (e.g., text overlay for a viral hook, A/B test). Old style (dark navy/teal, sumi-e ink wash, kanji calligraphy, plain solid white text) is still available but not the default.
 
 ---
 
 ## Source-of-truth files in this folder
 
 - `CLAUDE.md` — this file (project rules + triggers)
+- `script-template.md` — copy-paste template for every new video
 - `published-videos.md` — every published video with stats; update after each upload
-- `competitor-tracker.md` — 5 tracked competitors
+- `competitor-tracker.md` — tracked competitors (Hikari Zen, RollinSound, MERSO, Power Hour Focus, etc.)
 - `content-ideas.md` — backlog (output of `GAP:` and `CAL:` runs)
 - `production-status.md` — pipeline tracker per video
+- `scripts/<slug>.md` — one file per video
