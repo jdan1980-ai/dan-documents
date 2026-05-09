@@ -290,3 +290,41 @@ Use Canva ONLY when a special variant is needed (e.g., text overlay for a viral 
 - `content-ideas.md` — backlog (output of `GAP:` and `CAL:` runs)
 - `production-status.md` — pipeline tracker per video
 - `scripts/<slug>.md` — one file per video
+
+---
+
+## 🔑 YouTube Data API v3 access
+
+**Key location:** `/root/.config/youtube-api-key` (chmod 600, NOT in repo). Never commit, never paste in chat.
+
+**Read pattern:**
+
+```bash
+KEY=$(cat /root/.config/youtube-api-key)
+```
+
+**Channel ID for StillWave:** `UC188FjOT6tivjPOPfZ69s7Q` (handle: `@stillwavezen`).
+
+**Useful endpoints (curl + jq):**
+
+```bash
+# Channel stats (subs, total views, video count)
+curl -s "https://www.googleapis.com/youtube/v3/channels?key=$KEY&id=UC188FjOT6tivjPOPfZ69s7Q&part=statistics,snippet,contentDetails" | jq
+
+# All uploads playlist (use uploads playlist ID returned above — UU + channel ID)
+curl -s "https://www.googleapis.com/youtube/v3/playlistItems?key=$KEY&playlistId=UU188FjOT6tivjPOPfZ69s7Q&maxResults=50&part=snippet,contentDetails" | jq
+
+# Video full metadata (incl. tags) — comma-separated IDs
+curl -s "https://www.googleapis.com/youtube/v3/videos?key=$KEY&id=VIDEO_ID1,VIDEO_ID2&part=snippet,statistics,contentDetails" | jq
+
+# Search by keyword (100 quota units — use sparingly)
+curl -s "https://www.googleapis.com/youtube/v3/search?key=$KEY&q=power+hour+focus+music&maxResults=20&order=viewCount&part=snippet,id" | jq
+```
+
+**Quota:** 10,000 units / day. Common costs: channel/video/playlistItems = 1, search = 100.
+
+**Common workflows:**
+- After publish — pull video metadata with `videos.list` to verify SEO landed correctly
+- Competitor audit — get top channel videos via `playlistItems` from their uploads playlist
+- Tag mining — pull `videos.list` for top-performing competitor videos to see exact tags they use
+- Trend check — `search.list` with topic keyword + `order=viewCount` to find the breakouts
