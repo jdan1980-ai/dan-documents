@@ -154,11 +154,28 @@ Pour something warm, dim the room, put on your headphones, let the Tokyo rain ha
 
 > ⚠️ **Timestamps** assume even 2:40 per track (1:04:00 / 24 = 160 sec). Recalculate after the actual mix if track lengths differ. YouTube auto-detects chapters when the first line is at exactly `0:00` and entries are in ascending order.
 
-## 9. 🏷️ Tags (20 tags — primary keywords first, total under 450 chars)
+## 9. 🏷️ Tags (22 tags — built on winning patterns from MERSO + PHF live API data)
+
+> Strategy: lead with **MERSO's locked 10-tag set** (used identically on every video for channel authority) + add PHF's **cross-niche** ("sleep music", "meditation music") + **ambient variations** + **language reach** + our specific Tokyo / Power Hour terms. Total ~415 chars.
 
 ```
-power hour music, 1 hour focus music, deep focus music, focus music, study music, coding music, work music, productivity music, japanese ambient, tokyo rain, flow state music, concentration music, background music, ambient focus, lo-fi study, pomodoro music, study with me, no distractions, late night focus, deep work
+deep work music, deep focus music, focus music, study music, work music, concentration music, productivity music, background music for work, music for studying, instrumental music, ambient music, ambient study music, sleep music, meditation music, mindfulness, power hour music, 1 hour focus music, japanese ambient, tokyo rain, pomodoro music, relajarse, música para concentrarse
 ```
+
+### Why each tag (audit trail)
+
+| Tag | Source | Why it works |
+|-----|--------|--------------|
+| `deep work music` | MERSO core (252K-view top) | #1 niche keyword |
+| `deep focus music` | MERSO + PHF | Universal across both winners |
+| `focus music`, `study music`, `work music`, `concentration music`, `productivity music` | MERSO 10-tag locked set | Channel-level authority signal |
+| `background music for work`, `music for studying`, `instrumental music` | MERSO 10-tag locked set | Same — sheet the niche |
+| `ambient music`, `ambient study music` | PHF top-2 (181K) | Ambient-cluster captures alternate search intent |
+| `sleep music`, `meditation music` | PHF top-1 (470K) | Cross-niche play — algorithm cross-pollinates focus + sleep + meditation viewers |
+| `mindfulness` | PHF top-3 | Psychological angle, broader appeal |
+| `power hour music`, `1 hour focus music`, `pomodoro music` | Our Power Hour positioning | Specific format keywords (low competition) |
+| `japanese ambient`, `tokyo rain` | Our brand-specific | Brand identity for StillWave |
+| `relajarse`, `música para concentrarse` | PHF top-1 (Spanish reach) | Multi-language algorithm reach |
 
 ## 10. # Hashtags
 
