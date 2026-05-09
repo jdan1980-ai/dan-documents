@@ -1,12 +1,12 @@
-# Tokyo Apartment Rain — 2H Deep Focus
+# Tokyo Apartment Rain — 1H Power Hour Focus
 
 ## Meta
 
-- **Title:** Quiet Focus Music — Tokyo Apartment Rain | 2H Deep Work for Coding, Writing & Late Night Study
-- **Slug:** `tokyo-apartment-rain-2h`
+- **Title:** Power Hour Focus Music — Tokyo Apartment Rain | 1H Deep Work Sprint for Coding, Writing & Studying
+- **Slug:** `tokyo-apartment-rain-1h`
 - **Format:** Long-form
-- **Length:** 2H (7 200 sec)
-- **Phase:** 1 (soft intro — most rainy/ambient of the 3 hybrid videos)
+- **Length:** 1H 04min (3 840 sec)
+- **Phase:** 1 (soft intro — Power Hour format — 24 Suno tracks at 1H 04min, no loop)
 - **Aesthetic:** Spacious Tokyo Penthouse — corner-wrap floor-to-ceiling windows + heavy rain on glass + neon Tokyo + modern linear fireplace + open MacBook with writing app + tea cup + bonsai
 - **Status:** script ready — awaiting Suno + NanoBanana generation
 - **Upload date:** TBD (week of May 13–19)
@@ -16,7 +16,7 @@
 ## 1. 🎵 Suno Prompt A — Style field
 
 ```
-Slow ambient lo-fi soundscape with heavy rain falling on a high floor floor-to-ceiling glass window, distant koto plucks every 30 seconds, soft warm analog synth pad, deep sub-bass pulse every 16 bars (the city heartbeat), occasional muted city ambient hum (no traffic horns), water dripping from a window frame. 60 BPM. Rain dominates the texture, music is delicate background. Loopable for 2 hours, no buildup, no climax, sustained meditative atmosphere. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Slow ambient lo-fi soundscape with heavy rain falling on a high floor floor-to-ceiling glass window, distant koto plucks every 30 seconds, soft warm analog synth pad, deep sub-bass pulse every 16 bars (the city heartbeat), occasional muted city ambient hum (no traffic horns), water dripping from a window frame. 60 BPM. Rain dominates the texture, music is delicate background. Loopable for 1 hour 4 minutes (24 Suno tracks pre-mixed in CapCut, no need to loop), no buildup, no climax, sustained meditative atmosphere. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 
 ## 2. 🎵 Suno Prompt B — Lyrics field
@@ -50,10 +50,10 @@ Photorealistic cinematic vertical 9:16 scene, spacious open-plan luxury Japanese
 
 ## 5. 🎬 Flow / Kling motion loop prompt (8-second seamless loop)
 
-> Use the NanoBanana 16:9 image as the start frame. Generate an 8-second perfectly seamless loop in Flow or Kling, then ffmpeg loops it for 2H.
+> Use the NanoBanana 16:9 image as the start frame. Generate an 8-second perfectly seamless loop in Flow or Kling, then ffmpeg loops it for 1H 04min.
 
 ```
-SUBTLE 8-SECOND SEAMLESS LOOP for a 2-hour focus video. Photorealistic cinematic Tokyo penthouse interior at night during heavy rain. Camera is COMPLETELY LOCKED — absolutely no pan, no zoom, no dolly, no camera shake. The frame stays identical to the start image.
+SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour focus video. Photorealistic cinematic Tokyo penthouse interior at night during heavy rain. Camera is COMPLETELY LOCKED — absolutely no pan, no zoom, no dolly, no camera shake. The frame stays identical to the start image.
 
 THREE continuous motion elements that loop seamlessly:
 
@@ -75,18 +75,18 @@ The loop must be PERFECTLY SEAMLESS — the last frame matches the first frame s
 Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, contemplative late-night Tokyo penthouse mood. Dominant motion: rain on glass + fireplace flicker + subtle laptop cursor activity.
 ```
 
-## 6. 🛠️ ffmpeg encode command (loop the 8-sec video to 2H + audio)
+## 6. 🛠️ ffmpeg encode command (loop the 8-sec video to 1H 04min + audio)
 
 ```bash
-ffmpeg -stream_loop -1 -i tokyo-apartment-rain-2h-loop.mp4 -i tokyo-apartment-rain-2h.mp3 \
+ffmpeg -stream_loop -1 -i tokyo-apartment-rain-1h-loop.mp4 -i tokyo-apartment-rain-1h.mp3 \
   -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
-  -c:a aac -b:a 192k -shortest -t 7200 tokyo-apartment-rain-2h.mp4
+  -c:a aac -b:a 192k -shortest -t 3840 tokyo-apartment-rain-1h.mp4
 ```
 
 > Alternative (no re-encode, faster, requires the loop to already be in 1080p H.264 yuv420p):
 > ```
-> ffmpeg -stream_loop -1 -i tokyo-apartment-rain-2h-loop.mp4 -i tokyo-apartment-rain-2h.mp3 \
->   -c:v copy -c:a aac -b:a 192k -shortest -t 7200 tokyo-apartment-rain-2h.mp4
+> ffmpeg -stream_loop -1 -i tokyo-apartment-rain-1h-loop.mp4 -i tokyo-apartment-rain-1h.mp3 \
+>   -c:v copy -c:a aac -b:a 192k -shortest -t 3840 tokyo-apartment-rain-1h.mp4
 > ```
 
 ---
@@ -94,7 +94,7 @@ ffmpeg -stream_loop -1 -i tokyo-apartment-rain-2h-loop.mp4 -i tokyo-apartment-ra
 ## 7. 📝 YouTube Title (Phase 1 format)
 
 ```
-Quiet Focus Music — Tokyo Apartment Rain | 2H Deep Work for Coding, Writing & Late Night Study
+Power Hour Focus Music — Tokyo Apartment Rain | 1H Deep Work Sprint for Coding, Writing & Studying
 ```
 
 ## 8. 📝 YouTube Description
@@ -102,45 +102,45 @@ Quiet Focus Music — Tokyo Apartment Rain | 2H Deep Work for Coding, Writing & 
 ```
 🌃 High above Tokyo at night. Rain on the glass. Neon below. Just you, your laptop, and the city.
 
-This 2-hour deep focus session is built for sustained concentration. Slow ambient music layered under heavy rain falling on a high apartment window, with the city's soft pulse far below. Distant koto plucks, a sub-bass heartbeat every sixteen bars. No buildups, no drops. Just the rhythm of rain and the glow of neon Tokyo.
+This 1-hour Power Hour focus session is built for one sustained sprint of deep work. Slow ambient music layered under heavy rain falling on a high apartment window, with the city's soft pulse far below. Distant koto plucks, a sub-bass heartbeat every sixteen bars. No buildups, no drops. One full hour. Just the rhythm of rain and the glow of neon Tokyo.
 
 Perfect for:
-• Deep coding & programming
-• Late-night writing
-• Studying & reading
-• Trading & analysis
-• Creative flow
+• 1-hour Pomodoro-style coding sprint
+• Power hour writing
+• Focused study or reading session
+• Trading hour
+• Creative flow block
 • Quiet contemplation
 
-Pour something warm, dim the room, let the rain handle the rest.
+Pour something warm, dim the room, set a timer for one hour, let the rain handle the rest.
 
 ▶ Subscribe for new Tokyo apartment, lantern, and quiet city sessions every week.
 
-#deepfocus #studymusic #tokyo #rainmusic #focusmusic
+#powerhour #deepfocus #studymusic #tokyo #rainmusic #focusmusic
 ```
 
 ## 9. 🏷️ Tags (18 tags — primary keywords first)
 
 ```
-deep focus music, focus music, study music, coding music, work music, productivity music, japanese ambient, tokyo rain, tokyo apartment ambient, lo-fi study, late night focus, deep work, concentration music, no distractions, ambient rain, neon tokyo, koto rain, calm focus
+power hour music, 1 hour focus music, deep focus music, focus music, study music, coding music, work music, productivity music, japanese ambient, tokyo rain, tokyo apartment ambient, lo-fi study, late night focus, deep work, pomodoro music, ambient rain, neon tokyo, calm focus
 ```
 
 ## 10. # Hashtags
 
 ```
-#deepfocus #studymusic #tokyo #rainmusic #focusmusic
+#powerhour #deepfocus #studymusic #tokyo #rainmusic
 ```
 
 ## 11. 📌 Pinned comment
 
 ```
-🌃 High floor. Rain on the glass. Neon below. What are you working on tonight? Drop one word — coding, writing, studying, trading — and subscribe for a new Tokyo apartment session every week 🌧️
+🌃 1 hour. Rain on the glass. Neon Tokyo below. What did you finish in this Power Hour? Drop one word — coding, writing, studying, trading — and subscribe for a new Tokyo session every week 🌧️
 ```
 
 ## 12. 🔁 A/B title variant
 
 ```
-Rain on the Glass — Tokyo Apartment Focus Music | 2H Deep Work for Coding & Studying
+1 Hour Power Focus — Tokyo Apartment Rain Music | Coding, Writing & Studying Sprint
 ```
 
 ---

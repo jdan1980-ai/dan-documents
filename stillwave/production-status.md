@@ -16,7 +16,7 @@ See `published-videos.md` for the full table with metrics.
 
 | Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎞️ | ⏰ | 📤 |
 |------|-------|--------|----|----|----|-----|-----|-----|
-| `tokyo-apartment-rain-2h` | Quiet Focus Music — Tokyo Apartment Rain | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `tokyo-apartment-rain-1h` | Power Hour Focus Music — Tokyo Apartment Rain | 1H 04min | ✅ | ✅ (24 tracks generated) | ⏳ | ⏳ | ⏳ | ⏳ |
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
@@ -26,7 +26,7 @@ These are the first 3 hybrid-format videos for the gradual transition (Phase 1 =
 
 | Date | Slug | Aesthetic-lean | Why |
 |------|------|----------------|-----|
-| TBD | `tokyo-apartment-rain-2h` | Tokyo apartment + heavy rain on glass + neon city + tea + bonsai | Most rain-ambient of the 3, strongest "deep work + Tokyo night" hook |
+| TBD | `tokyo-apartment-rain-1h` | Tokyo apartment + heavy rain on glass + neon city + tea + bonsai. **Power Hour format (1H 04min, 24 Suno tracks, no loop)** | Catches "1 hour focus music" + "power hour" search demand. Lower production overhead than 2H. |
 | TBD | `bonsai-desk-night-2h` | Tokyo apartment + open MacBook (warm screen glow) + bonsai + neon city | Most "coding/programming" hook, laptop is the hero |
 | TBD | `lantern-glow-study-3h` | Tokyo apartment + paper andon lantern (warm vs neon contrast) + closed laptop + book | Most "scholarly/study" hook, lantern is the hero, longest at 3H |
 
