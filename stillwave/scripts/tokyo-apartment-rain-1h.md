@@ -114,10 +114,38 @@ Perfect for:
 
 Pour something warm, dim the room, set a timer for one hour, let the rain handle the rest.
 
+🎵 Tracklist:
+0:00 — Glass at 11 PM
+2:40 — First Raindrop
+5:20 — Steam Rising
+8:00 — Neon Through Rain
+10:40 — Far City Lights
+13:20 — Bonsai Watch
+16:00 — Floor Thirty-Eight
+18:40 — Fingers on Keys
+21:20 — Code Lines Drifting
+24:00 — Page Turn
+26:40 — Sub-Bass Heartbeat
+29:20 — Quiet Glass
+32:00 — Between Two Thoughts
+34:40 — The Long Hour
+37:20 — Highway Streaks Below
+40:00 — Empty Halls
+42:40 — Midnight Stillness
+45:20 — Tea Goes Cold
+48:00 — Temple Bell, Far
+50:40 — Rain Slows
+53:20 — Last Sentence
+56:00 — Final Pulse
+58:40 — Closing the Lid
+1:01:20 — Tokyo Sleeps
+
 ▶ Subscribe for new Tokyo apartment, lantern, and quiet city sessions every week.
 
 #powerhour #deepfocus #studymusic #tokyo #rainmusic #focusmusic
 ```
+
+> ⚠️ **Timestamps assume even 2:40 per track** (1:04:00 / 24 = exactly 160 sec). If actual Suno track lengths vary, recalculate cumulative timestamps after CapCut mix. YouTube auto-detects chapters when the first line is at exactly `0:00` and entries are in ascending order.
 
 ## 9. 🏷️ Tags (18 tags — primary keywords first)
 
