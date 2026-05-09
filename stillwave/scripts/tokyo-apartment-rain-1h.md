@@ -100,19 +100,24 @@ Power Hour Focus Music — Tokyo Apartment Rain | 1H Deep Work Sprint for Coding
 ## 8. 📝 YouTube Description
 
 ```
-🌃 High above Tokyo at night. Rain on the glass. Neon below. Just you, your laptop, and the city.
+Enter the Tokyo Power Hour.
 
-This 1-hour Power Hour focus session is built for one sustained sprint of deep work. Slow ambient music layered under heavy rain falling on a high apartment window, with the city's soft pulse far below. Distant koto plucks, a sub-bass heartbeat every sixteen bars. No buildups, no drops. One full hour. Just the rhythm of rain and the glow of neon Tokyo.
+This 1-hour focus music session is designed to lock you into one sustained sprint of deep work. Inspired by quiet luxury apartments high above neon Tokyo, the steady rhythm of rain on glass, and the warm glow of a single fireplace, this soundscape creates the perfect atmosphere for one full hour of uninterrupted concentration.
 
-Perfect for:
+Whether you're coding, writing, studying, trading, or building your next big idea, let this hour carry you into deep work without distraction.
+
+Slow down. Breathe. Set a timer. One hour starts now.
+
+Best for:
 • 1-hour Pomodoro-style coding sprint
-• Power hour writing
-• Focused study or reading session
-• Trading hour
-• Creative flow block
+• Power hour writing sessions
+• Focused study or deep reading
+• Trading hour focus block
+• Creative flow & ideation
+• Late-night coding sessions
 • Quiet contemplation
 
-Pour something warm, dim the room, set a timer for one hour, let the rain handle the rest.
+Pour something warm, dim the room, put on your headphones, let the Tokyo rain handle the rest.
 
 🎵 Tracklist:
 0:00 — Glass at 11 PM
@@ -140,24 +145,30 @@ Pour something warm, dim the room, set a timer for one hour, let the rain handle
 58:40 — Closing the Lid
 1:01:20 — Tokyo Sleeps
 
-▶ Subscribe for new Tokyo apartment, lantern, and quiet city sessions every week.
+▶ Subscribe for new Tokyo apartment, lantern, and quiet city focus sessions every week.
 
-#powerhour #deepfocus #studymusic #tokyo #rainmusic #focusmusic
+🔔 New Power Hour focus sessions every Tuesday and Friday. Tap the bell so you don't miss the next one.
+
+#powerhour #1hourfocus #deepfocus #deepfocusmusic #focusmusic #studymusic #workmusic #productivitymusic #flowstate #codingmusic #pomodoro #tokyomusic #rainmusic #ambientfocus #musicforwork #concentrationmusic #studywithme #nodistractions #lofistudy #japaneseambient
 ```
 
-> ⚠️ **Timestamps assume even 2:40 per track** (1:04:00 / 24 = exactly 160 sec). If actual Suno track lengths vary, recalculate cumulative timestamps after CapCut mix. YouTube auto-detects chapters when the first line is at exactly `0:00` and entries are in ascending order.
+> ⚠️ **Timestamps** assume even 2:40 per track (1:04:00 / 24 = 160 sec). Recalculate after the actual mix if track lengths differ. YouTube auto-detects chapters when the first line is at exactly `0:00` and entries are in ascending order.
 
-## 9. 🏷️ Tags (18 tags — primary keywords first)
+## 9. 🏷️ Tags (20 tags — primary keywords first, total under 450 chars)
 
 ```
-power hour music, 1 hour focus music, deep focus music, focus music, study music, coding music, work music, productivity music, japanese ambient, tokyo rain, tokyo apartment ambient, lo-fi study, late night focus, deep work, pomodoro music, ambient rain, neon tokyo, calm focus
+power hour music, 1 hour focus music, deep focus music, focus music, study music, coding music, work music, productivity music, japanese ambient, tokyo rain, flow state music, concentration music, background music, ambient focus, lo-fi study, pomodoro music, study with me, no distractions, late night focus, deep work
 ```
 
 ## 10. # Hashtags
 
+**Top-3 (these show under the title in YouTube UI):**
+
 ```
-#powerhour #deepfocus #studymusic #tokyo #rainmusic
+#powerhour #deepfocus #studymusic
 ```
+
+**Extended set already embedded in the description body** (20 hashtags). YouTube uses the first 15 from the description for search relevance — order matters, so primary keywords lead.
 
 ## 11. 📌 Pinned comment
 
