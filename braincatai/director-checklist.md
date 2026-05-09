@@ -66,25 +66,33 @@ YouTube algorithm pushed this video hard between days 1–4. What set it apart:
 - ✅ **Title pattern doubled-down:** lead Cat Psychology videos with `Why Your Cat [does X]` whenever possible. Universal-relatable cat behaviors are the algorithm's favorite.
 - ✅ **Engagement-rate matters more than total likes:** 47 likes on 1 254 views (3.7%) signals algorithm to push. Aim for ≥3% like rate via stronger hooks and emotional payoffs.
 
-### Lesson 3 — Brain Hacks niche is underperforming on this cat channel (May 9, 2026)
+### Lesson 3 — Hook strength matters more than niche label (May 9, 2026 — revised)
 
-| Video | Niche | Age (days) | Views | Likes |
-|-------|-------|------------|-------|-------|
-| Sky Blue | Brain Hacks (cat-tagged) | 7 | 1 373 | 30 |
-| Doorway Effect | Brain Hacks | 3 | 88 | 9 |
-| Vagus Nerve | Brain Hacks | 2 | 10 | 1 |
+| Video | Niche | Hook | Universally relatable? | Result |
+|-------|-------|------|------------------------|--------|
+| Sky Blue | Brain Hacks (cat-tagged) | "Why Is the Sky Blue?" — childhood question every kid asks | ✅✅✅ | **1 373 views** ⭐ |
+| Doorway Effect | Brain Hacks | "Why you forget walking into a room" — relatable but uses abstract jargon | ✅ medium | 88 v at 3 days (too early to judge) |
+| Vagus Nerve | Brain Hacks | "Stop stress button" — anatomy jargon | ⚠️ academic | 10 v at 2 days (too early) |
 
-vs Cat Psychology median for the same age window: **~440–700 views**.
+> **Initial reading was wrong.** Sky Blue (1 373 v) proves Brain Hacks CAN hit on this channel. The differentiator isn't niche — it's **hook accessibility**.
 
-Brain Hacks is performing **~13× worse** when tagged as Brain Hacks. Sky Blue worked **only because** it carried cat-psychology tags. The algorithm has categorized this channel as cat content; non-cat topics get throttled.
+**Revised lesson:**
+- ✅ Brain Hacks works on this channel **if the hook is universally accessible** (childhood question, common phenomenon, popular-science term everyone knows)
+- ⚠️ Brain Hacks struggles when the topic uses academic / jargon framing in the hook (`Doorway Effect`, `Vagus Nerve`, `frisson`)
+- ❌ DON'T conclude after 2–3 day data — videos can take 4–14 days to find their algorithmic push (Chirps At Birds went from 30 → 1 254 views between days 4 and 8)
 
-**What we change:**
-- ❌ **No more pure Brain Hacks** until channel reaches ~1K subs and has clear authority
-- ✅ **Cat-relatable framing required** — every "Brain Hacks" topic must have a cat angle:
-  - "Doorway Effect" → "Why Cats Forget Where They Were Going" (cat angle on the same neuroscience)
-  - "Vagus Nerve" → "How Cat Purrs Trigger Your Calm Down Button" (cat as the science demonstrator)
-  - "Goosebumps" → "Why Cats Get Goosebumps Too" (animal-science crossover)
-- ✅ **Tags must include cat-niche** — `cat psychology`, `cat science`, `feline behavior` minimum, even on brain-science topics
+**What we change for new scripts:**
+- ✅ For Brain Hacks topics, **lead title with the universally-relatable form**, save the academic term for the body:
+  - "Why You Forget Walking Into a Room" — keep, but body should immediately reference the everyday experience before naming "Doorway Effect"
+  - "Stop Stress Button Inside Your Body" — keep, but explain it before saying "vagus nerve"
+- ✅ **Wait 7 days minimum** before declaring a video underperformed
+- ✅ **Don't rework finished scripts** based on 2–3 day signals — ship them, gather real data, iterate the NEXT batch
+
+**Already-finished unpublished scripts — KEEP AS-IS, don't reframe:**
+- `why-cats-lick-your-hair.md` — Cat Psychology, ship
+- `whats-inside-a-black-hole.md` — hook "What's inside a black hole?" is as universal as Sky Blue, ship
+- `why-music-gives-you-goosebumps.md` — goosebumps is a universal physical experience, ship
+- `why-kids-say-6-7.md` — high search-intent for parents (they actively Google this), ship
 
 > When new analytics come in — add a Lesson section here with the same structure (what worked / what bled / what we change).
 
