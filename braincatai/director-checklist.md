@@ -38,6 +38,54 @@ This checklist is the **operating playbook** — it consolidates everything we'v
 - ✅ **End card = ONE phrase** ("Follow Brain for more brain hacks"). NEVER stack SUBSCRIBE + THANK YOU + THE END. Don't cover Brain's face with overlay.
 - ✅ **Trim filler VO phrases** in middle scenes — every word earns its place. If a phrase doesn't add a new beat, cut it.
 
+### Lesson 2 — *Why Your Cat Chirps At Birds* viral push (May 9, 2026)
+
+| Metric | May 5 | May 9 (4 days later) |
+|--------|-------|----------------------|
+| Views | 30 | **1 254** (×42 growth) |
+| Likes | 2 | **47** (×24 growth) |
+| Like rate | 6.7% | **3.7%** (highest on channel) |
+
+YouTube algorithm pushed this video hard between days 1–4. What set it apart:
+
+- ✅ **Universally relatable behavior** — every cat owner has heard their cat make that bird-chatter sound
+- ✅ **Clean title pattern** — `Why Your Cat [does X]` (proven Shorts hook)
+- ✅ **49 sec length** (sweet spot)
+- ✅ **Plain canonical tags** — used the base 19 cat-psychology tags only, no custom drift
+
+**Tag insight from API pull (top 3 channel videos):**
+
+| Video | Tag strategy | Result |
+|-------|--------------|--------|
+| Sky Blue (1 373 v) | 20 tags, mismatched (`cats ancient egypt` on a physics video — leftover from Egyptian Domestication video) | Worked **despite** mismatch — title hook strong enough |
+| Box Bed (1 360 v) | 19 tags, content-matched | Worked — both signals aligned |
+| **Chirps At Birds (1 254 v + viral push)** | **Base 19 canonical only — zero custom** | **Cleanest tag set, biggest engagement** |
+
+**What we change for every future video:**
+- ✅ **Tag rule simplified:** base 19 canonical + **3–5 video-specific** (must match content). Stop carrying over tags from previous videos that don't fit.
+- ✅ **Title pattern doubled-down:** lead Cat Psychology videos with `Why Your Cat [does X]` whenever possible. Universal-relatable cat behaviors are the algorithm's favorite.
+- ✅ **Engagement-rate matters more than total likes:** 47 likes on 1 254 views (3.7%) signals algorithm to push. Aim for ≥3% like rate via stronger hooks and emotional payoffs.
+
+### Lesson 3 — Brain Hacks niche is underperforming on this cat channel (May 9, 2026)
+
+| Video | Niche | Age (days) | Views | Likes |
+|-------|-------|------------|-------|-------|
+| Sky Blue | Brain Hacks (cat-tagged) | 7 | 1 373 | 30 |
+| Doorway Effect | Brain Hacks | 3 | 88 | 9 |
+| Vagus Nerve | Brain Hacks | 2 | 10 | 1 |
+
+vs Cat Psychology median for the same age window: **~440–700 views**.
+
+Brain Hacks is performing **~13× worse** when tagged as Brain Hacks. Sky Blue worked **only because** it carried cat-psychology tags. The algorithm has categorized this channel as cat content; non-cat topics get throttled.
+
+**What we change:**
+- ❌ **No more pure Brain Hacks** until channel reaches ~1K subs and has clear authority
+- ✅ **Cat-relatable framing required** — every "Brain Hacks" topic must have a cat angle:
+  - "Doorway Effect" → "Why Cats Forget Where They Were Going" (cat angle on the same neuroscience)
+  - "Vagus Nerve" → "How Cat Purrs Trigger Your Calm Down Button" (cat as the science demonstrator)
+  - "Goosebumps" → "Why Cats Get Goosebumps Too" (animal-science crossover)
+- ✅ **Tags must include cat-niche** — `cat psychology`, `cat science`, `feline behavior` minimum, even on brain-science topics
+
 > When new analytics come in — add a Lesson section here with the same structure (what worked / what bled / what we change).
 
 ---

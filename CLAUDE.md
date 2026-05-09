@@ -14,12 +14,22 @@ YouTube Shorts channel — animated AI cat (Brain) explains cat psychology and b
 
 **Pipeline:** 8 scenes → image in Nano Banana → animation in Veo 3 → assembly in Google Vids.
 
+**Channel:** [@braincatai](https://www.youtube.com/@braincatai) · channel ID `UCMKcrIw1l1u_WU0M9Cv-DKw` · uploads playlist `UUMKcrIw1l1u_WU0M9Cv-DKw`
+
 **Source of truth files:**
 - `braincatai/director-checklist.md` — **master production playbook** with mandatory mantras, per-stage checklists, troubleshooting table, and analytics-based learnings. Read this before starting any new video.
 - `braincatai/style-guide.md` — character, color, audio, editorial, locked AI prompts
 - `braincatai/script-template.md` — copy-paste template for every new video
 - `braincatai/content-ideas.md` — backlog
 - `braincatai/scripts/<slug>.md` — one file per video
+- `braincatai/analytics/` — performance reviews and API snapshots
+
+**Live API queries** (key in `/root/.config/youtube-api-key`):
+```bash
+KEY=$(cat /root/.config/youtube-api-key)
+curl -s "https://www.googleapis.com/youtube/v3/channels?key=$KEY&id=UCMKcrIw1l1u_WU0M9Cv-DKw&part=statistics" | jq
+curl -s "https://www.googleapis.com/youtube/v3/playlistItems?key=$KEY&playlistId=UUMKcrIw1l1u_WU0M9Cv-DKw&maxResults=50&part=contentDetails" | jq
+```
 
 ### StillWave (`/stillwave`)
 
