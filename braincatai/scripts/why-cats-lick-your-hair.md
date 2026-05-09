@@ -87,33 +87,33 @@ Congrats. Your cat is your mom now. Follow Brain for more cat secrets.
 
 ## Scene 1 — HOOK (0–7 sec)
 
-**Beat purpose:** Hook viewer instantly — Brain mid-aftermath of a hair-lick with a strand of long human hair visibly draped near him.
+**Beat purpose:** Hook viewer INSTANTLY at frame 0 — Brain caught at the peak of a lick, tongue fully extended, mid-action. NO calm establish (per Lesson 4 in director-checklist).
 **Location:** A | **Wardrobe:** Regular Brain
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, a small wooden bedside table with a brass alarm clock and a small succulent plant, a framed nature print on the wall in soft focus, soft warm honey-amber ambient lighting, cozy and inviting bedroom atmosphere, shallow depth of field. Brain sitting comfortably on top of a soft cream pillow that is RESTING DIRECTLY ON THE BED (the pillow is one of the bed's pillows — cream sheets visibly surround and tuck around the pillow, the pillow is clearly part of the bed, not a standalone object), shown in a 3/4 view facing camera in any natural relaxed kitten pose. The very tip of his pink tongue pokes out slightly between his closed lips in a held mid-lick aftermath gesture (mouth otherwise closed, just the tiny tongue tip visible — a single held cute pose). Big satisfied affectionate vivid emerald green eyes, slight playful smirk in the eyes, ears perked softly forward. The pillow surface is CLEAN — no hair, no debris, no stray strands. Soft warm morning light halos his fur. Brain has 4 paws total — let him sit naturally however suits the pose.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY BEDROOM — MORNING. Cozy modern bedroom with soft cream-colored bedsheets and pillows on a low wooden bed, a soft folded amber knit throw blanket at the foot of the bed, soft warm morning light streaming gently through a window with sheer linen curtains on the left, soft warm honey-amber ambient lighting, shallow depth of field. EXTREME CLOSE-UP framing on Brain's face, captured at the PEAK of an active lick — pink tongue fully extended forward and visibly mid-motion, glistening with moisture, dragging UP across an invisible surface in front of him (lick action mid-flow), eyes blissfully half-closed in concentration with vivid emerald green iris visible through the slits, ears tilted softly forward in focused concentration, fur on his cheeks slightly ruffled from the licking motion, whiskers fanned with the movement. The pillow he sits on (clearly part of the bed) is visible at the bottom edge, slightly indented under his weight. The composition catches the FROZEN PEAK of the action — like high-speed photography. The pillow surface is CLEAN — no hair, no debris.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Static medium close-up, eye-level, Brain on a pillow that's clearly resting on the bed, facing camera in 3/4 view. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
+SHOT: Extreme close-up on Brain's face, eye-level. Slow continuous PUSH-IN (~4% closer over 7 seconds). Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber. Frame opens IN motion — Brain is ALREADY mid-lick on frame 0, tongue ALREADY extended, motion ALREADY happening. NO calm establish.
 
-TIME 0–2s: Brain holds the post-lick pose — tip of pink tongue poking out slightly between his closed lips (single held tongue-tip, not opening/closing), satisfied affectionate vivid emerald green eyes, gold heart tag glints once. He stays still in his natural sitting pose.
+TIME 0–1.5s: Frame opens at the PEAK of the lick — pink tongue fully extended forward and dragging upward in active motion, eyes half-closed in bliss, fur on cheeks ruffled by the movement, whiskers fanned. Tongue continues its upward drag motion through this beat. Tail flicks twice. Camera mid-push-in.
 
-TIME 2–4s: Brain slowly retracts the tongue tip back into his closed mouth in one smooth motion (mouth then stays closed), eyes give a slow knowing slow-blink at camera.
+TIME 1.5–3.5s: Tongue retracts smoothly back into mouth (visible flick), fur on cheeks settles, head turns slowly toward camera. Brain's eyes open progressively — half-lidded → fully open → land on camera with knowing locked eye contact. Whiskers settle.
 
-TIME 4–7s: Brain holds eye contact with camera, eyes warm and a little smug, ears perked forward, tail tip flicks slowly behind him.
+TIME 3.5–7s: Brain holds the locked eye-contact pose, gives one slow knowing blink, smug smile-shape held in closed mouth, gold heart tag glints, tail tip flicks once more. Camera push-in completes.
 
-EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber. Warm morning light does NOT tint the iris.
+EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER show 5 paws or extra limbs.
 
-MOUTH RULE (single held tongue-tip exception): Mouth stays mostly closed throughout. Only the tip of the pink tongue is visible poking out between closed lips for TIME 0–2s, then retracts smoothly. After 2s the mouth is fully closed and stays closed. NO chewing, NO chattering, NO lip-sync, NO repeated open-close. One single held tongue-tip motion at the start.
+MOUTH RULE (single sustained lick exception): Mouth opens with tongue fully extended at frame 0 (already in mid-lick). Tongue retracts smoothly at TIME 1.5–2s, then mouth stays closed. ONE single lick action across the opening — NO chewing, NO chattering, NO repeated tongue motions, NO lip-sync.
 
-PILLOW RULE: The pillow stays resting on the bed throughout — it is clearly a bed pillow with cream sheets around it. The pillow surface stays clean — no hair, no debris.
+DYNAMICS RULE (strict — Lesson 4): Frame 0 must already show motion in progress — tongue extended, fur ruffled, whiskers fanned, ears engaged. NO "calm establish" of static pose. Multiple simultaneous motion elements throughout: tongue + fur + whiskers + tail + camera push-in.
 
 STYLE: Pixar 3D render, cinematic warm morning lighting, vertical 9:16, soft depth of field.
 ```

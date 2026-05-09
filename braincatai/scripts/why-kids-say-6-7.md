@@ -109,34 +109,34 @@ Try the hand gesture. Watch your kid LOSE it. Follow Brain for more facts that b
 
 ## Scene 1 — HOOK (0–7 sec)
 
-**Beat purpose:** Snap-reaction hook. Brain in the kid's room reacts in confused shock as a kid's voice yells "SIX-SEVEN" off-screen. Sets up the parent's POV.
+**Beat purpose:** Hook viewer at frame 0 with Brain ALREADY at peak confusion + speech bubble ALREADY visible. NO calm establish (per Lesson 4).
 **Location:** A | **Wardrobe:** Regular Brain
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
 [Locked Brain prompt above — full kitten-locked block]
-INT. COZY KID'S ROOM — DAY. Cozy modern kid's bedroom with a low single bed in the background, a small wooden desk with a tablet and a stack of comic books, a soft cream rug, a small basketball hoop attached to the closet door, a few sneakers on the floor, a window with sheer curtains and soft warm afternoon daylight from the right, posters of cartoon characters on the wall in soft focus, warm honey-amber ambient lighting, shallow depth of field. MEDIUM CLOSE-UP framing. Brain sitting on the kid's rug in 3/4 view facing camera with a deeply CONFUSED PARENT-LIKE expression — vivid emerald green eyes wide and bewildered, eyebrows knitted in pure "what does this mean" puzzlement, ears half-tilted in different directions (one forward, one slightly back) showing pure confusion, head tilted hard to one side, mouth slightly held open in a small confused "huh?" pose (single held expression, not chattering). A floating cartoon comic-style speech bubble at the upper-left of frame contains the bold text "6-7?!" in bright Electric Yellow with charcoal stroke (the text must be exactly "6-7?!" rendered cleanly — no garbled letters, no extra characters). Brain has 4 paws total.
+INT. COZY KID'S ROOM — DAY. Cozy modern kid's bedroom with a low single bed in the background, a small wooden desk with a tablet and a stack of comic books, a soft cream rug, a small basketball hoop attached to the closet door, a few sneakers on the floor, a window with sheer curtains and soft warm afternoon daylight from the right, posters of cartoon characters on the wall in soft focus, warm honey-amber ambient lighting, shallow depth of field. MEDIUM CLOSE-UP framing. Brain sitting on the kid's rug in 3/4 view CAUGHT AT THE PEAK of a confused-parent reaction — captured like high-speed photography at the frozen instant of the "what?!" moment: vivid emerald green eyes BLOWN WIDE AND BEWILDERED, eyebrows fully knitted in pure "what does this mean" puzzlement, ears clearly SPLIT in different directions (one forward, one half-back) showing extreme confusion, head tilted HARD to one side, mouth held in a small "huh?" pose, fur slightly ruffled along his back from the startle. A floating cartoon comic-style speech bubble at the upper-left of frame ALREADY visible (no pop-in build-up — bubble is there from frame 0) with bouncy spring lines around it indicating it just popped, containing the bold text "6-7?!" in bright Electric Yellow with charcoal stroke (text must be exactly "6-7?!" rendered cleanly — no garbled letters, no extra characters). Brain has 4 paws total. The pose is the FROZEN PEAK of confusion at frame 0 — viewer sees full reaction immediately, not buildup.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Medium close-up at eye-level, Brain in 3/4 view on the kid's rug. Static framing with one quick subtle ZOOM-PUNCH at TIME 1s when the off-screen voice hits. Brain is a YOUNG PIXAR KITTEN (4 months equivalent), NOT an adult cat — round baby-face, plump cheeks, big baby-eyes throughout. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
+SHOT: Medium close-up at eye-level, Brain in 3/4 view on the kid's rug. Slow continuous PUSH-IN (~4% closer over 7 seconds). Brain is a YOUNG PIXAR KITTEN, round baby-face, plump cheeks throughout. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber. Frame opens AT THE PEAK of confusion — eyes ALREADY wide, head ALREADY tilted hard, ears ALREADY split, "6-7?!" bubble ALREADY visible. NO calm establish.
 
-TIME 0–1s: Brain on the rug calmly looking at camera, vivid emerald green eyes neutral, ears forward.
+TIME 0–1s: Frame opens at FULL confusion — Brain's eyes blown wide and bewildered, ears split (one forward, one half-back), head tilted hard to one side, mouth held in small "huh?" pose. The "6-7?!" speech bubble is ALREADY in the upper-left with bouncy spring lines around it (just-popped state). Camera mid-zoom-punch landing. Fur on his back ruffled by the startle.
 
-TIME 1–2.5s: SUDDEN snap reaction — Brain's eyes widen, ears split (one forward, one half-back) in confusion, head tilts hard to one side, the cartoon "6-7?!" speech bubble pops in at upper-left with a bouncy spring. Tiny zoom-punch on the camera at the bubble pop-in.
+TIME 1–4s: Brain holds the peak-confusion pose with secondary motion stacking: head tilts SLIGHTLY MORE (deepening confusion), one ear twitches, his eyebrows furrow further, the "6-7?!" bubble wobbles gently in place, tail does one slow questioning flick at the edge of frame. Camera continues subtle push-in.
 
-TIME 2.5–6s: Brain holds the confused-parent pose — wide eyes, split ears, hard head-tilt, mouth slightly held open in a "huh" expression. The "6-7?!" bubble wobbles gently.
-
-TIME 6–7s: Brain blinks slowly once at camera, the speech bubble pulses a final time. Confusion held.
+TIME 4–7s: Brain holds confusion, gives one slow bewildered blink, tail flicks again, then briefly turns full toward camera in the final 0.5s with a worried "explain please?" expression. Bubble pulses one final time.
 
 EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER 5 paws or extra limbs.
 
-MOUTH RULE (held confused exception): Mouth stays closed for 0–1s. At TIME 1s opens slightly into a held "huh?" expression and stays in that single open position through 6s, then closes. NO chewing, NO chattering, NO repeated open-close. ONE single held confused-mouth shape.
+MOUTH RULE (held confused exception): Mouth opens slightly at frame 0 in a held "huh?" expression and stays in that single open position throughout the 7 seconds. NO closing-and-reopening, NO chewing, NO chattering, NO repeated open-close. ONE single sustained held confused-mouth shape from frame 0.
+
+DYNAMICS RULE (strict — Lesson 4): Frame 0 must show Brain ALREADY at peak confusion with bubble ALREADY visible. NO calm establish, NO "calmly looking at camera" pose. Multiple simultaneous motions throughout: head tilt deepening + ear twitches + eyebrow furrow + bubble wobble + tail flick + camera push-in.
 
 CONSISTENCY RULE (strict): Preserve Brain's young Pixar kitten proportions throughout — round baby-face, plump rosy cheeks, large baby-cat eyes ~30% of face area, small button nose, soft cartoon Pixar shapes. Veo must NOT age him up to a mature cat at any point.
 

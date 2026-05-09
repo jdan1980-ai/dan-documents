@@ -101,25 +101,25 @@ So thanks, Einstein, for keeping us out. Follow Brain for more facts that break 
 
 ## Scene 1 — HOOK (0–7 sec)
 
-**Beat purpose:** Visual hook — Brain spots the black hole through his telescope, eyes go huge in awe-shock.
+**Beat purpose:** Hook viewer at frame 0 with Brain ALREADY in mid-shock at the telescope — fur already poofed, jaw already dropped, eyes already huge. NO calm establish (per Lesson 4).
 **Location:** A | **Wardrobe:** Regular Brain
 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY OBSERVATORY — NIGHT. Cozy reading nook by a tall window facing a deep navy starry night sky, a small brass-and-wood telescope on a tripod aimed out the window, a soft cream armchair with a folded amber knit blanket, a small wooden desk with an open astronomy book and a tiny brass orrery model of the solar system, warm tungsten reading lamp glowing from the upper-left, deep navy and warm amber color palette, shallow depth of field with the window stars softly glowing, scholarly cozy atmosphere. Brain sitting on the desk in 3/4 side view, head turned and tilted forward so his face is pressed right up against the telescope's eyepiece (the eyepiece touching the side of his face just under his right eye), his head fully engaged with the telescope. The camera shows Brain's left side: his left eye is visible to the viewer and is HUGE in shock with vivid emerald green iris and a pinprick pupil, mouth open in a single held cartoon jaw-drop, ears pulled forward sharply, fur slightly poofed along his back in alarm. ONLY his right front paw is raised and resting on the telescope tube near the eyepiece (steadying the telescope), his left front paw rests on the desk, both back paws planted on the desk. A tiny reflection of a swirling orange accretion disk visible in the lens of his gold-framed glasses. The telescope is the dominant prop in the frame, clearly being used by Brain.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY OBSERVATORY — NIGHT. Cozy reading nook by a tall window facing a deep navy starry night sky, a small brass-and-wood telescope on a tripod aimed out the window, a soft cream armchair with a folded amber knit blanket, a small wooden desk with an open astronomy book and a tiny brass orrery model of the solar system, warm tungsten reading lamp glowing from the upper-left, deep navy and warm amber color palette, shallow depth of field with the window stars softly glowing, scholarly cozy atmosphere. Brain sitting on the desk in 3/4 side view with face pressed up against the telescope's eyepiece. CAUGHT AT THE PEAK OF SHOCK — captured like high-speed photography at the exact frozen instant of discovery: fur visibly POOFED UP along his entire spine in a halo of standing-on-end hairs, his visible left eye BLOWN WIDE OPEN with pupil contracted to a pinprick of vivid emerald green iris, mouth caught in a fully-dropped cartoon jaw-drop, ears pulled forward and slightly back in startled awe, whiskers fanned in alarm, his right front paw frozen mid-motion gripping the telescope tube tightly (knuckles visibly tense), tail puffed and held rigid behind him. The accretion disk reflection in his glasses is bright and vivid (mid-flash). The pose is the FROZEN PEAK of the reaction — viewer sees him ALREADY at maximum shock at frame 0, not building up to it.
 ```
 
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Static medium close-up from a slight side angle, eye-level. Brain is shown in 3/4 side view with his face pressed against the telescope's eyepiece — telescope clearly in frame and clearly being used by Brain. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
+SHOT: Medium close-up from slight side angle, eye-level. Slow continuous PUSH-IN (~5% closer over 7 seconds) onto Brain's stunned face. Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber. Frame opens AT THE PEAK of shock — fur ALREADY poofed, jaw ALREADY dropped, eye ALREADY huge. NO calm establish.
 
-TIME 0–2s: Brain peers calmly through the telescope eyepiece, his face pressed gently against the eyepiece, the camera-side eye (his left eye) relaxed and curious, ONLY his right front paw on the telescope tube steadying it, left front paw on the desk, tail relaxed.
+TIME 0–1s: Frame opens with Brain in FULL shock — his fur is already at its peak poof along the spine, the visible eye already wide with pinprick pupil, jaw already cartoonishly dropped, accretion-disk reflection flashing brightly across his glasses. Camera mid-zoom-punch landing. The poofed fur visibly RIPPLES (still rippling outward from the spine) — viewer catches the very last moment of the poof wave.
 
-TIME 2–4s: Brain's visible left eye SUDDENLY snaps wide open — pupil shrinks to a pinprick of vivid emerald green iris, fur poofs slightly along his spine, ears pull forward sharply, a tiny reflection of a swirling orange accretion disk flashes across his glasses lens. Brain's face stays pressed against the eyepiece — he does NOT pull away.
+TIME 1–4s: Brain holds the shocked pose with secondary motion stacking: fur slowly settles partway (still mostly raised), one whisker twitches, ears flick once but stay forward, tail stays rigid. The accretion disk reflection in glasses pulses brighter twice. Camera continues subtle slow push-in.
 
-TIME 4–7s: Brain freezes in shocked awe, face still at the eyepiece, mouth drops open in a single held jaw-drop and stays held open through 7s. Right paw stays on telescope tube. Ears stay perked forward.
+TIME 4–7s: Brain holds the shocked pose, fur stays partly poofed (not fully settled), gold heart tag glints once, mouth still held in jaw-drop. Push-in completes. ONE small additional whisker twitch as a closing beat.
 
 EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber, NOT yellow, NOT hazel. Warm tungsten lighting must NOT tint the iris.
 
@@ -127,7 +127,15 @@ ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. ONLY the ri
 
 POSITION RULE (strict): Brain's face is pressed against the telescope eyepiece for the entire 7 seconds — he does NOT move away from the telescope at any point. The telescope is clearly visible in the frame and Brain is clearly using it.
 
-MOUTH RULE (exception — single held jaw-drop): Mouth stays closed for 0–4s. At TIME 4s the mouth opens once into a held jaw-drop of shock and stays held in that single open position through 7s. NO chewing, NO chattering, NO repeated open-close, NO lip-sync. One single hold.
+DYNAMICS RULE (strict — Lesson 4): Frame 0 must show Brain ALREADY at peak shock — fur poofed, eye huge, jaw dropped. NO calm establish, NO build-up. Multiple simultaneous motions throughout: fur ripple + whisker twitch + tag glint + accretion disk pulse + camera push-in.
+
+EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber, NOT yellow, NOT hazel. Warm tungsten lighting must NOT tint the iris.
+
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. ONLY the right front paw is on the telescope. Left front paw and both back paws stay on the desk. NEVER show 5 paws or extra limbs.
+
+POSITION RULE (strict): Brain's face is pressed against the telescope eyepiece for the entire 7 seconds — he does NOT move away from the telescope at any point. The telescope is clearly visible in the frame and Brain is clearly using it.
+
+MOUTH RULE (single held jaw-drop exception): Mouth opens at frame 0 in a held cartoon jaw-drop and stays held in that single open position throughout the entire 7 seconds. NO closing, NO chewing, NO chattering, NO repeated open-close, NO lip-sync. One single sustained hold from frame 0.
 
 STYLE: Pixar 3D render, cinematic warm lighting against navy starlight, vertical 9:16, soft depth of field.
 ```
