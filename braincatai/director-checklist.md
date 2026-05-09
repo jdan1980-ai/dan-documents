@@ -94,7 +94,52 @@ YouTube algorithm pushed this video hard between days 1–4. What set it apart:
 - `why-music-gives-you-goosebumps.md` — goosebumps is a universal physical experience, ship
 - `why-kids-say-6-7.md` — high search-intent for parents (they actively Google this), ship
 
-> When new analytics come in — add a Lesson section here with the same structure (what worked / what bled / what we change).
+### Lesson 4 — First 2 seconds must already be in motion (May 9, 2026)
+
+User feedback: "Static prompts killed the dynamics in the first seconds. Transitions/ignition effects don't compensate."
+
+**My pattern problem:** I kept writing scripts where Sc 1 opens with `Brain calmly listening / sitting / looking with X expression for 1.5–2 seconds, then snap reaction at 2s`. That's a Pixar feature-film opening, NOT a Shorts opening.
+
+**Why it kills retention:**
+- Shorts viewers decide to swipe in **first 1–2 seconds**
+- "Calm establish" wastes the most valuable real estate of the entire video
+- By the time the snap reaction lands at 2s, ~30–40% of viewers are gone
+
+**The fix — open ALREADY in motion, not establishing toward motion:**
+
+| ❌ Writing pattern to ban | ✅ Replacement pattern |
+|---------------------------|-----------------------|
+| `TIME 0–1.5s: Brain sits calmly with X expression` | `TIME 0–0.5s: Brain LEAPS / POUNCES / SHAKES OFF / WHIPS HEAD AROUND — already mid-motion at frame 1` |
+| `TIME 0–2s: tail flicks once` | `TIME 0–1s: tail puffs + ears flatten + eyes dilate + fur ripples + camera zoom-punches all simultaneously` |
+| `Brain looks at camera, then reacts` | `Open ON the reaction — fur already poofed, jaw already dropped, eyes already wide, camera already mid-zoom` |
+| Snap reaction held FROM 0–4s ✓ | Snap reaction held from 0–4s, with secondary motion (whisker twitches, fur settle, eye refocus) layered through it |
+
+**Motion stacking — every scene needs ≥3 simultaneous motion elements (not sequential):**
+
+1. **Brain's body** — leap, pounce, stride, shake-off, lean, settle, pivot
+2. **Brain's face/fine** — eye dilate / ear flick / whisker twitch / fur ripple / mouth held jaw-drop
+3. **Camera** — push-in / zoom-punch / pull-back / dolly / tilt — never pure static for the hook
+4. **Environment** — rain falls, dust drifts, sparkle particles, color shift, prop motion, light pulse
+5. **Bonus (optional)** — visual element timed to VO beat (object drops on stress word, lightbulb flash on "AHA")
+
+**Transition effects (ignition / fade / whoosh) DON'T compensate** for static scenes. Polished transitions between two boring shots are still two boring shots — the viewer already swiped.
+
+**What we change for every future script:**
+
+- ✅ **Sc 1 HOOK opens IN mid-action** — not establishing toward action. The scene starts at peak. Frame 1 = jaw-dropped + fur-poofed + eyes-wide.
+- ✅ **No "calm establish" pattern** — banned phrase: "Brain sits / looks calmly with X expression for the first N seconds"
+- ✅ **Stack 3+ simultaneous motion elements** per scene — not "first this, then that" sequential — they happen at the same time
+- ✅ **Camera always doing something on Sc 1** — even tiny continuous push-in (3% over 7 sec) beats pure static
+
+**Action verbs to lead with in Sc 1 (re-emphasis from §5c):**
+
+`pounces, lands, slams, whips around, recoils, flinches, jumps in, snaps head, fur poofs, tail puffs, ears snap back, eyes blow wide, jaw drops, shakes off, hops onto, leaps into, springs from, dashes in`
+
+**Anti-vocab BANNED in Sc 1 (don't use even if "before the action"):**
+
+`sits, calmly, looks at, half-lidded, tail flick, glances, gentle, settles, peers, observes`
+
+These can appear in Sc 7-8 but **never in the hook**.
 
 ---
 
@@ -130,7 +175,7 @@ For each scene, before you write the prompts, answer:
 
 | Scene | Beat | Required punch |
 |-------|------|----------------|
-| 1 | HOOK | Snap reaction in first 2 sec — fur poof / jaw drop / eyes pop / head whip / leap. **Use the visual moneyshot here, not setup.** |
+| 1 | HOOK | **Open IN motion, not toward it.** Frame 1 already shows the punch — fur poofed / jaw dropped / mid-leap. NO "calm establish for 1–2s". Stack 3+ simultaneous motions: body + face + camera + environment. **Use the visual moneyshot here, not setup.** See Lesson 4. |
 | 2 | Curiosity gap | A specific micro-action — paw raise, head tilt, tail-as-question-mark, lean toward camera |
 | 3 | Setup | Brain physically interacts with the explanatory prop (chart, hologram, scientist costume, etc.) |
 | 4 | Build-up | Anticipation — Brain stalks, crouches, freezes, pause… |
