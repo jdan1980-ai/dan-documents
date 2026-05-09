@@ -16,7 +16,7 @@ See `published-videos.md` for the full table with metrics.
 
 | Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎞️ | ⏰ | 📤 |
 |------|-------|--------|----|----|----|-----|-----|-----|
-| `tokyo-apartment-rain-1h` | Power Hour Focus Music — Tokyo Apartment Rain | 1H 04min | ✅ | ✅ (24 tracks + rain layer mixed) | ✅ (NanoBanana — perfect: corner windows + fireplace + open laptop + bonsai + tea + neon Tokyo) | ✅ (animated + looped to full length) | ⏳ | ⏳ |
+| `tokyo-apartment-rain-1h` | Power Hour Focus Music — Tokyo Apartment Rain | 1H 04min 48sec (24 tracks) | ✅ | ✅ (24 tracks + rain layer mixed) | ✅ | ✅ (animated + looped) | ✅ (uploading to YouTube) | ⏳ |
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 

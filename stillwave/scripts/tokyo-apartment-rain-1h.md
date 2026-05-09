@@ -5,7 +5,7 @@
 - **Title:** Power Hour Focus Music — Tokyo Apartment Rain | 1H Deep Work Sprint for Coding, Writing & Studying
 - **Slug:** `tokyo-apartment-rain-1h`
 - **Format:** Long-form
-- **Length:** 1H 04min (3 840 sec)
+- **Length:** 1H 04min 48sec (3 888 sec)
 - **Phase:** 1 (soft intro — Power Hour format — 24 Suno tracks at 1H 04min, no loop)
 - **Aesthetic:** Spacious Tokyo Penthouse — corner-wrap floor-to-ceiling windows + heavy rain on glass + neon Tokyo + modern linear fireplace + open MacBook with writing app + tea cup + bonsai
 - **Status:** script ready — awaiting Suno + NanoBanana generation
@@ -75,18 +75,18 @@ The loop must be PERFECTLY SEAMLESS — the last frame matches the first frame s
 Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, contemplative late-night Tokyo penthouse mood. Dominant motion: rain on glass + fireplace flicker + subtle laptop cursor activity.
 ```
 
-## 6. 🛠️ ffmpeg encode command (loop the 8-sec video to 1H 04min + audio)
+## 6. 🛠️ ffmpeg encode command (loop the 8-sec video to 1H 04min 48sec + audio)
 
 ```bash
 ffmpeg -stream_loop -1 -i tokyo-apartment-rain-1h-loop.mp4 -i tokyo-apartment-rain-1h.mp3 \
   -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
-  -c:a aac -b:a 192k -shortest -t 3840 tokyo-apartment-rain-1h.mp4
+  -c:a aac -b:a 192k -shortest -t 3888 tokyo-apartment-rain-1h.mp4
 ```
 
 > Alternative (no re-encode, faster, requires the loop to already be in 1080p H.264 yuv420p):
 > ```
 > ffmpeg -stream_loop -1 -i tokyo-apartment-rain-1h-loop.mp4 -i tokyo-apartment-rain-1h.mp3 \
->   -c:v copy -c:a aac -b:a 192k -shortest -t 3840 tokyo-apartment-rain-1h.mp4
+>   -c:v copy -c:a aac -b:a 192k -shortest -t 3888 tokyo-apartment-rain-1h.mp4
 > ```
 
 ---
@@ -121,29 +121,29 @@ Pour something warm, dim the room, put on your headphones, let the Tokyo rain ha
 
 🎵 Tracklist:
 0:00 — Glass at 11 PM
-2:40 — First Raindrop
-5:20 — Steam Rising
-8:00 — Neon Through Rain
-10:40 — Far City Lights
-13:20 — Bonsai Watch
-16:00 — Floor Thirty-Eight
-18:40 — Fingers on Keys
-21:20 — Code Lines Drifting
-24:00 — Page Turn
-26:40 — Sub-Bass Heartbeat
-29:20 — Quiet Glass
-32:00 — Between Two Thoughts
-34:40 — The Long Hour
-37:20 — Highway Streaks Below
-40:00 — Empty Halls
-42:40 — Midnight Stillness
-45:20 — Tea Goes Cold
-48:00 — Temple Bell, Far
-50:40 — Rain Slows
-53:20 — Last Sentence
-56:00 — Final Pulse
-58:40 — Closing the Lid
-1:01:20 — Tokyo Sleeps
+1:58 — First Raindrop
+4:21 — Steam Rising
+6:44 — Neon Through Rain
+10:15 — Far City Lights
+12:14 — Bonsai Watch
+15:13 — Floor Thirty-Eight
+17:17 — Fingers on Keys
+20:05 — Code Lines Drifting
+22:28 — Page Turn
+25:43 — Sub-Bass Heartbeat
+28:25 — Quiet Glass
+30:48 — Between Two Thoughts
+34:33 — The Long Hour
+38:18 — Highway Streaks Below
+41:18 — Empty Halls
+44:32 — Midnight Stillness
+47:23 — Tea Goes Cold
+50:36 — Temple Bell, Far
+52:56 — Rain Slows
+55:08 — Last Sentence
+57:17 — Final Pulse
+59:04 — Closing the Lid
+1:01:31 — Tokyo Sleeps
 
 ▶ Subscribe for new Tokyo apartment, lantern, and quiet city focus sessions every week.
 
@@ -152,7 +152,7 @@ Pour something warm, dim the room, put on your headphones, let the Tokyo rain ha
 #powerhour #1hourfocus #deepfocus #deepfocusmusic #focusmusic #studymusic #workmusic #productivitymusic #flowstate #codingmusic #pomodoro #tokyomusic #rainmusic #ambientfocus #musicforwork #concentrationmusic #studywithme #nodistractions #lofistudy #japaneseambient
 ```
 
-> ⚠️ **Timestamps** assume even 2:40 per track (1:04:00 / 24 = 160 sec). Recalculate after the actual mix if track lengths differ. YouTube auto-detects chapters when the first line is at exactly `0:00` and entries are in ascending order.
+> ✅ **Timestamps confirmed** from CapCut (24 tracks, total 1:04:48). YouTube auto-detects chapters because the first line is exactly `0:00` and entries are in ascending order. Track durations vary between 1:47 and 3:45.
 
 ## 9. 🏷️ Tags (22 tags — built on winning patterns from MERSO + PHF live API data)
 
