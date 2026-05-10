@@ -26,6 +26,7 @@ After publish (May 10, 14:00):
 - **30d review** — June 9, 14:00 → final perf snapshot, decide if pattern goes into Power Hour series template
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `nervous-system-reset-528hz-1h` | Best 528 Hz + 432 Hz Japanese Monks Healing [1H Nervous System Reset] | 1H 04min | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 ## Phase 1 batch — week of May 13–19
 
