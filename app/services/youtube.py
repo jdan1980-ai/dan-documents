@@ -95,11 +95,39 @@ def resolve_channel(query: str) -> str | None:
                 return query.split(marker, 1)[1].split("/", 1)[0].split("?", 1)[0]
         for marker in ("/@", "/c/", "/user/"):
             if marker in query:
-                handle = query.split(marker, 1)[1].split("/", 1)[0].split("?", 1)[0]
-                return _search_channel_id(handle)
+                from urllib.parse import unquote
+                handle = unquote(query.split(marker, 1)[1].split("/", 1)[0].split("?", 1)[0])
+                return _resolve_handle(handle)
     if query.startswith("@"):
-        return _search_channel_id(query[1:])
-    return _search_channel_id(query)
+        return _resolve_handle(query[1:])
+    return _resolve_handle(query)
+
+
+def _resolve_handle(handle: str) -> str | None:
+    """Try channels.list?forHandle= first (works for any handle including Cyrillic),
+    fall back to search.list for free-text channel names.
+    """
+    cache_key = f"resolve:{handle.lower()}"
+    cached = cache_get(cache_key)
+    if cached is not None:
+        return cached or None
+
+    try:
+        resp = (
+            _client()
+            .channels()
+            .list(part="id", forHandle=handle)
+            .execute()
+        )
+        items = resp.get("items") or []
+        if items:
+            channel_id = items[0]["id"]
+            cache_set(cache_key, channel_id)
+            return channel_id
+    except HttpError:
+        pass
+
+    return _search_channel_id(handle)
 
 
 def _search_channel_id(handle_or_name: str) -> str | None:
