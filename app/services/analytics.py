@@ -439,10 +439,22 @@ def suggest_tags(outlier_videos: list[dict[str, Any]], top_n: int = 25) -> list[
 _DAYS_RU = ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"]
 
 
-def best_upload_time(videos: list[dict[str, Any]]) -> dict[str, Any]:
-    """Analyze top performers to suggest best day/hour for uploads."""
+def best_upload_time(videos: list[dict[str, Any]], tz_name: str = "Asia/Jerusalem") -> dict[str, Any]:
+    """Analyze top performers to suggest best day/hour for uploads.
+
+    All YouTube publishedAt timestamps are UTC. We convert to the user's
+    local timezone (default Jerusalem, handles DST automatically) before
+    bucketing by weekday/hour.
+    """
     if len(videos) < 5:
         return {"error": "Минимум 5 видео для анализа", "videos_analyzed": len(videos)}
+
+    try:
+        from zoneinfo import ZoneInfo
+        local_tz = ZoneInfo(tz_name)
+    except Exception:
+        local_tz = timezone.utc
+        tz_name = "UTC"
 
     sorted_videos = sorted(videos, key=lambda v: v["views"], reverse=True)
     top = sorted_videos[: max(10, len(videos) // 3)]
@@ -457,8 +469,9 @@ def best_upload_time(videos: list[dict[str, Any]]) -> dict[str, Any]:
             dt = _parse_dt(v.get("published_at"))
             if not dt:
                 continue
-            dow = dt.weekday()
-            hr = dt.hour
+            local_dt = dt.astimezone(local_tz)
+            dow = local_dt.weekday()
+            hr = local_dt.hour
             days[dow] += 1
             hours[hr] += 1
             day_views.setdefault(dow, []).append(v["views"])
@@ -497,6 +510,7 @@ def best_upload_time(videos: list[dict[str, Any]]) -> dict[str, Any]:
     return {
         "videos_analyzed": len(videos),
         "top_count": len(top),
+        "timezone": tz_name,
         "best_day": best_day,
         "best_hour": best_hour,
         "days_ranked": days_named[:7],

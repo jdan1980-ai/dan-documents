@@ -20,7 +20,7 @@
         {% endif %}
         {% if result.best_hour %}
         <div class="bg-white p-5 rounded-lg border border-slate-200">
-            <div class="text-xs text-slate-500 uppercase mb-1">Лучший час (UTC)</div>
+            <div class="text-xs text-slate-500 uppercase mb-1">Лучший час ({{ result.timezone }})</div>
             <div class="text-3xl font-bold text-red-600">{{ result.best_hour.label }}</div>
             <div class="text-xs text-slate-500">{{ result.best_hour.top_count }} в топе vs {{ result.best_hour.bottom_count }} в худших · avg views: {{ "{:,}".format(result.best_hour.avg_views) }}</div>
         </div>
@@ -36,13 +36,13 @@
             </table>
         </div>
         <div class="bg-white p-5 rounded-lg border border-slate-200">
-            <h3 class="font-semibold text-sm mb-2">Часы (UTC)</h3>
+            <h3 class="font-semibold text-sm mb-2">Часы ({{ result.timezone }})</h3>
             <table class="w-full text-xs">
                 <thead><tr class="text-slate-500"><th class="text-left">Час</th><th class="text-right">Топ</th><th class="text-right">Худш.</th><th class="text-right">Avg views</th></tr></thead>
                 <tbody>{% for h in result.hours_ranked %}<tr class="border-t"><td class="py-1">{{ h.label }}</td><td class="text-right">{{ h.top_count }}</td><td class="text-right text-slate-400">{{ h.bottom_count }}</td><td class="text-right">{{ "{:,}".format(h.avg_views) }}</td></tr>{% endfor %}</tbody>
             </table>
         </div>
     </div>
-    <div class="text-xs text-slate-500 italic">Время в UTC. Прибавь твой timezone offset (Israel = +3, MSK = +3, NYC = -5).</div>
+    <div class="text-xs text-slate-500 italic">Время уже в твоей локальной зоне ({{ result.timezone }}, с учётом DST).</div>
 </div>
 {% endif %}
