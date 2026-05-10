@@ -1,13 +1,13 @@
-# Nervous System Reset — 528 Hz Japanese Monks 1H
+# Nervous System Reset — 528 Hz Japanese Zen 1H
 
 ## Meta
 
-- **Title:** Best 528 Hz + 432 Hz Japanese Monks Healing [1H Nervous System Reset]
+- **Title:** Best 528 Hz Japanese Zen Healing Music [1H Top Nervous System Reset]
 - **Slug:** `nervous-system-reset-528hz-1h`
 - **Format:** Long-form
 - **Length:** 1H 04min (24 Suno tracks pre-mixed in CapCut, no loop)
-- **Phase:** 1 — counts as **legacy Hz** format (per phase plan: 3 of 4 weekly = old, this slot)
-- **Aesthetic:** **Legacy Hz/healing — Traditional Japanese Buddhist temple at night** (NOT Tokyo penthouse — this video is legacy format, syncs visual to "Japanese Monks" framing in title). Wooden temple interior, tatami floor, shoji sliding doors, moonlit Mount Fuji silhouette through opening, paper lanterns (andon + chochin), Japanese singing bowls (rin-dō / suzu), low wooden altar with incense.
+- **Phase:** 1 — Hz/healing themed video on the **Spacious Tokyo Penthouse locked baseline** (per `stillwave/CLAUDE.md` — penthouse stays consistent across all StillWave videos for brand recognition; this video swaps the Power Hour productivity props for Japanese Zen healing props)
+- **Aesthetic:** **Spacious Tokyo Penthouse + Japanese Zen healing prop swap.** Penthouse interior, corner-wrap floor-to-ceiling windows with rain-streaked Tokyo neon cityscape, modern linear fireplace, plus low cedar wood altar (replacing Power Hour writing desk) with three Japanese rin-dō Buddhist singing bowls + bronze koro incense burner + lit beeswax candle + andon paper lantern.
 - **Status:** script ready — awaiting Suno + NanoBanana
 - **Upload date:** TBD (week of May 13–19)
 
@@ -34,7 +34,7 @@ Slow ambient healing soundscape at exactly 528 Hz drone foundation with 432 Hz o
 [section B: 432 Hz layer enters underneath, shakuhachi flute breath drifts in like wind through a moonlit bamboo grove]
 [section C: rin bowls strike in pairs creating binaural pulse, suzu hand bell shimmers high above, parasympathetic activation deepens, time slows]
 [loop point: 528 Hz drone never breaks, instruments rotate around it, no audible seam in audio]
-[mood: ancient Japanese mountain temple at night, moonlit Mount Fuji visible through open shoji doors, monk's altar, incense smoke curling above bronze rin bowls, nervous system unwinding minute by minute]
+[mood: quiet luxury Tokyo penthouse at night, light rain on tall glass windows, modern Japanese Zen healing altar with bronze rin bowls and incense, neon city softly bokeh through the rain, nervous system unwinding minute by minute]
 [texture: bronze rin resonance, bamboo flute breath, mokugyo wooden tap, slow incense smoke, sub-bass body pulse]
 ```
 
@@ -43,13 +43,23 @@ Slow ambient healing soundscape at exactly 528 Hz drone foundation with 432 Hz o
 ## 3. 🎨 NanoBanana prompt 16:9 (thumbnail + video visual)
 
 ```
-Photorealistic cinematic interior scene, ancient Japanese Buddhist mountain TEMPLE interior at night during a clear moonlit sky. NOT a modern penthouse — this is a traditional wooden temple chamber from feudal-era Japan. Aged dark cedar wood beams across the ceiling, polished tatami straw mat floor, traditional shoji sliding paper screen doors fully open along the right side of the frame revealing a serene exterior. Through the open shoji: a moonlit silhouette of MOUNT FUJI in the far distance with snow-capped peak glowing pale blue under a luminous full moon, foreground silhouettes of bamboo grove and a lone Japanese black pine on a stone garden, low layer of mist rolling slowly between bamboo stems. Foreground (left two-thirds of frame): low dark cedar wood ALTAR with THREE Japanese rin-dō Buddhist singing bowls in graduated sizes — a large bronze rin bowl in the center (20cm diameter, smooth lip, deep golden patina), two smaller rin bowls flanking it, each resting on a folded indigo and gold silk brocade cushion, with carved wooden mallets resting beside. Curling INCENSE SMOKE rises in slow vertical tendrils from a small bronze koro incense burner behind the largest rin bowl, the smoke drifts upward and dissolves into the dark wooden rafters above. A single LIT BEESWAX TEMPLE CANDLE on a wooden saucer at the corner of the altar (warm amber flame). To the right of the altar: a Japanese chochin paper lantern hanging from the rafter, glowing soft amber. On the wall behind the altar: a hanging shoji-mounted kanji calligraphy scroll (atmospheric only, characters unreadable, brush ink on aged rice paper). NO Tokyo cityscape. NO neon signs. NO laptop. NO modern fireplace. NO concrete. NO glass walls. The atmosphere is pre-modern, mountain monastic, deeply quiet. Three light sources balance: warm beeswax candle + bronze candlelight reflection on rin bowls in foreground, soft amber chochin paper lantern in mid-ground, cool moonlight through open shoji on Mount Fuji and bamboo garden in background. Muted dark interior palette (aged cedar browns, charcoal lacquer black, deep indigo silk, antique gold rin bronze) contrasted with cool moonlight blue on the distant mountain and warm candle/lantern amber inside. Atmospheric depth across four planes: foreground altar with rin bowls and incense smoke, mid-ground temple interior with chochin lantern, mid-background open shoji frame with bamboo silhouettes, far-background moonlit Mount Fuji and starry sky. Ultra-wide cinematic 16:9 framing. Shallow depth of field on the rin bowls and incense smoke with the moonlit mountain, bamboo, and lantern flame as soft glowing bokeh. NO text overlays in image. NO logos. NO watermarks. NO readable letters anywhere. 4K detail, photorealistic rendering, high cinematic quality, contemplative ancient Japanese mountain temple sound bath mood.
+Photorealistic cinematic interior scene, spacious open-plan luxury Japanese penthouse on a high floor of a Tokyo skyscraper at night during light rain. High 14-foot ceilings, generous negative space, sense of breathing architectural grandeur. Massive CORNER-WRAP floor-to-ceiling glass windows dominate the right and back walls of the frame (windows make up over 60% of visible interior surfaces). Beyond the corner windows: massive Japanese cityscape stretching to horizon — countless neon signs (kanji and katakana characters glowing in pink, electric blue, electric green, warm amber, magenta), distant skyscrapers with lit windows in vertical grids, red taillight streaks of cars on highways and streets winding far below, warm yellow Tokyo street lights creating a sea of urban glow. Light rain runs down the glass in soft streaks, distorting the neon city behind into beautiful soft bokeh.
+
+Foreground (left third of frame): a low dark cedar wood ALTAR / kotatsu-style table with THREE Japanese rin-dō Buddhist singing bowls in graduated sizes — a large bronze rin bowl in the center (20cm diameter, smooth lip, deep golden patina, antique gold tone), two smaller rin bowls flanking it, each resting on a folded indigo and gold silk brocade cushion, with carved wooden mallets resting beside. Curling INCENSE SMOKE rises in slow vertical tendrils from a small bronze koro incense burner behind the largest rin bowl, smoke drifts upward and dissolves into the warm air. A single LIT BEESWAX CANDLE on a wooden saucer at the corner of the altar (warm amber flame, not bright). Behind the altar on the windowsill: a WARM AMBER ANDON paper lantern (soft amber glow). A small black pine BONSAI on the far corner of the altar.
+
+To the LEFT WALL: modern linear gas fireplace embedded in a charcoal-stained wood feature wall — long horizontal flame visible behind tinted glass casting warm amber glow into the room. NO laptop, NO tea cup (those are Power Hour productivity props — this video swaps them for Zen healing props). Empty negative space across the polished cedar floor — luxury through emptiness.
+
+THREE light sources balance: warm fireplace amber on the left, candle + andon lantern + incense + bronze rin reflection in foreground, cool neon city accents through the rainy corner windows on the right. Muted dark interior palette (deep charcoal blacks, polished cedar wood browns, slate gray stone, deep indigo silk, antique gold rin bronze) contrasted with vibrant soft neon city accents (pink, cyan, amber, red taillights), warm fireplace amber, and candle flame reflections on bowl bronze.
+
+Atmospheric depth across four planes: foreground altar with rin bowls and incense smoke, mid-ground spacious room with fireplace, background rain-streaked corner windows, far-background neon Tokyo cityscape with red taillight motion blur. Ultra-wide cinematic 16:9 framing showing the spacious penthouse. Shallow depth of field on the rin bowls and incense smoke with city lights, fireplace flame, and candle as soft glowing bokeh.
+
+NO text overlays in image. NO logos. NO watermarks. NO readable letters anywhere. 4K detail, photorealistic rendering, high cinematic quality, contemplative late-night modern Japanese Zen healing mood — Tokyo penthouse meets traditional sound bath altar.
 ```
 
 ## 4. 🎨 NanoBanana prompt 9:16 (vertical Shorts version)
 
 ```
-Photorealistic cinematic vertical 9:16 scene, ancient Japanese Buddhist mountain temple interior at night during a clear moonlit sky. NOT a modern penthouse. Lower third of frame: low dark cedar wood altar with THREE Japanese rin-dō Buddhist bronze singing bowls in graduated sizes (large rin bowl center, two smaller flanking) on indigo and gold silk brocade cushions, wooden mallets, bronze koro incense burner with curling vertical incense smoke, a single lit beeswax temple candle (warm amber flame). Middle of frame: traditional temple interior with aged dark cedar wood beams, tatami mat floor, hanging chochin paper lantern glowing soft amber, hanging kanji calligraphy scroll on the back wall (unreadable atmospheric brush ink). Upper half of frame: traditional shoji sliding paper doors fully open revealing a moonlit silhouette of MOUNT FUJI in the far distance (snow-capped peak glowing pale blue under a luminous full moon), foreground bamboo grove silhouettes, low mist rolling between bamboo stems. NO Tokyo cityscape. NO neon. NO modern elements. Three light sources: beeswax candle on the altar, chochin paper lantern in temple interior, cool moonlight on the mountain through the open shoji. Muted dark interior palette + warm candle amber + chochin paper amber + cool moonlight blue on distant mountain. NO text. NO logos. NO watermarks. NO readable letters. 4K, photorealistic, contemplative ancient Japanese temple healing mood.
+Photorealistic cinematic vertical 9:16 scene, spacious open-plan luxury Japanese penthouse on a high floor of a Tokyo skyscraper at night during light rain. Lower third of frame: a low dark cedar wood altar with THREE Japanese rin-dō Buddhist bronze singing bowls in graduated sizes (large rin bowl center, two smaller flanking) on indigo and gold silk brocade cushions, wooden mallets, bronze koro incense burner with curling vertical incense smoke, a single lit beeswax candle (warm amber flame), small black pine bonsai. Middle of frame: spacious penthouse interior with warm amber glow from a modern linear gas fireplace visible on the left wall (long horizontal flame behind tinted glass) — fireplace adds warmth to the empty floor space. A warm amber andon paper lantern on the windowsill behind the altar. Upper two-thirds of frame: massive floor-to-ceiling glass window with light rain streaks running down, beyond the glass — neon Tokyo cityscape (kanji and katakana neon signs in pink, cyan, electric green, amber), distant skyscrapers with lit windows, red taillight streaks of cars on highways far below. Three light sources: fireplace amber on the left, candle + andon + incense + bronze rin reflections in foreground, cool neon city through the rainy glass. Muted dark interior palette + warm fireplace amber + bronze rin bowl reflections + vibrant neon city bokeh through rainy glass. NO text. NO logos. NO watermarks. NO readable letters. 4K, photorealistic, contemplative modern Japanese Zen healing penthouse mood.
 ```
 
 ---
@@ -59,27 +69,29 @@ Photorealistic cinematic vertical 9:16 scene, ancient Japanese Buddhist mountain
 > Use the NanoBanana 16:9 image as the start frame. Generate an 8-second perfectly seamless loop in Flow or Kling, then ffmpeg loops it for 1H 04min.
 
 ```
-SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour healing video. Photorealistic cinematic ancient Japanese mountain temple interior at night. Camera is COMPLETELY LOCKED — absolutely no pan, no zoom, no dolly, no camera shake. The frame stays identical to the start image.
+SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour healing video. Photorealistic cinematic Tokyo penthouse interior at night during light rain — Japanese Zen healing aesthetic with rin singing bowl altar in foreground. Camera is COMPLETELY LOCKED — absolutely no pan, no zoom, no dolly, no camera shake. The frame stays identical to the start image.
 
-THREE continuous motion elements that loop seamlessly:
+FOUR continuous motion elements that loop seamlessly:
 
-1. INCENSE SMOKE (dominant motion): A single thin tendril of pale grey-white incense smoke rises continuously from the bronze koro incense burner behind the largest rin singing bowl on the altar. Smoke drifts upward in slow gentle vertical curls and gentle wisps, dissolving into the dark cedar wood rafters about 1 meter above the altar. The smoke motion is constant — never stops, never pauses, organic flow.
+1. RAIN ON GLASS (background — dominant atmospheric motion): Light rain runs continuously down the floor-to-ceiling glass corner windows. Droplets form on top and trickle diagonally down the glass at varied natural speeds, occasionally joining each other into bigger streams. Behind the rain, the neon Tokyo cityscape is softly distorted into glowing bokeh. Rain motion is constant.
 
-2. BEESWAX CANDLE FLAME (altar): The lit temple candle flame flickers gently and continuously — small flame tongue rises and falls, occasional brighter flicker when a current touches it, gentle warm amber glow pulses subtly on the surface of the bronze rin bowl beside it. Flame never goes out, never stops moving.
+2. INCENSE SMOKE (foreground altar): A single thin tendril of pale grey-white incense smoke rises continuously from the bronze koro incense burner behind the largest rin singing bowl. Smoke drifts upward in slow gentle vertical curls and wisps, dissolving into the warm air about 1 meter above the altar. Constant flow.
 
-3. DRIFTING NIGHT MIST (background through open shoji): Low layer of pale silver mist drifts SLOWLY from left to right between the bamboo grove silhouettes in the foreground of the moonlit garden, just outside the open shoji doors. Mist motion is gentle, subtle, like slow breath of the mountain — almost imperceptible but never frozen.
+3. BEESWAX CANDLE FLAME (altar): The lit candle flame flickers gently and continuously — small flame tongue rises and falls, occasional brighter flicker, warm amber glow pulses subtly on the surface of the bronze rin bowl beside it. Never goes out.
+
+4. FIREPLACE FLAMES (left wall): Long horizontal flames in the modern linear gas fireplace flicker gently — small flame tongues rise and fall, occasional brighter flicker, warm amber light pulses on the wall and floor around the fireplace.
 
 EVERYTHING ELSE STAYS COMPLETELY STILL:
-- Rin singing bowls: still — NO ringing visualization, NO vibration ripples (static bronze)
+- Rin singing bowls: still — NO ringing visualization, NO vibration ripples (static bronze with reflections from candle and fireplace)
 - Wooden mallets, silk cushions, koro burner: still
-- Chochin paper lantern: still glowing soft amber (no flicker — diffuse paper light)
-- Hanging calligraphy scroll, altar surface, tatami, cedar beams: still
-- Mount Fuji silhouette and full moon in far distance: completely static (mountain doesn't move, moon doesn't drift)
-- Bamboo grove silhouettes: COMPLETELY STILL — NO leaf movement (would break meditative stillness). Only the mist between them moves.
+- Andon paper lantern: still glowing soft amber (diffuse paper light, no flicker)
+- Bonsai: still — no leaf movement, no swaying
+- Altar surface, cedar floor, ceiling, walls: still
+- Distant city (red taillights, neon signs): static — taillight shapes visible but NOT visibly moving, neon signs glowing but not flashing (full traffic motion would be too distracting for ambient focus)
 
 The loop must be PERFECTLY SEAMLESS — the last frame matches the first frame so ffmpeg looping creates invisible joins. NO new objects appear. NO scene transitions. NO camera moves. NO dramatic changes.
 
-Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, contemplative ancient Japanese mountain temple sound bath mood. Dominant motion: incense smoke + candle flame + slow mist drift between bamboo.
+Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, contemplative late-night modern Japanese Zen healing mood — Tokyo penthouse meets sound bath altar. Dominant motion: rain on glass + incense smoke + candle flame + fireplace flicker.
 ```
 
 ## 6. 🛠️ ffmpeg encode command (loop the 8-sec video to 1H 04min + audio)
@@ -101,17 +113,17 @@ ffmpeg -stream_loop -1 -i nervous-system-reset-528hz-1h-loop.mp4 -i nervous-syst
 ## 7. 📝 YouTube Title (Phase 1 format — bot scored 84/100)
 
 ```
-Best 528 Hz + 432 Hz Japanese Monks Healing [1H Nervous System Reset]
+Best 528 Hz Japanese Zen Healing Music [1H Top Nervous System Reset]
 ```
 
-_Title scoring rationale: 64 ch (length bonus +15), brackets (+3), `1H` number (+8), positive markers `best` + `top` style (+8), no UPPER abuse, no clickbait stuffing. Final 84/100 from `/title-batch` against 4 alternatives._
+_Title scoring rationale: 68 ch (length bonus +15), brackets (+3), `1H` number (+8), `528` number, positive markers `best` + `top` (+8), no UPPER abuse, no clickbait stuffing. Final 84/100 from `/title-batch` against 14 alternatives. "Japanese Zen" replaces previous "Japanese Monks" framing — better visual sync with Tokyo Penthouse + rin bowl modern Zen aesthetic (per `stillwave/CLAUDE.md` locked baseline). Old title was 84 too but "Monks" implied traditional temple, mismatching modern penthouse visual._
 
 ## 8. 📝 YouTube Description
 
 ```
-Reset your nervous system with 528 Hz + 432 Hz healing frequencies layered over Japanese rin-dō Buddhist singing bowls in an ancient mountain temple at night.
+528 Hz + 432 Hz Japanese Zen healing music — rin-dō Buddhist singing bowls in a quiet Tokyo penthouse at night to reset your nervous system in 1 hour.
 
-This 1-hour healing music session is built for parasympathetic activation — slow your heart rate, calm your mind, and let your body unwind. Recorded in the spirit of a moonlit Japanese monastery — bronze rin bowls, shakuhachi flute, mokugyo wooden tap, with Mount Fuji silhouetted through open shoji doors. The 528 Hz "love frequency" foundation combines with the 432 Hz tuning that aligns with natural body resonance.
+This Japanese sound bath session is built for parasympathetic activation — slow your heart rate, calm your mind, and let your body unwind. Bronze rin bowls, shakuhachi flute, suzu hand bells, with the soft glow of a fireplace and the rain-streaked Tokyo neon cityscape humming far below. The 528 Hz "love frequency" foundation combines with the 432 Hz tuning that aligns with natural body resonance, and the Japanese zen aesthetic carries the body all the way down.
 
 Whether you're recovering from a stressful day, releasing anxiety, preparing for deep sleep, or simply needing one hour of calm, let the singing bowls and frequencies carry your nervous system back to baseline.
 
@@ -154,11 +166,11 @@ Light a candle, dim the room, place your phone face-down. Let the bowls and the 
 59:50 — Smoke Settles
 1:01:31 — Quiet Tokyo
 
-▶ Subscribe for new healing frequency, Japanese sound bath, and quiet Tokyo focus sessions every week.
+▶ Subscribe for new healing frequency, Zen sound bath, and quiet Tokyo focus sessions every week.
 
 🔔 New Nervous System Reset and Power Hour sessions every Tuesday and Friday. Tap the bell so you don't miss the next one.
 
-#nervoussystemreset #528hz #432hz #healingfrequency #soundbath #tibetansingingbowls #anxietyrelief #parasympathetic #vagusnerve #japanesemeditation #zenmusic #healingmusic #meditationmusic #sleepmusic #stressrelief #nervoussystemhealing #frequencyhealing #monksmeditation #shakuhachi #1hourhealing
+#nervoussystemreset #528hz #432hz #healingfrequency #soundbath #rinbowls #anxietyrelief #parasympathetic #vagusnerve #japanesezen #zenmusic #healingmusic #meditationmusic #sleepmusic #stressrelief
 ```
 
 > ✅ Timestamps confirmed from CapCut (24 tracks, total 1:04:48). YouTube auto-detects chapters because the first line is exactly `0:00` and entries are in ascending order.
@@ -168,7 +180,7 @@ Light a candle, dim the room, place your phone face-down. Let the bowls and the 
 > Strategy: lead with the **bot-mined winning tags** from "nervous system reset healing frequencies" search outliers (those tags pull 350K-963K views videos) + own brand keywords + cross-niche bridges to the channel's existing Hz audience.
 
 ```
-nervous system reset, parasympathetic nervous system, 528 hz, 432 hz, healing frequencies, sound bath, tibetan singing bowls, singing bowl therapy, binaural beats, anxiety relief, vagus nerve, frequency healing, healing vibrations, meditation music, sleep music, japanese meditation, japanese ambient, monks meditation, sound healing, mindfulness, stress relief, zen music
+nervous system reset, parasympathetic nervous system, 528 hz, 432 hz, healing frequencies, japanese sound bath, japanese singing bowls, rin singing bowls, singing bowl therapy, binaural beats, anxiety relief, vagus nerve, frequency healing, healing vibrations, meditation music, sleep music, japanese meditation, japanese ambient, japanese zen, sound healing, mindfulness, stress relief, zen music, tokyo healing music
 ```
 
 ### Why each tag (audit trail)
@@ -197,7 +209,7 @@ nervous system reset, parasympathetic nervous system, 528 hz, 432 hz, healing fr
 ## 11. 📌 Pinned comment
 
 ```
-🏯 An ancient mountain temple. Moonlit Mount Fuji through the open shoji doors. 528 Hz holding steady. Bronze rin bowls breathing. One hour for your nervous system to remember what calm feels like. Comment one word — what your body needs to release tonight. Subscribe for a new healing session every Tuesday & Friday 🌸
+🌃 A quiet Tokyo penthouse. Soft rain on the windows. Bronze rin bowls breathing. 528 Hz holding steady. One hour for your nervous system to remember what calm feels like. Comment one word — what your body needs to release tonight. Subscribe for a new healing session every Tuesday & Friday 🌸
 ```
 
 ## 12. 🔁 A/B title variant
