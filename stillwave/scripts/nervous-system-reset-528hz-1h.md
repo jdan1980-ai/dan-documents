@@ -5,7 +5,7 @@
 - **Title:** Best 528 Hz Japanese Zen Healing Music [1H Top Nervous System Reset]
 - **Slug:** `nervous-system-reset-528hz-1h`
 - **Format:** Long-form
-- **Length:** 1H 04min (24 Suno tracks pre-mixed in CapCut, no loop)
+- **Length:** 1H 01min (16 Suno tracks pre-mixed in CapCut, no loop)
 - **Phase:** 1 — Hz/healing themed video on the **Spacious Tokyo Penthouse locked baseline** (per `stillwave/CLAUDE.md` — penthouse stays consistent across all StillWave videos for brand recognition; this video swaps the Power Hour productivity props for Japanese Zen healing props)
 - **Aesthetic:** **Spacious Tokyo Penthouse + Japanese Zen healing prop swap.** Penthouse interior, corner-wrap floor-to-ceiling windows with rain-streaked Tokyo neon cityscape, modern linear fireplace, plus low cedar wood altar (replacing Power Hour writing desk) with three Japanese rin-dō Buddhist singing bowls + bronze koro incense burner + lit beeswax candle + andon paper lantern.
 - **Status:** script ready — awaiting Suno + NanoBanana
@@ -22,7 +22,7 @@
 ## 1. 🎵 Suno Prompt A — Style field
 
 ```
-Slow ambient healing soundscape at exactly 528 Hz drone foundation with 432 Hz overlay every 8 minutes, JAPANESE rin-dō Buddhist singing bowls in low-mid bronze register striking once every 45 seconds with long sustain (NOT Tibetan bowls — Japanese rin temple bell tone), distant shakuhachi bamboo flute breath every 60 seconds (soft sustained mono notes, not melodic), occasional Japanese suzu hand bell shimmer in the high register, sub-bass pulse every 16 bars (the body's heartbeat), faint distant wooden mokugyo fish-block tap once per 90 seconds, no melody, no chord progression, pure tonal frequency healing bath in a Japanese temple. 60 BPM. Rin bowl resonance dominates the texture, 528 Hz drone is the foundation. Loopable for 1 hour 4 minutes (24 Suno tracks pre-mixed in CapCut, no need to loop), no buildup, no climax, sustained meditative parasympathetic activation. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Slow ambient healing soundscape at exactly 528 Hz drone foundation with 432 Hz overlay every 8 minutes, JAPANESE rin-dō Buddhist singing bowls in low-mid bronze register striking once every 45 seconds with long sustain (NOT Tibetan bowls — Japanese rin temple bell tone), distant shakuhachi bamboo flute breath every 60 seconds (soft sustained mono notes, not melodic), occasional Japanese suzu hand bell shimmer in the high register, sub-bass pulse every 16 bars (the body's heartbeat), faint distant wooden mokugyo fish-block tap once per 90 seconds, no melody, no chord progression, pure tonal frequency healing bath in a Japanese temple. 60 BPM. Rin bowl resonance dominates the texture, 528 Hz drone is the foundation. Loopable for 1 hour 1 minute (16 Suno tracks pre-mixed in CapCut, no need to loop), no buildup, no climax, sustained meditative parasympathetic activation. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 
 ## 2. 🎵 Suno Prompt B — Lyrics field
@@ -99,14 +99,16 @@ Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, contemplative lat
 ```bash
 ffmpeg -stream_loop -1 -i nervous-system-reset-528hz-1h-loop.mp4 -i nervous-system-reset-528hz-1h.mp3 \
   -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
-  -c:a aac -b:a 192k -shortest -t 3888 nervous-system-reset-528hz-1h.mp4
+  -c:a aac -b:a 192k -shortest -t 3660 nervous-system-reset-528hz-1h.mp4
 ```
 
 > Alternative (no re-encode, faster, requires loop already in 1080p H.264 yuv420p):
 > ```
 > ffmpeg -stream_loop -1 -i nervous-system-reset-528hz-1h-loop.mp4 -i nervous-system-reset-528hz-1h.mp3 \
->   -c:v copy -c:a aac -b:a 192k -shortest -t 3888 nervous-system-reset-528hz-1h.mp4
+>   -c:v copy -c:a aac -b:a 192k -shortest -t 3660 nervous-system-reset-528hz-1h.mp4
 > ```
+
+> If audio is exactly 1:01:00 = 3660 sec. Verify your final mp3 length before encoding — adjust `-t` if longer/shorter.
 
 ---
 
@@ -142,29 +144,21 @@ Light a candle, dim the room, place your phone face-down. Let the bowls and the 
 
 🎵 Tracklist:
 0:00 — First Bowl Strike
-2:18 — 528 Hz Settles
-4:42 — Smoke Rising
-7:15 — Three Bowls Together
-10:08 — Heart Slows
-13:15 — 432 Hz Layer Enters
-16:02 — Shakuhachi Breath
-18:48 — Bronze Resonance
-21:25 — Parasympathetic Activation
-24:11 — Deep Settling
-26:58 — Bowl Pairs (Binaural)
-29:42 — Time Slows
-32:30 — Stillness Holds
-35:15 — Single Note Held
-38:02 — Distant Tokyo Glow
-40:48 — The Long Hour
-43:33 — Beeswax Flicker
-46:18 — Frequencies Merge
-49:05 — Final Bowl Cycle
-51:50 — 432 Hz Fades
-54:35 — 528 Hz Solo
-57:20 — Last Strike
-59:50 — Smoke Settles
-1:01:31 — Quiet Tokyo
+3:32 — 528 Hz Settles
+7:00 — Smoke Rising
+10:24 — Three Bowls Together
+14:22 — Heart Slows
+18:26 — 432 Hz Layer Enters
+22:35 — Shakuhachi Breath
+27:03 — Bronze Resonance
+30:56 — Parasympathetic Activation
+35:03 — Bowl Pairs Binaural
+38:28 — Stillness Holds
+42:47 — Distant Tokyo Glow
+46:06 — Beeswax Flicker
+49:11 — Frequencies Merge
+53:56 — 528 Hz Solo
+57:47 — Quiet Tokyo
 
 ▶ Subscribe for new healing frequency, Zen sound bath, and quiet Tokyo focus sessions every week.
 
@@ -173,7 +167,7 @@ Light a candle, dim the room, place your phone face-down. Let the bowls and the 
 #nervoussystemreset #528hz #432hz #healingfrequency #soundbath #rinbowls #anxietyrelief #parasympathetic #vagusnerve #japanesezen #zenmusic #healingmusic #meditationmusic #sleepmusic #stressrelief
 ```
 
-> ✅ Timestamps confirmed from CapCut (24 tracks, total 1:04:48). YouTube auto-detects chapters because the first line is exactly `0:00` and entries are in ascending order.
+> ✅ Timestamps from user's actual Suno tracks (16 tracks, total ~1:01:00). YouTube auto-detects chapters because the first line is exactly `0:00` and entries are in ascending order.
 
 ## 9. 🏷️ Tags (22 tags — built on bot-mined outlier data + own keywords)
 
