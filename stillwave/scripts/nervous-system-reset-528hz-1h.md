@@ -174,7 +174,7 @@ Light a candle, dim the room, place your phone face-down. Let the bowls and the 
 > Strategy: lead with the **bot-mined winning tags** from "nervous system reset healing frequencies" search outliers (those tags pull 350K-963K views videos) + own brand keywords + cross-niche bridges to the channel's existing Hz audience.
 
 ```
-nervous system reset, parasympathetic nervous system, 528 hz, 432 hz, healing frequencies, japanese sound bath, japanese singing bowls, rin singing bowls, singing bowl therapy, binaural beats, anxiety relief, vagus nerve, frequency healing, healing vibrations, meditation music, sleep music, japanese meditation, japanese ambient, japanese zen, sound healing, mindfulness, stress relief, zen music, tokyo healing music
+528 hz japanese zen healing music, japanese zen healing music, nervous system reset music, 528 hz nervous system reset, 1 hour nervous system reset, parasympathetic nervous system, 528 hz healing music, japanese healing music, vagus nerve activation, anxiety relief music, japanese sound bath, tokyo healing music, rin singing bowls, nervous system reset, zen healing music, frequency healing, meditation music, japanese ambient, binaural beats, healing music, japanese zen, sleep music, zen music, 528 hz
 ```
 
 ### Why each tag (audit trail)
