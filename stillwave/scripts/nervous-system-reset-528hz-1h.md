@@ -42,45 +42,53 @@ Slow ambient healing soundscape at exactly 528 Hz drone foundation with 432 Hz o
 
 ## 3. 🎨 NanoBanana prompt 16:9 (thumbnail + video visual)
 
-> ⚠️ This is a STILL IMAGE prompt — describes only what is in the frame. No motion words, no negation in positive text. All exclusions go to the Negative prompt below.
+> ⚠️ STILL IMAGE prompt — frontal balanced composition, dim candlelit mood, crop-friendly framing. No motion words, no negation in positive text.
 
 ```
-Photorealistic cinematic still image, ultra-wide 16:9 cinematic framing, interior of a spacious open-plan luxury Japanese penthouse on a high floor of a Tokyo skyscraper at night, clear calm dry weather. High 14-foot ceilings, generous empty negative space, sense of breathing architectural grandeur.
+Photorealistic cinematic still image, balanced symmetric 16:9 composition, eye-level camera straight-on perspective (camera centered, no tilt, no angle, no skew, no fisheye, no wide-angle distortion), interior of a quiet luxury Japanese penthouse at night.
 
-Massive corner-wrap floor-to-ceiling glass windows dominate the right and back walls of the frame, making up over 60% of visible interior surface. Beyond the crystal-clear glass: vast nighttime Tokyo cityscape stretching to the horizon — countless glowing neon signs in pink, electric blue, electric green, warm amber, magenta, kanji and katakana characters, distant skyscrapers with lit windows in vertical grids, soft red taillight streaks of cars on highways far below, warm yellow Tokyo street lights forming a sea of urban glow. Neon city sharp and crisp.
+The altar table is positioned dead-center of the frame, facing the camera straight on, parallel to the picture plane (front edge of the table runs perfectly horizontal, perpendicular to the viewing direction). A low dark cedar wood altar / kotatsu-style table, simple clean lines, smooth polished surface. On the altar, arranged symmetrically: three Japanese rin-dō Buddhist singing bowls in graduated sizes — a large bronze rin bowl in the exact center (20cm diameter, smooth lip, deep golden patina, antique gold tone), two smaller rin bowls flanking it left and right at equal distance, each resting on a folded indigo and gold silk brocade cushion. Two carved wooden mallets resting beside the bowls. Behind the largest center bowl: a small bronze koro incense burner with a thin vertical column of pale incense smoke captured frozen mid-rise. To the left of the altar: a single lit beeswax candle on a small wooden saucer with a soft warm amber flame. To the right of the altar: a small black pine bonsai. Centered behind the altar against the back wall: a warm amber andon paper lantern with a soft amber glow.
 
-Foreground left third of frame: a low dark cedar wood altar table. On the altar: three Japanese rin-dō Buddhist singing bowls in graduated sizes — a large bronze rin bowl in the center (20cm diameter, smooth lip, deep golden patina, antique gold tone), two smaller rin bowls flanking it, each resting on a folded indigo and gold silk brocade cushion, two carved wooden mallets resting beside. A small bronze koro incense burner behind the largest rin bowl, with a thin vertical column of pale incense smoke captured frozen mid-rise extending upward into the warm air. A single lit beeswax candle on a wooden saucer at the corner of the altar with a soft warm amber flame. A small black pine bonsai on the far corner of the altar. On the windowsill behind the altar: a warm amber andon paper lantern with a soft amber glow.
+Behind the altar (mid-ground): a single tall floor-to-ceiling window directly facing the camera (one window, not corner-wrap), showing a soft distant Tokyo cityscape at night — neon glow muted into gentle blurred bokeh of pink, cyan, amber pinpoints, no sharp signs, no kanji legible, no harsh light. The city is barely visible, present only as soft warm color washes — heavily blurred background depth, almost dreamy.
 
-Left wall of the room: a modern linear gas fireplace embedded in a charcoal-stained wood feature wall, with a long horizontal flame visible behind tinted glass casting warm amber light into the room. Polished dark cedar wood floor with empty negative space — luxury through emptiness.
+To the LEFT side of the frame (out of focus, soft): a modern linear gas fireplace embedded in a charcoal-stained wood feature wall, with a long horizontal warm amber flame visible behind tinted glass — the fireplace is the dominant warm light source for the entire scene.
 
-Three balanced light sources: warm amber fireplace glow from the left, warm candle and andon lantern and bronze bowl candlelight reflections in the foreground, cool soft neon city light through the clear corner windows on the right. Muted dark interior palette — deep charcoal blacks, polished cedar wood browns, slate gray stone, deep indigo silk, antique gold rin bronze — contrasted with vibrant soft neon city accents in pink, cyan, amber and red, warm fireplace amber, warm candle reflections on bowl bronze.
+Composition: clean negative space surrounds the altar on all sides — clear floor in front, clean wall on top, balanced empty zones left and right (crop-friendly for thumbnail and 9:16 reframing). Ceiling is NOT visible in frame (camera angle is eye-level with the altar surface, framing stops below the ceiling line). Floor visible only in front of the altar as smooth polished dark cedar.
 
-Atmospheric depth across four planes: foreground altar with rin bowls and frozen incense smoke column, mid-ground spacious empty room with fireplace, background clear corner windows, far-background neon Tokyo cityscape. Shallow depth of field on the rin bowls and incense smoke, with city lights, fireplace flame, candle, and andon lantern softened into glowing bokeh.
+Lighting: intimate dim candlelit atmosphere — the room is dark and cozy. The fireplace is the primary light, casting warm amber glow from the left. The candle on the altar provides a small intimate warm pool of light around the bowls. The andon paper lantern adds a soft secondary amber glow centered behind the altar. The neon city beyond the window is heavily subdued, contributing only faint cool pinpoint accents in the deep background. Overall scene is moody, dim, candlelit, warm-toned.
 
-Photorealistic high cinematic quality, 4K detail, contemplative late-night modern Japanese Zen healing atmosphere — Tokyo penthouse meets sound bath altar. Sharp in-focus subject (rin bowls + altar), soft bokeh background.
+Color palette: deep charcoal blacks, dark cedar browns, slate gray stone, deep indigo silk, antique gold rin bronze — mostly dark warm tones. Light tones reserved for: amber candle flame, amber fireplace flame, amber andon lantern, soft amber bronze reflections. Background neon: muted desaturated cool pinpoints, NOT vibrant.
+
+Sharp in-focus subject (the three rin bowls + altar + incense smoke + candle), beautifully soft bokeh background (window + city + fireplace flame all softened). Shallow depth of field with focal point on the center rin bowl.
+
+Photorealistic 4K detail, contemplative quiet candlelit modern Japanese Zen healing atmosphere — intimate, dim, warm, balanced.
 ```
 
 **Negative prompt (paste into NanoBanana negative field):**
 ```
-tripod, camera, photo camera, video camera, microphone, recording equipment, photographer, person, human, hands, gear, equipment stand, light stand, boom pole, cables, laptop, computer, screen, tea cup, mug, drinking vessel, food, plates, utensils, rain, raindrops, water on glass, wet windows, water streaks, motion blur, motion trail, motion lines, blurry subject, blur, smudged, soft focus on subject, double image, ghosting, duplicate objects, watermark, text, signature, logo, written words, letters, numbers, captions, copyright, low quality, distorted, deformed, weird perspective, fisheye, vignette, oversaturated, cartoon, anime, illustration, 2d, flat, sketch, painting, drawing
+tripod, camera, photo camera, video camera, microphone, recording equipment, photographer, person, human, hands, gear, equipment stand, light stand, boom pole, cables, laptop, computer, screen, tea cup, mug, drinking vessel, food, plates, utensils, rain, raindrops, water on glass, wet windows, water streaks, motion blur, motion trail, motion lines, blurry subject, blur, smudged, soft focus on subject, double image, ghosting, duplicate objects, watermark, text, signature, logo, written words, letters, numbers, captions, copyright, low quality, distorted, deformed, asymmetric composition, tilted horizon, dutch angle, dramatic angle, low-angle shot, high-angle shot, bird's-eye view, ceiling visible, ceiling beams, exposed rafters, multiple windows, corner-wrap windows, harsh neon, bright neon, sharp city signs, readable kanji, vibrant neon city, oversaturated background, harsh lighting, bright lighting, fluorescent lighting, daylight, sunlight, overhead lighting, fisheye, wide-angle distortion, vignette, oversaturated, cartoon, anime, illustration, 2d, flat, sketch, painting, drawing
 ```
 
 ## 4. 🎨 NanoBanana prompt 9:16 (vertical Shorts version)
 
-> ⚠️ Same rules as 16:9 — still image, no motion words, exclusions go to Negative prompt.
+> ⚠️ Vertical balanced still image, dim candlelit mood — same composition principles as 16:9.
 
 ```
-Photorealistic cinematic vertical 9:16 still image of the interior of a spacious open-plan luxury Japanese penthouse on a high floor of a Tokyo skyscraper at night, clear calm dry weather.
+Photorealistic cinematic still image, vertical 9:16, balanced symmetric composition, eye-level camera straight-on perspective (no tilt, no angle, no fisheye, no distortion), interior of a quiet luxury Japanese penthouse at night.
 
-Lower third of frame: a low dark cedar wood altar. On the altar: three Japanese rin-dō Buddhist bronze singing bowls in graduated sizes — large rin bowl center, two smaller flanking, on indigo and gold silk brocade cushions, two carved wooden mallets, a small bronze koro incense burner with a thin vertical column of pale incense smoke captured frozen mid-rise, a single lit beeswax candle with a warm amber flame, a small black pine bonsai.
+Center of frame: the altar is positioned dead-center, facing the camera straight on, parallel to the picture plane. Low dark cedar wood altar with three Japanese rin-dō Buddhist bronze singing bowls arranged symmetrically — large rin bowl exact center, two smaller flanking left and right at equal distance, each on indigo and gold silk brocade cushions. Two carved wooden mallets beside the bowls. Behind the center bowl: a small bronze koro incense burner with a thin vertical column of pale incense smoke captured frozen mid-rise. To the left of the altar: a lit beeswax candle with a small warm amber flame. To the right: a small black pine bonsai.
 
-Middle of frame: spacious penthouse interior with warm amber glow from a modern linear gas fireplace embedded in a charcoal-stained wood feature wall on the left, with a long horizontal flame behind tinted glass. A warm amber andon paper lantern on the windowsill behind the altar.
+Behind the altar: a single tall floor-to-ceiling window directly facing the camera, showing a soft heavily-blurred distant Tokyo cityscape — neon glow muted into gentle bokeh pinpoints of pink, cyan, amber, no sharp signs, no readable kanji. City is dreamy, almost abstract.
 
-Upper two-thirds of frame: massive crystal-clear floor-to-ceiling glass window, beyond the glass — sharp crisp neon Tokyo cityscape with kanji and katakana neon signs in pink, cyan, electric green and amber, distant skyscrapers with lit windows, soft red taillight streaks of cars on highways far below.
+Centered behind the altar against the back wall: a warm amber andon paper lantern. To the left side of the frame (out of focus, soft): a modern linear gas fireplace with a long horizontal warm amber flame behind tinted glass — primary warm light source.
 
-Three balanced light sources: warm amber fireplace from the left, warm candle and andon and bronze bowl reflections in foreground, cool soft neon city light through the clear glass. Muted dark interior palette with vibrant neon city bokeh in the background. Shallow depth of field on the foreground altar.
+Composition: clean negative space above the altar (top of frame is clear empty wall area, crop-friendly for adding text overlay or YouTube UI elements), clean floor area below. Ceiling is NOT visible. Symmetric left-right balance.
 
-Photorealistic 4K detail, contemplative modern Japanese Zen healing penthouse atmosphere. Sharp in-focus subject (altar + rin bowls), soft bokeh background.
+Lighting: intimate dim candlelit atmosphere, dark cozy room. Fireplace casts warm amber from the left. Candle creates an intimate small warm pool around the bowls. Andon lantern adds soft amber centered behind. Neon city heavily subdued, only faint cool pinpoint accents.
+
+Sharp in-focus subject (rin bowls + altar + candle + incense), beautifully soft bokeh background. Shallow depth of field, focal point on center rin bowl.
+
+Photorealistic 4K detail, contemplative quiet candlelit Japanese Zen healing atmosphere — intimate, dim, warm, balanced.
 ```
 
 **Negative prompt (9:16):** same as 16:9 above (paste the full negative block into NanoBanana negative field).
