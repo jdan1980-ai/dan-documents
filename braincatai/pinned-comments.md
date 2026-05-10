@@ -147,6 +147,36 @@ What song gives YOU goosebumps every time? 🎶 Drop the title below — let me 
 Be honest — did you Google "6-7" before clicking this? 🤣 Drop a 🤚 if yes. And tell me what OTHER kid words confuse you 👇
 ```
 
+### 23. 5 Things Cats HATE About Closed Doors (TBD, May 13–19) — Cat Psychology
+
+```
+🚪 Quick test: close ANY door in your house right now. Your cat will scratch within 60 seconds. Comment which door drives YOUR cat the most insane — bathroom, bedroom, or closet? 🐱
+```
+
+### 24. 7 Sounds Your Cat HEARS That You CAN'T (TBD, May 13–19) — Cat Biology
+
+```
+👂 Test it: stand outside your room and breathe. Your cat will be at the door in 10 seconds. Comment what your cat KNEW before you did — illness, panic, a guest at the door? 🐱
+```
+
+### 25. 7 Reasons Your Cat Rolls Over (TBD, May 13–19) — Cat Body Language
+
+```
+🐾 The Belly Trap. We've all been bitten. Comment with the EXACT word your cat says when you reach for the belly. Mine says "RAAAOOOWR." Yours? 🐱
+```
+
+### 26. 5 Things Cats See That HUMANS CAN'T (TBD, May 13–19) — Cat Senses
+
+```
+👀 Right now: look at your wall. Then look at your cat. Whatever your cat is seeing... is something. Comment the weirdest thing your cat has ever stared at. 👻 (it's not a ghost — it's UV) 🐱
+```
+
+### 27. 13 Things Your Cat Sees That You DON'T Know About! (TBD, May 13–19) — Cat Psychology
+
+```
+👀 Pick ONE secret your cat 100% knows about you that nobody else does. Mine: I cry at every Pixar movie. She watches every time. 🐱
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
