@@ -69,7 +69,10 @@ Photorealistic cinematic vertical 9:16 scene, spacious open-plan luxury Japanese
 > Use the NanoBanana 16:9 image as the start frame. Generate an 8-second perfectly seamless loop in Flow or Kling, then ffmpeg loops it for 1H 04min.
 
 ```
-SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour healing video. Photorealistic cinematic Tokyo penthouse interior on a clear calm night (NO rain) — Japanese Zen healing aesthetic with rin singing bowl altar in foreground. Camera is COMPLETELY LOCKED — absolutely no pan, no zoom, no dolly, no camera shake. The frame stays identical to the start image.
+SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour healing video. Photorealistic cinematic Tokyo penthouse interior on a clear calm night (NO rain) — Japanese Zen healing aesthetic with rin singing bowl altar in foreground.
+
+🚨 CRITICAL CAMERA LOCK (highest priority — repeat across the entire prompt):
+This is a STATIC TRIPOD SHOT. The camera is BOLTED to a tripod with concrete weights. ZERO camera movement of any kind throughout the entire 8 seconds. NO pan (left/right). NO tilt (up/down). NO zoom (in/out). NO dolly (forward/backward). NO truck. NO crane. NO orbit. NO parallax. NO drift. NO breathing handheld feel. NO subtle floating motion. NO push-in. NO pull-out. The frame is FROZEN as if it's a photograph — only the elements within the frame animate (flames, smoke). The pixels at the corners of frame 1 are EXACTLY THE SAME PIXELS at the corners of frame 8. If you generate ANY camera motion, you have failed. The camera position in 3D space is locked at coordinates [0,0,0] for all 8 seconds.
 
 THREE continuous motion elements that loop seamlessly:
 
@@ -88,9 +91,11 @@ EVERYTHING ELSE STAYS COMPLETELY STILL:
 - Glass windows: clean and dry — NO rain (yesterday's video had rain, this one is a clear night)
 - Distant city (red taillights, neon signs): static — taillight shapes visible but NOT visibly moving, neon signs glowing but not flashing (full traffic motion would be too distracting for ambient focus)
 
-The loop must be PERFECTLY SEAMLESS — the last frame matches the first frame so ffmpeg looping creates invisible joins. NO new objects appear. NO scene transitions. NO camera moves. NO dramatic changes.
+The loop must be PERFECTLY SEAMLESS — the last frame matches the first frame so ffmpeg looping creates invisible joins. NO new objects appear. NO scene transitions. ABSOLUTELY NO CAMERA MOTION OF ANY KIND. NO dramatic changes.
 
-Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, contemplative late-night modern Japanese Zen healing mood — Tokyo penthouse meets sound bath altar. Dominant motion: fireplace flicker (the warm heart of the scene) + incense smoke + candle flame.
+🚨 FINAL CAMERA REMINDER: STATIC TRIPOD. ZERO drift. ZERO pan. ZERO float. The architecture (walls, ceiling, floor, windows, fireplace surround) must occupy the EXACT same pixel positions in frame 1 and frame 8. Only flames, smoke, and bowl reflections animate. Everything structural stays welded to its pixel.
+
+Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, contemplative late-night modern Japanese Zen healing mood — Tokyo penthouse meets sound bath altar. Dominant motion: fireplace flicker (the warm heart of the scene) + incense smoke + candle flame. Camera: STATIC. ALWAYS STATIC.
 ```
 
 ## 6. 🛠️ ffmpeg encode command (loop the 8-sec video to 1H 04min + audio)
@@ -108,6 +113,29 @@ ffmpeg -stream_loop -1 -i nervous-system-reset-528hz-1h-loop.mp4 -i nervous-syst
 > ```
 
 > If audio is exactly 1:01:00 = 3660 sec. Verify your final mp3 length before encoding — adjust `-t` if longer/shorter.
+
+### 🔧 If Flow/Kling output drifts despite the locked-camera prompt
+
+AI video models add subtle camera drift even when "locked" is in the prompt. Two fixes:
+
+**Option 1 — Crop the drift area (fastest):**
+The drift is usually 5-15 pixels. Zoom 1.05x then crop center — drift falls outside the visible frame:
+```bash
+ffmpeg -i loop-raw.mp4 -vf "scale=iw*1.05:ih*1.05,crop=1920:1080" -c:a copy loop.mp4
+```
+
+**Option 2 — Stabilize with vidstab (best quality):**
+```bash
+# Pass 1: detect motion vectors
+ffmpeg -i loop-raw.mp4 -vf vidstabdetect=stepsize=4:shakiness=8:accuracy=15:result=tx.trf -f null -
+# Pass 2: apply stabilization with crop to hide black borders
+ffmpeg -i loop-raw.mp4 -vf "vidstabtransform=input=tx.trf:zoom=2:smoothing=30,unsharp=5:5:0.8" -c:a copy loop-stable.mp4
+```
+
+**Option 3 — In CapCut:**
+Add the loop clip → right-click → Stabilize → strength: medium → export. Then use the ffmpeg loop command above on the stable file.
+
+Loop seamlessness check after stabilization: open `loop-stable.mp4` → first and last frame should be visually identical when paused side-by-side.
 
 ---
 
