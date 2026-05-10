@@ -53,14 +53,21 @@ THREE light sources balance: warm fireplace amber on the left, candle + andon la
 
 Atmospheric depth across four planes: foreground altar with rin bowls and incense smoke, mid-ground spacious room with fireplace, background clear corner windows, far-background neon Tokyo cityscape with red taillight motion blur. Ultra-wide cinematic 16:9 framing showing the spacious penthouse. Shallow depth of field on the rin bowls and incense smoke with city lights, fireplace flame, and candle as soft glowing bokeh.
 
-NO text overlays in image. NO logos. NO watermarks. NO readable letters anywhere. 4K detail, photorealistic rendering, high cinematic quality, contemplative late-night modern Japanese Zen healing mood — Tokyo penthouse meets traditional sound bath altar.
+NO text overlays in image. NO logos. NO watermarks. NO readable letters anywhere. NO tripod visible. NO camera visible. NO microphone. NO recording equipment of any kind in the scene. 4K detail, photorealistic rendering, high cinematic quality, contemplative late-night modern Japanese Zen healing mood — Tokyo penthouse meets traditional sound bath altar.
+```
+
+**Negative prompt (paste into NanoBanana negative field):**
+```
+tripod, camera, photo camera, video camera, microphone, recording equipment, photographer, person, human, hands, gear, equipment stand, light stand, boom pole, cables, watermark, text, logo, blurry, low quality, distorted, double image, ghosting
 ```
 
 ## 4. 🎨 NanoBanana prompt 9:16 (vertical Shorts version)
 
 ```
-Photorealistic cinematic vertical 9:16 scene, spacious open-plan luxury Japanese penthouse on a high floor of a Tokyo skyscraper on a clear calm night (NO rain — clean dry windows). Lower third of frame: a low dark cedar wood altar with THREE Japanese rin-dō Buddhist bronze singing bowls in graduated sizes (large rin bowl center, two smaller flanking) on indigo and gold silk brocade cushions, wooden mallets, bronze koro incense burner with curling vertical incense smoke, a single lit beeswax candle (warm amber flame), small black pine bonsai. Middle of frame: spacious penthouse interior with warm amber glow from a modern linear gas fireplace visible on the left wall (long horizontal flame behind tinted glass) — fireplace adds warmth to the empty floor space. A warm amber andon paper lantern on the windowsill behind the altar. Upper two-thirds of frame: massive clear floor-to-ceiling glass window, beyond the glass — sharp crisp neon Tokyo cityscape (kanji and katakana neon signs in pink, cyan, electric green, amber), distant skyscrapers with lit windows, red taillight streaks of cars on highways far below. Three light sources: fireplace amber on the left, candle + andon + incense + bronze rin reflections in foreground, cool neon city through the clear glass. Muted dark interior palette + warm fireplace amber + bronze rin bowl reflections + vibrant neon city bokeh through clean glass. NO text. NO logos. NO watermarks. NO readable letters. 4K, photorealistic, contemplative modern Japanese Zen healing penthouse mood.
+Photorealistic cinematic vertical 9:16 scene, spacious open-plan luxury Japanese penthouse on a high floor of a Tokyo skyscraper on a clear calm night (NO rain — clean dry windows). Lower third of frame: a low dark cedar wood altar with THREE Japanese rin-dō Buddhist bronze singing bowls in graduated sizes (large rin bowl center, two smaller flanking) on indigo and gold silk brocade cushions, wooden mallets, bronze koro incense burner with curling vertical incense smoke, a single lit beeswax candle (warm amber flame), small black pine bonsai. Middle of frame: spacious penthouse interior with warm amber glow from a modern linear gas fireplace visible on the left wall (long horizontal flame behind tinted glass) — fireplace adds warmth to the empty floor space. A warm amber andon paper lantern on the windowsill behind the altar. Upper two-thirds of frame: massive clear floor-to-ceiling glass window, beyond the glass — sharp crisp neon Tokyo cityscape (kanji and katakana neon signs in pink, cyan, electric green, amber), distant skyscrapers with lit windows, red taillight streaks of cars on highways far below. Three light sources: fireplace amber on the left, candle + andon + incense + bronze rin reflections in foreground, cool neon city through the clear glass. Muted dark interior palette + warm fireplace amber + bronze rin bowl reflections + vibrant neon city bokeh through clean glass. NO text. NO logos. NO watermarks. NO readable letters. NO tripod, NO camera, NO recording equipment visible. 4K, photorealistic, contemplative modern Japanese Zen healing penthouse mood.
 ```
+
+**Negative prompt (9:16):** same as 16:9 above — `tripod, camera, photo camera, video camera, microphone, recording equipment, photographer, person, human, hands, gear, equipment stand, watermark, text, logo`
 
 ---
 
@@ -71,8 +78,8 @@ Photorealistic cinematic vertical 9:16 scene, spacious open-plan luxury Japanese
 ```
 SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour healing video. Photorealistic cinematic Tokyo penthouse interior on a clear calm night (NO rain) — Japanese Zen healing aesthetic with rin singing bowl altar in foreground.
 
-🚨 CRITICAL CAMERA LOCK (highest priority — repeat across the entire prompt):
-This is a STATIC TRIPOD SHOT. The camera is BOLTED to a tripod with concrete weights. ZERO camera movement of any kind throughout the entire 8 seconds. NO pan (left/right). NO tilt (up/down). NO zoom (in/out). NO dolly (forward/backward). NO truck. NO crane. NO orbit. NO parallax. NO drift. NO breathing handheld feel. NO subtle floating motion. NO push-in. NO pull-out. The frame is FROZEN as if it's a photograph — only the elements within the frame animate (flames, smoke). The pixels at the corners of frame 1 are EXACTLY THE SAME PIXELS at the corners of frame 8. If you generate ANY camera motion, you have failed. The camera position in 3D space is locked at coordinates [0,0,0] for all 8 seconds.
+🚨 FRAME LOCK (highest priority):
+The output is a STILL PHOTOGRAPH that only has internal animations — flames, smoke. The framing, perspective, viewpoint, and ALL static objects (walls, ceiling, floor, windows, fireplace surround, altar, bowls, lantern, bonsai) STAY IN THE EXACT SAME PIXEL POSITIONS across all 8 seconds. NO viewpoint movement. NO horizontal shift. NO vertical shift. NO depth shift. NO perspective change. NO parallax. NO viewport drift. NO subtle floating. NO breathing motion. NO push-in. NO pull-out. NO pan. NO tilt. NO zoom. NO dolly. The architectural geometry of the scene is FROZEN — the corner where two walls meet must occupy the same pixel in frame 1 and frame 8. The viewport NEVER moves through 3D space. Only the localized animated elements (flames, smoke) change between frames. NO physical camera apparatus is visible in the scene — NO tripod, NO camera, NO lens, NO recording equipment of any kind appears in the rendered image.
 
 THREE continuous motion elements that loop seamlessly:
 
@@ -91,11 +98,11 @@ EVERYTHING ELSE STAYS COMPLETELY STILL:
 - Glass windows: clean and dry — NO rain (yesterday's video had rain, this one is a clear night)
 - Distant city (red taillights, neon signs): static — taillight shapes visible but NOT visibly moving, neon signs glowing but not flashing (full traffic motion would be too distracting for ambient focus)
 
-The loop must be PERFECTLY SEAMLESS — the last frame matches the first frame so ffmpeg looping creates invisible joins. NO new objects appear. NO scene transitions. ABSOLUTELY NO CAMERA MOTION OF ANY KIND. NO dramatic changes.
+The loop must be PERFECTLY SEAMLESS — the last frame matches the first frame so ffmpeg looping creates invisible joins. NO new objects appear. NO scene transitions. ABSOLUTELY NO VIEWPORT MOTION OF ANY KIND. NO dramatic changes.
 
-🚨 FINAL CAMERA REMINDER: STATIC TRIPOD. ZERO drift. ZERO pan. ZERO float. The architecture (walls, ceiling, floor, windows, fireplace surround) must occupy the EXACT same pixel positions in frame 1 and frame 8. Only flames, smoke, and bowl reflections animate. Everything structural stays welded to its pixel.
+🚨 FINAL FRAME-LOCK REMINDER: The architecture (walls, ceiling, floor, windows, fireplace surround, altar, bowls) must occupy the EXACT same pixel positions in frame 1 and frame 8. Only flames, smoke, and bowl reflections animate. Everything structural stays welded to its pixel. NO physical camera or tripod or recording equipment visible in scene — the scene is rendered as if observed by a ghost from a fixed vantage point.
 
-Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, contemplative late-night modern Japanese Zen healing mood — Tokyo penthouse meets sound bath altar. Dominant motion: fireplace flicker (the warm heart of the scene) + incense smoke + candle flame. Camera: STATIC. ALWAYS STATIC.
+Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, contemplative late-night modern Japanese Zen healing mood — Tokyo penthouse meets sound bath altar. Dominant motion: fireplace flicker (the warm heart of the scene) + incense smoke + candle flame. Viewport: FROZEN. ALWAYS FROZEN.
 ```
 
 ## 6. 🛠️ ffmpeg encode command (loop the 8-sec video to 1H 04min + audio)
@@ -114,28 +121,51 @@ ffmpeg -stream_loop -1 -i nervous-system-reset-528hz-1h-loop.mp4 -i nervous-syst
 
 > If audio is exactly 1:01:00 = 3660 sec. Verify your final mp3 length before encoding — adjust `-t` if longer/shorter.
 
-### 🔧 If Flow/Kling output drifts despite the locked-camera prompt
+### 🔧 If Flow/Kling output drifts despite the locked-viewport prompt
 
-AI video models add subtle camera drift even when "locked" is in the prompt. Two fixes:
+AI video models ALWAYS add subtle camera drift even when "locked" is in the prompt — it's a known limitation, not a prompt issue. Three fixes from best to fastest:
 
-**Option 1 — Crop the drift area (fastest):**
-The drift is usually 5-15 pixels. Zoom 1.05x then crop center — drift falls outside the visible frame:
+**🥇 Option A — Skip Flow/Kling entirely. Use static image + ffmpeg micro-flicker (BEST quality, ZERO drift, ZERO equipment artifacts):**
+
+The cleanest approach for a 1-hour healing video is to start from your NanoBanana 16:9 still and add subtle motion via ffmpeg overlay or in CapCut. No AI drift, no rendered tripods, no surprises.
+
 ```bash
-ffmpeg -i loop-raw.mp4 -vf "scale=iw*1.05:ih*1.05,crop=1920:1080" -c:a copy loop.mp4
+# Loop the static image directly — perfectly frozen frame for 1H 01min:
+ffmpeg -loop 1 -i nanobanana-thumbnail.jpg -i nervous-system-reset-528hz-1h.mp3 \
+  -c:v libx264 -tune stillimage -pix_fmt yuv420p -r 24 \
+  -c:a aac -b:a 192k -shortest -t 3660 nervous-system-reset-528hz-1h.mp4
 ```
 
-**Option 2 — Stabilize with vidstab (best quality):**
+For motion (subtle fireplace flicker / incense / candle), use CapCut: import static image → add overlay layer with looped 8-sec animation of just the fireplace area → mask everything else → done. NO viewport drift possible because base layer is a still image.
+
+**🥈 Option B — Stabilize the Flow/Kling output (fixes drift, keeps motion):**
 ```bash
 # Pass 1: detect motion vectors
-ffmpeg -i loop-raw.mp4 -vf vidstabdetect=stepsize=4:shakiness=8:accuracy=15:result=tx.trf -f null -
-# Pass 2: apply stabilization with crop to hide black borders
-ffmpeg -i loop-raw.mp4 -vf "vidstabtransform=input=tx.trf:zoom=2:smoothing=30,unsharp=5:5:0.8" -c:a copy loop-stable.mp4
+ffmpeg -i loop-raw.mp4 -vf vidstabdetect=stepsize=4:shakiness=10:accuracy=15:result=tx.trf -f null -
+# Pass 2: apply stabilization with mild zoom to hide cropped edges
+ffmpeg -i loop-raw.mp4 -vf "vidstabtransform=input=tx.trf:zoom=3:smoothing=30:crop=keep,unsharp=5:5:0.8" -c:a copy loop-stable.mp4
 ```
 
-**Option 3 — In CapCut:**
-Add the loop clip → right-click → Stabilize → strength: medium → export. Then use the ffmpeg loop command above on the stable file.
+**🥉 Option C — Crop-zoom (fastest, hides drift behind frame edge):**
+```bash
+ffmpeg -i loop-raw.mp4 -vf "scale=iw*1.08:ih*1.08,crop=1920:1080" -c:a copy loop.mp4
+```
 
-Loop seamlessness check after stabilization: open `loop-stable.mp4` → first and last frame should be visually identical when paused side-by-side.
+**🛠️ Option D — CapCut Stabilize:**
+Loop clip → right-click → Stabilize → strength: medium → export → then ffmpeg loop command above.
+
+### 🚫 If a tripod / camera / equipment was rendered in scene
+
+This happens when AI takes "tripod shot" or "camera locked" literally. Three fixes:
+
+1. **Regenerate** with the negative prompt above (tripod, camera, recording equipment)
+2. **Inpaint** in NanoBanana / Photopea: select the tripod area, fill with the surrounding wall/floor pattern
+3. **Crop** the bottom of frame in ffmpeg if tripod is visible there:
+   ```bash
+   ffmpeg -i loop-raw.mp4 -vf "crop=iw:ih*0.85:0:0,scale=1920:1080" -c:a copy loop.mp4
+   ```
+
+Loop seamlessness check after any fix: open final mp4 → pause at frame 1 and frame 192 (8 sec × 24fps) → they should be visually identical.
 
 ---
 
