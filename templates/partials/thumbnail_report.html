@@ -1,0 +1,53 @@
+{% if result.error %}
+<div class="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded">
+    <strong>Ошибка:</strong> {{ result.error }}
+</div>
+{% else %}
+<div class="space-y-4">
+    <div class="bg-white p-5 rounded-lg border border-slate-200 flex items-center gap-6">
+        <div class="text-center">
+            <div class="text-5xl font-bold {% if result.score >= 80 %}text-green-600{% elif result.score >= 60 %}text-amber-500{% else %}text-red-600{% endif %}">{{ result.score }}</div>
+            <div class="text-xs uppercase text-slate-500">Score</div>
+        </div>
+        <div class="text-sm flex-1">
+            <div class="font-semibold">{{ filename }}</div>
+            <div class="text-xs text-slate-500">{{ result.factors.width }}×{{ result.factors.height }} · {{ result.factors.aspect_ratio }}:1 · {{ result.factors.file_size_kb }} KB · {{ result.factors.format }}</div>
+        </div>
+    </div>
+
+    <div class="bg-white p-5 rounded-lg border border-slate-200 grid md:grid-cols-2 gap-4 text-sm">
+        <div><strong>Яркость:</strong> {{ result.factors.brightness }}/255</div>
+        <div><strong>Контраст:</strong> {{ result.factors.contrast }}</div>
+        <div><strong>Контраст на 320px (в ленте):</strong> {{ result.factors.contrast_at_320px }}</div>
+        <div><strong>Соотношение:</strong> {{ result.factors.aspect_ratio }} {% if result.factors.aspect_ok %}✅{% else %}❌{% endif %}</div>
+    </div>
+
+    {% if result.factors.dominant_colors %}
+    <div class="bg-white p-5 rounded-lg border border-slate-200">
+        <h3 class="font-semibold mb-2 text-sm">Доминантные цвета</h3>
+        <div class="flex gap-2">
+            {% for c in result.factors.dominant_colors %}
+            <div class="text-center">
+                <div class="w-16 h-16 rounded border border-slate-300" style="background:{{ c.hex }}"></div>
+                <div class="text-xs mt-1 font-mono">{{ c.hex }}</div>
+                <div class="text-xs text-slate-500">{{ (c.share * 100) | round }}%</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if result.factors.issues %}
+    <div class="bg-red-50 border border-red-200 rounded p-4 text-sm">
+        <strong>⚠️ Проблемы:</strong>
+        <ul class="list-disc list-inside mt-2 space-y-1">{% for i in result.factors.issues %}<li>{{ i }}</li>{% endfor %}</ul>
+    </div>
+    {% endif %}
+    {% if result.factors.tips %}
+    <div class="bg-amber-50 border border-amber-200 rounded p-4 text-sm">
+        <strong>💡 Подсказки:</strong>
+        <ul class="list-disc list-inside mt-2 space-y-1">{% for t in result.factors.tips %}<li>{{ t }}</li>{% endfor %}</ul>
+    </div>
+    {% endif %}
+</div>
+{% endif %}

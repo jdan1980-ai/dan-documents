@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Лучшее время{% endblock %}
+{% block content %}
+<h1 class="text-2xl font-bold mb-2">Лучшее время публикации</h1>
+<p class="text-sm text-slate-600 mb-6">Анализирует топ vs последние 30% видео канала, выдаёт лучший день и час.</p>
+
+<form
+    hx-post="/api/upload-time/analyze"
+    hx-target="#result"
+    hx-indicator="#loading-indicator"
+    hx-disabled-elt="find button"
+    class="bg-white p-5 rounded-lg border border-slate-200 mb-6 flex flex-col gap-3"
+>
+    <input type="text" name="query" required placeholder="@stillwavezen"
+           class="border border-slate-300 rounded px-4 py-2 focus:outline-none focus:border-red-400" />
+    <div class="flex items-center gap-3">
+        <label class="text-sm text-slate-600">Видео для анализа:</label>
+        <select name="limit" class="border border-slate-300 rounded px-2 py-1">
+            <option>20</option><option selected>50</option><option>100</option>
+        </select>
+        <button type="submit" class="bg-red-600 text-white px-5 py-2 rounded hover:bg-red-700 ml-auto">Проанализировать</button>
+    </div>
+</form>
+
+<div id="result"></div>
+{% endblock %}

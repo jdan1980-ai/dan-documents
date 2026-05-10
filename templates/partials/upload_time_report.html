@@ -1,0 +1,48 @@
+{% if result.error %}
+<div class="bg-amber-50 border border-amber-200 rounded p-4 text-sm">{{ result.error }}</div>
+{% else %}
+<div class="space-y-4">
+    <div class="bg-white p-5 rounded-lg border border-slate-200 flex items-center gap-4">
+        {% if channel.thumbnail %}<img src="{{ channel.thumbnail }}" class="w-12 h-12 rounded-full" />{% endif %}
+        <div class="flex-1">
+            <div class="font-semibold">{{ channel.title }}</div>
+            <div class="text-xs text-slate-500">{{ result.videos_analyzed }} видео в анализе · топ-{{ result.top_count }} vs остальные</div>
+        </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-4">
+        {% if result.best_day %}
+        <div class="bg-white p-5 rounded-lg border border-slate-200">
+            <div class="text-xs text-slate-500 uppercase mb-1">Лучший день</div>
+            <div class="text-3xl font-bold text-red-600">{{ result.best_day.label }}</div>
+            <div class="text-xs text-slate-500">{{ result.best_day.top_count }} в топе vs {{ result.best_day.bottom_count }} в худших · avg views: {{ "{:,}".format(result.best_day.avg_views) }}</div>
+        </div>
+        {% endif %}
+        {% if result.best_hour %}
+        <div class="bg-white p-5 rounded-lg border border-slate-200">
+            <div class="text-xs text-slate-500 uppercase mb-1">Лучший час (UTC)</div>
+            <div class="text-3xl font-bold text-red-600">{{ result.best_hour.label }}</div>
+            <div class="text-xs text-slate-500">{{ result.best_hour.top_count }} в топе vs {{ result.best_hour.bottom_count }} в худших · avg views: {{ "{:,}".format(result.best_hour.avg_views) }}</div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-4">
+        <div class="bg-white p-5 rounded-lg border border-slate-200">
+            <h3 class="font-semibold text-sm mb-2">Дни недели</h3>
+            <table class="w-full text-xs">
+                <thead><tr class="text-slate-500"><th class="text-left">День</th><th class="text-right">Топ</th><th class="text-right">Худш.</th><th class="text-right">Avg views</th></tr></thead>
+                <tbody>{% for d in result.days_ranked %}<tr class="border-t"><td class="py-1">{{ d.label }}</td><td class="text-right">{{ d.top_count }}</td><td class="text-right text-slate-400">{{ d.bottom_count }}</td><td class="text-right">{{ "{:,}".format(d.avg_views) }}</td></tr>{% endfor %}</tbody>
+            </table>
+        </div>
+        <div class="bg-white p-5 rounded-lg border border-slate-200">
+            <h3 class="font-semibold text-sm mb-2">Часы (UTC)</h3>
+            <table class="w-full text-xs">
+                <thead><tr class="text-slate-500"><th class="text-left">Час</th><th class="text-right">Топ</th><th class="text-right">Худш.</th><th class="text-right">Avg views</th></tr></thead>
+                <tbody>{% for h in result.hours_ranked %}<tr class="border-t"><td class="py-1">{{ h.label }}</td><td class="text-right">{{ h.top_count }}</td><td class="text-right text-slate-400">{{ h.bottom_count }}</td><td class="text-right">{{ "{:,}".format(h.avg_views) }}</td></tr>{% endfor %}</tbody>
+            </table>
+        </div>
+    </div>
+    <div class="text-xs text-slate-500 italic">Время в UTC. Прибавь твой timezone offset (Israel = +3, MSK = +3, NYC = -5).</div>
+</div>
+{% endif %}

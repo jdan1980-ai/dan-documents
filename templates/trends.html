@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Google Trends{% endblock %}
+{% block content %}
+<h1 class="text-2xl font-bold mb-2">Google Trends</h1>
+<p class="text-sm text-slate-600 mb-6">Динамика ключевика и related queries (через pytrends, бесплатно).</p>
+
+<form
+    hx-post="/api/trends/lookup"
+    hx-target="#result"
+    hx-indicator="#loading-indicator"
+    hx-disabled-elt="find button"
+    class="bg-white p-5 rounded-lg border border-slate-200 mb-6 flex flex-col gap-3"
+>
+    <input type="text" name="keyword" required placeholder="deep focus music"
+           class="border border-slate-300 rounded px-4 py-2 focus:outline-none focus:border-red-400" />
+    <div class="flex items-center gap-3 flex-wrap">
+        <label class="text-sm text-slate-600">Регион:</label>
+        <select name="geo" class="border border-slate-300 rounded px-2 py-1">
+            <option value="">Worldwide</option>
+            <option value="US">US</option>
+            <option value="GB">UK</option>
+            <option value="RU">Россия</option>
+            <option value="JP">Japan</option>
+            <option value="DE">Germany</option>
+            <option value="ES">Spain</option>
+        </select>
+        <label class="text-sm text-slate-600">Период:</label>
+        <select name="timeframe" class="border border-slate-300 rounded px-2 py-1">
+            <option value="now 7-d">7 дней</option>
+            <option value="today 3-m">3 месяца</option>
+            <option value="today 12-m" selected>12 месяцев</option>
+            <option value="today 5-y">5 лет</option>
+        </select>
+        <button type="submit" class="bg-red-600 text-white px-5 py-2 rounded hover:bg-red-700 ml-auto">Получить</button>
+    </div>
+</form>
+
+<div id="result"></div>
+{% endblock %}

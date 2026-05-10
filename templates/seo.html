@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}SEO Scorecard{% endblock %}
+{% block content %}
+<h1 class="text-2xl font-bold mb-2">SEO Scorecard</h1>
+<p class="text-sm text-slate-600 mb-6">Вставь title, description и теги (через запятую) до публикации — получи единый отчёт.</p>
+
+<form
+    hx-post="/api/seo/analyze"
+    hx-target="#result"
+    hx-indicator="#loading-indicator"
+    hx-disabled-elt="find button"
+    class="bg-white p-5 rounded-lg border border-slate-200 mb-6 flex flex-col gap-3"
+>
+    <label class="text-sm font-semibold">Title</label>
+    <input type="text" name="title" placeholder="Best Focus Music Tokyo Rain Power Hour [1H Top Deep Work]"
+           class="border border-slate-300 rounded px-4 py-2 focus:outline-none focus:border-red-400" />
+
+    <label class="text-sm font-semibold mt-2">Description</label>
+    <textarea name="description" rows="10" placeholder="Полный текст описания с таймкодами и хэштегами"
+              class="border border-slate-300 rounded px-4 py-2 focus:outline-none focus:border-red-400 font-mono text-xs"></textarea>
+
+    <label class="text-sm font-semibold mt-2">Tags (через запятую)</label>
+    <textarea name="tags" rows="3" placeholder="deep work music, focus music, study music, ..."
+              class="border border-slate-300 rounded px-4 py-2 focus:outline-none focus:border-red-400 text-xs"></textarea>
+
+    <button type="submit" class="bg-red-600 text-white px-5 py-2 rounded hover:bg-red-700 self-end mt-2">Анализировать</button>
+</form>
+
+<div id="result"></div>
+{% endblock %}

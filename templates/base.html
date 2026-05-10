@@ -8,26 +8,40 @@
     <script src="https://unpkg.com/htmx.org@2.0.3"></script>
     <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
     <link rel="stylesheet" href="/static/style.css" />
+    <style>
+      .nav-link.active { color: #dc2626; font-weight: 600; }
+      details > summary { cursor: pointer; }
+    </style>
 </head>
 <body class="bg-slate-50 text-slate-900 antialiased min-h-screen">
-    <header class="bg-white border-b border-slate-200">
-        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center gap-6">
-            <a href="/" class="text-xl font-bold text-red-600">YT Analytics</a>
-            <nav class="flex gap-5 text-sm">
-                <a href="/channel" class="hover:text-red-600 {% if page == 'channel' %}text-red-600 font-semibold{% endif %}">Канал</a>
-                <a href="/video" class="hover:text-red-600 {% if page == 'video' %}text-red-600 font-semibold{% endif %}">Видео</a>
-                <a href="/keywords" class="hover:text-red-600 {% if page == 'keywords' %}text-red-600 font-semibold{% endif %}">Ключевики</a>
-                <a href="/title" class="hover:text-red-600 {% if page == 'title' %}text-red-600 font-semibold{% endif %}">Заголовок</a>
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-6 py-3 flex items-center gap-4 flex-wrap">
+            <a href="/" class="text-xl font-bold text-red-600 mr-2">YT Analytics</a>
+            <nav class="flex gap-4 text-sm flex-wrap">
+                <a href="/channel" class="nav-link hover:text-red-600 {% if page == 'channel' %}active{% endif %}">Канал</a>
+                <a href="/video" class="nav-link hover:text-red-600 {% if page == 'video' %}active{% endif %}">Видео</a>
+                <a href="/keywords" class="nav-link hover:text-red-600 {% if page == 'keywords' %}active{% endif %}">Ключевики</a>
+                <a href="/title" class="nav-link hover:text-red-600 {% if page == 'title' %}active{% endif %}">Заголовок</a>
+                <span class="text-slate-300">|</span>
+                <a href="/seo" class="nav-link hover:text-red-600 {% if page == 'seo' %}active{% endif %}">SEO</a>
+                <a href="/title-batch" class="nav-link hover:text-red-600 {% if page == 'title_batch' %}active{% endif %}">A/B</a>
+                <a href="/tags-suggest" class="nav-link hover:text-red-600 {% if page == 'tags_suggest' %}active{% endif %}">Auto-tags</a>
+                <a href="/thumbnail" class="nav-link hover:text-red-600 {% if page == 'thumbnail' %}active{% endif %}">Тумбнейл</a>
+                <a href="/breakout" class="nav-link hover:text-red-600 {% if page == 'breakout' %}active{% endif %}">Breakout</a>
+                <a href="/compare" class="nav-link hover:text-red-600 {% if page == 'compare' %}active{% endif %}">Сравнение</a>
+                <a href="/trends" class="nav-link hover:text-red-600 {% if page == 'trends' %}active{% endif %}">Trends</a>
+                <a href="/upload-time" class="nav-link hover:text-red-600 {% if page == 'upload_time' %}active{% endif %}">Время</a>
+                <a href="/comments" class="nav-link hover:text-red-600 {% if page == 'comments' %}active{% endif %}">Комменты</a>
             </nav>
         </div>
     </header>
 
-    <main class="max-w-6xl mx-auto px-6 py-8">
+    <main class="max-w-7xl mx-auto px-6 py-8">
         {% block content %}{% endblock %}
     </main>
 
-    <footer class="max-w-6xl mx-auto px-6 py-8 text-xs text-slate-500">
-        Данные: YouTube Data API v3 + yt-dlp + youtube-transcript-api · Кеш SQLite
+    <footer class="max-w-7xl mx-auto px-6 py-8 text-xs text-slate-500">
+        Данные: YouTube Data API v3 + yt-dlp + youtube-transcript-api + Google Trends · Кеш SQLite
     </footer>
 
     <div id="loading-indicator" class="htmx-indicator fixed top-4 right-4 bg-red-600 text-white px-4 py-2 rounded shadow">

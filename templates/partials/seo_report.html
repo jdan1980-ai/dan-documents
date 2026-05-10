@@ -1,0 +1,126 @@
+<div class="space-y-4">
+    <div class="bg-white p-5 rounded-lg border border-slate-200 flex items-center gap-6">
+        <div class="text-center">
+            <div class="text-5xl font-bold {% if overall >= 80 %}text-green-600{% elif overall >= 60 %}text-amber-500{% else %}text-red-600{% endif %}">{{ overall }}</div>
+            <div class="text-xs uppercase text-slate-500">Overall</div>
+        </div>
+        <div class="flex-1 grid grid-cols-3 gap-3">
+            {% if title_result %}
+            <div class="bg-slate-50 rounded p-3 text-center">
+                <div class="text-2xl font-semibold {% if title_result.score >= 80 %}text-green-600{% elif title_result.score >= 60 %}text-amber-500{% else %}text-red-600{% endif %}">{{ title_result.score }}</div>
+                <div class="text-xs text-slate-600">Title</div>
+            </div>
+            {% endif %}
+            {% if desc_result %}
+            <div class="bg-slate-50 rounded p-3 text-center">
+                <div class="text-2xl font-semibold {% if desc_result.score >= 80 %}text-green-600{% elif desc_result.score >= 60 %}text-amber-500{% else %}text-red-600{% endif %}">{{ desc_result.score }}</div>
+                <div class="text-xs text-slate-600">Description</div>
+            </div>
+            {% endif %}
+            {% if tags_result %}
+            <div class="bg-slate-50 rounded p-3 text-center">
+                <div class="text-2xl font-semibold {% if tags_result.score >= 80 %}text-green-600{% elif tags_result.score >= 60 %}text-amber-500{% else %}text-red-600{% endif %}">{{ tags_result.score }}</div>
+                <div class="text-xs text-slate-600">Tags</div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    {% if title_result %}
+    <details class="bg-white p-5 rounded-lg border border-slate-200" open>
+        <summary class="font-semibold flex items-center justify-between"><span>📝 Title — {{ title_result.score }}/100</span><span class="text-xs text-slate-500">{{ title_result.factors.length }} симв.</span></summary>
+        <div class="mt-3 text-sm space-y-1">
+            <div class="font-mono text-xs bg-slate-50 p-2 rounded">{{ title }}</div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs mt-3">
+                <div>📏 Длина: {{ title_result.factors.length }} {% if 40 <= title_result.factors.length <= 70 %}✅{% else %}⚠️{% endif %}</div>
+                <div>🔢 Числа: {% if title_result.factors.has_number %}✅{% else %}❌{% endif %}</div>
+                <div>❓ Вопрос: {% if title_result.factors.has_question %}✅{% else %}❌{% endif %}</div>
+                <div>[ ] Скобки: {% if title_result.factors.has_brackets %}✅{% else %}❌{% endif %}</div>
+                <div>⭐ Positive: {{ title_result.factors.positive_markers }}</div>
+                <div>🎣 Clickbait: {{ title_result.factors.clickbait_markers }}</div>
+                <div>🔠 UPPER: {{ (title_result.factors.upper_ratio * 100) | round }}%</div>
+            </div>
+        </div>
+    </details>
+    {% endif %}
+
+    {% if desc_result %}
+    <details class="bg-white p-5 rounded-lg border border-slate-200" open>
+        <summary class="font-semibold flex items-center justify-between"><span>📄 Description — {{ desc_result.score }}/100</span><span class="text-xs text-slate-500">{{ desc_result.factors.length }} симв.</span></summary>
+        <div class="mt-3 text-sm space-y-2">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
+                <div>📏 Длина: {{ desc_result.factors.length }}</div>
+                <div>🔑 KW в первых 125: {% if desc_result.factors.kw_in_first_125 %}✅{% else %}❌{% endif %}</div>
+                <div>🔁 KW count: {{ desc_result.factors.main_kw_count or 0 }}</div>
+                <div>#️⃣ Хэштеги: {{ desc_result.factors.hashtag_count }}</div>
+                <div>🕐 Таймкоды: {{ desc_result.factors.timestamp_count }}</div>
+                <div>📢 CTA: {{ desc_result.factors.cta_markers }}</div>
+                <div>🔗 Ссылки: {{ desc_result.factors.links_count }}</div>
+                <div>📑 Параграфы: {{ desc_result.factors.paragraphs }}</div>
+            </div>
+            <div class="text-xs text-slate-500 bg-slate-50 p-2 rounded mt-2">
+                <strong>Превью YouTube (125 симв.):</strong> {{ desc_result.factors.first_125 }}…
+            </div>
+            {% if desc_result.factors.issues %}
+            <div class="text-xs">
+                <strong class="text-red-600">⚠️ Проблемы:</strong>
+                <ul class="list-disc list-inside mt-1 space-y-1">
+                    {% for i in desc_result.factors.issues %}<li>{{ i }}</li>{% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+            {% if desc_result.factors.tips %}
+            <div class="text-xs">
+                <strong class="text-amber-600">💡 Подсказки:</strong>
+                <ul class="list-disc list-inside mt-1 space-y-1">
+                    {% for t in desc_result.factors.tips %}<li>{{ t }}</li>{% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+        </div>
+    </details>
+    {% endif %}
+
+    {% if tags_result %}
+    <details class="bg-white p-5 rounded-lg border border-slate-200" open>
+        <summary class="font-semibold flex items-center justify-between"><span>🏷️ Tags — {{ tags_result.score }}/100</span><span class="text-xs text-slate-500">{{ tags_result.factors.count }} тегов · {{ tags_result.factors.total_chars }} симв.</span></summary>
+        <div class="mt-3 text-sm space-y-2">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
+                <div>🔢 Кол-во: {{ tags_result.factors.count }} {% if 15 <= tags_result.factors.count <= 25 %}✅{% else %}⚠️{% endif %}</div>
+                <div>📏 Всего: {{ tags_result.factors.total_chars }}/500</div>
+                <div>S/M/L: {{ tags_result.factors.short }}/{{ tags_result.factors.medium }}/{{ tags_result.factors.long }}</div>
+                <div>Multi-word: {{ tags_result.factors.multi_word_tags }}</div>
+                <div>Avg len: {{ tags_result.factors.avg_length }}</div>
+                <div>KW в тегах: {{ tags_result.factors.main_kw_in_tags or 0 }}</div>
+            </div>
+            <div class="flex flex-wrap gap-1 mt-2">
+                {% for tag in tags %}
+                <span class="bg-slate-100 px-2 py-1 rounded text-xs">{{ tag }}</span>
+                {% endfor %}
+            </div>
+            {% if tags_result.factors.issues %}
+            <div class="text-xs">
+                <strong class="text-red-600">⚠️ Проблемы:</strong>
+                <ul class="list-disc list-inside mt-1">{% for i in tags_result.factors.issues %}<li>{{ i }}</li>{% endfor %}</ul>
+            </div>
+            {% endif %}
+            {% if tags_result.factors.tips %}
+            <div class="text-xs">
+                <strong class="text-amber-600">💡 Подсказки:</strong>
+                <ul class="list-disc list-inside mt-1">{% for t in tags_result.factors.tips %}<li>{{ t }}</li>{% endfor %}</ul>
+            </div>
+            {% endif %}
+        </div>
+    </details>
+    {% endif %}
+
+    {% if overlap %}
+    <details class="bg-white p-5 rounded-lg border border-slate-200">
+        <summary class="font-semibold">🔗 SEO Consistency — {{ overlap.seo_consistency }}%</summary>
+        <div class="mt-3 text-xs space-y-2">
+            <div>Title ↔ Description: {{ overlap.overlap_title_desc | join(', ') }}</div>
+            <div>Title ↔ Tags: {{ overlap.overlap_title_tags | join(', ') }}</div>
+        </div>
+    </details>
+    {% endif %}
+</div>

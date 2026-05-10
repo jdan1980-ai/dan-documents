@@ -253,3 +253,87 @@ def search_videos(query: str, max_results: int = 25) -> list[dict[str, Any]]:
     videos = get_videos(video_ids)
     cache_set(cache_key, videos)
     return videos
+
+
+def search_recent_videos(query: str, days: int = 30, max_results: int = 50) -> list[dict[str, Any]]:
+    """Search videos published in the last N days, ordered by view count.
+
+    Cost: 100 units per call (search.list). Cached 24h.
+    """
+    from datetime import datetime, timedelta, timezone
+    published_after = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    cache_key = f"search_recent:{query}:{days}:{max_results}"
+    cached = cache_get(cache_key)
+    if cached is not None:
+        return cached
+
+    try:
+        resp = (
+            _client()
+            .search()
+            .list(
+                part="id",
+                q=query,
+                type="video",
+                maxResults=min(max_results, 50),
+                order="viewCount",
+                publishedAfter=published_after,
+            )
+            .execute()
+        )
+    except HttpError as e:
+        raise YouTubeAPIError(f"Recent search failed: {e}") from e
+
+    video_ids = [item["id"]["videoId"] for item in resp.get("items", []) if item["id"].get("videoId")]
+    videos = get_videos(video_ids)
+    cache_set(cache_key, videos)
+    return videos
+
+
+def get_video_comments(video_id: str, max_results: int = 100) -> list[dict[str, Any]]:
+    """Fetch top-level comments for a video. Cost: 1 unit per call."""
+    cache_key = f"comments:{video_id}:{max_results}"
+    cached = cache_get(cache_key)
+    if cached is not None:
+        return cached
+
+    comments: list[dict[str, Any]] = []
+    page_token: str | None = None
+    yt = _client()
+    while len(comments) < max_results:
+        try:
+            resp = (
+                yt.commentThreads()
+                .list(
+                    part="snippet",
+                    videoId=video_id,
+                    maxResults=min(100, max_results - len(comments)),
+                    order="relevance",
+                    pageToken=page_token,
+                )
+                .execute()
+            )
+        except HttpError as e:
+            if "commentsDisabled" in str(e) or "disabled comments" in str(e).lower():
+                cache_set(cache_key, [])
+                return []
+            raise YouTubeAPIError(f"Comments fetch failed: {e}") from e
+
+        for item in resp.get("items", []):
+            top = item.get("snippet", {}).get("topLevelComment", {}).get("snippet", {})
+            if not top:
+                continue
+            comments.append(
+                {
+                    "text": top.get("textDisplay", ""),
+                    "author": top.get("authorDisplayName", ""),
+                    "likes": int(top.get("likeCount", 0) or 0),
+                    "published_at": top.get("publishedAt"),
+                }
+            )
+        page_token = resp.get("nextPageToken")
+        if not page_token:
+            break
+
+    cache_set(cache_key, comments)
+    return comments

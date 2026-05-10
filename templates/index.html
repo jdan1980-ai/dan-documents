@@ -1,30 +1,93 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section class="text-center mb-12">
-    <h1 class="text-4xl font-bold mb-3">Анализируй YouTube бесплатно</h1>
+<section class="text-center mb-10">
+    <h1 class="text-4xl font-bold mb-3">YouTube Analytics — без подписок</h1>
     <p class="text-slate-600 max-w-2xl mx-auto">
-        Канал, видео, ключевые слова и заголовки — данные из YouTube Data API,
-        yt-dlp и транскриптов. Без подписок и платных API.
+        Полный pre-publish и discovery toolkit. Скоринг, тег-майнинг, Google Trends, breakout-видео и время публикации — всё на бесплатных API.
     </p>
 </section>
 
-<section class="grid md:grid-cols-2 gap-6">
-    <a href="/channel" class="block bg-white p-6 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
-        <h2 class="text-lg font-semibold mb-1">Анализ канала</h2>
-        <p class="text-sm text-slate-600">Статистика, частота загрузок, выбросы (видео, которые «выстрелили»), топ-видео.</p>
-    </a>
-    <a href="/video" class="block bg-white p-6 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
-        <h2 class="text-lg font-semibold mb-1">Анализ видео</h2>
-        <p class="text-sm text-slate-600">Заголовок, SEO, транскрипт, ключевые слова, сравнение с медианой канала.</p>
-    </a>
-    <a href="/keywords" class="block bg-white p-6 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
-        <h2 class="text-lg font-semibold mb-1">Ключевые слова</h2>
-        <p class="text-sm text-slate-600">Поиск по запросу, оценка конкуренции, связанные ключевики.</p>
-    </a>
-    <a href="/title" class="block bg-white p-6 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
-        <h2 class="text-lg font-semibold mb-1">Скоринг заголовка</h2>
-        <p class="text-sm text-slate-600">Оценка длины, эмоциональности, наличия чисел, кликбейт-маркеров.</p>
-    </a>
+<section class="mb-2">
+    <h2 class="text-xs uppercase tracking-wider text-slate-500 mb-3">Анализ</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+        <a href="/channel" class="block bg-white p-5 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+            <div class="text-2xl mb-2">📊</div>
+            <h3 class="font-semibold mb-1">Канал</h3>
+            <p class="text-xs text-slate-600">Статистика, outliers, частота загрузок</p>
+        </a>
+        <a href="/video" class="block bg-white p-5 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+            <div class="text-2xl mb-2">🎥</div>
+            <h3 class="font-semibold mb-1">Видео</h3>
+            <p class="text-xs text-slate-600">SEO, транскрипт, vs медиана канала</p>
+        </a>
+        <a href="/keywords" class="block bg-white p-5 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+            <div class="text-2xl mb-2">🔍</div>
+            <h3 class="font-semibold mb-1">Ключевики</h3>
+            <p class="text-xs text-slate-600">Поиск без квоты, конкуренция</p>
+        </a>
+        <a href="/compare" class="block bg-white p-5 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+            <div class="text-2xl mb-2">⚖️</div>
+            <h3 class="font-semibold mb-1">Сравнение каналов</h3>
+            <p class="text-xs text-slate-600">2 канала side-by-side</p>
+        </a>
+    </div>
+</section>
+
+<section class="mb-2">
+    <h2 class="text-xs uppercase tracking-wider text-slate-500 mb-3">Pre-publish</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+        <a href="/seo" class="block bg-white p-5 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+            <div class="text-2xl mb-2">📝</div>
+            <h3 class="font-semibold mb-1">SEO Scorecard</h3>
+            <p class="text-xs text-slate-600">Title + Description + Tags на одном экране</p>
+        </a>
+        <a href="/title-batch" class="block bg-white p-5 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+            <div class="text-2xl mb-2">🆎</div>
+            <h3 class="font-semibold mb-1">Title A/B Batch</h3>
+            <p class="text-xs text-slate-600">5 вариантов, итог за секунду</p>
+        </a>
+        <a href="/tags-suggest" class="block bg-white p-5 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+            <div class="text-2xl mb-2">🏷️</div>
+            <h3 class="font-semibold mb-1">Auto-tags</h3>
+            <p class="text-xs text-slate-600">Майнинг тегов из outliers ниши</p>
+        </a>
+        <a href="/thumbnail" class="block bg-white p-5 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+            <div class="text-2xl mb-2">🖼️</div>
+            <h3 class="font-semibold mb-1">Тумбнейл</h3>
+            <p class="text-xs text-slate-600">Контраст, читаемость, вес</p>
+        </a>
+    </div>
+</section>
+
+<section>
+    <h2 class="text-xs uppercase tracking-wider text-slate-500 mb-3">Discovery & Insights</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <a href="/breakout" class="block bg-white p-5 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+            <div class="text-2xl mb-2">🚀</div>
+            <h3 class="font-semibold mb-1">Breakout-30d</h3>
+            <p class="text-xs text-slate-600">Что взлетает в нише за месяц</p>
+        </a>
+        <a href="/trends" class="block bg-white p-5 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+            <div class="text-2xl mb-2">📈</div>
+            <h3 class="font-semibold mb-1">Google Trends</h3>
+            <p class="text-xs text-slate-600">Динамика ключевика + related</p>
+        </a>
+        <a href="/upload-time" class="block bg-white p-5 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+            <div class="text-2xl mb-2">⏰</div>
+            <h3 class="font-semibold mb-1">Лучшее время</h3>
+            <p class="text-xs text-slate-600">День + час публикации канала</p>
+        </a>
+        <a href="/comments" class="block bg-white p-5 rounded-lg border border-slate-200 hover:border-red-400 hover:shadow-md transition">
+            <div class="text-2xl mb-2">💬</div>
+            <h3 class="font-semibold mb-1">Комменты</h3>
+            <p class="text-xs text-slate-600">Темы, sentiment, вопросы</p>
+        </a>
+    </div>
+</section>
+
+<section class="mt-12 bg-slate-100 rounded-lg p-5 text-sm text-slate-600">
+    <strong>Quota tip:</strong> поиск (search.list) и breakout — 100 units на запрос. Остальное — 1 unit.
+    Лимит API 10 000 в день. Кеш SQLite на 24 часа.
 </section>
 {% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Сравнение каналов{% endblock %}
+{% block content %}
+<h1 class="text-2xl font-bold mb-2">Сравнение каналов</h1>
+<p class="text-sm text-slate-600 mb-6">Два канала side-by-side. Подписчики, просмотры, частота, движок.</p>
+
+<form
+    hx-post="/api/compare/channels"
+    hx-target="#result"
+    hx-indicator="#loading-indicator"
+    hx-disabled-elt="find button"
+    class="bg-white p-5 rounded-lg border border-slate-200 mb-6 grid md:grid-cols-2 gap-4"
+>
+    <div>
+        <label class="text-sm font-semibold">Канал A</label>
+        <input type="text" name="channel_a" required placeholder="@stillwavezen"
+               class="border border-slate-300 rounded px-4 py-2 w-full mt-1" />
+    </div>
+    <div>
+        <label class="text-sm font-semibold">Канал B</label>
+        <input type="text" name="channel_b" required placeholder="@MERSOmusic"
+               class="border border-slate-300 rounded px-4 py-2 w-full mt-1" />
+    </div>
+    <button type="submit" class="bg-red-600 text-white px-5 py-2 rounded hover:bg-red-700 md:col-span-2">Сравнить</button>
+</form>
+
+<div id="result"></div>
+{% endblock %}

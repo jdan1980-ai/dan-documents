@@ -1,0 +1,43 @@
+<div class="space-y-4">
+    <div class="bg-white p-5 rounded-lg border border-slate-200">
+        <div class="flex items-center gap-3">
+            <img src="{{ video.thumbnail }}" class="w-24 h-14 object-cover rounded" />
+            <div>
+                <div class="font-semibold text-sm">{{ video.title }}</div>
+                <div class="text-xs text-slate-500">{{ video.channel_title }} · {{ "{:,}".format(video.views or 0) }} views · {{ video.comments or 0 }} комментов</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid md:grid-cols-4 gap-3">
+        <div class="bg-white p-4 rounded-lg border"><div class="text-xs text-slate-500">Комментов в анализе</div><div class="text-2xl font-semibold">{{ topics.total }}</div></div>
+        <div class="bg-white p-4 rounded-lg border"><div class="text-xs text-slate-500">Вопросов</div><div class="text-2xl font-semibold">{{ topics.questions }}</div></div>
+        <div class="bg-white p-4 rounded-lg border"><div class="text-xs text-slate-500">Positive hints</div><div class="text-2xl font-semibold text-green-600">{{ topics.positive_hints }}</div></div>
+        <div class="bg-white p-4 rounded-lg border"><div class="text-xs text-slate-500">Negative hints</div><div class="text-2xl font-semibold text-red-600">{{ topics.negative_hints }}</div></div>
+    </div>
+
+    {% if topics.top_words %}
+    <div class="bg-white p-5 rounded-lg border border-slate-200">
+        <h3 class="font-semibold text-sm mb-2">Топ слов</h3>
+        <div class="flex flex-wrap gap-2">
+            {% for w in topics.top_words %}
+            <span class="bg-slate-100 px-3 py-1 rounded text-sm">{{ w.word }} <span class="text-slate-400 text-xs">({{ w.count }})</span></span>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if comments %}
+    <div class="bg-white p-5 rounded-lg border border-slate-200">
+        <h3 class="font-semibold text-sm mb-2">Топ-{{ comments | length }} комментов</h3>
+        <div class="space-y-2 text-sm">
+            {% for c in comments %}
+            <div class="border-b last:border-0 pb-2">
+                <div class="text-xs text-slate-500">{{ c.author }} · 👍 {{ c.likes }}</div>
+                <div class="mt-1">{{ c.text | safe }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>

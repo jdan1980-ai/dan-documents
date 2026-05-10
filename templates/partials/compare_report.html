@@ -1,0 +1,28 @@
+<div class="grid md:grid-cols-2 gap-4">
+{% for side in [a, b] %}
+    <div class="bg-white p-5 rounded-lg border border-slate-200">
+        <div class="flex items-center gap-3 mb-4">
+            {% if side.channel.thumbnail %}<img src="{{ side.channel.thumbnail }}" class="w-14 h-14 rounded-full" alt="" />{% endif %}
+            <div>
+                <div class="font-bold">{{ side.channel.title }}</div>
+                <div class="text-xs text-slate-500">с {{ (side.channel.published_at or '')[:10] }}</div>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-3 text-sm">
+            <div class="bg-slate-50 p-2 rounded"><div class="text-xs text-slate-500">Подписчики</div><div class="font-semibold">{{ "{:,}".format(side.channel.subscribers or 0) }}</div></div>
+            <div class="bg-slate-50 p-2 rounded"><div class="text-xs text-slate-500">Просмотры</div><div class="font-semibold">{{ "{:,}".format(side.channel.views or 0) }}</div></div>
+            <div class="bg-slate-50 p-2 rounded"><div class="text-xs text-slate-500">Видео</div><div class="font-semibold">{{ side.channel.videos_count or 0 }}</div></div>
+            <div class="bg-slate-50 p-2 rounded"><div class="text-xs text-slate-500">Engagement</div><div class="font-semibold">{{ side.summary.engagement_rate }}%</div></div>
+            <div class="bg-slate-50 p-2 rounded"><div class="text-xs text-slate-500">Медиана views</div><div class="font-semibold">{{ "{:,}".format(side.summary.median_views) }}</div></div>
+            <div class="bg-slate-50 p-2 rounded"><div class="text-xs text-slate-500">Загрузок/нед</div><div class="font-semibold">{{ side.summary.upload_frequency_per_week }}</div></div>
+        </div>
+        {% if side.summary.best_video %}
+        <div class="mt-4 text-xs text-slate-600">
+            <strong>🏆 Топ:</strong>
+            <a href="{{ video_url(side.summary.best_video.id) }}" target="_blank" class="hover:text-red-600">{{ side.summary.best_video.title }}</a>
+            — {{ "{:,}".format(side.summary.best_video.views) }}
+        </div>
+        {% endif %}
+    </div>
+{% endfor %}
+</div>
