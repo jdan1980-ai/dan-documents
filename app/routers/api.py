@@ -5,7 +5,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 
 from ..config import PROJECT_ROOT
-from ..services import analytics, thumbnail, transcripts, trends, youtube, ytdlp
+from ..services import analytics, snapshots, thumbnail, transcripts, trends, youtube, ytdlp
 
 
 router = APIRouter()
@@ -564,5 +564,182 @@ def comments_analyze(
             "video": videos[0],
             "comments": comments[:30],
             "topics": topics,
+        },
+    )
+
+
+# ===========================================================
+# PACK 2: Forecast (Social Blade-style)
+# ===========================================================
+
+
+@router.post("/forecast/analyze", response_class=HTMLResponse)
+def forecast_analyze(
+    request: Request,
+    query: str = Form(...),
+):
+    try:
+        ch, videos, summary = _resolve_and_load(query, limit=50)
+    except youtube.YouTubeAPIError as e:
+        return templates.TemplateResponse(
+            "partials/error.html",
+            {"request": request, "error": str(e)},
+            status_code=400,
+        )
+
+    if not ch:
+        return templates.TemplateResponse(
+            "partials/error.html",
+            {"request": request, "error": f"Канал не найден: {query}"},
+            status_code=404,
+        )
+
+    monthly_views_est = 0
+    if videos:
+        from datetime import datetime, timezone, timedelta
+        cutoff = datetime.now(timezone.utc) - timedelta(days=30)
+        for v in videos:
+            pub = analytics._parse_dt(v.get("published_at"))
+            if pub and pub >= cutoff:
+                monthly_views_est += v.get("views", 0)
+
+    earnings = analytics.estimate_earnings(monthly_views_est) if monthly_views_est else None
+    milestones = analytics.project_milestones(ch, videos)
+    grade = analytics.channel_grade(ch, videos, summary)
+    velocity = analytics.channel_velocity(videos)
+
+    snap = snapshots.load_latest()
+    snap_age = snapshots.snapshot_age_seconds()
+    snap_key = snapshots.find_channel_key(query, snap) if snap else None
+    delta = analytics.snapshot_delta(snap, videos, snap_key) if snap else {"available": False, "reason": "Нет файла снапшота"}
+
+    return templates.TemplateResponse(
+        "partials/forecast_report.html",
+        {
+            "request": request,
+            "channel": ch,
+            "summary": summary,
+            "earnings": earnings,
+            "milestones": milestones,
+            "grade": grade,
+            "velocity": velocity,
+            "snap_age_hours": int(snap_age / 3600) if snap_age else None,
+            "delta": delta,
+            "video_url": _video_url,
+        },
+    )
+
+
+# ===========================================================
+# PACK 2: Video velocity (vidIQ Vision-style)
+# ===========================================================
+
+
+@router.post("/velocity/analyze", response_class=HTMLResponse)
+def velocity_analyze(
+    request: Request,
+    query: str = Form(...),
+):
+    video_id = _extract_video_id(query)
+    if not video_id:
+        return templates.TemplateResponse(
+            "partials/error.html",
+            {"request": request, "error": "Не распознан ID видео"},
+            status_code=400,
+        )
+
+    try:
+        videos = youtube.get_videos([video_id])
+        if not videos:
+            return templates.TemplateResponse("partials/error.html", {"request": request, "error": "Видео не найдено"}, status_code=404)
+        video = videos[0]
+        ch_videos = []
+        if video.get("channel_id"):
+            ch = youtube.get_channel(video["channel_id"])
+            if ch and ch.get("uploads_playlist"):
+                ids = youtube.list_channel_video_ids(ch["uploads_playlist"], limit=30)
+                ch_videos = youtube.get_videos(ids)
+    except youtube.YouTubeAPIError as e:
+        return templates.TemplateResponse("partials/error.html", {"request": request, "error": str(e)}, status_code=400)
+
+    velocity = analytics.video_velocity(video, ch_videos)
+    return templates.TemplateResponse(
+        "partials/velocity_report.html",
+        {"request": request, "video": video, "velocity": velocity, "video_url": _video_url},
+    )
+
+
+# ===========================================================
+# PACK 2: Snapshot history (LiveDune-style)
+# ===========================================================
+
+
+@router.post("/history/show", response_class=HTMLResponse)
+def history_show(
+    request: Request,
+    query: str = Form(...),
+):
+    try:
+        ch, videos, _ = _resolve_and_load(query, limit=50)
+    except youtube.YouTubeAPIError as e:
+        return templates.TemplateResponse("partials/error.html", {"request": request, "error": str(e)}, status_code=400)
+
+    if not ch:
+        return templates.TemplateResponse("partials/error.html", {"request": request, "error": f"Канал не найден: {query}"}, status_code=404)
+
+    snap = snapshots.load_latest()
+    snap_age = snapshots.snapshot_age_seconds()
+    snap_key = snapshots.find_channel_key(query, snap) if snap else None
+    delta = analytics.snapshot_delta(snap, videos, snap_key) if snap else {"available": False, "reason": "Файл снапшота не найден. Запусти `python scripts/fetch_snapshot.py`"}
+
+    return templates.TemplateResponse(
+        "partials/history_report.html",
+        {
+            "request": request,
+            "channel": ch,
+            "snap_age_hours": int(snap_age / 3600) if snap_age else None,
+            "delta": delta,
+            "video_url": _video_url,
+        },
+    )
+
+
+# ===========================================================
+# PACK 2: Competitor score (TubeBuddy-style)
+# ===========================================================
+
+
+@router.post("/competitor-score/analyze", response_class=HTMLResponse)
+def competitor_score_analyze(
+    request: Request,
+    video_url: str = Form(...),
+    niche_query: str = Form(...),
+):
+    video_id = _extract_video_id(video_url)
+    if not video_id:
+        return templates.TemplateResponse("partials/error.html", {"request": request, "error": "Не распознан URL видео"}, status_code=400)
+
+    try:
+        my_videos = youtube.get_videos([video_id])
+        if not my_videos:
+            return templates.TemplateResponse("partials/error.html", {"request": request, "error": "Видео не найдено"}, status_code=404)
+        my_video = my_videos[0]
+
+        niche = youtube.search_videos(niche_query.strip(), max_results=25)
+        outliers = analytics.detect_outliers(niche, threshold=1.0)
+        competitors = outliers[:5] if outliers else sorted(niche, key=lambda v: v["views"], reverse=True)[:5]
+    except youtube.YouTubeAPIError as e:
+        return templates.TemplateResponse("partials/error.html", {"request": request, "error": str(e)}, status_code=400)
+
+    gap_result = analytics.competitor_gaps(my_video, competitors)
+    return templates.TemplateResponse(
+        "partials/competitor_score_report.html",
+        {
+            "request": request,
+            "my_video": my_video,
+            "competitors": competitors,
+            "result": gap_result,
+            "niche_query": niche_query,
+            "video_url": _video_url,
         },
     )

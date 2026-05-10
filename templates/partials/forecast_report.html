@@ -1,0 +1,73 @@
+<div class="space-y-4">
+    <div class="bg-white p-5 rounded-lg border border-slate-200 flex items-center gap-4">
+        {% if channel.thumbnail %}<img src="{{ channel.thumbnail }}" class="w-14 h-14 rounded-full" />{% endif %}
+        <div>
+            <div class="font-bold">{{ channel.title }}</div>
+            <div class="text-xs text-slate-500">{{ "{:,}".format(channel.subscribers or 0) }} subs · {{ "{:,}".format(channel.views or 0) }} views · {{ channel.videos_count or 0 }} videos</div>
+        </div>
+        <div class="ml-auto text-center">
+            <div class="text-5xl font-bold {% if grade.score >= 80 %}text-green-600{% elif grade.score >= 60 %}text-amber-500{% else %}text-red-600{% endif %}">{{ grade.grade }}</div>
+            <div class="text-xs text-slate-500 uppercase">Grade · {{ grade.score }}/100</div>
+        </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-4">
+        <div class="bg-white p-5 rounded-lg border border-slate-200">
+            <div class="text-xs text-slate-500 uppercase mb-1">Velocity</div>
+            <div class="text-2xl font-bold">{{ velocity.label }}</div>
+            <div class="text-xs text-slate-500 mt-1">{{ velocity.reason }}</div>
+        </div>
+        {% if earnings %}
+        <div class="bg-white p-5 rounded-lg border border-slate-200">
+            <div class="text-xs text-slate-500 uppercase mb-1">Estimated earnings · last 30 days</div>
+            <div class="text-2xl font-bold">${{ earnings.low_usd }} – ${{ earnings.high_usd }}/мес</div>
+            <div class="text-xs text-slate-500 mt-1">avg: ${{ earnings.avg_usd }}/мес · ${{ earnings.yearly_avg }}/год · база: {{ "{:,}".format(earnings.monthly_views) }} views</div>
+        </div>
+        {% endif %}
+    </div>
+
+    {% if milestones %}
+    <div class="bg-white p-5 rounded-lg border border-slate-200">
+        <h3 class="font-semibold mb-3">🎯 Subscriber milestones (по текущему темпу)</h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+            {% for m in milestones %}
+            <div class="bg-slate-50 rounded p-3">
+                <div class="font-semibold">{{ m.label }} subs</div>
+                <div class="text-xs text-slate-500">через {{ m.days_to }} дней · {{ m.eta }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="bg-white p-5 rounded-lg border border-slate-200">
+        <h3 class="font-semibold mb-2">🎓 Grade reasoning</h3>
+        <ul class="text-sm space-y-1">{% for r in grade.reasons %}<li class="text-slate-700">• {{ r }}</li>{% endfor %}</ul>
+    </div>
+
+    {% if delta.available %}
+    <div class="bg-white p-5 rounded-lg border border-slate-200">
+        <h3 class="font-semibold mb-2">📊 Delta vs последний снапшот ({{ snap_age_hours }} ч назад)</h3>
+        <div class="grid md:grid-cols-3 gap-3 mb-3">
+            <div class="bg-slate-50 p-3 rounded"><div class="text-xs text-slate-500">Δ views (всего)</div><div class="text-2xl font-semibold {% if delta.total_delta_views > 0 %}text-green-600{% endif %}">+{{ "{:,}".format(delta.total_delta_views) }}</div></div>
+            <div class="bg-slate-50 p-3 rounded"><div class="text-xs text-slate-500">Общих видео</div><div class="text-2xl font-semibold">{{ delta.common_count }}</div></div>
+            <div class="bg-slate-50 p-3 rounded"><div class="text-xs text-slate-500">Новых после снапшота</div><div class="text-2xl font-semibold">{{ delta.new_videos_count }}</div></div>
+        </div>
+        {% if delta.top_growers %}
+        <div class="text-xs text-slate-500 mb-1 uppercase">Топ роста</div>
+        <div class="space-y-1 text-sm">
+            {% for g in delta.top_growers[:5] %}
+            <div class="flex justify-between border-b last:border-0 py-1">
+                <span class="truncate flex-1">{{ g.title }}</span>
+                <span class="text-green-600 ml-2">+{{ "{:,}".format(g.delta) }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+    {% else %}
+    <div class="bg-amber-50 border border-amber-200 rounded p-4 text-sm">
+        ⏰ <strong>Снапшота нет:</strong> {{ delta.reason }}<br>Запусти <code>python scripts/fetch_snapshot.py</code> сейчас — на следующем заходе покажу дельту.
+    </div>
+    {% endif %}
+</div>

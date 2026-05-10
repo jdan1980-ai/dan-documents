@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}History{% endblock %}
+{% block content %}
+<h1 class="text-2xl font-bold mb-2">🕓 Snapshot History</h1>
+<p class="text-sm text-slate-600 mb-6">Сравнение текущих просмотров с последним снапшотом из <code>data/channels_snapshot.json</code>. Запускай <code>python scripts/fetch_snapshot.py</code> регулярно для новой точки отсчёта.</p>
+
+<form
+    hx-post="/api/history/show"
+    hx-target="#result"
+    hx-indicator="#loading-indicator"
+    hx-disabled-elt="find button"
+    class="bg-white p-5 rounded-lg border border-slate-200 mb-6 flex flex-col gap-3"
+>
+    <input type="text" name="query" required placeholder="@stillwavezen"
+           class="border border-slate-300 rounded px-4 py-2 focus:outline-none focus:border-red-400" />
+    <button type="submit" class="bg-red-600 text-white px-5 py-2 rounded hover:bg-red-700 self-end">Показать дельту</button>
+</form>
+<div id="result"></div>
+{% endblock %}

@@ -83,3 +83,23 @@ def upload_time_page(request: Request):
 @router.get("/comments", response_class=HTMLResponse)
 def comments_page(request: Request):
     return templates.TemplateResponse("comments.html", {"request": request, "page": "comments"})
+
+
+@router.get("/forecast", response_class=HTMLResponse)
+def forecast_page(request: Request):
+    return templates.TemplateResponse("forecast.html", {"request": request, "page": "forecast"})
+
+
+@router.get("/velocity", response_class=HTMLResponse)
+def velocity_page(request: Request):
+    return templates.TemplateResponse("velocity.html", {"request": request, "page": "velocity"})
+
+
+@router.get("/history", response_class=HTMLResponse)
+def history_page(request: Request):
+    return templates.TemplateResponse("history.html", {"request": request, "page": "history"})
+
+
+@router.get("/competitor-score", response_class=HTMLResponse)
+def competitor_score_page(request: Request):
+    return templates.TemplateResponse("competitor_score.html", {"request": request, "page": "competitor_score"})

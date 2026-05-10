@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Forecast{% endblock %}
+{% block content %}
+<h1 class="text-2xl font-bold mb-2">📈 Forecast (Social Blade-style)</h1>
+<p class="text-sm text-slate-600 mb-6">Earnings, milestones, grade, velocity. Если есть свежий снапшот — покажу дельту просмотров.</p>
+
+<form
+    hx-post="/api/forecast/analyze"
+    hx-target="#result"
+    hx-indicator="#loading-indicator"
+    hx-disabled-elt="find button"
+    class="bg-white p-5 rounded-lg border border-slate-200 mb-6 flex flex-col gap-3"
+>
+    <input type="text" name="query" required placeholder="@stillwavezen"
+           class="border border-slate-300 rounded px-4 py-2 focus:outline-none focus:border-red-400" />
+    <button type="submit" class="bg-red-600 text-white px-5 py-2 rounded hover:bg-red-700 self-end">Прогнозировать</button>
+</form>
+<div id="result"></div>
+{% endblock %}
