@@ -2,14 +2,14 @@
 
 ## Meta
 
-- **Title:** Power Hour Focus Music — Tokyo Apartment Rain | 1H Deep Work Sprint for Coding, Writing & Studying
+- **Title:** Best Focus Music Tokyo Rain Power Hour [1H Top Deep Work]
 - **Slug:** `tokyo-apartment-rain-1h`
 - **Format:** Long-form
 - **Length:** 1H 04min 48sec (3 888 sec)
 - **Phase:** 1 (soft intro — Power Hour format — 24 Suno tracks at 1H 04min, no loop)
 - **Aesthetic:** Spacious Tokyo Penthouse — corner-wrap floor-to-ceiling windows + heavy rain on glass + neon Tokyo + modern linear fireplace + open MacBook with writing app + tea cup + bonsai
-- **Status:** script ready — awaiting Suno + NanoBanana generation
-- **Upload date:** TBD (week of May 13–19)
+- **Status:** scheduled in YouTube Studio
+- **Upload date:** 2026-05-10 14:00
 
 ---
 
@@ -94,8 +94,10 @@ ffmpeg -stream_loop -1 -i tokyo-apartment-rain-1h-loop.mp4 -i tokyo-apartment-ra
 ## 7. 📝 YouTube Title (Phase 1 format)
 
 ```
-Power Hour Focus Music — Tokyo Apartment Rain | 1H Deep Work Sprint for Coding, Writing & Studying
+Best Focus Music Tokyo Rain Power Hour [1H Top Deep Work]
 ```
+
+_Title scoring: 84/100 (bot). Old title scored 58/100 — too long (98 ch), no brackets, no positive markers. New title: 56 ch, brackets, `1H` number, positive markers (`best`, `top`)._
 
 ## 8. 📝 YouTube Description
 
@@ -195,9 +197,13 @@ deep work music, deep focus music, focus music, study music, work music, concent
 
 ## 12. 🔁 A/B title variant
 
+> If primary title underperforms in first 48h (CTR < 4%), swap to:
+
 ```
-1 Hour Power Focus — Tokyo Apartment Rain Music | Coding, Writing & Studying Sprint
+Best Tokyo Rain Focus Music — Power Hour [1H Deep Work]
 ```
+
+_Alt scored 81/100 (bot). Differs from primary by dropping `Top` and using `—` separator. Test if it pulls better CTR on click-through ambiguity._
 
 ---
 
