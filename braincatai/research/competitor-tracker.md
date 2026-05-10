@@ -11,6 +11,7 @@
 | 3 | The Curious Cat | https://www.youtube.com/@thecuriouscatt/videos | Cat psychology longform |
 | 4 | Cat Behaviour Channel | https://www.youtube.com/@catbehaviourchannel/videos | Cat behavior documentary |
 | 5 | Yamato Zen Relaxing | https://www.youtube.com/@YamatoZenRelaxing/videos | **Different niche** — relaxation/zen aesthetic, see comparison below |
+| 6 | **Мир Глазами Кошек** (RU) | https://www.youtube.com/@МирГлазамиКошек | **🔥 Top match** — 32.5K subs, 8.77M views, 46 videos. Hit 2.6M views in Feb 2026. Russian-language equivalent of BrainCatAI niche. Channel ID `UCSYBgC5AwWL9MaRj9lsAcgQ` |
 
 ## ⚠️ Технический лимит
 
@@ -206,6 +207,56 @@ Yamato Zen Relaxing — **бенчмарк эстетики**, не источн
 - ✅ — у нас уже опубликовано
 - 🟡 — открыто, ещё не сделано
 - 🟢 — в производстве
+
+---
+
+## 🔥 Мир Глазами Кошек — глубокий разбор (2026-05-10, через бот)
+
+**Stats:** 32.5K subs · **8.77M total views** · 46 videos (since 2016 — пробились в 2026) · 3.39 uploads/week · engagement 2.29%
+**Median:** 36,208 views · **Avg:** 191,075 · **Max:** **2,605,492**
+**Outliers:** 2 видео × 35-72 от медианы — фактически 2 хита затащили канал в 8.77M total views
+
+### Топ-5 хитов (русскоязычные — но паттерны переводятся 1-в-1)
+
+| Views | Title |
+|---|---|
+| **2,605,492** | Почему Кошки Вдруг ЗАЛЕЗАЮТ На Вас? **(Причина шокирует)** |
+| 1,291,214 | Если Ваша Кошка Спит с Вами Каждую Ночь, **ВОТ ЧТО ЭТО ЗНАЧИТ!** |
+| 580,077 | Твоя Кошка Ждала ВСЮ ЖИЗНЬ, Когда Ты ЭТО СДЕЛАЕШЬ! |
+| 542,591 | **13 СЛОВ**, которые Ваша Кошка РЕАЛЬНО понимает |
+| 535,727 | **17 Вещей**, которые Вы ДОЛЖНЫ ПРЕКРАТИТЬ ДЕЛАТЬ с Кошкой! |
+
+### Title-formula (анализ топ-15 через бот)
+
+- **Длина:** 57 ch avg (range 44-70) ← идеально по нашему скорингу 40-70
+- **Восклицательный знак `!`** — **11/15** хитов (vs. в наших нет ни одного!)
+- **Скобки `()` или `[]`** — 5/15 хитов: `(Причина шокирует)`, `(прекрати)`, `(говорят ветеринары)`
+- **Числа в начале** — 4/15: «13 СЛОВ», «17 Вещей», «15 Повседневных», «17 Продуктов»
+- **Знак вопроса `?`** — почти не используется (1/15) ← они предпочитают **declarative emotional**
+- **CAPS-акцент** — почти каждый title имеет 1-3 слова в CAPS для drama
+
+### Шаблоны заголовков (lift-and-shift на английский для BrainCatAI)
+
+| Шаблон RU | English equivalent для нас | Какой angle |
+|---|---|---|
+| «Если Ваша Кошка X, ВОТ ЧТО ЭТО ЗНАЧИТ!» | "If Your Cat Does X, THIS Is What It REALLY Means!" | Direct address + reveal |
+| «Почему Кошки Вдруг X? (Причина шокирует)» | "Why Cats Suddenly X (The Real Reason)" | Mystery + payoff |
+| «Твоя Кошка X — Правда ШОКИРУЕТ!» | "Your Cat Does X — The Truth WILL Shock You!" | Curiosity + emotion |
+| «N Вещей, которые Вы ДОЛЖНЫ Прекратить Делать с Кошкой!» | "N Things You MUST Stop Doing to Your Cat!" | Listicle + warning |
+| «N СЛОВ, которые Ваша Кошка РЕАЛЬНО Понимает» | "N Words Your Cat REALLY Understands" | Listicle + revelation |
+
+### Что забирать в наши title прямо сейчас
+
+1. ✅ **Добавить `!`** — у нас сейчас 0 хитов с `!`, у них 11/15. Дешёвый score-boost.
+2. ✅ **Скобки с эмоциональным reveal** — `(Real Reason)`, `(Vets Say)`, `(Stop Doing This)`. Дотягивает по нашему скорингу +3.
+3. ✅ **Прямое обращение «Your Cat...»** — у нас часть видео уже использует, но не все. Топ-каналы делают это в 100% хитов.
+4. ✅ **Listicle-числа** — `13 Words Your Cat Knows`, `17 Things You Should Stop Doing`. Это новый формат для нас.
+
+### Что показывает их успех о нише
+
+- **Ниша cat-psychology shorts/lite-explainer = высокая ёмкость** (8.77M views на 46 видео = 190K avg). Это **в 5x больше потолка**, чем сейчас у BrainCatAI (392 median).
+- **Канал стрельнул внезапно**: с 2016 года висел тихо, в феврале 2026 пошли хиты. Это значит **алгоритм YouTube активно пушит cat psychology в 2026** — мы в правильной нише в правильное время.
+- **3.39 видео/нед** ниже чем у BrainCatAI (7.88) — у них меньше частота, но больше размер каждого видео и виральность. Качество > количество для этой ниши.
 
 ---
 
