@@ -90,7 +90,13 @@ instrumental only, no vocals, no singing, no chanting, no spoken word, pure inst
 - **No melody, no chord progression** — pure tonal frequency bath
 - No buildup, no climax — sustained meditative
 
-**16 треков × ~3:30-4:30 = ~1:01:00 общая длина** (стандарт серии). При необходимости 8 или 24 трека.
+**🔑 Workflow rule (2026-05-11):** НЕ зацикливать одну композицию — генерируем **10-16 вариаций** одного Suno prompt и склеиваем подряд. Suno даёт organic variations при regenerate с тем же промптом → видео звучит живо, viewer не устаёт от повторения, и сам создатель не выгорает на однообразии. Структура (528 Hz drone + bowls + 60 BPM) сохраняется → unity бренда.
+
+- **1H видео** = 10-16 треков × 4-6 мин (Healing Hour стандарт: 16)
+- **2H видео** = 20-30 треков
+- **3H видео** = 30-45 треков
+
+Генерируем все треки за одну Suno-сессию с одним промптом → собираем в CapCut/ffmpeg по порядку.
 
 ---
 
