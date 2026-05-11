@@ -24,6 +24,10 @@ After publish (May 10, 14:00):
 - **48h review** — May 12, 14:00 → pull live API data, log views/likes/comments/CTR
 - **7d review** — May 17, 14:00 → full retention analysis + comment mining + first lessons
 - **30d review** — June 9, 14:00 → final perf snapshot, decide if pattern goes into Power Hour series template
+
+### Power Hour 力 playlist
+
+The Tokyo Apartment Rain video seeds the `Power Hour 力` series playlist. Asset (title / description / video list / API commands / manual steps) lives at `stillwave/playlists/power-hour.md`. Status: ⏳ awaiting manual creation in YouTube Studio (no OAuth creds for `playlists.insert`). After creation, paste the playlist URL into that file §7 and into the Tokyo video description.
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 

@@ -10,6 +10,7 @@
 - **Aesthetic:** Spacious Tokyo Penthouse — corner-wrap floor-to-ceiling windows + heavy rain on glass + neon Tokyo + modern linear fireplace + open MacBook with writing app + tea cup + bonsai
 - **Status:** script ready — awaiting Suno + NanoBanana generation
 - **Upload date:** TBD (week of May 13–19)
+- **Playlist:** Power Hour 力 — see `stillwave/playlists/power-hour.md` (seed entry, position 1)
 
 ---
 

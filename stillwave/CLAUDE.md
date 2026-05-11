@@ -290,6 +290,7 @@ Use Canva ONLY when a special variant is needed (e.g., text overlay for a viral 
 - `content-ideas.md` — backlog (output of `GAP:` and `CAL:` runs)
 - `production-status.md` — pipeline tracker per video
 - `scripts/<slug>.md` — one file per video
+- `playlists/<slug>.md` — one file per channel playlist (title, description, video list, creation steps)
 
 ---
 
