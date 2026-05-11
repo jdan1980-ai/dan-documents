@@ -10,6 +10,12 @@ Single source of truth for the StillWave pipeline. Update at every status change
 
 See `published-videos.md` for the full table with metrics.
 
+## 🌟 Series brand structure (2026-05-11+)
+
+- **Power Hour series** (`scripts/` root + future `scripts/power-hour/`) — focus / productivity / deep work videos. Examples: Tokyo Apartment Rain Power Hour, Bonsai Desk, Lantern Glow Study. Intent: viewer wants to WORK for 1+ hours.
+- **Healing Hour series** (`scripts/healing-hour/`) — healing / anxiety / sleep / nervous system reset videos. Examples: 528 Hz Nervous System Reset. Intent: viewer wants to CALM DOWN for 1 hour.
+- **Future possible:** Sleep Hour / Study Hour / Meditation Hour — each with its own audience cluster, prevents YouTube algorithm from cross-routing.
+
 ## In production / scheduled
 
 > Pipeline для long-form статической картинки: 📝 script → 🎵 suno generated → 🎨 image generated → 🎬 ~~not needed~~ → 🎞️ ffmpeg encoded → ⏰ scheduled → 📤 published.
@@ -26,7 +32,7 @@ After publish (May 10, 14:00):
 - **30d review** — June 9, 14:00 → final perf snapshot, decide if pattern goes into Power Hour series template
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `nervous-system-reset-528hz-1h` | Best 528 Hz + 432 Hz Japanese Monks Healing [1H Nervous System Reset] | 1H 04min | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `healing-hour/nervous-system-reset-528hz-1h` | Best 528 Hz Japanese Zen Healing Hour [1H Top Nervous System Reset] | 1H 01min | ✅ | ✅ | ✅ | ⏳ | ⏳ | ⏳ |
 
 ## Phase 1 batch — week of May 13–19
 

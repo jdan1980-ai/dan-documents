@@ -1,8 +1,10 @@
-# Nervous System Reset — 528 Hz Japanese Zen 1H
+# Nervous System Reset — 528 Hz Japanese Zen Healing Hour 1H
+
+> 📁 **Series:** Healing Hour (StillWave parallel series for healing/sleep/anxiety videos — separate from Power Hour series for productivity/focus videos)
 
 ## Meta
 
-- **Title:** Best 528 Hz Japanese Zen Healing Music [1H Top Nervous System Reset]
+- **Title:** Best 528 Hz Japanese Zen Healing Hour [1H Top Nervous System Reset]
 - **Slug:** `nervous-system-reset-528hz-1h`
 - **Format:** Long-form
 - **Length:** 1H 01min (16 Suno tracks pre-mixed in CapCut, no loop)
@@ -193,13 +195,17 @@ Loop seamlessness check after any fix: open final mp4 → pause at frame 1 and f
 
 ---
 
-## 7. 📝 YouTube Title (Phase 1 format — bot scored 84/100)
+## 7. 📝 YouTube Title (Phase 1 — bot scored 84/100)
 
 ```
-Best 528 Hz Japanese Zen Healing Music [1H Top Nervous System Reset]
+Best 528 Hz Japanese Zen Healing Hour [1H Top Nervous System Reset]
 ```
 
-_Title scoring rationale: 68 ch (length bonus +15), brackets (+3), `1H` number (+8), `528` number, positive markers `best` + `top` (+8), no UPPER abuse, no clickbait stuffing. Final 84/100 from `/title-batch` against 14 alternatives. "Japanese Zen" replaces previous "Japanese Monks" framing — better visual sync with Tokyo Penthouse + rin bowl modern Zen aesthetic (per `stillwave/CLAUDE.md` locked baseline). Old title was 84 too but "Monks" implied traditional temple, mismatching modern penthouse visual._
+_Title evolution & scoring:_
+- _Original draft (temple aesthetic): "Best 528 Hz + 432 Hz Japanese Monks Healing [1H Nervous System Reset]" — 84/100. "Monks" implied traditional temple, mismatching the locked Tokyo Penthouse baseline._
+- _Visual sync revision: "Best 528 Hz Japanese Zen Healing Music [1H Top Nervous System Reset]" — 84/100. Replaced "Monks" with "Zen" to match modern penthouse aesthetic._
+- _**Final (this title):** "Best 528 Hz Japanese Zen Healing **Hour** [1H Top Nervous System Reset]" — 84/100. Adopted "Healing Hour" as parallel series to "Power Hour" (Tokyo Apartment Rain 1H Top Deep Work). Brand consistency without algorithmic conflict — Power Hour = productivity intent, Healing Hour = parasympathetic/calm intent. YouTube algorithm won't cross-route the two audiences._
+- _Series brand established: "Power Hour" for focus/work, "Healing Hour" for healing/anxiety/sleep. Future expansion could add "Sleep Hour" or "Study Hour"._
 
 ## 8. 📝 YouTube Description
 
