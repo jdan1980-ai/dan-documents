@@ -494,18 +494,34 @@ Does YOUR cat lose their mind at closed doors? 🐱 Drop a 🚪 if yes and tell 
 
 ## SEO Pack
 
-**Final title** (66 chars):
+**Final title** (78 chars — style ported from RU competitor "Мир Глазами Кошек", their #1 hit formula `Почему Кошки [VERB]? (Причина шокирует)`):
 
 ```
-Why Your Cat HATES Closed Doors (It's Not What You Think) 🐱 | Cat Psychology
+Why Cats LOSE THEIR MIND at Closed Doors (The REAL Reason) 🐱 | Cat Psychology
 ```
 
-Alt titles to A/B test:
+Alt titles to A/B test (each ports a different proven formula from the RU competitor):
 
 ```
-The REAL Reason Cats Lose It Over Closed Doors 🐱 | Cat Psychology
-Why Your Cat Screams at Closed Doors (3 Reasons) 🐱 | Cat Psychology
+If Your Cat SCRATCHES Closed Doors, HERE'S What It MEANS! 🐱 | Cat Psychology
+The REAL Reason Cats HATE Closed Doors (You'll Be Shocked) 🐱 | Cat Psychology
+3 REAL Reasons Cats LOSE IT at Closed Doors (#3 Will Shock You) 🐱 | Cat Psychology
 ```
+
+**Russian-language titles** (for potential cross-post or RU mirror channel — directly in `Мир Глазами Кошек` style):
+
+```
+Почему Кошки СХОДЯТ С УМА От Закрытых Дверей? (Причина шокирует)
+Если Ваша Кошка СКРЕБЁТСЯ В Закрытую Дверь, ВОТ ЧТО ЭТО ЗНАЧИТ!
+Реальная Причина, Почему Кошки НЕНАВИДЯТ Закрытые Двери! (вас шокирует)
+```
+
+**Style notes applied (from competitor analysis):**
+- ✅ Title Case + 1-2 CAPS-accent words
+- ✅ Парентеза-крючок в конце с обещанием shock/reveal
+- ✅ "Your Cat" personal hook в conditional варианте
+- ✅ Без эмоджи в самом title-теле (🐱 оставлен ТОЛЬКО как brand-суффикс)
+- ✅ `!` или `?` в большинстве вариантов
 
 **Description (≥ 250 chars, "cat psychology" appears 3×):**
 
