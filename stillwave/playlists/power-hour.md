@@ -6,7 +6,7 @@ YouTube playlist for the **Power Hour Focus** series. One sustained hour of deep
 - **Иероглиф:** 力 (chikara — power, strength)
 - **Visibility:** Public
 - **Ordering:** Manual (newest first); pin the strongest performer to position 1 after 7d review
-- **Status:** ⏳ awaiting manual creation in YouTube Studio (no OAuth creds on file for `playlists.insert`)
+- **Status:** ⏳ awaiting manual creation in YouTube Studio (no OAuth creds on file for `playlists.insert`) — **priority bumped:** Tokyo Apartment Rain hit 58 views in first 24h (≈20× channel baseline), playlist should ship now to compound the discovery momentum
 
 ---
 

@@ -1,18 +1,19 @@
 # StillWave — Published Videos
 
-Pulled live via YouTube Data API v3 on **May 9, 2026** (channel UC188FjOT6tivjPOPfZ69s7Q, handle @stillwavezen).
+Pulled live via YouTube Data API v3 on **May 9, 2026** (channel UC188FjOT6tivjPOPfZ69s7Q, handle @stillwavezen). Tokyo Apartment Rain row added manually from user-reported 24h count (May 11) — refresh from API on next snapshot.
 
 ## Channel summary
 
-- **Subscribers:** 36
-- **Total views:** 4,262
-- **Total videos:** 31
+- **Subscribers:** 36 (as of May 9 snapshot)
+- **Total views:** 4,262 (as of May 9; +58 from Tokyo Apartment Rain in first 24h)
+- **Total videos:** 31 (32 with Tokyo Apartment Rain)
 - **Channel published:** 2008 (legacy account, repurposed for StillWave brand in March 2026)
 
 ## All videos — sorted by views (live API data)
 
 | Date | Title | Length | Views | Likes | Comments |
 |------|-------|--------|-------|-------|----------|
+| 2026-05-10 | Power Hour Focus Music — Tokyo Apartment Rain \| 1H Deep Work Sprint for Coding, Writing & Studying | 1H 4M 48S | **58** (24h) 🔥 | TBD | TBD |
 | 2026-04-23 | KIRI — 霧 / Japanese Zen Music for Deep Focus, Meditation & Inner Calm | 2H 16M 58S | **539** ⭐ | 18 | 3 |
 | 2026-04-10 | 852 Hz / Monks' Secret to Unlock Intuition / 2-Hour Deep Meditation | 1H 58M 40S | **532** | 11 | 1 |
 | 2026-05-02 | KIRI — 霧 (Shorts version) | 46S | **398** | 2 | 0 |
@@ -59,6 +60,7 @@ Pulled live via YouTube Data API v3 on **May 9, 2026** (channel UC188FjOT6tivjPO
 - ✅ **Hz + "Monks' Secret"** mystery framing — 11× the average channel views
 - ✅ **2H length** in long-form sweet spot (top 2 are both 2H)
 - ✅ **Shorts cross-promote long-form** — same title used for both, viewer flow Shorts → long-form
+- 🆕 ✅ **Power Hour 1H format + Spacious Tokyo Penthouse aesthetic** — Tokyo Apartment Rain hit **58 views in first 24h** (≈20× the typical first-day rate for new long-form on this channel: AMAOTO 13/6d, MA 17/8d). Strong early signal that the new hybrid format compounds the Power Hour Focus search demand. Wait for 7d/30d to confirm — but greenlight more 1H Tokyo Penthouse content now
 
 ### 🚧 Patterns that struggle
 
@@ -70,13 +72,14 @@ Pulled live via YouTube Data API v3 on **May 9, 2026** (channel UC188FjOT6tivjPO
 
 | Format | Count | Avg views |
 |--------|-------|-----------|
-| Long-form 1H | 2 | 143 |
+| Long-form 1H (legacy) | 2 | 143 |
+| **Long-form 1H Power Hour (new format)** | **1** | **58 (24h only — full lifetime TBD)** 🔥 |
 | Long-form 2H | 7 | 154 |
 | Long-form 3H+ | 5 | 53 |
 | Long-form 8H | 2 | 28 |
 | Shorts (≤60s) | 13 | 156 |
 
-**Conclusion:** 2H long-form and Shorts are the channel's best formats. 3H+ underperforms relative to effort.
+**Conclusion:** 2H long-form and Shorts are the channel's proven best formats. **Power Hour 1H new-format is showing first-day velocity that beats both** (58 in 24h vs lifetime averages of 154 / 156) — if the trajectory holds for 7d, this becomes the new top format and the Phase 1 → Phase 2 transition accelerates.
 
 ## Update procedure
 

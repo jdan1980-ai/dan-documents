@@ -204,13 +204,15 @@ deep work music, deep focus music, focus music, study music, work music, concent
 
 ## Post-publish metrics
 
-| Metric | 48h | 7d | 30d |
-|--------|-----|----|----|
-| Views  |     |    |    |
-| Avg view duration |  |  |  |
-| Watch time (h) | | | |
-| Likes  |     |    |    |
-| Comments |   |    |    |
-| Subs gained |       |    |    |
+| Metric | 24h | 48h | 7d | 30d |
+|--------|-----|-----|----|----|
+| Views  | **58** 🔥 |     |    |    |
+| Avg view duration |  |  |  |  |
+| Watch time (h) |  | | | |
+| Likes  |     |     |    |    |
+| Comments |   |     |    |    |
+| Subs gained |       |     |    |    |
 
 ### Notes — what worked / what didn't
+
+**24h (May 11):** 58 views in first day — ≈20× the typical first-day rate for new long-form on this channel (recent comparables: AMAOTO 13 views over 6 days, MA 17 views over 8 days). Power Hour format + Spacious Tokyo Penthouse aesthetic + SEO formula (built on MERSO 10-tag locked set + Power Hour Focus cross-niche tags) all firing together. **Decision:** greenlight more 1H Tokyo Penthouse content immediately, don't wait for 7d to confirm. Refresh likes/comments/avg-duration via API on the 48h checkpoint (May 12, 14:00).

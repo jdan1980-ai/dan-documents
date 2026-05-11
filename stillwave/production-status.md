@@ -16,12 +16,13 @@ See `published-videos.md` for the full table with metrics.
 
 | Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎞️ | ⏰ | 📤 |
 |------|-------|--------|----|----|----|-----|-----|-----|
-| `tokyo-apartment-rain-1h` | Power Hour Focus Music — Tokyo Apartment Rain | 1H 04min 48sec (24 tracks) | ✅ | ✅ | ✅ | ✅ | ✅ **scheduled May 10, 14:00** | ⏳ |
+| `tokyo-apartment-rain-1h` | Power Hour Focus Music — Tokyo Apartment Rain | 1H 04min 48sec (24 tracks) | ✅ | ✅ | ✅ | ✅ | ✅ published May 10, 14:00 | ✅ **published — 58 views in 24h** 🔥 |
 | `nervous-system-reset-528hz-1h` | Best 528 Hz Japanese Zen Healing Music [1H Top Nervous System Reset] | 1H 01min (16 tracks) | ✅ | ✅ | ✅ | ✅ | ✅ **uploaded May 10, scheduled May 13 (Tue)** | ⏳ |
 
 ### Tokyo Apartment Rain — review schedule
 
 After publish (May 10, 14:00):
+- **24h (May 11) — DONE:** 58 views — ≈20× typical first-day rate on this channel. Format greenlit early.
 - **48h review** — May 12, 14:00 → pull live API data, log views/likes/comments/CTR
 - **7d review** — May 17, 14:00 → full retention analysis + comment mining + first lessons
 - **30d review** — June 9, 14:00 → final perf snapshot, decide if pattern goes into Power Hour series template
