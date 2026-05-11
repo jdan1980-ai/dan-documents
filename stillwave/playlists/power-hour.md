@@ -69,7 +69,7 @@ A video joins the playlist when **both** are true:
 | Slug | Length | Power Hour band? | Action |
 |------|--------|------------------|--------|
 | `tokyo-apartment-rain-1h` | 1H 04min | ✅ yes | Add to playlist on publish day (May 10) |
-| `nervous-system-reset-528hz-1h` | 1H 01min | ✅ yes — borderline (different theme: 528Hz / nervous system, not deep work) | Decide after 7d review — if it lifts on "1 hour focus" search, add; if it lifts on "528 Hz" search, leave out (different audience cluster) |
+| `nervous-system-reset-528hz-1h` | 1H 01min | ✅ length-eligible, audience-cluster borderline (528Hz / nervous system, not deep work) | **Uploaded May 10, scheduled May 13 (Tue).** Hold until 7d review on May 20 — if it lifts on "1 hour focus" search, add; if it lifts on "528 Hz" search, leave out and seed a separate `Hz Healing` playlist instead |
 | `bonsai-desk-night-2h` | 2H | ❌ no — belongs to a future "Deep Work 2H" playlist | Skip |
 | `lantern-glow-study-3h` | 3H | ❌ no — belongs to a future "Quiet Hours 3H" playlist | Skip |
 

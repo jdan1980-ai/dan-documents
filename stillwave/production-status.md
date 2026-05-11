@@ -17,6 +17,7 @@ See `published-videos.md` for the full table with metrics.
 | Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎞️ | ⏰ | 📤 |
 |------|-------|--------|----|----|----|-----|-----|-----|
 | `tokyo-apartment-rain-1h` | Power Hour Focus Music — Tokyo Apartment Rain | 1H 04min 48sec (24 tracks) | ✅ | ✅ | ✅ | ✅ | ✅ **scheduled May 10, 14:00** | ⏳ |
+| `nervous-system-reset-528hz-1h` | Best 528 Hz Japanese Zen Healing Music [1H Top Nervous System Reset] | 1H 01min (16 tracks) | ✅ | ✅ | ✅ | ✅ | ✅ **uploaded May 10, scheduled May 13 (Tue)** | ⏳ |
 
 ### Tokyo Apartment Rain — review schedule
 
@@ -25,9 +26,18 @@ After publish (May 10, 14:00):
 - **7d review** — May 17, 14:00 → full retention analysis + comment mining + first lessons
 - **30d review** — June 9, 14:00 → final perf snapshot, decide if pattern goes into Power Hour series template
 
+### Nervous System Reset 528Hz — review schedule
+
+After publish (May 13, time TBD):
+- **48h review** — May 15 → pull live API data, log views/likes/comments/CTR, compare to Tokyo Apartment Rain at the same age
+- **7d review** — May 20 → audience cluster check: did it lift on "1 hour focus" search (deep work cluster) or on "528 Hz / nervous system reset" search (healing cluster)? This decides playlist placement (see `playlists/power-hour.md` §3 candidates table)
+- **30d review** — June 12 → final perf, decide if 528 Hz nervous-system framing becomes a recurring sub-format
+
 ### Power Hour 力 playlist
 
 The Tokyo Apartment Rain video seeds the `Power Hour 力` series playlist. Asset (title / description / video list / API commands / manual steps) lives at `stillwave/playlists/power-hour.md`. Status: ⏳ awaiting manual creation in YouTube Studio (no OAuth creds for `playlists.insert`). After creation, paste the playlist URL into that file §7 and into the Tokyo video description.
+
+The 528 Hz video sits in the candidates table (length-eligible, audience-cluster-borderline) — decision held until 7d review on May 20.
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
