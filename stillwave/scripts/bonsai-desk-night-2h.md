@@ -114,7 +114,7 @@ Perfect for:
 
 Pour yourself a coffee, dim the room, let your bonsai keep watch.
 
-▶ Subscribe for daily late-night focus sessions — new bonsai, lantern, tea house and city-rain soundscapes every week.
+▶ Subscribe for daily late-night focus sessions — new bonsai, lantern, tea house and city-rain soundscapes.
 
 #deepwork #lofistudy #latenightmusic #codingmusic #focusmusic
 ```
@@ -134,7 +134,7 @@ deep focus music, deep work music, focus music, late night music, coding music, 
 ## 11. 📌 Pinned comment
 
 ```
-🌃 It's late and you're still working. What's the project? Drop a 💻 if coding, ✍️ if writing, 📊 if studying, ☕ if just thinking — and subscribe for more late-night sessions every week.
+🌃 It's late and you're still working. What's the project? Drop a 💻 if coding, ✍️ if writing, 📊 if studying, ☕ if just thinking — and subscribe for more late-night sessions.
 ```
 
 ## 12. 🔁 A/B title variant

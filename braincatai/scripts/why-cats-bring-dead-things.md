@@ -321,7 +321,7 @@ Your cat just dropped a dead mouse at your feet — and it's NOT what you think!
 
 In the wild, mother cats teach their kittens to hunt by bringing prey home. So when your cat drops a dead mouse at your feet, she thinks YOU are her kitten — and she's literally trying to keep you alive. Mind-blowing cat behavior in under a minute! 🧠✨
 
-🐱 Follow Brain for more cat psychology, cat facts, and cat secrets every week.
+🐱 Follow Brain for more cat psychology, cat facts, and cat secrets every day.
 
 #shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts
 ```

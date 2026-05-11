@@ -341,7 +341,7 @@ Every time you walk through a door, your brain hits a "save and close" button. O
 
 Mind-blowing brain hacks and psychology facts for kids and adults — explained in under a minute by Brain.
 
-🐱 Follow Brain for more brain hacks, mind-blowing facts, psychology shorts, and "wait, what?!" moments every week.
+🐱 Follow Brain for more brain hacks, mind-blowing facts, psychology shorts, and "wait, what?!" moments every day.
 
 #shorts #brainhacks #psychologyfacts #braincatai #didyouknow #mindblown #brainfacts
 ```

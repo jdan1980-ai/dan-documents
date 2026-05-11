@@ -114,7 +114,7 @@ ffmpeg -loop 1 -i nanobanana-thumbnail.jpg -i audio.mp3 \
 Адаптируется под тему. Пример:
 
 ```
-🌃 A quiet Tokyo penthouse. Clear calm night. Bronze rin bowls humming. Fireplace crackling. [Hz] Hz holding steady. One hour for your nervous system to remember what calm feels like. Comment one word — what your body needs to release tonight. Subscribe for a new Healing Hour every Tuesday & Friday 🌸
+🌃 A quiet Tokyo penthouse. Clear calm night. Bronze rin bowls humming. Fireplace crackling. [Hz] Hz holding steady. One hour for your nervous system to remember what calm feels like. Comment one word — what your body needs to release tonight. Subscribe for more Healing Hour sessions 🌸
 ```
 
 ---

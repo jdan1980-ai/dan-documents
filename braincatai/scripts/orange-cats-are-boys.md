@@ -442,7 +442,7 @@ Here's the secret: the gene that controls cat fur color lives on the X chromosom
 
 Mind-blowing cat psychology and cat genetics facts for kids and adults — explained in under a minute by Brain (who happens to be orange... and yes, he's a boy).
 
-🐱 Follow Brain for more cat psychology, cat facts, and cat secrets every week.
+🐱 Follow Brain for more cat psychology, cat facts, and cat secrets every day.
 
 #shorts #catpsychology #catfacts #catgenetics #braincatai #didyouknow #orangecat
 ```

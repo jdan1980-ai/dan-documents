@@ -442,7 +442,7 @@ Your Cat Says "I Love You" Every Day. You Just Missed It 🐱 | Cat Psychology
 ```
 Your cat's slow blink isn't sleepiness — it's love! 🐱 Cat psychology reveals that when your cat slowly closes its eyes at you, it's sending the ultimate message of trust and affection. In this cat psychology Short, Brain explains why cats use a hard stare as an aggression signal — and why a slow blink is the exact opposite: "I trust you. You're safe." Scientists at the University of Sussex confirmed it: cats slow blink back at humans who blink at them first. Try it with your real cat right now — look at them and slowly close your eyes. If they blink back, that's cat psychology for "I love you." 🧠✨
 
-🐱 Follow Brain for more cat psychology, cat facts, and cat secrets every week.
+🐱 Follow Brain for more cat psychology, cat facts, and cat secrets every day.
 
 #shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts
 ```

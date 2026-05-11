@@ -507,7 +507,7 @@ Falling Into a Black Hole Is WORSE Than You Think 🐱 | Brain Hacks
 ```
 What's actually inside a black hole? 🌌 In this Brain Hacks Short, Brain takes the ultimate cosmic plunge — straight into the void! Black holes have gravity so strong that even light can't escape. Cross the event horizon, and you're gone forever. Fall in, and gravity will stretch you into a noodle (scientists actually call this "spaghettification" 🍝). Time slows down — a few seconds for you could be millions of years on Earth. At the center is a singularity, a point so dense that physics itself breaks. Nobody really knows what's inside a black hole because nothing ever comes back. 🤯
 
-🐱 Follow Brain for more facts that break your brain — new Brain Hacks every week.
+🐱 Follow Brain for more facts that break your brain — new Brain Hacks every day.
 
 #shorts #brainhacks #blackhole #space #physics #didyouknow #catpsychology #braincatai
 ```

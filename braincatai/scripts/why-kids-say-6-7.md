@@ -545,7 +545,7 @@ The Real Reason Kids Say 6-7 🐱 | Brain Hacks
 ```
 Why does your kid won't stop saying 6-7? 🤚 In this Brain Hacks Short, Brain finally explains where the 6-7 meme comes from — yes, there's actually a real reason. The 6-7 trend started with a rap song called Doot Doot by Skrilla and exploded when fans connected it to NBA player LaMelo Ball, whose height is exactly six feet seven inches. Now Gen Alpha kids do a hand gesture (one hand up, one hand down) every time someone says "six" or "seven." But here's the brain hack — these random memes aren't random at all. They're shared identity codes. Every generation invents one: yeet, swag, cool, bling. The 6-7 meme is just the latest one. 🧠✨
 
-🐱 Follow Brain for more facts that break your brain — new Brain Hacks every week.
+🐱 Follow Brain for more facts that break your brain — new Brain Hacks every day.
 
 #shorts #brainhacks #6and7 #genalpha #memesexplained #didyouknow #catpsychology #braincatai
 ```

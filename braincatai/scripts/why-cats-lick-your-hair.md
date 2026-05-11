@@ -487,7 +487,7 @@ Your Cat Thinks You're a Clumsy Kitten 🐱 | Cat Psychology
 ```
 Why does your cat lick your hair? 🐱 In this Cat Psychology Short, Brain reveals the real reason — and it's wilder than you think. Cat psychology shows that in cat colonies, ONLY family members groom each other. Strangers don't get licked. So when your cat licks YOUR hair, you've officially been adopted. But here's the twist: mother cats lick their kittens to clean them. Your cat literally thinks YOU'RE a clumsy kitten who can't groom yourself. They're also marking you with their scent so other cats know — you're taken. Cat psychology is the wildest love language. 💚
 
-🐱 Follow Brain for more cat psychology, cat facts, and cat secrets every week.
+🐱 Follow Brain for more cat psychology, cat facts, and cat secrets every day.
 
 #shorts #catpsychology #catfacts #catbehavior #braincatai #catlicks #petfacts
 ```

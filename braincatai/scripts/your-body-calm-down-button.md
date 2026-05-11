@@ -354,7 +354,7 @@ The vagus nerve is the longest nerve in your body. It runs from your brain all t
 
 Science-backed body hacks for kids and adults — explained in under a minute by Brain.
 
-🐱 Follow Brain for more brain hacks, mind-blowing facts, body hacks, and "wait, what?!" moments every week.
+🐱 Follow Brain for more brain hacks, mind-blowing facts, body hacks, and "wait, what?!" moments every day.
 
 #shorts #brainhacks #vagusnerve #braincatai #healthhack #didyouknow #neuroscience
 ```

@@ -10,8 +10,8 @@
 - **Length:** 1H 01min (16 Suno tracks pre-mixed in CapCut, no loop)
 - **Phase:** 1 — Hz/healing themed video on the **Spacious Tokyo Penthouse locked baseline** (per `stillwave/CLAUDE.md` — penthouse stays consistent across all StillWave videos for brand recognition; this video swaps the Power Hour productivity props for Japanese Zen healing props)
 - **Aesthetic:** **Spacious Tokyo Penthouse + Japanese Zen healing prop swap.** Penthouse interior on a clear quiet night (no rain — yesterday's video had rain, varying the weather for visual freshness), corner-wrap floor-to-ceiling windows with Tokyo neon cityscape, modern linear fireplace as the warm visual heartbeat, plus low cedar wood altar (replacing Power Hour writing desk) with three Japanese rin-dō Buddhist singing bowls + bronze koro incense burner + lit beeswax candle + andon paper lantern.
-- **Status:** script ready — awaiting Suno + NanoBanana
-- **Upload date:** TBD (week of May 13–19)
+- **Status:** ready to upload (music done, image done, title 84/100, SEO 90/100)
+- **Upload date:** 2026-05-13
 
 **Pre-production research (bot-driven, 2026-05-10):**
 - 🥇 **Niche outliers** (last 30d): "Reset Your Nervous System · 963Hz 528Hz 432Hz Healing" — **963K views**, second 492K, third 355K. Multi-Hz stacking + nervous system reset framing crushes the niche.
@@ -247,9 +247,9 @@ Light a candle, dim the room, place your phone face-down. Let the bowls and the 
 53:56 — 528 Hz Solo
 57:47 — Quiet Tokyo
 
-▶ Subscribe for new healing frequency, Zen sound bath, and quiet Tokyo focus sessions every week.
+▶ Subscribe for new healing frequency, Zen sound bath, and quiet Tokyo focus sessions.
 
-🔔 New Nervous System Reset and Power Hour sessions every Tuesday and Friday. Tap the bell so you don't miss the next one.
+🔔 Tap the bell so you don't miss the next Healing Hour session.
 
 #nervoussystemreset #528hz #432hz #healingfrequency #soundbath #rinbowls #anxietyrelief #parasympathetic #vagusnerve #japanesezen #zenmusic #healingmusic #meditationmusic #sleepmusic #stressrelief
 ```
@@ -290,7 +290,7 @@ Light a candle, dim the room, place your phone face-down. Let the bowls and the 
 ## 11. 📌 Pinned comment
 
 ```
-🌃 A quiet Tokyo penthouse. Clear calm night. Bronze rin bowls humming. Fireplace crackling. 528 Hz holding steady. One hour for your nervous system to remember what calm feels like. Comment one word — what your body needs to release tonight. Subscribe for a new healing session every Tuesday & Friday 🌸
+🌃 A quiet Tokyo penthouse. Clear calm night. Bronze rin bowls humming. Fireplace crackling. 528 Hz holding steady. One hour for your nervous system to remember what calm feels like. Comment one word — what your body needs to release tonight. Subscribe for more Healing Hour sessions 🌸
 ```
 
 ## 12. 🔁 A/B title variant

@@ -147,9 +147,9 @@ Pour something warm, dim the room, put on your headphones, let the Tokyo rain ha
 59:04 — Closing the Lid
 1:01:31 — Tokyo Sleeps
 
-▶ Subscribe for new Tokyo apartment, lantern, and quiet city focus sessions every week.
+▶ Subscribe for new Tokyo apartment, lantern, and quiet city focus sessions.
 
-🔔 New Power Hour focus sessions every Tuesday and Friday. Tap the bell so you don't miss the next one.
+🔔 Tap the bell so you don't miss the next Power Hour session.
 
 #powerhour #1hourfocus #deepfocus #deepfocusmusic #focusmusic #studymusic #workmusic #productivitymusic #flowstate #codingmusic #pomodoro #tokyomusic #rainmusic #ambientfocus #musicforwork #concentrationmusic #studywithme #nodistractions #lofistudy #japaneseambient
 ```
@@ -192,7 +192,7 @@ deep work music, deep focus music, focus music, study music, work music, concent
 ## 11. 📌 Pinned comment
 
 ```
-🌃 1 hour. Rain on the glass. Neon Tokyo below. What did you finish in this Power Hour? Drop one word — coding, writing, studying, trading — and subscribe for a new Tokyo session every week 🌧️
+🌃 1 hour. Rain on the glass. Neon Tokyo below. What did you finish in this Power Hour? Drop one word — coding, writing, studying, trading — and subscribe for more Tokyo sessions 🌧️
 ```
 
 ## 12. 🔁 A/B title variant

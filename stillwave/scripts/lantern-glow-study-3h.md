@@ -117,7 +117,7 @@ Perfect for:
 
 Light a single lamp, dim everything else, settle in. The lantern keeps the watch.
 
-▶ Subscribe for new lantern, tea house, and bonsai-desk sessions every week.
+▶ Subscribe for new lantern, tea house, and bonsai-desk sessions.
 
 #studywithme #ambientmusic #focusmusic #japaneseaesthetic #deepwork
 ```

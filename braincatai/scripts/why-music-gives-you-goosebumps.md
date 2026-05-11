@@ -511,7 +511,7 @@ Your Skin Reacts to Music. Here's Why. 🐱 | Brain Hacks
 ```
 Why does music give you goosebumps? 🎶 In this Brain Hacks Short, Brain reveals the real reason your skin reacts to a great song — it's called frisson, and it's pure brain chemistry. When music breaks a pattern your brain expected, it floods you with dopamine — the same reward chemical that fires for food and love. Frisson is also tied to an ancient survival reflex: your fur trying to puff up for warmth, just like your prehistoric ancestors. About 30% of people never get goosebumps from music — their brain is wired differently. Test yours in the comments. 🧠✨
 
-🐱 Follow Brain for more facts that break your brain — new Brain Hacks every week.
+🐱 Follow Brain for more facts that break your brain — new Brain Hacks every day.
 
 #shorts #brainhacks #frisson #musicpsychology #goosebumps #didyouknow #catpsychology #braincatai
 ```

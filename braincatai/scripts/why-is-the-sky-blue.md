@@ -286,7 +286,7 @@ Sunlight is made of every color mixed together — red, orange, yellow, green, b
 
 Mind-blowing science fact for kids and adults — explained in under a minute by Brain. 🧠✨
 
-🐱 Follow Brain for more mind-blowing facts, cat psychology, science secrets, and "wait, what?!" moments every week.
+🐱 Follow Brain for more mind-blowing facts, cat psychology, science secrets, and "wait, what?!" moments every day.
 
 #shorts #didyouknow #scienceshorts #braincatai #catpsychology #mindblown #sciencefacts
 ```
