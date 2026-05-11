@@ -11,6 +11,7 @@
 | 3 | The Curious Cat | https://www.youtube.com/@thecuriouscatt/videos | Cat psychology longform |
 | 4 | Cat Behaviour Channel | https://www.youtube.com/@catbehaviourchannel/videos | Cat behavior documentary |
 | 5 | Yamato Zen Relaxing | https://www.youtube.com/@YamatoZenRelaxing/videos | **Different niche** — relaxation/zen aesthetic, see comparison below |
+| 6 | Мир Глазами Кошек | https://www.youtube.com/channel/UCSYBgC5AwWL9MaRj9lsAcgQ | **Прямой конкурент** — русскоязычный канал про кошек: факты, психология, поведение, уход. Channel ID `UCSYBgC5AwWL9MaRj9lsAcgQ`. Стиль заголовков копируем для русских версий + смотрим какие темы у них тащат. |
 
 ## ⚠️ Технический лимит
 
@@ -78,6 +79,15 @@
 | Заголовок | Просмотры | Дата | Тип |
 |-----------|-----------|------|-----|
 | _пусто_ | | | |
+
+### Мир Глазами Кошек (RU) — прямой конкурент
+
+| Заголовок | Просмотры | Дата | Тип |
+|-----------|-----------|------|-----|
+| Мир глазами кошек, или что делают кошки одни дома? | — | — | longform (из web search) |
+| _ещё заголовки — добавить вручную или через vidIQ_ | | | |
+
+**Что подсмотреть в стиле заголовков:** длина, шаблон (вопрос/утверждение/цифры), эмоджи (есть/нет), КАПС, использование "ваш кот" vs "ваша кошка", запятая+"или что..." как у первого найденного.
 
 ### Yamato Zen Relaxing (другая ниша — relaxation, не explainer)
 
