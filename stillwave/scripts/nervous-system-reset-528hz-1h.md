@@ -255,8 +255,10 @@ Light a candle, dim the room, place your phone face-down. Let the bowls and the 
 > Strategy: lead with the **bot-mined winning tags** from "nervous system reset healing frequencies" search outliers (those tags pull 350K-963K views videos) + own brand keywords + cross-niche bridges to the channel's existing Hz audience.
 
 ```
-528 hz japanese zen healing music, japanese zen healing music, nervous system reset music, 528 hz nervous system reset, 1 hour nervous system reset, parasympathetic nervous system, 528 hz healing music, japanese healing music, vagus nerve activation, anxiety relief music, japanese sound bath, tokyo healing music, rin singing bowls, nervous system reset, zen healing music, frequency healing, meditation music, japanese ambient, binaural beats, healing music, japanese zen, sleep music, zen music, 528 hz
+528 hz japanese zen healing music, japanese zen healing music, nervous system reset music, 528 hz nervous system reset, 1 hour nervous system reset, parasympathetic nervous system, 528 hz healing music, japanese healing music, vagus nerve activation, anxiety relief music, japanese sound bath, tokyo healing music, rin singing bowls, nervous system reset, zen healing music, frequency healing, meditation music, japanese ambient, binaural beats, healing music, japanese zen, sleep music
 ```
+
+> 22 tags, **486 chars** (under YouTube's 500-char cap). Dropped trailing `zen music` and `528 hz` — both fully covered by longer variants (`zen healing music` / `japanese zen` / `528 hz healing music` / `528 hz japanese zen healing music`).
 
 ### Why each tag (audit trail)
 
