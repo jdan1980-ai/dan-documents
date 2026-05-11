@@ -43,7 +43,7 @@ Single source of truth для статуса каждого видео по pipe
 
 | Дата | День | Рубрика | Тема | Slug | Статус |
 |------|------|---------|------|------|--------|
-| 13 мая | Ср | Cat Psychology | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
+| 13 мая | Ср | Cat Psychology | Why Your Cat HATES Closed Doors | `why-cats-hate-closed-doors` | 📝 script готов |
 | 14 мая | Чт | Kids Trend | Why Your Kid Won't Stop Saying 6-7 | `why-kids-say-6-7` | 📝 script готов |
 | 15 мая | Пт | What If? | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
 | 16 мая | Сб | Cat Psychology | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
@@ -119,6 +119,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `whats-inside-a-black-hole` | 10 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
 | `why-cats-lick-your-hair` | 11 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
 | `why-music-gives-you-goosebumps` | 12 мая | ✅ | 🟡 in progress | ⏳ | ⏳ | ⏳ | ⏳ |
+| `why-cats-hate-closed-doors` | 13 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `why-kids-say-6-7` | 14 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 (Уточни — какие именно стадии уже готовы. Я предполагал что для запланированных в YouTube всё готово до scheduled статуса.)

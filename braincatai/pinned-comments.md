@@ -147,6 +147,12 @@ What song gives YOU goosebumps every time? 🎶 Drop the title below — let me 
 Be honest — did you Google "6-7" before clicking this? 🤣 Drop a 🤚 if yes. And tell me what OTHER kid words confuse you 👇
 ```
 
+### 23. Why Your Cat HATES Closed Doors (13 мая) — Cat Psychology
+
+```
+Does YOUR cat lose their mind at closed doors? 🐱 Drop a 🚪 if yes and tell me which room they refuse to be locked out of 👇
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
