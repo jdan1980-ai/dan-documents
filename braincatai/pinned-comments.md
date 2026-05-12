@@ -153,6 +153,12 @@ Be honest — did you Google "6-7" before clicking this? 🤣 Drop a 🤚 if yes
 Does YOUR cat lose their mind at closed doors? 🐱 Drop a 🚪 if yes and tell me which room they refuse to be locked out of 👇
 ```
 
+### 24. Where Your Cat Sleeps on Your Bed (16 мая) — Cat Psychology
+
+```
+Where does YOUR cat sleep on the bed? 🛏️ Drop a 🩷 if on your chest, 🦶 if at your feet, or tell me their favorite spot 👇
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
