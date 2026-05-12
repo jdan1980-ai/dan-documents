@@ -27,17 +27,19 @@ Single source of truth для статуса каждого видео по pipe
 | 4 мая | Вс | Why Does Your Cat Push Things Off Tables? | Cat Psychology | — | См. analytics |
 | 5 мая | Пн | Why Your Cat Chirps At Birds | Cat Psychology | — | См. analytics |
 | 6 мая | Ср | Why You Forget Walking Into a Room | Brain Hacks | `why-you-forget-walking-into-room` | published — TBD |
-| 7 мая | Чт | The "Stop Stress" Button (Vagus Nerve) | Brain Hacks | `your-body-calm-down-button` | published — TBD |
+| 7 мая | Чт | The "Stop Stress" Button (Vagus Nerve) | Brain Hacks | `your-body-calm-down-button` | published — TBD (затем перевыпуск 14 мая — придержан) |
+| 8 мая | Пт | Your Cat's COLOR Tells You Its Gender | Cat Psychology | `orange-cats-are-boys` | published TBD |
+| 9 мая | Сб | Your Cat Says "I Love You" (Slow Blink) | Cat Psychology | `why-cats-slow-blink` | published TBD |
+| 10 мая | Вс | What's Inside a Black Hole? | Brain Hacks (LEGACY non-cat) | `whats-inside-a-black-hole` | published TBD |
+| 11 мая | Пн | Why Your Cat Licks Your Hair | Cat Psychology | `why-cats-lick-your-hair` | published TBD |
+| **12 мая (сегодня)** | **Вт** | **If Your Cat Sleeps on You...** | **Cat Psychology** | `where-your-cat-sleeps` | ✅ **published — был перенесён с 16 мая** |
 
-### Запланировано в YouTube Studio (locked)
+### Запланировано в YouTube Studio (после 12 мая)
 
-| Дата | День | Видео | Рубрика | Slug | Pipeline статус |
-|------|------|-------|---------|------|------------------|
-| 8 мая | Пт | Your Cat's COLOR Tells You Its Gender | Cat Psychology | `orange-cats-are-boys` | ⏰ scheduled |
-| 9 мая | Сб | Your Cat Says "I Love You" Every Day (Slow Blink) | Cat Psychology | `why-cats-slow-blink` | ⏰ scheduled |
-| 10 мая | Вс | What's Inside a Black Hole? | Did You Know-style / Brain Hacks | `whats-inside-a-black-hole` | ⏰ scheduled |
-| 11 мая | Пн | Your Cat Treats You Like... (Hair Licking) | Cat Psychology | `why-cats-lick-your-hair` | ⏰ scheduled |
-| 12 мая | Вт | Why Music Gives You Goosebumps | Brain Hacks | `why-music-gives-you-goosebumps` | ⏰ scheduled |
+| Дата | День | Видео | Тип | Slug | Pipeline статус |
+|------|------|-------|------|------|------------------|
+| 13 мая | Ср | Why Cats LOSE THEIR MIND a... (Closed Doors) | Cat Psychology | `why-cats-hate-closed-doors` | ⏰ scheduled in YT Studio (новый title прижился ✓) |
+| 14 мая | Чт | This is Why Your Body Rea... (Vagus Nerve) | Brain Hacks LEGACY non-cat | `your-body-calm-down-button` | 🛑 **придерживаем — снять с расписания** |
 
 ### План на 13-19 мая — CATS-ONLY политика (11 мая решение)
 
@@ -45,15 +47,13 @@ Single source of truth для статуса каждого видео по pipe
 
 | Дата | День | Тема (cats only) | Slug | Статус |
 |------|------|------------------|------|--------|
-| 13 мая | Ср | Why Your Cat HATES Closed Doors | `why-cats-hate-closed-doors` | 📝 script готов |
-| 14 мая | Чт | ~~Kids Trend: 6-7~~ → **нужна замена на cat** (топ-кандидаты: Make Biscuits / Bring Dead Things / Stare At You) | — | ⏳ нужен cat-сценарий |
-| 15 мая | Пт | ~~What If: Earth Stopped Spinning~~ → **замена на cat** (кандидат: Why Cats Stare At You for No Reason) | — | ⏳ нужен cat-сценарий |
-| 16 мая | Сб | Where Your Cat Sleeps on Your Bed | `where-your-cat-sleeps` | 📝 script готов |
-| 17 мая | Вс | ~~Did You Know: Stomach Lining~~ → **замена на cat** (кандидат: Your Cat Sees You As A Giant Weird Cat) | — | ⏳ нужен cat-сценарий |
-| 18 мая | Пн | 13 Words Your Cat Really Understands | `13-words-cats-understand` | 📝 script готов |
-| 19 мая | Вт | ~~Brain Hacks: Forget Names~~ → **замена на cat** (кандидат: Why Cats Follow You to the Bathroom) | — | ⏳ нужен cat-сценарий |
-
-**Лимит на 14 мая:** скрипт `why-kids-say-6-7.md` уже написан и слот в YouTube Studio занят. Технически можно отозвать и заменить — спросить пользователя.
+| 13 мая | Ср | Why Cats LOSE THEIR MIND at Closed Doors | `why-cats-hate-closed-doors` | ⏰ scheduled in YT Studio |
+| 14 мая | Чт | ~~Vagus Nerve (придержан)~~ → **предложение: переставить `13-words-cats-understand` с 18 мая** | `13-words-cats-understand` | 📝 script готов, ждёт решения |
+| 15 мая | Пт | **нужен новый cat-сценарий** (кандидаты: Why Cats Stare At You for No Reason / Why Cats Knead "Make Biscuits") | — | ⏳ |
+| 16 мая | Сб | (был `where-your-cat-sleeps` — опубликован досрочно 12 мая) → **нужен новый cat-сценарий** | — | ⏳ |
+| 17 мая | Вс | **нужен новый cat-сценарий** (кандидаты: Your Cat Sees You As Giant Weird Cat / Cats Hear You Blinking) | — | ⏳ |
+| 18 мая | Пн | если 13-words ушёл на 14 → **нужен новый cat-сценарий** | — | ⏳ |
+| 19 мая | Вт | **нужен новый cat-сценарий** (кандидат: Why Cats Follow You to the Bathroom — у конкурента 137k) | — | ⏳ |
 
 ### Long-form pipeline
 
@@ -123,10 +123,10 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `whats-inside-a-black-hole` | 10 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
 | `why-cats-lick-your-hair` | 11 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
 | `why-music-gives-you-goosebumps` | 12 мая | ✅ | 🟡 in progress | ⏳ | ⏳ | ⏳ | ⏳ |
-| `why-cats-hate-closed-doors` | 13 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `why-kids-say-6-7` | 14 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `where-your-cat-sleeps` | 16 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `13-words-cats-understand` | 18 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `why-cats-hate-closed-doors` | 13 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
+| `why-kids-say-6-7` | LEGACY non-cat — снять с очереди | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `where-your-cat-sleeps` | 12 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
+| `13-words-cats-understand` | 18 мая (или 14 мая если переставить) | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 (Уточни — какие именно стадии уже готовы. Я предполагал что для запланированных в YouTube всё готово до scheduled статуса.)
 
