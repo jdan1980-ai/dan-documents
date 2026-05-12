@@ -48,12 +48,12 @@ Single source of truth для статуса каждого видео по pipe
 | Дата | День | Тема (cats only) | Slug | Статус |
 |------|------|------------------|------|--------|
 | 13 мая | Ср | Why Cats LOSE THEIR MIND at Closed Doors | `why-cats-hate-closed-doors` | ⏰ scheduled in YT Studio |
-| 14 мая | Чт | ~~Vagus Nerve (придержан)~~ → **предложение: переставить `13-words-cats-understand` с 18 мая** | `13-words-cats-understand` | 📝 script готов, ждёт решения |
-| 15 мая | Пт | **нужен новый cat-сценарий** (кандидаты: Why Cats Stare At You for No Reason / Why Cats Knead "Make Biscuits") | — | ⏳ |
-| 16 мая | Сб | (был `where-your-cat-sleeps` — опубликован досрочно 12 мая) → **нужен новый cat-сценарий** | — | ⏳ |
-| 17 мая | Вс | **нужен новый cat-сценарий** (кандидаты: Your Cat Sees You As Giant Weird Cat / Cats Hear You Blinking) | — | ⏳ |
-| 18 мая | Пн | если 13-words ушёл на 14 → **нужен новый cat-сценарий** | — | ⏳ |
-| 19 мая | Вт | **нужен новый cat-сценарий** (кандидат: Why Cats Follow You to the Bathroom — у конкурента 137k) | — | ⏳ |
+| 14 мая | Чт | _Vagus Nerve придержан_ — слот пустой, без релиза | — | 🛑 пропуск |
+| 15 мая | Пт | 13 Words Your Cat REALLY Understands | `13-words-cats-understand` | 📝 script готов — ставим в YT Studio |
+| 16 мая | Сб | **нужен новый cat-сценарий** | — | ⏳ next to write |
+| 17 мая | Вс | **нужен новый cat-сценарий** | — | ⏳ |
+| 18 мая | Пн | **нужен новый cat-сценарий** | — | ⏳ |
+| 19 мая | Вт | **нужен новый cat-сценарий** | — | ⏳ |
 
 ### Long-form pipeline
 
@@ -126,7 +126,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `why-cats-hate-closed-doors` | 13 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
 | `why-kids-say-6-7` | LEGACY non-cat — снять с очереди | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `where-your-cat-sleeps` | 12 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
-| `13-words-cats-understand` | 18 мая (или 14 мая если переставить) | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `13-words-cats-understand` | 15 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 (Уточни — какие именно стадии уже готовы. Я предполагал что для запланированных в YouTube всё готово до scheduled статуса.)
 
