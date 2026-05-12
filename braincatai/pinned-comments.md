@@ -159,6 +159,12 @@ Does YOUR cat lose their mind at closed doors? 🐱 Drop a 🚪 if yes and tell 
 Where does YOUR cat sleep on the bed? 🛏️ Drop a 🩷 if on your chest, 🦶 if at your feet, or tell me their favorite spot 👇
 ```
 
+### 25. 13 Words Your Cat Really Understands (18 мая) — Cat Psychology
+
+```
+What word makes YOUR cat instantly come running? 🐱 Drop it below — bet "treat" wins. And tell me their reaction when you say "vet" 😹
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы

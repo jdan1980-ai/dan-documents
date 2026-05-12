@@ -48,7 +48,7 @@ Single source of truth для статуса каждого видео по pipe
 | 15 мая | Пт | What If? | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
 | 16 мая | Сб | Cat Psychology | Where Your Cat Sleeps on Your Bed | `where-your-cat-sleeps` | 📝 script готов |
 | 17 мая | Вс | Did You Know | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
-| 18 мая | Пн | Cat Psychology | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
+| 18 мая | Пн | Cat Psychology | 13 Words Your Cat Really Understands | `13-words-cats-understand` | 📝 script готов |
 | 19 мая | Вт | Brain Hacks | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
 
 ### Long-form pipeline
@@ -122,6 +122,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `why-cats-hate-closed-doors` | 13 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `why-kids-say-6-7` | 14 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `where-your-cat-sleeps` | 16 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `13-words-cats-understand` | 18 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 (Уточни — какие именно стадии уже готовы. Я предполагал что для запланированных в YouTube всё готово до scheduled статуса.)
 
