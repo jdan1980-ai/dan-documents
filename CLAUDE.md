@@ -14,6 +14,8 @@ YouTube Shorts channel — animated AI cat (Brain) explains cat psychology and b
 
 **Pipeline:** 8 scenes → image in Nano Banana → animation in Veo 3 → assembly in Google Vids.
 
+**Hybrid Remotion pipeline (experimental, `/braincatai/remotion`):** programmatic assembler that mixes Veo 3 clips with Remotion motion-graphic scenes (charts, glow effects, subtitles). First video: `where-your-cat-sleeps`. See `braincatai/remotion/README.md` for the per-scene Veo-vs-Remotion split and run instructions.
+
 **Channel:** [@braincatai](https://www.youtube.com/@braincatai) · channel ID `UCMKcrIw1l1u_WU0M9Cv-DKw` · uploads playlist `UUMKcrIw1l1u_WU0M9Cv-DKw`
 
 **Source of truth files:**

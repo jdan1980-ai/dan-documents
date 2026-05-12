@@ -1,0 +1,26 @@
+{
+  "name": "braincatai-remotion",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hybrid Remotion pipeline for BrainCatAI Shorts — assembles Veo 3 clips + motion-graphic scenes + VO + music into the final 1080x1920 Short.",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion render MainComposition out/short.mp4",
+    "build:scene": "remotion render",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.0",
+    "@remotion/cli": "^4.0.0",
+    "@remotion/media-utils": "^4.0.0",
+    "@remotion/renderer": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.0"
+  }
+}
