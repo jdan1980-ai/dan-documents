@@ -39,17 +39,21 @@ Single source of truth для статуса каждого видео по pipe
 | 11 мая | Пн | Your Cat Treats You Like... (Hair Licking) | Cat Psychology | `why-cats-lick-your-hair` | ⏰ scheduled |
 | 12 мая | Вт | Why Music Gives You Goosebumps | Brain Hacks | `why-music-gives-you-goosebumps` | ⏰ scheduled |
 
-### План на 13-19 мая (по утверждённой rubric)
+### План на 13-19 мая — CATS-ONLY политика (11 мая решение)
 
-| Дата | День | Рубрика | Тема | Slug | Статус |
-|------|------|---------|------|------|--------|
-| 13 мая | Ср | Cat Psychology | Why Your Cat HATES Closed Doors | `why-cats-hate-closed-doors` | 📝 script готов |
-| 14 мая | Чт | Kids Trend | Why Your Kid Won't Stop Saying 6-7 | `why-kids-say-6-7` | 📝 script готов |
-| 15 мая | Пт | What If? | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
-| 16 мая | Сб | Cat Psychology | Where Your Cat Sleeps on Your Bed | `where-your-cat-sleeps` | 📝 script готов |
-| 17 мая | Вс | Did You Know | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
-| 18 мая | Пн | Cat Psychology | 13 Words Your Cat Really Understands | `13-words-cats-understand` | 📝 script готов |
-| 19 мая | Вт | Brain Hacks | _нужно выбрать тему_ | — | ⏳ нужен сценарий |
+⚠️ **Политика канала:** только cat-контент. YouTube демотировал не-cat видео. Все слоты ниже — Cat Psychology / Cat Behavior. Старая рубрика "Kids Trend / What If / Did You Know / Brain Hacks" — deprecated, не использовать.
+
+| Дата | День | Тема (cats only) | Slug | Статус |
+|------|------|------------------|------|--------|
+| 13 мая | Ср | Why Your Cat HATES Closed Doors | `why-cats-hate-closed-doors` | 📝 script готов |
+| 14 мая | Чт | ~~Kids Trend: 6-7~~ → **нужна замена на cat** (топ-кандидаты: Make Biscuits / Bring Dead Things / Stare At You) | — | ⏳ нужен cat-сценарий |
+| 15 мая | Пт | ~~What If: Earth Stopped Spinning~~ → **замена на cat** (кандидат: Why Cats Stare At You for No Reason) | — | ⏳ нужен cat-сценарий |
+| 16 мая | Сб | Where Your Cat Sleeps on Your Bed | `where-your-cat-sleeps` | 📝 script готов |
+| 17 мая | Вс | ~~Did You Know: Stomach Lining~~ → **замена на cat** (кандидат: Your Cat Sees You As A Giant Weird Cat) | — | ⏳ нужен cat-сценарий |
+| 18 мая | Пн | 13 Words Your Cat Really Understands | `13-words-cats-understand` | 📝 script готов |
+| 19 мая | Вт | ~~Brain Hacks: Forget Names~~ → **замена на cat** (кандидат: Why Cats Follow You to the Bathroom) | — | ⏳ нужен cat-сценарий |
+
+**Лимит на 14 мая:** скрипт `why-kids-say-6-7.md` уже написан и слот в YouTube Studio занят. Технически можно отозвать и заменить — спросить пользователя.
 
 ### Long-form pipeline
 

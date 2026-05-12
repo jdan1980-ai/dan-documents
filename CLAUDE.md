@@ -10,7 +10,19 @@ This file provides guidance to Claude Code when working in this repository.
 
 ### BrainCatAI (`/braincatai`)
 
-YouTube Shorts channel — animated AI cat (Brain) explains cat psychology and brain-bending facts.
+YouTube Shorts channel — animated AI cat (Brain) explains **cat psychology, cat behavior, cat facts**. Cats only.
+
+#### 🚫 ABSOLUTE RULE — cats-only channel (do not violate)
+
+User policy as of 11 мая 2026: **every BrainCatAI video must be about cats.** YouTube's algorithm demoted previous off-topic videos (Brain Hacks / What If / Did You Know / Kids Trend) for "content doesn't fit channel". Even when one off-topic video (Sky Blue) outperformed expectations, the channel paid for the others.
+
+- ✅ ALLOWED rubrics: Cat Psychology, Cat Behavior, Cat Facts, Cat Communication, Cat Health, Cat History/Evolution, Cat Senses
+- ❌ FORBIDDEN rubrics (do NOT propose, do NOT script): Brain Hacks, What If, Did You Know (non-cat), Kids Trend, anything physics/space/anatomy/psychology of humans
+- ❌ FORBIDDEN even with a "cat angle": stretching a human topic onto Brain. The topic itself must be feline.
+- If user asks to deviate ("let's do a Brain Hacks one"), surface this rule and ask them to confirm before drafting.
+- All title-style references — including the competitor `Мир Глазами Кошек` formulas — apply only to cat content.
+
+Existing non-cat scripts in the repo (Sky Blue, Doorway Effect, Vagus Nerve, Black Hole, Goosebumps, 6-7 Kids Trend) are **legacy** — do not duplicate, do not generate sequels in those niches. Their slots in the schedule should be swapped for cat topics where still possible.
 
 **Pipeline:** 8 scenes → image in Nano Banana → animation in Veo 3 → assembly in Google Vids.
 
