@@ -159,10 +159,34 @@ Does YOUR cat lose their mind at closed doors? 🐱 Drop a 🚪 if yes and tell 
 Where does YOUR cat sleep on the bed? 🛏️ Drop a 🩷 if on your chest, 🦶 if at your feet, or tell me their favorite spot 👇
 ```
 
-### 25. 13 Words Your Cat Really Understands (18 мая) — Cat Psychology
+### 25. 13 Words Your Cat Really Understands (15 мая) — Cat Psychology
 
 ```
 What word makes YOUR cat instantly come running? 🐱 Drop it below — bet "treat" wins. And tell me their reaction when you say "vet" 😹
+```
+
+### 26. Why Your Cat Stares at You (16 мая) — Cat Psychology
+
+```
+Is YOUR cat staring at you right now? 👀 Drop a 👀 + which type you think it is — bet 9/10 are demanding food 😹
+```
+
+### 27. Your Cat Thinks You're a Giant Weird Cat (17 мая) — Cat Psychology
+
+```
+Does YOUR cat treat you like a defective cat? 🐱 Drop a 🙀 if they groom you, headbutt you, or bring you "gifts". Tell me the weirdest cat-thing they've done to you 👇
+```
+
+### 28. Why Your Cat Follows You to the Bathroom (18 мая) — Cat Psychology
+
+```
+Does YOUR cat follow you to the bathroom every time? 🚪🐱 Drop a 🛡️ if yes — they're literally guarding you. Tell me the funniest place they refuse to let you go alone 👇
+```
+
+### 29. Your Cat Can Hear You Blinking (19 мая) — Cat Psychology
+
+```
+What does YOUR cat snap their head at "for no reason"? 👂 Drop a 👀 if they've stared at empty corners — trust me they hear something. And try blinking really slowly near them and watch their ears 😹
 ```
 
 ---

@@ -49,11 +49,11 @@ Single source of truth для статуса каждого видео по pipe
 |------|------|------------------|------|--------|
 | 13 мая | Ср | Why Cats LOSE THEIR MIND at Closed Doors | `why-cats-hate-closed-doors` | ⏰ scheduled in YT Studio |
 | 14 мая | Чт | _Vagus Nerve придержан_ — слот пустой, без релиза | — | 🛑 пропуск |
-| 15 мая | Пт | 13 Words Your Cat REALLY Understands | `13-words-cats-understand` | 📝 script готов — ставим в YT Studio |
-| 16 мая | Сб | **нужен новый cat-сценарий** | — | ⏳ next to write |
-| 17 мая | Вс | **нужен новый cat-сценарий** | — | ⏳ |
-| 18 мая | Пн | **нужен новый cat-сценарий** | — | ⏳ |
-| 19 мая | Вт | **нужен новый cat-сценарий** | — | ⏳ |
+| 15 мая | Пт | 13 Words Your Cat REALLY Understands | `13-words-cats-understand` | 📝 script готов |
+| 16 мая | Сб | Why Your Cat STARES at You (4 Types) | `why-cats-stare-at-you` | 📝 script готов |
+| 17 мая | Вс | Your Cat Thinks You're a Giant Weird Cat | `your-cat-sees-you-as-giant-cat` | 📝 script готов |
+| 18 мая | Пн | Why Your Cat Follows You to the Bathroom | `why-cats-follow-bathroom` | 📝 script готов |
+| 19 мая | Вт | Your Cat Can Hear You Blinking | `cats-hear-you-blinking` | 📝 script готов |
 
 ### Long-form pipeline
 
@@ -127,6 +127,10 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `why-kids-say-6-7` | LEGACY non-cat — снять с очереди | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `where-your-cat-sleeps` | 12 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
 | `13-words-cats-understand` | 15 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `why-cats-stare-at-you` | 16 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `your-cat-sees-you-as-giant-cat` | 17 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `why-cats-follow-bathroom` | 18 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `cats-hear-you-blinking` | 19 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 (Уточни — какие именно стадии уже готовы. Я предполагал что для запланированных в YouTube всё готово до scheduled статуса.)
 
