@@ -12,12 +12,14 @@ import { Scene2BedSurvey } from "./scenes/Scene2BedSurvey";
 import { Scene3LabChart } from "./scenes/Scene3LabChart";
 import { Scene4TopScore } from "./scenes/Scene4TopScore";
 import { Scene7PawAnchor } from "./scenes/Scene7PawAnchor";
+import { Scene8CTA } from "./scenes/Scene8CTA";
 
 const REMOTION_COMPONENTS = {
   Scene2BedSurvey,
   Scene3LabChart,
   Scene4TopScore,
   Scene7PawAnchor,
+  Scene8CTA,
 } as const;
 
 export const Main: React.FC = () => {

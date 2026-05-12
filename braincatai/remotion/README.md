@@ -17,9 +17,9 @@ First video using this pipeline: **`Where Your Cat Sleeps on Your Bed Reveals Ho
 | 5 | Scent shimmer at head | **Veo 3** | Intimate breathing motion |
 | 6 | Slow-mo pull-back twist | **Veo 3** | Key pattern interrupt, must be cinematic |
 | 7 | Paw on wrist + anchor glow | **Remotion** | Static close-up + breath-synced glow |
-| 8 | CTA wave + soft meow | **Veo 3** | Emotional resolution, mouth exception |
+| 8 | CTA wave + soft meow | **Remotion** | Wave + CTA chip — animated overlay on static Brain image |
 
-**Veo 3 credits used: 4 (vs 8 baseline) — 50% savings.**
+**Veo 3 credits used: 3 (vs 8 baseline) — 62.5% savings.**
 
 ---
 
@@ -48,12 +48,12 @@ remotion/
     │   ├── scene2-bed-bg.png
     │   ├── scene3-brain-lab.png
     │   ├── scene4-brain-labcoat.png
-    │   └── scene7-paw-wrist.png
-    ├── clips/                # Veo 3 .mp4 clips for scenes 1, 5, 6, 8
+    │   ├── scene7-paw-wrist.png
+    │   └── scene8-brain-chest.png
+    ├── clips/                # Veo 3 .mp4 clips for scenes 1, 5, 6
     │   ├── scene1-hook.mp4
     │   ├── scene5-scent.mp4
-    │   ├── scene6-twist.mp4
-    │   └── scene8-cta.mp4
+    │   └── scene6-twist.mp4
     └── audio/
         ├── vo.mp3            # one continuous ElevenLabs read
         └── music.mp3         # Suno/Udio bed

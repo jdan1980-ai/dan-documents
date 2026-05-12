@@ -11,6 +11,7 @@ import { Scene2BedSurvey } from "./scenes/Scene2BedSurvey";
 import { Scene3LabChart } from "./scenes/Scene3LabChart";
 import { Scene4TopScore } from "./scenes/Scene4TopScore";
 import { Scene7PawAnchor } from "./scenes/Scene7PawAnchor";
+import { Scene8CTA } from "./scenes/Scene8CTA";
 
 export const Root: React.FC = () => {
   return (
@@ -50,6 +51,14 @@ export const Root: React.FC = () => {
       <Composition
         id="Scene7PawAnchor"
         component={Scene7PawAnchor}
+        durationInFrames={SCENE_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="Scene8CTA"
+        component={Scene8CTA}
         durationInFrames={SCENE_FRAMES}
         fps={FPS}
         width={WIDTH}

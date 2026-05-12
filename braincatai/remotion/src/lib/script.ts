@@ -6,7 +6,8 @@ export type SceneId =
   | "Scene2BedSurvey"
   | "Scene3LabChart"
   | "Scene4TopScore"
-  | "Scene7PawAnchor";
+  | "Scene7PawAnchor"
+  | "Scene8CTA";
 
 export type Scene = {
   num: number;
@@ -62,6 +63,6 @@ export const SCENES: Scene[] = [
     num: 8,
     title: "CTA wave + meow",
     vo: "Check tonight. Where does YOUR cat sleep? Follow Brain for more cat secrets.",
-    source: { kind: "veo", clipFile: "clips/scene8-cta.mp4" },
+    source: { kind: "remotion", componentId: "Scene8CTA" },
   },
 ];
