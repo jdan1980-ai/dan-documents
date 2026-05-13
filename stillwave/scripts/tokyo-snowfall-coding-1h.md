@@ -6,10 +6,10 @@
 - **Slug:** `tokyo-snowfall-coding-1h`
 - **Series:** POWER HOUR (playlist `PLwFZIsVXtnlFnGKhQrOblldPeL5pRnu5J`)
 - **Format:** Long-form
-- **Length:** TBD (target ~1H 04M, depends on final CapCut assembly after dropping Suno tracks <2 min)
+- **Length:** **1H 11M 04S (4264 sec, 25 tracks)** — confirmed from CapCut export
 - **Phase:** 1 (soft intro — 2nd entry in POWER HOUR series, after Tokyo Rain)
 - **Aesthetic:** Spacious Tokyo Penthouse — corner-wrap floor-to-ceiling windows + light snowfall + neon Tokyo + modern linear fireplace + open MacBook with VS Code editor + andon paper lantern (single Japanese accent)
-- **Status:** Suno generated (mixed V1/V2 rotation), awaiting NanoBanana + Flow loop + assembly + thumbnail
+- **Status:** Suno generated + CapCut assembly done (25 tracks, 1H 11M 04S), awaiting NanoBanana + Flow loop + ffmpeg encode + thumbnail
 - **Upload date:** TBD
 
 ### Differentiation vs Tokyo Rain #1
@@ -106,19 +106,19 @@ Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, contemplative mid
 
 ## 6. 🛠️ ffmpeg encode command
 
-> Replace `XXXX` with final length in seconds after CapCut assembly. Example: 1H 04M 48S → `-t 3888`. 1H 02M 30S → `-t 3750`.
+Final length **4264 sec (1H 11M 04S, 25 tracks)** confirmed from CapCut export.
 
 ```bash
 ffmpeg -stream_loop -1 -i tokyo-snowfall-coding-1h-loop.mp4 -i tokyo-snowfall-coding-1h.mp3 \
   -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
-  -c:a aac -b:a 192k -shortest -t XXXX tokyo-snowfall-coding-1h.mp4
+  -c:a aac -b:a 192k -shortest -t 4264 tokyo-snowfall-coding-1h.mp4
 ```
 
 Faster alternative (no re-encode, requires loop already in 1080p H.264 yuv420p):
 
 ```bash
 ffmpeg -stream_loop -1 -i tokyo-snowfall-coding-1h-loop.mp4 -i tokyo-snowfall-coding-1h.mp3 \
-  -c:v copy -c:a aac -b:a 192k -shortest -t XXXX tokyo-snowfall-coding-1h.mp4
+  -c:v copy -c:a aac -b:a 192k -shortest -t 4264 tokyo-snowfall-coding-1h.mp4
 ```
 
 ---
@@ -131,31 +131,84 @@ Tokyo Snowfall Coding Marathon | 1 Hour Uninterrupted Vol. 2
 
 ## 8. 📝 YouTube Description
 
-> TBD — fill after CapCut assembly when final tracklist + timestamps are known. Template inherits structure from `tokyo-apartment-rain-1h.md`:
->
-> - Intro paragraph (hook + setting)
-> - "Best for" bullet list (coding-focused use cases)
-> - Tracklist with timestamps (24 tracks → fewer after <2 min filter)
-> - Subscribe CTA
-> - Hashtag block
+```
+Enter the Tokyo Snowfall Power Hour.
 
-## 9. 🏷️ Tags
+This 1-hour-and-eleven-minute coding music marathon is built for one uninterrupted late-night code sprint. Inspired by quiet luxury Tokyo penthouses at midnight, the steady drift of snow on glass, and the warm flicker of a single andon lantern, this soundscape layers traditional Japanese instruments — kokyu bowed string, shakuhachi flute, koto, biwa, sho mouth organ, rin singing bowl — with warm low-fi ambience to create the perfect atmosphere for deep coding flow.
 
-> TBD — reuse Tokyo Rain #1 base + swap:
-> - `tokyo rain` → `tokyo snowfall`
-> - `writing music` → `coding music` / `programming music`
-> - Add: `late night coding`, `code sprint music`, `winter ambient`
+Whether you're shipping a feature, debugging a tricky issue, refactoring, studying, writing prose, or running late-night code reviews — let this hour and eleven minutes carry you through one full uninterrupted marathon.
+
+Dim the lights. Headphones on. Snow on the glass. Code on the screen. The Tokyo Snowfall handles the rest.
+
+Best for:
+• Late-night coding marathons & deep work sprints
+• Debugging sessions where silence helps
+• Pomodoro-style coding blocks
+• Code review focus
+• Writing technical documentation
+• Studying for technical exams or interviews
+• Quiet contemplation
+• Falling asleep to peaceful Japanese ambient
+
+🎵 Tracklist:
+0:00 — First Snowflake
+2:44 — Glass at Midnight
+5:28 — Lantern Lit
+8:43 — Kokyu Wakes
+11:26 — Code Lines Drifting
+14:10 — Snow on the Ledge
+16:49 — Shakuhachi Breath
+20:03 — Fingers on Cold Keys
+22:58 — Neon Through Snow
+25:28 — Floor Forty-Two
+28:22 — Sho Drone Below
+31:36 — Heartbeat at 52 BPM
+34:45 — Highway Streaks Below
+37:35 — Empty Office Halls
+39:54 — Bronze Bowl Hum
+42:48 — The Midnight Cursor
+45:23 — Snow Slows
+48:33 — Koto, Distant
+50:46 — Far Lantern
+53:57 — Biwa Drone
+56:32 — Last Commit
+59:27 — Temple Bell, Frozen
+1:02:50 — Wadaiko, Soft
+1:05:45 — Tokyo Sleeps in Snow
+1:08:14 — Snow, Still Falling
+
+▶ Subscribe for a new Tokyo penthouse coding session every week — POWER HOUR and HEALING HOUR sessions every Tuesday, Wednesday, Friday, Sunday.
+
+🔔 New POWER HOUR coding marathons every Tuesday and Friday. Tap the bell.
+
+#powerhour #codingmusic #1hourfocus #deepfocus #deepfocusmusic #focusmusic #studymusic #workmusic #productivitymusic #codingflow #flowstate #pomodoro #tokyomusic #snowfallmusic #ambientfocus #musicforcoding #concentrationmusic #latenightcoding #nodistractions #japaneseambient
+```
+
+> ✅ **Timestamps confirmed** from CapCut (25 tracks, total 1:11:04). YouTube auto-detects chapters because the first line is exactly `0:00`, entries ascend, and minimum chapter length is satisfied. Track durations vary between 2:29 and 3:14.
+
+## 9. 🏷️ Tags (22 tags)
+
+```
+coding music, deep work music, deep focus music, focus music, study music, work music, concentration music, productivity music, background music for coding, music for studying, instrumental music, ambient music, sleep music, meditation music, power hour music, 1 hour focus music, japanese ambient, tokyo snowfall, late night coding, pomodoro music, music for programming, música para programar
+```
+
+Strategy: MERSO's locked 10-tag core (deep work / deep focus / focus / study / work / concentration / productivity / instrumental / music for studying / background music for coding) + cross-niche play (sleep music, meditation music) + Power Hour positioning + Tokyo Snowfall brand + Spanish reach.
 
 ## 10. # Hashtags
 
-> TBD — adapt from Tokyo Rain #1:
-> - Top-3 likely: `#powerhour #codingmusic #deepfocus`
+**Top-3 (under title in YouTube UI):**
+
+```
+#powerhour #codingmusic #deepfocus
+```
+
+**Extended set already embedded in description body** (20 hashtags).
 
 ## 11. 📌 Pinned comment
 
-> TBD — adapt from Tokyo Rain pattern. Draft:
->
-> ❄️ 1 hour. Snow on the glass. Lantern glowing. What did you ship in this Power Hour? Drop one word — feature, bug-fix, refactor, deploy — and subscribe for a new Tokyo session every week 🌃
+```
+❄️ 1 hour 11 min. Snow on the glass. Andon glow on the desk. What did you ship in this Power Hour? Drop one word — feature, bug-fix, refactor, deploy — and subscribe for a new Tokyo session every week 🌃
+```
 
 ## 12. 🔁 A/B title variant
 
