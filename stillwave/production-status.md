@@ -16,16 +16,17 @@ See `published-videos.md` for the full table with metrics.
 
 | Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎞️ | ⏰ | 📤 |
 |------|-------|--------|----|----|----|-----|-----|-----|
-| `tokyo-apartment-rain-1h` | Power Hour Focus Music — Tokyo Apartment Rain | 1H 04min 48sec (24 tracks) | ✅ | ✅ | ✅ | ✅ | ✅ **scheduled May 10, 14:00** | ⏳ |
-
-### Tokyo Apartment Rain — review schedule
-
-After publish (May 10, 14:00):
-- **48h review** — May 12, 14:00 → pull live API data, log views/likes/comments/CTR
-- **7d review** — May 17, 14:00 → full retention analysis + comment mining + first lessons
-- **30d review** — June 9, 14:00 → final perf snapshot, decide if pattern goes into Power Hour series template
+| `tokyo-apartment-rain-1h` | Best Focus Music Tokyo Rain Power Hour [1H Top Deep Work] | 1H 04M 56S (24 tracks) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ **published May 10, 10:20 UTC** ([aUujtRQZGaw](https://www.youtube.com/watch?v=aUujtRQZGaw)) |
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+
+### Tokyo Power Hour — review schedule
+
+Published May 10, 10:20 UTC. Title at upload differed from plan — actual: "Best Focus Music Tokyo Rain Power Hour [1H Top Deep Work]" (more keyword-stuffed than planned "Power Hour Focus Music — Tokyo Apartment Rain").
+
+- ✅ **72h check** — May 13: **131 views, 2 likes, 2 comments**. Pacing ~44 views/day — faster than KIRI (27/day) and 852 Hz (18/day). Like-rate (1.5%) is **below** top performers (KIRI 3.3%, 852 Hz 2.1%) — investigate at 7d.
+- **7d review** — May 17 → full retention analysis + comment mining + first lessons
+- **30d review** — June 9 → final perf snapshot, decide if Power Hour pattern goes into series template
 
 ## Phase 1 batch — week of May 13–19
 
