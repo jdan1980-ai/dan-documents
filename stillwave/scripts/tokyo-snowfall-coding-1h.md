@@ -2,7 +2,7 @@
 
 ## Meta
 
-- **Title:** Best Coding Music Tokyo Snowfall Power Hour Vol. 2 [1H Top Late Night Code Sprint]
+- **Title:** Tokyo Snowfall Coding Marathon | 1 Hour Uninterrupted Vol. 2
 - **Slug:** `tokyo-snowfall-coding-1h`
 - **Series:** POWER HOUR (playlist `PLwFZIsVXtnlFnGKhQrOblldPeL5pRnu5J`)
 - **Format:** Long-form
@@ -126,7 +126,7 @@ ffmpeg -stream_loop -1 -i tokyo-snowfall-coding-1h-loop.mp4 -i tokyo-snowfall-co
 ## 7. 📝 YouTube Title (Phase 1 format)
 
 ```
-Best Coding Music Tokyo Snowfall Power Hour Vol. 2 [1H Top Late Night Code Sprint]
+Tokyo Snowfall Coding Marathon | 1 Hour Uninterrupted Vol. 2
 ```
 
 ## 8. 📝 YouTube Description
@@ -160,8 +160,10 @@ Best Coding Music Tokyo Snowfall Power Hour Vol. 2 [1H Top Late Night Code Sprin
 ## 12. 🔁 A/B title variant
 
 ```
-1 Hour Code Sprint — Tokyo Snowfall Power Hour Vol. 2 | Late Night Programming Music
+Tokyo Snowfall Late Night Coding Sprint | 1 Hour Distraction-Free Vol. 2
 ```
+
+> Note: VidIQ-test both the main title and this A/B in YouTube Studio before publish. Target ≥85/100, ideally 90+ (Tokyo Rain Vol. 1 hit 93).
 
 ## 13. 🎨 Thumbnail
 

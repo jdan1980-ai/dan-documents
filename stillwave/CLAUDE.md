@@ -178,49 +178,44 @@ Concrete imagery — never abstract emotional adjectives.
 
 ---
 
-## 📝 Title format (3-phase evolution)
+## 📝 Title format — VidIQ-validated (Phase 1+)
 
-### Phase 1 (current) — keyword-first English, иероглиф dropped from title
-
-```
-Quiet Focus Music — Japanese Tea House Rain | 2H Deep Work
-```
-
-### Phase 2 — add brand prefix "StillWave —"
+### Canonical formula (Tokyo Rain Vol. 1 scored 93/100 on VidIQ)
 
 ```
-StillWave — Quiet Tea Garden Focus | 2H Coding & Writing
+[Scene Keyword] [Use Case + Hook] | [Duration + Differentiator] Vol. N
 ```
 
-### Phase 3 — established branded format
+**Examples:**
 
-```
-StillWave — Lantern Glow Focus | 3H Late Night Coding
-```
+- `Tokyo Rain Deep Work Marathon | 1 Hour Uninterrupted Vol. 1` (live, 93/100)
+- `Tokyo Snowfall Coding Marathon | 1 Hour Uninterrupted Vol. 2`
+- `528 Hz Japanese Zen Healing Marathon | 1 Hour Uninterrupted Vol. 1`
 
-**Иероглиф stays in:** description body, playlist titles, tags. **Removed from:** video title, thumbnail.
+**Field-by-field guide:**
 
-## 🔢 Series volume numbering (POWER HOUR / HEALING HOUR)
+| Slot | Role | Examples |
+|------|------|----------|
+| **Scene Keyword** | The unique scene-bait (must lead — it's the differentiator vs every other "deep focus music" video) | `Tokyo Rain`, `Tokyo Snowfall`, `528 Hz Japanese Zen` |
+| **Use Case + Hook** | What the viewer is doing, framed with a strong noun like `Marathon` / `Sprint` / `Session` | `Deep Work Marathon`, `Coding Marathon`, `Healing Marathon`, `Study Sprint`, `Writing Session` |
+| **Duration + Differentiator** | After the pipe `|` — duration + ONE killer word that promises something concrete | `1 Hour Uninterrupted`, `2 Hours Distraction-Free`, `90 Min Flow State` |
+| **Vol. N** | Series counter at the end. Counters are independent per series (POWER HOUR / HEALING HOUR) | `Vol. 1`, `Vol. 2`, ... |
 
-Every video in a series carries `Vol. N` **inside the YouTube title**, not on the thumbnail (thumbnail keeps only the clean `POWER HOUR` / `HEALING HOUR` brand overlay — see Design rules).
+### Critical rules
 
-**Title formula with vol:**
+- **Length under 60 characters.** Mobile feeds cut at 60-65 chars. Tokyo Rain Vol. 1 = 59 chars.
+- **Lead with the scene, not "Best/Top/Deep/Quiet Music"** — generic openers waste prime real estate.
+- **No "Power Hour" / "Healing Hour" in the title text.** Series brand is carried by:
+  - Thumbnail overlay (`POWER HOUR` / `HEALING HOUR` white bold, see Design rules)
+  - YouTube playlist title (`POWER HOUR`, `HEALING HOUR`)
+  - Description body
+  Keeping series name OUT of the title frees ~10 chars for stronger keywords.
+- **Always run VidIQ before publishing** — target ≥85/100. If a candidate scores below, swap one slot (usually the "Differentiator" word) and retest.
+- **Иероглиф stays out of title** (kept in description, playlist titles, tags only).
 
-```
-Best [hook] [genre] [Series Name] Vol. N [1H Top {outcome}]
-```
+### Source of truth for next Vol. number
 
-Examples:
-
-- `Best Focus Music Tokyo Rain Power Hour Vol. 1 [1H Top Deep Work]`
-- `Best Coding Music Tokyo Snowfall Power Hour Vol. 2 [1H Top Late Night Code Sprint]`
-- `Best 528 Hz Japanese Zen Healing Hour Vol. 1 [1H Top Nervous System Reset]`
-
-**Vol. N counters are independent per series** — POWER HOUR has its own count, HEALING HOUR has its own.
-
-**Why title not thumbnail:** preserves visual brand on thumbnail (matches FOCUS ZONE / MERSO style, no clutter on mobile), but still gives series narrative + binge signal in title bar and search. Vol. number doesn't add direct SEO but builds channel authority over time ("Vol. 47 of POWER HOUR" = social proof).
-
-**Source of truth for next Vol. number** — `production-status.md` table. Always check the table before assigning a new Vol. N.
+`production-status.md` table. Always check the table before assigning a new Vol. N.
 
 ## 🎨 Design rules
 
