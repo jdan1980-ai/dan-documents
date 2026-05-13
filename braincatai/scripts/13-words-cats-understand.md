@@ -495,24 +495,16 @@ The 13 Words Cats REALLY Know (Test Them Tonight) 🐱 | Cat Psychology
 Реальная Причина, Почему Кошка ВСЕГДА Знает Когда Вы Зовёте! (вас шокирует)
 ```
 
-**Description (vidIQ-optimized, targets 80+ score — "cat psychology" appears 5×, 1500+ chars, 15 hashtags, structured emoji bullets):**
+**Description (balanced after 1500-char version scored 33 on vidIQ — too long + keyword-stuffed + hashtag-spam. This rebuild targets 70+ with title-keyword in opening line, single-paragraph body, moderate density):**
 
 ```
-Does your cat actually understand the words you say? 🐱 The answer will surprise you — cats genuinely recognize at least 13 spoken words, but they're masters at PRETENDING not to hear you. In this Cat Psychology Short, Brain reveals the science behind cat communication and how your cat decodes everything you say.
+Say THESE words and your cat HEARS you — even when they pretend not to. 🐱
 
-🧠 Cat psychology research from Tokyo University proved cats distinguish their NAME from random words — they just act like they don't care. Beyond their name, your cat also recognizes: NO, food, treat, outside, vet, brush, and routine command words.
+Your cat recognizes at least 13 spoken words. Their name, no, food, treat, outside, vet, brush, plus your daily routine commands. Cats also distinguish YOUR voice over any stranger's. The wild part — cats listen to TONE before the actual word: angry voice equals hide, soft voice equals purr. And there's one word every cat learns forever and never forgets: vet. Whisper your cat's name tonight and watch the ear flick — that's your proof they've been listening the whole time.
 
-🎯 But here's the trick: cats listen to your TONE before the word itself. Same word + angry voice = they hide. Same word + soft voice = they purr. Cat psychology shows tone hits faster than vocabulary.
+🐱 Follow Brain for more cat psychology, cat behavior, and cat communication every week.
 
-⚠️ And there's ONE word every cat learns forever — VET. They never forget it. Mention it three times and watch them vanish.
-
-🎙️ Bonus: cat communication science shows cats recognize YOUR specific voice over any stranger. A stranger calling their name? Completely ignored. You? Ears swivel instantly.
-
-Cat psychology is wilder than you think. Whisper their name tonight, watch the ear flick, and slow-blink back. 💚
-
-🐱 Follow Brain for more cat psychology, cat facts, cat behavior insights, and cat communication secrets every week. Drop a 💚 in the comments if your cat ignores you on purpose!
-
-#shorts #catpsychology #catfacts #catbehavior #catcommunication #braincatai #cathearing #catwords #catscience #petfacts #catlovers #cattips #catowner #funnycat #feline
+#shorts #catpsychology #catfacts #catbehavior #catcommunication #cathearing #braincatai
 ```
 
 **Tags (paste comma-separated into YouTube tags field):**
