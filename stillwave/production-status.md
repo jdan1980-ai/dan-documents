@@ -32,7 +32,7 @@ Publishes May 14, 18:00 МСК (15:00 UTC). First entry in new **HEALING HOUR** 
 
 ### Tokyo Power Hour — review schedule
 
-Published May 10, 10:20 UTC. Title at upload differed from plan — actual: "Best Focus Music Tokyo Rain Power Hour [1H Top Deep Work]" (more keyword-stuffed than planned "Power Hour Focus Music — Tokyo Apartment Rain").
+Published May 10, 10:20 UTC. Title at upload differed from plan — actual: "Best Focus Music Tokyo Rain Power Hour Vol. 1 [1H Top Deep Work]" (more keyword-stuffed than planned "Power Hour Focus Music — Tokyo Apartment Rain"; `Vol. 1` added later per the series-numbering rule formalized in CLAUDE.md).
 
 - ✅ **72h check** — May 13: **131 views, 2 likes, 2 comments**. Pacing ~44 views/day — faster than KIRI (27/day) and 852 Hz (18/day). Like-rate (1.5%) is **below** top performers (KIRI 3.3%, 852 Hz 2.1%) — investigate at 7d.
 - **7d review** — May 17 → full retention analysis + comment mining + first lessons
