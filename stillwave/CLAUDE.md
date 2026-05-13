@@ -200,6 +200,28 @@ StillWave — Lantern Glow Focus | 3H Late Night Coding
 
 **Иероглиф stays in:** description body, playlist titles, tags. **Removed from:** video title, thumbnail.
 
+## 🔢 Series volume numbering (POWER HOUR / HEALING HOUR)
+
+Every video in a series carries `Vol. N` **inside the YouTube title**, not on the thumbnail (thumbnail keeps only the clean `POWER HOUR` / `HEALING HOUR` brand overlay — see Design rules).
+
+**Title formula with vol:**
+
+```
+Best [hook] [genre] [Series Name] Vol. N [1H Top {outcome}]
+```
+
+Examples:
+
+- `Best Focus Music Tokyo Rain Power Hour Vol. 1 [1H Top Deep Work]`
+- `Best Coding Music Tokyo Snowfall Power Hour Vol. 2 [1H Top Late Night Code Sprint]`
+- `Best 528 Hz Japanese Zen Healing Hour Vol. 1 [1H Top Nervous System Reset]`
+
+**Vol. N counters are independent per series** — POWER HOUR has its own count, HEALING HOUR has its own.
+
+**Why title not thumbnail:** preserves visual brand on thumbnail (matches FOCUS ZONE / MERSO style, no clutter on mobile), but still gives series narrative + binge signal in title bar and search. Vol. number doesn't add direct SEO but builds channel authority over time ("Vol. 47 of POWER HOUR" = social proof).
+
+**Source of truth for next Vol. number** — `production-status.md` table. Always check the table before assigning a new Vol. N.
+
 ## 🎨 Design rules
 
 - **Photorealistic cinematic** style (NOT sumi-e / illustration)

@@ -24,7 +24,7 @@ Pulled live via YouTube Data API v3 on **May 13, 2026** (channel UC188FjOT6tivjP
 | 2026-04-03 | Rainy Night in Kyoto 🌧️ 432 Hz Deep Sleep Music (Shorts) | 33S | 168 | 2 | 2 |
 | 2026-03-25 | Ancient Japan Meditation Music • 2 Hours Zen Ambient | 2H 2M 20S | 156 | 7 | 1 |
 | 2026-04-18 | 528 Hz DNA Repair 💖 Miracle Healing Frequency 3H | 2H 58M 9S | 148 | 5 | 3 |
-| 2026-05-10 | Best Focus Music Tokyo Rain Power Hour [1H Top Deep Work] | 1H 4M 56S | **131** 🆕 | 2 | 2 |
+| 2026-05-10 | Best Focus Music Tokyo Rain Power Hour Vol. 1 [1H Top Deep Work] | 1H 4M 56S | **131** 🆕 | 2 | 2 |
 | 2026-03-23 | Japanese Rain Sounds for Anxiety Relief 2H | 1H 57M 51S | 131 | 4 | 1 |
 | 2026-05-01 | 静寂 SEIJAKU · Find Silence in the Noise (Shorts) | 46S | 124 | 1 | 0 |
 | 2026-04-27 | YORU — 夜 / Japanese Zen Music for Deep Sleep | 2H 2M 59S | 119 | 2 | 1 |

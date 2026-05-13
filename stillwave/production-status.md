@@ -16,9 +16,9 @@ See `published-videos.md` for the full table with metrics.
 
 | Slug | Title | Length | Series | 📝 | 🎵 | 🎨 | 🎞️ | ⏰ | 📤 |
 |------|-------|--------|--------|----|----|----|-----|-----|-----|
-| `tokyo-apartment-rain-1h` | Best Focus Music Tokyo Rain Power Hour [1H Top Deep Work] | 1H 04M 56S (24 tracks) | POWER HOUR | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ **published May 10, 10:20 UTC** ([aUujtRQZGaw](https://www.youtube.com/watch?v=aUujtRQZGaw)) |
-| `healing-hour-528hz-1h` | Best 528 Hz Japanese Zen Healing Hour [1H Top Nervous System Reset] | 1H 01M 25S | HEALING HOUR | ❌ (no script file yet) | ✅ | ✅ | ✅ | ✅ **scheduled May 14, 18:00 МСК (15:00 UTC)** ([-1RE1P98_u8](https://www.youtube.com/watch?v=-1RE1P98_u8)) | ⏳ |
-| `tokyo-snowfall-coding-1h` | Best Coding Music Tokyo Snowfall Power Hour [1H Top Late Night Code Sprint] | ~1H 04M (TBD pending CapCut) | POWER HOUR | ✅ | ✅ (mixed kokyu/sho/shakuhachi rotation, tracks <2 min dropped) | ⏳ | ⏳ | ⏳ | ⏳ |
+| `tokyo-apartment-rain-1h` | Best Focus Music Tokyo Rain Power Hour Vol. 1 [1H Top Deep Work] | 1H 04M 56S (24 tracks) | POWER HOUR | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ **published May 10, 10:20 UTC** ([aUujtRQZGaw](https://www.youtube.com/watch?v=aUujtRQZGaw)) — ⚠️ title needs Vol. 1 update in YouTube Studio |
+| `healing-hour-528hz-1h` | Best 528 Hz Japanese Zen Healing Hour Vol. 1 [1H Top Nervous System Reset] | 1H 01M 25S | HEALING HOUR | ❌ (no script file yet) | ✅ | ✅ | ✅ | ✅ **scheduled May 14, 18:00 МСК (15:00 UTC)** ([-1RE1P98_u8](https://www.youtube.com/watch?v=-1RE1P98_u8)) | ⏳ — ⚠️ title needs Vol. 1 update before publish |
+| `tokyo-snowfall-coding-1h` | Best Coding Music Tokyo Snowfall Power Hour Vol. 2 [1H Top Late Night Code Sprint] | ~1H 04M (TBD pending CapCut) | POWER HOUR | ✅ | ✅ (mixed kokyu/sho/shakuhachi rotation, tracks <2 min dropped) | ⏳ | ⏳ | ⏳ | ⏳ |
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | POWER HOUR | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | POWER HOUR | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 

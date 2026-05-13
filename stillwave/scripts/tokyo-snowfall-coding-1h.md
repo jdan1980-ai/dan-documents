@@ -2,7 +2,7 @@
 
 ## Meta
 
-- **Title:** Best Coding Music Tokyo Snowfall Power Hour [1H Top Late Night Code Sprint]
+- **Title:** Best Coding Music Tokyo Snowfall Power Hour Vol. 2 [1H Top Late Night Code Sprint]
 - **Slug:** `tokyo-snowfall-coding-1h`
 - **Series:** POWER HOUR (playlist `PLwFZIsVXtnlFnGKhQrOblldPeL5pRnu5J`)
 - **Format:** Long-form
@@ -126,7 +126,7 @@ ffmpeg -stream_loop -1 -i tokyo-snowfall-coding-1h-loop.mp4 -i tokyo-snowfall-co
 ## 7. 📝 YouTube Title (Phase 1 format)
 
 ```
-Best Coding Music Tokyo Snowfall Power Hour [1H Top Late Night Code Sprint]
+Best Coding Music Tokyo Snowfall Power Hour Vol. 2 [1H Top Late Night Code Sprint]
 ```
 
 ## 8. 📝 YouTube Description
@@ -160,7 +160,7 @@ Best Coding Music Tokyo Snowfall Power Hour [1H Top Late Night Code Sprint]
 ## 12. 🔁 A/B title variant
 
 ```
-1 Hour Code Sprint — Tokyo Snowfall Power Hour | Late Night Programming Music
+1 Hour Code Sprint — Tokyo Snowfall Power Hour Vol. 2 | Late Night Programming Music
 ```
 
 ## 13. 🎨 Thumbnail
