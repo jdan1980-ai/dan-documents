@@ -473,17 +473,17 @@ What word makes YOUR cat instantly come running? 🐱 Drop it below — bet "tre
 
 ## SEO Pack
 
-**Final title** (74 chars — style ported from "Мир Глазами Кошек" #4 hit `13 СЛОВ, которые Ваша Кошка РЕАЛЬНО понимает` at 545k views):
+**Final title** (chosen by user 13 мая 2026 — formula #1 conditional reveal):
 
 ```
-13 Words Your Cat REALLY Understands (#1 Will Shock You) 🐱 | Cat Psychology
+If You Say THESE Words, Your Cat HEARS You! 🐱 | Cat Psychology
 ```
 
 Alt titles to A/B test (each ports a different competitor formula):
 
 ```
+13 Words Your Cat REALLY Understands (#1 Will Shock You) 🐱 | Cat Psychology
 Your Cat Understands 13 WORDS — But Pretends Not To! 🐱 | Cat Psychology
-If You Say THESE Words, Your Cat HEARS You! 🐱 | Cat Psychology
 The 13 Words Cats REALLY Know (Test Them Tonight) 🐱 | Cat Psychology
 ```
 
@@ -495,14 +495,24 @@ The 13 Words Cats REALLY Know (Test Them Tonight) 🐱 | Cat Psychology
 Реальная Причина, Почему Кошка ВСЕГДА Знает Когда Вы Зовёте! (вас шокирует)
 ```
 
-**Description (≥ 250 chars, "cat psychology" appears 3×):**
+**Description (vidIQ-optimized, targets 80+ score — "cat psychology" appears 5×, 1500+ chars, 15 hashtags, structured emoji bullets):**
 
 ```
-Does your cat actually understand you? 🐱 In this Cat Psychology Short, Brain reveals that your cat knows at least 13 words — but pretends not to. Cat psychology research shows cats recognize their NAME distinct from other words, plus food, treat, outside, no, and more. But here's the trick: cats listen to your TONE before the word itself. Same word, angry voice — they hide. Same word, soft voice — they purr. And there's ONE word every cat learns forever: VET. They never forget it. Bonus: cats recognize YOUR voice over a stranger's — strangers calling them get ignored. Cat psychology is wilder than you think. Whisper their name tonight and watch the ear flick. 💚
+Does your cat actually understand the words you say? 🐱 The answer will surprise you — cats genuinely recognize at least 13 spoken words, but they're masters at PRETENDING not to hear you. In this Cat Psychology Short, Brain reveals the science behind cat communication and how your cat decodes everything you say.
 
-🐱 Follow Brain for more cat psychology, cat facts, and cat secrets every week.
+🧠 Cat psychology research from Tokyo University proved cats distinguish their NAME from random words — they just act like they don't care. Beyond their name, your cat also recognizes: NO, food, treat, outside, vet, brush, and routine command words.
 
-#shorts #catpsychology #catfacts #catbehavior #braincatai #catwords #petfacts
+🎯 But here's the trick: cats listen to your TONE before the word itself. Same word + angry voice = they hide. Same word + soft voice = they purr. Cat psychology shows tone hits faster than vocabulary.
+
+⚠️ And there's ONE word every cat learns forever — VET. They never forget it. Mention it three times and watch them vanish.
+
+🎙️ Bonus: cat communication science shows cats recognize YOUR specific voice over any stranger. A stranger calling their name? Completely ignored. You? Ears swivel instantly.
+
+Cat psychology is wilder than you think. Whisper their name tonight, watch the ear flick, and slow-blink back. 💚
+
+🐱 Follow Brain for more cat psychology, cat facts, cat behavior insights, and cat communication secrets every week. Drop a 💚 in the comments if your cat ignores you on purpose!
+
+#shorts #catpsychology #catfacts #catbehavior #catcommunication #braincatai #cathearing #catwords #catscience #petfacts #catlovers #cattips #catowner #funnycat #feline
 ```
 
 **Tags (paste comma-separated into YouTube tags field):**
