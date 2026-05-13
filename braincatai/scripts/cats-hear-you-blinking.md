@@ -8,7 +8,7 @@
 - **Series:** Cat Asks Why
 - **Status:** script
 - **Date created:** 2026-05-12
-- **Publish date:** 19 мая 2026 (Вт — Cat Psychology slot)
+- **Publish date:** 20 мая 2026 (Ср — Cat Psychology slot)
 
 ## Audience Promise
 
@@ -386,44 +386,21 @@ Why do they stare at empty corners? Because empty isn't empty for them.
 
 ---
 
-## Scene 8 — CTA / outro (49–56 sec)
+## Scene 8 — Universal CTA (reusable) (49–56 sec)
 
-**Beat purpose:** Brain back to camera with a knowing smug expression, delivers slow blink + soft meow. "You can't out-sneak a cat" payoff.
-**Location:** A | **Wardrobe:** Regular Brain
+**🎬 Visual:** Use the **Universal Scene 8** clip — Brain in neutral warm-bokeh background, wave + slow blink + soft meow. Generated **ONCE** in Veo 3 and reused across every cat video on this channel to save credits.
 
-> **End card:** after Scene 8, append the reusable Brain end card. Use **Short variant (3 sec)**.
+📁 See [`_universal-scene-8.md`](./_universal-scene-8.md) for the one-time Nano Banana + Veo 3 prompts.
 
-**🎨 Image prompt (Nano Banana):**
+In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 clip. Optionally add a "FOLLOW BRAIN 🐱" text overlay at the top.
 
-```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — DAY. Same cozy living room. MEDIUM SHOT framing. Brain sits centered on the sage-green rug facing camera with a warm smug "you can't out-sneak me" expression, vivid emerald green eyes bright with cheeky affection, one front paw raised in a friendly mid-wave gesture, gold heart-shaped collar tag glinting prominently. Tail held in a happy upright curl. Brain has 4 paws total.
-```
-
-**🎬 Animation prompt (Veo 3):**
-
-```
-SHOT: Medium shot, eye-level, Brain on rug. Slight slow PUSH-IN (~4% over 7 seconds). Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
-
-TIME 0–2s: Brain sits on the rug facing camera with bright smug vivid emerald green eyes. Both ears flick forward in attentive listening. Tail does one slow happy flick.
-
-TIME 2–5s: Brain raises one front paw and gives a friendly two-side-to-side wave. Then performs ONE deliberate slow blink — eyes close slowly, hold 0.8s, open slowly.
-
-TIME 5–7s: Brain lowers waving paw, holds the warm smug gaze on camera. Gold heart tag glints once.
-
-EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
-
-ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER 5 paws or extra limbs.
-
-MOUTH RULE (single soft meow exception on CTA): Mouth stays closed throughout. One single soft meow allowed at TIME 4s as the wave peaks. NO lip-sync, NO repeated mouth motion.
-
-STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft depth of field.
-```
-
-**🎙️ Voiceover:**
+**🎙️ Voiceover (record fresh in ElevenLabs per video):**
 
 ```
 You can't out-sneak a cat. Follow Brain for more cat secrets.
 ```
+
+> **End card:** after Scene 8, append the reusable Brain end card from [`end-card.md`](../end-card.md). Use **Short variant (3 sec)**. The end card is also generated ONCE and reused.
 
 ---
 

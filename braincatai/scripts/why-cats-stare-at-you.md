@@ -8,7 +8,7 @@
 - **Series:** Cat Asks Why
 - **Status:** script
 - **Date created:** 2026-05-12
-- **Publish date:** 16 мая 2026 (Сб — Cat Psychology slot)
+- **Publish date:** 17 мая 2026 (Вс — Cat Psychology slot)
 
 ## Audience Promise
 
@@ -398,48 +398,21 @@ Look up. Are they staring? Slow blink back. Follow Brain for more cat secrets.
 
 ---
 
-## Scene 8 — CTA / outro (49–56 sec)
+## Scene 8 — Universal CTA (reusable) (49–56 sec)
 
-**Beat purpose:** Brain back on the kitchen counter in his opening pose, but this time delivers a deliberate warm SLOW BLINK directly at camera (the "respond to your cat" payoff). Soft meow allowed on the wave.
-**Location:** A | **Wardrobe:** Regular Brain
+**🎬 Visual:** Use the **Universal Scene 8** clip — Brain in neutral warm-bokeh background, wave + slow blink + soft meow. Generated **ONCE** in Veo 3 and reused across every cat video on this channel to save credits.
 
-> **End card:** after Scene 8, append the reusable Brain end card. Use **Short variant (3 sec)**. See [end-card.md](../end-card.md).
+📁 See [`_universal-scene-8.md`](./_universal-scene-8.md) for the one-time Nano Banana + Veo 3 prompts.
 
-**🎨 Image prompt (Nano Banana):**
+In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 clip. Optionally add a "FOLLOW BRAIN 🐱" text overlay at the top.
 
-```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY KITCHEN — DAY. Same cozy kitchen — warm wooden floor, cream cabinets, low kitchen island with pale stone counter, soft warm daylight from window. MEDIUM SHOT framing. Brain sits upright centered on the kitchen island countertop facing camera with a warm joyful "okay good talk" expression, vivid emerald green eyes bright with affection and slightly half-closed (preparing to slow-blink), one front paw raised in a friendly mid-wave gesture, gold heart-shaped collar tag glinting prominently. Tail held in a soft happy upright curl behind him. Brain has 4 paws total — let him pose naturally otherwise.
-```
-
-**🎬 Animation prompt (Veo 3):**
-
-```
-SHOT: Medium shot, eye-level, Brain on the kitchen counter. Slight slow PUSH-IN (~4% over 7 seconds). Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
-
-TIME 0–2s: Brain sits on the kitchen counter facing camera with bright happy vivid emerald green eyes, slightly half-closed in warm "okay good talk" expression. Tail does one slow happy flick.
-
-TIME 2–5s: Brain raises one front paw and gives a gentle friendly wave — two side-to-side motions. Only one paw moves; the rest of him stays in his natural seated pose. Then Brain performs ONE deliberate SLOW BLINK at camera — eyes close slowly over 1.5 seconds, hold fully closed for 1 second, then open slowly back to bright.
-
-TIME 5–7s: Brain lowers the waving paw, holds the warm soft gaze on camera. Gold heart tag glints once.
-
-EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
-
-ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER 5 paws or extra limbs.
-
-MOUTH RULE (single soft meow exception on CTA): Mouth stays closed throughout. One single soft meow allowed at TIME 4s as the wave peaks — a single brief mouth motion, then fully closed again. NO lip-sync, NO repeated mouth motion.
-
-SLOW-BLINK RULE: The slow blink at TIME 2–5s must be a single deliberate motion — eyes close slowly over 1.5s, hold 1s, open slowly. NOT a normal fast blink.
-
-STYLE: Pixar 3D render, cinematic warm daylight, vertical 9:16, soft depth of field.
-```
-
-**🎙️ Voiceover (silence / breath under VO that already finished in Scene 7):**
+**🎙️ Voiceover (record fresh in ElevenLabs per video):**
 
 ```
 (no new VO — Scene 7's CTA line plays under Scene 7+8, this scene is visual-only)
 ```
 
-> ⚠️ **VO timing note:** The CTA voiceover line "Look up. Are they staring? Slow blink back. Follow Brain for more cat secrets." runs from the start of Scene 7 through the end of Scene 8 (~14 seconds total VO time). This gives the slow-blink demonstration in Scene 8 silent breathing room with the music alone, landing the emotional payoff.
+> **End card:** after Scene 8, append the reusable Brain end card from [`end-card.md`](../end-card.md). Use **Short variant (3 sec)**. The end card is also generated ONCE and reused.
 
 ---
 
