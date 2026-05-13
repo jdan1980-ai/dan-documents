@@ -6,10 +6,10 @@
 - **Slug:** `tokyo-snowfall-coding-1h`
 - **Series:** POWER HOUR (playlist `PLwFZIsVXtnlFnGKhQrOblldPeL5pRnu5J`)
 - **Format:** Long-form
-- **Length:** **1H 11M 04S (4264 sec, 25 tracks)** — confirmed from CapCut export
+- **Length:** **1H 11M+ (26 tracks, exact end-time TBD pending final CapCut export)** — 25 track-start timestamps from CapCut already captured; album end time still needed
 - **Phase:** 1 (soft intro — 2nd entry in POWER HOUR series, after Tokyo Rain)
 - **Aesthetic:** Spacious Tokyo Penthouse — corner-wrap floor-to-ceiling windows + light snowfall + neon Tokyo + modern linear fireplace + open MacBook with VS Code editor + andon paper lantern (single Japanese accent)
-- **Status:** Suno generated + CapCut assembly done (25 tracks, 1H 11M 04S), awaiting NanoBanana + Flow loop + ffmpeg encode + thumbnail
+- **Status:** Suno generated + CapCut assembly done (26 tracks, ~1H 11M+, exact end TBD), awaiting NanoBanana + Flow loop + ffmpeg encode + thumbnail
 - **Upload date:** TBD
 
 ### Differentiation vs Tokyo Rain #1
@@ -106,19 +106,19 @@ Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, contemplative mid
 
 ## 6. 🛠️ ffmpeg encode command
 
-Final length **4264 sec (1H 11M 04S, 25 tracks)** confirmed from CapCut export.
+Final length **TBD (26 tracks)** — replace `XXXX` with album end time in seconds once last CapCut export is confirmed.
 
 ```bash
 ffmpeg -stream_loop -1 -i tokyo-snowfall-coding-1h-loop.mp4 -i tokyo-snowfall-coding-1h.mp3 \
   -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
-  -c:a aac -b:a 192k -shortest -t 4264 tokyo-snowfall-coding-1h.mp4
+  -c:a aac -b:a 192k -shortest -t XXXX tokyo-snowfall-coding-1h.mp4
 ```
 
 Faster alternative (no re-encode, requires loop already in 1080p H.264 yuv420p):
 
 ```bash
 ffmpeg -stream_loop -1 -i tokyo-snowfall-coding-1h-loop.mp4 -i tokyo-snowfall-coding-1h.mp3 \
-  -c:v copy -c:a aac -b:a 192k -shortest -t 4264 tokyo-snowfall-coding-1h.mp4
+  -c:v copy -c:a aac -b:a 192k -shortest -t XXXX tokyo-snowfall-coding-1h.mp4
 ```
 
 ---
@@ -134,9 +134,9 @@ Tokyo Snowfall Coding Marathon | 1 Hour Uninterrupted Vol. 2
 ```
 Enter the Tokyo Snowfall Power Hour.
 
-This 1-hour-and-eleven-minute coding music marathon is built for one uninterrupted late-night code sprint. Inspired by quiet luxury Tokyo penthouses at midnight, the steady drift of snow on glass, and the warm flicker of a single andon lantern, this soundscape layers traditional Japanese instruments — kokyu bowed string, shakuhachi flute, koto, biwa, sho mouth organ, rin singing bowl — with warm low-fi ambience to create the perfect atmosphere for deep coding flow.
+This 1-hour-plus coding music marathon is built for one uninterrupted late-night code sprint. Inspired by quiet luxury Tokyo penthouses at midnight, the steady drift of snow on glass, and the warm flicker of a single andon lantern, this soundscape layers traditional Japanese instruments — kokyu bowed string, shakuhachi flute, koto, biwa, sho mouth organ, rin singing bowl — with warm low-fi ambience to create the perfect atmosphere for deep coding flow.
 
-Whether you're shipping a feature, debugging a tricky issue, refactoring, studying, writing prose, or running late-night code reviews — let this hour and eleven minutes carry you through one full uninterrupted marathon.
+Whether you're shipping a feature, debugging a tricky issue, refactoring, studying, writing prose, or running late-night code reviews — let this long marathon carry you through one full uninterrupted session.
 
 Dim the lights. Headphones on. Snow on the glass. Code on the screen. The Tokyo Snowfall handles the rest.
 
@@ -176,6 +176,7 @@ Best for:
 1:02:50 — Wadaiko, Soft
 1:05:45 — Tokyo Sleeps in Snow
 1:08:14 — Snow, Still Falling
+1:11:04 — Until First Light
 
 ▶ Subscribe for a new Tokyo penthouse coding session every week — POWER HOUR and HEALING HOUR sessions every Tuesday, Wednesday, Friday, Sunday.
 
@@ -184,7 +185,7 @@ Best for:
 #powerhour #codingmusic #1hourfocus #deepfocus #deepfocusmusic #focusmusic #studymusic #workmusic #productivitymusic #codingflow #flowstate #pomodoro #tokyomusic #snowfallmusic #ambientfocus #musicforcoding #concentrationmusic #latenightcoding #nodistractions #japaneseambient
 ```
 
-> ✅ **Timestamps confirmed** from CapCut (25 tracks, total 1:11:04). YouTube auto-detects chapters because the first line is exactly `0:00`, entries ascend, and minimum chapter length is satisfied. Track durations vary between 2:29 and 3:14.
+> ✅ **Timestamps confirmed** from CapCut (26 tracks, 25 start-times listed below + Track 1 implicit at 0:00). YouTube auto-detects chapters because the first line is exactly `0:00`, entries ascend, and minimum chapter length is satisfied. Track durations vary between 2:29 and 3:14. **Final album end time TBD pending last CapCut timestamp.**
 
 ## 9. 🏷️ Tags (22 tags)
 
@@ -207,7 +208,7 @@ Strategy: MERSO's locked 10-tag core (deep work / deep focus / focus / study / w
 ## 11. 📌 Pinned comment
 
 ```
-❄️ 1 hour 11 min. Snow on the glass. Andon glow on the desk. What did you ship in this Power Hour? Drop one word — feature, bug-fix, refactor, deploy — and subscribe for a new Tokyo session every week 🌃
+❄️ Snow on the glass. Andon glow on the desk. What did you ship in this Power Hour? Drop one word — feature, bug-fix, refactor, deploy — and subscribe for a new Tokyo session every week 🌃
 ```
 
 ## 12. 🔁 A/B title variant

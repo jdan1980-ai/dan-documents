@@ -18,7 +18,7 @@ See `published-videos.md` for the full table with metrics.
 |------|-------|--------|--------|----|----|----|-----|-----|-----|
 | `tokyo-apartment-rain-1h` | Tokyo Rain Deep Work Marathon \| 1 Hour Uninterrupted Vol. 1 | 1H 04M 56S (24 tracks) | POWER HOUR | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ **published May 10, 10:20 UTC** ([aUujtRQZGaw](https://www.youtube.com/watch?v=aUujtRQZGaw)) — title VidIQ 93/100 |
 | `healing-hour-528hz-1h` | 528 Hz Japanese Zen Healing Marathon \| 1 Hour Uninterrupted Vol. 1 *(suggested — VidIQ-test before publish)* | 1H 01M 25S | HEALING HOUR | ❌ (no script file yet) | ✅ | ✅ | ✅ | ✅ **scheduled May 14, 18:00 МСК (15:00 UTC)** ([-1RE1P98_u8](https://www.youtube.com/watch?v=-1RE1P98_u8)) | ⏳ — ⚠️ rename in YouTube Studio before publish |
-| `tokyo-snowfall-coding-1h` | Tokyo Snowfall Coding Marathon \| 1 Hour Uninterrupted Vol. 2 | **1H 11M 04S (4264 sec, 25 tracks)** | POWER HOUR | ✅ | ✅ (mixed kokyu/sho/shakuhachi rotation) | ⏳ | ⏳ | ⏳ | ⏳ |
+| `tokyo-snowfall-coding-1h` | Tokyo Snowfall Coding Marathon \| 1 Hour Uninterrupted Vol. 2 | **~1H 11M+ (26 tracks, exact end TBD)** | POWER HOUR | ✅ | ✅ (mixed kokyu/sho/shakuhachi rotation) | ⏳ | ⏳ | ⏳ | ⏳ |
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | POWER HOUR | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | POWER HOUR | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
