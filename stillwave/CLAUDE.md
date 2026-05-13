@@ -220,9 +220,51 @@ Concrete imagery — never abstract emotional adjectives.
 ## 🎨 Design rules
 
 - **Photorealistic cinematic** style (NOT sumi-e / illustration)
-- **No text on thumbnail image** — the title handles itself in YouTube UI
 - **No glow / effects on text anywhere** — plain solid colors only when text is needed
 - **All YouTube copy in English** (descriptions, titles, tags, hashtags)
+
+### Series-brand thumbnail overlay (POWER HOUR / HEALING HOUR)
+
+Every video in a series gets a clean white series-brand text overlay on top of the NanoBanana 16:9 image. **Locked style — all overlays MUST use these parameters:**
+
+- **Font:** Bebas Neue Regular — vendored at `stillwave/assets/fonts/BebasNeue-Regular.ttf`
+- **Color:** pure white `#FFFFFF`
+- **Letter spacing:** 0.25 × font size (wide tracking)
+- **Position:** top-center, baseline at ~12% from top
+- **Effects:** NONE — no shadow, no glow, no stroke, no outline
+
+The vendored font ensures every overlay across both POWER HOUR and HEALING HOUR has identical letterforms and spacing — no visual drift between sessions or operators.
+
+**Reusable generator:** `stillwave/gen_series_overlay.py`
+
+```bash
+python3 stillwave/gen_series_overlay.py "POWER HOUR"
+python3 stillwave/gen_series_overlay.py "HEALING HOUR" --size all
+python3 stillwave/gen_series_overlay.py "DEEP NIGHT" --size standard
+```
+
+Outputs transparent PNG overlays (1280×720) into `stillwave/assets/`:
+
+| Size | Font | Use case |
+|------|------|----------|
+| `<slug>-compact.png` | 90px (~50% width) | Tight thumbnails, small text emphasis |
+| `<slug>-standard.png` ⭐ | 120px (~62-70% width) | **Default** — used on most thumbnails |
+| `<slug>-large.png` | 150px max, auto-shrinks to ≤95% width | When you want the brand to dominate |
+| `<slug>-overlay.png` | alias for `-standard.png` | Backward-compat name |
+| `<slug>-*-preview.png` | same overlay on dark-navy bg | Sanity-check the look before compositing |
+
+Existing assets:
+- POWER HOUR — `power-hour-compact / standard / large / overlay` (+ previews)
+- HEALING HOUR — `healing-hour-compact / standard / large / overlay` (+ previews)
+
+**Workflow on phone or desktop:**
+
+1. Generate NanoBanana 16:9 for the new video
+2. Open [photopea.com](https://www.photopea.com) (free in-browser Photoshop)
+3. File → Open → load NanoBanana image as base layer
+4. File → Open & Place → add the matching `<slug>-standard.png` overlay
+5. (Optional) Nudge text position so it doesn't overlap a bright neon / fireplace area
+6. File → Export As → PNG → upload to YouTube Studio as custom thumbnail
 
 ---
 
