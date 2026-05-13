@@ -4,14 +4,19 @@ Channels we monitor for content gaps, format ideas, trending topics, and tag pat
 
 ## Tracked channels
 
-### Deep work / focus music niche (live API data — May 9, 2026)
+### Deep work / focus music niche (live API data — May 13, 2026)
 
-| # | Channel | Channel ID | Subs | Total views | Videos | Started | Top video |
-|---|---------|------------|------|-------------|--------|---------|-----------|
-| 6 | **MERSO — Deep Work Music** | UClgFS59KISpW3fPprHJF0Yw | 2,830 | **498K** | 57 | 2026-02-14 | 252K — "Deep Work Music — Quiet Focus Flow for Coding & Late Night Study" (2H) |
-| 7 | **Power Hour Focus** | UCUx7gvI_AjFivfqc9cXaXYQ | 5,190 | **1.1M** | 96 | 2026-01-18 | 470K — "Deep Focus Music \| ZEN Mode Flow for Calm Productivity" (1H 18min) |
+| # | Channel | Channel ID (country) | Subs | Total views | Videos | Started | Top video |
+|---|---------|----------------------|------|-------------|--------|---------|-----------|
+| 6 | **MERSO — Deep Work Music** | UClgFS59KISpW3fPprHJF0Yw | 2,830 | 498K | 57 | 2026-02-14 | 252K — "Deep Work Music — Quiet Focus Flow for Coding & Late Night Study" (2H) |
+| 7 | **Power Hour Focus** | UCUx7gvI_AjFivfqc9cXaXYQ | 5,190 | 1.1M | 96 | 2026-01-18 | 470K — "Deep Focus Music \| ZEN Mode Flow for Calm Productivity" (1H 18min) |
+| 8 | ⭐ **FOCUS ZONE** (handle: @DeepFocusGroove-e2w) | UC5JCYWdgp3qPkrbbkuv3k_Q | **13,500** | **2.6M** | 51 | 2025-10-06 | **1.1M** — "Focus Like a CEO • Zero Distraction **Penthouse Mix** for Productivity" (1H 35min) |
+| 9 | **Deep Productivity** | UCDAm-9IznFtHZ8xSbG71t7Q (DE) | 5,790 | 1.6M | 58 | 2024-09-08 | 493K — "Hyper Focus Mode \| Concentration Music Productivity" (2H 1min) |
+| 10 | **BrainFlow Beats** | UCPU2v-VkP-c17-GcpQWZWkQ (US) | 7,510 | 1.2M | 93 | 2018-05-14 | 192K — "Winter Deep Work Ambience ~ Cozy Cabin Focus Music" (2H 8min) |
+| 11 | **Deep Work Signals** (handle: @DeepWorkvibes) | UC_oUvfo2acX3dqd6rZQNkQg (US) | 1,230 | 370K | 30 | 2020-05-23 | 107K — "Deep Work Music \| Ambient Music for Deep Focus" (2H 9min) |
+| 12 | **Alpha Mind Flow** | UCWpfqE796o-5WNfE44w7OyA (GB) | 329 | 81K | 59 | 2016-06-07 | 47K — "Focus Music ~ Deep Focus Music for Studying & Productivity" (3H 31min) |
 
-**Both channels:** algorithmic breakouts (~178–215 views per subscriber). Same niche, same period (Jan–Feb 2026 launch), both validated.
+**Channels #6–12:** All chasing the same "deep work / focus music" search demand. Common formats: **1H–2H** dominates, 3H secondary. Top performers all use **scene-narrative titles** (CEO Penthouse / Cozy Cabin / Winter Office) — not generic "ambient music" titles.
 
 ### Power Hour Focus — TOP 10 videos (live API data)
 
@@ -46,6 +51,32 @@ Channels we monitor for content gaps, format ideas, trending topics, and tag pat
 | 7 632 | 3H 1sec | Deep Work Music — Rain at the Glass for Coding, Writing & Late Night Study |
 
 **Pattern:** Locked title formula `Deep Work Music — [Mood] [Subject] for [Use1], [Use2] & [Use3]`. **2H–3H length.** Top 4 mix 2H + 3H, no 1H. 3H is their format unlike PHF.
+
+### ⭐ FOCUS ZONE — TOP 5 videos (live API data — direct competitor for our Tokyo Penthouse aesthetic)
+
+| Views | Length | Title |
+|-------|--------|-------|
+| 1 134 716 | 1H 35min | Focus Like a CEO • Zero Distraction **Penthouse Mix** for Productivity |
+| 577 195 | 2H 00min | Focus Like a CEO • Midnight Ocean **Penthouse Mix** for Deep Work & Productivity |
+| 301 200 | 1H 58min | CEO Mode • Quiet Luxury **Winter Office** Music for Deep Work (No Distractions) |
+| 146 699 | 1H 58min | Focus Like a CEO • **Winter Penthouse Mix** for Deep Work & Productivity |
+| 143 509 | 2H 07min | CEO FOCUS • Quiet Luxury **Winter Penthouse Office** for Deep Work (No Distractions) |
+
+**Pattern:** TOP 5 are ALL **penthouse + CEO + winter/luxury office** — same aesthetic we're building for POWER HOUR. Length sweet spot **1H 35min – 2H 7min**. Title formula `Focus Like a CEO • [Mood/Scene] [Aesthetic] for [Outcome]`. Channel started Oct 2025 → 1.1M views on top video by May 2026 = format works in current YouTube climate.
+
+**Direct implication for StillWave:** Tokyo Snowfall Coding (Power Hour #2) lands in exactly this competitive zone — luxury penthouse + winter + deep work. Tokyo Rain #1 already published in adjacent territory (penthouse + rain). Our differentiator: **Japanese instruments + Tokyo neon city + andon lantern** — none of FOCUS ZONE's top 5 leans Japanese, they're more generic luxury. That's our white space.
+
+### BrainFlow Beats — TOP 5 videos (Winter / Cozy Cabin aesthetic — adjacent competitor)
+
+| Views | Length | Title |
+|-------|--------|-------|
+| 191 644 | 2H 08min | Winter Deep Work Ambience ~ **Cozy Cabin** Focus Music for Productive Sessions |
+| 146 481 | (live) | Deep Work Winter Focus Music ~ **Cozy Cabin** Ambiance & Productive Study Session Vibes |
+| 145 564 | 2H 00min | Chill Work Oasis Coastal Focus Music \| Deep Work Productivity Ambient Sounds |
+| 108 084 | 2H 12min | Unwind & Work \| **Luxury Office** Ambience with Chill Music for Peak Productivity at Home |
+| 70 000 | 2H 06min | Deep Work Winter Wonderland Work Music ~ **Cozy Cabin** Ambiance for Focused Study |
+
+**Pattern:** Same "Winter" hook as FOCUS ZONE but routed to **Cozy Cabin** (wood / fire / forest) instead of **Penthouse** (glass / neon / city). Two parallel winter aesthetics both performing. Cozy Cabin is the warmer, more nostalgic side — Penthouse is the modern luxury side. StillWave is firmly in Penthouse camp.
 
 ### 🏷️ Winning tag patterns (the gold)
 
