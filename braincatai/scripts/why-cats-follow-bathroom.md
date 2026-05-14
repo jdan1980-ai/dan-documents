@@ -76,7 +76,7 @@ Look in their eyes. That's not curiosity. That's love wearing a security badge.
 
 Next time they shove past you at the door? They're protecting their human.
 
-Open the door. Let them guard you. Follow Brain for more cat secrets.
+So... let them in. They're literally your bodyguard. Brain's got more cat mysteries waiting — hit subscribe.
 ```
 
 ---
@@ -399,7 +399,7 @@ In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 cl
 **🎙️ Voiceover (record fresh in ElevenLabs per video):**
 
 ```
-Open the door. Let them guard you. Follow Brain for more cat secrets.
+So... let them in. They're literally your bodyguard. Brain's got more cat mysteries waiting — hit subscribe.
 ```
 
 > **End card:** after Scene 8, append the reusable Brain end card from [`end-card.md`](../end-card.md). Use **Short variant (3 sec)**. The end card is also generated ONCE and reused.

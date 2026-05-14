@@ -58,11 +58,11 @@ Visual is universal but VO is per-video. Pick from this list of locked CTAs that
 
 | Script | Sc 8 VO (record in ElevenLabs per video) |
 |--------|-------------------------------------------|
-| `13-words-cats-understand` | "Whisper your cat's name tonight. Watch the ear flick. Follow Brain for more cat secrets." |
-| `why-cats-stare-at-you` | "Look up. Are they staring? Slow blink back. Follow Brain for more cat secrets." |
-| `your-cat-sees-you-as-giant-cat` | "You've been adopted. Slow blink back. Follow Brain for more cat secrets." |
-| `why-cats-follow-bathroom` | "Open the door. Let them guard you. Follow Brain for more cat secrets." |
-| `cats-hear-you-blinking` | "You can't out-sneak a cat. Follow Brain for more cat secrets." |
+| `13-words-cats-understand` | "Whisper their name right now. Did the ear flick? Drop a YES below. Subscribe — Brain decodes a new cat secret every single day." |
+| `why-cats-stare-at-you` | "Catch that stare tonight. Slow blink back at them. Drop a 👀 in the comments if it worked. Brain's got more cat decoding — hit subscribe." |
+| `your-cat-sees-you-as-giant-cat` | "Congrats — you've been adopted into the colony. Brain's your kitten now. Slow blink back. Subscribe for more cat truth that'll change how you see them." |
+| `why-cats-follow-bathroom` | "So... let them in. They're literally your bodyguard. Brain's got more cat mysteries waiting — hit subscribe." |
+| `cats-hear-you-blinking` | "Blink slowly right now. Your cat just heard it. You can't out-sneak them — but you can subscribe. Brain's got more cat senses to reveal." |
 
 ---
 

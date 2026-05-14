@@ -76,7 +76,7 @@ And there's ONE word they never forget. Vet. Forever.
 
 Bonus: they know YOUR voice. Strangers calling them? Ignored.
 
-Whisper your cat's name tonight. Watch the ear flick. Follow Brain for more cat secrets.
+Whisper their name right now. Did the ear flick? Drop a YES below. Subscribe — Brain decodes a new cat secret every single day.
 ```
 
 ---
@@ -411,7 +411,7 @@ In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 cl
 **🎙️ Voiceover (record fresh in ElevenLabs per video):**
 
 ```
-Whisper your cat's name tonight. Watch the ear flick. Follow Brain for more cat secrets.
+Whisper their name right now. Did the ear flick? Drop a YES below. Subscribe — Brain decodes a new cat secret every single day.
 ```
 
 > **End card:** after Scene 8, append the reusable Brain end card from [`end-card.md`](../end-card.md). Use **Short variant (3 sec)**. The end card is also generated ONCE and reused.

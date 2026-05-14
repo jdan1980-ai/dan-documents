@@ -74,7 +74,7 @@ Plus — every stare is them DECODING your face. You're a constant puzzle.
 
 Frozen stare with a twitching tail tip? Predator mode. Even on YOU.
 
-Look up. Are they staring? Slow blink back. Follow Brain for more cat secrets.
+Catch that stare tonight. Slow blink back at them. Drop a 👀 in the comments if it worked. Brain's got more cat decoding — hit subscribe.
 ```
 
 ---
@@ -391,7 +391,7 @@ STYLE: Pixar 3D render, cinematic warm daylight, vertical 9:16, soft depth of fi
 **🎙️ Voiceover:**
 
 ```
-Look up. Are they staring? Slow blink back. Follow Brain for more cat secrets.
+Catch that stare tonight. Slow blink back at them. Drop a 👀 in the comments if it worked. Brain's got more cat decoding — hit subscribe.
 ```
 
 > ⚠️ **VO/visual offset note (resolution):** Visual demonstrates PREDATOR mode, VO transitions to the CTA. Sub-caption "4. PREDATOR" overlay during this scene. Scene 8 then resolves with the slow-blink CTA visually + CTA VO already started here.

@@ -76,7 +76,7 @@ Look inside their eyes. To them, you're family. Just shaped wrong.
 
 That's why they bring you dead mice — teaching you to hunt.
 
-You've been adopted. Slow blink back. Follow Brain for more cat secrets.
+Congrats — you've been adopted into the colony. Brain's your kitten now. Slow blink back. Subscribe for more cat truth that'll change how you see them.
 ```
 
 ---
@@ -395,7 +395,7 @@ In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 cl
 **🎙️ Voiceover (record fresh in ElevenLabs per video):**
 
 ```
-You've been adopted. Slow blink back. Follow Brain for more cat secrets.
+Congrats — you've been adopted into the colony. Brain's your kitten now. Slow blink back. Subscribe for more cat truth that'll change how you see them.
 ```
 
 > **End card:** after Scene 8, append the reusable Brain end card from [`end-card.md`](../end-card.md). Use **Short variant (3 sec)**. The end card is also generated ONCE and reused.

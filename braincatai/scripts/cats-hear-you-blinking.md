@@ -76,7 +76,7 @@ That ear-swivel? Each ear moves separately. 180 degrees of tracking.
 
 Why do they stare at empty corners? Because empty isn't empty for them.
 
-You can't out-sneak a cat. Follow Brain for more cat secrets.
+Blink slowly right now. Your cat just heard it. You can't out-sneak them — but you can subscribe. Brain's got more cat senses to reveal.
 ```
 
 ---
@@ -397,7 +397,7 @@ In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 cl
 **🎙️ Voiceover (record fresh in ElevenLabs per video):**
 
 ```
-You can't out-sneak a cat. Follow Brain for more cat secrets.
+Blink slowly right now. Your cat just heard it. You can't out-sneak them — but you can subscribe. Brain's got more cat senses to reveal.
 ```
 
 > **End card:** after Scene 8, append the reusable Brain end card from [`end-card.md`](../end-card.md). Use **Short variant (3 sec)**. The end card is also generated ONCE and reused.
