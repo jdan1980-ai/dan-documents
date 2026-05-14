@@ -6,10 +6,10 @@
 - **Slug:** `tokyo-snowfall-coding-1h`
 - **Series:** POWER HOUR (playlist `PLwFZIsVXtnlFnGKhQrOblldPeL5pRnu5J`)
 - **Format:** Long-form
-- **Length:** **1H 06M 00S (3960 sec, 25 tracks)** — confirmed from CapCut redo (May 14 re-assembly after the first CapCut project was lost during disk cleanup)
+- **Length:** **1H 06M 05S (3965 sec, 25 tracks)** — confirmed from CapCut redo (May 14 re-assembly after the first CapCut project was lost during disk cleanup)
 - **Phase:** 1 (soft intro — 2nd entry in POWER HOUR series, after Tokyo Rain)
 - **Aesthetic:** Spacious Tokyo Penthouse — corner-wrap floor-to-ceiling windows + light snowfall + neon Tokyo + modern linear fireplace + open MacBook with VS Code editor + andon paper lantern (single Japanese accent)
-- **Status:** Suno generated + CapCut re-assembly done (25 tracks, 1H 06M 00S), awaiting NanoBanana + Flow loop + ffmpeg encode + thumbnail
+- **Status:** Suno generated + CapCut re-assembly done (25 tracks, 1H 06M 05S), awaiting NanoBanana + Flow loop + ffmpeg encode + thumbnail
 - **Upload date:** TBD
 
 ### Differentiation vs Tokyo Rain #1
@@ -106,19 +106,19 @@ Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, contemplative mid
 
 ## 6. 🛠️ ffmpeg encode command
 
-Final length **3960 sec (1H 06M 00S, 25 tracks)** confirmed from CapCut re-assembly on May 14.
+Final length **3965 sec (1H 06M 05S, 25 tracks)** confirmed from CapCut re-assembly on May 14.
 
 ```bash
 ffmpeg -stream_loop -1 -i tokyo-snowfall-coding-1h-loop.mp4 -i tokyo-snowfall-coding-1h.mp3 \
   -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
-  -c:a aac -b:a 192k -shortest -t 3960 tokyo-snowfall-coding-1h.mp4
+  -c:a aac -b:a 192k -shortest -t 3965 tokyo-snowfall-coding-1h.mp4
 ```
 
 Faster alternative (no re-encode, requires loop already in 1080p H.264 yuv420p):
 
 ```bash
 ffmpeg -stream_loop -1 -i tokyo-snowfall-coding-1h-loop.mp4 -i tokyo-snowfall-coding-1h.mp3 \
-  -c:v copy -c:a aac -b:a 192k -shortest -t 3960 tokyo-snowfall-coding-1h.mp4
+  -c:v copy -c:a aac -b:a 192k -shortest -t 3965 tokyo-snowfall-coding-1h.mp4
 ```
 
 ---
@@ -174,8 +174,8 @@ Best for:
 52:11 — Last Commit
 55:04 — Temple Bell, Frozen
 57:58 — Wadaiko, Soft
-1:00:00 — Tokyo Sleeps in Snow
-1:03:00 — Snow, Still Falling
+1:00:27 — Tokyo Sleeps in Snow
+1:03:25 — Snow, Still Falling
 
 ▶ Subscribe for a new Tokyo penthouse coding session every week — POWER HOUR and HEALING HOUR sessions every Tuesday, Wednesday, Friday, Sunday.
 
@@ -184,7 +184,7 @@ Best for:
 #powerhour #codingmusic #1hourfocus #deepfocus #deepfocusmusic #focusmusic #studymusic #workmusic #productivitymusic #codingflow #flowstate #pomodoro #tokyomusic #snowfallmusic #ambientfocus #musicforcoding #concentrationmusic #latenightcoding #nodistractions #japaneseambient
 ```
 
-> ✅ **Timestamps confirmed** from CapCut redo on May 14 (25 tracks, total 1:06:00). YouTube auto-detects chapters because the first line is exactly `0:00`, entries ascend, and minimum chapter length is satisfied. Track durations vary between 2:11 and 3:08. Last 3 timestamps (1:00:00 / 1:03:00 / 1:06:00) recorded by user without seconds precision — assumed exact round minutes.
+> ✅ **Timestamps confirmed** from CapCut redo on May 14 (25 tracks, total 1:06:05). YouTube auto-detects chapters because the first line is exactly `0:00`, entries ascend, and minimum chapter length is satisfied. Track durations vary between 2:11 and 3:08.
 
 ## 9. 🏷️ Tags (22 tags)
 
