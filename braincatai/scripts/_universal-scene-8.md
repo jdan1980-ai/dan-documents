@@ -59,7 +59,7 @@ Visual is universal but VO is per-video. Pick from this list of locked CTAs that
 | Script | Sc 8 VO (record in ElevenLabs per video) |
 |--------|-------------------------------------------|
 | `13-words-cats-understand` | "Whisper their name right now. Did the ear flick? Drop a YES below. Subscribe — Brain decodes a new cat secret every single day." |
-| `why-cats-stare-at-you` | "Catch that stare tonight. Slow blink back at them. Drop a 👀 in the comments if it worked. Brain's got more cat decoding — hit subscribe." |
+| `why-cats-stare-at-you` | "Catch that stare tonight. Slow blink back. Drop a 👀 below if they got it. Subscribe — Brain's got more cat decoding." |
 | `your-cat-sees-you-as-giant-cat` | "Congrats — you've been adopted into the colony. Brain's your kitten now. Slow blink back. Subscribe for more cat truth that'll change how you see them." |
 | `why-cats-follow-bathroom` | "So... let them in. They're literally your bodyguard. Brain's got more cat mysteries waiting — hit subscribe." |
 | `cats-hear-you-blinking` | "Blink slowly right now. Your cat just heard it. You can't out-sneak them — but you can subscribe. Brain's got more cat senses to reveal." |

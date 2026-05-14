@@ -209,10 +209,10 @@ STYLE: Pixar 3D render, cinematic warm lab daylight, vertical 9:16, soft depth o
 **🎙️ Voiceover:**
 
 ```
-Hard stare with WIDE pupils? That's a demand. Usually food. NOW.
+Let me decode them — one by one.
 ```
 
-**Editing note:** Sub-caption "1. DEMAND" overlay lower-third while VO says "demand. Usually food".
+**Editing note:** Sub-caption "DEMAND · LOVE · DECODE · PREDATOR" sweep across lower-third as Brain teases the 4 categories.
 
 ---
 
@@ -254,10 +254,8 @@ STYLE: Pixar 3D render, cinematic warm daylight, vertical 9:16, soft depth of fi
 **🎙️ Voiceover:**
 
 ```
-Soft slow stare with half-closed eyes? That's a love confession.
+Hard stare with WIDE pupils? That's a demand. Usually food. NOW.
 ```
-
-> ⚠️ **VO/visual offset note:** This scene VISUALLY shows DEMAND but the VO transitions to LOVE for the next scene. The previous Scene 3 VO already landed the DEMAND line ("That's a demand. Usually food. NOW.") — Scene 4's visual is the demand demonstration. Then Scene 5 begins the LOVE story (visual + VO together). The overlap is intentional to give the DEMAND visual a full beat of breathing room.
 
 ---
 
@@ -299,10 +297,8 @@ STYLE: Pixar 3D render, cinematic warm daylight bathed in soft pink halo light, 
 **🎙️ Voiceover:**
 
 ```
-Plus — every stare is them DECODING your face. You're a constant puzzle.
+Soft slow stare with half-closed eyes? That's a love confession.
 ```
-
-> ⚠️ **VO/visual offset note (continuation):** Visual continues the LOVE demonstration, VO transitions into the DECODE setup. Sub-caption "2. LOVE" overlay during the first half of this scene, then "3. DECODE" appears in Scene 6.
 
 ---
 
@@ -346,10 +342,8 @@ STYLE: Pixar 3D render with slight slow-mo / dreamlike quality, cinematic warm d
 **🎙️ Voiceover:**
 
 ```
-Frozen stare with a twitching tail tip? Predator mode. Even on YOU.
+Plus — every stare is them DECODING your face. You're a constant puzzle.
 ```
-
-> ⚠️ **VO/visual offset note (continuation):** Visual demonstrates DECODE (the iris-screen reveal), VO transitions into the PREDATOR setup for Scene 7. Sub-caption "3. DECODE" overlay during this scene.
 
 ---
 
@@ -391,10 +385,8 @@ STYLE: Pixar 3D render, cinematic warm daylight, vertical 9:16, soft depth of fi
 **🎙️ Voiceover:**
 
 ```
-Catch that stare tonight. Slow blink back at them. Drop a 👀 in the comments if it worked. Brain's got more cat decoding — hit subscribe.
+Frozen stare with a twitching tail tip? Predator mode. Even on YOU.
 ```
-
-> ⚠️ **VO/visual offset note (resolution):** Visual demonstrates PREDATOR mode, VO transitions to the CTA. Sub-caption "4. PREDATOR" overlay during this scene. Scene 8 then resolves with the slow-blink CTA visually + CTA VO already started here.
 
 ---
 
@@ -409,7 +401,7 @@ In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 cl
 **🎙️ Voiceover (record fresh in ElevenLabs per video):**
 
 ```
-(no new VO — Scene 7's CTA line plays under Scene 7+8, this scene is visual-only)
+Catch that stare tonight. Slow blink back. Drop a 👀 below if they got it. Subscribe — Brain's got more cat decoding.
 ```
 
 > **End card:** after Scene 8, append the reusable Brain end card from [`end-card.md`](../end-card.md). Use **Short variant (3 sec)**. The end card is also generated ONCE and reused.
@@ -436,7 +428,7 @@ Mysterious curious plucked harp + pizzicato strings + marimba, 92 BPM, tension-s
 2. Add VO track from TTS (one continuous file — split per scene if needed to sync)
 3. Add music at -18 LUFS, voice at -12 LUFS
 4. Burn-in subtitles: top third of frame, max 4 words at a time
-5. Lower-third category captions: "1. DEMAND" during Scene 4 + first half of Scene 5, "2. LOVE" during second half of Scene 5, "3. DECODE" during Scene 6, "4. PREDATOR" during Scene 7
+5. Lower-third category captions: "1. DEMAND" during Scene 4, "2. LOVE" during Scene 5, "3. DECODE" during Scene 6, "4. PREDATOR" during Scene 7
 6. SFX:
    - Sharp "ping" SFX synced to the eye-lock at frame 0 of Scene 1
    - Soft "?" thought-bubble pop in Scene 2
