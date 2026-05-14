@@ -279,6 +279,11 @@ Update the template — `[opening]` now starts with fade-in instruction, and rep
 - **No glow / effects on text anywhere** — plain solid colors only when text is needed
 - **All YouTube copy in English** (descriptions, titles, tags, hashtags)
 
+## 📝 Description rules
+
+- **Never name specific publication days** (e.g. `every Tuesday and Friday`, `every Sunday`). Always write `every week` instead. Specific-day promises lock you into a brutal cadence — miss one and viewers notice. `every week` keeps flexibility while still signaling regular uploads.
+- Subscribe / bell CTAs use `every week` only.
+
 ### Series-brand thumbnail overlay (POWER HOUR / HEALING HOUR)
 
 Every video in a series gets a clean white series-brand text overlay on top of the NanoBanana 16:9 image. **Locked style — all overlays MUST use these parameters:**

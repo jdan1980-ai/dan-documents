@@ -177,9 +177,9 @@ Best for:
 1:00:27 — Tokyo Sleeps in Snow
 1:03:25 — Snow, Still Falling
 
-▶ Subscribe for a new Tokyo penthouse coding session every week — POWER HOUR and HEALING HOUR sessions every Tuesday, Wednesday, Friday, Sunday.
+▶ Subscribe for a new Tokyo penthouse coding session every week — new POWER HOUR and HEALING HOUR sessions every week.
 
-🔔 New POWER HOUR coding marathons every Tuesday and Friday. Tap the bell.
+🔔 New POWER HOUR coding marathons every week. Tap the bell.
 
 #powerhour #codingmusic #1hourfocus #deepfocus #deepfocusmusic #focusmusic #studymusic #workmusic #productivitymusic #codingflow #flowstate #pomodoro #tokyomusic #snowfallmusic #ambientfocus #musicforcoding #concentrationmusic #latenightcoding #nodistractions #japaneseambient
 ```
