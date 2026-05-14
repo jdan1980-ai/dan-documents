@@ -135,6 +135,40 @@ User policy as of 11 мая 2026: **every BrainCatAI video must be about cats.**
 
 Existing non-cat scripts in the repo (Sky Blue, Doorway Effect, Vagus Nerve, Black Hole, Goosebumps, 6-7 Kids Trend) are **legacy** — do not duplicate, do not generate sequels in those niches. Their slots in the schedule should be swapped for cat topics where still possible.
 
+#### 🔍 MANDATORY — Pre-scripting vidIQ keyword check (locked 13 мая 2026)
+
+**Before writing ANY new script, pull `vidiq_keyword_research` on the main keyword for that topic.** Do NOT skip this. Do NOT write a script until the keyword check is done and the user has seen the score.
+
+Why locked: we wasted credits writing `cats-hear-you-blinking` (vidIQ score 0, zero search demand) when `your-cat-sees-you-as-giant-cat` was available at score 71.47 with 50,361 monthly searches and direct competitor proof of virality. **Every low-score script written = an opportunity to write a high-demand script lost.** User goal is monetization — every wasted slot delays Tier 1/Tier 2 thresholds.
+
+**Protocol:**
+
+1. User proposes a topic (or I propose a candidate from the backlog)
+2. Run `vidiq_keyword_research` with the main keyword (e.g. "why cats stare at you")
+3. Surface the result in this format:
+
+```
+🔍 vidIQ check for "[topic]":
+
+- Main keyword: "[exact keyword]"
+- Overall score: [X.XX]
+- Monthly searches: [N,NNN]
+- Competition: [X.X] (low/medium/high)
+- Top related keyword: "[strongest related]" — score [Y], [M] monthly
+
+Verdict: [GREEN >65 / YELLOW 50-65 / RED <50]
+```
+
+4. Decision gates:
+   - **GREEN (overall >65, monthly >5k):** proceed to write the script
+   - **YELLOW (50-65 or monthly 2-5k):** I propose an alternative cat topic from `content-ideas.md` or my own suggestion that scores higher, then user picks
+   - **RED (<50 or monthly <2k):** I push back firmly with the "debate me" rule — explain why I think this is a waste of a production slot, propose 2-3 alternative cat topics with higher scores, ask user to confirm if they still want to proceed or pivot
+5. If user overrides a YELLOW/RED after seeing the data → proceed but note the override in the script's Meta block ("⚠️ Written despite vidIQ score X — user override on [date]") so we can audit the call later
+
+**Cost of the check:** 5 vidIQ credits per topic. With ~1938 credits in the bank that's 387 keyword checks before running dry. The cost of NOT checking (a low-score script): ~$50-65 in Veo/Nano production + 1 publishing slot + lost momentum during recovery.
+
+**Related-keyword harvest:** when `vidiq_keyword_research` returns related keywords with score >60, save them in the script's Tags section AND consider them as future topic candidates. Add the top 2-3 to `content-ideas.md`.
+
 **Pipeline:** 8 scenes → image in Nano Banana → animation in Veo 3 → assembly in Google Vids.
 
 **Channel:** [@braincatai](https://www.youtube.com/@braincatai) · channel ID `UCMKcrIw1l1u_WU0M9Cv-DKw` · uploads playlist `UUMKcrIw1l1u_WU0M9Cv-DKw`
