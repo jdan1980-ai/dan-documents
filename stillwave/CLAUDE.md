@@ -243,15 +243,31 @@ Update the template — `[opening]` now starts with fade-in instruction, and rep
 
 ### Critical rules
 
-- **Length under 60 characters.** Mobile feeds cut at 60-65 chars. Tokyo Rain Vol. 1 = 59 chars.
+- **Length under 60 characters.** Mobile feeds cut at 60-65 chars. Tokyo Rain Vol. 1 = 59 chars. Healing Hour Vol. 1 = 71 chars (VidIQ-optimized but borderline mobile — accepted because score is 91/100 vs 86 for the shorter alternative).
 - **Lead with the scene, not "Best/Top/Deep/Quiet Music"** — generic openers waste prime real estate.
 - **No "Power Hour" / "Healing Hour" in the title text.** Series brand is carried by:
   - Thumbnail overlay (`POWER HOUR` / `HEALING HOUR` white bold, see Design rules)
   - YouTube playlist title (`POWER HOUR`, `HEALING HOUR`)
   - Description body
   Keeping series name OUT of the title frees ~10 chars for stronger keywords.
-- **Always run VidIQ before publishing** — target ≥85/100. If a candidate scores below, swap one slot (usually the "Differentiator" word) and retest.
+- **Always run VidIQ before publishing** — target ≥85/100, prefer 90+. Use the `mcp__32905af3-…__vidiq_score_title` MCP tool (5 credits per call) to test variations directly without leaving the chat.
 - **Иероглиф stays out of title** (kept in description, playlist titles, tags only).
+
+### VidIQ-validated swap table (learned from live scoring)
+
+| Word slot | High-scoring choice | Low-scoring alternative |
+|-----------|--------------------|-----------------------|
+| Hook noun | `Marathon` (+5..+7) | `Sprint` (−9), `Hour`, `Block` |
+| Pipe-tail differentiator | `Uninterrupted` | `Distraction-Free` (−9), `Pure Healing`, `No Distractions` |
+| Music genre keyword | Include `Music` in first half before `\|` (Healing pattern) | Drop "Music" entirely (−5 for healing genre) |
+| Lead keyword | Concrete scene (`Tokyo Rain`, `Tokyo Snowfall`, `528 Hz Japanese Zen`) | `Best Focus Music` / `Deep Focus Music` (generic, −7..−10) |
+| Series brand on/off in title | OFF — brand on thumbnail only | ON — `Power Hour` in title body (−4..−6) |
+
+### Genre-specific patterns (VidIQ live data — May 14, 2026)
+
+- **POWER HOUR (focus / coding / deep work):** `[Scene] [Use Case] Marathon | 1 Hour Uninterrupted Vol. N` → 93/100
+- **HEALING HOUR (frequency / wellness):** `[Scene] [Genre] Music Marathon | 1 Hour Healing Uninterrupted Vol. N` → 91/100
+  - Healing genre needs `Music` in first half (boosts +3..+5) and `Healing` AFTER the pipe (otherwise score drops)
 
 ### Source of truth for next Vol. number
 
