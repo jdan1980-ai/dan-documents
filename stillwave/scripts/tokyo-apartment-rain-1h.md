@@ -16,18 +16,20 @@
 ## 1. 🎵 Suno Prompt A — Style field
 
 ```
-Slow ambient lo-fi soundscape with heavy rain falling on a high floor floor-to-ceiling glass window, distant koto plucks every 30 seconds, soft warm analog synth pad, deep sub-bass pulse every 16 bars (the city heartbeat), occasional muted city ambient hum (no traffic horns), water dripping from a window frame. 60 BPM. Rain dominates the texture, music is delicate background. Loopable for 1 hour 4 minutes (24 Suno tracks pre-mixed in CapCut, no need to loop), no buildup, no climax, sustained meditative atmosphere. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Slow ambient lo-fi soundscape with heavy rain falling on a high floor floor-to-ceiling glass window, distant koto plucks every 30 seconds, soft warm analog synth pad, deep sub-bass pulse every 16 bars (the city heartbeat), occasional muted city ambient hum (no traffic horns), water dripping from a window frame. 60 BPM. Rain dominates the texture, music is delicate background. Sustained meditative atmosphere. Gradual fade-in from silence at the start (3-4 seconds), gentle fade-out to silence at the end (6-8 seconds), no abrupt cuts. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
+
+> Updated to include the locked fade-in / fade-out rule from `CLAUDE.md` §Suno rules. Originally published Tokyo Rain Vol. 1 was generated before this rule existed — keep this updated prompt as the template for any future Tokyo Rain re-generations or Vol. 2+ entries.
 
 ## 2. 🎵 Suno Prompt B — Lyrics field
 
 ```
 [no lyrics, no vocals, instrumental only]
-[opening: a single distant temple bell rings once far below in the city, heavy rain begins falling against a tall glass window]
+[opening: 3-4 second gentle fade-in from silence, then a single distant temple bell rings once far below in the city, heavy rain begins falling against a tall glass window]
 [section A: koto plucks slowly every 30 seconds, sub-bass pulses softly every 16 bars like the city's heartbeat, muted Tokyo ambient hum below]
 [section B: warm synth pad swells gently, condensation forms on the glass, neon glow softens through the rain]
 [section C: piano enters with single sustained notes, brief silence held for 8 seconds, then rain swells back]
-[loop point: rain texture remains constant throughout, instruments fade in and out around it, no audible break in audio]
+[closing: instruments gradually fade out to silence over 6-8 seconds, last koto pluck decays softly into the rain texture, no abrupt cut at the end]
 [mood: alone in a high apartment, neon Tokyo below, rain on the glass, time forgotten]
 [texture: wet glass, condensation, distant city pulse, soft brushstroke on rice paper]
 ```

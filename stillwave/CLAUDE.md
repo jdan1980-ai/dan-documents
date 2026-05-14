@@ -176,6 +176,46 @@ ALWAYS use this format:
 
 Concrete imagery — never abstract emotional adjectives.
 
+### 🌅 Smooth start and end (mandatory — fixes Suno's abrupt-cut problem)
+
+By default Suno generates tracks with **hard starts and hard endings** — sudden instrument onsets at 0:00 and abrupt cuts at the end. For ambient / focus music this is jarring, and for multi-track CapCut assembly it makes seamless crossfades impossible.
+
+**Every Suno generation for StillWave MUST include explicit fade-in / fade-out instructions** in both Prompt A and Prompt B.
+
+#### In Prompt A (Style field)
+
+Add this phrase before the locked tail:
+
+```
+gradual fade-in from silence at the start (3-4 seconds), gentle fade-out to silence at the end (6-8 seconds), no abrupt cuts.
+```
+
+This is ~110 chars — leave room within the 1000-char Suno Style limit.
+
+#### In Prompt B (Lyrics field)
+
+Update the template — `[opening]` now starts with fade-in instruction, and replace the old `[loop point]` with a `[closing]` section that ends with fade-out:
+
+```
+[no lyrics, no vocals, instrumental only]
+[opening: 3-4 second gentle fade-in from silence, then [описание вступления]]
+[section A: описание части A]
+[section B: описание части B]
+[section C: описание части C]
+[closing: instruments gradually fade out to silence over 6-8 seconds, last note decays softly into silence, no abrupt cut at the end]
+[mood: образ/сцена/состояние]
+[texture: фактура звука]
+```
+
+**Why fades on every track (not just album start/end):**
+
+- Track 1 of the album needs a fade-in so the album doesn't start with a sudden burst
+- Track N (final) needs a fade-out so the album doesn't cut off abruptly
+- Tracks 2 through N-1 in the middle ALSO need soft starts and soft ends — this lets CapCut crossfades between adjacent tracks look natural (a hard-onset track 5 will sound abrupt even mid-album)
+- The fade durations are short enough (3-4s in, 6-8s out) that they don't eat musically meaningful content
+
+**When fade rule does NOT apply:** Shorts (<60 sec), where you actually need a strong hook in the first 2 seconds — for those, replace fade-in with a single attention-grabbing onset (a temple bell, a held note, a soft pad swell from silence to peak in 1 second).
+
 ---
 
 ## 📝 Title format — VidIQ-validated (Phase 1+)

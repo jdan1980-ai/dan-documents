@@ -29,33 +29,33 @@
 
 > Album mixes tracks from all 3 prompt variants below for sonic variety across the ~24 tracks. All <900 chars (Suno Style limit 1000).
 
-### Base — Kokyu lead (943 chars)
+### Base — Kokyu lead (959 chars, with fade rule)
 
 ```
-Slow ambient lo-fi soundscape with light snow drifting past a tall floor-to-ceiling glass window on a high Tokyo skyscraper floor at midnight. Slow kokyu Japanese bowed string plays long mournful sustained notes every 40 seconds, bow drawn slowly across the strings, koto plucks scattered slow notes every 20 seconds in pentatonic minor, deep biwa lute drone in the lower register, distant suzu temple bell rings every 90 seconds (very faint), warm analog synth pad beneath the Japanese instruments, deep sub-bass pulse every 24 bars (the sleeping city heartbeat), soft wadaiko taiko hit every 64 bars, faint snowfall on glass like distant white noise, no traffic, no horns. 52 BPM. Calm and meditative. Japanese instruments dominate the foreground, ambient synth holds the background. No buildup, no climax, sustained midnight Tokyo penthouse stillness. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Slow ambient lo-fi soundscape with light snow drifting past a tall floor-to-ceiling glass window on a high Tokyo skyscraper floor at midnight. Slow kokyu Japanese bowed string plays long mournful sustained notes every 40 seconds, bow drawn slowly across the strings, koto plucks scattered slow notes every 20 seconds in pentatonic minor, deep biwa lute drone in the lower register, distant suzu temple bell rings every 90 seconds (very faint), warm analog synth pad beneath the Japanese instruments, deep sub-bass pulse every 24 bars, soft wadaiko taiko hit every 64 bars, faint snowfall on glass like distant white noise, no traffic, no horns. 52 BPM. Japanese instruments dominate the foreground. Sustained midnight Tokyo penthouse stillness. Gradual fade-in from silence at the start (3-4 seconds), gentle fade-out to silence at the end (6-8 seconds), no abrupt cuts. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 
-### V1 — Sho dominant (970 chars) — synth pad replaced by sho mouth organ drone
+### V1 — Sho dominant (943 chars, with fade rule) — synth pad replaced by sho mouth organ drone
 
 ```
-Slow ambient lo-fi soundscape with light snow drifting past a tall floor-to-ceiling glass window on a high Tokyo skyscraper floor at midnight. Slow kokyu Japanese bowed string plays long mournful sustained notes every 40 seconds, bow drawn slowly across the strings, koto plucks scattered slow notes every 20 seconds in pentatonic minor, deep biwa lute drone in the lower register, distant suzu temple bell rings every 90 seconds (very faint), sho mouth organ drone clusters beneath the Japanese instruments (held bamboo-pipe chords), deep sub-bass pulse every 24 bars (the sleeping city heartbeat), soft wadaiko taiko hit every 64 bars, faint snowfall on glass like distant white noise, no traffic, no horns. 52 BPM. Calm and meditative. Japanese instruments dominate throughout, sho drone holds the background. No buildup, no climax, sustained midnight Tokyo penthouse stillness. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Slow ambient lo-fi soundscape with light snow drifting past a tall floor-to-ceiling glass window on a high Tokyo skyscraper floor at midnight. Slow kokyu Japanese bowed string plays long mournful sustained notes every 40 seconds, koto plucks scattered slow notes every 20 seconds in pentatonic minor, deep biwa lute drone in the lower register, distant suzu temple bell rings every 90 seconds (very faint), sho mouth organ drone clusters beneath the Japanese instruments (held bamboo-pipe chords), deep sub-bass pulse every 24 bars, soft wadaiko taiko hit every 64 bars, faint snowfall on glass like distant white noise, no traffic, no horns. 52 BPM. Sho drone holds the background. Sustained midnight Tokyo penthouse stillness. Gradual fade-in from silence at the start (3-4 seconds), gentle fade-out to silence at the end (6-8 seconds), no abrupt cuts. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 
-### V2 — Shakuhachi + Rin (949 chars) — kokyu→shakuhachi, suzu→rin singing bowl
+### V2 — Shakuhachi + Rin (915 chars, with fade rule) — kokyu→shakuhachi, suzu→rin singing bowl
 
 ```
-Slow ambient lo-fi soundscape with light snow drifting past a tall floor-to-ceiling glass window on a high Tokyo skyscraper floor at midnight. Breathy shakuhachi bamboo flute holds long sustained low notes every 40 seconds, koto plucks scattered slow notes every 20 seconds in pentatonic minor, deep biwa lute drone in the lower register, rin singing bowl rings long sustained tones every 90 seconds (each ring held for 8-10 seconds, slowly fading), warm analog synth pad beneath the Japanese instruments, deep sub-bass pulse every 24 bars (the sleeping city heartbeat), soft wadaiko taiko hit every 64 bars, faint snowfall on glass like distant white noise, no traffic, no horns. 52 BPM. Calm and meditative. Japanese instruments dominate the foreground, ambient synth holds the background. No buildup, no climax, sustained midnight Tokyo penthouse stillness. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Slow ambient lo-fi soundscape with light snow drifting past a tall floor-to-ceiling glass window on a high Tokyo skyscraper floor at midnight. Breathy shakuhachi bamboo flute holds long sustained low notes every 40 seconds, koto plucks scattered slow notes every 20 seconds in pentatonic minor, deep biwa lute drone in the lower register, rin singing bowl rings long sustained tones every 90 seconds (each ring held 8-10 seconds, slowly fading), warm analog synth pad beneath the Japanese instruments, deep sub-bass pulse every 24 bars, soft wadaiko taiko hit every 64 bars, faint snowfall on glass like distant white noise, no traffic, no horns. 52 BPM. Sustained midnight Tokyo penthouse stillness. Gradual fade-in from silence at the start (3-4 seconds), gentle fade-out to silence at the end (6-8 seconds), no abrupt cuts. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 
 ## 2. 🎵 Suno Prompt B — Lyrics field
 
 ```
 [no lyrics, no vocals, instrumental only]
-[opening: a single distant suzu temple bell rings once far below in the snowy city, soft snowfall begins drifting against the tall glass window]
+[opening: 3-4 second gentle fade-in from silence, then a single distant suzu temple bell rings once far below in the snowy city, soft snowfall begins drifting against the tall glass window]
 [section A: kokyu Japanese bowed string holds long mournful sustained notes every 40 seconds, koto plucks scattered slow notes in pentatonic minor, biwa drones in the low register, sub-bass pulses softly every 24 bars]
 [section B: warm analog synth pad swells beneath the Japanese instruments, snow accumulates on the windowsill, andon paper lantern flickers warm amber, neon city softens through the snowy haze]
 [section C: piano enters with single sustained notes alongside the koto, brief silence held for 8 seconds, then kokyu returns with a long low bow]
-[loop point: soft snowfall texture remains constant throughout, Japanese instruments fade in and out around it, no audible break in audio]
+[closing: instruments gradually fade out to silence over 6-8 seconds, last kokyu note decays softly into the snowfall texture, no abrupt cut at the end]
 [mood: alone in a high Tokyo apartment past midnight, snow falling silently, andon lantern glow on the desk, code on the screen, time forgotten]
 [texture: soft snow on glass, bowed string mourning, slow koto pluck, distant temple bell, warm lantern amber]
 ```
