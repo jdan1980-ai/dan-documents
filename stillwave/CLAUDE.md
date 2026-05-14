@@ -284,6 +284,12 @@ Update the template — `[opening]` now starts with fade-in instruction, and rep
 - **Never name specific publication days** (e.g. `every Tuesday and Friday`, `every Sunday`). Always write `every week` instead. Specific-day promises lock you into a brutal cadence — miss one and viewers notice. `every week` keeps flexibility while still signaling regular uploads.
 - Subscribe / bell CTAs use `every week` only.
 
+## 🕒 Timezone rules
+
+- **All times in this project use Tel Aviv local time (IDT in summer / IST in winter), never Moscow / МСК.** User is based in Israel — `МСК` is incorrect and offensive. Always render schedules, review windows, and "publishes at" timestamps as `HH:MM IDT` (Mar–Oct) or `HH:MM IST` (Nov–Feb), with UTC offset in parentheses when first introduced.
+- In May 2026 Tel Aviv = IDT = UTC+3 (same offset as Moscow in summer — but the label must still be IDT).
+- Existing files with `МСК` references must be retroactively corrected. Run `grep -rn "МСК\|MSK\|Moscow" stillwave/` before each push.
+
 ### Series-brand thumbnail overlay (POWER HOUR / HEALING HOUR)
 
 Every video in a series gets a clean white series-brand text overlay on top of the NanoBanana 16:9 image. **Locked style — all overlays MUST use these parameters:**

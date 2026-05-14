@@ -17,18 +17,18 @@ See `published-videos.md` for the full table with metrics.
 | Slug | Title | Length | Series | 📝 | 🎵 | 🎨 | 🎞️ | ⏰ | 📤 |
 |------|-------|--------|--------|----|----|----|-----|-----|-----|
 | `tokyo-apartment-rain-1h` | Tokyo Rain Deep Work Marathon \| 1 Hour Uninterrupted Vol. 1 | 1H 04M 56S (24 tracks) | POWER HOUR | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ **published May 10, 10:20 UTC** ([aUujtRQZGaw](https://www.youtube.com/watch?v=aUujtRQZGaw)) — title VidIQ 93/100 |
-| `healing-hour-528hz-1h` | 528 Hz Japanese Zen Music Marathon \| 1 Hour Healing Uninterrupted Vol. 1 *(VidIQ 91/100)* | 1H 01M 25S | HEALING HOUR | ❌ (no script file yet) | ✅ | ✅ | ✅ | ✅ **scheduled May 14, 18:00 МСК (15:00 UTC)** ([-1RE1P98_u8](https://www.youtube.com/watch?v=-1RE1P98_u8)) | ⏳ — ⚠️ rename in YouTube Studio before publish |
+| `healing-hour-528hz-1h` | 528 Hz Japanese Zen Music Marathon \| 1 Hour Healing Uninterrupted Vol. 1 *(VidIQ 91/100)* | 1H 01M 25S | HEALING HOUR | ❌ (no script file yet) | ✅ | ✅ | ✅ | ✅ **scheduled May 14, 18:00 IDT (15:00 UTC)** ([-1RE1P98_u8](https://www.youtube.com/watch?v=-1RE1P98_u8)) | ⏳ — ⚠️ rename in YouTube Studio before publish |
 | `tokyo-snowfall-coding-1h` | Tokyo Snowfall Coding Marathon \| 1 Hour Uninterrupted Vol. 2 | **1H 06M 05S (3965 sec, 25 tracks)** — redo on May 14 after CapCut project loss | POWER HOUR | ✅ | ✅ (mixed kokyu/sho/shakuhachi rotation) | ⏳ | ⏳ | ⏳ | ⏳ |
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | POWER HOUR | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | POWER HOUR | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 ### Healing Hour 528 Hz — review schedule
 
-Publishes May 14, 18:00 МСК (15:00 UTC). First entry in new **HEALING HOUR** series, parallel to POWER HOUR. Hook: "Nervous System Reset" — leans into wellness / vagus-nerve / somatic-healing search demand. No `scripts/` file yet — created directly in YouTube Studio.
+Publishes May 14, 18:00 IDT (15:00 UTC). First entry in new **HEALING HOUR** series, parallel to POWER HOUR. Hook: "Nervous System Reset" — leans into wellness / vagus-nerve / somatic-healing search demand. No `scripts/` file yet — created directly in YouTube Studio.
 
-- **48h review** — May 16, 18:00 МСК → views, like-rate, comments. Compare pacing vs Tokyo Power Hour (which hit 131 views by 72h).
-- **7d review** — May 21, 18:00 МСК → retention, full comment mining, decide whether healing-hook outperforms focus-hook
-- **30d review** — June 13, 18:00 МСК → final perf snapshot, decide if HEALING HOUR becomes recurring series
+- **48h review** — May 16, 18:00 IDT → views, like-rate, comments. Compare pacing vs Tokyo Power Hour (which hit 131 views by 72h).
+- **7d review** — May 21, 18:00 IDT → retention, full comment mining, decide whether healing-hook outperforms focus-hook
+- **30d review** — June 13, 18:00 IDT → final perf snapshot, decide if HEALING HOUR becomes recurring series
 
 ### Tokyo Power Hour — review schedule
 
