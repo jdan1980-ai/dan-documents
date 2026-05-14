@@ -6,10 +6,10 @@
 - **Slug:** `tokyo-snowfall-coding-1h`
 - **Series:** POWER HOUR (playlist `PLwFZIsVXtnlFnGKhQrOblldPeL5pRnu5J`)
 - **Format:** Long-form
-- **Length:** **1H 14M 00S (4440 sec, 26 tracks)** — confirmed from CapCut export
+- **Length:** **1H 06M 00S (3960 sec, 25 tracks)** — confirmed from CapCut redo (May 14 re-assembly after the first CapCut project was lost during disk cleanup)
 - **Phase:** 1 (soft intro — 2nd entry in POWER HOUR series, after Tokyo Rain)
 - **Aesthetic:** Spacious Tokyo Penthouse — corner-wrap floor-to-ceiling windows + light snowfall + neon Tokyo + modern linear fireplace + open MacBook with VS Code editor + andon paper lantern (single Japanese accent)
-- **Status:** Suno generated + CapCut assembly done (26 tracks, 1H 14M 00S), awaiting NanoBanana + Flow loop + ffmpeg encode + thumbnail
+- **Status:** Suno generated + CapCut re-assembly done (25 tracks, 1H 06M 00S), awaiting NanoBanana + Flow loop + ffmpeg encode + thumbnail
 - **Upload date:** TBD
 
 ### Differentiation vs Tokyo Rain #1
@@ -106,19 +106,19 @@ Photorealistic Pixar-quality cinematic style, 16:9 aspect, 4K, contemplative mid
 
 ## 6. 🛠️ ffmpeg encode command
 
-Final length **4440 sec (1H 14M 00S, 26 tracks)** confirmed from CapCut export.
+Final length **3960 sec (1H 06M 00S, 25 tracks)** confirmed from CapCut re-assembly on May 14.
 
 ```bash
 ffmpeg -stream_loop -1 -i tokyo-snowfall-coding-1h-loop.mp4 -i tokyo-snowfall-coding-1h.mp3 \
   -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
-  -c:a aac -b:a 192k -shortest -t 4440 tokyo-snowfall-coding-1h.mp4
+  -c:a aac -b:a 192k -shortest -t 3960 tokyo-snowfall-coding-1h.mp4
 ```
 
 Faster alternative (no re-encode, requires loop already in 1080p H.264 yuv420p):
 
 ```bash
 ffmpeg -stream_loop -1 -i tokyo-snowfall-coding-1h-loop.mp4 -i tokyo-snowfall-coding-1h.mp3 \
-  -c:v copy -c:a aac -b:a 192k -shortest -t 4440 tokyo-snowfall-coding-1h.mp4
+  -c:v copy -c:a aac -b:a 192k -shortest -t 3960 tokyo-snowfall-coding-1h.mp4
 ```
 
 ---
@@ -134,9 +134,9 @@ Tokyo Snowfall Coding Marathon | 1 Hour Uninterrupted Vol. 2
 ```
 Enter the Tokyo Snowfall Power Hour.
 
-This 1-hour-and-fourteen-minute coding music marathon is built for one uninterrupted late-night code sprint. Inspired by quiet luxury Tokyo penthouses at midnight, the steady drift of snow on glass, and the warm flicker of a single andon lantern, this soundscape layers traditional Japanese instruments — kokyu bowed string, shakuhachi flute, koto, biwa, sho mouth organ, rin singing bowl — with warm low-fi ambience to create the perfect atmosphere for deep coding flow.
+This 1-hour-and-six-minute coding music marathon is built for one uninterrupted late-night code sprint. Inspired by quiet luxury Tokyo penthouses at midnight, the steady drift of snow on glass, and the warm flicker of a single andon lantern, this soundscape layers traditional Japanese instruments — kokyu bowed string, shakuhachi flute, koto, biwa, sho mouth organ, rin singing bowl — with warm low-fi ambience to create the perfect atmosphere for deep coding flow.
 
-Whether you're shipping a feature, debugging a tricky issue, refactoring, studying, writing prose, or running late-night code reviews — let this hour and fourteen minutes carry you through one full uninterrupted marathon.
+Whether you're shipping a feature, debugging a tricky issue, refactoring, studying, writing prose, or running late-night code reviews — let this hour and six minutes carry you through one full uninterrupted marathon.
 
 Dim the lights. Headphones on. Snow on the glass. Code on the screen. The Tokyo Snowfall handles the rest.
 
@@ -152,31 +152,30 @@ Best for:
 
 🎵 Tracklist:
 0:00 — First Snowflake
-2:44 — Glass at Midnight
-5:28 — Lantern Lit
-8:43 — Kokyu Wakes
-11:26 — Code Lines Drifting
-14:10 — Snow on the Ledge
-16:49 — Shakuhachi Breath
-20:03 — Fingers on Cold Keys
-22:58 — Neon Through Snow
-25:28 — Floor Forty-Two
-28:22 — Sho Drone Below
-31:36 — Heartbeat at 52 BPM
-34:45 — Highway Streaks Below
-37:35 — Empty Office Halls
-39:54 — Bronze Bowl Hum
-42:48 — The Midnight Cursor
-45:23 — Snow Slows
-48:33 — Koto, Distant
-50:46 — Far Lantern
-53:57 — Biwa Drone
-56:32 — Last Commit
-59:27 — Temple Bell, Frozen
-1:02:50 — Wadaiko, Soft
-1:05:45 — Tokyo Sleeps in Snow
-1:08:14 — Snow, Still Falling
-1:11:04 — Until First Light
+2:43 — Glass at Midnight
+5:01 — Lantern Lit
+7:44 — Kokyu Wakes
+10:21 — Code Lines Drifting
+12:55 — Snow on the Ledge
+16:03 — Shakuhachi Breath
+18:18 — Fingers on Cold Keys
+20:45 — Neon Through Snow
+23:18 — Floor Forty-Two
+26:11 — Sho Drone Below
+28:59 — Heartbeat at 52 BPM
+31:17 — Highway Streaks Below
+34:10 — Empty Office Halls
+36:44 — Bronze Bowl Hum
+39:29 — The Midnight Cursor
+41:41 — Snow Slows
+44:17 — Koto, Distant
+46:52 — Far Lantern
+49:44 — Biwa Drone
+52:11 — Last Commit
+55:04 — Temple Bell, Frozen
+57:58 — Wadaiko, Soft
+1:00:00 — Tokyo Sleeps in Snow
+1:03:00 — Snow, Still Falling
 
 ▶ Subscribe for a new Tokyo penthouse coding session every week — POWER HOUR and HEALING HOUR sessions every Tuesday, Wednesday, Friday, Sunday.
 
@@ -185,7 +184,7 @@ Best for:
 #powerhour #codingmusic #1hourfocus #deepfocus #deepfocusmusic #focusmusic #studymusic #workmusic #productivitymusic #codingflow #flowstate #pomodoro #tokyomusic #snowfallmusic #ambientfocus #musicforcoding #concentrationmusic #latenightcoding #nodistractions #japaneseambient
 ```
 
-> ✅ **Timestamps confirmed** from CapCut (26 tracks, total 1:14:00). YouTube auto-detects chapters because the first line is exactly `0:00`, entries ascend, and minimum chapter length is satisfied. Track durations vary between 2:29 and 3:14.
+> ✅ **Timestamps confirmed** from CapCut redo on May 14 (25 tracks, total 1:06:00). YouTube auto-detects chapters because the first line is exactly `0:00`, entries ascend, and minimum chapter length is satisfied. Track durations vary between 2:11 and 3:08. Last 3 timestamps (1:00:00 / 1:03:00 / 1:06:00) recorded by user without seconds precision — assumed exact round minutes.
 
 ## 9. 🏷️ Tags (22 tags)
 
