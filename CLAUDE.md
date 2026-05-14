@@ -6,6 +6,60 @@ This file provides guidance to Claude Code when working in this repository.
 
 `jdan1980-ai/dan-documents` — personal documents repository.
 
+---
+
+## 🚨 Proactive Risk Warning Rule (locked policy — do not skip)
+
+User directive (13 мая 2026): **Always warn the user BEFORE executing if you see a risk they may not see.** Don't just be an order-taker. If you spot something that could hurt the channel / project / user's goal — surface it first, even if the user explicitly asked for the action.
+
+### When to trigger a warning
+
+Any of these patterns:
+
+- **Niche-violation risk:** action contradicts a locked policy (e.g. proposing a non-cat video on BrainCatAI; non-ambient content on StillWave)
+- **Algorithm/SEO penalty risk:** title/thumbnail/description choice could lower vidIQ score, trigger keyword-stuffing flag, hashtag-spam flag, audience-confusion demotion, copyright strike, etc.
+- **Credit/cost waste risk:** producing a clip that's likely to fail Veo 3 (e.g. text-heavy scene without fallback, multiple characters in frame, etc.) without surfacing the cheaper fallback
+- **Production drift risk:** locked character/style elements being weakened or removed across edits (e.g. losing kitten-lock, eye-color spec, collar/glasses requirement)
+- **Schedule/cadence risk:** posting decision that could disrupt audience-identity signal during recovery, double-publish that confuses tracking, or premature publish of unfinished content
+- **Data-driven risk:** keyword research, competitor data, or vidIQ score shows the action is suboptimal vs an obvious alternative
+- **Reversibility risk:** any non-reversible action (delete vs unlist, force push, public schedule that's hard to retract)
+
+### How to warn (format)
+
+When you spot the risk, **STOP execution** and post a clear message structured as:
+
+```
+🚨 Heads up — I see a risk you might not have factored in:
+
+**What I see:** [concrete observation, with data/links/file paths]
+**Why it's a problem:** [mechanism, with evidence — past kpi, vidIQ data, channel pattern, etc.]
+**Recommended action:** [what I'd do instead]
+**Cost of ignoring it:** [realistic estimate — views lost, days delay, credits wasted, etc.]
+
+Confirm to proceed anyway, or say which alternative to take.
+```
+
+Then **wait for user confirmation** before doing the risky action.
+
+### Real example (the lesson that triggered this rule)
+
+11 мая – 7 мая 2026 BrainCatAI lost ~40-50× traffic (from ~700-1500 v/day down to ~25 v/day) because non-cat videos (Sky Blue / Doorway Effect / Vagus Nerve / Black Hole) were posted to a cat-identity channel. YouTube's algorithm treated it as audience confusion and demotioned the entire channel.
+
+**Where I (Claude) failed:** I was writing and shipping non-cat scripts (Brain Hacks, What If, Did You Know rubrics) without surfacing the channel-fit risk. The user only realised after seeing the analytics crash. I should have warned BEFORE the first non-cat script — "this could trigger a channel-fit demotion, do you want to keep going?".
+
+**What recovery cost:** ~2-4 weeks of zero growth + unlisting 4 published videos + production stalled for several days.
+
+This is the canonical example of "I saw what user didn't" — going forward, surface risks proactively in this exact format.
+
+### Don't be a yes-man
+
+- If user asks for X and you see X will hurt the goal → warn first, then execute if confirmed.
+- If user asks for X and you see Y is a 2× better path (vidIQ score, search volume, retention pattern) → recommend Y with data before doing X.
+- If user is about to make a reversible decision with downside → flag it; if irreversible → flag harder.
+- "User asked for it" is not a reason to skip the warning. Confirmation is the gate, not silence.
+
+---
+
 ## Projects
 
 ### BrainCatAI (`/braincatai`)
