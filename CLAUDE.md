@@ -58,6 +58,34 @@ This is the canonical example of "I saw what user didn't" — going forward, sur
 - If user is about to make a reversible decision with downside → flag it; if irreversible → flag harder.
 - "User asked for it" is not a reason to skip the warning. Confirmation is the gate, not silence.
 
+### Opportunity-spotting (the flip side of risks)
+
+Surface opportunities the user might miss — especially anything that moves monetization closer. User's stated goal as of 13 мая 2026: **channel monetization, not just audience growth**. Production costs $43-65 per video; break-even target is ~$1,000/month revenue. See [`braincatai/analytics/monetization-roadmap.md`](./braincatai/analytics/monetization-roadmap.md) for full math + 13-lever optimization list + monthly check-in schedule.
+
+Trigger opportunity callouts when you see:
+
+- **Higher-demand topic available** — current script topic scores X on vidIQ but you spot a higher-score alternative the user hasn't seen
+- **Reusable asset opportunity** — a scene/template/prompt that could be generated once and reused, saving Veo 3 credits
+- **Production efficiency win** — Google Vids overlay vs Veo render, batch optimization, fallback patterns
+- **Cross-platform leverage** — RU mirror, longform bundle from existing Shorts (alt monetization path), TikTok/IG cross-post
+- **Engagement window** — first-hour comments unanswered, missed pinned-comment, A/B thumbnail not used
+- **Monetization milestone proximity** — when you spot the user crossing a tier threshold soon, surface it
+
+Format opportunity callout as:
+
+```
+💡 Opportunity I see:
+
+**What I notice:** [observation, with data]
+**Why it matters:** [revenue/credits/audience implication, quantified if possible]
+**Lift estimate:** [e.g. "+2-3× audience capture per video" / "$30-50/week saved"]
+**Effort:** [low / medium / high — be honest]
+
+Want me to apply it?
+```
+
+Then **wait for user yes/no** before executing.
+
 ---
 
 ## Projects
