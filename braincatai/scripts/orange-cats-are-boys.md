@@ -374,7 +374,7 @@ So what color is your cat? Tell us in the comments. Follow Brain... for more cat
 
 ---
 
-## 🎵 Music Prompt (paste into Suno / Udio / Mubert / ElevenLabs Music)
+## 🎵 Music Prompt (paste into Suno / Udio / Mubert / Google Vids TTS Music)
 
 ```
 Light playful curious cinematic instrumental for a 60-second YouTube Short about cat genetics. Soft pizzicato strings, light marimba, gentle synth pads with a touch of "discovery" sparkle. ~100 BPM. Curious confident vibe at 0–10 sec for the hook, slight playful build at 14–22 sec for the reveal moments, soft "aha" swell at 38–50 sec for the genetics explanation, warm uplift at 50 sec for the CTA. No vocals. No drums until 14 sec, then soft light drums kick in. Mood: like a friendly science teacher sharing a secret you'll want to tell everyone. Royalty-free style.

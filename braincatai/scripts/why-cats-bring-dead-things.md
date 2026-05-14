@@ -253,7 +253,7 @@ She's literally trying to keep you alive. Maybe say thank you. Follow Brain... f
 
 ---
 
-## 🎵 Music Prompt (paste into Suno / Udio / Mubert / ElevenLabs Music)
+## 🎵 Music Prompt (paste into Suno / Udio / Mubert / Google Vids TTS Music)
 
 ```
 Light playful slightly mysterious cinematic instrumental for a 60-second YouTube Short about cat psychology. Soft pizzicato strings, warm acoustic guitar, gentle bell accents, occasional muted piano. ~95 BPM. Slight comedic bounce in the middle (around 30-40 seconds) for a humor beat. Swells warm and emotional in the final third (40-50 seconds) for a heartfelt reveal. Gentle uplifting outro at 50 seconds. No vocals. Mood: warm, curious, slightly comedic in the middle, emotional payoff at the end. Royalty-free style.

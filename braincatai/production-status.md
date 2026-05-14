@@ -77,7 +77,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | Day 5 | 12 мая Вт | 🏺 Эра 4: Egyptian (anchor) | ~14 ассетов для 7:20-9:30 |
 | Day 6 | 13 мая Ср | 🏠 Эра 5: Modern breeds | ~12 ассетов для 9:50-11:50 |
 | Day 7 | 14 мая Чт | 🧬 Эра 6: Future | ~10 ассетов для 11:50-13:30 |
-| **Day 8** | 15 мая Пт | **Assembly** | Hook + intro + emotional close + Google Vids склейка + ElevenLabs VO + Suno music + subtitles + thumbnail + SEO + schedule |
+| **Day 8** | 15 мая Пт | **Assembly** | Hook + intro + emotional close + Google Vids склейка + Google Vids TTS VO + Suno music + subtitles + thumbnail + SEO + schedule |
 
 Финиш: **15 мая** → публикация в июне с 2+ неделями буфера на полировку.
 

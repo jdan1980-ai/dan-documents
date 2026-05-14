@@ -81,7 +81,7 @@ Brain wearing a small stylized cartoon basketball jersey in deep navy with cream
 
 ---
 
-## Full Voiceover (whole video — paste into ElevenLabs as one read)
+## Full Voiceover (whole video — paste into Google Vids built-in TTS as one read)
 
 ```
 Your kid won't stop saying SIX-SEVEN. You think they've lost it. They haven't.

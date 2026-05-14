@@ -65,7 +65,7 @@ INT. COZY MICRO-LAB — AFTERNOON. Cute Pixar-style miniature science lab with r
 
 ---
 
-## Full Voiceover (whole video — paste into ElevenLabs as one read)
+## Full Voiceover (whole video — paste into Google Vids built-in TTS as one read)
 
 ```
 Your cat just looked at you... and slowly closed its eyes. That's not sleepiness. That's a message.
@@ -390,7 +390,7 @@ If they blink back — congratulations. Your cat loves you. Follow Brain for mor
 
 ---
 
-## 🎵 Music Prompt (paste into Suno / Udio / Mubert / ElevenLabs Music)
+## 🎵 Music Prompt (paste into Suno / Udio / Mubert / Google Vids TTS Music)
 
 ```
 Warm cozy heartfelt instrumental background music for a 58-second YouTube Short about cat love language. Gentle piano lead melody, soft acoustic guitar strums, light brushed percussion, warm bass. Tempo 90–100 BPM. Starts quietly and builds very slightly at the midpoint (around 28 seconds) to a slightly fuller sound, then fades gently in the final 8 seconds. No vocals. Mood: tender, curious, loving — like a quiet heartfelt moment between a person and their pet. Royalty-free style, no copyright issues.
@@ -407,7 +407,7 @@ Cozy heartfelt piano, soft acoustic guitar, 95 BPM, warm and gentle, builds subt
 ## Assembly in Google Vids
 
 1. Upload all 8 animated clips in order (Scene 1 → Scene 8)
-2. Add VO track from TTS (one continuous file — split per scene if needed to sync)
+2. Add VO track from Google Vids TTS (one continuous read split per scene if needed)
 3. Add music at -18 LUFS, voice at -12 LUFS
 4. Burn-in subtitles: top third of frame, max 4 words at a time
 5. SFX: soft "ding" on Scene 5 (scientists confirmed), soft "meow" on Scene 8 CTA

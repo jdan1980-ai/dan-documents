@@ -56,7 +56,7 @@ STYLE: Pixar 3D CARTOON render, cinematic warm lab daylight, vertical 9:16, soft
 
 ---
 
-## 🎙️ Voiceover (per-video, recorded fresh in ElevenLabs)
+## 🎙️ Voiceover (per-video, recorded fresh in Google Vids TTS)
 
 VO остаётся уникальным для каждого видео. Текущие 5 ready scripts с Sc 3 VO:
 
@@ -122,6 +122,6 @@ Plus the universal Sc 3 base render is reusable indefinitely — generated ONCE.
    - Generate the chart art (Nano Banana / Canva / built-in text) per the table above
    - Add chart as image overlay positioned in upper-right of frame
    - Animate the overlay reveals per the script's TIME notes
-   - Record per-video VO in ElevenLabs and sync to the 7-second clip
+   - Record per-video VO in Google Vids TTS and sync to the 7-second clip
 
 3. **End of Sc 3** → cut to Sc 4 normally (different per video)

@@ -392,7 +392,7 @@ That's why they bring you dead mice — teaching you to hunt.
 
 In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 clip. Optionally add a "FOLLOW BRAIN 🐱" text overlay at the top.
 
-**🎙️ Voiceover (record fresh in ElevenLabs per video):**
+**🎙️ Voiceover (record fresh in Google Vids TTS per video):**
 
 ```
 Congrats — you've been adopted into the colony. Brain's your kitten now. Slow blink back. Subscribe for more cat truth that'll change how you see them.

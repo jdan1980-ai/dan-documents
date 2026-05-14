@@ -54,7 +54,7 @@
 |------|------|
 | Nano Banana × 8 images | ~$5 |
 | Veo 3 × 7 clips + Universal Sc 8 (reusable) | $35-55 |
-| ElevenLabs VO | $1-3 |
+| Google Vids TTS VO | $1-3 |
 | Suno music | $2 |
 | **Total per video** | **$43-65** |
 

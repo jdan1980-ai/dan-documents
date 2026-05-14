@@ -59,7 +59,7 @@ INT. COZY MICRO-LAB — EVENING. Cute Pixar-style miniature science lab with a r
 
 ---
 
-## Full Voiceover (whole video — paste into ElevenLabs as one read)
+## Full Voiceover (whole video — paste into Google Vids built-in TTS as one read)
 
 ```
 Your cat HATES closed doors. They'll scream, scratch, and slam for hours.
@@ -458,7 +458,7 @@ Warm playful acoustic guitar and pizzicato strings, 100 BPM, comedic open, schol
 ## Assembly in Google Vids
 
 1. Upload all 8 animated clips in order (Scene 1 → Scene 8)
-2. Add VO track from TTS (one continuous file — split per scene if needed to sync)
+2. Add VO track from Google Vids TTS (one continuous read split per scene if needed)
 3. Add music at -18 LUFS, voice at -12 LUFS
 4. Burn-in subtitles: top third of frame, max 4 words at a time
 5. SFX:

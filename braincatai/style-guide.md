@@ -260,7 +260,7 @@ If your prompt could describe a stuffed-animal-on-a-stick, rewrite it.
 
 - **Voice:** Energetic, curious, slightly playful (think science YouTuber, not documentary narrator)
 - **Pace:** 120–140 wpm — fast enough to feel urgent, slow enough to follow
-- **TTS option:** ElevenLabs "Adam" or "Charlie"
+- **TTS option:** Google Vids TTS "Adam" or "Charlie"
 - **No accents that sound like a teacher** — sound like a friend who just discovered this
 
 ### Music

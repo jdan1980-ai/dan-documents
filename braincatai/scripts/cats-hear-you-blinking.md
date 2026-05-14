@@ -394,7 +394,7 @@ Why do they stare at empty corners? Because empty isn't empty for them.
 
 In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 clip. Optionally add a "FOLLOW BRAIN 🐱" text overlay at the top.
 
-**🎙️ Voiceover (record fresh in ElevenLabs per video):**
+**🎙️ Voiceover (record fresh in Google Vids TTS per video):**
 
 ```
 Blink slowly right now. Your cat just heard it. You can't out-sneak them — but you can subscribe. Brain's got more cat senses to reveal.

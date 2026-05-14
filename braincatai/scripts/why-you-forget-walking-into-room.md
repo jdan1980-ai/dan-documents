@@ -276,7 +276,7 @@ So next time? Don't blame yourself. Blame the door. Follow Brain... for more bra
 
 ---
 
-## 🎵 Music Prompt (paste into Suno / Udio / Mubert / ElevenLabs Music)
+## 🎵 Music Prompt (paste into Suno / Udio / Mubert / Google Vids TTS Music)
 
 ```
 Light playful curious cinematic instrumental for a 60-second YouTube Short about a brain quirk. Soft pizzicato strings, light marimba, gentle synth pads. ~100 BPM. Slightly mysterious build at 0-15 sec for the question, slight comedic bounce 15-40 sec for the explanation, warm uplifting swell at 50 sec for the CTA. No vocals. No drums until 15 sec. Mood: curious, friendly, like a thoughtful science podcast intro that turns playful. Royalty-free style.

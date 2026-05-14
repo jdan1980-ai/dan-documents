@@ -59,7 +59,7 @@ INT. COZY MICRO-LAB — DAY. Cute Pixar-style miniature science lab with a round
 
 ---
 
-## Full Voiceover (whole video — paste into ElevenLabs as one read)
+## Full Voiceover (whole video — paste into Google Vids built-in TTS as one read)
 
 ```
 Say your cat's name. They heard you. They just pretended not to.
@@ -408,7 +408,7 @@ Bonus: they know YOUR voice. Strangers calling them? Ignored.
 
 In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 clip. Optionally add a "FOLLOW BRAIN 🐱" text overlay at the top.
 
-**🎙️ Voiceover (record fresh in ElevenLabs per video):**
+**🎙️ Voiceover (record fresh in Google Vids TTS per video):**
 
 ```
 Whisper their name right now. Did the ear flick? Drop a YES below. Subscribe — Brain decodes a new cat secret every single day.
@@ -435,7 +435,7 @@ Curious playful pizzicato strings and marimba, 105 BPM, alert open, scholarly mi
 ## Assembly in Google Vids
 
 1. Upload all 8 animated clips in order (Scene 1 → Scene 8)
-2. Add VO track from TTS (one continuous file — split per scene if needed to sync)
+2. Add VO track from Google Vids TTS (one continuous read split per scene if needed)
 3. Add music at -18 LUFS, voice at -12 LUFS
 4. Burn-in subtitles: top third of frame, max 4 words at a time
 5. SFX:

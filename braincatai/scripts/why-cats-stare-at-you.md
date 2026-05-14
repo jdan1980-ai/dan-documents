@@ -59,7 +59,7 @@ INT. COZY MICRO-LAB — DAY. Cute Pixar-style miniature science lab — rounded 
 
 ---
 
-## Full Voiceover (whole video — paste into ElevenLabs as one read)
+## Full Voiceover (whole video — paste into Google Vids built-in TTS as one read)
 
 ```
 Your cat is staring at you right now. They're saying something — and you've been ignoring it.
@@ -398,7 +398,7 @@ Frozen stare with a twitching tail tip? Predator mode. Even on YOU.
 
 In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 clip. Optionally add a "FOLLOW BRAIN 🐱" text overlay at the top.
 
-**🎙️ Voiceover (record fresh in ElevenLabs per video):**
+**🎙️ Voiceover (record fresh in Google Vids TTS per video):**
 
 ```
 Catch that stare tonight. Slow blink back. Drop a 👀 below if they got it. Subscribe — Brain's got more cat decoding.
@@ -425,7 +425,7 @@ Mysterious curious plucked harp + pizzicato strings + marimba, 92 BPM, tension-s
 ## Assembly in Google Vids
 
 1. Upload all 8 animated clips in order (Scene 1 → Scene 8)
-2. Add VO track from TTS (one continuous file — split per scene if needed to sync)
+2. Add VO track from Google Vids TTS (one continuous read split per scene if needed)
 3. Add music at -18 LUFS, voice at -12 LUFS
 4. Burn-in subtitles: top third of frame, max 4 words at a time
 5. Lower-third category captions: "1. DEMAND" during Scene 4, "2. LOVE" during Scene 5, "3. DECODE" during Scene 6, "4. PREDATOR" during Scene 7

@@ -229,7 +229,7 @@ Pretty cool, right? Follow Brain... for more facts that break your brain.
 
 ---
 
-## 🎵 Music Prompt (paste into Suno / Udio / Mubert / ElevenLabs Music)
+## 🎵 Music Prompt (paste into Suno / Udio / Mubert / Google Vids TTS Music)
 
 ```
 Light playful curious cinematic instrumental for a 60-second YouTube Short about a science fact. Soft sparkling chimes, twinkling celesta, and gentle plucked strings. ~110 BPM. Sense of cosmic wonder and discovery. Slight build-up and warm swell at 30 seconds for the big reveal, gentle uplifting outro at 50 seconds. No vocals. No drums until 25 seconds, then soft light drums kick in. Mood: magical, curious, friendly, like a kids' science show that adults also love. Royalty-free style.

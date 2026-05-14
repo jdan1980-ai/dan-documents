@@ -59,7 +59,7 @@ INT. COZY MICRO-LAB — NIGHT. Cute Pixar-style miniature science lab with a rou
 
 ---
 
-## Full Voiceover (whole video — paste into ElevenLabs as one read)
+## Full Voiceover (whole video — paste into Google Vids built-in TTS as one read)
 
 ```
 Your cat just claimed your CHEST. WHERE they sleep on you tells the whole story.
@@ -452,7 +452,7 @@ Warm intimate acoustic guitar and piano lullaby, 85 BPM, tender open, "aha" lift
 ## Assembly in Google Vids
 
 1. Upload all 8 animated clips in order (Scene 1 → Scene 8)
-2. Add VO track from TTS (one continuous file — split per scene if needed to sync)
+2. Add VO track from Google Vids TTS (one continuous read split per scene if needed)
 3. Add music at -18 LUFS, voice at -12 LUFS
 4. Burn-in subtitles: top third of frame, max 4 words at a time
 5. SFX:

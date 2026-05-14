@@ -73,7 +73,7 @@ Brain wearing a small clean white Pixar-style cartoon spacesuit with rounded sof
 
 ---
 
-## Full Voiceover (whole video — paste into ElevenLabs as one read)
+## Full Voiceover (whole video — paste into Google Vids built-in TTS as one read)
 
 ```
 What if you fell into a hole where even light can't escape? That's a black hole.
@@ -462,7 +462,7 @@ Cosmic orchestral suspense, deep cellos and ethereal synths, 85 BPM, builds to d
 ## Assembly in Google Vids
 
 1. Upload all 8 animated clips in order (Scene 1 → Scene 8)
-2. Add VO track from TTS (one continuous file — split per scene if needed to sync)
+2. Add VO track from Google Vids TTS (one continuous read split per scene if needed)
 3. Add music at -18 LUFS, voice at -12 LUFS
 4. Burn-in subtitles: top third of frame, max 4 words at a time
 5. SFX: cosmic whoosh on Scene 4 (entering void), comic stretch sound on Scene 5, soft "tick" on Scene 6 watch, ethereal "wow" sting on Scene 7, soft meow on Scene 8 wave

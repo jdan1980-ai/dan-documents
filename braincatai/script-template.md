@@ -103,7 +103,7 @@ Pick 1–3 locations max for this video. Write each as a single descriptive para
 
 ## Full Voiceover (whole video, single block)
 
-Paste this into your TTS tool (e.g. ElevenLabs) as one read for natural pacing. Word target **80–120 words** ≈ 50 sec at 130 wpm.
+Paste this into Google Vids built-in TTS as one read for natural pacing. Word target **80–120 words** ≈ 50 sec at 130 wpm.
 
 ```
 
@@ -312,7 +312,7 @@ Camera motion + Brain's action + facial expression + duration ~7s
 
 ---
 
-## 🎵 Music Prompt (paste into Suno / Udio / Mubert / ElevenLabs Music)
+## 🎵 Music Prompt (paste into Suno / Udio / Mubert / Google Vids TTS Music)
 
 Write a single instrumental music prompt for the whole 60-sec video. Specify mood, instruments, BPM, build-up moments, no vocals, royalty-free.
 

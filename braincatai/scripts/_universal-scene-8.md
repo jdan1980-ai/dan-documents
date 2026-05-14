@@ -2,7 +2,7 @@
 
 > **Цель: сэкономить Veo 3 кредиты.** Этот Sc 8 генерится в Nano Banana + Veo 3 **ОДИН РАЗ**, сохраняется как `assets/universal-scene-8.mp4`, и дропается в Google Vids как Сцена 8 **во все cat-видео** канала.
 >
-> **Что меняется per-video:** только voiceover (записывается в ElevenLabs под конкретное видео). Визуал — один и тот же.
+> **Что меняется per-video:** только voiceover (записывается в Google Vids TTS под конкретное видео). Визуал — один и тот же.
 >
 > **Локация:** нейтральная (теплый bokeh-фон без специфики комнаты) — чтобы не противоречил локациям предыдущих 7 сцен любого видео.
 
@@ -52,11 +52,11 @@ STYLE: Pixar 3D CARTOON render (not photorealistic), cinematic warm honey-amber 
 
 ---
 
-## 🎙️ Voiceover (recorded fresh per video in ElevenLabs)
+## 🎙️ Voiceover (recorded fresh per video in Google Vids TTS)
 
 Visual is universal but VO is per-video. Pick from this list of locked CTAs that match each ready script:
 
-| Script | Sc 8 VO (record in ElevenLabs per video) |
+| Script | Sc 8 VO (record in Google Vids TTS per video) |
 |--------|-------------------------------------------|
 | `13-words-cats-understand` | "Whisper their name right now. Did the ear flick? Drop a YES below. Subscribe — Brain decodes a new cat secret every single day." |
 | `why-cats-stare-at-you` | "Catch that stare tonight. Slow blink back. Drop a 👀 below if they got it. Subscribe — Brain's got more cat decoding." |
@@ -70,7 +70,7 @@ Visual is universal but VO is per-video. Pick from this list of locked CTAs that
 
 1. **One-time setup:** generate the universal Sc 8 image in Nano Banana, then animate in Veo 3 with the above prompt. Save the rendered clip as `assets/universal-scene-8.mp4`.
 2. **For every cat video:** import `assets/universal-scene-8.mp4` and drop it after Scene 7 as your Scene 8.
-3. **Record the per-video VO** in ElevenLabs from the table above, align to the 7-second universal visual.
+3. **Record the per-video VO** in Google Vids TTS from the table above, align to the 7-second universal visual.
 4. **Optionally add a text overlay** at the top of the universal Sc 8 in Google Vids (e.g. "FOLLOW BRAIN 🐱" in Electric Yellow `#FFD23F` with charcoal stroke).
 5. **After Sc 8:** append the reusable end card from [`end-card.md`](../end-card.md) (Short variant, 3 sec) — that's also generated ONCE.
 

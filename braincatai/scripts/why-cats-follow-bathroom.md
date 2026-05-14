@@ -396,7 +396,7 @@ Next time they shove past you at the door? They're protecting their human.
 
 In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 clip. Optionally add a "FOLLOW BRAIN 🐱" text overlay at the top.
 
-**🎙️ Voiceover (record fresh in ElevenLabs per video):**
+**🎙️ Voiceover (record fresh in Google Vids TTS per video):**
 
 ```
 So... let them in. They're literally your bodyguard. Brain's got more cat mysteries waiting — hit subscribe.
