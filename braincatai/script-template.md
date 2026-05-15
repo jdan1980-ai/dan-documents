@@ -356,6 +356,12 @@ Write a single instrumental music prompt for the whole 60-sec video. Specify moo
 
 ```
 
+**Hashtags for title bar** (top 3 — paste at the end of the title field, `#shorts` always first):
+
+```
+#shorts #catpsychology #catfacts
+```
+
 Alt titles to A/B test:
 
 ```
@@ -387,13 +393,7 @@ Video-specific (add 5–10 long-tail tags matching this video):
 
 ```
 
-**Hashtags (top 3 show under the title — order matters):**
-
-```
-#shorts #catpsychology #catfacts
-```
-
-Extended set (for description body):
+**Extended hashtag set (for description body):**
 
 ```
 #shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts

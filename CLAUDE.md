@@ -210,11 +210,13 @@ YouTube channel — Japanese ambient · meditation · sleep · focus music. Hand
 
 #### MANDATORY rules (do not skip)
 
-**Every time a script is created OR meaningfully edited, ALWAYS update the full SEO Pack — never skip tags.** The user has flagged this as a recurring miss. The SEO Pack must include:
+**Every time a script is created OR meaningfully edited, ALWAYS update the full SEO Pack — never skip tags.** The user has flagged this as a recurring miss. The SEO Pack must include the items in **this exact output order** (locked 15 мая 2026 — title-bar hashtags right after the title because they paste into the same YouTube field):
 
 1. **Title** (40–70 chars, end with `🐱 | Cat Psychology` for channel brand)
-2. **Description** (≥ 250 chars, repeat main keyword 2–3×, include 5+ supporting keywords, end with hashtag block + follow CTA)
-3. **Tags** (20–25 tags, mix broad + medium + long-tail, total under 450 chars). The base set is **always** included:
+2. **Hashtags for title bar** (top 3 — `#shorts` always first — paste these at the end of the title field on YouTube)
+3. **Alt titles to A/B test** (optional, for variant testing)
+4. **Description** (≥ 250 chars, repeat main keyword 2–3×, include 5+ supporting keywords, end with extended hashtag block + follow CTA)
+5. **Tags** (20–25 tags, mix broad + medium + long-tail, total under 450 chars). The base set is **always** included:
    ```
    cat psychology, cat facts, cat behavior, cat secrets, cat science,
    cat communication, cat body language, feline behavior, understanding cats,
@@ -223,8 +225,10 @@ YouTube channel — Japanese ambient · meditation · sleep · focus music. Hand
    cat domestication, cats vs humans
    ```
    Then add 5–10 long-tail tags specific to the video.
-4. **Hashtags**: top-3 for title bar (`#shorts #catpsychology #catfacts`) + extended set in description body
-5. **Thumbnail concept**
+6. **Pinned comment** (with engagement question)
+7. **Thumbnail concept**
+
+(The title-bar hashtags are item 2 above — listed there because they paste into the YouTube title field. An extended hashtag set is included in the description block at item 4.)
 
 If editing the script's title, scenes, or VO, **re-verify tags reflect the new title and content**. Tags are not optional and must be reviewed on every edit.
 
