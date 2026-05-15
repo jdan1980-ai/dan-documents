@@ -418,32 +418,68 @@ Exceptions to MOUTH RULE (state explicitly per shot when used, or Veo will defau
 
 The locked block in §8 only describes **Brain**. Every script must define its own visual world at the top and reuse the **exact same wording** across scenes that share a location.
 
-### The rules
+User noted 15 мая 2026 (twice): environment drifts between scenes in the same location. In Sc 1 the rug is plain sage-green; in Sc 2 it suddenly has a pattern. In Sc 1 there's one snake plant by the window; in Sc 4 the plant is missing or replaced by a different species. This breaks the illusion of "one room" and confuses viewers.
+
+The fix is **strict prop-locking** + **verbatim location paste**.
+
+### The rules — non-negotiable
 
 1. **Pick 1–3 locations max per video.** More than that breaks visual flow.
-2. **Lock each location as a named block** at the top of the script (e.g., `INT. KITCHEN — DAY` or `EXT. WILD GRASS — GOLDEN HOUR`) with a single descriptive paragraph.
-3. **Identical wording = identical look.** If Scene 1 and Scene 5 are both in the kitchen, paste the *exact same* kitchen description into both image prompts. Don't paraphrase.
-4. **The CTA scene (Scene 8) must match the world.** End in one of the locations already used in the video, in the same lighting and style. Never end in a generic "purple bokeh + confetti" outro — that breaks continuity.
-5. **Group scenes by location** in the script's structure so it's obvious which scenes share a setting.
+2. **Lock each location as a named block** at the top of the script with a **single descriptive paragraph that lists every prop with its exact position, color, count, and pattern**.
+3. **Identical wording = identical look — PASTE VERBATIM.** If Sc 1 and Sc 5 share a location, the FULL location block must appear character-for-character identical in BOTH image prompts. **NEVER abbreviate to "Same living room"** — that's the bug. Nano Banana imagines fresh details when given short input.
+4. **Lock props by:**
+   - **Exact color** (not "green rug" — say "sage-green #8FA88B" or "plain sage-green woven")
+   - **Pattern** (or NO pattern — explicit: "plain weave, no pattern")
+   - **Count** (one snake plant, not "some plants")
+   - **Species/material** (snake plant Sansevieria specifically, not "leafy plant")
+   - **Position** (on the right / center / by the window — same in every scene)
+5. **The CTA scene (Sc 8 universal) is exempt** — it uses neutral bokeh on purpose to be reusable.
+6. **Group scenes by location** in the script's Scene → location map so it's obvious which scenes share a setting.
 
-### Example location block
+### Prop-lock checklist for each location
+
+When writing a location block, lock:
+
+- [ ] **Floor** — material + tone (e.g. "warm honey-amber wooden floorboards")
+- [ ] **Walls** — color (e.g. "soft cream-painted walls")
+- [ ] **Main furniture** — type, color, position (e.g. "cream linen armchair on the RIGHT with a folded amber knit throw")
+- [ ] **Rug** — exact color, weave, pattern (e.g. "plain sage-green woven rug, NO pattern, in the center")
+- [ ] **Window** — type, position, light direction (e.g. "tall window on the LEFT with sheer linen curtains, soft warm afternoon daylight from the left")
+- [ ] **Plant(s)** — species + count + position (e.g. "ONE leafy snake plant — Sansevieria — with 5-7 upright sword-shaped dark-green leaves with lighter variegated stripes, beside the window")
+- [ ] **Side props** — type + count + position (e.g. "ONE small wooden side-table on the LEFT holding ONE brass desk lamp (OFF) and ONE small open book lying face-down")
+- [ ] **Wall art** — present or NOT (e.g. "NO wall art" or "ONE framed nature print in soft focus on the back wall")
+- [ ] **Lighting** — direction + temperature (e.g. "soft warm honey-amber ambient with daylight bloom from the left")
+- [ ] **Atmosphere** — depth of field, mood (e.g. "cozy lived-in atmosphere, shallow depth of field")
+
+If a prop is NOT mentioned in the locked block, it must NOT appear in any scene's image. If a prop IS mentioned, it MUST appear in every scene's frame (when the angle allows) — same color, same count, same position.
+
+### Example — properly locked location
 
 ```
-INT. COZY LIVING ROOM — DAY
-Cozy modern living room with warm wooden floor, soft beige sofa
-in background, large window with soft afternoon daylight from the
-left, small green potted plant near the window, warm honey-colored
-ambient light, slight depth of field with sofa softly out of focus.
+INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: plain sage-green woven rug (no pattern, no border) in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (OFF, lampshade cream-colored) and ONE small open book lying face-down beside the lamp. WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains letting in soft warm afternoon daylight from the upper-right. PLANT: ONE leafy snake plant (Sansevieria) with 5–7 upright sword-shaped dark-green leaves with lighter variegated cream-green stripes, positioned in a small terracotta pot BESIDE the window on the floor. NO other plants. NO wall art (clean cream wall behind). LIGHTING: soft warm honey-amber ambient with daylight bloom from the window. Cozy lived-in atmosphere, shallow depth of field — armchair and window slightly soft-focus.
 ```
 
-Then in each scene's image prompt:
+### What to do in each image prompt
 
 ```
 [Locked Brain block from §8]
-[INT. COZY LIVING ROOM — DAY paragraph above, copy-pasted exactly]
-[Per-shot action: e.g., "Brain walks forward and gently places a small
-toy mouse on the wooden floor, looks up at camera with calm expression."]
+[Locked Human block from §2b if a human is in this scene]
+[The FULL location block above — copy-paste VERBATIM, do not abbreviate]
+[Per-shot framing: MEDIUM CLOSE-UP, eye-level, etc.]
+[Per-shot action: Brain mid-leap onto armchair, etc.]
 ```
+
+### Verification before generation
+
+Before pasting the prompt into Nano Banana, eyeball-check:
+
+1. Is the full location block present (not "Same living room")?
+2. Are the rug / armchair / plant / side-table / lamp wording exactly the same as previous scenes?
+3. If something must change (e.g. armchair moved out of frame because we cut wider), state it explicitly: "the cream armchair is NOT in this frame" — don't just omit silently.
+
+### Why this matters for monetization
+
+YouTube algorithm scores **brand consistency**. When the same set appears identical across scenes, viewers perceive professional production quality → higher watch-through → algorithm boost. Drift = amateur-looking = swipe-away.
 
 ---
 
