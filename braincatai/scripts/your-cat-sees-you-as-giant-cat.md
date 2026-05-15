@@ -93,7 +93,7 @@ Congrats — you've been adopted into the colony. Brain's your kitten now. Slow 
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — DAY. Cozy modern living room with warm wooden floor, sage-green rug, cream linen armchair, tall window with warm daylight bloom. MEDIUM SHOT framing. In the lower-right of frame: a seated human visible from behind only — back-of-head with long chestnut-brown hair falling over the shoulder, sitting in the cream armchair, simple casual sweater visible, NO face, NO profile, fully turned away from camera, hands resting in lap. In the center of frame: Brain caught mid-LEAP UP from the rug toward the human's lap — body fully airborne with motion-blur trail behind him, all four legs splayed wide in landing-prep crouch, fur visibly trailing in the wind of the jump, vivid emerald green eyes laser-locked on the human's lap target, ears pinned slightly back from the jump-thrust, whiskers fanned forward, tail extended behind him for balance. Brain has 4 paws total — all four visible mid-leap. Negative space upper-left reserved for an overlay.
+Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — DAY. Cozy modern living room with warm wooden floor, sage-green rug, cream linen armchair, tall window with warm daylight bloom. MEDIUM SHOT framing. In the lower-right of frame: a seated human visible from behind only — back-of-head with long flowing chestnut-brown wavy hair (mid-back length) falling over the shoulder, sitting in the cream armchair, soft cream-colored long-sleeve V-neck sweater visible, NO face, NO profile, fully turned away from camera, hands resting in lap. In the center of frame: Brain caught mid-LEAP UP from the rug toward the human's lap — body fully airborne with motion-blur trail behind him, all four legs splayed wide in landing-prep crouch, fur visibly trailing in the wind of the jump, vivid emerald green eyes laser-locked on the human's lap target, ears pinned slightly back from the jump-thrust, whiskers fanned forward, tail extended behind him for balance. Brain has 4 paws total — all four visible mid-leap. Negative space upper-left reserved for an overlay.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -115,7 +115,7 @@ MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-
 
 DYNAMICS RULE (strict — Lesson 4): Frame 0 must already show 5+ simultaneous motion elements: airborne body + fur trail + paw splay + locked eyes + camera push-in + whisker fan. NO sequential "first sit calm, then jump" — Brain is mid-leap on frame 0.
 
-HUMAN RULE (strict): The human's face is FULLY turned away from camera. Only back-of-head + long chestnut-brown hair + sweater + hands-in-lap visible. NO face, NO profile, NO chin, NO ear in frame at any time. Pixar 3D matching style, simple cartoon detail. Human stays completely still throughout.
+HUMAN RULE (strict): The human's face is FULLY turned away from camera. Only back-of-head + long chestnut-brown hair + sweater + hands-in-lap visible. NO face, NO profile, NO chin, NO ear in frame at any time. Pixar 3D matching style, Pixar 3D cartoon detail matching Brain's style. Human stays completely still throughout.
 
 STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft depth of field.
 ```
@@ -285,7 +285,7 @@ ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER 5 paw
 
 MOUTH RULE (single sustained lick exception): Mouth stays closed for 0–1.5s. At TIME 1.5s the pink tongue extends out for a SINGLE sustained gentle lick lasting 3 seconds, then retracts smoothly at TIME 4.5s and stays closed for the rest. ONE single deliberate lick — NO chewing, NO chattering, NO repeated, NO lip-sync.
 
-HUMAN RULE (strict): Only the hand and wrist visible — NO face, NO body parts above the wrist. Pixar 3D matching style, simple cartoon detail. Hand stays still throughout.
+HUMAN RULE (strict): Only the hand and wrist visible — NO face, NO body parts above the wrist. Pixar 3D matching style, Pixar 3D cartoon detail matching Brain's style. Hand stays still throughout.
 
 STYLE: Pixar 3D render, cinematic warm daylight, vertical 9:16, soft depth of field.
 ```

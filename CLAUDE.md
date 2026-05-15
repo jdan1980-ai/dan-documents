@@ -245,6 +245,7 @@ If editing the script's title, scenes, or VO, **re-verify tags reflect the new t
 - VO must work for kids AND adults — no jargon, no scary words. See `style-guide.md` §9 swap table.
 - Scientist/doctor/detective/etc. costume scenes — see `style-guide.md` §2 thematic costumes table. Wardrobe must keep collar + heart tag visible at the V-cut neckline.
 - **Visualize the VO literally — show, don't pose.** If the VO names a concrete thing or action, the visual must literally show it (Brain licking the hair, holographic mother+kitten, thought-bubble of clumsy kitten, etc.). Generic "Brain sits with X expression" wastes Veo 3 credits. See `style-guide.md` §5d for tools (holograms, thought-bubbles, off-frame humans, costumes).
+- **Lock the Human owner the same way Brain is locked.** When a scene needs a human in frame, use the locked spec from `style-guide.md` §2b: adult woman ~30, long chestnut-brown wavy hair (mid-back), cream-colored V-neck sweater, slim feminine build, Pixar 3D cartoon style, ALWAYS face-out-of-frame / turned away. Generate the human once → save as `assets/owner-reference.png` → attach as Nano Banana reference image in every subsequent scene to prevent drift between scenes (was happening: brunette in Sc 1, dark-haired man in Sc 2 — fixed 15 мая 2026).
 
 ## Notes
 

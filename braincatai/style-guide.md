@@ -73,6 +73,56 @@ When a scene's voiceover references a specific role (scientists, doctors, detect
 
 ---
 
+## 2b. The Human (Brain's owner — locked character)
+
+User noted 15 мая 2026: when a script needs a human in frame (lap, hand, head, silhouette), Nano Banana / Veo 3 used to drift between scenes — one scene shows a brunette woman, the next a different woman or even a man. This **breaks the illusion that Brain has ONE owner**. Lock the human the same way Brain is locked.
+
+### The Locked Human spec (paste verbatim into every scene that includes a human)
+
+```
+Adult woman in her early 30s — Brain's owner. Long flowing chestnut-brown hair (mid-back length, slightly wavy, soft volume), soft cream-colored casual long-sleeve sweater with a relaxed V-cut neckline, slim feminine build, pale-medium skin tone (Pixar 3D cartoon stylized, NOT photorealistic). Always shown from behind or with the face fully out of frame / fully turned away from camera — NO face, NO profile, NO chin, NO eyes, NO mouth, NO ear in frame at any time.
+```
+
+### Why she must NEVER show her face
+
+- Removes AI face-artifact risk (drift between scenes is most visible in faces)
+- Keeps the channel feeling universal — every viewer projects themselves onto the owner
+- Avoids face-rights / likeness concerns
+
+### Allowed visible parts (rotate per scene)
+
+| Scene type | Visible part |
+|------------|-------------|
+| Lap / seated | Back of head + hair + shoulder + sweater + hands in lap |
+| Headbutt / cheek-rub | Side of neck / jaw zone only (NO face) |
+| Hand / wrist scenes | Hand + wrist + sweater cuff only (no body above wrist) |
+| Sleeping on chest | Torso + collarbone + sweater, head CROPPED OFF above frame line |
+| Walking away | Back of head + hair + sweater + (sometimes) lower body |
+| Thought-bubble / iris | Stylized back-of-head silhouette in cartoon overlay only |
+
+### Reference workflow (Nano Banana / Veo 3)
+
+1. **First successful render** of the human in any scene → save as `assets/owner-reference.png`
+2. **Every subsequent scene** with the human → attach this image as character reference in Nano Banana before running the prompt
+3. **Always include the locked spec text above** in the prompt body — even with reference image attached, the text spec is anti-drift insurance
+
+### What changes per scene (does NOT break the lock)
+
+- Pose (sitting / lying / walking)
+- Visible angle (which body part is in frame)
+- Hand position
+- Whether she's holding something
+
+### What MUST stay constant
+
+- Hair: chestnut-brown, mid-back length, wavy
+- Sweater: cream-colored, long-sleeve, V-neck
+- Build: slim feminine
+- Style: Pixar 3D cartoon (not photo)
+- Always turned away / face never visible
+
+---
+
 ## 3. Color Palette
 
 Lock these for **Brain's character only**. Backgrounds and environments are NOT locked — they're chosen per video and must stay consistent within that video.
