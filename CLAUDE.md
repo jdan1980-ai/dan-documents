@@ -249,6 +249,50 @@ If editing the script's title, scenes, or VO, **re-verify tags reflect the new t
 - **All on-screen text MUST be in English** — channel is English-language (@braincatai). This applies to: thumbnails (title plate, arrow callouts), in-video overlays ("SAY THEIR NAME", "ADOPTED ✓", "TOP SCORE"), scene captions, chart labels in lab scenes. Russian alt-titles in scripts are ONLY for potential future RU mirror channel — never used on the current EN channel. Locked 15 мая 2026 after the assistant slipped Russian "ВОТ КАК ОНА ВИДИТ ВАС" into a thumbnail prompt.
 - **All on-screen text/numerals in a single video MUST use ONE LOCKED FONT and ONE LOCKED STYLE.** This applies to: cartoon numerals in image prompts ("1", "2", "3" in curiosity-gap and build-up scenes), category lower-thirds ("1. GUARD", "2. SEPARATION", "3. TERRITORY"), in-video overlay phrases ("EVERY TIME", "BLINK = SOUND", "VERIFY"), chart labels in lab scenes, thumbnail text plate. If a video uses a soft pastel-yellow rounded sans for the curiosity-gap "3", then EVERY numeral/overlay/caption in that video must be the same soft pastel-yellow rounded sans — not a serif here and a brush there. The full channel-wide locked typography spec lives in `braincatai/style-guide.md` §13 (font family, weight, color, stroke). Locked 16 мая 2026 after typography drift made overlays feel like different videos stitched together.
 
+## 🛑 Veo 3 prompt pre-flight verification (MANDATORY — assistant runs this before delivering any Veo 3 prompt)
+
+Locked 16 мая 2026 after user paid Veo credits to render bathroom Sc 4 with a phantom 3rd ear + chubby drift that should have been caught at the prompt review stage. **Veo 3 generations cost real money ($0.50-2 per scene × 8 scenes = $4-16 per video minimum, plus retries). Every Veo prompt the assistant delivers MUST be pre-flight verified against this checklist BEFORE handing it to the user.**
+
+### Pre-flight checklist (run mentally on every Veo prompt before delivery)
+
+For the **whole prompt**:
+- [ ] Does it contain the full LOCKED BRAIN spec (kitten age + 2 ears + 4 paws + emerald #3DDC84 + glasses + collar)?
+- [ ] Does it contain the full ANATOMY PRESERVATION RULE (anti phantom-ear + anti chubby-drift + identity-stays-IDENTICAL-to-input)?
+- [ ] Does it contain MOUTH RULE (mouth closed throughout, no lip-sync)?
+- [ ] Does it contain EYE COLOR RULE (#3DDC84 throughout, anti brown/amber)?
+- [ ] If scene has on-screen text → TYPOGRAPHY LOCK block + TYPOGRAPHY PRESERVE RULE?
+- [ ] If scene has the human owner → full LOCKED HUMAN OWNER block + HUMAN RULE (female + anti-male negatives)?
+- [ ] If scene has the locked location → full prop-locked location block pasted verbatim (matches every other scene in this location)?
+
+For **camera & motion** (high-drift-risk scenarios):
+- [ ] **Static camera + 7-second hold = highest Veo drift risk.** If the shot is static, add a small motion element (subtle push-in, dolly, micro-zoom) to keep Veo "engaged" — pure static holds tend to introduce extra anatomy artifacts as Veo "fills time"
+- [ ] If 7+ seconds with minimal motion → flag to user: consider 4-5s instead OR add motion
+- [ ] Pattern-interrupt slow-mo scenes are second-highest drift risk → reinforce ANATOMY RULE explicitly
+
+For **clip length**:
+- [ ] Veo 3 max single-clip length = 8 seconds. If beat needs >8s → split into 2 clips
+- [ ] Longer clips = more drift opportunity. Default to ≤7s, only go longer when story-beat absolutely needs it
+
+For **cost/risk awareness**:
+- [ ] Flag any scene that's likely to fail or need retries (text-heavy, multiple characters, complex motion, static-camera holds)
+- [ ] When flagging, propose a cheaper fallback (Google Vids overlay, image-only + Ken Burns, reusable universal clip)
+- [ ] Estimate "retry risk" honestly: GREEN (likely first-try success), YELLOW (50/50, may need 2 tries), RED (likely needs 2+ retries — propose fallback)
+
+For **delivery format** (how the prompt is handed to user):
+- [ ] State explicitly: "I pre-flight verified this against the checklist — flags: [list any RED/YELLOW flags + recommended fallbacks]"
+- [ ] If something on the checklist is missing → fix BEFORE delivering, not after the user spends credits
+- [ ] If the scene is high-drift-risk → tell the user upfront so they can decide whether to spend the credit or use a fallback
+
+### Real example of past failure (the lesson that triggered this rule)
+
+Bathroom Sc 4 — Brain in sentry pose at doorway, static camera 7s, "very subtle zoom" (i.e. essentially no motion). I delivered the Veo prompt with only "ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER show 5 paws or extra limbs." — no ear-count lock, no anti-drift language, no identity-preservation. Result: Veo morphed Brain into a chubbier-bodied generic cartoon kitten with a phantom 3rd ear sticking out of his head. User paid credits for an unusable clip.
+
+**What I should have done:** caught the static-camera-7s = highest drift risk → flagged it → reinforced ANATOMY RULE with anti-ear + identity-preservation tokens → optionally proposed shortening to 5s. Instead I delivered raw and the user paid for the mistake.
+
+### When you (Claude) skip the checklist
+
+You'll know you skipped because you delivered a Veo prompt without an "I verified against checklist — flags: [...]" line. If you catch yourself doing that, immediately ask the user to HOLD the generation and re-verify. Better to delay 30s than to waste $2.
+
 ## Notes
 
 - Add project-specific conventions, commands, and context here as the repository grows.
