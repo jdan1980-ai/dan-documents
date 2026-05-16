@@ -79,8 +79,22 @@ User noted 15 мая 2026: when a script needs a human in frame (lap, hand, head
 
 ### The Locked Human spec (paste verbatim into every scene that includes a human)
 
+Updated 16 мая 2026 after recurring man/woman swap in Nano Banana — strengthened with explicit female markers + anti-male negatives baked into the prompt body (not relying on reference image).
+
 ```
-Adult woman in her early 30s — Brain's owner. Long flowing chestnut-brown hair (mid-back length, slightly wavy, soft volume), soft cream-colored casual long-sleeve sweater with a relaxed V-cut neckline, slim feminine build, pale-medium skin tone (Pixar 3D cartoon stylized, NOT photorealistic). Always shown from behind or with the face fully out of frame / fully turned away from camera — NO face, NO profile, NO chin, NO eyes, NO mouth, NO ear in frame at any time.
+LOCKED HUMAN OWNER (same identity in every scene of this video — identical render every time): an adult WOMAN in her early 30s, Brain's owner — slim FEMININE build with narrow shoulders and soft feminine silhouette (NEVER male, NEVER a man, NEVER broad-shouldered, NEVER muscular). Long flowing CHESTNUT-BROWN wavy hair, mid-back length, soft natural volume, clearly cascading down her back (NEVER short hair, NEVER dark/black hair, NEVER blonde, NEVER grey, NEVER bald). Soft cream-colored long-sleeve V-neck sweater (NEVER a hoodie, NEVER dark clothing). Pale-medium skin tone. Pixar 3D cartoon style perfectly matching Brain's render. Face FULLY turned away from camera at all times — NO face, NO profile, NO chin, NO mouth, NO eyes, NO eyebrows, NO ear visible at any moment.
+```
+
+**Always append to the Negative prompts block** of any script that includes a human:
+
+```
+man, male figure, male owner, masculine build, broad shoulders, muscular body, short hair, dark hair, black hair, brown short hair, blonde hair, grey hair, bald head, beard, mustache, hoodie, dark clothing, different person between scenes, different owner, multiple owners, gender swap, swapped character
+```
+
+**HUMAN RULE template for Veo 3 prompts** (paste in every Veo prompt with the human):
+
+```
+HUMAN RULE (strict — LOCKED OWNER, female, same identity across the entire video): The owner is an adult WOMAN in her early 30s — slim feminine build, long chestnut-brown wavy hair (mid-back length, cascading down her back), soft cream V-neck sweater. NEVER male, NEVER a man, NEVER short hair, NEVER dark/black hair, NEVER broad-shouldered, NEVER bald. Face FULLY turned away from camera the entire 7 seconds — NO face, NO profile, NO chin, NO mouth, NO eyes, NO ear visible at any point. Stays completely still — only Brain moves.
 ```
 
 ### Why she must NEVER show her face
