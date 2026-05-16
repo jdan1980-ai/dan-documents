@@ -268,6 +268,7 @@ For **camera & motion** (high-drift-risk scenarios):
 - [ ] **Static camera + 7-second hold = highest Veo drift risk.** If the shot is static, add a small motion element (subtle push-in, dolly, micro-zoom) to keep Veo "engaged" — pure static holds tend to introduce extra anatomy artifacts as Veo "fills time"
 - [ ] If 7+ seconds with minimal motion → flag to user: consider 4-5s instead OR add motion
 - [ ] Pattern-interrupt slow-mo scenes are second-highest drift risk → reinforce ANATOMY RULE explicitly
+- [ ] **CHARACTER DIRECTION must match motion direction in Nano Banana input image.** If the scene requires Brain to move toward a target (chasing, walking to a door, leaping at lap), the input image MUST show Brain in PROFILE or 3/4-FROM-BEHIND oriented in that direction — NEVER 3/4-frontal or facing camera. Veo cannot re-orient a character mid-animation; it animates motion in the direction the body is already facing in the input image. Locked 16 мая 2026 after bathroom Sc 1: Nano Banana rendered Brain facing camera while woman walked away in deep background → Veo added motion forward → Brain ran TOWARD viewer while woman walked AWAY (directional contradiction). When the user sends a Nano Banana image and the character orientation contradicts the scene's motion direction, STOP before they spend a Veo credit and ask them to regenerate the image first.
 
 For **clip length**:
 - [ ] Veo 3 max single-clip length = 8 seconds. If beat needs >8s → split into 2 clips
