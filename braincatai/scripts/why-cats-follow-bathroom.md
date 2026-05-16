@@ -232,13 +232,13 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 **🎬 Animation prompt (Veo 3):**
 
 ```
-SHOT: Medium close-up, eye-level, Brain at doorway threshold. Static camera with very subtle zoom (no significant push or pull — the dignified stillness is the point). Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
+SHOT: Medium close-up, eye-level, Brain at doorway threshold. Continuous slow PUSH-IN (~6% over 7 seconds — camera dollies closer steadily to anchor Veo's frame-by-frame interpolation and prevent anatomy drift on static holds). Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) — not brown, not amber.
 
-TIME 0–2s: Brain in dignified sentry pose at the doorway. The soft pastel-blue cartoon shield aura overlay materializes behind/around him with a gentle bloom. His head slowly turns to the LEFT scanning the hallway, vivid emerald green eyes alert.
+TIME 0–2s: Brain in dignified sentry pose at the doorway, camera begins steady push-in. The soft pastel-blue cartoon shield aura overlay materializes behind/around him with a gentle bloom + continuous soft pulsing rhythm (NOT a one-off appearance — the aura keeps pulsing rhythmically throughout). His head slowly turns to the LEFT scanning the hallway, vivid emerald green eyes alert. Brain's tail tip flicks gently behind him (continuous subtle motion).
 
-TIME 2–5s: Brain's head smoothly turns to the RIGHT, continuing the scan. Ears swivel slightly with the head movement. The shield aura pulses softly. He's actively guarding.
+TIME 2–5s: Brain's head smoothly turns to the RIGHT in a confident scan, ears swivel slightly with the head movement (ears stay IDENTICAL in shape and size — small rounded kitten triangles, see EAR SHAPE & SIZE LOCK below). The shield aura keeps pulsing rhythmically (one pulse every ~1.2s — visible continuous motion). Camera continues steady push-in. Tail-tip flicks once more. Soft golden warm-light particles drift gently across the frame from the bathroom doorway behind (subtle ambient motion).
 
-TIME 5–7s: Brain's head returns to center, eyes locked forward, dignified guard pose held. The shield aura softens but remains a faint glow. One ear flicks. Gold heart tag glints.
+TIME 5–7s: Brain's head returns smoothly to center, vivid emerald green eyes lock forward at camera with dignified guard pride. The shield aura gives one final stronger pulse then settles to a soft steady glow. One ear flicks (a tiny twitch, NOT changing ear shape or size). Gold heart tag catches the warm light with a glint. Camera push-in completes.
 
 EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber.
 
