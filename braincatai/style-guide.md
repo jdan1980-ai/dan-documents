@@ -608,6 +608,72 @@ Always lead with the topic-specific emotional close BEFORE the follow line (see 
 
 ---
 
+## 13. Typography Lock (on-screen text — numerals, overlays, captions, thumbnails)
+
+Locked 16 мая 2026 after typography drift made overlays inside one video feel like cuts from different videos (one scene's "3" was rounded pastel-yellow sans, another scene's "1. GUARD" was a sharp serif outline). All on-screen text in a single video — and ideally across the channel — must share ONE font family + ONE color palette + ONE style treatment.
+
+### Canonical channel-wide typography lock
+
+| Element | Spec |
+|---------|------|
+| **Font family** | Rounded geometric sans-serif (Pixar-friendly cartoon font). Reference: **Nunito Bold / Quicksand Bold / Fredoka One** — soft rounded terminals, no sharp serifs, no hand-drawn brush. |
+| **Weight** | Bold (700) for primary overlays; Semibold (600) for secondary lower-thirds |
+| **Case** | ALL CAPS for hooks/numerals/category labels ("EVERY TIME", "1. GUARD", "BLINK = SOUND"). Title Case acceptable for longer captions only. |
+| **Primary fill color** | Soft pastel-yellow `#FFE066` (warm friendly, matches Brain's emerald-on-cream palette) |
+| **Secondary fill color** | Cream-white `#FFF8E7` for lower-thirds against warm backgrounds |
+| **Accent fill (thumbnails only)** | Electric Yellow `#FFD23F` for thumbnail title plate |
+| **Stroke / outline** | Solid charcoal `#2B2B2B` outline, 4–6px (scales to text size). Keeps text readable on any background. |
+| **Drop shadow** | Soft black 30% opacity, 4px Y-offset, 8px blur — subtle depth only, NEVER a hard offset shadow. |
+| **Numerals style** | Same font family — cartoon rounded sans bold pastel-yellow with charcoal stroke. NEVER serif, NEVER hand-drawn, NEVER different font from the captions. |
+| **Sparkle / particle accents** | Soft white sparkle particles around important numerals (`"3"`, `"#1"`) — keep particle style consistent across all videos. |
+| **Forbidden** | Sharp serif fonts, brush-script fonts, Comic Sans, Papyrus, Impact-style football fonts, gradient text fills, neon/metallic text, multiple different fonts in one video |
+
+### What this applies to (all must use the spec above)
+
+1. **In-image cartoon numerals** baked by Nano Banana — "1", "2", "3" in curiosity-gap and build-up scenes (e.g. `_universal-scene-8.md`, `why-cats-follow-bathroom.md` Sc 2)
+2. **Lower-third category captions** added in Google Vids — "1. GUARD", "2. SEPARATION", "3. TERRITORY", "REASON #1", etc.
+3. **In-video overlay phrases** — "EVERY TIME", "BLINK = SOUND", "VERIFY", "SAY THEIR NAME", "ADOPTED ✓", "TOP SCORE"
+4. **Chart labels in lab scenes** (Sc 3 scientist) — "HUMAN 20Hz–20kHz", "CAT 48Hz–85kHz", "1. GUARD" axis labels
+5. **Burn-in subtitle font** (top third, max 4 words) — same Bold rounded sans, slightly smaller
+6. **Thumbnail title plate** — same font family, Electric Yellow `#FFD23F` accent fill, larger weight, thicker stroke
+
+### How to specify in image prompts (Nano Banana)
+
+When the prompt includes ANY on-screen text or numeral, paste this typography lock into the prompt body verbatim:
+
+```
+TYPOGRAPHY LOCK (strict — same font in every overlay across this video and the channel): All on-screen text/numerals rendered in BOLD ROUNDED GEOMETRIC SANS-SERIF font (Pixar cartoon style, Nunito Bold / Fredoka One look — soft rounded terminals, NO serifs, NO brush-script, NO hand-drawn). Fill color: soft pastel-yellow #FFE066. Solid charcoal #2B2B2B outline 4-6px. Soft black drop-shadow 30% opacity. ALL CAPS. NEVER use a serif font, NEVER use a brush font, NEVER mix multiple fonts.
+```
+
+And append to the negative prompts:
+
+```
+serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, gradient text, neon text, metallic text, multiple fonts, mixed typography, sharp serifs on numerals, calligraphy
+```
+
+### How to specify in Google Vids overlays
+
+When adding lower-thirds / category captions / overlay phrases in Google Vids:
+
+1. Font family: **Nunito Bold** (or Fredoka One if Nunito unavailable)
+2. Fill: `#FFE066` (or `#FFF8E7` if background is warm)
+3. Stroke: `#2B2B2B` outline 4-6px
+4. Drop shadow: subtle black 30% 4px/8px
+5. Animation: gentle fade-in (0.3s) + pop-scale-up 1.05× hold + fade-out (0.3s) — same micro-animation for every text element
+
+### Verification before generation / before publish
+
+- [ ] Open the previous published video of the channel — is the new video's text in the same font family?
+- [ ] Open Scene 2 numeral + Scene 4 lower-third + thumbnail title — all three use the same font?
+- [ ] If a chart label is added in Sc 3, does it match the in-image numerals from Sc 2?
+- [ ] Negative prompts include the typography forbidden list?
+
+### Why this matters
+
+Brand consistency is the cheapest retention lever — viewers subconsciously recognize a channel by its typography before its content. Mixed fonts inside one video feel "unfinished" or "compiled from different sources" → trust drops → swipe-away rate goes up. Locking the font is a 0-cost retention boost.
+
+---
+
 ## 📝 Known issues + planned fixes (TODO — apply on next batch)
 
 User feedback: Brain looks **slightly different across scenes of the same video** — sometimes chubbier (Sc 2 of hair-licking), sometimes more adult/realistic (low-angle CU like Sc 4), sometimes off-color (overhead like Sc 7). This is classic AI character drift between independent generations.
