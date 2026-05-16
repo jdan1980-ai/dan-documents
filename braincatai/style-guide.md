@@ -360,17 +360,32 @@ If your prompt could describe a stuffed-animal-on-a-stick, rewrite it.
 
 Paste this **exact string** at the top of every image prompt. It locks **only Brain's look** — the world/background is chosen per video.
 
+Updated 16 мая 2026 after Veo 3 introduced phantom 3rd ear + chubby adult-cat drift in bathroom Sc 4 video render. Tightened with kitten-age proportions + EXACTLY 2 EARS lock + anti-artifact tokens.
+
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult,
+NOT chubby, NOT pudgy — slender petite kitten body with small chest,
+slim torso, delicate proportions, small paws), big round sparkling VIVID
 EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT
 brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin
 round gold-framed glasses, brown leather collar with gold
 heart-shaped tag engraved "Brain", soft fluffy orange fur with
-darker tabby stripes, pink nose, long white whiskers, Pixar 3D render
-style, cinematic lighting, 4K, vertical 9:16 composition.
+darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS
+(one left, one right — both pointed perky triangle kitten ears,
+perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped
+artifact on head), Pixar 3D render style, cinematic lighting, 4K,
+vertical 9:16 composition.
 ```
 
 Then append: **the locked scene/world block for this video** (see §8b) **+ the per-shot action and expression**.
+
+### ANATOMY PRESERVATION RULE (paste verbatim in every Veo 3 prompt)
+
+Veo 3 can morph anatomy during the 7-second animation even if the input image is clean. Add this rule to every Veo 3 prompt to lock Brain's anatomy through animation:
+
+```
+ANATOMY PRESERVATION RULE (strict — Veo must NOT morph Brain): Brain's anatomy must stay perfectly stable through the entire 7 seconds — EXACTLY 2 ears (one left, one right, perfectly symmetric, NO phantom third ear appearing during animation, NO extra fur tuft on head, NO ear-shaped artifact materializing in any frame), exactly 4 paws (2 front + 2 back, NO 5th paw, NO extra limb), kitten body proportions held constant (slender petite 8-week-old kitten, NEVER morphing into chubby adult cat, NEVER expanding chest, NEVER changing body size). Brain's identity must be IDENTICAL to the input image throughout — same face, same fur saturation, same eye color #3DDC84, same glasses position, same collar. NO character drift, NO off-model frames.
+```
 
 > ⚠️ **Eye color trap:** Warm/golden lighting often causes Nano Banana and Veo 3 to render Brain's eyes as brown/amber/hazel even though "green" is in the prompt. Always specify EMERALD GREEN with hex `#3DDC84`, repeat the green-eye reminder in the per-shot description, and include all wrong colors in negatives. For Veo 3, add an explicit `EYE COLOR RULE (strict)` block alongside ANATOMY and MOUTH rules.
 
