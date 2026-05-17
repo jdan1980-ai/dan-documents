@@ -251,7 +251,13 @@ Then start again.
 - Researching competitors → "Competitor" or "Сравнение каналов"
 - Planning upload time → "Время"
 
-**CRITICAL: do NOT recommend new scripts/topics without first checking bot data (snapshot files in `claude/seo-toolkit` branch OR fresh screenshot from user).** Earlier we wasted production slots by guessing; this tool prevents that.
+**CRITICAL — required check ORDER before recommending any topic / verifying what's published:**
+
+1. **FIRST** → read `braincatai/production-status.md` (canonical source of truth for what's been published, scheduled, and in progress) — this file is updated by user as they publish, more reliable than any external snapshot
+2. **THEN** → read `BRAINCAT_FULL_REVIEW.md` and `CHANNELS_SNAPSHOT.md` on `claude/seo-toolkit` branch for performance metrics (note the snapshot date — may be days/weeks stale)
+3. **THEN** → ask user for fresh screenshot of YouTube Studio Content tab OR for fresh bot snapshot if either prior source is unclear or stale
+
+**Lesson learned 17 мая 2026:** assistant recommended `slow-blink` for May 18 publish without checking `production-status.md` first — turned out it was already published May 9. Wasted user's time + risked recommending duplicate content. Always start with `production-status.md`.
 
 ### StillWave (`/stillwave`)
 
