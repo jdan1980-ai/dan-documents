@@ -188,15 +188,60 @@ curl -s "https://www.googleapis.com/youtube/v3/channels?key=$KEY&id=UCMKcrIw1l1u
 curl -s "https://www.googleapis.com/youtube/v3/playlistItems?key=$KEY&playlistId=UUMKcrIw1l1u_WU0M9Cv-DKw&maxResults=50&part=contentDetails" | jq
 ```
 
-**🛠️ YT Analytics dashboard (user's custom tool — ALWAYS use this for pre-publish + discovery):**
+**🛠️ YT Analytics dashboard (user's custom self-hosted bot — ALWAYS use this for pre-publish + discovery):**
 
-URL: `http://127.0.0.1:8000/` (runs on user's machine, NOT accessible from assistant's sandbox — ask user for screenshot when data needed)
+Self-hosted YouTube analytics tool (own implementation of vidIQ + Social Blade combined).
 
-Sections (all on free APIs, no quota issues):
-- **АНАЛИЗ**: Канал (stats/outliers/upload frequency), Видео (SEO + transcript + vs channel median), Ключевики (search without quota), Сравнение каналов (2 channels side-by-side)
-- **PRE-PUBLISH**: SEO Scorecard (Title+Description+Tags), Title A/B Batch (5 variants scored in 1 sec), Auto-tags (mine tags from niche outliers), Тумбнейл (contrast/readability/weight)
-- **DISCOVERY & INSIGHTS**: Breakout (30-day outliers), Google Trends, Время публикации (best time), Комментарии
-- **Top nav extras**: Forecast, Velocity, History, Competitor
+**Where the code lives:**
+- Repo: `jdan1980-ai/dan-documents`, branch `claude/seo-toolkit`
+- User's local path: `C:\Users\jdan1\projects\dan-documents`
+
+**How user runs it (Windows):**
+- Desktop shortcut "Start Bot" (green icon) — auto-starts + opens browser
+- Or manual:
+  ```
+  cd C:\Users\jdan1\projects\dan-documents
+  git checkout claude/seo-toolkit
+  .\venv\Scripts\activate
+  uvicorn app.main:app --reload
+  ```
+- Open at **`http://127.0.0.1:8000`** (use 127.0.0.1, NOT `localhost` — Windows firewall blocks `localhost`)
+
+**Recovery if bot won't start / can't see API key:**
+```
+taskkill /F /IM python.exe
+```
+Then start again.
+
+**Channels configured:** BrainCatAI (`@braincatai`) and StillWave (`@stillwavezen`)
+
+**Routes / sections (17 features):**
+| Route | Section | Purpose |
+|-------|---------|---------|
+| `/channel` | АНАЛИЗ | Stats / outliers / upload frequency |
+| `/seo` | PRE-PUBLISH | SEO Scorecard (title + description + tags + overall) |
+| `/title-batch` | PRE-PUBLISH | Compare up to 10 title variants, scored |
+| `/thumbnail` | PRE-PUBLISH | Contrast / readability / weight analysis |
+| `/breakout` | DISCOVERY | What broke out in 7-90 days |
+| `/trends` | DISCOVERY | Google Trends overlay |
+| `/forecast` | INSIGHTS | Revenue forecast, Grade A++..F |
+| `/velocity` | INSIGHTS | views/hour + 30-day projection |
+| `/compare` | АНАЛИЗ | 2 channels side-by-side |
+| (+ 8 more) | various | Auto-tags, Время, Comments, History, Competitor, etc. |
+
+**Bot output files committed to `claude/seo-toolkit` branch (current as of branch tip):**
+- `BRAINCAT_FULL_REVIEW.md` — detailed analysis of all 14 published Shorts with diagnosis + title rewrites
+- `CHANNELS_SNAPSHOT.md` — channel statistics snapshot (last update visible in file header)
+- `BRAINCAT_PINNED.md`, `STILLWAVE_PINNED.md` — pinned comment libraries
+- `TITLE_REWRITES.md` — suggested title improvements
+- `data/channels_snapshot.json` — machine-readable snapshot
+
+**Access from assistant's sandbox:**
+- Assistant CANNOT reach `http://127.0.0.1:8000` directly (network isolation)
+- Workarounds:
+  1. **Best**: read latest snapshot files committed to `claude/seo-toolkit` branch (`git show origin/claude/seo-toolkit:CHANNELS_SNAPSHOT.md`, `BRAINCAT_FULL_REVIEW.md`, etc.)
+  2. Ask user for screenshot of a specific section if file data is stale
+  3. Ask user to commit fresh snapshot to repo if needed
 
 **When to ask user for screenshot from this dashboard:**
 - Picking next topic → "Ключевики" or "Breakout" section
@@ -206,7 +251,7 @@ Sections (all on free APIs, no quota issues):
 - Researching competitors → "Competitor" or "Сравнение каналов"
 - Planning upload time → "Время"
 
-**CRITICAL: do NOT recommend new scripts/topics without first asking user to share data from this dashboard.** Earlier we wasted production slots by guessing; this tool prevents that.
+**CRITICAL: do NOT recommend new scripts/topics without first checking bot data (snapshot files in `claude/seo-toolkit` branch OR fresh screenshot from user).** Earlier we wasted production slots by guessing; this tool prevents that.
 
 ### StillWave (`/stillwave`)
 
