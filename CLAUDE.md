@@ -188,6 +188,26 @@ curl -s "https://www.googleapis.com/youtube/v3/channels?key=$KEY&id=UCMKcrIw1l1u
 curl -s "https://www.googleapis.com/youtube/v3/playlistItems?key=$KEY&playlistId=UUMKcrIw1l1u_WU0M9Cv-DKw&maxResults=50&part=contentDetails" | jq
 ```
 
+**🛠️ YT Analytics dashboard (user's custom tool — ALWAYS use this for pre-publish + discovery):**
+
+URL: `http://127.0.0.1:8000/` (runs on user's machine, NOT accessible from assistant's sandbox — ask user for screenshot when data needed)
+
+Sections (all on free APIs, no quota issues):
+- **АНАЛИЗ**: Канал (stats/outliers/upload frequency), Видео (SEO + transcript + vs channel median), Ключевики (search without quota), Сравнение каналов (2 channels side-by-side)
+- **PRE-PUBLISH**: SEO Scorecard (Title+Description+Tags), Title A/B Batch (5 variants scored in 1 sec), Auto-tags (mine tags from niche outliers), Тумбнейл (contrast/readability/weight)
+- **DISCOVERY & INSIGHTS**: Breakout (30-day outliers), Google Trends, Время публикации (best time), Комментарии
+- **Top nav extras**: Forecast, Velocity, History, Competitor
+
+**When to ask user for screenshot from this dashboard:**
+- Picking next topic → "Ключевики" or "Breakout" section
+- Validating a draft title → "SEO Scorecard" or "Title A/B Batch"
+- Reviewing thumbnail before upload → "Тумбнейл"
+- Checking what's already published / outliers / channel state → "Канал" or "Видео"
+- Researching competitors → "Competitor" or "Сравнение каналов"
+- Planning upload time → "Время"
+
+**CRITICAL: do NOT recommend new scripts/topics without first asking user to share data from this dashboard.** Earlier we wasted production slots by guessing; this tool prevents that.
+
 ### StillWave (`/stillwave`)
 
 YouTube channel — Japanese ambient · meditation · sleep · focus music. Handle: @stillwavezen.
