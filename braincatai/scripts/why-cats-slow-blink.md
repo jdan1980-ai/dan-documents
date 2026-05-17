@@ -2,14 +2,14 @@
 
 ## Meta
 
-- **Title (final):** What Your Cat's Slow Blink REALLY Means (It's Love) 🐱 | Cat Psychology
+- **Title (final):** Your Cat Says "I Love You" Every Day. You Just Missed It 🐱 | Cat Psychology
 - **Slug:** `why-cats-slow-blink`
 - **Category:** Psychology / Communication
 - **Series:** Cat Asks Why
 - **Status:** script ready for production
 - **Date created:** 2026-05-05
 - **Publish date:** 2026-05-18 (Mon — Cat Psychology slot, post-bathroom)
-- **vidIQ score:** 73.5 GREEN (`cat slow blink meaning` — 13,673 monthly searches, competition 8.8 LOW)
+- **vidIQ score:** 73.5 GREEN on `cat slow blink meaning` (13,673 monthly searches, competition 8.8 LOW) — keyword lives in description + tags; title is CTR-optimized for emotional curiosity bait
 
 ## Audience Promise
 
@@ -457,13 +457,13 @@ Cozy heartfelt piano, soft acoustic guitar, 95 BPM, warm and gentle, builds subt
 
 ## SEO Pack
 
-**Final title** (vidIQ GREEN — score 73.5, 13,673 monthly searches on `cat slow blink meaning`):
+**Final title** (74 chars — CTR-optimized emotional curiosity bait):
 
 ```
-What Your Cat's Slow Blink REALLY Means (It's Love) 🐱 | Cat Psychology
+Your Cat Says "I Love You" Every Day. You Just Missed It 🐱 | Cat Psychology
 ```
 
-(70 chars — fits in title bar with #shorts hashtag, "slow blink" appears early for keyword matching)
+> ℹ️ **SEO logic:** title itself is RED on direct search ("cat says i love you" — 0 monthly), but the GREEN keyword `cat slow blink meaning` (73.5 / 13,673 monthly) lives in description + tags below. Title trades search-match for CTR — "You Just Missed It" is high-curiosity bait. Recovery-mode canal needs CTR more than direct-search-match.
 
 **Hashtags for title bar** (paste at end of YouTube title field, after the main title):
 
@@ -474,7 +474,7 @@ What Your Cat's Slow Blink REALLY Means (It's Love) 🐱 | Cat Psychology
 Alt titles to A/B test:
 
 ```
-Your Cat's Slow Blink Means "I Love You" 🐱 | Cat Psychology
+What Your Cat's Slow Blink REALLY Means (It's Love) 🐱 | Cat Psychology
 Cat Slow Blink Meaning — They're Saying I LOVE YOU 🐱 | Cat Psychology
 If Your Cat Slow Blinks at You, THIS Is Why 🐱 | Cat Psychology
 ```
