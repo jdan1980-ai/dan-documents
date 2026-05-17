@@ -49,49 +49,36 @@ Applied channel-wide. Full spec in `CLAUDE.md` § "Shorts-specific rules".
 | 9 мая | Сб | Your Cat Says "I Love You" (Slow Blink) | Cat Psychology | `why-cats-slow-blink` | published TBD |
 | 10 мая | Вс | What's Inside a Black Hole? | Brain Hacks (LEGACY non-cat) | `whats-inside-a-black-hole` | published TBD |
 | 11 мая | Пн | Why Your Cat Licks Your Hair | Cat Psychology | `why-cats-lick-your-hair` | published TBD |
-| **12 мая (сегодня)** | **Вт** | **If Your Cat Sleeps on You...** | **Cat Psychology** | `where-your-cat-sleeps` | ✅ **published — был перенесён с 16 мая** |
+| 12 мая | Вт | If Your Cat Sleeps on You... (Sleeping Positions) | Cat Psychology | `where-your-cat-sleeps` | 21 |
+| 13 мая | Ср | Why Cats LOSE THEIR MIND at Closed Doors | Cat Psychology | `why-cats-hate-closed-doors` | 14 |
+| 14 мая | Чт | You Say THESE Words, Your Cat HEARS You! | Cat Psychology | `13-words-cats-understand` | 17 |
+| 15 мая | Пт | Your Cat Thinks YOU'RE a Giant Weird Cat 🐱 | Cat Psychology | `your-cat-sees-you-as-giant-cat` | 44 |
+| 15 мая | Пт | 🚨 Your Cat STARES at You for No Reason | Cat Psychology | `why-cats-stare-at-you` | **4** ⚠️ double-publish penalty |
+| **17 мая (сегодня)** | **Вс** | Why Your Cat FOLLOWS You to the Bathroom | Cat Psychology | `why-cats-follow-bathroom` | **11** |
 
-### Запланировано в YouTube Studio (после 12 мая)
+🚨 **Lesson learned 17 мая 2026 (double-publish kill):** 15 мая вышли ДВА видео в один день — Giant (44 views) + Stares (**4 views**). Алгоритм задушил второе видео. **НИКОГДА не публиковать два Shorts в один день** — даже если одно сильнее. Один день = один Short максимум.
 
-| Дата | День | Видео | Тип | Slug | Pipeline статус |
-|------|------|-------|------|------|------------------|
-| 13 мая | Ср | Why Cats LOSE THEIR MIND a... (Closed Doors) | Cat Psychology | `why-cats-hate-closed-doors` | ⏰ scheduled in YT Studio (новый title прижился ✓) |
-| 14 мая | Чт | This is Why Your Body Rea... (Vagus Nerve) | Brain Hacks LEGACY non-cat | `your-body-calm-down-button` | 🛑 **придерживаем — снять с расписания** |
+### План на 18–27 мая — 10-дневный календарь (обновлён 17 мая 2026 после API-сверки)
 
-### План на 13-19 мая — CATS-ONLY политика (11 мая решение)
-
-⚠️ **Политика канала:** только cat-контент. YouTube демотировал не-cat видео. Все слоты ниже — Cat Psychology / Cat Behavior. Старая рубрика "Kids Trend / What If / Did You Know / Brain Hacks" — deprecated, не использовать.
-
-| Дата | День | Тема (cats only) | Slug | Статус |
-|------|------|------------------|------|--------|
-| 13 мая | Ср | Why Cats LOSE THEIR MIND at Closed Doors | `why-cats-hate-closed-doors` | ⏰ scheduled in YT Studio |
-| 14 мая | Чт | Vagus Nerve — **RESERVE only**, не выпускаем сегодня | `your-body-calm-down-button` | 🟡 в YT Studio как emergency reserve (использовать ТОЛЬКО если cat-видео не успеет — иначе пропуск) |
-| 15 мая | Пт | _пропуск (буфер от сдвига +1)_ | — | 🛑 пропуск |
-| 16 мая | Сб | 13 Words Your Cat REALLY Understands | `13-words-cats-understand` | 📝 script готов |
-| 17 мая | Вс | Why Your Cat STARES at You (4 Types) | `why-cats-stare-at-you` | 📝 script готов |
-| 18 мая | Пн | Your Cat Thinks You're a Giant Weird Cat | `your-cat-sees-you-as-giant-cat` | 📝 script готов |
-| 19 мая | Вт | Why Your Cat Follows You to the Bathroom | `why-cats-follow-bathroom` | 📝 script готов |
-| 20 мая | Ср | Your Cat Can Hear You Blinking | `cats-hear-you-blinking` | 📝 script готов |
-
-**Emergency Reserve правило:** Vagus Nerve (`your-body-calm-down-button`) лежит scheduled в YT Studio на 14 мая, но ЭТО НЕ ПУБЛИКАЦИЯ. Видео используется **только** как страховка: если на любой день недели не удаётся подготовить cat-видео, можно дёрнуть Vagus Nerve как fallback. Иначе — снять с расписания / отложить в архив.
-
-### План на 18–27 мая — 10-дневный календарь (17 мая 2026)
-
-> vidIQ research: 13 тем проверено (95 кредитов). Все ниже порога GREEN. Выбраны лучшие YELLOW + competitor-proven темы.
+> vidIQ research: 13 тем проверено. Все ниже порога GREEN. Выбраны лучшие YELLOW + competitor-proven темы.
 > 🏆 Скрытый джекпот: `cat facts mind blowing` — score **73.8 / 9,953 monthly / competition 5** — добавлять в теги каждого видео.
+>
+> ⚠️ Сверено через YouTube API: Giant Cat, Stares, Bathroom — УЖЕ опубликованы (15-17 мая), убраны из плана.
 
 | Дата | День | Тема | Slug | vidIQ | Статус |
 |------|------|------|------|-------|--------|
-| 18 мая | Пн | Your Cat Thinks You're a Giant Weird Cat | `your-cat-sees-you-as-giant-cat` | 71.47 ✅ | 📝 script готов |
+| 18 мая | Пн | Your Cat Can Hear You Blinking | `cats-hear-you-blinking` | — | 📝 script готов → производство |
 | 19 мая | Вт | Your Cat Doesn't Ignore You. This Is Why | `why-cats-ignore-you` | 59.47 / 8,757 | ✍️ нужен скрипт |
-| 20 мая | Ср | Your Cat Can Hear You Blinking | `cats-hear-you-blinking` | — | 📝 script готов |
-| 21 мая | Чт | Your Cat's Tail Is Talking. Are You Listening? | `why-cats-wag-their-tails` | 62.59 / 5,400 | ✍️ нужен скрипт |
-| 22 мая | Пт | Your Cat Invented a Language Just for YOU | `why-cats-meow-only-at-humans` | 60.70 / 3,685 | ✍️ нужен скрипт |
-| 23 мая | Сб | When Your Cat Stretches at You, It's Saying This | `why-cats-stretch-at-you` | 60.13 / 5,378 | ✍️ нужен скрипт |
-| 24 мая | Вс | Why Your Cat Acts Like Water Is Poison | `why-cats-hate-water` | 60.88 / 3,659 | ✍️ нужен скрипт |
-| 25 мая | Пн | Your Cat Is Older Than You Think 🐱 | `cat-years-to-human-years` | competitor proof | ✍️ нужен скрипт |
-| 26 мая | Вт | 3 Things Your Cat Can Sense That You Can't | `cat-superpowers-senses` | targets 73.8/9,953 | ✍️ нужен скрипт |
-| 27 мая | Ср | Why Your Cat Hates When You Leave | `why-cats-hate-being-left-alone` | TBD | ✍️ нужен скрипт |
+| 20 мая | Ср | Your Cat's Tail Is Talking. Are You Listening? | `why-cats-wag-their-tails` | 62.59 / 5,400 | ✍️ нужен скрипт |
+| 21 мая | Чт | Your Cat Invented a Language Just for YOU | `why-cats-meow-only-at-humans` | 60.70 / 3,685 | ✍️ нужен скрипт |
+| 22 мая | Пт | When Your Cat Stretches at You, It's Saying This | `why-cats-stretch-at-you` | 60.13 / 5,378 | ✍️ нужен скрипт |
+| 23 мая | Сб | Why Your Cat Acts Like Water Is Poison | `why-cats-hate-water` | 60.88 / 3,659 | ✍️ нужен скрипт |
+| 24 мая | Вс | Your Cat Is Older Than You Think 🐱 | `cat-years-to-human-years` | competitor proof | ✍️ нужен скрипт |
+| 25 мая | Пн | 3 Things Your Cat Can Sense That You Can't | `cat-superpowers-senses` | targets 73.8/9,953 | ✍️ нужен скрипт |
+| 26 мая | Вт | Why Your Cat Hates When You Leave | `why-cats-hate-being-left-alone` | TBD | ✍️ нужен скрипт |
+| 27 мая | Ср | _Нужна 10-я тема — выбрать из vidIQ-кэша_ | TBD | TBD | ✍️ нужен скрипт |
+
+🚨 **Канал в recovery mode:** view-counts с 8 мая упали с 800-1300 до 10-44. Причина — non-cat видео (Sky Blue, Doorway, Vagus, Black Hole). До восстановления — **только cats**, 1 видео в день, никаких double-publish.
 
 ### Long-form pipeline
 
