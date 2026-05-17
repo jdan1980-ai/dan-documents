@@ -259,6 +259,18 @@ Then start again.
 
 **Lesson learned 17 мая 2026:** assistant recommended `slow-blink` for May 18 publish without checking `production-status.md` first — turned out it was already published May 9. Wasted user's time + risked recommending duplicate content. Always start with `production-status.md`.
 
+**CRITICAL — keyword research tool priority (always free bot first, paid vidIQ MCP only as fallback):**
+
+User's self-hosted bot has a free `/keywords` (POST `/keywords/research`) endpoint that uses YouTube search-no-quota — same data as vidIQ but FREE. ALWAYS use the bot for keyword research first. The paid `vidiq_keyword_research` MCP (5 credits/call) is fallback ONLY when bot is unreachable AND user explicitly confirms to spend credits.
+
+**Workflow for keyword research:**
+1. Identify the 3-5 candidate keywords for the topic
+2. Ask user to run them in the bot's `/keywords` section → screenshot the results table → paste in chat
+3. Read screenshot, pick GREEN winner
+4. **NEVER** burn vidIQ MCP credits before checking if bot can do the job for free
+
+**Lesson learned 17 мая 2026:** assistant burned ~25 vidIQ credits checking topics user already had in production OR could check for free in the bot. Don't waste paid credits on free-tool tasks.
+
 ### StillWave (`/stillwave`)
 
 YouTube channel — Japanese ambient · meditation · sleep · focus music. Handle: @stillwavezen.
