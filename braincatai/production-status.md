@@ -6,6 +6,23 @@ Single source of truth для статуса каждого видео по pipe
 
 ---
 
+## 📌 Locked rules (17 мая 2026 — Karena Roshaian playbook)
+
+Applied channel-wide. Full spec in `CLAUDE.md` § "Shorts-specific rules".
+
+- **NO hashtags in title field** — #shorts attracts bouncing audience → kills retention → algo stops promoting
+- **Tags fill toward 500 chars** — brand 20% + broad 20% + narrow-specific 40-50%. Mandatory: `braincatai`, `cat facts mind blowing`, `cat behavior explained`
+- **Upload via phone only** — only mobile YT app lets you pick stop-frame for thumbnail
+- **First publish = Unlisted or Scheduled, never direct Public** — prevents algo seeing compressed garbage
+- **"Not for kids" always** — For kids → YouTube Kids → wrong audience
+- **Link Short → long-form via Related video** — funnel: feed → Short → long-form
+- **First 3 seconds = 90% of retention weight** — hook must have: intrigue + benefit + urgency + relatability
+- **Update phone YT app before every upload** — stale app breaks upload
+
+**📊 Stats check-in: ~31 мая 2026** — посмотреть как изменились метрики у видео, опубликованных с новыми тегами (STARES, GIANT и далее). Сравнить CTR/retention с предыдущими видео.
+
+---
+
 ## 🗓️ Расписание
 
 ### Опубликовано
