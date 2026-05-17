@@ -63,3 +63,20 @@ Output of `GAP: SW` runs lands here. Updated after each gap analysis.
 3. 🟡 **侘寂 — WABI-SABI | Moss Garden — Imperfect Stillness** (untouched concept, strong иероглиф aesthetic, content-gap candidate)
 
 > Validate via `GAP: SW` (competitor + Google Trends check) before committing.
+
+---
+
+## 🆕 Keyword-validated picks (May 17, 2026 — VidIQ research)
+
+Pulled via `vidiq_keyword_research`. Three under-targeted high-volume keywords surfaced — should drive next 3 videos:
+
+| Keyword | Monthly searches | Competition | Overall score | Status |
+|---------|------------------|-------------|---------------|--------|
+| **japanese ambient music** | 61,342 | 25 | 73 | ⭐ next 2 videos (Bonsai Vol. 3 + YUKI) |
+| **koto music** | 49,274 | **19** | 74 | ⭐ candidate for May 22 (if Healing dies at 7d) |
+| **cozy rain ambience** | 74,718 | **14** | 78 | ⭐ future Sleep video — pair with rain scene |
+| **japanese playlist** | 26,466 | **10** | 75 | ⭐ extremely under-targeted — long-tail in tags |
+
+Outlier pattern study confirms **instrument-led titles** breakout for small channels (Chinese Zen with Erhu/Guzheng/Bamboo Flute = breakout score 364 on a 12.8k-sub channel). Apply same to Koto.
+
+Full content plan with calendar: `analytics/content-plan-week-may-18-24.md`.
