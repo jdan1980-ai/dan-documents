@@ -2,13 +2,14 @@
 
 ## Meta
 
-- **Title (working):** Your Cat's Slow Blink Means "I Love You" 🐱 | Cat Psychology
+- **Title (final):** What Your Cat's Slow Blink REALLY Means (It's Love) 🐱 | Cat Psychology
 - **Slug:** `why-cats-slow-blink`
-- **Category:** Psychology / Biology
+- **Category:** Psychology / Communication
 - **Series:** Cat Asks Why
-- **Status:** script
+- **Status:** script ready for production
 - **Date created:** 2026-05-05
-- **Publish date:** 2026-05-09
+- **Publish date:** 2026-05-18 (Mon — Cat Psychology slot, post-bathroom)
+- **vidIQ score:** 73.5 GREEN (`cat slow blink meaning` — 13,673 monthly searches, competition 8.8 LOW)
 
 ## Audience Promise
 
@@ -19,13 +20,13 @@ The viewer learns what a cat's slow blink actually means AND gets a trick to try
 ## 🔒 Locked Brain Prompt (always prepend)
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition.
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition.
 ```
 
 **Negative prompts (Nano Banana):**
 
 ```
-2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, extra paws, five legs, six legs, both front paws raised, two paws raised together, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive expression, mouth open as if talking, lip-sync, talking cat, mouth movement, chattering, brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes, dark eyes, brown iris, amber iris, wrong eye color, eye color tinted by lighting, warm-tinted eyes
+2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, extra paws, five legs, six legs, both front paws raised, two paws raised together, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive expression, mouth open as if talking, lip-sync, talking cat, mouth movement, chattering, brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes, dark eyes, brown iris, amber iris, wrong eye color, eye color tinted by lighting, warm-tinted eyes, three ears, extra ear, third ear, phantom ear, ear-shaped artifact, asymmetric ears, deformed ears, floating fur tuft, extra fur clump, extra appendage on head, extra anatomy, mutated head, chubby kitten, fat kitten, adult cat body, oversized chest, generic cartoon cat, off-model Brain, different Brain, Brain drift, elongated ears, bat ears, vampire ears, devil ears, pointy adult ears, lab coat covering collar, hidden heart tag
 ```
 
 ---
@@ -99,7 +100,7 @@ If they blink back — congratulations. Your cat loves you. Follow Brain for mor
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain sitting centered on the warm wooden floor, facing camera directly, eyes in a soft half-lidded slow-blink pose — eyes 60% closed but the visible portion of the iris is BRIGHT EMERALD GREEN, relaxed and warm expression, slight head tilt to the right, both ears gently forward, all 4 paws resting on the floor, tail curled neatly beside him. Calm, loving expression. The eye color must remain bright emerald green even with the warm lighting — do not let the warm tones tint the eyes brown or amber.
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain sitting centered on the warm wooden floor, facing camera directly, eyes in a soft half-lidded slow-blink pose — eyes 60% closed but the visible portion of the iris is BRIGHT EMERALD GREEN, relaxed and warm expression, slight head tilt to the right, both ears gently forward, all 4 paws resting on the floor, tail curled neatly beside him. Calm, loving expression. The eye color must remain bright emerald green even with the warm lighting — do not let the warm tones tint the eyes brown or amber.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -116,6 +117,10 @@ TIME 5.5–7s: Brain holds the warm post-blink half-lidded gaze directly at came
 EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout the entire 7 seconds. The warm golden lighting must NOT tint the eyes brown, amber, yellow, or hazel. The iris stays vivid green even in shadow and even when half-closed.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. All 4 paws stay on the ground throughout. No front paw is raised at any point. NEVER show 5 paws, extra limbs, or any paw leaving the ground.
+
+EAR SHAPE & SIZE LOCK (strict — most important, anti Veo drift): Brain's ears MUST stay IDENTICAL in shape and size to the input image throughout all 7 seconds — small rounded kitten triangle ears, NEVER growing taller frame-by-frame, NEVER elongating into pointy bat-shape, NEVER stretching upward, NEVER becoming adult cat ears, NEVER morphing into vampire/devil ears. Zero ear-size drift, zero ear-shape drift, zero ear-position drift.
+
+BODY & IDENTITY LOCK (strict): Brain stays slender 8-week-old kitten proportions throughout — NEVER morphing into chubby adult cat, NEVER expanding chest. Brain's identity stays IDENTICAL to input image — same face, same fur saturation, same emerald eye color #3DDC84, same glasses position, same brown collar with gold heart tag. NO character drift, NO off-model frames.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing motion. No chattering. No mouth movement of any kind. All emotion comes through the slow blink — eyes, ears, and whiskers only.
 
@@ -137,7 +142,7 @@ Your cat just looked at you... and slowly closed its eyes. That's not sleepiness
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain leaning very slightly forward with wide bright sparkling eyes, excited expression, ONLY his right front paw raised and extended slightly forward toward camera in a "presenting an idea" gesture — left front paw and both back paws firmly on the ground. Ears fully perked forward, eyebrows raised, single small sparkle glint in each eye.
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain leaning very slightly forward with wide bright sparkling eyes, excited expression, ONLY his right front paw raised and extended slightly forward toward camera in a "presenting an idea" gesture — left front paw and both back paws firmly on the ground. Ears fully perked forward, eyebrows raised, single small sparkle glint in each eye.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -152,6 +157,10 @@ TIME 2–5s: Brain raises ONLY his right front paw and extends it slightly forwa
 TIME 5–7s: Brain holds the paw-forward pose, eyes gleam with excitement, right ear gives one quick forward flick, whiskers spread wide.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. ONLY the right front paw is raised and extended forward. Left front paw and both back paws stay firmly on the ground. NEVER show 5 paws, extra limbs, or both front paws raised together.
+
+EAR SHAPE & SIZE LOCK (strict — most important, anti Veo drift): Brain's ears MUST stay IDENTICAL in shape and size to the input image throughout all 7 seconds — small rounded kitten triangle ears, NEVER growing taller frame-by-frame, NEVER elongating into pointy bat-shape, NEVER stretching upward, NEVER becoming adult cat ears, NEVER morphing into vampire/devil ears. Zero ear-size drift, zero ear-shape drift, zero ear-position drift.
+
+BODY & IDENTITY LOCK (strict): Brain stays slender 8-week-old kitten proportions throughout — NEVER morphing into chubby adult cat, NEVER expanding chest. Brain's identity stays IDENTICAL to input image — same face, same fur saturation, same emerald eye color #3DDC84, same glasses position, same brown collar with gold heart tag. NO character drift, NO off-model frames.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing motion. No chattering. No mouth movement of any kind. All emotion through eyes and the single paw gesture.
 
@@ -174,7 +183,7 @@ And here's the wild part — you can send it back.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. SUNNY WINDOWSILL — AFTERNOON. Wide clean wooden windowsill in front of a tall glass window, warm afternoon sunlight streaming directly through the glass from outside, a soft white sheer curtain partially pulled back on the right side, blurred green leaves of an outdoor tree softly visible through the glass with shallow depth of field, warm honey-amber lighting tone matching the rest of the home, uncluttered windowsill surface, peaceful indoor scene. Brain crouched low on the windowsill in a focused predator pose — body slightly tense and lowered, all 4 paws planted on the wooden surface, pupils narrowed to thin vertical slits, eyes locked through the glass at something outside (off-camera, slightly to the right), ears slightly pulled back, whiskers pulled forward, tail held rigid behind him. The demonstration "aggression stare" face — intense but not scary.
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. SUNNY WINDOWSILL — AFTERNOON. Wide clean wooden windowsill in front of a tall glass window, warm afternoon sunlight streaming directly through the glass from outside, a soft white sheer curtain partially pulled back on the right side, blurred green leaves of an outdoor tree softly visible through the glass with shallow depth of field, warm honey-amber lighting tone matching the rest of the home, uncluttered windowsill surface, peaceful indoor scene. Brain crouched low on the windowsill in a focused predator pose — body slightly tense and lowered, all 4 paws planted on the wooden surface, pupils narrowed to thin vertical slits, eyes locked through the glass at something outside (off-camera, slightly to the right), ears slightly pulled back, whiskers pulled forward, tail held rigid behind him. The demonstration "aggression stare" face — intense but not scary.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -189,6 +198,10 @@ TIME 3–5.5s: Brain continues the unblinking outdoor stare, whiskers pulled sli
 TIME 5.5–7s: Brain breaks the stare — quickly turns his head back toward camera (away from the window), body posture instantly relaxes, ears come forward, tail loosens softly.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. All 4 paws stay planted on the windowsill throughout. No paw is raised. NEVER show 5 paws or extra limbs.
+
+EAR SHAPE & SIZE LOCK (strict — most important, anti Veo drift): Brain's ears MUST stay IDENTICAL in shape and size to the input image throughout all 7 seconds — small rounded kitten triangle ears, NEVER growing taller frame-by-frame, NEVER elongating into pointy bat-shape, NEVER stretching upward, NEVER becoming adult cat ears, NEVER morphing into vampire/devil ears. Zero ear-size drift, zero ear-shape drift, zero ear-position drift.
+
+BODY & IDENTITY LOCK (strict): Brain stays slender 8-week-old kitten proportions throughout — NEVER morphing into chubby adult cat, NEVER expanding chest. Brain's identity stays IDENTICAL to input image — same face, same fur saturation, same emerald eye color #3DDC84, same glasses position, same brown collar with gold heart tag. NO character drift, NO off-model frames.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement. All tension shown through narrowed eyes, stiff ears, and rigid posture only.
 
@@ -210,7 +223,7 @@ In cat language, a long stare means aggression. Cats never hold eye contact with
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain in the warmest, most loving slow-blink pose — eyes gently half-closed (50% closed), completely relaxed expression, ears soft and slightly outward, whiskers fanned loosely, posture fully relaxed and melted. All 4 paws on the ground. The epitome of feline contentment and trust. Close-up shot shows detail of the soft half-lidded eyes.
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain in the warmest, most loving slow-blink pose — eyes gently half-closed (50% closed), completely relaxed expression, ears soft and slightly outward, whiskers fanned loosely, posture fully relaxed and melted. All 4 paws on the ground. The epitome of feline contentment and trust. Close-up shot shows detail of the soft half-lidded eyes.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -225,6 +238,10 @@ TIME 2–6s: Brain performs a slow deliberate blink — eyes close very slowly o
 TIME 6–7s: Brain holds the warm post-blink gaze at camera, one whisker gives a tiny relaxed flutter.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. All 4 paws stay on the ground throughout. No paw is raised. NEVER show 5 paws or extra limbs.
+
+EAR SHAPE & SIZE LOCK (strict — most important, anti Veo drift): Brain's ears MUST stay IDENTICAL in shape and size to the input image throughout all 7 seconds — small rounded kitten triangle ears, NEVER growing taller frame-by-frame, NEVER elongating into pointy bat-shape, NEVER stretching upward, NEVER becoming adult cat ears, NEVER morphing into vampire/devil ears. Zero ear-size drift, zero ear-shape drift, zero ear-position drift.
+
+BODY & IDENTITY LOCK (strict): Brain stays slender 8-week-old kitten proportions throughout — NEVER morphing into chubby adult cat, NEVER expanding chest. Brain's identity stays IDENTICAL to input image — same face, same fur saturation, same emerald eye color #3DDC84, same glasses position, same brown collar with gold heart tag. NO character drift, NO off-model frames.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement of any kind. The slow blink and relaxed ears carry all the emotion.
 
@@ -247,7 +264,7 @@ But a slow blink says the opposite: I trust you. You're safe.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY MICRO-LAB — AFTERNOON. Cute Pixar-style miniature science lab with rounded soft-edged white desk surface, a small chrome microscope on the right side of the desk, a tiny clipboard with hand-drawn cat-blink diagrams resting flat on the desk, a soft pastel wall chart in the background showing two cartoon cats slow-blinking at each other, clean cream-white walls, a warm tungsten desk lamp glowing softly from the upper right, warm honey-amber afternoon light coming from a window off-frame on the left, scholarly cozy atmosphere — clean and scientific but warm, never sterile or cold. Brain wearing a small clean white lab coat over his brown leather collar (the gold heart-shaped collar tag must remain clearly visible at the neckline, NOT hidden by the coat), sitting at the lab desk facing camera, wide-eyed surprised-delight expression with BRIGHT EMERALD GREEN irises vivid even under the warm lighting, pupils slightly dilated, tiny constellation of small sparkle stars around his eyes, ONLY his right front paw raised and placed flat on his chest over the lab coat in a "wow" gesture — left front paw resting on the desk surface, both back paws planted firmly on a small stool. Eyebrows raised high, ears perked wide forward. Gold-framed glasses still on. The scientist look fits the topic.
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY MICRO-LAB — AFTERNOON. Cute Pixar-style miniature science lab with rounded soft-edged white desk surface, a small chrome microscope on the right side of the desk, a tiny clipboard with hand-drawn cat-blink diagrams resting flat on the desk, a soft pastel wall chart in the background showing two cartoon cats slow-blinking at each other, clean cream-white walls, a warm tungsten desk lamp glowing softly from the upper right, warm honey-amber afternoon light coming from a window off-frame on the left, scholarly cozy atmosphere — clean and scientific but warm, never sterile or cold. Brain wearing a small clean white lab coat over his brown leather collar (the gold heart-shaped collar tag must remain clearly visible at the neckline, NOT hidden by the coat), sitting at the lab desk facing camera, wide-eyed surprised-delight expression with BRIGHT EMERALD GREEN irises vivid even under the warm lighting, pupils slightly dilated, tiny constellation of small sparkle stars around his eyes, ONLY his right front paw raised and placed flat on his chest over the lab coat in a "wow" gesture — left front paw resting on the desk surface, both back paws planted firmly on a small stool. Eyebrows raised high, ears perked wide forward. Gold-framed glasses still on. The scientist look fits the topic.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -264,6 +281,10 @@ TIME 5–7s: Brain holds the wide-eyed paw-on-chest pose, looking at camera with
 EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout the entire 7 seconds. NOT brown, NOT amber, NOT yellow, NOT hazel. Warm tungsten lighting must NOT tint the iris. The iris stays vivid emerald green even in shadow.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. ONLY the right front paw is raised (placed flat on chest over the lab coat). Left front paw rests on the desk. Both back paws stay on the stool at all times. NEVER show 5 paws, extra limbs, or both front paws raised together.
+
+EAR SHAPE & SIZE LOCK (strict — most important, anti Veo drift): Brain's ears MUST stay IDENTICAL in shape and size to the input image throughout all 7 seconds — small rounded kitten triangle ears, NEVER growing taller frame-by-frame, NEVER elongating into pointy bat-shape, NEVER stretching upward, NEVER becoming adult cat ears, NEVER morphing into vampire/devil ears. Zero ear-size drift, zero ear-shape drift, zero ear-position drift.
+
+BODY & IDENTITY LOCK (strict): Brain stays slender 8-week-old kitten proportions throughout — NEVER morphing into chubby adult cat, NEVER expanding chest. Brain's identity stays IDENTICAL to input image — same face, same fur saturation, same emerald eye color #3DDC84, same glasses position, same brown collar with gold heart tag. NO character drift, NO off-model frames.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement. Surprise conveyed entirely through wide eyes, sparkles, and the raised paw.
 
@@ -287,7 +308,7 @@ Scientists tested it. They slow blinked at cats — and the cats slow blinked BA
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain with a deeply warm and loving expression — pupils shifted to tiny heart shapes, two or three small floating pink hearts drifting upward near his ears, soft warm golden glow radiating gently around him, all 4 paws on the ground, tail curled around his front paws. The most loving version of Brain possible.
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain with a deeply warm and loving expression — pupils shifted to tiny heart shapes, two or three small floating pink hearts drifting upward near his ears, soft warm golden glow radiating gently around him, all 4 paws on the ground, tail curled around his front paws. The most loving version of Brain possible.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -302,6 +323,10 @@ TIME 2–5s: Brain's round pupils shift to tiny heart shapes for 1.5 seconds —
 TIME 5–7s: The slow push-in completes. Brain holds a warm knowing half-lidded gaze at camera, the soft golden glow pulses once more gently, gold heart tag on collar glints once.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. All 4 paws on the ground throughout. No paw is raised. NEVER show 5 paws or extra limbs.
+
+EAR SHAPE & SIZE LOCK (strict — most important, anti Veo drift): Brain's ears MUST stay IDENTICAL in shape and size to the input image throughout all 7 seconds — small rounded kitten triangle ears, NEVER growing taller frame-by-frame, NEVER elongating into pointy bat-shape, NEVER stretching upward, NEVER becoming adult cat ears, NEVER morphing into vampire/devil ears. Zero ear-size drift, zero ear-shape drift, zero ear-position drift.
+
+BODY & IDENTITY LOCK (strict): Brain stays slender 8-week-old kitten proportions throughout — NEVER morphing into chubby adult cat, NEVER expanding chest. Brain's identity stays IDENTICAL to input image — same face, same fur saturation, same emerald eye color #3DDC84, same glasses position, same brown collar with gold heart tag. NO character drift, NO off-model frames.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chattering. No mouth movement. Hearts, glow, and eyes carry all the emotion.
 
@@ -323,7 +348,7 @@ That slow blink is cat for "I love you." They've been saying it for years.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain mid-slow-blink — eyes 70% closed in the downward stroke of a deliberate tutorial blink, facing camera directly, all 4 paws on the ground, relaxed and inviting pose — like a patient teacher demonstrating the move.
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain mid-slow-blink — eyes 70% closed in the downward stroke of a deliberate tutorial blink, facing camera directly, all 4 paws on the ground, relaxed and inviting pose — like a patient teacher demonstrating the move.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -338,6 +363,10 @@ TIME 2–6s: Brain performs an exaggerated instructional slow blink — eyes clo
 TIME 6–7s: Brain's eyes fully open again, looking warmly and encouragingly at camera, one ear perks slightly as if asking "did you try it?"
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. All 4 paws stay on the ground throughout. No paw is raised. NEVER show 5 paws or extra limbs.
+
+EAR SHAPE & SIZE LOCK (strict — most important, anti Veo drift): Brain's ears MUST stay IDENTICAL in shape and size to the input image throughout all 7 seconds — small rounded kitten triangle ears, NEVER growing taller frame-by-frame, NEVER elongating into pointy bat-shape, NEVER stretching upward, NEVER becoming adult cat ears, NEVER morphing into vampire/devil ears. Zero ear-size drift, zero ear-shape drift, zero ear-position drift.
+
+BODY & IDENTITY LOCK (strict): Brain stays slender 8-week-old kitten proportions throughout — NEVER morphing into chubby adult cat, NEVER expanding chest. Brain's identity stays IDENTICAL to input image — same face, same fur saturation, same emerald eye color #3DDC84, same glasses position, same brown collar with gold heart tag. NO character drift, NO off-model frames.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing. No chattering. No mouth movement. The slow tutorial blink is the entire scene.
 
@@ -361,7 +390,7 @@ Try it right now. Look at your cat. Slowly... close your eyes.
 **🎨 Image prompt (Nano Banana):**
 
 ```
-Cute orange tabby kitten named Brain, big round sparkling green eyes, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain sitting centered, ONLY his right front paw raised in a warm friendly mid-wave gesture — left front paw and both back paws firmly on the ground, total of 4 paws visible. Big happy warm smile in the eyes, gold heart-shaped collar tag glinting. Joyful, celebratory mood.
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — AFTERNOON. Cozy modern living room, warm wooden floor, soft cream-colored sofa in background, large window with warm golden afternoon light streaming in from the left, small potted plant near the window, warm honey-amber ambient lighting, shallow depth of field with sofa softly out of focus, clean and inviting atmosphere. Brain sitting centered, ONLY his right front paw raised in a warm friendly mid-wave gesture — left front paw and both back paws firmly on the ground, total of 4 paws visible. Big happy warm smile in the eyes, gold heart-shaped collar tag glinting. Joyful, celebratory mood.
 ```
 
 **🎬 Animation prompt (Veo 3):**
@@ -376,6 +405,10 @@ TIME 2–5s: Brain raises ONLY his right front paw and gives a gentle friendly w
 TIME 5–7s: Brain lowers the right paw back to the ground, then performs one final slow blink at camera — eyes close slowly, hold 0.5 seconds, open slowly — as a warm farewell. Gold heart tag glints once at the end.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. ONLY the right front paw is raised for waving. Left front paw and both back paws stay on the ground throughout. NEVER show 5 paws, extra limbs, or both front paws raised.
+
+EAR SHAPE & SIZE LOCK (strict — most important, anti Veo drift): Brain's ears MUST stay IDENTICAL in shape and size to the input image throughout all 7 seconds — small rounded kitten triangle ears, NEVER growing taller frame-by-frame, NEVER elongating into pointy bat-shape, NEVER stretching upward, NEVER becoming adult cat ears, NEVER morphing into vampire/devil ears. Zero ear-size drift, zero ear-shape drift, zero ear-position drift.
+
+BODY & IDENTITY LOCK (strict): Brain stays slender 8-week-old kitten proportions throughout — NEVER morphing into chubby adult cat, NEVER expanding chest. Brain's identity stays IDENTICAL to input image — same face, same fur saturation, same emerald eye color #3DDC84, same glasses position, same brown collar with gold heart tag. NO character drift, NO off-model frames.
 
 MOUTH RULE (strict): Mouth stays closed throughout. One single soft meow allowed at TIME 4s as the wave peaks — single brief mouth motion, then fully closed again.
 
@@ -424,27 +457,36 @@ Cozy heartfelt piano, soft acoustic guitar, 95 BPM, warm and gentle, builds subt
 
 ## SEO Pack
 
-**Final title** (55 chars):
+**Final title** (vidIQ GREEN — score 73.5, 13,673 monthly searches on `cat slow blink meaning`):
 
 ```
-Your Cat's Slow Blink Means "I Love You" 🐱 | Cat Psychology
+What Your Cat's Slow Blink REALLY Means (It's Love) 🐱 | Cat Psychology
+```
+
+(70 chars — fits in title bar with #shorts hashtag, "slow blink" appears early for keyword matching)
+
+**Hashtags for title bar** (paste at end of YouTube title field, after the main title):
+
+```
+#shorts #catpsychology #catfacts
 ```
 
 Alt titles to A/B test:
 
 ```
-Why Cats Slow Blink (And How to Blink Back) 🐱 | Cat Psychology
-Your Cat Says "I Love You" Every Day. You Just Missed It 🐱 | Cat Psychology
+Your Cat's Slow Blink Means "I Love You" 🐱 | Cat Psychology
+Cat Slow Blink Meaning — They're Saying I LOVE YOU 🐱 | Cat Psychology
+If Your Cat Slow Blinks at You, THIS Is Why 🐱 | Cat Psychology
 ```
 
-**Description (≥ 250 chars, "cat psychology" appears 3×):**
+**Description (≥ 250 chars, cat slow blink meaning + cat psychology natural):**
 
 ```
-Your cat's slow blink isn't sleepiness — it's love! 🐱 Cat psychology reveals that when your cat slowly closes its eyes at you, it's sending the ultimate message of trust and affection. In this cat psychology Short, Brain explains why cats use a hard stare as an aggression signal — and why a slow blink is the exact opposite: "I trust you. You're safe." Scientists at the University of Sussex confirmed it: cats slow blink back at humans who blink at them first. Try it with your real cat right now — look at them and slowly close your eyes. If they blink back, that's cat psychology for "I love you." 🧠✨
+What does your cat's slow blink really mean? 🐱 It's not sleepiness — it's the deepest sign of trust in cat psychology. When your cat slowly closes its eyes at you, that's cat language for "I love you." In this Cat Psychology Short, Brain decodes the slow blink meaning — why a hard stare equals aggression but a slow blink equals love. Scientists at the University of Sussex confirmed it: cats slow blink BACK at humans who blink at them first. Try it on your cat right now — look at them and slowly close your eyes. If they slow blink back, congratulations — they just said "I love you." Cat psychology is wilder than you think. 💚
 
-🐱 Follow Brain for more cat psychology, cat facts, and cat secrets every week.
+🐱 Follow Brain for more cat psychology, cat behavior, and cat facts every week.
 
-#shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts
+#shorts #catpsychology #catfacts #catbehavior #braincatai #catlovers
 ```
 
 **Tags (paste comma-separated into YouTube tags field):**
@@ -458,7 +500,7 @@ cat psychology, cat facts, cat behavior, cat secrets, cat science, cat communica
 Video-specific:
 
 ```
-cat slow blink, slow blink meaning, cat love language, why cats blink, cat trust, cat affection
+cat slow blink, cat slow blink meaning, slow blink meaning, cat love language, why cats blink, cat trust, cat affection, how cats say i love you, cat blinking at me, cat communication blink
 ```
 
 **Hashtags (top 3 for title bar):**
@@ -473,9 +515,28 @@ Extended set (for description body):
 #shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts
 ```
 
-**Thumbnail concept:**
+**Thumbnail — Nano Banana 2 prompt (English-only, Typography Lock applied):**
 
-Brain in extreme close-up, eyes caught in mid-slow-blink (60% closed, ultra-soft dreamy expression). Electric Yellow `#FFD23F` bold text: **"I LOVE YOU"** with charcoal stroke, slight tilt. Warm honey-gold background. The half-closed eyes are the visual hook — instantly recognizable and irresistible to cat owners.
+```
+Orange tabby kitten named Brain, 8-week-old slim kitten body, MANDATORY wearing his small thin round gold-framed glasses on his nose (visible throughout, never omit). Brown leather collar with gold heart-shaped "Brain" tag prominently visible at his neck. EXACTLY 2 small rounded kitten ears, perfectly symmetric. Soft fluffy bright orange tabby fur with darker stripes (vivid saturated orange, NOT grey). Pink nose. Mouth closed in a soft warm content expression. Pixar 3D render style, hyper-detailed, 4K.
+
+EXPRESSION — THE HOOK: Brain's eyes caught at the PEAK of a slow blink — eyes 70% CLOSED in a soft, dreamy, blissful half-lidded expression (the visible portion of the iris still BRIGHT EMERALD GREEN #3DDC84). Tiny floating pink hearts ✨ (2-3 small cartoon hearts) drift gently around his head. Soft warm golden halo glow around his outline.
+
+COMPOSITION: Vertical 9:16 YouTube Shorts thumbnail (1080x1920). Brain fills LOWER TWO-THIRDS of the frame in EXTREME CLOSE-UP — face and shoulders only, head slightly tilted to one side. Background: very soft blurred warm honey-gold living room with golden afternoon light bokeh. Soft pastel pink-and-cream gradient haze around Brain to amplify the "love" mood.
+
+TEXT — UPPER THIRD: large bold text "I LOVE YOU" in TYPOGRAPHY LOCK style — BOLD ROUNDED GEOMETRIC SANS-SERIF font (Nunito Bold / Fredoka One look, soft rounded terminals, NO serifs, NO brush-script). Fill: Electric Yellow #FFD23F. Solid charcoal #2B2B2B outline 8-10px (extra thick for thumbnail readability). Soft black drop-shadow 40% opacity 6px. ALL CAPS. Text occupies ~60% width, centered horizontally in upper third. Text in ENGLISH only.
+
+ARROW: bold curved RED #E63946 cartoon arrow from bottom-right of "I LOVE YOU" text curving DOWN to point at Brain's slow-blinking half-closed eyes. Arrow has same charcoal #2B2B2B outline as text, soft drop-shadow, stylized cartoon Pixar style.
+
+NEGATIVES: no glasses, missing glasses, bare face, mouth open, fangs, vampire look, fully open eyes (NEEDED half-closed), fully closed eyes, three ears, extra ear, phantom ear, asymmetric ears, elongated ears, bat ears, chubby adult cat, grey cat, faded orange, dull colors, second cat, two cats, Russian text, Cyrillic letters, non-English text, garbled text, serif font, brush-script font, Comic Sans, Papyrus, gradient text, multiple fonts.
+```
+
+**Why this thumbnail works:**
+- ✅ Half-closed dreamy eyes = instant visual hook ("aww" reaction in 0.3 sec)
+- ✅ Pink hearts + golden halo = emotional payoff already visible in thumb
+- ✅ "I LOVE YOU" in bright yellow = strong text contrast against soft warm background
+- ✅ Differentiates from other cat-shorts which mostly use wide-open eyes
+- ✅ Surgical-edit fallback if Nano Banana botches: ask "make the cat's eyes 70% closed in a soft slow-blink pose" on a base render
 
 ---
 
