@@ -297,13 +297,12 @@ YouTube channel — Japanese ambient · meditation · sleep · focus music. Hand
 
 #### MANDATORY rules (do not skip)
 
-**Every time a script is created OR meaningfully edited, ALWAYS update the full SEO Pack — never skip tags.** The user has flagged this as a recurring miss. The SEO Pack must include the items in **this exact output order** (locked 15 мая 2026 — title-bar hashtags right after the title because they paste into the same YouTube field):
+**Every time a script is created OR meaningfully edited, ALWAYS update the full SEO Pack — never skip tags.** The user has flagged this as a recurring miss. The SEO Pack must include the items in **this exact output order** (rule revised 17 мая 2026 — per Karena Roshaian Shorts-specific playbook, hashtags moved OUT of title field):
 
-1. **Title** (40–70 chars, end with `🐱 | Cat Psychology` for channel brand)
-2. **Hashtags for title bar** (top 3 — `#shorts` always first — paste these at the end of the title field on YouTube)
-3. **Alt titles to A/B test** (optional, for variant testing)
-4. **Description** (≥ 250 chars, repeat main keyword 2–3×, include 5+ supporting keywords, end with extended hashtag block + follow CTA)
-5. **Tags** (20–25 tags, mix broad + medium + long-tail, total under 450 chars). The base set is **always** included:
+1. **Title** (40–70 chars, end with `🐱 | Cat Psychology` for channel brand). For Shorts: **NEVER add `#shorts` or topic hashtags in the title field.** They attract international entertainment-seeking audience who bounce in <3 sec → kills retention → algorithm stops promoting. Title is title only.
+2. **Alt titles to A/B test** (optional, for variant testing)
+3. **Description** (≥ 250 chars, repeat main keyword 2–3×, include 5+ supporting keywords, end with extended hashtag block + follow CTA). For Shorts description has minimal direct effect on discovery but does feed YouTube's keyword understanding — still worth filling.
+4. **Tags** (20–25 tags, mix broad + medium + long-tail, fill toward the 500-char limit per Karena rule). The base set is **always** included:
    ```
    cat psychology, cat facts, cat behavior, cat secrets, cat science,
    cat communication, cat body language, feline behavior, understanding cats,
@@ -311,11 +310,26 @@ YouTube channel — Japanese ambient · meditation · sleep · focus music. Hand
    mind blowing facts, brain cat, cat facts daily, cat behavior funny,
    cat domestication, cats vs humans
    ```
+   Plus mandatory adds per Karena rule (channel-wide as of 17 мая 2026):
+   ```
+   braincatai, cat facts mind blowing, cat behavior explained
+   ```
    Then add 5–10 long-tail tags specific to the video.
+5. **Hashtags for description body only** (`#shorts #catpsychology #catfacts #catbehavior #braincatai` + video-specific). DO NOT add these to the title field.
 6. **Pinned comment** (with engagement question)
 7. **Thumbnail concept**
 
-(The title-bar hashtags are item 2 above — listed there because they paste into the YouTube title field. An extended hashtag set is included in the description block at item 4.)
+#### 🚫 Shorts-specific rules (Karena Roshaian playbook, locked 17 мая 2026)
+
+- **NO `#shorts` in the title field** — kills retention by attracting bouncing international audience
+- **NO topic hashtags in title field either** — same retention risk + no SEO benefit on Shorts (Shorts get traffic from feed retention, not search)
+- **Upload via phone, not desktop** — only the mobile YouTube app allows manually choosing the stop-frame (thumbnail). Desktop picks a random ugly frame
+- **First publish state must be Unlisted or Scheduled, NEVER directly Public** — if you publish Public immediately, the video goes live before render completes → viewers see compressed garbage → bouncing → algorithm kills it
+- **Always set "Not for kids"** — "For kids" routes the video to YouTube Kids where target audience never finds it
+- **Always link Short to a long-form via "Related video"** — funnel: feed → Short → related long-form → description link (only long-form has clickable description links)
+- **First 3 seconds carry 90% of retention weight** — hook must have all 4: intrigue + benefit + urgency + relatability
+- **Check phone YouTube + Studio app for updates BEFORE every upload** — stale app versions break upload reliably
+- **Description body for Shorts: low ROI** — fill it but don't agonize. Tags do more work for Shorts than description.
 
 If editing the script's title, scenes, or VO, **re-verify tags reflect the new title and content**. Tags are not optional and must be reviewed on every edit.
 

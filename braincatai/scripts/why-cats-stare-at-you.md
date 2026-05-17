@@ -517,13 +517,11 @@ why cats stare at you, cat stare meaning, 4 types of cat stares, cat eye contact
 
 > **Tag field character count:** ~485 chars (target: ≤500). `cat facts mind blowing` score 73.8 / 9,953 monthly / competition 5 — lowest competition green keyword found in this session. Add to every video.
 
-**Hashtags (top 3 for title bar):**
+**Hashtags (title bar) — DO NOT ADD for Shorts:**
 
-```
-#shorts #catpsychology #catfacts
-```
+> ⚠️ Karena Roshaian rule for Shorts (locked 17 мая 2026): never put `#shorts` or topic hashtags in the title field. `#shorts` attracts the international entertainment-seeking audience who bounce in 3 sec → kills retention → algorithm stops promoting. Hashtags belong in the description body ONLY for Shorts.
 
-Extended set (for description body):
+Extended set (for description body only):
 
 ```
 #shorts #catpsychology #catfacts #catbehavior #braincatai #catstare #petfacts

@@ -506,10 +506,14 @@ cat sees you as cat, cats think you are cat, why cats headbutt, why cats groom h
 
 > **Tag field character count:** ~492 chars (target: ≤500). `cat facts mind blowing` score 73.8 / competition 5. `animal psychology` score 74.75 / 120,680 monthly — both near-GREEN, both low competition.
 
-**Hashtags (top 3 for title bar):**
+**Hashtags (title bar) — DO NOT ADD for Shorts:**
+
+> ⚠️ Karena Roshaian rule for Shorts (locked 17 мая 2026): never put `#shorts` or topic hashtags in the title field. `#shorts` attracts the international entertainment-seeking audience who bounce in 3 sec → kills retention → algorithm stops promoting. Hashtags go in description body only.
+
+Description-body hashtag set (use only in description, not title):
 
 ```
-#shorts #catpsychology #catfacts
+#shorts #catpsychology #catfacts #catbehavior #braincatai #catsthinkyourecat #petfacts
 ```
 
 **Thumbnail concept:**
