@@ -263,13 +263,17 @@ Then start again.
 
 User's self-hosted bot has a free `/keywords` (POST `/keywords/research`) endpoint that uses YouTube search-no-quota — same data as vidIQ but FREE. ALWAYS use the bot for keyword research first. The paid `vidiq_keyword_research` MCP (5 credits/call) is fallback ONLY when bot is unreachable AND user explicitly confirms to spend credits.
 
-**Workflow for keyword research:**
-1. Identify the 3-5 candidate keywords for the topic
-2. Ask user to run them in the bot's `/keywords` section → screenshot the results table → paste in chat
-3. Read screenshot, pick GREEN winner
-4. **NEVER** burn vidIQ MCP credits before checking if bot can do the job for free
+**Workflow for keyword research (cache-first):**
+1. **CHECK CACHE FIRST** → `braincatai/keyword-research/vidiq-cache.json` for the keyword (or near-synonym). If found and `fetched` <60 days old → **use cached data, ZERO cost**
+2. **CHECK BOT** → ask user to run query in bot's `/keywords` section → screenshot results → paste in chat
+3. **vidIQ MCP fallback** → only if cache miss AND bot unreachable AND user explicitly confirms to spend 5 credits per call
+4. **AFTER ANY new vidIQ call** → ALWAYS write the result to `vidiq-cache.json` so future sessions can reuse it. Increment `total_credits_spent`. This is mandatory.
 
-**Lesson learned 17 мая 2026:** assistant burned ~25 vidIQ credits checking topics user already had in production OR could check for free in the bot. Don't waste paid credits on free-tool tasks.
+See `braincatai/keyword-research/README.md` for full schema + workflow.
+
+**Lessons learned 17 мая 2026:**
+- Burned ~25 vidIQ credits checking topics user already had in production OR could check for free in the bot. Don't waste paid credits on free-tool tasks.
+- User's insight: vidIQ data stays relevant 30-60 days for cat niche → cache once, reuse for weeks. Implemented as `vidiq-cache.json` with all today's queries pre-loaded.
 
 ### StillWave (`/stillwave`)
 

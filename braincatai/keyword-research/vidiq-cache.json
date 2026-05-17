@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "purpose": "Cache of vidIQ keyword research API responses to avoid burning paid credits on repeat queries. Cat psychology niche keywords stay relevant ~30-60 days. Refresh entries older than 60 days only if you suspect drift.",
+    "schema_version": "1.0",
+    "created": "2026-05-17",
+    "last_updated": "2026-05-17",
+    "total_credits_spent": 25,
+    "credits_saved_so_far": 0
+  },
+  "queries": [
+    {
+      "keyword": "why do cats slow blink",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": null,
+        "overall": null,
+        "monthly": 0
+      },
+      "top_related": [
+        {"keyword": "cat slow blink meaning", "score": 73.5, "monthly": 13673, "competition": 8.8, "verdict": "GREEN"},
+        {"keyword": "cat slow blink", "score": 66.6, "monthly": 19000, "competition": null, "verdict": "GREEN"}
+      ],
+      "verdict": "USED — published May 9 as 'Your Cat Says I Love You Every Day' (slow-blink)",
+      "notes": "Seed RED but related keywords strong. Topic published, do NOT re-pitch."
+    },
+    {
+      "keyword": "are orange cats always male",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": 18.8,
+        "overall": 32.48,
+        "monthly": 0
+      },
+      "top_related": [
+        {"keyword": "ginger cat", "score": 65.89, "monthly": 234121, "competition": 55.5, "verdict": "GREEN (but too generic)"},
+        {"keyword": "orange cat", "score": 63.74, "monthly": 157224, "competition": 57, "verdict": "GREEN (but too generic)"},
+        {"keyword": "cat behavior", "score": 69.82, "monthly": 265693, "competition": 46.9, "verdict": "GREEN (generic)"},
+        {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"},
+        {"keyword": "why orange cats are crazy", "score": 62.71, "monthly": 4401, "competition": 24.8, "verdict": "YELLOW (specific)"},
+        {"keyword": "cat facts", "score": 66.31, "monthly": 72070, "competition": 43, "verdict": "GREEN"}
+      ],
+      "verdict": "USED — published May 8 as 'Your Cat's COLOR Tells You Its Gender' (orange-cats-are-boys)",
+      "notes": "Specific keyword RED but general cat-niche keywords are all GREEN."
+    },
+    {
+      "keyword": "why do cats bring dead animals",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": 18.8,
+        "overall": 32.48,
+        "monthly": 0
+      },
+      "top_related": [
+        {"keyword": "why does my cat bring me dead animals", "score": 64.72, "monthly": 4543, "competition": 20.1, "verdict": "YELLOW"},
+        {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"},
+        {"keyword": "cat behavior", "score": 69.82, "monthly": 265693, "competition": 46.9, "verdict": "GREEN (generic)"},
+        {"keyword": "cat lovers", "score": 68.45, "monthly": 37167, "competition": 31.2, "verdict": "GREEN"},
+        {"keyword": "cat behavior explained", "score": 68.61, "monthly": 133004, "competition": 43.2, "verdict": "GREEN"},
+        {"keyword": "viral cat shorts", "score": 62.29, "monthly": 15329, "competition": 38, "verdict": "YELLOW"},
+        {"keyword": "feline behavior", "score": 63.18, "monthly": 11521, "competition": 33, "verdict": "YELLOW"}
+      ],
+      "verdict": "ALREADY PUBLISHED May 3 as 'Why Your Cat Brings You Dead Things' (1000 views). DO NOT re-pitch.",
+      "notes": "Cannibalization risk if posted again."
+    },
+    {
+      "keyword": "cat says i love you",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": 34.6,
+        "overall": 26.16,
+        "monthly": 0
+      },
+      "top_related": [
+        {"keyword": "talking cat", "score": 65.00, "monthly": 61342, "competition": 44.7, "verdict": "GREEN"},
+        {"keyword": "trending cat shorts", "score": 64.75, "monthly": 27422, "competition": 37.5, "verdict": "GREEN"},
+        {"keyword": "viral cat", "score": 62.66, "monthly": 18704, "competition": 39, "verdict": "YELLOW"},
+        {"keyword": "funny cat", "score": 74.25, "monthly": 438357, "competition": 40.7, "verdict": "GREEN (generic)"},
+        {"keyword": "cute kitten", "score": 61.11, "monthly": 50361, "competition": 52.5, "verdict": "YELLOW"},
+        {"keyword": "cat lovers", "score": 68.45, "monthly": 37167, "competition": 31.2, "verdict": "GREEN"},
+        {"keyword": "cat videos", "score": 71.99, "monthly": 1269515, "competition": 56.7, "verdict": "GREEN (generic)"}
+      ],
+      "verdict": "USED — alt title for slow-blink ('Your Cat Says I Love You Every Day...'). Title is CTR-play, not search-play.",
+      "notes": "Direct phrase RED but emotional hook strong for feed CTR."
+    },
+    {
+      "keyword": "why do cats knead",
+      "fetched": "2026-05-17 (inferred from session — full JSON not stored, only summary)",
+      "credits_spent": 5,
+      "seed": {
+        "volume": null,
+        "competition": null,
+        "overall": 57.2,
+        "monthly": 4802
+      },
+      "top_related": [
+        {"keyword": "cat kneading", "score": 66.6, "monthly": 26390, "competition": null, "verdict": "GREEN"},
+        {"keyword": "why cats knead blankets", "score": 67.6, "monthly": 5003, "competition": null, "verdict": "GREEN"},
+        {"keyword": "why do cats knead with their paws", "score": 65.8, "monthly": 9973, "competition": null, "verdict": "GREEN"},
+        {"keyword": "why cats knead", "score": 63.8, "monthly": 3604, "competition": null, "verdict": "GREEN"}
+      ],
+      "verdict": "BLOCKED — already published April 25 as 'Why Cats Make Biscuits on You' (440 views). DO NOT re-pitch.",
+      "notes": "Strong GREEN scores but cannibalization risk too high."
+    }
+  ],
+  "candidates_not_yet_researched": [
+    "why cats meow only at humans",
+    "why cats hate water",
+    "why cats sit in boxes (and squares)",
+    "why cats prefer one person",
+    "how cat whiskers work",
+    "why cats run after pooping (zoomies)",
+    "why cats hate the vet",
+    "why cats wag their tails",
+    "why cats stretch when they see you",
+    "why cats bury their food"
+  ]
+}
