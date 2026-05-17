@@ -4,7 +4,7 @@
     "schema_version": "1.0",
     "created": "2026-05-17",
     "last_updated": "2026-05-17",
-    "total_credits_spent": 25,
+    "total_credits_spent": 40,
     "credits_saved_so_far": 0
   },
   "queries": [
@@ -110,10 +110,68 @@
       "notes": "Strong GREEN scores but cannibalization risk too high."
     }
   ],
+    {
+      "keyword": "why cats meow only at humans",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 53.24,
+        "competition": 28.1,
+        "overall": 60.70,
+        "monthly": 3685
+      },
+      "top_related": [
+        {"keyword": "cat communication", "score": 69.49, "monthly": 23594, "competition": 24.2, "verdict": "GREEN"},
+        {"keyword": "cat vocalizations", "score": 65.77, "monthly": 4464, "competition": 17.3, "verdict": "GREEN (borderline monthly)"},
+        {"keyword": "why do cats meow", "score": 64.06, "monthly": 4616, "competition": 21.9, "verdict": "YELLOW"},
+        {"keyword": "cat facts", "score": 66.31, "monthly": 72070, "competition": 43, "verdict": "GREEN (generic)"},
+        {"keyword": "cat behavior", "score": 69.82, "monthly": 265693, "competition": 46.9, "verdict": "GREEN (generic)"}
+      ],
+      "verdict": "YELLOW — seed 60.7 / 3,685 monthly. Related `cat communication` GREEN 69.5. Available topic.",
+      "notes": "Seed YELLOW. Good emotional angle (cats don't meow at other cats). Not yet published."
+    },
+    {
+      "keyword": "why cats hate water",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 53.19,
+        "competition": 27.6,
+        "overall": 60.88,
+        "monthly": 3659
+      },
+      "top_related": [
+        {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"},
+        {"keyword": "cat behavior explained", "score": 68.61, "monthly": 133004, "competition": 43.2, "verdict": "GREEN (generic)"},
+        {"keyword": "cat behavior", "score": 69.82, "monthly": 265693, "competition": 46.9, "verdict": "GREEN (generic)"},
+        {"keyword": "cat nature", "score": 63.15, "monthly": 4357, "competition": 23.6, "verdict": "YELLOW"},
+        {"keyword": "cat hygiene", "score": 61.61, "monthly": 4600, "competition": 28, "verdict": "YELLOW"}
+      ],
+      "verdict": "YELLOW — seed 60.88 / 3,659 monthly. No strong specific related keyword. Available topic.",
+      "notes": "YELLOW but best of the three checked on May 17. Competition 27.6 decent."
+    },
+    {
+      "keyword": "why cats sit in boxes",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 52.94,
+        "competition": 7.3,
+        "overall": 68.84,
+        "monthly": 3517
+      },
+      "top_related": [
+        {"keyword": "cat shorts", "score": 70.57, "monthly": 142756, "competition": 39, "verdict": "GREEN (generic)"},
+        {"keyword": "cat instincts", "score": 65.54, "monthly": 10397, "competition": 26.1, "verdict": "GREEN"},
+        {"keyword": "cats explained", "score": 68.03, "monthly": 58623, "competition": 36.7, "verdict": "GREEN (generic)"},
+        {"keyword": "cat behavior explained", "score": 68.61, "monthly": 133004, "competition": 43.2, "verdict": "GREEN (generic)"},
+        {"keyword": "why cats love boxes", "score": 53.97, "monthly": 8016, "competition": 52.5, "verdict": "YELLOW"}
+      ],
+      "verdict": "BLOCKED — seed GREEN 68.84 BUT cannibalized by 'Why Your Cat Chooses a Box Over a $100 Bed' (Apr 29). DO NOT re-pitch.",
+      "notes": "Competition 7.3 extremely low. Score GREEN. But box topic already published Apr 29. Adding to BLOCKED."
+    }
+  ],
   "candidates_not_yet_researched": [
-    "why cats meow only at humans",
-    "why cats hate water",
-    "why cats sit in boxes (and squares)",
     "why cats prefer one person",
     "how cat whiskers work",
     "why cats run after pooping (zoomies)",
