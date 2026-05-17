@@ -57,10 +57,23 @@
 
 ## Recommendations
 
-### Immediate (today, before 7d review)
+### Immediate (today, before 7d review) — ⚠️ LIVE METADATA AUDIT CONFIRMED 2 DEFECTS
 
-- **Verify live title / tags / description** match the VidIQ-validated draft. If not — fix now, don't wait.
-- **Pin a better comment** if current one is bland (`@stillwavezen Finally finished this 1-hour session...` — feels generic).
+Pulled live metadata via YouTube Data API on 2026-05-17 (T+65h):
+
+**Defect 1: Title is wrong.** The VidIQ-validated draft was `528 Hz Japanese Zen Music Marathon | 1 Hour Healing Uninterrupted Vol. 1` (91/100). What actually went live is `528 Hz Japanese Zen Healing Marathon | 1 Hour Uninterrupted Vol. 1` — the word **"Music" is missing** and "Healing" is in a different position. "japanese zen music" is a high-demand search phrase; losing it is significant SEO damage. Live VidIQ score is likely ~75–80, not 91.
+
+**Defect 2: Description violates the `every week` locked rule.** Para 1 says "...every week" ✅ but Para 2 says "New Nervous System Reset and Power Hour sessions **every Tuesday and Friday**" — a hard rule violation per `stillwave/CLAUDE.md` Description rules section. Also mixes Healing + Power Hour CTAs in a healing-themed video, fragmenting subscriber intent.
+
+**Required fixes (do today, before 7d window closes):**
+
+```
+Title:       528 Hz Japanese Zen Music Marathon | 1 Hour Healing Uninterrupted Vol. 1
+Description: Replace "every Tuesday and Friday" → "every week"
+             Remove "Power Hour" mention from the bell-CTA paragraph
+```
+
+Tags (23, 448 chars) and pinned comment audit-clean. No changes needed there.
 
 ### Hold decisions until 7d review (May 21, 18:00 IDT)
 

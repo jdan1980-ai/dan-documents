@@ -41,7 +41,7 @@ Published May 10, 10:20 UTC. Title history:
 The final title drops "Power Hour" from the title body entirely — series brand is now carried only by thumbnail overlay + playlist + description. Lead keyword is the scene (Tokyo Rain), hook is "Deep Work Marathon", differentiator is "1 Hour Uninterrupted". This is now the canonical VidIQ-validated formula for the series (see CLAUDE.md §Title format).
 
 - ✅ **72h check** — May 13: **131 views, 2 likes, 2 comments**. Pacing ~44 views/day — faster than KIRI (27/day) and 852 Hz (18/day). Like-rate (1.5%) is **below** top performers (KIRI 3.3%, 852 Hz 2.1%) — investigate at 7d.
-- **7d review** — May 17 → full retention analysis + comment mining + first lessons
+- ✅ **7d review** — May 17: **161 views, 2 likes, 1 audience comment (off-topic)**. Day 1–2 push got 113 views then 70% drop-off (tail 5–10 v/d). No search ranking established. Like-rate dropped to 1.24% — focus audience engages less than meditation audience. Power Hour formula validated for continued production (best perf on channel). Full review: `analytics/tokyo-apartment-rain-7d.md`. **Decision: keep formula for Snowfall Vol. 2 today; A/B test "Sprint" vs "Uninterrupted" wording on next variant.**
 - **30d review** — June 9 → final perf snapshot, decide if Power Hour pattern goes into series template
 
 ## Phase 1 batch — week of May 13–19
