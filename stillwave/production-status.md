@@ -26,7 +26,7 @@ See `published-videos.md` for the full table with metrics.
 
 Publishes May 14, 18:00 IDT (15:00 UTC). First entry in new **HEALING HOUR** series, parallel to POWER HOUR. Hook: "Nervous System Reset" — leans into wellness / vagus-nerve / somatic-healing search demand. No `scripts/` file yet — created directly in YouTube Studio.
 
-- **48h review** — May 16, 18:00 IDT → views, like-rate, comments. Compare pacing vs Tokyo Power Hour (which hit 131 views by 72h).
+- ✅ **48h review** *(taken at T+65h on May 17, 08:24 UTC — formal 48h checkpoint missed)*: **49 views, 1 like, 0 audience comments**. Pacing ~18 views/day — **−59% vs Tokyo Power Hour at same age** (44 v/d). Like-rate 2% acceptable but absolute numbers weak. 0 audience comments is the biggest red flag. Full review: `analytics/healing-hour-528hz-72h.md`. **Decision: hold HEALING HOUR Vol. 2 until 7d data on May 21.**
 - **7d review** — May 21, 18:00 IDT → retention, full comment mining, decide whether healing-hook outperforms focus-hook
 - **30d review** — June 13, 18:00 IDT → final perf snapshot, decide if HEALING HOUR becomes recurring series
 
