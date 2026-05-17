@@ -452,16 +452,16 @@ Does YOUR cat treat you like a defective cat? 🐱 Drop a 🙀 if they groom you
 
 ## SEO Pack
 
-**Final title** (62 chars — formula #1 conditional reveal):
+**Final title** (62 chars — emotional reveal, no number needed — concept IS the hook):
 
 ```
 Your Cat Thinks YOU'RE a Giant Weird Cat 🐱 | Cat Psychology
 ```
 
-Alt titles to A/B test:
+Alt titles to A/B test (option B adds urgency per Karena rule):
 
 ```
-What Your Cat REALLY Sees When They Look at You 🐱 | Cat Psychology
+Your Cat Doesn't See a Human. They See a GIANT Defective Cat 🐱 | Cat Psychology
 If Your Cat Treats You Like THIS, You've Been Adopted! 🐱 | Cat Psychology
 The REAL Reason Cats Headbutt and Lick You (Shocks You) 🐱 | Cat Psychology
 ```
@@ -492,11 +492,19 @@ Base set (always include):
 cat psychology, cat facts, cat behavior, cat secrets, cat science, cat communication, cat body language, feline behavior, understanding cats, facts about cats, animal facts, animal science, did you know, mind blowing facts, brain cat, cat facts daily, cat behavior funny, cat domestication, cats vs humans
 ```
 
+Added per Karena rule (brand tag + gold low-competition tags — add to EVERY BrainCatAI video):
+
+```
+braincatai, cat facts mind blowing, animal psychology, cat behavior explained
+```
+
 Video-specific:
 
 ```
-cat sees you as cat, cats think you are cat, why cats headbutt, why cats groom humans, cat categorizes humans, do cats know humans are different, cat perception of owners
+cat sees you as cat, cats think you are cat, why cats headbutt, why cats groom humans, cat categorizes humans, cat perception of owners
 ```
+
+> **Tag field character count:** ~492 chars (target: ≤500). `cat facts mind blowing` score 73.8 / competition 5. `animal psychology` score 74.75 / 120,680 monthly — both near-GREEN, both low competition.
 
 **Hashtags (top 3 for title bar):**
 

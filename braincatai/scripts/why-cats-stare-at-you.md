@@ -463,17 +463,17 @@ Is YOUR cat staring at you right now? 👀 Drop a 👀 + which type you think it
 
 ## SEO Pack
 
-**Final title** (82 chars — formula #1 conditional reveal, ported from competitor's top hit pattern):
+**Final title** (73 chars — formula "number + intrigue + FOMO" — per Karena Roshaian rule: number format gets best YT algorithm push):
+
+```
+4 Types of Cat Stares — Every Owner Gets #3 WRONG 🐱 | Cat Psychology
+```
+
+Alt titles to A/B test:
 
 ```
 If Your Cat STARES at You for No Reason, HERE'S What It MEANS! 🐱 | Cat Psychology
-```
-
-Alt titles to A/B test (each ports a different competitor formula):
-
-```
 Why Your Cat STARES at You (The Reason Will SHOCK You) 🐱 | Cat Psychology
-The 4 Types of Cat Stares — #3 Will SHOCK You 🐱 | Cat Psychology
 The REAL Reason Cats Stare at You in Silence 🐱 | Cat Psychology
 ```
 
@@ -503,11 +503,19 @@ Base set (always include):
 cat psychology, cat facts, cat behavior, cat secrets, cat science, cat communication, cat body language, feline behavior, understanding cats, facts about cats, animal facts, animal science, did you know, mind blowing facts, brain cat, cat facts daily, cat behavior funny, cat domestication, cats vs humans
 ```
 
+Added per Karena rule (brand tag + gold low-competition tags — add to EVERY BrainCatAI video):
+
+```
+braincatai, cat facts mind blowing, cat behavior explained
+```
+
 Video-specific:
 
 ```
-why cats stare at you, cat stare meaning, types of cat stares, why cats look at you, cat eye contact, cat demand stare, cat slow blink love
+why cats stare at you, cat stare meaning, 4 types of cat stares, cat eye contact, cat demand stare, cat slow blink meaning, why cats look at you
 ```
+
+> **Tag field character count:** ~485 chars (target: ≤500). `cat facts mind blowing` score 73.8 / 9,953 monthly / competition 5 — lowest competition green keyword found in this session. Add to every video.
 
 **Hashtags (top 3 for title bar):**
 
