@@ -466,7 +466,7 @@ Is YOUR cat staring at you right now? 👀 Drop a 👀 + which type you think it
 **Final title** (73 chars — formula "number + intrigue + FOMO" — per Karena Roshaian rule: number format gets best YT algorithm push):
 
 ```
-4 Types of Cat Stares — Every Owner Gets #3 WRONG 🐱 | Cat Psychology
+4 Types of Cat Stares — #3 Will SHOCK You 🐱 | Cat Psychology
 ```
 
 Alt titles to A/B test:
