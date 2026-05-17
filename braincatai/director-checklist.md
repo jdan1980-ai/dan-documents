@@ -322,6 +322,51 @@ If you see this in the output → fix it like this.
 
 ---
 
+## 🔧 Surgical edit vs full regeneration (Nano Banana fallback workflow)
+
+**Locked 16 мая 2026 after bathroom Sc 1 lesson — user got the perfect image by asking Nano Banana to "rotate the cat 180 degrees" on an existing generation, instead of regenerating from a longer prompt.**
+
+When a Nano Banana output is **mostly correct but ONE thing is wrong** (wrong direction, wrong pose, wrong position in frame, character facing the wrong way) — do NOT regenerate from scratch. Instead, use a **surgical edit instruction** on the existing image. This is dramatically more reliable and credit-efficient than rewriting and re-running the full prompt.
+
+### When to use surgical edit (vs full regenerate)
+
+| Situation | Action |
+|-----------|--------|
+| All Brain locks held (glasses, eyes, collar, ears, kitten body) + locked Human held + location correct + ONLY pose/direction/position is wrong | ✅ **Surgical edit** — fix the one thing |
+| Brain missing glasses OR wrong eye color OR wrong species OR location wrong | ⚠️ **Full regenerate** — too many things to fix surgically |
+| Caption text garbled or in wrong font | ⚠️ **Full regenerate** OR add text in Canva post-production |
+| Composition fundamentally wrong (camera angle, framing) | ⚠️ **Full regenerate** with corrected composition prompt |
+
+### Effective surgical edit instructions
+
+Short, single-action commands work better than re-described prompts. Examples that have worked:
+
+| Goal | Edit instruction |
+|------|------------------|
+| Reverse Brain's facing direction | `rotate the cat 180 degrees` |
+| Flip horizontally (mirror) | `flip the cat horizontally` (or whole image: `mirror the image horizontally`) |
+| Change Brain's pose | `change the cat's pose to mid-gallop running` / `make the cat sit instead of stand` |
+| Move Brain in frame | `move the cat to the right side of the frame` / `move the cat closer to the doorway` |
+| Add a missing element | `add small thin round gold-framed glasses on the cat's nose` |
+| Open the cat's eyes | `make the cat's eyes wide open and visible, looking ahead` |
+| Fix the woman's hair | `make the woman's hair longer, cascading down her back to mid-back length` |
+| Remove an artifact | `remove the extra ear / extra fur tuft on the head` |
+
+### Why this works
+
+Nano Banana's edit mode preserves the existing image's character locks, lighting, palette, and composition while applying ONLY the requested change. A full regenerate is a fresh interpretation — every previously-correct lock has a fresh chance to fail (glasses can disappear, eye color can shift, body proportions can drift). Surgical edit = lock what works, change only what doesn't.
+
+### Cost comparison
+
+- Full Nano Banana regenerate: 1 credit + risk of losing locks (~30% chance based on observed failures)
+- Surgical edit on existing: ~1 credit but with near-zero risk to existing locks → effectively cheaper because you don't end up doing 2-3 regenerates
+
+### When this fails
+
+If after 2 surgical edits the image still isn't right → at that point full regenerate with corrected prompt. But ~80% of "one thing is wrong" cases resolve in 1 surgical edit.
+
+---
+
 ## 📝 When you finish a video
 
 - [ ] Update `production-status.md` row to ✅ for the stage you completed
