@@ -4,7 +4,7 @@
     "schema_version": "1.0",
     "created": "2026-05-17",
     "last_updated": "2026-05-17",
-    "total_credits_spent": 40,
+    "total_credits_spent": 120,
     "credits_saved_so_far": 0
   },
   "queries": [
@@ -171,13 +171,181 @@
       "notes": "Competition 7.3 extremely low. Score GREEN. But box topic already published Apr 29. Adding to BLOCKED."
     }
   ],
+    {
+      "keyword": "why cats prefer one person",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 16.2, "overall": 33.52, "monthly": 0},
+      "top_related": [
+        {"keyword": "cat body language", "score": 64.04, "monthly": 55887, "competition": 46.2, "verdict": "GREEN (generic)"},
+        {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"}
+      ],
+      "verdict": "RED — seed 33.52 / 0 monthly. All specific related = 0 monthly. Skip.",
+      "notes": "Emotionally appealing topic but no search volume. Not viable as primary keyword."
+    },
+    {
+      "keyword": "how cat whiskers work",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 9.8, "overall": 36.08, "monthly": 0},
+      "top_related": [
+        {"keyword": "cat whiskers", "score": 56.51, "monthly": 8315, "competition": 46.5, "verdict": "YELLOW"},
+        {"keyword": "cat anatomy", "score": 68.11, "monthly": 4879, "competition": 12.3, "verdict": "GREEN (borderline)"},
+        {"keyword": "whisker fatigue", "score": 58.00, "monthly": 3517, "competition": 34.4, "verdict": "YELLOW"}
+      ],
+      "verdict": "RED — seed 36.08 / 0 monthly. Topic could be angle for 'cat superpowers senses' bundle.",
+      "notes": "Whisker fatigue (3,517/mo) is a niche angle. Better as part of multi-sense video."
+    },
+    {
+      "keyword": "why cats run after pooping",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 27.3, "overall": 29.08, "monthly": 0},
+      "top_related": [
+        {"keyword": "cat instincts", "score": 65.54, "monthly": 10397, "competition": 26.1, "verdict": "GREEN"},
+        {"keyword": "cat bathroom behavior", "score": 63.47, "monthly": 4308, "competition": 22.7, "verdict": "YELLOW"}
+      ],
+      "verdict": "RED — seed 29.08 / 0 monthly. Funny topic but no search volume. Skip.",
+      "notes": "Zoomies framing has viral potential via feed but no search hook."
+    },
+    {
+      "keyword": "why cats wag their tails",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {"volume": 55.72, "competition": 27.1, "overall": 62.59, "monthly": 5400},
+      "top_related": [
+        {"keyword": "feline body language", "score": 61.01, "monthly": 6401, "competition": 32.7, "verdict": "YELLOW"},
+        {"keyword": "cat body language", "score": 64.04, "monthly": 55887, "competition": 46.2, "verdict": "GREEN (generic)"},
+        {"keyword": "why do cats wag their tails while lying down", "score": 61.52, "monthly": 5039, "competition": 29.1, "verdict": "YELLOW"},
+        {"keyword": "cat tail language", "score": 56.21, "monthly": 8975, "competition": 48, "verdict": "YELLOW"}
+      ],
+      "verdict": "YELLOW — seed 62.59 / 5,400 monthly. Best seed score of available new topics. AVAILABLE.",
+      "notes": "Plan slot: May 21. Title angle: 'Your Cat's Tail Is Talking. Are You Listening?'"
+    },
+    {
+      "keyword": "why cats stretch when they see you",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {"volume": 55.69, "competition": 33.2, "overall": 60.13, "monthly": 5378},
+      "top_related": [
+        {"keyword": "cat facts mind blowing", "score": 73.80, "monthly": 9953, "competition": 5, "verdict": "GREEN ⭐ COMPETITION=5"},
+        {"keyword": "cat stretch", "score": 62.81, "monthly": 15636, "competition": 36.9, "verdict": "YELLOW"},
+        {"keyword": "cat body language", "score": 64.04, "monthly": 55887, "competition": 46.2, "verdict": "GREEN (generic)"}
+      ],
+      "verdict": "YELLOW — seed 60.13 / 5,378 monthly. AVAILABLE. Great emotional angle ('it's a compliment').",
+      "notes": "Plan slot: May 23. KEY FINDING: 'cat facts mind blowing' related = 73.8/9,953/competition 5 — add to every video's tags."
+    },
+    {
+      "keyword": "why cats bury their food",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": null, "overall": null, "monthly": 0},
+      "top_related": [
+        {"keyword": "cat behavior problems", "score": 70.69, "monthly": 43756, "competition": 27.2, "verdict": "GREEN (generic)"}
+      ],
+      "verdict": "RED — seed null / 0 monthly. Skip.",
+      "notes": "No search demand."
+    },
+    {
+      "keyword": "why cats headbutt you",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 23.6, "overall": 30.56, "monthly": 0},
+      "top_related": [
+        {"keyword": "cat communication", "score": 69.49, "monthly": 23594, "competition": 24.2, "verdict": "GREEN"},
+        {"keyword": "cat body language", "score": 64.04, "monthly": 55887, "competition": 46.2, "verdict": "GREEN (generic)"}
+      ],
+      "verdict": "RED — seed 30.56 / 0 monthly. Skip.",
+      "notes": "Bunting is a good topic but no search volume. Could include as a fact in another video."
+    },
+    {
+      "keyword": "why cats roll on their back",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 19.2, "overall": 32.32, "monthly": 0},
+      "top_related": [
+        {"keyword": "cat facts mind blowing", "score": 73.80, "monthly": 9953, "competition": 5, "verdict": "GREEN ⭐ COMPETITION=5"},
+        {"keyword": "cat body language", "score": 64.04, "monthly": 55887, "competition": 46.2, "verdict": "GREEN (generic)"}
+      ],
+      "verdict": "RED — seed 32.32 / 0 monthly. Skip as standalone.",
+      "notes": "'cat facts mind blowing' appearing again confirms this is a powerful tag for any cat-facts style video."
+    },
+    {
+      "keyword": "why cats eat grass",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 36.4, "overall": 25.44, "monthly": 0},
+      "top_related": [
+        {"keyword": "cats eat grass", "score": 57.28, "monthly": 5089, "competition": 39.8, "verdict": "YELLOW"},
+        {"keyword": "cat instincts", "score": 65.54, "monthly": 10397, "competition": 26.1, "verdict": "GREEN"}
+      ],
+      "verdict": "RED — seed 25.44 / 0 monthly. Skip.",
+      "notes": "No direct search demand despite being a common behavior."
+    },
+    {
+      "keyword": "why cats hate the vet",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 86.92, "overall": 5.23, "monthly": 0},
+      "top_related": [],
+      "verdict": "RED — DO NOT USE. Competition 86.9 / overall 5.23. Completely over-saturated.",
+      "notes": "Worst keyword of the batch. Topic exists but niche is dominated."
+    },
+    {
+      "keyword": "why cats bite when you pet them",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 46.2, "overall": 21.52, "monthly": 0},
+      "top_related": [
+        {"keyword": "why does my cat bite me", "score": 58.73, "monthly": 16294, "competition": 47.5, "verdict": "YELLOW"},
+        {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"}
+      ],
+      "verdict": "RED — seed 21.52 / 0 monthly. Skip.",
+      "notes": "Related 'why does my cat bite me' has 16k monthly but score only 58.7. Not worth a slot."
+    },
+    {
+      "keyword": "cat night vision",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 33.6, "overall": 26.56, "monthly": 0},
+      "top_related": [
+        {"keyword": "cat vision", "score": 61.82, "monthly": 5010, "competition": 28.3, "verdict": "YELLOW"},
+        {"keyword": "what do cats do at night", "score": 59.20, "monthly": 8261, "competition": 39.7, "verdict": "YELLOW"}
+      ],
+      "verdict": "RED — seed 26.56 / 0 monthly. Skip as standalone. Include in 'cat superpowers senses' bundle.",
+      "notes": "'what do cats do at night' 8,261 monthly is decent but YELLOW only."
+    },
+    {
+      "keyword": "why cats ignore you",
+      "fetched": "2026-05-17",
+      "credits_spent": 5,
+      "seed": {"volume": 58.85, "competition": 39.6, "overall": 59.47, "monthly": 8757},
+      "top_related": [
+        {"keyword": "do cats love their owners", "score": 62.35, "monthly": 9513, "competition": 33.2, "verdict": "YELLOW"},
+        {"keyword": "cat emotions", "score": 63.50, "monthly": 13046, "competition": 33.4, "verdict": "YELLOW"},
+        {"keyword": "feline psychology", "score": 63.32, "monthly": 26940, "competition": 40.9, "verdict": "YELLOW"},
+        {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"}
+      ],
+      "verdict": "YELLOW — seed 59.47 / BEST monthly of batch (8,757). AVAILABLE. Strong emotional hook.",
+      "notes": "Plan slot: May 19. Title: 'Your Cat Doesn't Ignore You. This Is Why 🐱'. High relatability = CTR."
+    }
+  ],
   "candidates_not_yet_researched": [
-    "why cats prefer one person",
-    "how cat whiskers work",
-    "why cats run after pooping (zoomies)",
-    "why cats hate the vet",
-    "why cats wag their tails",
-    "why cats stretch when they see you",
-    "why cats bury their food"
-  ]
+    "why cats rub against your legs",
+    "cat years to human years",
+    "why cats hate being left alone",
+    "why cats groom each other",
+    "why cats hate loud noises",
+    "why cats drool when happy"
+  ],
+  "competitive_intelligence": {
+    "last_updated": "2026-05-17",
+    "key_finding": "'cat facts mind blowing' keyword: score 73.80, monthly 9953, competition 5 — add to tags of every BrainCatAI video",
+    "kittyverse": {
+      "channel_id": "UCBcgZdQ-2D17yOOX8NqVeZA",
+      "growth_30d": "+612%",
+      "top_video": "Cat years to human years EXPLAINED (39k views)",
+      "insight": "Comparison/conversion topics work. 'Cat years to human years' not yet done by BrainCatAI — plan slot May 25."
+    }
+  }
 }

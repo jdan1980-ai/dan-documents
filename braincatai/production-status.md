@@ -58,6 +58,24 @@ Single source of truth для статуса каждого видео по pipe
 
 **Emergency Reserve правило:** Vagus Nerve (`your-body-calm-down-button`) лежит scheduled в YT Studio на 14 мая, но ЭТО НЕ ПУБЛИКАЦИЯ. Видео используется **только** как страховка: если на любой день недели не удаётся подготовить cat-видео, можно дёрнуть Vagus Nerve как fallback. Иначе — снять с расписания / отложить в архив.
 
+### План на 18–27 мая — 10-дневный календарь (17 мая 2026)
+
+> vidIQ research: 13 тем проверено (95 кредитов). Все ниже порога GREEN. Выбраны лучшие YELLOW + competitor-proven темы.
+> 🏆 Скрытый джекпот: `cat facts mind blowing` — score **73.8 / 9,953 monthly / competition 5** — добавлять в теги каждого видео.
+
+| Дата | День | Тема | Slug | vidIQ | Статус |
+|------|------|------|------|-------|--------|
+| 18 мая | Пн | Your Cat Thinks You're a Giant Weird Cat | `your-cat-sees-you-as-giant-cat` | 71.47 ✅ | 📝 script готов |
+| 19 мая | Вт | Your Cat Doesn't Ignore You. This Is Why | `why-cats-ignore-you` | 59.47 / 8,757 | ✍️ нужен скрипт |
+| 20 мая | Ср | Your Cat Can Hear You Blinking | `cats-hear-you-blinking` | — | 📝 script готов |
+| 21 мая | Чт | Your Cat's Tail Is Talking. Are You Listening? | `why-cats-wag-their-tails` | 62.59 / 5,400 | ✍️ нужен скрипт |
+| 22 мая | Пт | Your Cat Invented a Language Just for YOU | `why-cats-meow-only-at-humans` | 60.70 / 3,685 | ✍️ нужен скрипт |
+| 23 мая | Сб | When Your Cat Stretches at You, It's Saying This | `why-cats-stretch-at-you` | 60.13 / 5,378 | ✍️ нужен скрипт |
+| 24 мая | Вс | Why Your Cat Acts Like Water Is Poison | `why-cats-hate-water` | 60.88 / 3,659 | ✍️ нужен скрипт |
+| 25 мая | Пн | Your Cat Is Older Than You Think 🐱 | `cat-years-to-human-years` | competitor proof | ✍️ нужен скрипт |
+| 26 мая | Вт | 3 Things Your Cat Can Sense That You Can't | `cat-superpowers-senses` | targets 73.8/9,953 | ✍️ нужен скрипт |
+| 27 мая | Ср | Why Your Cat Hates When You Leave | `why-cats-hate-being-left-alone` | TBD | ✍️ нужен скрипт |
+
 ### Long-form pipeline
 
 | Видео | Старт production | Publish target | Статус |
