@@ -455,17 +455,17 @@ What does YOUR cat snap their head at "for no reason"? 👂 Drop a 👀 if they'
 
 ## SEO Pack
 
-**Final title** (74 chars — formula #3 "Почему... (Причина шокирует)"):
+**Final title** (80 chars — higher vidIQ score, цифра в начале для CTR-bump):
 
 ```
-Your Cat Can HEAR You Blinking (The Science Will Shock You) 🐱 | Cat Psychology
+Cats Can Hear 5 Times What You Can — The Truth Will Shock You 🐱 | Cat Psychology
 ```
 
 Alt titles to A/B test:
 
 ```
+Your Cat Can HEAR You Blinking (The Science Will Shock You) 🐱 | Cat Psychology
 If Your Cat Stares at NOTHING, HERE'S What They're Hearing! 🐱 | Cat Psychology
-Cats Can Hear FIVE Times What You Can — The Truth Will Shock You 🐱 | Cat Psychology
 The REAL Reason Cats Snap Their Head at "Nothing" 🐱 | Cat Psychology
 ```
 
@@ -477,12 +477,12 @@ The REAL Reason Cats Snap Their Head at "Nothing" 🐱 | Cat Psychology
 Реальная Причина, Почему Кошка ВСЁ Слышит — Даже Через Стены! (вас шокирует)
 ```
 
-**Description (≥ 250 chars, "cat psychology" appears 3×):**
+**Description (≥ 250 chars, "cat psychology" appears 3×, цифры вместо слов для скан-CTR):**
 
 ```
-Can your cat actually hear you BLINK? 🐱 In this Cat Psychology Short, Brain reveals the truth — yes, literally. Cat psychology and biology show cats have the second-best hearing on Earth, wider than dogs and FIVE times higher than humans. They can hear your eyelids blink, your heartbeat through a wall, your stomach growling in another room, and high-pitched whines from every appliance you own. Each ear rotates independently 180 degrees for precision tracking. So when your cat suddenly snaps their head at "nothing" or stares at an empty corner — empty isn't empty for them. They heard something REAL. Cat psychology is wilder than you think. You can't out-sneak a cat. 💚
+Can your cat actually hear you BLINK? 🐱 In this Cat Psychology Short, Brain reveals the truth — yes, literally. Cat psychology and biology show cats have the 2nd-best hearing on Earth, wider than dogs and 5 TIMES higher than humans. Their hearing range: 48Hz–85kHz (yours stops at 20kHz). They can hear your eyelids blink, your heartbeat through a wall, your stomach growling from another room, and the high-pitched whine of every appliance you own. Each ear rotates independently 180° for precision tracking — that's how they pinpoint sound within 3 inches from 3 feet away. So when your cat suddenly snaps their head at "nothing" or stares at an empty corner — empty isn't empty for them. They heard something REAL. Cat psychology is wilder than you think. You can't out-sneak a cat. 💚
 
-🐱 Follow Brain for more cat psychology, cat facts, and cat secrets every week.
+🐱 Follow Brain for daily cat psychology, cat facts, and cat secrets.
 
 #shorts #catpsychology #catfacts #catbehavior #braincatai #cathearing #petfacts
 ```
