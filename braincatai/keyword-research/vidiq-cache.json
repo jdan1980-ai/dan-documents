@@ -3,8 +3,8 @@
     "purpose": "Cache of vidIQ keyword research API responses to avoid burning paid credits on repeat queries. Cat psychology niche keywords stay relevant ~30-60 days. Refresh entries older than 60 days only if you suspect drift.",
     "schema_version": "1.0",
     "created": "2026-05-17",
-    "last_updated": "2026-05-17",
-    "total_credits_spent": 120,
+    "last_updated": "2026-05-18",
+    "total_credits_spent": 125,
     "credits_saved_so_far": 0
   },
   "queries": [
@@ -328,6 +328,15 @@
       ],
       "verdict": "YELLOW — seed 59.47 / BEST monthly of batch (8,757). AVAILABLE. Strong emotional hook.",
       "notes": "Plan slot: May 19. Title: 'Your Cat Doesn't Ignore You. This Is Why 🐱'. High relatability = CTR."
+    },
+    {
+      "keyword": "why cats sit above you",
+      "fetched": "2026-05-18",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 36, "overall": 25.6, "monthly": 0},
+      "top_related": [],
+      "verdict": "RED — score 25.6, zero monthly searches. User override.",
+      "notes": "⚠️ PUBLISHED May 18 as 'The Real Reason Your Cat Sits Above You 🐱 | Cat Psychology' despite RED. User argument: channel in recovery mode, even good topics get suppressed — better to burn slot on instinct topic than save it. Counter-argument noted: search traffic works independently of algo suppression. Track post-publish to validate either side."
     }
   ],
   "candidates_not_yet_researched": [
