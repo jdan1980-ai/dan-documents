@@ -69,7 +69,7 @@ Applied channel-wide. Full spec in `CLAUDE.md` § "Shorts-specific rules".
 | Дата | День | Тема | Slug | vidIQ | Статус |
 |------|------|------|------|-------|--------|
 | 19 мая | Вт | Cats Can Hear 5 Times What You Can | `cats-hear-you-blinking` | — | 📅 scheduled (uploaded 18 мая) |
-| 20 мая | Ср | Your Cat Doesn't Ignore You. This Is Why | `why-cats-ignore-you` | 59.47 / 8,757 | ✍️ нужен скрипт |
+| 20 мая | Ср | Your Cat Doesn't Ignore You. This Is Why | `why-cats-ignore-you` | 59.47 / 8,757 | ✅ скрипт готов → производство |
 | 21 мая | Чт | Your Cat's Tail Is Talking. Are You Listening? | `why-cats-wag-their-tails` | 62.59 / 5,400 | ✍️ нужен скрипт |
 | 22 мая | Пт | Your Cat Invented a Language Just for YOU | `why-cats-meow-only-at-humans` | 60.70 / 3,685 | ✍️ нужен скрипт |
 | 23 мая | Сб | When Your Cat Stretches at You, It's Saying This | `why-cats-stretch-at-you` | 60.13 / 5,378 | ✍️ нужен скрипт |
@@ -158,7 +158,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `why-cats-follow-bathroom` | 17 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
 | `why-cats-sit-above-you` | 18 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (override) |
 | `cats-hear-you-blinking` | 19 мая | ✅ | ✅ | ✅ | ✅ | ✅ | 📅 scheduled |
-| `why-cats-ignore-you` | 20 мая | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `why-cats-ignore-you` | 20 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 (Уточни — какие именно стадии уже готовы. Я предполагал что для запланированных в YouTube всё готово до scheduled статуса.)
 

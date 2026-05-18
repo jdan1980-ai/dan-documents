@@ -183,10 +183,16 @@ Does YOUR cat treat you like a defective cat? 🐱 Drop a 🙀 if they groom you
 Does YOUR cat follow you to the bathroom every time? 🚪🐱 Drop a 🛡️ if yes — they're literally guarding you. Tell me the funniest place they refuse to let you go alone 👇
 ```
 
-### 29. Your Cat Can Hear You Blinking (20 мая) — Cat Psychology
+### 29. Your Cat Can Hear You Blinking (19 мая) — Cat Psychology
 
 ```
 What does YOUR cat snap their head at "for no reason"? 👂 Drop a 👀 if they've stared at empty corners — trust me they hear something. And try blinking really slowly near them and watch their ears 😹
+```
+
+### 30. Your Cat Doesn't Ignore You. This Is Why (20 мая) — Cat Psychology
+
+```
+Try it RIGHT NOW — call your cat's name and watch their ears 👂 If you see ANY twitch — they heard you. Drop a 👀 if their ear moved and tell me what they did instead of coming over!
 ```
 
 ---
