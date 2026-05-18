@@ -13,6 +13,11 @@
 | 5 | Yamato Zen Relaxing | https://www.youtube.com/@YamatoZenRelaxing/videos | **Different niche** — relaxation/zen aesthetic, see comparison below |
 | 6 | Мир Глазами Кошек | https://www.youtube.com/channel/UCSYBgC5AwWL9MaRj9lsAcgQ | **Прямой конкурент** — русскоязычный канал про кошек: факты, психология, поведение, уход. Channel ID `UCSYBgC5AwWL9MaRj9lsAcgQ`. Стиль заголовков копируем для русских версий + смотрим какие темы у них тащат. |
 | 7 | Кошкина Мать / Cat's Mother (William) | https://www.youtube.com/@williamcat/shorts | **🏆 ТОП-конкурент по виралке** — RU + EN sub. Channel ID `UCzTi3Zz-EYXx7LrQ9hJcTbg`. 135K subs / **111.6M views** (827 views/sub = экстремальный algo push). Топ Shorts 5-8M views на cat-psychology / cat-behavior темах. Снимок 18 мая 2026 ниже. |
+| 8 | Gato Oculto | https://www.youtube.com/channel/UC7ADFRVdbcsFQVUsCV9O1pQ | **🔥 ВЗРЫВНОЙ РОСТ** — BR/PT, AI-generated cat mystery shorts. Channel ID `UC7ADFRVdbcsFQVUsCV9O1pQ`. 31.8K subs / 2.07M views / 34 видео — **+1208% за 30 дн**. Формат: 7-15-сек "spooky behavior story" (`Esse gato fez X… e o motivo é Y`). Discovered 18 мая 2026. Снимок ниже. |
+| 9 | Catnip Chaos | https://www.youtube.com/channel/UCEZj8zvPA7Q4zTn1pmY6Y-Q | **Faceless AI cat-facts daily**, US. Channel ID `UCEZj8zvPA7Q4zTn1pmY6Y-Q`. 2.4K subs / 852k views / 55 видео — **+94% за 30 дн** (353 views/sub = strong algo push). Same format niche как наш. Discovered 18 мая 2026. |
+| 10 | cat_nicin | https://www.youtube.com/channel/UCiSWhaffviXG-oWs-PhQ6Fw | **Экстремальный views/sub ratio (751)** — TR. Channel ID `UCiSWhaffviXG-oWs-PhQ6Fw`. 1.4K subs / 1.07M views / 136 видео — алго пушит активно несмотря на маленький канал. Cat body-language focus. Discovered 18 мая 2026. |
+| 11 | NoTime Stories | https://www.youtube.com/channel/UCNexEoccPG7ArokOoPvoOkA | **Stealth growth**, US, AI explainer. Channel ID `UCNexEoccPG7ArokOoPvoOkA`. 575 subs / 487k views / 129 видео (847 views/sub). Direct format peer "We explain what your cat is really thinking". Discovered 18 мая 2026. |
+| 12 | Purrfection | https://www.youtube.com/channel/UCBtaTb3pZnIViAmbjSqyg0Q | **AI-generated clone** — PH. Channel ID `UCBtaTb3pZnIViAmbjSqyg0Q`. 163 subs / 37k views / 36 видео. Direct copycat format ("Doctor Cat clinic" + AI shorts). Smaller but the closest 1:1 format match to BrainCatAI we've found — watch for what they tag/title differently. Discovered 18 мая 2026. |
 
 ## ⚠️ Технический лимит
 
@@ -197,6 +202,95 @@
 #### Implication для нашей контент-стратегии
 
 `where-your-cat-sleeps` (21 view у нас vs 5.7M у конкурента) и `your-cat-sees-you-as-giant-cat` (44 view у нас vs 2.7M у них) показывают: **темы правильные, hook/title/algo-trust подкачали**. Не выбираем тему по тому "что у нас лучше получится" — выбираем по proven виралке, а потом адаптируем под наш формат (Brain + animation + science angle).
+
+### Gato Oculto (BR) — снимок 18 мая 2026 🔥 EXPLOSIVE GROWTH
+
+**Channel:** Gato Oculto · ID `UC7ADFRVdbcsFQVUsCV9O1pQ` · 31.8K subs / **2.07M views / 34 видео** (only 34!) · BR/PT · +1208% subs за 30 дн
+**Niche:** Cat Behavior, Cat Psychology, Pet Education, Cat Facts (AI-generated)
+**Format:** ultra-short 7-15s mystery/spooky "cat-saw-something" stories (sub-genre we don't compete in)
+**View-per-sub ratio:** 65 (солидный, но `william` лучше — этот канал берёт *виральностью отдельных видео*, не plateau-эффектом)
+**Discovery context:** vidiq_breakout_channels с query "cat psychology cat facts behavior", channelType=short
+
+#### Top 33 Shorts (popular order)
+
+Every title follows the same micro-formula. Sample (translated):
+
+| # | Title (translated) | Pattern |
+|---|--------------------|---------|
+| 1 | This cat wouldn't let the owner look under the bed | mystery + hidden cause |
+| 2 | THIS CAT WOULDN'T LEAVE THE BABY AND THE REASON WILL GIVE YOU CHILLS | protector + spooky payoff |
+| 3 | This cat wouldn't let the baby sleep alone… and there was a reason | hidden cause + baby angle |
+| 4 | This cat scratched the wall for hours… then they found out why | obsessive behavior + reveal |
+| 5 | He froze at the window… and suddenly started acting strange | trigger event + behavior shift |
+| 6 | What the cat saw in the hallway kept the owner up at night 😱 | supernatural-adjacent |
+| 7 | This cat brought a strange "GIFT"… and no one could explain | dead-things variant + mystery |
+| 8 | This cat started acting strange after they brought something into the house | object trigger |
+| 9 | This cat acted strange after the owner brought home an antique mirror | object-as-trigger (mirror trope) |
+| 10 | He started meowing at the ceiling… and no one understood | spooky-adjacent ("ghost cat") |
+| 11 | He stared into the phone camera… as if seeing someone | screen/camera + paranormal hint |
+| 12 | If your cat slow-blinks at you… you have no idea what they're saying | universal cat fact, mystery framing |
+| 13 | If your cat sleeps near you, there's a strange reason | classic relational fact + "strange" |
+| 14 | If your cat waits for you at the door… you're reading it wrong | reversal hook |
+| 15 | When your cat brings you something dead | mainstream cat fact + simple framing |
+
+#### Why this matters for us — KEY INSIGHT
+
+**Gato Oculto's entire format is "spooky/paranormal-adjacent cat storytelling".** Every video uses the same template:
+- Hook (5-8 chars): `Esse gato [did X strange thing]…`
+- Tension: `e ninguém entendeu` / `e o motivo vai te arrepiar` / `e tinha um motivo`
+- Implied paranormal: ghosts, mirrors, ceilings, imaginary friends, antique objects
+
+This is a sub-niche of cat-psychology we are NOT touching: **"cats can sense things we can't"**. Mainstream cat-psych channels avoid it because it's pseudoscience-adjacent. Gato Oculto leans INTO it and got 1208% growth in a month, 2M total views with only 34 videos.
+
+**Our policy question for user:** do we add a "Brain notices something humans can't" angle to our backlog? It's grounded in real science (cats hear ultrasonics, see UV, detect earthquake P-waves, smell illness) — we could do it WITHOUT the woo-woo framing. This would be a Brain "What Cats Sense That You Can't" series — fits cats-only rule, fits explainer brand, fits search demand. **Recommended: add 2-3 candidate topics to content-ideas.md** ("What Your Cat Senses Before Earthquakes", "Why Your Cat Stares at Empty Corners — Real Reason", "Your Cat Hears Sounds You'd Pay $1000 to Hear").
+
+**Risk flag:** going full Gato Oculto ("ghost cat" framing) would violate our science-explainer brand and risk demonetization for "misleading content". Stay on the science side of the line.
+
+### Purrfection (PH) — снимок 18 мая 2026 (closest format peer)
+
+**Channel:** Purrfection · ID `UCBtaTb3pZnIViAmbjSqyg0Q` · 163 subs / 37k views / 36 видео · PH · +48% subs за 30 дн
+**Niche:** Cat Education, Cat Behavior, AI-Generated Content
+**Format:** AI-animated cat-facts shorts with "Doctor Cat clinic" framing — very similar to our Brain
+**Discovery context:** vidiq_breakout_channels
+
+#### Top topic patterns (37 видео sampled)
+
+Topics they're hitting that we should consider:
+- "Your Cat is SMARTER Than You Think" — popular framing we haven't used
+- "Your Cat Is Secretly Copying You" — mirror-neuron angle
+- "Your Cat Is Secretly Testing You" — relational framing
+- "Don't Ignore Your Cat's Ears" / "4 Tail Signs You Should NEVER Ignore" — warning/danger framing
+- "Are cats actually LIQUID?" — physics meme topic (high curiosity-gap)
+- "Your cat is 'Scanning' your soul" — emotional/spiritual framing
+- "Why your cat 'CHIRPS' like an alien" — chirping/trilling vocalization
+- "Why your cat goes CRAZY at 3 AM" — zoomies topic w/ better hook than ours
+- "Why your cat 'BONKS' you" — bunting/headbutt
+- "If your cat shows you their belly, STOP!" — counter-intuitive warning
+
+#### Why this matters
+
+Purrfection is our **direct format competitor** (AI character + cat-fact shorts). They're small, but their topic selection is informative — every title above is a candidate for our backlog with high curiosity-gap. **Several overlap our existing backlog** (3AM zoomies, chirping, bunting, belly-up trap) and several are NEW angles ("Liquid cats", "Smarter than you think", "Scanning your soul"). Worth a screenshot review by user.
+
+**Format learning:** their titles ALL use 1-3 CAPS words mid-sentence + emoji + topic hashtag. Our title style is more restrained. Could A/B test their punchier style on 1-2 videos.
+
+### Catnip Chaos / cat_nicin / NoTime Stories — снимок 18 мая 2026 (didn't pull videos — credit budget)
+
+These three are growing fast but we didn't pull their video lists to stay under budget. **Snapshot for next session:**
+
+- **Catnip Chaos** (US, 2.4K subs, 852k views, +94% 30d, faceless): "weird cat behaviors and adorable secrets" — likely format peer. Pull when checking next batch.
+- **cat_nicin** (TR, 1.4K subs, 1.07M views, +30% 30d): cat body language focus, 751 views/sub = strong algo signal despite small sub count. Could be a strong topic source.
+- **NoTime Stories** (US, 575 subs, 487k views, +26% 30d): "We explain what your cat is really thinking" — direct format twin. 847 views/sub = strong algo push.
+
+User: when you next have a free vidIQ slot, run `vidiq_channel_videos` on these three to see what's working.
+
+### ⚠️ False positives from vidIQ classification (DO NOT add)
+
+vidIQ's breakout_channels returned two channels that LOOKED relevant but turned out to be wrong niche when we pulled their videos:
+
+- **"MystiCats" UCJELvS_nc7VEbDeXhOrMwug** — actually a Christian prosperity-prayer channel ("God and love"). vidIQ misclassified.
+- **"The Cat Code" UCDCwtSaZoPICvcaLKohFEEw** — actually a Roblox-rant channel with occasional cat clips. The +1357% growth is real, but it's growth on Roblox content, not cat content. Skip.
+
+**Lesson:** always pull `channel_videos` to verify before adding a channel to tracker. vidIQ's niche-tag inference can be hallucinated.
 
 ### Yamato Zen Relaxing (другая ниша — relaxation, не explainer)
 

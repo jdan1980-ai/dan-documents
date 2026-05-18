@@ -1,23 +1,21 @@
 {
   "meta": {
-    "purpose": "Cache of vidIQ keyword research API responses to avoid burning paid credits on repeat queries. Cat psychology niche keywords stay relevant ~30-60 days. Refresh entries older than 60 days only if you suspect drift.",
-    "schema_version": "1.0",
+    "purpose": "Cache of vidIQ API responses (keyword research, outliers, breakout channels, channel videos) to avoid burning paid credits on repeat queries. Cat psychology niche keywords stay relevant ~30-60 days. Refresh entries older than 60 days only if you suspect drift.",
+    "schema_version": "1.1",
     "created": "2026-05-17",
     "last_updated": "2026-05-18",
-    "total_credits_spent": 125,
-    "credits_saved_so_far": 0
+    "total_credits_spent": 155,
+    "credits_saved_so_far": 0,
+    "changelog": [
+      "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge."
+    ]
   },
   "queries": [
     {
       "keyword": "why do cats slow blink",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {
-        "volume": 0,
-        "competition": null,
-        "overall": null,
-        "monthly": 0
-      },
+      "seed": {"volume": 0, "competition": null, "overall": null, "monthly": 0},
       "top_related": [
         {"keyword": "cat slow blink meaning", "score": 73.5, "monthly": 13673, "competition": 8.8, "verdict": "GREEN"},
         {"keyword": "cat slow blink", "score": 66.6, "monthly": 19000, "competition": null, "verdict": "GREEN"}
@@ -29,12 +27,7 @@
       "keyword": "are orange cats always male",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {
-        "volume": 0,
-        "competition": 18.8,
-        "overall": 32.48,
-        "monthly": 0
-      },
+      "seed": {"volume": 0, "competition": 18.8, "overall": 32.48, "monthly": 0},
       "top_related": [
         {"keyword": "ginger cat", "score": 65.89, "monthly": 234121, "competition": 55.5, "verdict": "GREEN (but too generic)"},
         {"keyword": "orange cat", "score": 63.74, "monthly": 157224, "competition": 57, "verdict": "GREEN (but too generic)"},
@@ -50,12 +43,7 @@
       "keyword": "why do cats bring dead animals",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {
-        "volume": 0,
-        "competition": 18.8,
-        "overall": 32.48,
-        "monthly": 0
-      },
+      "seed": {"volume": 0, "competition": 18.8, "overall": 32.48, "monthly": 0},
       "top_related": [
         {"keyword": "why does my cat bring me dead animals", "score": 64.72, "monthly": 4543, "competition": 20.1, "verdict": "YELLOW"},
         {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"},
@@ -72,12 +60,7 @@
       "keyword": "cat says i love you",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {
-        "volume": 0,
-        "competition": 34.6,
-        "overall": 26.16,
-        "monthly": 0
-      },
+      "seed": {"volume": 0, "competition": 34.6, "overall": 26.16, "monthly": 0},
       "top_related": [
         {"keyword": "talking cat", "score": 65.00, "monthly": 61342, "competition": 44.7, "verdict": "GREEN"},
         {"keyword": "trending cat shorts", "score": 64.75, "monthly": 27422, "competition": 37.5, "verdict": "GREEN"},
@@ -94,12 +77,7 @@
       "keyword": "why do cats knead",
       "fetched": "2026-05-17 (inferred from session — full JSON not stored, only summary)",
       "credits_spent": 5,
-      "seed": {
-        "volume": null,
-        "competition": null,
-        "overall": 57.2,
-        "monthly": 4802
-      },
+      "seed": {"volume": null, "competition": null, "overall": 57.2, "monthly": 4802},
       "top_related": [
         {"keyword": "cat kneading", "score": 66.6, "monthly": 26390, "competition": null, "verdict": "GREEN"},
         {"keyword": "why cats knead blankets", "score": 67.6, "monthly": 5003, "competition": null, "verdict": "GREEN"},
@@ -108,18 +86,12 @@
       ],
       "verdict": "BLOCKED — already published April 25 as 'Why Cats Make Biscuits on You' (440 views). DO NOT re-pitch.",
       "notes": "Strong GREEN scores but cannibalization risk too high."
-    }
-  ],
+    },
     {
       "keyword": "why cats meow only at humans",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {
-        "volume": 53.24,
-        "competition": 28.1,
-        "overall": 60.70,
-        "monthly": 3685
-      },
+      "seed": {"volume": 53.24, "competition": 28.1, "overall": 60.70, "monthly": 3685},
       "top_related": [
         {"keyword": "cat communication", "score": 69.49, "monthly": 23594, "competition": 24.2, "verdict": "GREEN"},
         {"keyword": "cat vocalizations", "score": 65.77, "monthly": 4464, "competition": 17.3, "verdict": "GREEN (borderline monthly)"},
@@ -134,12 +106,7 @@
       "keyword": "why cats hate water",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {
-        "volume": 53.19,
-        "competition": 27.6,
-        "overall": 60.88,
-        "monthly": 3659
-      },
+      "seed": {"volume": 53.19, "competition": 27.6, "overall": 60.88, "monthly": 3659},
       "top_related": [
         {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"},
         {"keyword": "cat behavior explained", "score": 68.61, "monthly": 133004, "competition": 43.2, "verdict": "GREEN (generic)"},
@@ -154,12 +121,7 @@
       "keyword": "why cats sit in boxes",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {
-        "volume": 52.94,
-        "competition": 7.3,
-        "overall": 68.84,
-        "monthly": 3517
-      },
+      "seed": {"volume": 52.94, "competition": 7.3, "overall": 68.84, "monthly": 3517},
       "top_related": [
         {"keyword": "cat shorts", "score": 70.57, "monthly": 142756, "competition": 39, "verdict": "GREEN (generic)"},
         {"keyword": "cat instincts", "score": 65.54, "monthly": 10397, "competition": 26.1, "verdict": "GREEN"},
@@ -169,8 +131,7 @@
       ],
       "verdict": "BLOCKED — seed GREEN 68.84 BUT cannibalized by 'Why Your Cat Chooses a Box Over a $100 Bed' (Apr 29). DO NOT re-pitch.",
       "notes": "Competition 7.3 extremely low. Score GREEN. But box topic already published Apr 29. Adding to BLOCKED."
-    }
-  ],
+    },
     {
       "keyword": "why cats prefer one person",
       "fetched": "2026-05-17",
@@ -339,22 +300,96 @@
       "notes": "⚠️ PUBLISHED May 18 as 'The Real Reason Your Cat Sits Above You 🐱 | Cat Psychology' despite RED. User argument: channel in recovery mode, even good topics get suppressed — better to burn slot on instinct topic than save it. Counter-argument noted: search traffic works independently of algo suppression. Track post-publish to validate either side."
     }
   ],
+  "non_keyword_calls": [
+    {
+      "type": "outliers",
+      "fetched": "2026-05-18",
+      "credits_spent": 5,
+      "params": {"channelIds": ["UCzTi3Zz-EYXx7LrQ9hJcTbg"], "publishedWithin": "threeMonths", "sort": "breakoutScore", "limit": 20},
+      "result": {"videos": []},
+      "notes": "@williamcat — zero breakout outliers in last 3 months. Confirms YouTube API observation that recent uploads are flat 5-30k. Channel's viral history is OLDER (2022-2024). DO NOT re-run outliers on williamcat for at least 30 days."
+    },
+    {
+      "type": "similar_channels",
+      "fetched": "2026-05-18",
+      "credits_spent": 0,
+      "params": {"niche": "cat psychology cat behavior facts animated explainer shorts", "language": "en", "size": 30},
+      "result": "DENIED by permissions",
+      "notes": "Tool blocked at MCP layer. No credits charged. If user wants this run, add to allowed-list and retry."
+    },
+    {
+      "type": "breakout_channels",
+      "fetched": "2026-05-18",
+      "credits_spent": 5,
+      "params": {"query": "cat psychology cat facts behavior", "channelType": "short", "limit": 25},
+      "result_summary": "25 channels returned. Top new finds (validated): Gato Oculto (UC7ADFRVdbcsFQVUsCV9O1pQ +1208%), Catnip Chaos (UCEZj8zvPA7Q4zTn1pmY6Y-Q +94%), cat_nicin (UCiSWhaffviXG-oWs-PhQ6Fw), NoTime Stories (UCNexEoccPG7ArokOoPvoOkA), Purrfection (UCBtaTb3pZnIViAmbjSqyg0Q). False positives detected: MystiCats UCJELvS_nc7VEbDeXhOrMwug = actually Christian prayer channel; The Cat Code UCDCwtSaZoPICvcaLKohFEEw = actually Roblox-rant channel. Already-tracked: Kitty Verse (UCBcgZdQ-2D17yOOX8NqVeZA).",
+      "notes": "HIGH-VALUE CALL — 25 channels for 5 credits. Re-run no more often than every 30-45 days; results overlap heavily within that window."
+    },
+    {
+      "type": "channel_videos",
+      "fetched": "2026-05-18",
+      "credits_spent": 5,
+      "params": {"channelId": "UC7ADFRVdbcsFQVUsCV9O1pQ", "videoFormat": "short", "popular": true},
+      "result_summary": "Gato Oculto — 33 popular shorts. Universal formula: 'Esse gato [strange action]… e [reason/mystery]'. Sub-niche = paranormal/mystery cat storytelling. See competitor-tracker.md for full snapshot.",
+      "notes": "Confirmed niche fit. Sub-niche we don't compete in — opportunity for 'What Cats Sense That You Can't' angle (science-grounded version)."
+    },
+    {
+      "type": "channel_videos",
+      "fetched": "2026-05-18",
+      "credits_spent": 5,
+      "params": {"channelId": "UCJELvS_nc7VEbDeXhOrMwug", "videoFormat": "short", "popular": true},
+      "result_summary": "FALSE POSITIVE — channel is 'God and love', Christian financial-prayer content. NOT cat psychology despite vidIQ misclassification. DO NOT add to tracker.",
+      "notes": "Wasted 5 credits on vidIQ classification error. Lesson: vidIQ niche tags can be hallucinated; verify with channel_videos before tracking."
+    },
+    {
+      "type": "channel_videos",
+      "fetched": "2026-05-18",
+      "credits_spent": 5,
+      "params": {"channelId": "UCBtaTb3pZnIViAmbjSqyg0Q", "videoFormat": "short", "popular": true},
+      "result_summary": "Purrfection — 37 popular shorts. Direct AI-generated cat-facts format peer. Topics: 'Liquid cats', 'Smarter than you think', 'Scanning your soul', '3AM zoomies', 'CHIRPS like an alien', 'BONKS you', 'belly trap'. See competitor-tracker.md.",
+      "notes": "Smallest tracked competitor (163 subs) but closest 1:1 format match. Their punchy CAPS+emoji title style is a candidate A/B test for us."
+    },
+    {
+      "type": "channel_videos",
+      "fetched": "2026-05-18",
+      "credits_spent": 5,
+      "params": {"channelId": "UCDCwtSaZoPICvcaLKohFEEw", "videoFormat": "short", "popular": true},
+      "result_summary": "FALSE POSITIVE — channel 'The Cat Code' is mostly Roblox-rant content with occasional cat-fight clips. NOT cat psychology. +1357% growth is on Roblox content. DO NOT add to tracker.",
+      "notes": "Second vidIQ misclassification this session. Reinforces verify-before-add rule."
+    }
+  ],
   "candidates_not_yet_researched": [
     "why cats rub against your legs",
     "cat years to human years",
     "why cats hate being left alone",
     "why cats groom each other",
     "why cats hate loud noises",
-    "why cats drool when happy"
+    "why cats drool when happy",
+    "what cats sense before earthquakes",
+    "why cats stare at empty corners",
+    "what sounds can cats hear that humans cant",
+    "are cats smarter than you think",
+    "are cats actually liquid"
   ],
   "competitive_intelligence": {
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-05-18",
     "key_finding": "'cat facts mind blowing' keyword: score 73.80, monthly 9953, competition 5 — add to tags of every BrainCatAI video",
+    "channels_added_2026_05_18": [
+      "Gato Oculto UC7ADFRVdbcsFQVUsCV9O1pQ — explosive growth +1208%, paranormal/mystery sub-niche",
+      "Catnip Chaos UCEZj8zvPA7Q4zTn1pmY6Y-Q — +94%, faceless AI cat-facts format peer",
+      "cat_nicin UCiSWhaffviXG-oWs-PhQ6Fw — 751 views/sub, strong algo signal",
+      "NoTime Stories UCNexEoccPG7ArokOoPvoOkA — direct format twin",
+      "Purrfection UCBtaTb3pZnIViAmbjSqyg0Q — closest 1:1 AI format match"
+    ],
     "kittyverse": {
       "channel_id": "UCBcgZdQ-2D17yOOX8NqVeZA",
       "growth_30d": "+612%",
       "top_video": "Cat years to human years EXPLAINED (39k views)",
       "insight": "Comparison/conversion topics work. 'Cat years to human years' not yet done by BrainCatAI — plan slot May 25."
-    }
+    },
+    "false_positives_dont_track": [
+      "UCJELvS_nc7VEbDeXhOrMwug 'MystiCats' — actually Christian prayer channel",
+      "UCDCwtSaZoPICvcaLKohFEEw 'The Cat Code' — actually Roblox-rant channel"
+    ]
   }
 }
