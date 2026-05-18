@@ -2,6 +2,51 @@
 
 Animated AI cat Shorts • Education style • Vertical 9:16 • 30–60 sec
 
+---
+
+## 🏆 Priority backlog from @williamcat (added 18 мая 2026)
+
+Источник: top-30 на канале **Кошкина Мать / Cat's Mother** (135K subs / 111.6M views). Полный снимок в `research/competitor-tracker.md`. Все темы — competitor-proven виралы 2022-2023 в нашем 48-60 сек формате.
+
+### Tier 1 — 3M+ views proof
+
+| # | Slug | EN angle (для нашего канала) | Views | Hook-type |
+|---|------|------------------------------|-------|-----------|
+| 1 | `signs-cat-doesnt-love-you` | 5 Signs Your Cat Secretly Hates You 🐱 | **8.8M** | negative-mirror (сильнейший hook) |
+| 2 | `what-people-cats-love` | 5 People Cats Pick as THEIR Human | **5.6M** | relational mind-blow |
+| 3 | `how-cats-feel-when-you-hug` | What Your Cat Feels When You Hug It (NOT Love) | 3.7M | counter-intuitive |
+| 4 | `what-cats-do-home-alone` | What Your Cat Does When You're Gone | 3.0M | curiosity-gap |
+
+### Tier 2 — 1-3M views proof
+
+| # | Slug | EN angle | Views | Notes |
+|---|------|----------|-------|-------|
+| 5 | `why-cats-yowl` | Why Your Cat YOWLS at 3AM | 2.1M | sleep-disturbance relatable |
+| 6 | `8-signs-spoiled-cat` | 8 Signs You SPOILED Your Cat | 2.1M | **list format** (новый для нас) |
+| 7 | `cats-elevator-butt` | Why Cats Lift Their Butt (Elevator Butt) | 2.0M | weird-but-true |
+| 8 | `how-to-pet-cats-right` | You're Petting Your Cat WRONG | 1.9M | туториал |
+| 9 | `cats-think-you-belong-to-them` | Your Cat Thinks YOU Belong to HIM | 1.4M | mind-blow ownership-reverse |
+| 10 | `cats-know-where-you-go` | Your Cat KNOWS Where You're Going | 810K | sensory science |
+
+### Tier 3 — 500K+ views proof
+
+| # | Slug | EN angle | Views |
+|---|------|----------|-------|
+| 11 | `5-things-annoy-cats` | 5 Things You Do That Annoy Your Cat | 758K |
+| 12 | `where-to-pet-cats` | The ONLY 3 Spots Cats Want Petted | 778K |
+| 13 | `why-cats-sit-like-humans` | Why Cats Sit Like People (Weird Reason) | 481K |
+| 14 | `signs-cat-is-happy` | 5 Signs Your Cat Is HAPPY | 356K |
+| 15 | `why-cats-follow-everywhere` | Why Your Cat FOLLOWS You Everywhere | 342K |
+
+### Lessons from this competitor data
+
+- **48-60 sec explainer = proven format** (their virals 2022-2023 in this exact length)
+- **List format ("5/8/10 признаков") — gap in our channel** (their 2.1M proof on list-style)
+- **Relational angle (cat-and-owner) > pure biology** — top 10 of theirs are about what cat thinks about YOU
+- **Negative-mirror hook ("HATES you") = #1 виралка 8.8M** — отрицательный сильнее положительного
+
+---
+
 ## Core Formula
 
 `Hook (0–2s)` → `Curiosity gap (2–5s)` → `Explanation with cat visuals (5–45s)` → `Mind-blown payoff + CTA (45–60s)`
