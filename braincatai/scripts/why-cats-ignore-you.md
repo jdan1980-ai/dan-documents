@@ -63,13 +63,13 @@ INT. COZY MICRO-LAB — DAY. Cute Pixar-style miniature science lab — rounded 
 ## Full Voiceover (whole video)
 
 ```
-You call your cat's name. Nothing. You think — she's ignoring me.
+You call your cat's name. Nothing. You think — he's ignoring me.
 
-She's NOT. Cats recognize their own name. Tokyo University proved it in 2019.
+He's NOT. Cats recognize their own name. Tokyo University proved it in 2019.
 
-She heard you. Her brain lit up. She just didn't move.
+He heard you. His brain lit up. He just didn't move.
 
-Watch her ear next time. That tiny twitch? That's "I hear you".
+Watch his ear next time. That tiny twitch? That's "I hear you".
 
 Cats reply with EARS, tails, and slow blinks. Not by running over.
 
@@ -77,7 +77,7 @@ Don't believe me? Rustle a treat bag. Suddenly — fluent in English.
 
 Dogs evolved in packs. Cats evolved alone. Coming when called was never their job.
 
-She's not ignoring you. She's answering — in cat. Subscribe for more from Brain.
+He's not ignoring you. He's answering — in cat. Subscribe for more from Brain.
 ```
 
 ---
@@ -128,7 +128,7 @@ STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft d
 **🎙️ Voiceover:**
 
 ```
-You call your cat's name. Nothing. You think — she's ignoring me.
+You call your cat's name. Nothing. You think — he's ignoring me.
 ```
 
 **Editing note:** Soft off-frame "Brain!" voice SFX (female owner voice) timed to sound-wave drift. "IGNORING YOU?" bouncing overlay upper-right at TIME 0–3s.
@@ -171,7 +171,7 @@ STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft d
 **🎙️ Voiceover:**
 
 ```
-She's NOT. Cats recognize their own name. Tokyo University proved it in 2019.
+He's NOT. Cats recognize their own name. Tokyo University proved it in 2019.
 ```
 
 ---
@@ -214,7 +214,7 @@ STYLE: Pixar 3D render, cinematic warm lab daylight, vertical 9:16, soft depth o
 **🎙️ Voiceover:**
 
 ```
-She heard you. Her brain lit up. She just didn't move.
+He heard you. His brain lit up. He just didn't move.
 ```
 
 ---
@@ -259,7 +259,7 @@ STYLE: Pixar 3D render, cinematic warm daylight in heavy bokeh, vertical 9:16, v
 **🎙️ Voiceover:**
 
 ```
-Watch her ear next time. That tiny twitch? That's "I hear you".
+Watch his ear next time. That tiny twitch? That's "I hear you".
 ```
 
 ---
@@ -410,7 +410,7 @@ In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 cl
 **🎙️ Voiceover (record fresh in Google Vids TTS per video):**
 
 ```
-She's not ignoring you. She's answering — in cat. Subscribe for more from Brain.
+He's not ignoring you. He's answering — in cat. Subscribe for more from Brain.
 ```
 
 > **End card:** after Scene 8, append the reusable Brain end card from [`end-card.md`](../end-card.md). Use **Short variant (3 sec)**. The end card is also generated ONCE and reused.
@@ -420,7 +420,7 @@ She's not ignoring you. She's answering — in cat. Subscribe for more from Brai
 ## 🎵 Music Prompt
 
 ```
-Warm relatable cat-psychology instrumental for a 55-second YouTube Short about why cats "ignore" you. Soft plucked harp + light pizzicato strings + gentle marimba + subtle warm pad + brushed percussion. Tempo 95 BPM. Starts with curious "she's ignoring me?" tension, lifts to scholarly warm at 14 seconds for the Saito 2019 reveal, intimate "watch her ear" at 21 seconds, gentle demonstrative warmth at 28 seconds for the 3-signals reveal, suspended slow-mo at 35 seconds for the treat-bag pattern interrupt, contemplative warm wonder at 42 seconds for the solitary-hunter beat, warm bond-close at 50 seconds. No vocals. Mood: warm, slightly comedic, intimate — like a Pixar character explainer. Royalty-free style.
+Warm relatable cat-psychology instrumental for a 55-second YouTube Short about why cats "ignore" you. Soft plucked harp + light pizzicato strings + gentle marimba + subtle warm pad + brushed percussion. Tempo 95 BPM. Starts with curious "he's ignoring me?" tension, lifts to scholarly warm at 14 seconds for the Saito 2019 reveal, intimate "watch his ear" at 21 seconds, gentle demonstrative warmth at 28 seconds for the 3-signals reveal, suspended slow-mo at 35 seconds for the treat-bag pattern interrupt, contemplative warm wonder at 42 seconds for the solitary-hunter beat, warm bond-close at 50 seconds. No vocals. Mood: warm, slightly comedic, intimate — like a Pixar character explainer. Royalty-free style.
 ```
 
 **Alt prompt (shorter):**
@@ -493,7 +493,7 @@ Your Cat Is NOT Ignoring You — Watch Their Ear (Proof Inside) 🐱 | Cat Psych
 **Description (≥ 250 chars, "cat psychology" appears 3×, цифры для скан-CTR):**
 
 ```
-Does your cat actually ignore you? 🐱 In this Cat Psychology Short, Brain reveals the truth — NO. Cat psychology research proves it: Saito and team at Tokyo University showed in 2019 that domestic cats clearly recognize their own name vs other words. Their brains light up. They hear you. They just don't come. Cats reply with 3 silent signals: an ear-flick, a tail-twitch, and a slow blink. That's their "I heard you" — not running over to you. Why? Cats evolved as SOLITARY hunters for 10,000+ years — dogs evolved in packs and came when called because the pack survived together. Cats survived alone. Coming when called was never in their playbook. Rustle a treat bag though — and suddenly they're fluent in English. Cat psychology is wilder than you think. She's not ignoring you. She's just answering in cat. 💚
+Does your cat actually ignore you? 🐱 In this Cat Psychology Short, Brain reveals the truth — NO. Cat psychology research proves it: Saito and team at Tokyo University showed in 2019 that domestic cats clearly recognize their own name vs other words. Their brains light up. They hear you. They just don't come. Cats reply with 3 silent signals: an ear-flick, a tail-twitch, and a slow blink. That's their "I heard you" — not running over to you. Why? Cats evolved as SOLITARY hunters for 10,000+ years — dogs evolved in packs and came when called because the pack survived together. Cats survived alone. Coming when called was never in their playbook. Rustle a treat bag though — and suddenly they're fluent in English. Cat psychology is wilder than you think. He's not ignoring you. He's just answering in cat. 💚
 
 🐱 Follow Brain for daily cat psychology, cat facts, and cat secrets.
 
