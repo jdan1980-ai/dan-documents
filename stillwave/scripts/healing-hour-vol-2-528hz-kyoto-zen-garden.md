@@ -18,21 +18,25 @@
 
 ## 1. 🎵 Suno Prompt A — Style field
 
+> **Music DNA = Power Hour (Tokyo Apartment Rain).** Same warm analog synth pad, same deep sub-bass pulse every 16 bars, same distant koto plucks every 30 seconds, same lo-fi soundscape with rain dominating the texture, same 60 BPM. ONE substitution for Healing Hour: the sub-bass pulse is **tuned to 528 Hz** (it becomes the frequency itself, not just a city heartbeat). Plus the rain falls on a kyoto zen garden instead of a glass window, and a bamboo shishi-odoshi fountain replaces the water-from-window-frame drip. Shakuhachi enters only sparsely as a single-note accent — never solo, never busy.
+
 ```
-Slow ambient zen soundscape centered on a solo shakuhachi flute playing sparse meditative phrases, occasional gentle koto plucks every 40 seconds, a single bamboo shishi-odoshi fountain striking a stone with a hollow "tok" every 30 seconds, soft warm rain falling on moss and gravel throughout, distant temple bell ringing once every 8 minutes, and a deep warm low drone tuned around 528 Hz breathing underneath the whole texture. 55 BPM. Music is sparse and breathing — long silences between flute phrases. No buildup, no climax, sustained meditative atmosphere. Loopable for 1 hour 4 minutes (24 Suno tracks pre-mixed in CapCut, no need to loop), instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Slow ambient lo-fi soundscape with gentle warm rain falling on a kyoto zen garden — moss, raked gravel, weathered stones, and a dark cedar engawa veranda — distant koto plucks every 30 seconds, soft warm analog synth pad breathing underneath, deep sub-bass pulse tuned to 528 Hz every 16 bars (the frequency's slow heart beat, like the city heartbeat in our Tokyo apartment series), a single bamboo shishi-odoshi fountain striking a stone with a hollow "tok" every 30 seconds, occasional distant temple bell ringing once every few minutes, an occasional single sparse shakuhachi flute note as accent (never solo, never busy). 60 BPM. Rain dominates the texture, music is delicate background. Loopable for 1 hour 4 minutes (24 Suno tracks pre-mixed in CapCut, no need to loop), no buildup, no climax, sustained meditative atmosphere. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 
 ## 2. 🎵 Suno Prompt B — Lyrics field
 
+> Same bracket structure as Power Hour Vol. 1 — rain-dominant constant, koto + sub-bass + synth pad as the layered architecture, instruments fade in and out around the rain. Setting moved from Tokyo high-rise window to kyoto matia engawa onto a zen garden.
+
 ```
 [no lyrics, no vocals, instrumental only]
-[opening: a single shakuhachi note held for 8 seconds against soft warm rain falling on a kyoto temple zen garden, then silence for 4 seconds]
-[section A: shakuhachi enters with sparse low phrases, koto plucks slowly between phrases every 40 seconds, shishi-odoshi bamboo fountain strikes a stone with a hollow tok every 30 seconds, soft rain on gravel continuous underneath]
-[section B: a warm 528 Hz drone breathes in beneath everything, rain on moss intensifies softly, a distant temple bell rings once and fades, shakuhachi answers with a single long note]
-[section C: shakuhachi falls silent for 30 seconds, only rain and the bamboo fountain remain, then flute returns with a low whispered note]
-[loop point: rain and bamboo strike continue uninterrupted, shakuhachi fades to silence then re-enters on a single low note matching the opening]
-[mood: a monk sits alone on the engawa of a kyoto matia, golden hour rain on the zen garden, thoughts emptying with each bamboo strike]
-[texture: hollow bamboo flute breath, wet moss, polished stone, raked gravel circles, warm amber lantern glow on wooden veranda]
+[opening: a single distant temple bell rings once across a kyoto valley at golden hour, gentle warm rain begins falling on the zen garden, moss, and wooden engawa]
+[section A: koto plucks slowly every 30 seconds, sub-bass pulses softly every 16 bars tuned to 528 Hz like a slow heart beat under the rain, the bamboo shishi-odoshi fountain strikes a stone with a hollow tok every 30 seconds, soft analog synth pad breathes underneath]
+[section B: warm analog synth pad swells gently, rain finds the moss and intensifies softly, the stone lantern glows warm amber through the rain, distant temple bell rings again far away]
+[section C: a single sparse shakuhachi flute note enters as accent and holds, brief silence held for 8 seconds, then rain swells back, koto returns]
+[loop point: rain texture and the shishi-odoshi cycle remain constant throughout, koto and shakuhachi and synth pad fade in and out around them, no audible break in audio]
+[mood: a monk sits alone on the engawa of a kyoto matia, golden hour rain on the zen garden, thoughts emptying one bamboo strike at a time]
+[texture: wet moss, polished stone, raked gravel circles, hollow bamboo, warm amber lantern glow, soft brushstroke on rice paper]
 ```
 
 ---

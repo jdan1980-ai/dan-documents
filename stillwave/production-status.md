@@ -32,7 +32,7 @@ After publish (May 10, 14:00):
 
 | Vol | Date | Title | Hz | Visual | Status | Views (T+5d) | Notes |
 |-----|------|-------|----|----|--------|--------------|-------|
-| 1 | 2026-05-14 | 528 Hz Japanese Zen Music Marathon \| 1 Hour Healing Uninterrupted Vol. 1 | 528 | Photoreal Tokyo Penthouse (wrong cluster) | 📤 published | **53** (stalled) | VPH = 0 by T+4d. Diagnosis: weak title (no secret-hook) + photoreal visual landed in Deep Work cluster instead of healing. Lesson → Vol. 2 fixes both. |
+| 1 | 2026-05-14 | 528 Hz Japanese Zen Music Marathon \| 1 Hour Healing Uninterrupted Vol. 1 | 528 | Photoreal Tokyo Penthouse (wrong cluster) → **refresh pending** (Ghibli Mount Koya scene) | 📤 published, 🛠 refresh ready | **53** (stalled) | VPH = 0 by T+4d. Diagnosis: weak title (no secret-hook) + photoreal visual landed in Deep Work cluster instead of healing. Refresh assets in `scripts/healing-hour-vol-1-refresh.md` — new Ghibli thumbnail + new description + new tags, title unchanged. Apply in YouTube Studio. |
 | 2 | TBD (week May 20–26) | 528 Hz \| Zen Secret to Stop Overthinking \| Kyoto Garden Marathon Vol. 2 | 528 | Ghibli illustrated, monk on engawa, warm gold | 📝 script ready | — | Secret-hook title (YouTube Studio AI V1) + Ghibli illustration (validated visual cluster). Success criteria: > 60 views T+5d and VPH > 0.5 sustained. |
 
 ## Phase 1 batch — week of May 13–19
