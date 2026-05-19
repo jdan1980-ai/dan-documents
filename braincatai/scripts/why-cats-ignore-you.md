@@ -2,7 +2,7 @@
 
 ## Meta
 
-- **Title (working):** Your Cat Doesn't Ignore You. This Is Why 🐱 | Cat Psychology
+- **Title (working):** Cats Understand Their Names Better Than You Think 🐱 | Cat Psychology
 - **Slug:** `why-cats-ignore-you`
 - **Category:** Cat Psychology / Behavior
 - **Series:** Cat Asks Why
@@ -468,15 +468,16 @@ Try it RIGHT NOW — call your cat's name and watch their ears 👂 If you see A
 
 ## SEO Pack
 
-**Final title** (62 chars — direct relatability + intrigue, vidIQ YELLOW seed but highest monthly volume in batch):
+**Final title** (uploaded 19 мая 2026 for 20 мая publish):
+
+```
+Cats Understand Their Names Better Than You Think 🐱 | Cat Psychology
+```
+
+Alt titles considered (for future A/B reference):
 
 ```
 Your Cat Doesn't Ignore You. This Is Why 🐱 | Cat Psychology
-```
-
-Alt titles to A/B test:
-
-```
 Cats Recognize Their Name — They Just CHOOSE Not to Come 🐱 | Cat Psychology
 The REAL Reason Your Cat Acts Like You Don't Exist 🐱 | Cat Psychology
 Your Cat Is NOT Ignoring You — Watch Their Ear (Proof Inside) 🐱 | Cat Psychology
