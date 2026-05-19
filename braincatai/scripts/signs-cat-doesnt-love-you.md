@@ -13,19 +13,21 @@
 - **Competitor reference:** @williamcat "Признаки что кот вас НЕ любит" (8.8M views) — same negative-mirror formula
 - **Format gap:** first numbered-LIST video on the channel (24 published before this — NONE were "N signs of X")
 
-## Audience Promise
+## Audience Promise — что зритель получит
 
-The viewer learns 5 concrete behavior signs that mean their cat does NOT love them (ears flat, tucked tail, never-slow-blinks, hides constantly, swats/hisses). The relief twist at Sc 7 — "if your cat does NONE of these, it loves you" — gives 90% of viewers the cathartic payoff that powers shares + comments.
+Зритель узнаёт 5 конкретных поведенческих признаков того что его кот его НЕ любит (уши плашмя, поджатый хвост, никогда не моргает медленно, постоянно прячется, шипит/бьёт лапой). Эмоциональный поворот в Sc 7 — "если твой кот НЕ делает ничего из этого, он тебя любит" — даёт 90% зрителей катартическое облегчение, которое и гонит шеры и комменты.
 
 ---
 
-## 🔒 Locked Brain Prompt (always prepend)
+## 🔒 Locked Brain Prompt — спецификация персонажа
+
+Этот блок копи-пастится В НАЧАЛО каждого Nano Banana промта в сценах ниже. Не редактируй — это залоченный канонический Brain.
 
 ```
 Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition.
 ```
 
-**Negative prompts (Nano Banana):**
+**Negative prompts** (вставляется в поле "Negative prompt" в Nano Banana — копи-паст):
 
 ```
 2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, extra paws, five legs, six legs, both front paws raised, two paws raised together, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive cartoon-villain expression, mouth open as if talking, lip-sync, talking cat, mouth movement, chattering, brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes, dark eyes, brown iris, amber iris, wrong eye color, second cat, two cats, human face visible, man, male figure, male owner, masculine build, broad shoulders, muscular body, short hair, dark hair, black hair, brown short hair, blonde hair, grey hair, bald head, beard, mustache, hoodie, dark clothing, different person between scenes, different owner, multiple owners, gender swap, three ears, extra ear, third ear, phantom ear, ear-shaped artifact, asymmetric ears, deformed ears, floating fur tuft, extra fur clump, extra appendage on head, chubby kitten, fat kitten, adult cat body, oversized chest, generic cartoon cat, off-model Brain, different Brain, Brain drift, serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, gradient text, multiple fonts, mixed typography, Russian text, Cyrillic letters
@@ -33,38 +35,38 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 
 ---
 
-## 🏠 Scene Settings
+## 🏠 Локации (Scene Settings)
 
-### Location A — `INT. COZY LIVING ROOM — DAY` (single location throughout — emotional cohesion)
+### Локация A — `INT. COZY LIVING ROOM — DAY` (одна локация на весь видос — для эмоциональной непрерывности)
 
 ```
 INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: plain sage-green woven rug (no pattern, no border) in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (OFF, cream lampshade) and ONE small open book lying face-down beside the lamp. WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains letting in soft warm afternoon daylight from the upper-right. PLANT: ONE leafy snake plant (Sansevieria) with 5-7 upright sword-shaped dark-green leaves with lighter variegated cream-green stripes, in a small terracotta pot BESIDE the window on the floor. NO other plants. NO wall art (clean cream wall behind). LIGHTING: soft warm honey-amber ambient with daylight bloom from the window. Cozy lived-in atmosphere, shallow depth of field.
 ```
 
-### 🔒 Locked Human Owner (Sc 1 + Sc 6 only — hand-only entries)
+### 🔒 Locked Human Owner — спецификация хозяйки (только Sc 1 + Sc 6, в кадре только рука)
 
 ```
 Locked human owner: adult woman ~30 years old, long chestnut-brown wavy hair (mid-back length), wearing cream-colored V-neck sweater, slim feminine build, Pixar 3D cartoon style. ONLY the right HAND + forearm visible reaching in from off-frame (face NEVER in frame, head NEVER in frame, body NEVER in frame). The hand is slim, soft, feminine, fingers gently extended in petting gesture. Cream sweater sleeve visible at forearm. Soft warm skin tone.
 ```
 
-### Scene → beat map
+### Карта сцен (что и где происходит)
 
-| Scene | Sign | Beat | Wardrobe |
-|-------|------|------|----------|
-| 1 | HOOK | Visual gut-punch: owner's hand reaches in → Brain RECOILS hard, ears flat, body twist-away. Frozen mid-recoil. Text plate slams in. "5 signs your cat doesn't love you. Sign 5 will hurt." | Regular Brain |
-| 2 | Sign #1 — Ears | Brain demonstrates: ears slammed FLAT against head, body lowered, defensive crouch. "1" numeral overlay. | Regular Brain |
-| 3 | Sign #2 — Tail | Brain shows tail tucked tight between rear paws, body low, "2" overlay. | Regular Brain |
-| 4 | Sign #3 — No blink | Brain stares unblinking at camera with cold-fixed expression. Soft "❌ NO BLINK" overlay. "3" numeral. | Regular Brain |
-| 5 | Sign #4 — Hides | Brain dashes off-frame toward armchair, only emerald eyes glowing from shadow under it. "4" overlay. | Regular Brain |
-| 6 | Sign #5 — Swats | **THE PAYOFF** — owner's hand reaches in → Brain swats with one front paw, ears pinned, hiss-pose. "5" overlay + "OUCH" pop. | Regular Brain |
-| 7 | RELIEF TWIST | Brain breaks character — returns to lovable seated pose, gives DELIBERATE slow blink at camera, pastel-pink heart pops up. "NONE = LOVED 💚" overlay. | Regular Brain |
-| 8 (CTA) | Universal Sc 8 | Slow blink + soft meow | Regular Brain |
+| Сцена | Признак | Что в кадре | Костюм |
+|-------|---------|-------------|--------|
+| 1 | КРЮК | Визуальный удар: рука хозяйки тянется к Brain → он РЕЗКО отшатывается, уши плашмя, тело скручено в сторону. Замирает в момент recoil. Сверху влетает текст-плита. VO: "5 signs your cat doesn't love you. Sign 5 will hurt." | Обычный Brain |
+| 2 | Признак #1 — Уши | Brain демонстрирует: уши прижаты ПЛАШМЯ назад, тело опущено, оборонительная стойка. Цифра "1" в углу. | Обычный Brain |
+| 3 | Признак #2 — Хвост | Brain показывает хвост поджатый плотно между задних лап, тело низко. Цифра "2". | Обычный Brain |
+| 4 | Признак #3 — Без слоу-блинка | Brain смотрит в камеру холодным неморгающим взглядом. Мягкий "❌ NO BLINK" оверлей. Цифра "3". | Обычный Brain |
+| 5 | Признак #4 — Прячется | Brain убегает за кадр под кресло — видны только светящиеся изумрудные глаза из тени. Цифра "4". | Обычный Brain |
+| 6 | Признак #5 — Удар лапой | **ПЭЙОФФ КРЮКА** — рука тянется → Brain бьёт лапой, уши прижаты, поза шипения. Цифра "5" + поп "OUCH". | Обычный Brain |
+| 7 | ПОВОРОТ-ОБЛЕГЧЕНИЕ | Brain выходит из роли — возвращается в милую сидячую позу, делает медленный осознанный блинк в камеру, появляется розовое сердечко. Оверлей "NONE = LOVED 💚". | Обычный Brain |
+| 8 (CTA) | Универсальная Sc 8 | Slow blink + мягкий meow | Обычный Brain |
 
-**Why single location:** the negative-mirror format demands emotional continuity. Cutting to lab/other locations breaks the "this is your living room, this is your cat" mirror. Stay in A throughout, change Brain's pose + costume = each sign reads as a separate moment with the same cat.
+**Почему одна локация на весь видос:** формат "негативное зеркало" требует эмоциональной непрерывности. Cuts в лабораторию или другую комнату ломают зеркало "это твоя гостиная, это твой кот". Сидим в локации A до конца, меняем только позу Brain — каждый признак читается как отдельный момент с одним и тем же котом.
 
 ---
 
-## Full Voiceover (whole video)
+## Полный VO (целиком на всё видео — для общего обзора)
 
 ```
 5 signs your cat doesn't love you. Sign 5 will hurt.
@@ -84,7 +86,7 @@ But — if your cat does NONE of these — you're loved. Trust me.
 Want the 5 signs your cat DOES love you? Follow Brain.
 ```
 
-(Word count: ~125 across 8 scenes, 11-17 words per scene, each ≤ 7.5 sec spoken)
+_Подсчёт слов: ~125 на 8 сцен, по 11-17 слов на сцену, каждый ≤ 7.5 сек произнесения._
 
 ---
 
@@ -92,25 +94,25 @@ Want the 5 signs your cat DOES love you? Follow Brain.
 
 ---
 
-## Scene 1 — HOOK (0–7 sec) — RETENTION-CRITICAL
+## Сцена 1 — КРЮК (0–7 сек) — КРИТИЧНАЯ ДЛЯ RETENTION
 
-**Beat purpose:** Visual gut-punch BEFORE any words. Owner's hand reaches in to pet Brain — Brain VIOLENTLY recoils (ears flat, body twist-away, tail tuck, wide cold eyes). Frozen mid-recoil. Text plate slams in: "5 SIGNS YOUR CAT DOESN'T LOVE YOU". VO opens with the curiosity-bomb: "Sign 5 will hurt." This is the open-loop that holds retention through all 5 signs.
+**Что зритель видит:** визуальный удар ДО слов. Рука хозяйки тянется погладить Brain — он РЕЗКО отшатывается (уши плашмя, тело скручено, хвост поджат, глаза холодные, расширенные). Замирает в позе recoil. Сверху влетает текст-плита: "5 SIGNS YOUR CAT DOESN'T LOVE YOU". VO открывается curiosity-бомбой: "Sign 5 will hurt." Это open-loop — он удерживает зрителя через все 5 признаков.
 
-**Why this hook works (Karena 4-element check):**
-- ✅ INTRIGUE: "doesn't love you" — instant gut-punch, contradicts assumption
-- ✅ BENEFIT: "5 signs" — explicit numbered payoff
-- ✅ URGENCY: "sign 5 will hurt" — open-loop forcing watch-to-end
-- ✅ RELATABILITY: every cat-owner has reached toward their cat → mirror is immediate
+**Почему этот крюк работает (проверка по Карене — 4 элемента):**
+- ✅ ИНТРИГА: "doesn't love you" — мгновенный удар под дых, противоречит ожиданию
+- ✅ ВЫГОДА: "5 signs" — чёткое numbered обещание
+- ✅ СРОЧНОСТЬ: "sign 5 will hurt" — open-loop заставляет смотреть до конца
+- ✅ РЕЛАТЕЙБЛ: каждый кошатник тянулся погладить кота → зеркало срабатывает сразу
 
-**Location:** A | **Wardrobe:** Regular Brain
+**Локация:** A | **Костюм:** Обычный Brain
 
-**🎨 Image prompt (Nano Banana):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: plain sage-green woven rug (no pattern, no border) in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (OFF, cream lampshade). WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains letting in soft warm afternoon daylight from the upper-right. PLANT: ONE leafy snake plant in a small terracotta pot beside the window. LIGHTING: soft warm honey-amber ambient with daylight bloom from the window. MEDIUM SHOT framing on Brain captured at the EXACT inflection moment of a violent recoil. Brain on the sage-green rug — body twisted hard to the LEFT, mid-flinch-away from the right side of frame, weight shifted onto his hindquarters, front paws pushing back, body lowered into a defensive crouch. His emerald green eyes are WIDE and COLD (NOT cute, NOT scared-cute — fixed, dilated, alert). His ears are SLAMMED FLAT against his head pointing backward — clearly defensive ear pin. His tail is TUCKED TIGHT under his body between his hind legs. His mouth stays closed but his lips are slightly tight with stress. Reaching in from the RIGHT edge of frame: a slim soft feminine WOMAN'S hand and forearm (no face, no body — only hand + forearm), fingers gently extended in a petting gesture moving toward Brain — cream V-neck sweater sleeve visible at her forearm, soft warm skin tone. Brain has 4 paws total — visible in his crouched twist-away pose. Negative space upper-third reserved for "5 SIGNS YOUR CAT DOESN'T LOVE YOU" text plate.
 ```
 
-**🎬 Animation prompt (Veo 3):**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
 ```
 SHOT: Medium shot, eye-level. Strong WHIP-PUSH-IN (~10% over 7 seconds — the most aggressive push of the video to amplify the gut-punch). Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) wide and cold.
@@ -138,23 +140,23 @@ NEGATIVE SPACE RULE: Keep the upper-third of frame clean — "5 SIGNS YOUR CAT D
 STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
 ```
 5 signs your cat doesn't love you. Sign 5 will hurt.
 ```
 
-**Editing note:** TIME 0-0.5s NO audio — just visual recoil. TIME 0.5s sharp "WHIP" SFX synced to ear-pin moment. TIME 1.5s "5 SIGNS YOUR CAT DOESN'T LOVE YOU" text plate slams in with a thud SFX, then VO begins at TIME 2s. The "Sign 5 will hurt" beat lands at TIME 5-6s with a soft tension-drone. **This hook = THE retention bomb. Cut crisp, no breath room, no soft entry.**
+**Заметки по монтажу:** TIME 0-0.5 сек — БЕЗ звука, только визуальный recoil. На 0.5 сек резкий "WHIP" SFX синхронно с моментом прижатия ушей. На 1.5 сек влетает текст-плита "5 SIGNS YOUR CAT DOESN'T LOVE YOU" с thud-SFX, VO стартует на 2-й секунде. Фраза "Sign 5 will hurt" ложится на 5-6 сек на мягком tension-droне. **Этот крюк = retention-бомба. Резать чётко, без вздохов, без мягкого входа.**
 
 ---
 
-## Scene 2 — Sign #1 — EARS FLAT (7–14 sec)
+## Сцена 2 — Признак #1 — УШИ ПЛАШМЯ (7–14 сек)
 
-**Beat purpose:** First numbered sign. Brain demonstrates the ears-pinned-flat pose — body lowered, defensive crouch, wide dilated eyes. The "1" numeral appears with a soft chime. VO names the sign and the cause: fear, not respect.
+**Что зритель видит:** первый пронумерованный признак. Brain показывает позу прижатых ушей — тело опущено, оборонительная стойка, глаза расширенные и тревожные. Цифра "1" появляется с лёгким "ding". VO называет признак и причину: страх, не уважение.
 
-**Location:** A | **Wardrobe:** Regular Brain
+**Локация:** A | **Костюм:** Обычный Brain
 
-**🎨 Image prompt (Nano Banana):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — DAY (same locked living room — cream walls, honey-amber wood floor, sage-green rug, cream armchair on RIGHT, side-table on LEFT, tall window in BACKGROUND with sheer curtains, snake plant beside window, soft warm honey-amber ambient lighting). MEDIUM CLOSE-UP framing, slight low-angle to make Brain feel observed. Brain on the sage-green rug in a defensive crouched pose — body lowered close to the rug, weight distributed across all 4 paws in coiled-spring tension, head pulled slightly into shoulders, wide alert dilated emerald green eyes locked on something off-frame to the LEFT. His EARS are SLAMMED FLAT against his head pointing backward (clearly pinned, not perked) — both ears symmetrically flat, NOT raised, NOT angled forward. His tail wraps tight around his back paws. Mouth closed. To the upper-LEFT of frame in soft pastel-yellow rounded geometric sans-serif font with charcoal outline: a giant cartoon NUMERAL "1" with subtle sparkle particles, clearly readable. Brain has 4 paws total — visible.
@@ -162,7 +164,7 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 TYPOGRAPHY LOCK (strict — same font in every overlay across this video and the channel): All on-screen text/numerals rendered in BOLD ROUNDED GEOMETRIC SANS-SERIF font (Pixar cartoon style, Nunito Bold / Fredoka One look — soft rounded terminals, NO serifs, NO brush-script, NO hand-drawn). Fill color: soft pastel-yellow #FFE066. Solid charcoal #2B2B2B outline 4-6px. Soft black drop-shadow 30% opacity. ALL CAPS. NEVER use a serif font, NEVER use a brush font, NEVER mix multiple fonts.
 ```
 
-**🎬 Animation prompt (Veo 3):**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
 ```
 SHOT: Medium close-up, slight low-angle. Slow continuous PUSH-IN (~5% over 7 seconds). Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) wide and dilated.
@@ -184,23 +186,23 @@ NUMERAL RULE: The cartoon "1" stays in upper-left throughout, locked in pastel-y
 STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
 ```
 One — ears slammed flat when you walk in. That's not respect. That's fear.
 ```
 
-**Editing note:** Soft "ding" chime on the "1" reveal. Light tension underscore. Optional caption: "EARS FLAT = FEAR" in same locked font on right side of frame.
+**Заметки по монтажу:** мягкий "ding" на появлении "1". Лёгкая tension-подложка. Опционально: подпись "EARS FLAT = FEAR" в том же locked-шрифте справа.
 
 ---
 
-## Scene 3 — Sign #2 — TAIL TUCKED (14–21 sec)
+## Сцена 3 — Признак #2 — ПОДЖАТЫЙ ХВОСТ (14–21 сек)
 
-**Beat purpose:** Second numbered sign. Brain shows the classic tucked-tail anxiety pose — body lowered, tail wrapped TIGHT under his belly between his hind paws. "2" numeral overlay. VO names anxiety vs affection.
+**Что зритель видит:** второй пронумерованный признак. Brain показывает классическую тревожную позу — тело опущено, хвост ПОДЖАТ плотно под живот между задних лап. Цифра "2" в углу. VO называет тревогу как противоположность привязанности.
 
-**Location:** A | **Wardrobe:** Regular Brain
+**Локация:** A | **Костюм:** Обычный Brain
 
-**🎨 Image prompt (Nano Banana):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — DAY (same locked living room — cream walls, honey-amber wood floor, sage-green rug, cream armchair on RIGHT, side-table on LEFT, tall window with sheer curtains in BACKGROUND, snake plant beside window, soft warm honey-amber ambient lighting). WIDE MEDIUM SHOT framing — slightly elevated 3/4-frontal angle to clearly show Brain's tail. Brain on the sage-green rug in a low anxious crouch — body pressed low to the rug, weight on his front paws, hindquarters dropped low. His TAIL is TUCKED TIGHT under his body — wrapped forward between his hind legs, the tail-tip clearly visible curled close to his belly (classic anxious tail-tuck pose). His ears are partially flattened (not fully pinned like Sc 2, slightly less defensive — but clearly worried, NOT perked). His emerald eyes are large and a bit anxious-looking, locked off-frame. Mouth closed. To the upper-LEFT of frame in soft pastel-yellow rounded geometric sans-serif font with charcoal outline: a giant cartoon NUMERAL "2" with subtle sparkle particles. Brain has 4 paws total — clearly visible in low-crouch pose with the tucked-tail between them.
@@ -208,7 +210,7 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 TYPOGRAPHY LOCK (strict — same font in every overlay across this video and the channel): All on-screen text/numerals rendered in BOLD ROUNDED GEOMETRIC SANS-SERIF font (Pixar cartoon style, Nunito Bold / Fredoka One look). Fill color soft pastel-yellow #FFE066. Solid charcoal #2B2B2B outline 4-6px. ALL CAPS. NEVER mix fonts.
 ```
 
-**🎬 Animation prompt (Veo 3):**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
 ```
 SHOT: Wide medium shot, slightly elevated 3/4-frontal angle. Slow continuous PUSH-IN (~4% over 7 seconds). Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) anxious.
@@ -234,23 +236,23 @@ STILLNESS RULE: Brain stays in the anxious low-crouch throughout. ONLY allowed m
 STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
 ```
 Two — tail tucked tight under the body. Anxiety. Not affection.
 ```
 
-**Editing note:** Soft "ding" chime on "2" reveal. Optional caption: "TAIL TUCKED = ANXIETY" right side.
+**Заметки по монтажу:** мягкий "ding" на появлении "2". Опционально: подпись "TAIL TUCKED = ANXIETY" справа.
 
 ---
 
-## Scene 4 — Sign #3 — NO SLOW BLINK (21–28 sec)
+## Сцена 4 — Признак #3 — НЕТ МЕДЛЕННОГО МИГАНИЯ (21–28 сек)
 
-**Beat purpose:** Third numbered sign. Brain stares fixed at camera with cold-unblinking eyes — the AbSENCE of the slow blink (which we taught the audience IS love in our earlier slow-blink video). "❌ NO BLINK" overlay reinforces the emotional contrast. "3" numeral.
+**Что зритель видит:** третий пронумерованный признак. Brain смотрит фиксированно в камеру холодными неморгающими глазами — это ОТСУТСТВИЕ slow-blinkа (мы научили аудиторию в предыдущем видео `why-cats-slow-blink` что это и есть "я тебя люблю"). Оверлей "❌ NO BLINK" усиливает эмоциональный контраст. Цифра "3".
 
-**Location:** A | **Wardrobe:** Regular Brain
+**Локация:** A | **Костюм:** Обычный Brain
 
-**🎨 Image prompt (Nano Banana):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — DAY (same locked living room — cream walls, honey-amber wood floor, sage-green rug, cream armchair on RIGHT, side-table on LEFT, tall window with sheer curtains in BACKGROUND, snake plant beside window, soft warm honey-amber ambient lighting). MEDIUM CLOSE-UP framing on Brain — face fills upper-half of frame. Brain on the sage-green rug sitting upright with composed posture, facing camera DIRECTLY. His emerald green eyes are WIDE OPEN — not friendly-wide, not curious-wide, but FIXED-STARING-COLD wide, locked unblinking on the viewer. The eyes look almost glassy in their fixed unblinking stare (NOT scared, NOT aggressive — just emotionally distant, cold, judging). His ears are NEUTRAL (not flat, not pinned forward — neither friendly nor defensive). Mouth closed in a flat line, no smirk. Tail wrapped neutrally around his front paws. To the upper-LEFT of frame in soft pastel-yellow rounded geometric sans-serif font with charcoal outline: a giant cartoon NUMERAL "3" with subtle sparkle particles. Floating to the right of Brain's eyes: a soft pastel red ❌ "NO BLINK" badge in the same locked typography. Brain has 4 paws total — neatly tucked in front in seated pose.
@@ -258,7 +260,7 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 TYPOGRAPHY LOCK (strict — same font in every overlay): BOLD ROUNDED GEOMETRIC SANS-SERIF font (Nunito Bold / Fredoka One look), pastel-yellow #FFE066, charcoal outline 4-6px, ALL CAPS. NEVER mix fonts.
 ```
 
-**🎬 Animation prompt (Veo 3):**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
 ```
 SHOT: Medium close-up, eye-level. Slow continuous PUSH-IN (~5% over 7 seconds). Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) WIDE OPEN and FIXED-UNBLINKING throughout.
@@ -284,23 +286,23 @@ NUMERAL + BADGE RULE: Cartoon "3" stays in upper-left, "❌ NO BLINK" badge stay
 STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
 ```
 Three — they never slow blink at you. Cats love with their eyes. Yours don't.
 ```
 
-**Editing note:** Soft "ding" chime on "3" reveal, low cold sustained tone underneath. The unblinking visual is the scene's whole impact — let it breathe with minimal SFX.
+**Заметки по монтажу:** мягкий "ding" на появлении "3", снизу низкий холодный sustained-тон. Неморгающий взгляд — это весь импакт сцены, дать ему дышать с минимумом SFX.
 
 ---
 
-## Scene 5 — Sign #4 — HIDES (28–35 sec)
+## Сцена 5 — Признак #4 — ПРЯЧЕТСЯ (28–35 сек)
 
-**Beat purpose:** Fourth numbered sign. Brain dashes off to hide under the armchair — only his glowing emerald eyes visible from the shadow under it. The visual of "your cat hides every time you appear" made literal. "4" numeral.
+**Что зритель видит:** четвёртый пронумерованный признак. Brain убежал прятаться под кресло — видны только светящиеся изумрудные глаза из тени под ним. Фраза "ваш кот прячется каждый раз когда вы появляетесь" показана буквально. Цифра "4".
 
-**Location:** A | **Wardrobe:** Regular Brain
+**Локация:** A | **Костюм:** Обычный Brain
 
-**🎨 Image prompt (Nano Banana):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — DAY (same locked living room). WIDE SHOT framing showing the FULL room with the cream armchair on RIGHT prominent in frame. The sage-green rug is now empty — Brain is NO LONGER on it. Instead under the cream armchair's low base (about 4-6 inches of dark shadowed gap between the armchair seat-base and the floor) — two glowing VIVID EMERALD GREEN eyes are visible peeking out from the deep shadow underneath the armchair, clearly Brain hiding. Only the eyes glow distinctly from the darkness — the rest of his body is silhouetted in deep shadow under the armchair (you can faintly make out the orange tabby silhouette but the eyes are the dominant feature). Soft warm afternoon daylight in the rest of the room contrasts the dark hiding spot. To the upper-LEFT of frame in soft pastel-yellow rounded geometric sans-serif font with charcoal outline: a giant cartoon NUMERAL "4" with subtle sparkle particles. The empty rug in the center of frame visually emphasizes the absence — "your cat WAS here, now hidden". Brain has 4 paws total (not visible in this framing — hidden under armchair).
@@ -308,7 +310,7 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 TYPOGRAPHY LOCK (strict — same font): pastel-yellow #FFE066, charcoal outline 4-6px, ALL CAPS. NEVER mix fonts.
 ```
 
-**🎬 Animation prompt (Veo 3):**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
 ```
 SHOT: Wide shot, eye-level showing full living room with empty rug center and the cream armchair on right with Brain hidden under it. Slow continuous PUSH-IN toward the armchair (~5% over 7 seconds — camera slowly approaches the hiding spot). Brain's emerald eyes (#3DDC84) glow vividly from the shadow.
@@ -334,23 +336,23 @@ NEGATIVE SPACE RULE: The empty center rug should stay clean — the visual contr
 STYLE: Pixar 3D render, cinematic warm afternoon daylight with deep contrast shadow under armchair, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
 ```
 Four — they run and hide every time you enter the room. Pure avoidance.
 ```
 
-**Editing note:** Soft "ding" on "4". Soft "whoosh" SFX at TIME 0 suggesting Brain ran in just before frame opens. Low sustained tension underneath. Optional caption: "AVOIDANCE = NO BOND" right side.
+**Заметки по монтажу:** мягкий "ding" на "4". Мягкий "whoosh" SFX на 0 сек как намёк что Brain только что забежал под кресло. Низкий sustained tension снизу. Опционально: подпись "AVOIDANCE = NO BOND" справа.
 
 ---
 
-## Scene 6 — Sign #5 — SWAT/HISS (35–42 sec) — THE PAYOFF
+## Сцена 6 — Признак #5 — УДАР ЛАПОЙ / ШИПЕНИЕ (35–42 сек) — ПЭЙОФФ
 
-**Beat purpose:** Fifth numbered sign — the open-loop payoff from Sc 1. Owner's hand reaches in to pet → Brain SWATS with one front paw, ears slammed back, hiss-pose. "5" numeral + "OUCH" pop-overlay. This is the visual gut-punch the hook promised.
+**Что зритель видит:** пятый признак — закрытие open-loop из Sc 1. Рука хозяйки тянется погладить → Brain БЬЁТ передней лапой, уши прижаты назад, поза шипения. Цифра "5" + поп-оверлей "OUCH". Это и есть тот визуальный удар, который обещал hook ("Sign 5 will hurt").
 
-**Location:** A | **Wardrobe:** Regular Brain
+**Локация:** A | **Костюм:** Обычный Brain
 
-**🎨 Image prompt (Nano Banana):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — DAY (same locked living room — cream walls, honey-amber wood floor, sage-green rug, cream armchair on RIGHT, side-table on LEFT, tall window with sheer curtains in BACKGROUND, snake plant beside window, soft warm honey-amber ambient lighting). MEDIUM SHOT framing. Brain on the sage-green rug captured at the EXACT inflection moment of a defensive swat. His RIGHT front paw is RAISED and EXTENDED forward in a swat motion (small kitten paw, claws NOT exaggerated — kept Pixar-soft, just clearly a swat gesture toward the right edge of frame). His body weight is shifted back onto his hind legs in a coiled-back position, head pulled slightly back. His EARS are slammed FLAT backward in fully defensive pin. His emerald green eyes are WIDE and intense, locked on the woman's hand. His tail bristles slightly puffed and held low to one side. His mouth stays CLOSED but his nose is slightly wrinkled with a defensive "tssk" tension (NO open-mouth hiss with teeth — keep it Pixar-friendly, the defensive read comes from ears+eyes+paw, not from a scary open mouth). Reaching in from the RIGHT edge of frame: the slim soft feminine WOMAN'S right hand and forearm (no face, no body — only hand + forearm), fingers extended in a petting gesture about to make contact — cream V-neck sweater sleeve visible at the forearm. The hand has NOT yet retracted — Brain's swat is meeting it. To the upper-LEFT of frame in soft pastel-yellow rounded geometric sans-serif font with charcoal outline: a giant cartoon NUMERAL "5" with subtle sparkle particles. Brain has 4 paws total — visible: ONE raised swatting front paw, ONE planted front paw, TWO hind paws planted.
@@ -358,7 +360,7 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 TYPOGRAPHY LOCK (strict): pastel-yellow #FFE066, charcoal outline 4-6px, ALL CAPS. NEVER mix fonts.
 ```
 
-**🎬 Animation prompt (Veo 3):**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
 ```
 SHOT: Medium shot, eye-level. Strong continuous PUSH-IN (~8% over 7 seconds — second-strongest push of video to match Sc 1 intensity). Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) wide intense.
@@ -388,23 +390,23 @@ NUMERAL + OVERLAY RULE: Cartoon "5" stays in upper-left, "💥 OUCH" pop overlay
 STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
 ```
 Five — they hiss or swat when you try to pet them. The clearest "NO" in cat.
 ```
 
-**Editing note:** Soft "ding" on "5". Sharp "swat" SFX (light cartoon swoosh) at TIME 2-2.5s. The "OUCH" pop SFX at TIME 1.8s. **This is the payoff scene — keep the timing tight, no breath room. The promised "sign 5 will hurt" lands here.**
+**Заметки по монтажу:** мягкий "ding" на "5". Резкий "swat" SFX (лёгкий мульт-свуш) на 2-2.5 сек. Поп-SFX "OUCH" на 1.8 сек. **Это сцена-пэйофф — таймингу быть плотным, без зазоров. Обещанное "sign 5 will hurt" приземляется именно здесь.**
 
 ---
 
-## Scene 7 — RELIEF TWIST (42–49 sec) — THE CATHARSIS
+## Сцена 7 — ПОВОРОТ-ОБЛЕГЧЕНИЕ (42–49 сек) — КАТАРСИС
 
-**Beat purpose:** Emotional pivot. Brain breaks character — returns to lovable seated pose, gives a DELIBERATE slow blink at camera, a soft pastel-pink heart pops up above his head. Overlay: "NONE = LOVED 💚". This is the cathartic relief that 90% of viewers will feel (their cat doesn't do these things) — the moment that drives shares, saves, and "phew" comments.
+**Что зритель видит:** эмоциональный поворот. Brain выходит из роли "холодного кота" — возвращается в милую сидячую позу, делает осознанный slow-blink в камеру, над головой всплывает мягкое розовое сердечко. Оверлей: "NONE = LOVED 💚". Это и есть тот катарсис, который ощутят 90% зрителей (их кот ничего из перечисленного не делает) — момент который гонит шеры, сейвы и комменты "фух, мой меня любит".
 
-**Location:** A | **Wardrobe:** Regular Brain
+**Локация:** A | **Костюм:** Обычный Brain
 
-**🎨 Image prompt (Nano Banana):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 composition. INT. COZY LIVING ROOM — DAY (same locked living room — soft warm honey-amber ambient lighting now feeling more glowing-warm to match the emotional turn). MEDIUM CLOSE-UP framing on Brain facing camera. Brain on the sage-green rug in a relaxed loving seated pose — body composed and upright, ears perked PERFECTLY UPRIGHT in friendly attentive position (clearly contrasted from the flat-pinned ears of prior scenes), tail wrapped softly around his front paws in calm pose, emerald green eyes warm and half-lidded in the unmistakable loving slow-blink-IN-progress expression (eyelids softly halfway closed in mid-blink), small warm smirk in his closed mouth, slight head-tilt. Floating directly above Brain's head: a soft pastel-pink CARTOON HEART (light pink #FFC6D9 fill with soft white sparkle, clearly 2D cartoon overlay style, NOT realistic) glowing warmly. Soft pastel pink/yellow sparkle particles around Brain. To the upper-LEFT of frame in soft pastel-yellow rounded geometric sans-serif font with charcoal outline: the words "NONE = LOVED 💚" with subtle sparkle particles. Brain has 4 paws total — neatly tucked in front in seated pose.
@@ -412,7 +414,7 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 TYPOGRAPHY LOCK (strict): pastel-yellow #FFE066, charcoal outline 4-6px, ALL CAPS. NEVER mix fonts.
 ```
 
-**🎬 Animation prompt (Veo 3):**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
 ```
 SHOT: Medium close-up, eye-level. Slow gentle PUSH-IN (~3% over 7 seconds — softest push of video to match the emotional warmth). Brain has BRIGHT EMERALD GREEN eyes (#3DDC84) warm.
@@ -436,41 +438,45 @@ HEART RULE: The pastel-pink cartoon heart is a clearly stylized 2D cartoon overl
 STYLE: Pixar 3D render with warm emotional glow, cinematic warm afternoon daylight (slightly enhanced golden warmth vs prior scenes), vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
 ```
 But — if your cat does NONE of these — you're loved. Trust me.
 ```
 
-**Editing note:** Music shifts to warm major-key resolve. Soft "blink" chime synced to slow-blink. Soft "heart pop" SFX (light pastel pluck) at TIME 2.5s. **This is the emotional payoff that drives shares — "I'm sharing this because MY cat loves me." Let it breathe.**
+**Заметки по монтажу:** музыка переключается на тёплый мажорный resolve. Мягкий "blink"-chime синхронно с slow-blinkом. Мягкий "heart pop" SFX (лёгкий пастельный pluck) на 2.5 сек. **Это эмоциональный пэйофф который двигает шеры — "я шерю это потому что МОЙ кот меня любит". Дать ему дышать.**
 
 ---
 
-## Scene 8 — Universal CTA (49–56 sec)
+## Сцена 8 — Универсальный CTA (49–56 сек)
 
-**🎬 Visual:** Use the **Universal Scene 8** clip — Brain in neutral warm-bokeh background, wave + slow blink + soft meow. Generated ONCE in Veo 3 and reused across every cat video on this channel to save credits.
+**🎬 Что в кадре:** используем готовый клип **Universal Scene 8** — Brain на нейтральном тёплом боке-фоне, машет лапой + slow blink + мягкий meow. Сгенерирован ОДИН РАЗ в Veo 3 и переиспользуется на всех cat-видео канала чтобы экономить credits.
 
-📁 See [`_universal-scene-8.md`](./_universal-scene-8.md) for the one-time Nano Banana + Veo 3 prompts.
+📁 См. [`_universal-scene-8.md`](./_universal-scene-8.md) — там одноразовые промты Nano Banana + Veo 3.
 
-In Google Vids: drop `assets/universal-scene-8.mp4` here as the 7-second Sc 8 clip. Optional "FOLLOW BRAIN 🐱" text overlay at top.
+В Google Vids: кидаем `assets/universal-scene-8.mp4` сюда как 7-секундный клип Sc 8. Опционально: текстовый оверлей "FOLLOW BRAIN 🐱" сверху.
 
-**🎙️ Voiceover (record fresh in Google Vids TTS per video):**
+**🎙️ Voiceover (записать свежий в Google Vids TTS для каждого видео):**
 
 ```
 Want the 5 signs your cat DOES love you? Follow Brain.
 ```
 
-> **End card:** after Scene 8, append the reusable Brain end card from [`end-card.md`](../end-card.md). Use **Short variant (3 sec)**. The end card is also generated ONCE and reused.
+> **Энд-карта:** после Sc 8 прицепляем переиспользуемую энд-карту Brain из [`end-card.md`](../end-card.md). Используем **Short variant (3 сек)**. Энд-карта тоже генерится ОДИН РАЗ и переиспользуется.
 
 ---
 
-## 🎵 Music Prompt
+## 🎵 Промт для музыки (Suno)
+
+**Логика трека (для понимания):** холодное напряжение нарастает 0-42 сек через 5 признаков → резкий мажорный pivot на 42 сек = катарсис → тёплое сведение к 56 сек. Это музыкальное зеркало нарратива.
+
+**Полный промт (копи-паст в Suno, английский):**
 
 ```
 Emotional cat-psychology negative-mirror score for a 55-second YouTube Short titled "5 Signs Your Cat Doesn't Love You". Open with low cold tension drone + soft heartbeat pulse + sparse marimba at 0-7s (the hook recoil + curiosity-bomb). Tense countdown vibe at 7-14s for sign #1 ears (low piano + soft tick). Anxious slightly higher at 14-21s for sign #2 tail (light pizzicato + held minor chord). Sustained cold tone at 21-28s for sign #3 no-blink (suspended chord, minimal pulse). Light suspense whoosh at 28-35s for sign #4 hides (low strings + breath). Sharp tension peak at 35-42s for sign #5 swat (snap percussion + minor sting). RESOLUTION SWITCH at 42-49s — warm major-key resolve with soft harp + warm pad + gentle marimba + pastel emotional warmth for the relief twist (this is the emotional payoff — must FEEL like a hug after the tension). Warm bond-close at 49-56s. Tempo 95 BPM throughout. No vocals. Mood: tense → cathartic-warm. Royalty-free style.
 ```
 
-**Alt prompt (shorter):**
+**Альт-промт (если Suno просит покороче):**
 
 ```
 Tense cat-psychology negative-mirror score, 95 BPM, cold drone + heartbeat open 0-7s, anxious countdown 7-42s through 5 signs (low piano + pizzicato + minor sting on sign 5 swat), warm major-key resolution switch at 42-49s for relief twist (harp + warm pad), bond-warm close 49-56s, no vocals, 60 seconds, royalty-free.
@@ -478,35 +484,37 @@ Tense cat-psychology negative-mirror score, 95 BPM, cold drone + heartbeat open 
 
 ---
 
-## Assembly in Google Vids
+## Сборка в Google Vids
 
-1. Upload all 8 animated clips in order
-2. VO at -12 LUFS, music at -18 LUFS
-3. Burn-in subtitles top third, max 4 words at a time
-4. Hard cut between every scene (no fades — match the punchy list-format pace). EXCEPTION: Sc 6 → Sc 7 = quick 0.3s music-swap fade to signal the tonal pivot
+1. Загрузить все 8 анимированных клипов по порядку
+2. VO на -12 LUFS, музыка на -18 LUFS
+3. Burn-in субтитры в верхней трети, максимум 4 слова за раз
+4. Хард-cut между каждой сценой (без fades — держим резкий list-темп). ИСКЛЮЧЕНИЕ: Sc 6 → Sc 7 = быстрый 0.3 сек music-swap fade чтобы обозначить тональный поворот
 5. SFX:
-   - TIME 0-0.5s SILENT (just visual recoil) → sharp "WHIP" SFX at 0.5s (ear-pin)
-   - "Text slam" SFX at TIME 1.5s when text plate appears
-   - Soft "ding" chime on every numeral reveal (Sc 2-6)
-   - Sc 5 (no-blink) — sustained cold tone, NO chime
-   - Sc 6 — light "swoosh" SFX (paw swat) + cartoon "💥 OUCH" pop sting at TIME 1.8s
-   - Sc 7 — soft "heart pop" pluck at TIME 2.5s + warm "blink" chime synced to slow-blink
-   - Sc 8 — soft warm meow
-6. Append end card (3 sec Short variant)
+   - TIME 0-0.5 сек ТИШИНА (только визуальный recoil) → резкий "WHIP" SFX на 0.5 сек (момент прижатия ушей)
+   - "Text slam" SFX на 1.5 сек когда влетает текст-плита
+   - Мягкий "ding" на каждом появлении цифры (Sc 2-6)
+   - Sc 4 (no-blink) — sustained холодный тон, БЕЗ chime после цифры
+   - Sc 6 — лёгкий "swoosh" SFX (удар лапой) + мульт-поп-стинг "💥 OUCH" на 1.8 сек
+   - Sc 7 — мягкий "heart pop" pluck на 2.5 сек + тёплый "blink" chime синхронно с slow-blinkом
+   - Sc 8 — мягкий тёплый meow
+6. Прицепить энд-карту (3-секундный Short variant)
 
-## Editing Notes
+## Заметки по монтажу — общие
 
-- **Sc 1 = THE retention bomb.** Cut crisp. NO calm setup, NO breath room. Open directly on the recoil inflection. The "Sign 5 will hurt" VO line lands at TIME 5-6s with tension drone.
-- **Numerals 1-5 stay in upper-LEFT corner consistently** — viewer brain locks onto position = clearer list scan
-- **Single location throughout** — DO NOT cut to lab or other rooms. Emotional continuity carries the negative-mirror.
-- **Sc 6 → Sc 7 is the tonal pivot** — the harder Sc 6 hits, the more cathartic Sc 7 feels. Don't soften Sc 6.
-- **Sc 7 relief overlay** "NONE = LOVED 💚" must use the SAME locked font as numerals 1-5. No font-drift here especially.
-- All on-screen text in ENGLISH only — NO Russian, NO Cyrillic
-- **Pinned comment:** see below
+- **Sc 1 = retention-бомба.** Резать чётко. БЕЗ спокойного захода, БЕЗ зазора. Открываемся прямо на инфлексии recoil. Фраза "Sign 5 will hurt" падает на 5-6 сек на tension droneе.
+- **Цифры 1-5 всегда в верхнем ЛЕВОМ углу** — мозг зрителя якорится за позицию = чище list-чтение
+- **Одна локация на весь видос** — НЕ резать в лабу или другие комнаты. Эмоциональная непрерывность держит "негативное зеркало".
+- **Sc 6 → Sc 7 — тональный pivot** — чем жёстче бьёт Sc 6, тем катарсичнее Sc 7. Sc 6 не смягчать.
+- **Оверлей облегчения Sc 7** "NONE = LOVED 💚" должен быть в том же locked-шрифте что и цифры 1-5. Здесь font-дрифт особенно нельзя.
+- Весь on-screen текст ТОЛЬКО на английском — никакой кириллицы
+- **Закрепляемый комментарий:** см. ниже
 
 ---
 
-## 📌 Pinned comment
+## 📌 Закрепляемый комментарий (Pinned comment)
+
+Постится от имени канала под видео сразу после публикации, затем закрепляется в три точки (⋮ → Pin):
 
 ```
 Be honest 👇 How many of these 5 signs does YOUR cat show? Drop the number — 0 means you're MAX loved 💚 5 means we need to talk 😹
@@ -514,15 +522,15 @@ Be honest 👇 How many of these 5 signs does YOUR cat show? Drop the number —
 
 ---
 
-## SEO Pack
+## SEO Pack (для загрузки на YouTube — копи-паст)
 
-**Final title** (51 chars — exact-match high-volume keyword, intrigue + number):
+**Финальный title** (51 символ — точный exact-match high-volume keyword, интрига + число):
 
 ```
 5 Signs Your Cat DOESN'T Love You 🐱 | Cat Psychology
 ```
 
-Alt titles to A/B test:
+Альт-титлы для A/B-теста (если первый не зайдёт):
 
 ```
 5 SIGNS Your Cat HATES You — Number 5 Will Hurt 🐱 | Cat Psychology
@@ -530,7 +538,7 @@ The 5 Signs Your Cat Doesn't Actually Love You 🐱 | Cat Psychology
 Does Your Cat Love You? 5 Signs It Doesn't 🐱 | Cat Psychology
 ```
 
-**Russian-language titles** (in `Мир Глазами Кошек` style — for potential RU mirror only, NEVER on EN channel):
+**Русские titles** (в стиле `Мир Глазами Кошек` — только для возможного RU-зеркала, НИКОГДА на EN-канале):
 
 ```
 5 Признаков Что Кошка ВАС НЕ ЛЮБИТ — Пятый Самый Страшный
@@ -538,7 +546,7 @@ Does Your Cat Love You? 5 Signs It Doesn't 🐱 | Cat Psychology
 ТЕСТ: Любит Ли Вас Кошка? 5 Тревожных Признаков
 ```
 
-**Description (≥ 250 chars, "cat psychology" appears 3×, exact-match keyword inside, цифры для скан-CTR):**
+**Description** (≥ 250 символов, "cat psychology" повторяется 3×, exact-match ключ внутри, цифры для скан-CTR — копи-паст в YouTube):
 
 ```
 Does your cat actually love you? 🐱 In this Cat Psychology Short, Brain reveals 5 signs your cat doesn't love you. Cat psychology research is clear — affection in cats shows through SPECIFIC body-language signals, and the absence of those signals is a real warning. Sign 1: ears slammed flat when you walk in = fear, not respect. Sign 2: tail tucked tight under the body = anxiety, not affection. Sign 3: they never slow blink at you (cats love with their eyes — yours don't). Sign 4: they run and hide every time you enter the room = pure avoidance. Sign 5: they hiss or swat when you try to pet them — the clearest "no" in cat. But here's the good news — if your cat does NONE of these 5 signs, you are LOVED. Cat psychology is wilder than you think — and 90% of cat owners pass this test. Drop your number below 👇
@@ -548,37 +556,37 @@ Does your cat actually love you? 🐱 In this Cat Psychology Short, Brain reveal
 #shorts #catpsychology #catfacts #catbehavior #braincatai #catscience #catlovers
 ```
 
-**Tags:**
+**Tags** (заполнять поле тегов на YouTube, целимся в 500 символов по Карене):
 
-Base set (always include):
+Базовый набор (всегда включается):
 
 ```
 cat psychology, cat facts, cat behavior, cat secrets, cat science, cat communication, cat body language, feline behavior, understanding cats, facts about cats, animal facts, animal science, did you know, mind blowing facts, brain cat, cat facts daily, cat behavior funny, cat domestication, cats vs humans
 ```
 
-Mandatory channel-wide adds (Karena rule, locked 17 мая 2026):
+Обязательные channel-wide теги (правило Карены, залочено 17 мая 2026):
 
 ```
 braincatai, cat facts mind blowing, cat behavior explained
 ```
 
-Video-specific (high-monthly from related keyword research):
+Video-specific (взяты из related keyword research, все с высоким monthly volume):
 
 ```
 signs your cat doesn't love you, 5 signs your cat doesn't love you, signs your cat hates you, does my cat love me, cat affection, cat care, does my cat hate me, why does my cat bite me, cat doesn't like kisses, cat owner tips
 ```
 
-**Hashtags (description body only — NEVER in title field per Karena rule):**
+**Хэштеги** (только в теле описания — НИКОГДА в поле title по правилу Карены):
 
 ```
 #shorts #catpsychology #catfacts #catbehavior #braincatai #catscience #catlovers
 ```
 
-**Thumbnail concept (1-line summary):**
+**Концепт тумбнейла (1 строкой):**
 
-> Brain in extreme close-up, ears slammed flat, wide cold emerald eyes glaring straight at viewer, woman's hand recoiling from a defensive paw-swat on the right. Bottom text plate: "5 SIGNS / NOT LOVED 💔".
+> Brain в экстремальном close-up, уши плашмя назад, широкие холодные изумрудные глаза прямо в зрителя, женская рука отдёргивается от защитного удара лапой справа. Нижняя текст-плита: "5 SIGNS / NOT LOVED 💔".
 
-**🖼️ Thumbnail prompt (Nano Banana — channel-locked typography):**
+**🖼️ Промт для тумбнейла** (Nano Banana — channel-locked шрифт, копи-паст):
 
 ```
 Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden — DILATED WIDE COLD INTENSE for this thumbnail), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head — both SLAMMED FLAT BACKWARD in defensive pin for this thumbnail), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 thumbnail composition.
@@ -596,7 +604,7 @@ ANATOMY RULE (strict): EXACTLY 4 paws AND EXACTLY 2 EARS. NO 5th paw, NO phantom
 LANGUAGE RULE (strict): All on-screen text in ENGLISH only. NO Russian text, NO Cyrillic letters.
 ```
 
-**Negative prompts (Nano Banana — thumbnail):**
+**Negative prompts для тумбнейла** (Nano Banana — копи-паст):
 
 ```
 2D flat, anime, photorealistic cat, multiple cats, low quality, blurry, cluttered background, busy background, distorted face, extra limbs, extra paws, five legs, three ears, extra ear, phantom ear, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, yellow eyes, hazel eyes, mouth open as if talking, talking cat, hissing open mouth, scary horror cat, blood, sharp horror-claws, gore, man, male figure, male hand, masculine hand, hairy hand, dark sweater, hoodie, different sleeve color, serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, gradient text, neon text, metallic text, multiple fonts, mixed typography, sharp serifs on text, calligraphy, Russian text, Cyrillic letters, ugly, scary, watermark, logo
@@ -604,32 +612,32 @@ LANGUAGE RULE (strict): All on-screen text in ENGLISH only. NO Russian text, NO 
 
 ---
 
-## 🛑 Veo 3 pre-flight verification (per scene)
+## 🛑 Pre-flight проверка Veo 3 (по каждой сцене)
 
-| Scene | Drift risk | Veo flags | Recommended fallback |
-|-------|-----------|-----------|----------------------|
-| 1 | 🟡 YELLOW | Human hand + strong recoil pose + 7s hold — moderate retry risk. Locked human spec mandatory. | If fails: regenerate Nano Banana with hand-already-frozen, then animate only Brain's head-turn. |
-| 2 | 🟢 GREEN | Single-character, defensive crouch, static-ish | None — likely first-try success |
-| 3 | 🟢 GREEN | Single character, tucked tail | None — likely first-try success |
-| 4 | 🟡 YELLOW | NO-BLINK requirement is the central rule — Veo may auto-add a blink. **If first render adds a blink, regenerate explicitly reinforcing "NO BLINK at any frame".** | Frame-blend a frozen still as fallback if Veo refuses unblinking |
-| 5 | 🟢 GREEN | Single character, hidden under armchair, only eyes visible — easy clip | None — likely first-try success |
-| 6 | 🔴 ORANGE | Human hand + paw-swat motion + multiple-character motion + claw control + text overlay. Highest retry risk of video. | If fails: try Nano Banana with the swat already complete (paw fully extended, hand mid-retreat), then animate only the hand-retreat. Or split into 2 sub-clips: paw raises (3s) + hand recoils (4s). |
-| 7 | 🟢 GREEN | Single character, slow blink + heart overlay — easy reuse-pattern of slow-blink template | None — likely first-try success |
+| Сцена | Риск дрифта | Что сложного для Veo | Fallback если не выйдет |
+|-------|-------------|----------------------|--------------------------|
+| 1 | 🟡 ЖЁЛТЫЙ | Рука + сильная recoil-поза + 7-сек hold = умеренный риск ретрая. Locked human spec обязателен. | Если фейлится: перегенерить Nano Banana с уже застывшей рукой, потом анимировать только head-turn Brain. |
+| 2 | 🟢 ЗЕЛЁНЫЙ | Один персонаж, оборонительная crouch-поза, почти статика | Не нужен — обычно проходит с первого раза |
+| 3 | 🟢 ЗЕЛЁНЫЙ | Один персонаж, поджатый хвост | Не нужен — обычно с первого раза |
+| 4 | 🟡 ЖЁЛТЫЙ | Требование NO-BLINK — Veo может автоматически добавить моргание. **Если первый рендер моргнул — перегенерить с явным усилением "NO BLINK at any frame".** | Frame-blend замороженного still'а как fallback если Veo упорствует |
+| 5 | 🟢 ЗЕЛЁНЫЙ | Один персонаж, прячется под креслом, видны только глаза — простой клип | Не нужен — с первого раза |
+| 6 | 🔴 КРАСНЫЙ | Рука + движение удара лапой + два движущихся объекта + контроль когтей + оверлей. Самый рискованный клип видео. | Если фейлится: попробовать Nano Banana с уже завершённым ударом (лапа на максимуме, рука уже в отступлении), анимировать только отступление руки. Или разбить на 2 суб-клипа: лапа поднимается (3 сек) + рука отскакивает (4 сек). |
+| 7 | 🟢 ЗЕЛЁНЫЙ | Один персонаж, slow blink + heart-оверлей — простой переиспользуемый паттерн из slow-blink шаблона | Не нужен — с первого раза |
 
-**Cost estimate (with 1 retry margin for Sc 1 + Sc 6):** ~$5-9 in Veo 3 credits for the full video.
+**Оценка стоимости (с запасом на 1 ретрай для Sc 1 + Sc 6):** ~$5-9 в Veo 3 credits на всё видео.
 
 ---
 
-## Post-publish metrics
+## Метрики после публикации
 
-| Metric | 48h | 7d | 30d |
-|--------|-----|----|----|
-| Views  |     |    |    |
-| Avg view duration |  |  |  |
-| Retention % |       |    |    |
-| Likes  |     |    |    |
-| Shares |     |    |    |
-| Comments |   |    |    |
-| Subs gained |       |    |    |
+| Метрика | 48ч | 7 дней | 30 дней |
+|---------|-----|--------|---------|
+| Просмотры |   |        |         |
+| Средняя продолжительность просмотра |  |  |  |
+| Retention % |   |        |         |
+| Лайки |       |        |         |
+| Шеры |        |        |         |
+| Комментарии | |        |         |
+| Подписчики прибавилось | |     |    |
 
-### Notes — what worked / what didn't
+### Заметки — что сработало / что нет
