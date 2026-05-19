@@ -9,7 +9,7 @@
 - **Length:** 1H (target ~1H 04min, 18–24 Suno tracks)
 - **Phase:** 1
 - **Aesthetic:** Healing Hour ILLUSTRATED spec — Studio Ghibli-inspired digital painting, lone monk on kyoto matia engawa, warm gold / sunset amber palette (528 Hz)
-- **Status:** script ready — awaiting Suno + NanoBanana generation
+- **Status:** 🎨 NanoBanana 16:9 locked (picture D — monk silhouette on engawa, stone lantern lit warm amber right, kakei left, 3 stones + raked concentric circles, warm andon lantern inside matia left, pine canopy top) — awaiting Suno generation + 9:16 vertical + Flow/Kling loop
 - **Upload date:** TBD (week of May 20–26)
 
 > **Why this format / why 528 Hz (despite Vol. 1 = 528 Hz):** YouTube Studio AI explicitly recommends staying on 528 Hz because the search volume is highest and the cluster is fertile. Vol. 1 stalled at 53 views not because of the frequency but because of (a) generic title with no hook in the middle slot, (b) photoreal Tokyo-Penthouse visual which lands in the Deep Work cluster instead of healing. Vol. 2 fixes both: secret-hook title + Ghibli illustrated visual = correct cluster targeting.
@@ -68,32 +68,36 @@ Studio Ghibli-inspired digital painting illustration, vertical 9:16 framing, sof
 
 ## 5. 🎬 Flow / Kling motion loop prompt (8-second seamless loop)
 
-> Use the NanoBanana 16:9 image as the start frame. Generate an 8-second perfectly seamless loop in Flow or Kling, then ffmpeg loops it for 1H.
+> **Start frame:** the picked NanoBanana 16:9 — picture D (monk silhouette on kyoto matia engawa, stone lantern lit warm amber on the right, kakei bamboo water spout on the left, three weathered stones in raked concentric gravel circles, warm paper andon lantern glowing inside the matia on the left, pine canopy framing the top). The 8-second loop must return to this exact frame at second 8.
+>
+> **What the viewer must see moving** (per art-direction): (1) water flowing from the kakei, (2) the flame flickering inside the stone lantern, (3) rain pouring across the whole frame. Everything else — especially the monk — stays completely still.
 
 ```
-SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour healing music video. Studio Ghibli-inspired digital painting / stylized anime illustration, view from inside a Kyoto matia onto a zen garden during warm golden hour rain. Camera is COMPLETELY LOCKED — absolutely no pan, no zoom, no dolly, no shake. The frame stays identical to the start image.
+SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour healing music video. Studio Ghibli-inspired digital painting / stylized anime illustration, view from inside a Kyoto matia onto a zen garden during gentle warm rain at golden hour. Camera is COMPLETELY LOCKED — absolutely no pan, no zoom, no dolly, no shake. The frame stays identical to the start image.
 
-FOUR continuous motion elements that loop seamlessly:
+THREE clearly visible motion elements that loop seamlessly:
 
-1. GENTLE WARM RAIN (dominant motion): Soft painted rain streaks fall diagonally across the entire frame throughout all 8 seconds. The streaks are stylized in Ghibli brush-style, soft and dreamy, not photoreal. The rain motion is constant — never stops, never pauses, no thunder.
+1. RAIN POURS ACROSS THE WHOLE FRAME (dominant motion): Soft Ghibli-style painted rain streaks fall diagonally across the entire image from upper-left to lower-right throughout all 8 seconds. The streaks are clearly visible — painterly and dreamy, never photoreal. The rain is constant — never stops, never pauses, no thunder, no wind shift. Rain intensity stays even from frame 1 to frame 8 so the loop joins invisibly.
 
-2. KAKEI BAMBOO WATER TROUGH (left of garden): The angled bamboo spout pours a continuous thin stream of clear water into a small stone basin below — water flows steadily for the entire 8 seconds, never stops. Tiny water ripples form on the surface of the basin where the stream lands, expanding outward in slow concentric circles, fading by the edge of the basin. The water flow is the constant audio anchor of the loop (matching the kakei trickle in the Suno mix). Perfect seamless cycle — the water column at frame 1 is identical to the water column at frame 8.
+2. KAKEI BAMBOO WATER FLOWS (left side of the garden): The angled bamboo spout pours a continuous thin clear stream of water into the small stone basin below — the water column flows steadily for the entire 8 seconds and NEVER stops. The viewer must clearly see the moving water column from spout to basin. At the surface of the basin where the stream lands, tiny water ripples form and expand outward in slow concentric circles, fading by the edge of the basin. The water column at frame 1 is identical to the water column at frame 8 — perfect seamless loop.
 
-3. STONE LANTERN GLOW (right of garden): The warm amber glow inside the stone lantern gently pulses — brightening subtly over 4 seconds, dimming slightly over 4 seconds. Like a breathing flame inside.
+3. STONE LANTERN FLAME FLICKERS (right side of the garden — the warm amber 528 Hz palette light source): Inside the stone lantern, a visible small flame flickers naturally — not a static glow but a LIVE FLAME that dances and shifts. The flame is clearly visible through the lantern's open window, with small tongues rising and falling, occasional brighter flicker, casting subtle shifts of warm amber light onto the moss and stone immediately around the lantern. The flame movement is gentle but alive. The flame returns to its starting position and intensity by frame 8 for seamless loop.
 
-4. PAPER LANTERN INSIDE THE MATIA (interior, behind the monk): The warm amber glow from the andon lantern in the doorway pulses very gently, sub-loop, casting a barely perceptible warmth shift on the engawa boards.
+SUB-MOTION (almost imperceptible, makes the scene feel alive):
+- Paper andon lantern inside the matia on the far interior left glows with a barely perceptible warm pulse — sub-loop, almost still.
 
-EVERYTHING ELSE STAYS COMPLETELY STILL:
-- The monk is COMPLETELY motionless — no breathing visible, no robe movement, no shifting. He is in deep stillness, that is the point.
-- Raked gravel circles: still.
-- Stones: still.
+EVERYTHING ELSE STAYS COMPLETELY STILL — this is the point of Healing Hour:
+- The monk is COMPLETELY motionless — no breathing visible, no robe movement, no shifting. He is in deep stillness, that IS the meditation.
+- Raked gravel concentric circles: still, every line preserved.
+- The three weathered stones: still.
 - Moss: still.
-- Pine branches: still — no wind, no sway.
-- Distant temple wall and mist: still.
+- Pine branches above the matia: still — no wind, no sway.
+- Engawa wooden boards, shoji frames, walls: still.
+- Distant garden, far temple wall, atmospheric mist: still.
 
-The loop must be PERFECTLY SEAMLESS — the last frame matches the first frame, so ffmpeg looping creates invisible joins. The shishi-odoshi cycle is the most important seam: the bamboo must be back in its exact starting position by the final frame. NO new objects appear. NO scene transitions. NO camera moves. NO dramatic changes.
+The loop must be PERFECTLY SEAMLESS — the last frame matches the first frame, so ffmpeg looping at 1H length creates invisible joins. NO new objects appear. NO scene transitions. NO camera moves. NO dramatic light changes.
 
-Studio Ghibli quality painterly illustration, 16:9 aspect, 4K, dreamy contemplative Kyoto golden-hour mood. Dominant motion: rain + shishi-odoshi cycle + lantern glow pulse.
+Studio Ghibli quality painterly illustration, 16:9 aspect, 4K, dreamy contemplative Kyoto golden-hour mood. Three visible motion elements: (1) rain pouring, (2) kakei water stream flowing into basin with ripples, (3) stone lantern flame flickering. Everything else perfectly still.
 ```
 
 ## 6. 🛠️ ffmpeg encode command (loop the 8-sec video to 1H + audio)
