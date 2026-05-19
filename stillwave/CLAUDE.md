@@ -73,6 +73,77 @@ Continue using the original style for the videos that aren't in the new format y
 
 ---
 
+## 🩹 Healing Hour aesthetic — ILLUSTRATED spec (Hz-series visual signature)
+
+**Healing Hour ≠ Power Hour.** Power Hour (Tokyo Penthouse, photorealistic, MacBook + fireplace) targets the Deep Work cluster. Healing Hour targets the Spiritual / Frequency-healing cluster, which on YouTube is dominated by **stylized illustrations**, not photoreal interiors. Mixing them confuses the algorithm — Healing Hour Vol. 1 (528 Hz Marathon, 2026-05-14) stalled at 53 views because it used the Power-Hour-style penthouse visual and landed in the wrong recommendation pool.
+
+### Style — locked
+
+- **Digital painting / stylized anime illustration**, NOT photoreal
+- Soft brushstrokes, painterly textures, slightly desaturated except the accent color
+- Cinematic widescreen composition (rule of thirds, deep perspective)
+- **Lone robed figure** (monk silhouette, traveler, samurai-monk) in the scene — back to camera or quarter-profile, never face-forward. Anchors human presence + scale.
+
+### Composition rules
+
+1. **One dramatic Japanese-mystical location** that IS the hook. Not a generic garden — something cinematic and specific (see location bank below).
+2. **One dominant color** carrying the whole image (the "scene palette"):
+   - 528 Hz → warm gold / sunset amber
+   - 174 Hz → deep teal / aqua
+   - 963 Hz → cosmic purple / indigo
+   - 741 Hz → cyber-pink + cyan (urban detox)
+   - 417 Hz → ice blue / moonlit silver
+   - 639 Hz → sakura pink / soft rose
+   - 396 Hz → blood red / crimson (root chakra)
+   - 285 Hz → forest green / dusk gold
+   - 852 Hz → moonlit white-blue
+2. Lone figure positioned **at the focal third**, looking into the scene depth (sea / valley / cosmos / cityscape).
+3. Strong atmospheric depth — fog, mist, snow, neon glow, water reflections. NO crisp daylight clarity.
+4. NO text, NO logos, NO MacBook, NO modern penthouse, NO fireplace, NO desk props. These are Power Hour signals — keep them out of Healing Hour.
+
+### Location bank (validated against YouTube recommendation cluster)
+
+| Location | Best Hz fit |
+|----------|-------------|
+| Submerged onsen cave | 174 Hz pain relief |
+| Floating torii gate (sea/lake) | 963 Hz astral / pineal |
+| Cyberpunk Tokyo neon rain | 741 Hz detox |
+| Shinkansen night journey (interior + window) | 417 Hz sleep / energy blocks |
+| Moonlit bamboo forest | 852 Hz intuition |
+| Floating lantern festival | 528 Hz manifesting |
+| Hida village snowfall | 963 Hz divine connection |
+| Sakura petal stream | 639 Hz love |
+| Samurai garden rain | 396 Hz overcoming fear |
+| Nara deer park dusk | 285 Hz cellular regeneration |
+| Mount Koya star gazing | 528 Hz soul healing |
+| Imperial garden twilight | 741 Hz mental clarity |
+| Abandoned highland shrine | 417 Hz clearing energy blocks |
+
+### Pipeline tweak for Healing Hour
+
+- **Image:** NanoBanana 16:9 with `digital painting, stylized illustration, anime-influenced` prompt prefix (NOT `photorealistic cinematic`). Same for 9:16 Shorts version.
+- **Video loop (Mode B):** Flow/Kling still works — animate 3 subtle elements (mist drift, lantern flicker, distant water ripple, robe hem in wind). Camera locked.
+- **Thumbnail:** the same NanoBanana 16:9 — illustrated style already reads as thumbnail-clickable. No Canva text overlay needed.
+
+### Title format — Healing Hour locked
+
+```
+[Hz] Hz [LOCATION] | [SOUND MECHANISM] for [SPECIFIC OUTCOME]
+```
+
+All three slots are mandatory:
+- **Hz + location** → keyword + curiosity hook (e.g. `174 Hz Submerged Onsen Cave`)
+- **Sound mechanism** → binaural beats / harmonic tones / ethereal flute / astral frequencies / solfeggio tones / binaural deep sea echoes
+- **Specific outcome** → Total Body Pain Relief / Awakening Your Third Eye / Cellular Tissue Regeneration / Clearing Negative Energy Blocks / Miraculous Soul Healing / Manifesting Abundance
+
+Avoid generic outcomes ("relaxation", "sleep music") — the cluster rewards dramatic specificity.
+
+### Series naming — Marathon Vol. N
+
+Keep the existing `1 Hour Healing Uninterrupted Vol. N` series tag in the subtitle position, so Vol. 1 (528 Hz Japanese Zen Marathon) and Vol. 2+ remain linked as a series in viewer eyes and YouTube playlist surfacing.
+
+---
+
 ## 🛠️ Pipeline
 
 Long-form has TWO mode options. **Default = Mode B (looped motion)** for the Phase 1 batch and beyond — gives the video life (rain on glass / fireplace flicker / laptop screen activity) without overspending on credits.
