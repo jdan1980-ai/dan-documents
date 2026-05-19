@@ -18,26 +18,37 @@
 
 ## 1. 🎵 Suno Prompt A — Style field
 
-> **Music DNA = Power Hour (Tokyo Apartment Rain).** Same warm analog synth pad, same deep sub-bass pulse every 16 bars, same distant koto plucks every 30 seconds, same lo-fi soundscape with rain dominating the texture, same 60 BPM. ONE substitution for Healing Hour: the sub-bass pulse is **tuned to 528 Hz** (it becomes the frequency itself, not just a city heartbeat). Plus the rain falls on a kyoto zen garden instead of a glass window, and a bamboo shishi-odoshi fountain replaces the water-from-window-frame drip. Shakuhachi enters only sparsely as a single-note accent — never solo, never busy.
+> **Music DNA = Power Hour (Tokyo Apartment Rain).** Same warm analog synth pad, same deep sub-bass pulse every 16 bars, same distant koto plucks every 30 seconds, same lo-fi soundscape with rain dominating the texture, same 60 BPM. ONE substitution for Healing Hour: the sub-bass pulse is **tuned to 528 Hz** (it becomes the frequency itself, not just a city heartbeat). Plus the rain falls on a kyoto zen garden instead of a glass window, and a bamboo **kakei water trough** (the angled bamboo spout pouring a steady trickle into a stone basin — matches the NanoBanana picture 3) replaces the water-from-window-frame drip. Shakuhachi enters only sparsely as a single-note accent — never solo, never busy.
+
+> **Length fix:** Suno v5.5 collapses bracket-based ambient prompts into ~1:30 without explicit duration markers. We now force a target runtime of **~3 minutes per track** by (a) adding "extended long-form ambient piece" + "minimum 3 minute composition" in the style field, (b) putting explicit time brackets in the lyrics field (Section 2 below), and (c) listing more distinct sections so Suno has more material to traverse. If a generation still comes out short, use Suno's **"Extend" button** on the track and feed the same Style field — it will add 2–3 more minutes seamlessly.
 
 ```
-Slow ambient lo-fi soundscape with gentle warm rain falling on a kyoto zen garden — moss, raked gravel, weathered stones, and a dark cedar engawa veranda — distant koto plucks every 30 seconds, soft warm analog synth pad breathing underneath, deep sub-bass pulse tuned to 528 Hz every 16 bars (the frequency's slow heart beat, like the city heartbeat in our Tokyo apartment series), a single bamboo shishi-odoshi fountain striking a stone with a hollow "tok" every 30 seconds, occasional distant temple bell ringing once every few minutes, an occasional single sparse shakuhachi flute note as accent (never solo, never busy). 60 BPM. Rain dominates the texture, music is delicate background. Loopable for 1 hour 4 minutes (24 Suno tracks pre-mixed in CapCut, no need to loop), no buildup, no climax, sustained meditative atmosphere. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+EXTENDED LONG-FORM AMBIENT PIECE — target runtime 3 minutes minimum. Slow ambient lo-fi soundscape with gentle warm rain falling on a kyoto zen garden — moss, raked gravel, weathered stones, and a dark cedar engawa veranda — distant koto plucks every 30 seconds, soft warm analog synth pad breathing underneath, deep sub-bass pulse tuned to 528 Hz every 16 bars (the frequency's slow heart beat, like the city heartbeat in our Tokyo apartment series), a kakei bamboo water trough trickling a steady soft stream into a stone basin throughout the entire piece (continuous gentle water sound, never stops), occasional distant temple bell ringing once every 60–90 seconds, an occasional single sparse shakuhachi flute note as accent every 90 seconds (never solo, never busy). 60 BPM. Rain dominates the texture, music is delicate background. Slowly evolving — instruments fade in and out over many bars, never abrupt. No buildup, no climax, sustained meditative atmosphere for the full 3 minutes. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 
 ## 2. 🎵 Suno Prompt B — Lyrics field
 
-> Same bracket structure as Power Hour Vol. 1 — rain-dominant constant, koto + sub-bass + synth pad as the layered architecture, instruments fade in and out around the rain. Setting moved from Tokyo high-rise window to kyoto matia engawa onto a zen garden.
+> Explicit time markers force Suno to pace the piece across the full 3 minutes instead of wrapping early. Each bracket is a ~30-second slot with concrete instructions. Same Power Hour-style architecture: rain + kakei constant, koto/sub-bass/pad layered, shakuhachi as rare accent.
 
 ```
+[extended long-form ambient instrumental, target total length 3 minutes]
 [no lyrics, no vocals, instrumental only]
-[opening: a single distant temple bell rings once across a kyoto valley at golden hour, gentle warm rain begins falling on the zen garden, moss, and wooden engawa]
-[section A: koto plucks slowly every 30 seconds, sub-bass pulses softly every 16 bars tuned to 528 Hz like a slow heart beat under the rain, the bamboo shishi-odoshi fountain strikes a stone with a hollow tok every 30 seconds, soft analog synth pad breathes underneath]
-[section B: warm analog synth pad swells gently, rain finds the moss and intensifies softly, the stone lantern glows warm amber through the rain, distant temple bell rings again far away]
-[section C: a single sparse shakuhachi flute note enters as accent and holds, brief silence held for 8 seconds, then rain swells back, koto returns]
-[loop point: rain texture and the shishi-odoshi cycle remain constant throughout, koto and shakuhachi and synth pad fade in and out around them, no audible break in audio]
-[mood: a monk sits alone on the engawa of a kyoto matia, golden hour rain on the zen garden, thoughts emptying one bamboo strike at a time]
-[texture: wet moss, polished stone, raked gravel circles, hollow bamboo, warm amber lantern glow, soft brushstroke on rice paper]
+[0:00–0:20 intro: a single distant temple bell rings once across a kyoto valley at golden hour, gentle warm rain begins falling on the zen garden, the kakei bamboo water trough starts its steady soft trickle into a stone basin]
+[0:20–0:50 section A1: koto plucks slowly every 30 seconds, sub-bass pulses softly every 16 bars tuned to 528 Hz like a slow heart beat under the rain, the kakei keeps trickling continuously]
+[0:50–1:20 section A2: section A repeats with warm analog synth pad now entering very softly underneath, rain finds the moss]
+[1:20–1:50 section B1: warm analog synth pad swells gently, the stone lantern glows warm amber through the rain, distant temple bell rings again far away, koto continues every 30 seconds]
+[1:50–2:20 section B2: section B continues, a single sparse shakuhachi flute note enters and holds for 8 seconds, then fades, sub-bass 528 Hz pulse stays steady]
+[2:20–2:50 section C: brief held silence for 8 seconds where only the rain and the kakei trickle remain, then koto returns gently and synth pad re-enters]
+[2:50–3:00 loop point / outro: rain texture and the kakei trickle remain constant, all instruments fade to silence at the end so the next track's intro joins seamlessly]
+[mood: a monk sits alone on the engawa of a kyoto matia, golden hour rain on the zen garden, thoughts emptying one bamboo drop at a time]
+[texture: wet moss, polished stone, raked gravel circles, hollow bamboo trickle into a stone basin, warm amber lantern glow on wooden veranda, soft brushstroke on rice paper]
 ```
+
+### If Suno still comes out short
+
+1. Try Suno's **"Extend" button** on the generated track — paste the same Style field A above, leave Lyrics empty or use just `[continue ambient texture, sub-bass 528 Hz pulse, kakei trickle, koto plucks, no climax]`. This adds 2–3 minutes seamlessly to the end.
+2. If extend still wraps early — increase target in the prompt: change `target runtime 3 minutes minimum` → `target runtime 4 minutes minimum` and add one extra `[section A3 ...]` slot at 1:00–1:30. Suno responds to explicit time pressure.
+3. Worst case for the 1H tracklist: generate **shorter tracks (2:00) but more of them** (32 × 2:00 = 1H 04min) instead of 24 × 2:42. The mix still works in CapCut.
 
 ---
 
@@ -66,7 +77,7 @@ FOUR continuous motion elements that loop seamlessly:
 
 1. GENTLE WARM RAIN (dominant motion): Soft painted rain streaks fall diagonally across the entire frame throughout all 8 seconds. The streaks are stylized in Ghibli brush-style, soft and dreamy, not photoreal. The rain motion is constant — never stops, never pauses, no thunder.
 
-2. SHISHI-ODOSHI BAMBOO FOUNTAIN (left of garden): The bamboo tube slowly fills with rainwater over ~7 seconds, then tips with a single soft bamboo "tok" sound visible as a gentle motion at the loop's 7-second mark, then immediately returns upright to its starting position by second 8. Perfect cyclic motion that resets at the loop point. The bamboo tipping is the audio anchor of the loop.
+2. KAKEI BAMBOO WATER TROUGH (left of garden): The angled bamboo spout pours a continuous thin stream of clear water into a small stone basin below — water flows steadily for the entire 8 seconds, never stops. Tiny water ripples form on the surface of the basin where the stream lands, expanding outward in slow concentric circles, fading by the edge of the basin. The water flow is the constant audio anchor of the loop (matching the kakei trickle in the Suno mix). Perfect seamless cycle — the water column at frame 1 is identical to the water column at frame 8.
 
 3. STONE LANTERN GLOW (right of garden): The warm amber glow inside the stone lantern gently pulses — brightening subtly over 4 seconds, dimming slightly over 4 seconds. Like a breathing flame inside.
 
