@@ -20,15 +20,17 @@ Every prompt and voiceover line is in its own code block — click the copy icon
 - **Date created:**
 - **Publish date:**
 
-## Audience Promise
+## Audience Promise — что зритель получит
 
-One sentence — what does the viewer learn or feel?
+Одна фраза — что зритель узнаёт или чувствует. Используем для проверки каждой сцены: помогает ли она этому обещанию?
 
 > 
 
-## ✍️ Voiceover rule
+## ✍️ Правило для Voiceover
 
-Every line must be understandable for **a 9-year-old AND a 40-year-old**. Write like you're telling a friend something cool, not like a textbook. No jargon, no scary words, no "umm/basically/actually." See [style-guide.md §9](./style-guide.md#9-editorial-voice-writing-style) for the swap table.
+Каждая строка должна быть понятна **9-летнему И 40-летнему одновременно**. Пиши как другу за чаем рассказываешь, не как из учебника. Никакого жаргона, страшных слов, "хм/в общем/типа". Таблица замены сложных слов — в [style-guide.md §9](./style-guide.md#9-editorial-voice-writing-style).
+
+**Двуязычный канал-стрим:** к каждой сцене делаем EN-озвучку для основного канала `@braincatai` + RU-перевод для возможного RU-зеркала (в русскоязычном сегменте кошатников больше — это потенциально вторая монетизация без новой продакшен-нагрузки).
 
 ---
 
@@ -64,9 +66,9 @@ Exceptions to MOUTH RULE (state explicitly when used): brief held jaw-drop for s
 
 ---
 
-## 🏠 Scene Settings (lock locations for THIS video)
+## 🏠 Локации (Scene Settings — залочить для ЭТОГО видео)
 
-Pick 1–3 locations max for this video. Write each as a single descriptive paragraph and **paste the exact same wording** into every scene that uses that location. The CTA scene (Scene 8) must use one of these locations — never a generic outro background. See [style-guide.md §8b](./style-guide.md#8b-scene-continuity-per-video-world-locks).
+Берём 1–3 локации максимум на видео. Каждая = единый описательный параграф, **вставляется дословно** в каждую сцену которая её использует. CTA-сцена (Scene 8) должна быть в одной из этих локаций — никогда generic outro-фон. См. [style-guide.md §8b](./style-guide.md#8b-scene-continuity-per-video-world-locks).
 
 ### Location A — `INT. / EXT. NAME — TIME OF DAY`
 
@@ -101,9 +103,17 @@ Pick 1–3 locations max for this video. Write each as a single descriptive para
 
 ---
 
-## Full Voiceover (whole video, single block)
+## Полный VO (целиком на всё видео — для общего обзора)
 
-Paste this into Google Vids built-in TTS as one read for natural pacing. Word target **80–120 words** ≈ 50 sec at 130 wpm.
+Целевой объём **80–120 слов EN** ≈ 50 сек при 130 wpm. RU должен влезать в те же тайминги (русский короче по слогам — обычно влезает).
+
+**🇬🇧 English (основной канал @braincatai):**
+
+```
+
+```
+
+**🇷🇺 Русская версия (для возможного RU-зеркала канала):**
 
 ```
 
@@ -117,10 +127,10 @@ Paste this into Google Vids built-in TTS as one read for natural pacing. Word ta
 
 ## Scene 1 — HOOK (0–7 sec)
 
-**Beat purpose:** grab attention in the first 2 seconds. Contradiction or shocking statement.
-**Location:** A / B / C (mark from the map above)
+**Что зритель видит:** перехватить внимание за первые 2 секунды. Контр-интуитивное или шокирующее утверждение. Визуальный удар идёт ДО слов.
+**Локация:** A / B / C (выбрать из карты выше)
 
-**🎨 Image prompt (Nano Banana):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 > Format: `[Locked Brain prompt] + [exact location block from above] + [per-shot action]`
 
@@ -128,14 +138,20 @@ Paste this into Google Vids built-in TTS as one read for natural pacing. Word ta
 
 ```
 
-**🎬 Animation prompt (Veo 3):**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
 ```
 Camera motion + Brain's action + facial expression + duration ~7s
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
+🇬🇧 EN:
+```
+
+```
+
+🇷🇺 RU:
 ```
 
 ```
@@ -144,22 +160,28 @@ Camera motion + Brain's action + facial expression + duration ~7s
 
 ## Scene 2 — Curiosity gap (7–14 sec)
 
-**Beat purpose:** promise the answer, make viewer need to keep watching.
+**Что зритель видит:** пообещать ответ, заставить смотреть дальше. Curiosity-gap — viewer должен почувствовать что НЕ узнать ответ нельзя.
 
-**🎨 Image prompt (Nano Banana):**
-
-```
-
-```
-
-**🎬 Animation prompt (Veo 3):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 
 ```
 
-**🎙️ Voiceover:**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
+```
+
+```
+
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
+
+🇬🇧 EN:
+```
+
+```
+
+🇷🇺 RU:
 ```
 
 ```
@@ -168,22 +190,28 @@ Camera motion + Brain's action + facial expression + duration ~7s
 
 ## Scene 3 — Setup (14–21 sec)
 
-**Beat purpose:** introduce the concept / context.
+**Что зритель видит:** ввести концепт / контекст. Часто здесь scientist-Brain в лабе с диаграммой — даёт авторитет утверждению.
 
-**🎨 Image prompt (Nano Banana):**
-
-```
-
-```
-
-**🎬 Animation prompt (Veo 3):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 
 ```
 
-**🎙️ Voiceover:**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
+```
+
+```
+
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
+
+🇬🇧 EN:
+```
+
+```
+
+🇷🇺 RU:
 ```
 
 ```
@@ -192,22 +220,28 @@ Camera motion + Brain's action + facial expression + duration ~7s
 
 ## Scene 4 — Build-up (21–28 sec)
 
-**Beat purpose:** add the first piece of the explanation.
+**Что зритель видит:** добавить первую часть объяснения. Часто extreme close-up на детали (ухо, глаз, лапа) — визуально иллюстрирует механизм.
 
-**🎨 Image prompt (Nano Banana):**
-
-```
-
-```
-
-**🎬 Animation prompt (Veo 3):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 
 ```
 
-**🎙️ Voiceover:**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
+```
+
+```
+
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
+
+🇬🇧 EN:
+```
+
+```
+
+🇷🇺 RU:
 ```
 
 ```
@@ -216,22 +250,28 @@ Camera motion + Brain's action + facial expression + duration ~7s
 
 ## Scene 5 — Core explanation (28–35 sec)
 
-**Beat purpose:** deliver the key insight visually.
+**Что зритель видит:** доставить ключевое озарение визуально. Triptych / диаграмма / split-screen — то ради чего зритель и пришёл.
 
-**🎨 Image prompt (Nano Banana):**
-
-```
-
-```
-
-**🎬 Animation prompt (Veo 3):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 
 ```
 
-**🎙️ Voiceover:**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
+```
+
+```
+
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
+
+🇬🇧 EN:
+```
+
+```
+
+🇷🇺 RU:
 ```
 
 ```
@@ -240,22 +280,28 @@ Camera motion + Brain's action + facial expression + duration ~7s
 
 ## Scene 6 — Twist / aha moment (35–42 sec)
 
-**Beat purpose:** the "wow" payoff. Brain reacts mind-blown.
+**Что зритель видит:** "вау"-пэйофф. Pattern interrupt — slo-mo, dramatic zoom, или Brain в реакции jaw-drop / dilated eyes. Эмоциональный пик видео.
 
-**🎨 Image prompt (Nano Banana):**
-
-```
-
-```
-
-**🎬 Animation prompt (Veo 3):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 
 ```
 
-**🎙️ Voiceover:**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
+```
+
+```
+
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
+
+🇬🇧 EN:
+```
+
+```
+
+🇷🇺 RU:
 ```
 
 ```
@@ -264,22 +310,28 @@ Camera motion + Brain's action + facial expression + duration ~7s
 
 ## Scene 7 — Bonus fact / contrast (42–49 sec)
 
-**Beat purpose:** one extra surprising fact that reinforces the topic.
+**Что зритель видит:** один дополнительный удивительный факт усиливающий тему. Контраст / bonus / эволюционный или биологический "why" в виде thought-bubble или contemplative pose.
 
-**🎨 Image prompt (Nano Banana):**
-
-```
-
-```
-
-**🎬 Animation prompt (Veo 3):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 
 ```
 
-**🎙️ Voiceover:**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
+```
+
+```
+
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
+
+🇬🇧 EN:
+```
+
+```
+
+🇷🇺 RU:
 ```
 
 ```
@@ -288,69 +340,77 @@ Camera motion + Brain's action + facial expression + duration ~7s
 
 ## Scene 8 — CTA / outro (49–56 sec)
 
-**Beat purpose:** wink at camera, call to follow. Keep it ≤ 6 sec.
+**Что зритель видит:** подмигивание в камеру, CTA на подписку. ≤ 6 сек. Обычно используется универсальный Sc 8 клип (slow blink + meow) — генерится один раз и переиспользуется.
 
 > **End card:** after Scene 8, append the reusable Brain end card (Thanks For Watching + Like + Subscribe). See [end-card.md](./end-card.md) for the prompts. Use **Short variant (3 sec)** by default to keep total runtime under 60 sec.
 
-**🎨 Image prompt (Nano Banana):**
+**🎨 Image-промт для Nano Banana** (копи-паст в Nano Banana как промт сцены):
 
 ```
 
 ```
 
-**🎬 Animation prompt (Veo 3):**
+**🎬 Animation-промт для Veo 3** (копи-паст в Veo 3 чтобы оживить картинку из Nano Banana):
 
 ```
 
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
+🇬🇧 EN:
+```
+
+```
+
+🇷🇺 RU:
 ```
 
 ```
 
 ---
 
-## 🎵 Music Prompt (paste into Suno / Udio / Mubert / Google Vids TTS Music)
+## 🎵 Промт для музыки (Suno / Udio / Mubert)
 
-Write a single instrumental music prompt for the whole 60-sec video. Specify mood, instruments, BPM, build-up moments, no vocals, royalty-free.
+**Логика трека** — опиши как музыка должна развиваться по таймлайну: открытие → нарастание → пэйофф → resolve. Это даст Suno чёткую структуру вместо плоского лупа.
 
-```
-
-```
-
-**Alt prompt (shorter, for tools with character limits):**
+**Полный промт** (копи-паст в Suno, английский — модель лучше понимает EN):
 
 ```
 
 ```
 
-## Assembly in Google Vids
+**Альт-промт** (если Suno просит покороче):
 
-1. Upload all 8 animated clips in order (Scene 1 → Scene 8)
-2. Add VO track from TTS (one continuous file is easier — split clips if needed to match)
-3. Add music track at -18 LUFS, voice at -12 LUFS (~6 dB voice over music)
-4. Add burn-in captions, top third of frame, max 4 words on screen
-5. Add SFX cues per editing notes below
+```
 
-## Editing Notes
+```
 
-- Cut between scenes with hard cuts or whip-pans
-- Burn-in subtitles (max 4 words on screen at a time, top third)
-- Voice -12 LUFS, music -18 LUFS
-- Add SFX: whoosh on transitions, ding on aha moment, meow on CTA
+## Сборка в Google Vids
 
-## SEO Pack
+1. Загрузить все 8 анимированных клипов по порядку (Scene 1 → Scene 8)
+2. Добавить VO-трек из TTS (один цельный файл проще — но при нужде делить под клипы)
+3. Музыка на -18 LUFS, голос на -12 LUFS (~6 dB голос над музыкой)
+4. Burn-in субтитры, верхняя треть, максимум 4 слова на экране за раз
+5. Добавить SFX-cues по заметкам монтажа ниже
 
-> **vidIQ optimization rules (target 80+/100):**
-> - **Title:** 40–70 chars, include main keyword (`cat psychology` always for this channel), use `|` to add the niche tag, end with 🐱
-> - **Description:** ≥ 250 chars, repeat main keyword 2–3 times, include 5+ supporting keywords, include emoji, end with hashtag block + follow CTA
-> - **Tags:** 20–25 tags, mix broad (1 word) + medium (2 words) + long-tail (3–5 words), total under 450 chars
-> - **Hashtags in title bar:** only first 3 show under title — pick the 3 strongest, `#shorts` always first
-> - Always include: `cat psychology, cat facts, cat behavior, brain cat, did you know, mind blowing facts`
+## Заметки по монтажу — общие
 
-**Final title** (40–70 chars, end with `🐱 | Cat Psychology`):
+- Резать сцены хард-cut'ами или whip-pan'ами
+- Burn-in субтитры (макс 4 слова за раз, верхняя треть)
+- Голос -12 LUFS, музыка -18 LUFS
+- SFX: whoosh на переходах, ding на момент-озарение, meow на CTA
+
+## SEO Pack (для загрузки на YouTube — копи-паст)
+
+> **Правила vidIQ-оптимизации (целимся в 80+/100):**
+> - **Title:** 40–70 символов, главный ключ внутри (`cat psychology` для этого канала всегда), через `|` ниша-тег, заканчиваем 🐱. **БЕЗ хэштегов в title по правилу Карены — они убивают retention Shorts.**
+> - **Description:** ≥ 250 символов, главный ключ повторить 2–3 раза, включить 5+ supporting keywords, emoji, в конце блок хэштегов + CTA на подписку
+> - **Tags:** 20–25 тегов, микс broad (1 слово) + medium (2 слова) + long-tail (3–5 слов), заполнять до 500 символов
+> - Всегда базовый набор: `cat psychology, cat facts, cat behavior, brain cat, did you know, mind blowing facts`
+> - Обязательные channel-wide (Карена): `braincatai, cat facts mind blowing, cat behavior explained`
+
+**Финальный title** (40–70 символов, заканчивается `🐱 | Cat Psychology`):
 
 ```
 
@@ -362,14 +422,14 @@ Write a single instrumental music prompt for the whole 60-sec video. Specify moo
 #shorts #catpsychology #catfacts
 ```
 
-Alt titles to A/B test:
+Альт-титлы для A/B-теста:
 
 ```
 
 
 ```
 
-**Description (≥ 250 chars, repeat main keyword 2–3×):**
+**Description** (≥ 250 символов, главный ключ повторить 2–3×, копи-паст в YouTube):
 
 ```
 
@@ -379,31 +439,31 @@ Alt titles to A/B test:
 #shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts
 ```
 
-**Tags (paste comma-separated into YouTube tags field — base set + 5–10 video-specific):**
+**Tags** (через запятую в поле тегов YouTube — базовый набор + 5–10 видео-специфичных):
 
-Base set (always include):
+Базовый набор (всегда включать):
 
 ```
 cat psychology, cat facts, cat behavior, cat secrets, cat science, cat communication, cat body language, feline behavior, understanding cats, facts about cats, animal facts, animal science, did you know, mind blowing facts, brain cat, cat facts daily, cat behavior funny, cat domestication, cats vs humans
 ```
 
-Video-specific (add 5–10 long-tail tags matching this video):
+Video-specific (5–10 long-tail тегов под именно это видео):
 
 ```
 
 ```
 
-**Extended hashtag set (for description body):**
+**Расширенный набор хэштегов** (только в тело описания — НИКОГДА в title по правилу Карены):
 
 ```
 #shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts
 ```
 
-**Thumbnail concept (1-line summary):**
+**Концепт тумбнейла (1 строкой):**
 
 > 
 
-**🖼️ Thumbnail prompt (Nano Banana — channel-locked typography):**
+**🖼️ Промт для тумбнейла** (Nano Banana — channel-locked шрифт, копи-паст):
 
 ```
 Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 thumbnail composition.
@@ -429,16 +489,32 @@ LANGUAGE RULE (strict): All on-screen text in ENGLISH only. NO Russian text, NO 
 
 ---
 
-## Post-publish metrics
+## 📌 Закрепляемый комментарий (Pinned comment)
 
-| Metric | 48h | 7d | 30d |
-|--------|-----|----|----|
-| Views  |     |    |    |
-| Avg view duration |  |  |  |
-| Retention % |       |    |    |
-| Likes  |     |    |    |
-| Shares |     |    |    |
-| Comments |   |    |    |
-| Subs gained |       |    |    |
+Постится от имени канала под видео сразу после публикации → ⋮ → Pin. Отвечать на первые 10-20 ответов в первый час чтобы удвоить engagement. Каждый закреп заканчивается вопросом / эмодзи-кнопкой / интерактивом который легко ответить с телефона. **Также добавить в [`pinned-comments.md`](../pinned-comments.md)** как очередную пронумерованную запись.
 
-### Notes — what worked / what didn't
+🇬🇧 EN:
+```
+
+```
+
+🇷🇺 RU (для RU-зеркала):
+```
+
+```
+
+---
+
+## Метрики после публикации
+
+| Метрика | 48ч | 7 дней | 30 дней |
+|---------|-----|--------|---------|
+| Просмотры |   |        |         |
+| Средняя продолжительность просмотра |  |  |  |
+| Retention % |   |        |         |
+| Лайки |       |        |         |
+| Шеры |        |        |         |
+| Комментарии | |        |         |
+| Подписчики прибавилось | |     |    |
+
+### Заметки — что сработало / что нет

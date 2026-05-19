@@ -68,6 +68,8 @@ Locked human owner: adult woman ~30 years old, long chestnut-brown wavy hair (mi
 
 ## Полный VO (целиком на всё видео — для общего обзора)
 
+**🇬🇧 English (основной канал @braincatai):**
+
 ```
 5 signs your cat doesn't love you. Sign 5 will hurt.
 
@@ -86,7 +88,27 @@ But — if your cat does NONE of these — you're loved. Trust me.
 Want the 5 signs your cat DOES love you? Follow Brain.
 ```
 
-_Подсчёт слов: ~125 на 8 сцен, по 11-17 слов на сцену, каждый ≤ 7.5 сек произнесения._
+**🇷🇺 Русская версия (для возможного RU-зеркала канала — там кошатников больше):**
+
+```
+5 признаков что кот тебя НЕ любит. Пятый — жесть.
+
+Раз — уши прижаты когда ты заходишь. Это не уважение. Это страх.
+
+Два — хвост поджат под живот. Тревога. Не любовь.
+
+Три — никогда не моргает медленно. Коты любят глазами. А твой — нет.
+
+Четыре — убегает прятаться когда ты входишь. Чистое избегание.
+
+Пять — шипит или бьёт лапой когда гладишь. Самое чёткое «нет» по-кошачьи.
+
+Но — если кот не делает НИЧЕГО из этого — ты любим. Поверь.
+
+Хочешь 5 признаков что кот тебя ЛЮБИТ? Подпишись на Brain.
+```
+
+_Подсчёт слов: ~125 EN на 8 сцен, по 11-17 слов на сцену, каждый ≤ 7.5 сек произнесения. RU чуть короче по слогам — комфортно влезает в те же 7 сек._
 
 ---
 
@@ -142,8 +164,14 @@ STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft d
 
 **🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
+🇬🇧 EN:
 ```
 5 signs your cat doesn't love you. Sign 5 will hurt.
+```
+
+🇷🇺 RU:
+```
+5 признаков что кот тебя НЕ любит. Пятый — жесть.
 ```
 
 **Заметки по монтажу:** TIME 0-0.5 сек — БЕЗ звука, только визуальный recoil. На 0.5 сек резкий "WHIP" SFX синхронно с моментом прижатия ушей. На 1.5 сек влетает текст-плита "5 SIGNS YOUR CAT DOESN'T LOVE YOU" с thud-SFX, VO стартует на 2-й секунде. Фраза "Sign 5 will hurt" ложится на 5-6 сек на мягком tension-droне. **Этот крюк = retention-бомба. Резать чётко, без вздохов, без мягкого входа.**
@@ -188,8 +216,14 @@ STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft d
 
 **🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
+🇬🇧 EN:
 ```
 One — ears slammed flat when you walk in. That's not respect. That's fear.
+```
+
+🇷🇺 RU:
+```
+Раз — уши прижаты когда ты заходишь. Это не уважение. Это страх.
 ```
 
 **Заметки по монтажу:** мягкий "ding" на появлении "1". Лёгкая tension-подложка. Опционально: подпись "EARS FLAT = FEAR" в том же locked-шрифте справа.
@@ -238,8 +272,14 @@ STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft d
 
 **🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
+🇬🇧 EN:
 ```
 Two — tail tucked tight under the body. Anxiety. Not affection.
+```
+
+🇷🇺 RU:
+```
+Два — хвост поджат под живот. Тревога. Не любовь.
 ```
 
 **Заметки по монтажу:** мягкий "ding" на появлении "2". Опционально: подпись "TAIL TUCKED = ANXIETY" справа.
@@ -288,8 +328,14 @@ STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft d
 
 **🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
+🇬🇧 EN:
 ```
 Three — they never slow blink at you. Cats love with their eyes. Yours don't.
+```
+
+🇷🇺 RU:
+```
+Три — никогда не моргает медленно. Коты любят глазами. А твой — нет.
 ```
 
 **Заметки по монтажу:** мягкий "ding" на появлении "3", снизу низкий холодный sustained-тон. Неморгающий взгляд — это весь импакт сцены, дать ему дышать с минимумом SFX.
@@ -338,8 +384,14 @@ STYLE: Pixar 3D render, cinematic warm afternoon daylight with deep contrast sha
 
 **🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
+🇬🇧 EN:
 ```
 Four — they run and hide every time you enter the room. Pure avoidance.
+```
+
+🇷🇺 RU:
+```
+Четыре — убегает прятаться когда ты входишь. Чистое избегание.
 ```
 
 **Заметки по монтажу:** мягкий "ding" на "4". Мягкий "whoosh" SFX на 0 сек как намёк что Brain только что забежал под кресло. Низкий sustained tension снизу. Опционально: подпись "AVOIDANCE = NO BOND" справа.
@@ -392,8 +444,14 @@ STYLE: Pixar 3D render, cinematic warm afternoon daylight, vertical 9:16, soft d
 
 **🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
+🇬🇧 EN:
 ```
 Five — they hiss or swat when you try to pet them. The clearest "NO" in cat.
+```
+
+🇷🇺 RU:
+```
+Пять — шипит или бьёт лапой когда гладишь. Самое чёткое «нет» по-кошачьи.
 ```
 
 **Заметки по монтажу:** мягкий "ding" на "5". Резкий "swat" SFX (лёгкий мульт-свуш) на 2-2.5 сек. Поп-SFX "OUCH" на 1.8 сек. **Это сцена-пэйофф — таймингу быть плотным, без зазоров. Обещанное "sign 5 will hurt" приземляется именно здесь.**
@@ -440,8 +498,14 @@ STYLE: Pixar 3D render with warm emotional glow, cinematic warm afternoon daylig
 
 **🎙️ Voiceover для этой сцены** (озвучка через Google Vids TTS):
 
+🇬🇧 EN:
 ```
 But — if your cat does NONE of these — you're loved. Trust me.
+```
+
+🇷🇺 RU:
+```
+Но — если кот не делает НИЧЕГО из этого — ты любим. Поверь.
 ```
 
 **Заметки по монтажу:** музыка переключается на тёплый мажорный resolve. Мягкий "blink"-chime синхронно с slow-blinkом. Мягкий "heart pop" SFX (лёгкий пастельный pluck) на 2.5 сек. **Это эмоциональный пэйофф который двигает шеры — "я шерю это потому что МОЙ кот меня любит". Дать ему дышать.**
@@ -456,10 +520,16 @@ But — if your cat does NONE of these — you're loved. Trust me.
 
 В Google Vids: кидаем `assets/universal-scene-8.mp4` сюда как 7-секундный клип Sc 8. Опционально: текстовый оверлей "FOLLOW BRAIN 🐱" сверху.
 
-**🎙️ Voiceover (записать свежий в Google Vids TTS для каждого видео):**
+**🎙️ Voiceover** (записать свежий в Google Vids TTS для каждого видео):
 
+🇬🇧 EN:
 ```
 Want the 5 signs your cat DOES love you? Follow Brain.
+```
+
+🇷🇺 RU:
+```
+Хочешь 5 признаков что кот тебя ЛЮБИТ? Подпишись на Brain.
 ```
 
 > **Энд-карта:** после Sc 8 прицепляем переиспользуемую энд-карту Brain из [`end-card.md`](../end-card.md). Используем **Short variant (3 сек)**. Энд-карта тоже генерится ОДИН РАЗ и переиспользуется.
@@ -516,8 +586,14 @@ Tense cat-psychology negative-mirror score, 95 BPM, cold drone + heartbeat open 
 
 Постится от имени канала под видео сразу после публикации, затем закрепляется в три точки (⋮ → Pin):
 
+🇬🇧 EN:
 ```
 Be honest 👇 How many of these 5 signs does YOUR cat show? Drop the number — 0 means you're MAX loved 💚 5 means we need to talk 😹
+```
+
+🇷🇺 RU (для RU-зеркала):
+```
+Признайся 👇 Сколько из этих 5 признаков у твоего кота? Напиши цифру — 0 значит максимально любим 💚 5 — пора серьёзно поговорить 😹
 ```
 
 ---
