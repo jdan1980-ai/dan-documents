@@ -79,10 +79,10 @@ Continue using the original style for the videos that aren't in the new format y
 
 ### Style — locked
 
-- **Digital painting / stylized anime illustration**, NOT photoreal
-- Soft brushstrokes, painterly textures, slightly desaturated except the accent color
-- Cinematic widescreen composition (rule of thirds, deep perspective)
-- **Lone robed figure** (monk silhouette, traveler, samurai-monk) in the scene — back to camera or quarter-profile, never face-forward. Anchors human presence + scale.
+- **Studio Ghibli-inspired digital painting** — soft painterly brushwork, stylized anime aesthetic (Mononoke / Spirited Away / Howl color sensibility). NOT photoreal. Validated by the YouTube Studio AI itself as the visual code that wins the healing-frequency cluster.
+- Slightly desaturated overall except the **one dominant scene color** (see palette table below)
+- Cinematic widescreen composition (rule of thirds, deep perspective, atmospheric mist or rain)
+- **Lone robed figure** (monk silhouette, traveler, samurai-monk) at the focal third — back to camera or quarter-profile, never face-forward. Anchors human presence + scale.
 
 ### Composition rules
 
@@ -99,7 +99,8 @@ Continue using the original style for the videos that aren't in the new format y
    - 852 Hz → moonlit white-blue
 2. Lone figure positioned **at the focal third**, looking into the scene depth (sea / valley / cosmos / cityscape).
 3. Strong atmospheric depth — fog, mist, snow, neon glow, water reflections. NO crisp daylight clarity.
-4. NO text, NO logos, NO MacBook, NO modern penthouse, NO fireplace, NO desk props. These are Power Hour signals — keep them out of Healing Hour.
+4. **No in-image text** (the NanoBanana prompt forbids letters — avoids garbled-text artifact). No MacBook, no modern penthouse, no fireplace, no desk props — those are Power Hour signals.
+5. **Post-production thumbnail text overlay is ALLOWED** for Healing Hour (unlike Power Hour). Add via Canva: **1–2 words max** in a thin elegant serif font, low-saturation cream/white, placed in a quiet corner (bottom-right typical), low contrast so it reads as a tonal accent — never dominates the scene. Recommended words: `QUIET MIND` / `STILLNESS` / `BREATHE` / the Hz number itself (`528 Hz`) tucked as a small tag. The Ghibli illustration carries the click; text is whisper, not shout.
 
 ### Location bank (validated against YouTube recommendation cluster)
 
@@ -125,18 +126,33 @@ Continue using the original style for the videos that aren't in the new format y
 - **Video loop (Mode B):** Flow/Kling still works — animate 3 subtle elements (mist drift, lantern flicker, distant water ripple, robe hem in wind). Camera locked.
 - **Thumbnail:** the same NanoBanana 16:9 — illustrated style already reads as thumbnail-clickable. No Canva text overlay needed.
 
-### Title format — Healing Hour locked
+### Title format — Healing Hour (two valid variants)
 
+Both formats are validated. Pick whichever scores higher in the topic — secret-hook tends to win on outcomes that have a strong "pain" framing (overthinking, anxiety, fear), location-first tends to win on visual / spiritual outcomes (third eye, astral, cellular).
+
+**Variant A — Location-first (the 18-thumbnail recommendation pattern):**
 ```
 [Hz] Hz [LOCATION] | [SOUND MECHANISM] for [SPECIFIC OUTCOME]
 ```
+Example: `174 Hz Submerged Onsen Cave | Binaural Deep Sea Echoes for Pain Relief`
 
-All three slots are mandatory:
-- **Hz + location** → keyword + curiosity hook (e.g. `174 Hz Submerged Onsen Cave`)
-- **Sound mechanism** → binaural beats / harmonic tones / ethereal flute / astral frequencies / solfeggio tones / binaural deep sea echoes
-- **Specific outcome** → Total Body Pain Relief / Awakening Your Third Eye / Cellular Tissue Regeneration / Clearing Negative Energy Blocks / Miraculous Soul Healing / Manifesting Abundance
+**Variant B — Secret-hook (the YouTube Studio AI recommendation + our 852 Hz Monks' Secret pattern):**
+```
+[Hz] Hz | The [SECRET / ANCIENT / HIDDEN] [HOOK] to [OUTCOME] | [LOCATION] Marathon Vol. N
+```
+Examples:
+- `528 Hz | The Zen Secret to Stop Overthinking | Kyoto Garden Marathon Vol. 2`
+- `963 Hz | Ancient Monks' Way to Awaken the Third Eye | Mount Koya Marathon Vol. N`
+- `174 Hz | The Forgotten Frequency for Chronic Pain | Onsen Cave Marathon Vol. N`
 
-Avoid generic outcomes ("relaxation", "sleep music") — the cluster rewards dramatic specificity.
+Mandatory slots in both variants:
+- **Hz** → keyword volume
+- **Sound mechanism OR Secret-hook** → curiosity / authority (middle slot must do work)
+- **Specific outcome** → drama-up: "Stop Overthinking", "Total Body Pain Relief", "Awakening Your Third Eye", "Cellular Tissue Regeneration", "Clearing Negative Energy Blocks", "Miraculous Soul Healing", "Manifesting Abundance". Avoid generic outcomes ("relaxation", "sleep music").
+- **Location** → either in main slot (Variant A) or parenthetical / subtitle (Variant B)
+- **Marathon Vol. N** series tag — always, sceals serial continuity with Vol. 1
+
+Hard limit: keep the title ≤ 75 chars total so YouTube doesn't truncate on mobile.
 
 ### Series naming — Marathon Vol. N
 

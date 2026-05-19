@@ -26,6 +26,14 @@ After publish (May 10, 14:00):
 - **30d review** — June 9, 14:00 → final perf snapshot, decide if pattern goes into Power Hour series template
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `healing-hour-vol-2-528hz-kyoto-zen-garden` | 528 Hz \| Zen Secret to Stop Overthinking \| Kyoto Garden Marathon Vol. 2 | 1H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+
+## Healing Hour series — running ledger
+
+| Vol | Date | Title | Hz | Visual | Status | Views (T+5d) | Notes |
+|-----|------|-------|----|----|--------|--------------|-------|
+| 1 | 2026-05-14 | 528 Hz Japanese Zen Music Marathon \| 1 Hour Healing Uninterrupted Vol. 1 | 528 | Photoreal Tokyo Penthouse (wrong cluster) | 📤 published | **53** (stalled) | VPH = 0 by T+4d. Diagnosis: weak title (no secret-hook) + photoreal visual landed in Deep Work cluster instead of healing. Lesson → Vol. 2 fixes both. |
+| 2 | TBD (week May 20–26) | 528 Hz \| Zen Secret to Stop Overthinking \| Kyoto Garden Marathon Vol. 2 | 528 | Ghibli illustrated, monk on engawa, warm gold | 📝 script ready | — | Secret-hook title (YouTube Studio AI V1) + Ghibli illustration (validated visual cluster). Success criteria: > 60 views T+5d and VPH > 0.5 sustained. |
 
 ## Phase 1 batch — week of May 13–19
 
