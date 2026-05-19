@@ -526,9 +526,33 @@ why cats ignore you, do cats recognize their name, cats hear their name, cat ear
 #shorts #catpsychology #catfacts #catbehavior #braincatai #catscience
 ```
 
-**Thumbnail concept:**
+**Thumbnail concept (1-line summary):**
 
-Brain extreme close-up in 3/4-from-behind angle, one ear visibly FLICKED BACK with motion-blur trail, vivid emerald eye glancing over shoulder at camera with knowing smug expression. Pastel-pink "BRAIN!" sound-wave drifting in from upper-left. Two-line text plate at bottom 25% in locked typography (Poppins Black, pastel yellow #FFE066, thick black outline): line 1 **"NOT IGNORING"**, line 2 **"YOU 👂"**. Small white curved arrow pointing from text up toward Brain's flicked ear. Soft warm daylight bokeh background.
+> Brain 3/4-from-behind close-up, one ear FLICKED BACK with motion trail, smug emerald eye glancing over shoulder at camera. Pastel-pink "BRAIN!" sound-wave from upper-left. Bottom text plate: "NOT IGNORING / YOU 👂".
+
+**🖼️ Thumbnail prompt (Nano Banana — channel-locked typography):**
+
+```
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 thumbnail composition.
+
+THUMBNAIL FRAMING: Brain face captured in 3/4-from-behind angle, head turned a fraction back toward camera so ONE vivid emerald green eye glances over his shoulder at viewer with a knowing smug "I heard you, I'm not coming" expression, small smirk in closed mouth. Brain's face fills ~60% of frame, slight tilt 2-4°. His LEFT ear (the one facing camera) is captured at the inflection of a tiny back-flick, with a soft white motion-blur trail behind the ear emphasizing the twitch. Small white curved arrow callout pointing from the text plate up toward Brain's flicked ear. Drifting in from the upper-left edge of frame: a soft glowing pastel-pink cartoon SPEECH sound-wave shaped like a stylized "BRAIN!" voice-call (curved wave-ribbon with small sparkle particles), clearly stylized as a 2D cartoon overlay. Background: soft warm honey-amber bokeh of the cozy living room (sage-green rug + cream armchair + window light suggested but heavily blurred), shallow depth of field.
+
+TEXT PLATE (bottom 25% of frame, centered): 2 lines, ALL CAPS, slight 2-3° tilt, Electric Yellow #FFD23F fill with solid charcoal #2B2B2B outline 5px, soft black drop-shadow 4px y-offset 30% opacity. Lines:
+LINE 1: "NOT IGNORING"
+LINE 2: "YOU 👂"
+
+TYPOGRAPHY LOCK (strict — same font in every thumbnail across this channel): Rendered in BOLD ROUNDED GEOMETRIC SANS-SERIF font (Nunito Bold / Fredoka One / Bangers look — soft rounded terminals, NO serifs, NO brush-script, NO hand-drawn, NO Comic Sans, NO Papyrus, NO Impact). Single font family across both lines. NEVER mix fonts.
+
+EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84). NOT brown, NOT amber.
+ANATOMY RULE (strict): EXACTLY 4 paws AND EXACTLY 2 EARS. NO 5th paw, NO phantom 3rd ear, NO extra fur tuft.
+LANGUAGE RULE (strict): All on-screen text in ENGLISH only. NO Russian text, NO Cyrillic letters.
+```
+
+**Negative prompts (Nano Banana — thumbnail):**
+
+```
+2D flat, anime, photorealistic cat, multiple cats, low quality, blurry, cluttered background, busy background, distorted face, extra limbs, extra paws, five legs, three ears, extra ear, phantom ear, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, yellow eyes, hazel eyes, mouth open as if talking, talking cat, serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, gradient text, neon text, metallic text, multiple fonts, mixed typography, sharp serifs on text, calligraphy, Russian text, Cyrillic letters, ugly, scary, watermark, logo
+```
 
 ---
 

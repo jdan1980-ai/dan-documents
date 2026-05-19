@@ -399,9 +399,33 @@ Video-specific (add 5–10 long-tail tags matching this video):
 #shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts
 ```
 
-**Thumbnail concept:**
+**Thumbnail concept (1-line summary):**
 
 > 
+
+**🖼️ Thumbnail prompt (Nano Banana — channel-locked typography):**
+
+```
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 thumbnail composition.
+
+THUMBNAIL FRAMING: Brain face fills ~60% of frame, slight tilt 2-4°, expressive [SHOCK / WOW / SMUG / WINK] reaction. Background soft warm bokeh of [LOCATION], heavy depth-of-field. Small [ICON / ARROW / SOUND-WAVE / THOUGHT-BUBBLE] callout near Brain's [EAR / EYE / PAW] pointing to the hook beat.
+
+TEXT PLATE (bottom 25% of frame, centered): 2 lines max, ALL CAPS, Electric Yellow #FFD23F fill with solid charcoal #2B2B2B outline 5px, soft black drop-shadow 4px y-offset 30% opacity. Slight 2-3° tilt. Lines:
+LINE 1: "[HOOK WORD]"
+LINE 2: "[PAYOFF WORD] [🐱 / 👂 / 💚]"
+
+TYPOGRAPHY LOCK (strict — same font in every thumbnail across this channel): Rendered in BOLD ROUNDED GEOMETRIC SANS-SERIF font (Nunito Bold / Fredoka One / Bangers — soft rounded terminals, NO serifs, NO brush-script, NO hand-drawn, NO Comic Sans, NO Papyrus, NO Impact). Single font family across both lines. NEVER mix fonts.
+
+EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84). NOT brown, NOT amber.
+ANATOMY RULE (strict): EXACTLY 4 paws AND EXACTLY 2 EARS. NO 5th paw, NO phantom 3rd ear, NO extra fur tuft.
+LANGUAGE RULE (strict): All on-screen text in ENGLISH only. NO Russian text, NO Cyrillic letters.
+```
+
+**Negative prompts (Nano Banana — thumbnail):**
+
+```
+2D flat, anime, photorealistic cat, multiple cats, low quality, blurry, cluttered background, busy background, distorted face, extra limbs, extra paws, five legs, three ears, extra ear, phantom ear, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, yellow eyes, hazel eyes, mouth open as if talking, talking cat, serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, gradient text, neon text, metallic text, multiple fonts, mixed typography, sharp serifs on text, calligraphy, Russian text, Cyrillic letters, ugly, scary, watermark, logo
+```
 
 ---
 
