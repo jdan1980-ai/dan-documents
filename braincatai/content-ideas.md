@@ -12,7 +12,7 @@ Animated AI cat Shorts • Education style • Vertical 9:16 • 30–60 sec
 
 | # | Slug | EN angle (для нашего канала) | Views | Hook-type |
 |---|------|------------------------------|-------|-----------|
-| 1 | `signs-cat-doesnt-love-you` | 5 Signs Your Cat Secretly Hates You 🐱 | **8.8M** | negative-mirror (сильнейший hook) |
+| 1 | ✅ `signs-cat-doesnt-love-you` | 5 Signs Your Cat DOESN'T Love You 🐱 (script done — 21 мая publish) | **8.8M** | negative-mirror (сильнейший hook) — vidIQ 67.55 GREEN / 14,333 monthly |
 | 2 | `what-people-cats-love` | 5 People Cats Pick as THEIR Human | **5.6M** | relational mind-blow |
 | 3 | `how-cats-feel-when-you-hug` | What Your Cat Feels When You Hug It (NOT Love) | 3.7M | counter-intuitive |
 | 4 | `what-cats-do-home-alone` | What Your Cat Does When You're Gone | 3.0M | curiosity-gap |

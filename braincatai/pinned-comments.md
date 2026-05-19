@@ -189,10 +189,16 @@ Does YOUR cat follow you to the bathroom every time? 🚪🐱 Drop a 🛡️ if 
 What does YOUR cat snap their head at "for no reason"? 👂 Drop a 👀 if they've stared at empty corners — trust me they hear something. And try blinking really slowly near them and watch their ears 😹
 ```
 
-### 30. Your Cat Doesn't Ignore You. This Is Why (20 мая) — Cat Psychology
+### 30. Cats Understand Their Names Better Than You Think (20 мая) — Cat Psychology
 
 ```
 Try it RIGHT NOW — call your cat's name and watch their ears 👂 If you see ANY twitch — they heard you. Drop a 👀 if their ear moved and tell me what they did instead of coming over!
+```
+
+### 31. 5 Signs Your Cat DOESN'T Love You (21 мая) — Cat Psychology / Negative-Mirror
+
+```
+Be honest 👇 How many of these 5 signs does YOUR cat show? Drop the number — 0 means you're MAX loved 💚 5 means we need to talk 😹
 ```
 
 ---

@@ -3,14 +3,37 @@
     "purpose": "Cache of vidIQ API responses (keyword research, outliers, breakout channels, channel videos) to avoid burning paid credits on repeat queries. Cat psychology niche keywords stay relevant ~30-60 days. Refresh entries older than 60 days only if you suspect drift.",
     "schema_version": "1.1",
     "created": "2026-05-17",
-    "last_updated": "2026-05-18",
-    "total_credits_spent": 155,
+    "last_updated": "2026-05-19",
+    "total_credits_spent": 160,
     "credits_saved_so_far": 0,
     "changelog": [
-      "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge."
+      "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
+      "2026-05-19: +5 credits — keyword_research 'signs your cat doesn't love you' = GREEN 67.55 / 14,333 monthly. Related '5 signs your cat doesn't love you' 66.67 / 26,837 monthly. Script approved."
     ]
   },
   "queries": [
+    {
+      "keyword": "signs your cat doesn't love you",
+      "fetched": "2026-05-19",
+      "credits_spent": 5,
+      "seed": {"volume": 62.04, "competition": 24.2, "overall": 67.55, "monthly": 14333},
+      "top_related": [
+        {"keyword": "cat behavior", "overall": 69.72, "monthly": 258971},
+        {"keyword": "cat communication", "overall": 68.97, "monthly": 26183},
+        {"keyword": "cat care", "overall": 67.26, "monthly": 44753},
+        {"keyword": "5 signs your cat doesn't love you", "overall": 66.67, "monthly": 26837},
+        {"keyword": "cat affection", "overall": 63.76, "monthly": 9931},
+        {"keyword": "why does my cat bite me", "overall": 60.49, "monthly": 19847},
+        {"keyword": "cat behaviour", "overall": 60.01, "monthly": 47568},
+        {"keyword": "why cats ignore you", "overall": 59.47, "monthly": 8757},
+        {"keyword": "the feline world", "overall": 59.84, "monthly": 3779},
+        {"keyword": "cat lovers tv", "overall": 57.73, "monthly": 9176},
+        {"keyword": "signs your cat hates you", "overall": 56.13, "monthly": 4378},
+        {"keyword": "cats 101", "overall": 54.87, "monthly": 4216}
+      ],
+      "verdict": "GREEN — seed 67.55 / 14k monthly. EXACT-MATCH '5 signs your cat doesn't love you' 66.67 / 26.8k monthly is the title-form to use. Competitor @williamcat 8.8M proof on identical negative-mirror format.",
+      "notes": "Approved 19 мая 2026 for 21 May publish. Slug: signs-cat-doesnt-love-you. Use title '5 Signs Your Cat DOESN'T Love You'. Harvest related for future videos: cat affection (paired LOVE-signs video), why does my cat bite me (standalone)."
+    },
     {
       "keyword": "why do cats slow blink",
       "fetched": "2026-05-17",

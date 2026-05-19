@@ -70,7 +70,8 @@ Applied channel-wide. Full spec in `CLAUDE.md` § "Shorts-specific rules".
 |------|------|------|------|-------|--------|
 | 19 мая | Вт | Cats Can Hear 5 Times What You Can | `cats-hear-you-blinking` | — | 📅 scheduled (uploaded 18 мая) |
 | 20 мая | Ср | Cats Understand Their Names Better Than You Think | `why-cats-ignore-you` | 59.47 / 8,757 | 📅 scheduled (uploaded 19 мая) |
-| 21 мая | Чт | Your Cat's Tail Is Talking. Are You Listening? | `why-cats-wag-their-tails` | 62.59 / 5,400 | ✍️ нужен скрипт |
+| 21 мая | Чт | **5 Signs Your Cat DOESN'T Love You** (negative-mirror) | `signs-cat-doesnt-love-you` | **67.55 / 14,333 GREEN** ⭐ + @williamcat 8.8M proof | ✅ скрипт готов → производство |
+| ~~21 мая~~ | ~~Чт~~ | ~~Your Cat's Tail Is Talking~~ | ~~`why-cats-wag-their-tails`~~ | 62.59 / 5,400 | ⏸️ отложено (swapped for GREEN negative-mirror) |
 | 22 мая | Пт | Your Cat Invented a Language Just for YOU | `why-cats-meow-only-at-humans` | 60.70 / 3,685 | ✍️ нужен скрипт |
 | 23 мая | Сб | When Your Cat Stretches at You, It's Saying This | `why-cats-stretch-at-you` | 60.13 / 5,378 | ✍️ нужен скрипт |
 | 24 мая | Вс | Why Your Cat Acts Like Water Is Poison | `why-cats-hate-water` | 60.88 / 3,659 | ✍️ нужен скрипт |
