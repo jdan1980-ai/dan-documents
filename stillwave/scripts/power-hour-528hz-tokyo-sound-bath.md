@@ -25,12 +25,13 @@ This video and Healing Hour Vol. 1 (Ghibli Kyoto Garden) are BOTH 528 Hz. They m
 ## 1. 📝 New title (keyword-front-loaded)
 
 ```
-528 Hz Healing Frequency | Tokyo Sound Bath for Deep Sleep & Anxiety Relief
+528 Hz Deep Sleep Music | Tokyo Sound Bath for Anxiety Relief & Healing
 ```
 
-- `528 Hz Healing Frequency` — 220k searches/mo, competition 30 (the channel's best keyword)
-- `Tokyo Sound Bath` — Power Hour penthouse brand + "sound bath" (55k/mo), matches the singing bowl on the table
-- `Deep Sleep & Anxiety Relief` — high-volume outcomes ("sleep" + "anxiety relief music"), distinct from the Ghibli video's "Stop Overthinking"
+- `528 Hz Deep Sleep Music` — front-loads 528 Hz + "deep sleep music" (huge search volume, and exactly the video's outcome)
+- `Tokyo Sound Bath` — Power Hour penthouse brand + the singing bowl on the table
+- `Anxiety Relief & Healing` — secondary outcomes, distinct from the Ghibli video's "Stop Overthinking"
+- **VidIQ title score 75** (beat the earlier "Healing Frequency | … Deep Sleep & Anxiety Relief" version at 63). No Vol. number — the Power Hour playlist provides the grouping.
 
 **A/B variant:**
 ```
