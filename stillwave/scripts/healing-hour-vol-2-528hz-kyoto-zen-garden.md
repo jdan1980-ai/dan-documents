@@ -100,7 +100,55 @@ The loop must be PERFECTLY SEAMLESS — the last frame matches the first frame, 
 Studio Ghibli quality painterly illustration, 16:9 aspect, 4K, dreamy contemplative Kyoto golden-hour mood. Three visible motion elements: (1) rain pouring, (2) kakei water stream flowing into basin with ripples, (3) stone lantern flame flickering. Everything else perfectly still.
 ```
 
-## 6. 🛠️ ffmpeg encode command (loop the 8-sec video to 1H + audio)
+## 5b. 🎚️ Audio assembly — 3-layer mix (17 tracks + rain + kakei)
+
+> The final audio is **three layers stacked**:
+> 1. **Music bed** — the 17 Suno tracks concatenated in order (total 1:02:24)
+> 2. **Rain layer** — one continuous rain ambience running the full hour, ON TOP
+> 3. **Kakei water layer** — one continuous bamboo-spout-into-stone-basin trickle running the full hour, ON TOP
+>
+> **Why the two ambience layers span the WHOLE hour (not per-track):** each Suno track fades its own rain in and out, so at the 16 track joins the rain would dip and expose a seam. A single unbroken rain + kakei bed laid over all 17 tracks masks every join — the hour becomes one continuous space. It also matches the Flow video loop exactly (rain pouring + water flowing), so audio and visual move together.
+
+### CapCut method (primary — matches our pipeline)
+
+1. Drop the **17 Suno tracks** end-to-end on audio track 1, in tracklist order. No gaps, no crossfades needed (the rain bed hides the joins) — but a 0.3 sec crossfade between tracks doesn't hurt.
+2. On audio track 2, add a **rain ambience** clip and loop/extend it to cover the full 1:02:24. Keep it continuous — no fades except a 3-sec fade-in at 0:00 and 5-sec fade-out at the very end.
+3. On audio track 3, add a **kakei water trickle** clip, loop/extend to full length, continuous.
+4. Levels (relative): music **0 dB** (reference) · rain **−8 to −10 dB** (present but under the music — "rain dominates texture" but never buries the koto) · kakei **−14 to −16 dB** (subtle, a detail you notice when you listen for it).
+5. Export master WAV/MP3 → this becomes `healing-hour-vol-2-528hz.mp3` fed into the ffmpeg video encode (section 6).
+
+### ffmpeg method (alternative / precise)
+
+```bash
+# Step 1 — concatenate the 17 Suno tracks into one music bed
+#   (create tracklist.txt with: file 'track01.mp3'  ... file 'track17.mp3')
+ffmpeg -f concat -safe 0 -i tracklist.txt -c copy music-bed.mp3
+
+# Step 2 — mix music bed + continuous rain + continuous kakei
+ffmpeg -i music-bed.mp3 -stream_loop -1 -i rain.mp3 -stream_loop -1 -i kakei.mp3 \
+  -filter_complex "\
+    [0:a]volume=1.0[m]; \
+    [1:a]volume=0.40[r]; \
+    [2:a]volume=0.20[w]; \
+    [m][r][w]amix=inputs=3:duration=first:normalize=0[mix]; \
+    [mix]afade=t=in:st=0:d=3,afade=t=out:st=3739:d=5,alimiter=limit=0.95[out]" \
+  -map "[out]" -t 3744 healing-hour-vol-2-528hz.mp3
+```
+
+Notes:
+- `normalize=0` keeps each layer at its set volume (amix otherwise divides everything by 3 and the mix goes quiet).
+- `volume=0.40` rain ≈ −8 dB, `volume=0.20` kakei ≈ −14 dB — tweak to taste.
+- `alimiter=limit=0.95` prevents clipping when all three peak together.
+- `afade out st=3739 d=5` fades the last 5 seconds (3744 − 5).
+- Both `rain.mp3` and `kakei.mp3` are `-stream_loop -1` so they don't need to be pre-cut to length.
+
+### Sourcing the two ambience beds
+
+- **Rain:** a soft steady rain-on-foliage / rain-on-stone loop (no thunder, no heavy downpour, no wind gusts). Must be a clean seamless loop or a single take ≥ 1:02:24.
+- **Kakei:** a continuous bamboo-spout-trickle-into-stone-basin recording (shishi-odoshi recordings won't fit — we need the steady trickle, not the periodic knock). A gentle water-into-water trickle works.
+- Keep both **mono or narrow stereo** and pan-center so they sit as a bed under the wider music.
+
+---
 
 ```bash
 ffmpeg -stream_loop -1 -i healing-hour-vol-2-528hz-loop.mp4 -i healing-hour-vol-2-528hz.mp3 \
