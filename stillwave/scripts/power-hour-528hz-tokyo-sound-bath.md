@@ -87,13 +87,13 @@ Dim the lights. Lie down. Let the city blur into bokeh and the bowl do the rest.
 
 > ⚠️ Tracklist timestamps match the 1:02:24 / 17-track arrangement. If the published video's length differs, adjust the times — YouTube auto-detects chapters only if the first line is exactly `0:00` and times ascend with each ≥ 10 sec.
 
-## 3. 🏷️ New tags (Power Hour / sleep / anxiety / 528 Hz)
+## 3. 🏷️ New tags (Karena 20/20/40-50, ~460 chars)
 
 ```
-528 hz, 528 hz healing frequency, 528hz, healing frequency, meditation music, sleep music, deep sleep music, sleep meditation, anxiety relief music, anxiety relief, healing music, relaxing music, calm music, stress relief music, sound healing, sound bath, 528 hz meditation music, sleep sounds, relaxation music, japanese ambient
+stillwave, stillwave 528 hz, tokyo sound bath, stillwave meditation, sleep music, meditation music, healing music, relaxing music, 528 hz, sound healing, deep sleep, 528 hz deep sleep music, 528 hz healing frequency, 528 hz anxiety relief, tibetan singing bowl meditation, tokyo night meditation music, singing bowl sleep music, 528 hz sound bath, solfeggio sleep music, japanese ambient sleep music, anxiety relief music, 528hz sleep music, nervous system reset
 ```
 
-> Swapped the old Healing Hour tags (kyoto / zen garden / stop overthinking) for sleep + anxiety + relaxation, which match the new outcome and the Power Hour audience. Kept the high-volume 528 Hz cluster (the keyword that actually pulls search).
+> Per Karena playbook: **brand ~20%** (stillwave, stillwave 528 hz, tokyo sound bath, stillwave meditation) + **broad ~20%** (sleep music, meditation music, healing music, relaxing music) + **narrow ~50%** (the 528 hz + singing bowl + tokyo long-tails that exactly match this video). 23 tags / 462 chars (under the 500 cap).
 
 ## 4. 🎨 Thumbnail
 

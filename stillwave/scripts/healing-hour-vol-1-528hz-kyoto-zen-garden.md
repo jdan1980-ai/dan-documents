@@ -223,8 +223,10 @@ Meikyō Shisui
 "Still the water, and the mind grows clear."
 ```
 
+> ⚠️ **Karena rule #7 — first 3 sec = ~90% of retention weight.** The video must OPEN ON the full scene with sound already playing — **NO fade-in from black at 0:00**. The first frame is the lit garden + rain + temple bell, immediately. The wisdom text comes AFTER the hook lands (0:03), never before — it must not delay or cover the opening.
+
 **Timing:**
-- `0:00–0:03` — no text. Garden + temple bell + rain begin. Atmosphere lands first.
+- `0:00–0:03` — NO text, NO black fade. Full scene + temple bell + rain are already there at frame 1. The hook IS the immediate atmosphere.
 - `0:03–0:05` — text fades IN (2-second gentle fade)
 - `0:05–0:11` — text holds, fully readable
 - `0:11–0:14` — text fades OUT (3-second gentle fade)
@@ -308,12 +310,12 @@ This is the first entry in our 1 Hour Healing Uninterrupted series. Each volume 
 
 > ✅ **Timestamps confirmed** from the final CapCut arrangement — 17 tracks, total length **1:02:24** (3744 sec). Chapter starts are the END time of the previous track. YouTube auto-detects chapters because the first line is exactly `0:00` and entries ascend with each ≥ 10 sec. Track durations range 2:24–4:27.
 
-## 9. 🏷️ Tags (22 tags — ~430 chars — healing-cluster + Slow Living entry)
+## 9. 🏷️ Tags (Karena 20/20/40-50, ~445 chars)
 
-> Strategy: lead with **528 Hz + healing** (cluster targeting), add YouTube Studio AI's recommended outcome ("stop overthinking"), pull in MERSO's deep-focus authority tags, plus "slow living" / "kyoto" entry per YouTube AI's V2 framing, plus our Healing Hour series tag for cross-recommend with Vol. 1.
+> Per Karena playbook distribution: **brand ~20%** (stillwave, stillwave 528 hz, healing hour, stillwave healing) + **broad ~20%** (meditation music, healing music, zen music, sleep music) + **narrow ~50%** (the 528 hz + kyoto + stop-overthinking long-tails that exactly match this video). 23 tags / 445 chars (under the 500 cap).
 
 ```
-528 hz, 528 hz healing frequency, miracle frequency, solfeggio frequencies, stop overthinking, overthinking music, anxiety relief music, stress relief music, healing music, healing frequencies, zen music, japanese zen music, kyoto ambience, slow living, slow living japan, zen garden sounds, shakuhachi meditation, meditation music, mindfulness music, sleep music, deep meditation, healing hour
+stillwave, stillwave 528 hz, healing hour, stillwave healing, meditation music, healing music, zen music, sleep music, 528 hz, japanese zen music, mindfulness music, 528 hz healing frequency, 528 hz meditation music, stop overthinking music, kyoto zen garden music, zen garden meditation, japanese meditation music, 528 hz stop overthinking, calm racing thoughts music, solfeggio frequencies, 528hz, japanese ambient music, deep meditation music
 ```
 
 ### Why each tag (audit trail)
