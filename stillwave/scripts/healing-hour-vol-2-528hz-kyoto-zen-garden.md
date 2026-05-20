@@ -144,9 +144,51 @@ Notes:
 
 ### Sourcing the two ambience beds
 
-- **Rain:** a soft steady rain-on-foliage / rain-on-stone loop (no thunder, no heavy downpour, no wind gusts). Must be a clean seamless loop or a single take ≥ 1:02:24.
-- **Kakei:** a continuous bamboo-spout-trickle-into-stone-basin recording (shishi-odoshi recordings won't fit — we need the steady trickle, not the periodic knock). A gentle water-into-water trickle works.
+- **Rain:** a soft steady rain-on-foliage / rain-on-stone clip (no thunder, no heavy downpour, no wind gusts). Even 30–90 sec is enough — we make it seamless and loop it.
+- **Kakei:** a continuous bamboo-spout-trickle-into-stone-basin recording (shishi-odoshi recordings won't fit — we need the steady trickle, not the periodic knock). A gentle water-into-water trickle works. 30–90 sec is enough.
 - Keep both **mono or narrow stereo** and pan-center so they sit as a bed under the wider music.
+
+### Making each bed a SEAMLESS loop (rotate & crossfade)
+
+> The trick: cut the clip at a calm point, swap the two halves, and crossfade the join. The output then **starts and ends on the exact same sample point** of the source, so when `-stream_loop -1` repeats it, the wrap from end→start is inaudible. Do this once for `rain.wav` and once for `kakei.wav` — after that they loop forever with no click.
+
+```bash
+# Seamless-loop one ambience file.
+#   IN     = raw clip (rain.wav or kakei.wav)
+#   SPLIT  = a calm point to cut at, in seconds (use roughly half the clip)
+#   C      = crossfade length in seconds (6–8 is ideal for rain/water — long & smooth)
+IN=rain.wav; SPLIT=20; C=6
+ffmpeg -i "$IN" -i "$IN" -filter_complex "\
+  [0:a]atrim=start=${SPLIT},asetpts=PTS-STARTPTS[tail]; \
+  [1:a]atrim=end=${SPLIT},asetpts=PTS-STARTPTS[head]; \
+  [tail][head]acrossfade=d=${C}:c1=tri:c2=tri[out]" \
+  -map "[out]" rain_loop_seamless.wav
+```
+
+How it works: `[tail]` = the part AFTER the split (plays first), `[head]` = the part BEFORE the split. `acrossfade` blends tail's end into head's start, and the finished file both opens and closes on the original SPLIT sample — so the loop point is the crossfade (already smooth) and the wrap point is identical audio. Result length = original − C.
+
+Repeat for the kakei:
+
+```bash
+IN=kakei.wav; SPLIT=15; C=8
+ffmpeg -i "$IN" -i "$IN" -filter_complex "\
+  [0:a]atrim=start=${SPLIT},asetpts=PTS-STARTPTS[tail]; \
+  [1:a]atrim=end=${SPLIT},asetpts=PTS-STARTPTS[head]; \
+  [tail][head]acrossfade=d=${C}:c1=tri:c2=tri[out]" \
+  -map "[out]" kakei_loop_seamless.wav
+```
+
+Then in the section 5b mix, point `-stream_loop -1 -i rain_loop_seamless.wav` and `-stream_loop -1 -i kakei_loop_seamless.wav` — they now tile across the full 1:02:24 with no seam.
+
+> ✅ **Quick verify:** loop the result 3× and listen at the joins:
+> ```
+> ffmpeg -stream_loop 2 -i rain_loop_seamless.wav -t 60 check.wav
+> ```
+> If you hear a pulse/click at the loop point, raise `C` (longer crossfade) or pick a calmer `SPLIT`.
+
+### If you'd rather skip looping entirely
+
+Generate or download a **single continuous take ≥ 1:02:24** for each bed (rain and kakei). Long ambient recordings exist on sound libraries; with no loop, there's no seam to fix. Costs more storage but zero seam risk. Suno is NOT ideal for pure SFX beds (it injects melody) — use a rain/water field recording or an ambience generator instead.
 
 ---
 
