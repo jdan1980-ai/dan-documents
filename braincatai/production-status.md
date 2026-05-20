@@ -8,7 +8,7 @@ Single source of truth для статуса каждого видео по pipe
 
 ## 📌 Locked rules (17 мая 2026 — Karena Roshaian playbook)
 
-Applied channel-wide. Full spec in `CLAUDE.md` § "Shorts-specific rules".
+Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-playbook.md)** (всё в одном месте).
 
 - **NO hashtags in title field** — #shorts attracts bouncing audience → kills retention → algo stops promoting
 - **Tags fill toward 500 chars** — brand 20% + broad 20% + narrow-specific 40-50%. Mandatory: `braincatai`, `cat facts mind blowing`, `cat behavior explained`

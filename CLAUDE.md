@@ -174,6 +174,7 @@ Verdict: [GREEN >65 / YELLOW 50-65 / RED <50]
 **Channel:** [@braincatai](https://www.youtube.com/@braincatai) · channel ID `UCMKcrIw1l1u_WU0M9Cv-DKw` · uploads playlist `UUMKcrIw1l1u_WU0M9Cv-DKw`
 
 **Source of truth files:**
+- `braincatai/karena-playbook.md` — **🎯 ALL Karena Roshaian Shorts rules in ONE place** (8 заповедей + строгий порядок SEO Pack + почему). **Read this before any script / SEO / thumbnail / upload task.** Canonical — if it conflicts with anything else, this file wins.
 - `braincatai/director-checklist.md` — **master production playbook** with mandatory mantras, per-stage checklists, troubleshooting table, and analytics-based learnings. Read this before starting any new video.
 - `braincatai/style-guide.md` — character, color, audio, editorial, locked AI prompts
 - `braincatai/script-template.md` — copy-paste template for every new video
@@ -297,39 +298,9 @@ YouTube channel — Japanese ambient · meditation · sleep · focus music. Hand
 
 #### MANDATORY rules (do not skip)
 
-**Every time a script is created OR meaningfully edited, ALWAYS update the full SEO Pack — never skip tags.** The user has flagged this as a recurring miss. The SEO Pack must include the items in **this exact output order** (rule revised 17 мая 2026 — per Karena Roshaian Shorts-specific playbook, hashtags moved OUT of title field):
+**Every time a script is created OR meaningfully edited, ALWAYS update the full SEO Pack — never skip tags.** The user has flagged this as a recurring miss.
 
-1. **Title** (40–70 chars, end with `🐱 | Cat Psychology` for channel brand). For Shorts: **NEVER add `#shorts` or topic hashtags in the title field.** They attract international entertainment-seeking audience who bounce in <3 sec → kills retention → algorithm stops promoting. Title is title only.
-2. **Alt titles to A/B test** (optional, for variant testing)
-3. **Description** (≥ 250 chars, repeat main keyword 2–3×, include 5+ supporting keywords, end with extended hashtag block + follow CTA). For Shorts description has minimal direct effect on discovery but does feed YouTube's keyword understanding — still worth filling.
-4. **Tags** (20–25 tags, mix broad + medium + long-tail, fill toward the 500-char limit per Karena rule). The base set is **always** included:
-   ```
-   cat psychology, cat facts, cat behavior, cat secrets, cat science,
-   cat communication, cat body language, feline behavior, understanding cats,
-   facts about cats, animal facts, animal science, did you know,
-   mind blowing facts, brain cat, cat facts daily, cat behavior funny,
-   cat domestication, cats vs humans
-   ```
-   Plus mandatory adds per Karena rule (channel-wide as of 17 мая 2026):
-   ```
-   braincatai, cat facts mind blowing, cat behavior explained
-   ```
-   Then add 5–10 long-tail tags specific to the video.
-5. **Hashtags for description body only** (`#shorts #catpsychology #catfacts #catbehavior #braincatai` + video-specific). DO NOT add these to the title field.
-6. **Pinned comment** (with engagement question)
-7. **Thumbnail concept**
-
-#### 🚫 Shorts-specific rules (Karena Roshaian playbook, locked 17 мая 2026)
-
-- **NO `#shorts` in the title field** — kills retention by attracting bouncing international audience
-- **NO topic hashtags in title field either** — same retention risk + no SEO benefit on Shorts (Shorts get traffic from feed retention, not search)
-- **Upload via phone, not desktop** — only the mobile YouTube app allows manually choosing the stop-frame (thumbnail). Desktop picks a random ugly frame
-- **First publish state must be Unlisted or Scheduled, NEVER directly Public** — if you publish Public immediately, the video goes live before render completes → viewers see compressed garbage → bouncing → algorithm kills it
-- **Always set "Not for kids"** — "For kids" routes the video to YouTube Kids where target audience never finds it
-- **Always link Short to a long-form via "Related video"** — funnel: feed → Short → related long-form → description link (only long-form has clickable description links)
-- **First 3 seconds carry 90% of retention weight** — hook must have all 4: intrigue + benefit + urgency + relatability
-- **Check phone YouTube + Studio app for updates BEFORE every upload** — stale app versions break upload reliably
-- **Description body for Shorts: low ROI** — fill it but don't agonize. Tags do more work for Shorts than description.
+> 🎯 **All Karena Roshaian rules now live in ONE canonical file: [`braincatai/karena-playbook.md`](./braincatai/karena-playbook.md).** It holds the 8 Shorts commandments (no hashtags in title, phone-only upload, Unlisted/Scheduled first, Not-for-kids, related-video funnel, 3-sec hook, app-update) AND the strict SEO Pack output order (Title → Alt titles → Description → Tags → Hashtags-body-only → Pinned → Thumbnail) AND the mandatory tag sets. **Read that file before any script / SEO / thumbnail / upload task — do not make the user re-explain.** If it ever conflicts with this summary, the playbook wins.
 
 If editing the script's title, scenes, or VO, **re-verify tags reflect the new title and content**. Tags are not optional and must be reviewed on every edit.
 
