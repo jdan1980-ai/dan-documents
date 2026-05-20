@@ -1,19 +1,21 @@
-# Healing Hour Vol. 2 — 528 Hz Kyoto Zen Garden
+# Healing Hour Vol. 1 — 528 Hz Kyoto Zen Garden
 
 ## Meta
 
 - **Title:** 528 Hz Healing Frequency | Kyoto Zen Garden Meditation to Stop Overthinking
-- **Series tag:** Healing Hour Vol. 2 — now carried on the THUMBNAIL + in the description, NOT the title (title is reserved for high-volume search keywords per VidIQ channel analysis)
-- **Slug:** `healing-hour-vol-2-528hz-kyoto-zen-garden`
+- **Series tag:** Healing Hour Vol. 1 — the clean relaunch of the series in the correct Ghibli aesthetic. Series mark carried on the THUMBNAIL + in the description, NOT the title (title is reserved for high-volume search keywords per VidIQ channel analysis)
+- **Slug:** `healing-hour-vol-1-528hz-kyoto-zen-garden`
 - **Series:** Healing Hour (1 Hour Healing Uninterrupted)
 - **Format:** Long-form
 - **Length:** 1H 02min 24sec (3744 sec) — 17 Suno tracks, confirmed from final CapCut arrangement
 - **Phase:** 1
 - **Aesthetic:** Healing Hour ILLUSTRATED spec — Studio Ghibli-inspired digital painting, lone monk on kyoto matia engawa, warm gold / sunset amber palette (528 Hz)
-- **Status:** 🎨 NanoBanana 16:9 locked (picture D — monk silhouette on engawa, stone lantern lit warm amber right, kakei left, 3 stones + raked concentric circles, warm andon lantern inside matia left, pine canopy top) — awaiting Suno generation + 9:16 vertical + Flow/Kling loop
+- **Status:** 🎨 NanoBanana 16:9 locked (picture D — monk silhouette on engawa, stone lantern lit warm amber right, kakei left, 3 stones + raked concentric circles, warm andon lantern inside matia left, pine canopy top) + thumbnail done — awaiting Suno generation + 9:16 vertical + Flow/Kling loop
 - **Upload date:** TBD (week of May 20–26)
 
-> **Why this format / why 528 Hz (despite Vol. 1 = 528 Hz):** YouTube Studio AI explicitly recommends staying on 528 Hz because the search volume is highest and the cluster is fertile. Vol. 1 stalled at 53 views not because of the frequency but because of (a) generic title with no hook in the middle slot, (b) photoreal Tokyo-Penthouse visual which lands in the Deep Work cluster instead of healing. Vol. 2 fixes both: secret-hook title + Ghibli illustrated visual = correct cluster targeting.
+> **Series relaunch:** the original "528 Hz Japanese Zen Music Marathon … Vol. 1" (`-1RE1P98_u8`) has been moved OUT of Healing Hour into the Power Hour / Tokyo penthouse family (see `power-hour-528hz-tokyo-sound-bath.md`) because its photoreal penthouse visual belonged in the Deep Work cluster. Healing Hour now starts clean here, in the validated Ghibli aesthetic — this is the true Vol. 1.
+
+> **Why 528 Hz:** `528 Hz Healing Frequency` has the highest search volume on the channel (220k/mo) at low competition (30). The winning combination: keyword-front-loaded title + Ghibli illustrated visual (correct healing-frequency cluster) + a distinct outcome from the Power Hour 528 Hz video (this one owns "Stop Overthinking", the Power Hour Tokyo Sound Bath owns "Deep Sleep & Anxiety Relief").
 
 ---
 
@@ -251,9 +253,9 @@ Meikyō Shisui
 528 Hz Healing Frequency | Kyoto Zen Garden Meditation to Stop Overthinking
 ```
 
-(74 chars. **Keyword-front-loaded** per VidIQ: `528 Hz Healing Frequency` = 220k searches/mo at competition 30 — the channel's single best keyword opportunity. VidIQ title score 73. Series "Vol. 2" moved to the thumbnail + description so the title stays pure search. The evocative "Zen Secret" version is kept as the A/B variant in section 12.)
+(74 chars. **Keyword-front-loaded** per VidIQ: `528 Hz Healing Frequency` = 220k searches/mo at competition 30 — the channel's single best keyword opportunity. VidIQ title score 73. Series "Vol. 1" mark moved to the thumbnail + description so the title stays pure search. The evocative "Zen Secret" version is kept as the A/B variant in section 12.)
 
-> ⚠️ **Title de-duplication note:** the Power Hour "Tokyo Night Sound Bath" video (rebranded old Vol. 1) is ALSO 528 Hz. To avoid the two cannibalizing each other in search, they must own DIFFERENT outcomes: this video = **Stop Overthinking** (mind/thoughts), the Power Hour bowl video = **Deep Sleep / Anxiety Relief** (evening unwind). Never ship two "528 Hz … Stop Overthinking" titles.
+> ⚠️ **Title de-duplication note:** the Power Hour "Tokyo Sound Bath" video (rebranded old Healing Vol. 1, `-1RE1P98_u8`) is ALSO 528 Hz. To avoid the two cannibalizing each other in search, they own DIFFERENT outcomes: this video = **Stop Overthinking** (mind/thoughts), the Power Hour bowl video = **Deep Sleep & Anxiety Relief** (evening unwind). Never ship two "528 Hz … Stop Overthinking" titles.
 
 ## 8. 📝 YouTube Description
 
@@ -276,11 +278,11 @@ Best for:
 🎵 528 Hz | The Miracle Frequency
 Often called the "love frequency" or "DNA repair frequency" in the Solfeggio tradition, 528 Hz has been used for centuries in healing chants and meditation. Here it sits as a soft warm drone beneath the Kyoto garden, present but never demanding.
 
-🎴 Healing Hour Series — Vol. 2
-This is the second entry in our 1 Hour Healing Uninterrupted Marathon series. Each volume pairs one Solfeggio frequency with one Kyoto-inspired location and an illustrated atmosphere. Vol. 1 was 528 Hz Japanese Zen Music Marathon.
+🎴 Healing Hour Series — Vol. 1
+This is the first entry in our 1 Hour Healing Uninterrupted series. Each volume pairs one Solfeggio frequency with one Japanese-inspired location and a hand-painted Studio Ghibli atmosphere. Next: Vol. 2.
 
 ▶ Subscribe to StillWave for new Healing Hour and Power Hour sessions every week.
-🔔 New Healing Hour drops every Wednesday — tap the bell to catch Vol. 3.
+🔔 New Healing Hour drops every Wednesday — tap the bell to catch Vol. 2.
 
 🎵 Tracklist (17 movements):
 0:00 — First Breath on the Engawa
@@ -341,7 +343,7 @@ This is the second entry in our 1 Hour Healing Uninterrupted Marathon series. Ea
 ## 11. 📌 Pinned comment
 
 ```
-🌿 You sat for one hour. The bamboo struck the stone 120 times. Each one was a chance to drop a thought. How many made it through? Reply with one word — what you finally let go of. And subscribe for Healing Hour Vol. 3 next Wednesday 🎴
+🌿 You sat for one hour with the rain and the bowl. Each breath was a chance to drop a thought. How many made it through? Reply with one word — what you finally let go of. And subscribe for Healing Hour Vol. 2 next Wednesday 🎴
 ```
 
 ## 12. 🔁 A/B title variant
@@ -350,7 +352,7 @@ This is the second entry in our 1 Hour Healing Uninterrupted Marathon series. Ea
 528 Hz | The Zen Secret to Stop Overthinking (Kyoto Garden Ambience)
 ```
 
-> Closer to YouTube Studio AI's verbatim V1 suggestion (67 chars). Run as A/B if YouTube Studio's title experiment is enabled. The primary title keeps `Marathon Vol. 2` for series anchoring; the variant drops it for max CTR.
+> Closer to YouTube Studio AI's verbatim suggestion (67 chars). Run as A/B if YouTube Studio's title experiment is enabled. Primary title = keyword-front-loaded (search); this variant = evocative (CTR). Compare which wins.
 
 ---
 
@@ -362,9 +364,11 @@ The NanoBanana 16:9 IS the thumbnail. Add a single Canva text overlay:
 - **Font:** thin elegant serif (Cormorant Garamond / Playfair Display Light / EB Garamond Italic)
 - **Color:** soft cream `#F5EAD2` (low-contrast, blends with golden-hour scene)
 - **Size:** small — roughly 1/12 of frame height
-- **Position:** bottom-right corner, with 5% padding from edges
-- **Optional second tag:** tiny `528 Hz` in the same font 1/3 the size of QUIET MIND, sitting just below it
+- **Position:** **lower-LEFT** corner, first letter shifted right off the door jamb so it sits over the dark engawa wood (figure-8 placement — text-left balances the monk on the right). 5% padding.
+- **Second tag:** tiny `528 Hz` in the same font ~1/3 the size of QUIET MIND, just below it.
 - **No drop shadow, no glow, no stroke.** Pure flat text. The Ghibli illustration carries the click — text is a whisper.
+
+> ✅ **Thumbnail done** — final 1280×720 composited (QUIET MIND + 528 Hz, lower-left over the engawa). See delivered file `healing-hour-vol-2-thumb-left-v2.jpg` (filename predates the Vol.1 renumber; it is THIS video's thumbnail).
 
 ---
 
@@ -379,15 +383,15 @@ The NanoBanana 16:9 IS the thumbnail. Add a single Canva text overlay:
 | Comments |   |    |    |
 | Subs gained |       |    |    |
 
-### Comparison to Vol. 1 (baseline)
+### Baseline (the failed first attempt, now moved to Power Hour)
 
-Vol. 1 (`-1RE1P98_u8`, 528 Hz Japanese Zen Music Marathon, 2026-05-14):
-- T+5d: 53 views, 1 like, 1 comment — VPH dropped to 0 by T+4d (stalled in wrong cluster)
+The original 528 Hz Healing video (`-1RE1P98_u8`, 528 Hz Japanese Zen Music Marathon, 2026-05-14) — photoreal penthouse visual, generic title:
+- T+5d: 53 views, 1 like, 1 comment — VPH dropped to 0 by T+4d (stalled in the wrong cluster). Since rebranded into Power Hour.
 
-Vol. 2 success criteria:
-- ✅ Beat Vol. 1 at T+5d (≥ 60 views and **VPH > 0.5 sustained**)
-- 🔥 Match 852 Hz Monks' Secret early curve (4 → 268 views in 5 days = same secret-hook pattern)
-- 🎯 If Vol. 2 hits ≥ 200 views at T+7d, the secret-hook + Ghibli combo is locked as the Healing Hour template for Vol. 3+
+This video (Healing Hour Vol. 1) success criteria:
+- ✅ Beat the old attempt at T+5d (≥ 60 views and **VPH > 0.5 sustained**)
+- 🔥 Match the 852 Hz Monks' Secret early curve (4 → 268 views in 5 days)
+- 🎯 If it hits ≥ 200 views at T+7d, the keyword-front-load + Ghibli combo is locked as the Healing Hour template for Vol. 2+
 
 ### Notes — what worked / what didn't
 

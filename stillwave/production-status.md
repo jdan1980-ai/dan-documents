@@ -26,14 +26,23 @@ After publish (May 10, 14:00):
 - **30d review** — June 9, 14:00 → final perf snapshot, decide if pattern goes into Power Hour series template
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `healing-hour-vol-2-528hz-kyoto-zen-garden` | 528 Hz Healing Frequency \| Kyoto Zen Garden Meditation to Stop Overthinking | 1H | ✅ | ⏳ | ✅ 16:9 + thumb done | ⏳ | ⏳ | ⏳ |
+| `healing-hour-vol-1-528hz-kyoto-zen-garden` | 528 Hz Healing Frequency \| Kyoto Zen Garden Meditation to Stop Overthinking | 1H 02min | ✅ | ⏳ | ✅ 16:9 + thumb done | ⏳ | ⏳ | ⏳ |
+| `power-hour-528hz-tokyo-sound-bath` | 528 Hz Healing Frequency \| Tokyo Sound Bath for Deep Sleep & Anxiety Relief | 1H | ✅ | n/a (existing audio) | ⏳ thumb (bowl img) | n/a | 🛠 Studio rebrand ready | 📤 already published as `-1RE1P98_u8` |
 
-## Healing Hour series — running ledger
+## Series restructure (2026-05-20)
+
+The original "528 Hz Japanese Zen Music Marathon Vol. 1" (`-1RE1P98_u8`) stalled at 53 views — its photoreal penthouse visual sat in the Deep Work cluster, not healing. Decision: **move it into Power Hour** (where that penthouse visual belongs) via a Studio-only rebrand, and **relaunch Healing Hour clean** in the validated Ghibli aesthetic.
+
+- **Healing Hour Vol. 1** = the Ghibli Kyoto Zen Garden video (was "Vol. 2") — `healing-hour-vol-1-528hz-kyoto-zen-garden.md`
+- **Power Hour 528 Hz Tokyo Sound Bath** = the rebranded old video — `power-hour-528hz-tokyo-sound-bath.md`
+- De-dup: Healing Hour Vol. 1 owns **Stop Overthinking**; Power Hour Sound Bath owns **Deep Sleep & Anxiety Relief** (both 528 Hz, distinct outcomes, no cannibalization)
+
+### Healing Hour series — running ledger
 
 | Vol | Date | Title | Hz | Visual | Status | Views (T+5d) | Notes |
 |-----|------|-------|----|----|--------|--------------|-------|
-| 1 | 2026-05-14 | 528 Hz Japanese Zen Music Marathon \| 1 Hour Healing Uninterrupted Vol. 1 | 528 | Photoreal Tokyo Penthouse (wrong cluster) → **refresh pending** (Ghibli Mount Koya scene) | 📤 published, 🛠 refresh ready | **53** (stalled) | VPH = 0 by T+4d. Diagnosis: weak title (no secret-hook) + photoreal visual landed in Deep Work cluster instead of healing. Refresh assets in `scripts/healing-hour-vol-1-refresh.md` — new Ghibli thumbnail + new description + new tags, title unchanged. Apply in YouTube Studio. |
-| 2 | TBD (week May 20–26) | 528 Hz \| Zen Secret to Stop Overthinking \| Kyoto Garden Marathon Vol. 2 | 528 | Ghibli illustrated, monk on engawa, warm gold | 📝 script ready | — | Secret-hook title (YouTube Studio AI V1) + Ghibli illustration (validated visual cluster). Success criteria: > 60 views T+5d and VPH > 0.5 sustained. |
+| — (moved out) | 2026-05-14 | → rebranded to Power Hour "Tokyo Sound Bath" | 528 | Photoreal penthouse | 📤 published, 🛠 rebrand ready | 53 (stalled) | Old visual belonged in Power Hour. Now: new title + tags + bowl thumbnail + Power Hour playlist. See `power-hour-528hz-tokyo-sound-bath.md`. |
+| **1** | TBD (week May 20–26) | 528 Hz Healing Frequency \| Kyoto Zen Garden Meditation to Stop Overthinking | 528 | Ghibli illustrated, monk on engawa, warm gold | 📝 script ✅ · 🎨 image + thumb ✅ · 🎵 Suno ⏳ | — | Clean series relaunch. Keyword-front-loaded title (220k kw). Success: > 60 views T+5d, VPH > 0.5 sustained. |
 
 ## Phase 1 batch — week of May 13–19
 
