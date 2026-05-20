@@ -37,7 +37,7 @@ This video and Healing Hour Vol. 1 (Ghibli Kyoto Garden) are BOTH 528 Hz. They m
 528 Hz Healing Frequency Meditation Music | Deep Sleep, Anxiety Relief & Calm
 ```
 
-## 2. 📝 New description
+## 2. 📝 New description (copy-paste ready, includes tracklist)
 
 ```
 Let the 528 Hz healing frequency carry you into deep, restful sleep.
@@ -57,6 +57,25 @@ Best for:
 🎵 528 Hz | The Miracle Frequency
 Known in the Solfeggio tradition as the "love frequency" or "DNA repair frequency", 528 Hz has been used for centuries in healing and meditation. Here it sits as a warm, soft tone beneath the Tokyo night.
 
+🎵 Tracklist
+0:00 — First Strike of the Bowl
+3:17 — Neon Fades to Breath
+6:12 — Incense Rising
+9:40 — Candle in the Dark
+12:32 — Tokyo Below, Quiet Above
+16:28 — 528 in the Bones
+20:01 — Slowing the Pulse
+23:02 — Smoke and Stillness
+27:29 — The Fire's Low Hum
+31:16 — Half-Hour Down
+35:22 — Letting the Day Go
+38:04 — Bowl and Breath
+42:40 — City Lights Blur
+46:08 — Into Deep Rest
+50:44 — Weightless
+54:00 — The Long Exhale
+57:57 — Tokyo Sleeps
+
 Dim the lights. Lie down. Let the city blur into bokeh and the bowl do the rest.
 
 ▶ Subscribe to StillWave for new Tokyo penthouse sound baths and focus sessions every week.
@@ -64,6 +83,8 @@ Dim the lights. Lie down. Let the city blur into bokeh and the bowl do the rest.
 
 #528Hz #DeepSleep #AnxietyRelief #HealingFrequency #SoundBath #MeditationMusic #SleepMusic #StillWave #SolfeggioFrequencies #TokyoNight
 ```
+
+> ⚠️ Tracklist timestamps match the 1:02:24 / 17-track arrangement. If the published video's length differs, adjust the times — YouTube auto-detects chapters only if the first line is exactly `0:00` and times ascend with each ≥ 10 sec.
 
 ## 3. 🏷️ New tags (Power Hour / sleep / anxiety / 528 Hz)
 
