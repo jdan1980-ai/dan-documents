@@ -2,7 +2,8 @@
 
 ## Meta
 
-- **Title:** 528 Hz | Zen Secret to Stop Overthinking | Kyoto Garden Marathon Vol. 2
+- **Title:** 528 Hz Healing Frequency | Kyoto Zen Garden Meditation to Stop Overthinking
+- **Series tag:** Healing Hour Vol. 2 — now carried on the THUMBNAIL + in the description, NOT the title (title is reserved for high-volume search keywords per VidIQ channel analysis)
 - **Slug:** `healing-hour-vol-2-528hz-kyoto-zen-garden`
 - **Series:** Healing Hour (1 Hour Healing Uninterrupted)
 - **Format:** Long-form
@@ -247,10 +248,12 @@ Meikyō Shisui
 ## 7. 📝 YouTube Title
 
 ```
-528 Hz | Zen Secret to Stop Overthinking | Kyoto Garden Marathon Vol. 2
+528 Hz Healing Frequency | Kyoto Zen Garden Meditation to Stop Overthinking
 ```
 
-(70 chars — fits YouTube mobile cutoff. Hz + secret-hook + outcome + location + series tag.)
+(74 chars. **Keyword-front-loaded** per VidIQ: `528 Hz Healing Frequency` = 220k searches/mo at competition 30 — the channel's single best keyword opportunity. VidIQ title score 73. Series "Vol. 2" moved to the thumbnail + description so the title stays pure search. The evocative "Zen Secret" version is kept as the A/B variant in section 12.)
+
+> ⚠️ **Title de-duplication note:** the Power Hour "Tokyo Night Sound Bath" video (rebranded old Vol. 1) is ALSO 528 Hz. To avoid the two cannibalizing each other in search, they must own DIFFERENT outcomes: this video = **Stop Overthinking** (mind/thoughts), the Power Hour bowl video = **Deep Sleep / Anxiety Relief** (evening unwind). Never ship two "528 Hz … Stop Overthinking" titles.
 
 ## 8. 📝 YouTube Description
 

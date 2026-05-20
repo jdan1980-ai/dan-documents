@@ -26,7 +26,7 @@ After publish (May 10, 14:00):
 - **30d review** — June 9, 14:00 → final perf snapshot, decide if pattern goes into Power Hour series template
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `healing-hour-vol-2-528hz-kyoto-zen-garden` | 528 Hz \| Zen Secret to Stop Overthinking \| Kyoto Garden Marathon Vol. 2 | 1H | ✅ | ⏳ | ✅ 16:9 picked (pic D) | ⏳ | ⏳ | ⏳ |
+| `healing-hour-vol-2-528hz-kyoto-zen-garden` | 528 Hz Healing Frequency \| Kyoto Zen Garden Meditation to Stop Overthinking | 1H | ✅ | ⏳ | ✅ 16:9 + thumb done | ⏳ | ⏳ | ⏳ |
 
 ## Healing Hour series — running ledger
 
