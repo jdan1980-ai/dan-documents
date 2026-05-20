@@ -118,6 +118,42 @@ Adjust `-t` to match actual Suno-mix duration (3600 = exact 1H, 3888 = 1H 04min 
 
 ---
 
+## 6b. 🈁 Intro wisdom overlay (CapCut text — retention-safe)
+
+> The viewer should feel the atmosphere FIRST, then read one line of wisdom, then sink back into the atmosphere. Keep it short and let it fade fast so it never delays immersion. Total on-screen presence ≤ 10 seconds, fully gone before the 0:15 mark — after that the video is pure garden + rain + 528 Hz for the full hour.
+
+**Chosen quote (real Japanese yojijukugo idiom — ties directly to the kakei water in the scene):**
+
+```
+明鏡止水
+Meikyō Shisui
+"Still the water, and the mind grows clear."
+```
+
+**Timing:**
+- `0:00–0:03` — no text. Garden + temple bell + rain begin. Atmosphere lands first.
+- `0:03–0:05` — text fades IN (2-second gentle fade)
+- `0:05–0:11` — text holds, fully readable
+- `0:11–0:14` — text fades OUT (3-second gentle fade)
+- `0:14 →` — no text for the rest of the hour
+
+**Style (matches the QUIET MIND thumbnail aesthetic):**
+- `明鏡止水` — thin serif or elegant Japanese mincho font, ~1/14 frame height, on top
+- `Meikyō Shisui` — small italic serif below the kanji, ~1/3 the kanji size
+- English line — thin serif (Cormorant Garamond / EB Garamond Italic), ~1/2 the kanji size, below
+- All centered, lower-middle third of frame so it sits over the garden, not the monk
+- Color: soft cream `#F5EAD2` — low contrast, never bright white
+- **No drop shadow, no glow, no box, no stroke.** Pure flat text that whispers.
+- Gentle ease-in / ease-out on both fades (no hard cuts)
+
+**Alternates (swap the three lines if preferred):**
+- `無心 / Mushin / "No mind. No thought. Only this moment."`
+- `心頭滅却 / Shintō Mekkyaku / "Empty the mind, and even fire feels cool."`
+
+> ⚠️ Retention note: this is the ONE text moment in the video. Do not add more text overlays later (no mid-roll quotes, no chapter cards) — they break the ambient immersion and cost watch-time. The intro line is the exception because it sets intention before the viewer settles in.
+
+---
+
 ## 7. 📝 YouTube Title
 
 ```
