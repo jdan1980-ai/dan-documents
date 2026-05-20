@@ -27,7 +27,15 @@ After publish (May 10, 14:00):
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `healing-hour-vol-1-528hz-kyoto-zen-garden` | 528 Hz Healing Frequency \| Kyoto Zen Garden Meditation to Stop Overthinking | 1H 02min | ✅ | ⏳ | ✅ 16:9 + thumb done | ⏳ | ⏳ | ⏳ |
-| `power-hour-528hz-tokyo-sound-bath` | 528 Hz Healing Frequency \| Tokyo Sound Bath for Deep Sleep & Anxiety Relief | 1H | ✅ | n/a (existing audio) | ⏳ thumb (bowl img) | n/a | 🛠 Studio rebrand ready | 📤 already published as `-1RE1P98_u8` |
+| `power-hour-528hz-tokyo-sound-bath` | 528 Hz Deep Sleep Music \| Tokyo Sound Bath for Anxiety Relief & Healing | 1H | ✅ | n/a (existing audio) | ✅ bowl thumb | n/a | ✅ rebrand applied | ✅ **published/scheduled 21.5** (`-1RE1P98_u8`) |
+
+### Power Hour Tokyo Sound Bath — rebrand applied (2026-05-21)
+
+Rebrand of `-1RE1P98_u8` went live 21.5 (title + tags + description + DEEP CALM thumbnail + Power Hour playlist all applied; hashtags last to add). Review schedule — **do not judge before day 7** (BrainCatAI Lesson 3: videos catch the algo push days 4–14):
+
+- **48h** — May 23: pull VidIQ VPH + views/likes; just log, don't conclude
+- **7d** — May 28: real read. Success = VPH > 0 sustained + clearly beating the old 53-view stall = rebrand moved it into a live cluster
+- **30d** — Jun 20: final snapshot; decide if the penthouse-sound-bath pattern becomes a Power Hour template
 
 ## Series restructure (2026-05-20)
 
@@ -41,7 +49,7 @@ The original "528 Hz Japanese Zen Music Marathon Vol. 1" (`-1RE1P98_u8`) stalled
 
 | Vol | Date | Title | Hz | Visual | Status | Views (T+5d) | Notes |
 |-----|------|-------|----|----|--------|--------------|-------|
-| — (moved out) | 2026-05-14 | → rebranded to Power Hour "Tokyo Sound Bath" | 528 | Photoreal penthouse | 📤 published, 🛠 rebrand ready | 53 (stalled) | Old visual belonged in Power Hour. Now: new title + tags + bowl thumbnail + Power Hour playlist. See `power-hour-528hz-tokyo-sound-bath.md`. |
+| — (moved out) | 2026-05-14 → rebrand 2026-05-21 | → now Power Hour "Tokyo Sound Bath" | 528 | Photoreal penthouse → DEEP CALM thumb | ✅ rebrand applied 21.5 | 53 at stall → tracking fresh | Moved to Power Hour. Title/tags/desc/thumbnail/playlist applied 21.5. Tracking from rebrand date, not original publish. See `power-hour-528hz-tokyo-sound-bath.md`. |
 | **1** | TBD (week May 20–26) | 528 Hz Healing Frequency \| Kyoto Zen Garden Meditation to Stop Overthinking | 528 | Ghibli illustrated, monk on engawa, warm gold | 📝 script ✅ · 🎨 image + thumb ✅ · 🎵 Suno ⏳ | — | Clean series relaunch. Keyword-front-loaded title (220k kw). Success: > 60 views T+5d, VPH > 0.5 sustained. |
 
 ## Phase 1 batch — week of May 13–19
