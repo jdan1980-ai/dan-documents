@@ -6,7 +6,7 @@
 - **Slug:** `healing-hour-vol-2-528hz-kyoto-zen-garden`
 - **Series:** Healing Hour (1 Hour Healing Uninterrupted)
 - **Format:** Long-form
-- **Length:** 1H (target ~1H 04min, 18–24 Suno tracks)
+- **Length:** 1H 02min 24sec (3744 sec) — 17 Suno tracks, confirmed from final CapCut arrangement
 - **Phase:** 1
 - **Aesthetic:** Healing Hour ILLUSTRATED spec — Studio Ghibli-inspired digital painting, lone monk on kyoto matia engawa, warm gold / sunset amber palette (528 Hz)
 - **Status:** 🎨 NanoBanana 16:9 locked (picture D — monk silhouette on engawa, stone lantern lit warm amber right, kakei left, 3 stones + raked concentric circles, warm andon lantern inside matia left, pine canopy top) — awaiting Suno generation + 9:16 vertical + Flow/Kling loop
@@ -105,16 +105,16 @@ Studio Ghibli quality painterly illustration, 16:9 aspect, 4K, dreamy contemplat
 ```bash
 ffmpeg -stream_loop -1 -i healing-hour-vol-2-528hz-loop.mp4 -i healing-hour-vol-2-528hz.mp3 \
   -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
-  -c:a aac -b:a 192k -shortest -t 3888 healing-hour-vol-2-528hz.mp4
+  -c:a aac -b:a 192k -shortest -t 3744 healing-hour-vol-2-528hz.mp4
 ```
 
 > Alternative (no re-encode, faster, requires the loop to already be in 1080p H.264 yuv420p):
 > ```
 > ffmpeg -stream_loop -1 -i healing-hour-vol-2-528hz-loop.mp4 -i healing-hour-vol-2-528hz.mp3 \
->   -c:v copy -c:a aac -b:a 192k -shortest -t 3888 healing-hour-vol-2-528hz.mp4
+>   -c:v copy -c:a aac -b:a 192k -shortest -t 3744 healing-hour-vol-2-528hz.mp4
 > ```
 
-Adjust `-t` to match actual Suno-mix duration (3600 = exact 1H, 3888 = 1H 04min 48s like Vol. 1 of Power Hour).
+`-t 3744` = 1H 02min 24sec, the confirmed final audio length (17 tracks). Use `-shortest` as a safety so video ends exactly with the audio.
 
 ---
 
@@ -189,36 +189,29 @@ This is the second entry in our 1 Hour Healing Uninterrupted Marathon series. Ea
 ▶ Subscribe to StillWave for new Healing Hour and Power Hour sessions every week.
 🔔 New Healing Hour drops every Wednesday — tap the bell to catch Vol. 3.
 
-🎵 Tracklist (24 movements, ~2:42 each):
+🎵 Tracklist (17 movements):
 0:00 — First Breath on the Engawa
-2:42 — The Garden Wakes
-5:24 — One Stone, Then Another
-8:06 — Bamboo Tok
-10:48 — Rain Finds the Moss
-13:30 — Shakuhachi Asks
-16:12 — Empty Cup
-18:54 — Circles in the Gravel
-21:36 — 528 Underneath
-24:18 — Pine Branch Listens
-27:00 — Half-Hour Stillness
-29:42 — Lantern Inside
-32:24 — The Long Sit
-35:06 — Distant Temple Bell
-37:48 — Mind Settles
-40:30 — Just the Rain
-43:12 — Stone Lantern Glow
-45:54 — Flute Returns
-48:36 — Forty-Eight Minutes Gone
-51:18 — Golden Hour Holds
-54:00 — One Thought, Then None
-56:42 — The Garden Sleeps
-59:24 — Last Bamboo Strike
-1:02:06 — Engawa at Dusk
+3:17 — Rain Finds the Garden
+6:12 — Kakei Fills the Basin
+9:40 — Circles in the Gravel
+12:32 — Three Stones, Still
+16:28 — 528 Beneath the Rain
+20:01 — Moss Drinks the Light
+23:02 — Koto, Far and Slow
+27:29 — The Lantern Catches Fire
+31:16 — Half-Hour of Stillness
+35:22 — A Single Flute Note
+38:04 — Thoughts Pass Like Water
+42:40 — Golden Hour Holds
+46:08 — The Long Sit
+50:44 — Pine Shadow Lengthens
+54:00 — Clear Mirror, Still Water
+57:57 — Dusk on the Garden
 
 #528Hz #StopOverthinking #ZenMusic #KyotoAmbience #HealingFrequency #SolfeggioFrequencies #StillWave #SlowLiving #ZenGarden #ShakuhachiMusic #MeditationMusic #SleepMusic #DeepMeditation #AnxietyRelief #StressReliefMusic #MindfulnessMusic #BinauralHealing #JapaneseAmbient #SpiritualHealing #MiracleFrequency
 ```
 
-> ✅ Timestamps will be confirmed from CapCut once the Suno tracks are arranged. The above is a 24-track ~1H 04min plan matching Vol. 1's structure.
+> ✅ **Timestamps confirmed** from the final CapCut arrangement — 17 tracks, total length **1:02:24** (3744 sec). Chapter starts are the END time of the previous track. YouTube auto-detects chapters because the first line is exactly `0:00` and entries ascend with each ≥ 10 sec. Track durations range 2:24–4:27.
 
 ## 9. 🏷️ Tags (22 tags — ~430 chars — healing-cluster + Slow Living entry)
 
