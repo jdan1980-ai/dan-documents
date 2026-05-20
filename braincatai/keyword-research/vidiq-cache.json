@@ -3,12 +3,13 @@
     "purpose": "Cache of vidIQ API responses (keyword research, outliers, breakout channels, channel videos) to avoid burning paid credits on repeat queries. Cat psychology niche keywords stay relevant ~30-60 days. Refresh entries older than 60 days only if you suspect drift.",
     "schema_version": "1.1",
     "created": "2026-05-17",
-    "last_updated": "2026-05-19",
-    "total_credits_spent": 160,
+    "last_updated": "2026-05-20",
+    "total_credits_spent": 185,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
-      "2026-05-19: +5 credits — keyword_research 'signs your cat doesn't love you' = GREEN 67.55 / 14,333 monthly. Related '5 signs your cat doesn't love you' 66.67 / 26,837 monthly. Script approved."
+      "2026-05-19: +5 credits — keyword_research 'signs your cat doesn't love you' = GREEN 67.55 / 14,333 monthly. Related '5 signs your cat doesn't love you' 66.67 / 26,837 monthly. Script approved.",
+      "2026-05-20: +25 credits — 5× keyword_research (May 22-24 lineup review + killer-topic + williamcat candidates). BEST FIND: 'things cats love' 59.93/14,709 + listicle form (williamcat 5.6M proof). Killer topic viable via 'cat hunting' 64.91/15,883. Hugs + home-alone = search-dead (CTR-only). Balance after: 1870 total (1298 renewable + 572 addon)."
     ]
   },
   "queries": [
@@ -321,6 +322,79 @@
       "top_related": [],
       "verdict": "RED — score 25.6, zero monthly searches. User override.",
       "notes": "⚠️ PUBLISHED May 18 as 'The Real Reason Your Cat Sits Above You 🐱 | Cat Psychology' despite RED. User argument: channel in recovery mode, even good topics get suppressed — better to burn slot on instinct topic than save it. Counter-argument noted: search traffic works independently of algo suppression. Track post-publish to validate either side."
+    },
+    {
+      "keyword": "things cats love",
+      "fetched": "2026-05-20",
+      "credits_spent": 5,
+      "seed": {"volume": 62.21, "competition": 43.5, "overall": 59.93, "monthly": 14709},
+      "top_related": [
+        {"keyword": "10 things cats love that owners rarely do", "overall": 63.69, "monthly": 4289},
+        {"keyword": "20 things cats love that owners rarely do", "overall": 63.02, "monthly": 7635},
+        {"keyword": "things cats love that owners rarely do", "overall": 60.77, "monthly": 3639},
+        {"keyword": "cat behavior problems", "overall": 70.69, "monthly": 43756},
+        {"keyword": "cat training", "overall": 67.11, "monthly": 20363},
+        {"keyword": "cat care", "overall": 65.90, "monthly": 31583}
+      ],
+      "verdict": "YELLOW-GREEN ⭐ BEST NEW FIND — seed 59.93 / 14,709 monthly (3-4× the May 22-24 queue). Listicle form 'X Things Cats Love That Owners Rarely Do' 63-64 score. Maps to @williamcat 5.6M proven topic. Natural PAIR to May 21 negative-mirror.",
+      "notes": "Recommend for May 22. Title: 'X Things Cats Love That You Never Do 🐱'. Listicle format proven viral."
+    },
+    {
+      "keyword": "cat hunting instinct",
+      "fetched": "2026-05-20",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 25, "overall": 30, "monthly": 0},
+      "top_related": [
+        {"keyword": "cat hunting", "overall": 64.91, "monthly": 15883},
+        {"keyword": "cats hunting", "overall": 64.33, "monthly": 7628},
+        {"keyword": "feline instincts", "overall": 66.12, "monthly": 6246},
+        {"keyword": "how cats hunt", "overall": 59.43, "monthly": 4493},
+        {"keyword": "cat behavior explained", "overall": 65.76, "monthly": 135451},
+        {"keyword": "cat behavior", "overall": 69.69, "monthly": 256725}
+      ],
+      "verdict": "Seed RED 30/0 BUT searchable via 'cat hunting' 64.91 / 15,883 monthly + 'feline instincts' 66.12 / 6,246. This is the 'perfect killer in your home' angle — viable as CTR + search play.",
+      "notes": "User's 'совершенный убийца в вашем доме' topic. Use 'cat hunting' as main keyword. Title: 'Your Cat Is a Perfect Killing Machine 🐱'. Good for May 23/24."
+    },
+    {
+      "keyword": "are cats predators",
+      "fetched": "2026-05-20",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 83.72, "overall": 6.51, "monthly": 0},
+      "top_related": [
+        {"keyword": "cat videos", "overall": 73.22, "monthly": 1267693},
+        {"keyword": "wildlife", "overall": 71.62, "monthly": 496519},
+        {"keyword": "lion", "overall": 70.85, "monthly": 648263},
+        {"keyword": "wild animals", "overall": 65.32, "monthly": 415235}
+      ],
+      "verdict": "RED — seed 6.51 / 0 monthly, competition 83.7 oversaturated. All related generic. Do NOT use this keyword form for the killer topic — use 'cat hunting' instead.",
+      "notes": "Killer-topic keyword test #1. Dead as search. 'cat hunting instinct' query found the viable path."
+    },
+    {
+      "keyword": "do cats like hugs",
+      "fetched": "2026-05-20",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 37, "overall": 25.2, "monthly": 0},
+      "top_related": [
+        {"keyword": "cat love", "overall": 68.22, "monthly": 44753},
+        {"keyword": "affection", "overall": 61.48, "monthly": 42314},
+        {"keyword": "cat logic", "overall": 58.21, "monthly": 16638}
+      ],
+      "verdict": "RED for search — seed 25.2 / 0 monthly. No specific searchable form. @williamcat hug topic (3.7M) works as CTR-only, not search. Skip unless used as pure feed-CTR play.",
+      "notes": "williamcat candidate. Search-dead. Lower priority than 'things cats love'."
+    },
+    {
+      "keyword": "what do cats do when home alone",
+      "fetched": "2026-05-20",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 32.4, "overall": 27.04, "monthly": 0},
+      "top_related": [
+        {"keyword": "cat psychology", "overall": 74.61, "monthly": 383428},
+        {"keyword": "cat behavior", "overall": 69.69, "monthly": 256725},
+        {"keyword": "cat care", "overall": 65.90, "monthly": 31583},
+        {"keyword": "cat whisperer", "overall": 64.71, "monthly": 24015}
+      ],
+      "verdict": "RED for search — seed 27.04 / 0 monthly. No specific searchable form (only generic). @williamcat home-alone topic (3.0M) is CTR-only. Skip as search play.",
+      "notes": "williamcat candidate. Search-dead. CTR-only."
     }
   ],
   "non_keyword_calls": [
