@@ -102,7 +102,13 @@ Dim the lights. Lie down. Let the city blur into bokeh and the bowl do the rest.
 - Matches the Healing Hour Vol. 1 thumbnail template (`QUIET MIND` + `528 Hz`) so the channel reads as one brand — VidIQ's fix for the subscriber leak.
 - Mood word swappable (`STILL NIGHT` alt rendered) if preferred.
 
-## 5. Playlist
+## 5. 📌 Pinned comment
+
+```
+🌙 528 Hz, a singing bowl, and the Tokyo night — one full hour to let the day go. Did you drift off before the city did? Tell me in one word what you're releasing tonight 🕯️ If this helped you breathe slower, subscribe — a new sound bath every week.
+```
+
+## 6. Playlist
 
 Move the video out of any Healing Hour playlist and into the **Power Hour / Tokyo** playlist so YouTube series-groups it with Tokyo Rain (Vol. 1) and Tokyo Snowfall (Vol. 2).
 
