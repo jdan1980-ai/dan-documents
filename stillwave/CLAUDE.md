@@ -289,9 +289,12 @@ StillWave — Lantern Glow Focus | 3H Late Night Coding
 
 ## 🎨 Design rules
 
-- **Photorealistic cinematic** style (NOT sumi-e / illustration)
-- **No text on thumbnail image** — the title handles itself in YouTube UI
-- **No glow / effects on text anywhere** — plain solid colors only when text is needed
+- **Photorealistic cinematic** for Power Hour (penthouse) · **Studio Ghibli illustration** for Healing Hour (see the Healing Hour aesthetic spec). Match the visual to the cluster.
+- **Thumbnail text overlay (Canva/post-prod):** allowed. **ALWAYS place text in the LOWER-LEFT corner** — the "figure-8" rule: imagine a figure-8 traced across the screen, the resting point is the bottom-left. Text-left also balances a subject placed right. This is a locked, channel-wide placement rule for EVERY thumbnail (Healing Hour AND Power Hour). Never upper-left, never bottom-right, never centered.
+  - First letter clears any vertical edge/jamb (sits over a dark area, not on a frame).
+  - Template: one bold mood/keyword word + a small tag below it (e.g. `QUIET MIND` + `528 Hz`, `DEEP CALM` + `528 Hz`, `DEEP FOCUS` + `1 HOUR`).
+  - Thin elegant serif, soft cream `#F5EAD2`, low contrast over a dark zone. **No glow, no drop shadow, no stroke, no box.**
+- **No in-image AI text** — NanoBanana prompts forbid letters (avoids garbled artifacts); text is added in post only.
 - **All YouTube copy in English** (descriptions, titles, tags, hashtags)
 
 ---
