@@ -75,13 +75,11 @@ Dim the lights. Lie down. Let the city blur into bokeh and the bowl do the rest.
 
 ## 4. 🎨 Thumbnail
 
-Use the **Tokyo penthouse singing-bowl image** (candle + singing bowl + incense smoke + fireplace + neon city night). It belongs to the Power Hour photoreal penthouse family — exactly right here.
+**Done.** The Tokyo penthouse singing-bowl image (candle + singing bowl + incense smoke + fireplace + neon city night), composited with the channel's locked overlay template: **`DEEP CALM` + `528 Hz`** tag, thin serif cream `#F5EAD2`, lower-left over the dark floor (figure-8 placement, balances the bowl on the table).
 
-- Composite the same way as Healing Hour: one keyword overlay, thin serif, cream `#F5EAD2`, low contrast, lower corner (left per the figure-8 placement, over the dark floor).
-- **Thumbnail text:** `528 Hz` (the search keyword) — optionally a small `SOUND BATH` tag beneath.
-- Export 1280×720.
-
-> ⏳ Pending: the singing-bowl image needs to be sent as a file attachment (so far it only arrives inline and doesn't save to disk). Once received, this thumbnail is a 1-minute composite.
+- Final file: `stillwave/assets/power-hour-528hz-tokyo-sound-bath-thumb.jpg` (1280×720)
+- Matches the Healing Hour Vol. 1 thumbnail template (`QUIET MIND` + `528 Hz`) so the channel reads as one brand — VidIQ's fix for the subscriber leak.
+- Mood word swappable (`STILL NIGHT` alt rendered) if preferred.
 
 ## 5. Playlist
 
