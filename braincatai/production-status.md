@@ -74,7 +74,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | ~~21 мая~~ | ~~Чт~~ | ~~Your Cat's Tail Is Talking~~ | ~~`why-cats-wag-their-tails`~~ | 62.59 / 5,400 | ⏸️ отложено (swapped for GREEN negative-mirror) |
 | 22 мая | Пт | **Your Cat Is a Perfect Killing Machine** (predator-reveal) | `your-cat-killing-machine` | "cat hunting" 64.91 / 15,883 + competitor-proven | ✍️ скрипт в работе |
 | 23 мая | Сб | **5 Things Your Cat Loves That You Never Do** (listicle) | `things-cats-love` | "things cats love" 59.93 / 14,709 + @williamcat 5.6M proof | ✅ скрипт готов → производство |
-| 24 мая | Вс | When Your Cat Stretches at You, It's Saying This | `why-cats-stretch-at-you` | 60.13 / 5,378 | ✍️ нужен скрипт |
+| 24 мая | Вс | When Your Cat Stretches at You, It Means This | `why-cats-stretch-at-you` | 60.13 / 5,378 | ✅ скрипт готов → производство |
 | ~~22 мая~~ | ~~Пт~~ | ~~Your Cat Invented a Language Just for YOU~~ | ~~`why-cats-meow-only-at-humans`~~ | 60.70 / 3,685 | ⏸️ в бэклог (swapped for higher-demand) |
 | ~~24 мая~~ | ~~Вс~~ | ~~Why Your Cat Acts Like Water Is Poison~~ | ~~`why-cats-hate-water`~~ | 60.88 / 3,659 | ⏸️ в бэклог (swapped for higher-demand) |
 | 25 мая | Пн | Your Cat Is Older Than You Think 🐱 | `cat-years-to-human-years` | competitor proof | ✍️ нужен скрипт |

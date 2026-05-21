@@ -213,6 +213,12 @@ Be honest 👇 does YOUR cute little killer "hunt" toys (or your feet) at 3am? �
 Which of these 5 do you ALREADY do for your cat? 🐱 Drop the number — and tell me the ONE you're going to try tonight 💚 (bet it's number 5 😹)
 ```
 
+### 34. When Your Cat Stretches at You, It Means This (24 мая) — Cat Communication
+
+```
+Does YOUR cat do the big stretch when you walk in? 🐱 Drop a 🙆 if yes — that's your cat saying "I trust you." And tell me: do they show you the belly too? 💚
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
