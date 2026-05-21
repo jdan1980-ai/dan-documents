@@ -362,6 +362,8 @@ If your prompt could describe a stuffed-animal-on-a-stick, rewrite it.
 
 ## 8. Locked AI Prompt Block
 
+> 🛠️ **Image model (locked 21 мая 2026 — user finding):** generate Brain images with **Nano Banana 2** — it holds Brain's look noticeably BETTER than Nano Banana Pro for this character. Default to Nano Banana 2 for all image generation.
+
 Paste this **exact string** at the top of every image prompt. It locks **only Brain's look** — the world/background is chosen per video.
 
 Updated 16 мая 2026 after Veo 3 introduced phantom 3rd ear + chubby adult-cat drift in bathroom Sc 4 video render. Tightened with kitten-age proportions + EXACTLY 2 EARS lock + anti-artifact tokens.
