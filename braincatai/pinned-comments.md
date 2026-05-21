@@ -207,6 +207,12 @@ Be honest 👇 How many of these 5 signs does YOUR cat show? Drop the number —
 Be honest 👇 does YOUR cute little killer "hunt" toys (or your feet) at 3am? 🐭 Drop a 🐾 if yes — and tell me the weirdest "gift" they've ever brought you 😹
 ```
 
+### 33. 5 Things Your Cat Loves That You Never Do (23 мая) — Cat Behavior / Positive-Mirror
+
+```
+Which of these 5 do you ALREADY do for your cat? 🐱 Drop the number — and tell me the ONE you're going to try tonight 💚 (bet it's number 5 😹)
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
