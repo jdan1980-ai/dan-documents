@@ -50,16 +50,26 @@ Cute orange tabby kitten named Brain, big round sparkling VIVID EMERALD GREEN ey
 2D, flat, anime, cel-shaded, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra limbs, extra paws, five legs, six legs, both front paws raised, two paws raised together, missing glasses, missing collar, missing heart tag, watermark, text in image, logo, ugly, scary, aggressive expression, mouth open as if talking, lip-sync, talking cat, mouth movement, chattering, brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes, dark eyes, brown iris, amber iris, wrong eye color, eye color tinted by lighting, warm-tinted eyes
 ```
 
-## ⚠️ Veo 3 animation rules — eye color, mouth, anatomy
+## ⚠️ Veo 3 animation rules — anti-drift (вставлять в каждый animation-промт)
 
-Every `🎬 Animation prompt` block must include three strict rule blocks before STYLE:
+> 🛠️ Усилено 21 мая 2026 после регресса Veo (после молчаливого апдейта 10-кредитной версии): очки пропадали, глаза синели, появлялся второй кот, уход в реализм. Эти правила бьют точечно по тем сбоям. Канонический блок — в [`style-guide.md`](./style-guide.md).
+
+Every `🎬 Animation prompt` block must include these strict rule blocks before STYLE:
 
 ```
-EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber, NOT yellow, NOT hazel. Warm lighting must NOT tint the iris. Stays vivid green even half-closed.
+EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout. NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER BLUE, NEVER CYAN, NEVER grey. Warm OR cool lighting must NOT tint the iris. Stays vivid emerald green even half-closed or dilated.
 
-ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER show 5 paws or extra limbs. Don't over-specify paw positions — just keep the count at 4.
+GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip. NEVER remove the glasses, NEVER let them fade out, NEVER animate them off his face.
 
-MOUTH RULE (strict): Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body.
+SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat in frame at all times — Brain. NEVER add a second cat, NEVER spawn another kitten, NEVER add a wild cat or any other animal. If a hologram appears it is a GLOWING TRANSLUCENT BLUE hologram (clearly see-through, NOT a real solid cat). Only Brain is a real solid cat.
+
+STYLE RULE (strict): Pixar 3D animated CARTOON style throughout — NEVER photorealistic, NEVER a real/photographic cat, NEVER documentary realism. Brain's identity stays IDENTICAL to the input image.
+
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear, NO ear-shaped artifact). Body stays slender 8-week-old kitten proportions — NEVER morphing chubby. Keep the brown collar with the gold heart tag visible.
+
+MOUTH RULE (strict): Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, and body. (State any exception explicitly, e.g. a single soft meow/yawn.)
+
+MOTION RULE (strict — anti-drift): Keep motion modest and controlled. ONLY the described action moves; the character's look stays locked. Large/fast motion increases drift — prefer a subtle camera push-in plus contained action. If a beat needs big motion, split it and keep each clip ≤5 seconds.
 ```
 
 Exceptions to MOUTH RULE (state explicitly when used): brief held jaw-drop for shock, single yawn, one soft meow on CTA.

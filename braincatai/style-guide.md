@@ -396,14 +396,16 @@ Brain's identity must be IDENTICAL to the input image throughout — same face, 
 ### Negative prompts (always include)
 
 ```
-2D, flat, anime, cel-shaded, photorealistic cat, multiple cats,
+2D, flat, anime, cel-shaded, photorealistic cat, realistic cat, real cat,
+multiple cats, two cats, second cat, extra cat, wild cat,
 low quality, blurry, distorted face, extra limbs, extra paws,
 five legs, six legs, both front paws raised, two paws raised together,
-missing glasses, missing collar, missing heart tag, watermark,
+missing glasses, glasses removed, missing collar, missing heart tag, watermark,
 text in image, logo, ugly, scary, aggressive expression,
 mouth open as if talking, lip-sync, talking cat,
 mouth movement, chattering,
 brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes,
+blue eyes, cyan eyes, grey eyes,
 dark eyes, brown iris, amber iris, wrong eye color,
 eye color tinted by lighting, warm-tinted eyes
 ```
@@ -420,14 +422,24 @@ TIME X–Ys: [main action]
 TIME Y–Zs: [reaction / effect]
 TIME Z–end: [closing beat]
 
-EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout the entire [N] seconds. NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden. Warm/golden lighting must NOT tint the iris brown or amber. The iris stays vivid emerald green even in shadow, even when half-closed during a slow blink.
+EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout the entire [N] seconds. NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER golden, NEVER BLUE, NEVER CYAN, NEVER grey. Warm OR cool lighting must NOT tint the iris. The iris stays vivid emerald green even in shadow, even when half-closed during a slow blink.
 
-ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER show 5 paws or extra limbs. Don't over-specify paw positions in the prompt — just keep the count at 4.
+GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip. NEVER remove the glasses, NEVER let them fade out, NEVER animate them off his face.
+
+SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat in frame at all times — Brain. NEVER add a second cat, NEVER spawn another kitten, NEVER add a wild cat or any other animal. If a hologram appears it is a GLOWING TRANSLUCENT BLUE hologram (clearly see-through, NOT a real solid cat). Only Brain is a real solid cat. (Human owner's hand/limb is allowed where the scene calls for it.)
+
+STYLE RULE (strict): Pixar 3D animated CARTOON style throughout — NEVER photorealistic, NEVER a real/photographic cat, NEVER documentary realism. Brain's identity stays IDENTICAL to the input image.
+
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear). NEVER show 5 paws or extra limbs. Don't over-specify paw positions in the prompt — just keep the count at 4. Keep the brown collar with the gold heart tag visible.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire [N] seconds. No lip-sync. No chewing motion. No chattering. No mouth movement of any kind. All emotion comes through eyes, ears, and whiskers.
 
+MOTION RULE (strict — anti-drift): Keep motion modest and controlled. ONLY the described action moves; the character's look stays locked. Large/fast motion increases drift — prefer a subtle camera push-in plus contained action. If a beat needs big motion, split it and keep each clip ≤5 seconds.
+
 STYLE: Pixar 3D render, cinematic warm lighting, vertical 9:16, soft depth of field.
 ```
+
+> 🛠️ **Anti-drift hardening (21 мая 2026):** added GLASSES / SINGLE-CHARACTER / STYLE / MOTION rules + blue/cyan/grey to EYE COLOR after the 10-credit Veo version regressed (silent model update) and started: dropping the glasses, turning eyes blue/cyan, spawning a second cat, drifting to photorealism. Root cause is model-side (same tier, updated model follows prompts less faithfully) — these rules are mitigation. Also test a higher Veo tier and attach a clean Brain reference image as anchor.
 
 Exceptions to MOUTH RULE (state explicitly per shot when used, or Veo will default to closed):
 - Brief held jaw-drop for shock (single beat, not repeated)

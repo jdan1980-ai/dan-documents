@@ -45,11 +45,19 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 ## ⚠️ Veo 3 animation rules — вставлять в каждый animation-промт
 
 ```
-EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout. NOT brown, NOT amber, NOT yellow, NOT hazel. Warm lighting must NOT tint the iris. Stays vivid green even half-closed.
+EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout. NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER BLUE, NEVER CYAN, NEVER grey. Warm OR cool lighting must NOT tint the iris. Stays vivid emerald green even half-closed.
 
-ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear, NO ear-shaped artifact). EAR SHAPE LOCK: ear shape and size stay identical to input image — small kitten triangle ears, NEVER stretching into bat-ears. Body stays slender 8-week-old kitten proportions — NEVER morphing chubby. Brain's identity IDENTICAL to input image.
+GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip. NEVER remove the glasses, NEVER let them fade out, NEVER animate them off his face.
+
+SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat in frame at all times — Brain. NEVER add a second cat, NEVER spawn another kitten, NEVER add any other animal. (Human owner's hand/limb is fine where the scene calls for it.) Only Brain is a real solid cat.
+
+STYLE RULE (strict): Pixar 3D animated CARTOON style throughout — NEVER photorealistic, NEVER a real/photographic cat, NEVER documentary realism. Brain's identity stays IDENTICAL to the input image.
+
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear, NO ear-shaped artifact). EAR SHAPE LOCK: ear shape and size stay identical to input image — small kitten triangle ears, NEVER stretching into bat-ears. Body stays slender 8-week-old kitten proportions — NEVER morphing chubby. Keep the brown collar with the gold heart tag visible.
 
 MOUTH RULE (strict): Mouth stays closed throughout, no lip-sync, no talking motion. Expressions through eyes, ears, whiskers, body. Exception: one soft content meow allowed on the warm beats.
+
+MOTION RULE (strict — anti-drift): Keep motion modest and controlled. ONLY the described action moves; the character's look stays locked. Large/fast motion increases drift — prefer a subtle camera push-in plus contained action. If a beat needs big motion, split it and keep each clip ≤5 seconds.
 ```
 
 ---
