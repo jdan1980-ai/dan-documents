@@ -98,6 +98,11 @@ Locked YouTube upload rules. Check every video against these before publishing â
 7. **First 3 seconds = ~90% of retention weight.** Open ON the scene + sound immediately â€” no slow fade-in from black at 0:00. Any text overlay (wisdom card, etc.) comes AFTER the hook lands, never delaying it.
 8. **Update the YouTube app before each upload** (avoids stale-version upload bugs).
 
+### Public copy rules (titles, descriptions, pinned comments)
+
+- **No specific weekdays.** Never write "every Wednesday" / "next Tuesday & Friday". Use **"next week" / "every week" / "the next one"**. Schedules change; specific days date the copy and break promises.
+- **Don't lean on Vol. 1 / Vol. 2 numbering in public copy.** Refer to "the next session" / "the series" / "the next one". Volume numbers can stay in internal slugs/tracking docs for organization, but keep them out of public titles, descriptions, and pinned comments.
+
 ## Notes
 
 - Add project-specific conventions, commands, and context here as the repository grows.

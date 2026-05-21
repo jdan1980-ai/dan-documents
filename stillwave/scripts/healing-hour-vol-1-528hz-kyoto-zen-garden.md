@@ -280,11 +280,11 @@ Best for:
 🎵 528 Hz | The Miracle Frequency
 Often called the "love frequency" or "DNA repair frequency" in the Solfeggio tradition, 528 Hz has been used for centuries in healing chants and meditation. Here it sits as a soft warm drone beneath the Kyoto garden, present but never demanding.
 
-🎴 Healing Hour Series — Vol. 1
-This is the first entry in our 1 Hour Healing Uninterrupted series. Each volume pairs one Solfeggio frequency with one Japanese-inspired location and a hand-painted Studio Ghibli atmosphere. Next: Vol. 2.
+🎴 Healing Hour Series
+Part of our 1 Hour Healing Uninterrupted series. Each session pairs one Solfeggio frequency with one Japanese-inspired location and a hand-painted Studio Ghibli atmosphere.
 
 ▶ Subscribe to StillWave for new Healing Hour and Power Hour sessions every week.
-🔔 New Healing Hour drops every Wednesday — tap the bell to catch Vol. 2.
+🔔 New Healing Hour sessions every week — tap the bell to catch the next one.
 
 🎵 Tracklist (17 movements):
 0:00 — First Breath on the Engawa
@@ -345,7 +345,7 @@ stillwave, stillwave 528 hz, healing hour, stillwave healing, meditation music, 
 ## 11. 📌 Pinned comment
 
 ```
-🌿 You sat for one hour with the rain and the bowl. Each breath was a chance to drop a thought. How many made it through? Reply with one word — what you finally let go of. And subscribe for Healing Hour Vol. 2 next Wednesday 🎴
+🌿 You sat for one hour with the rain and the bowl. Each breath was a chance to drop a thought. How many made it through? Reply with one word — what you finally let go of. And subscribe for the next Healing Hour session, out next week 🎴
 ```
 
 ## 12. 🔁 A/B title variant
