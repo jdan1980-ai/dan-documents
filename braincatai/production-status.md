@@ -72,9 +72,11 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | 20 мая | Ср | Cats Understand Their Names Better Than You Think | `why-cats-ignore-you` | 59.47 / 8,757 | 📅 scheduled (uploaded 19 мая) |
 | 21 мая | Чт | **5 Signs Your Cat DOESN'T Love You** (negative-mirror) | `signs-cat-doesnt-love-you` | **67.55 / 14,333 GREEN** ⭐ + @williamcat 8.8M proof | 📅 scheduled (uploaded 20 мая) |
 | ~~21 мая~~ | ~~Чт~~ | ~~Your Cat's Tail Is Talking~~ | ~~`why-cats-wag-their-tails`~~ | 62.59 / 5,400 | ⏸️ отложено (swapped for GREEN negative-mirror) |
-| 22 мая | Пт | Your Cat Invented a Language Just for YOU | `why-cats-meow-only-at-humans` | 60.70 / 3,685 | ✍️ нужен скрипт |
-| 23 мая | Сб | When Your Cat Stretches at You, It's Saying This | `why-cats-stretch-at-you` | 60.13 / 5,378 | ✍️ нужен скрипт |
-| 24 мая | Вс | Why Your Cat Acts Like Water Is Poison | `why-cats-hate-water` | 60.88 / 3,659 | ✍️ нужен скрипт |
+| 22 мая | Пт | **Your Cat Is a Perfect Killing Machine** (predator-reveal) | `your-cat-killing-machine` | "cat hunting" 64.91 / 15,883 + competitor-proven | ✍️ скрипт в работе |
+| 23 мая | Сб | **X Things Cats Love That You Never Do** (listicle) | `things-cats-love` | "things cats love" 59.93 / 14,709 + @williamcat 5.6M proof | ✍️ нужен скрипт |
+| 24 мая | Вс | When Your Cat Stretches at You, It's Saying This | `why-cats-stretch-at-you` | 60.13 / 5,378 | ✍️ нужен скрипт |
+| ~~22 мая~~ | ~~Пт~~ | ~~Your Cat Invented a Language Just for YOU~~ | ~~`why-cats-meow-only-at-humans`~~ | 60.70 / 3,685 | ⏸️ в бэклог (swapped for higher-demand) |
+| ~~24 мая~~ | ~~Вс~~ | ~~Why Your Cat Acts Like Water Is Poison~~ | ~~`why-cats-hate-water`~~ | 60.88 / 3,659 | ⏸️ в бэклог (swapped for higher-demand) |
 | 25 мая | Пн | Your Cat Is Older Than You Think 🐱 | `cat-years-to-human-years` | competitor proof | ✍️ нужен скрипт |
 | 26 мая | Вт | 3 Things Your Cat Can Sense That You Can't | `cat-superpowers-senses` | targets 73.8/9,953 | ✍️ нужен скрипт |
 | 27 мая | Ср | Why Your Cat Hates When You Leave | `why-cats-hate-being-left-alone` | TBD | ✍️ нужен скрипт |

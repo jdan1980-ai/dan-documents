@@ -201,6 +201,12 @@ Try it RIGHT NOW — call your cat's name and watch their ears 👂 If you see A
 Be honest 👇 How many of these 5 signs does YOUR cat show? Drop the number — 0 means you're MAX loved 💚 5 means we need to talk 😹
 ```
 
+### 32. Your Cat Is a Perfect Killing Machine (22 мая) — Cat Facts / Predator-Reveal
+
+```
+Be honest 👇 does YOUR cute little killer "hunt" toys (or your feet) at 3am? 🐭 Drop a 🐾 if yes — and tell me the weirdest "gift" they've ever brought you 😹
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
