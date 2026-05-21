@@ -672,31 +672,34 @@ cat hunting, cat hunting instinct, feline instincts, how cats hunt, cats are pre
 
 **Концепт тумбнейла (1 строкой):**
 
-> Милый Brain крупным планом с расширенными охотничьими зрачками + мягкий радар/прицел на ухе, текст-плита «PERFECT KILLER?» — контраст «няша/хищник».
+> 🏆 **«ТЕНЬ САБЛЕЗУБА»** — крошечный милый Brain в тёплом свете, а его ТЕНЬ на стене = огромный саблезубый тигр с клыками. «Маленький, но смертельный». Вся жуть в тени — сам Brain остаётся няшей (mouth closed). Pixar-safe + advertiser-safe. Связка с «10 млн лет эволюции» из Sc 2.
 
 **🖼️ Промт для тумбнейла** (Nano Banana — channel-locked шрифт):
 
 ```
-Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden) with the pupils DILATED into intense round black hunting-discs, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers fanned forward alert, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears swivelled forward, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic dramatic lighting, 4K, vertical 9:16 thumbnail composition.
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round sparkling VIVID EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), mouth CLOSED in a soft cute expression, Pixar 3D render style, 4K, vertical 9:16 thumbnail composition.
 
-THUMBNAIL FRAMING: Brain's face fills ~60% of frame, slight tilt 3°, intense locked-on HUNTER expression (dilated pupils, ears forward, whiskers fanned) — adorable but unmistakably in predator mode. Background soft moody dark bokeh of the living room at dusk, heavy depth-of-field. A small pastel-cyan radar/target reticle callout near one ear pointing to the "hunter" beat.
+THUMBNAIL CONCEPT — "PREDATOR SHADOW": Tiny adorable Brain sits in the lower-center foreground on the floor, small and cute, lit by a warm low side-light (a warm lamp glow from the lower-left). Behind and above him, cast LARGE onto the cream living-room wall, is his SHADOW — but the shadow is NOT a kitten shadow: it is the dramatic looming silhouette of a huge fierce SABER-TOOTH TIGER (Smilodon) — big muscular head, two long curved saber fangs clearly visible in the silhouette, powerful shoulders, ears back in a snarl. The shadow is a clean dark charcoal silhouette (the menace lives ENTIRELY in the shadow). The contrast — tiny innocent fluffy real kitten vs his giant apex-predator saber-tooth shadow — is the whole hook. Dramatic warm-to-dark lighting, slight vignette. Brain himself looks calm and cute (NOT scary), maybe a tiny knowing look up toward camera.
 
-TEXT PLATE (bottom 25% of frame, centered): 2 lines max, ALL CAPS, Electric Yellow #FFD23F fill with solid charcoal #2B2B2B outline 5px, soft black drop-shadow 4px y-offset 30% opacity. Slight 2-3° tilt. Lines:
+TEXT PLATE (bottom 22% of frame, centered): 2 lines max, ALL CAPS, Electric Yellow #FFD23F fill with solid charcoal #2B2B2B outline 5px, soft black drop-shadow 4px y-offset 30% opacity. Slight 2-3° tilt. Lines:
 LINE 1: "PERFECT"
-LINE 2: "KILLER? 🐱"
+LINE 2: "KILLER 🐱"
 
 TYPOGRAPHY LOCK (strict — same font in every thumbnail across this channel): BOLD ROUNDED GEOMETRIC SANS-SERIF (Nunito Bold / Fredoka One / Bangers — soft rounded terminals, NO serifs, NO brush-script, NO Comic Sans, NO Papyrus, NO Impact). Single font family. NEVER mix fonts.
 
-EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84) even with dilated pupils. NOT brown, NOT amber.
-ANATOMY RULE (strict): EXACTLY 4 paws AND EXACTLY 2 EARS. NO 5th paw, NO phantom 3rd ear, NO extra fur tuft.
+SHADOW RULE (strict): The saber-tooth tiger menace is ONLY in the wall shadow. The REAL Brain in the foreground stays a cute closed-mouth kitten — NO fangs on Brain himself, NO snarl on Brain, NO weapon, NO blood. Brain cute, shadow scary.
+EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84). NOT brown, NOT amber.
+ANATOMY RULE (strict): real Brain has EXACTLY 4 paws AND EXACTLY 2 EARS. NO 5th paw, NO phantom 3rd ear, NO extra fur tuft. (The wall shadow may be a saber-tooth, but real Brain stays correct kitten anatomy.)
 LANGUAGE RULE (strict): All on-screen text in ENGLISH only. NO Russian text, NO Cyrillic letters.
 ```
 
 **Negative prompts (Nano Banana — thumbnail):**
 
 ```
-2D flat, anime, photorealistic cat, multiple cats, low quality, blurry, cluttered background, distorted face, extra limbs, extra paws, five legs, three ears, extra ear, phantom ear, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, yellow eyes, hazel eyes, mouth open with bared fangs, scary horror, gore, blood, real dead animal, serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, gradient text, neon text, multiple fonts, mixed typography, Russian text, Cyrillic letters, ugly, watermark, logo
+2D flat, anime, photorealistic cat, multiple cats, low quality, blurry, cluttered background, distorted face, extra limbs, extra paws, five legs, three ears, extra ear, phantom ear, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, yellow eyes, hazel eyes, fangs on the real kitten, snarl on the real kitten, scary kitten face, knife, weapon, blood, gore, real dead animal, mouth open with bared fangs on Brain, serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, gradient text, neon text, multiple fonts, mixed typography, Russian text, Cyrillic letters, ugly, watermark, logo
 ```
+
+> **Альт-текст для A/B:** если «PERFECT KILLER» не зайдёт — попробовать «TINY KILLER 🐱» или «DON'T BE FOOLED 🐱» (тот же shadow-визуал).
 
 ---
 
