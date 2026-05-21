@@ -95,7 +95,11 @@ man, male figure, male owner, masculine build, broad shoulders, muscular body, s
 
 ```
 HUMAN RULE (strict — LOCKED OWNER, female, same identity across the entire video): The owner is an adult WOMAN in her early 30s — slim feminine build, long chestnut-brown wavy hair (mid-back length, cascading down her back), soft cream V-neck sweater. NEVER male, NEVER a man, NEVER short hair, NEVER dark/black hair, NEVER broad-shouldered, NEVER bald. Face FULLY turned away from camera the entire 7 seconds — NO face, NO profile, NO chin, NO mouth, NO eyes, NO ear visible at any point. Stays completely still — only Brain moves.
+
+HAND COUNT RULE (strict — added 21 мая 2026 after an extra floating hand appeared in a lap scene): Show AT MOST the number of hands the scene calls for (usually ONE hand). Every visible hand MUST connect naturally to a matching visible arm. NEVER add a second/third/extra hand, NEVER a floating or disconnected hand, NEVER a duplicate arm, NEVER extra fingers, NEVER more than 5 fingers per hand. If only one arm is shown, only ONE hand may appear.
 ```
+
+> 🛠️ **Hand-drift note (21 мая 2026):** Veo/Nano sometimes spawn a phantom extra hand in lap/petting scenes. Always state the exact hand count + "connected to one arm, no extra/floating hand" and add `extra hand, third hand, floating hand, disconnected hand, duplicate arm, extra fingers` to negatives.
 
 ### Why she must NEVER show her face
 
@@ -407,7 +411,9 @@ mouth movement, chattering,
 brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes,
 blue eyes, cyan eyes, grey eyes,
 dark eyes, brown iris, amber iris, wrong eye color,
-eye color tinted by lighting, warm-tinted eyes
+eye color tinted by lighting, warm-tinted eyes,
+extra hand, third hand, floating hand, disconnected hand,
+duplicate arm, extra arm, extra fingers, too many fingers
 ```
 
 ### Animation prompt rule (Veo 3)
