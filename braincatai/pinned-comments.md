@@ -210,13 +210,13 @@ Ok be honest 😅 does your cat go full predator mode at 3am? Mine stalks my fee
 ### 33. 5 Things Your Cat Loves That You Never Do (23 мая) — Cat Behavior / Positive-Mirror
 
 ```
-Which of these 5 do you ALREADY do for your cat? 🐱 Drop the number — and tell me the ONE you're going to try tonight 💚 (bet it's number 5 😹)
+honestly which of these do you already do? i only started slow-blinking back at mine a few weeks ago and now he does it to me every morning, melts me every time 💚 which one are you gonna try tonight?
 ```
 
 ### 34. When Your Cat Stretches at You, It Means This (24 мая) — Cat Communication
 
 ```
-Does YOUR cat do the big stretch when you walk in? 🐱 Drop a 🙆 if yes — that's your cat saying "I trust you." And tell me: do they show you the belly too? 💚
+does yours do the big stretch the second you walk in? mine drops into a full downward-dog every single time 😂 had no idea it actually meant he trusts me. does yours flop the belly out too?
 ```
 
 ---
