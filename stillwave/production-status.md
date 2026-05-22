@@ -47,10 +47,23 @@ The original "528 Hz Japanese Zen Music Marathon Vol. 1" (`-1RE1P98_u8`) stalled
 
 ### Healing Hour series — running ledger
 
-| Vol | Date | Title | Hz | Visual | Status | Views (T+5d) | Notes |
-|-----|------|-------|----|----|--------|--------------|-------|
-| — (moved out) | 2026-05-14 → rebrand 2026-05-21 | → now Power Hour "Tokyo Sound Bath" | 528 | Photoreal penthouse → DEEP CALM thumb | ✅ rebrand applied 21.5 | 53 at stall → tracking fresh | Moved to Power Hour. Title/tags/desc/thumbnail/playlist applied 21.5. Tracking from rebrand date, not original publish. See `power-hour-528hz-tokyo-sound-bath.md`. |
-| **1** | TBD (week May 20–26) | 528 Hz Healing Frequency \| Kyoto Zen Garden Meditation to Stop Overthinking | 528 | Ghibli illustrated, monk on engawa, warm gold | 📝 script ✅ · 🎨 image + thumb ✅ · 🎵 Suno ⏳ | — | Clean series relaunch. Keyword-front-loaded title (220k kw). Success: > 60 views T+5d, VPH > 0.5 sustained. |
+| Vol | Date | Title | Hz | Visual | Status | Early data | Notes |
+|-----|------|-------|----|----|--------|-----------|-------|
+| Sound Bath (moved out) | 2026-05-14, rebrand 05-21 | 528 Hz Deep Sleep Music \| Tokyo Sound Bath for Anxiety Relief & Healing (`-1RE1P98_u8`) | 528 | Photoreal penthouse → DEEP CALM | ✅ rebrand applied | **56, stalled** | Rebrand of a stalled video barely moved it. Lesson: reviving a stalled video ≈ doesn't work. |
+| **1** | **2026-05-21** | **528 Hz Healing Frequency \| Stop Overthinking** (`po4jmYdX2_w`) | 528 | Ghibli Kyoto garden, QUIET MIND | ✅ **published 05-21 (fresh upload)** | **🔥 118 views in ~19h, VPH peak 23, sustained 4–8** | Best start on the channel. Validates Ghibli + keyword title + correct cluster. On pace vs 852 Hz (268 by day 5). Real read at day 7 (05-28). |
+
+### 🏆 Key lesson (2026-05-22) — fresh upload >> rebrand of a stalled video
+
+Same frequency (528 Hz), same week, two approaches:
+- **Sound Bath** = rebrand of the stalled `-1RE1P98_u8` (new title/tags/thumbnail on the existing video) → **56 views, still flat**
+- **Healing Hour Vol. 1** = fresh upload `po4jmYdX2_w` → **118 in <24h, VPH 23 peak**
+
+YouTube gives a new upload a clean algorithmic test; a stalled video stays suppressed even after a full rebrand. **Going forward: re-upload fresh rather than try to revive a dead video.**
+
+### Tracking — Healing Hour Vol. 1 (`po4jmYdX2_w`)
+- 48h (05-23): log VPH + views
+- **7d (05-28): real read** — sustained VPH > 0, total clearly beating 852 Hz curve = locked template
+- 30d (06-20): final snapshot
 
 ## Phase 1 batch — week of May 13–19
 
