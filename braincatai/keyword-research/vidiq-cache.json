@@ -3,13 +3,14 @@
     "purpose": "Cache of vidIQ API responses (keyword research, outliers, breakout channels, channel videos) to avoid burning paid credits on repeat queries. Cat psychology niche keywords stay relevant ~30-60 days. Refresh entries older than 60 days only if you suspect drift.",
     "schema_version": "1.1",
     "created": "2026-05-17",
-    "last_updated": "2026-05-20",
-    "total_credits_spent": 185,
+    "last_updated": "2026-05-22",
+    "total_credits_spent": 200,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
       "2026-05-19: +5 credits — keyword_research 'signs your cat doesn't love you' = GREEN 67.55 / 14,333 monthly. Related '5 signs your cat doesn't love you' 66.67 / 26,837 monthly. Script approved.",
-      "2026-05-20: +25 credits — 5× keyword_research (May 22-24 lineup review + killer-topic + williamcat candidates). BEST FIND: 'things cats love' 59.93/14,709 + listicle form (williamcat 5.6M proof). Killer topic viable via 'cat hunting' 64.91/15,883. Hugs + home-alone = search-dead (CTR-only). Balance after: 1870 total (1298 renewable + 572 addon)."
+      "2026-05-20: +25 credits — 5× keyword_research (May 22-24 lineup review + killer-topic + williamcat candidates). BEST FIND: 'things cats love' 59.93/14,709 + listicle form (williamcat 5.6M proof). Killer topic viable via 'cat hunting' 64.91/15,883. Hugs + home-alone = search-dead (CTR-only). Balance after: 1870 total (1298 renewable + 572 addon).",
+      "2026-05-22: +15 credits — 3× keyword_research on user-submitted ideas. WINNER: cat dehydration viable via 'signs of dehydration in cats' 68.67/4,919/comp-11. cat jealousy YELLOW 59.01/5,156. signs-cat-angry RED (no searchable keyword)."
     ]
   },
   "queries": [
@@ -395,6 +396,48 @@
       ],
       "verdict": "RED for search — seed 27.04 / 0 monthly. No specific searchable form (only generic). @williamcat home-alone topic (3.0M) is CTR-only. Skip as search play.",
       "notes": "williamcat candidate. Search-dead. CTR-only."
+    },
+    {
+      "keyword": "cat dehydration",
+      "fetched": "2026-05-22",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 22.8, "overall": 30.88, "monthly": 0},
+      "top_related": [
+        {"keyword": "signs of dehydration in cats", "overall": 68.67, "monthly": 4919, "competition": 11},
+        {"keyword": "pet wellness", "overall": 62.06, "monthly": 5120},
+        {"keyword": "cat mistakes", "overall": 59.71, "monthly": 3263},
+        {"keyword": "healthy cats", "overall": 58.10, "monthly": 4128}
+      ],
+      "verdict": "YELLOW-GREEN ⭐ — seed RED but searchable via 'signs of dehydration in cats' 68.67 / 4,919 / competition 11 (very low). Strong 'you're doing it wrong' CTR hook + cat-health authority. BEST of the 3 user ideas.",
+      "notes": "Use 'signs of dehydration in cats' as main keyword. Title: 'You're Accidentally Dehydrating Your Cat 🐱'. Cat-health = good for authority/monetization. GREEN-light for a slot."
+    },
+    {
+      "keyword": "cat jealousy",
+      "fetched": "2026-05-22",
+      "credits_spent": 5,
+      "seed": {"volume": 55.42, "competition": 35.6, "overall": 59.01, "monthly": 5156},
+      "top_related": [
+        {"keyword": "angry cats", "overall": 60.11, "monthly": 14360},
+        {"keyword": "cat behavior", "overall": 70.29, "monthly": 256725},
+        {"keyword": "cats and babies", "overall": 60.75, "monthly": 9516},
+        {"keyword": "jealous cats", "overall": 54.56, "monthly": 4782}
+      ],
+      "verdict": "YELLOW — seed 59.01 / 5,156 monthly. Decent emotional + signs-format angle. Viable secondary slot.",
+      "notes": "Title: 'Is Your Cat Jealous? Hidden Signs'. signs-format works for us. Related 'angry cats' 14,360 could fold the anger topic in here."
+    },
+    {
+      "keyword": "signs your cat is angry",
+      "fetched": "2026-05-22",
+      "credits_spent": 5,
+      "seed": {"volume": 0, "competition": 27.2, "overall": 29.12, "monthly": 0},
+      "top_related": [
+        {"keyword": "cat behavior", "overall": 70.29, "monthly": 256725},
+        {"keyword": "cat health", "overall": 67.37, "monthly": 28768},
+        {"keyword": "cat training", "overall": 66.58, "monthly": 17769},
+        {"keyword": "cat advice", "overall": 62.20, "monthly": 14975}
+      ],
+      "verdict": "RED for search — seed 29.12 / 0 monthly. No specific searchable angry-keyword (all generic). CTR-only play. Weakest of the 3.",
+      "notes": "Skip as standalone search play. Fold 'anger signs' into the jealousy video OR a broader cat-moods video."
     }
   ],
   "non_keyword_calls": [
