@@ -321,6 +321,17 @@ If editing the script's title, scenes, or VO, **re-verify tags reflect the new t
 - **All on-screen text MUST be in English** — channel is English-language (@braincatai). This applies to: thumbnails (title plate, arrow callouts), in-video overlays ("SAY THEIR NAME", "ADOPTED ✓", "TOP SCORE"), scene captions, chart labels in lab scenes. Russian alt-titles in scripts are ONLY for potential future RU mirror channel — never used on the current EN channel. Locked 15 мая 2026 after the assistant slipped Russian "ВОТ КАК ОНА ВИДИТ ВАС" into a thumbnail prompt.
 - **All on-screen text/numerals in a single video MUST use ONE LOCKED FONT and ONE LOCKED STYLE.** This applies to: cartoon numerals in image prompts ("1", "2", "3" in curiosity-gap and build-up scenes), category lower-thirds ("1. GUARD", "2. SEPARATION", "3. TERRITORY"), in-video overlay phrases ("EVERY TIME", "BLINK = SOUND", "VERIFY"), chart labels in lab scenes, thumbnail text plate. If a video uses a soft pastel-yellow rounded sans for the curiosity-gap "3", then EVERY numeral/overlay/caption in that video must be the same soft pastel-yellow rounded sans — not a serif here and a brush there. The full channel-wide locked typography spec lives in `braincatai/style-guide.md` §13 (font family, weight, color, stroke). Locked 16 мая 2026 after typography drift made overlays feel like different videos stitched together.
 
+## 📋 Self-contained prompt delivery (MANDATORY — locked 22 мая 2026, user directive)
+
+**Every prompt the assistant hands to the user must be copy-paste ready with ALL locks already baked in — the user must NEVER have to assemble or paste anything extra.** Do this automatically, every time, without being asked:
+
+- **Any image prompt** (Nano Banana) → automatically PREPEND the full **Locked Brain Prompt** (style-guide §8) at the start. The user copies one block and it already contains Brain's full locked look (kitten proportions, emerald #3DDC84 eyes, glasses, brown collar + heart tag, ginger paws/no white socks, 2 ears, 4 paws, Pixar cartoon / not photoreal).
+- **Any animation prompt** (Veo) → automatically INCLUDE the full **Veo anti-drift rules block** (EYE COLOR / GLASSES / SINGLE-CHARACTER / STYLE / ANATOMY / MOUTH / MOTION) before STYLE.
+- **Any prompt with the human owner** → automatically include the HUMAN RULE + HAND COUNT RULE.
+- Negatives block always included with the prompt.
+
+If the assistant delivers a prompt missing these, that's a miss — fix it before the user spends credits. The canonical blocks live in `braincatai/style-guide.md`; scripts already embed them per-scene, but any prompt written fresh in chat must also be self-contained.
+
 ## 🛑 Veo 3 prompt pre-flight verification (MANDATORY — assistant runs this before delivering any Veo 3 prompt)
 
 Locked 16 мая 2026 after user paid Veo credits to render bathroom Sc 4 with a phantom 3rd ear + chubby drift that should have been caught at the prompt review stage. **Veo 3 generations cost real money ($0.50-2 per scene × 8 scenes = $4-16 per video minimum, plus retries). Every Veo prompt the assistant delivers MUST be pre-flight verified against this checklist BEFORE handing it to the user.**
