@@ -382,9 +382,13 @@ orange ginger tabby color as the body (NO white paws, NO white socks,
 NO white mittens, NO white toes), pink nose, long white whiskers, EXACTLY 2 EARS
 (one left, one right — both pointed perky triangle kitten ears,
 perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped
-artifact on head), Pixar 3D render style, cinematic lighting, 4K,
-vertical 9:16 composition.
+artifact on head), Pixar/Disney 3D ANIMATED CARTOON style (stylized
+smooth cartoon shading, big cartoon eyes, rounded cartoon forms — like a
+frame from a Pixar movie, NOT photorealistic, NOT a real cat, NOT realistic
+fur), soft cartoon lighting, vertical 9:16 composition.
 ```
+
+> ⚠️ **Realism trap (locked 22 мая 2026):** tokens like "3D render", "cinematic lighting", "4K", "hyperrealistic" pull the model toward photorealism. Lead with "Pixar/Disney ANIMATED CARTOON", drop "render/4K", and put realism words in negatives. The 10-credit Veo also drifts to realism on its own — a higher tier holds the cartoon style better.
 
 Then append: **the locked scene/world block for this video** (see §8b) **+ the per-shot action and expression**.
 
@@ -406,6 +410,7 @@ Brain's identity must be IDENTICAL to the input image throughout — same face, 
 
 ```
 2D, flat, anime, cel-shaded, photorealistic cat, realistic cat, real cat,
+photoreal, hyperrealistic, realistic fur, photograph, live action, lifelike, 3D realism,
 multiple cats, two cats, second cat, extra cat, wild cat,
 low quality, blurry, distorted face, extra limbs, extra paws,
 five legs, six legs, both front paws raised, two paws raised together,
