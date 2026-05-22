@@ -306,6 +306,8 @@ If editing the script's title, scenes, or VO, **re-verify tags reflect the new t
 
 **Every time a new script is created, ALWAYS append its pinned comment to `braincatai/pinned-comments.md`** — never skip. The pinned comment is already drafted inside each script's editing notes. Add it as the next numbered entry in the published or scheduled section, with date or "TBD". This file is the canonical place the user goes to copy-paste the comment when uploading.
 
+**🗣️ Comment voice rule (locked 22 мая 2026, user directive): write EVERY comment like a real human, not a bot/marketer.** Applies to pinned comments AND replies. Casual, conversational, like an actual cat owner chatting — lowercase is fine, a personal aside helps ("mine does X lol"), one genuine question. **Avoid:** robotic engagement-bait formulas ("Drop a 🐾 if yes", "Comment below 👇", "Like if you agree"), over-polished marketing tone, emoji spam. A little imperfect/real > slick. Keep emojis to ~1-2.
+
 **Other locked rules** (full detail in `style-guide.md`):
 - Lock only Brain's character, NOT the background. Backgrounds are per-video.
 - 1–3 locations max per video; identical wording across scenes that share a location.

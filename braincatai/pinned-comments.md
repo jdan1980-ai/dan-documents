@@ -204,7 +204,7 @@ Be honest 👇 How many of these 5 signs does YOUR cat show? Drop the number —
 ### 32. Your Cat Is a Perfect Killing Machine (22 мая) — Cat Facts / Predator-Reveal
 
 ```
-Be honest 👇 does YOUR cute little killer "hunt" toys (or your feet) at 3am? 🐭 Drop a 🐾 if yes — and tell me the weirdest "gift" they've ever brought you 😹
+Ok be honest 😅 does your cat go full predator mode at 3am? Mine stalks my feet across the whole room like I'm a gazelle 🐭 what's the weirdest "gift" yours has ever proudly dropped on you?
 ```
 
 ### 33. 5 Things Your Cat Loves That You Never Do (23 мая) — Cat Behavior / Positive-Mirror
