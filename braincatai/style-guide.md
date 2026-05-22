@@ -21,9 +21,10 @@ The single source of truth for the channel's visual, audio, and editorial style.
 - **Species:** Cute orange tabby kitten
 - **Body:** Round, plush kitten proportions — large head, small body
 - **Fur:** Soft fluffy orange with **darker tabby stripes**, pink nose, long white whiskers
+- **Paws:** All 4 paws are the **SAME orange ginger** as the body — **NEVER white paws, NEVER white socks/mittens/toes** (the AI keeps adding white socks — must be locked out)
 - **Eyes:** Big, round, **sparkling green**, glossy highlights — main acting tool
 - **Glasses:** Small, thin, round, **gold-framed** — always on Brain
-- **Collar:** **Brown leather** with a **gold heart-shaped tag** engraved "Brain"
+- **Collar:** **Brown leather** with a **gold heart-shaped tag** engraved "Brain" — **identical in every scene** (same color, same heart-shaped tag, never changes)
 - **Pupils:** Expressive — can go pinprick (shock), heart (love), spiral (confused), star (excited)
 
 ### Personality
@@ -375,8 +376,10 @@ slim torso, delicate proportions, small paws), big round sparkling VIVID
 EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT
 brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin
 round gold-framed glasses, brown leather collar with gold
-heart-shaped tag engraved "Brain", soft fluffy orange fur with
-darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS
+heart-shaped tag engraved "Brain" (identical collar in every scene),
+soft fluffy orange fur with darker tabby stripes, ALL 4 PAWS the SAME
+orange ginger tabby color as the body (NO white paws, NO white socks,
+NO white mittens, NO white toes), pink nose, long white whiskers, EXACTLY 2 EARS
 (one left, one right — both pointed perky triangle kitten ears,
 perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped
 artifact on head), Pixar 3D render style, cinematic lighting, 4K,
@@ -407,6 +410,7 @@ multiple cats, two cats, second cat, extra cat, wild cat,
 low quality, blurry, distorted face, extra limbs, extra paws,
 five legs, six legs, both front paws raised, two paws raised together,
 missing glasses, glasses removed, missing collar, missing heart tag, watermark,
+white paws, white socks, white mittens, white toes, white feet, white-tipped paws,
 text in image, logo, ugly, scary, aggressive expression,
 mouth open as if talking, lip-sync, talking cat,
 mouth movement, chattering,
