@@ -47,6 +47,37 @@ Animated AI cat Shorts • Education style • Vertical 9:16 • 30–60 sec
 
 ---
 
+## 🆕 User-submitted ideas (21 мая 2026) — triaged
+
+User dropped 19 ideas (all marked "очень высокий" demand). Triaged against published/scheduled to avoid cannibalization (recovery mode = no duplicate-topic risk). **vidIQ-check required before scripting (cache-first → bot → vidIQ w/ confirm).**
+
+### 🟢 Fresh & strong — backlog (priority for vidIQ check)
+
+| # | Slug (proposed) | EN angle | Hook-type |
+|---|------|----------|-----------|
+| U1 | `dehydrating-your-cat` | You're Accidentally Dehydrating Your Cat Daily | "you're doing it wrong" + cat-health ⭐ |
+| U2 | `is-your-cat-jealous` | Is Your Cat Actually Jealous? Hidden Signs | signs-format (proven negative-mirror genre) ⭐ |
+| U3 | `truth-about-belly-rubs` | The Truth About Cat Belly Rubs | universal pain point |
+| U4 | `cats-walk-between-legs` | The Real Reason Cats Walk Between Your Legs | relatable, fresh |
+| U5 | `signs-cat-is-angry` | 4 Signs Your Cat Is Angry With You | signs-format ⭐ |
+| U6 | `what-cat-meows-mean` | What Your Cat's Meows Really Mean | pair/merge with `why-cats-meow-only-at-humans` — pick strongest angle |
+| U7 | `how-cats-choose-human` | How Cats Choose Their Human | emotional relational |
+| U8 | `secret-cat-facts` | 3 Little-Known Cat Facts Every Owner Should Know | generic listicle (backup) |
+
+### 🟡 Off-format (different content type — experiment later, not explainer)
+- **The Most Loyal Cat Tale – Prepare to Cry** — emotional story, not psychology explainer (needs storytelling + different visuals)
+- **Never Leave Your Cat Alone for 5 Min – Hilarious Results** — comedy/compilation, not our style
+
+### 🔴 Cannibalization — DO NOT script (already published/scheduled)
+- What Your Cat's Kneading Means = «Make Biscuits» (25 апр)
+- Your Cat Doesn't See You as Human = «Giant Weird Cat» (15 мая)
+- When Your Cat Ignores Your Calls = «Understand Their Names» (20 мая)
+- Your Cat Is Constantly Watching You ≈ «Stares at You» (15 мая)
+- Why Cats Prefer High Perches = «Sits Above You» (18 мая)
+- Chest for Naps / Prefer Your Lap ≈ «If Your Cat Sleeps on You» (12 мая)
+
+---
+
 ## Core Formula
 
 `Hook (0–2s)` → `Curiosity gap (2–5s)` → `Explanation with cat visuals (5–45s)` → `Mind-blown payoff + CTA (45–60s)`
