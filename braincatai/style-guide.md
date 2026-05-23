@@ -322,6 +322,16 @@ If your prompt could describe a stuffed-animal-on-a-stick, rewrite it.
 
 **Per-scene check:** open every script's animation prompt next to its VO line. Ask: *if I muted the audio, would a viewer still understand what's being said from the visual alone?* If no, rewrite the visual.
 
+### 5e. Two retention/authority boosters (adopt per script — use each ONCE, don't bloat)
+
+Validated 22 мая 2026 from a vidIQ-AI breakdown of the "Chirps At Birds" script (+ matches our predator-reframe that works):
+
+1. **Micro-question pivot** — right after the hook, drop a 1-word/short question to reset attention, then answer. e.g. *"Your cat follows you to the bathroom. Creepy? Maybe. But here's why."* Resets the viewer's focus and re-hooks.
+2. **Specific spike** — use ONE hyper-specific number or proper name instead of a vague term, for authority + memorability. e.g. *"the African Wildcat"* not "wild cats"; *"30 milliseconds"* not "very fast". One spike per video.
+3. **Sticky label** — give the viewer a witty 2-word label for their own cat they'll repeat ("tiny ninja", "perfect killing machine", "tiny apex predator"). Memorable + shareable.
+
+> ⚠️ The 49-60 sec format is dense — use each booster **once**, not every line. And ignore topic suggestions from external AIs (they don't know our catalog → cannibalization risk). Topics come from the vidIQ-checked backlog only.
+
 ---
 
 ## 6. Audio
