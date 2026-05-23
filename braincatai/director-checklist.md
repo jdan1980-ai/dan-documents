@@ -143,6 +143,31 @@ These can appear in Sc 7-8 but **never in the hook**.
 
 ---
 
+### Lesson 5 — *Your Cat Is a Perfect Killing Machine* — best video to date (May 22, 2026)
+
+24h metrics blew past channel norms:
+
+| Metric | Channel typical | Killer (24h) |
+|--------|-----------------|--------------|
+| CTR | 0–1.3% | **5.2%** (×4-5) |
+| Avg view duration | 6–27 sec | **31 sec (54.5%)** |
+| Swipe-stay (Shorts feed) | — | **54.6%** |
+
+**What made it win (REPLICATE this formula):**
+- ✅ **Predator-reframe** — "cute house cat = perfect killer." The cute-vs-deadly contrast is the channel's strongest hook so far (vidIQ-AI independently flagged the same on the Chirps video).
+- ✅ **Cute→predator FLIP hook (Sc 1)** — adorable grooming → sudden frozen hunter-lock in 2 sec. Visual gut-punch before words.
+- ✅ **Numbered "weapon reveal" format** — "4 reasons / weapons" listicle holds retention.
+- ✅ **Saber-tooth SHADOW thumbnail** — tiny cute Brain + giant fanged shadow on the wall. Drove the 5.2% CTR. Cute foreground + scary shadow = high-CTR contrast, advertiser-safe (no gore on Brain).
+- ✅ **Heartwarming twist close** (predator naps on you) — drives shares/comments.
+
+**Two fixes for next videos:**
+- 🔧 **Mid-video dip (~0:29)** — the most abstract fact (whiskers/paws) lost viewers. Put the STRONGEST visual fact in the middle, and add a pattern-interrupt (sharp cut / SFX accent) around the mid-point to re-grab attention.
+- 🔧 **CTA too plain** — generic "Follow Brain" under-converts. Use an **intriguing open-loop CTA**: e.g. *"Subscribe to find out what your cat is plotting right now."* Curiosity > generic ask.
+
+**Series direction:** double down on **Cat Psychology "top-X scary/incredible facts"** + predator/mind-blow reframes. This is the channel's proven lane now.
+
+---
+
 ## ☑️ Pre-flight checklist (before writing a script)
 
 - [ ] **Topic verified** in `content-ideas.md` — exists in backlog, marked 🟡 not done?
