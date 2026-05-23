@@ -204,19 +204,19 @@ Be honest 👇 How many of these 5 signs does YOUR cat show? Drop the number —
 ### 32. Your Cat Is a Perfect Killing Machine (22 мая) — Cat Facts / Predator-Reveal
 
 ```
-Ok be honest 😅 does your cat go full predator mode at 3am? Mine stalks my feet across the whole room like I'm a gazelle 🐭 what's the weirdest "gift" yours has ever proudly dropped on you?
+honestly mine does this at like 4am 😭 goes full hunter mode stalking my feet then acts all innocent. last week he brought me a single sock and looked SO proud lol. what does yours bring you
 ```
 
 ### 33. 5 Things Your Cat Loves That You Never Do (23 мая) — Cat Behavior / Positive-Mirror
 
 ```
-honestly which of these do you already do? i only started slow-blinking back at mine a few weeks ago and now he does it to me every morning, melts me every time 💚 which one are you gonna try tonight?
+wait which of these do you actually do already?? i only started doing the slow blink thing recently and now my cat does it back every morning, i cant 😭 gonna try the rest tonight
 ```
 
 ### 34. When Your Cat Stretches at You, It Means This (24 мая) — Cat Communication
 
 ```
-does yours do the big stretch the second you walk in? mine drops into a full downward-dog every single time 😂 had no idea it actually meant he trusts me. does yours flop the belly out too?
+omg the downward-dog stretch the second you walk in?? mine does it every single time and i always just thought he was stretching lol. had no idea it meant trust. does yours show the belly too
 ```
 
 ---
