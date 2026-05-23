@@ -22,9 +22,10 @@ The single source of truth for the channel's visual, audio, and editorial style.
 - **Body:** Round, plush kitten proportions — large head, small body
 - **Fur:** Soft fluffy orange with **darker tabby stripes**, pink nose, long white whiskers
 - **Paws:** All 4 paws are the **SAME orange ginger** as the body — **NEVER white paws, NEVER white socks/mittens/toes** (the AI keeps adding white socks — must be locked out)
+- **Tail:** Orange ginger tabby with darker stripes **all the way to the tip** — **NEVER a white tail tip**
 - **Eyes:** Big, round, **sparkling green**, glossy highlights — main acting tool
-- **Glasses:** Small, thin, round, **gold-framed** — always on Brain
-- **Collar:** **Brown leather** with a **gold heart-shaped tag** engraved "Brain" — **identical in every scene** (same color, same heart-shaped tag, never changes)
+- **Glasses:** Small, thin, round, **gold-framed** — **always on Brain, in every single shot** (the AI drops them through the AI keeps removing them — hard-lock)
+- **Collar:** **Plain smooth brown leather** (NO studs, NO spikes, NO metal plates, NO decorative holes, NO front buckle) with **EXACTLY ONE gold HEART-SHAPED tag** engraved "Brain" — **identical in every scene**. The tag is a **HEART** — never round, never a circle, never blank, never a bone.
 - **Pupils:** Expressive — can go pinprick (shock), heart (love), spiral (confused), star (excited)
 
 ### Personality
@@ -375,11 +376,14 @@ NOT chubby, NOT pudgy — slender petite kitten body with small chest,
 slim torso, delicate proportions, small paws), big round sparkling VIVID
 EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT
 brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin
-round gold-framed glasses, brown leather collar with gold
-heart-shaped tag engraved "Brain" (identical collar in every scene),
-soft fluffy orange fur with darker tabby stripes, ALL 4 PAWS the SAME
-orange ginger tabby color as the body (NO white paws, NO white socks,
-NO white mittens, NO white toes), pink nose, long white whiskers, EXACTLY 2 EARS
+round gold-framed glasses (ALWAYS on, every shot), a plain smooth brown
+leather collar (NO studs, NO spikes, NO metal plates, NO holes, NO front
+buckle) with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart
+shape — NOT round, NOT blank; identical every scene), soft fluffy orange
+fur with darker tabby stripes, ALL 4 PAWS the SAME orange ginger tabby
+color as the body (NO white paws, NO white socks, NO white mittens, NO
+white toes), tail orange ginger tabby to the very tip (NO white tail tip),
+pink nose, long white whiskers, EXACTLY 2 EARS
 (one left, one right — both pointed perky triangle kitten ears,
 perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped
 artifact on head), Pixar/Disney 3D ANIMATED CARTOON style (stylized
@@ -424,7 +428,10 @@ blue eyes, cyan eyes, grey eyes,
 dark eyes, brown iris, amber iris, wrong eye color,
 eye color tinted by lighting, warm-tinted eyes,
 extra hand, third hand, floating hand, disconnected hand,
-duplicate arm, extra arm, extra fingers, too many fingers
+duplicate arm, extra arm, extra fingers, too many fingers,
+white tail tip, white-tipped tail, round tag, circular tag, blank tag,
+bone-shaped tag, two tags, studded collar, spiked collar,
+collar with holes, collar buckle, missing glasses, no glasses
 ```
 
 ### Animation prompt rule (Veo 3)
