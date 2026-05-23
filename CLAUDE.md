@@ -169,7 +169,10 @@ Verdict: [GREEN >65 / YELLOW 50-65 / RED <50]
 
 **Related-keyword harvest:** when `vidiq_keyword_research` returns related keywords with score >60, save them in the script's Tags section AND consider them as future topic candidates. Add the top 2-3 to `content-ideas.md`.
 
-**Pipeline:** 8 scenes → image in Nano Banana → animation in Veo 3 → assembly in Google Vids.
+**🔒 Pipeline (LOCKED 22 мая 2026 — user directive, do NOT deviate, do NOT propose other tools):**
+**ALL images are generated in Nano Banana 2** (it holds Brain best — beats Nano Banana Pro and every other model; this is part of the standard, treat every image prompt as a Nano Banana 2 prompt) → **animation in Kling 3.0 image-to-video** (animate the Nano Banana 2 still with a motion-only prompt + "preserve input image") → **overlays/text/numerals + assembly in CapCut** → **VO via Google Vids TTS** (mouth closed). Static/reaction scenes (the majority) can skip Kling entirely and use a Ken Burns zoom on the Nano Banana 2 still.
+
+> ⚠️ **Lesson (cost the user a full redo, 22 мая 2026):** do NOT send the user to generate images in Veo / Flow / Focal / OpenArt-Seedance / character-training etc. **Images = Nano Banana 2, period.** Tool-churn caused them to regenerate everything. Only Kling is used, and only for the animation step on a Nano Banana 2 image.
 
 **Channel:** [@braincatai](https://www.youtube.com/@braincatai) · channel ID `UCMKcrIw1l1u_WU0M9Cv-DKw` · uploads playlist `UUMKcrIw1l1u_WU0M9Cv-DKw`
 
