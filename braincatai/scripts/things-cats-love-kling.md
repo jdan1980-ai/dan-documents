@@ -84,15 +84,17 @@ Preserve the input image exactly — same kitten, same glasses, same emerald eye
 ```
 **Негативы:** `redraw, restyle, recolor, morphing, identity change, photorealistic, blue eyes, white paws, glasses off, mouth open, talking, second cat, on-screen text, watermark`
 
-**Motion-промты по сценам:**
-- **Sc 1:** Slow gentle push-IN on his face. He looks up with a hopeful expression, ears perk up, then one slow soft blink.
-- **Sc 2:** Slow gentle drift/arc around him. Warm head-tilt, ears swivel, tail sways slowly.
-- **Sc 3:** Slow zoom toward his eyes. One clear deliberate SLOW BLINK — eyes close softly, hold, open warmly.
-- **Sc 4:** Push in slowly. He sniffs the finger at the frame edge, then gently cheek-rubs/headbutts it, eyes half-closing happily. (картинка уже с рукой)
-- **Sc 5:** Camera cranes / tilts UP to him on the high shelf. Slow regal head-pan looking down, tail swaying over the edge.
-- **Sc 6:** Slow push-in. He nuzzles deeper into the fabric and softly KNEADS with front paws, eyes squeezing shut.
-- **Sc 7:** Warm push-in. He opens his mouth for ONE soft meow then closes it, ears perk with joy. (рот — единственное исключение)
-- **Sc 8:** готовый universal клип.
+**Motion-промты по сценам** (VO-длина → клип чуть длиннее с буфером):
+- **Sc 1 (~7с VO → клип 7-8с):** Slow gentle push-IN on his face. He looks up with a hopeful expression, ears perk up, then one slow soft blink.
+- **Sc 2 (~7с → 7-8с):** Slow gentle drift/arc around him. Warm head-tilt, ears swivel, tail sways slowly.
+- **Sc 3 (~7с → 7-8с):** Slow zoom toward his eyes. One clear deliberate SLOW BLINK — eyes close softly, hold, open warmly.
+- **Sc 4 (~6.5с → 7с):** Push in slowly. He sniffs the finger at the frame edge, then gently cheek-rubs/headbutts it, eyes half-closing happily. (картинка уже с рукой)
+- **Sc 5 (~6.5с → 7с):** Camera cranes / tilts UP to him on the high shelf. Slow regal head-pan looking down, tail swaying over the edge.
+- **Sc 6 (~7с → 7-8с):** Slow push-in. He nuzzles deeper into the fabric and softly KNEADS with front paws, eyes squeezing shut.
+- **Sc 7 (~7с → 7-8с):** Warm push-in. He opens his mouth for ONE soft meow then closes it, ears perk with joy. (рот — единственное исключение)
+- **Sc 8 (~5с):** готовый universal клип.
+
+_Итого VO ≈ 50с + переходы ≈ ~56с. Клип всегда чуть длиннее VO (+0.5-1с буфер)._
 
 ---
 
