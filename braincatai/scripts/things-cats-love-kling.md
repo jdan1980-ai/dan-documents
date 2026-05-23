@@ -74,8 +74,30 @@ photorealistic, real cat, blue eyes, amber eyes, missing glasses, white paws, wh
 
 ---
 
+## 🖼️➡️🎬 IMAGE-TO-VIDEO режим (основной — анимируем готовую картинку)
+
+User работает от **сгенерированных картинок** (image-to-video в Kling), не text-to-video. Это лучше против дрейфа: картинка = якорь, Kling её оживляет. В промте — ТОЛЬКО движение + камера, НЕ переописывать внешность (иначе Kling перерисует и поплывёт).
+
+**Анти-дрейф суффикс (в каждый motion-промт):**
+```
+Preserve the input image exactly — same kitten, same glasses, same emerald eyes, same collar + heart tag, same ginger paws and tail, same Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Mouth stays closed. Vertical 9:16.
+```
+**Негативы:** `redraw, restyle, recolor, morphing, identity change, photorealistic, blue eyes, white paws, glasses off, mouth open, talking, second cat, on-screen text, watermark`
+
+**Motion-промты по сценам:**
+- **Sc 1:** Slow gentle push-IN on his face. He looks up with a hopeful expression, ears perk up, then one slow soft blink.
+- **Sc 2:** Slow gentle drift/arc around him. Warm head-tilt, ears swivel, tail sways slowly.
+- **Sc 3:** Slow zoom toward his eyes. One clear deliberate SLOW BLINK — eyes close softly, hold, open warmly.
+- **Sc 4:** Push in slowly. He sniffs the finger at the frame edge, then gently cheek-rubs/headbutts it, eyes half-closing happily. (картинка уже с рукой)
+- **Sc 5:** Camera cranes / tilts UP to him on the high shelf. Slow regal head-pan looking down, tail swaying over the edge.
+- **Sc 6:** Slow push-in. He nuzzles deeper into the fabric and softly KNEADS with front paws, eyes squeezing shut.
+- **Sc 7:** Warm push-in. He opens his mouth for ONE soft meow then closes it, ears perk with joy. (рот — единственное исключение)
+- **Sc 8:** готовый universal клип.
+
+---
+
 ## Заметки
-- **Динамика > статика:** раз Kling держит @Brain, в каждой сцене есть действие (блинк, хедбат, knead, мяу, crane-камера) — это держит взгляд = выше retention. Раньше мы это гасили из-за дрейфа Veo.
+- **Динамика > статика:** раз персонаж залочен (картинка-якорь), в каждой сцене есть действие (блинк, хедбат, knead, мяу, crane) — держит взгляд = выше retention. Раньше гасили из-за дрейфа Veo.
 - **Тест:** начни с **Сц 4 (хедбат) или Сц 6 (knead)** — это движение, стресс-тест консистентности под действием. Held @Brain под движением → весь пайплайн подтверждён.
 - Если какая-то сцена в Kling всё же плывёт под движением → fallback на картинку + Ken Burns (`things-cats-love-noveo.md`) для неё.
 - Текст/цифры/пузыри — ВСЕГДА в CapCut, не в Kling (видео-модели коверкают текст).
