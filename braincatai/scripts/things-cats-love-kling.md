@@ -98,6 +98,26 @@ _Итого VO ≈ 50с + переходы ≈ ~56с. Клип всегда чу
 
 ---
 
+## 🖼️ Thumbnail (Nano Banana 2 — НЕ забыть, генерится отдельно)
+
+> Полный промт также в `things-cats-love.md`. Концепт: Brain делает slow-blink с сердечком + большая «5» + текст-плита «CATS LOVE THIS / DO YOU? 💚».
+
+```
+Cute orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby), big round VIVID EMERALD GREEN eyes (#3DDC84 — NOT brown/amber/blue) warm and half-lidded in a loving slow-blink, small thin round gold-framed glasses, a plain smooth BROWN leather collar (NO studs, NO holes, NO buckle) with EXACTLY ONE small gold HEART-SHAPED tag engraved "Brain" (heart — NOT round, NOT blank), soft fluffy orange tabby fur with darker stripes, ALL 4 PAWS ginger (NO white paws/socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 EARS, Pixar/Disney 3D ANIMATED CARTOON (stylized, NOT photorealistic), warm cozy lighting, vertical 9:16 thumbnail.
+
+THUMBNAIL FRAMING: face fills ~55% of frame, slight 3° tilt, warm loving slow-blink. A pastel-pink cartoon heart floats near his head. Soft warm cozy living-room bokeh background. A big bold cartoon "5" in a top corner in locked typography.
+
+TEXT PLATE (bottom 25%, centered): 2 lines, ALL CAPS, Electric Yellow #FFD23F fill, charcoal #2B2B2B outline 5px, soft drop-shadow, 2-3° tilt:
+LINE 1: "CATS LOVE THIS"
+LINE 2: "DO YOU? 💚"
+
+TYPOGRAPHY LOCK: BOLD ROUNDED GEOMETRIC SANS-SERIF (Nunito Bold / Fredoka One / Bangers — NO serifs, NO Comic Sans, NO Impact). Single font.
+EYE COLOR: BRIGHT EMERALD GREEN #3DDC84. ANATOMY: EXACTLY 4 paws + 2 EARS. LANGUAGE: English only, NO Cyrillic.
+```
+**Negatives:** `photorealistic, real cat, blue eyes, amber eyes, white paws, white tail tip, round tag, blank tag, studded collar, missing glasses, three ears, mouth open, serif font, Comic Sans, Impact, Russian text, Cyrillic, busy background, watermark`
+
+---
+
 ## Заметки
 - **Динамика > статика:** раз персонаж залочен (картинка-якорь), в каждой сцене есть действие (блинк, хедбат, knead, мяу, crane) — держит взгляд = выше retention. Раньше гасили из-за дрейфа Veo.
 - **Тест:** начни с **Сц 4 (хедбат) или Сц 6 (knead)** — это движение, стресс-тест консистентности под действием. Held @Brain под движением → весь пайплайн подтверждён.
