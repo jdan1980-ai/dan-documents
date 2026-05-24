@@ -98,9 +98,9 @@ _~115 слов EN, ~7с/сцена._
 ## Сцена 1 — ХУК (флип) — 0–7с
 **Что зритель видит:** Brain мило сидит → РЕЗКО вскидывает голову и замирает, уставившись в пустой угол комнаты, зрачки расширяются. Текст-плита «WHY YOUR CAT STARES AT NOTHING». VO open-loop «третий — жуткий».
 
-**🎨 Image (Nano Banana 2):** [Locked Brain] +
+**🎨 Image (Nano Banana 2):** (готовый промт — копи-паст целиком):
 ```
-INT. COZY LIVING ROOM — DAY. Medium close-up. Brain sits relaxed on the sage-green rug, then captured at the instant his head SNAPS to lock onto an empty corner of the room off to the upper-left — pupils dilated wide, ears swivelled forward, body frozen alert, staring intensely at NOTHING (empty wall/corner). The emptiness he stares at is clearly visible and clearly empty. Mouth closed. Negative space upper-third for "WHY YOUR CAT STARES AT NOTHING" text plate.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round VIVID EMERALD GREEN eyes (#3DDC84 — never blue/amber/cyan), small thin round gold-framed glasses ALWAYS on, a plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart, not round/blank, no studs/holes), soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. INT. COZY LIVING ROOM — DAY. Medium close-up. Brain sits relaxed on the sage-green rug, then captured at the instant his head SNAPS to lock onto an empty corner of the room off to the upper-left — pupils dilated wide, ears swivelled forward, body frozen alert, staring intensely at NOTHING (empty wall/corner). The emptiness he stares at is clearly visible and clearly empty. Mouth closed. Negative space upper-third for "WHY YOUR CAT STARES AT NOTHING" text plate.
 ```
 **🎬 Kling (image-to-video):**
 ```
@@ -110,9 +110,9 @@ Brain relaxed for a beat, then his head SNAPS toward the empty corner, pupils di
 **Оверлей (CapCut):** «WHY YOUR CAT STARES AT NOTHING» на 2с + резкий «snap» SFX на вскиде головы
 
 ## Сцена 2 — СЕТАП — 7–14с
-**🎨 Image:** [Locked Brain] +
+**🎨 Image:** (готовый промт — копи-паст целиком):
 ```
-INT. COZY LIVING ROOM — DAY. Medium shot, slight low hero angle. Brain sits upright and composed, calm confident gaze to camera. Soft faint glowing sensory ripples (subtle pastel rings) radiate around his ears and whiskers — hint that his senses are "on". Mouth closed.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round VIVID EMERALD GREEN eyes (#3DDC84 — never blue/amber/cyan), small thin round gold-framed glasses ALWAYS on, a plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart, not round/blank, no studs/holes), soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. INT. COZY LIVING ROOM — DAY. Medium shot, slight low hero angle. Brain sits upright and composed, calm confident gaze to camera. Soft faint glowing sensory ripples (subtle pastel rings) radiate around his ears and whiskers — hint that his senses are "on". Mouth closed.
 ```
 **🎬 Kling:**
 ```
@@ -121,9 +121,9 @@ Brain sits composed, ears give a slow attentive swivel, whiskers fan slightly, f
 **🎙️ VO:** 🇬🇧 *That blank-wall stare? Cats have senses far beyond yours. Here's what they're really picking up.* | 🇷🇺 *Этот взгляд в пустую стену? У котов чувства далеко за пределами твоих. Вот что он на самом деле ловит.*
 
 ## Сцена 3 — #1 ЗВУК (spook-mode) — 14–21с
-**🎨 Image:** [Locked Brain] +
+**🎨 Image:** (готовый промт — копи-паст целиком):
 ```
-INT. COZY LIVING ROOM — DUSK (dim, lamp pool, blue-grey shadows). Close-up favouring one ear cocked toward the wall. Brain listens intently to the wall, one ear rotated like a dish toward it. Stylized pastel-cyan sound-waves travel through the wall from a tiny mouse silhouette hidden inside the wall. Cartoon numeral "1" upper-left (pastel-yellow rounded sans, charcoal outline). Mouth closed.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round VIVID EMERALD GREEN eyes (#3DDC84 — never blue/amber/cyan), small thin round gold-framed glasses ALWAYS on, a plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart, not round/blank, no studs/holes), soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. INT. COZY LIVING ROOM — DUSK (dim, lamp pool, blue-grey shadows). Close-up favouring one ear cocked toward the wall. Brain listens intently to the wall, one ear rotated like a dish toward it. Stylized pastel-cyan sound-waves travel through the wall from a tiny mouse silhouette hidden inside the wall. Cartoon numeral "1" upper-left (pastel-yellow rounded sans, charcoal outline). Mouth closed.
 ```
 **🎬 Kling:**
 ```
@@ -134,9 +134,9 @@ Brain's ear rotates toward the wall, sound-wave ripples travel through the wall 
 
 ## Сцена 4 — #2 ВОЗДУХ (СИЛЬНЕЙШИЙ ВИЗУАЛ — середина, dip-fix) — 21–28с
 **Что зритель видит:** невидимое показано буквально — в полностью тёмной комнате видны только светящиеся усы Brain + светящаяся траектория воздуха от одной летящей моли. Pattern-interrupt: резкий cut в почти-чёрный кадр.
-**🎨 Image:** [Locked Brain] +
+**🎨 Image:** (готовый промт — копи-паст целиком):
 ```
-INT. COZY LIVING ROOM — NIGHT (almost pitch black, faint moonlight). Brain in the dark, his whiskers softly GLOWING pastel-cyan as they sense the air. Glowing flowing air-current lines trail from a single tiny moth fluttering across the dark room — the invisible made visible. Brain's emerald eyes glow, locked on the moth's path. Cartoon numeral "2" upper-left. Mouth closed.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round VIVID EMERALD GREEN eyes (#3DDC84 — never blue/amber/cyan), small thin round gold-framed glasses ALWAYS on, a plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart, not round/blank, no studs/holes), soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. INT. COZY LIVING ROOM — NIGHT (almost pitch black, faint moonlight). Brain in the dark, his whiskers softly GLOWING pastel-cyan as they sense the air. Glowing flowing air-current lines trail from a single tiny moth fluttering across the dark room — the invisible made visible. Brain's emerald eyes glow, locked on the moth's path. Cartoon numeral "2" upper-left. Mouth closed.
 ```
 **🎬 Kling:**
 ```
@@ -146,9 +146,9 @@ In near-darkness, Brain's glowing whiskers twitch and track the glowing air-trai
 **Оверлей:** «2». **Монтаж:** резкий cut в тёмный кадр на стыке Sc3→Sc4 (pattern-interrupt) + тонкий «air whoosh» SFX.
 
 ## Сцена 5 — #3 ДАВЛЕНИЕ (spooky payoff — «третий жуткий») — 28–35с
-**🎨 Image:** [Locked Brain] +
+**🎨 Image:** (готовый промт — копи-паст целиком):
 ```
-INT. COZY LIVING ROOM — DUSK, a storm building outside the tall window (dark clouds, first lightning flash). Brain sits perfectly still facing the window, ears back slightly, fur faintly raised, staring out — he senses the storm before it arrives. The room is calm but the window shows the coming storm. Cartoon numeral "3" upper-left. Mouth closed.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round VIVID EMERALD GREEN eyes (#3DDC84 — never blue/amber/cyan), small thin round gold-framed glasses ALWAYS on, a plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart, not round/blank, no studs/holes), soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. INT. COZY LIVING ROOM — DUSK, a storm building outside the tall window (dark clouds, first lightning flash). Brain sits perfectly still facing the window, ears back slightly, fur faintly raised, staring out — he senses the storm before it arrives. The room is calm but the window shows the coming storm. Cartoon numeral "3" upper-left. Mouth closed.
 ```
 **🎬 Kling:**
 ```
@@ -158,9 +158,9 @@ Brain stares out the window, utterly still and alert, as a distant lightning fla
 **Оверлей:** «3» + низкий тревожный дрон. Это пэйофф open-loop из хука.
 
 ## Сцена 6 — «ПРИЗРАКИ» / aha — 35–42с
-**🎨 Image:** [Locked Brain] +
+**🎨 Image:** (готовый промт — копи-паст целиком):
 ```
-INT. COZY LIVING ROOM — DUSK. Brain stares calmly at an empty doorway/corner, head following something slowly that isn't there. A faint playful translucent pastel "?" or soft wisp hovers where he looks (clearly a stylized cartoon hint, NOT a scary ghost). Slightly eerie-but-cute mood. Mouth closed.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round VIVID EMERALD GREEN eyes (#3DDC84 — never blue/amber/cyan), small thin round gold-framed glasses ALWAYS on, a plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart, not round/blank, no studs/holes), soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. INT. COZY LIVING ROOM — DUSK. Brain stares calmly at an empty doorway/corner, head following something slowly that isn't there. A faint playful translucent pastel "?" or soft wisp hovers where he looks (clearly a stylized cartoon hint, NOT a scary ghost). Slightly eerie-but-cute mood. Mouth closed.
 ```
 **🎬 Kling:**
 ```
@@ -169,9 +169,9 @@ Brain's head and eyes slowly track an invisible something across the empty room,
 **🎙️ VO:** 🇬🇧 *This is why people swore cats can see ghosts. They react to things truly invisible to us.* | 🇷🇺 *Поэтому люди верили, что коты видят призраков. Они реагируют на по-настоящему невидимое.*
 
 ## Сцена 7 — ТЁПЛЫЙ ТВИСТ (reframe) — 42–49с
-**🎨 Image:** [Locked Brain] +
+**🎨 Image:** (готовый промт — копи-паст целиком):
 ```
-INT. COZY LIVING ROOM — DAY (warm light back). Brain sits beside the woman's lap (only her lap/knee/one hand visible, cream V-neck sweater sleeve, no face — EXACTLY ONE hand connected to one arm, no extra/floating hand), looking up at her warmly, ears relaxed, soft content expression, one slow blink. A small pastel-pink heart floats softly. Warm, reassuring mood. Mouth closed.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round VIVID EMERALD GREEN eyes (#3DDC84 — never blue/amber/cyan), small thin round gold-framed glasses ALWAYS on, a plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart, not round/blank, no studs/holes), soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. INT. COZY LIVING ROOM — DAY (warm light back). Brain sits beside the woman's lap (only her lap/knee/one hand visible, cream V-neck sweater sleeve, no face — EXACTLY ONE hand connected to one arm, no extra/floating hand), looking up at her warmly, ears relaxed, soft content expression, one slow blink. A small pastel-pink heart floats softly. Warm, reassuring mood. Mouth closed.
 ```
 **🎬 Kling:**
 ```
