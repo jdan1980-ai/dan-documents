@@ -117,10 +117,14 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 Brain relaxed for a beat, then his head SNAPS toward the empty corner, pupils dilate, ears swivel forward, body locks frozen staring at the empty space. Slight fast push-in on the snap, then hold the frozen stare. Tiny tail-tip twitch. [+ preserve-suffix]
 ```
-**🎙️ VO (EN):** `YOUR CAT ISN'T STARING AT NOTHING. IT SENSES SOMETHING YOU CAN'T — AND THE THIRD IS UNSETTLING.`
-
-**🎙️ VO (RU):** `КОТ СМОТРИТ НЕ В ПУСТОТУ. ОН ЧУВСТВУЕТ ТО, ЧТО ТЫ НЕ МОЖЕШЬ — И ТРЕТЬЕ ЖУТКОЕ.`
-
+**🎙️ VO (EN):**
+```
+YOUR CAT ISN'T STARING AT NOTHING. IT SENSES SOMETHING YOU CAN'T — AND THE THIRD IS UNSETTLING.
+```
+**🎙️ VO (RU):**
+```
+КОТ СМОТРИТ НЕ В ПУСТОТУ. ОН ЧУВСТВУЕТ ТО, ЧТО ТЫ НЕ МОЖЕШЬ — И ТРЕТЬЕ ЖУТКОЕ.
+```
 **Оверлей (CapCut):** «WHY YOUR CAT STARES AT NOTHING» на 2с + резкий «snap» SFX на вскиде головы
 
 ## Сцена 2 — СЕТАП — 7–14с
@@ -132,9 +136,14 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 Brain sits composed, ears give a slow attentive swivel, whiskers fan slightly, faint sensory ripples pulse softly around him. Gentle slow push-in. [+ preserve-suffix]
 ```
-**🎙️ VO (EN):** `THAT BLANK-WALL STARE? CATS HAVE SENSES FAR BEYOND YOURS. HERE'S WHAT THEY PICK UP.`
-
-**🎙️ VO (RU):** `ЭТОТ ВЗГЛЯД В СТЕНУ? У КОТОВ ЧУВСТВА ДАЛЕКО ЗА ПРЕДЕЛАМИ ТВОИХ. ВОТ ЧТО ОН ЛОВИТ.`
+**🎙️ VO (EN):**
+```
+THAT BLANK-WALL STARE? CATS HAVE SENSES FAR BEYOND YOURS. HERE'S WHAT THEY PICK UP.
+```
+**🎙️ VO (RU):**
+```
+ЭТОТ ВЗГЛЯД В СТЕНУ? У КОТОВ ЧУВСТВА ДАЛЕКО ЗА ПРЕДЕЛАМИ ТВОИХ. ВОТ ЧТО ОН ЛОВИТ.
+```
 
 ## Сцена 3 — #1 ЗВУК (spook-mode) — 14–21с
 **🎨 Image:** (готовый промт — копи-паст целиком):
@@ -145,10 +154,14 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 Brain's ear rotates toward the wall, sound-wave ripples travel through the wall toward him, his eyes narrow with focus. Slow push-in. [+ preserve-suffix]
 ```
-**🎙️ VO (EN):** `ONE — SOUND. YOUR CAT HEARS MICE IN THE WALLS, AND ELECTRONICS YOU CAN'T.`
-
-**🎙️ VO (RU):** `РАЗ — ЗВУК. КОТ СЛЫШИТ МЫШЕЙ В СТЕНАХ И ЭЛЕКТРОНИКУ, КОТОРУЮ ТЫ НЕ СЛЫШИШЬ.`
-
+**🎙️ VO (EN):**
+```
+ONE — SOUND. YOUR CAT HEARS MICE IN THE WALLS, AND ELECTRONICS YOU CAN'T.
+```
+**🎙️ VO (RU):**
+```
+РАЗ — ЗВУК. КОТ СЛЫШИТ МЫШЕЙ В СТЕНАХ И ЭЛЕКТРОНИКУ, КОТОРУЮ ТЫ НЕ СЛЫШИШЬ.
+```
 **Оверлей:** «1» + «ding»
 
 ## Сцена 4 — #2 ВОЗДУХ (СИЛЬНЕЙШИЙ ВИЗУАЛ — середина, dip-fix) — 21–28с
@@ -161,10 +174,14 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 In near-darkness, Brain's glowing whiskers twitch and track the glowing air-trail of a single moth fluttering across the room, his head following the invisible path precisely. Slow push-in. [+ preserve-suffix]
 ```
-**🎙️ VO (EN):** `TWO — THE AIR. HIS WHISKERS FEEL TINY CURRENTS, TRACKING A MOTH ACROSS A PITCH-BLACK ROOM.`
-
-**🎙️ VO (RU):** `ДВА — ВОЗДУХ. УСЫ ЛОВЯТ КРОШЕЧНЫЕ ПОТОКИ, ОТСЛЕЖИВАЯ МОЛЬ В ТЁМНОЙ КОМНАТЕ.`
-
+**🎙️ VO (EN):**
+```
+TWO — THE AIR. HIS WHISKERS FEEL TINY CURRENTS, TRACKING A MOTH ACROSS A PITCH-BLACK ROOM.
+```
+**🎙️ VO (RU):**
+```
+ДВА — ВОЗДУХ. УСЫ ЛОВЯТ КРОШЕЧНЫЕ ПОТОКИ, ОТСЛЕЖИВАЯ МОЛЬ В ТЁМНОЙ КОМНАТЕ.
+```
 **Оверлей:** «2». **Монтаж:** резкий cut в тёмный кадр на стыке Sc3→Sc4 (pattern-interrupt) + тонкий «air whoosh» SFX.
 
 ## Сцена 5 — #3 ДАВЛЕНИЕ (spooky payoff — «третий жуткий») — 28–35с
@@ -176,10 +193,14 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 Brain stares out the window, utterly still and alert, as a distant lightning flash lights the clouds and his fur faintly raises. Slow ominous push-in toward Brain and the window. [+ preserve-suffix]
 ```
-**🎙️ VO (EN):** `THREE — PRESSURE. CATS FEEL A STORM, EVEN AN EARTHQUAKE, BEFORE IT HITS. THAT'S THE STARE.`
-
-**🎙️ VO (RU):** `ТРИ — ДАВЛЕНИЕ. КОТЫ ЧУВСТВУЮТ БУРЮ И ДАЖЕ ЗЕМЛЕТРЯСЕНИЕ ЗАРАНЕЕ. ВОТ ЭТОТ ВЗГЛЯД.`
-
+**🎙️ VO (EN):**
+```
+THREE — PRESSURE. CATS FEEL A STORM, EVEN AN EARTHQUAKE, BEFORE IT HITS. THAT'S THE STARE.
+```
+**🎙️ VO (RU):**
+```
+ТРИ — ДАВЛЕНИЕ. КОТЫ ЧУВСТВУЮТ БУРЮ И ДАЖЕ ЗЕМЛЕТРЯСЕНИЕ ЗАРАНЕЕ. ВОТ ЭТОТ ВЗГЛЯД.
+```
 **Оверлей:** «3» + низкий тревожный дрон. Это пэйофф open-loop из хука.
 
 ## Сцена 6 — «ПРИЗРАКИ» / aha — 35–42с
@@ -191,9 +212,14 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 Brain's head and eyes slowly track an invisible something across the empty room, calm and certain. The faint stylized wisp drifts. Slow push-in. [+ preserve-suffix]
 ```
-**🎙️ VO (EN):** `THIS IS WHY PEOPLE SWORE CATS SEE GHOSTS. THEY REACT TO THINGS INVISIBLE TO US.`
-
-**🎙️ VO (RU):** `ПОЭТОМУ ЛЮДИ ВЕРИЛИ, ЧТО КОТЫ ВИДЯТ ПРИЗРАКОВ. ОНИ РЕАГИРУЮТ НА НЕВИДИМОЕ.`
+**🎙️ VO (EN):**
+```
+THIS IS WHY PEOPLE SWORE CATS SEE GHOSTS. THEY REACT TO THINGS INVISIBLE TO US.
+```
+**🎙️ VO (RU):**
+```
+ПОЭТОМУ ЛЮДИ ВЕРИЛИ, ЧТО КОТЫ ВИДЯТ ПРИЗРАКОВ. ОНИ РЕАГИРУЮТ НА НЕВИДИМОЕ.
+```
 
 ## Сцена 7 — ТЁПЛЫЙ ТВИСТ (reframe) — 42–49с
 **🎨 Image:** (готовый промт — копи-паст целиком):
@@ -204,17 +230,26 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 Brain looks up warmly toward the owner and gives one slow loving blink, ears relaxed, a soft heart floats up. Gentle warm push-in. [+ preserve-suffix + HUMAN: only one feminine hand/arm, cream sleeve, no face, no extra hand]
 ```
-**🎙️ VO (EN):** `SO THAT CREEPY STARE? IT'S NOT CREEPY. IT'S A SUPERPOWER, WATCHING OVER YOU.`
-
-**🎙️ VO (RU):** `ТАК ЧТО ЭТОТ ЖУТКИЙ ВЗГЛЯД? НЕ ЖУТКИЙ. ЭТО СУПЕРСИЛА, ЧТО ОХРАНЯЕТ ТЕБЯ.`
-
+**🎙️ VO (EN):**
+```
+SO THAT CREEPY STARE? IT'S NOT CREEPY. IT'S A SUPERPOWER, WATCHING OVER YOU.
+```
+**🎙️ VO (RU):**
+```
+ТАК ЧТО ЭТОТ ЖУТКИЙ ВЗГЛЯД? НЕ ЖУТКИЙ. ЭТО СУПЕРСИЛА, ЧТО ОХРАНЯЕТ ТЕБЯ.
+```
 **Оверлей:** «SUPERPOWER 💚». Тёплый music-resolve.
 
 ## Сцена 8 — CTA (open-loop, фикс) — 49–56с
 **🎬 Что в кадре:** универсальный клип `assets/universal-scene-8.mp4` (Brain машет + slow-blink). ИЛИ короткий Kling: Brain снова косится в пустой угол с лёгкой ухмылкой.
-**🎙️ VO (EN):** `SUBSCRIBE TO FIND OUT WHAT YOUR CAT IS SENSING RIGHT NOW.`
-
-**🎙️ VO (RU):** `ПОДПИШИСЬ, ЧТОБЫ УЗНАТЬ, ЧТО ТВОЙ КОТ ЧУВСТВУЕТ ПРЯМО СЕЙЧАС.`
+**🎙️ VO (EN):**
+```
+SUBSCRIBE TO FIND OUT WHAT YOUR CAT IS SENSING RIGHT NOW.
+```
+**🎙️ VO (RU):**
+```
+ПОДПИШИСЬ, ЧТОБЫ УЗНАТЬ, ЧТО ТВОЙ КОТ ЧУВСТВУЕТ ПРЯМО СЕЙЧАС.
+```
 > Это интригующий open-loop CTA (фикс из killer-разбора) — не плоское «Follow Brain».
 
 ---
