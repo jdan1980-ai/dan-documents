@@ -25,7 +25,7 @@
 - **🔧 Фикс №2 (CTA):** интригующий open-loop CTA вместо «Follow Brain»
 - **Specific spike:** «moth across a pitch-black room», «earthquake before it hits». **Sticky label:** «superpower».
 
-> ⏸️ UPPERCASE-вопрос ещё открыт — VO в нормальном кейсе.
+> ✅ VO написан ЗАГЛАВНЫМИ (по запросу). EN и RU разнесены — копипаст по языкам отдельно.
 
 ---
 
@@ -61,44 +61,44 @@ Preserve the input image exactly — same kitten, glasses, emerald eyes, collar 
 
 ---
 
-## Полный VO
+## Полный VO (ЗАГЛАВНЫМИ — копипаст по языкам отдельно)
 
-**🇬🇧 English:**
+**🇬🇧 English (UPPERCASE — copy this block alone):**
 ```
-Your cat isn't staring at nothing. It senses something you can't. And the third one is unsettling.
+YOUR CAT ISN'T STARING AT NOTHING. IT SENSES SOMETHING YOU CAN'T. AND THE THIRD ONE IS UNSETTLING.
 
-That blank-wall stare? Cats have senses far beyond yours. Here's what they're really picking up.
+THAT BLANK-WALL STARE? CATS HAVE SENSES FAR BEYOND YOURS. HERE'S WHAT THEY'RE REALLY PICKING UP.
 
-One — sound. Your cat hears mice inside the walls, and electronics humming that you can't.
+ONE — SOUND. YOUR CAT HEARS MICE INSIDE THE WALLS, AND ELECTRONICS HUMMING THAT YOU CAN'T.
 
-Two — the air itself. His whiskers feel tiny currents, tracking a single moth across a pitch-black room.
+TWO — THE AIR ITSELF. HIS WHISKERS FEEL TINY CURRENTS, TRACKING A SINGLE MOTH ACROSS A PITCH-BLACK ROOM.
 
-Three — pressure. Cats feel a storm, even an earthquake, coming before it hits. That's the stare.
+THREE — PRESSURE. CATS FEEL A STORM, EVEN AN EARTHQUAKE, COMING BEFORE IT HITS. THAT'S THE STARE.
 
-This is why people swore cats can see ghosts. They react to things truly invisible to us.
+THIS IS WHY PEOPLE SWORE CATS CAN SEE GHOSTS. THEY REACT TO THINGS TRULY INVISIBLE TO US.
 
-So that creepy stare into nothing? It's not creepy. It's a superpower, watching over you.
+SO THAT CREEPY STARE INTO NOTHING? IT'S NOT CREEPY. IT'S A SUPERPOWER, WATCHING OVER YOU.
 
-Subscribe to find out what your cat is sensing right now.
+SUBSCRIBE TO FIND OUT WHAT YOUR CAT IS SENSING RIGHT NOW.
 ```
 
-**🇷🇺 Русская версия:**
+**🇷🇺 Русская версия (ЗАГЛАВНЫМИ — copy this block alone):**
 ```
-Кот смотрит не в пустоту. Он чувствует то, что ты не можешь. И третье — жуткое.
+КОТ СМОТРИТ НЕ В ПУСТОТУ. ОН ЧУВСТВУЕТ ТО, ЧТО ТЫ НЕ МОЖЕШЬ. И ТРЕТЬЕ — ЖУТКОЕ.
 
-Этот взгляд в пустую стену? У котов чувства далеко за пределами твоих. Вот что он на самом деле ловит.
+ЭТОТ ВЗГЛЯД В ПУСТУЮ СТЕНУ? У КОТОВ ЧУВСТВА ДАЛЕКО ЗА ПРЕДЕЛАМИ ТВОИХ. ВОТ ЧТО ОН НА САМОМ ДЕЛЕ ЛОВИТ.
 
-Раз — звук. Кот слышит мышей в стенах и писк электроники, который ты не слышишь.
+РАЗ — ЗВУК. КОТ СЛЫШИТ МЫШЕЙ В СТЕНАХ И ПИСК ЭЛЕКТРОНИКИ, КОТОРЫЙ ТЫ НЕ СЛЫШИШЬ.
 
-Два — сам воздух. Усы ловят крошечные потоки, отслеживая одну моль в полностью тёмной комнате.
+ДВА — САМ ВОЗДУХ. УСЫ ЛОВЯТ КРОШЕЧНЫЕ ПОТОКИ, ОТСЛЕЖИВАЯ ОДНУ МОЛЬ В ПОЛНОСТЬЮ ТЁМНОЙ КОМНАТЕ.
 
-Три — давление. Коты чувствуют бурю и даже землетрясение до того, как оно случится. Вот этот взгляд.
+ТРИ — ДАВЛЕНИЕ. КОТЫ ЧУВСТВУЮТ БУРЮ И ДАЖЕ ЗЕМЛЕТРЯСЕНИЕ ДО ТОГО, КАК ОНО СЛУЧИТСЯ. ВОТ ЭТОТ ВЗГЛЯД.
 
-Поэтому люди верили, что коты видят призраков. Они реагируют на по-настоящему невидимое.
+ПОЭТОМУ ЛЮДИ ВЕРИЛИ, ЧТО КОТЫ ВИДЯТ ПРИЗРАКОВ. ОНИ РЕАГИРУЮТ НА ПО-НАСТОЯЩЕМУ НЕВИДИМОЕ.
 
-Так что этот жуткий взгляд в пустоту? Не жуткий. Это суперсила, что охраняет тебя.
+ТАК ЧТО ЭТОТ ЖУТКИЙ ВЗГЛЯД В ПУСТОТУ? НЕ ЖУТКИЙ. ЭТО СУПЕРСИЛА, ЧТО ОХРАНЯЕТ ТЕБЯ.
 
-Подпишись, чтобы узнать, что твой кот чувствует прямо сейчас.
+ПОДПИШИСЬ, ЧТОБЫ УЗНАТЬ, ЧТО ТВОЙ КОТ ЧУВСТВУЕТ ПРЯМО СЕЙЧАС.
 ```
 _~115 слов EN, ~7с/сцена._
 
@@ -117,7 +117,8 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 Brain relaxed for a beat, then his head SNAPS toward the empty corner, pupils dilate, ears swivel forward, body locks frozen staring at the empty space. Slight fast push-in on the snap, then hold the frozen stare. Tiny tail-tip twitch. [+ preserve-suffix]
 ```
-**🎙️ VO:** 🇬🇧 *Your cat isn't staring at nothing. It senses something you can't. And the third one is unsettling.* | 🇷🇺 *Кот смотрит не в пустоту. Он чувствует то, что ты не можешь. И третье — жуткое.*
+**🎙️ VO (EN):** `YOUR CAT ISN'T STARING AT NOTHING. IT SENSES SOMETHING YOU CAN'T. AND THE THIRD ONE IS UNSETTLING.`
+**🎙️ VO (RU):** `КОТ СМОТРИТ НЕ В ПУСТОТУ. ОН ЧУВСТВУЕТ ТО, ЧТО ТЫ НЕ МОЖЕШЬ. И ТРЕТЬЕ — ЖУТКОЕ.`
 **Оверлей (CapCut):** «WHY YOUR CAT STARES AT NOTHING» на 2с + резкий «snap» SFX на вскиде головы
 
 ## Сцена 2 — СЕТАП — 7–14с
@@ -129,7 +130,8 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 Brain sits composed, ears give a slow attentive swivel, whiskers fan slightly, faint sensory ripples pulse softly around him. Gentle slow push-in. [+ preserve-suffix]
 ```
-**🎙️ VO:** 🇬🇧 *That blank-wall stare? Cats have senses far beyond yours. Here's what they're really picking up.* | 🇷🇺 *Этот взгляд в пустую стену? У котов чувства далеко за пределами твоих. Вот что он на самом деле ловит.*
+**🎙️ VO (EN):** `THAT BLANK-WALL STARE? CATS HAVE SENSES FAR BEYOND YOURS. HERE'S WHAT THEY'RE REALLY PICKING UP.`
+**🎙️ VO (RU):** `ЭТОТ ВЗГЛЯД В ПУСТУЮ СТЕНУ? У КОТОВ ЧУВСТВА ДАЛЕКО ЗА ПРЕДЕЛАМИ ТВОИХ. ВОТ ЧТО ОН НА САМОМ ДЕЛЕ ЛОВИТ.`
 
 ## Сцена 3 — #1 ЗВУК (spook-mode) — 14–21с
 **🎨 Image:** (готовый промт — копи-паст целиком):
@@ -140,7 +142,8 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 Brain's ear rotates toward the wall, sound-wave ripples travel through the wall toward him, his eyes narrow with focus. Slow push-in. [+ preserve-suffix]
 ```
-**🎙️ VO:** 🇬🇧 *One — sound. Your cat hears mice inside the walls, and electronics humming that you can't.* | 🇷🇺 *Раз — звук. Кот слышит мышей в стенах и писк электроники, который ты не слышишь.*
+**🎙️ VO (EN):** `ONE — SOUND. YOUR CAT HEARS MICE INSIDE THE WALLS, AND ELECTRONICS HUMMING THAT YOU CAN'T.`
+**🎙️ VO (RU):** `РАЗ — ЗВУК. КОТ СЛЫШИТ МЫШЕЙ В СТЕНАХ И ПИСК ЭЛЕКТРОНИКИ, КОТОРЫЙ ТЫ НЕ СЛЫШИШЬ.`
 **Оверлей:** «1» + «ding»
 
 ## Сцена 4 — #2 ВОЗДУХ (СИЛЬНЕЙШИЙ ВИЗУАЛ — середина, dip-fix) — 21–28с
@@ -153,7 +156,8 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 In near-darkness, Brain's glowing whiskers twitch and track the glowing air-trail of a single moth fluttering across the room, his head following the invisible path precisely. Slow push-in. [+ preserve-suffix]
 ```
-**🎙️ VO:** 🇬🇧 *Two — the air itself. His whiskers feel tiny currents, tracking a single moth across a pitch-black room.* | 🇷🇺 *Два — сам воздух. Усы ловят крошечные потоки, отслеживая одну моль в полностью тёмной комнате.*
+**🎙️ VO (EN):** `TWO — THE AIR ITSELF. HIS WHISKERS FEEL TINY CURRENTS, TRACKING A SINGLE MOTH ACROSS A PITCH-BLACK ROOM.`
+**🎙️ VO (RU):** `ДВА — САМ ВОЗДУХ. УСЫ ЛОВЯТ КРОШЕЧНЫЕ ПОТОКИ, ОТСЛЕЖИВАЯ ОДНУ МОЛЬ В ПОЛНОСТЬЮ ТЁМНОЙ КОМНАТЕ.`
 **Оверлей:** «2». **Монтаж:** резкий cut в тёмный кадр на стыке Sc3→Sc4 (pattern-interrupt) + тонкий «air whoosh» SFX.
 
 ## Сцена 5 — #3 ДАВЛЕНИЕ (spooky payoff — «третий жуткий») — 28–35с
@@ -165,7 +169,8 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 Brain stares out the window, utterly still and alert, as a distant lightning flash lights the clouds and his fur faintly raises. Slow ominous push-in toward Brain and the window. [+ preserve-suffix]
 ```
-**🎙️ VO:** 🇬🇧 *Three — pressure. Cats feel a storm, even an earthquake, coming before it hits. That's the stare.* | 🇷🇺 *Три — давление. Коты чувствуют бурю и даже землетрясение до того, как оно случится. Вот этот взгляд.*
+**🎙️ VO (EN):** `THREE — PRESSURE. CATS FEEL A STORM, EVEN AN EARTHQUAKE, COMING BEFORE IT HITS. THAT'S THE STARE.`
+**🎙️ VO (RU):** `ТРИ — ДАВЛЕНИЕ. КОТЫ ЧУВСТВУЮТ БУРЮ И ДАЖЕ ЗЕМЛЕТРЯСЕНИЕ ДО ТОГО, КАК ОНО СЛУЧИТСЯ. ВОТ ЭТОТ ВЗГЛЯД.`
 **Оверлей:** «3» + низкий тревожный дрон. Это пэйофф open-loop из хука.
 
 ## Сцена 6 — «ПРИЗРАКИ» / aha — 35–42с
@@ -177,7 +182,8 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 Brain's head and eyes slowly track an invisible something across the empty room, calm and certain. The faint stylized wisp drifts. Slow push-in. [+ preserve-suffix]
 ```
-**🎙️ VO:** 🇬🇧 *This is why people swore cats can see ghosts. They react to things truly invisible to us.* | 🇷🇺 *Поэтому люди верили, что коты видят призраков. Они реагируют на по-настоящему невидимое.*
+**🎙️ VO (EN):** `THIS IS WHY PEOPLE SWORE CATS CAN SEE GHOSTS. THEY REACT TO THINGS TRULY INVISIBLE TO US.`
+**🎙️ VO (RU):** `ПОЭТОМУ ЛЮДИ ВЕРИЛИ, ЧТО КОТЫ ВИДЯТ ПРИЗРАКОВ. ОНИ РЕАГИРУЮТ НА ПО-НАСТОЯЩЕМУ НЕВИДИМОЕ.`
 
 ## Сцена 7 — ТЁПЛЫЙ ТВИСТ (reframe) — 42–49с
 **🎨 Image:** (готовый промт — копи-паст целиком):
@@ -188,12 +194,14 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 Brain looks up warmly toward the owner and gives one slow loving blink, ears relaxed, a soft heart floats up. Gentle warm push-in. [+ preserve-suffix + HUMAN: only one feminine hand/arm, cream sleeve, no face, no extra hand]
 ```
-**🎙️ VO:** 🇬🇧 *So that creepy stare into nothing? It's not creepy. It's a superpower, watching over you.* | 🇷🇺 *Так что этот жуткий взгляд в пустоту? Не жуткий. Это суперсила, что охраняет тебя.*
+**🎙️ VO (EN):** `SO THAT CREEPY STARE INTO NOTHING? IT'S NOT CREEPY. IT'S A SUPERPOWER, WATCHING OVER YOU.`
+**🎙️ VO (RU):** `ТАК ЧТО ЭТОТ ЖУТКИЙ ВЗГЛЯД В ПУСТОТУ? НЕ ЖУТКИЙ. ЭТО СУПЕРСИЛА, ЧТО ОХРАНЯЕТ ТЕБЯ.`
 **Оверлей:** «SUPERPOWER 💚». Тёплый music-resolve.
 
 ## Сцена 8 — CTA (open-loop, фикс) — 49–56с
 **🎬 Что в кадре:** универсальный клип `assets/universal-scene-8.mp4` (Brain машет + slow-blink). ИЛИ короткий Kling: Brain снова косится в пустой угол с лёгкой ухмылкой.
-**🎙️ VO:** 🇬🇧 *Subscribe to find out what your cat is sensing right now.* | 🇷🇺 *Подпишись, чтобы узнать, что твой кот чувствует прямо сейчас.*
+**🎙️ VO (EN):** `SUBSCRIBE TO FIND OUT WHAT YOUR CAT IS SENSING RIGHT NOW.`
+**🎙️ VO (RU):** `ПОДПИШИСЬ, ЧТОБЫ УЗНАТЬ, ЧТО ТВОЙ КОТ ЧУВСТВУЕТ ПРЯМО СЕЙЧАС.`
 > Это интригующий open-loop CTA (фикс из killer-разбора) — не плоское «Follow Brain».
 
 ---
