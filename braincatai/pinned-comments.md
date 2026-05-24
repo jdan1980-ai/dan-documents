@@ -219,6 +219,12 @@ wait which of these do you actually do already?? i only started doing the slow b
 omg the downward-dog stretch the second you walk in?? mine does it every single time and i always just thought he was stretching lol. had no idea it meant trust. does yours show the belly too
 ```
 
+### 35. Why Your Cat Stares at Nothing (TBD) — Cat Psychology / Senses (killer-formula #2)
+
+```
+ok mine does the stare-at-the-empty-corner thing at like 2am and it freaks me out every time 😭 now i know he's just hearing something in the walls lol. does yours stare at nothing too
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
