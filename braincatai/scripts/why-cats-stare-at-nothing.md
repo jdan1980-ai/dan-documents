@@ -40,6 +40,18 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 Preserve the input image exactly — same kitten, glasses, emerald eyes, collar + heart tag, ginger paws and tail, Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Mouth closed. Vertical 9:16.
 ```
 
+## 🔢 LOCKED numeral/overlay style (CapCut — ОДИН стиль на всё видео)
+Цифры «1/2/3» и текст-оверлеи НЕ генерим в Nano/Kling (каждый рендер рисует по-своему = дрифт). Бьём в CapCut одним залоченным стилем — идентично, как Brain и обстановка:
+```
+Шрифт: Fredoka One (или Nunito ExtraBold) — rounded sans
+Цвет заливки: Electric Yellow #FFD23F
+Обводка: толстая charcoal #2B2B2B
+Тень: drop-shadow
+Позиция цифр: верхний-левый угол, одинаковый размер для 1/2/3
+Наклон: 0° (ровно)
+```
+Один раз настроил «1» → дублируй слой → меняй только символ на «2»/«3». Все тексты-оверлеи («SUPERPOWER 💚», title-плита) — тот же шрифт/цвет/обводка.
+
 ---
 
 ## 🏠 Локации
@@ -123,7 +135,7 @@ Brain sits composed, ears give a slow attentive swivel, whiskers fan slightly, f
 ## Сцена 3 — #1 ЗВУК (spook-mode) — 14–21с
 **🎨 Image:** (готовый промт — копи-паст целиком):
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round VIVID EMERALD GREEN eyes (#3DDC84 — never blue/amber/cyan), small thin round gold-framed glasses ALWAYS on, a plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart, not round/blank, no studs/holes), soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. INT. COZY LIVING ROOM — DUSK (dim, lamp pool, blue-grey shadows). Close-up favouring one ear cocked toward the wall. Brain listens intently to the wall, one ear rotated like a dish toward it. Stylized pastel-cyan sound-waves travel through the wall from a tiny mouse silhouette hidden inside the wall. Cartoon numeral "1" upper-left (pastel-yellow rounded sans, charcoal outline). Mouth closed.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round VIVID EMERALD GREEN eyes (#3DDC84 — never blue/amber/cyan), small thin round gold-framed glasses ALWAYS on, a plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart, not round/blank, no studs/holes), soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. INT. COZY LIVING ROOM — DUSK (dim, lamp pool, blue-grey shadows). Close-up favouring one ear cocked toward the wall. Brain listens intently to the wall, one ear rotated like a dish toward it. Stylized pastel-cyan sound-waves travel through the wall from a tiny mouse silhouette hidden inside the wall. Leave clean negative space in the upper-left for a "1" numeral added later in CapCut. Mouth closed.
 ```
 **🎬 Kling:**
 ```
@@ -136,7 +148,7 @@ Brain's ear rotates toward the wall, sound-wave ripples travel through the wall 
 **Что зритель видит:** невидимое показано буквально — в полностью тёмной комнате видны только светящиеся усы Brain + светящаяся траектория воздуха от одной летящей моли. Pattern-interrupt: резкий cut в почти-чёрный кадр.
 **🎨 Image:** (готовый промт — копи-паст целиком):
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round VIVID EMERALD GREEN eyes (#3DDC84 — never blue/amber/cyan), small thin round gold-framed glasses ALWAYS on, a plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart, not round/blank, no studs/holes), soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. INT. COZY LIVING ROOM — NIGHT (almost pitch black, faint moonlight). Brain in the dark, his whiskers softly GLOWING pastel-cyan as they sense the air. Glowing flowing air-current lines trail from a single tiny moth fluttering across the dark room — the invisible made visible. Brain's emerald eyes glow, locked on the moth's path. Cartoon numeral "2" upper-left. Mouth closed.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round VIVID EMERALD GREEN eyes (#3DDC84 — never blue/amber/cyan), small thin round gold-framed glasses ALWAYS on, a plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart, not round/blank, no studs/holes), soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. INT. COZY LIVING ROOM — NIGHT (almost pitch black, faint moonlight). Brain in the dark, his whiskers softly GLOWING pastel-cyan as they sense the air. Glowing flowing air-current lines trail from a single tiny moth fluttering across the dark room — the invisible made visible. Brain's emerald eyes glow, locked on the moth's path. Leave clean negative space in the upper-left for a "2" numeral added later in CapCut. Mouth closed.
 ```
 **🎬 Kling:**
 ```
@@ -148,7 +160,7 @@ In near-darkness, Brain's glowing whiskers twitch and track the glowing air-trai
 ## Сцена 5 — #3 ДАВЛЕНИЕ (spooky payoff — «третий жуткий») — 28–35с
 **🎨 Image:** (готовый промт — копи-паст целиком):
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round VIVID EMERALD GREEN eyes (#3DDC84 — never blue/amber/cyan), small thin round gold-framed glasses ALWAYS on, a plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart, not round/blank, no studs/holes), soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. INT. COZY LIVING ROOM — DUSK, a storm building outside the tall window (dark clouds, first lightning flash). Brain sits perfectly still facing the window, ears back slightly, fur faintly raised, staring out — he senses the storm before it arrives. The room is calm but the window shows the coming storm. Cartoon numeral "3" upper-left. Mouth closed.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round VIVID EMERALD GREEN eyes (#3DDC84 — never blue/amber/cyan), small thin round gold-framed glasses ALWAYS on, a plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart, not round/blank, no studs/holes), soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. INT. COZY LIVING ROOM — DUSK, a storm building outside the tall window (dark clouds, first lightning flash). Brain sits perfectly still facing the window, ears back slightly, fur faintly raised, staring out — he senses the storm before it arrives. The room is calm but the window shows the coming storm. Leave clean negative space in the upper-left for a "3" numeral added later in CapCut. Mouth closed.
 ```
 **🎬 Kling:**
 ```
