@@ -317,7 +317,7 @@ If editing the script's title, scenes, or VO, **re-verify tags reflect the new t
 - CTA scene must take place in one of the video's existing locations — never a generic confetti/bokeh outro.
 - Brain's mouth stays **closed** throughout — no lip-sync, no talking motion. Reactions go through eyes, ears, whiskers, body. Exceptions: held jaw-drop on shock, single yawn, one soft meow on CTA.
 - Brain has **4 paws** (2 front + 2 back). The only constraint is the count — don't over-specify paw positions in prompts (it makes every shot look identical). NEVER show 5 paws or extra limbs.
-- Brain's eyes are **bright emerald green** (`#3DDC84`) — never brown/amber/hazel. Warm lighting tends to tint them; always include the hex spec and `EYE COLOR RULE (strict)` in Veo 3 prompts.
+- Brain's eyes are **bright emerald green** (`#3DDC84`) — never brown/amber/hazel. Warm lighting tends to tint them; always include the hex spec and `EYE COLOR RULE (strict)` in Veo 3 prompts. **Only the IRIS is green — set in CLEAN WHITE eye-whites/sclera.** The `#3DDC84` spec can make the AI flood the whole eyeball green; always phrase it "emerald iris set in pure white sclera, only the iris is green" and add `green sclera, green eye-whites, fully green eyes` to negatives (locked 24 мая 2026 after a Nano render came back with green eye-whites).
 - Each scene's voiceover ≤ 8 sec of speech (Veo 3 max clip length).
 - VO must work for kids AND adults — no jargon, no scary words. See `style-guide.md` §9 swap table.
 - Scientist/doctor/detective/etc. costume scenes — see `style-guide.md` §2 thematic costumes table. Wardrobe must keep collar + heart tag visible at the V-cut neckline.

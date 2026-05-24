@@ -385,7 +385,9 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult,
 NOT chubby, NOT pudgy — slender petite kitten body with small chest,
 slim torso, delicate proportions, small paws), big round sparkling VIVID
 EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT
-brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin
+brown, NOT amber, NOT yellow, NOT hazel, NOT golden — set in CLEAN PURE
+WHITE eye-whites/sclera; ONLY the iris is green, the sclera stays white,
+NOT tinted green), small thin
 round gold-framed glasses (ALWAYS on, every shot), a plain smooth brown
 leather collar (NO studs, NO spikes, NO metal plates, NO holes, NO front
 buckle) with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart
@@ -419,6 +421,8 @@ Brain's identity must be IDENTICAL to the input image throughout — same face, 
 ```
 
 > ⚠️ **Eye color trap:** Warm/golden lighting often causes Nano Banana and Veo 3 to render Brain's eyes as brown/amber/hazel even though "green" is in the prompt. Always specify EMERALD GREEN with hex `#3DDC84`, repeat the green-eye reminder in the per-shot description, and include all wrong colors in negatives. For Veo 3, add an explicit `EYE COLOR RULE (strict)` block alongside ANATOMY and MOUTH rules.
+>
+> ⚠️ **Green-sclera trap (locked 24 мая 2026):** the `#3DDC84` spec can make the AI flood the WHOLE eyeball green, not just the iris. Always say **iris emerald green, set in CLEAN WHITE eye-whites/sclera** — ONLY the iris is green, the sclera stays white. Add `green sclera, green eye-whites, fully green eyes` to negatives.
 
 ### Negative prompts (always include)
 
@@ -437,6 +441,8 @@ brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes,
 blue eyes, cyan eyes, grey eyes,
 dark eyes, brown iris, amber iris, wrong eye color,
 eye color tinted by lighting, warm-tinted eyes,
+green sclera, green eye-whites, fully green eyes, green-tinted eyeballs,
+whole eye green, glowing whole eye,
 extra hand, third hand, floating hand, disconnected hand,
 duplicate arm, extra arm, extra fingers, too many fingers,
 white tail tip, white-tipped tail, round tag, circular tag, blank tag,
@@ -456,7 +462,7 @@ TIME X–Ys: [main action]
 TIME Y–Zs: [reaction / effect]
 TIME Z–end: [closing beat]
 
-EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout the entire [N] seconds. NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER golden, NEVER BLUE, NEVER CYAN, NEVER grey. Warm OR cool lighting must NOT tint the iris. The iris stays vivid emerald green even in shadow, even when half-closed during a slow blink.
+EYE COLOR RULE (strict): Brain's IRIS is BRIGHT EMERALD GREEN (#3DDC84) throughout the entire [N] seconds, set in CLEAN PURE WHITE eye-whites (sclera). ONLY the iris is green — the eye-white/sclera stays pure white, NEVER tinted green, NEVER fully-green eyeballs. NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER golden, NEVER BLUE, NEVER CYAN, NEVER grey iris. Warm OR cool lighting must NOT tint the iris or the sclera. The iris stays vivid emerald green even in shadow, even when half-closed during a slow blink.
 
 GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip. NEVER remove the glasses, NEVER let them fade out, NEVER animate them off his face.
 
