@@ -73,14 +73,15 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | 21 мая | Чт | **5 Signs Your Cat DOESN'T Love You** (negative-mirror) | `signs-cat-doesnt-love-you` | **67.55 / 14,333 GREEN** ⭐ + @williamcat 8.8M proof | 📅 scheduled (uploaded 20 мая) |
 | ~~21 мая~~ | ~~Чт~~ | ~~Your Cat's Tail Is Talking~~ | ~~`why-cats-wag-their-tails`~~ | 62.59 / 5,400 | ⏸️ отложено (swapped for GREEN negative-mirror) |
 | 22 мая | Пт | **Your Cat Is a Perfect Killing Machine** (predator-reveal) | `your-cat-killing-machine` | "cat hunting" 64.91 / 15,883 + competitor-proven | ✅ опубликован — 🏆 **CTR 5.2% / 31s ret (best to date)** |
-| 23 мая | Сб | **5 Things Your Cat Loves That You Never Do** (listicle) | `things-cats-love` | "things cats love" 59.93 / 14,709 + @williamcat 5.6M proof | ✅ скрипт готов → производство |
-| 24 мая | Вс | When Your Cat Stretches at You, It Means This | `why-cats-stretch-at-you` | 60.13 / 5,378 | ✅ скрипт готов → производство |
+| 23 мая | Сб | **5 Things Your Cat Loves That You Never Do** (listicle) | `things-cats-love` | "things cats love" 59.93 / 14,709 + @williamcat 5.6M proof | ✅ опубликован (вечер 23 мая) |
+| 24 мая | Вс | **Why Your Cat Stares at Nothing** (killer-formula #2, senses/spooky) | `why-cats-stare-at-nothing` | "why cats stare at nothing" 64.93 / 6,733 / comp 23.4 | ✅ скрипт+промты готовы → производство (riding killer momentum) |
+| 25 мая | Пн | When Your Cat Stretches at You, It Means This | `why-cats-stretch-at-you` | 60.13 / 5,378 | ✅ скрипт готов (сдвинут с 24 ради killer-формулы) |
 | ~~22 мая~~ | ~~Пт~~ | ~~Your Cat Invented a Language Just for YOU~~ | ~~`why-cats-meow-only-at-humans`~~ | 60.70 / 3,685 | ⏸️ в бэклог (swapped for higher-demand) |
 | ~~24 мая~~ | ~~Вс~~ | ~~Why Your Cat Acts Like Water Is Poison~~ | ~~`why-cats-hate-water`~~ | 60.88 / 3,659 | ⏸️ в бэклог (swapped for higher-demand) |
-| 25 мая | Пн | Your Cat Is Older Than You Think 🐱 | `cat-years-to-human-years` | competitor proof | ✍️ нужен скрипт |
-| 26 мая | Вт | 3 Things Your Cat Can Sense That You Can't | `cat-superpowers-senses` | targets 73.8/9,953 | ✍️ нужен скрипт |
+| 26 мая | Вт | Your Cat Is Older Than You Think 🐱 | `cat-years-to-human-years` | competitor proof | ✍️ нужен скрипт |
+| ~~26 мая~~ | ~~Вт~~ | ~~3 Things Your Cat Can Sense~~ | ~~`cat-superpowers-senses`~~ | — | ✅ реализовано как `why-cats-stare-at-nothing` (пивот) |
 | 27 мая | Ср | Why Your Cat Hates When You Leave | `why-cats-hate-being-left-alone` | TBD | ✍️ нужен скрипт |
-| 28 мая | Чт | _Нужна 10-я тема — выбрать из vidIQ-кэша_ | TBD | TBD | ✍️ нужен скрипт |
+| 28 мая | Чт | _Нужна тема — из vidIQ-кэша (jealous / dehydration / angry)_ | TBD | TBD | ✍️ нужен скрипт |
 
 🚨 **Канал в recovery mode:** view-counts с 8 мая упали с 800-1300 до 10-44. Причина — non-cat видео (Sky Blue, Doorway, Vagus, Black Hole). До восстановления — **только cats**, 1 видео в день, никаких double-publish.
 
