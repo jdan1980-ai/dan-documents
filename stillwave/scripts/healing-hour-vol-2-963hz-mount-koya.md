@@ -199,8 +199,9 @@ The NanoBanana 16:9 IS the thumbnail. Canva overlay in the **lower-left** (first
 
 - **Text:** `AWAKEN`
 - **Tag below:** `963 Hz`
-- Thin elegant serif, cream `#F5EAD2`, low contrast, no glow/shadow/stroke.
+- Thin elegant serif, **gold `#E4C46C`** (theme references "God" → gold per the color rule; echoes the stone-lantern flame), low contrast, no glow/shadow/stroke.
 - The image is generated with the lower-left reserved as dark negative space, so the text lands clean.
+- Final: `assets/healing-hour-963hz-mount-koya-thumb.jpg`
 
 ---
 
@@ -210,7 +211,7 @@ The NanoBanana 16:9 IS the thumbnail. Canva overlay in the **lower-left** (first
 
 > Same file = both formats (project rule). The Short is the 15–30 sec hook that funnels to the 1-hour long-form. **Figure-8 does NOT apply to 9:16** — text goes upper-third (bottom = Shorts UI).
 
-**Cover (9:16):** vertical Mount Koya + `FREQUENCY OF GOD` + `963 Hz` (upper third, cream serif on the dark cosmic sky) — `assets/healing-hour-963hz-mount-koya-shorts-cover.jpg`.
+**Cover (9:16):** vertical Mount Koya + `FREQUENCY OF GOD` + `963 Hz` in **gold `#E4C46C`** (theme references "God" → gold per the color rule; echoes the lantern flame), upper third on the dark cosmic sky — `assets/healing-hour-963hz-mount-koya-shorts-cover.jpg`.
 
 **9:16 visual:** see section 4 (vertical Mount Koya). **Flow 9:16 loop:** star/Milky Way shimmer + stone-lantern flame flicker + drifting mist, monk still, 15–30 sec seamless.
 

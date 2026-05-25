@@ -101,7 +101,8 @@ Continue using the original style for the videos that aren't in the new format y
 2. Lone figure positioned **at the focal third**, looking into the scene depth (sea / valley / cosmos / cityscape).
 3. Strong atmospheric depth — fog, mist, snow, neon glow, water reflections. NO crisp daylight clarity.
 4. **No in-image text** (the NanoBanana prompt forbids letters — avoids garbled-text artifact). No MacBook, no modern penthouse, no fireplace, no desk props — those are Power Hour signals.
-5. **Post-production thumbnail text overlay is ALLOWED** for Healing Hour (unlike Power Hour). Add via Canva: **1–2 words max** in a thin elegant serif font, low-saturation cream, placed **LOWER-LEFT (figure-8 rule — see Design rules)**, low contrast so it reads as a tonal accent — never dominates. Recommended words: `QUIET MIND` / `AWAKEN` / `STILLNESS` / `BREATHE` + the Hz number as a small tag. The Ghibli illustration carries the click; text is whisper, not shout.
+5. **Post-production thumbnail text overlay is ALLOWED** for Healing Hour (unlike Power Hour). Add via Canva: **1–2 words max** in a thin elegant serif font, placed **LOWER-LEFT (figure-8 rule — see Design rules)**, low contrast so it reads as a tonal accent — never dominates. Recommended words: `QUIET MIND` / `AWAKEN` / `STILLNESS` / `BREATHE` + the Hz number as a small tag. The Ghibli illustration carries the click; text is whisper, not shout.
+   - **🔒 Text color rule:** **cream `#F5EAD2` is the DEFAULT (standard).** Use **gold `#E4C46C` ONLY when the title/theme explicitly references gold / God / divine / miracle / sacred** — e.g. `963 Hz Frequency of God`, a "miracle frequency" angle. Gold then echoes the warm stone-lantern flame and the divine theme. Everything else stays cream/white.
 
 ### Location bank (validated against YouTube recommendation cluster)
 
