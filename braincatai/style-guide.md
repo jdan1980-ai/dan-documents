@@ -383,11 +383,12 @@ Updated 16 мая 2026 after Veo 3 introduced phantom 3rd ear + chubby adult-cat
 ```
 Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult,
 NOT chubby, NOT pudgy — slender petite kitten body with small chest,
-slim torso, delicate proportions, small paws), big round sparkling VIVID
-EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT
-brown, NOT amber, NOT yellow, NOT hazel, NOT golden — set in CLEAN PURE
-WHITE eye-whites/sclera; ONLY the iris is green, the sclera stays white,
-NOT tinted green), small thin
+slim torso, delicate proportions, small paws), big round Pixar-style eyes
+— each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible
+all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a
+black pupil in the center; ONLY the small iris is colored green, the white
+of the eye stays pure white, NEVER a fully-green eyeball, NEVER green
+sclera (iris NOT brown, NOT amber, NOT yellow, NOT hazel), small thin
 round gold-framed glasses (ALWAYS on, every shot), a plain smooth brown
 leather collar (NO studs, NO spikes, NO metal plates, NO holes, NO front
 buckle) with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart
@@ -462,7 +463,7 @@ TIME X–Ys: [main action]
 TIME Y–Zs: [reaction / effect]
 TIME Z–end: [closing beat]
 
-EYE COLOR RULE (strict): Brain's IRIS is BRIGHT EMERALD GREEN (#3DDC84) throughout the entire [N] seconds, set in CLEAN PURE WHITE eye-whites (sclera). ONLY the iris is green — the eye-white/sclera stays pure white, NEVER tinted green, NEVER fully-green eyeballs. NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER golden, NEVER BLUE, NEVER CYAN, NEVER grey iris. Warm OR cool lighting must NOT tint the iris or the sclera. The iris stays vivid emerald green even in shadow, even when half-closed during a slow blink.
+EYE COLOR RULE (strict): Each of Brain's eyes is a LARGE PURE WHITE sclera (white of the eye clearly visible all around) with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil in the center. ONLY the small iris is green — the white of the eye/sclera stays PURE WHITE the entire [N] seconds, NEVER tinted green, NEVER a fully-green eyeball. Iris NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER golden, NEVER BLUE, NEVER CYAN, NEVER grey. Warm OR cool lighting must NOT tint the iris or the sclera. The iris stays emerald green even in shadow, even when half-closed during a slow blink.
 
 GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip. NEVER remove the glasses, NEVER let them fade out, NEVER animate them off his face.
 
