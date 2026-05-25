@@ -7,7 +7,7 @@
 - **Title:** 963 Hz Frequency of God | Pineal Gland Activation for Spiritual Awakening
 - **Slug:** `healing-hour-vol-2-963hz-mount-koya`
 - **Series:** Healing Hour (1 Hour Healing Uninterrupted)
-- **Format:** Long-form, ~1H
+- **Format:** Long-form, 1H 20min 52sec (4852 sec) — 20 Suno tracks, confirmed from CapCut
 - **Phase:** 1
 - **Aesthetic:** Healing Hour ILLUSTRATED — Studio Ghibli digital painting, lone monk on a Mount Koya temple at night under the stars, **cosmic purple / indigo palette** with a single warm lantern accent (contrast to Vol. 1's warm gold)
 - **Outcome owned:** Spiritual Awakening / Third Eye — distinct from the Kyoto Garden video (Stop Overthinking) and the Sound Bath (Deep Sleep & Anxiety Relief)
@@ -96,10 +96,10 @@ The loop must be PERFECTLY SEAMLESS — last frame matches first frame. NO new o
 ```bash
 ffmpeg -stream_loop -1 -i healing-hour-963hz-koya-loop.mp4 -i healing-hour-963hz-koya.mp3 \
   -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
-  -c:a aac -b:a 192k -shortest -t [LENGTH_SEC] healing-hour-963hz-koya.mp4
+  -c:a aac -b:a 192k -shortest -t 4852 healing-hour-963hz-koya.mp4
 ```
 
-Set `-t` to the final Suno-mix length (e.g. 3600 for exactly 1H).
+`-t 4852` = 1H 20min 52sec, the confirmed final length (20 tracks).
 
 ---
 
@@ -150,7 +150,25 @@ The crown of the Solfeggio scale, 963 Hz has been used in meditation to awaken i
 
 🎵 Tracklist
 0:00 — First Bell Across the Valley
-[fill remaining timestamps from the final CapCut arrangement — keep 0:00 first, ascending, each ≥ 10 sec]
+3:58 — Stars Come Out
+7:46 — The Stone Lantern Lit
+12:22 — Milky Way Overhead
+16:18 — Singing Bowl, Long Resonance
+21:17 — 963 in the Air
+25:21 — Cedar Wind
+30:19 — The Sky Breathes
+34:25 — Cold Mountain Air
+38:03 — Halfway to the Stars
+42:09 — The Third Eye Opens
+46:31 — Moon Over the Ridge
+50:26 — Light Without Source
+54:56 — The Long Silence
+58:08 — Monk and Cosmos
+1:02:01 — The Mind Expands
+1:05:48 — Heaven and Earth, One
+1:09:18 — Distant Bell Returns
+1:12:45 — Stillness Deepens
+1:16:23 — Dawn Still Far
 
 Sit beneath the stars of Mount Koya. Breathe. Let the frequency do the rest.
 
