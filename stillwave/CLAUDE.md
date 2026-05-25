@@ -105,6 +105,17 @@ Continue using the original style for the videos that aren't in the new format y
    - **🔒 Text color rule:** **cream `#F5EAD2` is the DEFAULT (standard).** Use **gold `#E4C46C` ONLY when the title/theme explicitly references gold / God / divine / miracle / sacred** — e.g. `963 Hz Frequency of God`, a "miracle frequency" angle. Gold then echoes the warm stone-lantern flame and the divine theme. Everything else stays cream/white.
    - **🔒 Font rule — ALWAYS ONE FONT.** Every thumbnail, Shorts cover and wisdom overlay across the WHOLE channel uses the **same single elegant thin serif** — never mix fonts. Renders use **Liberation Serif** (the locked render font); the nearest Canva/phone equivalent is **EB Garamond / Cormorant Garamond** (use only this if redoing by hand). One font everywhere = brand recognition. Word = bold weight, the Hz/tag = same font smaller.
 
+### Wisdom intro overlay (LOCKED — standard on EVERY Healing Hour video)
+
+Every Healing Hour video opens with a Japanese-wisdom intro overlay (the signature intro — like 明鏡止水 on the Kyoto video, 天地一如 on Mount Koya). Build it as a **transparent PNG** the editor drops on the finished video:
+
+- **Text:** a real Japanese phrase (yojijukugo idiom or Zen term) that fits THAT scene + the Hz outcome — never generic. Three lines: kanji / romaji / short English gloss.
+- **Placement:** LEFT side, over a **soft/calm zone of the frame** (mist, haze, or dark sky) — not over the busy focal area, not over the subject. Reads better on a quiet backdrop.
+- **Color:** per the text-color rule (cream default, gold for God/divine/gold themes).
+- **Font:** the one locked serif (same as thumbnails).
+- **Timing (retention-safe, Karena #7):** 0:00–0:03 scene + sound only (NO text, no fade from black) → fade in 2s → hold → fade out by ~0:14 → pure atmosphere for the rest.
+- Deliver the transparent PNG into `assets/` so it can be reused/overlaid anytime.
+
 ### Location bank (validated against YouTube recommendation cluster)
 
 | Location | Best Hz fit |
