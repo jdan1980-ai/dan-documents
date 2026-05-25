@@ -383,6 +383,14 @@ Use Canva ONLY when a special variant is needed (e.g., text overlay for a viral 
 - `production-status.md` — pipeline tracker per video
 - `scripts/<slug>.md` — one file per video
 
+### 🔒 Rule — both formats in ONE script file
+
+Every video's `scripts/<slug>.md` MUST contain **BOTH** packages:
+1. **Long-form package** (Suno A/B, NanoBanana 16:9 + 9:16, Flow, ffmpeg, title, description+tracklist, tags, hashtags, pinned, A/B, 16:9 thumbnail spec)
+2. **Shorts cross-promo package** (cover note, 9:16 visual + Flow loop, text hook, Shorts title, description with long-form link, tags, hashtags, pinned)
+
+Never split formats across files. One video = one file = both formats. Build them together from the start.
+
 ---
 
 ## 🔑 YouTube Data API v3 access

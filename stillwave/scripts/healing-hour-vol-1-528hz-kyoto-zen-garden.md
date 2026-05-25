@@ -374,6 +374,52 @@ The NanoBanana 16:9 IS the thumbnail. Add a single Canva text overlay:
 
 ---
 
+---
+
+# 📱 SHORTS PACKAGE (cross-promo → long-form `po4jmYdX2_w`)
+
+> Same file = both formats (project rule). Figure-8 does NOT apply to 9:16 — text upper/center, bottom = Shorts UI.
+
+**Cover (9:16):** `assets/healing-hour-vol-1-shorts-cover.jpg` — Kyoto garden + `STOP OVERTHINKING` + `528 Hz` (upper third, dark warm serif on the light sky).
+
+**9:16 visual:** see section 4. **Flow 9:16 loop:** rain + kakei trickle + lantern flame, monk still, 15–30 sec seamless.
+
+**Text hook (0–2s):**
+```
+Can't stop overthinking?
+→ 528 Hz. One hour. Let the mind go quiet.
+```
+
+**Shorts Title (no hashtags):**
+```
+528 Hz to Stop Overthinking 🌿
+```
+
+**Description:**
+```
+Can't switch your mind off? Let 528 Hz — the healing "miracle frequency" — slow your racing thoughts. Sit with the rain, the bowl, and the quiet of a Kyoto zen garden.
+
+▶ Full 1-hour version: https://youtu.be/po4jmYdX2_w
+
+Subscribe to StillWave for new Healing Hour sessions every week.
+
+#shorts #528hz #stopoverthinking #healingfrequency #meditation #zen #sleepmusic #anxietyrelief
+```
+
+**Tags:**
+```
+528 hz, stop overthinking, 528 hz healing frequency, overthinking, anxiety relief, meditation, zen, healing frequency, calm mind, meditation music, 528 hz meditation, racing thoughts, stillwave, mindfulness, sleep
+```
+
+**Hashtags (top-3):** `#shorts #528hz #stopoverthinking`
+
+**Pinned comment:**
+```
+🌿 What thought are you trying to let go of right now? Drop it here in one word — then go watch the full hour and actually let it go 🎴
+```
+
+---
+
 ## Post-publish metrics
 
 | Metric | 48h | 7d | 30d |

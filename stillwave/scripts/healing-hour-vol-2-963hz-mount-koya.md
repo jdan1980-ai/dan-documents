@@ -204,6 +204,54 @@ The NanoBanana 16:9 IS the thumbnail. Canva overlay in the **lower-left** (first
 
 ---
 
+---
+
+# 📱 SHORTS PACKAGE (cross-promo → long-form)
+
+> Same file = both formats (project rule). The Short is the 15–30 sec hook that funnels to the 1-hour long-form. **Figure-8 does NOT apply to 9:16** — text goes upper-third (bottom = Shorts UI).
+
+**Cover (9:16):** vertical Mount Koya + `FREQUENCY OF GOD` + `963 Hz` (upper third, cream serif on the dark cosmic sky) — `assets/healing-hour-963hz-mount-koya-shorts-cover.jpg`.
+
+**9:16 visual:** see section 4 (vertical Mount Koya). **Flow 9:16 loop:** star/Milky Way shimmer + stone-lantern flame flicker + drifting mist, monk still, 15–30 sec seamless.
+
+**Text hook in-video (0–2s, upper/center):**
+```
+Have you heard the Frequency of God?
+→ 963 Hz. Awaken the third eye.
+```
+
+**Shorts Title (no hashtags):**
+```
+963 Hz — The Frequency of God 🌌
+```
+
+**Description (+ link to long-form once uploaded):**
+```
+The highest Solfeggio frequency — 963 Hz, the "Frequency of God" — used to awaken the pineal gland and the third eye. Sit beneath the stars of Mount Koya.
+
+▶ Full 1-hour version: [paste long-form link after upload]
+
+Subscribe to StillWave for new Healing Hour sessions every week.
+
+#shorts #963hz #frequencyofgod #pinealgland #thirdeye #meditation #spiritualawakening #solfeggio
+```
+
+**Tags:**
+```
+963 hz, frequency of god, 963 hz frequency of god, pineal gland, third eye, spiritual awakening, solfeggio frequencies, meditation, 963 hz meditation, manifest, stillwave, healing frequency, mount koya, cosmic meditation, raise your vibration
+```
+
+**Hashtags (top-3):** `#shorts #963hz #frequencyofgod`
+
+**Pinned comment:**
+```
+🌌 Do you believe a frequency can open the third eye? Tell me below in one word — then watch the full hour under the stars of Mount Koya 🏮
+```
+
+> Upload: Not for kids = Yes (Made for kids = No) · link Short → long-form via Related video (Karena #6).
+
+---
+
 ## Post-publish metrics
 
 | Metric | 48h | 7d | 30d |
