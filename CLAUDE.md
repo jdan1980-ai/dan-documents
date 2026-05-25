@@ -288,7 +288,7 @@ YouTube channel — Japanese ambient · meditation · sleep · focus music. Hand
 **Source of truth files:**
 - `stillwave/CLAUDE.md` — project rules + 5 triggers (`SW:`, `SWS:`, `GAP: SW`, `CAL:`, `THUMB:`)
 - `stillwave/published-videos.md` — every published video with stats
-- `stillwave/competitor-tracker.md` — 5 tracked competitors
+- `stillwave/competitor-research/competitor-tracker.md` — 5 tracked competitors
 - `stillwave/content-ideas.md` — backlog (output of GAP/CAL runs)
 - `stillwave/production-status.md` — pipeline tracker
 

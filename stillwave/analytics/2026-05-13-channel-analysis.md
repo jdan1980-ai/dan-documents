@@ -91,7 +91,7 @@ The fact that ALL these channels are under 10k subs proves the algorithm is acti
 
 ### MERSO как template
 
-`UClgFS59KISpW3fPprHJF0Yw` уже в [`competitor-tracker.md`](../competitor-tracker.md). Их title formula:
+`UClgFS59KISpW3fPprHJF0Yw` уже в [`competitor-tracker.md`](../competitor-research/competitor-tracker.md). Их title formula:
 
 ```
 Deep Work Music — [Mood Word] for Coding & Late Night Study
