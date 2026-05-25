@@ -91,15 +91,11 @@ The loop must be PERFECTLY SEAMLESS — last frame matches first frame. NO new o
 >
 > Make both ambience beds seamless loops with the rotate-and-crossfade recipe (see Vol. 1 §5b). Levels: music 0 dB · night wind −12 to −14 dB (very soft, just air) · bell layer −10 dB. No rain/kakei here — clear starry night.
 
-## 6. 🛠️ ffmpeg encode (loop the 8-sec video to length + audio)
+## 6. 🛠️ Assembly
 
-```bash
-ffmpeg -stream_loop -1 -i healing-hour-963hz-koya-loop.mp4 -i healing-hour-963hz-koya.mp3 \
-  -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
-  -c:a aac -b:a 192k -shortest -t 4852 healing-hour-963hz-koya.mp4
-```
+> **Current workflow: full album of unique Suno tracks, assembled in CapCut. No ffmpeg, no 8-sec loop.** The 20 tracks (1:20:52) are laid end-to-end on the audio track in CapCut; the rain layer + any ambience go on overlay audio tracks; the visual (Flow motion clip) is looped/extended on the video track in CapCut to cover the full length. Export from CapCut.
 
-`-t 4852` = 1H 20min 52sec, the confirmed final length (20 tracks).
+> _(Legacy ffmpeg `-stream_loop` method is no longer used for these 1–2H videos.)_
 
 ---
 

@@ -176,9 +176,11 @@ Keep the existing `1 Hour Healing Uninterrupted Vol. N` series tag in the subtit
 
 ## 🛠️ Pipeline
 
-Long-form has TWO mode options. **Default = Mode B (looped motion)** for the Phase 1 batch and beyond — gives the video life (rain on glass / fireplace flicker / laptop screen activity) without overspending on credits.
+> **⚡ CURRENT workflow (2026-05+): FULL ALBUM, assembled in CapCut — no ffmpeg, no 8-sec loop.**
+> Music = a **full album of unique Suno tracks** (e.g. 17–20 tracks ≈ 1–1.5H), laid end-to-end in CapCut. NOT 1–2 tracks looped. Rain + ambience = overlay audio tracks in CapCut. Visual = a Flow/Kling motion clip looped/extended on the CapCut video track to cover the length. Wisdom-intro PNG + thumbnail handled as documented. Export from CapCut.
+> The Mode A / Mode B / `ffmpeg -stream_loop` methods below are **LEGACY** (kept for reference / budget runs only).
 
-### Mode A — Static image + audio (cheapest, no Flow/Kling)
+### Mode A — Static image + audio (LEGACY — cheapest, no Flow/Kling)
 
 | Stage | Long-form |
 |-------|-----------|
@@ -196,7 +198,7 @@ ffmpeg -loop 1 -i thumbnail.jpg -i music.mp3 \
 
 Use for: budget runs, fastest turnaround, or if Flow/Kling gives bad results.
 
-### Mode B — Looped motion video + audio (default for Phase 1+)
+### Mode B — Looped motion video + audio (LEGACY — superseded by the full-album CapCut workflow)
 
 | Stage | Long-form |
 |-------|-----------|
