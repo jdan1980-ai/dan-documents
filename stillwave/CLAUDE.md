@@ -83,6 +83,7 @@ Continue using the original style for the videos that aren't in the new format y
 - Slightly desaturated overall except the **one dominant scene color** (see palette table below)
 - Cinematic widescreen composition (rule of thirds, deep perspective, atmospheric mist or rain)
 - **Lone robed figure** (monk silhouette, traveler, samurai-monk) at the focal third — back to camera or quarter-profile, never face-forward. Anchors human presence + scale.
+- **🔒 Signature lantern (LOCKED — same in every Healing Hour video):** a weathered traditional Japanese **stone lantern (石灯籠 ishidōrō, kasuga style)** — tall, mossy, on a stone pedestal, with a **warm flame glowing inside its stone fire-box**. It is fixed/permanent (stands in the garden or beside the temple steps), authentic, never moved. This is the recurring warm accent that ties the series together. **NEVER a portable paper andon lantern, NEVER a handheld lantern.** Always one, always the same stone tōrō.
 
 ### Composition rules
 
@@ -100,7 +101,7 @@ Continue using the original style for the videos that aren't in the new format y
 2. Lone figure positioned **at the focal third**, looking into the scene depth (sea / valley / cosmos / cityscape).
 3. Strong atmospheric depth — fog, mist, snow, neon glow, water reflections. NO crisp daylight clarity.
 4. **No in-image text** (the NanoBanana prompt forbids letters — avoids garbled-text artifact). No MacBook, no modern penthouse, no fireplace, no desk props — those are Power Hour signals.
-5. **Post-production thumbnail text overlay is ALLOWED** for Healing Hour (unlike Power Hour). Add via Canva: **1–2 words max** in a thin elegant serif font, low-saturation cream/white, placed in a quiet corner (bottom-right typical), low contrast so it reads as a tonal accent — never dominates the scene. Recommended words: `QUIET MIND` / `STILLNESS` / `BREATHE` / the Hz number itself (`528 Hz`) tucked as a small tag. The Ghibli illustration carries the click; text is whisper, not shout.
+5. **Post-production thumbnail text overlay is ALLOWED** for Healing Hour (unlike Power Hour). Add via Canva: **1–2 words max** in a thin elegant serif font, low-saturation cream, placed **LOWER-LEFT (figure-8 rule — see Design rules)**, low contrast so it reads as a tonal accent — never dominates. Recommended words: `QUIET MIND` / `AWAKEN` / `STILLNESS` / `BREATHE` + the Hz number as a small tag. The Ghibli illustration carries the click; text is whisper, not shout.
 
 ### Location bank (validated against YouTube recommendation cluster)
 
