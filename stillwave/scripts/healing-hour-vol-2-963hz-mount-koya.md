@@ -108,12 +108,13 @@ Set `-t` to the final Suno-mix length (e.g. 3600 for exactly 1H).
 > Karena rule #7: open ON the scene + sound at frame 1, NO fade from black. Wisdom text only after the hook lands (0:03), gone by 0:14.
 
 ```
-悟り
-Satori
-"Awakening was here all along."
+天地一如
+Tenchi Ichinyo
+"Heaven and earth are one."
 ```
 
-- Real Japanese term — 悟り (satori) = spiritual awakening / enlightenment, exactly the video's outcome.
+- Real Japanese Buddhist principle — 天地一如 (tenchi ichinyo) = heaven and earth are one / non-duality. Fits the 963 "Frequency of God" theme (self dissolving into the cosmos) and doesn't duplicate the AWAKEN thumbnail word.
+- **Ready-made transparent overlay (drop on the finished video):** `assets/healing-hour-963hz-tenchi-ichinyo-overlay.png` (1920×1080, GOLD per the divine-theme color rule, upper-left, one serif font).
 - Timing: 0:00–0:03 full starry scene + bell + wind (no text); 0:03–0:05 fade in; 0:05–0:11 hold; 0:11–0:14 fade out; then pure atmosphere.
 - Style: thin serif, cream `#F5EAD2`, lower-middle over the dark forest (not over the monk/stars), no glow/shadow.
 
