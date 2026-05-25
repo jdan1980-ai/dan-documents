@@ -20,26 +20,26 @@
 
 ## 1. 🎵 Suno Prompt A — Style field
 
-> **Music DNA = Power Hour / Healing Hour family** (warm analog pad + distant koto + 60 BPM + sparse, breathing). Adapted for a clear cosmic mountain night: the 528 sub-bass pulse is replaced by a **high crystalline 963 Hz shimmer** (ethereal, glassy, like starlight), and rain is replaced by **soft night-mountain ambience** (cedar wind, distant temple bell, faint night insects) + a slow **singing bowl**.
+> **Music DNA = the loved Power Hour / Healing Hour sound:** warm analog pad + distant koto + deep sub-bass heartbeat (every 16 bars) + sparse. 963 Hz character = a high crystalline shimmer on top. **50 BPM — slower & more spacious than Vol. 1.** **NO rain in Suno** — rain is added separately as a top layer in the mix (user's overlay).
 
 ```
-EXTENDED LONG-FORM AMBIENT PIECE — target runtime 3 minutes minimum. Slow ambient celestial soundscape for a starry mountain temple night on Mount Koya. Soft warm analog synth pad breathing underneath, distant koto plucks every 30 seconds, a high crystalline shimmer tone tuned to 963 Hz drifting gently in and out (ethereal, glassy, like starlight — the frequency itself), a deep slow singing bowl struck once every 60 seconds with long resonance, a distant temple bell ringing once every 90 seconds far across the valley, very soft night mountain wind through cedar trees, faint distant night insects low in the mix. 60 BPM. Sparse and breathing, long silences between events, instruments fade in and out slowly. No buildup, no climax, sustained meditative cosmic atmosphere for the full 3 minutes. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+EXTENDED LONG-FORM AMBIENT PIECE — target runtime 3 minutes minimum. Slow, spacious ambient soundscape for a mountain temple night on Mount Koya — pure instrumental music, NO rain sounds (rain is added separately as a top layer). Soft warm analog synth pad breathing underneath, distant koto plucks every 40 seconds, a deep warm sub-bass pulse every 16 bars (the slow heartbeat, like in our Tokyo apartment series), a high crystalline shimmer tone tuned to 963 Hz drifting gently in and out on top (ethereal, glassy, like starlight — the frequency itself), a deep slow singing bowl struck once every 60 seconds with long resonance, a distant temple bell every 90 seconds. 50 BPM, very slow and spacious, long silences between events, instruments fade in and out slowly. No buildup, no climax, sustained meditative atmosphere for the full 3 minutes. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 
 ## 2. 🎵 Suno Prompt B — Lyrics field
 
 ```
 [extended long-form ambient instrumental, target total length 3 minutes]
-[no lyrics, no vocals, instrumental only]
-[0:00–0:20 intro: a single distant temple bell rings once far across the Mount Koya valley at night, soft cedar-forest wind, the first faint 963 Hz crystalline shimmer drifts in like starlight]
-[0:20–0:50 section A1: distant koto plucks slowly every 30 seconds, the 963 Hz shimmer rises and fades gently, soft night wind continuous underneath]
-[0:50–1:20 section A2: warm analog synth pad enters very softly beneath, a deep singing bowl is struck once with long resonance, faint night insects low in the mix]
-[1:20–1:50 section B1: the synth pad swells gently, the 963 Hz shimmer brightens like the Milky Way overhead, distant temple bell rings again far away]
-[1:50–2:20 section B2: koto answers with a single sustained note, the singing bowl is struck again, brief held silence for 8 seconds with only wind and shimmer]
-[2:20–2:50 section C: pad and koto re-enter softly, the 963 Hz shimmer holds longer, sense of expansion and stillness]
-[2:50–3:00 loop point / outro: night wind and the faint shimmer remain constant, all instruments fade to silence so the next track joins seamlessly]
-[mood: a lone monk sits on the steps of a Mount Koya temple under a vast starry sky, the Milky Way overhead, a single lantern beside him, the mind opening upward]
-[texture: cedar-forest night wind, glassy crystalline starlight shimmer, deep singing bowl resonance, distant temple bell, cold mountain air]
+[no lyrics, no vocals, instrumental only — NO rain sounds, rain added later as a separate layer]
+[0:00–0:20 intro: a distant temple bell rings once across the Mount Koya valley at night, deep stillness, the first faint 963 Hz crystalline shimmer drifts in]
+[0:20–0:55 section A1: distant koto plucks slowly every 40 seconds, a deep sub-bass pulse every 16 bars like a slow heartbeat, the 963 Hz shimmer rises and fades on top, long spacious silences]
+[0:55–1:30 section A2: warm analog synth pad enters very softly beneath, a deep singing bowl struck once with long resonance]
+[1:30–2:00 section B1: synth pad swells gently, the 963 Hz shimmer brightens, distant temple bell rings again far away]
+[2:00–2:30 section B2: koto answers with a single sustained note, singing bowl struck again, held silence for 10 seconds with only the faint shimmer]
+[2:30–2:50 section C: pad and koto re-enter softly, sub-bass heartbeat steady, the shimmer holds longer]
+[2:50–3:00 loop point / outro: the faint shimmer and sub-bass remain, all instruments fade to silence so the next track joins seamlessly]
+[mood: a lone monk on the steps of a Mount Koya temple at night, a single lantern beside him, deep slow breath, the mind opening upward]
+[texture: warm analog pad, glassy 963 Hz starlight shimmer, deep singing bowl, slow sub-bass heartbeat, distant temple bell, vast mountain stillness]
 ```
 
 ---
