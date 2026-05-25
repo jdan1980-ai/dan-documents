@@ -6,7 +6,7 @@ Animated AI cat Shorts • Education style • Vertical 9:16 • 30–60 sec
 
 ## 🏆 Priority backlog from @williamcat (added 18 мая 2026)
 
-Источник: top-30 на канале **Кошкина Мать / Cat's Mother** (135K subs / 111.6M views). Полный снимок в `research/competitor-tracker.md`. Все темы — competitor-proven виралы 2022-2023 в нашем 48-60 сек формате.
+Источник: top-30 на канале **Кошкина Мать / Cat's Mother** (135K subs / 111.6M views). Полный снимок в `competitor-research/competitor-tracker.md`. Все темы — competitor-proven виралы 2022-2023 в нашем 48-60 сек формате.
 
 ### Tier 1 — 3M+ views proof
 
