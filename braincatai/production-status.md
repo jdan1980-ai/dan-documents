@@ -54,36 +54,39 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | 14 мая | Чт | You Say THESE Words, Your Cat HEARS You! | Cat Psychology | `13-words-cats-understand` | 17 |
 | 15 мая | Пт | Your Cat Thinks YOU'RE a Giant Weird Cat 🐱 | Cat Psychology | `your-cat-sees-you-as-giant-cat` | 44 |
 | 15 мая | Пт | 🚨 Your Cat STARES at You for No Reason | Cat Psychology | `why-cats-stare-at-you` | **4** ⚠️ double-publish penalty |
-| 17 мая | Вс | Why Your Cat FOLLOWS You to the Bathroom | Cat Psychology | `why-cats-follow-bathroom` | **11** |
-| **18 мая (сегодня)** | **Пн** | The Real Reason Your Cat Sits Above You | Cat Psychology | `why-cats-sit-above-you` | TBD — ⚠️ vidIQ 25.6 (RED override) |
+| 17 мая | Вс | Why Your Cat FOLLOWS You to the Bathroom | Cat Psychology | `why-cats-follow-bathroom` | **6** |
+| 18 мая | Пн | The Real Reason Your Cat Sits Above You | Cat Psychology | `why-cats-sit-above-you` | **4** — ⚠️ vidIQ 25.6 RED override, валидирован как «не стоило» |
+| 19 мая | Вт | Cats Can Hear 5 Times What You Can | Cat Psychology | `cats-hear-you-blinking` | **5** |
+| 20 мая | Ср | Cats Understand Their Names Better Than You Think | Cat Psychology | `why-cats-ignore-you` | **13** |
+| 21 мая | Чт | 5 Signs Your Cat DOESN'T Love You (negative-mirror) | Cat Psychology | `signs-cat-doesnt-love-you` | **19** (1 лайк) |
+| 22 мая | Пт | Your Cat Is a Perfect Killing Machine 🏆 | Cat Psychology | `your-cat-killing-machine` | **18** (24ч CTR 5.2% / 31с — лучший хук) |
+| 23 мая | Сб | 5 Things Your Cat Loves That You Never Do | Cat Behavior | `things-cats-love` | **8** |
+| 24 мая | Вс | Why Your Cat Stares at Nothing (killer-formula #2) | Cat Psychology | `why-cats-stare-at-nothing` | **3** (свежий) |
+| 25 мая | Пн | When Your Cat Stretches at You, It Means This | Cat Behavior | `why-cats-stretch-at-you` | **3** (свежий) |
 
 🚨 **Lesson learned 17 мая 2026 (double-publish kill):** 15 мая вышли ДВА видео в один день — Giant (44 views) + Stares (**4 views**). Алгоритм задушил второе видео. **НИКОГДА не публиковать два Shorts в один день** — даже если одно сильнее. Один день = один Short максимум.
 
 ⚠️ **Override 18 мая:** `why-cats-sit-above-you` опубликован вне vidIQ-плана (score 25.6 RED, 0 monthly). User decision: канал в recovery mode → лучше потратить слот на инстинкт-тему чем держать сильную в очереди. Трекаем результат для валидации.
 
-### План на 19–28 мая — 10-дневный календарь (сдвинут 18 мая после Sits Above You)
+### План на ближайшие слоты (26+ мая)
 
-> vidIQ research: 13 тем проверено. Все ниже порога GREEN. Выбраны лучшие YELLOW + competitor-proven темы.
-> 🏆 Скрытый джекпот: `cat facts mind blowing` — score **73.8 / 9,953 monthly / competition 5** — добавлять в теги каждого видео.
+> 🏆 Channel-wide tag jackpot: `cat facts mind blowing` — score **73.8 / 9,953 monthly / competition 5** — добавлять в теги каждого видео.
 
 | Дата | День | Тема | Slug | vidIQ | Статус |
 |------|------|------|------|-------|--------|
-| 19 мая | Вт | Cats Can Hear 5 Times What You Can | `cats-hear-you-blinking` | — | 📅 scheduled (uploaded 18 мая) |
-| 20 мая | Ср | Cats Understand Their Names Better Than You Think | `why-cats-ignore-you` | 59.47 / 8,757 | 📅 scheduled (uploaded 19 мая) |
-| 21 мая | Чт | **5 Signs Your Cat DOESN'T Love You** (negative-mirror) | `signs-cat-doesnt-love-you` | **67.55 / 14,333 GREEN** ⭐ + @williamcat 8.8M proof | 📅 scheduled (uploaded 20 мая) |
-| ~~21 мая~~ | ~~Чт~~ | ~~Your Cat's Tail Is Talking~~ | ~~`why-cats-wag-their-tails`~~ | 62.59 / 5,400 | ⏸️ отложено (swapped for GREEN negative-mirror) |
-| 22 мая | Пт | **Your Cat Is a Perfect Killing Machine** (predator-reveal) | `your-cat-killing-machine` | "cat hunting" 64.91 / 15,883 + competitor-proven | ✅ опубликован — 🏆 **CTR 5.2% / 31s ret (best to date)** |
-| 23 мая | Сб | **5 Things Your Cat Loves That You Never Do** (listicle) | `things-cats-love` | "things cats love" 59.93 / 14,709 + @williamcat 5.6M proof | ✅ опубликован (вечер 23 мая) |
-| 24 мая | Вс | **Why Your Cat Stares at Nothing** (killer-formula #2, senses/spooky) | `why-cats-stare-at-nothing` | "why cats stare at nothing" 64.93 / 6,733 / comp 23.4 | ✅ опубликован 24 мая (3 просм на 25 мая, рано) |
-| 25 мая | Пн | When Your Cat Stretches at You, It Means This | `why-cats-stretch-at-you` | 60.13 / 5,378 | 🎬 **сегодня постим** — скрипт готов |
-| ~~22 мая~~ | ~~Пт~~ | ~~Your Cat Invented a Language Just for YOU~~ | ~~`why-cats-meow-only-at-humans`~~ | 60.70 / 3,685 | ⏸️ в бэклог (swapped for higher-demand) |
-| ~~24 мая~~ | ~~Вс~~ | ~~Why Your Cat Acts Like Water Is Poison~~ | ~~`why-cats-hate-water`~~ | 60.88 / 3,659 | ⏸️ в бэклог (swapped for higher-demand) |
-| 26 мая | Вт | Your Cat Is Older Than You Think 🐱 | `cat-years-to-human-years` | competitor proof | ✍️ нужен скрипт |
-| ~~26 мая~~ | ~~Вт~~ | ~~3 Things Your Cat Can Sense~~ | ~~`cat-superpowers-senses`~~ | — | ✅ реализовано как `why-cats-stare-at-nothing` (пивот) |
-| 27 мая | Ср | Why Your Cat Hates When You Leave | `why-cats-hate-being-left-alone` | TBD | ✍️ нужен скрипт |
-| 28 мая | Чт | _Нужна тема — из vidIQ-кэша (jealous / dehydration / angry)_ | TBD | TBD | ✍️ нужен скрипт |
+| **26 мая (сегодня)** | **Вт** | TBD — выбираем между `cat-years-to-human-years` (не проверен) и `why-cats-wag-their-tails` (62.59 / 5,400 cached YELLOW) | TBD | TBD | ✍️ ждём решения |
+| 27 мая | Ср | Why Your Cat Hates When You Leave | `why-cats-hate-being-left-alone` | TBD — нужна vidIQ-проверка | ✍️ нужен скрипт |
+| 28 мая | Чт | _Из кэша: jealousy (59.01 / 5,156) / dehydration / angry / wag-tails (если не на 26) / hate-water (60.88) / meow-at-humans (60.70)_ | TBD | YELLOW кэш | ✍️ нужен скрипт |
 
-🚨 **Канал в recovery mode:** view-counts с 8 мая упали с 800-1300 до 10-44. Причина — non-cat видео (Sky Blue, Doorway, Vagus, Black Hole). До восстановления — **только cats**, 1 видео в день, никаких double-publish.
+**Бэклог YELLOW (cached, available):**
+- `why-cats-wag-their-tails` 62.59 / 5,400 — лучший AVAILABLE в кэше
+- `why-cats-hate-water` 60.88 / 3,659
+- `why-cats-meow-only-at-humans` 60.70 / 3,685
+- `cat-jealousy` 59.01 / 5,156
+
+🚨 **Канал всё ещё в recovery mode:** ср. ~14 просм/видео за последние 15. Killer-видео (22 мая) показал лучший CTR (5.2%) и retention (31с), НО в сумме всего 18 просмотров — хук работает, охват алгоритм почти не даёт. До восстановления — **только cats**, 1 видео в день, никаких double-publish.
+
+📊 Снапшоты: [`analytics/2026-05-25-snapshot.md`](./analytics/2026-05-25-snapshot.md). Чек-ин ~31 мая.
 
 ### Long-form pipeline
 
@@ -110,59 +113,24 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 
 ---
 
-## 🔑 Кандидаты на 13-19 мая (черновик)
-
-Источник: backlog в `content-ideas.md`. Финализируется после vidIQ анализа (12 мая возвращаются credits).
-
-### 13 мая (Ср — Cat Psychology)
-- 🟢 **Why Cats Hate Closed Doors** — universal experience, low Shorts saturation
-- 🟢 Why Your Cat Stares at You for No Reason
-
-### 15 мая (Пт — What If?)
-- 🟢 **What If Earth Stopped Spinning?** — visual extreme, cat flying off scenery
-- 🟢 What If Humans Had Tails?
-- 🟢 What If You Fell Through Earth?
-
-### 16 мая (Сб — Cat Psychology)
-- 🟢 **Your Cat Sees You as a Giant Weird-Looking Cat** — relatable mind-blow, новая для нас
-- 🟢 Why Cats Roll on Their Backs (NOT for belly rubs)
-
-### 17 мая (Вс — Did You Know)
-- 🟢 **Your Stomach Gets a New Lining Every Few Days** — universal mind-blow
-- 🟢 Cleopatra Lived Closer to the Moon Landing Than to the Pyramids
-- 🟢 Sharks Existed Before Trees
-
-### 18 мая (Пн — Cat Psychology)
-- 🟢 **Why Cats Slow Blink** ✅ уже сделан — переиспользуем сильную тему
-- 🟢 Why Your Cat Meows ONLY at Humans (not other cats)
-- 🟢 Cats Can Hear You Blinking
-
-### 19 мая (Вт — Brain Hacks)
-- 🟢 **Why You Forget Names Instantly** — universal experience
-- 🟢 The Phantom Vibration Effect (you feel phone buzz that didn't happen)
-- 🟢 Why You Can't Tickle Yourself
-
----
-
-## Pipeline статус в работе (текущие скрипты)
+## Pipeline статус — последние/активные
 
 | Slug | Дата | 📝 | 🎨 | 🎬 | 🎞️ | ⏰ | 📤 |
 |------|------|----|----|----|-----|-----|-----|
-| `orange-cats-are-boys` | 8 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
-| `why-cats-slow-blink` | 9 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
-| `whats-inside-a-black-hole` | 10 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
-| `why-cats-lick-your-hair` | 11 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
-| `why-music-gives-you-goosebumps` | 12 мая | ✅ | 🟡 in progress | ⏳ | ⏳ | ⏳ | ⏳ |
-| `why-cats-hate-closed-doors` | 13 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
-| `why-kids-say-6-7` | LEGACY non-cat — снять с очереди | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `where-your-cat-sleeps` | 12 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
-| `13-words-cats-understand` | 16 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `why-cats-stare-at-you` | 17 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `your-cat-sees-you-as-giant-cat` | 15 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
+| `why-cats-stretch-at-you` | 25 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
+| `why-cats-stare-at-nothing` | 24 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
+| `things-cats-love` | 23 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
+| `your-cat-killing-machine` | 22 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован 🏆 |
+| `signs-cat-doesnt-love-you` | 21 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
+| `why-cats-ignore-you` | 20 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
+| `cats-hear-you-blinking` | 19 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
+| `why-cats-sit-above-you` | 18 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (vidIQ override) |
 | `why-cats-follow-bathroom` | 17 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
-| `why-cats-sit-above-you` | 18 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (override) |
-| `cats-hear-you-blinking` | 19 мая | ✅ | ✅ | ✅ | ✅ | ✅ | 📅 scheduled |
-| `why-cats-ignore-you` | 20 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `why-cats-stare-at-you` | 15 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (double-publish жертва) |
+| `your-cat-sees-you-as-giant-cat` | 15 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
+| **NEXT — нужно решить** | 26 мая | — | — | — | — | — | — |
+
+> Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 
 (Уточни — какие именно стадии уже готовы. Я предполагал что для запланированных в YouTube всё готово до scheduled статуса.)
 
