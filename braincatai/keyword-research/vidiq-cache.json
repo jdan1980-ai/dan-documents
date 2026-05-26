@@ -4,7 +4,7 @@
     "schema_version": "1.1",
     "created": "2026-05-17",
     "last_updated": "2026-05-26",
-    "total_credits_spent": 210,
+    "total_credits_spent": 220,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
@@ -12,7 +12,8 @@
       "2026-05-20: +25 credits — 5× keyword_research (May 22-24 lineup review + killer-topic + williamcat candidates). BEST FIND: 'things cats love' 59.93/14,709 + listicle form (williamcat 5.6M proof). Killer topic viable via 'cat hunting' 64.91/15,883. Hugs + home-alone = search-dead (CTR-only). Balance after: 1870 total (1298 renewable + 572 addon).",
       "2026-05-22: +15 credits — 3× keyword_research on user-submitted ideas. WINNER: cat dehydration viable via 'signs of dehydration in cats' 68.67/4,919/comp-11. cat jealousy YELLOW 59.01/5,156. signs-cat-angry RED (no searchable keyword).",
       "2026-05-23: +5 credits — 'what cats can sense' seed RED but WINNER related 'why cats stare at nothing' 64.93/6,733/comp-23.4 (spooky senses hook, killer-formula fit). cat vision 64.20/9,246. Pivoted senses topic to 'why cats stare at nothing'.",
-      "2026-05-26: +5 credits — 'cat years to human years' seed RED 25.84 / 0 monthly. PIVOT WINNER: related 'oldest cat ever' 64.94 / 8,562 monthly / comp 25.7 — strongest single-fact angle available right now (above wag-tails 62.59 and everything in cache). 'senior cat care' 61.00/3,272 also viable. Decision: pivot 26 May to oldest-cat-ever."
+      "2026-05-26: +5 credits — 'cat years to human years' seed RED 25.84 / 0 monthly. PIVOT WINNER: related 'oldest cat ever' 64.94 / 8,562 monthly / comp 25.7 — strongest single-fact angle available right now (above wag-tails 62.59 and everything in cache). 'senior cat care' 61.00/3,272 also viable. Decision: pivot 26 May to oldest-cat-ever.",
+      "2026-05-26 (later): +10 credits — 2× keyword_research. 'cat separation anxiety' YELLOW 55.70/3,883 (weaker than cached YELLOWs, skip 27 May). 'cat night vision' RED 30.48/0 BUT confirms 'cat vision' 64.20/9,246 (already cached 23 May, unused) as the strongest available pick — recommended angle: 'Your Cat Sees Your TV Differently' (flicker fusion) or 'Sees Colors You Can't'. JACKPOT flag: 'cat purring' 69.30/92,940 — defer (cannibalizes Apr 22 purr-heal-bones)."
     ]
   },
   "queries": [
@@ -478,6 +479,47 @@
       ],
       "verdict": "RED seed (25.84 / 0 monthly). PIVOT WINNER: related 'oldest cat ever' YELLOW-GREEN 64.94 / 8,562 / comp 25.7 — strongest single-fact angle currently available (higher than wag-tails 62.59 and all cached YELLOWs). 'senior cat care' 61.00/3,272 is a softer alternative.",
       "notes": "DO NOT script cat-years-to-human-years (chart format = zero search). Pivot 26 May slot to 'World's Oldest Cat Ever' / Creme Puff 38 years — single-fact format like stretch, plus mind-blow record. Slug: `oldest-cat-ever` or `worlds-oldest-cat`. Channel-wide tag `cat facts mind blowing` 73.8 still applies."
+    },
+    {
+      "keyword": "cat separation anxiety",
+      "fetched": "2026-05-26",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 53.58,
+        "competition": 41.1,
+        "overall": 55.70,
+        "monthly": 3883
+      },
+      "top_related": [
+        { "keyword": "cat care", "overall": 67.80, "monthly": 61342 },
+        { "keyword": "sad cat", "overall": 68.52, "monthly": 53133 },
+        { "keyword": "cute cats", "overall": 68.31, "monthly": 164392 },
+        { "keyword": "cat behavior tips", "overall": 61.07, "monthly": 5186 },
+        { "keyword": "cat therapy", "overall": 55.95, "monthly": 4781 }
+      ],
+      "verdict": "YELLOW seed 55.70 / 3,883 — viable but WEAKER than every cached YELLOW (wag-tails 62.59, water 60.88, meow-at-humans 60.70, jealousy 59.01). All specific 'separation anxiety' phrasings are RED (0 monthly). Related winners too generic for a single video.",
+      "notes": "Skip 27 May. Prefer cached wag-tails / water / meow-at-humans / jealousy or new vidIQ-tested topic. If we ever do anxiety it should be CTR-only / emotional hook, not search-driven."
+    },
+    {
+      "keyword": "cat night vision",
+      "fetched": "2026-05-26",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": 23.8,
+        "overall": 30.48,
+        "monthly": 0
+      },
+      "top_related": [
+        { "keyword": "cat purring", "overall": 69.30, "monthly": 92940 },
+        { "keyword": "cats behavior", "overall": 65.18, "monthly": 44753 },
+        { "keyword": "cat vision", "overall": 64.20, "monthly": 9246 },
+        { "keyword": "what cats do at night", "overall": 60.48, "monthly": 3273 },
+        { "keyword": "cats eyes", "overall": 58.14, "monthly": 9781 },
+        { "keyword": "how do cats see the world", "overall": 56.91, "monthly": 4050 }
+      ],
+      "verdict": "RED seed (30.48 / 0). PIVOT: 'cat vision' 64.20 / 9,246 is the strongest video-able related (already cached from 23 May). 'cat purring' 69.30 / 92,940 is a JACKPOT but cannibalizes published 22 Apr Purr-Heal-Bones; save for a future counterintuitive angle ('cats purr when in pain').",
+      "notes": "27 May decision: use cat vision angle. Recommended hook: 'Your Cat Sees Your TV Differently Than You' (flicker fusion) or 'Your Cat Sees Colors You Can't'. NOT a dupe of why-cats-stare-at-nothing (that was multi-sense — sound/air/pressure; this is pure vision)."
     }
   ],
   "non_keyword_calls": [
