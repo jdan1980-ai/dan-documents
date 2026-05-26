@@ -57,6 +57,15 @@ Every new-format thumbnail/scene must include all six:
 
 This Spacious Tokyo Penthouse backdrop is the LOCKED visual signature of StillWave. Every hybrid video uses it. Different videos vary the **prop, mood (rainy / clear / misty / snowing), Japanese accent, and laptop screen content** — but the spacious penthouse + massive windows + fireplace stays consistent. Builds brand recognition.
 
+### 🔒 Power Hour signature object — Japanese hourglass (砂時計 sunadokei)
+
+**Every Power Hour video includes a traditional Japanese hourglass / sand timer on the desk** — wooden frame, clear blown-glass bulbs, fine pale sand falling in a slow thin stream. Sits prominently on the kotatsu / low desk in the foreground next to the MacBook, catching the warm light of the fireplace and laptop glow. Authentic, beautiful, photogenic. The recurring "time" object for the focus series.
+
+- **Why locked:** parallel to Healing Hour's stone lantern — Power Hour's signature is the **hourglass + MacBook + penthouse + fireplace**. Recognizable across every video = brand.
+- **Motion (Flow):** the sand falling is one of the LIVE motion elements in the loop (rain on glass + sand falling + fireplace flame + laptop cursor). Gentle, hypnotic, on-theme for "focus session."
+- **Symbolism:** one turn of the hourglass = one focus block (one pomodoro). Even when the video isn't a literal Pomodoro, the hourglass = "time is being well spent."
+- **Format:** specifically pair this signature with **Pomodoro structure videos** when applicable — the hourglass is the in-scene soul, a clean digital `FOCUS 50:00 / BREAK 10:00` overlay (CapCut, upper-center) handles the actual countdown.
+
 ### Laptop screen content per use case
 
 | Video use case | Screen content (described as abstract patterns) |
