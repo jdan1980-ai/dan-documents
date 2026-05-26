@@ -1,18 +1,18 @@
-# Power Hour — Pomodoro Tokyo Rain 50/10 Deep Focus
+# Power Hour — Pomodoro Tokyo Rain 25/5 Deep Focus
 
-> Internal slug uses `power-hour-pomodoro-tokyo-rain-50-10`. Public copy carries no Vol. number; the Power Hour playlist groups the series.
+> Internal slug uses `power-hour-pomodoro-tokyo-rain-25-5`. Public copy carries no Vol. number; the Power Hour playlist groups the series.
 
 ## Meta
 
-- **Title:** Pomodoro Study With Me — Deep Focus Music | Tokyo Rain 50/10 for Coding & Studying
+- **Title:** Pomodoro Study With Me — Deep Focus Music | Tokyo Rain 25/5 for Coding & Studying
 - **Series:** Power Hour (Tokyo penthouse focus marathon)
-- **Format:** Long-form, **2H total**, Pomodoro structure: **50 min focus / 10 min break × 2 cycles** (50/10/50/10)
-- **Aesthetic:** Tokyo penthouse + rain on glass + MacBook (code editor) + **NEW signature: 砂時計 sunadokei hourglass on the desk** (Power Hour locked signature object — per CLAUDE.md)
-- **Outcome owned:** focused work / Pomodoro / coding / studying — distinct from the Sound Bath (deep sleep) and Tokyo Rain/Snowfall Marathon
+- **Format:** Long-form, **2H total**, classic Pomodoro: **25 min focus / 5 min break × 4 cycles** (25/5 ×4)
+- **Aesthetic:** Tokyo penthouse + rain on glass + MacBook (code editor) + **signature: 砂時計 sunadokei hourglass on the desk** (Power Hour locked signature object — per CLAUDE.md)
+- **Outcome owned:** focused work / classic Pomodoro / coding / studying — distinct from the Sound Bath (deep sleep) and Tokyo Rain/Snowfall Marathon
 - **Status:** 📝 script ready — awaiting Suno (full album) + NanoBanana + Flow + CapCut assembly
 - **Upload date:** TBD
 
-> **Why Pomodoro:** VidIQ data — `pomodoro` 1,148,495 searches/mo (comp 37), `study with me pomodoro` 90,367 (comp 25), `25 minute pomodoro` 7,598 (comp 12). Massive volume + low-competition long-tails. Plus **functional repeat-use** — viewers run it on every work session. Title score 79.
+> **Why Pomodoro 25/5:** VidIQ — `pomodoro` 1,148,495/mo (comp 37), `study with me pomodoro` 90,367 (comp 25), and the GOLDEN long-tail **`25 minute pomodoro` 7,598/mo at competition 12**. 25/5 is the classic Pomodoro (Cirillo's original) — exactly what searchers expect. Functional repeat-use (viewers run it on every work session). Title score 79.
 
 ---
 
@@ -106,12 +106,16 @@ For seamless rain & ambience loops, use the rotate-and-crossfade method (documen
 
 | Time | Phase | Label on overlay |
 |------|-------|------------------|
-| 0:00 → 50:00 | FOCUS 1 | `FOCUS  50:00 → 00:00` |
-| 50:00 → 1:00:00 | BREAK 1 | `BREAK  10:00 → 00:00` |
-| 1:00:00 → 1:50:00 | FOCUS 2 | `FOCUS  50:00 → 00:00` |
-| 1:50:00 → 2:00:00 | BREAK 2 | `BREAK  10:00 → 00:00` |
+| 0:00 → 25:00 | FOCUS 1 | `FOCUS  25:00 → 00:00` |
+| 25:00 → 30:00 | BREAK 1 | `BREAK  05:00 → 00:00` |
+| 30:00 → 55:00 | FOCUS 2 | `FOCUS  25:00 → 00:00` |
+| 55:00 → 1:00:00 | BREAK 2 | `BREAK  05:00 → 00:00` |
+| 1:00:00 → 1:25:00 | FOCUS 3 | `FOCUS  25:00 → 00:00` |
+| 1:25:00 → 1:30:00 | BREAK 3 | `BREAK  05:00 → 00:00` |
+| 1:30:00 → 1:55:00 | FOCUS 4 | `FOCUS  25:00 → 00:00` |
+| 1:55:00 → 2:00:00 | BREAK 4 | `BREAK  05:00 → 00:00` |
 
-**At each phase switch (50:00, 1:00:00, 1:50:00):** a single soft Japanese temple bell hit (the audio cue), mixed in the rain/bell overlay track. The bell is the user's signal to switch tasks.
+**At each phase switch (25:00, 30:00, 55:00, 1:00:00, 1:25:00, 1:30:00, 1:55:00):** a single soft Japanese temple bell hit (audio cue), mixed in the bell overlay track. The bell is the viewer's signal to switch tasks.
 
 **Digital timer overlay (CapCut text):**
 - **Position:** **upper-center**, ~5% from top (clear of the busy desk + clear of any lower-left brand text)
@@ -122,40 +126,44 @@ For seamless rain & ambience loops, use the rotate-and-crossfade method (documen
 - **Size:** label ~24px, countdown ~64px @ 1080p
 - **No glow, no shadow, no box.** Minimal, calm, never demands attention.
 
-> CapCut: use the **Timer / Text + keyframes** feature for the countdown (set start text "50:00", end text "00:00", keyframe interpolation) — repeat for each phase. OR use a manual text track with periodic updates every minute (rougher but works).
+> CapCut: use the **Timer / Text + keyframes** feature for the countdown (set start text "25:00" for FOCUS, "05:00" for BREAK, end text "00:00", keyframe interpolation) — repeat for each of the 8 phases. OR a manual text track with periodic updates every minute.
 
 ---
 
 ## 7. 📝 YouTube Title
 
 ```
-Pomodoro Study With Me — Deep Focus Music | Tokyo Rain 50/10 for Coding & Studying
+Pomodoro Study With Me — Deep Focus Music | Tokyo Rain 25/5 for Coding & Studying
 ```
 
-(82 chars, VidIQ score 79. Front-loads `Pomodoro Study With Me` — pomodoro 1.1M + study with me 3.4M; `Deep Focus Music` = the genre; `Tokyo Rain 50/10 for Coding & Studying` = brand + format + use case.)
+(82 chars, VidIQ score 79. Front-loads `Pomodoro Study With Me` — pomodoro 1.1M + study with me 3.4M; `Deep Focus Music` = the genre; `Tokyo Rain 25/5 for Coding & Studying` = brand + format + use case.)
 
 ## 8. 📝 YouTube Description (copy-paste ready)
 
 ```
-Two hours of focused work, Pomodoro style — 50 minutes deep work, 10 minutes break, twice.
+Two hours of focused work, classic Pomodoro — 25 minutes deep work, 5 minutes break, four times. The original Cirillo Pomodoro, the one that actually works.
 
-High above the neon glow of Tokyo, with rain on the glass and the slow fall of sand in the hourglass, this 2-hour Pomodoro session is built to anchor you for two full focus blocks. A soft temple bell marks each transition. No talking, no climaxes — just the warm pulse of the city below the music, the rain, and your work in front of you.
+High above the neon glow of Tokyo, with rain on the glass and the slow fall of sand in the hourglass, this 2-hour Pomodoro session is built to carry you through four full focus blocks. A soft Japanese temple bell marks every transition. No talking, no climaxes — just the warm pulse of the city below the music, the rain, and your work in front of you.
 
 Built for:
 • Coding, writing, studying, deep work
-• 50/10 Pomodoro technique (×2 cycles)
+• Classic 25/5 Pomodoro technique (×4 cycles)
 • Study-with-me sessions
-• Long focused work blocks with breaks built in
+• Structured deep work with breaks built in
 • Anyone who wants to sit down and just go
 
 🕰️ The Hourglass
 The sand falling in the Japanese hourglass (砂時計 sunadokei) is the recurring symbol of every Power Hour session — one turn, one focus block, time well spent.
 
-🍅 Pomodoro 50/10
+🍅 Pomodoro 25/5 schedule
 0:00 — FOCUS 1 starts
-50:00 — BREAK 1 (10 min)
-1:00:00 — FOCUS 2 starts
-1:50:00 — BREAK 2 (10 min)
+25:00 — BREAK 1 (5 min)
+30:00 — FOCUS 2 starts
+55:00 — BREAK 2 (5 min)
+1:00:00 — FOCUS 3 starts
+1:25:00 — BREAK 3 (5 min)
+1:30:00 — FOCUS 4 starts
+1:55:00 — BREAK 4 (5 min)
 2:00:00 — done
 
 🎵 Tracklist
@@ -172,7 +180,7 @@ The sand falling in the Japanese hourglass (砂時計 sunadokei) is the recurrin
 ## 9. 🏷️ Tags (Karena 20/20/40-50, 401 chars / 22)
 
 ```
-stillwave, stillwave pomodoro, tokyo rain pomodoro, stillwave focus music, pomodoro, study with me, deep focus music, focus music, pomodoro music, study music, work music, concentration music, pomodoro 50 10, 2 hour pomodoro, pomodoro deep focus music, study with me pomodoro, tokyo rain study music, pomodoro music for coding, pomodoro timer 2 hours, deep work pomodoro, focus playlist, lofi pomodoro
+stillwave, stillwave pomodoro, tokyo rain pomodoro, stillwave focus music, pomodoro, study with me, deep focus music, focus music, pomodoro music, study music, work music, concentration music, pomodoro 25 5, 2 hour pomodoro, pomodoro deep focus music, study with me pomodoro, tokyo rain study music, pomodoro music for coding, pomodoro timer 2 hours, deep work pomodoro, focus playlist, lofi pomodoro
 ```
 
 ## 10. # Hashtags
@@ -190,7 +198,7 @@ stillwave, stillwave pomodoro, tokyo rain pomodoro, stillwave focus music, pomod
 ## 11. 📌 Pinned comment
 
 ```
-🍅 Two cycles, 50/10. What are you working on tonight? Drop one word — coding, writing, studying, building — and tap 👍 if the rain helped you stay in the chair.
+🍅 Four cycles, classic 25/5. What are you working on tonight? Drop one word — coding, writing, studying, building — and tap 👍 if the rain helped you stay in the chair.
 ```
 
 (Engagement question + soft like nudge — BrainCatAI lesson, aim ≥3% like rate.)
@@ -198,7 +206,7 @@ stillwave, stillwave pomodoro, tokyo rain pomodoro, stillwave focus music, pomod
 ## 12. 🔁 A/B title variant
 
 ```
-2 Hour Pomodoro Deep Focus Music — Tokyo Rain Study With Me | 50/10 for Coding
+2 Hour Pomodoro Deep Focus Music — Tokyo Rain Study With Me | 25/5 for Coding
 ```
 
 ---
@@ -208,7 +216,7 @@ stillwave, stillwave pomodoro, tokyo rain pomodoro, stillwave focus music, pomod
 The NanoBanana 16:9 IS the thumbnail (hourglass + MacBook + rain + fireplace + neon city). Canva overlay in the **lower-left** over the dark cedar floor:
 
 - **Text:** `POMODORO`
-- **Tag below:** `50/10 · 2H`
+- **Tag below:** `25/5 · 2H`
 - Thin elegant serif, cream `#F5EAD2` (Power Hour default — no gold here, no divine theme), low contrast, no glow/shadow/stroke.
 - The image is generated with the lower-left reserved as dark negative space.
 - Final: `assets/power-hour-pomodoro-tokyo-rain-thumb.jpg` (after generation + compositing)
@@ -219,24 +227,24 @@ The NanoBanana 16:9 IS the thumbnail (hourglass + MacBook + rain + fireplace + n
 
 > Same file = both formats (project rule). Figure-8 does NOT apply to 9:16 — text upper/center, bottom = Shorts UI.
 
-**Cover (9:16):** vertical Tokyo penthouse + hourglass + rain. Cover text upper-third: `POMODORO 50/10` (cream serif). To make later: `assets/power-hour-pomodoro-shorts-cover.jpg`.
+**Cover (9:16):** vertical Tokyo penthouse + hourglass + rain. Cover text upper-third: `POMODORO 25/5` (cream serif). To make later: `assets/power-hour-pomodoro-shorts-cover.jpg`.
 
 **9:16 visual:** see section 4. **Flow 9:16 loop:** rain + hourglass sand falling + laptop cursor + fireplace flame (15–30 sec seamless).
 
 **Text hook (0–2s, upper/center):**
 ```
-Need to focus for 50 minutes?
-→ Pomodoro Deep Focus. Tokyo Rain. 50/10.
+Can you focus for 25 minutes?
+→ Classic Pomodoro. Tokyo Rain. 25/5 × 4.
 ```
 
 **Shorts Title (no hashtags):**
 ```
-50 Min Pomodoro Deep Focus 🍅
+25 Min Pomodoro Deep Focus 🍅
 ```
 
 **Description (+ link after long-form is published):**
 ```
-Two hours of Pomodoro deep focus — 50/10/50/10, Tokyo Rain edition. The hourglass sand falls, the temple bell marks each break. Built for coding, studying, and the kind of work that needs you to just sit down and go.
+Two hours of classic Pomodoro deep focus — 25/5 × 4 cycles, Tokyo Rain edition. The hourglass sand falls, the temple bell marks each break. Built for coding, studying, and the kind of work that needs you to just sit down and go.
 
 ▶ Full 2H Pomodoro session: [paste long-form link after upload]
 
@@ -247,14 +255,14 @@ Subscribe to StillWave for new Power Hour focus sessions every week.
 
 **Tags:**
 ```
-pomodoro, study with me, deep focus music, focus music, pomodoro music, tokyo rain, coding music, study music, 50 minute pomodoro, pomodoro 50 10, pomodoro timer, stillwave, deep work, work music, concentration music
+pomodoro, study with me, deep focus music, focus music, pomodoro music, tokyo rain, coding music, study music, 25 minute pomodoro, pomodoro 25 5, classic pomodoro, pomodoro timer, stillwave, deep work, work music
 ```
 
 **Hashtags (top-3):** `#shorts #pomodoro #studywithme`
 
 **Pinned comment:**
 ```
-🍅 50 minutes. One pomodoro. What are you about to focus on? Drop one word — and tap 👍 if you're starting now.
+🍅 25 minutes. One pomodoro. What are you about to focus on? Drop one word — and tap 👍 if you're starting now.
 ```
 
 > Upload: Not for kids = Yes (Made for kids = No) · link Short → long-form via Related video (Karena #6).
