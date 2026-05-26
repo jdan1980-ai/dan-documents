@@ -74,7 +74,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 
 | Дата | День | Тема | Slug | vidIQ | Статус |
 |------|------|------|------|-------|--------|
-| **26 мая (сегодня)** | **Вт** | TBD — выбираем между `cat-years-to-human-years` (не проверен) и `why-cats-wag-their-tails` (62.59 / 5,400 cached YELLOW) | TBD | TBD | ✍️ ждём решения |
+| **26 мая (сегодня)** | **Вт** | **The World's Oldest Cat Lived 38 YEARS — Her Owner's Secret** (Creme Puff / Jake Perry, mind-blow record) | `worlds-oldest-cat` | "oldest cat ever" **64.94 / 8,562 / comp 25.7** (YELLOW-GREEN, pivot из RED cat-years 25.84/0) | ✅ скрипт+промты готовы → производство |
 | 27 мая | Ср | Why Your Cat Hates When You Leave | `why-cats-hate-being-left-alone` | TBD — нужна vidIQ-проверка | ✍️ нужен скрипт |
 | 28 мая | Чт | _Из кэша: jealousy (59.01 / 5,156) / dehydration / angry / wag-tails (если не на 26) / hate-water (60.88) / meow-at-humans (60.70)_ | TBD | YELLOW кэш | ✍️ нужен скрипт |
 
@@ -128,7 +128,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `why-cats-follow-bathroom` | 17 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
 | `why-cats-stare-at-you` | 15 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (double-publish жертва) |
 | `your-cat-sees-you-as-giant-cat` | 15 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
-| **NEXT — нужно решить** | 26 мая | — | — | — | — | — | — |
+| `worlds-oldest-cat` | 26 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ (в производстве) |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 
