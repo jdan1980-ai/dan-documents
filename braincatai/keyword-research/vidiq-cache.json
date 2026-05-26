@@ -3,15 +3,16 @@
     "purpose": "Cache of vidIQ API responses (keyword research, outliers, breakout channels, channel videos) to avoid burning paid credits on repeat queries. Cat psychology niche keywords stay relevant ~30-60 days. Refresh entries older than 60 days only if you suspect drift.",
     "schema_version": "1.1",
     "created": "2026-05-17",
-    "last_updated": "2026-05-23",
-    "total_credits_spent": 205,
+    "last_updated": "2026-05-26",
+    "total_credits_spent": 210,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
       "2026-05-19: +5 credits — keyword_research 'signs your cat doesn't love you' = GREEN 67.55 / 14,333 monthly. Related '5 signs your cat doesn't love you' 66.67 / 26,837 monthly. Script approved.",
       "2026-05-20: +25 credits — 5× keyword_research (May 22-24 lineup review + killer-topic + williamcat candidates). BEST FIND: 'things cats love' 59.93/14,709 + listicle form (williamcat 5.6M proof). Killer topic viable via 'cat hunting' 64.91/15,883. Hugs + home-alone = search-dead (CTR-only). Balance after: 1870 total (1298 renewable + 572 addon).",
       "2026-05-22: +15 credits — 3× keyword_research on user-submitted ideas. WINNER: cat dehydration viable via 'signs of dehydration in cats' 68.67/4,919/comp-11. cat jealousy YELLOW 59.01/5,156. signs-cat-angry RED (no searchable keyword).",
-      "2026-05-23: +5 credits — 'what cats can sense' seed RED but WINNER related 'why cats stare at nothing' 64.93/6,733/comp-23.4 (spooky senses hook, killer-formula fit). cat vision 64.20/9,246. Pivoted senses topic to 'why cats stare at nothing'."
+      "2026-05-23: +5 credits — 'what cats can sense' seed RED but WINNER related 'why cats stare at nothing' 64.93/6,733/comp-23.4 (spooky senses hook, killer-formula fit). cat vision 64.20/9,246. Pivoted senses topic to 'why cats stare at nothing'.",
+      "2026-05-26: +5 credits — 'cat years to human years' seed RED 25.84 / 0 monthly. PIVOT WINNER: related 'oldest cat ever' 64.94 / 8,562 monthly / comp 25.7 — strongest single-fact angle available right now (above wag-tails 62.59 and everything in cache). 'senior cat care' 61.00/3,272 also viable. Decision: pivot 26 May to oldest-cat-ever."
     ]
   },
   "queries": [
@@ -454,6 +455,29 @@
       ],
       "verdict": "YELLOW-GREEN ⭐ via 'why cats stare at nothing' 64.93 / 6,733 / competition 23.4 (low). Seed RED but this related keyword is BOTH searchable AND a spooky hook — perfect killer-formula (predator/mind-blow) fit.",
       "notes": "Topic pivoted: senses bundle → 'Why Your Cat Stares at Nothing (It Senses This)'. Slug why-cats-stare-at-nothing. NOT a dupe of why-cats-stare-at-you (that's staring at the owner; this is staring at empty space/sensing the invisible). Use killer formula."
+    },
+    {
+      "keyword": "cat years to human years",
+      "fetched": "2026-05-26",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": 35.4,
+        "overall": 25.84,
+        "monthly": 0
+      },
+      "top_related": [
+        { "keyword": "cat facts", "overall": 69.30, "monthly": 77354 },
+        { "keyword": "cat lovers", "overall": 66.66, "monthly": 40435 },
+        { "keyword": "understanding cats", "overall": 64.83, "monthly": 21005 },
+        { "keyword": "oldest cat ever", "overall": 64.94, "monthly": 8562 },
+        { "keyword": "senior cat care", "overall": 61.00, "monthly": 3272 },
+        { "keyword": "happy cats", "overall": 59.54, "monthly": 3721 },
+        { "keyword": "taking care of cats", "overall": 59.60, "monthly": 6267 },
+        { "keyword": "cat age", "overall": 56.15, "monthly": 4540 }
+      ],
+      "verdict": "RED seed (25.84 / 0 monthly). PIVOT WINNER: related 'oldest cat ever' YELLOW-GREEN 64.94 / 8,562 / comp 25.7 — strongest single-fact angle currently available (higher than wag-tails 62.59 and all cached YELLOWs). 'senior cat care' 61.00/3,272 is a softer alternative.",
+      "notes": "DO NOT script cat-years-to-human-years (chart format = zero search). Pivot 26 May slot to 'World's Oldest Cat Ever' / Creme Puff 38 years — single-fact format like stretch, plus mind-blow record. Slug: `oldest-cat-ever` or `worlds-oldest-cat`. Channel-wide tag `cat facts mind blowing` 73.8 still applies."
     }
   ],
   "non_keyword_calls": [
