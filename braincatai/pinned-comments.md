@@ -231,6 +231,12 @@ ok mine does the stare-at-the-empty-corner thing at like 2am and it freaks me ou
 ok wait 38?? mine just turned 14 and i thought that was already crazy old 😭 how old is yours and would you actually try giving your cat coffee lol
 ```
 
+### 37. Your TV Looks BROKEN to Your Cat (27 мая) — Cat Facts / Vision
+
+```
+wait so my cat actually thinks my tv is broken?? 😭 mine literally walks right past it every time lol. does yours watch tv or completely ignore it
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы

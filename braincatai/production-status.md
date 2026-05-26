@@ -76,8 +76,8 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | Дата | День | Тема | Slug | vidIQ | Статус |
 |------|------|------|------|-------|--------|
 | **26 мая** | **Вт** | **This Cat Lived 38 Years — Her Owner's Strange Secret** (Creme Puff / Jake Perry, mind-blow record) | `worlds-oldest-cat` | "oldest cat ever" **64.94 / 8,562 / comp 25.7** (YELLOW-GREEN, pivot из RED cat-years 25.84/0) | ✅ опубликован 26 мая (2 просм, свежий) |
-| 27 мая | Ср | Why Your Cat Hates When You Leave | `why-cats-hate-being-left-alone` | TBD — нужна vidIQ-проверка | ✍️ нужен скрипт |
-| 28 мая | Чт | _Из кэша: jealousy (59.01 / 5,156) / dehydration / angry / wag-tails (если не на 26) / hate-water (60.88) / meow-at-humans (60.70)_ | TBD | YELLOW кэш | ✍️ нужен скрипт |
+| 27 мая | Ср | **Your TV Looks BROKEN to Your Cat** (vision / flicker-fusion mind-blow) | `your-cat-sees-your-tv` | "cat vision" **64.20 / 9,246 / cached** (pivot из RED night-vision + separation-anxiety YELLOW 55.70) | ✅ скрипт+промты готовы → производство |
+| 28 мая | Чт | _Из кэша: jealousy (59.01 / 5,156) / wag-tails (62.59 / 5,400) / hate-water (60.88 / 3,659) / meow-at-humans (60.70 / 3,685)_ | TBD | YELLOW кэш | ✍️ нужен скрипт |
 
 **Бэклог YELLOW (cached, available):**
 - `why-cats-wag-their-tails` 62.59 / 5,400 — лучший AVAILABLE в кэше
@@ -130,6 +130,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `why-cats-stare-at-you` | 15 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (double-publish жертва) |
 | `your-cat-sees-you-as-giant-cat` | 15 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
 | `worlds-oldest-cat` | 26 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
+| `your-cat-sees-your-tv` | 27 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 
