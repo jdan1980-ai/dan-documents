@@ -337,18 +337,30 @@ cat facts, cat psychology, cat behavior, cat secrets, cat science, brain cat, br
 #shorts #catfacts #catfactsmindblowing #braincatai #catvision #catpsychology #catbehavior #petfacts
 ```
 
-**🖼️ Thumbnail (Nano Banana 2):**
+**🖼️ Thumbnail (Nano Banana 2 — применяет формулу 5 Signs: лицо 60%, dilated глаза, видимый hook-объект, желтая плита):**
 ```
-Extreme close-up of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain, face filling ~50% of LEFT side of frame, tilted 3°, big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, white of the eye stays pure white, NEVER a fully-green eyeball. Eyes wide with puzzled-cute "what's wrong with it?" expression. Small thin round gold-framed glasses. Plain brown collar with ONE gold HEART tag "Brain". Soft orange tabby fur, ginger paws (no white socks), ginger tail to the tip, EXACTLY 2 ears, mouth closed in a slight worried frown. To the RIGHT of frame: a small retro cartoon TV with its screen showing visible STROBE-FLICKER stripes (clearly looking "broken"). Cozy living-room background heavily blurred, soft warm bokeh. High contrast, Brain rim-lit so he pops. Vertical 9:16. NOT photorealistic.
+EXTREME CLOSE-UP of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain — Brain's face fills ~60% of the LEFT-CENTER of frame, slight 3° tilt for energy. Big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. EYES WIDE AND DILATED in a STRONG "what the heck?!" puzzled-disturbed reaction — pupils visibly enlarged, locked DIRECTLY into the viewer with intense confusion, eyebrows raised. Ears perked sharply UP and forward (alert/alarmed, NOT flat). Mouth closed in a tight slightly-frowning line. Small thin round gold-framed glasses sitting just slightly low on his nose. Plain brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the tip, EXACTLY 2 ears, EXACTLY 4 paws. Pixar/Disney 3D ANIMATED CARTOON style (stylized smooth cartoon shading, NOT photorealistic, NOT a real cat). Vertical 9:16.
 
-TEXT PLATE (lower third, ALL CAPS, BOLD ROUNDED SANS Fredoka One/Nunito Bold, Electric Yellow #FFD23F fill, thick charcoal outline, drop-shadow, 2-3° tilt):
-"YOUR TV IS BROKEN?!"
+HOOK ELEMENT (lower-RIGHT of frame, ~25% area): a small retro cartoon TELEVISION (cream/wood-grain body, simple rounded screen) with its screen showing visibly BROKEN-LOOKING horizontal STROBE-FLICKER stripes (bright/dark bands like a strobing lightbulb). Small red "?" or "⚡" sparking from the top of the TV to amplify the "broken" cue.
+
+BACKGROUND: cozy living room HEAVILY BLURRED with warm honey-amber bokeh — sage-green rug + cream armchair faintly visible but soft DOF. Brain is rim-lit so he POPS off the background. High contrast.
+
+TEXT PLATE (bottom 25% of frame, centered, slight 2-3° tilt, 2 lines, ALL CAPS, BOLD ROUNDED GEOMETRIC SANS-SERIF Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, solid charcoal #2B2B2B outline 5px, soft black drop-shadow 4px 30% opacity). Lines:
+LINE 1: "YOUR TV IS"
+LINE 2: "BROKEN?! 🤯"
+
+TYPOGRAPHY LOCK (strict — same font on every BrainCatAI thumbnail): BOLD ROUNDED GEOMETRIC SANS-SERIF — soft rounded terminals, single font family across both lines, NO serifs, NO brush-script, NO Comic Sans, NO Papyrus, NO Impact.
+
+EYE COLOR RULE (strict): Each eye = LARGE PURE WHITE sclera with medium round EMERALD-GREEN iris (#3DDC84) and black pupil — only the small iris is green, sclera stays white, NEVER a fully-green eyeball, NEVER green sclera.
+ANATOMY RULE (strict): EXACTLY 4 paws AND EXACTLY 2 EARS. NO 5th paw, NO phantom 3rd ear, NO extra fur tuft.
+STYLE RULE (strict): Pixar/Disney 3D ANIMATED CARTOON. NOT photorealistic, NOT a real cat.
+LANGUAGE RULE (strict): All on-screen text in ENGLISH only. NO Russian text, NO Cyrillic.
 ```
 **Thumbnail negatives:**
 ```
-photorealistic, real cat, blue eyes, amber eyes, green sclera, green eye-whites, fully green eyes, white paws, round tag, missing glasses, calm boring face, low contrast, bright TV background, mouth open as if talking, scary, gore, serif font, Comic Sans, Russian text, Cyrillic, watermark, second cat
+2D flat, anime, photorealistic, real cat, photoreal, hyperrealistic, multiple cats, second cat, low quality, blurry, cluttered background, calm boring face, low contrast, neutral expression, bright TV background, blue eyes, amber eyes, brown eyes, green sclera, green eye-whites, fully green eyes, green-tinted eyeballs, white paws, white socks, white tail tip, round tag, blank tag, missing glasses, missing collar, ears flat backward, ears slammed down, mouth open as if talking, scary, gore, serif font, hand-drawn text, brush-script, Comic Sans, Papyrus, Impact, gradient text, neon text, multiple fonts, mixed typography, Russian text, Cyrillic letters, watermark, logo
 ```
-> A/B-альтернативы: «WHY HE IGNORES TV» / «BROKEN TO YOUR CAT»
+> A/B-альтернативы для текста: `WHY HE IGNORES IT 🤯` / `IT'S NOT WORKING 🤯` / `BROKEN TO YOUR CAT`
 
 ---
 

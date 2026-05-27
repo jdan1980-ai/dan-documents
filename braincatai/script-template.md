@@ -473,24 +473,35 @@ Video-specific (5–10 long-tail тегов под именно это виде�
 
 > 
 
-**🖼️ Промт для тумбнейла** (Nano Banana — channel-locked шрифт, копи-паст):
+**🖼️ Промт для тумбнейла** (Nano Banana 2 — применяет **«5 Signs» формулу** = текущий лучший CTR на канале):
+
+> **Формула 5 Signs (locked 27 мая 2026):** лицо 60% кадра + dilated emerald глаза в зрителя + ОДИН видимый hook-объект + желтая plate (2 строки caps) + emoji-маркер эмоции + слабый tilt 2-4°. Эмоция меняется под тему (cold/awe/wow/confused/warm-smug), всё остальное — постоянно.
 
 ```
-Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar/Disney 3D ANIMATED CARTOON style (stylized smooth cartoon shading, big cartoon eyes — like a Pixar movie frame, NOT photorealistic, NOT a real cat, NOT realistic fur), warm cozy lighting, vertical 9:16 thumbnail composition.
+EXTREME CLOSE-UP of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain — face fills ~60% of frame, slight 2-4° tilt for energy. Big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. EYES WIDE AND DILATED locked DIRECTLY into the viewer with [EMOTION — pick one: COLD INTENSE GLARE / WIDE AWE / SHOCKED "WHAT?!" / SMUG KNOWING / WARM LOVING SLOW-BLINK]. Ears [POSE — pick one: perked sharply UP and forward / slammed flat backward / relaxed neutral]. Mouth closed in [tense flat line / soft smile / confused frown]. Small thin round gold-framed glasses ALWAYS on. Plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the tip, EXACTLY 2 ears, EXACTLY 4 paws. Pixar/Disney 3D ANIMATED CARTOON style (stylized smooth cartoon shading, NOT photorealistic, NOT a real cat). Vertical 9:16.
 
-THUMBNAIL FRAMING: Brain face fills ~60% of frame, slight tilt 2-4°, expressive [SHOCK / WOW / SMUG / WINK] reaction. Background soft warm bokeh of [LOCATION], heavy depth-of-field. Small [ICON / ARROW / SOUND-WAVE / THOUGHT-BUBBLE] callout near Brain's [EAR / EYE / PAW] pointing to the hook beat.
+HOOK ELEMENT (~20-25% of frame, lower-RIGHT or upper-LEFT, NOT covering face): [ONE concrete object that visualizes the hook — e.g. broken TV showing strobe / human hand recoiling / giant number "38" / cartoon thought-bubble / glowing icon / sparking lightbulb]. The hook element should READ in 0.5s at thumbnail size.
 
-TEXT PLATE (bottom 25% of frame, centered): 2 lines max, ALL CAPS, Electric Yellow #FFD23F fill with solid charcoal #2B2B2B outline 5px, soft black drop-shadow 4px y-offset 30% opacity. Slight 2-3° tilt. Lines:
-LINE 1: "[HOOK WORD]"
-LINE 2: "[PAYOFF WORD] [🐱 / 👂 / 💚]"
+BACKGROUND: cozy living room HEAVILY BLURRED with warm honey-amber bokeh (sage rug + cream armchair faintly visible but heavy DOF). Brain is rim-lit so he POPS off the background. High contrast.
 
-TYPOGRAPHY LOCK (strict — same font in every thumbnail across this channel): Rendered in BOLD ROUNDED GEOMETRIC SANS-SERIF font (Nunito Bold / Fredoka One / Bangers — soft rounded terminals, NO serifs, NO brush-script, NO hand-drawn, NO Comic Sans, NO Papyrus, NO Impact). Single font family across both lines. NEVER mix fonts.
+TEXT PLATE (bottom 25% of frame, centered, slight 2-3° tilt, 2 lines, ALL CAPS, BOLD ROUNDED GEOMETRIC SANS-SERIF Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, solid charcoal #2B2B2B outline 5px, soft black drop-shadow 4px 30% opacity). Lines:
+LINE 1: "[HOOK WORD / NUMBER]"
+LINE 2: "[PAYOFF + EMOJI 💔/🤯/💚/❓]"
 
-EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil. ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball.
+TYPOGRAPHY LOCK (strict — same font on every BrainCatAI thumbnail): single font family, soft rounded terminals, NO serifs, NO brush-script, NO Comic Sans, NO Papyrus, NO Impact.
+
+EYE COLOR RULE (strict): Each eye = LARGE PURE WHITE sclera with medium round EMERALD-GREEN iris (#3DDC84) and black pupil — only the small iris is green, sclera stays pure white, NEVER a fully-green eyeball, NEVER green sclera.
 ANATOMY RULE (strict): EXACTLY 4 paws AND EXACTLY 2 EARS. NO 5th paw, NO phantom 3rd ear, NO extra fur tuft.
-STYLE RULE (strict): Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat.
-LANGUAGE RULE (strict): All on-screen text in ENGLISH only. NO Russian text, NO Cyrillic letters.
+STYLE RULE (strict): Pixar/Disney 3D ANIMATED CARTOON. NOT photorealistic, NOT a real cat.
+LANGUAGE RULE (strict): All on-screen text in ENGLISH only. NO Russian text, NO Cyrillic.
 ```
+
+> **Шпаргалка по эмоции под тип темы:**
+> - **Негатив-зеркало** (Signs You're Not Loved, 5 Worst Things You Do) → COLD INTENSE GLARE + ears flat back + 💔
+> - **Mind-blow факт** (Oldest Cat, TV Broken) → SHOCKED "WHAT?!" wide eyes + ears UP + 🤯
+> - **Predator/record** (Killing Machine) → SMUG KNOWING + ears UP + small fang/shadow hook
+> - **Тёплый reveal** (Stretch = Trust) → WARM LOVING SLOW-BLINK + ears relaxed + 💚
+> - **Спук/загадка** (Stares at Nothing) → WIDE STARING OFF-FRAME + dilated pupils + ❓
 
 **Negative prompts (Nano Banana — thumbnail):**
 
