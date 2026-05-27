@@ -476,7 +476,7 @@ Video-specific (5–10 long-tail тегов под именно это виде�
 **🖼️ Промт для тумбнейла** (Nano Banana — channel-locked шрифт, копи-паст):
 
 ```
-Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar 3D render style, cinematic lighting, 4K, vertical 9:16 thumbnail composition.
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera, small thin round gold-framed glasses, brown leather collar with gold heart-shaped tag engraved "Brain", soft fluffy orange fur with darker tabby stripes, pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar/Disney 3D ANIMATED CARTOON style (stylized smooth cartoon shading, big cartoon eyes — like a Pixar movie frame, NOT photorealistic, NOT a real cat, NOT realistic fur), warm cozy lighting, vertical 9:16 thumbnail composition.
 
 THUMBNAIL FRAMING: Brain face fills ~60% of frame, slight tilt 2-4°, expressive [SHOCK / WOW / SMUG / WINK] reaction. Background soft warm bokeh of [LOCATION], heavy depth-of-field. Small [ICON / ARROW / SOUND-WAVE / THOUGHT-BUBBLE] callout near Brain's [EAR / EYE / PAW] pointing to the hook beat.
 
@@ -486,15 +486,16 @@ LINE 2: "[PAYOFF WORD] [🐱 / 👂 / 💚]"
 
 TYPOGRAPHY LOCK (strict — same font in every thumbnail across this channel): Rendered in BOLD ROUNDED GEOMETRIC SANS-SERIF font (Nunito Bold / Fredoka One / Bangers — soft rounded terminals, NO serifs, NO brush-script, NO hand-drawn, NO Comic Sans, NO Papyrus, NO Impact). Single font family across both lines. NEVER mix fonts.
 
-EYE COLOR RULE (strict): BRIGHT EMERALD GREEN (#3DDC84). NOT brown, NOT amber.
+EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil. ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball.
 ANATOMY RULE (strict): EXACTLY 4 paws AND EXACTLY 2 EARS. NO 5th paw, NO phantom 3rd ear, NO extra fur tuft.
+STYLE RULE (strict): Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat.
 LANGUAGE RULE (strict): All on-screen text in ENGLISH only. NO Russian text, NO Cyrillic letters.
 ```
 
 **Negative prompts (Nano Banana — thumbnail):**
 
 ```
-2D flat, anime, photorealistic cat, multiple cats, low quality, blurry, cluttered background, busy background, distorted face, extra limbs, extra paws, five legs, three ears, extra ear, phantom ear, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, yellow eyes, hazel eyes, mouth open as if talking, talking cat, serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, gradient text, neon text, metallic text, multiple fonts, mixed typography, sharp serifs on text, calligraphy, Russian text, Cyrillic letters, ugly, scary, watermark, logo
+2D flat, anime, photorealistic cat, real cat, photoreal, hyperrealistic, multiple cats, second cat, low quality, blurry, cluttered background, busy background, distorted face, extra limbs, extra paws, five legs, three ears, extra ear, phantom ear, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, yellow eyes, hazel eyes, green sclera, green eye-whites, fully green eyes, green-tinted eyeballs, white paws, white socks, white tail tip, round tag, blank tag, mouth open as if talking, talking cat, serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, gradient text, neon text, metallic text, multiple fonts, mixed typography, sharp serifs on text, calligraphy, Russian text, Cyrillic letters, ugly, scary, watermark, logo
 ```
 
 ---
