@@ -51,7 +51,7 @@ The original "528 Hz Japanese Zen Music Marathon Vol. 1" (`-1RE1P98_u8`) stalled
 |-----|------|-------|----|----|--------|-----------|-------|
 | Sound Bath (moved out) | 2026-05-14, rebrand 05-21 | 528 Hz Deep Sleep Music \| Tokyo Sound Bath for Anxiety Relief & Healing (`-1RE1P98_u8`) | 528 | Photoreal penthouse → DEEP CALM | ✅ rebrand applied | **56, stalled** | Rebrand of a stalled video barely moved it. Lesson: reviving a stalled video ≈ doesn't work. |
 | **1** | **2026-05-21** | **528 Hz Healing Frequency \| Stop Overthinking** (`po4jmYdX2_w`) | 528 | Ghibli Kyoto garden, QUIET MIND | ✅ **published 05-21 (fresh upload)** | **🔥 118 views in ~19h, VPH peak 23, sustained 4–8** | Best start on the channel. Validates Ghibli + keyword title + correct cluster. On pace vs 852 Hz (268 by day 5). Real read at day 7 (05-28). |
-| 2 (internal) | TBD | 963 Hz Frequency of God \| Pineal Gland Activation for Spiritual Awakening | 963 | Ghibli Mount Koya night, cosmic indigo, AWAKEN | 📝 script ✅ — Suno/image/Flow ⏳ | — | `healing-hour-vol-2-963hz-mount-koya.md`. "Frequency of God" breakout pattern (9k ch → 268k). Outcome = Spiritual Awakening (distinct). Title score 71. Aim: beat Vol.1 start, like-rate ≥3%. |
+| **2** | **2026-05-26** | **963 Hz Frequency of God \| Pineal Gland Activation for Spiritual Awakening** (`pwnoQYJjgOo`) | 963 | Ghibli Mount Koya night, gold AWAKEN, stone lantern, intro 天地一如 | ✅ **published 05-26** | tracking | "Frequency of God" breakout pattern (9k channel → 268k). New outcome (Spiritual Awakening). Gold-text + ishidoro signature + Tenchi Ichinyo intro per locked rules. Shorts cross-promo same day. Real read at day 7 (06-02). |
 
 ### 🏆 Key lesson (2026-05-22) — fresh upload >> rebrand of a stalled video
 
