@@ -50,8 +50,14 @@ The original "528 Hz Japanese Zen Music Marathon Vol. 1" (`-1RE1P98_u8`) stalled
 | Vol | Date | Title | Hz | Visual | Status | Early data | Notes |
 |-----|------|-------|----|----|--------|-----------|-------|
 | Sound Bath (moved out) | 2026-05-14, rebrand 05-21 | 528 Hz Deep Sleep Music \| Tokyo Sound Bath for Anxiety Relief & Healing (`-1RE1P98_u8`) | 528 | Photoreal penthouse → DEEP CALM | ✅ rebrand applied | **56, stalled** | Rebrand of a stalled video barely moved it. Lesson: reviving a stalled video ≈ doesn't work. |
-| **1** | **2026-05-21** | **528 Hz Healing Frequency \| Stop Overthinking** (`po4jmYdX2_w`) | 528 | Ghibli Kyoto garden, QUIET MIND | ✅ **published 05-21 (fresh upload)** | **🔥 118 views in ~19h, VPH peak 23, sustained 4–8** | Best start on the channel. Validates Ghibli + keyword title + correct cluster. On pace vs 852 Hz (268 by day 5). Real read at day 7 (05-28). |
-| **2** | **2026-05-26** | **963 Hz Frequency of God \| Pineal Gland Activation for Spiritual Awakening** (`pwnoQYJjgOo`) | 963 | Ghibli Mount Koya night, gold AWAKEN, stone lantern, intro 天地一如 | ✅ **published 05-26** | tracking | "Frequency of God" breakout pattern (9k channel → 268k). New outcome (Spiritual Awakening). Gold-text + ishidoro signature + Tenchi Ichinyo intro per locked rules. Shorts cross-promo same day. Real read at day 7 (06-02). |
+| **1** | **2026-05-21** | **528 Hz Healing Frequency \| Stop Overthinking** (`po4jmYdX2_w`) | 528 | Ghibli Kyoto garden, QUIET MIND | ✅ **published 05-21** | D1=64 · D2=137 🔥 · D3=147 · D4=150 · D5=156 · **D6=157** · likes 4 · like-rate 2.5% · comments 1 | Strong D1-D2 burst (137 by D2 = best D2 on channel), then **HARD PLATEAU from D3** (+20 only across D3-D6). Algo push spent quickly. Like-rate below 3% threshold. Diagnosis: thumbnail/title pulled the click, follow-through/retention/recommend signals didn't sustain. Compare 852 Hz Monks' Secret: 4 → 268 by D5 (sustained climb). |
+| **2** | **2026-05-26** | **963 Hz Frequency of God \| Pineal Gland Activation for Spiritual Awakening** (`pwnoQYJjgOo`) | 963 | Ghibli Mount Koya night, gold AWAKEN, stone lantern, intro 天地一如 | ✅ **published 05-26** | **D1 ≈ 400 views** (channel +432 on 05-26 vs ~+15-20 baseline) = **×6 stronger Day-1 than Kyoto** 🔥 | "Frequency of God" mystery framing + gold thumb + cosmic Ghibli HITTING harder than "Stop Overthinking" + cream. Validates the mystery-frame hypothesis. Shorts cross-promo 05-27. Watch D2-D3 (05-28 / 05-29) for sustain — if it doesn't plateau like Kyoto, lock the mystery template. |
+
+### Channel-level signal (2026-05-19 → 2026-05-27)
+
+- Subs: **38 → 48 (+10 in 6 days)** — channel was stuck at 38 for 11 consecutive days before Vol. 1 launched. Healing Hour relaunch broke the stall.
+- Views: 4573 → 5302 (+729). Biggest single-day jump: **+432 on 05-26 (963 launch day)** — best day in channel history.
+- Conclusion: the Healing Hour Ghibli + keyword-front-loaded titles are the validated growth lever.
 
 ### 🏆 Key lesson (2026-05-22) — fresh upload >> rebrand of a stalled video
 
