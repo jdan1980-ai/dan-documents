@@ -21,7 +21,7 @@ The single source of truth for the channel's visual, audio, and editorial style.
 - **Species:** Cute orange tabby kitten
 - **Body:** Round, plush kitten proportions — large head, small body
 - **Fur:** Soft fluffy orange with **darker tabby stripes**, pink nose, long white whiskers
-- **Paws:** All 4 paws are the **SAME orange ginger** as the body — **NEVER white paws, NEVER white socks/mittens/toes** (the AI keeps adding white socks — must be locked out)
+- **Paws:** All 4 paws — **both FRONT and both BACK** — are the **SAME orange ginger** as the body — **NEVER white paws, NEVER white socks/mittens/toes, NEVER white BACK paws** (the AI keeps adding white socks, ESPECIALLY on the back paws/legs — must be locked out and called out per-scene)
 - **Tail:** Orange ginger tabby with darker stripes **all the way to the tip** — **NEVER a white tail tip**
 - **Eyes:** Big, round, **sparkling green**, glossy highlights — main acting tool
 - **Glasses:** Small, thin, round, **gold-framed** — **always on Brain, in every single shot** (the AI drops them through the AI keeps removing them — hard-lock)
@@ -393,9 +393,9 @@ round gold-framed glasses (ALWAYS on, every shot), a plain smooth brown
 leather collar (smooth band, NO studs, NO spikes, NO metal plates, NO front
 buckle) with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart
 shape — NOT round, NOT blank; identical every scene), soft fluffy orange
-fur with darker tabby stripes, ALL 4 PAWS the SAME orange ginger tabby
+fur with darker tabby stripes, ALL 4 PAWS — both FRONT and both BACK — the SAME orange ginger tabby
 color as the body (NO white paws, NO white socks, NO white mittens, NO
-white toes), tail orange ginger tabby to the very tip (NO white tail tip),
+white toes, NO white BACK paws), tail orange ginger tabby to the very tip (NO white tail tip),
 pink nose, long white whiskers, EXACTLY 2 EARS
 (one left, one right — both pointed perky triangle kitten ears,
 perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped
@@ -434,7 +434,7 @@ multiple cats, two cats, second cat, extra cat, wild cat,
 low quality, blurry, distorted face, extra limbs, extra paws,
 five legs, six legs, both front paws raised, two paws raised together,
 missing glasses, glasses removed, missing collar, missing heart tag, watermark,
-white paws, white socks, white mittens, white toes, white feet, white-tipped paws,
+white paws, white socks, white mittens, white toes, white feet, white-tipped paws, white back paws, white hind paws, white back feet, white socks on back legs,
 text in image, logo, ugly, scary, aggressive expression,
 mouth open as if talking, lip-sync, talking cat,
 mouth movement, chattering,
@@ -529,7 +529,7 @@ When writing a location block, lock:
 - [ ] **Floor** — material + tone (e.g. "warm honey-amber wooden floorboards")
 - [ ] **Walls** — color (e.g. "soft cream-painted walls")
 - [ ] **Main furniture** — type, color, position (e.g. "cream linen armchair on the RIGHT with a folded amber knit throw")
-- [ ] **Rug** — exact color, weave, pattern (e.g. "plain sage-green woven rug, NO pattern, in the center")
+- [ ] **Rug** — LOCKED: ONE plain SOLID sage-green woven rug, NO pattern, NO border, NO fringe, simple rectangular shape (solid + simple = easiest to generate consistently, fewest errors). Write it identically in every scene that shows the floor.
 - [ ] **Window** — type, position, light direction (e.g. "tall window on the LEFT with sheer linen curtains, soft warm afternoon daylight from the left")
 - [ ] **Plant(s)** — species + count + position (e.g. "ONE leafy snake plant — Sansevieria — with 5-7 upright sword-shaped dark-green leaves with lighter variegated stripes, beside the window")
 - [ ] **Side props** — type + count + position (e.g. "ONE small wooden side-table on the LEFT holding ONE brass desk lamp (OFF) and ONE small open book lying face-down")
@@ -542,7 +542,7 @@ If a prop is NOT mentioned in the locked block, it must NOT appear in any scene'
 ### Example — properly locked location
 
 ```
-INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: plain sage-green woven rug (no pattern, no border) in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (OFF, lampshade cream-colored) and ONE small open book lying face-down beside the lamp. WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains letting in soft warm afternoon daylight from the upper-right. PLANT: ONE leafy snake plant (Sansevieria) with 5–7 upright sword-shaped dark-green leaves with lighter variegated cream-green stripes, positioned in a small terracotta pot BESIDE the window on the floor. NO other plants. NO wall art (clean cream wall behind). LIGHTING: soft warm honey-amber ambient with daylight bloom from the window. Cozy lived-in atmosphere, shallow depth of field — armchair and window slightly soft-focus.
+INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: ONE plain SOLID sage-green woven rug — solid sage-green color, NO pattern, NO border, NO fringe, simple rectangular shape (locked simple = fewest generation errors + stays consistent across scenes) — in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (OFF, lampshade cream-colored) and ONE small open book lying face-down beside the lamp. WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains letting in soft warm afternoon daylight from the upper-right. PLANT: ONE leafy snake plant (Sansevieria) with 5–7 upright sword-shaped dark-green leaves with lighter variegated cream-green stripes, positioned in a small terracotta pot BESIDE the window on the floor. NO other plants. NO wall art (clean cream wall behind). LIGHTING: soft warm honey-amber ambient with daylight bloom from the window. Cozy lived-in atmosphere, shallow depth of field — armchair and window slightly soft-focus.
 ```
 
 ### What to do in each image prompt
