@@ -117,9 +117,9 @@ For seamless rain & ambience loops, use the rotate-and-crossfade method (documen
 
 **At each phase switch (25:00, 30:00, 55:00, 1:00:00, 1:25:00, 1:30:00, 1:55:00):** a single soft Japanese temple bell / gong hit (audio cue), mixed in the bell overlay track. The bell is the viewer's signal to switch tasks.
 
-### 🔒 Transition signature — "music breathing" (LOCKED, no digital timer)
+### 🔒 Transition signature — "music breathing" (LOCKED)
 
-**No on-screen countdown.** The structure is carried entirely by the **audio fade around each gong** + the in-scene hourglass + the title. This keeps CapCut light (zero keyframe text clips on a 2H timeline) and reads as a classic bell-based Pomodoro.
+The structure is carried by the **audio fade around each gong** + the **live digital timer overlay** + the in-scene hourglass + the title.
 
 The music **breathes** around every gong, with asymmetric fades that match the psychology of each switch:
 
@@ -130,7 +130,16 @@ The music **breathes** around every gong, with asymmetric fades that match the p
 
 CapCut: on the music track, add volume keyframes — drop to ~15–20% (not full silence, the pad keeps breathing under the gong) across the fade-down window, gong lands at the trough, then ramp back to 100% over the 10-sec rise. Only ~7 pairs of volume keyframes across the whole 2H = trivial load.
 
-**Optional intro card only:** one text card `🍅 POMODORO · 25/5 · 4 cycles` in the first 5–8 sec, then fade out → pure scene. No other on-screen text.
+### 🔒 Live timer overlay — PRE-RENDERED (LOCKED, drop-on-top, no CapCut keyframes)
+
+The countdown is a genuine tool — viewers work *by* it, which drives returns. To keep CapCut light on a slow machine, the timer is **NOT** built with CapCut text keyframes (CapCut can't interpolate numeric text → would need manual per-minute edits). Instead it's delivered as **pre-rendered transparent overlay clips** the editor just drops on the top track:
+
+- **Files (in `assets/`):** `timer-focus-25min.webm` (FOCUS `25:00 → 00:00`) and `timer-break-05min.webm` (BREAK `05:00 → 00:00`). VP9 + alpha, full 1920×1080 frame.
+- **Usage:** drop `timer-focus-25min.webm` at 0:00, 30:00, 1:00:00, 1:30:00 (the 4 FOCUS blocks); drop `timer-break-05min.webm` at 25:00, 55:00, 1:25:00, 1:55:00 (the 4 BREAK blocks). Already positioned upper-center — no moving, no scaling.
+- **Look:** cream `#F5EAD2`, locked Liberation Serif, fixed-width digit cells (no wobble), no box/shadow/glow. Sits over the dark top-window zone, never on the hourglass.
+- **Why this way:** one clip = zero keyframes for CapCut to compute → smooth on a weak PC; reusable across every future Power Hour Pomodoro video.
+
+**Optional intro card only:** one text card `🍅 POMODORO · 25/5 · 4 cycles` in the first 5–8 sec, then fade out.
 
 ---
 
