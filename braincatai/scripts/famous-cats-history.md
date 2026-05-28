@@ -286,15 +286,16 @@ Warm adventurous "hall of fame" cat-facts score for a 56-second YouTube Short "F
 - Виньетки держать ПРОСТЫМИ (один яркий реквизит + чистый фон) — меньше дрифта и читаемо на телефоне
 - Тон wholesome, без опасности (Сэм — без тонущих кораблей; космос — дружелюбный)
 
-## 📌 Pinned comment (человеческий тон)
+## 📌 Pinned comment (человеческий тон + ask на стендалоны)
 🇬🇧:
 ```
-ok the space cat broke my brain i had no idea 😭 which one surprised you most? i'm still not over a cat being a literal mayor for 20 years lol
+honestly the space cat broke my brain, i had no idea 😭 i wanna do a full video on one of these — which cat do you wanna know everything about?
 ```
 🇷🇺:
 ```
-кот в космосе сломал мне мозг я вообще не знал 😭 кто удивил больше всех? я до сих пор не отойду что кот реально был мэром 20 лет лол
+кот в космосе реально сломал мне мозг, я вообще не знал 😭 хочу сделать целое видео про одного из них — про кого рассказать подробно?
 ```
+> Этот закреп = деманд-сигнал: аудитория голосует, какой стендалон делать первым (Фелисетт / Ларри / Стаббс / Сэм).
 
 ## SEO Pack
 
