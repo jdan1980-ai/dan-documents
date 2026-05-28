@@ -490,7 +490,7 @@ HOOK ELEMENT (~20-25% of frame, lower-RIGHT or upper-LEFT, NOT covering face): [
 
 BACKGROUND: cozy living room HEAVILY BLURRED with warm honey-amber bokeh (sage rug + cream armchair faintly visible but heavy DOF). Brain is rim-lit so he POPS off the background. High contrast.
 
-TEXT PLATE (bottom 25% of frame, centered, slight 2-3° tilt, 2 lines, ALL CAPS, BOLD ROUNDED GEOMETRIC SANS-SERIF Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, solid charcoal #2B2B2B outline 5px, soft black drop-shadow 4px 30% opacity). Lines:
+TEXT PLATE (BIG and BOLD, positioned in the LOWER-MIDDLE of the frame at roughly 55-70% height — raised well CLEAR of the very bottom edge so it is NOT cut off by the phone UI / duration badge. Text is LARGE, filling ~85-90% of the frame width, easily readable on a small phone screen. 2 lines, ALL CAPS, slight 2-3° tilt, BOLD ROUNDED GEOMETRIC SANS-SERIF Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, solid charcoal #2B2B2B outline 6px, soft black drop-shadow). Lines:
 LINE 1: "[HOOK WORD / NUMBER]"
 LINE 2: "[PAYOFF + EMOJI 💔/🤯/💚/❓]"
 

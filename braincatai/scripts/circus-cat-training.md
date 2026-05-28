@@ -352,7 +352,7 @@ HOOK ELEMENT (lower-RIGHT, ~22% area): a small cute cartoon circus pedestal unde
 
 BACKGROUND: warm cozy bokeh (soft red-velvet + golden stage-light glow) HEAVILY BLURRED, heavy DOF. Brain rim-lit so he POPS. High contrast.
 
-TEXT PLATE (bottom 25% of frame, centered, slight 2-3° tilt, 2 lines, ALL CAPS, BOLD ROUNDED GEOMETRIC SANS-SERIF Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, solid charcoal #2B2B2B outline 5px, soft drop-shadow). Lines:
+TEXT PLATE (BIG and BOLD, positioned in the LOWER-MIDDLE of the frame at roughly 55-70% height — raised well CLEAR of the very bottom edge so it is NOT cut off by the phone UI / duration badge. The text is LARGE, filling ~85-90% of the frame width, easily readable on a small phone screen. 2 lines, ALL CAPS, slight 2-3° tilt, BOLD ROUNDED GEOMETRIC SANS-SERIF Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, solid charcoal #2B2B2B outline 6px, soft drop-shadow). Lines:
 LINE 1: "CATS CAN BE"
 LINE 2: "TRAINED?! 🤯"
 
