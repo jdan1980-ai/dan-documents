@@ -104,29 +104,33 @@ For seamless rain & ambience loops, use the rotate-and-crossfade method (documen
 
 **Cycle structure (2H total):**
 
-| Time | Phase | Label on overlay |
-|------|-------|------------------|
-| 0:00 → 25:00 | FOCUS 1 | `FOCUS  25:00 → 00:00` |
-| 25:00 → 30:00 | BREAK 1 | `BREAK  05:00 → 00:00` |
-| 30:00 → 55:00 | FOCUS 2 | `FOCUS  25:00 → 00:00` |
-| 55:00 → 1:00:00 | BREAK 2 | `BREAK  05:00 → 00:00` |
-| 1:00:00 → 1:25:00 | FOCUS 3 | `FOCUS  25:00 → 00:00` |
-| 1:25:00 → 1:30:00 | BREAK 3 | `BREAK  05:00 → 00:00` |
-| 1:30:00 → 1:55:00 | FOCUS 4 | `FOCUS  25:00 → 00:00` |
-| 1:55:00 → 2:00:00 | BREAK 4 | `BREAK  05:00 → 00:00` |
+| Time | Phase | Gong at | Fade pattern |
+|------|-------|---------|--------------|
+| 0:00 → 25:00 | FOCUS 1 | 25:00 | down 50s → 🔔 → up 10s |
+| 25:00 → 30:00 | BREAK 1 | 30:00 | down 10s → 🔔 → up 10s |
+| 30:00 → 55:00 | FOCUS 2 | 55:00 | down 50s → 🔔 → up 10s |
+| 55:00 → 1:00:00 | BREAK 2 | 1:00:00 | down 10s → 🔔 → up 10s |
+| 1:00:00 → 1:25:00 | FOCUS 3 | 1:25:00 | down 50s → 🔔 → up 10s |
+| 1:25:00 → 1:30:00 | BREAK 3 | 1:30:00 | down 10s → 🔔 → up 10s |
+| 1:30:00 → 1:55:00 | FOCUS 4 | 1:55:00 | down 50s → 🔔 → up 10s |
+| 1:55:00 → 2:00:00 | BREAK 4 | (2:00:00 end / fade out) | down 50s → end |
 
-**At each phase switch (25:00, 30:00, 55:00, 1:00:00, 1:25:00, 1:30:00, 1:55:00):** a single soft Japanese temple bell hit (audio cue), mixed in the bell overlay track. The bell is the viewer's signal to switch tasks.
+**At each phase switch (25:00, 30:00, 55:00, 1:00:00, 1:25:00, 1:30:00, 1:55:00):** a single soft Japanese temple bell / gong hit (audio cue), mixed in the bell overlay track. The bell is the viewer's signal to switch tasks.
 
-**Digital timer overlay (CapCut text):**
-- **Position:** **upper-center**, ~5% from top (clear of the busy desk + clear of any lower-left brand text)
-- **Label:** `FOCUS` or `BREAK` (small caps) above the countdown
-- **Countdown:** `MM:SS` counting down to 00:00, then resets at phase switch
-- **Color:** cream `#F5EAD2` (channel default text color)
-- **Font:** the locked elegant serif (one font across the channel)
-- **Size:** label ~24px, countdown ~64px @ 1080p
-- **No glow, no shadow, no box.** Minimal, calm, never demands attention.
+### 🔒 Transition signature — "music breathing" (LOCKED, no digital timer)
 
-> CapCut: use the **Timer / Text + keyframes** feature for the countdown (set start text "25:00" for FOCUS, "05:00" for BREAK, end text "00:00", keyframe interpolation) — repeat for each of the 8 phases. OR a manual text track with periodic updates every minute.
+**No on-screen countdown.** The structure is carried entirely by the **audio fade around each gong** + the in-scene hourglass + the title. This keeps CapCut light (zero keyframe text clips on a 2H timeline) and reads as a classic bell-based Pomodoro.
+
+The music **breathes** around every gong, with asymmetric fades that match the psychology of each switch:
+
+| Switch | Fade DOWN before gong | 🔔 | Fade UP after gong | Why |
+|--------|----------------------|----|--------------------| ----|
+| **FOCUS → BREAK** (25:00, 55:00, 1:25:00, 1:55:00) | **50 sec** slow taper | gong | **10 sec** rise | long taper lets the brain *release* the task before the break |
+| **BREAK → FOCUS** (30:00, 1:00:00, 1:30:00) | **10 sec** quick dip | gong | **10 sec** rise | short dip = fast respawn back into deep work |
+
+CapCut: on the music track, add volume keyframes — drop to ~15–20% (not full silence, the pad keeps breathing under the gong) across the fade-down window, gong lands at the trough, then ramp back to 100% over the 10-sec rise. Only ~7 pairs of volume keyframes across the whole 2H = trivial load.
+
+**Optional intro card only:** one text card `🍅 POMODORO · 25/5 · 4 cycles` in the first 5–8 sec, then fade out → pure scene. No other on-screen text.
 
 ---
 
