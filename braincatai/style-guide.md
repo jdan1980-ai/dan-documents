@@ -390,7 +390,7 @@ black pupil in the center; ONLY the small iris is colored green, the white
 of the eye stays pure white, NEVER a fully-green eyeball, NEVER green
 sclera (iris NOT brown, NOT amber, NOT yellow, NOT hazel), small thin
 round gold-framed glasses (ALWAYS on, every shot), a plain smooth brown
-leather collar (NO studs, NO spikes, NO metal plates, NO holes, NO front
+leather collar (smooth band, NO studs, NO spikes, NO metal plates, NO front
 buckle) with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart
 shape — NOT round, NOT blank; identical every scene), soft fluffy orange
 fur with darker tabby stripes, ALL 4 PAWS the SAME orange ginger tabby
