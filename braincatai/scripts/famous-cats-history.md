@@ -1,6 +1,6 @@
 # Script — A Cat Went to SPACE?! 5 Famous Cats Who Made History 🐱 | Cat Facts
 
-**Формула:** killer-листикл (mind-blow records) + warm close. Brain = ведущий и «играет» каждого знаменитого кота (костюм + подпись) — реальных котов НЕ показываем (канал = один анимированный Brain).
+**Формула:** killer-листикл (mind-blow records) + warm close. **Brain = рассказчик** (голос + host-сцены 1/7/8); каждый знаменитый кот = свой **Pixar-двойник**, показан один раз (НЕ Brain, свой окрас, без очков/ошейника). Двойники — стилизованные оригиналы, НЕ фотокопии → копирайт-чисто.
 **Пайплайн (LOCKED):** image в **Nano Banana 2** → анимация в **Kling 3.0 (image-to-video)** → оверлеи/цифры/текст + сборка в **CapCut** → VO **Google Vids TTS**. Статичные сцены — Ken Burns.
 
 ---
@@ -43,8 +43,11 @@ Preserve the input image exactly — same kitten, same anatomy, glasses, eyes (l
 ## 🔢 LOCKED numeral/text style (CapCut)
 Цифры «1–5» и подписи имён — в CapCut одним залоченным стилем: Fredoka One / Nunito Bold, Electric Yellow #FFD23F, charcoal outline, drop-shadow.
 
-## 👕 Костюм-правило
-Каждый костюм НЕ закрывает ошейник — оставляем коричневый ошейник с золотым сердечком «Brain» видимым у выреза. Костюм = один яркий узнаваемый элемент (шлем / бескозырка / фуражка / и т.д.).
+## 🎭 Формат (важно)
+**Brain = рассказчик** (его голос во всех VO + он в кадре только в обёрточных сценах: Sc 1 хук, Sc 7 твист, Sc 8 CTA). **Каждый знаменитый кот = свой Pixar-двойник, показан ОДИН раз** в своей виньетке (Sc 2-6). Двойники — ДРУГИЕ коты, НЕ Brain: без очков, без коричневого ошейника с сердечком, свой окрас (как у реального кота). Раз каждый кот в кадре один раз — кросс-сценовая консистентность не нужна, дрифт не проблема. Стилизованные оригиналы (НЕ фотокопии) → копирайт-чисто.
+
+## 👕 Двойник-правило
+Каждый кот-двойник: cute Pixar 3D, БЕЗ очков, БЕЗ ошейника-сердечка (это не Brain), свой окрас + один яркий реквизит роли (шлем / бескозырка / фуражка / сашка мэра). Один кот в кадре. Brain в этих сценах НЕ появляется (он голос за кадром).
 
 ---
 
@@ -127,11 +130,11 @@ Some cats are more famous than movie stars. One flew to space, another survived 
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain" (NOT round, NOT a disc) — collar clearly visible at the neckline. Soft fluffy orange tabby fur, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws), tail ginger to the tip, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed, awe expression. COSTUME: a cute cartoon white-and-cream astronaut helmet with a clear round visor (pushed up so his face + glasses are fully visible), and a tiny cartoon space-suit collar — the brown collar with heart tag still visible beneath. SETTING: a charming stylized outer-space backdrop — deep blue starry space, a few soft cartoon stars and a small planet in the distance, gentle nebula glow. Brain floats gently weightless, looking around in wonder. Clean simple composition. Vertical 9:16.
+A cute Pixar/Disney 3D ANIMATED CARTOON cat — this is a DIFFERENT cat from Brain (NOT ginger, NO glasses, NO collar, NO heart tag): a BLACK-AND-WHITE TUXEDO kitten (white muzzle, chest and paws, black back and head — like the real Félicette), big round friendly Pixar eyes with white sclera and warm amber irises, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed, gentle awe expression. NOT photorealistic, NOT a real cat. COSTUME: a cute white-and-cream cartoon astronaut helmet with a clear round visor (pushed up so the face is visible) and a little space-suit. SETTING: a charming stylized outer-space backdrop — deep blue starry space, a few soft cartoon stars and a small planet in the distance, gentle nebula glow. The tuxedo cat floats gently weightless, looking around in wonder. ONE cat only in frame. Clean simple composition. Vertical 9:16.
 ```
 **🎬 Kling (image-to-video):**
 ```
-Brain floats gently weightless in space, slowly drifting, looking around in wide-eyed wonder, the stars twinkle and the small planet drifts behind him. Slow push-in. Preserve the input image exactly — same kitten, same anatomy, glasses, eyes (large white sclera with small emerald iris), collar + heart tag, ginger paws and tail, astronaut helmet costume, Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Mouth closed. Vertical 9:16.
+The tuxedo cat floats gently weightless in space, slowly drifting, looking around in wide-eyed wonder, the stars twinkle and the small planet drifts behind. Slow push-in. Preserve the input image exactly — same cat, same tuxedo markings, same astronaut helmet, Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Mouth closed. Vertical 9:16.
 ```
 **🎙️ VO (EN):**
 ```
@@ -150,11 +153,11 @@ Number one — Félicette. In 1963, France launched her into space. She's the on
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain" (NOT round, NOT a disc) — collar clearly visible. Soft fluffy orange tabby fur, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws), tail ginger to the tip, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed, calm brave expression. COSTUME: a cute little white sailor's cap (round naval cap) on his head — the brown collar with heart tag still visible at the neck. SETTING: standing on the wooden deck of a charming cartoon ship, calm blue sea and soft sky behind, a ship's railing and a small lifebuoy ring nearby, a couple of gentle waves. Wholesome, brave, NOT scary, NO sinking, NO danger shown. Vertical 9:16.
+A cute Pixar/Disney 3D ANIMATED CARTOON cat — this is a DIFFERENT cat from Brain (NO glasses, NO collar, NO heart tag): a BLACK-AND-WHITE bicolor cat (mostly black with a white chest, white muzzle and white paws — like the real "Unsinkable Sam"), big round friendly Pixar eyes with white sclera and warm golden irises, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed, calm brave expression. NOT photorealistic, NOT a real cat. COSTUME: a cute little white sailor's cap (round naval cap) on his head. SETTING: standing on the wooden deck of a charming cartoon ship, calm blue sea and soft sky behind, a ship's railing and a small lifebuoy ring nearby, a couple of gentle waves. Wholesome, brave, NOT scary, NO sinking, NO danger shown. ONE cat only in frame. Vertical 9:16.
 ```
 **🎬 Kling (image-to-video):**
 ```
-Brain stands steady on the ship deck, the sea gently sways behind him, his sailor cap and whiskers move slightly in the breeze, a calm confident look. Gentle push-in. Preserve the input image exactly — same kitten, same anatomy, glasses, eyes (large white sclera with small emerald iris), collar + heart tag, ginger paws and tail, sailor cap costume, Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Mouth closed. Vertical 9:16.
+The black-and-white cat stands steady on the ship deck, the sea gently sways behind, his sailor cap and whiskers move slightly in the breeze, a calm confident look. Gentle push-in. Preserve the input image exactly — same cat, same black-and-white markings, same sailor cap, Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Mouth closed. Vertical 9:16.
 ```
 **🎙️ VO (EN):**
 ```
@@ -173,11 +176,11 @@ Number two — Unsinkable Sam. He survived not one, not two, but three ships sin
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain" (NOT round, NOT a disc) — collar clearly visible. Soft fluffy orange tabby fur, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws), tail ginger to the tip, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed, proud dutiful expression. COSTUME: a cute black-and-gold station master's peaked cap on his head — the brown collar with heart tag still visible. SETTING: sitting proudly on a small wooden platform of a charming cartoon Japanese countryside train station, a cute little train and a station sign softly blurred behind, warm daylight. Wholesome. Vertical 9:16.
+A cute Pixar/Disney 3D ANIMATED CARTOON cat — this is a DIFFERENT cat from Brain (NO glasses, NO collar, NO heart tag): a CALICO cat (patched white, orange and black calico/tortoiseshell coat — like the real Tama), big round friendly Pixar eyes with white sclera and warm amber irises, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed, proud dutiful expression. NOT photorealistic, NOT a real cat. COSTUME: a cute black-and-gold station master's peaked cap on her head. SETTING: sitting proudly on a small wooden platform of a charming cartoon Japanese countryside train station, a cute little train and a station sign softly blurred behind, warm daylight. Wholesome. ONE cat only in frame. Vertical 9:16.
 ```
 **🎬 Kling (image-to-video):**
 ```
-Brain sits proudly at his station post, gives a small dutiful head-lift, ears perk, the little train softly puffs behind him. Gentle push-in. Preserve the input image exactly — same kitten, same anatomy, glasses, eyes (large white sclera with small emerald iris), collar + heart tag, ginger paws and tail, station master cap costume, Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Mouth closed. Vertical 9:16.
+The calico cat sits proudly at her station post, gives a small dutiful head-lift, ears perk, the little train softly puffs behind. Gentle push-in. Preserve the input image exactly — same cat, same calico patches, same station master cap, Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Mouth closed. Vertical 9:16.
 ```
 **🎙️ VO (EN):**
 ```
@@ -196,11 +199,11 @@ Number three — Tama. This little cat became a train station master in Japan, a
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain" (NOT round, NOT a disc) — collar clearly visible. Soft fluffy orange tabby fur, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws), tail ginger to the tip, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed, proud official expression. SETTING: Brain sits proudly in front of a famous glossy black government front door with a brass "10" numeral and a brass letterbox (clearly the British Prime Minister's residence look), a small brass plaque beside him. NO costume needed (he's the resident cat). Warm dignified daylight. Vertical 9:16.
+A cute Pixar/Disney 3D ANIMATED CARTOON cat — this is a DIFFERENT cat from Brain (NO glasses, NO collar, NO heart tag): a WHITE-AND-BROWN-TABBY cat (white chest, muzzle and paws with brown/grey tabby patches on back and head — like the real Larry), big round friendly Pixar eyes with white sclera and warm green-amber irises, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed, proud official expression. NOT photorealistic, NOT a real cat. SETTING: the cat sits proudly in front of a famous glossy black government front door with a brass "10" numeral and a brass letterbox (clearly the British Prime Minister's residence look), a small brass plaque beside him. Warm dignified daylight. ONE cat only in frame. Vertical 9:16.
 ```
 **🎬 Kling (image-to-video):**
 ```
-Brain sits proudly by the black "10" door, gives a confident little chin-up and a slow blink, tail curling proudly. Gentle push-in. Preserve the input image exactly — same kitten, same anatomy, glasses, eyes (large white sclera with small emerald iris), collar + heart tag, ginger paws and tail, Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Mouth closed. Vertical 9:16.
+The white-and-brown-tabby cat sits proudly by the black "10" door, gives a confident little chin-up and a slow blink, tail curling proudly. Gentle push-in. Preserve the input image exactly — same cat, same white-and-brown-tabby markings, Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Mouth closed. Vertical 9:16.
 ```
 **🎙️ VO (EN):**
 ```
@@ -219,11 +222,11 @@ Number four — Larry. He lives at the British Prime Minister's house with an of
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain" (NOT round, NOT a disc) — collar clearly visible. Soft fluffy orange tabby fur, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws), tail ginger to the tip, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed, important proud smile-expression. COSTUME: a cute red-and-gold ceremonial MAYOR sash across his chest with a small gold rosette badge — the brown collar with heart tag still visible above the sash. SETTING: sitting importantly on a small wooden podium in a cozy little cartoon town street with soft mountains behind (Alaskan small-town vibe), warm daylight. Wholesome. Vertical 9:16.
+A cute Pixar/Disney 3D ANIMATED CARTOON cat — this is a DIFFERENT cat from Brain (NO glasses, NO collar, NO heart tag): a fluffy ADULT ORANGE TABBY cat with a broad face and a white chest/muzzle (clearly an older, chunkier orange cat — NOT the slim kitten Brain — like the real Stubbs), big round friendly Pixar eyes with white sclera and warm golden irises, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed, important proud smile-expression. NOT photorealistic, NOT a real cat. COSTUME: a cute red-and-gold ceremonial MAYOR sash across his chest with a small gold rosette badge. SETTING: sitting importantly on a small wooden podium in a cozy little cartoon town street with soft mountains behind (Alaskan small-town vibe), warm daylight. Wholesome. ONE cat only in frame. Vertical 9:16.
 ```
 **🎬 Kling (image-to-video):**
 ```
-Brain sits importantly on the podium, lifts his chin proudly and gives a tiny dignified nod, the mayor sash catches the light, tail curled neatly. Gentle push-in. Preserve the input image exactly — same kitten, same anatomy, glasses, eyes (large white sclera with small emerald iris), collar + heart tag, ginger paws and tail, mayor sash costume, Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Mouth closed. Vertical 9:16.
+The fluffy orange tabby cat sits importantly on the podium, lifts his chin proudly and gives a tiny dignified nod, the mayor sash catches the light, tail curled neatly. Gentle push-in. Preserve the input image exactly — same cat, same fluffy orange markings and white chest, same mayor sash, Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Mouth closed. Vertical 9:16.
 ```
 **🎙️ VO (EN):**
 ```
@@ -339,9 +342,9 @@ famous cats, top 10 cats, famous cats in history, most famous cats, cat facts, c
 
 ## 🖼️ ТУМБНЕЙЛ (Nano Banana 2 — «5 Signs» формула: лицо 60%, dilated глаза, hook-объект, крупный поднятый текст)
 ```
-EXTREME CLOSE-UP of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain — face fills ~60% of the LEFT-CENTER of frame, slight 3° tilt. Big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. EYES WIDE AND DILATED with a SHOCKED-AMAZED "WHAT?!" look, locked into the viewer, eyebrows up. Ears perked sharply UP. Mouth closed in a small surprised "o". Small thin round gold-framed glasses. On his head: a cute cartoon astronaut helmet with a clear visor pushed up (signals "cat in space"). Plain brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur, ALL 4 paws ginger (front and back, no white socks), tail ginger to the tip, EXACTLY 2 ears. Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9:16.
+EXTREME CLOSE-UP of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain — face fills ~60% of the LEFT-CENTER of frame, slight 3° tilt. Big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. EYES WIDE AND DILATED with a SHOCKED-AMAZED "WHAT?!" look, locked into the viewer, eyebrows up. Ears perked sharply UP. Mouth closed in a small surprised "o". Small thin round gold-framed glasses ALWAYS on. Plain brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur, ALL 4 paws ginger (front and back, no white socks), tail ginger to the tip, EXACTLY 2 ears. This is Brain reacting (host) — Brain himself does NOT wear a helmet. Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9:16.
 
-HOOK ELEMENT (lower-RIGHT, ~22% area): a small cartoon rocket + a few gold stars / a tiny planet (signals "space") on a deep-blue starry corner.
+HOOK ELEMENT (lower-RIGHT, ~22% area): a small cute black-and-white tuxedo cat in a cartoon astronaut helmet floating among a few gold stars + a tiny rocket on a deep-blue starry corner (signals "a cat in space" — this is the famous-cat double, clearly a different cat from Brain).
 
 BACKGROUND: warm cozy bokeh blending into a soft starry-blue glow, HEAVILY BLURRED, heavy DOF. Brain rim-lit so he POPS. High contrast.
 
@@ -364,13 +367,14 @@ LANGUAGE RULE (strict): on-screen text ENGLISH only. NO Russian, NO Cyrillic.
 ---
 
 ## 🛑 Pre-flight
-- Все image-промты = Nano Banana 2, с полным Locked Brain (анатомия глаза, рыжие задние лапы, сердечко-кулон без слова "holes")
-- Kling = image-to-video, motion-only + preserve-suffix
-- **Костюмы НЕ закрывают ошейник** — сердечко «Brain» видно у выреза в каждой виньетке
-- Один Brain в кадре везде (никаких реальных/вторых котов) — негатив `second cat`
-- Цифры «1-5» + подписи имён — CapCut, залоченный шрифт
-- Виньетки простые (один реквизит + чистый фон) — меньше дрифта
-- Тон wholesome: космос дружелюбный, корабль БЕЗ тонущих сцен (негатив добавить при необходимости)
+- **Brain = только в Sc 1, 7, 8** (host) — там полный Locked Brain (анатомия глаза, рыжие задние лапы, сердечко-кулон, очки). В Sc 1/7 — простой sage-ковёр.
+- **Sc 2-6 = коты-двойники, НЕ Brain** — каждый свой окрас, БЕЗ очков, БЕЗ ошейника-сердечка, показан ОДИН раз. Кросс-сценовой консистентности не нужно (каждый кот в кадре единожды).
+- Двойники = стилизованные оригиналы (НЕ фотокопии реальных котов) → копирайт-чисто. Избегать бренд/мем-котов (Grumpy/Nala).
+- В каждой сцене — РОВНО ОДИН кот в кадре (в Sc 2-6 это двойник, Brain не появляется — он голос за кадром).
+- Kling = image-to-video, motion-only + preserve-suffix (для двойников: «same cat, same markings, same prop»).
+- Цифры «1-5» + подписи имён — CapCut, залоченный шрифт.
+- Виньетки простые (один реквизит + чистый фон) — меньше дрифта.
+- Тон wholesome: космос дружелюбный, корабль БЕЗ тонущих сцен.
 
 ## Метрики (сравнить с killer / TV / circus)
 | | 48ч | 7д |
