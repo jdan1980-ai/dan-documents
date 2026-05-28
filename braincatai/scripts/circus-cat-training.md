@@ -284,7 +284,7 @@ Subscribe and I'll show you the first trick you can teach your cat tonight.
 
 ## 🎵 Музыка (Suno)
 ```
-Warm playful circus-wonder score for a 56-second YouTube Short "Cats Can Be Trained — The Circus Secret". Open 0-7s bright curious circus-y sting (light pizzicato + soft brass + twinkle) on the spotlight reveal. Playful comedic 7-14s for the aloof "cat ignores command" beat. Building curious warmth 14-28s as the secret unfolds (light marimba, soft strings). Joyful bouncy 28-35s for the happy "he thinks he's playing" performance. Tender warm major-key swell 35-49s for the rescue/real-secret emotional payoff. Soft inviting close 49-56s. 100 BPM, no vocals, mood: playful circus → warm wholesome. NO creepy or dark circus tones. Royalty-free.
+Warm playful circus-wonder score for a 60-second YouTube Short "Cats Can Be Trained — The Circus Secret". Open 0-7s bright curious circus-y sting (light pizzicato + soft brass + twinkle) on the spotlight reveal. Playful comedic 7-15s for the aloof "cat ignores command" beat. Building curious warmth 15-30s as the secret unfolds (light marimba, soft strings). Joyful bouncy 30-38s for the happy "he thinks he's playing" performance. Tender warm major-key swell 38-52s for the rescue/real-secret emotional payoff. Soft inviting close 52-60s. 100 BPM, no vocals, mood: playful circus → warm wholesome. NO creepy or dark circus tones. Royalty-free.
 ```
 
 ## Сборка / монтаж

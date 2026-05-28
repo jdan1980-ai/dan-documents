@@ -279,7 +279,7 @@ Subscribe — the next famous cat might be sleeping on your couch.
 
 ## 🎵 Музыка (Suno)
 ```
-Warm adventurous "hall of fame" cat-facts score for a 56-second YouTube Short "Famous Cats Who Made History". Open 0-7s bright curious heroic sting (light orchestral + twinkle). Playful adventurous build 7-42s, each beat slightly different flavor (a touch of space shimmer, a sea-breeze lilt, a gentle Japanese koto note, a posh string flourish, a triumphant little fanfare) but cohesive. Warm proud major-key swell 42-49s for the "cats change the world" payoff. Soft inviting close 49-56s. 100 BPM, no vocals, mood: heroic-wholesome → warm. Royalty-free.
+Warm adventurous "hall of fame" cat-facts score for a 60-second YouTube Short "Famous Cats Who Made History". Open 0-7s bright curious heroic sting (light orchestral + twinkle). Playful adventurous build 7-44s, each beat slightly different flavor (a touch of space shimmer, a sea-breeze lilt, a gentle Japanese koto note, a posh string flourish, a triumphant little fanfare) but cohesive. Warm proud major-key swell 44-52s for the "cats change the world" payoff. Soft inviting close 52-60s. 100 BPM, no vocals, mood: heroic-wholesome → warm. Royalty-free.
 ```
 
 ## Сборка / монтаж
