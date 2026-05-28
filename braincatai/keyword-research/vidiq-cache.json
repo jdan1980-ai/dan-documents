@@ -4,7 +4,7 @@
     "schema_version": "1.1",
     "created": "2026-05-17",
     "last_updated": "2026-05-28",
-    "total_credits_spent": 260,
+    "total_credits_spent": 285,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
@@ -18,7 +18,8 @@
       "2026-05-28 (analytics): +5 credits — vidiq_channel_analytics on OWN channel (BrainCatAI is authorized to vidIQ account; vidiq_user_channels free confirmed it). Got owner retention/watch-time/subs by day 14-25 May. KEY: killer-machine 22 May = 324% avg-view % / 168s avg duration on ~58s short (~3x loops) — the recovery driver. 18 May RED-override = worst retention 26.1%. NOTE: thumbnail impressions/CTR NOT available via this API metric set — Studio only.",
       "2026-05-28 (traffic source): +5 credits — vidiq_channel_analytics by insightTrafficSourceType, 21-28 May. KEY FINDING: recovery is driven by YT_SEARCH (46 views / 68.2% retention) — GREEN-keyword strategy validated. Shorts FEED still small (11 views / 22.3% retention) = algo testing, not yet amplifying. Strategy: keep GREEN keywords (search works) + raise Shorts-feed retention via killer-formula + 3-sec hook to trigger the feed firehose.",
       "2026-05-28 (famous cats): +5 credits — user idea 'most famous cats in the world'. Seed 'famous cats' YELLOW 57.85/5,099. JACKPOT related: 'top 10 cats' 71.41/11,518/comp-12.4 (very low comp, beats killer). 'nala cat' 60.74/27,354 (huge single-cat search). 'famous internet cats' 60.87/4,531. PRODUCTION NOTE: animated Brain channel can't show real famous cats — reframe to story-driven 'famous cats who made history' (Felicette space cat, Unsinkable Sam, Larry, Tama stationmaster, Stubbs mayor) with Brain as host + stylized vignettes. Listicle format under 'top 10 cats' keyword.",
-      "2026-05-28 (famous-cats standalones): +15 credits — 3x keyword_research to test individual famous cats as standalones. Felicette: 'felicette' 64.32/7,448/comp-25.9 + 'felicette space cat' 63.19/5,285 = STRONGEST (YELLOW-GREEN, low comp). Larry: 'larry cat' 56.66/11,662/comp-49.4 (good volume but meme-heavy). Stubbs: 'cat mayor' 60.74/3,426/comp-27.3 (YELLOW, modest). Sam + Tama names = ~0 search (listicle-only / Sam = feed-CTR hook play). PLAN: listicle first (29 May), pinned comment asks which cat for a deep-dive (audience-vote demand signal), then spin off Felicette > Larry > Stubbs > Sam spaced among GREEN topics."
+      "2026-05-28 (famous-cats standalones): +15 credits — 3x keyword_research to test individual famous cats as standalones. Felicette: 'felicette' 64.32/7,448/comp-25.9 + 'felicette space cat' 63.19/5,285 = STRONGEST (YELLOW-GREEN, low comp). Larry: 'larry cat' 56.66/11,662/comp-49.4 (good volume but meme-heavy). Stubbs: 'cat mayor' 60.74/3,426/comp-27.3 (YELLOW, modest). Sam + Tama names = ~0 search (listicle-only / Sam = feed-CTR hook play). PLAN: listicle first (29 May), pinned comment asks which cat for a deep-dive (audience-vote demand signal), then spin off Felicette > Larry > Stubbs > Sam spaced among GREEN topics.",
+      "2026-05-28 (user 20-topic batch): triaged free vs cache/published (most were dupes/blocked: purr, slow-blink, ignore, knead, boxes, stare). +25 credits on 5 genuinely-new. JACKPOT 'cat sounds' 74.82/110,700/comp-25.9 (5 Cat Sounds listicle). GREEN 'cat trust signs' 67.10/13,321/comp-24.6 (Signs Your Cat Trusts You). YELLOW-GREEN 'cat body language' 61.89/47,568/comp-50. RED: 'why do cats hide their kittens' (no search), 'cats training their owners' (no own keyword + cannibalizes circus). Cached-available: cat jealousy 59.01/5,156, 'why does my cat bite me' 60.49/19,847 (love bites). Buff-cat-vs-kitten = off-format, skip."
     ]
   },
   "queries": [
@@ -1592,6 +1593,152 @@
       ],
       "verdict": "Seed RED 31.48/0. Standalone viable via 'cat mayor' 60.74/3,426/comp-27.3 (YELLOW, modest volume). 'weird history' 68/406k is a content-category angle.",
       "notes": "Stubbs standalone = YELLOW modest. Angle 'The Cat Who Was Mayor for 20 Years'. Lower priority than Felicette/Larry."
+    },
+    {
+      "keyword": "cat sounds and what they mean",
+      "fetched": "2026-05-28",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": 31.3,
+        "overall": 27.48,
+        "monthly": 0
+      },
+      "top_related": [
+        {
+          "keyword": "cat sounds",
+          "overall": 74.82,
+          "monthly": 110700,
+          "competition": 25.9
+        },
+        {
+          "keyword": "cats meowing",
+          "overall": 66.24,
+          "monthly": 105667
+        },
+        {
+          "keyword": "cat chattering",
+          "overall": 66.15,
+          "monthly": 4537,
+          "competition": 16.5
+        },
+        {
+          "keyword": "cat vocalizations",
+          "overall": 60.57,
+          "monthly": 4464
+        }
+      ],
+      "verdict": "Seed RED 27.48/0 BUT 'cat sounds' 74.82/110,700/comp-25.9 = JACKPOT (biggest find to date, low comp). '5 Cat Sounds You Must Not Ignore' listicle.",
+      "notes": "TOP priority. Listicle: meow/purr/chirp/hiss/yowl — what each means + which to NOT ignore. Use 'cat sounds' as keyword."
+    },
+    {
+      "keyword": "cat body language",
+      "fetched": "2026-05-28",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 69.82,
+        "competition": 50,
+        "overall": 61.89,
+        "monthly": 47568
+      },
+      "top_related": [
+        {
+          "keyword": "cat emotions",
+          "overall": 64.63,
+          "monthly": 15891,
+          "competition": 32.5
+        },
+        {
+          "keyword": "cat whisperer",
+          "overall": 62.32,
+          "monthly": 27521
+        },
+        {
+          "keyword": "cat body language eyes",
+          "overall": 60.73,
+          "monthly": 5320
+        }
+      ],
+      "verdict": "Seed 61.89/47,568/comp-50 = YELLOW-GREEN (big volume, medium comp). 'Your cat's secret language decoded'.",
+      "notes": "Viable listicle (tail/ears/eyes/posture). comp 50 is the catch. 'cat emotions' 64.63/15.9k low-comp alt angle."
+    },
+    {
+      "keyword": "does my cat trust me",
+      "fetched": "2026-05-28",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": 43.5,
+        "overall": 22.6,
+        "monthly": 0
+      },
+      "top_related": [
+        {
+          "keyword": "cat trust signs",
+          "overall": 67.1,
+          "monthly": 13321,
+          "competition": 24.6
+        },
+        {
+          "keyword": "cat love",
+          "overall": 71.96,
+          "monthly": 28944,
+          "competition": 20
+        }
+      ],
+      "verdict": "Seed RED 22.6/0 BUT 'cat trust signs' 67.10/13,321/comp-24.6 = GREEN. 'Signs Your Cat Trusts You' / 'Test Your Cat's Trust'.",
+      "notes": "GREEN + signs-format (proven). Positive mirror to '5 Signs Doesn't Love You'. Use 'cat trust signs'."
+    },
+    {
+      "keyword": "why do cats hide their kittens",
+      "fetched": "2026-05-28",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": 28.9,
+        "overall": 28.44,
+        "monthly": 0
+      },
+      "top_related": [
+        {
+          "keyword": "newborn kittens",
+          "overall": 59.52,
+          "monthly": 14106
+        },
+        {
+          "keyword": "kittens calling for mom",
+          "overall": 63.91,
+          "monthly": 5398
+        }
+      ],
+      "verdict": "RED 28.44/0, no searchable specific related (all kitten-hide phrasings = 0). SKIP — no search demand.",
+      "notes": "Search-dead like cat-years/circus-cats. Only a feed/CTR play at best; not recommended."
+    },
+    {
+      "keyword": "cats training their owners",
+      "fetched": "2026-05-28",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": null,
+        "overall": null,
+        "monthly": 0
+      },
+      "top_related": [
+        {
+          "keyword": "cat training",
+          "overall": 64.32,
+          "monthly": 20363,
+          "competition": 35.7
+        },
+        {
+          "keyword": "clicker training",
+          "overall": 58.47,
+          "monthly": 12055
+        }
+      ],
+      "verdict": "Seed RED (no data). Falls under 'cat training' 64.32/20k — which we ALREADY used for circus-cat-training (28 May). No own keyword + cannibalizes circus. HOLD.",
+      "notes": "Skip for now — would cannibalize the fresh circus video. Revisit much later if circus performs and we want a reverse-angle."
     }
   ],
   "non_keyword_calls": [
