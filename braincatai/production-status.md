@@ -79,6 +79,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | **26 мая** | **Вт** | **This Cat Lived 38 Years — Her Owner's Strange Secret** (Creme Puff / Jake Perry, mind-blow record) | `worlds-oldest-cat` | "oldest cat ever" **64.94 / 8,562 / comp 25.7** (YELLOW-GREEN, pivot из RED cat-years 25.84/0) | ✅ опубликован 26 мая (2 просм, свежий) |
 | 27 мая | Ср | **Your TV Looks BROKEN to Your Cat** (vision / flicker-fusion mind-blow) | `your-cat-sees-your-tv` | "cat vision" **64.20 / 9,246 / cached** | ✅ опубликован 27 мая (13 просм — лидер пачки) |
 | 28 мая | Чт | **Cats CAN Be Trained — The Circus Secret** (cat training + circus story, counterintuitive + warm twist) | `circus-cat-training` | "cat training" **66.58 / 17,769 / comp 28.7 GREEN** (pivot из RED circus-cats 21/0) | ✅ скрипт+промты готовы → производство |
+| 29 мая | Пт | **A Cat Went to SPACE?! 5 Famous Cats Who Made History** (story-листикл, Brain-host) | `famous-cats-history` | "top 10 cats" **71.41 / 11,518 / comp 12.4 GREEN-jackpot** (pivot из YELLOW famous cats 57.85) | ✅ скрипт+промты готовы → производство |
 
 **Бэклог YELLOW (cached, available):**
 - `why-cats-wag-their-tails` 62.59 / 5,400 — лучший AVAILABLE в кэше
@@ -133,6 +134,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `worlds-oldest-cat` | 26 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
 | `your-cat-sees-your-tv` | 27 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (13 просм) |
 | `circus-cat-training` | 28 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `famous-cats-history` | 29 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 

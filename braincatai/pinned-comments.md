@@ -243,6 +243,12 @@ wait so my cat actually thinks my tv is broken?? 😭 mine literally walks right
 wait people actually train cats?? mine won't even come when i call him 😭 have you ever taught your cat ANY trick or is that just a circus thing lol
 ```
 
+### 39. A Cat Went to SPACE?! 5 Famous Cats Who Made History (29 мая) — Cat Facts / History
+
+```
+ok the space cat broke my brain i had no idea 😭 which one surprised you most? i'm still not over a cat being a literal mayor for 20 years lol
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
