@@ -237,6 +237,12 @@ ok wait 38?? mine just turned 14 and i thought that was already crazy old 😭 h
 wait so my cat actually thinks my tv is broken?? 😭 mine literally walks right past it every time lol. does yours watch tv or completely ignore it
 ```
 
+### 38. Cats CAN Be Trained — The Circus Secret (28 мая) — Cat Facts / Training
+
+```
+wait people actually train cats?? mine won't even come when i call him 😭 have you ever taught your cat ANY trick or is that just a circus thing lol
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы

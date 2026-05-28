@@ -63,7 +63,8 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | 23 мая | Сб | 5 Things Your Cat Loves That You Never Do | Cat Behavior | `things-cats-love` | **8** |
 | 24 мая | Вс | Why Your Cat Stares at Nothing (killer-formula #2) | Cat Psychology | `why-cats-stare-at-nothing` | **3** (свежий) |
 | 25 мая | Пн | When Your Cat Stretches at You, It Means This | Cat Behavior | `why-cats-stretch-at-you` | **3** (свежий) |
-| 26 мая | Вт | This Cat Lived 38 Years — Her Owner's Strange Secret | Cat Facts | `worlds-oldest-cat` | **2** (свежий) — mind-blow record (Creme Puff) |
+| 26 мая | Вт | This Cat Lived 38 Years — Her Owner's Strange Secret | Cat Facts | `worlds-oldest-cat` | **6** — mind-blow record (Creme Puff) |
+| 27 мая | Ср | Your TV Looks BROKEN to Your Cat | Cat Facts | `your-cat-sees-your-tv` | **13** ⭐ (лидер пачки — первая 5-Signs обложка) |
 
 🚨 **Lesson learned 17 мая 2026 (double-publish kill):** 15 мая вышли ДВА видео в один день — Giant (44 views) + Stares (**4 views**). Алгоритм задушил второе видео. **НИКОГДА не публиковать два Shorts в один день** — даже если одно сильнее. Один день = один Short максимум.
 
@@ -76,8 +77,8 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | Дата | День | Тема | Slug | vidIQ | Статус |
 |------|------|------|------|-------|--------|
 | **26 мая** | **Вт** | **This Cat Lived 38 Years — Her Owner's Strange Secret** (Creme Puff / Jake Perry, mind-blow record) | `worlds-oldest-cat` | "oldest cat ever" **64.94 / 8,562 / comp 25.7** (YELLOW-GREEN, pivot из RED cat-years 25.84/0) | ✅ опубликован 26 мая (2 просм, свежий) |
-| 27 мая | Ср | **Your TV Looks BROKEN to Your Cat** (vision / flicker-fusion mind-blow) | `your-cat-sees-your-tv` | "cat vision" **64.20 / 9,246 / cached** (pivot из RED night-vision + separation-anxiety YELLOW 55.70) | ✅ скрипт+промты готовы → производство |
-| 28 мая | Чт | _Из кэша: jealousy (59.01 / 5,156) / wag-tails (62.59 / 5,400) / hate-water (60.88 / 3,659) / meow-at-humans (60.70 / 3,685)_ | TBD | YELLOW кэш | ✍️ нужен скрипт |
+| 27 мая | Ср | **Your TV Looks BROKEN to Your Cat** (vision / flicker-fusion mind-blow) | `your-cat-sees-your-tv` | "cat vision" **64.20 / 9,246 / cached** | ✅ опубликован 27 мая (13 просм — лидер пачки) |
+| 28 мая | Чт | **Cats CAN Be Trained — The Circus Secret** (cat training + circus story, counterintuitive + warm twist) | `circus-cat-training` | "cat training" **66.58 / 17,769 / comp 28.7 GREEN** (pivot из RED circus-cats 21/0) | ✅ скрипт+промты готовы → производство |
 
 **Бэклог YELLOW (cached, available):**
 - `why-cats-wag-their-tails` 62.59 / 5,400 — лучший AVAILABLE в кэше
@@ -130,7 +131,8 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `why-cats-stare-at-you` | 15 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (double-publish жертва) |
 | `your-cat-sees-you-as-giant-cat` | 15 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
 | `worlds-oldest-cat` | 26 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
-| `your-cat-sees-your-tv` | 27 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `your-cat-sees-your-tv` | 27 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (13 просм) |
+| `circus-cat-training` | 28 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 
