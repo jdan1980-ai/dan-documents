@@ -338,7 +338,9 @@ cat facts, cat psychology, cat behavior, cat secrets, cat science, brain cat, br
 #shorts #catfacts #catfactsmindblowing #braincatai #oldestcatever #catpsychology #catbehavior #petfacts
 ```
 
-**🖼️ Thumbnail (Nano Banana 2):**
+---
+
+## 🖼️ ТУМБНЕЙЛ (Nano Banana 2)
 ```
 Extreme close-up of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain, face filling ~55% of frame, tilted 3°, big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, white of the eye stays pure white, NEVER a fully-green eyeball. Wide awe expression. Small thin round gold-framed glasses sitting a touch low on his nose (wise touch). Plain brown collar with ONE gold HEART tag "Brain". Soft orange tabby fur, ginger paws (no white socks), ginger tail to the tip, EXACTLY 2 ears, mouth closed in a slight surprised "O". Behind him: a huge bold cartoon numeral "38" filling the right half of the frame in Electric Yellow #FFD23F fill with thick charcoal outline and drop shadow (Fredoka One style). Cozy living-room background heavily blurred + softened. High contrast, Brain rim-lit so he pops. Vertical 9:16. NOT photorealistic.
 

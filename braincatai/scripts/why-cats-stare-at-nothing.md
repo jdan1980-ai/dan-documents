@@ -302,7 +302,9 @@ cat psychology, cat facts, cat behavior, cat secrets, cat science, cat communica
 #shorts #catpsychology #catfacts #catbehavior #braincatai #catsenses #catfactsmindblowing #petfacts
 ```
 
-**🖼️ Thumbnail (Nano Banana 2 — killer-формула: cute + spooky contrast):**
+---
+
+## 🖼️ ТУМБНЕЙЛ (Nano Banana 2 — killer-формула: cute + spooky contrast)
 ```
 Extreme close-up of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain, face filling ~65% of frame, tilted 3°, eyes WIDE with dilated pupils staring intensely OFF to the side at something unseen (spooked-but-cute), gold round glasses, brown collar with ONE gold HEART tag "Brain", ginger fur, ginger paws (no white socks), ginger tail tip, 2 ears, mouth closed. Dim eerie living-room background heavily blurred and darkened, a faint cold blue glow from one corner. High contrast, Brain rim-lit so he pops. Vertical 9:16. NOT photorealistic.
 

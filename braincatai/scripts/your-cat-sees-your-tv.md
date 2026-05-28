@@ -337,7 +337,9 @@ cat facts, cat psychology, cat behavior, cat secrets, cat science, brain cat, br
 #shorts #catfacts #catfactsmindblowing #braincatai #catvision #catpsychology #catbehavior #petfacts
 ```
 
-**🖼️ Thumbnail (Nano Banana 2 — применяет формулу 5 Signs: лицо 60%, dilated глаза, видимый hook-объект, желтая плита):**
+---
+
+## 🖼️ ТУМБНЕЙЛ (Nano Banana 2 — формула 5 Signs: лицо 60%, dilated глаза, видимый hook-объект, желтая плита, короткий броский текст)
 ```
 EXTREME CLOSE-UP of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain — Brain's face fills ~60% of the LEFT-CENTER of frame, slight 3° tilt for energy. Big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. EYES WIDE AND DILATED in a STRONG "what the heck?!" puzzled-disturbed reaction — pupils visibly enlarged, locked DIRECTLY into the viewer with intense confusion, eyebrows raised. Ears perked sharply UP and forward (alert/alarmed, NOT flat). Mouth closed in a tight slightly-frowning line. Small thin round gold-framed glasses sitting just slightly low on his nose. Plain brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the tip, EXACTLY 2 ears, EXACTLY 4 paws. Pixar/Disney 3D ANIMATED CARTOON style (stylized smooth cartoon shading, NOT photorealistic, NOT a real cat). Vertical 9:16.
 

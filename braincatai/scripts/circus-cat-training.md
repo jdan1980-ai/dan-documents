@@ -342,7 +342,9 @@ cat training, how to train a cat, can cats be trained, trained cats, circus cats
 #shorts #catfacts #cattraining #catfactsmindblowing #braincatai #catbehavior #catpsychology #petfacts
 ```
 
-**🖼️ Thumbnail (Nano Banana 2 — «5 Signs» формула: лицо 60%, dilated глаза, hook-объект, желтая плита):**
+---
+
+## 🖼️ ТУМБНЕЙЛ (Nano Banana 2 — «5 Signs» формула: лицо 60%, dilated глаза, hook-объект, желтая плита, короткий броский текст)
 ```
 EXTREME CLOSE-UP of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain — face fills ~60% of the LEFT-CENTER of frame, slight 3° tilt. Big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. EYES WIDE AND BRIGHT with a SMUG-PROUD "yeah, I can do this" knowing look, locked into the viewer. Ears perked sharply UP. Mouth closed in a confident little smile. Small thin round gold-framed glasses. Plain brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain". Soft fluffy orange tabby fur, ALL 4 paws ginger (NO white socks), tail ginger to the tip, EXACTLY 2 ears, EXACTLY 4 paws. Pixar/Disney 3D ANIMATED CARTOON style, NOT photorealistic, NOT a real cat. Vertical 9:16.
 
