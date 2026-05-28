@@ -3,8 +3,8 @@
     "purpose": "Cache of vidIQ API responses (keyword research, outliers, breakout channels, channel videos) to avoid burning paid credits on repeat queries. Cat psychology niche keywords stay relevant ~30-60 days. Refresh entries older than 60 days only if you suspect drift.",
     "schema_version": "1.1",
     "created": "2026-05-17",
-    "last_updated": "2026-05-26",
-    "total_credits_spent": 220,
+    "last_updated": "2026-05-28",
+    "total_credits_spent": 230,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
@@ -13,7 +13,8 @@
       "2026-05-22: +15 credits — 3× keyword_research on user-submitted ideas. WINNER: cat dehydration viable via 'signs of dehydration in cats' 68.67/4,919/comp-11. cat jealousy YELLOW 59.01/5,156. signs-cat-angry RED (no searchable keyword).",
       "2026-05-23: +5 credits — 'what cats can sense' seed RED but WINNER related 'why cats stare at nothing' 64.93/6,733/comp-23.4 (spooky senses hook, killer-formula fit). cat vision 64.20/9,246. Pivoted senses topic to 'why cats stare at nothing'.",
       "2026-05-26: +5 credits — 'cat years to human years' seed RED 25.84 / 0 monthly. PIVOT WINNER: related 'oldest cat ever' 64.94 / 8,562 monthly / comp 25.7 — strongest single-fact angle available right now (above wag-tails 62.59 and everything in cache). 'senior cat care' 61.00/3,272 also viable. Decision: pivot 26 May to oldest-cat-ever.",
-      "2026-05-26 (later): +10 credits — 2× keyword_research. 'cat separation anxiety' YELLOW 55.70/3,883 (weaker than cached YELLOWs, skip 27 May). 'cat night vision' RED 30.48/0 BUT confirms 'cat vision' 64.20/9,246 (already cached 23 May, unused) as the strongest available pick — recommended angle: 'Your Cat Sees Your TV Differently' (flicker fusion) or 'Sees Colors You Can't'. JACKPOT flag: 'cat purring' 69.30/92,940 — defer (cannibalizes Apr 22 purr-heal-bones)."
+      "2026-05-26 (later): +10 credits — 2× keyword_research. 'cat separation anxiety' YELLOW 55.70/3,883 (weaker than cached YELLOWs, skip 27 May). 'cat night vision' RED 30.48/0 BUT confirms 'cat vision' 64.20/9,246 (already cached 23 May, unused) as the strongest available pick — recommended angle: 'Your Cat Sees Your TV Differently' (flicker fusion) or 'Sees Colors You Can't'. JACKPOT flag: 'cat purring' 69.30/92,940 — defer (cannibalizes Apr 22 purr-heal-bones).",
+      "2026-05-28: +10 credits — 2x keyword_research on user's 'cats in the circus' idea. 'circus cats' RED 21/0 AND polluted by Cats-the-musical / AGT noise. 'can cats be trained' RED 27.52/0 BUT related WINNER 'cat training' 66.58/17,769/comp-28.7 GREEN. Decision: build the circus story (Kuklachev / how circus cats are selected+trained+live) inside a 'cat training' keyword video — counterintuitive hook 'cats can't be trained... but circus cats do backflips'."
     ]
   },
   "queries": [
@@ -21,20 +22,73 @@
       "keyword": "signs your cat doesn't love you",
       "fetched": "2026-05-19",
       "credits_spent": 5,
-      "seed": {"volume": 62.04, "competition": 24.2, "overall": 67.55, "monthly": 14333},
+      "seed": {
+        "volume": 62.04,
+        "competition": 24.2,
+        "overall": 67.55,
+        "monthly": 14333
+      },
       "top_related": [
-        {"keyword": "cat behavior", "overall": 69.72, "monthly": 258971},
-        {"keyword": "cat communication", "overall": 68.97, "monthly": 26183},
-        {"keyword": "cat care", "overall": 67.26, "monthly": 44753},
-        {"keyword": "5 signs your cat doesn't love you", "overall": 66.67, "monthly": 26837},
-        {"keyword": "cat affection", "overall": 63.76, "monthly": 9931},
-        {"keyword": "why does my cat bite me", "overall": 60.49, "monthly": 19847},
-        {"keyword": "cat behaviour", "overall": 60.01, "monthly": 47568},
-        {"keyword": "why cats ignore you", "overall": 59.47, "monthly": 8757},
-        {"keyword": "the feline world", "overall": 59.84, "monthly": 3779},
-        {"keyword": "cat lovers tv", "overall": 57.73, "monthly": 9176},
-        {"keyword": "signs your cat hates you", "overall": 56.13, "monthly": 4378},
-        {"keyword": "cats 101", "overall": 54.87, "monthly": 4216}
+        {
+          "keyword": "cat behavior",
+          "overall": 69.72,
+          "monthly": 258971
+        },
+        {
+          "keyword": "cat communication",
+          "overall": 68.97,
+          "monthly": 26183
+        },
+        {
+          "keyword": "cat care",
+          "overall": 67.26,
+          "monthly": 44753
+        },
+        {
+          "keyword": "5 signs your cat doesn't love you",
+          "overall": 66.67,
+          "monthly": 26837
+        },
+        {
+          "keyword": "cat affection",
+          "overall": 63.76,
+          "monthly": 9931
+        },
+        {
+          "keyword": "why does my cat bite me",
+          "overall": 60.49,
+          "monthly": 19847
+        },
+        {
+          "keyword": "cat behaviour",
+          "overall": 60.01,
+          "monthly": 47568
+        },
+        {
+          "keyword": "why cats ignore you",
+          "overall": 59.47,
+          "monthly": 8757
+        },
+        {
+          "keyword": "the feline world",
+          "overall": 59.84,
+          "monthly": 3779
+        },
+        {
+          "keyword": "cat lovers tv",
+          "overall": 57.73,
+          "monthly": 9176
+        },
+        {
+          "keyword": "signs your cat hates you",
+          "overall": 56.13,
+          "monthly": 4378
+        },
+        {
+          "keyword": "cats 101",
+          "overall": 54.87,
+          "monthly": 4216
+        }
       ],
       "verdict": "GREEN — seed 67.55 / 14k monthly. EXACT-MATCH '5 signs your cat doesn't love you' 66.67 / 26.8k monthly is the title-form to use. Competitor @williamcat 8.8M proof on identical negative-mirror format.",
       "notes": "Approved 19 мая 2026 for 21 May publish. Slug: signs-cat-doesnt-love-you. Use title '5 Signs Your Cat DOESN'T Love You'. Harvest related for future videos: cat affection (paired LOVE-signs video), why does my cat bite me (standalone)."
@@ -43,10 +97,27 @@
       "keyword": "why do cats slow blink",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": null, "overall": null, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": null,
+        "overall": null,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cat slow blink meaning", "score": 73.5, "monthly": 13673, "competition": 8.8, "verdict": "GREEN"},
-        {"keyword": "cat slow blink", "score": 66.6, "monthly": 19000, "competition": null, "verdict": "GREEN"}
+        {
+          "keyword": "cat slow blink meaning",
+          "score": 73.5,
+          "monthly": 13673,
+          "competition": 8.8,
+          "verdict": "GREEN"
+        },
+        {
+          "keyword": "cat slow blink",
+          "score": 66.6,
+          "monthly": 19000,
+          "competition": null,
+          "verdict": "GREEN"
+        }
       ],
       "verdict": "USED — published May 9 as 'Your Cat Says I Love You Every Day' (slow-blink)",
       "notes": "Seed RED but related keywords strong. Topic published, do NOT re-pitch."
@@ -55,14 +126,55 @@
       "keyword": "are orange cats always male",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 18.8, "overall": 32.48, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 18.8,
+        "overall": 32.48,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "ginger cat", "score": 65.89, "monthly": 234121, "competition": 55.5, "verdict": "GREEN (but too generic)"},
-        {"keyword": "orange cat", "score": 63.74, "monthly": 157224, "competition": 57, "verdict": "GREEN (but too generic)"},
-        {"keyword": "cat behavior", "score": 69.82, "monthly": 265693, "competition": 46.9, "verdict": "GREEN (generic)"},
-        {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"},
-        {"keyword": "why orange cats are crazy", "score": 62.71, "monthly": 4401, "competition": 24.8, "verdict": "YELLOW (specific)"},
-        {"keyword": "cat facts", "score": 66.31, "monthly": 72070, "competition": 43, "verdict": "GREEN"}
+        {
+          "keyword": "ginger cat",
+          "score": 65.89,
+          "monthly": 234121,
+          "competition": 55.5,
+          "verdict": "GREEN (but too generic)"
+        },
+        {
+          "keyword": "orange cat",
+          "score": 63.74,
+          "monthly": 157224,
+          "competition": 57,
+          "verdict": "GREEN (but too generic)"
+        },
+        {
+          "keyword": "cat behavior",
+          "score": 69.82,
+          "monthly": 265693,
+          "competition": 46.9,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "cat psychology",
+          "score": 74.48,
+          "monthly": 370609,
+          "competition": 38.5,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "why orange cats are crazy",
+          "score": 62.71,
+          "monthly": 4401,
+          "competition": 24.8,
+          "verdict": "YELLOW (specific)"
+        },
+        {
+          "keyword": "cat facts",
+          "score": 66.31,
+          "monthly": 72070,
+          "competition": 43,
+          "verdict": "GREEN"
+        }
       ],
       "verdict": "USED — published May 8 as 'Your Cat's COLOR Tells You Its Gender' (orange-cats-are-boys)",
       "notes": "Specific keyword RED but general cat-niche keywords are all GREEN."
@@ -71,15 +183,62 @@
       "keyword": "why do cats bring dead animals",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 18.8, "overall": 32.48, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 18.8,
+        "overall": 32.48,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "why does my cat bring me dead animals", "score": 64.72, "monthly": 4543, "competition": 20.1, "verdict": "YELLOW"},
-        {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"},
-        {"keyword": "cat behavior", "score": 69.82, "monthly": 265693, "competition": 46.9, "verdict": "GREEN (generic)"},
-        {"keyword": "cat lovers", "score": 68.45, "monthly": 37167, "competition": 31.2, "verdict": "GREEN"},
-        {"keyword": "cat behavior explained", "score": 68.61, "monthly": 133004, "competition": 43.2, "verdict": "GREEN"},
-        {"keyword": "viral cat shorts", "score": 62.29, "monthly": 15329, "competition": 38, "verdict": "YELLOW"},
-        {"keyword": "feline behavior", "score": 63.18, "monthly": 11521, "competition": 33, "verdict": "YELLOW"}
+        {
+          "keyword": "why does my cat bring me dead animals",
+          "score": 64.72,
+          "monthly": 4543,
+          "competition": 20.1,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "cat psychology",
+          "score": 74.48,
+          "monthly": 370609,
+          "competition": 38.5,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "cat behavior",
+          "score": 69.82,
+          "monthly": 265693,
+          "competition": 46.9,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "cat lovers",
+          "score": 68.45,
+          "monthly": 37167,
+          "competition": 31.2,
+          "verdict": "GREEN"
+        },
+        {
+          "keyword": "cat behavior explained",
+          "score": 68.61,
+          "monthly": 133004,
+          "competition": 43.2,
+          "verdict": "GREEN"
+        },
+        {
+          "keyword": "viral cat shorts",
+          "score": 62.29,
+          "monthly": 15329,
+          "competition": 38,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "feline behavior",
+          "score": 63.18,
+          "monthly": 11521,
+          "competition": 33,
+          "verdict": "YELLOW"
+        }
       ],
       "verdict": "ALREADY PUBLISHED May 3 as 'Why Your Cat Brings You Dead Things' (1000 views). DO NOT re-pitch.",
       "notes": "Cannibalization risk if posted again."
@@ -88,15 +247,62 @@
       "keyword": "cat says i love you",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 34.6, "overall": 26.16, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 34.6,
+        "overall": 26.16,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "talking cat", "score": 65.00, "monthly": 61342, "competition": 44.7, "verdict": "GREEN"},
-        {"keyword": "trending cat shorts", "score": 64.75, "monthly": 27422, "competition": 37.5, "verdict": "GREEN"},
-        {"keyword": "viral cat", "score": 62.66, "monthly": 18704, "competition": 39, "verdict": "YELLOW"},
-        {"keyword": "funny cat", "score": 74.25, "monthly": 438357, "competition": 40.7, "verdict": "GREEN (generic)"},
-        {"keyword": "cute kitten", "score": 61.11, "monthly": 50361, "competition": 52.5, "verdict": "YELLOW"},
-        {"keyword": "cat lovers", "score": 68.45, "monthly": 37167, "competition": 31.2, "verdict": "GREEN"},
-        {"keyword": "cat videos", "score": 71.99, "monthly": 1269515, "competition": 56.7, "verdict": "GREEN (generic)"}
+        {
+          "keyword": "talking cat",
+          "score": 65.0,
+          "monthly": 61342,
+          "competition": 44.7,
+          "verdict": "GREEN"
+        },
+        {
+          "keyword": "trending cat shorts",
+          "score": 64.75,
+          "monthly": 27422,
+          "competition": 37.5,
+          "verdict": "GREEN"
+        },
+        {
+          "keyword": "viral cat",
+          "score": 62.66,
+          "monthly": 18704,
+          "competition": 39,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "funny cat",
+          "score": 74.25,
+          "monthly": 438357,
+          "competition": 40.7,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "cute kitten",
+          "score": 61.11,
+          "monthly": 50361,
+          "competition": 52.5,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "cat lovers",
+          "score": 68.45,
+          "monthly": 37167,
+          "competition": 31.2,
+          "verdict": "GREEN"
+        },
+        {
+          "keyword": "cat videos",
+          "score": 71.99,
+          "monthly": 1269515,
+          "competition": 56.7,
+          "verdict": "GREEN (generic)"
+        }
       ],
       "verdict": "USED — alt title for slow-blink ('Your Cat Says I Love You Every Day...'). Title is CTR-play, not search-play.",
       "notes": "Direct phrase RED but emotional hook strong for feed CTR."
@@ -105,12 +311,41 @@
       "keyword": "why do cats knead",
       "fetched": "2026-05-17 (inferred from session — full JSON not stored, only summary)",
       "credits_spent": 5,
-      "seed": {"volume": null, "competition": null, "overall": 57.2, "monthly": 4802},
+      "seed": {
+        "volume": null,
+        "competition": null,
+        "overall": 57.2,
+        "monthly": 4802
+      },
       "top_related": [
-        {"keyword": "cat kneading", "score": 66.6, "monthly": 26390, "competition": null, "verdict": "GREEN"},
-        {"keyword": "why cats knead blankets", "score": 67.6, "monthly": 5003, "competition": null, "verdict": "GREEN"},
-        {"keyword": "why do cats knead with their paws", "score": 65.8, "monthly": 9973, "competition": null, "verdict": "GREEN"},
-        {"keyword": "why cats knead", "score": 63.8, "monthly": 3604, "competition": null, "verdict": "GREEN"}
+        {
+          "keyword": "cat kneading",
+          "score": 66.6,
+          "monthly": 26390,
+          "competition": null,
+          "verdict": "GREEN"
+        },
+        {
+          "keyword": "why cats knead blankets",
+          "score": 67.6,
+          "monthly": 5003,
+          "competition": null,
+          "verdict": "GREEN"
+        },
+        {
+          "keyword": "why do cats knead with their paws",
+          "score": 65.8,
+          "monthly": 9973,
+          "competition": null,
+          "verdict": "GREEN"
+        },
+        {
+          "keyword": "why cats knead",
+          "score": 63.8,
+          "monthly": 3604,
+          "competition": null,
+          "verdict": "GREEN"
+        }
       ],
       "verdict": "BLOCKED — already published April 25 as 'Why Cats Make Biscuits on You' (440 views). DO NOT re-pitch.",
       "notes": "Strong GREEN scores but cannibalization risk too high."
@@ -119,13 +354,48 @@
       "keyword": "why cats meow only at humans",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 53.24, "competition": 28.1, "overall": 60.70, "monthly": 3685},
+      "seed": {
+        "volume": 53.24,
+        "competition": 28.1,
+        "overall": 60.7,
+        "monthly": 3685
+      },
       "top_related": [
-        {"keyword": "cat communication", "score": 69.49, "monthly": 23594, "competition": 24.2, "verdict": "GREEN"},
-        {"keyword": "cat vocalizations", "score": 65.77, "monthly": 4464, "competition": 17.3, "verdict": "GREEN (borderline monthly)"},
-        {"keyword": "why do cats meow", "score": 64.06, "monthly": 4616, "competition": 21.9, "verdict": "YELLOW"},
-        {"keyword": "cat facts", "score": 66.31, "monthly": 72070, "competition": 43, "verdict": "GREEN (generic)"},
-        {"keyword": "cat behavior", "score": 69.82, "monthly": 265693, "competition": 46.9, "verdict": "GREEN (generic)"}
+        {
+          "keyword": "cat communication",
+          "score": 69.49,
+          "monthly": 23594,
+          "competition": 24.2,
+          "verdict": "GREEN"
+        },
+        {
+          "keyword": "cat vocalizations",
+          "score": 65.77,
+          "monthly": 4464,
+          "competition": 17.3,
+          "verdict": "GREEN (borderline monthly)"
+        },
+        {
+          "keyword": "why do cats meow",
+          "score": 64.06,
+          "monthly": 4616,
+          "competition": 21.9,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "cat facts",
+          "score": 66.31,
+          "monthly": 72070,
+          "competition": 43,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "cat behavior",
+          "score": 69.82,
+          "monthly": 265693,
+          "competition": 46.9,
+          "verdict": "GREEN (generic)"
+        }
       ],
       "verdict": "YELLOW — seed 60.7 / 3,685 monthly. Related `cat communication` GREEN 69.5. Available topic.",
       "notes": "Seed YELLOW. Good emotional angle (cats don't meow at other cats). Not yet published."
@@ -134,13 +404,48 @@
       "keyword": "why cats hate water",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 53.19, "competition": 27.6, "overall": 60.88, "monthly": 3659},
+      "seed": {
+        "volume": 53.19,
+        "competition": 27.6,
+        "overall": 60.88,
+        "monthly": 3659
+      },
       "top_related": [
-        {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"},
-        {"keyword": "cat behavior explained", "score": 68.61, "monthly": 133004, "competition": 43.2, "verdict": "GREEN (generic)"},
-        {"keyword": "cat behavior", "score": 69.82, "monthly": 265693, "competition": 46.9, "verdict": "GREEN (generic)"},
-        {"keyword": "cat nature", "score": 63.15, "monthly": 4357, "competition": 23.6, "verdict": "YELLOW"},
-        {"keyword": "cat hygiene", "score": 61.61, "monthly": 4600, "competition": 28, "verdict": "YELLOW"}
+        {
+          "keyword": "cat psychology",
+          "score": 74.48,
+          "monthly": 370609,
+          "competition": 38.5,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "cat behavior explained",
+          "score": 68.61,
+          "monthly": 133004,
+          "competition": 43.2,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "cat behavior",
+          "score": 69.82,
+          "monthly": 265693,
+          "competition": 46.9,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "cat nature",
+          "score": 63.15,
+          "monthly": 4357,
+          "competition": 23.6,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "cat hygiene",
+          "score": 61.61,
+          "monthly": 4600,
+          "competition": 28,
+          "verdict": "YELLOW"
+        }
       ],
       "verdict": "YELLOW — seed 60.88 / 3,659 monthly. No strong specific related keyword. Available topic.",
       "notes": "YELLOW but best of the three checked on May 17. Competition 27.6 decent."
@@ -149,13 +454,48 @@
       "keyword": "why cats sit in boxes",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 52.94, "competition": 7.3, "overall": 68.84, "monthly": 3517},
+      "seed": {
+        "volume": 52.94,
+        "competition": 7.3,
+        "overall": 68.84,
+        "monthly": 3517
+      },
       "top_related": [
-        {"keyword": "cat shorts", "score": 70.57, "monthly": 142756, "competition": 39, "verdict": "GREEN (generic)"},
-        {"keyword": "cat instincts", "score": 65.54, "monthly": 10397, "competition": 26.1, "verdict": "GREEN"},
-        {"keyword": "cats explained", "score": 68.03, "monthly": 58623, "competition": 36.7, "verdict": "GREEN (generic)"},
-        {"keyword": "cat behavior explained", "score": 68.61, "monthly": 133004, "competition": 43.2, "verdict": "GREEN (generic)"},
-        {"keyword": "why cats love boxes", "score": 53.97, "monthly": 8016, "competition": 52.5, "verdict": "YELLOW"}
+        {
+          "keyword": "cat shorts",
+          "score": 70.57,
+          "monthly": 142756,
+          "competition": 39,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "cat instincts",
+          "score": 65.54,
+          "monthly": 10397,
+          "competition": 26.1,
+          "verdict": "GREEN"
+        },
+        {
+          "keyword": "cats explained",
+          "score": 68.03,
+          "monthly": 58623,
+          "competition": 36.7,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "cat behavior explained",
+          "score": 68.61,
+          "monthly": 133004,
+          "competition": 43.2,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "why cats love boxes",
+          "score": 53.97,
+          "monthly": 8016,
+          "competition": 52.5,
+          "verdict": "YELLOW"
+        }
       ],
       "verdict": "BLOCKED — seed GREEN 68.84 BUT cannibalized by 'Why Your Cat Chooses a Box Over a $100 Bed' (Apr 29). DO NOT re-pitch.",
       "notes": "Competition 7.3 extremely low. Score GREEN. But box topic already published Apr 29. Adding to BLOCKED."
@@ -164,10 +504,27 @@
       "keyword": "why cats prefer one person",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 16.2, "overall": 33.52, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 16.2,
+        "overall": 33.52,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cat body language", "score": 64.04, "monthly": 55887, "competition": 46.2, "verdict": "GREEN (generic)"},
-        {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"}
+        {
+          "keyword": "cat body language",
+          "score": 64.04,
+          "monthly": 55887,
+          "competition": 46.2,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "cat psychology",
+          "score": 74.48,
+          "monthly": 370609,
+          "competition": 38.5,
+          "verdict": "GREEN (generic)"
+        }
       ],
       "verdict": "RED — seed 33.52 / 0 monthly. All specific related = 0 monthly. Skip.",
       "notes": "Emotionally appealing topic but no search volume. Not viable as primary keyword."
@@ -176,11 +533,34 @@
       "keyword": "how cat whiskers work",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 9.8, "overall": 36.08, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 9.8,
+        "overall": 36.08,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cat whiskers", "score": 56.51, "monthly": 8315, "competition": 46.5, "verdict": "YELLOW"},
-        {"keyword": "cat anatomy", "score": 68.11, "monthly": 4879, "competition": 12.3, "verdict": "GREEN (borderline)"},
-        {"keyword": "whisker fatigue", "score": 58.00, "monthly": 3517, "competition": 34.4, "verdict": "YELLOW"}
+        {
+          "keyword": "cat whiskers",
+          "score": 56.51,
+          "monthly": 8315,
+          "competition": 46.5,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "cat anatomy",
+          "score": 68.11,
+          "monthly": 4879,
+          "competition": 12.3,
+          "verdict": "GREEN (borderline)"
+        },
+        {
+          "keyword": "whisker fatigue",
+          "score": 58.0,
+          "monthly": 3517,
+          "competition": 34.4,
+          "verdict": "YELLOW"
+        }
       ],
       "verdict": "RED — seed 36.08 / 0 monthly. Topic could be angle for 'cat superpowers senses' bundle.",
       "notes": "Whisker fatigue (3,517/mo) is a niche angle. Better as part of multi-sense video."
@@ -189,10 +569,27 @@
       "keyword": "why cats run after pooping",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 27.3, "overall": 29.08, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 27.3,
+        "overall": 29.08,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cat instincts", "score": 65.54, "monthly": 10397, "competition": 26.1, "verdict": "GREEN"},
-        {"keyword": "cat bathroom behavior", "score": 63.47, "monthly": 4308, "competition": 22.7, "verdict": "YELLOW"}
+        {
+          "keyword": "cat instincts",
+          "score": 65.54,
+          "monthly": 10397,
+          "competition": 26.1,
+          "verdict": "GREEN"
+        },
+        {
+          "keyword": "cat bathroom behavior",
+          "score": 63.47,
+          "monthly": 4308,
+          "competition": 22.7,
+          "verdict": "YELLOW"
+        }
       ],
       "verdict": "RED — seed 29.08 / 0 monthly. Funny topic but no search volume. Skip.",
       "notes": "Zoomies framing has viral potential via feed but no search hook."
@@ -201,12 +598,41 @@
       "keyword": "why cats wag their tails",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 55.72, "competition": 27.1, "overall": 62.59, "monthly": 5400},
+      "seed": {
+        "volume": 55.72,
+        "competition": 27.1,
+        "overall": 62.59,
+        "monthly": 5400
+      },
       "top_related": [
-        {"keyword": "feline body language", "score": 61.01, "monthly": 6401, "competition": 32.7, "verdict": "YELLOW"},
-        {"keyword": "cat body language", "score": 64.04, "monthly": 55887, "competition": 46.2, "verdict": "GREEN (generic)"},
-        {"keyword": "why do cats wag their tails while lying down", "score": 61.52, "monthly": 5039, "competition": 29.1, "verdict": "YELLOW"},
-        {"keyword": "cat tail language", "score": 56.21, "monthly": 8975, "competition": 48, "verdict": "YELLOW"}
+        {
+          "keyword": "feline body language",
+          "score": 61.01,
+          "monthly": 6401,
+          "competition": 32.7,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "cat body language",
+          "score": 64.04,
+          "monthly": 55887,
+          "competition": 46.2,
+          "verdict": "GREEN (generic)"
+        },
+        {
+          "keyword": "why do cats wag their tails while lying down",
+          "score": 61.52,
+          "monthly": 5039,
+          "competition": 29.1,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "cat tail language",
+          "score": 56.21,
+          "monthly": 8975,
+          "competition": 48,
+          "verdict": "YELLOW"
+        }
       ],
       "verdict": "YELLOW — seed 62.59 / 5,400 monthly. Best seed score of available new topics. AVAILABLE.",
       "notes": "Plan slot: May 21. Title angle: 'Your Cat's Tail Is Talking. Are You Listening?'"
@@ -215,11 +641,34 @@
       "keyword": "why cats stretch when they see you",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 55.69, "competition": 33.2, "overall": 60.13, "monthly": 5378},
+      "seed": {
+        "volume": 55.69,
+        "competition": 33.2,
+        "overall": 60.13,
+        "monthly": 5378
+      },
       "top_related": [
-        {"keyword": "cat facts mind blowing", "score": 73.80, "monthly": 9953, "competition": 5, "verdict": "GREEN ⭐ COMPETITION=5"},
-        {"keyword": "cat stretch", "score": 62.81, "monthly": 15636, "competition": 36.9, "verdict": "YELLOW"},
-        {"keyword": "cat body language", "score": 64.04, "monthly": 55887, "competition": 46.2, "verdict": "GREEN (generic)"}
+        {
+          "keyword": "cat facts mind blowing",
+          "score": 73.8,
+          "monthly": 9953,
+          "competition": 5,
+          "verdict": "GREEN ⭐ COMPETITION=5"
+        },
+        {
+          "keyword": "cat stretch",
+          "score": 62.81,
+          "monthly": 15636,
+          "competition": 36.9,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "cat body language",
+          "score": 64.04,
+          "monthly": 55887,
+          "competition": 46.2,
+          "verdict": "GREEN (generic)"
+        }
       ],
       "verdict": "YELLOW — seed 60.13 / 5,378 monthly. AVAILABLE. Great emotional angle ('it's a compliment').",
       "notes": "Plan slot: May 23. KEY FINDING: 'cat facts mind blowing' related = 73.8/9,953/competition 5 — add to every video's tags."
@@ -228,9 +677,20 @@
       "keyword": "why cats bury their food",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": null, "overall": null, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": null,
+        "overall": null,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cat behavior problems", "score": 70.69, "monthly": 43756, "competition": 27.2, "verdict": "GREEN (generic)"}
+        {
+          "keyword": "cat behavior problems",
+          "score": 70.69,
+          "monthly": 43756,
+          "competition": 27.2,
+          "verdict": "GREEN (generic)"
+        }
       ],
       "verdict": "RED — seed null / 0 monthly. Skip.",
       "notes": "No search demand."
@@ -239,10 +699,27 @@
       "keyword": "why cats headbutt you",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 23.6, "overall": 30.56, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 23.6,
+        "overall": 30.56,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cat communication", "score": 69.49, "monthly": 23594, "competition": 24.2, "verdict": "GREEN"},
-        {"keyword": "cat body language", "score": 64.04, "monthly": 55887, "competition": 46.2, "verdict": "GREEN (generic)"}
+        {
+          "keyword": "cat communication",
+          "score": 69.49,
+          "monthly": 23594,
+          "competition": 24.2,
+          "verdict": "GREEN"
+        },
+        {
+          "keyword": "cat body language",
+          "score": 64.04,
+          "monthly": 55887,
+          "competition": 46.2,
+          "verdict": "GREEN (generic)"
+        }
       ],
       "verdict": "RED — seed 30.56 / 0 monthly. Skip.",
       "notes": "Bunting is a good topic but no search volume. Could include as a fact in another video."
@@ -251,10 +728,27 @@
       "keyword": "why cats roll on their back",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 19.2, "overall": 32.32, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 19.2,
+        "overall": 32.32,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cat facts mind blowing", "score": 73.80, "monthly": 9953, "competition": 5, "verdict": "GREEN ⭐ COMPETITION=5"},
-        {"keyword": "cat body language", "score": 64.04, "monthly": 55887, "competition": 46.2, "verdict": "GREEN (generic)"}
+        {
+          "keyword": "cat facts mind blowing",
+          "score": 73.8,
+          "monthly": 9953,
+          "competition": 5,
+          "verdict": "GREEN ⭐ COMPETITION=5"
+        },
+        {
+          "keyword": "cat body language",
+          "score": 64.04,
+          "monthly": 55887,
+          "competition": 46.2,
+          "verdict": "GREEN (generic)"
+        }
       ],
       "verdict": "RED — seed 32.32 / 0 monthly. Skip as standalone.",
       "notes": "'cat facts mind blowing' appearing again confirms this is a powerful tag for any cat-facts style video."
@@ -263,10 +757,27 @@
       "keyword": "why cats eat grass",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 36.4, "overall": 25.44, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 36.4,
+        "overall": 25.44,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cats eat grass", "score": 57.28, "monthly": 5089, "competition": 39.8, "verdict": "YELLOW"},
-        {"keyword": "cat instincts", "score": 65.54, "monthly": 10397, "competition": 26.1, "verdict": "GREEN"}
+        {
+          "keyword": "cats eat grass",
+          "score": 57.28,
+          "monthly": 5089,
+          "competition": 39.8,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "cat instincts",
+          "score": 65.54,
+          "monthly": 10397,
+          "competition": 26.1,
+          "verdict": "GREEN"
+        }
       ],
       "verdict": "RED — seed 25.44 / 0 monthly. Skip.",
       "notes": "No direct search demand despite being a common behavior."
@@ -275,7 +786,12 @@
       "keyword": "why cats hate the vet",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 86.92, "overall": 5.23, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 86.92,
+        "overall": 5.23,
+        "monthly": 0
+      },
       "top_related": [],
       "verdict": "RED — DO NOT USE. Competition 86.9 / overall 5.23. Completely over-saturated.",
       "notes": "Worst keyword of the batch. Topic exists but niche is dominated."
@@ -284,10 +800,27 @@
       "keyword": "why cats bite when you pet them",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 46.2, "overall": 21.52, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 46.2,
+        "overall": 21.52,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "why does my cat bite me", "score": 58.73, "monthly": 16294, "competition": 47.5, "verdict": "YELLOW"},
-        {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"}
+        {
+          "keyword": "why does my cat bite me",
+          "score": 58.73,
+          "monthly": 16294,
+          "competition": 47.5,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "cat psychology",
+          "score": 74.48,
+          "monthly": 370609,
+          "competition": 38.5,
+          "verdict": "GREEN (generic)"
+        }
       ],
       "verdict": "RED — seed 21.52 / 0 monthly. Skip.",
       "notes": "Related 'why does my cat bite me' has 16k monthly but score only 58.7. Not worth a slot."
@@ -296,10 +829,27 @@
       "keyword": "cat night vision",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 33.6, "overall": 26.56, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 33.6,
+        "overall": 26.56,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cat vision", "score": 61.82, "monthly": 5010, "competition": 28.3, "verdict": "YELLOW"},
-        {"keyword": "what do cats do at night", "score": 59.20, "monthly": 8261, "competition": 39.7, "verdict": "YELLOW"}
+        {
+          "keyword": "cat vision",
+          "score": 61.82,
+          "monthly": 5010,
+          "competition": 28.3,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "what do cats do at night",
+          "score": 59.2,
+          "monthly": 8261,
+          "competition": 39.7,
+          "verdict": "YELLOW"
+        }
       ],
       "verdict": "RED — seed 26.56 / 0 monthly. Skip as standalone. Include in 'cat superpowers senses' bundle.",
       "notes": "'what do cats do at night' 8,261 monthly is decent but YELLOW only."
@@ -308,12 +858,41 @@
       "keyword": "why cats ignore you",
       "fetched": "2026-05-17",
       "credits_spent": 5,
-      "seed": {"volume": 58.85, "competition": 39.6, "overall": 59.47, "monthly": 8757},
+      "seed": {
+        "volume": 58.85,
+        "competition": 39.6,
+        "overall": 59.47,
+        "monthly": 8757
+      },
       "top_related": [
-        {"keyword": "do cats love their owners", "score": 62.35, "monthly": 9513, "competition": 33.2, "verdict": "YELLOW"},
-        {"keyword": "cat emotions", "score": 63.50, "monthly": 13046, "competition": 33.4, "verdict": "YELLOW"},
-        {"keyword": "feline psychology", "score": 63.32, "monthly": 26940, "competition": 40.9, "verdict": "YELLOW"},
-        {"keyword": "cat psychology", "score": 74.48, "monthly": 370609, "competition": 38.5, "verdict": "GREEN (generic)"}
+        {
+          "keyword": "do cats love their owners",
+          "score": 62.35,
+          "monthly": 9513,
+          "competition": 33.2,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "cat emotions",
+          "score": 63.5,
+          "monthly": 13046,
+          "competition": 33.4,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "feline psychology",
+          "score": 63.32,
+          "monthly": 26940,
+          "competition": 40.9,
+          "verdict": "YELLOW"
+        },
+        {
+          "keyword": "cat psychology",
+          "score": 74.48,
+          "monthly": 370609,
+          "competition": 38.5,
+          "verdict": "GREEN (generic)"
+        }
       ],
       "verdict": "YELLOW — seed 59.47 / BEST monthly of batch (8,757). AVAILABLE. Strong emotional hook.",
       "notes": "Plan slot: May 19. Title: 'Your Cat Doesn't Ignore You. This Is Why 🐱'. High relatability = CTR."
@@ -322,7 +901,12 @@
       "keyword": "why cats sit above you",
       "fetched": "2026-05-18",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 36, "overall": 25.6, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 36,
+        "overall": 25.6,
+        "monthly": 0
+      },
       "top_related": [],
       "verdict": "RED — score 25.6, zero monthly searches. User override.",
       "notes": "⚠️ PUBLISHED May 18 as 'The Real Reason Your Cat Sits Above You 🐱 | Cat Psychology' despite RED. User argument: channel in recovery mode, even good topics get suppressed — better to burn slot on instinct topic than save it. Counter-argument noted: search traffic works independently of algo suppression. Track post-publish to validate either side."
@@ -331,14 +915,43 @@
       "keyword": "things cats love",
       "fetched": "2026-05-20",
       "credits_spent": 5,
-      "seed": {"volume": 62.21, "competition": 43.5, "overall": 59.93, "monthly": 14709},
+      "seed": {
+        "volume": 62.21,
+        "competition": 43.5,
+        "overall": 59.93,
+        "monthly": 14709
+      },
       "top_related": [
-        {"keyword": "10 things cats love that owners rarely do", "overall": 63.69, "monthly": 4289},
-        {"keyword": "20 things cats love that owners rarely do", "overall": 63.02, "monthly": 7635},
-        {"keyword": "things cats love that owners rarely do", "overall": 60.77, "monthly": 3639},
-        {"keyword": "cat behavior problems", "overall": 70.69, "monthly": 43756},
-        {"keyword": "cat training", "overall": 67.11, "monthly": 20363},
-        {"keyword": "cat care", "overall": 65.90, "monthly": 31583}
+        {
+          "keyword": "10 things cats love that owners rarely do",
+          "overall": 63.69,
+          "monthly": 4289
+        },
+        {
+          "keyword": "20 things cats love that owners rarely do",
+          "overall": 63.02,
+          "monthly": 7635
+        },
+        {
+          "keyword": "things cats love that owners rarely do",
+          "overall": 60.77,
+          "monthly": 3639
+        },
+        {
+          "keyword": "cat behavior problems",
+          "overall": 70.69,
+          "monthly": 43756
+        },
+        {
+          "keyword": "cat training",
+          "overall": 67.11,
+          "monthly": 20363
+        },
+        {
+          "keyword": "cat care",
+          "overall": 65.9,
+          "monthly": 31583
+        }
       ],
       "verdict": "YELLOW-GREEN ⭐ BEST NEW FIND — seed 59.93 / 14,709 monthly (3-4× the May 22-24 queue). Listicle form 'X Things Cats Love That Owners Rarely Do' 63-64 score. Maps to @williamcat 5.6M proven topic. Natural PAIR to May 21 negative-mirror.",
       "notes": "Recommend for May 22. Title: 'X Things Cats Love That You Never Do 🐱'. Listicle format proven viral."
@@ -347,14 +960,43 @@
       "keyword": "cat hunting instinct",
       "fetched": "2026-05-20",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 25, "overall": 30, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 25,
+        "overall": 30,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cat hunting", "overall": 64.91, "monthly": 15883},
-        {"keyword": "cats hunting", "overall": 64.33, "monthly": 7628},
-        {"keyword": "feline instincts", "overall": 66.12, "monthly": 6246},
-        {"keyword": "how cats hunt", "overall": 59.43, "monthly": 4493},
-        {"keyword": "cat behavior explained", "overall": 65.76, "monthly": 135451},
-        {"keyword": "cat behavior", "overall": 69.69, "monthly": 256725}
+        {
+          "keyword": "cat hunting",
+          "overall": 64.91,
+          "monthly": 15883
+        },
+        {
+          "keyword": "cats hunting",
+          "overall": 64.33,
+          "monthly": 7628
+        },
+        {
+          "keyword": "feline instincts",
+          "overall": 66.12,
+          "monthly": 6246
+        },
+        {
+          "keyword": "how cats hunt",
+          "overall": 59.43,
+          "monthly": 4493
+        },
+        {
+          "keyword": "cat behavior explained",
+          "overall": 65.76,
+          "monthly": 135451
+        },
+        {
+          "keyword": "cat behavior",
+          "overall": 69.69,
+          "monthly": 256725
+        }
       ],
       "verdict": "Seed RED 30/0 BUT searchable via 'cat hunting' 64.91 / 15,883 monthly + 'feline instincts' 66.12 / 6,246. This is the 'perfect killer in your home' angle — viable as CTR + search play.",
       "notes": "User's 'совершенный убийца в вашем доме' topic. Use 'cat hunting' as main keyword. Title: 'Your Cat Is a Perfect Killing Machine 🐱'. Good for May 23/24."
@@ -363,12 +1005,33 @@
       "keyword": "are cats predators",
       "fetched": "2026-05-20",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 83.72, "overall": 6.51, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 83.72,
+        "overall": 6.51,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cat videos", "overall": 73.22, "monthly": 1267693},
-        {"keyword": "wildlife", "overall": 71.62, "monthly": 496519},
-        {"keyword": "lion", "overall": 70.85, "monthly": 648263},
-        {"keyword": "wild animals", "overall": 65.32, "monthly": 415235}
+        {
+          "keyword": "cat videos",
+          "overall": 73.22,
+          "monthly": 1267693
+        },
+        {
+          "keyword": "wildlife",
+          "overall": 71.62,
+          "monthly": 496519
+        },
+        {
+          "keyword": "lion",
+          "overall": 70.85,
+          "monthly": 648263
+        },
+        {
+          "keyword": "wild animals",
+          "overall": 65.32,
+          "monthly": 415235
+        }
       ],
       "verdict": "RED — seed 6.51 / 0 monthly, competition 83.7 oversaturated. All related generic. Do NOT use this keyword form for the killer topic — use 'cat hunting' instead.",
       "notes": "Killer-topic keyword test #1. Dead as search. 'cat hunting instinct' query found the viable path."
@@ -377,11 +1040,28 @@
       "keyword": "do cats like hugs",
       "fetched": "2026-05-20",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 37, "overall": 25.2, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 37,
+        "overall": 25.2,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cat love", "overall": 68.22, "monthly": 44753},
-        {"keyword": "affection", "overall": 61.48, "monthly": 42314},
-        {"keyword": "cat logic", "overall": 58.21, "monthly": 16638}
+        {
+          "keyword": "cat love",
+          "overall": 68.22,
+          "monthly": 44753
+        },
+        {
+          "keyword": "affection",
+          "overall": 61.48,
+          "monthly": 42314
+        },
+        {
+          "keyword": "cat logic",
+          "overall": 58.21,
+          "monthly": 16638
+        }
       ],
       "verdict": "RED for search — seed 25.2 / 0 monthly. No specific searchable form. @williamcat hug topic (3.7M) works as CTR-only, not search. Skip unless used as pure feed-CTR play.",
       "notes": "williamcat candidate. Search-dead. Lower priority than 'things cats love'."
@@ -390,12 +1070,33 @@
       "keyword": "what do cats do when home alone",
       "fetched": "2026-05-20",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 32.4, "overall": 27.04, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 32.4,
+        "overall": 27.04,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cat psychology", "overall": 74.61, "monthly": 383428},
-        {"keyword": "cat behavior", "overall": 69.69, "monthly": 256725},
-        {"keyword": "cat care", "overall": 65.90, "monthly": 31583},
-        {"keyword": "cat whisperer", "overall": 64.71, "monthly": 24015}
+        {
+          "keyword": "cat psychology",
+          "overall": 74.61,
+          "monthly": 383428
+        },
+        {
+          "keyword": "cat behavior",
+          "overall": 69.69,
+          "monthly": 256725
+        },
+        {
+          "keyword": "cat care",
+          "overall": 65.9,
+          "monthly": 31583
+        },
+        {
+          "keyword": "cat whisperer",
+          "overall": 64.71,
+          "monthly": 24015
+        }
       ],
       "verdict": "RED for search — seed 27.04 / 0 monthly. No specific searchable form (only generic). @williamcat home-alone topic (3.0M) is CTR-only. Skip as search play.",
       "notes": "williamcat candidate. Search-dead. CTR-only."
@@ -404,12 +1105,34 @@
       "keyword": "cat dehydration",
       "fetched": "2026-05-22",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 22.8, "overall": 30.88, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 22.8,
+        "overall": 30.88,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "signs of dehydration in cats", "overall": 68.67, "monthly": 4919, "competition": 11},
-        {"keyword": "pet wellness", "overall": 62.06, "monthly": 5120},
-        {"keyword": "cat mistakes", "overall": 59.71, "monthly": 3263},
-        {"keyword": "healthy cats", "overall": 58.10, "monthly": 4128}
+        {
+          "keyword": "signs of dehydration in cats",
+          "overall": 68.67,
+          "monthly": 4919,
+          "competition": 11
+        },
+        {
+          "keyword": "pet wellness",
+          "overall": 62.06,
+          "monthly": 5120
+        },
+        {
+          "keyword": "cat mistakes",
+          "overall": 59.71,
+          "monthly": 3263
+        },
+        {
+          "keyword": "healthy cats",
+          "overall": 58.1,
+          "monthly": 4128
+        }
       ],
       "verdict": "YELLOW-GREEN ⭐ — seed RED but searchable via 'signs of dehydration in cats' 68.67 / 4,919 / competition 11 (very low). Strong 'you're doing it wrong' CTR hook + cat-health authority. BEST of the 3 user ideas.",
       "notes": "Use 'signs of dehydration in cats' as main keyword. Title: 'You're Accidentally Dehydrating Your Cat 🐱'. Cat-health = good for authority/monetization. GREEN-light for a slot."
@@ -418,12 +1141,33 @@
       "keyword": "cat jealousy",
       "fetched": "2026-05-22",
       "credits_spent": 5,
-      "seed": {"volume": 55.42, "competition": 35.6, "overall": 59.01, "monthly": 5156},
+      "seed": {
+        "volume": 55.42,
+        "competition": 35.6,
+        "overall": 59.01,
+        "monthly": 5156
+      },
       "top_related": [
-        {"keyword": "angry cats", "overall": 60.11, "monthly": 14360},
-        {"keyword": "cat behavior", "overall": 70.29, "monthly": 256725},
-        {"keyword": "cats and babies", "overall": 60.75, "monthly": 9516},
-        {"keyword": "jealous cats", "overall": 54.56, "monthly": 4782}
+        {
+          "keyword": "angry cats",
+          "overall": 60.11,
+          "monthly": 14360
+        },
+        {
+          "keyword": "cat behavior",
+          "overall": 70.29,
+          "monthly": 256725
+        },
+        {
+          "keyword": "cats and babies",
+          "overall": 60.75,
+          "monthly": 9516
+        },
+        {
+          "keyword": "jealous cats",
+          "overall": 54.56,
+          "monthly": 4782
+        }
       ],
       "verdict": "YELLOW — seed 59.01 / 5,156 monthly. Decent emotional + signs-format angle. Viable secondary slot.",
       "notes": "Title: 'Is Your Cat Jealous? Hidden Signs'. signs-format works for us. Related 'angry cats' 14,360 could fold the anger topic in here."
@@ -432,12 +1176,33 @@
       "keyword": "signs your cat is angry",
       "fetched": "2026-05-22",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": 27.2, "overall": 29.12, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": 27.2,
+        "overall": 29.12,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "cat behavior", "overall": 70.29, "monthly": 256725},
-        {"keyword": "cat health", "overall": 67.37, "monthly": 28768},
-        {"keyword": "cat training", "overall": 66.58, "monthly": 17769},
-        {"keyword": "cat advice", "overall": 62.20, "monthly": 14975}
+        {
+          "keyword": "cat behavior",
+          "overall": 70.29,
+          "monthly": 256725
+        },
+        {
+          "keyword": "cat health",
+          "overall": 67.37,
+          "monthly": 28768
+        },
+        {
+          "keyword": "cat training",
+          "overall": 66.58,
+          "monthly": 17769
+        },
+        {
+          "keyword": "cat advice",
+          "overall": 62.2,
+          "monthly": 14975
+        }
       ],
       "verdict": "RED for search — seed 29.12 / 0 monthly. No specific searchable angry-keyword (all generic). CTR-only play. Weakest of the 3.",
       "notes": "Skip as standalone search play. Fold 'anger signs' into the jealousy video OR a broader cat-moods video."
@@ -446,13 +1211,39 @@
       "keyword": "what cats can sense that humans can't",
       "fetched": "2026-05-23",
       "credits_spent": 5,
-      "seed": {"volume": 0, "competition": null, "overall": null, "monthly": 0},
+      "seed": {
+        "volume": 0,
+        "competition": null,
+        "overall": null,
+        "monthly": 0
+      },
       "top_related": [
-        {"keyword": "why cats stare at nothing", "overall": 64.93, "monthly": 6733, "competition": 23.4},
-        {"keyword": "cat facts", "overall": 67.08, "monthly": 87786},
-        {"keyword": "cat vision", "overall": 64.20, "monthly": 9246},
-        {"keyword": "cat senses", "overall": 57.15, "monthly": 4532},
-        {"keyword": "facts about cats", "overall": 58.70, "monthly": 28506}
+        {
+          "keyword": "why cats stare at nothing",
+          "overall": 64.93,
+          "monthly": 6733,
+          "competition": 23.4
+        },
+        {
+          "keyword": "cat facts",
+          "overall": 67.08,
+          "monthly": 87786
+        },
+        {
+          "keyword": "cat vision",
+          "overall": 64.2,
+          "monthly": 9246
+        },
+        {
+          "keyword": "cat senses",
+          "overall": 57.15,
+          "monthly": 4532
+        },
+        {
+          "keyword": "facts about cats",
+          "overall": 58.7,
+          "monthly": 28506
+        }
       ],
       "verdict": "YELLOW-GREEN ⭐ via 'why cats stare at nothing' 64.93 / 6,733 / competition 23.4 (low). Seed RED but this related keyword is BOTH searchable AND a spooky hook — perfect killer-formula (predator/mind-blow) fit.",
       "notes": "Topic pivoted: senses bundle → 'Why Your Cat Stares at Nothing (It Senses This)'. Slug why-cats-stare-at-nothing. NOT a dupe of why-cats-stare-at-you (that's staring at the owner; this is staring at empty space/sensing the invisible). Use killer formula."
@@ -468,14 +1259,46 @@
         "monthly": 0
       },
       "top_related": [
-        { "keyword": "cat facts", "overall": 69.30, "monthly": 77354 },
-        { "keyword": "cat lovers", "overall": 66.66, "monthly": 40435 },
-        { "keyword": "understanding cats", "overall": 64.83, "monthly": 21005 },
-        { "keyword": "oldest cat ever", "overall": 64.94, "monthly": 8562 },
-        { "keyword": "senior cat care", "overall": 61.00, "monthly": 3272 },
-        { "keyword": "happy cats", "overall": 59.54, "monthly": 3721 },
-        { "keyword": "taking care of cats", "overall": 59.60, "monthly": 6267 },
-        { "keyword": "cat age", "overall": 56.15, "monthly": 4540 }
+        {
+          "keyword": "cat facts",
+          "overall": 69.3,
+          "monthly": 77354
+        },
+        {
+          "keyword": "cat lovers",
+          "overall": 66.66,
+          "monthly": 40435
+        },
+        {
+          "keyword": "understanding cats",
+          "overall": 64.83,
+          "monthly": 21005
+        },
+        {
+          "keyword": "oldest cat ever",
+          "overall": 64.94,
+          "monthly": 8562
+        },
+        {
+          "keyword": "senior cat care",
+          "overall": 61.0,
+          "monthly": 3272
+        },
+        {
+          "keyword": "happy cats",
+          "overall": 59.54,
+          "monthly": 3721
+        },
+        {
+          "keyword": "taking care of cats",
+          "overall": 59.6,
+          "monthly": 6267
+        },
+        {
+          "keyword": "cat age",
+          "overall": 56.15,
+          "monthly": 4540
+        }
       ],
       "verdict": "RED seed (25.84 / 0 monthly). PIVOT WINNER: related 'oldest cat ever' YELLOW-GREEN 64.94 / 8,562 / comp 25.7 — strongest single-fact angle currently available (higher than wag-tails 62.59 and all cached YELLOWs). 'senior cat care' 61.00/3,272 is a softer alternative.",
       "notes": "DO NOT script cat-years-to-human-years (chart format = zero search). Pivot 26 May slot to 'World's Oldest Cat Ever' / Creme Puff 38 years — single-fact format like stretch, plus mind-blow record. Slug: `oldest-cat-ever` or `worlds-oldest-cat`. Channel-wide tag `cat facts mind blowing` 73.8 still applies."
@@ -487,15 +1310,35 @@
       "seed": {
         "volume": 53.58,
         "competition": 41.1,
-        "overall": 55.70,
+        "overall": 55.7,
         "monthly": 3883
       },
       "top_related": [
-        { "keyword": "cat care", "overall": 67.80, "monthly": 61342 },
-        { "keyword": "sad cat", "overall": 68.52, "monthly": 53133 },
-        { "keyword": "cute cats", "overall": 68.31, "monthly": 164392 },
-        { "keyword": "cat behavior tips", "overall": 61.07, "monthly": 5186 },
-        { "keyword": "cat therapy", "overall": 55.95, "monthly": 4781 }
+        {
+          "keyword": "cat care",
+          "overall": 67.8,
+          "monthly": 61342
+        },
+        {
+          "keyword": "sad cat",
+          "overall": 68.52,
+          "monthly": 53133
+        },
+        {
+          "keyword": "cute cats",
+          "overall": 68.31,
+          "monthly": 164392
+        },
+        {
+          "keyword": "cat behavior tips",
+          "overall": 61.07,
+          "monthly": 5186
+        },
+        {
+          "keyword": "cat therapy",
+          "overall": 55.95,
+          "monthly": 4781
+        }
       ],
       "verdict": "YELLOW seed 55.70 / 3,883 — viable but WEAKER than every cached YELLOW (wag-tails 62.59, water 60.88, meow-at-humans 60.70, jealousy 59.01). All specific 'separation anxiety' phrasings are RED (0 monthly). Related winners too generic for a single video.",
       "notes": "Skip 27 May. Prefer cached wag-tails / water / meow-at-humans / jealousy or new vidIQ-tested topic. If we ever do anxiety it should be CTR-only / emotional hook, not search-driven."
@@ -511,15 +1354,104 @@
         "monthly": 0
       },
       "top_related": [
-        { "keyword": "cat purring", "overall": 69.30, "monthly": 92940 },
-        { "keyword": "cats behavior", "overall": 65.18, "monthly": 44753 },
-        { "keyword": "cat vision", "overall": 64.20, "monthly": 9246 },
-        { "keyword": "what cats do at night", "overall": 60.48, "monthly": 3273 },
-        { "keyword": "cats eyes", "overall": 58.14, "monthly": 9781 },
-        { "keyword": "how do cats see the world", "overall": 56.91, "monthly": 4050 }
+        {
+          "keyword": "cat purring",
+          "overall": 69.3,
+          "monthly": 92940
+        },
+        {
+          "keyword": "cats behavior",
+          "overall": 65.18,
+          "monthly": 44753
+        },
+        {
+          "keyword": "cat vision",
+          "overall": 64.2,
+          "monthly": 9246
+        },
+        {
+          "keyword": "what cats do at night",
+          "overall": 60.48,
+          "monthly": 3273
+        },
+        {
+          "keyword": "cats eyes",
+          "overall": 58.14,
+          "monthly": 9781
+        },
+        {
+          "keyword": "how do cats see the world",
+          "overall": 56.91,
+          "monthly": 4050
+        }
       ],
       "verdict": "RED seed (30.48 / 0). PIVOT: 'cat vision' 64.20 / 9,246 is the strongest video-able related (already cached from 23 May). 'cat purring' 69.30 / 92,940 is a JACKPOT but cannibalizes published 22 Apr Purr-Heal-Bones; save for a future counterintuitive angle ('cats purr when in pain').",
       "notes": "27 May decision: use cat vision angle. Recommended hook: 'Your Cat Sees Your TV Differently Than You' (flicker fusion) or 'Your Cat Sees Colors You Can't'. NOT a dupe of why-cats-stare-at-nothing (that was multi-sense — sound/air/pressure; this is pure vision)."
+    },
+    {
+      "keyword": "circus cats",
+      "fetched": "2026-05-28",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": 47.5,
+        "overall": 21,
+        "monthly": 0
+      },
+      "top_related": [
+        {
+          "keyword": "cats (musical noise)",
+          "overall": 69.66,
+          "monthly": 1042618
+        },
+        {
+          "keyword": "circus",
+          "overall": 60.28,
+          "monthly": 171519
+        }
+      ],
+      "verdict": "RED 21/0 AND polluted — 'circus cats' collides with Cats the musical revival + America's Got Talent. No usable cat-behavior related. DO NOT use as keyword.",
+      "notes": "Topic alive only via 'cat training' (see next entry). Circus = story/hook, not the keyword."
+    },
+    {
+      "keyword": "can cats be trained",
+      "fetched": "2026-05-28",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": 31.2,
+        "overall": 27.52,
+        "monthly": 0
+      },
+      "top_related": [
+        {
+          "keyword": "cat training",
+          "overall": 66.58,
+          "monthly": 17769
+        },
+        {
+          "keyword": "cat expert",
+          "overall": 59.57,
+          "monthly": 14131
+        },
+        {
+          "keyword": "clicker training",
+          "overall": 58.47,
+          "monthly": 12055
+        },
+        {
+          "keyword": "animal behavior science",
+          "overall": 59.01,
+          "monthly": 9467
+        },
+        {
+          "keyword": "cat clicker training",
+          "overall": 55.8,
+          "monthly": 3448
+        }
+      ],
+      "verdict": "Seed RED 27.52/0 BUT 'cat training' 66.58/17,769/comp-28.7 = GREEN (higher than killer). Strongest available topic right now.",
+      "notes": "Use 'cat training' keyword. Vehicle = circus-cats story (Kuklachev Moscow Cats Theatre: rescues, never forced, build act around natural behavior). Hook: 'cats can't be trained... but circus cats do backflips — here's the secret'. Warm twist: trainers work WITH the cat, never punish."
     }
   ],
   "non_keyword_calls": [
@@ -527,15 +1459,28 @@
       "type": "outliers",
       "fetched": "2026-05-18",
       "credits_spent": 5,
-      "params": {"channelIds": ["UCzTi3Zz-EYXx7LrQ9hJcTbg"], "publishedWithin": "threeMonths", "sort": "breakoutScore", "limit": 20},
-      "result": {"videos": []},
+      "params": {
+        "channelIds": [
+          "UCzTi3Zz-EYXx7LrQ9hJcTbg"
+        ],
+        "publishedWithin": "threeMonths",
+        "sort": "breakoutScore",
+        "limit": 20
+      },
+      "result": {
+        "videos": []
+      },
       "notes": "@williamcat — zero breakout outliers in last 3 months. Confirms YouTube API observation that recent uploads are flat 5-30k. Channel's viral history is OLDER (2022-2024). DO NOT re-run outliers on williamcat for at least 30 days."
     },
     {
       "type": "similar_channels",
       "fetched": "2026-05-18",
       "credits_spent": 0,
-      "params": {"niche": "cat psychology cat behavior facts animated explainer shorts", "language": "en", "size": 30},
+      "params": {
+        "niche": "cat psychology cat behavior facts animated explainer shorts",
+        "language": "en",
+        "size": 30
+      },
       "result": "DENIED by permissions",
       "notes": "Tool blocked at MCP layer. No credits charged. If user wants this run, add to allowed-list and retry."
     },
@@ -543,7 +1488,11 @@
       "type": "breakout_channels",
       "fetched": "2026-05-18",
       "credits_spent": 5,
-      "params": {"query": "cat psychology cat facts behavior", "channelType": "short", "limit": 25},
+      "params": {
+        "query": "cat psychology cat facts behavior",
+        "channelType": "short",
+        "limit": 25
+      },
       "result_summary": "25 channels returned. Top new finds (validated): Gato Oculto (UC7ADFRVdbcsFQVUsCV9O1pQ +1208%), Catnip Chaos (UCEZj8zvPA7Q4zTn1pmY6Y-Q +94%), cat_nicin (UCiSWhaffviXG-oWs-PhQ6Fw), NoTime Stories (UCNexEoccPG7ArokOoPvoOkA), Purrfection (UCBtaTb3pZnIViAmbjSqyg0Q). False positives detected: MystiCats UCJELvS_nc7VEbDeXhOrMwug = actually Christian prayer channel; The Cat Code UCDCwtSaZoPICvcaLKohFEEw = actually Roblox-rant channel. Already-tracked: Kitty Verse (UCBcgZdQ-2D17yOOX8NqVeZA).",
       "notes": "HIGH-VALUE CALL — 25 channels for 5 credits. Re-run no more often than every 30-45 days; results overlap heavily within that window."
     },
@@ -551,7 +1500,11 @@
       "type": "channel_videos",
       "fetched": "2026-05-18",
       "credits_spent": 5,
-      "params": {"channelId": "UC7ADFRVdbcsFQVUsCV9O1pQ", "videoFormat": "short", "popular": true},
+      "params": {
+        "channelId": "UC7ADFRVdbcsFQVUsCV9O1pQ",
+        "videoFormat": "short",
+        "popular": true
+      },
       "result_summary": "Gato Oculto — 33 popular shorts. Universal formula: 'Esse gato [strange action]… e [reason/mystery]'. Sub-niche = paranormal/mystery cat storytelling. See competitor-tracker.md for full snapshot.",
       "notes": "Confirmed niche fit. Sub-niche we don't compete in — opportunity for 'What Cats Sense That You Can't' angle (science-grounded version)."
     },
@@ -559,7 +1512,11 @@
       "type": "channel_videos",
       "fetched": "2026-05-18",
       "credits_spent": 5,
-      "params": {"channelId": "UCJELvS_nc7VEbDeXhOrMwug", "videoFormat": "short", "popular": true},
+      "params": {
+        "channelId": "UCJELvS_nc7VEbDeXhOrMwug",
+        "videoFormat": "short",
+        "popular": true
+      },
       "result_summary": "FALSE POSITIVE — channel is 'God and love', Christian financial-prayer content. NOT cat psychology despite vidIQ misclassification. DO NOT add to tracker.",
       "notes": "Wasted 5 credits on vidIQ classification error. Lesson: vidIQ niche tags can be hallucinated; verify with channel_videos before tracking."
     },
@@ -567,7 +1524,11 @@
       "type": "channel_videos",
       "fetched": "2026-05-18",
       "credits_spent": 5,
-      "params": {"channelId": "UCBtaTb3pZnIViAmbjSqyg0Q", "videoFormat": "short", "popular": true},
+      "params": {
+        "channelId": "UCBtaTb3pZnIViAmbjSqyg0Q",
+        "videoFormat": "short",
+        "popular": true
+      },
       "result_summary": "Purrfection — 37 popular shorts. Direct AI-generated cat-facts format peer. Topics: 'Liquid cats', 'Smarter than you think', 'Scanning your soul', '3AM zoomies', 'CHIRPS like an alien', 'BONKS you', 'belly trap'. See competitor-tracker.md.",
       "notes": "Smallest tracked competitor (163 subs) but closest 1:1 format match. Their punchy CAPS+emoji title style is a candidate A/B test for us."
     },
@@ -575,7 +1536,11 @@
       "type": "channel_videos",
       "fetched": "2026-05-18",
       "credits_spent": 5,
-      "params": {"channelId": "UCDCwtSaZoPICvcaLKohFEEw", "videoFormat": "short", "popular": true},
+      "params": {
+        "channelId": "UCDCwtSaZoPICvcaLKohFEEw",
+        "videoFormat": "short",
+        "popular": true
+      },
       "result_summary": "FALSE POSITIVE — channel 'The Cat Code' is mostly Roblox-rant content with occasional cat-fight clips. NOT cat psychology. +1357% growth is on Roblox content. DO NOT add to tracker.",
       "notes": "Second vidIQ misclassification this session. Reinforces verify-before-add rule."
     }
