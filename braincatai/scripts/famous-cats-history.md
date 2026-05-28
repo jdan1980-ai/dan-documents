@@ -61,42 +61,42 @@ Preserve the input image exactly — same kitten, same anatomy, glasses, eyes (l
 
 **🇬🇧 English (copy this block alone):**
 ```
-Some cats are more famous than movie stars. One flew to space, another survived three shipwrecks. Here are five legends.
+Some cats are more famous than movie stars — one even flew to space. Here are five legends.
 
-Number one — Félicette. In 1963, France launched her into space. She's the only cat who has ever reached the stars.
+Number one — Félicette. In 1963, France launched her into space. The only cat ever to reach the stars.
 
-Number two — Unsinkable Sam. He survived not one, not two, but three ships sinking under him in World War Two.
+Number two — Unsinkable Sam. He survived three different ships sinking under him in World War Two.
 
-Number three — Tama. This little cat became a train station master in Japan, and saved the whole railway from closing.
+Number three — Tama. She became a train station master in Japan and saved the railway from closing.
 
-Number four — Larry. He lives at the British Prime Minister's house with an official job title: Chief Mouser.
+Number four — Larry. He lives with the British Prime Minister — official title: Chief Mouser.
 
-Number five — Stubbs. He was the honorary mayor of a town in Alaska for twenty years.
+Number five — Stubbs. Honorary mayor of an Alaskan town for twenty years.
 
-These cats prove one thing — a cat can change the world just by being itself.
+These cats prove it — a cat can change the world just by being itself.
 
-Subscribe — maybe the next famous cat is sleeping on your couch right now.
+Subscribe — the next famous cat might be sleeping on your couch.
 ```
 
 **🇷🇺 Русская версия (copy this block alone):**
 ```
-Некоторые коты знаменитее кинозвёзд. Один летал в космос, другой пережил три кораблекрушения. Вот пять легенд.
+Некоторые коты знаменитее кинозвёзд — один даже летал в космос. Вот пять легенд.
 
-Номер один — Фелисетт. В 1963-м Франция отправила её в космос. Она единственная кошка, побывавшая среди звёзд.
+Номер один — Фелисетт. В 1963-м Франция отправила её в космос. Единственная кошка среди звёзд.
 
-Номер два — Непотопляемый Сэм. Он пережил не одно, не два, а целых три кораблекрушения во Вторую мировую.
+Номер два — Непотопляемый Сэм. Он пережил три кораблекрушения во Вторую мировую.
 
-Номер три — Тама. Эта маленькая кошка стала начальником ж/д станции в Японии и спасла дорогу от закрытия.
+Номер три — Тама. Стала начальником станции в Японии и спасла дорогу от закрытия.
 
-Номер четыре — Ларри. Он живёт в доме премьер-министра Британии с официальной должностью: главный мышелов.
+Номер четыре — Ларри. Живёт у премьер-министра Британии. Должность: главный мышелов.
 
-Номер пять — Стаббс. Он двадцать лет был почётным мэром городка на Аляске.
+Номер пять — Стаббс. Двадцать лет был почётным мэром городка на Аляске.
 
-Эти коты доказали одно — кот может изменить мир, просто оставаясь собой.
+Эти коты доказали — кот может изменить мир, просто оставаясь собой.
 
-Подпишись — может, следующий знаменитый кот спит на твоём диване прямо сейчас.
+Подпишись — следующий знаменитый кот может спать на твоём диване.
 ```
-_~115 слов EN, ~7с/сцена._
+_~115 слов EN, ~7с/сцена (обрезано под ≤60с)._
 
 ---
 
@@ -115,11 +115,11 @@ Brain gives an eager presenting gesture with one paw, eyes bright, the little ro
 ```
 **🎙️ VO (EN):**
 ```
-Some cats are more famous than movie stars. One flew to space, another survived three shipwrecks. Here are five legends.
+Some cats are more famous than movie stars — one even flew to space. Here are five legends.
 ```
 **🎙️ VO (RU):**
 ```
-Некоторые коты знаменитее кинозвёзд. Один летал в космос, другой пережил три кораблекрушения. Вот пять легенд.
+Некоторые коты знаменитее кинозвёзд — один даже летал в космос. Вот пять легенд.
 ```
 **Оверлей (CapCut):** «5 FAMOUS CATS» на 2с + тёплый «sparkle» SFX.
 
@@ -138,11 +138,11 @@ The tuxedo cat floats gently weightless in space, slowly drifting, looking aroun
 ```
 **🎙️ VO (EN):**
 ```
-Number one — Félicette. In 1963, France launched her into space. She's the only cat who has ever reached the stars.
+Number one — Félicette. In 1963, France launched her into space. The only cat ever to reach the stars.
 ```
 **🎙️ VO (RU):**
 ```
-Номер один — Фелисетт. В 1963-м Франция отправила её в космос. Она единственная кошка, побывавшая среди звёзд.
+Номер один — Фелисетт. В 1963-м Франция отправила её в космос. Единственная кошка среди звёзд.
 ```
 **Оверлей (CapCut):** цифра «1» + подпись «FÉLICETTE · 1963» + лёгкий «space whoosh» SFX.
 
@@ -161,11 +161,11 @@ The black-and-white cat stands steady on the ship deck, the sea gently sways beh
 ```
 **🎙️ VO (EN):**
 ```
-Number two — Unsinkable Sam. He survived not one, not two, but three ships sinking under him in World War Two.
+Number two — Unsinkable Sam. He survived three different ships sinking under him in World War Two.
 ```
 **🎙️ VO (RU):**
 ```
-Номер два — Непотопляемый Сэм. Он пережил не одно, не два, а целых три кораблекрушения во Вторую мировую.
+Номер два — Непотопляемый Сэм. Он пережил три кораблекрушения во Вторую мировую.
 ```
 **Оверлей (CapCut):** цифра «2» + подпись «UNSINKABLE SAM» + мягкий «sea/wave» SFX.
 
@@ -184,11 +184,11 @@ The calico cat sits proudly at her station post, gives a small dutiful head-lift
 ```
 **🎙️ VO (EN):**
 ```
-Number three — Tama. This little cat became a train station master in Japan, and saved the whole railway from closing.
+Number three — Tama. She became a train station master in Japan and saved the railway from closing.
 ```
 **🎙️ VO (RU):**
 ```
-Номер три — Тама. Эта маленькая кошка стала начальником ж/д станции в Японии и спасла дорогу от закрытия.
+Номер три — Тама. Стала начальником станции в Японии и спасла дорогу от закрытия.
 ```
 **Оверлей (CapCut):** цифра «3» + подпись «TAMA · STATION MASTER» + мягкий «train» SFX.
 
@@ -207,11 +207,11 @@ The white-and-brown-tabby cat sits proudly by the black "10" door, gives a confi
 ```
 **🎙️ VO (EN):**
 ```
-Number four — Larry. He lives at the British Prime Minister's house with an official job title: Chief Mouser.
+Number four — Larry. He lives with the British Prime Minister — official title: Chief Mouser.
 ```
 **🎙️ VO (RU):**
 ```
-Номер четыре — Ларри. Он живёт в доме премьер-министра Британии с официальной должностью: главный мышелов.
+Номер четыре — Ларри. Живёт у премьер-министра Британии. Должность: главный мышелов.
 ```
 **Оверлей (CapCut):** цифра «4» + подпись «LARRY · 10 DOWNING ST» + мягкий «posh ding» SFX.
 
@@ -230,11 +230,11 @@ The fluffy orange tabby cat sits importantly on the podium, lifts his chin proud
 ```
 **🎙️ VO (EN):**
 ```
-Number five — Stubbs. He was the honorary mayor of a town in Alaska for twenty years.
+Number five — Stubbs. Honorary mayor of an Alaskan town for twenty years.
 ```
 **🎙️ VO (RU):**
 ```
-Номер пять — Стаббс. Он двадцать лет был почётным мэром городка на Аляске.
+Номер пять — Стаббс. Двадцать лет был почётным мэром городка на Аляске.
 ```
 **Оверлей (CapCut):** цифра «5» + подпись «STUBBS · CAT MAYOR · 20 YEARS» + мягкий «applause» SFX.
 
@@ -253,11 +253,11 @@ Brain gives a warm proud slow blink to camera, the five little star-icons gently
 ```
 **🎙️ VO (EN):**
 ```
-These cats prove one thing — a cat can change the world just by being itself.
+These cats prove it — a cat can change the world just by being itself.
 ```
 **🎙️ VO (RU):**
 ```
-Эти коты доказали одно — кот может изменить мир, просто оставаясь собой.
+Эти коты доказали — кот может изменить мир, просто оставаясь собой.
 ```
 **Оверлей (CapCut):** «CATS CHANGE THE WORLD» в нижней трети + тёплый music-resolve.
 
@@ -267,11 +267,11 @@ These cats prove one thing — a cat can change the world just by being itself.
 **🎬 Что в кадре:** универсальный клип `assets/universal-scene-8.mp4` (Brain машет + slow-blink). ИЛИ короткий Kling: Brain кивает на пустой диван с лёгкой ухмылкой.
 **🎙️ VO (EN):**
 ```
-Subscribe — maybe the next famous cat is sleeping on your couch right now.
+Subscribe — the next famous cat might be sleeping on your couch.
 ```
 **🎙️ VO (RU):**
 ```
-Подпишись — может, следующий знаменитый кот спит на твоём диване прямо сейчас.
+Подпишись — следующий знаменитый кот может спать на твоём диване.
 ```
 > Интригующий open-loop CTA (фикс из killer-разбора).
 
