@@ -4,7 +4,7 @@
     "schema_version": "1.1",
     "created": "2026-05-17",
     "last_updated": "2026-05-28",
-    "total_credits_spent": 240,
+    "total_credits_spent": 245,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
@@ -16,7 +16,8 @@
       "2026-05-26 (later): +10 credits — 2× keyword_research. 'cat separation anxiety' YELLOW 55.70/3,883 (weaker than cached YELLOWs, skip 27 May). 'cat night vision' RED 30.48/0 BUT confirms 'cat vision' 64.20/9,246 (already cached 23 May, unused) as the strongest available pick — recommended angle: 'Your Cat Sees Your TV Differently' (flicker fusion) or 'Sees Colors You Can't'. JACKPOT flag: 'cat purring' 69.30/92,940 — defer (cannibalizes Apr 22 purr-heal-bones).",
       "2026-05-28: +10 credits — 2x keyword_research on user's 'cats in the circus' idea. 'circus cats' RED 21/0 AND polluted by Cats-the-musical / AGT noise. 'can cats be trained' RED 27.52/0 BUT related WINNER 'cat training' 66.58/17,769/comp-28.7 GREEN. Decision: build the circus story (Kuklachev / how circus cats are selected+trained+live) inside a 'cat training' keyword video — counterintuitive hook 'cats can't be trained... but circus cats do backflips'.",
       "2026-05-28 (analytics): +5 credits — vidiq_channel_analytics on OWN channel (BrainCatAI is authorized to vidIQ account; vidiq_user_channels free confirmed it). Got owner retention/watch-time/subs by day 14-25 May. KEY: killer-machine 22 May = 324% avg-view % / 168s avg duration on ~58s short (~3x loops) — the recovery driver. 18 May RED-override = worst retention 26.1%. NOTE: thumbnail impressions/CTR NOT available via this API metric set — Studio only.",
-      "2026-05-28 (traffic source): +5 credits — vidiq_channel_analytics by insightTrafficSourceType, 21-28 May. KEY FINDING: recovery is driven by YT_SEARCH (46 views / 68.2% retention) — GREEN-keyword strategy validated. Shorts FEED still small (11 views / 22.3% retention) = algo testing, not yet amplifying. Strategy: keep GREEN keywords (search works) + raise Shorts-feed retention via killer-formula + 3-sec hook to trigger the feed firehose."
+      "2026-05-28 (traffic source): +5 credits — vidiq_channel_analytics by insightTrafficSourceType, 21-28 May. KEY FINDING: recovery is driven by YT_SEARCH (46 views / 68.2% retention) — GREEN-keyword strategy validated. Shorts FEED still small (11 views / 22.3% retention) = algo testing, not yet amplifying. Strategy: keep GREEN keywords (search works) + raise Shorts-feed retention via killer-formula + 3-sec hook to trigger the feed firehose.",
+      "2026-05-28 (famous cats): +5 credits — user idea 'most famous cats in the world'. Seed 'famous cats' YELLOW 57.85/5,099. JACKPOT related: 'top 10 cats' 71.41/11,518/comp-12.4 (very low comp, beats killer). 'nala cat' 60.74/27,354 (huge single-cat search). 'famous internet cats' 60.87/4,531. PRODUCTION NOTE: animated Brain channel can't show real famous cats — reframe to story-driven 'famous cats who made history' (Felicette space cat, Unsinkable Sam, Larry, Tama stationmaster, Stubbs mayor) with Brain as host + stylized vignettes. Listicle format under 'top 10 cats' keyword."
     ]
   },
   "queries": [
@@ -1454,6 +1455,42 @@
       ],
       "verdict": "Seed RED 27.52/0 BUT 'cat training' 66.58/17,769/comp-28.7 = GREEN (higher than killer). Strongest available topic right now.",
       "notes": "Use 'cat training' keyword. Vehicle = circus-cats story (Kuklachev Moscow Cats Theatre: rescues, never forced, build act around natural behavior). Hook: 'cats can't be trained... but circus cats do backflips — here's the secret'. Warm twist: trainers work WITH the cat, never punish."
+    },
+    {
+      "keyword": "famous cats",
+      "fetched": "2026-05-28",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 55.34,
+        "competition": 38.4,
+        "overall": 57.85,
+        "monthly": 5099
+      },
+      "top_related": [
+        {
+          "keyword": "top 10 cats",
+          "overall": 71.41,
+          "monthly": 11518,
+          "competition": 12.4
+        },
+        {
+          "keyword": "nala cat",
+          "overall": 60.74,
+          "monthly": 27354
+        },
+        {
+          "keyword": "famous internet cats",
+          "overall": 60.87,
+          "monthly": 4531
+        },
+        {
+          "keyword": "cat history",
+          "overall": 56.68,
+          "monthly": 8261
+        }
+      ],
+      "verdict": "YELLOW seed 57.85/5,099 BUT 'top 10 cats' 71.41/11,518/comp-12.4 = GREEN jackpot (very low competition, beats killer). Topic underexploited (user 'never seen this').",
+      "notes": "Animated-Brain channel CAN'T show real famous cats. Reframe to story-driven 'Famous Cats Who Made History' — Felicette (first cat in space), Unsinkable Sam (3 shipwrecks), Larry (UK PM mouser), Tama (JP stationmaster), Stubbs (cat mayor); Brain = host + stylized vignettes. Listicle format under 'top 10 cats' keyword. 'nala cat' 27k could be its own standalone story later."
     }
   ],
   "non_keyword_calls": [
