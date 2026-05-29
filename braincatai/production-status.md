@@ -135,6 +135,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `your-cat-sees-your-tv` | 27 мая | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (13 просм) |
 | `circus-cat-training` | 28 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `famous-cats-history` | 29 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `cat-sounds-never-ignore` | 30 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 

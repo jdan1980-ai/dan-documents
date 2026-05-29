@@ -249,6 +249,12 @@ wait people actually train cats?? mine won't even come when i call him 😭 have
 honestly the space cat broke my brain, i had no idea 😭 i wanna do a full video on one of these — which cat do you wanna know everything about?
 ```
 
+### 40. 5 Cat Sounds You Must NEVER Ignore (30 мая) — Cat Facts / Communication
+
+```
+ok the chirp one at birds is SO real mine does it every morning at the window 😭 which sound does your cat make the most? mine never shuts up honestly lol
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
