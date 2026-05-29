@@ -183,7 +183,42 @@ The sand falling in the Japanese hourglass (砂時計 sunadokei) is the recurrin
 2:00:00 — done
 
 🎵 Tracklist
-0:00 — [fill from final CapCut arrangement — keep 0:00 first, ascending, each ≥ 10 sec]
+0:00 — Rain on the Glass
+3:08 — First Light Down Low
+6:46 — Code Lines Drift
+10:19 — Neon Through Rain
+13:27 — The Sand Begins
+16:47 — Fireplace Holds
+20:03 — City Below the Pane
+23:23 — Quiet Keys
+27:13 — Break the Surface
+30:46 — Back to the Screen
+34:35 — Slow Traffic Streaks
+38:34 — Walnut and Amber
+41:38 — Steam and Static
+45:12 — Half the Hour Gone
+48:41 — Glass and Distance
+51:28 — Last Push of the Block
+55:00 — Hourglass Turns
+57:46 — Five Minutes Still
+1:01:15 — Third Block Opens
+1:04:12 — Deep Current
+1:08:06 — Midnight Coding
+1:12:00 — Rain Picks Up
+1:14:59 — Low Sub Pulse
+1:17:29 — Cedar Glow
+1:20:51 — Keep the Thread
+1:24:07 — Toward the Bell
+1:27:45 — Short Rest, Long City
+1:31:20 — Final Block Begins
+1:34:05 — Tokyo Hum
+1:37:08 — Distant Towers
+1:40:22 — Sand Runs Thin
+1:42:50 — Last Lines of Code
+1:46:29 — Rain Softens
+1:49:28 — Winding Down
+1:53:03 — Embers Low
+1:56:33 — The Last Turn
 
 ▶ Subscribe to StillWave for new Power Hour focus sessions every week.
 🔔 Tap the bell so you don't miss the next one.
@@ -191,7 +226,7 @@ The sand falling in the Japanese hourglass (砂時計 sunadokei) is the recurrin
 #pomodoro #studywithme #deepfocus #focusmusic #tokyorain #codingmusic #studymusic #workmusic #pomodoromusic #stillwave
 ```
 
-> Fill the tracklist after CapCut — name tracks scene-based (Rain Settles · Code Lines Drift · First Sand Falls · Fireplace Holds · Neon Through Rain · Midnight Block · Hourglass Turns · etc.).
+> Tracklist timecodes are TRACK START times, derived from the user's handwritten end-of-track list (start of track N = end of track N−1; final track ends 2:00:06). Pomodoro gongs at 25:00 / 30:00 / 1:00:00 / 1:25:00 / 1:30:00 / 1:55:00 fall *inside* a track (music fades through them, doesn't end) — only 55:00 is an actual song-end + gong. ⚠️ `48:41` was unclear in the photo — verify against the export. YouTube auto-chapters use the **Pomodoro schedule** block (it's first + starts 0:00); the tracklist entries are clickable links, not chapters.
 
 ## 9. 🏷️ Tags (Karena 20/20/40-50, 401 chars / 22)
 
