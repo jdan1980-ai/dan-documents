@@ -81,6 +81,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | 28 мая | Чт | **Cats CAN Be Trained — The Circus Secret** (cat training + circus story, counterintuitive + warm twist) | `circus-cat-training` | "cat training" **66.58 / 17,769 / comp 28.7 GREEN** (pivot из RED circus-cats 21/0) | ✅ скрипт+промты готовы → производство |
 | 29 мая | Пт | **A Cat Went to SPACE?! 5 Famous Cats Who Made History** (story-листикл, Brain-host) | `famous-cats-history` | "top 10 cats" **71.41 / 11,518 / comp 12.4 GREEN-jackpot** (pivot из YELLOW famous cats 57.85) | ✅ скрипт+промты готовы → производство |
 | 30 мая | Сб | **5 Cat Sounds You Must NEVER Ignore** (listicle) | `cat-sounds-never-ignore` | "cat sounds" **74.82 / 110,700 / comp 25.9 GREEN-JACKPOT** (крупнейший ключ канала) | ✅ скрипт+промты готовы → производство |
+| 31 мая | Вс | **5 Signs Your Cat SECRETLY Trusts You** (signs-листикл, позитив-зеркало) | `signs-cat-trusts-you` | "cat trust signs" **67.10 / 13,321 / comp 24.6 GREEN** | ✅ скрипт+промты готовы → производство |
 
 **Бэклог YELLOW (cached, available):**
 - `why-cats-wag-their-tails` 62.59 / 5,400 — лучший AVAILABLE в кэше
@@ -137,6 +138,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `circus-cat-training` | 28 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `famous-cats-history` | 29 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `cat-sounds-never-ignore` | 30 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `signs-cat-trusts-you` | 31 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 

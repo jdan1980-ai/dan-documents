@@ -255,6 +255,12 @@ honestly the space cat broke my brain, i had no idea 😭 i wanna do a full vide
 ok the chirp one at birds is SO real mine does it every morning at the window 😭 which sound does your cat make the most? mine never shuts up honestly lol
 ```
 
+### 41. 5 Signs Your Cat SECRETLY Trusts You (31 мая) — Cat Psychology / Trust
+
+```
+ok mine does like 4 of these and the tail-up thing every time i come home gets me every time 😭 how many does yours do? drop your number
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
