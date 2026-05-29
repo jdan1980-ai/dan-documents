@@ -268,7 +268,7 @@ The NanoBanana 16:9 IS the thumbnail (hourglass + MacBook + rain + fireplace + n
 
 - **Text:** `POMODORO`
 - **Tag below:** `25/5 · 2H`
-- Thin elegant serif, **gold `#E4C46C`** — Pomodoro-series exception to the cream default: the in-video timer (FOCUS/BREAK + digits) is gold, so the thumbnail goes gold too for a cohesive look, echoing the fireplace + hourglass sand. Low contrast, no glow/shadow/stroke.
+- Thin elegant serif, **deeper gold `#D4A22F`** (richer than the timer's #E4C46C so it reads clearly gold at thumbnail size) — Pomodoro-series exception to the cream default: the in-video timer (FOCUS/BREAK + digits) is gold, so the thumbnail goes gold too for a cohesive look, echoing the fireplace + hourglass sand. Low contrast, no glow/shadow/stroke.
 - The image is generated with the lower-left reserved as dark negative space.
 - Final: `assets/power-hour-pomodoro-tokyo-rain-thumb.jpg` (gold, locked)
 
