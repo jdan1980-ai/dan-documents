@@ -261,6 +261,12 @@ ok the chirp one at birds is SO real mine does it every morning at the window �
 ok mine does like 4 of these and the tail-up thing every time i come home gets me every time 😭 how many does yours do? drop your number
 ```
 
+### 42. Why Your Cat Suddenly BITES When You Pet It (1 июн) — Cat Psychology / Behavior
+
+```
+omg the tail thump warning is SO real i always miss it and then act surprised when he bites me 😭 does yours give you warning signs or just go straight for the hand lol
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы

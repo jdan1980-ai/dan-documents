@@ -82,6 +82,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | 29 мая | Пт | **A Cat Went to SPACE?! 5 Famous Cats Who Made History** (story-листикл, Brain-host) | `famous-cats-history` | "top 10 cats" **71.41 / 11,518 / comp 12.4 GREEN-jackpot** (pivot из YELLOW famous cats 57.85) | ✅ скрипт+промты готовы → производство |
 | 30 мая | Сб | **5 Cat Sounds You Must NEVER Ignore** (listicle) | `cat-sounds-never-ignore` | "cat sounds" **74.82 / 110,700 / comp 25.9 GREEN-JACKPOT** (крупнейший ключ канала) | ✅ скрипт+промты готовы → производство |
 | 31 мая | Вс | **5 Signs Your Cat SECRETLY Trusts You** (signs-листикл, позитив-зеркало) | `signs-cat-trusts-you` | "cat trust signs" **67.10 / 13,321 / comp 24.6 GREEN** | ✅ скрипт+промты готовы → производство |
+| 1 июн | Пн | **Why Your Cat Suddenly BITES When You Pet It** (overstimulation + 3 warning signs) | `why-cats-bite-when-petting` | "why does my cat bite me" **60.49 / 19,847 GREEN** + competitor 37x breakout/115K (bot title 89/100) | ✅ скрипт+промты готовы → производство |
 
 **Бэклог YELLOW (cached, available):**
 - `why-cats-wag-their-tails` 62.59 / 5,400 — лучший AVAILABLE в кэше
@@ -139,6 +140,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `famous-cats-history` | 29 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `cat-sounds-never-ignore` | 30 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `signs-cat-trusts-you` | 31 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `why-cats-bite-when-petting` | 1 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 
