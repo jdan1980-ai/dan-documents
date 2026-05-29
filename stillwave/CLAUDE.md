@@ -64,7 +64,8 @@ This Spacious Tokyo Penthouse backdrop is the LOCKED visual signature of StillWa
 - **Why locked:** parallel to Healing Hour's stone lantern — Power Hour's signature is the **hourglass + MacBook + penthouse + fireplace**. Recognizable across every video = brand.
 - **Motion (Flow):** the sand falling is one of the LIVE motion elements in the loop (rain on glass + sand falling + fireplace flame + laptop cursor). Gentle, hypnotic, on-theme for "focus session."
 - **Symbolism:** one turn of the hourglass = one focus block (one pomodoro). Even when the video isn't a literal Pomodoro, the hourglass = "time is being well spent."
-- **Format:** specifically pair this signature with **Pomodoro structure videos** when applicable — the hourglass is the in-scene soul, a clean digital `FOCUS 50:00 / BREAK 10:00` overlay (CapCut, upper-center) handles the actual countdown.
+- **Format:** specifically pair this signature with **Pomodoro structure videos** when applicable — the hourglass is the in-scene soul, a clean digital `FOCUS / BREAK` countdown overlay (upper-center) handles the actual time.
+- **🔒 Pomodoro-series look (locked):** the countdown overlay is **pre-rendered as a green-screen chroma-key MP4** (CapCut doesn't read webm alpha → black box; chroma-key MP4 works on free CapCut). Drop on the top track, key out the green, lay the penthouse loop underneath. Text = **gold `#E4C46C`** (Pomodoro exception to the cream default — echoes fireplace + hourglass sand), bold Liberation Serif, fixed-width digits, dark choke outline so chroma keying leaves no green fringe. The **thumbnail text goes gold too** for consistency. Reusable assets: `stillwave/assets/timer-focus-25min-chroma.mp4` + `timer-break-05min-chroma.mp4`. Pair with the "music-breathing" gong fades (long 50s taper into focus, quick 10s dip into breaks).
 
 ### Laptop screen content per use case
 
