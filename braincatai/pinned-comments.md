@@ -246,7 +246,7 @@ wait people actually train cats?? mine won't even come when i call him 😭 have
 ### 39. A Cat Went to SPACE?! 5 Famous Cats Who Made History (29 мая) — Cat Facts / History
 
 ```
-honestly the space cat broke my brain, i had no idea 😭 i wanna do a full video on one of these — which cat do you wanna know everything about?
+wait a cat actually went to SPACE?? 😭 i genuinely had no idea. which one shocked you the most — and which cat should i do a full video on next? tell me below
 ```
 
 ### 40. 5 Cat Sounds You Must NEVER Ignore (30 мая) — Cat Facts / Communication

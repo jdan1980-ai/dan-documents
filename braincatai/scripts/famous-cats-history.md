@@ -292,11 +292,11 @@ Warm adventurous "hall of fame" cat-facts score for a 60-second YouTube Short "F
 ## 📌 Pinned comment (человеческий тон + ask на стендалоны)
 🇬🇧:
 ```
-honestly the space cat broke my brain, i had no idea 😭 i wanna do a full video on one of these — which cat do you wanna know everything about?
+wait a cat actually went to SPACE?? 😭 i genuinely had no idea. which one shocked you the most — and which cat should i do a full video on next? tell me below
 ```
 🇷🇺:
 ```
-кот в космосе реально сломал мне мозг, я вообще не знал 😭 хочу сделать целое видео про одного из них — про кого рассказать подробно?
+стоп, кот реально летал в КОСМОС?? 😭 я вообще не знал. кто из них шокировал больше всех — и про какого кота сделать отдельное видео? пиши ниже
 ```
 > Этот закреп = деманд-сигнал: аудитория голосует, какой стендалон делать первым (Фелисетт / Ларри / Стаббс / Сэм).
 

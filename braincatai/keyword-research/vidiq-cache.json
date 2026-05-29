@@ -4,7 +4,7 @@
     "schema_version": "1.1",
     "created": "2026-05-17",
     "last_updated": "2026-05-28",
-    "total_credits_spent": 285,
+    "total_credits_spent": 290,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
@@ -19,7 +19,8 @@
       "2026-05-28 (traffic source): +5 credits — vidiq_channel_analytics by insightTrafficSourceType, 21-28 May. KEY FINDING: recovery is driven by YT_SEARCH (46 views / 68.2% retention) — GREEN-keyword strategy validated. Shorts FEED still small (11 views / 22.3% retention) = algo testing, not yet amplifying. Strategy: keep GREEN keywords (search works) + raise Shorts-feed retention via killer-formula + 3-sec hook to trigger the feed firehose.",
       "2026-05-28 (famous cats): +5 credits — user idea 'most famous cats in the world'. Seed 'famous cats' YELLOW 57.85/5,099. JACKPOT related: 'top 10 cats' 71.41/11,518/comp-12.4 (very low comp, beats killer). 'nala cat' 60.74/27,354 (huge single-cat search). 'famous internet cats' 60.87/4,531. PRODUCTION NOTE: animated Brain channel can't show real famous cats — reframe to story-driven 'famous cats who made history' (Felicette space cat, Unsinkable Sam, Larry, Tama stationmaster, Stubbs mayor) with Brain as host + stylized vignettes. Listicle format under 'top 10 cats' keyword.",
       "2026-05-28 (famous-cats standalones): +15 credits — 3x keyword_research to test individual famous cats as standalones. Felicette: 'felicette' 64.32/7,448/comp-25.9 + 'felicette space cat' 63.19/5,285 = STRONGEST (YELLOW-GREEN, low comp). Larry: 'larry cat' 56.66/11,662/comp-49.4 (good volume but meme-heavy). Stubbs: 'cat mayor' 60.74/3,426/comp-27.3 (YELLOW, modest). Sam + Tama names = ~0 search (listicle-only / Sam = feed-CTR hook play). PLAN: listicle first (29 May), pinned comment asks which cat for a deep-dive (audience-vote demand signal), then spin off Felicette > Larry > Stubbs > Sam spaced among GREEN topics.",
-      "2026-05-28 (user 20-topic batch): triaged free vs cache/published (most were dupes/blocked: purr, slow-blink, ignore, knead, boxes, stare). +25 credits on 5 genuinely-new. JACKPOT 'cat sounds' 74.82/110,700/comp-25.9 (5 Cat Sounds listicle). GREEN 'cat trust signs' 67.10/13,321/comp-24.6 (Signs Your Cat Trusts You). YELLOW-GREEN 'cat body language' 61.89/47,568/comp-50. RED: 'why do cats hide their kittens' (no search), 'cats training their owners' (no own keyword + cannibalizes circus). Cached-available: cat jealousy 59.01/5,156, 'why does my cat bite me' 60.49/19,847 (love bites). Buff-cat-vs-kitten = off-format, skip."
+      "2026-05-28 (user 20-topic batch): triaged free vs cache/published (most were dupes/blocked: purr, slow-blink, ignore, knead, boxes, stare). +25 credits on 5 genuinely-new. JACKPOT 'cat sounds' 74.82/110,700/comp-25.9 (5 Cat Sounds listicle). GREEN 'cat trust signs' 67.10/13,321/comp-24.6 (Signs Your Cat Trusts You). YELLOW-GREEN 'cat body language' 61.89/47,568/comp-50. RED: 'why do cats hide their kittens' (no search), 'cats training their owners' (no own keyword + cannibalizes circus). Cached-available: cat jealousy 59.01/5,156, 'why does my cat bite me' 60.49/19,847 (love bites). Buff-cat-vs-kitten = off-format, skip.",
+      "2026-05-29 (cat intelligence, bot idea #2): +5 credits. 'cat intelligence test' YELLOW 56.80/3,942/comp-38.5 — weaker than queue (sounds 74.82 / trust 67.10 / bite 60.49). Related: 'cat challenge' 61.72/11,950 (TikTok cat-wall-test craze), 'cat logic' 54.34/19,067, 'cat wall test' 55.94/3,680. Verdict: CTR/engagement play (interactive 'test your cat'), not a search jackpot. Lower priority than current queue; do later as variety, tie to TikTok cat-wall-test trend."
     ]
   },
   "queries": [
@@ -1739,6 +1740,37 @@
       ],
       "verdict": "Seed RED (no data). Falls under 'cat training' 64.32/20k — which we ALREADY used for circus-cat-training (28 May). No own keyword + cannibalizes circus. HOLD.",
       "notes": "Skip for now — would cannibalize the fresh circus video. Revisit much later if circus performs and we want a reverse-angle."
+    },
+    {
+      "keyword": "cat intelligence test",
+      "fetched": "2026-05-29",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 53.68,
+        "competition": 38.5,
+        "overall": 56.8,
+        "monthly": 3942
+      },
+      "top_related": [
+        {
+          "keyword": "cat challenge",
+          "overall": 61.72,
+          "monthly": 11950,
+          "competition": 37
+        },
+        {
+          "keyword": "cat logic",
+          "overall": 54.34,
+          "monthly": 19067
+        },
+        {
+          "keyword": "cat wall test",
+          "overall": 55.94,
+          "monthly": 3680
+        }
+      ],
+      "verdict": "YELLOW 56.80/3,942 — weaker than queue (cat-sounds/trust/bite). Competitor breakout proof strong (bot: 867K/265x) but search only YELLOW = CTR/engagement play, not search.",
+      "notes": "Interactive 'test your cat at home' (paw-preference / object permanence / puzzle) = high engagement/comments. Tie to TikTok 'cat wall test' craze for timeliness. Lower priority — do later as variety, not over the GREEN queue."
     }
   ],
   "non_keyword_calls": [
