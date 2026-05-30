@@ -135,6 +135,23 @@ User policy as of 11 мая 2026: **every BrainCatAI video must be about cats.**
 
 Existing non-cat scripts in the repo (Sky Blue, Doorway Effect, Vagus Nerve, Black Hole, Goosebumps, 6-7 Kids Trend) are **legacy** — do not duplicate, do not generate sequels in those niches. Their slots in the schedule should be swapped for cat topics where still possible.
 
+#### ❌ Anti-patterns — formats/practices we DON'T do (locked 30 мая 2026, from Nexlev+vidIQ analysis `analytics/2026-05-30-channel-analysis-nexlev.md`)
+
+We stay in "cat psychology explainer" niche AND we don't drift to formats that have views but no moat:
+
+- ❌ **NO compilation / repost нарезки** (CatExy / Cat Ranking style) — others' clips → copyright risk + zero knowledge moat + kills the expert-persona advantage.
+- ❌ **NO AI-fiction / sketch series** (Orange Cat Chaos Lab style) — different audience, race to absurdity, loses educational identity.
+- ❌ **NO single-cat biographical narrative** (Cats5ive / Boy the Flip Cat style) — about one specific cat → doesn't scale as a brand.
+- ❌ **NO generic faceless narration without persona** — **Brain-as-cat-scientist IS the moat.** Lean into the persona: recurring mascot, mini-series, signature sign-off. Don't make videos that could be on any cat channel.
+- ❌ **NO grammar errors in titles** — kills CTR and trust (e.g. "Does cats have 9 lives?" must be "Do Cats Have 9 Lives?"). Always proofread before publish.
+- ❌ **NO key-behavior at END of title** — the specific behavior people search/recognize must be at the **START** of the title. Bad: "The REAL Reason for Why Your Cat Stares". Good: "Why Your Cat Stares — The REAL Reason".
+- ❌ **NO abandoning what worked** — when a video hits (killer 22 May 5.2% CTR, TV 27 May leader, signs 21 May), **double down with 2-3 follow-ups on the same pattern within 2 weeks** (algorithm already knows who to show it to). We've been doing this (killer → stare-at-nothing; signs → trust-signs) — keep it as a rule.
+
+**Benchmark target:** Furever Stories (44.2K subs, ~$8.1K, "Why Do Cats Not Like Belly Rubs?" 3.8M) — same niche, same model, executed better. That's our trajectory.
+
+> ⚠️ **Open strategic question (logged in analytics 30 мая):** Nexlev recommends **4-5 strong videos/week instead of 1/day** to avoid diluting quality and choking the algorithm with weaker fillers. Our current cadence is 1/day. Needs a Dan decision — do not change cadence unilaterally; surface in chat.
+
+
 #### 🔍 MANDATORY — Pre-scripting vidIQ keyword check (locked 13 мая 2026)
 
 **Before writing ANY new script, pull `vidiq_keyword_research` on the main keyword for that topic.** Do NOT skip this. Do NOT write a script until the keyword check is done and the user has seen the score.
