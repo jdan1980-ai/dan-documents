@@ -149,7 +149,7 @@ We stay in "cat psychology explainer" niche AND we don't drift to formats that h
 
 **Benchmark target:** Furever Stories (44.2K subs, ~$8.1K, "Why Do Cats Not Like Belly Rubs?" 3.8M) — same niche, same model, executed better. That's our trajectory.
 
-> ⚠️ **Open strategic question (logged in analytics 30 мая):** Nexlev recommends **4-5 strong videos/week instead of 1/day** to avoid diluting quality and choking the algorithm with weaker fillers. Our current cadence is 1/day. Needs a Dan decision — do not change cadence unilaterally; surface in chat.
+> 📅 **Cadence decision (locked 30 мая 2026, Dan):** **1 video/day** during recovery. Nexlev recommended 4-5/week to avoid diluting quality, but on stage-recovery (algo just starting to push via search 68%) the daily signal of activity matters more — slowing down now risks signalling "channel stalled." Revisit cadence once recovery is confirmed (subs growing, Shorts-feed retention > 30%, then consider switching to 5/week to up quality-per-video).
 
 
 #### 🔍 MANDATORY — Pre-scripting vidIQ keyword check (locked 13 мая 2026)
