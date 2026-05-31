@@ -24,8 +24,8 @@ After publish (May 10, 14:00):
 - **48h review** — May 12, 14:00 → pull live API data, log views/likes/comments/CTR
 - **7d review** — May 17, 14:00 → full retention analysis + comment mining + first lessons
 - **30d review** — June 9, 14:00 → final perf snapshot, decide if pattern goes into Power Hour series template
-| `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⚠️ predates locked Pomodoro look (hourglass + chroma timer + music-breathing). Reshape before producing. |
+| ~~`lantern-glow-study-3h`~~ | ~~Quiet Hours Focus Music — Lantern Glow Study~~ | ~~3H~~ | ~~✅~~ | — | — | — | — | — | 🪦 **Dropped 2026-05-31** — 2H cap rule (CLAUDE.md). Length above 2H no longer in scope. |
 | `healing-hour-vol-1-528hz-kyoto-zen-garden` | 528 Hz Healing Frequency \| Kyoto Zen Garden Meditation to Stop Overthinking | 1H 02min | ✅ | ⏳ | ✅ 16:9 + thumb done | ⏳ | ⏳ | ⏳ |
 | `power-hour-528hz-tokyo-sound-bath` | 528 Hz Deep Sleep Music \| Tokyo Sound Bath for Anxiety Relief & Healing | 1H | ✅ | n/a (existing audio) | ✅ bowl thumb | n/a | ✅ rebrand applied | ✅ **published/scheduled 21.5** (`-1RE1P98_u8`) |
 | `power-hour-pomodoro-tokyo-rain-25-5` | Pomodoro Study With Me — Deep Focus Music \| Tokyo Rain 25/5 for Coding & Studying | 2H (25/5 ×4) | ✅ | ✅ | ✅ gold thumb | ✅ CapCut assembled | ✅ **scheduled Mon Jun 1, 07:00** | ⏳ |

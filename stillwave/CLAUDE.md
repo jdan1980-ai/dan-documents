@@ -190,6 +190,21 @@ Keep the existing `1 Hour Healing Uninterrupted Vol. N` series tag in the subtit
 > Music = a **full album of unique Suno tracks** (e.g. 17–20 tracks ≈ 1–1.5H), laid end-to-end in CapCut. NOT 1–2 tracks looped. Rain + ambience = overlay audio tracks in CapCut. Visual = a Flow/Kling motion clip looped/extended on the CapCut video track to cover the length. Wisdom-intro PNG + thumbnail handled as documented. Export from CapCut.
 > The Mode A / Mode B / `ffmpeg -stream_loop` methods below are **LEGACY** (kept for reference / budget runs only).
 
+### 🔒 Length cap — MAX 2 hours (locked 2026-05-31)
+
+**No videos longer than 2H.** Reasons:
+1. **No measured lift from longer length.** Healing Hour 1H plateau-ed at 157 by D10; channel data shows length above 1–2H doesn't unlock more pushes.
+2. **Hardware reality.** Slow PC + CapCut chokes on multi-hour timelines (already heavy at 2H Pomodoro).
+3. **Quality over duration.** A **full album of unique Suno tracks** beats a few tracks looped for hours. Repeat-viewer loyalty is to the *music*, not to the loop length. Looping is forbidden in current workflow.
+
+Sweet spot per format:
+- **Power Hour Pomodoro:** exactly 2H (4 × 25/5 cycles — structural)
+- **Power Hour standard focus:** 1H (60-90 min)
+- **Healing Hour:** 1H (validated at 528 Hz Kyoto, 963 Mount Koya)
+- **Shorts:** 30-60 sec
+
+Drop any 3H / 6H / 8H ambitions from the backlog. If a theme calls for length, ship a **series of 1-2H volumes** instead.
+
 ### Mode A — Static image + audio (LEGACY — cheapest, no Flow/Kling)
 
 | Stage | Long-form |
