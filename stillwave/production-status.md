@@ -62,27 +62,42 @@ The original "528 Hz Japanese Zen Music Marathon Vol. 1" (`-1RE1P98_u8`) stalled
 | Vol | Date | Title | Hz | Visual | Status | Early data | Notes |
 |-----|------|-------|----|----|--------|-----------|-------|
 | Sound Bath (moved out) | 2026-05-14, rebrand 05-21 | 528 Hz Deep Sleep Music \| Tokyo Sound Bath for Anxiety Relief & Healing (`-1RE1P98_u8`) | 528 | Photoreal penthouse → DEEP CALM | ✅ rebrand applied | **56, stalled** | Rebrand of a stalled video barely moved it. Lesson: reviving a stalled video ≈ doesn't work. |
-| **1** | **2026-05-21** | **528 Hz Healing Frequency \| Stop Overthinking** (`po4jmYdX2_w`) | 528 | Ghibli Kyoto garden, QUIET MIND | ✅ **published 05-21** | D1=64 · D2=137 🔥 · D3=147 · D4=150 · D5=156 · **D6=157** · likes 4 · like-rate 2.5% · comments 1 | Strong D1-D2 burst (137 by D2 = best D2 on channel), then **HARD PLATEAU from D3** (+20 only across D3-D6). Algo push spent quickly. Like-rate below 3% threshold. Diagnosis: thumbnail/title pulled the click, follow-through/retention/recommend signals didn't sustain. Compare 852 Hz Monks' Secret: 4 → 268 by D5 (sustained climb). |
-| **2** | **2026-05-26** | **963 Hz Frequency of God \| Pineal Gland Activation for Spiritual Awakening** (`pwnoQYJjgOo`) | 963 | Ghibli Mount Koya night, gold AWAKEN, stone lantern, intro 天地一如 | ✅ **published 05-26** | **D1 ≈ 400 views** (channel +432 on 05-26 vs ~+15-20 baseline) = **×6 stronger Day-1 than Kyoto** 🔥 | "Frequency of God" mystery framing + gold thumb + cosmic Ghibli HITTING harder than "Stop Overthinking" + cream. Validates the mystery-frame hypothesis. Shorts cross-promo 05-27. Watch D2-D3 (05-28 / 05-29) for sustain — if it doesn't plateau like Kyoto, lock the mystery template. |
+| **1** | **2026-05-21** | **528 Hz Healing Frequency \| Stop Overthinking** (`po4jmYdX2_w`) | 528 | Ghibli Kyoto garden, QUIET MIND | ✅ **published 05-21** | D1=64 · D2=137 🔥 · D3=147 · D6=157 · **D10=157** · likes 4 · like-rate 2.5% · comments 1 | Strong D2 burst (137), then **HARD PLATEAU from D4** — D6 to D10 = ZERO new views, VPH=0 since D8. Algo gave it the test, dropped it cold. Like-rate below 3% threshold. Diagnosis: thumbnail/title pulled click, retention/recommend signals didn't carry. Compare 852 Hz Monks' Secret: 4 → 268 by D5 (sustained climb) — we DIDN'T match that pattern. |
+| **2** | **2026-05-26** | **963 Hz Frequency of God \| Pineal Gland Activation for Spiritual Awakening** (`pwnoQYJjgOo`) | 963 | Ghibli Mount Koya night, gold AWAKEN, stone lantern, intro 天地一如 | ✅ **published 05-26** | **D1=12** · D2=29 · D3=31 · **D5=32, 0 likes, 1 comment** | 🔴 **FLOPPED.** Original log "D1≈400" was misattribution — channel +432 on 05-26 came from Shorts cross-promo + recommended-to-backlog wave, NOT this long-form (per-video VPH stats show real D1=12, D5=0.10). **Mystery-frame hypothesis BUSTED:** "Frequency of God" + gold thumb + cosmic Ghibli underperforms "Stop Overthinking" + cream cream. Worse than Kyoto on every metric. Don't lock the template — shelve. |
 
-### Channel-level signal (2026-05-19 → 2026-05-27)
+### Channel-level signal (2026-05-19 → 2026-05-31)
 
-- Subs: **38 → 48 (+10 in 6 days)** — channel was stuck at 38 for 11 consecutive days before Vol. 1 launched. Healing Hour relaunch broke the stall.
-- Views: 4573 → 5302 (+729). Biggest single-day jump: **+432 on 05-26 (963 launch day)** — best day in channel history.
-- Conclusion: the Healing Hour Ghibli + keyword-front-loaded titles are the validated growth lever.
+- Subs: **38 → 49 (+11 in 12 days)**, then **stalled at 49 since 05-28** (4 days flat). Initial bump was real, but momentum gone.
+- Views growth crashed: 05-26 +432 → 05-29 +26 → 05-31 **+5**. Algo boost fully exhausted, channel back to ~5-15/day baseline.
+- **Correction (2026-05-31):** the 05-26 +432 jump was earlier attributed to the 963 long-form. Per-video data shows that's wrong — 963 itself only got ~12 views D1. The +432 came from Shorts cross-promo and old-video recommendation surges. Healing Hour long-form is NOT the channel growth lever we thought.
+
+### 🔴 Key lesson (2026-05-31) — Healing Hour pattern under question
+
+Two-of-two Healing Hour videos hit D2 push and then plateaued. The Ghibli aesthetic + keyword-front title gets the **click**, but the **watch/retention/save signals** aren't sustaining the algorithmic push. Diagnosis options (need YouTube Studio retention data to confirm):
+- Audio not compelling enough to keep viewers past 30s
+- Title overpromises ("Frequency of God" → people expect more)
+- Wrong audience segment from the click (curiosity, not intent)
+- Saturated cluster — competitors do it better/longer
+
+**Until diagnosed: pause more Healing Hour launches.** Pomodoro Mon 06-01 is the next test in a different cluster.
 
 ### 🏆 Key lesson (2026-05-22) — fresh upload >> rebrand of a stalled video
 
 Same frequency (528 Hz), same week, two approaches:
-- **Sound Bath** = rebrand of the stalled `-1RE1P98_u8` (new title/tags/thumbnail on the existing video) → **56 views, still flat**
-- **Healing Hour Vol. 1** = fresh upload `po4jmYdX2_w` → **118 in <24h, VPH 23 peak**
+- **Sound Bath** = rebrand of the stalled `-1RE1P98_u8` → **60 views by D17, still flat** (rebrand confirmed dead 05-31)
+- **Healing Hour Vol. 1** = fresh upload `po4jmYdX2_w` → **157 by D10** (also plateaued, but ×2.6 better than rebrand)
 
 YouTube gives a new upload a clean algorithmic test; a stalled video stays suppressed even after a full rebrand. **Going forward: re-upload fresh rather than try to revive a dead video.**
 
 ### Tracking — Healing Hour Vol. 1 (`po4jmYdX2_w`)
-- 48h (05-23): log VPH + views
-- **7d (05-28): real read** — sustained VPH > 0, total clearly beating 852 Hz curve = locked template
+- ✅ 48h (05-23): D2=137 logged
+- ✅ 7d (05-28): plateau confirmed at 157 — verdict: **template did NOT work, mystery-frame stays unvalidated**
 - 30d (06-20): final snapshot
+
+### Tracking — 963 Mount Koya (`pwnoQYJjgOo`)
+- ✅ 48h (05-28): D2=29
+- ✅ 7d-ish (05-31, D5): 32 — verdict: **flop, mystery-frame hypothesis BUSTED**
+- 30d (06-25): final snapshot
 
 ## Phase 1 batch — week of May 13–19
 
