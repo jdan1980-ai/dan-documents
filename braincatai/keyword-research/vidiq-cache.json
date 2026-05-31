@@ -4,7 +4,7 @@
     "schema_version": "1.1",
     "created": "2026-05-17",
     "last_updated": "2026-05-28",
-    "total_credits_spent": 290,
+    "total_credits_spent": 300,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
@@ -20,7 +20,8 @@
       "2026-05-28 (famous cats): +5 credits — user idea 'most famous cats in the world'. Seed 'famous cats' YELLOW 57.85/5,099. JACKPOT related: 'top 10 cats' 71.41/11,518/comp-12.4 (very low comp, beats killer). 'nala cat' 60.74/27,354 (huge single-cat search). 'famous internet cats' 60.87/4,531. PRODUCTION NOTE: animated Brain channel can't show real famous cats — reframe to story-driven 'famous cats who made history' (Felicette space cat, Unsinkable Sam, Larry, Tama stationmaster, Stubbs mayor) with Brain as host + stylized vignettes. Listicle format under 'top 10 cats' keyword.",
       "2026-05-28 (famous-cats standalones): +15 credits — 3x keyword_research to test individual famous cats as standalones. Felicette: 'felicette' 64.32/7,448/comp-25.9 + 'felicette space cat' 63.19/5,285 = STRONGEST (YELLOW-GREEN, low comp). Larry: 'larry cat' 56.66/11,662/comp-49.4 (good volume but meme-heavy). Stubbs: 'cat mayor' 60.74/3,426/comp-27.3 (YELLOW, modest). Sam + Tama names = ~0 search (listicle-only / Sam = feed-CTR hook play). PLAN: listicle first (29 May), pinned comment asks which cat for a deep-dive (audience-vote demand signal), then spin off Felicette > Larry > Stubbs > Sam spaced among GREEN topics.",
       "2026-05-28 (user 20-topic batch): triaged free vs cache/published (most were dupes/blocked: purr, slow-blink, ignore, knead, boxes, stare). +25 credits on 5 genuinely-new. JACKPOT 'cat sounds' 74.82/110,700/comp-25.9 (5 Cat Sounds listicle). GREEN 'cat trust signs' 67.10/13,321/comp-24.6 (Signs Your Cat Trusts You). YELLOW-GREEN 'cat body language' 61.89/47,568/comp-50. RED: 'why do cats hide their kittens' (no search), 'cats training their owners' (no own keyword + cannibalizes circus). Cached-available: cat jealousy 59.01/5,156, 'why does my cat bite me' 60.49/19,847 (love bites). Buff-cat-vs-kitten = off-format, skip.",
-      "2026-05-29 (cat intelligence, bot idea #2): +5 credits. 'cat intelligence test' YELLOW 56.80/3,942/comp-38.5 — weaker than queue (sounds 74.82 / trust 67.10 / bite 60.49). Related: 'cat challenge' 61.72/11,950 (TikTok cat-wall-test craze), 'cat logic' 54.34/19,067, 'cat wall test' 55.94/3,680. Verdict: CTR/engagement play (interactive 'test your cat'), not a search jackpot. Lower priority than current queue; do later as variety, tie to TikTok cat-wall-test trend."
+      "2026-05-29 (cat intelligence, bot idea #2): +5 credits. 'cat intelligence test' YELLOW 56.80/3,942/comp-38.5 — weaker than queue (sounds 74.82 / trust 67.10 / bite 60.49). Related: 'cat challenge' 61.72/11,950 (TikTok cat-wall-test craze), 'cat logic' 54.34/19,067, 'cat wall test' 55.94/3,680. Verdict: CTR/engagement play (interactive 'test your cat'), not a search jackpot. Lower priority than current queue; do later as variety, tie to TikTok cat-wall-test trend.",
+      "2026-05-30 (user multi-fact draft): +10 credits. 'do cats taste sweet' RED 28.68/0 with EMPTY related (search-dead). 'cat facial expressions' RED 23.8/0, related dominated by funny-cat compilations (off-format for us). Both facts from user's multi-fact draft = CTR/feed-only, no search. Verdict: SKIP, queue (sounds 74.82 / trust 67.10 / bite 60.49) is stronger. If decoder-angle wanted later, 'cat emotions' 64.63/15,891 (from earlier body-language query) is the GREEN-adjacent path."
     ]
   },
   "queries": [
@@ -1771,6 +1772,50 @@
       ],
       "verdict": "YELLOW 56.80/3,942 — weaker than queue (cat-sounds/trust/bite). Competitor breakout proof strong (bot: 867K/265x) but search only YELLOW = CTR/engagement play, not search.",
       "notes": "Interactive 'test your cat at home' (paw-preference / object permanence / puzzle) = high engagement/comments. Tie to TikTok 'cat wall test' craze for timeliness. Lower priority — do later as variety, not over the GREEN queue."
+    },
+    {
+      "keyword": "do cats taste sweet",
+      "fetched": "2026-05-30",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": 28.3,
+        "overall": 28.68,
+        "monthly": 0
+      },
+      "top_related": [],
+      "verdict": "RED 28.68/0 + EMPTY related (vidIQ doesn't know related queries → topic too niche to search). Sweet-taste fact = CTR-only, not searchable.",
+      "notes": "Strong as a single mind-blow but no search demand. Skip for now; if used later, lead with hook (no keyword)."
+    },
+    {
+      "keyword": "cat facial expressions",
+      "fetched": "2026-05-30",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": 40.5,
+        "overall": 23.8,
+        "monthly": 0
+      },
+      "top_related": [
+        {
+          "keyword": "cat reaction video",
+          "overall": 70.84,
+          "monthly": 34798
+        },
+        {
+          "keyword": "viral cat shorts",
+          "overall": 64.1,
+          "monthly": 11887
+        },
+        {
+          "keyword": "funny cat faces",
+          "overall": 62.5,
+          "monthly": 4039
+        }
+      ],
+      "verdict": "RED 23.8/0. Related = funny-cat compilation territory (off-format for us, anti-pattern). 276-expressions science topic = search-dead.",
+      "notes": "If we want a decoder angle, 'cat emotions' 64.63/15,891 (from body-language query 28 May) is the GREEN-adjacent path — but already overlaps trust-signs/body-language space."
     }
   ],
   "non_keyword_calls": [
