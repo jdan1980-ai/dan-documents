@@ -151,6 +151,8 @@ We stay in "cat psychology explainer" niche AND we don't drift to formats that h
 
 > 📅 **Cadence decision (locked 30 мая 2026, Dan):** **1 video/day** during recovery. Nexlev recommended 4-5/week to avoid diluting quality, but on stage-recovery (algo just starting to push via search 68%) the daily signal of activity matters more — slowing down now risks signalling "channel stalled." Revisit cadence once recovery is confirmed (subs growing, Shorts-feed retention > 30%, then consider switching to 5/week to up quality-per-video).
 
+> 🕒 **Publish-slot lock (1 июн 2026, user-validated): 15:00 local TZ.** Это исторический слот ДО падения трафика — все шортсы с 50+ просмотров (включая Giant 44 views 15 мая) выходили в 15:00. Алгоритм помнит этот таймслот по тем видео что тогда работали → возврат на 15:00 = восстановление паттерна "аудитория-активна-в-этот-час", НЕ отклонение. Все шортсы recovery-фазы публикуем в 15:00 локального TZ. Окно ±30 мин допустимо при технических причинах, но не выходить за 14:30-15:30. **Не предлагать другие слоты пока recovery не подтверждён** (subs растут + Shorts-feed retention > 30%). Если соберусь предложить другое время — сначала вспомнить это правило и НЕ предлагать.
+
 
 #### 🔍 MANDATORY — Pre-scripting vidIQ keyword check (locked 13 мая 2026)
 
