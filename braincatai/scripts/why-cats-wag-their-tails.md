@@ -57,38 +57,38 @@ Preserve the input image exactly — same kitten, same anatomy, glasses, eyes (l
 ```
 You think your cat wagging its tail means it's happy? You've been reading it wrong your whole life.
 
-For dogs, a wagging tail means joy. For cats — it's the opposite. Each position means something completely different.
+For dogs, wagging means happy. For cats — the opposite. Each position means something different.
 
-Position one — slow swishing side to side. Your cat is locked on, in hunting mode. Stay back.
+Position one — slow swish side to side. Your cat is in hunting mode. Stay back.
 
-Position two — fast thumping or whipping. Annoyed. Stop whatever you're doing.
+Position two — fast thumping or whipping. Annoyed. Stop what you're doing.
 
-Position three — puffed up like a bottle brush. Pure fear. Something just scared them.
+Position three — puffed up like a bottle brush. Pure fear. Something scared them.
 
-Position four — straight up, quivering at the tip. This one means pure love. They're greeting you.
+Position four — straight up, quivering at the tip. This one means pure love.
 
-Position five — tail up with a little hook at the end, like a question mark. Friendly and curious. Approach.
+Position five — tail up with a hook on top, like a question mark. Friendly. Approach.
 
-Follow Brain to learn what every part of your cat is trying to tell you.
+Follow Brain to learn what every part of your cat is saying.
 ```
 
 **🇷🇺 Русская версия (copy this block alone):**
 ```
 Думаешь, виляющий хвост у кота значит «он счастлив»? Ты всю жизнь читал его неправильно.
 
-У собак вилять хвостом = радость. У котов — ровно наоборот. Каждое положение значит что-то своё.
+У собак виляние = радость. У котов — наоборот. Каждое положение значит своё.
 
-Положение один — медленно метёт из стороны в сторону. Кот в режиме охоты. Не подходи.
+Положение один — медленный мах из стороны в сторону. Режим охоты. Не подходи.
 
-Положение два — быстро бьёт или хлещет. Раздражён. Перестань его трогать.
+Положение два — быстро бьёт или хлещет. Раздражён. Перестань трогать.
 
 Положение три — распушённый «ёршиком». Чистый страх. Его что-то напугало.
 
-Положение четыре — вверх и кончик дрожит. Вот это — чистая любовь. Он здоровается с тобой.
+Положение четыре — вверх и кончик дрожит. Это чистая любовь.
 
-Положение пять — хвост вверх с крючком на кончике, как знак вопроса. Дружелюбное любопытство. Подойди.
+Положение пять — хвост вверх с крючком, как знак вопроса. Любопытство. Подойди.
 
-Подпишись на Brain, чтобы понимать, что каждая часть твоего кота тебе говорит.
+Подпишись на Brain, чтобы понимать каждую часть твоего кота.
 ```
 _~135 слов EN, ~7с/сцена (≤60с)._
 
@@ -132,11 +132,11 @@ The dog's tail wags fast and happy with little hearts puffing, the cat's tail th
 ```
 **🎙️ VO (EN):**
 ```
-For dogs, a wagging tail means joy. For cats — it's the opposite. Each position means something completely different.
+For dogs, wagging means happy. For cats — the opposite. Each position means something different.
 ```
 **🎙️ VO (RU):**
 ```
-У собак вилять хвостом = радость. У котов — ровно наоборот. Каждое положение значит что-то своё.
+У собак виляние = радость. У котов — наоборот. Каждое положение значит своё.
 ```
 **Оверлей (CapCut):** «DOGS = HAPPY» (LEFT) / «CATS = OPPOSITE» (RIGHT) + лёгкий vinyl-flip SFX.
 
@@ -155,11 +155,11 @@ Brain stays in his low stalking crouch, body absolutely still, only the ginger t
 ```
 **🎙️ VO (EN):**
 ```
-Position one — slow swishing side to side. Your cat is locked on, in hunting mode. Stay back.
+Position one — slow swish side to side. Your cat is in hunting mode. Stay back.
 ```
 **🎙️ VO (RU):**
 ```
-Положение один — медленно метёт из стороны в сторону. Кот в режиме охоты. Не подходи.
+Положение один — медленный мах из стороны в сторону. Режим охоты. Не подходи.
 ```
 **Оверлей (CapCut):** цифра «1» + подпись «SLOW SWISH = HUNTING» + мягкий «stalking» sting.
 
@@ -247,11 +247,11 @@ Brain stands with his question-mark tail held high, the hooked tip subtly bounci
 ```
 **🎙️ VO (EN):**
 ```
-Position five — tail up with a little hook at the end, like a question mark. Friendly and curious. Approach.
+Position five — tail up with a hook on top, like a question mark. Friendly. Approach.
 ```
 **🎙️ VO (RU):**
 ```
-Положение пять — хвост вверх с крючком на кончике, как знак вопроса. Дружелюбное любопытство. Подойди.
+Положение пять — хвост вверх с крючком, как знак вопроса. Любопытство. Подойди.
 ```
 **Оверлей (CapCut):** цифра «5» + подпись «HOOK = CURIOUS» + лёгкий «question» chime SFX.
 
