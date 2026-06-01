@@ -3,8 +3,8 @@
     "purpose": "Cache of vidIQ API responses (keyword research, outliers, breakout channels, channel videos) to avoid burning paid credits on repeat queries. Cat psychology niche keywords stay relevant ~30-60 days. Refresh entries older than 60 days only if you suspect drift.",
     "schema_version": "1.1",
     "created": "2026-05-17",
-    "last_updated": "2026-05-28",
-    "total_credits_spent": 300,
+    "last_updated": "2026-06-01",
+    "total_credits_spent": 320,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
@@ -21,7 +21,8 @@
       "2026-05-28 (famous-cats standalones): +15 credits — 3x keyword_research to test individual famous cats as standalones. Felicette: 'felicette' 64.32/7,448/comp-25.9 + 'felicette space cat' 63.19/5,285 = STRONGEST (YELLOW-GREEN, low comp). Larry: 'larry cat' 56.66/11,662/comp-49.4 (good volume but meme-heavy). Stubbs: 'cat mayor' 60.74/3,426/comp-27.3 (YELLOW, modest). Sam + Tama names = ~0 search (listicle-only / Sam = feed-CTR hook play). PLAN: listicle first (29 May), pinned comment asks which cat for a deep-dive (audience-vote demand signal), then spin off Felicette > Larry > Stubbs > Sam spaced among GREEN topics.",
       "2026-05-28 (user 20-topic batch): triaged free vs cache/published (most were dupes/blocked: purr, slow-blink, ignore, knead, boxes, stare). +25 credits on 5 genuinely-new. JACKPOT 'cat sounds' 74.82/110,700/comp-25.9 (5 Cat Sounds listicle). GREEN 'cat trust signs' 67.10/13,321/comp-24.6 (Signs Your Cat Trusts You). YELLOW-GREEN 'cat body language' 61.89/47,568/comp-50. RED: 'why do cats hide their kittens' (no search), 'cats training their owners' (no own keyword + cannibalizes circus). Cached-available: cat jealousy 59.01/5,156, 'why does my cat bite me' 60.49/19,847 (love bites). Buff-cat-vs-kitten = off-format, skip.",
       "2026-05-29 (cat intelligence, bot idea #2): +5 credits. 'cat intelligence test' YELLOW 56.80/3,942/comp-38.5 — weaker than queue (sounds 74.82 / trust 67.10 / bite 60.49). Related: 'cat challenge' 61.72/11,950 (TikTok cat-wall-test craze), 'cat logic' 54.34/19,067, 'cat wall test' 55.94/3,680. Verdict: CTR/engagement play (interactive 'test your cat'), not a search jackpot. Lower priority than current queue; do later as variety, tie to TikTok cat-wall-test trend.",
-      "2026-05-30 (user multi-fact draft): +10 credits. 'do cats taste sweet' RED 28.68/0 with EMPTY related (search-dead). 'cat facial expressions' RED 23.8/0, related dominated by funny-cat compilations (off-format for us). Both facts from user's multi-fact draft = CTR/feed-only, no search. Verdict: SKIP, queue (sounds 74.82 / trust 67.10 / bite 60.49) is stronger. If decoder-angle wanted later, 'cat emotions' 64.63/15,891 (from earlier body-language query) is the GREEN-adjacent path."
+      "2026-05-30 (user multi-fact draft): +10 credits. 'do cats taste sweet' RED 28.68/0 with EMPTY related (search-dead). 'cat facial expressions' RED 23.8/0, related dominated by funny-cat compilations (off-format for us). Both facts from user's multi-fact draft = CTR/feed-only, no search. Verdict: SKIP, queue (sounds 74.82 / trust 67.10 / bite 60.49) is stronger. If decoder-angle wanted later, 'cat emotions' 64.63/15,891 (from earlier body-language query) is the GREEN-adjacent path.",
+      "2026-06-01 (2 июн topic hunt): +20 credits (1x outliers + 3x keyword_research). 'why cats rub against your legs' YELLOW 62.24/4,940/comp-27.1 + STRONG related 'cat affection signs' 67.09/9,470 GREEN (but cannibalizes 31 May trust-signs SERP). 'why cats drool' RED 35.36/0 — search-dead, skip. 'are cats liquid' YELLOW-low 55.03/4,010/comp-43.1 — funny meme topic, weaker score. Outliers in niche dominated by funny-cat compilation channels (off-format). Decision: 2 июн = `why cats wag their tails` 62.59/5,400 (cached, 0 credits) — best score available AND fits 5-Signs thumbnail (5 tail positions), counter-intuitive hook (cat wag ≠ dog wag), warm twist on #4 quiver. Rub-legs queued as future fallback."
     ]
   },
   "queries": [
@@ -1816,6 +1817,61 @@
       ],
       "verdict": "RED 23.8/0. Related = funny-cat compilation territory (off-format for us, anti-pattern). 276-expressions science topic = search-dead.",
       "notes": "If we want a decoder angle, 'cat emotions' 64.63/15,891 (from body-language query 28 May) is the GREEN-adjacent path — but already overlaps trust-signs/body-language space."
+    },
+    {
+      "keyword": "why cats rub against your legs",
+      "fetched": "2026-06-01",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 55.14,
+        "competition": 27.1,
+        "overall": 62.24,
+        "monthly": 4940
+      },
+      "top_related": [
+        { "keyword": "cat communication", "overall": 70.51, "monthly": 36240 },
+        { "keyword": "understanding cats", "overall": 69.26, "monthly": 26230 },
+        { "keyword": "cat affection signs", "overall": 67.09, "monthly": 9470 },
+        { "keyword": "cat body language", "overall": 64.78, "monthly": 44753 },
+        { "keyword": "cat bonding behavior", "overall": 64.39, "monthly": 9920 }
+      ],
+      "verdict": "YELLOW-strong 62.24/4,940. Counter-intuitive hook potential: 'they don't love you — they're marking you as their PROPERTY' (scent-marking territory). NOT the 2 июн pick because wag-tails 62.59 is slightly stronger AND fits 5-Signs thumbnail better. Queue as fallback.",
+      "notes": "Related 'cat affection signs' 67.09/9,470 GREEN but overlaps trust-signs (31 May) SERP cluster — cannibalization risk if used back-to-back."
+    },
+    {
+      "keyword": "why cats drool",
+      "fetched": "2026-06-01",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": 11.6,
+        "overall": 35.36,
+        "monthly": 0
+      },
+      "top_related": [
+        { "keyword": "cat drooling excessively suddenly", "overall": 65.53, "monthly": 4609 },
+        { "keyword": "cat drool", "overall": 59.76, "monthly": 3852 }
+      ],
+      "verdict": "RED 35.36/0 — search-dead. Even strongest related 'cat drooling excessively suddenly' 65.53/4,609 = medical-symptom angle, off-format (not psychology/behavior fact). Skip.",
+      "notes": "Drool topic is search-dead at the pop-fact level. Not worth a production slot."
+    },
+    {
+      "keyword": "are cats liquid",
+      "fetched": "2026-06-01",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 53.79,
+        "competition": 43.1,
+        "overall": 55.03,
+        "monthly": 4010
+      },
+      "top_related": [
+        { "keyword": "cats are liquid", "overall": 60.95, "monthly": 6170 },
+        { "keyword": "liquid cat", "overall": 60.96, "monthly": 4791 },
+        { "keyword": "if it fits i sits", "overall": 58.70, "monthly": 9205 }
+      ],
+      "verdict": "YELLOW-low 55.03/4,010/comp-43.1. Funny meme angle, decent SERP, but lower score than wag-tails AND higher competition. Skip for 2 июн; could fit later as variety play if we want a viral-meme angle.",
+      "notes": "Meme topic — anti-pattern overlap with funny-cat compilation niche. Only do this if reframed as a Brain-as-scientist 'physicists studied this' explainer."
     }
   ],
   "non_keyword_calls": [

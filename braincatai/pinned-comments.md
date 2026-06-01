@@ -267,6 +267,12 @@ ok mine does like 4 of these and the tail-up thing every time i come home gets m
 omg the tail thump warning is SO real i always miss it and then act surprised when he bites me 😭 does yours give you warning signs or just go straight for the hand lol
 ```
 
+### 43. What Your Cat's TAIL Is Telling You — 5 Secret Signals (2 июн) — Cat Psychology / Body Language
+
+```
+the question mark tail kills me every time he does it i swear he's asking me a question with his butt 😭 which position does your cat do the most??
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
