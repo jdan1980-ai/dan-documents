@@ -91,29 +91,54 @@ braincatai, cat facts mind blowing, cat behavior explained
 
 **Когда пересмотреть:** ≥3 видео с 100+ просм ИЛИ Shorts-feed retention >30%. До тех пор — продолжать ежедневно.
 
-### 12. Glasses-override для sleep/mask сцен (locked 2 июн 2026, user-validated)
-**Правило:** **локед-правило Brain "glasses ALWAYS on" имеет ИСКЛЮЧЕНИЕ — если Brain в сцене с маской для сна / dream goggles / на лбу маска → очки УБИРАЮТСЯ.**
+### 12. Eyewear-override: контекстная eyewear заменяет круглые очки (locked 2 июн 2026, user-validated)
+**Общий принцип:** локед-правило Brain "glasses ALWAYS on" имеет ИСКЛЮЧЕНИЕ — **любая сцена-специфичная eyewear (что-то надетое на ГЛАЗА или ЛИЦО в области глаз) ЗАМЕНЯЕТ обычные круглые золотые очки**. Очки физически уходят (Brain снял перед сценой).
 
-**Почему:** очки + маска для сна одновременно = визуальный мусор + IRL не носят. Для thumbnail-вариативности (sleeping Brain в кровати + nightcap + sleep mask) очки убираются.
+**Почему:** IRL человек/кот не носит очки ПОД маской / ПОД мото-очками / ПОД ski-goggles. Очки + любая другая eyewear одновременно = визуальный мусор + анатомически невозможно.
 
-**Применять к:** dreams thumbnails, любые «спящий Brain» сцены где есть sleep-prop (маска / dream goggles).
-
-**НЕ применять к:** обычные scene-frames где Brain просто спит (нет маски/dream-prop) — там очки остаются по умолчанию.
+**Список eyewear которые отменяют круглые очки (НЕ исчерпывающий, расширять по мере появления):**
+- 🛏️ **Sleep mask** / dream goggles (dreams thumbnail / sleeping Brain в маске)
+- 🏍️ **Motorcycle goggles** (любая мото-сцена)
+- 🎿 **Ski goggles / ski mask** (зимняя/горная сцена)
+- 🤿 **Scuba goggles** / diving mask (подводная сцена)
+- 🏊 **Swim goggles** (бассейн / купание)
+- 🥽 **VR headset / VR goggles** (tech/futurism сцена)
+- 🔥 **Welding mask** (workshop сцена)
+- 🥽 **3D-glasses** (cinema / movie сцена)
+- 🕶️ **Sunglasses** (beach / sunny / cool-pose сцена)
+- 🥽 **Lab safety goggles** (chemistry сцена — заменяют scientist-coat-glasses)
 
 **В промте конкретно:**
-- Убрать строчку про glasses из Locked Brain block
-- Добавить явно: `NO GLASSES in this scene — sleep mask overrides glasses rule`
-- В негативы добавить: `glasses, gold-framed glasses, eyeglasses, spectacles`
+- Убрать `Small thin round gold-framed glasses ALWAYS on` из Locked Brain block
+- Описать новую eyewear с деталями (цвет, форма, материал)
+- Добавить явно: `NO regular gold-framed glasses in this scene — [sleep mask / ski goggles / etc.] overrides the glasses rule`
+- В негативы добавить: `gold-framed round glasses, regular glasses, eyeglasses, spectacles, glasses worn under [eyewear-name]`
 
-**Расширение этого правила (locked 2 июн 2026, thumbnail variety initiative):** для разнообразия обложек каждая тема может иметь свой **costume-prop**, который добавляется поверх Locked Brain. Аналогично scientist-coat / detective-hat из §2 style-guide. Конкретно:
-- 🛏️ dreams → nightcap + sleep mask (glasses OFF — правило 12)
-- 🍽️ bite → tiny bandage on owner's finger (Brain нормальный)
-- 🦷 owner-mistakes → tiny chef hat / oven mitts (Brain нормальный)
-- 💕 bond → small bouquet / heart-shaped chocolates (Brain нормальный)
-- 🐾 paw-touch → cute boxing gloves (Brain нормальный)
-- 🎓 любая «scientist explainer» сцена → lab coat (locked в §2)
+**ВАЖНО — что НЕ затрагивает правило:**
+- Костюмы где НЕТ замены eyewear (lab coat, detective hat, chef hat, doctor coat) → очки **остаются** (см. §2 style-guide). Правило 12 — только про eyewear-vs-eyewear.
+- Обычные «sleeping Brain» сцены БЕЗ маски (просто спит на ковре) → очки **остаются**.
 
-**Принцип:** **face-size в обложке остаётся 55-60% (5-Signs формула)**, меняется только prop/контекст. Это даёт разнообразие без потери CTR-паттерна.
+### 13. Thumbnail prop-variety (locked 2 июн 2026, user direction)
+**Принцип:** для разнообразия обложек каждая тема может иметь свой **prop / costume / setting**, добавленный поверх Locked Brain. Это лекарство от «обложечного fatigue» (когда все thumb выглядят одинаково).
+
+**Идеи по темам:**
+- 🛏️ dreams → nightcap + sleep mask (eyewear-override §12, очки OFF)
+- 🏍️ motorcycle / road / vroom-фактоид → moto-goggles + tiny leather jacket (eyewear-override §12)
+- 🎿 cold-weather / winter cat → ski goggles + scarf (eyewear-override §12)
+- 🤿 swimming / water-related → swim goggles + tiny float-ring (eyewear-override §12)
+- 🥽 «virtual reality experiment» / futurism → VR-goggles (eyewear-override §12)
+- 🍳 owner-mistakes / cooking metaphor → tiny chef hat / oven mitts (Brain очки остаются)
+- 💕 bond / love → small bouquet / heart-shaped chocolates (Brain очки остаются)
+- 🐾 fight / aggression-warning → cute mini boxing gloves (Brain очки остаются)
+- 🎓 explainer / scientist → lab coat (Brain очки остаются — §2 style-guide)
+- 👮 territorial / sit-above → tiny police hat (Brain очки остаются)
+- 🎬 movie-night / TV-flicker → tiny popcorn box + 3D-glasses (eyewear-override §12)
+
+**Жёсткое правило вариативности:**
+- **face-size в обложке остаётся 55-60% (5-Signs формула)** — не меняем
+- **текст-плита в lower-middle, big bold** — не меняем
+- **eye-emotion (если глаза открыты) или sleep-emotion (если закрыты)** — главный CTR-сигнал, не размывать
+- Меняется только **prop / accessory / immediate background context** — это даёт визуальное разнообразие БЕЗ потери CTR-паттерна.
 
 ---
 
