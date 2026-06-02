@@ -285,6 +285,12 @@ ok the #4 quiet company one hit me hard, i never thought of it as love but my ca
 ok the #4 wrecked me my cat ALSO twitches with this little smile sometimes and now i'm gonna cry knowing he might be dreaming about me 😭 does yours twitch a lot in sleep?
 ```
 
+### 46. 5 Cat Owner Mistakes (You're Doing #3) (5 июн, 15:00) — Cat Psychology / Owner-mistakes
+
+```
+ok mistake #3 BLEW MY MIND i've been yelling at my cat for scratching the floor and turns out it's literally hardwired instinct from his ancestors 😭 which mistake hit you hardest? be honest
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
