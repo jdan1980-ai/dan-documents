@@ -4,7 +4,7 @@
     "schema_version": "1.1",
     "created": "2026-05-17",
     "last_updated": "2026-06-02",
-    "total_credits_spent": 340,
+    "total_credits_spent": 355,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
@@ -23,7 +23,8 @@
       "2026-05-29 (cat intelligence, bot idea #2): +5 credits. 'cat intelligence test' YELLOW 56.80/3,942/comp-38.5 — weaker than queue (sounds 74.82 / trust 67.10 / bite 60.49). Related: 'cat challenge' 61.72/11,950 (TikTok cat-wall-test craze), 'cat logic' 54.34/19,067, 'cat wall test' 55.94/3,680. Verdict: CTR/engagement play (interactive 'test your cat'), not a search jackpot. Lower priority than current queue; do later as variety, tie to TikTok cat-wall-test trend.",
       "2026-05-30 (user multi-fact draft): +10 credits. 'do cats taste sweet' RED 28.68/0 with EMPTY related (search-dead). 'cat facial expressions' RED 23.8/0, related dominated by funny-cat compilations (off-format for us). Both facts from user's multi-fact draft = CTR/feed-only, no search. Verdict: SKIP, queue (sounds 74.82 / trust 67.10 / bite 60.49) is stronger. If decoder-angle wanted later, 'cat emotions' 64.63/15,891 (from earlier body-language query) is the GREEN-adjacent path.",
       "2026-06-01 (2 июн topic hunt): +20 credits (1x outliers + 3x keyword_research). 'why cats rub against your legs' YELLOW 62.24/4,940/comp-27.1 + STRONG related 'cat affection signs' 67.09/9,470 GREEN (but cannibalizes 31 May trust-signs SERP). 'why cats drool' RED 35.36/0 — search-dead, skip. 'are cats liquid' YELLOW-low 55.03/4,010/comp-43.1 — funny meme topic, weaker score. Outliers in niche dominated by funny-cat compilation channels (off-format). Decision: 2 июн = `why cats wag their tails` 62.59/5,400 (cached, 0 credits) — best score available AND fits 5-Signs thumbnail (5 tail positions), counter-intuitive hook (cat wag ≠ dog wag), warm twist on #4 quiver. Rub-legs queued as future fallback.",
-      "2026-06-02 (3 июн topic hunt): +20 credits (4x keyword_research). 'what cats sense before earthquakes' RED/null — sixth-sense angle search-dead. 'why cats hate being left alone' RED/null — separation-anxiety angle dead. 'are cats smarter than dogs' YELLOW-low 55.39/4,353/comp-43 — AUDIENCE-MISMATCH RISK (dog-owner traffic on cat-only channel → channel-fit demotion risk like April off-topic disaster). REJECT. 'why cats groom each other' seed RED 27.76/0 BUT related JACKPOT: 'why do cats groom each other' YELLOW-strong 64.67/4,579/comp-20.3 (LOWEST comp in entire cache). Also 'cats grooming each other' 62.14/4,165 + 'cat bonding' 60.53/9,454. WINNER for 3 июн: cat grooming with warm 'family-enrollment' reframe — when cat licks/grooms human, it's allo-grooming (clan-scent sharing). Strong emotional payoff in trust-signs style (which hit 54v/#1)."
+      "2026-06-02 (3 июн topic hunt): +20 credits (4x keyword_research). 'what cats sense before earthquakes' RED/null — sixth-sense angle search-dead. 'why cats hate being left alone' RED/null — separation-anxiety angle dead. 'are cats smarter than dogs' YELLOW-low 55.39/4,353/comp-43 — AUDIENCE-MISMATCH RISK (dog-owner traffic on cat-only channel → channel-fit demotion risk like April off-topic disaster). REJECT. 'why cats groom each other' seed RED 27.76/0 BUT related JACKPOT: 'why do cats groom each other' YELLOW-strong 64.67/4,579/comp-20.3.",
+      "2026-06-02 (Cats Insider remix, 3 июн pivot): +15 credits (3x keyword_research) after user shared Cats Insider 135k-view '10 Small Gestures That Make Cats Feel Deeply Loved' (84.9k subs, 20x outlier). JACKPOT: 'how to bond with your cat' GREEN 69.79/17,435/comp-20.5 (HIGHEST overall this session, 4x grooming's volume). Related: 'cat trust signals' 68.11/5,182/comp-12.9 (would cannibalize trust-signs 31 May). 'cat enrichment ideas' 67.23/9,421 GREEN backup. 'how cats show love' 65.61/9,754. 'cat love language' 61.45/3,992. 'how to make your cat love you' YELLOW 57.54/4,621. 'things that make cats happy' seed RED/0 BUT 'cat music' 78.84/238k (off-format). DECISION: pivot 3 июн from grooming (64.67) to bond-with-cat (69.79) — +5 score, +4x volume, direct match to Cats Insider proven viral angle, distinct from trust-signs (active how-to vs passive recognition)."
     ]
   },
   "queries": [
@@ -1924,8 +1925,54 @@
         { "keyword": "cat bonding", "overall": 60.53, "monthly": 9454 },
         { "keyword": "cat grooming", "overall": 60.34, "monthly": 37211 }
       ],
-      "verdict": "JACKPOT pivot — seed RED but 'why do cats groom each other' YELLOW-strong 64.67/4,579/comp-20.3 (LOWEST competition in entire cache). Best fresh score across last 2 sessions. WINNER for 3 июн.",
-      "notes": "Frame as 'family-enrollment' / allo-grooming — when your cat licks you, it's clan-scent sharing. Warm positive-mirror payoff (matches trust-signs format that hit 54v/#1). Title angle: 'Why Your Cat Licks YOU — It's Not What You Think'."
+      "verdict": "JACKPOT pivot — seed RED but 'why do cats groom each other' YELLOW-strong 64.67/4,579/comp-20.3 (LOWEST competition in entire cache). Best fresh score until bond-with-cat surfaced (3 июн pivot to bond).",
+      "notes": "Frame as 'family-enrollment' / allo-grooming. Holding as backlog candidate for future slot since bond-with-cat 69.79 won 3 июн."
+    },
+    {
+      "keyword": "how to bond with your cat",
+      "fetched": "2026-06-02",
+      "credits_spent": 5,
+      "seed": { "volume": 63.31, "competition": 20.5, "overall": 69.79, "monthly": 17435 },
+      "top_related": [
+        { "keyword": "cat trust signals", "overall": 68.11, "monthly": 5182 },
+        { "keyword": "cat enrichment ideas", "overall": 67.23, "monthly": 9421 },
+        { "keyword": "cat behavior explained", "overall": 66.43, "monthly": 118195 },
+        { "keyword": "how cats show love", "overall": 65.61, "monthly": 9754 },
+        { "keyword": "cat body language", "overall": 64.78, "monthly": 44753 },
+        { "keyword": "cat tips", "overall": 64.37, "monthly": 20652 },
+        { "keyword": "cat love language", "overall": 61.45, "monthly": 3992 }
+      ],
+      "verdict": "JACKPOT for 3 июн. GREEN 69.79/17,435/comp-20.5 — highest overall this entire research session, 4x grooming's volume, lowest comp tier. Direct match to Cats Insider proven viral angle (135k views / 20x outlier).",
+      "notes": "Active how-to angle (how YOU bond with cat) — distinct from trust-signs 31 May (passive recognition of cat trust signals). No cannibalization. Title formula: '5 Tiny Things That Make Your Cat Love You DEEPLY'. Format: 5-listicle active-action."
+    },
+    {
+      "keyword": "things that make cats happy",
+      "fetched": "2026-06-02",
+      "credits_spent": 5,
+      "seed": { "volume": 0, "competition": 26.1, "overall": 29.56, "monthly": 0 },
+      "top_related": [
+        { "keyword": "cat music", "overall": 78.84, "monthly": 238664 },
+        { "keyword": "cat tv", "overall": 72.81, "monthly": 787684 },
+        { "keyword": "music for cats", "overall": 72.47, "monthly": 123157 },
+        { "keyword": "calming music for cats", "overall": 71.23, "monthly": 38100 }
+      ],
+      "verdict": "RED phrasing-dead. Related are all 'cat-music' / 'cat-tv' — off-format (we don't make music videos for cats to watch).",
+      "notes": "Note for future: 'cat music' / 'cat TV' has MASSIVE volume (238k-787k monthly) but is entirely different format (long ambient videos for cats to watch). Could be a StillWave cross-pollination angle if we ever make cat-friendly relaxation content. NOT BrainCatAI format."
+    },
+    {
+      "keyword": "how to make your cat love you",
+      "fetched": "2026-06-02",
+      "credits_spent": 5,
+      "seed": { "volume": 54.71, "competition": 38.2, "overall": 57.54, "monthly": 4621 },
+      "top_related": [
+        { "keyword": "cat behavior", "overall": 73.12, "monthly": 171519 },
+        { "keyword": "cat care", "overall": 67.97, "monthly": 64046 },
+        { "keyword": "how cats show love", "overall": 65.61, "monthly": 9754 },
+        { "keyword": "cat training", "overall": 64.77, "monthly": 22914 },
+        { "keyword": "cat owner tips", "overall": 61.64, "monthly": 12990 }
+      ],
+      "verdict": "YELLOW 57.54/4,621/comp-38.2. Adjacent to bond-with-cat (69.79) but weaker. Use as title-bait variant in description.",
+      "notes": "Include in tags + alt-title variant for bond-with-cat video; the SERP cluster overlaps."
     }
   ],
   "non_keyword_calls": [

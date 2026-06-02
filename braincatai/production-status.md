@@ -86,6 +86,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | 31 мая | Вс | **5 Signs Your Cat SECRETLY Trusts You** (signs-листикл, позитив-зеркало) | `signs-cat-trusts-you` | "cat trust signs" **67.10 / 13,321 / comp 24.6 GREEN** | ✅ опубликован 31 мая 15:00 → **54 views / #1 of last 10 in 38h** ⭐ (retention 41.6% — зона роста) |
 | 1 июн | Пн | **Why Your Cat Suddenly BITES When You Pet It** (overstimulation + 3 warning signs) | `why-cats-bite-when-petting` | "why does my cat bite me" **60.49 / 19,847 GREEN** + competitor 37x breakout/115K (bot title 89/100) | ✅ скрипт+промты готовы → производство |
 | 2 июн | Вт | **What Your Cat's TAIL Is Telling You — 5 Secret Signals** (5-Signs формула, counter-intuitive: cat wag ≠ dog wag, #4 warm payoff) | `why-cats-wag-their-tails` | "why cats wag their tails" **62.59 / 5,400 / comp 27.1** (кэш) + related GREEN `cat body language` 64.78 / `cat affection signs` 67.09 / `understanding cats` 69.26 | ⏰ uploaded, scheduled 2 июн **13:00** (A/B vs trust 15:00) |
+| 3 июн | Ср | **5 Tiny Things That Make Your Cat Love You DEEPLY** (5-Signs формула, active how-to, remix Cats Insider 135k formula, #4 quiet company = warm payoff) | `how-to-bond-with-your-cat` | "how to bond with your cat" **🟢 69.79 / 17,435 / comp 20.5 GREEN-JACKPOT** (highest overall за сессию) + related GREEN `cat enrichment ideas` 67.23 / `cat behavior explained` 66.43 / `how cats show love` 65.61 | ✅ скрипт+промты готовы → производство |
 
 **Бэклог YELLOW (cached, available):**
 - `why-cats-wag-their-tails` 62.59 / 5,400 — лучший AVAILABLE в кэше
@@ -144,7 +145,8 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `cat-sounds-never-ignore` | 30 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `signs-cat-trusts-you` | 31 мая | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `why-cats-bite-when-petting` | 1 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `why-cats-wag-their-tails` | 2 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 |
+| `why-cats-wag-their-tails` | 2 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 13:00 (A/B) |
+| `how-to-bond-with-your-cat` | 3 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 
