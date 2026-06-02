@@ -4,7 +4,7 @@
     "schema_version": "1.1",
     "created": "2026-05-17",
     "last_updated": "2026-06-02",
-    "total_credits_spent": 355,
+    "total_credits_spent": 375,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
@@ -24,7 +24,8 @@
       "2026-05-30 (user multi-fact draft): +10 credits. 'do cats taste sweet' RED 28.68/0 with EMPTY related (search-dead). 'cat facial expressions' RED 23.8/0, related dominated by funny-cat compilations (off-format for us). Both facts from user's multi-fact draft = CTR/feed-only, no search. Verdict: SKIP, queue (sounds 74.82 / trust 67.10 / bite 60.49) is stronger. If decoder-angle wanted later, 'cat emotions' 64.63/15,891 (from earlier body-language query) is the GREEN-adjacent path.",
       "2026-06-01 (2 июн topic hunt): +20 credits (1x outliers + 3x keyword_research). 'why cats rub against your legs' YELLOW 62.24/4,940/comp-27.1 + STRONG related 'cat affection signs' 67.09/9,470 GREEN (but cannibalizes 31 May trust-signs SERP). 'why cats drool' RED 35.36/0 — search-dead, skip. 'are cats liquid' YELLOW-low 55.03/4,010/comp-43.1 — funny meme topic, weaker score. Outliers in niche dominated by funny-cat compilation channels (off-format). Decision: 2 июн = `why cats wag their tails` 62.59/5,400 (cached, 0 credits) — best score available AND fits 5-Signs thumbnail (5 tail positions), counter-intuitive hook (cat wag ≠ dog wag), warm twist on #4 quiver. Rub-legs queued as future fallback.",
       "2026-06-02 (3 июн topic hunt): +20 credits (4x keyword_research). 'what cats sense before earthquakes' RED/null — sixth-sense angle search-dead. 'why cats hate being left alone' RED/null — separation-anxiety angle dead. 'are cats smarter than dogs' YELLOW-low 55.39/4,353/comp-43 — AUDIENCE-MISMATCH RISK (dog-owner traffic on cat-only channel → channel-fit demotion risk like April off-topic disaster). REJECT. 'why cats groom each other' seed RED 27.76/0 BUT related JACKPOT: 'why do cats groom each other' YELLOW-strong 64.67/4,579/comp-20.3.",
-      "2026-06-02 (Cats Insider remix, 3 июн pivot): +15 credits (3x keyword_research) after user shared Cats Insider 135k-view '10 Small Gestures That Make Cats Feel Deeply Loved' (84.9k subs, 20x outlier). JACKPOT: 'how to bond with your cat' GREEN 69.79/17,435/comp-20.5 (HIGHEST overall this session, 4x grooming's volume). Related: 'cat trust signals' 68.11/5,182/comp-12.9 (would cannibalize trust-signs 31 May). 'cat enrichment ideas' 67.23/9,421 GREEN backup. 'how cats show love' 65.61/9,754. 'cat love language' 61.45/3,992. 'how to make your cat love you' YELLOW 57.54/4,621. 'things that make cats happy' seed RED/0 BUT 'cat music' 78.84/238k (off-format). DECISION: pivot 3 июн from grooming (64.67) to bond-with-cat (69.79) — +5 score, +4x volume, direct match to Cats Insider proven viral angle, distinct from trust-signs (active how-to vs passive recognition)."
+      "2026-06-02 (Cats Insider remix, 3 июн pivot): +15 credits (3x keyword_research) after user shared Cats Insider 135k-view '10 Small Gestures That Make Cats Feel Deeply Loved' (84.9k subs, 20x outlier). JACKPOT: 'how to bond with your cat' GREEN 69.79/17,435/comp-20.5 (HIGHEST overall this session, 4x grooming's volume). Related: 'cat trust signals' 68.11/5,182/comp-12.9 (would cannibalize trust-signs 31 May). 'cat enrichment ideas' 67.23/9,421 GREEN backup. 'how cats show love' 65.61/9,754. 'cat love language' 61.45/3,992. 'how to make your cat love you' YELLOW 57.54/4,621. 'things that make cats happy' seed RED/0 BUT 'cat music' 78.84/238k (off-format). DECISION: pivot 3 июн from grooming (64.67) to bond-with-cat (69.79) — +5 score, +4x volume, direct match to Cats Insider proven viral angle, distinct from trust-signs (active how-to vs passive recognition).",
+      "2026-06-02 (bot '3 Clues' check + 4 июн hunt): +35 credits (3x angle-check on bot's '3 Clues Your Cat Really Gets You' + 4x fresh-angle hunt). Bot score 97 — but vidIQ reality: 'does my cat understand me' 58.25/5,261 YELLOW. Worse: SAME SERP cluster as our 14 May '13-words-cats-understand' (17 views) → cannibalization risk. Skipped. FRESH-ANGLE WINNER: 🟢 'what do cats dream about' 67.06/4,517/comp-14.2 (LOWEST competition entire cache; cluster ~18k monthly). Verdict: replaces grooming as 4 июн pick. Other 4-июн tests: 'how long do cats remember' RED 24.08/0. 'why do cats touch you with their paw' seed null (related GREEN but already in our clusters). 'signs your cat is depressed' YELLOW 60.06/3,285 — queued as fallback."
     ]
   },
   "queries": [
@@ -1973,6 +1974,61 @@
       ],
       "verdict": "YELLOW 57.54/4,621/comp-38.2. Adjacent to bond-with-cat (69.79) but weaker. Use as title-bait variant in description.",
       "notes": "Include in tags + alt-title variant for bond-with-cat video; the SERP cluster overlaps."
+    },
+    {
+      "keyword": "what do cats dream about",
+      "fetched": "2026-06-02",
+      "credits_spent": 5,
+      "seed": { "volume": 54.56, "competition": 14.2, "overall": 67.06, "monthly": 4517 },
+      "top_related": [
+        { "keyword": "what do cats dream about?", "overall": 65.42, "monthly": 4253 },
+        { "keyword": "do cats dream", "overall": 64.91, "monthly": 5180 },
+        { "keyword": "cat dreaming", "overall": 63.66, "monthly": 4344 },
+        { "keyword": "cat dreams", "overall": 63.14, "monthly": 3392 },
+        { "keyword": "cat dream", "overall": 60.79, "monthly": 4579 },
+        { "keyword": "do animals dream", "overall": 59.98, "monthly": 15223 }
+      ],
+      "verdict": "🟢 GREEN-strong JACKPOT for 4 июн. 67.06/4,517 + LOWEST competition in entire cache (14.2). Cluster volume ~18k monthly. Mystery factor + universal observation (cats twitch in sleep) + 5-Signs format fit = high CTR + retention potential. No cannibalization (27 Apr was about sleep DURATION not dream content).",
+      "notes": "Format: '5 Things Your Cat Dreams About — #4 Is YOU' with warm twist on #4 (cats dream of their humans). Science-backed: REM sleep, olfactory dreams, memory consolidation."
+    },
+    {
+      "keyword": "how long do cats remember",
+      "fetched": "2026-06-02",
+      "credits_spent": 5,
+      "seed": { "volume": 0, "competition": 39.8, "overall": 24.08, "monthly": 0 },
+      "top_related": [
+        { "keyword": "feline behavior", "overall": 62.56, "monthly": 21261 },
+        { "keyword": "cat intelligence", "overall": 55.62, "monthly": 4619 }
+      ],
+      "verdict": "❌ RED 24.08/0. Memory-duration angle search-dead. Related point to general 'feline behavior' (too broad). Skip.",
+      "notes": "Cat memory angle has no specific search demand. If we want a memory video, frame via 'do cats remember you' but that's also low."
+    },
+    {
+      "keyword": "why do cats touch you with their paw",
+      "fetched": "2026-06-02",
+      "credits_spent": 5,
+      "seed": { "volume": 0, "competition": null, "overall": null, "monthly": 0 },
+      "top_related": [
+        { "keyword": "cat communication", "overall": 71.34, "monthly": 44753 },
+        { "keyword": "cat behavior explained", "overall": 66.27, "monthly": 113206 },
+        { "keyword": "cat affection signs", "overall": 67.09, "monthly": 9470 },
+        { "keyword": "cat bonding behavior", "overall": 65.04, "monthly": 9920 }
+      ],
+      "verdict": "❌ Seed dead. Related are all GREEN but in our existing cluster (affection-signs cannibalizes trust-signs, bonding cannibalizes bond-with-cat).",
+      "notes": "Paw-touch angle has no own keyword. Could include as one item in a broader '5 things cats do that mean love' video using cat-communication 71.34 cluster, but that overlaps bond-with-cat."
+    },
+    {
+      "keyword": "signs your cat is depressed",
+      "fetched": "2026-06-02",
+      "credits_spent": 5,
+      "seed": { "volume": 52.49, "competition": 28.6, "overall": 60.06, "monthly": 3285 },
+      "top_related": [
+        { "keyword": "cat health tips", "overall": 66.60, "monthly": 11723 },
+        { "keyword": "cat not eating", "overall": 66.12, "monthly": 3476 },
+        { "keyword": "cat depression", "overall": 55.73, "monthly": 3490 }
+      ],
+      "verdict": "YELLOW 60.06/3,285. Decent but mental-health angle = heavy emotion (downer). Better as fallback than primary.",
+      "notes": "Queue as fallback for a 'concerned owner' empathy video. Pair with 'cat health tips' 66.60 in tags for SEO boost."
     }
   ],
   "non_keyword_calls": [
