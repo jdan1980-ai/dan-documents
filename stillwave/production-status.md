@@ -28,18 +28,22 @@ After publish (May 10, 14:00):
 | ~~`lantern-glow-study-3h`~~ | ~~Quiet Hours Focus Music — Lantern Glow Study~~ | ~~3H~~ | ~~✅~~ | — | — | — | — | — | 🪦 **Dropped 2026-05-31** — 2H cap rule (CLAUDE.md). Length above 2H no longer in scope. |
 | `healing-hour-vol-1-528hz-kyoto-zen-garden` | 528 Hz Healing Frequency \| Kyoto Zen Garden Meditation to Stop Overthinking | 1H 02min | ✅ | ⏳ | ✅ 16:9 + thumb done | ⏳ | ⏳ | ⏳ |
 | `power-hour-528hz-tokyo-sound-bath` | 528 Hz Deep Sleep Music \| Tokyo Sound Bath for Anxiety Relief & Healing | 1H | ✅ | n/a (existing audio) | ✅ bowl thumb | n/a | ✅ rebrand applied | ✅ **published/scheduled 21.5** (`-1RE1P98_u8`) |
-| `power-hour-pomodoro-tokyo-rain-25-5` | Pomodoro Study With Me — Deep Focus Music \| Tokyo Rain 25/5 for Coding & Studying | 2H (25/5 ×4) | ✅ | ✅ | ✅ gold thumb | ✅ CapCut assembled | ✅ **scheduled Mon Jun 1, 07:00** | ⏳ |
+| `power-hour-pomodoro-tokyo-rain-25-5` | Pomodoro Study With Me — Deep Focus Music \| Tokyo Rain 25/5 for Coding & Studying | 2H (25/5 ×4) | ✅ | ✅ | ✅ gold thumb | ✅ CapCut assembled | ✅ | ✅ **published Tue Jun 2, 07:00 MSK** (`zjtGEZISKbg`) |
 
-### Power Hour Pomodoro 25/5 — scheduled Mon Jun 1, 07:00 (ID TBD)
+### Power Hour Pomodoro 25/5 — published Tue Jun 2, 07:00 MSK (`zjtGEZISKbg`)
 
-First full Power Hour Pomodoro. Locked series look debuted: gold chroma-key live timer overlay (FOCUS 25:00 / BREAK 05:00) + music-breathing gong fades (50s taper into focus, 10s dip into breaks) + hourglass signature + gold thumbnail. Assembled as full Suno album in CapCut (no ffmpeg).
+First full Power Hour Pomodoro. Locked series look debuted: gold chroma-key live timer overlay (FOCUS 25:00 / BREAK 05:00) + music-breathing gong fades (50s taper into focus, 10s dip into breaks) + hourglass signature + gold thumbnail.
 
-**Why Mon 07:00:** Pomodoro / study / coding = work-week demand. Monday morning catches the start-of-week work/study surge — stronger than a weekend slot for this content type.
+**SEO landed clean (verified 2026-06-02):** title 82c, full description with Pomodoro schedule + 36-track tracklist + 10 hashtags in body, 27 tags (Karena 20/20/40-50: brand `stillwave`/`stillwave pomodoro` + broad `pomodoro`/`study with me`/`focus music` + narrow `pomodoro 25 5`/`2 hour pomodoro`/`deep work pomodoro`/`pomodoro timer 2 hours`), topic categories = **Electronic Music + Music** (NOT Religion like 963 — landed in the right cluster 🎯), duration 2:00:12.
+
+**Slipped from Mon Jun 1 to Tue Jun 2** — day later than planned. Tuesday morning still hits the work-week start surge for the pomodoro/study cluster, so timing remains valid.
 
 Review schedule (don't judge before day 7 — algo push lands days 4–14):
-- **48h** — Jun 3, 07:00 → log VPH + views/likes/comments; just log, don't conclude. **Get the video ID and fill it in here.**
-- **7d** — Jun 8 → real read. Success = sustained VPH + functional repeat-use signals (saves, returning viewers) clearly beating a flat curve
-- **30d** — Jul 1 → final snapshot; decide if the Pomodoro template (gold timer + gong fades) becomes the locked Power Hour focus format
+- **48h** — Thu Jun 4, 07:00 → log VPH + views/likes/comments; just log, don't conclude
+- **7d** — Tue Jun 9 → real read. Success = sustained VPH + functional repeat-use signals (saves, returning viewers) clearly beating a flat curve
+- **30d** — Thu Jul 2 → final snapshot; decide if the Pomodoro template (gold timer + gong fades) becomes the locked Power Hour focus format
+
+**Shorts cross-promo plan:** drop Pomodoro Shorts cover on D3 (Fri Jun 5) or D4 (Sat Jun 6) to re-ignite long-form after the initial algo test plateaus (per our Healing Hour pattern). Skip if D1 < 30 views — Shorts won't save a dead launch.
 
 ### Power Hour Tokyo Sound Bath — rebrand applied (2026-05-21)
 
