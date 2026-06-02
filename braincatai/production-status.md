@@ -70,7 +70,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 
 ⚠️ **Override 18 мая:** `why-cats-sit-above-you` опубликован вне vidIQ-плана (score 25.6 RED, 0 monthly). User decision: канал в recovery mode → лучше потратить слот на инстинкт-тему чем держать сильную в очереди. Трекаем результат для валидации.
 
-🕒 **Publish-slot rule (1 июн 2026, data-validated):** **Идеальный слот = 13:00-14:00 локального (Jerusalem UTC+3)** — пре-drop pattern из апреля (24 апр – 5 мая, когда канал делал 700-1500 v/day). Окно 13:00-15:00 допустимо, 15:00 = late fallback когда не успеваешь к 14:00. НЕ публиковать позже 15:00 пока recovery не подтверждён. 18:00-21:00 = слот падения (10-27 мая), туда не возвращаемся. **Default = 14:00 локального.**
+🕒 **Publish-slot rule (2 июн 2026, data-validated):** **Default = 15:00 локального (Jerusalem UTC+3)** — validated by trust-signs 31 мая (15:00 → 54 views / #1 of last 10 in 38h = best recovery signal). Окно 13:00-15:00 ок; 13-14 = пре-drop pattern, 15:00 = current recovery slot. НЕ позже 15:00. НЕ возвращаться к 18-21 (период падения). Пересмотреть при ≥3 видео с 100+ просм.
 
 ### План на ближайшие слоты (26+ мая)
 
@@ -83,7 +83,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | 28 мая | Чт | **Cats CAN Be Trained — The Circus Secret** (cat training + circus story, counterintuitive + warm twist) | `circus-cat-training` | "cat training" **66.58 / 17,769 / comp 28.7 GREEN** (pivot из RED circus-cats 21/0) | ✅ скрипт+промты готовы → производство |
 | 29 мая | Пт | **A Cat Went to SPACE?! 5 Famous Cats Who Made History** (story-листикл, Brain-host) | `famous-cats-history` | "top 10 cats" **71.41 / 11,518 / comp 12.4 GREEN-jackpot** (pivot из YELLOW famous cats 57.85) | ✅ скрипт+промты готовы → производство |
 | 30 мая | Сб | **5 Cat Sounds You Must NEVER Ignore** (listicle) | `cat-sounds-never-ignore` | "cat sounds" **74.82 / 110,700 / comp 25.9 GREEN-JACKPOT** (крупнейший ключ канала) | ✅ скрипт+промты готовы → производство |
-| 31 мая | Вс | **5 Signs Your Cat SECRETLY Trusts You** (signs-листикл, позитив-зеркало) | `signs-cat-trusts-you` | "cat trust signs" **67.10 / 13,321 / comp 24.6 GREEN** | ✅ скрипт+промты готовы → производство |
+| 31 мая | Вс | **5 Signs Your Cat SECRETLY Trusts You** (signs-листикл, позитив-зеркало) | `signs-cat-trusts-you` | "cat trust signs" **67.10 / 13,321 / comp 24.6 GREEN** | ✅ опубликован 31 мая 15:00 → **54 views / #1 of last 10 in 38h** ⭐ (retention 41.6% — зона роста) |
 | 1 июн | Пн | **Why Your Cat Suddenly BITES When You Pet It** (overstimulation + 3 warning signs) | `why-cats-bite-when-petting` | "why does my cat bite me" **60.49 / 19,847 GREEN** + competitor 37x breakout/115K (bot title 89/100) | ✅ скрипт+промты готовы → производство |
 | 2 июн | Вт | **What Your Cat's TAIL Is Telling You — 5 Secret Signals** (5-Signs формула, counter-intuitive: cat wag ≠ dog wag, #4 warm payoff) | `why-cats-wag-their-tails` | "why cats wag their tails" **62.59 / 5,400 / comp 27.1** (кэш, 0 credits) + related GREEN `cat body language` 64.78 / `cat affection signs` 67.09 / `understanding cats` 69.26 | ⏰ uploaded, scheduled 2 июн 15:00 |
 
