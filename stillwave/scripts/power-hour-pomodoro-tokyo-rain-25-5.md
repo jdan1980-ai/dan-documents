@@ -144,6 +144,29 @@ The countdown is a genuine tool — viewers work *by* it, which drives returns. 
 
 **Optional intro card only:** one text card `🍅 POMODORO · 25/5 · 4 cycles` in the first 5–8 sec, then fade out.
 
+### ⚠️ MANDATORY pre-publish QA — gong/timer sync check (Lesson 2026-06-01)
+
+**Real bug caught at Mon Jun 1 publish:** the gong drifted away from the timer's `00:00` after export. Had to re-edit and re-upload — pushed the launch from Mon to Tue. Don't repeat.
+
+Before exporting the final 2H video, **jump to each of the 7 gong timestamps and visually confirm the timer overlay shows `00:00` at that exact frame:**
+
+| Gong at | Timer clip starting | Timer should show |
+|---------|---------------------|-------------------|
+| 25:00 | FOCUS clip at 0:00 | `FOCUS 00:00` |
+| 30:00 | BREAK clip at 25:00 | `BREAK 00:00` |
+| 55:00 | FOCUS clip at 30:00 | `FOCUS 00:00` |
+| 1:00:00 | BREAK clip at 55:00 | `BREAK 00:00` |
+| 1:25:00 | FOCUS clip at 1:00:00 | `FOCUS 00:00` |
+| 1:30:00 | BREAK clip at 1:25:00 | `BREAK 00:00` |
+| 1:55:00 | FOCUS clip at 1:30:00 | `FOCUS 00:00` |
+
+**Common drift causes:**
+- Timer clip dropped a fraction of a second off its target timestamp → drift accumulates over the 2H
+- Gong audio bell placed manually instead of snapped to the same exact timestamp as the timer
+- Pre-roll intro card pushed everything by a few frames
+
+**Quickest sanity check:** scrub to 25:00 first — if it's clean, the other 6 usually are too (because the timer clip duration is locked at 25:00 exactly). If 25:00 is off, every gong after will be off.
+
 ---
 
 ## 7. 📝 YouTube Title
