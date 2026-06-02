@@ -3,8 +3,8 @@
     "purpose": "Cache of vidIQ API responses (keyword research, outliers, breakout channels, channel videos) to avoid burning paid credits on repeat queries. Cat psychology niche keywords stay relevant ~30-60 days. Refresh entries older than 60 days only if you suspect drift.",
     "schema_version": "1.1",
     "created": "2026-05-17",
-    "last_updated": "2026-06-01",
-    "total_credits_spent": 320,
+    "last_updated": "2026-06-02",
+    "total_credits_spent": 340,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
@@ -22,7 +22,8 @@
       "2026-05-28 (user 20-topic batch): triaged free vs cache/published (most were dupes/blocked: purr, slow-blink, ignore, knead, boxes, stare). +25 credits on 5 genuinely-new. JACKPOT 'cat sounds' 74.82/110,700/comp-25.9 (5 Cat Sounds listicle). GREEN 'cat trust signs' 67.10/13,321/comp-24.6 (Signs Your Cat Trusts You). YELLOW-GREEN 'cat body language' 61.89/47,568/comp-50. RED: 'why do cats hide their kittens' (no search), 'cats training their owners' (no own keyword + cannibalizes circus). Cached-available: cat jealousy 59.01/5,156, 'why does my cat bite me' 60.49/19,847 (love bites). Buff-cat-vs-kitten = off-format, skip.",
       "2026-05-29 (cat intelligence, bot idea #2): +5 credits. 'cat intelligence test' YELLOW 56.80/3,942/comp-38.5 — weaker than queue (sounds 74.82 / trust 67.10 / bite 60.49). Related: 'cat challenge' 61.72/11,950 (TikTok cat-wall-test craze), 'cat logic' 54.34/19,067, 'cat wall test' 55.94/3,680. Verdict: CTR/engagement play (interactive 'test your cat'), not a search jackpot. Lower priority than current queue; do later as variety, tie to TikTok cat-wall-test trend.",
       "2026-05-30 (user multi-fact draft): +10 credits. 'do cats taste sweet' RED 28.68/0 with EMPTY related (search-dead). 'cat facial expressions' RED 23.8/0, related dominated by funny-cat compilations (off-format for us). Both facts from user's multi-fact draft = CTR/feed-only, no search. Verdict: SKIP, queue (sounds 74.82 / trust 67.10 / bite 60.49) is stronger. If decoder-angle wanted later, 'cat emotions' 64.63/15,891 (from earlier body-language query) is the GREEN-adjacent path.",
-      "2026-06-01 (2 июн topic hunt): +20 credits (1x outliers + 3x keyword_research). 'why cats rub against your legs' YELLOW 62.24/4,940/comp-27.1 + STRONG related 'cat affection signs' 67.09/9,470 GREEN (but cannibalizes 31 May trust-signs SERP). 'why cats drool' RED 35.36/0 — search-dead, skip. 'are cats liquid' YELLOW-low 55.03/4,010/comp-43.1 — funny meme topic, weaker score. Outliers in niche dominated by funny-cat compilation channels (off-format). Decision: 2 июн = `why cats wag their tails` 62.59/5,400 (cached, 0 credits) — best score available AND fits 5-Signs thumbnail (5 tail positions), counter-intuitive hook (cat wag ≠ dog wag), warm twist on #4 quiver. Rub-legs queued as future fallback."
+      "2026-06-01 (2 июн topic hunt): +20 credits (1x outliers + 3x keyword_research). 'why cats rub against your legs' YELLOW 62.24/4,940/comp-27.1 + STRONG related 'cat affection signs' 67.09/9,470 GREEN (but cannibalizes 31 May trust-signs SERP). 'why cats drool' RED 35.36/0 — search-dead, skip. 'are cats liquid' YELLOW-low 55.03/4,010/comp-43.1 — funny meme topic, weaker score. Outliers in niche dominated by funny-cat compilation channels (off-format). Decision: 2 июн = `why cats wag their tails` 62.59/5,400 (cached, 0 credits) — best score available AND fits 5-Signs thumbnail (5 tail positions), counter-intuitive hook (cat wag ≠ dog wag), warm twist on #4 quiver. Rub-legs queued as future fallback.",
+      "2026-06-02 (3 июн topic hunt): +20 credits (4x keyword_research). 'what cats sense before earthquakes' RED/null — sixth-sense angle search-dead. 'why cats hate being left alone' RED/null — separation-anxiety angle dead. 'are cats smarter than dogs' YELLOW-low 55.39/4,353/comp-43 — AUDIENCE-MISMATCH RISK (dog-owner traffic on cat-only channel → channel-fit demotion risk like April off-topic disaster). REJECT. 'why cats groom each other' seed RED 27.76/0 BUT related JACKPOT: 'why do cats groom each other' YELLOW-strong 64.67/4,579/comp-20.3 (LOWEST comp in entire cache). Also 'cats grooming each other' 62.14/4,165 + 'cat bonding' 60.53/9,454. WINNER for 3 июн: cat grooming with warm 'family-enrollment' reframe — when cat licks/grooms human, it's allo-grooming (clan-scent sharing). Strong emotional payoff in trust-signs style (which hit 54v/#1)."
     ]
   },
   "queries": [
@@ -1872,6 +1873,59 @@
       ],
       "verdict": "YELLOW-low 55.03/4,010/comp-43.1. Funny meme angle, decent SERP, but lower score than wag-tails AND higher competition. Skip for 2 июн; could fit later as variety play if we want a viral-meme angle.",
       "notes": "Meme topic — anti-pattern overlap with funny-cat compilation niche. Only do this if reframed as a Brain-as-scientist 'physicists studied this' explainer."
+    },
+    {
+      "keyword": "what cats sense before earthquakes",
+      "fetched": "2026-06-02",
+      "credits_spent": 5,
+      "seed": { "volume": 0, "competition": null, "overall": null, "monthly": 0 },
+      "top_related": [
+        { "keyword": "animal instincts", "overall": 61.19, "monthly": 16047 },
+        { "keyword": "earthquake prediction", "overall": 58.79, "monthly": 5183 }
+      ],
+      "verdict": "RED/null — sixth-sense angle is search-dead at this phrasing.",
+      "notes": "Earthquake-prediction angle would land on a broader niche (animal instincts) which is off-format. Skip."
+    },
+    {
+      "keyword": "why cats hate being left alone",
+      "fetched": "2026-06-02",
+      "credits_spent": 5,
+      "seed": { "volume": 0, "competition": null, "overall": null, "monthly": 0 },
+      "top_related": [
+        { "keyword": "cat psychology", "overall": 74.22, "monthly": 329617 },
+        { "keyword": "cat behavior", "overall": 73.12, "monthly": 171519 },
+        { "keyword": "cat health", "overall": 73.06, "monthly": 44753 }
+      ],
+      "verdict": "RED/null — separation-anxiety phrasing is search-dead. Related are broad tag-bait, not searchable angles.",
+      "notes": "If we ever want a separation-anxiety angle, must reframe — current phrasing has zero direct search demand."
+    },
+    {
+      "keyword": "are cats smarter than dogs",
+      "fetched": "2026-06-02",
+      "credits_spent": 5,
+      "seed": { "volume": 54.32, "competition": 43, "overall": 55.39, "monthly": 4353 },
+      "top_related": [
+        { "keyword": "cats vs dogs", "overall": 60.22, "monthly": 38017 },
+        { "keyword": "cat vs dog", "overall": 58.78, "monthly": 27600 },
+        { "keyword": "cats smarter than dogs", "overall": 55.76, "monthly": 4780 }
+      ],
+      "verdict": "REJECTED. YELLOW-low 55.39/4,353/comp-43, AND audience-mismatch risk: brings dog-owner traffic to cat-only channel → channel-fit demotion risk (April off-topic disaster pattern).",
+      "notes": "Do NOT do cats-vs-dogs comparison on Brain channel. Brings wrong-niche viewers who won't subscribe → dilutes audience signal. Even with the higher 'cats vs dogs' related (60.22/38k), the audience-fit cost > the score gain."
+    },
+    {
+      "keyword": "why cats groom each other",
+      "fetched": "2026-06-02",
+      "credits_spent": 5,
+      "seed": { "volume": 0, "competition": 30.6, "overall": 27.76, "monthly": 0 },
+      "top_related": [
+        { "keyword": "why do cats groom each other", "overall": 64.67, "monthly": 4579 },
+        { "keyword": "cats grooming each other", "overall": 62.14, "monthly": 4165 },
+        { "keyword": "cat communication", "overall": 70.51, "monthly": 36240 },
+        { "keyword": "cat bonding", "overall": 60.53, "monthly": 9454 },
+        { "keyword": "cat grooming", "overall": 60.34, "monthly": 37211 }
+      ],
+      "verdict": "JACKPOT pivot — seed RED but 'why do cats groom each other' YELLOW-strong 64.67/4,579/comp-20.3 (LOWEST competition in entire cache). Best fresh score across last 2 sessions. WINNER for 3 июн.",
+      "notes": "Frame as 'family-enrollment' / allo-grooming — when your cat licks you, it's clan-scent sharing. Warm positive-mirror payoff (matches trust-signs format that hit 54v/#1). Title angle: 'Why Your Cat Licks YOU — It's Not What You Think'."
     }
   ],
   "non_keyword_calls": [

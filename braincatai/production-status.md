@@ -85,7 +85,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | 30 мая | Сб | **5 Cat Sounds You Must NEVER Ignore** (listicle) | `cat-sounds-never-ignore` | "cat sounds" **74.82 / 110,700 / comp 25.9 GREEN-JACKPOT** (крупнейший ключ канала) | ✅ скрипт+промты готовы → производство |
 | 31 мая | Вс | **5 Signs Your Cat SECRETLY Trusts You** (signs-листикл, позитив-зеркало) | `signs-cat-trusts-you` | "cat trust signs" **67.10 / 13,321 / comp 24.6 GREEN** | ✅ опубликован 31 мая 15:00 → **54 views / #1 of last 10 in 38h** ⭐ (retention 41.6% — зона роста) |
 | 1 июн | Пн | **Why Your Cat Suddenly BITES When You Pet It** (overstimulation + 3 warning signs) | `why-cats-bite-when-petting` | "why does my cat bite me" **60.49 / 19,847 GREEN** + competitor 37x breakout/115K (bot title 89/100) | ✅ скрипт+промты готовы → производство |
-| 2 июн | Вт | **What Your Cat's TAIL Is Telling You — 5 Secret Signals** (5-Signs формула, counter-intuitive: cat wag ≠ dog wag, #4 warm payoff) | `why-cats-wag-their-tails` | "why cats wag their tails" **62.59 / 5,400 / comp 27.1** (кэш, 0 credits) + related GREEN `cat body language` 64.78 / `cat affection signs` 67.09 / `understanding cats` 69.26 | ⏰ uploaded, scheduled 2 июн 15:00 |
+| 2 июн | Вт | **What Your Cat's TAIL Is Telling You — 5 Secret Signals** (5-Signs формула, counter-intuitive: cat wag ≠ dog wag, #4 warm payoff) | `why-cats-wag-their-tails` | "why cats wag their tails" **62.59 / 5,400 / comp 27.1** (кэш) + related GREEN `cat body language` 64.78 / `cat affection signs` 67.09 / `understanding cats` 69.26 | ⏰ uploaded, scheduled 2 июн **13:00** (A/B vs trust 15:00) |
 
 **Бэклог YELLOW (cached, available):**
 - `why-cats-wag-their-tails` 62.59 / 5,400 — лучший AVAILABLE в кэше
