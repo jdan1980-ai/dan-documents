@@ -91,6 +91,30 @@ braincatai, cat facts mind blowing, cat behavior explained
 
 **Когда пересмотреть:** ≥3 видео с 100+ просм ИЛИ Shorts-feed retention >30%. До тех пор — продолжать ежедневно.
 
+### 12. Glasses-override для sleep/mask сцен (locked 2 июн 2026, user-validated)
+**Правило:** **локед-правило Brain "glasses ALWAYS on" имеет ИСКЛЮЧЕНИЕ — если Brain в сцене с маской для сна / dream goggles / на лбу маска → очки УБИРАЮТСЯ.**
+
+**Почему:** очки + маска для сна одновременно = визуальный мусор + IRL не носят. Для thumbnail-вариативности (sleeping Brain в кровати + nightcap + sleep mask) очки убираются.
+
+**Применять к:** dreams thumbnails, любые «спящий Brain» сцены где есть sleep-prop (маска / dream goggles).
+
+**НЕ применять к:** обычные scene-frames где Brain просто спит (нет маски/dream-prop) — там очки остаются по умолчанию.
+
+**В промте конкретно:**
+- Убрать строчку про glasses из Locked Brain block
+- Добавить явно: `NO GLASSES in this scene — sleep mask overrides glasses rule`
+- В негативы добавить: `glasses, gold-framed glasses, eyeglasses, spectacles`
+
+**Расширение этого правила (locked 2 июн 2026, thumbnail variety initiative):** для разнообразия обложек каждая тема может иметь свой **costume-prop**, который добавляется поверх Locked Brain. Аналогично scientist-coat / detective-hat из §2 style-guide. Конкретно:
+- 🛏️ dreams → nightcap + sleep mask (glasses OFF — правило 12)
+- 🍽️ bite → tiny bandage on owner's finger (Brain нормальный)
+- 🦷 owner-mistakes → tiny chef hat / oven mitts (Brain нормальный)
+- 💕 bond → small bouquet / heart-shaped chocolates (Brain нормальный)
+- 🐾 paw-touch → cute boxing gloves (Brain нормальный)
+- 🎓 любая «scientist explainer» сцена → lab coat (locked в §2)
+
+**Принцип:** **face-size в обложке остаётся 55-60% (5-Signs формула)**, меняется только prop/контекст. Это даёт разнообразие без потери CTR-паттерна.
+
 ---
 
 ## 📦 ЧАСТЬ 2 — Порядок SEO Pack (строгий)
