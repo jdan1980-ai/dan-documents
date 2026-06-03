@@ -64,13 +64,13 @@ Most are easy to fix once you know. Here's what science says.
 
 Mistake one — petting the belly when they show it. That's a trap, not an invitation. It's a trust display.
 
-Mistake two — feeding from a deep bowl. Whiskers touch the sides — it's called whisker fatigue. Your cat is stressed every meal.
+Mistake two — deep bowls cause whisker fatigue. Whiskers touch the sides. Your cat is stressed every meal.
 
-Mistake three — punishing them for scratching the floor after eating. They're not being weird. It's instinct to bury food.
+Mistake three — punishing the floor-scratching after meals. Not weird — it's instinct to bury food.
 
-Mistake four — reaching for the head to greet them. Always offer a finger at nose height first. Let them sniff.
+Mistake four — reaching for the head. Always offer a finger at nose height. Let them sniff.
 
-Mistake five — skipping 10 minutes of play. A bored predator becomes a destructive one. Ten minutes a day, and you have a different cat.
+Mistake five — skipping daily play. A bored predator turns destructive. Ten minutes a day fixes it.
 
 Follow Brain to learn what your cat actually wants you to know.
 ```
@@ -83,13 +83,13 @@ Follow Brain to learn what your cat actually wants you to know.
 
 Ошибка один — гладишь живот когда он показывает. Это ловушка, не приглашение. Это знак доверия.
 
-Ошибка два — кормишь из глубокой миски. Усы трутся о стенки — это называется whisker fatigue. Кот в стрессе каждый приём пищи.
+Ошибка два — глубокая миска даёт whisker fatigue. Усы трутся о стенки. Стресс каждый приём пищи.
 
-Ошибка три — ругаешь его за царапанье пола после еды. Он не странный. Это инстинкт закопать еду.
+Ошибка три — ругаешь его за царапанье пола после еды. Это не странность — инстинкт закопать.
 
-Ошибка четыре — тянешься к голове когда здороваешься. Сначала протяни палец на уровне носа. Дай понюхать.
+Ошибка четыре — тянешься к голове. Сначала палец на уровне носа. Дай понюхать.
 
-Ошибка пять — пропускаешь 10 минут игры. Скучающий хищник становится разрушительным. Десять минут в день — и у тебя другой кот.
+Ошибка пять — пропускаешь ежедневную игру. Скучающий хищник становится разрушителем. 10 минут в день — и кот другой.
 
 Подпишись на Brain, чтобы понимать что твой кот хочет сказать.
 ```
@@ -187,11 +187,11 @@ LEFT/TOP: Brain's whiskers press against the deep bowl walls more visibly, stres
 ```
 **🎙️ VO (EN):**
 ```
-Mistake two — feeding from a deep bowl. Whiskers touch the sides — it's called whisker fatigue. Your cat is stressed every meal.
+Mistake two — deep bowls cause whisker fatigue. Whiskers touch the sides. Your cat is stressed every meal.
 ```
 **🎙️ VO (RU):**
 ```
-Ошибка два — кормишь из глубокой миски. Усы трутся о стенки — это называется whisker fatigue. Кот в стрессе каждый приём пищи.
+Ошибка два — глубокая миска даёт whisker fatigue. Усы трутся о стенки. Стресс каждый приём пищи.
 ```
 **Оверлей (CapCut):** цифра «2» + «❌» (left) + «✓» (right) + подпись «WHISKER FATIGUE» + soft «aha-discovery» SFX.
 
@@ -210,11 +210,11 @@ Brain's front paws scratch/paw at the wood floor in a few quick instinctive bury
 ```
 **🎙️ VO (EN):**
 ```
-Mistake three — punishing them for scratching the floor after eating. They're not being weird. It's instinct to bury food.
+Mistake three — punishing the floor-scratching after meals. Not weird — it's instinct to bury food.
 ```
 **🎙️ VO (RU):**
 ```
-Ошибка три — ругаешь его за царапанье пола после еды. Он не странный. Это инстинкт закопать еду.
+Ошибка три — ругаешь его за царапанье пола после еды. Это не странность — инстинкт закопать.
 ```
 **Оверлей (CapCut):** цифра «3» + «❌» (mistake) → smoothly transitions to «INSTINCT 🐾» + подпись «IT'S INSTINCT, NOT WEIRD» + soft «mind-blow» chime. **Это пэйофф title-promise («#3 will shock you»).**
 
@@ -239,11 +239,11 @@ LEFT/TOP: The hand reaches over Brain's head, his ears flatten back, body leans 
 ```
 **🎙️ VO (EN):**
 ```
-Mistake four — reaching for the head to greet them. Always offer a finger at nose height first. Let them sniff.
+Mistake four — reaching for the head. Always offer a finger at nose height. Let them sniff.
 ```
 **🎙️ VO (RU):**
 ```
-Ошибка четыре — тянешься к голове когда здороваешься. Сначала протяни палец на уровне носа. Дай понюхать.
+Ошибка четыре — тянешься к голове. Сначала палец на уровне носа. Дай понюхать.
 ```
 **Оверлей (CapCut):** цифра «4» + «❌» (left) + «✓» (right) + подпись «OFFER FINGER FIRST» + soft «greeting» chime.
 
@@ -262,11 +262,11 @@ Brain leaps and swats playfully at the dangling feather-toy, his tail flicks exc
 ```
 **🎙️ VO (EN):**
 ```
-Mistake five — skipping 10 minutes of play. A bored predator becomes a destructive one. Ten minutes a day, and you have a different cat.
+Mistake five — skipping daily play. A bored predator turns destructive. Ten minutes a day fixes it.
 ```
 **🎙️ VO (RU):**
 ```
-Ошибка пять — пропускаешь 10 минут игры. Скучающий хищник становится разрушительным. Десять минут в день — и у тебя другой кот.
+Ошибка пять — пропускаешь ежедневную игру. Скучающий хищник становится разрушителем. 10 минут в день — и кот другой.
 ```
 **Оверлей (CapCut):** цифра «5» + **зелёная «✓» (не ❌ — warm twist!)** + подпись «PLAY 10 MIN 💚» + тёплый warm-music swell (это эмоциональный пик ролика).
 
