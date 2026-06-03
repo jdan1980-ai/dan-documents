@@ -29,6 +29,7 @@ After publish (May 10, 14:00):
 | `healing-hour-vol-1-528hz-kyoto-zen-garden` | 528 Hz Healing Frequency \| Kyoto Zen Garden Meditation to Stop Overthinking | 1H 02min | ✅ | ⏳ | ✅ 16:9 + thumb done | ⏳ | ⏳ | ⏳ |
 | `power-hour-528hz-tokyo-sound-bath` | 528 Hz Deep Sleep Music \| Tokyo Sound Bath for Anxiety Relief & Healing | 1H | ✅ | n/a (existing audio) | ✅ bowl thumb | n/a | ✅ rebrand applied | ✅ **published/scheduled 21.5** (`-1RE1P98_u8`) |
 | `power-hour-pomodoro-tokyo-rain-25-5` | Pomodoro Study With Me — Deep Focus Music \| Tokyo Rain 25/5 for Coding & Studying | 2H (25/5 ×4) | ✅ | ✅ | ✅ gold thumb | ✅ CapCut assembled | ✅ | ✅ **published Tue Jun 2, 07:00 MSK** (`zjtGEZISKbg`) |
+| `power-hour-pomodoro-tokyo-rain-50-10` | Pomodoro Study Timer 50/10 — 2H Deep Focus Music \| Tokyo Rain for Coding & Studying | 2H (50/10 ×2) | ✅ | ⏳ | ✅ reuse 25/5 image (re-tag) | ⏳ | ⏳ | ⏳ Target ~9-10.6, after 25/5 D7 read |
 
 ### Power Hour Pomodoro 25/5 — published Tue Jun 2, 07:00 MSK (`zjtGEZISKbg`)
 
@@ -44,6 +45,29 @@ Review schedule (don't judge before day 7 — algo push lands days 4–14):
 - **30d** — Thu Jul 2 → final snapshot; decide if the Pomodoro template (gold timer + gong fades) becomes the locked Power Hour focus format
 
 **Shorts cross-promo plan:** drop Pomodoro Shorts cover on D3 (Fri Jun 5) or D4 (Sat Jun 6) to re-ignite long-form after the initial algo test plateaus (per our Healing Hour pattern). Skip if D1 < 30 views — Shorts won't save a dead launch.
+
+### Power Hour Pomodoro 50/10 — in production (target ship ~9-10.6)
+
+Second Pomodoro variant — long-block 50/10 (50 min focus / 10 min break × 2 = exactly 2H). Keyword-driven build off VidIQ data pulled 2026-06-02:
+
+- **`pomodoro 50/10` 162,007/mo** (comp 32) vs our 25/5 `pomodoro 25 5` 7,598/mo → **~2.5× larger market**
+- **`study timer` 171,519/mo at comp 21** → added to title and tags, near-uncompetitive keyword
+- **`作業用bgm` 169K/mo in Japan** → JP-language tags + 1 JP hashtag in description body to catch Japanese market (already biggest study-music market by share)
+
+Production reuse — 50/10 ships fast because almost everything is locked from 25/5:
+- ✅ Same penthouse 16:9 scene (re-tag thumbnail `25/5 · 2H` → `50/10 · 2H`)
+- ✅ Same vertical 9:16 Shorts cover (re-tag)
+- ✅ Same Suno music DNA prompts (just generate a new full album)
+- ✅ Same Flow video loop
+- ✅ New chroma-key timer overlays `timer-focus-50min-chroma.mp4` + `timer-break-10min-chroma.mp4` (rendered 2026-06-02)
+- ✅ Same music-breathing fade pattern (just 3 gongs: 50:00 / 1:00:00 / 1:50:00 instead of 7)
+
+**Decision logic before ship:**
+- Pomodoro 25/5 D2 read (Thu Jun 4) — if it shows ANY life (VPH > 0.5, D2 > 50 views), keep going on 50/10 prep
+- Pomodoro 25/5 D7 read (Tue Jun 9) — final go/no-go on 50/10 ship. If 25/5 flopped like 963, **rethink instead of doubling down**
+- Ship 50/10: ideally **Mon/Tue ~16-17.6** (after 25/5 D7 read + Suno album generation + CapCut assembly)
+
+A/B benchmark on D7 of 50/10 — does the bigger-keyword market + study-timer tag translate to lift over 25/5? If yes → lock 50/10 as the primary Power Hour Pomodoro format. If no → 25/5 stays.
 
 ### Power Hour Tokyo Sound Bath — rebrand applied (2026-05-21)
 
