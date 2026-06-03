@@ -140,6 +140,29 @@ braincatai, cat facts mind blowing, cat behavior explained
 - **eye-emotion (если глаза открыты) или sleep-emotion (если закрыты)** — главный CTR-сигнал, не размывать
 - Меняется только **prop / accessory / immediate background context** — это даёт визуальное разнообразие БЕЗ потери CTR-паттерна.
 
+**⚠️ Важный caveat (locked 2 июн 2026, user-validated после "chef hat для owner-mistakes" miss):** **prop добавляется ТОЛЬКО если он SEMANTICALLY связан с темой видео**. Если связи нет — НЕ навязывать случайный prop ради «вариативности».
+
+**Что считается semantic-fit:**
+- ✅ dreams + nightcap = «сны = ночь = шапочка для сна» ← natural связь
+- ✅ motorcycle facts + moto-goggles = тематический setting
+- ✅ scientist explainer + lab coat = role match
+- ✅ chef hat ТОЛЬКО если video про cooking / nutrition / kitchen routine
+
+**Что считается forced/bad:**
+- ❌ chef hat для «5 owner mistakes» = mistakes ≠ cooking, prop создаёт когнитивное трение «почему повар?»
+- ❌ scientist coat для «cat psychology» как универсальный fallback — слишком общо, не выделяет конкретное видео
+- ❌ боксёрские перчатки для «cat warning signs» если video про tail/ears, не про драку
+
+**Если нет natural prop для темы → используй expressive POSE вместо prop:**
+- 😤 **facepalm** (paw covering one eye) — для «mistakes», «owner doing wrong», «cringe» тем
+- 👉 **paw pointing at viewer** — для «you need to know this», accusatory teaching
+- 🫷 **paw raised / stop gesture** — для «STOP doing this», warning тем
+- 🤔 **paw to chin, thinking pose** — для curiosity / mystery тем
+- 🥺 **big sad eyes + lowered head** — для emotional / empathy тем
+- 😼 **smug crossed-paws** — для «I knew it» / superiority тем
+
+Pose даёт ту же визуальную дифференциацию что prop, но **без когнитивного трения**. Используй pose когда prop не подходит.
+
 ---
 
 ## 📦 ЧАСТЬ 2 — Порядок SEO Pack (строгий)

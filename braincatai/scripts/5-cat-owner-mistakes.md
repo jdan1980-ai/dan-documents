@@ -352,11 +352,11 @@ cat owner mistakes, common cat owner mistakes, mistakes cat owners make, top 10 
 
 ---
 
-## 🖼️ ТУМБНЕЙЛ (Nano Banana 2 — «5 Signs» формула + Rule 13 prop-variety: chef hat for "mistake/cooking" theme)
+## 🖼️ ТУМБНЕЙЛ (Nano Banana 2 — «5 Signs» формула + FACEPALM-поза, без prop — Rule 13: prop ТОЛЬКО если semantically связан, иначе клин Brain)
 ```
-EXTREME CLOSE-UP of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain — face fills ~55-60% of the LEFT-CENTER of frame, slight 3° tilt. Big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. EYES WIDE in a cute "oh no, you caught me!" facepalm-realization expression, pupils slightly dilated, looking up at the viewer in mild shock. Mouth gently open in a tiny "oh!" expression. Ears slightly back in self-conscious "uh oh" pose. Small thin round gold-framed glasses ALWAYS on. PROP: a CUTE TINY WHITE PUFFY CHEF HAT sitting slightly askew on his head (between his two ears, NOT covering them — the prop signals "owner mistakes / kitchen / care metaphor", per Karena Playbook Rule 13). Plain brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur, ALL 4 paws ginger (front and back, no white socks), EXACTLY 2 ears (visible on either side of the chef hat), EXACTLY 4 paws. Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9:16.
+EXTREME CLOSE-UP of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain — face fills ~55-60% of the LEFT-CENTER of frame, slight 3° tilt. Big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. EYES half-visible in a clear FACEPALM expression — one ginger front paw is raised UP and gently pressed against the side of his face / partially covering one eye (classic "oh no, you again" facepalm pose). The visible eye looks at viewer with mild exasperated-but-loving "we need to talk" expression. Mouth in a small "ugh" frown (NOT angry, just done with our nonsense). Ears slightly tilted back in mild dismay. Small thin round gold-framed glasses ALWAYS on (visible on the eye that's NOT covered). NO chef hat, NO costume — clean Brain. Plain brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur, ALL 4 paws ginger (front and back, no white socks) — ONE front paw raised in the facepalm gesture, the other paws visible in their normal position. EXACTLY 2 ears, EXACTLY 4 paws. Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9:16.
 
-HOOK ELEMENT (RIGHT side of frame, ~22-25% area): a BIG bold cartoon "❌" mark (red, with a clean cartoon outline) floating beside Brain's face, with a small "5" number glowing inside it (subtle, integrated). A few tiny additional smaller "❌" icons scattered around to emphasize "5 mistakes". The big "❌" is the hook — instantly signals "you're doing something wrong here, click to find out what".
+HOOK ELEMENT (RIGHT side of frame, ~25% area): a BIG bold cartoon "❌" mark (vivid red, clean cartoon outline with charcoal stroke) floating beside Brain's face at slight tilt. A small "5" number glows softly inside the ❌. Two-three additional smaller "❌" icons scattered around in a loose arc to emphasize "5 mistakes total". The big ❌ is the hook — instantly signals "you're doing something wrong, click to find out what".
 
 BACKGROUND: cozy living-room warm bokeh, HEAVILY BLURRED, heavy DOF, warm honey-amber tones. Brain rim-lit so he POPS. High contrast.
 
@@ -366,13 +366,13 @@ LINE 2: "THESE WRONG 😱"
 
 TYPOGRAPHY LOCK (strict): single rounded sans-serif font, NO serifs, NO Comic Sans, NO Papyrus, NO Impact.
 EYE COLOR RULE (strict): LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84) + black pupil; only the small iris is green, sclera stays white, NEVER a fully-green eyeball.
-ANATOMY RULE (strict): EXACTLY 4 paws AND EXACTLY 2 EARS (visible on either side of chef hat).
+ANATOMY RULE (strict): EXACTLY 4 paws (one raised in facepalm) AND EXACTLY 2 EARS.
 STYLE RULE (strict): Pixar/Disney 3D ANIMATED CARTOON. NOT photorealistic.
 LANGUAGE RULE (strict): on-screen text ENGLISH only. NO Russian, NO Cyrillic.
 ```
 **Thumbnail negatives:**
 ```
-2D flat, anime, photorealistic, real cat, photoreal, hyperrealistic, multiple cats, second cat, dog, puppy, low quality, blurry, cluttered background, low contrast, blue eyes, amber eyes, brown eyes, green sclera, green eye-whites, fully green eyes, white paws, white back paws, round tag, bell tag, blank tag, missing glasses, missing chef hat, aggressive scary cat, blood, sharp horror fangs, serif font, Comic Sans, Papyrus, Impact, gradient text, neon text, multiple fonts, Russian text, Cyrillic letters, watermark, logo
+2D flat, anime, photorealistic, real cat, photoreal, hyperrealistic, multiple cats, second cat, dog, puppy, low quality, blurry, cluttered background, low contrast, blue eyes, amber eyes, brown eyes, green sclera, green eye-whites, fully green eyes, white paws, white back paws, round tag, bell tag, blank tag, missing glasses, aggressive scary cat, blood, sharp horror fangs, serif font, Comic Sans, Papyrus, Impact, gradient text, neon text, multiple fonts, Russian text, Cyrillic letters, watermark, logo, chef hat, cooking hat, costume, hat on head, fancy headgear, gloves on paws
 ```
 > A/B-альтернативы для текста: `5 MISTAKES YOU MAKE` / `STOP DOING #3 ❌` / `YOU'RE DOING IT WRONG 😱`
 
@@ -387,7 +387,7 @@ LANGUAGE RULE (strict): on-screen text ENGLISH only. NO Russian, NO Cyrillic.
 - **Sc 1, 3, 6 — рука хозяйки:** HUMAN RULE (one hand, cream sleeve, no face)
 - **Sc 3 — Brain on back grabbing wrist:** котик ДЕРЖИТ запястье ПАЛЬЦАМИ-подушечками, без когтей, без агрессии. Если Banana добавит scratching/blood — перегенерить
 - **Sc 7 — playful mouth open:** ИСКЛЮЧЕНИЕ из mouth-closed правила (cute "got you" expression). Не путать с aggression
-- **Thumbnail — chef hat is the prop:** Karena Playbook Rule 13 (prop-variety). Hat sits BETWEEN the 2 ears, both ears must remain visible
+- **Thumbnail — facepalm pose, NO prop** (Karena Playbook Rule 13 caveat: prop добавляется ТОЛЬКО если semantically связан с темой; для «owner mistakes» нет натурального prop → используем expressive pose facepalm + большой ❌ + 2-3 mini-❌ вокруг)
 - Цифры «1-5» + подписи — CapCut, залоченный шрифт. Цвет: «❌» red на 1-4, «✓» green на 5 (warm twist)
 
 ## Метрики (сравнить с trust-signs 54v / dreams / bond / bite / wag-tails)
