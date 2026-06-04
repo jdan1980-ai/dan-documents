@@ -163,6 +163,41 @@ braincatai, cat facts mind blowing, cat behavior explained
 
 Pose даёт ту же визуальную дифференциацию что prop, но **без когнитивного трения**. Используй pose когда prop не подходит.
 
+### 14. Humor injection — comedy + education hybrid (locked 2 июн 2026, user-validated)
+
+**Контекст:** Comedy-only style ("POV: your cat is committing crimes against your sanity") сильнее по CTR, но РАЗРУШАЕТ Brain character (он professor, не snarky narrator) + ломает SEO (search-keywords не ложатся в comedy) + увеличивает AI-slop risk. Поэтому **смешиваем: education stays, добавляем ОДИН comedy jab per scene**.
+
+**Формула (5 правил):**
+
+1. **ОДНА comedy line на сцену** — макс 1 jab, не 2-3. Иначе расплывается educational frame.
+2. **Comedy ПОСЛЕ факта**, не вместо. Сначала science, потом witty observation.
+3. **Brain stays wise+warm** — observational humor, НЕ snark. Brain любит кошек, не унижает.
+4. **НИКОГДА на warning/serious сценах** (#4 stress в zoomies, #3 в bite warning signs). Юмор расплывает сигнал тревоги.
+5. **Universal references**, не короткосрочные мемы. ✅ F1/parkour/savanna/Olympic athlete/victory lap. ❌ Skibidi/sigma/конкретный TikTok-сленг — устаревают за месяц.
+
+**Правильный паттерн (zoomies 6 июн пример):**
+
+| Beat | Educational | + Comedy jab |
+|------|-------------|---------------|
+| Hook | «It's 3 a.m. — your cat just sprinted across the room» | «POV: 3 a.m. — your cat just used your face as a parkour course» |
+| Science | «Scientists call it FRAPs — Frenetic Random Activity Periods» | «Scientists call it FRAPs. Your cat just calls it Tuesday.» |
+| Fact #1 | «The post-litter-box dash. Pure relief instinct» | «The post-litter-box victory lap. Scientists call it poo-phoria.» |
+| Fact #2 | «Dusk and dawn are natural hunting peaks» | «Dusk and dawn are natural hunting peaks. Your hallway becomes the savanna.» |
+| Fact #3 | «Pent-up predator energy» | «Pent-up predator energy. No prey indoors means your couch is the target.» |
+| Warning #4 | «Too-frequent zoomies signal stress. Check their environment.» | (БЕЗ jab — serious beat) |
+| Warm #5 | «A happy thriving cat zoomies for pure joy» | «A happy thriving cat zoomies for pure joy. Tail up, eyes bright — a cat winning at life.» |
+| CTA | «Follow Brain to learn what your cat is really telling you» | (БЕЗ jab — CTA это workhorse) |
+
+**Анти-паттерны (НЕ делать):**
+- ❌ «Your cat is committing 5 specific crimes against your sanity» (snark, обвинение кота)
+- ❌ «Mysterious, inconvenient icons» (Brain не использует "icons" Gen-Z сленг безотносительно к контексту)
+- ❌ «Why does your fluffball turn into a tiny chaotic tornado?» (cringe-style descriptors)
+- ❌ Заменять весь VO на comedy — теряется educational frame и SEO
+
+**Применение:** все скрипты с 6 июн (zoomies, owner-mistakes уже залит без хибрида — оставляем). Hybrid voice = новый default. Если фит конкретной темы plохой (например cat-funeral / loss-emotional темы) — пропускаем comedy полностью.
+
+**Test plan:** 3-4 видео в хибриде → сравнить retention vs pure-educational. Если +/- то же или лучше — залочиваем permanent. Если retention падает — откатываем.
+
 ---
 
 ## 📦 ЧАСТЬ 2 — Порядок SEO Pack (строгий)

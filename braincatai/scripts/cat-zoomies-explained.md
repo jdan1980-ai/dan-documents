@@ -56,38 +56,38 @@ Preserve the input image exactly — same kitten, same anatomy, glasses, eyes (l
 
 **🇬🇧 English (copy this block alone):**
 ```
-It's 3 a.m. — your cat just sprinted across the room. Here's why — and number four means trouble.
+POV: 3 a.m. — your cat just used your face as a parkour course. Here's why — and number four means trouble.
 
-Scientists call it FRAPs — Frenetic Random Activity Periods. Every zoomie has a reason.
+Scientists call it FRAPs — Frenetic Random Activity Periods. Your cat just calls it Tuesday.
 
-Reason one — the post-litter-box dash. A reflex called poo-phoria. Pure relief instinct.
+Reason one — the post-litter-box victory lap. Scientists call it poo-phoria. Pure relief instinct.
 
-Reason two — dusk and dawn are their natural hunting peaks. Indoor cats redirect that energy into zoomies.
+Reason two — dusk and dawn are their natural hunting peaks. Your hallway becomes the savanna.
 
-Reason three — pent-up predator energy. Indoor life means no real prey. The hunt explodes inward.
+Reason three — pent-up predator energy. No prey indoors means your couch is the target.
 
 Reason four — too-frequent zoomies signal stress. If it happens many times a day, check their environment.
 
-Reason five — a happy thriving cat zoomies for pure joy. Rhythmic, bouncy, eyes bright — that's wellbeing.
+Reason five — a happy thriving cat zoomies for pure joy. Tail up, eyes bright — a cat winning at life.
 
 Follow Brain to learn what your cat is really telling you.
 ```
 
 **🇷🇺 Русская версия (copy this block alone):**
 ```
-3 утра — кот только что промчался через комнату. Вот почему — и причина четыре означает проблему.
+POV: 3 утра — твой кот только что устроил паркур по твоему лицу. Вот почему — и причина четыре означает проблему.
 
-Учёные называют это FRAPs — Frenetic Random Activity Periods. У каждой zoomie есть причина.
+Учёные называют это FRAPs — Frenetic Random Activity Periods. Кот называет это «вторник».
 
-Причина один — спринт после лотка. Рефлекс под названием poo-phoria. Чистый инстинкт облегчения.
+Причина один — победный круг после лотка. Учёные называют это poo-phoria. Чистый инстинкт облегчения.
 
-Причина два — сумерки и рассвет — их природные пики охоты. Домашние коты выпускают эту энергию в zoomies.
+Причина два — сумерки и рассвет — их природные пики охоты. Твой коридор становится саванной.
 
-Причина три — накопленная энергия хищника. В квартире нет настоящей добычи. Охота взрывается внутри.
+Причина три — накопленная энергия хищника. Нет добычи в квартире — диван становится мишенью.
 
 Причина четыре — слишком частые zoomies — это стресс. Если много раз в день — проверь его обстановку.
 
-Причина пять — счастливый кот делает zoomies от чистой радости. Ритмично, прыжки, глаза горят — это благополучие.
+Причина пять — счастливый кот делает zoomies от чистой радости. Хвост вверх, глаза горят — кот побеждает в жизни.
 
 Подпишись на Brain, чтобы понимать что твой кот тебе говорит.
 ```
@@ -110,11 +110,11 @@ Brain dashes diagonally across the frame at FULL speed, motion-trail blur lines 
 ```
 **🎙️ VO (EN):**
 ```
-It's 3 a.m. — your cat just sprinted across the room. Here's why — and number four means trouble.
+POV: 3 a.m. — your cat just used your face as a parkour course. Here's why — and number four means trouble.
 ```
 **🎙️ VO (RU):**
 ```
-3 утра — кот только что промчался через комнату. Вот почему — и причина четыре означает проблему.
+POV: 3 утра — твой кот только что устроил паркур по твоему лицу. Вот почему — и причина четыре означает проблему.
 ```
 **Оверлей (CapCut):** «3AM ZOOMIES ⚡» upper third + «whoosh» sprint SFX.
 
@@ -133,11 +133,11 @@ The chalkboard FRAPs text glows softly, the running cat icon on the chalkboard d
 ```
 **🎙️ VO (EN):**
 ```
-Scientists call it FRAPs — Frenetic Random Activity Periods. Every zoomie has a reason.
+Scientists call it FRAPs — Frenetic Random Activity Periods. Your cat just calls it Tuesday.
 ```
 **🎙️ VO (RU):**
 ```
-Учёные называют это FRAPs — Frenetic Random Activity Periods. У каждой zoomie есть причина.
+Учёные называют это FRAPs — Frenetic Random Activity Periods. Кот называет это «вторник».
 ```
 **Оверлей (CapCut):** «FRENETIC RANDOM ACTIVITY» + soft science-pulse hum.
 
@@ -156,11 +156,11 @@ Brain dashes forward in bouncy joyful zoomie motion, motion-blur trail streaming
 ```
 **🎙️ VO (EN):**
 ```
-Reason one — the post-litter-box dash. A reflex called poo-phoria. Pure relief instinct.
+Reason one — the post-litter-box victory lap. Scientists call it poo-phoria. Pure relief instinct.
 ```
 **🎙️ VO (RU):**
 ```
-Причина один — спринт после лотка. Рефлекс под названием poo-phoria. Чистый инстинкт облегчения.
+Причина один — победный круг после лотка. Учёные называют это poo-phoria. Чистый инстинкт облегчения.
 ```
 **Оверлей (CapCut):** цифра «1» + подпись «POO-PHORIA 💨» + лёгкий «whoosh» SFX.
 
@@ -179,11 +179,11 @@ The bird silhouette outside slowly flies past, Brain's eyes track it intensely, 
 ```
 **🎙️ VO (EN):**
 ```
-Reason two — dusk and dawn are their natural hunting peaks. Indoor cats redirect that energy into zoomies.
+Reason two — dusk and dawn are their natural hunting peaks. Your hallway becomes the savanna.
 ```
 **🎙️ VO (RU):**
 ```
-Причина два — сумерки и рассвет — их природные пики охоты. Домашние коты выпускают эту энергию в zoomies.
+Причина два — сумерки и рассвет — их природные пики охоты. Твой коридор становится саванной.
 ```
 **Оверлей (CapCut):** цифра «2» + подпись «DUSK HUNTER 🌅» + лёгкий «stalking pizzicato» SFX.
 
@@ -202,11 +202,11 @@ Brain leaps in a dynamic pounce at the imaginary mouse-shadow, the "💥" energy
 ```
 **🎙️ VO (EN):**
 ```
-Reason three — pent-up predator energy. Indoor life means no real prey. The hunt explodes inward.
+Reason three — pent-up predator energy. No prey indoors means your couch is the target.
 ```
 **🎙️ VO (RU):**
 ```
-Причина три — накопленная энергия хищника. В квартире нет настоящей добычи. Охота взрывается внутри.
+Причина три — накопленная энергия хищника. Нет добычи в квартире — диван становится мишенью.
 ```
 **Оверлей (CapCut):** цифра «3» + подпись «PREDATOR EXPLOSION 💥» + soft «hunt-burst» sting.
 
@@ -248,11 +248,11 @@ Brain bounces joyfully across the frame, pink hearts and sparkles drift around h
 ```
 **🎙️ VO (EN):**
 ```
-Reason five — a happy thriving cat zoomies for pure joy. Rhythmic, bouncy, eyes bright — that's wellbeing.
+Reason five — a happy thriving cat zoomies for pure joy. Tail up, eyes bright — a cat winning at life.
 ```
 **🎙️ VO (RU):**
 ```
-Причина пять — счастливый кот делает zoomies от чистой радости. Ритмично, прыжки, глаза горят — это благополучие.
+Причина пять — счастливый кот делает zoomies от чистой радости. Хвост вверх, глаза горят — кот побеждает в жизни.
 ```
 **Оверлей (CapCut):** цифра «5» ✓ (green — warm twist colour shift) + подпись «PURE JOY 💚» + тёплый warm-music swell (это эмоциональный пик ролика).
 
