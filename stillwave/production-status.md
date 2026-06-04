@@ -46,6 +46,27 @@ Review schedule (don't judge before day 7 — algo push lands days 4–14):
 
 **Shorts cross-promo plan:** drop Pomodoro Shorts cover on D3 (Fri Jun 5) or D4 (Sat Jun 6) to re-ignite long-form after the initial algo test plateaus (per our Healing Hour pattern). Skip if D1 < 30 views — Shorts won't save a dead launch.
 
+### Pomodoro 25/5 — D2 read (2026-06-04)
+
+- D0 (06-02): 5 views, VPH 23 🔥
+- D1 (06-03): 41 (+36), like-rate 4.9%, 1 comment
+- **D2 (06-04): 48 (+7), VPH=0, like-rate 4.2%, 2 likes**
+
+Mixed read — NOT a flop (like 963's D5=32), but NOT a hit (Kyoto's D2=137 was much stronger). Same plateau pattern as the rest of channel: D1 algo test → cliff. Channel-level: subs flat at 49 (7 days unchanged), views baseline ~15/day.
+
+**The signal that matters:** like-rate 4.2% beats Kyoto's 2.5%. Engagement is real — discovery is the bottleneck. Format works for who finds it; problem is reach, not retention.
+
+### Pomodoro 25/5 — Shorts cross-promo published (2026-06-04, D2)
+
+- **Shorts ID:** `9_nAWLAhInY`
+- **Title:** `25 Min Pomodoro Deep Focus 🍅`
+- **Published:** Thu Jun 4, 09:00 MSK (D2 of long-form; D1 = 41 views was above the 30-view threshold, so cross-promo greenlit one day earlier than D3/D4 target)
+
+Shorts review:
+- **24h (Fri Jun 5, 09:00):** log Shorts views. Healthy Shorts on small channel = 100-500 in first 24h. < 50 = dead.
+- **48h (Sat Jun 6):** if Shorts is alive (> 100), check long-form lift — did Shorts traffic re-ignite Pomodoro 25/5 VPH? That's the whole point of delayed-drop strategy.
+- **7d (Thu Jun 11):** long-tail check. If Shorts is climbing, the cross-promo template is locked.
+
 ### Power Hour Pomodoro 50/10 — in production (target ship ~9-10.6)
 
 Second Pomodoro variant — long-block 50/10 (50 min focus / 10 min break × 2 = exactly 2H). Keyword-driven build off VidIQ data pulled 2026-06-02:
