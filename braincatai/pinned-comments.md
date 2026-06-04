@@ -291,6 +291,12 @@ ok the #4 wrecked me my cat ALSO twitches with this little smile sometimes and n
 ok mistake #3 BLEW MY MIND i've been yelling at my cat for scratching the floor and turns out it's literally hardwired instinct from his ancestors 😭 which mistake hit you hardest? be honest
 ```
 
+### 47. 5 Reasons Your Cat Goes WILD at Night — #4 Means Trouble (6 июн, 15:00) — Cat Psychology / Zoomies
+
+```
+ok the #4 stress one scared me a little because mine does it like 5 times a day 😭 anyone else? what time does YOUR cat zoomie the most?
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы

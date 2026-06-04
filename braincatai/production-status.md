@@ -89,6 +89,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | 3 июн | Ср | **5 Tiny Things That Make Your Cat Love You DEEPLY** (5-Signs формула, active how-to, remix Cats Insider 135k formula, #4 quiet company = warm payoff) | `how-to-bond-with-your-cat` | "how to bond with your cat" **🟢 69.79 / 17,435 / comp 20.5 GREEN-JACKPOT** (highest overall за сессию) + related GREEN `cat enrichment ideas` 67.23 / `cat behavior explained` 66.43 / `how cats show love` 65.61 | ✅ скрипт+промты готовы → производство |
 | 4 июн | Чт | **5 Things Your Cat Dreams About — #4 Is YOU** (5-Signs + science-mystery + warm twist + mind-blow финал) | `what-cats-dream-about` | "what do cats dream about" **🟢 67.06 / 4,517 / comp 14.2 GREEN-JACKPOT** (LOWEST comp в кэше) + cluster ~18k monthly | ✅ скрипт+промты готовы → производство |
 | 5 июн | Пт | **5 Cat Owner Mistakes (You're Doing #3)** (anti-pattern listicle, negative-mirror как 21 мая "DOESN'T Love You", high-CTR + #3 callout = curiosity gap, warm twist на #5 play) | `5-cat-owner-mistakes` | "cat owner mistakes" **🟢🟢 67.18 / 22,260 / comp 29.4 GREEN-JACKPOT** (highest VOLUME за всё время, бьёт bond 17,435) + cluster `cat health` 73.29 / `understanding cats` 68.85 / `cat health tips` 68.12 / `whisker fatigue` 61.00 | ⏰ uploaded, scheduled 5 июн 15:00 |
+| 6 июн | Сб | **5 Reasons Your Cat Goes WILD at Night — #4 Means Trouble** (zoomies, FRAPs science, cross-link к owner-mistakes #5 play; #4=stress warning, #5=warm joy twist) | `cat-zoomies-explained` | "cat zoomies" **🟢 66.83 / 12,928 / comp 25 GREEN-strong** (3-я по силе в кэше — after owner-mistakes 22k и bond 17k) | ✅ скрипт+промты готовы → производство |
 
 **Бэклог YELLOW (cached, available):**
 - `why-cats-wag-their-tails` 62.59 / 5,400 — лучший AVAILABLE в кэше
@@ -151,6 +152,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `how-to-bond-with-your-cat` | 3 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `what-cats-dream-about` | 4 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `5-cat-owner-mistakes` | 5 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 |
+| `cat-zoomies-explained` | 6 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 
