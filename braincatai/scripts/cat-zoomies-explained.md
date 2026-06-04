@@ -98,11 +98,11 @@ _~125 слов EN, ~7с/сцена (≤60с)._
 # Scenes
 
 ## Сцена 1 — ХУК (3am zoomie blast) — 0–7с
-**Что зритель видит:** Brain в мид-leap проносится через комнату СКОРОСТНО, motion-trail blur позади него, **тёплое дневное освещение** (warm honey-amber afternoon — brand consistency, "3am" только в VO), лапы расставлены в полёте. Text-plate «3AM ZOOMIES ⚡». VO: POV 3 утра, кот использовал твоё лицо как parkour-курс, вот почему — #4 значит trouble.
+**Что зритель видит:** Brain в мид-leap проносится через комнату СКОРОСТНО, motion-trail blur позади него, ночное лунное голубоватое освещение в комнате, лапы расставлены в полёте. Text-plate «3AM ZOOMIES ⚡». VO: POV 3 утра, кот использовал твоё лицо как parkour-курс, вот почему — #4 значит trouble.
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. PUPILS DILATED in wild "ZOOM!" full-throttle expression, eyes wide and intense (NOT scary — comedic-intense). Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain" (NOT round, NOT a disc). Soft fluffy orange tabby fur, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws), tail ginger to the tip stretched OUT behind him in flight pose. EXACTLY 2 ears (pinned back from speed), EXACTLY 4 paws (extended forward and back like a flying squirrel mid-dash). Mouth slightly open in a comedic "AAAAH!" sprint expression (cute, NOT aggressive). INT. COZY LIVING ROOM — DAY (cream walls, honey-amber wood floor with warm afternoon light, ONE plain SOLID sage-green woven rug, cream armchair RIGHT, tall window BACKGROUND with sheer curtains showing soft daytime light, snake plant). Side-on motion shot. Brain is MID-AIR mid-zoomie diagonally across the frame, all 4 paws off the ground in a comedic dynamic flying-leap pose. CARTOON MOTION-TRAIL BLUR LINES behind him (5-7 streaks showing speed), tiny cartoon dust-puffs at his takeoff point. A small cartoon "⚡" lightning bolt symbol near his head. Negative space upper-third for "3AM ZOOMIES ⚡" text plate. Warm bright daytime mood (the "3am" is implied in VO/text, NOT in lighting — keep brand-consistent warm honey-amber). Vertical 9:16.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. PUPILS DILATED in wild "ZOOM!" full-throttle expression, eyes wide and intense (NOT scary — comedic-intense). Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain" (NOT round, NOT a disc). Soft fluffy orange tabby fur, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws), tail ginger to the tip stretched OUT behind him in flight pose. EXACTLY 2 ears (pinned back from speed), EXACTLY 4 paws (extended forward and back like a flying squirrel mid-dash). Mouth slightly open in a comedic "AAAAH!" sprint expression (cute, NOT aggressive). INT. COZY LIVING ROOM — NIGHT (cream walls dimmed to soft moonlight blue, honey-amber wood floor reflected with cool blue moonlight from window, ONE plain SOLID sage-green woven rug, cream armchair RIGHT, tall window BACKGROUND with sheer curtains showing soft NIGHT moonlight, snake plant). Side-on motion shot. Brain is MID-AIR mid-zoomie diagonally across the frame, all 4 paws off the ground in a comedic dynamic flying-leap pose. CARTOON MOTION-TRAIL BLUR LINES behind him (5-7 streaks showing speed), tiny cartoon dust-puffs at his takeoff point. A small cartoon "⚡" lightning bolt symbol near his head. Negative space upper-third for "3AM ZOOMIES ⚡" text plate. Vertical 9:16.
 ```
 **🎬 Kling (image-to-video):**
 ```
@@ -282,7 +282,7 @@ Energetic-then-warm cat-psychology score for a 60-second YouTube Short "5 Reason
 - Цифры «1-5» + подписи — в CapCut, шрифт залочен (Fredoka One / Nunito Bold, Electric Yellow #FFD23F, charcoal outline)
 - **Цвет signal:** #1-3 = neutral (white), #4 = ⚠️ orange/yellow warning, #5 = ✓ green warm-twist — четкий визуальный сдвиг
 - **Тон:** комедийный + динамичный + тёплый payoff. Не страшный (даже Sc 6 stress = «overwhelmed-cute», не «horror»).
-- Хард-cut сцен; освещение варьируется: WARM DAYTIME (Sc 1, 2, 3, 5, 6, 7) → DUSK (Sc 4 только, crepuscular literal). Brand-consistency: «3am» — narrative-only, lighting остаётся warm.
+- Хард-cut сцен; освещение варьируется: ночь (Sc 1) → день (Sc 2-3) → dusk (Sc 4) → день (Sc 5-7). «3am» = narrative truth, Sc 1 + thumbnail матчат.
 - **Sc 4 dusk window** — самая сложная световая сцена. Если Banana не справится с dusk через окно за 1-2 попыток — fallback: использовать day-light + добавить overlay orange tint в CapCut
 - **Sc 5-6-7 — action-leap poses:** mouth slightly open (исключение из mouth-closed правила для action-сцен). Sc 6 mouth closed (тревога), Sc 7 mouth open в happy smile
 - **Sc 6 stress-zoomie:** ОЧЕНЬ важен визуальный контраст с Sc 7 joy-zoomie. Sc 6 = grey squiggles + ears back + tense body. Sc 7 = pink hearts + ears forward + relaxed bouncy. Если Banana сделает оба одинаково — перегенерить с акцентом на контраст
@@ -339,13 +339,13 @@ cat zoomies, why cats zoomie, FRAPs, frenetic random activity periods, cat zoomi
 
 ---
 
-## 🖼️ ТУМБНЕЙЛ (Nano Banana 2 — «5 Signs» формула + Rule 13 ACTION-POSE без prop, semantic-fit принцип, WARM DAYTIME для brand consistency)
+## 🖼️ ТУМБНЕЙЛ (Nano Banana 2 — «5 Signs» формула + Rule 13 ACTION-POSE без prop, semantic-fit принцип)
 ```
 EXTREME CLOSE-UP of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain — face fills ~55-60% of the LEFT-CENTER of frame, slight 3° tilt. Big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. PUPILS DILATED in WILD "ZOOM!" full-throttle expression, eyes wide and intense with comedic-hyper energy (NOT scary — funny-wild). Mouth slightly open in a comedic "AAAAH!" sprint expression (cute, NOT aggressive). Ears pinned back from speed. Small thin round gold-framed glasses ALWAYS on (slightly askew from the speed for added comedy). NO prop, NO costume — clean Brain (Karena Playbook Rule 13: no natural prop for zoomies → use action-pose instead). Plain brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur, ALL 4 paws ginger (front and back, no white socks), EXACTLY 2 ears (pinned back from speed), EXACTLY 4 paws (visible in dynamic sprint pose if framing shows lower body). Brain is shown in a DYNAMIC MID-LEAP / mid-sprint action pose, body slightly tilted from the speed motion. Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9:16.
 
-HOOK ELEMENT (RIGHT side of frame, ~25-28% area): CARTOON MOTION-TRAIL BLUR LINES streaming behind Brain to emphasize speed (5-7 streaks in warm-amber and soft-pink tones showing dynamic sprint motion). A bold cartoon "⚡" LIGHTNING BOLT icon (bright electric yellow with charcoal outline) glowing prominently beside his head — the speed-energy hook. A small "3 AM" badge floats subtly.
+HOOK ELEMENT (RIGHT side of frame, ~25-28% area): CARTOON MOTION-TRAIL BLUR LINES streaming behind Brain to emphasize speed (5-7 streaks of warm-amber and pastel-blue showing dynamic sprint motion). A bold cartoon "⚡" LIGHTNING BOLT icon (bright electric yellow with charcoal outline) glowing prominently beside his head — the speed-energy hook. A small "3 AM" badge floats subtly.
 
-BACKGROUND: cozy living-room WARM HONEY-AMBER DAYTIME bokeh (brand consistency with trust-signs / TV / bond / dreams winning thumbnails — bright daytime is our visual signature, "3am" stays in title text only). HEAVILY BLURRED, heavy DOF. Brain rim-lit so he POPS off the warm background. Maximum contrast. NOT dark, NOT moonlit, NOT night-coloured — warm daytime is mandatory for brand consistency and phone-size CTR.
+BACKGROUND: cozy living-room warm bokeh with cool blue moonlight tint (night vibe — matches the "3am" narrative), HEAVILY BLURRED, heavy DOF. Brain rim-lit so he POPS off the background. Maximum contrast.
 
 TEXT PLATE (BIG and BOLD, positioned in the LOWER-MIDDLE at ~55-70% height — raised CLEAR of the very bottom edge so it is NOT cut off by phone UI / duration badge. LARGE, filling ~85-90% of frame width, easily readable on a small phone. 2 lines, ALL CAPS, slight 2-3° tilt, BOLD ROUNDED GEOMETRIC SANS-SERIF Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, solid charcoal #2B2B2B outline 6px, soft drop-shadow). Lines:
 LINE 1: "WHY HE GOES"
@@ -355,7 +355,6 @@ TYPOGRAPHY LOCK (strict): single rounded sans-serif font, NO serifs, NO Comic Sa
 EYE COLOR RULE (strict): LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84) + black pupil; only the small iris is green, sclera stays white, NEVER a fully-green eyeball.
 ANATOMY RULE (strict): EXACTLY 4 paws AND EXACTLY 2 EARS (pinned back from speed).
 STYLE RULE (strict): Pixar/Disney 3D ANIMATED CARTOON. NOT photorealistic.
-LIGHTING RULE (strict): WARM HONEY-AMBER DAYTIME background, NOT dark, NOT night, NOT moonlit — brand consistency with our 5-Signs CTR-winning thumbnails.
 LANGUAGE RULE (strict): on-screen text ENGLISH only. NO Russian, NO Cyrillic.
 ```
 **Thumbnail negatives:**
@@ -369,8 +368,8 @@ LANGUAGE RULE (strict): on-screen text ENGLISH only. NO Russian, NO Cyrillic.
 ## 🛑 Pre-flight
 - Все image-промты = Nano Banana 2, с полным Locked Brain (анатомия глаза, рыжие задние лапы, кулон-сердечко без "holes", простой sage-ковёр, FULL ginger tail без белого кончика)
 - Kling = image-to-video, motion-only + preserve-suffix
-- **Sc 1 night lighting** ❌ ОТМЕНЕНО — теперь WARM DAYTIME (brand consistency с trust 54v / TV 13v / bond / dreams winning thumbnails). «3am» остаётся только в VO + thumbnail text.
-- **Sc 4 dusk window** — единственная не-daytime сцена. Реальный dusk-сюжет (crepuscular hunt explanation). Если Banana не справится с dusk через окно за 1-2 попыток → fallback: использовать day-light + добавить overlay orange tint в CapCut
+- **Sc 1 night lighting** + cool moonlight tint — несложно но требует проверки контраста
+- **Sc 4 dusk window** — высокий drift-risk сцена. Fallback план: day-light + CapCut orange overlay
 - **Sc 5-6-7 action-leaps** — mouth slightly open для action (исключение из mouth-closed). Mouth open ≠ aggression: cute "AAAH!" / "GOTCHA!" / happy smile
 - **Sc 6 vs Sc 7 контраст** — критично! Sc 6 = grey squiggles + ears back + tense, Sc 7 = pink hearts + ears forward + relaxed. Если оба одинаковые — перегенерить
 - **Sc 3 litter box** — clean cartoon icon, no caca content. Если Banana нарисует unpleasant — перегенерить
