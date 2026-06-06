@@ -297,6 +297,18 @@ ok mistake #3 BLEW MY MIND i've been yelling at my cat for scratching the floor 
 ok the #4 stress one scared me a little because mine does it like 5 times a day 😭 anyone else? what time does YOUR cat zoomie the most?
 ```
 
+### 48. 5 STRANGE Things Your Cat Does — Explained (7 июн, 15:00) — Cat Psychology / Weird-collection
+
+```
+ok the snake-face one always confuses me when he does it lol mine looks possessed for like 3 seconds 😭 which one does YOUR cat do the weirdest? drop it below
+```
+
+### 49. Why Your Cat HEADBUTTS You — It's NOT Affection (8 июн, 15:00) — Cat Psychology / Bunting
+
+```
+ok finding out the headbutt is literally him claiming me as property is unhinged behavior i'm into it 😭 does YOUR cat headbutt you constantly or never? need data
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы

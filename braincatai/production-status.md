@@ -90,6 +90,8 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | 4 июн | Чт | **5 Things Your Cat Dreams About — #4 Is YOU** (5-Signs + science-mystery + warm twist + mind-blow финал) | `what-cats-dream-about` | "what do cats dream about" **🟢 67.06 / 4,517 / comp 14.2 GREEN-JACKPOT** (LOWEST comp в кэше) + cluster ~18k monthly | ✅ скрипт+промты готовы → производство |
 | 5 июн | Пт | **5 Cat Owner Mistakes (You're Doing #3)** (anti-pattern listicle, negative-mirror как 21 мая "DOESN'T Love You", high-CTR + #3 callout = curiosity gap, warm twist на #5 play) | `5-cat-owner-mistakes` | "cat owner mistakes" **🟢🟢 67.18 / 22,260 / comp 29.4 GREEN-JACKPOT** (highest VOLUME за всё время, бьёт bond 17,435) + cluster `cat health` 73.29 / `understanding cats` 68.85 / `cat health tips` 68.12 / `whisker fatigue` 61.00 | ⏰ uploaded, scheduled 5 июн 15:00 |
 | 6 июн | Сб | **5 Reasons Your Cat Goes WILD at Night — #4 Means Trouble** (zoomies, FRAPs science, cross-link к owner-mistakes #5 play; #4=stress warning, #5=warm joy twist) | `cat-zoomies-explained` | "cat zoomies" **🟢 66.83 / 12,928 / comp 25 GREEN-strong** (3-я по силе в кэше — after owner-mistakes 22k и bond 17k) | ✅ скрипт+промты готовы → производство |
+| 7 июн | Вс | **5 STRANGE Things Your Cat Does — Explained** (collected oddities listicle, FEED-BAIT format — replicate Chirps 5 May 1.2k / Dead Things 3 May 1k formula; new Rule 14 hybrid voice + Sc 8 comment-bait) | `5-strange-cat-behaviors-explained` | "strange cat behaviors explained" **🟢 63.12 / 14,691 / comp 35.5 GREEN** (3-я по volume, feed-bait potential) + sub-cluster `cat licking plastic bags` 64.35/4,828 | ✅ скрипт+промты готовы → производство |
+| 8 июн | Пн | **Why Your Cat HEADBUTTS You — It's NOT Affection** (single-fact counter-intuitive deep-dive, mind-blow reframe = killer DNA; cross-link к bond) | `why-cats-headbutt-you` | "why does my cat headbutt me" **🟢 63.27 / 4,918 / comp 24.5 YELLOW-strong** + cluster GREEN `cat affection` 67.47, `cat communication` 70.51 | ✅ скрипт+промты готовы → производство |
 
 **Бэклог YELLOW (cached, available):**
 - `why-cats-wag-their-tails` 62.59 / 5,400 — лучший AVAILABLE в кэше
@@ -153,6 +155,8 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `what-cats-dream-about` | 4 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `5-cat-owner-mistakes` | 5 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 |
 | `cat-zoomies-explained` | 6 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `5-strange-cat-behaviors-explained` | 7 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `why-cats-headbutt-you` | 8 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 
