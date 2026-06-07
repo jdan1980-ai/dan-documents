@@ -1,7 +1,7 @@
 # Script — Why Your Cat HEADBUTTS You — It's NOT Affection 🐱 | Cat Psychology
 
 **Формула:** killer-explainer + counter-intuitive single-fact deep-dive (как Killing Machine / Giant Weird Cat). Mind-blow reframe: «думаешь любовь — это ТЕРРИТОРИАЛЬНАЯ метка». **Search-bait format** (deep single-fact для GREEN keyword). Rule 14 hybrid voice + comment-bait Sc 8.
-**Пайплайн (LOCKED):** Nano Banana 2 → Kling 3.0 → CapCut → Google Vids TTS.
+**Пайплайн (OVERRIDE 2 июн 2026 — Veo 3 plan upgrade):** Nano Banana 2 → **Veo 3 (image-to-video)** [replaces Kling for этого script] → CapCut → Google Vids TTS. Каждая сцена прогнана через CLAUDE.md Veo 3 pre-flight checklist. Drift-risk помечен на каждой сцене.
 
 ---
 
@@ -39,10 +39,9 @@
 ```
 **Negatives:** standard zoomies set + `aggressive ramming, scary headbutt, blood`.
 
-## 🎬 Kling suffix (стандарт)
-```
-Preserve the input image exactly — same kitten, same anatomy, glasses, eyes (large white sclera with small emerald iris), collar + heart tag, ginger paws and tail, Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Vertical 9:16.
-```
+## 🎬 Veo 3 (image-to-video) — animation step (pipeline override 2 июн 2026)
+**Replaces Kling.** Каждая сцена прогнана через CLAUDE.md Veo 3 pre-flight checklist. Reference image = Nano Banana 2 still из соответствующей сцены.
+**Retry budget:** 8 сцен × 1.7 retry avg (1 🔴 + 3 🟡 + 4 🟢) = ~13 generations. Watch credit burn.
 
 ## 🔢 LOCKED text style (CapCut)
 Fredoka One / Nunito Bold, Electric Yellow #FFD23F, charcoal outline. Цвет signal: ❌ red на myth (Sc 1-2) → ✓ green на warm twist (Sc 6).
@@ -108,7 +107,16 @@ _~150 слов EN, ~7с/сцена (≤60с). Sc 1, 4, 5 могут потреб
 ```
 [LOCKED BRAIN BLOCK] — gently HEAD-BUTTING / pressing his FOREHEAD against a slim feminine woman's hand (cream V-neck sweater sleeve, NO face, EXACTLY ONE hand connected to one arm — palm side toward Brain, soft and welcoming). Brain's eyes are half-closed in classic bunting bliss expression. Ears relaxed forward. Mouth closed in tiny content expression. INT. COZY LIVING ROOM — DAY (cream walls, honey-amber wood floor, ONE plain SOLID sage-green woven rug, cream armchair, tall window with sheer curtains, snake plant). Medium close-up. Soft pastel cartoon hearts float around the contact point. BUT one of the larger hearts has a clear bold red "❌" crossing it out (myth-bust visual — "this is NOT what you think"). Negative space upper-third for "NOT LOVE — IT'S MARKING 🤯" text plate. Vertical 9:16.
 ```
-**🎬 Kling:** Brain presses his forehead against the hand softly, the hearts float up, the big crossed-out heart pulses for emphasis. Slow push-in.
+**🎬 Veo 3 (image-to-video) — pre-flight ⚠️:**
+```
+INPUT: Nano Banana 2 image (Sc 1 above) — Brain bunting against feminine hand (cream sleeve, no face, ONE hand), pastel hearts with one big crossed-out heart.
+MOTION: Brain presses his forehead against the woman's hand softly (one gentle headbutt motion), the pastel hearts float up gently, the big crossed-out heart pulses for emphasis (red ❌ subtly flickers). Eyes half-closed in bunting bliss, ears relaxed forward. Mouth closed.
+DURATION: 7 seconds. CAMERA: slow subtle push-in.
+PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule (LARGE PURE WHITE sclera + medium EMERALD-GREEN iris #3DDC84 + black pupil; ONLY iris green; NEVER fully-green eyeball), EXACTLY 2 ears + 4 paws, mouth CLOSED, glasses ALWAYS on, heart-shaped gold tag, ALL ginger paws (no white socks).
+HUMAN RULE: ONLY one feminine hand visible (cream V-neck sweater sleeve), NO face, NO second hand, NO male figure, NO additional person.
+NEGATIVES: standard + aggressive ramming, scary headbutt, blood, two hands, male hand, face.
+DRIFT RISK: 🟡 YELLOW — human hand interaction + bunting motion + multiple floating elements. May need 1-2 retries.
+```
 
 **🎙️ VO (EN):**
 ```
@@ -129,7 +137,15 @@ You think your cat's headbutt means love? Science says — it's something else e
 ```
 [LOCKED BRAIN BLOCK] — sitting calmly in scientist explainer pose, ears forward and alert, eyes bright and intelligent, tail wrapped neatly. INT. COZY LIVING ROOM — DAY (same locked room, sage-green rug). Medium close-up. Beside Brain, a small cartoon DICTIONARY-style page floats with the highlighted word "BUNTING" (in bold pastel highlighter color) and a tiny definition icon below. A small cartoon lightbulb glows softly above his head. Vertical 9:16.
 ```
-**🎬 Kling:** The "BUNTING" word softly glows brighter, lightbulb pulses, Brain gives an attentive blink. Slow push-in.
+**🎬 Veo 3 (image-to-video) — pre-flight ✅:**
+```
+INPUT: Nano Banana 2 image (Sc 2 above) — Brain in scientist-mode beside dictionary page with "BUNTING" highlighted + lightbulb above.
+MOTION: The "BUNTING" word softly glows brighter then dims (one gentle pulse), the lightbulb above Brain glows brighter then dims, Brain gives one attentive slow blink, ears stay forward. Mouth closed.
+DURATION: 7 seconds. CAMERA: slow subtle push-in.
+PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule, EXACTLY 2 ears + 4 paws, mouth CLOSED, glasses on, heart tag, ALL ginger paws.
+NEGATIVES: standard + word morphing into different text, second cat.
+DRIFT RISK: 🟢 GREEN — static subject + text glow + push-in. Easy first-try.
+```
 
 **🎙️ VO (EN):**
 ```
@@ -150,7 +166,15 @@ It's called bunting. And it's not affection. It's scent-marking.
 ```
 [LOCKED BRAIN BLOCK] — shown in CLEAR SIDE-PROFILE pose, sitting still and calm so the face anatomy is clearly visible. Three small cartoon arrows + label icons softly highlight: (1) the cheek area, (2) the forehead area between the eyes and ears, (3) the chin area under the mouth. Each arrow has a tiny "💨" scent-icon and a small "GLAND" label in pastel. Eyes calm and educational. Mouth closed. INT. COZY LIVING ROOM — DAY (same locked room, sage-green rug). Side-profile medium shot. Vertical 9:16.
 ```
-**🎬 Kling:** Each of the 3 arrow-labels glows in sequence (cheek → forehead → chin), small scent-particles drift from each gland zone. Brain stays still, blinks once. Slow push-in.
+**🎬 Veo 3 (image-to-video) — pre-flight ✅:**
+```
+INPUT: Nano Banana 2 image (Sc 3 above) — Brain in side-profile pose with 3 arrows pointing to cheek + forehead + chin gland zones, scent-icons.
+MOTION: Each of the 3 arrow-labels glows in sequence — first cheek (with small pastel scent-particle drifting up), then forehead (scent-particle), then chin (scent-particle). Brain stays absolutely still in profile, blinks once mid-sequence. Mouth closed.
+DURATION: 7 seconds. CAMERA: very slow subtle push-in (NOT static — micro-motion to avoid drift).
+PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule, EXACTLY 2 ears + 4 paws, mouth CLOSED, glasses ALWAYS on, heart tag, ALL ginger paws. Brain stays in PROFILE for full clip (no head turn — Veo cannot re-orient).
+NEGATIVES: standard + arrows merging, scent-particles becoming visible cloud, second cat, head-turn.
+DRIFT RISK: 🟢 GREEN — extremely static pose, 3 icon glow sequence + 3 scent-particles. Easy first-try.
+```
 
 **🎙️ VO (EN):**
 ```
@@ -171,7 +195,19 @@ Your cat has scent glands on the cheeks, forehead, and chin. When they headbutt,
 ```
 [LOCKED BRAIN BLOCK] — pressing his FOREHEAD against the woman's hand (cream sleeve, NO face, EXACTLY ONE hand) at the moment of contact. Brain's expression content and proprietary. Soft pastel cartoon SCENT-PARTICLES transfer from his forehead onto the woman's hand at the contact point. On her hand near the contact, a tiny stylized PASTEL "BRAIN" word/signature stamp is appearing (the visualization of "his name being written"). A cartoon "📝" pen-icon hovers near. Mouth closed. INT. COZY LIVING ROOM — DAY (same room, sage-green rug). Medium close-up. Vertical 9:16.
 ```
-**🎬 Kling:** Brain rubs his forehead along the hand in the bunting motion, scent-particles transfer in a soft wave, the "BRAIN" signature stamp gently fades into visibility on the hand. Slow push-in.
+**🎬 Veo 3 (image-to-video) — pre-flight 🚨 RED-RISK:**
+```
+INPUT: Nano Banana 2 image (Sc 4 above) — Brain forehead pressing into woman's hand, scent particles transferring, "BRAIN" signature stamp visible on hand.
+MOTION: Brain rubs his forehead along the woman's hand in classic bunting motion (one slow drag-press), pastel scent-particles transfer from his forehead onto her hand in a soft wave, the "BRAIN" signature stamp gently fades into visibility on her hand (text rendering — START INVISIBLE, FADE IN to readable text). The "📝" pen-icon hovers.
+DURATION: 7 seconds. CAMERA: slow push-in tracking the contact point.
+PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule, EXACTLY 2 ears + 4 paws, mouth CLOSED, glasses on, heart tag, ALL ginger paws.
+HUMAN RULE: ONLY one feminine hand (cream sleeve), NO face, NO second hand, NO male figure.
+TEXT-RENDERING RULE (this scene only): "BRAIN" stamp must appear as readable text — Veo often distorts text. Use simple bold cartoon font. If text comes out garbled in 2 retries → fallback CapCut overlay.
+NEGATIVES: standard + garbled text, illegible signature, blood, scratch marks, two hands, male figure.
+DRIFT RISK: 🔴 RED — text rendering (Veo weakness) + scent-particle transfer animation + bunting motion + human hand. EXPECT 2-3 RETRIES.
+FALLBACK: if 3 retries → use bunting motion clip + render clean "BRAIN" stamp text overlay in CapCut on the hand frame.
+COST BUDGET: 3 retry max.
+```
 
 **🎙️ VO (EN):**
 ```
@@ -198,7 +234,18 @@ RIGHT/BOTTOM HALF — "STRANGER ❌": A different generic gloved or visually-unf
 
 Both halves share the same INT. COZY LIVING ROOM background (same locked room, sage-green rug). Brain anatomy identical on both sides. Vertical 9:16.
 ```
-**🎬 Kling:** LEFT half: Brain headbutts and the hearts/check-mark pulse. RIGHT half: Brain turns his head away from the stranger hand, ears flick back, the "❌" pulses. Both animate simultaneously. Mouth closed. Slow push-in.
+**🎬 Veo 3 (image-to-video) — pre-flight 🚨 RED-RISK:**
+```
+INPUT: Nano Banana 2 image (Sc 5 above) — vertical split-screen: LEFT/TOP Brain bunting locked owner's hand (green ✓), RIGHT/BOTTOM Brain turning away from stranger hand (red ❌).
+MOTION: BOTH halves animate SIMULTANEOUSLY in the SAME clip. LEFT/TOP — Brain gently headbutts the owner's hand, soft pastel hearts pulse around the contact, green "✓" badge pulses. RIGHT/BOTTOM — Brain visibly turns his head away from the stranger hand (rotates head 15-20° away), his ears flick back, the red "❌" badge pulses. Both Brains have identical anatomy (same kitten on both halves). Mouth closed on both.
+DURATION: 7 seconds. CAMERA: subtle push-in to both halves equally (NOT panning).
+PRESERVE STRICT: identity IDENTICAL on both halves — same kitten anatomy, eye color rule, EXACTLY 2 ears + 4 paws (each Brain), mouth CLOSED, glasses on, heart tag, ALL ginger paws. Both halves stay clearly split (vertical divider).
+HUMAN RULE: LEFT — locked owner's hand (cream sleeve, ONE hand, no face). RIGHT — different visually-unfamiliar hand (darker sleeve or visually distinct — clearly NOT the owner's cream-sleeve hand), ONE hand only, no face.
+NEGATIVES: standard + halves merging, second cat per half (each Brain stays ONE), male figures, two faces.
+DRIFT RISK: 🔴 RED — split-screen animation is Veo's hardest case. Sync between halves often breaks. EXPECT 2-3 RETRIES.
+FALLBACK: if 3 retries → generate LEFT and RIGHT as TWO SEPARATE clips (each ~7s) + composite them as split-screen in CapCut.
+COST BUDGET: 3 retry max → then fallback to 2-clip composite.
+```
 
 **🎙️ VO (EN):**
 ```
@@ -219,7 +266,16 @@ Cats only bunt members of their colony. Strangers don't get the headbutt.
 ```
 [LOCKED BRAIN BLOCK] — curled in a perfect content LOAF POSE on the locked female owner's lap (sitting in the cream armchair). Locked owner: adult woman ~30, long chestnut-brown wavy hair to mid-back, cream V-neck sweater, slim feminine build, FACE-OUT-OF-FRAME / cropped above shoulders, ONE feminine hand visible gently stroking Brain's back. Brain's eyes are softly closed in pure contentment, tiny smile, ears relaxed sideways. Pure warm "you're mine" vibe. Soft pastel-pink heart particles drift around them. A small floating "💚" emoji glows softly. INT. COZY LIVING ROOM — DAY (same locked room, sage-green rug, warm honey-amber golden-hour light at its warmest). Wide-ish medium shot showing both. ONLY ONE PERSON (locked female), no second figure. Vertical 9:16.
 ```
-**🎬 Kling:** Brain settles deeper into the loaf-pose on her lap, gives a content slow blink, her hand strokes him gently once, pink hearts drift up. Mouth closed. Slow warm push-in.
+**🎬 Veo 3 (image-to-video) — pre-flight ⚠️:**
+```
+INPUT: Nano Banana 2 image (Sc 6 above) — Brain curled on locked owner's lap in cream armchair, her hand stroking, pink hearts + 💚 emoji.
+MOTION: Brain settles deeper into his loaf-pose on her lap (subtle body settle), gives one content slow blink and eye-close, her ONE hand strokes him gently once (one slow stroke from shoulder to hip), soft pastel-pink hearts drift up around them. The "💚" emoji softly glows. Mouth closed in tiny smile.
+DURATION: 7 seconds. CAMERA: slow warm push-in.
+PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule, EXACTLY 2 ears + 4 paws (tucked under), mouth CLOSED in tiny smile, glasses on, heart tag, ALL ginger paws.
+HUMAN RULE STRICT: ONLY the locked owner (chestnut wavy hair, cream V-neck sweater, FACE-OUT-OF-FRAME / cropped above shoulders, ONE feminine hand only — the stroking hand). NO face appearing, NO second hand, NO male figure, NO second person, NO body parts changing position.
+NEGATIVES: standard + face appearing, second person, male figure, hand becoming two hands, Brain moving off lap.
+DRIFT RISK: 🟡 YELLOW — large composition (Brain + owner + lap + armchair) + human stroking motion. Drift risk on owner anatomy. May need 1-2 retries to keep face hidden.
+```
 
 **🎙️ VO (EN):**
 ```
@@ -240,7 +296,19 @@ Here's the twist — getting bunted means you're in the clan. You're family. You
 ```
 [LOCKED BRAIN BLOCK] — mid-bunting motion against the owner's hand again (cream sleeve, ONE hand), but the pose has comedic energy — Brain is going IN with rapid bunts. Beside him a cartoon "BUNT-O-METER" gauge (like a stylized speedometer / progress bar) is at MAX level with the needle pointing to the green "🏆 JACKPOT" zone (Karena-style energy / playful comedy hook). Pastel hearts + a small "🏆" icon. Mouth closed. Slight comedic energy. INT. COZY LIVING ROOM — DAY (same room, sage-green rug). Medium close-up. Vertical 9:16.
 ```
-**🎬 Kling:** Brain rapidly bunts the hand 2-3 times in a row, the meter needle swings into JACKPOT zone, the "🏆" sparkles. Cute fast-bunting energy. Slow push-in.
+**🎬 Veo 3 (image-to-video) — pre-flight 🚨 RED-RISK:**
+```
+INPUT: Nano Banana 2 image (Sc 7 above) — Brain mid-rapid-bunting against owner's hand + cartoon BUNT-O-METER gauge at MAX with needle on "🏆 JACKPOT" zone.
+MOTION: Brain rapidly bunts the woman's hand 2-3 times in quick succession (3 quick head-pushes against her hand), the BUNT-O-METER gauge needle swings from low → MAX → "🏆 JACKPOT" zone over the duration, sparkles bloom around the trophy icon. Cute fast-bunting energy. Mouth closed.
+DURATION: 7 seconds. CAMERA: subtle push-in on the meter + Brain pair.
+PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule, EXACTLY 2 ears + 4 paws, mouth CLOSED, glasses on, heart tag, ALL ginger paws.
+HUMAN RULE: ONLY one feminine hand (cream sleeve), NO face, NO second hand.
+GAUGE-RENDERING RULE: BUNT-O-METER stays as a stylized cartoon progress-bar / speedometer. Needle swings cleanly low-to-high.
+NEGATIVES: standard + meter rendering as garbled gauge, multiple needles, scary fast violence motion, scratch marks.
+DRIFT RISK: 🔴 RED — gauge animation (Veo weakness on UI elements) + repeated motion + human hand. EXPECT 2-3 RETRIES.
+FALLBACK: if 3 retries → use bunting motion clip + render clean BUNT-O-METER gauge animation in CapCut overlay (After Effects style progress-bar fills 0→100% with needle swing).
+COST BUDGET: 3 retry max → then fallback.
+```
 
 **🎙️ VO (EN):**
 ```
@@ -355,7 +423,7 @@ standard set + romantic/red hearts only (must include green sclera/eye-whites ne
 
 ## 🛑 Pre-flight
 - Все image-промты = Nano Banana 2, полный Locked Brain (анатомия, ginger paws, heart-tag, sage rug)
-- Kling = image-to-video, motion-only + preserve-suffix
+- **Veo 3 i2v** (replaces Kling) — pre-flight verified per scene + drift-risk tagged. **3 🔴 RED scenes** (Sc 4 signature stamp / Sc 5 split-screen / Sc 7 BUNT-O-METER) с retry budget 3 + CapCut fallback на каждой
 - **Sc 1, 4, 5, 6, 7 — рука хозяйки:** HUMAN RULE (one hand, cream sleeve, no face)
 - **Sc 4 «BRAIN» signature stamp** — самый сложный визуальный элемент. Fallback: чистый bunting image + CapCut overlay «BRAIN» text-stamp
 - **Sc 5 split-screen** — fallback 2 images + CapCut склейка

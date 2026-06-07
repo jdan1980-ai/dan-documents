@@ -1,7 +1,7 @@
 # Script — 5 STRANGE Things Your Cat Does — Explained 🐱 | Cat Psychology
 
 **Формула:** killer-explainer + 5-Signs collected-oddities listicle + Rule 14 hybrid voice + comment-bait Sc 8. **Feed-bait формат** (replicate Chirps 5 May 1,256 views + Dead Things 3 May 1,005 views — universal weird behavior = viral). Каждый пункт = single visually-distinct moment + science reframe.
-**Пайплайн (LOCKED):** image в **Nano Banana 2** → анимация в **Kling 3.0 (image-to-video)** → оверлеи/цифры/текст + сборка в **CapCut** → VO **Google Vids TTS**. Статичные сцены — Ken Burns.
+**Пайплайн (OVERRIDE 2 июн 2026 — Veo 3 plan upgrade):** image в **Nano Banana 2** → анимация в **Veo 3 (image-to-video)** [replaces Kling for these 2 scripts] → оверлеи/цифры/текст + сборка в **CapCut** → VO **Google Vids TTS**. Каждая сцена прогнана через CLAUDE.md Veo 3 pre-flight checklist. Статичные сцены — Ken Burns. Drift-risk помечен на каждой сцене (🟢 GREEN / 🟡 YELLOW / 🔴 RED).
 
 ---
 
@@ -33,10 +33,10 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 **Negatives:** standard set (см. zoomies) + `aggressive snake hissing, scary fangs, blood`.
 
-## 🎬 Kling animation suffix
-```
-Preserve the input image exactly — same kitten, same anatomy, glasses, eyes (large white sclera with small emerald iris), collar + heart tag, ginger paws and tail, Pixar cartoon style. Only animate the motion described — do NOT redraw, restyle, recolor or morph. Vertical 9:16.
-```
+## 🎬 Veo 3 (image-to-video) — animation step (pipeline override 2 июн 2026, после Veo plan upgrade)
+**Replaces Kling for ALL motion scenes этих 2 скриптов.** Каждая сцена прогнана через CLAUDE.md Veo 3 pre-flight checklist (Locked Brain anatomy / Eye color / Mouth rule / 2-ears + 4-paws / Glasses / Heart tag / Human rule если в кадре / Camera direction match / Clip ≤8s).
+**Reference image:** Nano Banana 2 still из соответствующей сцены = input.
+**Retry budget:** 8 сцен × 1.5 retry avg = ~12 generations. Watch credit burn.
 
 ## 🔢 LOCKED numeral/text style (CapCut)
 Цифры «1–5» + подписи + «🤯» иконки на каждой сцене → CapCut, Fredoka One / Nunito Bold, Electric Yellow #FFD23F, charcoal outline.
@@ -100,9 +100,14 @@ _~130 слов EN, ~7с/сцена (≤60с)._
 ```
 Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. EYES wide and slightly puzzled-but-cute "wait, what?" expression, head tilted slightly to the side. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain" (NOT round, NOT a disc). Soft fluffy orange tabby fur, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws), tail ginger to the tip, EXACTLY 2 ears (forward, alert and curious), EXACTLY 4 paws (sitting upright pose), mouth closed in soft puzzled expression. INT. COZY LIVING ROOM — DAY (cream walls, honey-amber wood floor, ONE plain SOLID sage-green woven rug — no pattern, no border — cream armchair, tall window with sheer curtains, snake plant). Medium close-up. Brain sits on the rug. Around him, 5 small cartoon pastel "?" question-mark icons float in a loose arc, each with a tiny subtle 1-5 number. Warm bright daytime mood. Negative space upper-third for "5 STRANGE THINGS 🤯" text plate. Vertical 9:16.
 ```
-**🎬 Kling:**
+**🎬 Veo 3 (image-to-video) — pre-flight ✅:**
 ```
-Brain tilts his head curiously, the 5 "?" icons gently pulse around him, his ears swivel forward. Mouth closed. Slow push-in. [+ preserve suffix]
+INPUT: Nano Banana 2 image (Sc 1 above) — Brain sitting upright with puzzled head-tilt + 5 floating "?" icons around him, warm daytime living room.
+MOTION: Brain tilts his head curiously a touch more, his ears swivel forward, the 5 small pastel "?" icons gently pulse around him in soft rhythm. One slow content blink.
+DURATION: 7 seconds. CAMERA: slow subtle push-in (NOT static — micro-motion prevents anatomy drift on hold).
+PRESERVE STRICT (anti-drift): identity IDENTICAL to input — same kitten, same anatomy, LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84) + black pupil (ONLY small iris green, sclera stays PURE WHITE, NEVER fully-green eyeball), EXACTLY 2 ears, EXACTLY 4 paws, mouth CLOSED throughout, glasses ALWAYS on, plain brown collar + HEART-SHAPED gold tag, soft fluffy ginger fur, ALL 4 paws fully ginger (front + back, NO white socks), tail ginger to tip, NO redraw/restyle/recolor/morph.
+NEGATIVES: green sclera, green eye-whites, fully green eyes, white paws, white back paws, three ears, extra paw, second cat, aggressive scary cat, photorealistic, real cat, blood, sharp fangs.
+DRIFT RISK: 🟢 GREEN — single subject, no human, no text, simple ear-tilt + icon pulse + push-in. Likely first-try success.
 ```
 **🎙️ VO (EN):**
 ```
@@ -123,7 +128,15 @@ POV: твой кот делает 5 вещей которые НЕ имеют с
 ```
 [LOCKED BRAIN BLOCK] — sitting calmly in attentive scientist mode. EYES bright and intelligent. Tail wrapped neatly around paws. INT. COZY LIVING ROOM — DAY (same locked room, sage-green rug). Medium close-up. Brain sits with a small cartoon double-helix DNA strand floating beside him + a tiny stylized timeline marker "200,000 YEARS" floating subtly above. A small cartoon yellow lightbulb glows softly above his head (science explainer symbol). Vertical 9:16.
 ```
-**🎬 Kling:** DNA strand softly rotates, timeline marker pulses, lightbulb glows brighter. Brain gives an attentive blink. Slow push-in.
+**🎬 Veo 3 (image-to-video) — pre-flight ✅:**
+```
+INPUT: Nano Banana 2 image (Sc 2 above) — Brain in scientist explainer pose with DNA helix + "200,000 YEARS" timeline marker + lightbulb above head.
+MOTION: DNA double-helix strand softly rotates clockwise one full turn, timeline marker pulses gently, lightbulb glows brighter then dims. Brain gives one attentive slow blink, ears stay forward.
+DURATION: 7 seconds. CAMERA: slow subtle push-in.
+PRESERVE STRICT: identity IDENTICAL to input — same kitten anatomy, LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84) + black pupil (ONLY small iris green, NEVER fully-green eyeball), EXACTLY 2 ears, EXACTLY 4 paws, mouth CLOSED throughout, glasses ALWAYS on, heart-shaped gold tag, ALL 4 paws fully ginger (no white socks), Pixar cartoon style.
+NEGATIVES: standard set + animated icons morphing into different shapes.
+DRIFT RISK: 🟢 GREEN — static subject + 3 floating icon animations + push-in. Low drift, likely 1-try.
+```
 
 **🎙️ VO (EN):**
 ```
@@ -144,7 +157,15 @@ Every weird cat behavior has a reason. Most are 200,000 years of evolution showi
 ```
 [LOCKED BRAIN BLOCK] — sitting upright in classic LOAF POSE (front paws tucked under chest, body compact and content) INSIDE A SQUARE outlined on the honey-amber wood floor with simple PAINTERS-TAPE (cute cartoon yellow tape forming a clear square outline ~30cm wide on the floor — no actual box, just the tape square). EYES content and slightly proud "this is my fortress" expression. Ears forward and relaxed. Mouth closed in tiny content smile. INT. COZY LIVING ROOM — DAY (same locked room, sage-green rug just beside the tape square, cream armchair in background). Side-on medium shot showing Brain centered inside the tape square. A small cartoon "🟨" yellow-square icon floats subtly near him. Vertical 9:16.
 ```
-**🎬 Kling:** Brain sits perfectly content inside the tape square, gives a slow proud blink, his tail tip flicks once with satisfaction. The square outline subtly glows. Slow push-in.
+**🎬 Veo 3 (image-to-video) — pre-flight ✅:**
+```
+INPUT: Nano Banana 2 image (Sc 3 above) — Brain in content loaf-pose sitting inside a painters-tape square on the wood floor.
+MOTION: Brain sits perfectly still and content inside his tape-square fortress, gives one slow proud blink, his tail tip flicks once with satisfaction. The yellow tape square outline subtly glows / pulses softly.
+DURATION: 7 seconds. CAMERA: very slow push-in.
+PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule, EXACTLY 2 ears + 4 paws, mouth CLOSED, glasses on, heart tag, ALL ginger paws (no white), tape square STAYS YELLOW painters-tape (NOT chalk, NOT a real box).
+NEGATIVES: standard + real cardboard box, chalk drawing, second cat, paws moving out of square.
+DRIFT RISK: 🟢 GREEN — extremely static pose, only tail flick + blink + tape glow. Easy first-try.
+```
 
 **🎙️ VO (EN):**
 ```
@@ -165,7 +186,16 @@ Strange one — sitting in invisible squares. Boxes mean safety. Their brain rea
 ```
 [LOCKED BRAIN BLOCK] — leaning forward toward a soft pastel-grey cartoon CRINKLED PLASTIC SHOPPING BAG laying on the wood floor (clean simple bag silhouette with cute crinkle lines). His pink nose and tongue tip touching the bag's surface in an investigative lick. EYES focused and curious. Ears forward in scientific interest. Mouth slightly open with small pink tongue tip out (gentle licking pose, NOT aggressive). INT. COZY LIVING ROOM — DAY (same locked room, sage-green rug visible behind, plastic bag on wood floor just past rug edge). Medium close-up side-on. Soft pastel cartoon "scent-waves" (curling lines) drift up from the bag. A small "🛍️" icon floats subtly. Vertical 9:16.
 ```
-**🎬 Kling:** Brain leans in and gives the bag a small investigative lick, scent-waves softly rise, his ears stay alert. Slow push-in.
+**🎬 Veo 3 (image-to-video) — pre-flight ⚠️:**
+```
+INPUT: Nano Banana 2 image (Sc 4 above) — Brain leaning forward investigating a plastic bag on the floor, mouth slightly open with pink tongue tip out, scent-waves rising.
+MOTION: Brain leans forward an extra inch and gives the plastic bag one or two small investigative licks (pink tongue tip touches the bag surface briefly, NOT chewing, NOT aggressive), pastel scent-waves softly rise and drift upward from the bag, his ears stay alert and forward, eyes focused.
+DURATION: 7 seconds. CAMERA: slow subtle push-in.
+PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule, EXACTLY 2 ears + 4 paws, glasses on, heart tag, ALL ginger paws.
+MOUTH EXCEPTION (this scene only): mouth slightly open with PINK tongue tip out for investigative licking ONLY — NOT a full open mouth, NOT aggressive, NOT chewing. After 1-2 small licks, mouth returns to closed.
+NEGATIVES: standard + scary chewing, aggressive bag-tearing, plastic in mouth/swallowing, choking pose, sad cat, distress.
+DRIFT RISK: 🟡 YELLOW — mouth-open exception + tongue rendering + object interaction. May need 1-2 retries to keep lick cute + brief.
+```
 
 **🎙️ VO (EN):**
 ```
@@ -186,7 +216,15 @@ Strange two — licking plastic bags. They're tasting lanolin or food residue. Y
 ```
 [LOCKED BRAIN BLOCK] — curled in a perfect content LOAF POSE on top of an open CARTOON LAPTOP (Pixar-style soft pastel laptop, half-open, soft blue-white glow from the screen visible peripherally). His belly fur touches the warm keyboard, tail curled around his body, ears soft and relaxed. EYES half-closed in pure contentment. Mouth closed in tiny smile. INT. COZY LIVING ROOM — DAY (same locked room, sage-green rug, cream armchair). Wide-ish medium shot showing the laptop on a low cartoon coffee table or armchair seat (clearly the OWNER'S workspace — small cartoon coffee mug nearby, a stylus). A small cartoon "♨" steam/warmth icon AND a tiny "you-scent" pink heart icon float near Brain's head (the two reasons combined). Vertical 9:16.
 ```
-**🎬 Kling:** Brain settles deeper into his loaf-pose on the laptop, gives a content slow blink, the warmth icon pulses, the heart drifts up. NO touching keys, NO laptop interaction — just sleeping on top. Slow push-in.
+**🎬 Veo 3 (image-to-video) — pre-flight ✅:**
+```
+INPUT: Nano Banana 2 image (Sc 5 above) — Brain in content loaf-pose curled on top of an open cartoon laptop, warmth + heart icons floating, owner workspace background.
+MOTION: Brain settles deeper into his loaf-pose on the laptop (subtle body settle), gives one content slow blink and eye-close, the cartoon "♨" warmth icon softly pulses, the tiny pink "you-scent" heart drifts up out of frame. NO touching keys, NO interaction with laptop.
+DURATION: 7 seconds. CAMERA: very slow subtle push-in.
+PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule, EXACTLY 2 ears + 4 paws (tucked in loaf), mouth CLOSED, glasses on, heart tag, ALL ginger paws. Laptop stays soft pastel cartoon style, screen glow remains gentle blue-white.
+NEGATIVES: standard + cat typing on keys, cat paws on keyboard, laptop screen content changing, second cat.
+DRIFT RISK: 🟢 GREEN — extremely static pose + subtle icon animation. Easy first-try.
+```
 
 **🎙️ VO (EN):**
 ```
@@ -207,7 +245,16 @@ Strange three — sleeping on your laptop. Warmth plus your scent. Heat pad plus
 ```
 [LOCKED BRAIN BLOCK] — in classic LOW STALKING CROUCH (body stretched low to the ground, butt slightly raised in classic "wiggle-pounce" prep), focused intently on a small soft pastel-grey SHADOW shape moving across the honey-amber wood floor (a stylized small bird/mouse-shape SHADOW — clearly a SHADOW not an actual animal, just a dark moving silhouette on the floor). PUPILS DILATED in pure predator lock-on (NOT scary — intense focus). Ears forward and alert. Tail flicking slightly. INT. COZY LIVING ROOM — DAY (same locked room, sage-green rug just behind Brain, sunlight from window creates the moving shadow). Side-on full-body shot. The shadow is clearly NOTHING — just a moving dark shape. A small cartoon "👁️" eye-tracking icon floats. Vertical 9:16.
 ```
-**🎬 Kling:** The shadow slowly slides across the floor, Brain's eyes track it intensely, his butt wiggles in classic pounce-prep pattern, tail flicks. The "👁️" icon pulses. Mouth closed. Slow push-in tracking the shadow.
+**🎬 Veo 3 (image-to-video) — pre-flight ⚠️:**
+```
+INPUT: Nano Banana 2 image (Sc 6 above) — Brain in low stalking crouch, eyes locked on a moving shadow shape on the floor, butt slightly raised, ears forward.
+MOTION: The pastel-grey shadow shape on the floor slowly slides 6-8 inches across the wood floor in one direction, Brain's eyes track the shadow intently (pupils stay dilated), his butt wiggles in classic pounce-prep pattern (small left-right wiggle, 2-3 times), his tail flicks once. NO actual pounce — just pre-pounce stalking. Mouth closed.
+DURATION: 7 seconds. CAMERA: slow lateral track following the shadow direction.
+PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule (pupils DILATED for hunt mode but still emerald iris + white sclera + black pupil), EXACTLY 2 ears + 4 paws, mouth CLOSED, glasses on, heart tag, ALL ginger paws (no white).
+CHARACTER DIRECTION RULE: Brain's body in input image must be ORIENTED toward shadow direction. Veo cannot re-orient mid-clip — if input shows Brain facing wrong way, regenerate Nano image first.
+NEGATIVES: standard + actual prey appearing, real mouse, scary pounce, predator violence, blood.
+DRIFT RISK: 🟡 YELLOW — shadow rendering + butt-wiggle motion + lateral camera track. May need 1-2 retries to get the shadow movement clean and pre-pounce wiggle cute.
+```
 
 **🎙️ VO (EN):**
 ```
@@ -228,7 +275,18 @@ Strange four — stalking shadows like prey. The predator brain locks on any mov
 ```
 [LOCKED BRAIN BLOCK BUT WITH FLEHMEN MOUTH EXCEPTION] — sitting upright, his MOUTH slightly OPEN in the characteristic Flehmen response pose (upper lip slightly curled back exposing the front teeth gently, mouth open in a small "snake-like" hiss-looking expression but NOT aggressive — it's the "smelling intensely" face). EYES slightly squinted in deep concentration (NOT pain, NOT aggression — a "wait, what's that smell?" intent look). Ears slightly back in focused listening. INT. COZY LIVING ROOM — DAY (same locked room, sage-green rug). Medium close-up of Brain's head/face. A small cartoon ARROW points from his open mouth to the roof of his mouth, with a tiny label "JACOBSON'S ORGAN" softly visible. Pastel "scent particles" drift toward his open mouth (he's "tasting" the smell). A small "🐍" snake-face icon floats subtly to reference the look (NOT a real snake — just an icon reference). Vertical 9:16.
 ```
-**🎬 Kling:** Brain holds the Flehmen pose, eyes slightly squinting deeper in concentration, scent-particles drift toward his open mouth, the arrow softly pulses. No hissing, no aggression — just intense smelling. Subtle push-in.
+**🎬 Veo 3 (image-to-video) — pre-flight 🚨 RED-RISK:**
+```
+INPUT: Nano Banana 2 image (Sc 7 above) — Brain in Flehmen pose, mouth slightly open with upper lip curled back, eyes squinted in concentration, arrow pointing to roof of mouth, scent particles drifting in.
+MOTION: Brain holds the Flehmen "snake-mouth" pose throughout, eyes slowly squint deeper in concentration, scent particles drift toward and into his open mouth in a soft wave, the arrow + "JACOBSON'S ORGAN" label softly pulses once. NO mouth-close transition, NO hissing, NO aggressive snarl — pose stays as a CONCENTRATED SMELLING expression for the full clip.
+DURATION: 7 seconds. CAMERA: subtle push-in.
+PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule, EXACTLY 2 ears + 4 paws, glasses on, heart tag, ALL ginger paws.
+MOUTH EXCEPTION (this scene only): mouth slightly open in Flehmen pose (upper lip curled slightly back, cute concentrated smelling face, NOT scary, NOT aggressive, NOT hissing). No teeth bared aggressively.
+NEGATIVES: standard + aggressive hissing, scary fangs, snake-rendering (only icon reference is allowed), horror face, blood, vicious expression, mouth fully opening + closing repeatedly.
+DRIFT RISK: 🔴 RED — Veo 3 highest drift category: mouth-open exception (anatomy risk) + intense concentrated face (looks like aggression risk) + held pose 7s without motion-busy (static-7s drift trigger). EXPECT 2-3 RETRIES.
+FALLBACK: if 3 retries fail → use Nano Banana 2 still + Ken Burns slow push-in in CapCut + add motion only to scent-particles overlay layer.
+COST BUDGET: 3 retry max for this scene. Then fallback.
+```
 
 **🎙️ VO (EN):**
 ```
@@ -345,7 +403,7 @@ standard set + real snake, scary snake fangs, aggressive hissing, scary horror c
 
 ## 🛑 Pre-flight
 - Все image-промты = Nano Banana 2, полный Locked Brain (анатомия глаза, рыжие задние лапы, кулон-сердечко без "holes", простой sage-ковёр)
-- Kling = image-to-video, motion-only + preserve-suffix
+- **Veo 3 i2v** (replaces Kling for этот script) — pre-flight verified per scene + drift-risk tagged (🟢/🟡/🔴). 1 🔴 RED scene (Sc 7 Flehmen) — budget 3 retries → fallback Nano + Ken Burns
 - **Sc 3 painters-tape square** — fallback chalk square если Banana не справится
 - **Sc 4 plastic bag** — clean cartoon silhouette, не toxic / scary
 - **Sc 5 laptop** — Brain ON TOP, не typing/touching keys
