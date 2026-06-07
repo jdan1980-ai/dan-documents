@@ -160,6 +160,10 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 
+> ⏱️ **Upload-lead напоминание (Karena #7 LOCKED, 7 июн 2026):** для publish-slot 15:00 локального — **upload на YouTube к 12:00** (за 3ч до публикации) как **Scheduled** / **Unlisted**. НЕ Public сразу. За 3ч видео рендерится до 4K + Gemini читает контент + копирайт-чек. Если выложить Public сразу — ранние зрители видят пиксели → retention падает.
+
+> 🛑 **Post-publish freeze напоминание (Karena #8 LOCKED, 7 июн 2026):** после публикации НЕ менять title/thumbnail/description/tags. Если заметили ошибку — unlist + re-upload как новое видео.
+
 (Уточни — какие именно стадии уже готовы. Я предполагал что для запланированных в YouTube всё готово до scheduled статуса.)
 
 ---

@@ -153,6 +153,12 @@ We stay in "cat psychology explainer" niche AND we don't drift to formats that h
 
 > 🕒 **Publish-slot rule (2 июн 2026, data-validated, Jerusalem UTC+3):** **Default = 15:00 локального**, validated by trust-signs (31 мая, 15:00 → **54 views / #1 of last 10 in 38h = best recovery signal**). Допустимое окно: **13:00-15:00** — 13-14:00 = пре-drop pattern (24 апр – 5 мая когда канал делал 700-1500 v/day), 15:00 = current recovery-validated slot. **НЕ идти позже 15:00** и НЕ возвращаться к 18:00-21:00 (период падения 10-27 мая). Пересмотреть когда наберём ≥3 видео с 100+ просм или Shorts-feed retention > 50%.
 
+> ⏱️ **Upload-lead rule (7 июн 2026, Karena #7 LOCKED):** **загружать видео в YouTube за 3 часа до публикации** как **Scheduled / Unlisted** — НЕ Public сразу. Для 15:00 publish slot = upload к **12:00 локального**. За 3 часа: (1) видео рендерится до 4K (если выложить Public сразу — ранние зрители видят пиксели → retention падает), (2) Gemini читает контент → лучше targeting, (3) копирайт-чекер находит проблемы заранее. **Никогда** не жать Public сразу после загрузки. Полные 9 пост-публикационных правил Карены в [`braincatai/karena-playbook.md`](./braincatai/karena-playbook.md#-часть-1c--9-пост-загрузочных-заповедей-карены-что-не-делать-после-публикации).
+
+> 🛑 **Post-publish freeze rule (7 июн 2026, Karena #8 LOCKED):** **после публикации НЕ менять title / thumbnail / description / tags**. Это не работает (Карена тестировал многократно — никаких изменений не вытаскивают видео в широкую органику; первое впечатление = data-профиль уже сформирован). Если после публикации заметили ошибку (грамматика в title, неправильный thumbnail) → **unlist + перевыложить как новое видео** (data starts fresh, лучше edit). Всё критичное — проверять ДО публикации через бот SEO Scorecard.
+
+> 👀 **Self-view freeze rule (7 июн 2026, Karena #1+#2 LOCKED):** после публикации **НЕ смотреть своё видео** со своего YouTube-аккаунта если не досмотришь до конца — твой просмотр считается и портит retention/targeting. **НЕ слать ссылки** на видео в Telegram/Insta/чаты/друзьям — чужие data-профили загрязняют algorithm targeting. Если хочется проверить — смотри в Творческой Студии (не считается за просмотр). Метрики проверяем **раз в 24-48ч**, не каждые 5 минут (Karena #9 — anti-burnout).
+
 
 #### 🔍 MANDATORY — Pre-scripting vidIQ keyword check (locked 13 мая 2026)
 
