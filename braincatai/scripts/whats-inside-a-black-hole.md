@@ -1,14 +1,15 @@
-# What's Inside a Black Hole? (Cat Sucked Into Void)
+# A Black Hole Would Stretch Me Into Spaghetti (Re-upload — first-person Brain Science)
 
 ## Meta
 
-- **Title (working):** What's Inside a Black Hole? 🐱 | Brain Hacks
-- **Slug:** `whats-inside-a-black-hole`
+- **Title (working):** A Black Hole Would Stretch Me Into Spaghetti 🐱 | Brain Science
+- **Slug:** `whats-inside-a-black-hole` (re-upload as NEW video — new ID, fresh algorithmic start)
 - **Category:** Physics / Space
-- **Series:** Brain Hacks
-- **Status:** script
-- **Date created:** 2026-05-06
-- **Publish date:** TBD (next open Brain Hacks slot after May 9)
+- **Series:** Brain Science (renamed from "Brain Hacks" — June 2026)
+- **Status:** 📝 NEW planned re-upload — first-person VO rewrite + spaghetti thumbnail v2
+- **Date created:** 2026-05-06 · **Re-cut:** 2026-06-07
+- **Publish date:** TBD (single Brain Science experiment slot; cats stay the backbone during recovery)
+- **Why re-upload:** original was dry third-person Brain Hacks. Re-cut to first-person (Lesson 5) + spaghetti-stretch thumbnail (Lesson 6). Reuse all 8 image/anim clips as-is; only VO, on-screen text, title and thumbnail change.
 
 ## Audience Promise
 
@@ -73,25 +74,46 @@ Brain wearing a small clean white Pixar-style cartoon spacesuit with rounded sof
 
 ---
 
-## Full Voiceover (whole video — paste into ElevenLabs as one read)
+## Full Voiceover (whole video — paste into TTS as one read) — FIRST PERSON (Brain Science re-cut)
 
 ```
-What if you fell into a hole where even light can't escape? That's a black hole.
+If I fell into a black hole, I'd get stretched into spaghetti. Watch.
 
-Spoiler — nobody's ever come back to tell us.
+And I'd never come back. Nobody ever has.
 
-Black holes have gravity so strong even light gets stuck. Nothing escapes.
+A black hole's gravity is so strong even light gets trapped. Not even I'm fast enough.
 
-The edge is called the event horizon. Cross it — and you're gone forever.
+This edge is the event horizon. Once I cross it — I'm gone for good.
 
-Gravity pulls your feet harder than your head. You stretch like a noodle. Scientists call it spaghettification.
+Gravity yanks my paws harder than my head — so I stretch like a noodle. Scientists call it spaghettification.
 
-Time slows down. A few seconds for you... could be millions of years on Earth.
+And time crawls. A few seconds for me could be millions of years for you.
 
-At the center? A point so dense, physics itself breaks.
+At the center, I'd hit a point so dense even physics gives up.
 
-So thanks, Einstein, for keeping us out. Follow Brain for more facts that break your brain.
+So thanks, Einstein, for keeping me out. Follow me for more facts that break your brain.
 ```
+
+**🇷🇺 RU mirror:**
+```
+Залезь я в чёрную дыру — меня растянуло бы в спагетти. Смотри.
+
+И обратно я бы не вернулся. Никто ещё не вернулся.
+
+У чёрной дыры гравитация такая, что даже свет застревает. Я и подавно не убегу.
+
+Этот край — горизонт событий. Перейду его — и всё, меня нет.
+
+Гравитация тянет мои лапы сильнее головы — и я растягиваюсь как лапша. Учёные зовут это спагетификацией.
+
+А время ползёт. Пара секунд для меня — это миллионы лет для тебя.
+
+В центре меня ждёт точка такой плотности, что физика сдаётся.
+
+Спасибо, Эйнштейн, что не пускаешь меня туда. Подпишись — больше фактов, взрывающих мозг.
+```
+
+> **Old third-person VO (archived — pre-June 2026):** "What if you fell into a hole where even light can't escape?..." — replaced by first-person above per Lesson 5.
 
 ---
 
@@ -140,11 +162,12 @@ MOUTH RULE (single held jaw-drop exception): Mouth opens at frame 0 in a held ca
 STYLE: Pixar 3D render, cinematic warm lighting against navy starlight, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover (first person):**
 
 ```
-What if you fell into a hole where even light can't escape? That's a black hole.
+If I fell into a black hole, I'd get stretched into spaghetti. Watch.
 ```
+**Overlay:** `STRETCHED INTO SPAGHETTI 🍝`
 
 ---
 
@@ -181,10 +204,10 @@ MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-
 STYLE: Pixar 3D render, cinematic warm lighting against navy starlight, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover (first person):**
 
 ```
-Spoiler — nobody's ever come back to tell us.
+And I'd never come back. Nobody ever has.
 ```
 
 ---
@@ -222,10 +245,10 @@ WARDROBE RULE (strict): Brain wears a small clean white lab coat over his brown 
 STYLE: Pixar 3D render, cinematic warm lighting, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover (first person):**
 
 ```
-Black holes have gravity so strong even light gets stuck. Nothing escapes.
+A black hole's gravity is so strong even light gets trapped. Not even I'm fast enough.
 ```
 
 ---
@@ -263,11 +286,12 @@ WARDROBE RULE (strict): Brain wears the small white Pixar spacesuit with a clear
 STYLE: Pixar 3D render, cinematic cosmic lighting, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover (first person):**
 
 ```
-The edge is called the event horizon. Cross it — and you're gone forever.
+This edge is the event horizon. Once I cross it — I'm gone for good.
 ```
+**Overlay:** `POINT OF NO RETURN`
 
 ---
 
@@ -312,11 +336,12 @@ TONE RULE (strict): This is comic Pixar cartoon stretching, not horror. Brain's 
 STYLE: Pixar 3D render, cinematic cosmic lighting with comic timing, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover (first person):**
 
 ```
-Gravity pulls your feet harder than your head. You stretch like a noodle. Scientists call it spaghettification.
+Gravity yanks my paws harder than my head — so I stretch like a noodle. Scientists call it spaghettification.
 ```
+**Overlay:** `SPAGHETTIFICATION 🤯` (term reveal — lands on the stretch moneyshot)
 
 ---
 
@@ -353,11 +378,12 @@ WARDROBE RULE (strict): Brain wears the white spacesuit and clear glass dome hel
 STYLE: Pixar 3D render, cinematic cosmic lighting, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover (first person):**
 
 ```
-Time slows down. A few seconds for you... could be millions of years on Earth.
+And time crawls. A few seconds for me could be millions of years for you.
 ```
+**Overlay:** `TIME CRAWLS`
 
 ---
 
@@ -396,11 +422,12 @@ TONE RULE (strict): Cosmic awe and wonder, NOT horror. The visual is beautiful a
 STYLE: Pixar 3D render, cinematic cosmic lighting, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover (first person):**
 
 ```
-At the center? A point so dense, physics itself breaks.
+At the center, I'd hit a point so dense even physics gives up.
 ```
+**Overlay:** `PHYSICS GIVES UP`
 
 ---
 
@@ -437,10 +464,10 @@ MOUTH RULE (strict): Mouth stays closed throughout. One single soft meow allowed
 STYLE: Pixar 3D render, cinematic warm lighting against navy starlight, vertical 9:16, soft depth of field.
 ```
 
-**🎙️ Voiceover:**
+**🎙️ Voiceover (first person):**
 
 ```
-So thanks, Einstein, for keeping us out. Follow Brain for more facts that break your brain.
+So thanks, Einstein, for keeping me out. Follow me for more facts that break your brain.
 ```
 
 ---
@@ -489,17 +516,24 @@ Would YOU go into a black hole if you could? 🕳️ Drop a 🚀 if yes, 💀 if
 
 ## SEO Pack
 
-**Final title** (47 chars):
+**Final title** (first-person + spaghetti image leads, "black hole" kept for SEO):
 
 ```
-What's Inside a Black Hole? 🐱 | Brain Hacks
+A Black Hole Would Stretch Me Into Spaghetti 🐱 | Brain Science
 ```
 
 Alt titles to A/B test:
 
 ```
-What Happens If You Fall Into a Black Hole? 🐱 | Brain Hacks
-Falling Into a Black Hole Is WORSE Than You Think 🐱 | Brain Hacks
+If I Fell Into a Black Hole, I'd Become Spaghetti 🐱 | Brain Science
+What Is Spaghettification? 🐱 | Brain Science  (jargon-lead — run as 2nd test only)
+What's Inside a Black Hole? 🐱 | Brain Science
+```
+
+**🇷🇺 RU titles:**
+```
+Чёрная Дыра Растянула Бы Меня в Спагетти 🐱
+Что Со Мной Сделает Чёрная Дыра? 🐱
 ```
 
 **Description (≥ 250 chars, "black hole" appears 4×):**
@@ -507,9 +541,9 @@ Falling Into a Black Hole Is WORSE Than You Think 🐱 | Brain Hacks
 ```
 What's actually inside a black hole? 🌌 In this Brain Hacks Short, Brain takes the ultimate cosmic plunge — straight into the void! Black holes have gravity so strong that even light can't escape. Cross the event horizon, and you're gone forever. Fall in, and gravity will stretch you into a noodle (scientists actually call this "spaghettification" 🍝). Time slows down — a few seconds for you could be millions of years on Earth. At the center is a singularity, a point so dense that physics itself breaks. Nobody really knows what's inside a black hole because nothing ever comes back. 🤯
 
-🐱 Follow Brain for more facts that break your brain — new Brain Hacks every week.
+🐱 Follow Brain for more facts that break your brain — new Brain Science every week.
 
-#shorts #brainhacks #blackhole #space #physics #didyouknow #catpsychology #braincatai
+#shorts #brainscience #blackhole #space #physics #didyouknow #catpsychology #braincatai
 ```
 
 **Tags (paste comma-separated into YouTube tags field — total under 450 chars):**
@@ -523,24 +557,55 @@ cat psychology, cat facts, cat behavior, cat secrets, cat science, cat communica
 Video-specific:
 
 ```
-black hole, what's inside a black hole, black hole explained, spaghettification, event horizon, brain hacks
+black hole, what's inside a black hole, black hole explained, spaghettification, event horizon, brain science, what happens in a black hole, black hole for kids
 ```
 
 **Hashtags (top 3 for title bar):**
 
 ```
-#shorts #brainhacks #blackhole
+#shorts #brainscience #blackhole
 ```
 
 Extended set (for description body):
 
 ```
-#shorts #brainhacks #blackhole #space #physics #didyouknow #catpsychology #braincatai
+#shorts #brainscience #blackhole #space #physics #didyouknow #catpsychology #braincatai
 ```
 
 **Thumbnail concept:**
 
 Brain's face in shocked close-up — eyes huge with vivid emerald green irises, the swirling orange accretion disk reflected in his glasses lenses, single held jaw-drop. Electric Yellow `#FFD23F` bold text **"BLACK HOLE"** with charcoal stroke at the top, slight tilt. Deep navy starfield background with a tiny silhouette of the black hole's accretion disk in the corner. The reflected disk in the glasses is the visual hook — instantly intriguing.
+
+---
+
+### 🖼️ Thumbnail v2 — SPAGHETTI STRETCH (re-upload variant — first-person format, June 2026)
+
+> New thumbnail for the re-upload. Moneyshot moved to the cover: **Brain stretched LONG like spaghetti, in his spacesuit**, with a big bold pop-out title. Lesson 6 — bright, high-contrast, oversized text. Generate fresh in Nano Banana 2.
+
+**🎨 Image prompt (Nano Banana 2):**
+
+```
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain, big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. Small thin round gold-framed glasses ALWAYS on. Brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain", visible at the neckline inside the helmet ring. Brain wearing a small clean white Pixar-style cartoon spacesuit with a clear glass dome helmet that fully reveals his face (helmet stays round and normal-sized — does NOT stretch), gold accents on the chest plate. EYES BLOWN WIDE with comic bug-eyed surprise (funny panic, NOT horror), mouth closed in a held tiny "oh no" expression.
+
+KEY POSE: Brain's BODY is cartoonishly STRETCHED into a long thin vertical NOODLE / SPAGHETTI shape — head + helmet normal round at the TOP, body and all 4 paws elongated 4x into long thin ginger-tabby noodle strands trailing DOWNWARD toward the black hole below. Fur stripes elongate along the stretched body. EXACTLY 4 paws (elongated but still 4, never 5), EXACTLY 2 ears. The stretch is the whole visual gag — clearly readable as "he's being turned into spaghetti".
+
+BACKGROUND: deep navy cosmic starfield, a supermassive black hole with a vivid swirling glowing ORANGE-AND-YELLOW accretion disk in the LOWER portion of the frame, pulling Brain's stretched body toward it. Warm orange disk-glow rim-lights Brain so he POPS off the dark background. HIGH CONTRAST, vivid saturated colors, bright — not muddy or dark. Slight gravitational-lensing star streaks.
+
+TEXT PLATE (BIG and BOLD, dominant, upper-third, 2 lines ALL CAPS, Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, charcoal #2B2B2B outline 7-8px thick, slight 2-3° tilt, oversized so it's legible at tiny thumbnail size):
+LINE 1: "SPAGHETTI?!"
+LINE 2: "🍝 BLACK HOLE"
+
+Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9:16.
+```
+
+**Negatives:**
+```
+2D, flat, anime, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra paws, five paws, six legs, missing glasses, missing collar, missing heart tag, watermark, ugly, scary, horror, agonized expression, blood, brown eyes, amber eyes, yellow eyes, hazel eyes, fully-green eyeball, green sclera, helmet stretched, helmet covering glasses, suit covering heart tag, garbled text, illegible text
+```
+
+**A/B text alts:** `I'D BECOME SPAGHETTI 🍝` / `SPAGHETTIFIED 🤯` / `STRETCHED INTO SPAGHETTI`
+
+> Title pairing reminder: keep the spaghetti IMAGE leading the thumbnail; "spaghettification" stays a reveal inside the video (Sc 5), not the thumbnail word — too long/jargon for the cover.
 
 ---
 

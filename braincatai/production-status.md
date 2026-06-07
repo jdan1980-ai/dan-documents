@@ -29,6 +29,14 @@ Single source of truth для статуса каждого видео по pipe
 | 6 мая | Ср | Why You Forget Walking Into a Room | Brain Hacks | `why-you-forget-walking-into-room` | published — TBD |
 | 7 мая | Чт | The "Stop Stress" Button (Vagus Nerve) | Brain Hacks | `your-body-calm-down-button` | published — TBD |
 
+### 🔬 Brain Science re-uploads (новый эксперимент — first-person format, июнь 2026)
+
+> Редкий научный вкрапленный тест в потоке кошек (кошки = костяк до конца recovery). Подача — Брайн от первого лица (Lesson 5), рубрика **Brain Science** (переименована из Brain Hacks).
+
+| Дата | Видео | Рубрика | Slug | Статус |
+|------|-------|---------|------|--------|
+| TBD | A Black Hole Would Stretch Me Into Spaghetti | Brain Science | `whats-inside-a-black-hole` | 📝 NEW re-upload — VO в 1-е лицо + spaghetti thumbnail v2 готовы; reuse 8 клипов as-is; новый ID при заливке |
+
 ### Запланировано в YouTube Studio (locked)
 
 | Дата | День | Видео | Рубрика | Slug | Pipeline статус |

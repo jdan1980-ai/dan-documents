@@ -141,6 +141,40 @@ User feedback: "Static prompts killed the dynamics in the first seconds. Transit
 
 These can appear in Sc 7-8 but **never in the hook**.
 
+### Lesson 5 — Brain is the SUBJECT of the fact, not a narrator of it (June 7, 2026)
+
+User insight (confirmed against data): our early videos gave **dry third-person facts** ("Cats can hear 5× better than humans"). The single best signal we have — Sky Blue (1 373 v) — worked partly because the fact was framed *through* the character's world. The fix is to make **Brain live the fact in first person**, speaking directly to "you".
+
+**Why this lifts the hook / Stayed-to-Watch** (our #1 problem — >60% swipe in first seconds, 0 subs gained over 26 videos in 30 days):
+- A dry fact is a lecture — the brain filters it out. A first-person claim is a character + conflict + direct address, all in second one.
+- Forces "show, don't pose" (per `CLAUDE.md`): if Brain *says* he'd jump higher, Veo must *show* him jumping — no wasted "Brain sits with X expression" shots.
+
+| ❌ Dry third-person (ban in hook) | ✅ Brain as subject, first person + "you" |
+|---|---|
+| "Cats hear 5× better than humans" | "You whispered my name from the next room — I heard you before your mouth even opened." |
+| "Cats always land on their feet" | "Throw me off the shelf. I land on my paws every time — here's my secret." |
+| "Cats sleep 16 hours a day" | "While you were at work, I slept 16 hours. No regrets." |
+
+**Rules for every new script (from June 8 onward):**
+- ✅ **Hook VO is first person** — Brain says "I / me / my" and addresses the viewer as "you". No "cats do X" in Sc 1.
+- ✅ **The fact happens TO or THROUGH Brain on screen** — he demonstrates it, not narrates it.
+- ✅ Works on ANY niche (Cat Psychology, Brain Hacks, etc.) — this is a **framing** upgrade, NOT a topic switch. Do **not** pivot the channel to general science; keep the cat-led identity.
+- ⚠️ Treat any "switch the whole channel to science" advice as rejected — n=1 (Sky Blue) is not a mandate to change niche.
+
+### Lesson 6 — Brighter, higher-contrast thumbnails (June 7, 2026)
+
+CTR sits ~1–3% on browse surfaces — viewers scroll past before the topic registers.
+
+- ✅ **Brighter base** — push saturation/luminance on Brain and background; avoid dark/muddy frames that disappear in the feed.
+- ✅ **Bigger, higher-contrast text** — fewer words, larger, bold outline so it's legible at thumbnail size.
+- ✅ **One clear focal point** — Brain's face + emotion readable instantly.
+
+### Rubric rename — "Brain Hacks" → "Brain Science" (June 7, 2026)
+
+Science-fact videos (space, physics, biology) now use the title suffix **`| Brain Science`** instead of `| Brain Hacks`. Reasons: pun on the character's name (Brain), accurately signals real science (not "hacks"), and gives a clean two-rubric structure under Brain Cat: `| Cat Psychology` (cats, the backbone) + `| Brain Science` (first-person science experiments). Hashtag: `#brainscience`.
+
+- ⚠️ NOT a niche switch — during recovery, cats stay the backbone; Brain Science is a rare inserted experiment (1 video per test), always first-person (Lesson 5).
+
 ---
 
 ## ☑️ Pre-flight checklist (before writing a script)
@@ -158,6 +192,7 @@ These can appear in Sc 7-8 but **never in the hook**.
 - [ ] **80–120 words total** — ≈ 50 sec at 130 wpm + pauses + 3 sec end card = under 60
 - [ ] **Kids AND adults** — no jargon, no scary words. ([`style-guide.md` §9 swap table](./style-guide.md#9-editorial-voice-writing-style))
 - [ ] **Hook in first 2 seconds** — contradiction, shock, pattern break
+- [ ] **First-person hook** — Brain says "I/me/my" + addresses "you"; fact happens THROUGH Brain, not narrated about cats (Lesson 5)
 - [ ] **Mid-roll insurance:** at the 22–30 sec point, a "wait — *this* is the wild part" beat
 - [ ] **CTA variant matches niche** — cat secrets / brain hacks / wait what / facts that tune up your brain / facts that break your brain
 - [ ] **Filler phrases removed** — read out loud, cut anything that doesn't add a new fact/beat
