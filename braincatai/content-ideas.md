@@ -2,6 +2,101 @@
 
 Animated AI cat Shorts • Education style • Vertical 9:16 • 30–60 sec
 
+---
+
+## 🐱 Famous Cats — серия (план, 28 мая 2026)
+
+**Стратегия (user + data):** сначала общий листикл, ловит поиск; закреп спрашивает аудиторию «про кого рассказать подробно» → деманд-сигнал → разворачиваем стендалоны вразброс среди GREEN-тем (НЕ подряд — стендалоны YELLOW, поиск скромный, лента пока слабая).
+
+**1. Листикл (флагман) — `famous-cats-history` (29 мая, готов):** «A Cat Went to SPACE?! 5 Famous Cats Who Made History». Ключ `top 10 cats` 71.41 / 11,518 / comp 12.4 GREEN. Brain-host «играет» каждого кота.
+
+**2. Стендалоны (по голосам аудитории + вразброс):**
+| Кот | Лучший ключ | Score / Monthly | Приоритет |
+|---|---|---|---|
+| 🚀 Фелисетт (космос) | `felicette` | 64.32 / 7,448 (low comp) | ⭐ 1-й — сильнейший |
+| 🏛️ Ларри (двор премьера) | `larry cat` | 56.66 / 11,662 (meme-heavy) | 2-й — объём есть |
+| 🎖️ Стаббс (кот-мэр) | `cat mayor` | 60.74 / 3,426 | 3-й — скромно |
+| ⚓ Непотопляемый Сэм | — (поиск ~0) | feed/CTR-хук «3 кораблекрушения» | 4-й — только хук, не поиск |
+| 🚂 Тама | — (поиск ~0) | — | только в листикле |
+
+**Триггер:** делаем стендалон, когда (а) аудитория просит в закрепе, ИЛИ (б) листикл хорошо зашёл. Каждый — в формате single-fact story (как Creme Puff). Сэм ведём чистым хуком, не поиском.
+
+---
+
+## 🏆 Priority backlog from @williamcat (added 18 мая 2026)
+
+Источник: top-30 на канале **Кошкина Мать / Cat's Mother** (135K subs / 111.6M views). Полный снимок в `competitor-research/competitor-tracker.md`. Все темы — competitor-proven виралы 2022-2023 в нашем 48-60 сек формате.
+
+### Tier 1 — 3M+ views proof
+
+| # | Slug | EN angle (для нашего канала) | Views | Hook-type |
+|---|------|------------------------------|-------|-----------|
+| 1 | ✅ `signs-cat-doesnt-love-you` | 5 Signs Your Cat DOESN'T Love You 🐱 (script done — 21 мая publish) | **8.8M** | negative-mirror (сильнейший hook) — vidIQ 67.55 GREEN / 14,333 monthly |
+| 2 | `what-people-cats-love` | 5 People Cats Pick as THEIR Human | **5.6M** | relational mind-blow |
+| 3 | `how-cats-feel-when-you-hug` | What Your Cat Feels When You Hug It (NOT Love) | 3.7M | counter-intuitive |
+| 4 | `what-cats-do-home-alone` | What Your Cat Does When You're Gone | 3.0M | curiosity-gap |
+
+### Tier 2 — 1-3M views proof
+
+| # | Slug | EN angle | Views | Notes |
+|---|------|----------|-------|-------|
+| 5 | `why-cats-yowl` | Why Your Cat YOWLS at 3AM | 2.1M | sleep-disturbance relatable |
+| 6 | `8-signs-spoiled-cat` | 8 Signs You SPOILED Your Cat | 2.1M | **list format** (новый для нас) |
+| 7 | `cats-elevator-butt` | Why Cats Lift Their Butt (Elevator Butt) | 2.0M | weird-but-true |
+| 8 | `how-to-pet-cats-right` | You're Petting Your Cat WRONG | 1.9M | туториал |
+| 9 | `cats-think-you-belong-to-them` | Your Cat Thinks YOU Belong to HIM | 1.4M | mind-blow ownership-reverse |
+| 10 | `cats-know-where-you-go` | Your Cat KNOWS Where You're Going | 810K | sensory science |
+
+### Tier 3 — 500K+ views proof
+
+| # | Slug | EN angle | Views |
+|---|------|----------|-------|
+| 11 | `5-things-annoy-cats` | 5 Things You Do That Annoy Your Cat | 758K |
+| 12 | `where-to-pet-cats` | The ONLY 3 Spots Cats Want Petted | 778K |
+| 13 | `why-cats-sit-like-humans` | Why Cats Sit Like People (Weird Reason) | 481K |
+| 14 | `signs-cat-is-happy` | 5 Signs Your Cat Is HAPPY | 356K |
+| 15 | `why-cats-follow-everywhere` | Why Your Cat FOLLOWS You Everywhere | 342K |
+
+### Lessons from this competitor data
+
+- **48-60 sec explainer = proven format** (their virals 2022-2023 in this exact length)
+- **List format ("5/8/10 признаков") — gap in our channel** (their 2.1M proof on list-style)
+- **Relational angle (cat-and-owner) > pure biology** — top 10 of theirs are about what cat thinks about YOU
+- **Negative-mirror hook ("HATES you") = #1 виралка 8.8M** — отрицательный сильнее положительного
+
+---
+
+## 🆕 User-submitted ideas (21 мая 2026) — triaged
+
+User dropped 19 ideas (all marked "очень высокий" demand). Triaged against published/scheduled to avoid cannibalization (recovery mode = no duplicate-topic risk). **vidIQ-check required before scripting (cache-first → bot → vidIQ w/ confirm).**
+
+### 🟢 Fresh & strong — backlog (priority for vidIQ check)
+
+| # | Slug (proposed) | EN angle | Hook-type |
+|---|------|----------|-----------|
+| U1 | `dehydrating-your-cat` | You're Accidentally Dehydrating Your Cat Daily | "you're doing it wrong" + cat-health ⭐ |
+| U2 | `is-your-cat-jealous` | Is Your Cat Actually Jealous? Hidden Signs | signs-format (proven negative-mirror genre) ⭐ |
+| U3 | `truth-about-belly-rubs` | The Truth About Cat Belly Rubs | universal pain point |
+| U4 | `cats-walk-between-legs` | The Real Reason Cats Walk Between Your Legs | relatable, fresh |
+| U5 | `signs-cat-is-angry` | 4 Signs Your Cat Is Angry With You | signs-format ⭐ |
+| U6 | `what-cat-meows-mean` | What Your Cat's Meows Really Mean | pair/merge with `why-cats-meow-only-at-humans` — pick strongest angle |
+| U7 | `how-cats-choose-human` | How Cats Choose Their Human | emotional relational |
+| U8 | `secret-cat-facts` | 3 Little-Known Cat Facts Every Owner Should Know | generic listicle (backup) |
+
+### 🟡 Off-format (different content type — experiment later, not explainer)
+- **The Most Loyal Cat Tale – Prepare to Cry** — emotional story, not psychology explainer (needs storytelling + different visuals)
+- **Never Leave Your Cat Alone for 5 Min – Hilarious Results** — comedy/compilation, not our style
+
+### 🔴 Cannibalization — DO NOT script (already published/scheduled)
+- What Your Cat's Kneading Means = «Make Biscuits» (25 апр)
+- Your Cat Doesn't See You as Human = «Giant Weird Cat» (15 мая)
+- When Your Cat Ignores Your Calls = «Understand Their Names» (20 мая)
+- Your Cat Is Constantly Watching You ≈ «Stares at You» (15 мая)
+- Why Cats Prefer High Perches = «Sits Above You» (18 мая)
+- Chest for Naps / Prefer Your Lap ≈ «If Your Cat Sleeps on You» (12 мая)
+
+---
+
 ## Core Formula
 
 `Hook (0–2s)` → `Curiosity gap (2–5s)` → `Explanation with cat visuals (5–45s)` → `Mind-blown payoff + CTA (45–60s)`
@@ -181,7 +276,7 @@ The cat should *react* (surprised, smug, confused, "aha!") to keep retention. Us
 
 **Что нужно решить перед production:**
 1. ~~Целевая длительность — 10 или 15 мин?~~ → **15 мин**
-2. ~~Озвучка — TTS или твой голос?~~ → **TTS, тот же ElevenLabs голос как в Shorts** (Adam/Charlie) для бренд-консистенции, темп 110–120 wpm
+2. ~~Озвучка — TTS или твой голос?~~ → **TTS, тот же Google Vids TTS голос как в Shorts** (Adam/Charlie) для бренд-консистенции, темп 110–120 wpm
 3. ~~Главы / без глав?~~ → **Без глав** — плавный story flow, обязательны mid-roll hooks каждые 2–3 мин чтобы удерживать
 4. ~~Какие конкретно эпохи покрыть?~~ → **Все 6 эпох**, по ~2 мин каждая
    - 🌳 **Proailurus** (45 млн лет назад) — древесный хищник

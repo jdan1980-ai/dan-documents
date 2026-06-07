@@ -147,6 +147,168 @@ What song gives YOU goosebumps every time? 🎶 Drop the title below — let me 
 Be honest — did you Google "6-7" before clicking this? 🤣 Drop a 🤚 if yes. And tell me what OTHER kid words confuse you 👇
 ```
 
+### 23. Why Your Cat HATES Closed Doors (13 мая) — Cat Psychology
+
+```
+Does YOUR cat lose their mind at closed doors? 🐱 Drop a 🚪 if yes and tell me which room they refuse to be locked out of 👇
+```
+
+### 24. Where Your Cat Sleeps on Your Bed (16 мая) — Cat Psychology
+
+```
+Where does YOUR cat sleep on the bed? 🛏️ Drop a 🩷 if on your chest, 🦶 if at your feet, or tell me their favorite spot 👇
+```
+
+### 25. 13 Words Your Cat Really Understands (16 мая) — Cat Psychology
+
+```
+What word makes YOUR cat instantly come running? 🐱 Drop it below — bet "treat" wins. And tell me their reaction when you say "vet" 😹
+```
+
+### 26. Why Your Cat Stares at You (17 мая) — Cat Psychology
+
+```
+Is YOUR cat staring at you right now? 👀 Drop a 👀 + which type you think it is — bet 9/10 are demanding food 😹
+```
+
+### 27. Your Cat Thinks You're a Giant Weird Cat (18 мая) — Cat Psychology
+
+```
+Does YOUR cat treat you like a defective cat? 🐱 Drop a 🙀 if they groom you, headbutt you, or bring you "gifts". Tell me the weirdest cat-thing they've done to you 👇
+```
+
+### 28. Why Your Cat Follows You to the Bathroom (19 мая) — Cat Psychology
+
+```
+Does YOUR cat follow you to the bathroom every time? 🚪🐱 Drop a 🛡️ if yes — they're literally guarding you. Tell me the funniest place they refuse to let you go alone 👇
+```
+
+### 29. Your Cat Can Hear You Blinking (19 мая) — Cat Psychology
+
+```
+What does YOUR cat snap their head at "for no reason"? 👂 Drop a 👀 if they've stared at empty corners — trust me they hear something. And try blinking really slowly near them and watch their ears 😹
+```
+
+### 30. Cats Understand Their Names Better Than You Think (20 мая) — Cat Psychology
+
+```
+Try it RIGHT NOW — call your cat's name and watch their ears 👂 If you see ANY twitch — they heard you. Drop a 👀 if their ear moved and tell me what they did instead of coming over!
+```
+
+### 31. 5 Signs Your Cat DOESN'T Love You (21 мая) — Cat Psychology / Negative-Mirror
+
+```
+Be honest 👇 How many of these 5 signs does YOUR cat show? Drop the number — 0 means you're MAX loved 💚 5 means we need to talk 😹
+```
+
+### 32. Your Cat Is a Perfect Killing Machine (22 мая) — Cat Facts / Predator-Reveal
+
+```
+honestly mine does this at like 4am 😭 goes full hunter mode stalking my feet then acts all innocent. last week he brought me a single sock and looked SO proud lol. what does yours bring you
+```
+
+### 33. 5 Things Your Cat Loves That You Never Do (23 мая) — Cat Behavior / Positive-Mirror
+
+```
+wait which of these do you actually do already?? i only started doing the slow blink thing recently and now my cat does it back every morning, i cant 😭 gonna try the rest tonight
+```
+
+### 34. When Your Cat Stretches at You, It Means This (24 мая) — Cat Communication
+
+```
+omg the downward-dog stretch the second you walk in?? mine does it every single time and i always just thought he was stretching lol. had no idea it meant trust. does yours show the belly too
+```
+
+### 35. Why Your Cat Stares at Nothing (24 мая) — Cat Psychology / Senses (killer-formula #2)
+
+```
+ok mine does the stare-at-the-empty-corner thing at like 2am and it freaks me out every time 😭 now i know he's just hearing something in the walls lol. does yours stare at nothing too
+```
+
+### 36. The World's Oldest Cat Lived 38 YEARS (26 мая) — Cat Facts / Mind-blow record
+
+```
+ok wait 38?? mine just turned 14 and i thought that was already crazy old 😭 how old is yours and would you actually try giving your cat coffee lol
+```
+
+### 37. Your TV Looks BROKEN to Your Cat (27 мая) — Cat Facts / Vision
+
+```
+wait so my cat actually thinks my tv is broken?? 😭 mine literally walks right past it every time lol. does yours watch tv or completely ignore it
+```
+
+### 38. Cats CAN Be Trained — The Circus Secret (28 мая) — Cat Facts / Training
+
+```
+wait people actually train cats?? mine won't even come when i call him 😭 have you ever taught your cat ANY trick or is that just a circus thing lol
+```
+
+### 39. A Cat Went to SPACE?! 5 Famous Cats Who Made History (29 мая) — Cat Facts / History
+
+```
+wait a cat actually went to SPACE?? 😭 i genuinely had no idea. which one shocked you the most — and which cat should i do a full video on next? tell me below
+```
+
+### 40. 5 Cat Sounds You Must NEVER Ignore (30 мая) — Cat Facts / Communication
+
+```
+ok the chirp one at birds is SO real mine does it every morning at the window 😭 which sound does your cat make the most? mine never shuts up honestly lol
+```
+
+### 41. 5 Signs Your Cat SECRETLY Trusts You (31 мая) — Cat Psychology / Trust
+
+```
+ok mine does like 4 of these and the tail-up thing every time i come home gets me every time 😭 how many does yours do? drop your number
+```
+
+### 42. Why Your Cat Suddenly BITES When You Pet It (1 июн) — Cat Psychology / Behavior
+
+```
+omg the tail thump warning is SO real i always miss it and then act surprised when he bites me 😭 does yours give you warning signs or just go straight for the hand lol
+```
+
+### 43. What Your Cat's TAIL Is Telling You — 5 Secret Signals (2 июн, 13:00) — Cat Psychology / Body Language
+
+```
+the question mark tail kills me every time he does it i swear he's asking me a question with his butt 😭 which position does your cat do the most??
+```
+
+### 44. 5 Tiny Things That Make Your Cat Love You DEEPLY (3 июн, 15:00) — Cat Psychology / Bonding
+
+```
+ok the #4 quiet company one hit me hard, i never thought of it as love but my cat literally follows me from room to room and just lies near me 😭 how many of these do you actually do?? be honest
+```
+
+### 45. 5 Things Your Cat Dreams About — #4 Is YOU (4 июн, 15:00) — Cat Psychology / Sleep
+
+```
+ok the #4 wrecked me my cat ALSO twitches with this little smile sometimes and now i'm gonna cry knowing he might be dreaming about me 😭 does yours twitch a lot in sleep?
+```
+
+### 46. 5 Cat Owner Mistakes (You're Doing #3) (5 июн, 15:00) — Cat Psychology / Owner-mistakes
+
+```
+ok mistake #3 BLEW MY MIND i've been yelling at my cat for scratching the floor and turns out it's literally hardwired instinct from his ancestors 😭 which mistake hit you hardest? be honest
+```
+
+### 47. 5 Reasons Your Cat Goes WILD at Night — #4 Means Trouble (6 июн, 15:00) — Cat Psychology / Zoomies
+
+```
+ok the #4 stress one scared me a little because mine does it like 5 times a day 😭 anyone else? what time does YOUR cat zoomie the most?
+```
+
+### 48. 5 STRANGE Things Your Cat Does — Explained (7 июн, 15:00) — Cat Psychology / Weird-collection
+
+```
+ok the snake-face one always confuses me when he does it lol mine looks possessed for like 3 seconds 😭 which one does YOUR cat do the weirdest? drop it below
+```
+
+### 49. Why Your Cat HEADBUTTS You — It's NOT Affection (8 июн, 15:00) — Cat Psychology / Bunting
+
+```
+ok finding out the headbutt is literally him claiming me as property is unhinged behavior i'm into it 😭 does YOUR cat headbutt you constantly or never? need data
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы

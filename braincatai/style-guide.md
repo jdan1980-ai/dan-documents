@@ -21,9 +21,11 @@ The single source of truth for the channel's visual, audio, and editorial style.
 - **Species:** Cute orange tabby kitten
 - **Body:** Round, plush kitten proportions — large head, small body
 - **Fur:** Soft fluffy orange with **darker tabby stripes**, pink nose, long white whiskers
+- **Paws:** All 4 paws — **both FRONT and both BACK** — are the **SAME orange ginger** as the body — **NEVER white paws, NEVER white socks/mittens/toes, NEVER white BACK paws** (the AI keeps adding white socks, ESPECIALLY on the back paws/legs — must be locked out and called out per-scene)
+- **Tail:** Orange ginger tabby with darker stripes **all the way to the tip** — **NEVER a white tail tip**
 - **Eyes:** Big, round, **sparkling green**, glossy highlights — main acting tool
-- **Glasses:** Small, thin, round, **gold-framed** — always on Brain
-- **Collar:** **Brown leather** with a **gold heart-shaped tag** engraved "Brain"
+- **Glasses:** Small, thin, round, **gold-framed** — **always on Brain, in every single shot** (the AI drops them through the AI keeps removing them — hard-lock)
+- **Collar:** **Plain smooth brown leather** (NO studs, NO spikes, NO metal plates, NO decorative holes, NO front buckle) with **EXACTLY ONE gold HEART-SHAPED tag** engraved "Brain" — **identical in every scene**. The tag is a **HEART** — never round, never a circle, never blank, never a bone.
 - **Pupils:** Expressive — can go pinprick (shock), heart (love), spiral (confused), star (excited)
 
 ### Personality
@@ -70,6 +72,74 @@ When a scene's voiceover references a specific role (scientists, doctors, detect
 - Gold-framed glasses stay on
 - Costume is small, clean, Pixar-style — never realistic or sterile
 - Add a `WARDROBE RULE (strict)` block in the Veo 3 prompt locking the costume + visibility of collar/glasses
+
+---
+
+## 2b. The Human (Brain's owner — locked character)
+
+User noted 15 мая 2026: when a script needs a human in frame (lap, hand, head, silhouette), Nano Banana / Veo 3 used to drift between scenes — one scene shows a brunette woman, the next a different woman or even a man. This **breaks the illusion that Brain has ONE owner**. Lock the human the same way Brain is locked.
+
+### The Locked Human spec (paste verbatim into every scene that includes a human)
+
+Updated 16 мая 2026 after recurring man/woman swap in Nano Banana — strengthened with explicit female markers + anti-male negatives baked into the prompt body (not relying on reference image).
+
+```
+LOCKED HUMAN OWNER (same identity in every scene of this video — identical render every time): an adult WOMAN in her early 30s, Brain's owner — slim FEMININE build with narrow shoulders and soft feminine silhouette (NEVER male, NEVER a man, NEVER broad-shouldered, NEVER muscular). Long flowing CHESTNUT-BROWN wavy hair, mid-back length, soft natural volume, clearly cascading down her back (NEVER short hair, NEVER dark/black hair, NEVER blonde, NEVER grey, NEVER bald). Soft cream-colored long-sleeve V-neck sweater (NEVER a hoodie, NEVER dark clothing). Pale-medium skin tone. Pixar 3D cartoon style perfectly matching Brain's render. Face FULLY turned away from camera at all times — NO face, NO profile, NO chin, NO mouth, NO eyes, NO eyebrows, NO ear visible at any moment.
+```
+
+**Always append to the Negative prompts block** of any script that includes a human:
+
+```
+man, male figure, male owner, masculine build, broad shoulders, muscular body, short hair, dark hair, black hair, brown short hair, blonde hair, grey hair, bald head, beard, mustache, hoodie, dark clothing, different person between scenes, different owner, multiple owners, gender swap, swapped character
+```
+
+**HUMAN RULE template for Veo 3 prompts** (paste in every Veo prompt with the human):
+
+```
+HUMAN RULE (strict — LOCKED OWNER, female, same identity across the entire video): The owner is an adult WOMAN in her early 30s — slim feminine build, long chestnut-brown wavy hair (mid-back length, cascading down her back), soft cream V-neck sweater. NEVER male, NEVER a man, NEVER short hair, NEVER dark/black hair, NEVER broad-shouldered, NEVER bald. Face FULLY turned away from camera the entire 7 seconds — NO face, NO profile, NO chin, NO mouth, NO eyes, NO ear visible at any point. Stays completely still — only Brain moves.
+
+HAND COUNT RULE (strict — added 21 мая 2026 after an extra floating hand appeared in a lap scene): Show AT MOST the number of hands the scene calls for (usually ONE hand). Every visible hand MUST connect naturally to a matching visible arm. NEVER add a second/third/extra hand, NEVER a floating or disconnected hand, NEVER a duplicate arm, NEVER extra fingers, NEVER more than 5 fingers per hand. If only one arm is shown, only ONE hand may appear.
+```
+
+> 🛠️ **Hand-drift note (21 мая 2026):** Veo/Nano sometimes spawn a phantom extra hand in lap/petting scenes. Always state the exact hand count + "connected to one arm, no extra/floating hand" and add `extra hand, third hand, floating hand, disconnected hand, duplicate arm, extra fingers` to negatives.
+
+### Why she must NEVER show her face
+
+- Removes AI face-artifact risk (drift between scenes is most visible in faces)
+- Keeps the channel feeling universal — every viewer projects themselves onto the owner
+- Avoids face-rights / likeness concerns
+
+### Allowed visible parts (rotate per scene)
+
+| Scene type | Visible part |
+|------------|-------------|
+| Lap / seated | Back of head + hair + shoulder + sweater + hands in lap |
+| Headbutt / cheek-rub | Side of neck / jaw zone only (NO face) |
+| Hand / wrist scenes | Hand + wrist + sweater cuff only (no body above wrist) |
+| Sleeping on chest | Torso + collarbone + sweater, head CROPPED OFF above frame line |
+| Walking away | Back of head + hair + sweater + (sometimes) lower body |
+| Thought-bubble / iris | Stylized back-of-head silhouette in cartoon overlay only |
+
+### Reference workflow (Nano Banana / Veo 3)
+
+1. **First successful render** of the human in any scene → save as `assets/owner-reference.png`
+2. **Every subsequent scene** with the human → attach this image as character reference in Nano Banana before running the prompt
+3. **Always include the locked spec text above** in the prompt body — even with reference image attached, the text spec is anti-drift insurance
+
+### What changes per scene (does NOT break the lock)
+
+- Pose (sitting / lying / walking)
+- Visible angle (which body part is in frame)
+- Hand position
+- Whether she's holding something
+
+### What MUST stay constant
+
+- Hair: chestnut-brown, mid-back length, wavy
+- Sweater: cream-colored, long-sleeve, V-neck
+- Build: slim feminine
+- Style: Pixar 3D cartoon (not photo)
+- Always turned away / face never visible
 
 ---
 
@@ -252,6 +322,16 @@ If your prompt could describe a stuffed-animal-on-a-stick, rewrite it.
 
 **Per-scene check:** open every script's animation prompt next to its VO line. Ask: *if I muted the audio, would a viewer still understand what's being said from the visual alone?* If no, rewrite the visual.
 
+### 5e. Two retention/authority boosters (adopt per script — use each ONCE, don't bloat)
+
+Validated 22 мая 2026 from a vidIQ-AI breakdown of the "Chirps At Birds" script (+ matches our predator-reframe that works):
+
+1. **Micro-question pivot** — right after the hook, drop a 1-word/short question to reset attention, then answer. e.g. *"Your cat follows you to the bathroom. Creepy? Maybe. But here's why."* Resets the viewer's focus and re-hooks.
+2. **Specific spike** — use ONE hyper-specific number or proper name instead of a vague term, for authority + memorability. e.g. *"the African Wildcat"* not "wild cats"; *"30 milliseconds"* not "very fast". One spike per video.
+3. **Sticky label** — give the viewer a witty 2-word label for their own cat they'll repeat ("tiny ninja", "perfect killing machine", "tiny apex predator"). Memorable + shareable.
+
+> ⚠️ The 49-60 sec format is dense — use each booster **once**, not every line. And ignore topic suggestions from external AIs (they don't know our catalog → cannibalization risk). Topics come from the vidIQ-checked backlog only.
+
 ---
 
 ## 6. Audio
@@ -260,7 +340,7 @@ If your prompt could describe a stuffed-animal-on-a-stick, rewrite it.
 
 - **Voice:** Energetic, curious, slightly playful (think science YouTuber, not documentary narrator)
 - **Pace:** 120–140 wpm — fast enough to feel urgent, slow enough to follow
-- **TTS option:** ElevenLabs "Adam" or "Charlie"
+- **TTS option:** Google Vids TTS "Adam" or "Charlie"
 - **No accents that sound like a teacher** — sound like a friend who just discovered this
 
 ### Music
@@ -294,35 +374,81 @@ If your prompt could describe a stuffed-animal-on-a-stick, rewrite it.
 
 ## 8. Locked AI Prompt Block
 
+> 🛠️ **Image model (locked 21 мая 2026 — user finding):** generate Brain images with **Nano Banana 2** — it holds Brain's look noticeably BETTER than Nano Banana Pro for this character. Default to Nano Banana 2 for all image generation.
+
 Paste this **exact string** at the top of every image prompt. It locks **only Brain's look** — the world/background is chosen per video.
 
+Updated 16 мая 2026 after Veo 3 introduced phantom 3rd ear + chubby adult-cat drift in bathroom Sc 4 video render. Tightened with kitten-age proportions + EXACTLY 2 EARS lock + anti-artifact tokens.
+
 ```
-Cute orange tabby kitten named Brain, big round sparkling VIVID
-EMERALD GREEN eyes (bright pure emerald green iris #3DDC84 — NOT
-brown, NOT amber, NOT yellow, NOT hazel, NOT golden), small thin
-round gold-framed glasses, brown leather collar with gold
-heart-shaped tag engraved "Brain", soft fluffy orange fur with
-darker tabby stripes, pink nose, long white whiskers, Pixar 3D render
-style, cinematic lighting, 4K, vertical 9:16 composition.
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult,
+NOT chubby, NOT pudgy — slender petite kitten body with small chest,
+slim torso, delicate proportions, small paws), big round Pixar-style eyes
+— each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible
+all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a
+black pupil in the center; ONLY the small iris is colored green, the white
+of the eye stays pure white, NEVER a fully-green eyeball, NEVER green
+sclera (iris NOT brown, NOT amber, NOT yellow, NOT hazel), small thin
+round gold-framed glasses (ALWAYS on, every shot), a plain smooth brown
+leather collar (smooth band, NO studs, NO spikes, NO metal plates, NO front
+buckle) with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart
+shape — NOT round, NOT blank; identical every scene), soft fluffy orange
+fur with darker tabby stripes, ALL 4 PAWS — both FRONT and both BACK — the SAME orange ginger tabby
+color as the body (NO white paws, NO white socks, NO white mittens, NO
+white toes, NO white BACK paws), tail orange ginger tabby to the very tip (NO white tail tip),
+pink nose, long white whiskers, EXACTLY 2 EARS
+(one left, one right — both pointed perky triangle kitten ears,
+perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped
+artifact on head), Pixar/Disney 3D ANIMATED CARTOON style (stylized
+smooth cartoon shading, big cartoon eyes, rounded cartoon forms — like a
+frame from a Pixar movie, NOT photorealistic, NOT a real cat, NOT realistic
+fur), soft cartoon lighting, vertical 9:16 composition.
 ```
+
+> ⚠️ **Realism trap (locked 22 мая 2026):** tokens like "3D render", "cinematic lighting", "4K", "hyperrealistic" pull the model toward photorealism. Lead with "Pixar/Disney ANIMATED CARTOON", drop "render/4K", and put realism words in negatives. The 10-credit Veo also drifts to realism on its own — a higher tier holds the cartoon style better.
 
 Then append: **the locked scene/world block for this video** (see §8b) **+ the per-shot action and expression**.
 
+### ANATOMY PRESERVATION RULE (paste verbatim in every Veo 3 prompt)
+
+Veo 3 can morph anatomy during the 7-second animation even if the input image is clean. Add this rule to every Veo 3 prompt to lock Brain's anatomy through animation:
+
+```
+ANATOMY PRESERVATION RULE (strict — Veo must NOT morph Brain): Brain's anatomy must stay perfectly stable through the entire 7 seconds — EXACTLY 2 ears (one left, one right, perfectly symmetric, NO phantom third ear appearing during animation, NO extra fur tuft on head, NO ear-shaped artifact materializing in any frame), exactly 4 paws (2 front + 2 back, NO 5th paw, NO extra limb), kitten body proportions held constant (slender petite 8-week-old kitten, NEVER morphing into chubby adult cat, NEVER expanding chest, NEVER changing body size).
+
+EAR SHAPE & SIZE LOCK (strict — most important, added 16 мая 2026 after bathroom Sc 4 video showed ears elongating frame-by-frame into bat/vampire shape): Brain's ears MUST stay IDENTICAL in shape and size to the input image throughout all 7 seconds — small rounded kitten triangle ears, NEVER growing taller frame-by-frame, NEVER elongating into pointy bat-shape, NEVER stretching upward, NEVER becoming adult cat ears, NEVER morphing into vampire/devil ears. If the input image shows small soft kitten ears at frame 0, the ears MUST be the EXACT same small soft kitten ears at every subsequent frame — zero ear-size drift, zero ear-shape drift, zero ear-position drift.
+
+Brain's identity must be IDENTICAL to the input image throughout — same face, same fur saturation, same eye color #3DDC84, same glasses position, same collar. NO character drift, NO off-model frames, NO anatomy morphing through animation.
+```
+
 > ⚠️ **Eye color trap:** Warm/golden lighting often causes Nano Banana and Veo 3 to render Brain's eyes as brown/amber/hazel even though "green" is in the prompt. Always specify EMERALD GREEN with hex `#3DDC84`, repeat the green-eye reminder in the per-shot description, and include all wrong colors in negatives. For Veo 3, add an explicit `EYE COLOR RULE (strict)` block alongside ANATOMY and MOUTH rules.
+>
+> ⚠️ **Green-sclera trap (locked 24 мая 2026):** the `#3DDC84` spec can make the AI flood the WHOLE eyeball green, not just the iris. Always say **iris emerald green, set in CLEAN WHITE eye-whites/sclera** — ONLY the iris is green, the sclera stays white. Add `green sclera, green eye-whites, fully green eyes` to negatives.
 
 ### Negative prompts (always include)
 
 ```
-2D, flat, anime, cel-shaded, photorealistic cat, multiple cats,
+2D, flat, anime, cel-shaded, photorealistic cat, realistic cat, real cat,
+photoreal, hyperrealistic, realistic fur, photograph, live action, lifelike, 3D realism,
+multiple cats, two cats, second cat, extra cat, wild cat,
 low quality, blurry, distorted face, extra limbs, extra paws,
 five legs, six legs, both front paws raised, two paws raised together,
-missing glasses, missing collar, missing heart tag, watermark,
+missing glasses, glasses removed, missing collar, missing heart tag, watermark,
+white paws, white socks, white mittens, white toes, white feet, white-tipped paws, white back paws, white hind paws, white back feet, white socks on back legs,
 text in image, logo, ugly, scary, aggressive expression,
 mouth open as if talking, lip-sync, talking cat,
 mouth movement, chattering,
 brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes,
+blue eyes, cyan eyes, grey eyes,
 dark eyes, brown iris, amber iris, wrong eye color,
-eye color tinted by lighting, warm-tinted eyes
+eye color tinted by lighting, warm-tinted eyes,
+green sclera, green eye-whites, fully green eyes, green-tinted eyeballs,
+whole eye green, glowing whole eye,
+extra hand, third hand, floating hand, disconnected hand,
+duplicate arm, extra arm, extra fingers, too many fingers,
+white tail tip, white-tipped tail, round tag, circular tag, blank tag,
+bone-shaped tag, two tags, studded collar, spiked collar,
+collar with holes, collar buckle, missing glasses, no glasses
 ```
 
 ### Animation prompt rule (Veo 3)
@@ -337,14 +463,24 @@ TIME X–Ys: [main action]
 TIME Y–Zs: [reaction / effect]
 TIME Z–end: [closing beat]
 
-EYE COLOR RULE (strict): Brain's eyes are BRIGHT EMERALD GREEN (#3DDC84) throughout the entire [N] seconds. NOT brown, NOT amber, NOT yellow, NOT hazel, NOT golden. Warm/golden lighting must NOT tint the iris brown or amber. The iris stays vivid emerald green even in shadow, even when half-closed during a slow blink.
+EYE COLOR RULE (strict): Each of Brain's eyes is a LARGE PURE WHITE sclera (white of the eye clearly visible all around) with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil in the center. ONLY the small iris is green — the white of the eye/sclera stays PURE WHITE the entire [N] seconds, NEVER tinted green, NEVER a fully-green eyeball. Iris NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER golden, NEVER BLUE, NEVER CYAN, NEVER grey. Warm OR cool lighting must NOT tint the iris or the sclera. The iris stays emerald green even in shadow, even when half-closed during a slow blink.
 
-ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back. NEVER show 5 paws or extra limbs. Don't over-specify paw positions in the prompt — just keep the count at 4.
+GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip. NEVER remove the glasses, NEVER let them fade out, NEVER animate them off his face.
+
+SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat in frame at all times — Brain. NEVER add a second cat, NEVER spawn another kitten, NEVER add a wild cat or any other animal. If a hologram appears it is a GLOWING TRANSLUCENT BLUE hologram (clearly see-through, NOT a real solid cat). Only Brain is a real solid cat. (Human owner's hand/limb is allowed where the scene calls for it.)
+
+STYLE RULE (strict): Pixar 3D animated CARTOON style throughout — NEVER photorealistic, NEVER a real/photographic cat, NEVER documentary realism. Brain's identity stays IDENTICAL to the input image.
+
+ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear). NEVER show 5 paws or extra limbs. Don't over-specify paw positions in the prompt — just keep the count at 4. Keep the brown collar with the gold heart tag visible.
 
 MOUTH RULE (strict): Mouth stays completely closed the entire [N] seconds. No lip-sync. No chewing motion. No chattering. No mouth movement of any kind. All emotion comes through eyes, ears, and whiskers.
 
+MOTION RULE (strict — anti-drift): Keep motion modest and controlled. ONLY the described action moves; the character's look stays locked. Large/fast motion increases drift — prefer a subtle camera push-in plus contained action. If a beat needs big motion, split it and keep each clip ≤5 seconds.
+
 STYLE: Pixar 3D render, cinematic warm lighting, vertical 9:16, soft depth of field.
 ```
+
+> 🛠️ **Anti-drift hardening (21 мая 2026):** added GLASSES / SINGLE-CHARACTER / STYLE / MOTION rules + blue/cyan/grey to EYE COLOR after the 10-credit Veo version regressed (silent model update) and started: dropping the glasses, turning eyes blue/cyan, spawning a second cat, drifting to photorealism. Root cause is model-side (same tier, updated model follows prompts less faithfully) — these rules are mitigation. Also test a higher Veo tier and attach a clean Brain reference image as anchor.
 
 Exceptions to MOUTH RULE (state explicitly per shot when used, or Veo will default to closed):
 - Brief held jaw-drop for shock (single beat, not repeated)
@@ -368,32 +504,68 @@ Exceptions to MOUTH RULE (state explicitly per shot when used, or Veo will defau
 
 The locked block in §8 only describes **Brain**. Every script must define its own visual world at the top and reuse the **exact same wording** across scenes that share a location.
 
-### The rules
+User noted 15 мая 2026 (twice): environment drifts between scenes in the same location. In Sc 1 the rug is plain sage-green; in Sc 2 it suddenly has a pattern. In Sc 1 there's one snake plant by the window; in Sc 4 the plant is missing or replaced by a different species. This breaks the illusion of "one room" and confuses viewers.
+
+The fix is **strict prop-locking** + **verbatim location paste**.
+
+### The rules — non-negotiable
 
 1. **Pick 1–3 locations max per video.** More than that breaks visual flow.
-2. **Lock each location as a named block** at the top of the script (e.g., `INT. KITCHEN — DAY` or `EXT. WILD GRASS — GOLDEN HOUR`) with a single descriptive paragraph.
-3. **Identical wording = identical look.** If Scene 1 and Scene 5 are both in the kitchen, paste the *exact same* kitchen description into both image prompts. Don't paraphrase.
-4. **The CTA scene (Scene 8) must match the world.** End in one of the locations already used in the video, in the same lighting and style. Never end in a generic "purple bokeh + confetti" outro — that breaks continuity.
-5. **Group scenes by location** in the script's structure so it's obvious which scenes share a setting.
+2. **Lock each location as a named block** at the top of the script with a **single descriptive paragraph that lists every prop with its exact position, color, count, and pattern**.
+3. **Identical wording = identical look — PASTE VERBATIM.** If Sc 1 and Sc 5 share a location, the FULL location block must appear character-for-character identical in BOTH image prompts. **NEVER abbreviate to "Same living room"** — that's the bug. Nano Banana imagines fresh details when given short input.
+4. **Lock props by:**
+   - **Exact color** (not "green rug" — say "sage-green #8FA88B" or "plain sage-green woven")
+   - **Pattern** (or NO pattern — explicit: "plain weave, no pattern")
+   - **Count** (one snake plant, not "some plants")
+   - **Species/material** (snake plant Sansevieria specifically, not "leafy plant")
+   - **Position** (on the right / center / by the window — same in every scene)
+5. **The CTA scene (Sc 8 universal) is exempt** — it uses neutral bokeh on purpose to be reusable.
+6. **Group scenes by location** in the script's Scene → location map so it's obvious which scenes share a setting.
 
-### Example location block
+### Prop-lock checklist for each location
+
+When writing a location block, lock:
+
+- [ ] **Floor** — material + tone (e.g. "warm honey-amber wooden floorboards")
+- [ ] **Walls** — color (e.g. "soft cream-painted walls")
+- [ ] **Main furniture** — type, color, position (e.g. "cream linen armchair on the RIGHT with a folded amber knit throw")
+- [ ] **Rug** — LOCKED: ONE plain SOLID sage-green woven rug, NO pattern, NO border, NO fringe, simple rectangular shape (solid + simple = easiest to generate consistently, fewest errors). Write it identically in every scene that shows the floor.
+- [ ] **Window** — type, position, light direction (e.g. "tall window on the LEFT with sheer linen curtains, soft warm afternoon daylight from the left")
+- [ ] **Plant(s)** — species + count + position (e.g. "ONE leafy snake plant — Sansevieria — with 5-7 upright sword-shaped dark-green leaves with lighter variegated stripes, beside the window")
+- [ ] **Side props** — type + count + position (e.g. "ONE small wooden side-table on the LEFT holding ONE brass desk lamp (OFF) and ONE small open book lying face-down")
+- [ ] **Wall art** — present or NOT (e.g. "NO wall art" or "ONE framed nature print in soft focus on the back wall")
+- [ ] **Lighting** — direction + temperature (e.g. "soft warm honey-amber ambient with daylight bloom from the left")
+- [ ] **Atmosphere** — depth of field, mood (e.g. "cozy lived-in atmosphere, shallow depth of field")
+
+If a prop is NOT mentioned in the locked block, it must NOT appear in any scene's image. If a prop IS mentioned, it MUST appear in every scene's frame (when the angle allows) — same color, same count, same position.
+
+### Example — properly locked location
 
 ```
-INT. COZY LIVING ROOM — DAY
-Cozy modern living room with warm wooden floor, soft beige sofa
-in background, large window with soft afternoon daylight from the
-left, small green potted plant near the window, warm honey-colored
-ambient light, slight depth of field with sofa softly out of focus.
+INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: ONE plain SOLID sage-green woven rug — solid sage-green color, NO pattern, NO border, NO fringe, simple rectangular shape (locked simple = fewest generation errors + stays consistent across scenes) — in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (OFF, lampshade cream-colored) and ONE small open book lying face-down beside the lamp. WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains letting in soft warm afternoon daylight from the upper-right. PLANT: ONE leafy snake plant (Sansevieria) with 5–7 upright sword-shaped dark-green leaves with lighter variegated cream-green stripes, positioned in a small terracotta pot BESIDE the window on the floor. NO other plants. NO wall art (clean cream wall behind). LIGHTING: soft warm honey-amber ambient with daylight bloom from the window. Cozy lived-in atmosphere, shallow depth of field — armchair and window slightly soft-focus.
 ```
 
-Then in each scene's image prompt:
+### What to do in each image prompt
 
 ```
 [Locked Brain block from §8]
-[INT. COZY LIVING ROOM — DAY paragraph above, copy-pasted exactly]
-[Per-shot action: e.g., "Brain walks forward and gently places a small
-toy mouse on the wooden floor, looks up at camera with calm expression."]
+[Locked Human block from §2b if a human is in this scene]
+[The FULL location block above — copy-paste VERBATIM, do not abbreviate]
+[Per-shot framing: MEDIUM CLOSE-UP, eye-level, etc.]
+[Per-shot action: Brain mid-leap onto armchair, etc.]
 ```
+
+### Verification before generation
+
+Before pasting the prompt into Nano Banana, eyeball-check:
+
+1. Is the full location block present (not "Same living room")?
+2. Are the rug / armchair / plant / side-table / lamp wording exactly the same as previous scenes?
+3. If something must change (e.g. armchair moved out of frame because we cut wider), state it explicitly: "the cream armchair is NOT in this frame" — don't just omit silently.
+
+### Why this matters for monetization
+
+YouTube algorithm scores **brand consistency**. When the same set appears identical across scenes, viewers perceive professional production quality → higher watch-through → algorithm boost. Drift = amateur-looking = swipe-away.
 
 ---
 
@@ -505,6 +677,72 @@ Always lead with the topic-specific emotional close BEFORE the follow line (see 
 
 - v1.0 — Initial style guide
 - Update this file when a rule changes. Add a note in the [content-ideas](./content-ideas.md) or specific script if it's a one-off exception.
+
+---
+
+## 13. Typography Lock (on-screen text — numerals, overlays, captions, thumbnails)
+
+Locked 16 мая 2026 after typography drift made overlays inside one video feel like cuts from different videos (one scene's "3" was rounded pastel-yellow sans, another scene's "1. GUARD" was a sharp serif outline). All on-screen text in a single video — and ideally across the channel — must share ONE font family + ONE color palette + ONE style treatment.
+
+### Canonical channel-wide typography lock
+
+| Element | Spec |
+|---------|------|
+| **Font family** | Rounded geometric sans-serif (Pixar-friendly cartoon font). Reference: **Nunito Bold / Quicksand Bold / Fredoka One** — soft rounded terminals, no sharp serifs, no hand-drawn brush. |
+| **Weight** | Bold (700) for primary overlays; Semibold (600) for secondary lower-thirds |
+| **Case** | ALL CAPS for hooks/numerals/category labels ("EVERY TIME", "1. GUARD", "BLINK = SOUND"). Title Case acceptable for longer captions only. |
+| **Primary fill color** | Soft pastel-yellow `#FFE066` (warm friendly, matches Brain's emerald-on-cream palette) |
+| **Secondary fill color** | Cream-white `#FFF8E7` for lower-thirds against warm backgrounds |
+| **Accent fill (thumbnails only)** | Electric Yellow `#FFD23F` for thumbnail title plate |
+| **Stroke / outline** | Solid charcoal `#2B2B2B` outline, 4–6px (scales to text size). Keeps text readable on any background. |
+| **Drop shadow** | Soft black 30% opacity, 4px Y-offset, 8px blur — subtle depth only, NEVER a hard offset shadow. |
+| **Numerals style** | Same font family — cartoon rounded sans bold pastel-yellow with charcoal stroke. NEVER serif, NEVER hand-drawn, NEVER different font from the captions. |
+| **Sparkle / particle accents** | Soft white sparkle particles around important numerals (`"3"`, `"#1"`) — keep particle style consistent across all videos. |
+| **Forbidden** | Sharp serif fonts, brush-script fonts, Comic Sans, Papyrus, Impact-style football fonts, gradient text fills, neon/metallic text, multiple different fonts in one video |
+
+### What this applies to (all must use the spec above)
+
+1. **In-image cartoon numerals** baked by Nano Banana — "1", "2", "3" in curiosity-gap and build-up scenes (e.g. `_universal-scene-8.md`, `why-cats-follow-bathroom.md` Sc 2)
+2. **Lower-third category captions** added in Google Vids — "1. GUARD", "2. SEPARATION", "3. TERRITORY", "REASON #1", etc.
+3. **In-video overlay phrases** — "EVERY TIME", "BLINK = SOUND", "VERIFY", "SAY THEIR NAME", "ADOPTED ✓", "TOP SCORE"
+4. **Chart labels in lab scenes** (Sc 3 scientist) — "HUMAN 20Hz–20kHz", "CAT 48Hz–85kHz", "1. GUARD" axis labels
+5. **Burn-in subtitle font** (top third, max 4 words) — same Bold rounded sans, slightly smaller
+6. **Thumbnail title plate** — same font family, Electric Yellow `#FFD23F` accent fill, larger weight, thicker stroke
+
+### How to specify in image prompts (Nano Banana)
+
+When the prompt includes ANY on-screen text or numeral, paste this typography lock into the prompt body verbatim:
+
+```
+TYPOGRAPHY LOCK (strict — same font in every overlay across this video and the channel): All on-screen text/numerals rendered in BOLD ROUNDED GEOMETRIC SANS-SERIF font (Pixar cartoon style, Nunito Bold / Fredoka One look — soft rounded terminals, NO serifs, NO brush-script, NO hand-drawn). Fill color: soft pastel-yellow #FFE066. Solid charcoal #2B2B2B outline 4-6px. Soft black drop-shadow 30% opacity. ALL CAPS. NEVER use a serif font, NEVER use a brush font, NEVER mix multiple fonts.
+```
+
+And append to the negative prompts:
+
+```
+serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, gradient text, neon text, metallic text, multiple fonts, mixed typography, sharp serifs on numerals, calligraphy
+```
+
+### How to specify in Google Vids overlays
+
+When adding lower-thirds / category captions / overlay phrases in Google Vids:
+
+1. Font family: **Nunito Bold** (or Fredoka One if Nunito unavailable)
+2. Fill: `#FFE066` (or `#FFF8E7` if background is warm)
+3. Stroke: `#2B2B2B` outline 4-6px
+4. Drop shadow: subtle black 30% 4px/8px
+5. Animation: gentle fade-in (0.3s) + pop-scale-up 1.05× hold + fade-out (0.3s) — same micro-animation for every text element
+
+### Verification before generation / before publish
+
+- [ ] Open the previous published video of the channel — is the new video's text in the same font family?
+- [ ] Open Scene 2 numeral + Scene 4 lower-third + thumbnail title — all three use the same font?
+- [ ] If a chart label is added in Sc 3, does it match the in-image numerals from Sc 2?
+- [ ] Negative prompts include the typography forbidden list?
+
+### Why this matters
+
+Brand consistency is the cheapest retention lever — viewers subconsciously recognize a channel by its typography before its content. Mixed fonts inside one video feel "unfinished" or "compiled from different sources" → trust drops → swipe-away rate goes up. Locking the font is a 0-cost retention boost.
 
 ---
 

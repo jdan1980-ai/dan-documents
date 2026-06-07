@@ -288,7 +288,7 @@ So next time you're stressed... try it. Follow Brain... for more brain hacks.
 
 ---
 
-## 🎵 Music Prompt (paste into Suno / Udio / Mubert / ElevenLabs Music)
+## 🎵 Music Prompt (paste into Suno / Udio / Mubert / Google Vids TTS Music)
 
 ```
 Calm uplifting cinematic instrumental for a 60-second YouTube Short about body hacks and the nervous system. Soft warm synth pads, gentle piano, light atmospheric textures with subtle bell accents. ~85 BPM. Calm grounded mood throughout, slight build at 30 sec for the explanation, gentle uplift at 50 sec for the CTA. No vocals. Mood: like a wellness or meditation app intro but slightly more curious and playful. Soothing but not boring. Royalty-free style.

@@ -177,6 +177,31 @@ Science-fact videos (space, physics, biology) now use the title suffix **`| Brai
 
 ---
 
+### Lesson 5 — *Your Cat Is a Perfect Killing Machine* — best video to date (May 22, 2026)
+
+24h metrics blew past channel norms:
+
+| Metric | Channel typical | Killer (24h) |
+|--------|-----------------|--------------|
+| CTR | 0–1.3% | **5.2%** (×4-5) |
+| Avg view duration | 6–27 sec | **31 sec (54.5%)** |
+| Swipe-stay (Shorts feed) | — | **54.6%** |
+
+**What made it win (REPLICATE this formula):**
+- ✅ **Predator-reframe** — "cute house cat = perfect killer." The cute-vs-deadly contrast is the channel's strongest hook so far (vidIQ-AI independently flagged the same on the Chirps video).
+- ✅ **Cute→predator FLIP hook (Sc 1)** — adorable grooming → sudden frozen hunter-lock in 2 sec. Visual gut-punch before words.
+- ✅ **Numbered "weapon reveal" format** — "4 reasons / weapons" listicle holds retention.
+- ✅ **Saber-tooth SHADOW thumbnail** — tiny cute Brain + giant fanged shadow on the wall. Drove the 5.2% CTR. Cute foreground + scary shadow = high-CTR contrast, advertiser-safe (no gore on Brain).
+- ✅ **Heartwarming twist close** (predator naps on you) — drives shares/comments.
+
+**Two fixes for next videos:**
+- 🔧 **Mid-video dip (~0:29)** — the most abstract fact (whiskers/paws) lost viewers. Put the STRONGEST visual fact in the middle, and add a pattern-interrupt (sharp cut / SFX accent) around the mid-point to re-grab attention.
+- 🔧 **CTA too plain** — generic "Follow Brain" under-converts. Use an **intriguing open-loop CTA**: e.g. *"Subscribe to find out what your cat is plotting right now."* Curiosity > generic ask.
+
+**Series direction:** double down on **Cat Psychology "top-X scary/incredible facts"** + predator/mind-blow reframes. This is the channel's proven lane now.
+
+---
+
 ## ☑️ Pre-flight checklist (before writing a script)
 
 - [ ] **Topic verified** in `content-ideas.md` — exists in backlog, marked 🟡 not done?
@@ -354,6 +379,51 @@ If you see this in the output → fix it like this.
 | Scary tone instead of cute | "Predator instinct / death / void" trigger horror render | `TONE RULE (strict)` — "comic Pixar cartoon stretching, NOT horror. Bug-eyed funny panic, never agonized" |
 | Static shot held too long (retention drop) | One pose for 10+ sec | Add a slow zoom or cut to fresh angle every 4–5 sec. See "Static shot rule" above |
 | End card overloaded (SUBSCRIBE + LIKE + THANK YOU + THE END) | Stacked overlays | One phrase only. Place around Brain, not on his face |
+
+---
+
+## 🔧 Surgical edit vs full regeneration (Nano Banana fallback workflow)
+
+**Locked 16 мая 2026 after bathroom Sc 1 lesson — user got the perfect image by asking Nano Banana to "rotate the cat 180 degrees" on an existing generation, instead of regenerating from a longer prompt.**
+
+When a Nano Banana output is **mostly correct but ONE thing is wrong** (wrong direction, wrong pose, wrong position in frame, character facing the wrong way) — do NOT regenerate from scratch. Instead, use a **surgical edit instruction** on the existing image. This is dramatically more reliable and credit-efficient than rewriting and re-running the full prompt.
+
+### When to use surgical edit (vs full regenerate)
+
+| Situation | Action |
+|-----------|--------|
+| All Brain locks held (glasses, eyes, collar, ears, kitten body) + locked Human held + location correct + ONLY pose/direction/position is wrong | ✅ **Surgical edit** — fix the one thing |
+| Brain missing glasses OR wrong eye color OR wrong species OR location wrong | ⚠️ **Full regenerate** — too many things to fix surgically |
+| Caption text garbled or in wrong font | ⚠️ **Full regenerate** OR add text in Canva post-production |
+| Composition fundamentally wrong (camera angle, framing) | ⚠️ **Full regenerate** with corrected composition prompt |
+
+### Effective surgical edit instructions
+
+Short, single-action commands work better than re-described prompts. Examples that have worked:
+
+| Goal | Edit instruction |
+|------|------------------|
+| Reverse Brain's facing direction | `rotate the cat 180 degrees` |
+| Flip horizontally (mirror) | `flip the cat horizontally` (or whole image: `mirror the image horizontally`) |
+| Change Brain's pose | `change the cat's pose to mid-gallop running` / `make the cat sit instead of stand` |
+| Move Brain in frame | `move the cat to the right side of the frame` / `move the cat closer to the doorway` |
+| Add a missing element | `add small thin round gold-framed glasses on the cat's nose` |
+| Open the cat's eyes | `make the cat's eyes wide open and visible, looking ahead` |
+| Fix the woman's hair | `make the woman's hair longer, cascading down her back to mid-back length` |
+| Remove an artifact | `remove the extra ear / extra fur tuft on the head` |
+
+### Why this works
+
+Nano Banana's edit mode preserves the existing image's character locks, lighting, palette, and composition while applying ONLY the requested change. A full regenerate is a fresh interpretation — every previously-correct lock has a fresh chance to fail (glasses can disappear, eye color can shift, body proportions can drift). Surgical edit = lock what works, change only what doesn't.
+
+### Cost comparison
+
+- Full Nano Banana regenerate: 1 credit + risk of losing locks (~30% chance based on observed failures)
+- Surgical edit on existing: ~1 credit but with near-zero risk to existing locks → effectively cheaper because you don't end up doing 2-3 regenerates
+
+### When this fails
+
+If after 2 surgical edits the image still isn't right → at that point full regenerate with corrected prompt. But ~80% of "one thing is wrong" cases resolve in 1 surgical edit.
 
 ---
 

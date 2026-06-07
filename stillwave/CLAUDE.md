@@ -286,7 +286,7 @@ Use Canva ONLY when a special variant is needed (e.g., text overlay for a viral 
 - `CLAUDE.md` — this file (project rules + triggers)
 - `script-template.md` — copy-paste template for every new video
 - `published-videos.md` — every published video with stats; update after each upload
-- `competitor-tracker.md` — tracked competitors (Hikari Zen, RollinSound, MERSO, Power Hour Focus, etc.)
+- `competitor-research/competitor-tracker.md` — tracked competitors (Hikari Zen, RollinSound, MERSO, Power Hour Focus, etc.)
 - `content-ideas.md` — backlog (output of `GAP:` and `CAL:` runs)
 - `production-status.md` — pipeline tracker per video
 - `scripts/<slug>.md` — one file per video

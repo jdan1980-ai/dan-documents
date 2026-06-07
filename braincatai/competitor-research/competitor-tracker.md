@@ -1,0 +1,439 @@
+# Competitor Channel Tracker
+
+Канонический список каналов, темы которых мы отслеживаем для генерации идей для BrainCatAI. Высокие просмотры на этих каналах = подтверждение спроса.
+
+## Целевые каналы
+
+| # | Канал | URL | Что смотрим |
+|---|-------|-----|-------------|
+| 1 | catsinsider | https://www.youtube.com/@catsinsider/videos | Cat behavior + science |
+| 2 | AskMyCats | https://www.youtube.com/@askmycats/shorts | Cat psychology Shorts |
+| 3 | The Curious Cat | https://www.youtube.com/@thecuriouscatt/videos | Cat psychology longform |
+| 4 | Cat Behaviour Channel | https://www.youtube.com/@catbehaviourchannel/videos | Cat behavior documentary |
+| 5 | Yamato Zen Relaxing | https://www.youtube.com/@YamatoZenRelaxing/videos | **Different niche** — relaxation/zen aesthetic, see comparison below |
+| 6 | Мир Глазами Кошек | https://www.youtube.com/channel/UCSYBgC5AwWL9MaRj9lsAcgQ | **Прямой конкурент** — русскоязычный канал про кошек: факты, психология, поведение, уход. Channel ID `UCSYBgC5AwWL9MaRj9lsAcgQ`. Стиль заголовков копируем для русских версий + смотрим какие темы у них тащат. |
+| 7 | Кошкина Мать / Cat's Mother (William) | https://www.youtube.com/@williamcat/shorts | **🏆 ТОП-конкурент по виралке** — RU + EN sub. Channel ID `UCzTi3Zz-EYXx7LrQ9hJcTbg`. 135K subs / **111.6M views** (827 views/sub = экстремальный algo push). Топ Shorts 5-8M views на cat-psychology / cat-behavior темах. Снимок 18 мая 2026 ниже. |
+| 8 | Gato Oculto | https://www.youtube.com/channel/UC7ADFRVdbcsFQVUsCV9O1pQ | **🔥 ВЗРЫВНОЙ РОСТ** — BR/PT, AI-generated cat mystery shorts. Channel ID `UC7ADFRVdbcsFQVUsCV9O1pQ`. 31.8K subs / 2.07M views / 34 видео — **+1208% за 30 дн**. Формат: 7-15-сек "spooky behavior story" (`Esse gato fez X… e o motivo é Y`). Discovered 18 мая 2026. Снимок ниже. |
+| 9 | Catnip Chaos | https://www.youtube.com/channel/UCEZj8zvPA7Q4zTn1pmY6Y-Q | **Faceless AI cat-facts daily**, US. Channel ID `UCEZj8zvPA7Q4zTn1pmY6Y-Q`. 2.4K subs / 852k views / 55 видео — **+94% за 30 дн** (353 views/sub = strong algo push). Same format niche как наш. Discovered 18 мая 2026. |
+| 10 | cat_nicin | https://www.youtube.com/channel/UCiSWhaffviXG-oWs-PhQ6Fw | **Экстремальный views/sub ratio (751)** — TR. Channel ID `UCiSWhaffviXG-oWs-PhQ6Fw`. 1.4K subs / 1.07M views / 136 видео — алго пушит активно несмотря на маленький канал. Cat body-language focus. Discovered 18 мая 2026. |
+| 11 | NoTime Stories | https://www.youtube.com/channel/UCNexEoccPG7ArokOoPvoOkA | **Stealth growth**, US, AI explainer. Channel ID `UCNexEoccPG7ArokOoPvoOkA`. 575 subs / 487k views / 129 видео (847 views/sub). Direct format peer "We explain what your cat is really thinking". Discovered 18 мая 2026. |
+| 12 | Purrfection | https://www.youtube.com/channel/UCBtaTb3pZnIViAmbjSqyg0Q | **AI-generated clone** — PH. Channel ID `UCBtaTb3pZnIViAmbjSqyg0Q`. 163 subs / 37k views / 36 видео. Direct copycat format ("Doctor Cat clinic" + AI shorts). Smaller but the closest 1:1 format match to BrainCatAI we've found — watch for what they tag/title differently. Discovered 18 мая 2026. |
+
+## ⚠️ Технический лимит
+
+Прямой автоматический сбор данных (WebFetch на YouTube/SocialBlade) **заблокирован 403**. Чтобы Claude мог анализировать — нужен один из путей:
+
+### Путь 1 — Вручную (быстро, не требует ключей)
+Раз в неделю / перед батчем сценариев — открыть каждый канал, скопировать топ-15 видео по просмотрам и вставить сюда (в таблицу в этом файле или в чат). Claude разберёт паттерны и предложит темы.
+
+Что копировать с каждого канала:
+- **Заголовок** (точно как написано)
+- **Просмотры** (число)
+- **Дата публикации** (если видна)
+- Желательно: длительность (Short ≤ 60 сек или long-form)
+
+### Путь 2 — vidIQ (доступен с 12 мая 2026)
+Когда восстановятся credits — Claude использует:
+- `vidiq_channel_videos` — видео канала с метриками
+- `vidiq_outliers` — видео с аномально высокими просмотрами
+- `vidiq_keyword_research` — спрос на конкретные ключи
+- `vidiq_breakout_channels` — растущие конкуренты
+
+### Путь 3 — YouTube Data API v3 (бесплатно, нужен 1 раз настроить)
+Если получить API key (Google Cloud Console, бесплатно для базового использования):
+1. Сохранить в `~/.config/youtube-api-key` (НЕ коммитить)
+2. Claude может вызывать через `curl` для извлечения video lists + view counts
+
+---
+
+## Рабочий процесс «новый батч сценариев»
+
+1. **Сбор данных** — через путь 1, 2 или 3 → вставить топ видео из 4 каналов в раздел "Свежий снимок" ниже
+2. **Анализ** — Claude находит:
+   - Темы, которые повторяются на нескольких каналах (= подтверждённый спрос)
+   - Темы с высокими просмотрами относительно подписчиков (= алгоритм пушит)
+   - Темы, которые НЕ покрыты у нас (= открытая ниша)
+3. **Выбор 2–4 тем** для следующего батча
+4. **Сценарии** — Claude пишет полные сценарии по [script-template.md](../script-template.md)
+
+---
+
+## Свежий снимок (TBD — заполнить вручную или через API)
+
+> Скопируйте сюда топ-15 видео с каждого канала по просмотрам, я проанализирую.
+
+### catsinsider
+
+| Заголовок | Просмотры | Дата | Тип |
+|-----------|-----------|------|-----|
+| _пусто_ | | | |
+
+### AskMyCats
+
+| Заголовок | Просмотры | Дата | Тип |
+|-----------|-----------|------|-----|
+| _пусто_ | | | |
+
+### The Curious Cat
+
+| Заголовок | Просмотры | Дата | Тип |
+|-----------|-----------|------|-----|
+| _пусто_ | | | |
+
+### Cat Behaviour Channel
+
+| Заголовок | Просмотры | Дата | Тип |
+|-----------|-----------|------|-----|
+| _пусто_ | | | |
+
+### Мир Глазами Кошек (RU) — прямой конкурент
+
+**32.6K подписчиков · контент LONGFORM 13-18 мин (НЕ Shorts) · русский**
+
+Топ-24 видео по просмотрам (снапшот 11 мая 2026):
+
+| # | Заголовок | Просмотры | Возраст | Длина |
+|---|-----------|-----------|---------|-------|
+| 1 | Почему Кошки Вдруг ЗАЛЕЗАЮТ На Вас? (Причина шокирует) | 2,6 млн | 2 мес | 15:17 |
+| 2 | Если Ваша Кошка Спит с Вами Каждую Ночь, ВОТ ЧТО ЭТО ЗНАЧИТ! | 1,2 млн | 3 мес | 14:24 |
+| 3 | Твоя Кошка Ждала ВСЮ ЖИЗНЬ, Когда Ты ЭТО СДЕЛАЕШЬ! | 580 тыс | 3 мес | 13:12 |
+| 4 | 13 СЛОВ, которые Ваша Кошка РЕАЛЬНО понимает | 545 тыс | 2 мес | 13:52 |
+| 5 | 17 Вещей, которые Вы ДОЛЖНЫ ПРЕКРАТИТЬ ДЕЛАТЬ с Кошкой! | 536 тыс | 3 мес | 16:36 |
+| 6 | Эти 15 Повседневных Вещей РАНЯТ Чувства Вашей Кошки! (прекрати) | 352 тыс | 2 мес | 17:17 |
+| 7 | Что РЕАЛЬНО Думает Кошка, когда Вы РАЗГОВАРИВАЕТЕ с Ней! | 337 тыс | 1 мес | 15:18 |
+| 8 | 17 Продуктов для Людей, которые Кошкам Нужны БОЛЬШЕ КОРМА! | 297 тыс | 2 мес | 17:34 |
+| 9 | Если Ваша Кошка ЗАНИМАЕТ Ваше Место, ВОТ ЧТО ЭТО ЗНАЧИТ! | 161 тыс | 2 мес | 17:13 |
+| 10 | Если Ваша Кошка ПЕРЕВОРАЧИВАЕТСЯ Перед Вами, ... | 153 тыс | 11 дн | 15:58 |
+| 11 | Реальная Причина, Почему Кошки ПОТЯГИВАЮТСЯ При Виде Вас ... | 138 тыс | 3 нед | 16:31 |
+| 12 | Если Ваша Кошка ХОДИТ За Вами ПОВСЮДУ, Вот Что Это Значит! | 137 тыс | 2 нед | 17:04 |
+| 13 | 14 ОШИБОК с Кошачьим Лотком, которые Причиняют ВРЕД КОШКЕ! | 115 тыс | 3 мес | 14:29 |
+| 14 | 17 Вещей, которые Кошки ОБОЖАЮТ, но Их НИКТО НЕ ДЕЛАЕТ! | 75 тыс | 2 мес | 15:33 |
+| 15 | Лижут ли Вас Кошки? ВОТ ЧТО ЭТО ЗНАЧИТ (вас шокирует!) | 73 тыс | 2 мес | 17:03 |
+| 16 | Кошки Делают ЭТО, если Живут ПОЛНОЙ ЖИЗНЬЮ! (проверь свою) | 68 тыс | 2 мес | 15:05 |
+| 17 | Как Кошки Извиняются Перед Хозяином? (шокирует) | 25 тыс | 2 мес | 16:29 |
+| 18 | 15 Человеческой Еды Со Стола, Которую МОЖНО ДАВАТЬ КОШКАМ! | 25 тыс | 1 мес | 15:22 |
+| 19 | 15 Вещей, которые Кошки Делают, когда любят как Мать! | 24 тыс | 3 дн | 15:42 |
+| 20 | 13 Вещей, Которые Кошки Делают ТОЛЬКО для ЛЮБИМЫХ Людей! | 22 тыс | 2 мес | 15:19 |
+| 21 | Всегда Делай ЭТО, Когда Оставляешь Кошку ОДНУ Дома! | 20 тыс | 2 дн | 15:49 |
+| 22 | 16 Вещей, которые Кошки Любят БОЛЬШЕ Ласки! (срочно сделай) | 20 тыс | 1 мес | 16:01 |
+| 23 | НИКОГДА НЕ ИГНОРИРУЙТЕ ЭТИ ЗНАКИ! 14 способов Общения у ... | 18 тыс | 2 нед | 15:32 |
+| 24 | 15 Шокирующих Вещей, Которые Видят и Слышат ТОЛЬКО кошки! | 18 тыс | 1 мес | 16:42 |
+
+#### Style breakdown — как пишутся заголовки
+
+**Топ-формулы (в порядке частоты hits):**
+
+1. **`Если Ваша Кошка [ГЛАГОЛ В CAPS], ВОТ ЧТО ЭТО ЗНАЧИТ!`** — самая надёжная формула, 4+ видео в топе с 100k–1.2млн просмотрами. Conditional + обещание реверса.
+2. **`[N] Вещей, Которые [...]`** — числовые списки, минимум 7 в топе (13/14/15/16/17 — нечётные!). Цифра = "сейчас узнаешь N конкретных вещей".
+3. **`Почему Кошки [ДЕЛАЮТ X]? (Причина шокирует)`** — топ-1 канала (2.6 млн). Вопрос + парентеза-крючок.
+4. **`Реальная Причина, Почему [...]`** — "real reason" заходит как hook слова.
+5. **`Кошки Делают ЭТО, Если [условие]! (проверь свою)`** — ЭТО как тизер + persona test в скобках.
+
+**Микропатерны (стилистика):**
+
+- **Title Case на каждом слове** ("Если Ваша Кошка Спит с Вами Каждую Ночь")
+- **1-2 слова в CAPS** в середине предложения как акцент: `ЗАЛЕЗАЮТ`, `ВСЮ ЖИЗНЬ`, `ВОТ ЧТО ЭТО ЗНАЧИТ`, `РЕАЛЬНО`, `ДОЛЖНЫ ПРЕКРАТИТЬ`, `РАНЯТ`, `ТОЛЬКО`, `БОЛЬШЕ`
+- **Восклицательный знак** на конце — почти всегда (или `?`)
+- **Парентезы-крючок** в конце: `(Причина шокирует)` · `(шокирует)` · `(прекрати)` · `(проверь свою)` · `(вас шокирует!)` · `(срочно сделай)` — обещание emotional payoff
+- **"Ваша Кошка" / "Твоя Кошка"** — личный крючок в каждом
+- **Без эмоджи в заголовке** — нет 🐱 / 🚪 / 💚 (эмоджи только на превью)
+- **"ЭТО" как тизер** — повторяется: `ВОТ ЧТО ЭТО ЗНАЧИТ`, `Если ЭТО Делает`, `ЭТО НЕ ЛЮБОВЬ`
+- **Длина:** 50-75 символов
+- **НЕТ #shorts, НЕТ "| Cat Psychology"** — но у них longform, у нас Shorts → суффикс брендинга оставляем
+
+**Превью (thumbnails):**
+- Большие ярко-жёлтые/красные плашки с CAPS-словом
+- Красные стрелки-указатели на конкретное место кота
+- Контраст: ч/б графитная иллюстрация кота + яркая цветная текст-плашка
+- Лица людей часто частично/полностью видны — у нас брендинг строже (back-of-head only)
+
+**Что переносим к нам:** формулы + CAPS-акценты + парентезы-крючок + "Your Cat" по личному. **НЕ переносим:** длину 50-75 (у нас 40-70 + суффикс), цифровые списки (7-сценный формат Shorts их не вытягивает), эмоджи-отсутствие (мы держим 🐱 для брендинга).
+
+**Темы, которые работают у конкурента (= подтверждённый спрос на нашем рынке):**
+
+| Их тема | У нас | Статус |
+|---------|-------|--------|
+| Почему кошки залезают на вас | 🟡 не сделано | Подходит — кандидат на след. батч |
+| Кошка спит с вами ночью | 🟡 не сделано | Подходит |
+| Что кошка думает когда вы с ней говорите | 🟡 не сделано | Близко к "Cats hear you blinking" |
+| Кошка занимает ваше место | 🟡 не сделано | Подходит |
+| Кошка ходит за вами повсюду | 🟡 не сделано | Подходит |
+| Кошка потягивается при виде вас | 🟡 не сделано | Подходит |
+| Лижут ли вас кошки | ✅ `why-cats-lick-your-hair` | Сделали (узкий угол hair) |
+| Слова, которые кошка понимает | 🟡 не сделано | Подходит ("13 слов" формат) |
+| 14 ошибок с лотком | ❌ слишком узко | Не наш формат |
+| Кошка извиняется перед хозяином | 🟡 не сделано | Сильный hook (25k за 2 мес) |
+
+### Кошкина Мать / Cat's Mother (William) — снимок 18 мая 2026 🏆
+
+**Channel:** @williamcat · ID `UCzTi3Zz-EYXx7LrQ9hJcTbg` · 135K subs / 111.6M views / 793 видео · старт апр 2021
+**Niche:** cat behavior + cat psychology + cat-owner relationship, RU primary + EN subtitles
+**Format:** mostly Shorts 11-60s, occasional list-format ("8 признаков...")
+**View-per-sub ratio:** 827 — экстремальный (для сравнения: норма ~5-50)
+
+#### Топ-15 по просмотрам
+
+| Ранг | Просм. | Длит. | Дата | Заголовок | Наш статус |
+|------|--------|-------|------|-----------|-----------|
+| 1 | **8.8M** | 55s | окт 2022 | Признаки того, что Ваша кошка Вас НЕ любит | 🟡 НЕ сделано — **TOP PRIORITY** |
+| 2 | 5.7M | 60s | июл 2022 | Что значит поза, в которой спит твоя кошка? | ✅ `where-your-cat-sleeps` (21 view) — наш ремейк не зашёл, нужен ремастер с лучшим хуком |
+| 3 | **5.6M** | 52s | ноя 2022 | Каких людей любят кошки? | 🟡 НЕ сделано — user proposed 18 мая |
+| 4 | 5.4M | 11s | мар 2024 | Можно коту с тобой? | 🟡 ультра-короткий формат, 11 сек — тестировать |
+| 5 | 3.8M | 48s | май 2023 | Что чувствует кошка, когда её тискают? | 🟡 НЕ сделано |
+| 6 | 3.0M | 1m1s | июл 2022 | Что делают коты, когда никого нет дома? | 🟡 НЕ сделано |
+| 7 | 2.7M | 53s | фев 2022 | Как кошка видит человека? | ✅ `your-cat-sees-you-as-giant-cat` (44 view) — мы попали в жилу |
+| 8 | 2.1M | 34s | окт 2023 | Почему кот громко орёт? | 🟡 НЕ сделано |
+| 9 | 2.1M | 56s | дек 2022 | 8 ПРИЗНАКОВ ИЗБАЛОВАННОГО КОТА | 🟡 list-format — стоит попробовать |
+| 10 | 2.0M | 57s | окт 2022 | Почему коты поднимают попу? | 🟡 НЕ сделано |
+| 11 | 1.9M | 49s | ноя 2022 | КОТ И ЧЕЛОВЕК. ОДНА КРОВАТЬ НА ДВОИХ | дубль с `where-your-cat-sleeps` |
+| 12 | 1.9M | 52s | ноя 2022 | Как гладить кота правильно? | 🟡 туториал-формат |
+| 13 | 1.8M | 1m1s | мар 2022 | Кошачий поцелуй (slow blink) | ✅ `why-cats-slow-blink` |
+| 14 | 1.4M | 57s | авг 2022 | Как помыть кота и остаться в живых! | 🟡 туториал, low-priority |
+| 15 | 1.4M | 55s | апр 2022 | Кошачий авторитет | 🟡 широкая тема — нужно сузить |
+
+#### Что выводы
+
+- **8 топиков с proof 2M+, которые мы ещё НЕ сделали** — это готовый backlog на следующие 2 месяца
+- **Длительность 48-60 сек** = ровно наш формат
+- **Формат list ("8 признаков")** — у нас не пробовали, у них 2.1M
+- **Ультра-короткие 11-15 сек** — у нас не пробовали, у них 5.4M
+- **Темы про кошку-И-владельца** (поза в кровати, тискать, любят-не любят) тянут лучше чистой биологии — relational angle сильнее
+
+#### Implication для нашей контент-стратегии
+
+`where-your-cat-sleeps` (21 view у нас vs 5.7M у конкурента) и `your-cat-sees-you-as-giant-cat` (44 view у нас vs 2.7M у них) показывают: **темы правильные, hook/title/algo-trust подкачали**. Не выбираем тему по тому "что у нас лучше получится" — выбираем по proven виралке, а потом адаптируем под наш формат (Brain + animation + science angle).
+
+### Gato Oculto (BR) — снимок 18 мая 2026 🔥 EXPLOSIVE GROWTH
+
+**Channel:** Gato Oculto · ID `UC7ADFRVdbcsFQVUsCV9O1pQ` · 31.8K subs / **2.07M views / 34 видео** (only 34!) · BR/PT · +1208% subs за 30 дн
+**Niche:** Cat Behavior, Cat Psychology, Pet Education, Cat Facts (AI-generated)
+**Format:** ultra-short 7-15s mystery/spooky "cat-saw-something" stories (sub-genre we don't compete in)
+**View-per-sub ratio:** 65 (солидный, но `william` лучше — этот канал берёт *виральностью отдельных видео*, не plateau-эффектом)
+**Discovery context:** vidiq_breakout_channels с query "cat psychology cat facts behavior", channelType=short
+
+#### Top 33 Shorts (popular order)
+
+Every title follows the same micro-formula. Sample (translated):
+
+| # | Title (translated) | Pattern |
+|---|--------------------|---------|
+| 1 | This cat wouldn't let the owner look under the bed | mystery + hidden cause |
+| 2 | THIS CAT WOULDN'T LEAVE THE BABY AND THE REASON WILL GIVE YOU CHILLS | protector + spooky payoff |
+| 3 | This cat wouldn't let the baby sleep alone… and there was a reason | hidden cause + baby angle |
+| 4 | This cat scratched the wall for hours… then they found out why | obsessive behavior + reveal |
+| 5 | He froze at the window… and suddenly started acting strange | trigger event + behavior shift |
+| 6 | What the cat saw in the hallway kept the owner up at night 😱 | supernatural-adjacent |
+| 7 | This cat brought a strange "GIFT"… and no one could explain | dead-things variant + mystery |
+| 8 | This cat started acting strange after they brought something into the house | object trigger |
+| 9 | This cat acted strange after the owner brought home an antique mirror | object-as-trigger (mirror trope) |
+| 10 | He started meowing at the ceiling… and no one understood | spooky-adjacent ("ghost cat") |
+| 11 | He stared into the phone camera… as if seeing someone | screen/camera + paranormal hint |
+| 12 | If your cat slow-blinks at you… you have no idea what they're saying | universal cat fact, mystery framing |
+| 13 | If your cat sleeps near you, there's a strange reason | classic relational fact + "strange" |
+| 14 | If your cat waits for you at the door… you're reading it wrong | reversal hook |
+| 15 | When your cat brings you something dead | mainstream cat fact + simple framing |
+
+#### Why this matters for us — KEY INSIGHT
+
+**Gato Oculto's entire format is "spooky/paranormal-adjacent cat storytelling".** Every video uses the same template:
+- Hook (5-8 chars): `Esse gato [did X strange thing]…`
+- Tension: `e ninguém entendeu` / `e o motivo vai te arrepiar` / `e tinha um motivo`
+- Implied paranormal: ghosts, mirrors, ceilings, imaginary friends, antique objects
+
+This is a sub-niche of cat-psychology we are NOT touching: **"cats can sense things we can't"**. Mainstream cat-psych channels avoid it because it's pseudoscience-adjacent. Gato Oculto leans INTO it and got 1208% growth in a month, 2M total views with only 34 videos.
+
+**Our policy question for user:** do we add a "Brain notices something humans can't" angle to our backlog? It's grounded in real science (cats hear ultrasonics, see UV, detect earthquake P-waves, smell illness) — we could do it WITHOUT the woo-woo framing. This would be a Brain "What Cats Sense That You Can't" series — fits cats-only rule, fits explainer brand, fits search demand. **Recommended: add 2-3 candidate topics to content-ideas.md** ("What Your Cat Senses Before Earthquakes", "Why Your Cat Stares at Empty Corners — Real Reason", "Your Cat Hears Sounds You'd Pay $1000 to Hear").
+
+**Risk flag:** going full Gato Oculto ("ghost cat" framing) would violate our science-explainer brand and risk demonetization for "misleading content". Stay on the science side of the line.
+
+### Purrfection (PH) — снимок 18 мая 2026 (closest format peer)
+
+**Channel:** Purrfection · ID `UCBtaTb3pZnIViAmbjSqyg0Q` · 163 subs / 37k views / 36 видео · PH · +48% subs за 30 дн
+**Niche:** Cat Education, Cat Behavior, AI-Generated Content
+**Format:** AI-animated cat-facts shorts with "Doctor Cat clinic" framing — very similar to our Brain
+**Discovery context:** vidiq_breakout_channels
+
+#### Top topic patterns (37 видео sampled)
+
+Topics they're hitting that we should consider:
+- "Your Cat is SMARTER Than You Think" — popular framing we haven't used
+- "Your Cat Is Secretly Copying You" — mirror-neuron angle
+- "Your Cat Is Secretly Testing You" — relational framing
+- "Don't Ignore Your Cat's Ears" / "4 Tail Signs You Should NEVER Ignore" — warning/danger framing
+- "Are cats actually LIQUID?" — physics meme topic (high curiosity-gap)
+- "Your cat is 'Scanning' your soul" — emotional/spiritual framing
+- "Why your cat 'CHIRPS' like an alien" — chirping/trilling vocalization
+- "Why your cat goes CRAZY at 3 AM" — zoomies topic w/ better hook than ours
+- "Why your cat 'BONKS' you" — bunting/headbutt
+- "If your cat shows you their belly, STOP!" — counter-intuitive warning
+
+#### Why this matters
+
+Purrfection is our **direct format competitor** (AI character + cat-fact shorts). They're small, but their topic selection is informative — every title above is a candidate for our backlog with high curiosity-gap. **Several overlap our existing backlog** (3AM zoomies, chirping, bunting, belly-up trap) and several are NEW angles ("Liquid cats", "Smarter than you think", "Scanning your soul"). Worth a screenshot review by user.
+
+**Format learning:** their titles ALL use 1-3 CAPS words mid-sentence + emoji + topic hashtag. Our title style is more restrained. Could A/B test their punchier style on 1-2 videos.
+
+### Catnip Chaos / cat_nicin / NoTime Stories — снимок 18 мая 2026 (didn't pull videos — credit budget)
+
+These three are growing fast but we didn't pull their video lists to stay under budget. **Snapshot for next session:**
+
+- **Catnip Chaos** (US, 2.4K subs, 852k views, +94% 30d, faceless): "weird cat behaviors and adorable secrets" — likely format peer. Pull when checking next batch.
+- **cat_nicin** (TR, 1.4K subs, 1.07M views, +30% 30d): cat body language focus, 751 views/sub = strong algo signal despite small sub count. Could be a strong topic source.
+- **NoTime Stories** (US, 575 subs, 487k views, +26% 30d): "We explain what your cat is really thinking" — direct format twin. 847 views/sub = strong algo push.
+
+User: when you next have a free vidIQ slot, run `vidiq_channel_videos` on these three to see what's working.
+
+### ⚠️ False positives from vidIQ classification (DO NOT add)
+
+vidIQ's breakout_channels returned two channels that LOOKED relevant but turned out to be wrong niche when we pulled their videos:
+
+- **"MystiCats" UCJELvS_nc7VEbDeXhOrMwug** — actually a Christian prosperity-prayer channel ("God and love"). vidIQ misclassified.
+- **"The Cat Code" UCDCwtSaZoPICvcaLKohFEEw** — actually a Roblox-rant channel with occasional cat clips. The +1357% growth is real, but it's growth on Roblox content, not cat content. Skip.
+
+**Lesson:** always pull `channel_videos` to verify before adding a channel to tracker. vidIQ's niche-tag inference can be hallucinated.
+
+### Yamato Zen Relaxing (другая ниша — relaxation, не explainer)
+
+| Заголовок | Просмотры | Дата | Тип |
+|-----------|-----------|------|-----|
+| _пусто_ | | | |
+
+---
+
+## 🆚 Yamato Zen Relaxing vs BrainCatAI — разные жанры
+
+> Прямой просмотр канала заблокирован 403 из репо. Анализ ниже сделан по сигналам в названии (`Yamato` + `Zen` + `Relaxing`) и общему паттерну ниши. Для точной картины — пришлите скриншот канала или 5–10 заголовков их видео.
+
+### Что (вероятно) на канале Yamato Zen Relaxing
+
+- **Ниша:** relaxation / ambient / sleep content
+- **Эстетика:** японский zen (Yamato = старое название Японии, Zen = медитативная философия)
+- **Тип контента:** длинные ambient видео с природой/животными/успокаивающими звуками, без активной озвучки
+- **Аудитория:** люди ищущие "как заснуть", "как расслабиться", "ASMR"
+- **Длительность:** обычно 1–8 часов на видео (не Shorts формат)
+
+### BrainCatAI
+
+- **Ниша:** cat psychology / educational explainer
+- **Эстетика:** Pixar 3D персонаж, тёплое освещение, динамичные сцены
+- **Тип контента:** короткие 60-сек Shorts с активной озвучкой, mind-blow факты
+- **Аудитория:** ищут "почему мой кот делает X", любят kid-friendly facts
+- **Длительность:** ≤ 60 сек (Shorts only)
+
+### Структурные различия
+
+| Параметр | Yamato Zen Relaxing | BrainCatAI |
+|----------|--------------------|-----------| 
+| **Цель зрителя** | Расслабиться, заснуть | Узнать что-то и удивиться |
+| **Активность зрителя** | Пассивное, фоновое | Активное смотрение |
+| **Озвучка** | Минимальная или без | Каждые 7 сек новая фраза |
+| **Темп** | Медитативный, медленный | Быстрые cuts, hook за 2 сек |
+| **Формат** | Long-form 1–8 часов | Shorts 60 сек |
+| **Монетизация** | RPM от длительности просмотра | Shorts fund + view-based |
+| **Алгоритм** | Ambient/sleep sub-niche | Trending Shorts feed |
+| **Персонаж** | Без — природа/предметы | Есть — Brain |
+
+### Перекрытия
+
+- **Оба возможно используют котов** в визуале (Zen канал может показывать спящих котов, котов на солнце, etc.)
+- **Оба нацелены на cat lovers** в широком смысле
+- **Ниже этого** — это **разные продукты для разных моментов дня**: zen-канал смотрят перед сном, BrainCatAI смотрят пока scrollят ленту днём
+
+### Кого считать конкурентом
+
+**Yamato Zen Relaxing — НЕ прямой конкурент** BrainCatAI. Другая ниша, другая аудитория, другой алгоритмический сегмент. Они не "забирают" ваших зрителей и наоборот.
+
+**Однако** канал может быть полезным эталоном по другим причинам:
+1. **Visual aesthetics** — если у них красивая Japanese zen эстетика, можно одолжить **цветовые решения** для конкретных видео BrainCatAI про сон/спокойствие (например, потенциальное "Why cats sleep 16 hours" с zen-эстетикой)
+2. **Audio mood** — если они используют качественные ambient треки, можно референсить для тихих сцен BrainCatAI
+3. **Title/SEO patterns** — посмотреть как они формируют title для cat-релакс контента (ключевые слова "relaxing", "calming", "zen" иногда попадают в смешанный поиск)
+
+### Что лучше отслеживать
+
+Каналы 1–4 в основном списке — **прямые конкуренты** (та же ниша). За ними следить ради идей и SEO.
+Yamato Zen Relaxing — **бенчмарк эстетики**, не источник идей контента. Один взгляд раз в месяц на их визуал, не больше.
+
+---
+
+## Что мы УЖЕ знаем работает (без сбора)
+
+На основе вашей аналитики + общеизвестных виральных паттернов в кошачьей психологии:
+
+### Из ваших данных (Apr 22–28, 2026)
+
+| Тема | Просмотры | Формат | Вердикт |
+|------|-----------|--------|---------|
+| Why Cats Are Afraid of Cucumbers | 954 | Animated | ✅ Виральная |
+| How Cats Always Land on Their Feet | 791 | Static | ✅ Тема работает, переснять анимировано |
+| Why Cats "Make Biscuits" | 432 (10.34% CTR) | Static | ✅ Тема работает |
+| Your Cat Doesn't Know Your Face | 429 (20% retention) | Static | ✅ Тема работает |
+| Your Cat's Purr Heals Bones | 270 (11.9% CTR) | Static | ✅ Hook работает, payoff подкрутить |
+
+### Канонические виральные темы кошачьей психологии (2026)
+
+Эти темы стабильно набирают миллионы просмотров на topical каналах. **Помечено сделано/не сделано** для нашего канала.
+
+#### Поведение и общение
+- ✅ Why cats are afraid of cucumbers
+- ✅ Why cats make biscuits (knead)
+- ✅ Why cats bring you dead things (in production)
+- 🟡 Why cats slow blink at you (love language) — **высокий приоритет**
+- 🟡 Why your cat stares at you for no reason
+- 🟡 Why your cat meows ONLY at humans (not other cats)
+- 🟡 Why cats follow you to the bathroom
+- 🟡 Why cats knock things off tables
+- 🟡 Why cats hate closed doors
+- 🟡 Why cats roll on their backs (NOT for belly rubs)
+- 🟡 Why cats bring their toys to you
+
+#### Восприятие мира
+- ✅ Your cat doesn't know your face
+- 🟡 Your cat sees you as a giant, weird-looking cat — **высокий приоритет**
+- 🟡 Cats can hear you blinking
+- 🟡 Why cats can see in the dark (and you can't)
+- 🟡 Why cats hate water (it's not what you think)
+- 🟡 Why cats love boxes more than expensive beds (animated done)
+
+#### Тело и физиология
+- ✅ Why cats sleep 16 hours a day
+- 🟡 Why your cat's purr can heal bones (re-make animated) — **высокий приоритет**
+- 🟡 Why cats have rough tongues
+- 🟡 Why cats can fit through tiny spaces (whiskers science)
+- 🟡 Why cats eat grass and throw up
+- 🟡 Why cats love warm spots
+- 🟡 Why cats land on their feet (re-make animated) — **высокий приоритет**
+
+#### Тёмные/удивительные факты
+- 🟡 Your cat remembers every person who's been mean to it
+- 🟡 Your cat could kill you if it was bigger (predator instinct)
+- 🟡 Cats domesticated themselves — humans didn't tame them
+- 🟡 Why cats arch their backs (Halloween cat origins)
+- 🟡 Why cats stare at the wall (it's not ghosts, but...)
+
+#### Идеи на отложенный возврат (нужны зрелость канала / специфический угол)
+
+- 🟠 **Street cats: how they survive in cities** — мощная тема, но риски: бренд-конфликт (Brain в переулке/мусорке), тон-риск (легко скатиться в жалость), смешение аудитории (cat psychology vs animal welfare), требует нескольких локаций (нарушает single-location rule). Вернуться когда канал перейдёт 5–10K подписчиков. Альтернативный угол если делать раньше: *"Your house cat couldn't survive ONE day on the street"* — личный крючок остаётся, уличные коты как фон сравнения, можно сделать в одной локации (квартира + взгляд за окно). Возможно превратить в серию "Street Cat Files".
+- 🟠 **Boy Cat vs Girl Cat: Key Differences (direct version)** — saturation МАКСИМАЛЬНАЯ (все cat-каналы делали), стереотипы научно слабые, большинство различий исчезает после стерилизации (а 95% домашних котов стерильны), требует двух котов в кадре (нарушает Brain-alone rule). **Заменено на сильный под-угол** "Your Cat's COLOR Tells You Its Gender" → реальная генетика, meta-момент с Brain (он оранжевый → 80% самец), один кот в кадре, чистый mind-blow. Вернуться к прямой версии можно если набрать большой survey/comment-данных от своей аудитории (community-engagement видео).
+
+### Как читать эту таблицу
+- ✅ — у нас уже опубликовано
+- 🟡 — открыто, ещё не сделано
+- 🟢 — в производстве
+
+---
+
+## Текущие приоритеты (топ-5 для следующих батчей)
+
+Выбраны по комбинации: высокий спрос + не сделано + хорошо ложится на формат Brain:
+
+1. **Why Cats Slow Blink (and how to slow blink back)** — emotional payoff, save-able hack, нет анимированного контента в Shorts
+2. **Your Cat Sees You As a Giant Weird-Looking Cat** — relatable mind-blow, новая для нас тема
+3. **Why Your Cat's Purr Can Heal Bones (Re-make)** — наш топ-CTR (11.9%), переснять анимированно с лучшим payoff
+4. **Cats Hear You Blinking** — absurd-true hook
+5. **Why Cats Hate Closed Doors** — universal experience, low Shorts saturation
+
+## Регулярность пересмотра
+
+- Раз в **неделю** — обновить "Свежий снимок" из 4 каналов (вручную или через vidIQ когда credits)
+- Раз в **месяц** — пересмотреть приоритеты на основе свежей аналитики собственного канала
+- После каждой публикации — отметить ✅/🟡 в таблице
