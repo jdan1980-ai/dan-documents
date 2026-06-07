@@ -59,40 +59,40 @@ Fredoka One / Nunito Bold, Electric Yellow #FFD23F, charcoal outline. Цвет s
 
 **🇬🇧 English (copy this block alone):**
 ```
-You think your cat's headbutt means love? Science says — it's something else entirely.
+You think your cat's headbutt means love? Science says — it's something else.
 
 It's called bunting. And it's not affection. It's scent-marking.
 
-Your cat has scent glands on the cheeks, forehead, and chin. When they headbutt, they're rubbing their smell ONTO you.
+Scent glands on his cheeks, forehead, chin. The headbutt rubs his smell ONTO you.
 
 They're literally writing their name on you. You are now signed.
 
 Cats only bunt members of their colony. Strangers don't get the headbutt.
 
-Here's the twist — getting bunted means you're in the clan. You're family. You're THEIR human.
+The twist — getting bunted means you're in the clan. You're THEIR human.
 
-Bonus fact — the more they bunt, the deeper the trust. Hourly headbutts? You won the cat lottery.
+Bonus — more bunts = deeper trust. Hourly headbutts? You won the lottery.
 
 Follow Brain. And tell me — does YOUR cat headbutt you daily or never?
 ```
 
 **🇷🇺 Русская версия (copy this block alone):**
 ```
-Думаешь головотык кота = любовь? Наука говорит — это совсем другое.
+Думаешь головотык = любовь? Наука говорит — это другое.
 
-Это называется bunting. И это не привязанность. Это аромаметка.
+Это называется bunting. Это не привязанность. Это аромаметка.
 
-У кота аромажелезы на щеках, лбу и подбородке. Когда он головотычет, он трёт свой запах на тебя.
+Аромажелезы на щеках, лбу, подбородке. Головотык трёт его запах на тебя.
 
 Он буквально пишет своё имя на тебе. Ты теперь подписан.
 
-Кошки головотычат только членов своей колонии. Чужим — головотык не достаётся.
+Кошки головотычат только свою колонию. Чужим — головотык не достаётся.
 
-И вот твист — если он тебя bunt-ает, значит ты в клане. Ты семья. Ты ЕГО человек.
+Твист — если он bunt-ает тебя, ты в клане. Ты ЕГО человек.
 
-Бонус — чем чаще он bunt-ает, тем глубже доверие. Каждый час головотык? Ты выиграл в кошачьей лотерее.
+Бонус — чем чаще bunt, тем глубже доверие. Каждый час? Ты выиграл лотерею.
 
-Подпишись на Brain. И расскажи — твой кот головотычет тебя каждый день или никогда?
+Подпишись на Brain. И расскажи — твой кот головотычет каждый день или никогда?
 ```
 _~150 слов EN, ~7с/сцена (≤60с). Sc 1, 4, 5 могут потребовать tightening если TTS не уложится._
 
@@ -120,11 +120,11 @@ DRIFT RISK: 🟡 YELLOW — human hand interaction + bunting motion + multiple f
 
 **🎙️ VO (EN):**
 ```
-You think your cat's headbutt means love? Science says — it's something else entirely.
+You think your cat's headbutt means love? Science says — it's something else.
 ```
 **🎙️ VO (RU):**
 ```
-Думаешь головотык кота = любовь? Наука говорит — это совсем другое.
+Думаешь головотык = любовь? Наука говорит — это другое.
 ```
 **Оверлей:** «NOT LOVE — IT'S MARKING 🤯» + soft «record-scratch» on myth-bust.
 
@@ -153,7 +153,7 @@ It's called bunting. And it's not affection. It's scent-marking.
 ```
 **🎙️ VO (RU):**
 ```
-Это называется bunting. И это не привязанность. Это аромаметка.
+Это называется bunting. Это не привязанность. Это аромаметка.
 ```
 **Оверлей:** «BUNTING = SCENT-MARKING» + soft science chime.
 
@@ -178,11 +178,11 @@ DRIFT RISK: 🟢 GREEN — extremely static pose, 3 icon glow sequence + 3 scent
 
 **🎙️ VO (EN):**
 ```
-Your cat has scent glands on the cheeks, forehead, and chin. When they headbutt, they're rubbing their smell ONTO you.
+Scent glands on his cheeks, forehead, chin. The headbutt rubs his smell ONTO you.
 ```
 **🎙️ VO (RU):**
 ```
-У кота аромажелезы на щеках, лбу и подбородке. Когда он головотычет, он трёт свой запах на тебя.
+Аромажелезы на щеках, лбу, подбородке. Головотык трёт его запах на тебя.
 ```
 **Оверлей:** «3 GLAND ZONES» + soft layered chimes for each arrow.
 
@@ -253,7 +253,7 @@ Cats only bunt members of their colony. Strangers don't get the headbutt.
 ```
 **🎙️ VO (RU):**
 ```
-Кошки головотычат только членов своей колонии. Чужим — головотык не достаётся.
+Кошки головотычат только свою колонию. Чужим — головотык не достаётся.
 ```
 **Оверлей:** «CLAN-ONLY CLUB» + soft «exclusivity» chime.
 
@@ -279,11 +279,11 @@ DRIFT RISK: 🟡 YELLOW — large composition (Brain + owner + lap + armchair) +
 
 **🎙️ VO (EN):**
 ```
-Here's the twist — getting bunted means you're in the clan. You're family. You're THEIR human.
+The twist — getting bunted means you're in the clan. You're THEIR human.
 ```
 **🎙️ VO (RU):**
 ```
-И вот твист — если он тебя bunt-ает, значит ты в клане. Ты семья. Ты ЕГО человек.
+Твист — если он bunt-ает тебя, ты в клане. Ты ЕГО человек.
 ```
 **Оверлей:** «YOU'RE IN THE CLAN 💚» + warm music swell (это эмоциональный пик).
 
@@ -312,11 +312,11 @@ COST BUDGET: 3 retry max → then fallback.
 
 **🎙️ VO (EN):**
 ```
-Bonus fact — the more they bunt, the deeper the trust. Hourly headbutts? You won the cat lottery.
+Bonus — more bunts = deeper trust. Hourly headbutts? You won the lottery.
 ```
 **🎙️ VO (RU):**
 ```
-Бонус — чем чаще он bunt-ает, тем глубже доверие. Каждый час головотык? Ты выиграл в кошачьей лотерее.
+Бонус — чем чаще bunt, тем глубже доверие. Каждый час? Ты выиграл лотерею.
 ```
 **Оверлей:** «BUNT-O-METER 📈» + soft jackpot chime.
 
@@ -330,7 +330,7 @@ Follow Brain. And tell me — does YOUR cat headbutt you daily or never?
 ```
 **🎙️ VO (RU):**
 ```
-Подпишись на Brain. И расскажи — твой кот головотычет тебя каждый день или никогда?
+Подпишись на Brain. И расскажи — твой кот головотычет каждый день или никогда?
 ```
 
 ---

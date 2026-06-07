@@ -52,38 +52,38 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 
 **🇬🇧 English (copy this block alone):**
 ```
-POV: your cat does 5 things that make NO sense — and the science is wilder than you think.
+POV: your cat does 5 weird things. The science is wilder than you think.
 
-Every weird cat behavior has a reason. Most are 200,000 years of evolution showing.
+Every weird cat behavior has a reason. 200,000 years of evolution on screen.
 
-Strange one — sitting in invisible squares. Boxes mean safety. Their brain reads any outline as a box.
+Strange one — sitting in invisible squares. The brain reads any outline as a box.
 
-Strange two — licking plastic bags. They're tasting lanolin or food residue. Your bag is a science sample.
+Strange two — licking plastic bags. They're tasting lanolin and food residue.
 
-Strange three — sleeping on your laptop. Warmth plus your scent. Heat pad plus ownership claim.
+Strange three — sleeping on your laptop. Warmth plus your scent = heated ownership claim.
 
-Strange four — staring at nothing on the wall. The predator brain catches micro-movements you can't even see.
+Strange four — staring at nothing. The predator brain catches micro-movements you can't see.
 
-Strange five — making biscuits on a blanket. It's a kitten reflex — they only do it when they trust you like family.
+Strange five — making biscuits. A kitten reflex — only when they fully trust you.
 
 Follow Brain. And tell me — what's the weirdest thing YOUR cat does?
 ```
 
 **🇷🇺 Русская версия (copy this block alone):**
 ```
-POV: твой кот делает 5 вещей которые НЕ имеют смысла — а наука дичее чем ты думаешь.
+POV: твой кот делает 5 странных вещей. Наука дичее чем ты думаешь.
 
-У каждого странного поведения есть причина. Большинство — это 200,000 лет эволюции на экране.
+У каждого странного поведения есть причина. 200,000 лет эволюции на экране.
 
-Странность один — сидение в невидимых квадратах. Коробки = безопасность. Мозг считывает любой контур как коробку.
+Странность один — невидимые квадраты. Мозг видит любой контур как коробку.
 
-Странность два — лизание полиэтиленовых пакетов. Они пробуют ланолин или следы еды. Твой пакет — это научный образец.
+Странность два — лизание пакетов. Они пробуют ланолин и следы еды.
 
-Странность три — сон на ноутбуке. Тепло плюс твой запах. Грелка плюс заявление о собственности.
+Странность три — сон на ноутбуке. Тепло плюс твой запах = грелка плюс метка.
 
-Странность четыре — пристальный взгляд в пустую стену. Мозг хищника ловит микродвижения которые ты даже не видишь.
+Странность четыре — взгляд в пустую стену. Мозг хищника ловит микродвижения.
 
-Странность пять — «месит тесто» на одеяле. Это рефлекс котёнка — он делает так ТОЛЬКО когда доверяет тебе как семье.
+Странность пять — «месит тесто». Рефлекс котёнка — только когда полностью доверяет тебе.
 
 Подпишись на Brain. И расскажи — что самое странное делает ТВОЙ кот?
 ```
@@ -111,11 +111,11 @@ DRIFT RISK: 🟢 GREEN — single subject, no human, no text, simple ear-tilt + 
 ```
 **🎙️ VO (EN):**
 ```
-POV: your cat does 5 things that make NO sense — and the science is wilder than you think.
+POV: your cat does 5 weird things. The science is wilder than you think.
 ```
 **🎙️ VO (RU):**
 ```
-POV: твой кот делает 5 вещей которые НЕ имеют смысла — а наука дичее чем ты думаешь.
+POV: твой кот делает 5 странных вещей. Наука дичее чем ты думаешь.
 ```
 **Оверлей (CapCut):** «5 STRANGE THINGS 🤯» upper third + «record-scratch» SFX.
 
@@ -140,11 +140,11 @@ DRIFT RISK: 🟢 GREEN — static subject + 3 floating icon animations + push-in
 
 **🎙️ VO (EN):**
 ```
-Every weird cat behavior has a reason. Most are 200,000 years of evolution showing.
+Every weird cat behavior has a reason. 200,000 years of evolution on screen.
 ```
 **🎙️ VO (RU):**
 ```
-У каждого странного поведения есть причина. Большинство — это 200,000 лет эволюции на экране.
+У каждого странного поведения есть причина. 200,000 лет эволюции на экране.
 ```
 **Оверлей:** «EVOLUTION ON SCREEN» + soft science pulse.
 
@@ -169,11 +169,11 @@ DRIFT RISK: 🟢 GREEN — extremely static pose, only tail flick + blink + tape
 
 **🎙️ VO (EN):**
 ```
-Strange one — sitting in invisible squares. Boxes mean safety. Their brain reads any outline as a box.
+Strange one — sitting in invisible squares. The brain reads any outline as a box.
 ```
 **🎙️ VO (RU):**
 ```
-Странность один — сидение в невидимых квадратах. Коробки = безопасность. Мозг считывает любой контур как коробку.
+Странность один — невидимые квадраты. Мозг видит любой контур как коробку.
 ```
 **Оверлей:** «1 BOX = SAFETY» + soft «cozy» chime SFX.
 
@@ -199,11 +199,11 @@ DRIFT RISK: 🟡 YELLOW — mouth-open exception + tongue rendering + object int
 
 **🎙️ VO (EN):**
 ```
-Strange two — licking plastic bags. They're tasting lanolin or food residue. Your bag is a science sample.
+Strange two — licking plastic bags. They're tasting lanolin and food residue.
 ```
 **🎙️ VO (RU):**
 ```
-Странность два — лизание полиэтиленовых пакетов. Они пробуют ланолин или следы еды. Твой пакет — это научный образец.
+Странность два — лизание пакетов. Они пробуют ланолин и следы еды.
 ```
 **Оверлей:** «2 TASTING YOUR BAG» + soft «lick» SFX.
 
@@ -228,11 +228,11 @@ DRIFT RISK: 🟢 GREEN — extremely static pose + subtle icon animation. Easy f
 
 **🎙️ VO (EN):**
 ```
-Strange three — sleeping on your laptop. Warmth plus your scent. Heat pad plus ownership claim.
+Strange three — sleeping on your laptop. Warmth plus your scent = heated ownership claim.
 ```
 **🎙️ VO (RU):**
 ```
-Странность три — сон на ноутбуке. Тепло плюс твой запах. Грелка плюс заявление о собственности.
+Странность три — сон на ноутбуке. Тепло плюс твой запах = грелка плюс метка.
 ```
 **Оверлей:** «3 WARM + YOUR SMELL» + soft warm ambient pad SFX.
 
@@ -258,11 +258,11 @@ DRIFT RISK: 🟢 GREEN — static alert pose + micro ear-twitch + icon pulse + p
 
 **🎙️ VO (EN):**
 ```
-Strange four — staring at nothing on the wall. The predator brain catches micro-movements you can't even see.
+Strange four — staring at nothing. The predator brain catches micro-movements you can't see.
 ```
 **🎙️ VO (RU):**
 ```
-Странность четыре — пристальный взгляд в пустую стену. Мозг хищника ловит микродвижения которые ты даже не видишь.
+Странность четыре — взгляд в пустую стену. Мозг хищника ловит микродвижения.
 ```
 **Оверлей:** «4 WHAT DOES HE SEE?! 👻» + soft suspense pluck SFX.
 
@@ -287,11 +287,11 @@ DRIFT RISK: 🟢 GREEN — single subject, no human, mouth closed, simple altern
 
 **🎙️ VO (EN):**
 ```
-Strange five — making biscuits on a blanket. It's a kitten reflex — they only do it when they trust you like family.
+Strange five — making biscuits. A kitten reflex — only when they fully trust you.
 ```
 **🎙️ VO (RU):**
 ```
-Странность пять — «месит тесто» на одеяле. Это рефлекс котёнка — он делает так ТОЛЬКО когда доверяет тебе как семье.
+Странность пять — «месит тесто». Рефлекс котёнка — только когда полностью доверяет тебе.
 ```
 **Оверлей:** «5 KNEAD = TRUST 💚» + warm cozy chime + slight major-key swell (warm mind-blow payoff, NOT shock sting — это эмоциональный пик).
 
