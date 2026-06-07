@@ -582,30 +582,34 @@ Brain's face in shocked close-up — eyes huge with vivid emerald green irises, 
 
 > New thumbnail for the re-upload. Moneyshot moved to the cover: **Brain stretched LONG like spaghetti, in his spacesuit**, with a big bold pop-out title. Lesson 6 — bright, high-contrast, oversized text. Generate fresh in Nano Banana 2.
 
-**🎨 Image prompt (Nano Banana 2):**
+**✅ CHOSEN: variant 2 (single clean noodle silhouette) — but BOOST THE EMOTION. Free generation → iterate until the face is perfect; expression is the #1 CTR lever.**
+
+**🎨 Image prompt (Nano Banana 2) — v2-FINAL (max-emotion):**
 
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain, big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. Small thin round gold-framed glasses ALWAYS on. Brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain", visible at the neckline inside the helmet ring. Brain wearing a small clean white Pixar-style cartoon spacesuit with a clear glass dome helmet that fully reveals his face (helmet stays round and normal-sized — does NOT stretch), gold accents on the chest plate. EYES BLOWN WIDE with comic bug-eyed surprise (funny panic, NOT horror), mouth closed in a held tiny "oh no" expression.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain, big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. Small thin round gold-framed glasses ALWAYS on. Brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain", visible at the neckline inside the helmet ring. Brain wearing a small clean white Pixar-style cartoon spacesuit with a clear glass dome helmet that fully reveals his face (helmet stays round and normal-sized — does NOT stretch), gold accents on the chest plate.
 
-KEY POSE: Brain's BODY is cartoonishly STRETCHED into a long thin vertical NOODLE / SPAGHETTI shape — head + helmet normal round at the TOP, body and all 4 paws elongated 4x into long thin ginger-tabby noodle strands trailing DOWNWARD toward the black hole below. Fur stripes elongate along the stretched body. EXACTLY 4 paws (elongated but still 4, never 5), EXACTLY 2 ears. The stretch is the whole visual gag — clearly readable as "he's being turned into spaghetti".
+EXPRESSION (MAX EMOTION — this is the click driver): EYES BLOWN HUGE AND WIDE, taking up most of the face, pupils contracted to tiny pinpricks of emerald green (classic cartoon "OH NO" panic). Eyebrows shot up high. Mouth caught in a big held cartoon JAW-DROP / open-mouth gasp (single sustained "AAAH" jaw-drop — the shock exception). Ears flattened back in alarm, whiskers fanned out. Comic terrified-but-cute panic (hilarious, kid-safe — NOT gory, NOT genuinely scary). The face must read instantly as "I'm being turned into spaghetti and I KNOW it" shock.
 
-BACKGROUND: deep navy cosmic starfield, a supermassive black hole with a vivid swirling glowing ORANGE-AND-YELLOW accretion disk in the LOWER portion of the frame, pulling Brain's stretched body toward it. Warm orange disk-glow rim-lights Brain so he POPS off the dark background. HIGH CONTRAST, vivid saturated colors, bright — not muddy or dark. Slight gravitational-lensing star streaks.
+KEY POSE: Brain's BODY is cartoonishly STRETCHED into ONE long, smooth, single vertical NOODLE / SPAGHETTI shape (clean silhouette like a single strand of spaghetti — NOT multiple dangling strands, NOT splayed legs, NOT separate feet) — head + helmet normal round at the TOP, the body below tapering into one smooth elongated ginger-tabby noodle trailing DOWNWARD and disappearing into the black hole. Fur stripes elongate along the stretched body. EXACTLY 2 ears. The single clean stretch is the whole visual gag.
 
-TEXT PLATE (BIG and BOLD, dominant, upper-third, 2 lines ALL CAPS, Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, charcoal #2B2B2B outline 7-8px thick, slight 2-3° tilt, oversized so it's legible at tiny thumbnail size):
+BACKGROUND: deep navy cosmic starfield, a supermassive black hole with a vivid swirling glowing ORANGE-AND-YELLOW accretion disk in the LOWER portion of the frame, swallowing the tip of Brain's stretched body. Warm orange disk-glow rim-lights Brain so he POPS off the dark background. HIGH CONTRAST, vivid saturated colors, bright — not muddy or dark. Slight gravitational-lensing star streaks.
+
+TEXT PLATE (BIG and BOLD, dominant, upper-third, 2 lines ALL CAPS, Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, charcoal #2B2B2B outline 7-8px thick, slight 2-3° tilt, oversized so it's legible at tiny thumbnail size — NO emoji in the text, keep the letters clean):
 LINE 1: "SPAGHETTI?!"
-LINE 2: "🍝 BLACK HOLE"
+LINE 2: "BLACK HOLE"
 
 Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9:16.
 ```
 
 **Negatives:**
 ```
-2D, flat, anime, photorealistic cat, multiple cats, low quality, blurry, distorted face, extra paws, five paws, six legs, missing glasses, missing collar, missing heart tag, watermark, ugly, scary, horror, agonized expression, blood, brown eyes, amber eyes, yellow eyes, hazel eyes, fully-green eyeball, green sclera, helmet stretched, helmet covering glasses, suit covering heart tag, garbled text, illegible text
+2D, flat, anime, photorealistic cat, multiple cats, low quality, blurry, distorted face, multiple noodle strands, splayed legs, dangling separate paws, two feet, human feet, five paws, six legs, missing glasses, missing collar, missing heart tag, watermark, emoji in text, ugly, gory, horror, blood, agonized, brown eyes, amber eyes, yellow eyes, hazel eyes, fully-green eyeball, green sclera, calm expression, neutral expression, sleepy closed eyes, helmet stretched, helmet covering glasses, suit covering heart tag, garbled text, illegible text
 ```
 
-**A/B text alts:** `I'D BECOME SPAGHETTI 🍝` / `SPAGHETTIFIED 🤯` / `STRETCHED INTO SPAGHETTI`
+**A/B text alts (no emoji):** `SPAGHETTIFIED?!` / `I'M SPAGHETTI` / `BLACK HOLE = SPAGHETTI`
 
-> Title pairing reminder: keep the spaghetti IMAGE leading the thumbnail; "spaghettification" stays a reveal inside the video (Sc 5), not the thumbnail word — too long/jargon for the cover.
+> Locked choice: single clean noodle (var 2) + huge-eyed jaw-drop panic. The middle variant lacked emotion — the fix is the exaggerated FACE above, not the body. Keep the spaghetti IMAGE leading; "spaghettification" stays a reveal inside the video (Sc 5), not a thumbnail word.
 
 ---
 
