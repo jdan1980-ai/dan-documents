@@ -15,23 +15,23 @@
 - **vidIQ:** main keyword **`strange cat behaviors explained` 🟢 63.12 / 14,691 / comp 35.5 GREEN** (3-я по volume — feed-bait potential). Sub-cluster: `cat licking plastic bags` 64.35/4,828/comp-21.6, `cat behavior explained` 65.99/105,667.
 
 ## Audience Promise
-Зритель узнаёт **5 универсальных «странных» вещей** (сидение в квадратах / лизание пакетов / сон на ноутбуке / охота на тени / snake-face) и **science behind каждого**. **Feed-bait factor** = universal observation + WTF moments → algorithm likely pushes. Сильнее всего: каждый пункт visually distinct → high retention.
+Зритель узнаёт **5 универсальных «странных» вещей** (сидение в квадратах / лизание пакетов / сон на ноутбуке / пристальный взгляд в пустоту / «месит тесто») и **science behind каждого**. **Feed-bait factor** = universal observation + WTF moments → algorithm likely pushes. Сильнее всего: каждый пункт visually distinct → high retention.
 
 ## ✍️ Killer-формула + Rule 14 hybrid voice
 - **Hook Sc 1 POV:** «POV: твой кот делает 5 вещей которые не имеют смысла»
 - **Science reframe Sc 2:** «Каждое странное поведение = 200,000 лет эволюции на экране»
 - **5-Signs листикл Sc 3-7** (CTR-чемпион)
 - **🔧 Comedy injections (Rule 14):** ОДНА witty observation per scene
-- **🔧 Mind-blow finale Sc 7 (#5 Flehmen):** snake-mouth face = странность из странностей
+- **🔧 Mind-blow WARM finale Sc 7 (#5 kneading):** «месит» = котёнок просит маму → взрослый кот мнёт ТОЛЬКО когда полностью доверяет = ты для него МАМА
 - **🔧 Comment-bait CTA Sc 8** (Option C)
 
 ---
 
 ## 🔒 Locked Brain Prompt (вшит в каждый image-промт — Nano Banana 2)
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil in the center; ONLY the small iris is colored green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed (exceptions for Sc 7 Flehmen scene — mouth slightly open). Vertical 9:16.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil in the center; ONLY the small iris is colored green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed (Sc 4 plastic-bag exception — mouth slightly open with pink tongue tip for investigative lick). Vertical 9:16.
 ```
-**Negatives:** standard set (см. zoomies) + `aggressive snake hissing, scary fangs, blood`.
+**Negatives:** standard set (см. zoomies) + `aggressive predator pose, scary fangs, blood, real prey animal in frame`.
 
 ## 🎬 Veo 3 (image-to-video) — animation step (pipeline override 2 июн 2026, после Veo plan upgrade)
 **Replaces Kling for ALL motion scenes этих 2 скриптов.** Каждая сцена прогнана через CLAUDE.md Veo 3 pre-flight checklist (Locked Brain anatomy / Eye color / Mouth rule / 2-ears + 4-paws / Glasses / Heart tag / Human rule если в кадре / Camera direction match / Clip ≤8s).
@@ -62,9 +62,9 @@ Strange two — licking plastic bags. They're tasting lanolin or food residue. Y
 
 Strange three — sleeping on your laptop. Warmth plus your scent. Heat pad plus ownership claim.
 
-Strange four — stalking shadows like prey. The predator brain locks on any movement. Shadow or mouse — same thing.
+Strange four — staring at nothing on the wall. The predator brain catches micro-movements you can't even see.
 
-Strange five — the snake-mouth face. They're smelling pheromones with a second organ in the roof of the mouth.
+Strange five — making biscuits on a blanket. It's a kitten reflex — they only do it when they trust you like family.
 
 Follow Brain. And tell me — what's the weirdest thing YOUR cat does?
 ```
@@ -81,9 +81,9 @@ POV: твой кот делает 5 вещей которые НЕ имеют с
 
 Странность три — сон на ноутбуке. Тепло плюс твой запах. Грелка плюс заявление о собственности.
 
-Странность четыре — охота на тени как на добычу. Мозг хищника фиксирует любое движение. Тень или мышь — одно и то же.
+Странность четыре — пристальный взгляд в пустую стену. Мозг хищника ловит микродвижения которые ты даже не видишь.
 
-Странность пять — лицо «змеиная пасть». Он нюхает феромоны вторым органом в нёбе.
+Странность пять — «месит тесто» на одеяле. Это рефлекс котёнка — он делает так ТОЛЬКО когда доверяет тебе как семье.
 
 Подпишись на Brain. И расскажи — что самое странное делает ТВОЙ кот?
 ```
@@ -179,7 +179,7 @@ Strange one — sitting in invisible squares. Boxes mean safety. Their brain rea
 
 ---
 
-## Сцена 4 — #2 PLASTIC BAGS (Jacobson's organ) — 21–28с
+## Сцена 4 — #2 PLASTIC BAGS (lanolin + scent tasting) — 21–28с
 **Что зритель видит:** Brain с любопытством лижет полиэтиленовый пакет на полу, маленькая cartoon-волна «scent» вокруг пакета. Цифра «2» + подпись «TASTING YOUR BAG». VO: лизание пакетов, пробует ланолин или следы еды.
 
 **🎨 Image:**
@@ -238,65 +238,62 @@ Strange three — sleeping on your laptop. Warmth plus your scent. Heat pad plus
 
 ---
 
-## Сцена 6 — #4 STALKING SHADOWS (predator brain) — 35–42с
-**Что зритель видит:** Brain в crouch охотничьей позе, припал к полу, пристально смотрит на cartoon shadow «мышки» (бабочки) скользящую по стене или полу — пытается её «поймать». Цифра «4» + подпись «PREDATOR LOCK-ON». VO: охота на тени как на добычу, мозг фиксирует любое движение.
+## Сцена 6 — #4 STARING AT NOTHING (creepy-cat predator brain) — 35–42с
+**Что зритель видит:** Brain в alert low crouch смотрит в ПУСТОЙ УГОЛ комнаты — там буквально ничего нет. Pupils dilated, уши торчком. Подпись «WHAT DOES HE SEE?! 👻». VO: пристальный взгляд в пустую стену, мозг хищника ловит микродвижения которые ты не видишь.
 
 **🎨 Image:**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil in the center; ONLY the small iris is colored green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed — in classic LOW STALKING CROUCH (body stretched low to the ground, butt slightly raised in classic "wiggle-pounce" prep), focused intently on a small soft pastel-grey SHADOW shape moving across the honey-amber wood floor (a stylized small bird/mouse-shape SHADOW — clearly a SHADOW not an actual animal, just a dark moving silhouette on the floor). PUPILS DILATED in pure predator lock-on (NOT scary — intense focus). Ears forward and alert. Tail flicking slightly. INT. COZY LIVING ROOM — DAY (same locked room, sage-green rug just behind Brain, sunlight from window creates the moving shadow). Side-on full-body shot. The shadow is clearly NOTHING — just a moving dark shape. A small cartoon "👁️" eye-tracking icon floats. Vertical 9:16.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil in the center; ONLY the small iris is colored green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed — sitting upright in classic ALERT POSE (body upright, head tilted slightly up, totally still and locked-in), eyes WIDE OPEN and intensely focused on an EMPTY CORNER of the room where two walls meet (the camera shows Brain in profile/three-quarter, looking off-frame toward an upper wall corner where there is OBVIOUSLY NOTHING — just blank cream-colored wall and ceiling line). PUPILS DILATED (large round black pupils inside the emerald iris) in classic "creepy cat sees something invisible" focus. Ears swiveled forward and fully alert. Tail wrapped still. INT. COZY LIVING ROOM — DAY (same locked room: cream walls, honey-amber wood floor, ONE plain SOLID sage-green woven rug, cream armchair LEFT, tall window BACKGROUND with sheer curtains, snake plant). Side-three-quarter medium shot showing Brain on the rug + the empty corner he's staring at clearly visible in the upper background. A tiny floating cartoon "👻" ghost-icon and a "✨" sparkle softly hover near the empty corner as a meme-reference cue (small, NOT a real ghost — clearly cartoon-emoji style). Vertical 9:16.
 ```
-**🎬 Veo 3 (image-to-video) — pre-flight ⚠️:**
+**🎬 Veo 3 (image-to-video) — pre-flight ✅:**
 ```
-INPUT: Nano Banana 2 image (Sc 6 above) — Brain in low stalking crouch, eyes locked on a moving shadow shape on the floor, butt slightly raised, ears forward.
-MOTION: The pastel-grey shadow shape on the floor slowly slides 6-8 inches across the wood floor in one direction, Brain's eyes track the shadow intently (pupils stay dilated), his butt wiggles in classic pounce-prep pattern (small left-right wiggle, 2-3 times), his tail flicks once. NO actual pounce — just pre-pounce stalking. Mouth closed.
-DURATION: 7 seconds. CAMERA: slow lateral track following the shadow direction.
-PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule (pupils DILATED for hunt mode but still emerald iris + white sclera + black pupil), EXACTLY 2 ears + 4 paws, mouth CLOSED, glasses on, heart tag, ALL ginger paws (no white).
-CHARACTER DIRECTION RULE: Brain's body in input image must be ORIENTED toward shadow direction. Veo cannot re-orient mid-clip — if input shows Brain facing wrong way, regenerate Nano image first.
-NEGATIVES: standard + actual prey appearing, real mouse, scary pounce, predator violence, blood.
-DRIFT RISK: 🟡 YELLOW — shadow rendering + butt-wiggle motion + lateral camera track. May need 1-2 retries to get the shadow movement clean and pre-pounce wiggle cute.
+INPUT: Nano Banana 2 image (Sc 6 above) — Brain sitting upright in alert pose staring at an empty upper corner of the room, pupils dilated, ears forward, tiny "👻" + "✨" floating near the empty corner.
+MOTION: Brain stays absolutely locked in his alert stare — ZERO body motion, only his ears do one micro-twitch toward the empty corner, his pupils dilate a touch more, his head tilts up 2-3 degrees as if tracking something invisible. The "👻" icon and "✨" sparkle gently pulse / drift slightly. NO blink (creepy-cat unbroken stare). Mouth closed.
+DURATION: 7 seconds. CAMERA: very slow subtle push-in toward Brain (micro-motion prevents anatomy drift on hold).
+PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule (LARGE PURE WHITE sclera + medium EMERALD-GREEN iris #3DDC84 + DILATED black pupil; ONLY iris green; sclera stays PURE WHITE), EXACTLY 2 ears + 4 paws, mouth CLOSED throughout, glasses ALWAYS on, heart tag, ALL ginger paws (no white socks).
+CHARACTER DIRECTION RULE: Brain's head must stay oriented toward the empty corner he's looking at (NOT toward camera). If input image has him facing camera, regenerate before running Veo.
+NEGATIVES: standard + actual ghost figure appearing, real shadow on wall, scary horror imagery, jump-scare, photorealistic ghost, dark night background, sad cat, second cat, body movement other than ear twitch.
+DRIFT RISK: 🟢 GREEN — static alert pose + micro ear-twitch + icon pulse + push-in. No shadow rendering, no anatomy exception, no human. Likely first-try success.
 ```
 
 **🎙️ VO (EN):**
 ```
-Strange four — stalking shadows like prey. The predator brain locks on any movement. Shadow or mouse — same thing.
+Strange four — staring at nothing on the wall. The predator brain catches micro-movements you can't even see.
 ```
 **🎙️ VO (RU):**
 ```
-Странность четыре — охота на тени как на добычу. Мозг хищника фиксирует любое движение. Тень или мышь — одно и то же.
+Странность четыре — пристальный взгляд в пустую стену. Мозг хищника ловит микродвижения которые ты даже не видишь.
 ```
-**Оверлей:** «4 PREDATOR LOCK-ON» + soft stalking pizzicato SFX.
+**Оверлей:** «4 WHAT DOES HE SEE?! 👻» + soft suspense pluck SFX.
 
 ---
 
-## Сцена 7 — #5 FLEHMEN FACE (mind-blow finale) — 42–49с
-**Что зритель видит:** Brain в characteristic «snake-mouth» Flehmen-позе — рот приоткрыт, верхняя губа слегка приподнята, глаза слегка прищурены в концентрации, маленькая стрелочка указывает на нёбо («Jacobson's organ»). Цифра «5» + подпись «SNAKE-FACE = SMELLING 🤯». VO: snake-mouth face — нюхает феромоны вторым органом в нёбе.
+## Сцена 7 — #5 MAKING BISCUITS (warm mind-blow finale) — 42–49с
+**Что зритель видит:** Brain стоит на мягком пастельно-кремовом knit blanket, передними лапками ритмично «месит тесто» (попеременные kneading-движения), глаза полузакрыты в блаженстве. Цифра «5» + подпись «KNEAD = TRUST 💚». VO: «месит тесто» — рефлекс котёнка, делает только когда полностью доверяет тебе как семье.
 
 **🎨 Image:**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil in the center; ONLY the small iris is colored green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth slightly open (Flehmen exception — upper lip slightly curled in characteristic smelling response, NOT aggressive, NOT hissing, NOT scary) — sitting upright, his MOUTH slightly OPEN in the characteristic Flehmen response pose (upper lip slightly curled back exposing the front teeth gently, mouth open in a small "snake-like" hiss-looking expression but NOT aggressive — it's the "smelling intensely" face). EYES slightly squinted in deep concentration (NOT pain, NOT aggression — a "wait, what's that smell?" intent look). Ears slightly back in focused listening. INT. COZY LIVING ROOM — DAY (same locked room, sage-green rug). Medium close-up of Brain's head/face. A small cartoon ARROW points from his open mouth to the roof of his mouth, with a tiny label "JACOBSON'S ORGAN" softly visible. Pastel "scent particles" drift toward his open mouth (he's "tasting" the smell). A small "🐍" snake-face icon floats subtly to reference the look (NOT a real snake — just an icon reference). Vertical 9:16.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil in the center; ONLY the small iris is colored green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, MOUTH CLOSED in tiny content smile — standing in the classic "MAKING BISCUITS" / kneading POSTURE on top of a soft pastel-cream KNIT BLANKET folded on the rug (visible chunky-knit cartoon texture). Both FRONT paws gently pressing down into the blanket in mid-knead motion (one paw slightly more raised than the other in alternating kneading pose, cute soft kitten paw curl pressing into soft fabric — NOT scratching aggressively, NOT clawing, just soft pressing). Back paws planted comfortably underneath. EYES half-closed in pure blissful trance ("biscuit-making bliss"), ears relaxed sideways. Tail upright with tiny content curl at the tip. INT. COZY LIVING ROOM — DAY (same locked room: cream walls, honey-amber wood floor, ONE plain SOLID sage-green woven rug, cream armchair, tall window with sheer curtains, snake plant, warm honey-amber golden-hour daylight). Medium close-up showing Brain on the blanket from a soft side angle. A small cartoon "💚" floating soft heart glows gently near him. A tiny cartoon "🍞" bread/biscuit icon floats as a meme reference (small, playful, NOT a real food item). Vertical 9:16.
 ```
-**🎬 Veo 3 (image-to-video) — pre-flight 🚨 RED-RISK:**
+**🎬 Veo 3 (image-to-video) — pre-flight ✅:**
 ```
-INPUT: Nano Banana 2 image (Sc 7 above) — Brain in Flehmen pose, mouth slightly open with upper lip curled back, eyes squinted in concentration, arrow pointing to roof of mouth, scent particles drifting in.
-MOTION: Brain holds the Flehmen "snake-mouth" pose throughout, eyes slowly squint deeper in concentration, scent particles drift toward and into his open mouth in a soft wave, the arrow + "JACOBSON'S ORGAN" label softly pulses once. NO mouth-close transition, NO hissing, NO aggressive snarl — pose stays as a CONCENTRATED SMELLING expression for the full clip.
-DURATION: 7 seconds. CAMERA: subtle push-in.
-PRESERVE STRICT: identity IDENTICAL — same kitten anatomy, eye color rule, EXACTLY 2 ears + 4 paws, glasses on, heart tag, ALL ginger paws.
-MOUTH EXCEPTION (this scene only): mouth slightly open in Flehmen pose (upper lip curled slightly back, cute concentrated smelling face, NOT scary, NOT aggressive, NOT hissing). No teeth bared aggressively.
-NEGATIVES: standard + aggressive hissing, scary fangs, snake-rendering (only icon reference is allowed), horror face, blood, vicious expression, mouth fully opening + closing repeatedly.
-DRIFT RISK: 🔴 RED — Veo 3 highest drift category: mouth-open exception (anatomy risk) + intense concentrated face (looks like aggression risk) + held pose 7s without motion-busy (static-7s drift trigger). EXPECT 2-3 RETRIES.
-FALLBACK: if 3 retries fail → use Nano Banana 2 still + Ken Burns slow push-in in CapCut + add motion only to scent-particles overlay layer.
-COST BUDGET: 3 retry max for this scene. Then fallback.
+INPUT: Nano Banana 2 image (Sc 7 above) — Brain in classic "making biscuits" kneading pose on a soft cream knit blanket, front paws mid-knead, eyes half-closed in bliss, 💚 + 🍞 icons floating.
+MOTION: Brain rhythmically kneads the blanket with his front paws — slow alternating soft push-down motions (LEFT paw presses down, then RIGHT paw presses down, then LEFT again, then RIGHT — a clear rhythmic pattern, 4-5 alternating presses across 7 seconds, slow and content). The knit blanket subtly compresses where each paw presses. His eyes slowly half-close deeper into bliss, ears stay relaxed sideways. Tail tip gently sways once or twice. The "💚" heart softly pulses brighter. Mouth stays CLOSED in tiny content smile throughout.
+DURATION: 7 seconds. CAMERA: very slow warm push-in.
+PRESERVE STRICT: identity IDENTICAL to input — same kitten anatomy, eye color rule (LARGE PURE WHITE sclera + medium EMERALD-GREEN iris #3DDC84 + black pupil; ONLY iris green; sclera PURE WHITE; eyes half-closed in bliss but anatomy IDENTICAL when partly visible), EXACTLY 2 ears + 4 paws (2 front kneading + 2 back planted — NEVER more than 4 paws total), mouth CLOSED throughout, glasses ALWAYS on, heart-shaped gold tag, ALL ginger paws (front AND back, NO white socks, NO white back paws), Pixar cartoon style.
+NEGATIVES: standard + aggressive scratching, claws ripping blanket, sharp violent claw motion, blood, sad cat, second cat, fully-closed eyes (must stay half-closed bliss not asleep), photorealistic cat, real cat, extra paws, paws merging.
+DRIFT RISK: 🟢 GREEN — single subject, no human, mouth closed, simple alternating paw motion + push-in. Low drift, likely first-try success.
 ```
 
 **🎙️ VO (EN):**
 ```
-Strange five — the snake-mouth face. They're smelling pheromones with a second organ in the roof of the mouth.
+Strange five — making biscuits on a blanket. It's a kitten reflex — they only do it when they trust you like family.
 ```
 **🎙️ VO (RU):**
 ```
-Странность пять — лицо «змеиная пасть». Он нюхает феромоны вторым органом в нёбе.
+Странность пять — «месит тесто» на одеяле. Это рефлекс котёнка — он делает так ТОЛЬКО когда доверяет тебе как семье.
 ```
-**Оверлей:** «5 SNAKE-FACE = SMELLING 🤯» + soft «mind-blow» sting (это финальный shock).
+**Оверлей:** «5 KNEAD = TRUST 💚» + warm cozy chime + slight major-key swell (warm mind-blow payoff, NOT shock sting — это эмоциональный пик).
 
 ---
 
@@ -315,7 +312,7 @@ Follow Brain. And tell me — what's the weirdest thing YOUR cat does?
 
 ## 🎵 Музыка (Suno — на 1 минуту)
 ```
-Quirky-curious cat-psychology score for a 60-second YouTube Short "5 Strange Things Your Cat Does". Open 0-7s with a comedic "wait, what?" pizzicato sting. Curious science-explainer pulse 7-14s (soft marimba + light pad). Cozy chime 14-21s for the box/safety reveal. Curious investigative 21-28s for plastic-bag licking (light tongue-pluck pizzicato). Warm cozy pad 28-35s for the laptop-sleep (the warm beat). Sneaky stalking pizzicato 35-42s for predator shadow. MIND-BLOW REVEAL STING 42-49s for the snake-face Flehmen (small sting + science-curious bloom). Soft inviting close 49-60s. 95 BPM, no vocals, mood: quirky → curious → cozy → sneaky → mind-blow. Royalty-free.
+Quirky-curious cat-psychology score for a 60-second YouTube Short "5 Strange Things Your Cat Does". Open 0-7s with a comedic "wait, what?" pizzicato sting. Curious science-explainer pulse 7-14s (soft marimba + light pad). Cozy chime 14-21s for the box/safety reveal. Curious investigative 21-28s for plastic-bag licking (light tongue-pluck pizzicato). Warm cozy pad 28-35s for the laptop-sleep (the warm beat). Sneaky suspense pluck 35-42s for the creepy-cat staring-at-nothing moment (subtle suspense, NOT horror — playful tension). WARM MAJOR-KEY EMOTIONAL SWELL 42-49s for the kneading "you're family" payoff (emotional peak, strings + warm pad bloom — this is the heart-melt). Soft inviting close 49-60s. 95 BPM, no vocals, mood: quirky → curious → cozy → suspense → warm reveal. Royalty-free.
 ```
 
 ## Сборка / монтаж
@@ -326,17 +323,17 @@ Quirky-curious cat-psychology score for a 60-second YouTube Short "5 Strange Thi
 - **Sc 3 painters-tape square** — может потребовать 1-2 попытки чтобы Banana сделала чистый square outline (не реальную коробку). Fallback: chalk-drawn square на floor.
 - **Sc 4 plastic bag** — clean cartoon silhouette, NO real plastic detail (чтоб не выглядело toxic / scary)
 - **Sc 5 laptop** — cartoon Pixar-style, soft glow, BRAIN curled ON TOP (не tapping keys). Если Banana добавит кота поверх клавиш «typing» — перегенерить (мы не хотим выглядеть как «cat working»)
-- **Sc 6 shadow** — clearly a SHADOW (dark pastel shape), не реальное животное в кадре
-- **Sc 7 Flehmen** — самая сложная сцена. Mouth open BUT NOT aggressive, NOT hissing. Cute "smelling intently" pose. Если Banana делает scary — перегенерить с акцентом «cute concentrated smelling face»
+- **Sc 6 staring at nothing** — Brain должен смотреть В ПУСТОЙ УГОЛ (НЕ в камеру). Если Banana ставит лицо к зрителю — перегенерить. Pupils dilated. «👻» icon как meme hint, НЕ реальный призрак
+- **Sc 7 making biscuits** — мягкий knit blanket, alternating front-paw press motion, mouth closed, eyes half-closed in bliss. НЕ царапать, НЕ агрессивно. Warm payoff момент
 
 ## 📌 Pinned comment (Karena-style)
 🇬🇧:
 ```
-ok the snake-face one always confuses me when he does it lol mine looks possessed for like 3 seconds 😭 which one does YOUR cat do the weirdest? drop it below
+ok the staring-at-nothing one always gets me mine just LOCKS into a corner at 3am like he's seeing the void 😭 which one does YOUR cat do? drop it below
 ```
 🇷🇺:
 ```
-змеиная пасть всегда меня пугает когда он так делает 😭 мой выглядит одержимым секунды 3 а у тебя? какая странность у твоего самая weird? кидай в коменты
+пристальный взгляд в пустой угол меня бесит всегда мой в 3 ночи смотрит в стену как будто видит что-то 😭 у тебя какая? кидай в комменты
 ```
 
 ## SEO Pack
@@ -358,9 +355,9 @@ Why Your Cat Does These 5 STRANGE Things 🐱 | Cat Psychology
 
 **Description:**
 ```
-Why does your cat do these strange things? 🐱 Sitting in invisible squares, licking plastic bags, sleeping on your laptop, stalking shadows, and that weird snake-mouth face — every one has a science reason.
+Why does your cat do these strange things? 🐱 Sitting in invisible squares, licking plastic bags, sleeping on your laptop, staring at nothing on the wall, and making biscuits on your blanket — every one has a science reason.
 
-In this cat psychology short: the 5 strangest cat behaviors explained — from box-instinct to Jacobson's organ. Most are 200,000 years of evolution showing up in your living room 🤯.
+In this cat psychology short: the 5 strangest cat behaviors explained — from box-instinct to the kneading kitten-reflex that means he sees you as family 💚. Most are 200,000 years of evolution showing up in your living room 🤯.
 
 🐱 Follow Brain for cat psychology, cat behavior and cat facts every day.
 
@@ -369,7 +366,7 @@ In this cat psychology short: the 5 strangest cat behaviors explained — from b
 
 **Tags:**
 ```
-strange cat behaviors, strange cat behaviors explained, weird cat behaviors, weird things cats do, cat behavior explained, why does my cat do that, why cats sit in squares, why cats lick plastic bags, why cats sleep on laptops, cat flehmen response, cat jacobsons organ, cat predator instinct, cat psychology, cat behavior, cat facts, brain cat, braincatai, cat facts mind blowing
+strange cat behaviors, strange cat behaviors explained, weird cat behaviors, weird things cats do, cat behavior explained, why does my cat do that, why cats sit in squares, why cats lick plastic bags, why cats sleep on laptops, why cats stare at nothing, why cats stare at walls, why cats make biscuits, why cats knead blankets, cat kneading meaning, cat predator instinct, cat psychology, cat behavior, cat facts, brain cat, braincatai, cat facts mind blowing
 ```
 
 **Hashtags:**
@@ -379,37 +376,37 @@ strange cat behaviors, strange cat behaviors explained, weird cat behaviors, wei
 
 ---
 
-## 🖼️ ТУМБНЕЙЛ (Nano Banana 2 — Flehmen-face = самый CTR-magnetic, prop semantic-fit per Rule 13)
+## 🖼️ ТУМБНЕЙЛ (Nano Banana 2 — creepy-cat «staring at nothing» = самый scroll-stopping hook, prop-free per Rule 13)
 ```
-EXTREME CLOSE-UP of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain — face fills ~55-60% of the LEFT-CENTER of frame, slight 3° tilt. Big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. EYES slightly squinted in the FLEHMEN-RESPONSE focused-smelling expression (NOT scary, NOT aggressive — intense concentrated "what IS that smell?" look). MOUTH SLIGHTLY OPEN in the characteristic Flehmen pose (upper lip subtly curled back, small gap showing — cute "snake-face" but adorable cartoon style, NO scary fangs, NO horror). Ears slightly back in focused concentration. Small thin round gold-framed glasses ALWAYS on. NO additional prop or costume — the FACIAL EXPRESSION itself is the hook (Rule 13: pose > prop when no natural prop fits). Plain brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur, ALL 4 paws ginger (front and back, no white socks), EXACTLY 2 ears. Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9:16.
+EXTREME CLOSE-UP of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain — face fills ~55-60% of the LEFT-CENTER of frame, slight 3° tilt. Big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball. EYES WIDE OPEN with PUPILS DILATED (large black pupils inside the emerald iris) in the iconic "creepy-cat staring at something invisible" expression — head tilted slightly UP and to the RIGHT as if locked onto an empty corner of the room (NOT looking at camera). MOUTH CLOSED in tiny intent expression. Ears swiveled fully forward and alert. Small thin round gold-framed glasses ALWAYS on. NO additional prop or costume — the STARE-INTO-NOTHING facial expression IS the hook (Rule 13: pose > prop). Plain brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur, ALL 4 paws ginger (front and back, no white socks), EXACTLY 2 ears. Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9:16.
 
-HOOK ELEMENT (RIGHT side of frame, ~25% area): pastel cartoon SCENT-WAVES / curling pastel lines drift toward Brain's open mouth (he's "smelling"). A small cartoon "🤯" mind-blow emoji glows softly beside his head. A tiny "🐍" snake-icon reference (NOT a real snake — just a meme-icon) floats subtly to amplify the "snake-face" association.
+HOOK ELEMENT (RIGHT side of frame, ~20-25% area, in the direction Brain is staring): a tiny cartoon "👻" ghost-emoji and a "✨" sparkle floating softly in empty space (clearly cartoon-meme style, NOT a real ghost, NOT horror). A small cartoon "🤯" mind-blow emoji glows softly beside Brain's head.
 
 BACKGROUND: cozy living-room WARM HONEY-AMBER DAYTIME bokeh (brand consistency with our CTR winners). HEAVILY BLURRED, heavy DOF. Brain rim-lit so he POPS. High contrast.
 
 TEXT PLATE (BIG and BOLD, lower-middle ~55-70% height, 85-90% width, 2 lines ALL CAPS, Fredoka One/Nunito Bold, Electric Yellow #FFD23F fill, charcoal #2B2B2B outline 6px, slight 2-3° tilt):
-LINE 1: "WHY HE DOES"
-LINE 2: "THIS WEIRD FACE 🤯"
+LINE 1: "WHAT DOES"
+LINE 2: "HE SEE?! 👻"
 
 TYPOGRAPHY LOCK / EYE COLOR RULE / ANATOMY RULE / STYLE RULE / LANGUAGE RULE — все строгие per standard locks.
 ```
 **Thumbnail negatives:**
 ```
-standard set + real snake, scary snake fangs, aggressive hissing, scary horror cat, dark night background
+standard set + real ghost figure, scary horror imagery, jump-scare composition, dark night background, scary fangs, aggressive cat, sad cat
 ```
-> A/B alts: `5 WEIRDEST CAT THINGS` / `WHAT IS HE DOING?! 😱` / `SCIENCE OF WEIRD CATS 🤯`
+> A/B alts: `5 WEIRDEST CAT THINGS` / `WHY DO CATS DO THIS?!` / `HE SEES SOMETHING 👻`
 
 ---
 
 ## 🛑 Pre-flight
 - Все image-промты = Nano Banana 2, полный Locked Brain (анатомия глаза, рыжие задние лапы, кулон-сердечко без "holes", простой sage-ковёр)
-- **Veo 3 i2v** (replaces Kling for этот script) — pre-flight verified per scene + drift-risk tagged (🟢/🟡/🔴). 1 🔴 RED scene (Sc 7 Flehmen) — budget 3 retries → fallback Nano + Ken Burns
+- **Veo 3 i2v** (replaces Kling for этот script) — pre-flight verified per scene + drift-risk tagged (🟢/🟡/🔴). **ZERO 🔴 RED scenes** after pivot (Sc 6 shadow → staring-at-nothing 🟢, Sc 7 Flehmen → kneading 🟢). 1 🟡 YELLOW left (Sc 4 plastic bag — mouth-open lick)
 - **Sc 3 painters-tape square** — fallback chalk square если Banana не справится
 - **Sc 4 plastic bag** — clean cartoon silhouette, не toxic / scary
 - **Sc 5 laptop** — Brain ON TOP, не typing/touching keys
-- **Sc 6 shadow** — clearly SHADOW (dark shape), не реальное животное
-- **Sc 7 Flehmen** — cute concentrated face, NOT scary/aggressive. Самая высокая drift-risk
-- **Thumbnail Flehmen** — тот же риск, но prop-free (Rule 13)
+- **Sc 6 staring at nothing** — Brain смотрит В ПУСТОЙ УГОЛ (НЕ в камеру), pupils dilated, mouth closed. «👻» icon = meme hint, НЕ реальный призрак
+- **Sc 7 making biscuits** — alternating front-paw press on knit blanket, eyes half-closed in bliss, mouth closed. WARM payoff. НЕ царапание/агрессия
+- **Thumbnail «What does he see?!»** — pose > prop (Rule 13), creepy-cat stare into empty corner, mouth closed
 - Цифры «1-5» — CapCut, залоченный шрифт
 
 ## Метрики (сравнить с queue)
