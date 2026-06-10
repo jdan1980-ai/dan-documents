@@ -66,11 +66,11 @@ I'm wired to hunt at dawn and dusk. When the light shifts, my whole body screams
 
 And my stomach runs on a clock. It says breakfast is NOW. Not in two hours. Now.
 
-But here's the part that's on you. Every time you fed me to make me stop — you taught me that waking you works.
+But this one's on you. You fed me to shut me up — so I learned: waking you works.
 
 Plus, I slept all day while you were gone. Now I'm fully charged. You're... not.
 
-Want me to stop? Play with me hard, then feed me right before YOUR bedtime. Full belly, tired body — I'll sleep till morning.
+Want me to stop? Play me out, then feed me right before bed. Full belly — I sleep till morning.
 
 I don't wake you to annoy you. You're my favorite human. ...but also, feed me. Follow me for more.
 ```
@@ -85,15 +85,15 @@ I don't wake you to annoy you. You're my favorite human. ...but also, feed me. F
 
 А мой желудок живёт по часам. И они говорят: завтрак СЕЙЧАС. Не через два часа. Сейчас.
 
-Но вот часть, которая на тебе. Каждый раз, когда ты кормил меня, чтоб я замолчал, — ты учил меня, что будить тебя работает.
+А это уже на тебе. Ты кормил меня, чтоб я замолчал — вот я и понял: будить работает.
 
 Плюс я проспал весь день, пока тебя не было. Я заряжен на сто процентов. А ты — нет.
 
-Хочешь, чтоб я перестал? Заиграй меня до упаду и покорми прямо перед СВОИМ сном. Полный живот, уставшее тело — и я просплю до утра.
+Хочешь, чтоб я перестал? Заиграй меня и покорми перед сном. Полный живот — и сплю до утра.
 
 Я бужу тебя не назло. Ты мой любимый человек. …но всё-таки покорми. Подпишись — будет ещё.
 ```
-_~150 слов EN, ~7с/сцена (≤60с). Sc 5 длиннее — при необходимости подрезать TTS._
+_~130 слов EN, ~6–7с/сцена (≤8с каждая, ≤60с всего). Sc 5 и Sc 7 укорочены под лимит 8с._
 
 ---
 
@@ -284,11 +284,11 @@ DRIFT RISK: 🟡 YELLOW — hologram hand + small text. If "✓ LEARNED" garbles
 ```
 **🎙️ VO (EN):**
 ```
-But here's the part that's on you. Every time you fed me to make me stop — you taught me that waking you works.
+But this one's on you. You fed me to shut me up — so I learned: waking you works.
 ```
 **🎙️ VO (RU):**
 ```
-Но вот часть, которая на тебе. Каждый раз, когда ты кормил меня, чтоб я замолчал, — ты учил меня, что будить тебя работает.
+А это уже на тебе. Ты кормил меня, чтоб я замолчал — вот я и понял: будить работает.
 ```
 **Оверлей (текст в CapCut):**
 ```
@@ -355,11 +355,11 @@ DRIFT RISK: 🟡 YELLOW — UI/icon animation is Veo's weak spot. If icons garbl
 > Если Veo коверкает иконки таймлайна → fallback: чистый стилл (Brain-only) + 3-step timeline overlay в CapCut.
 **🎙️ VO (EN):**
 ```
-Want me to stop? Play with me hard, then feed me right before YOUR bedtime. Full belly, tired body — I'll sleep till morning.
+Want me to stop? Play me out, then feed me right before bed. Full belly — I sleep till morning.
 ```
 **🎙️ VO (RU):**
 ```
-Хочешь, чтоб я перестал? Заиграй меня до упаду и покорми прямо перед СВОИМ сном. Полный живот, уставшее тело — и я просплю до утра.
+Хочешь, чтоб я перестал? Заиграй меня и покорми перед сном. Полный живот — и сплю до утра.
 ```
 **Оверлей (текст в CapCut):**
 ```
