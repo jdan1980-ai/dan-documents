@@ -139,8 +139,14 @@ HUMAN RULE (strict): the sleeping owner's face stays hidden/turned into the pill
 NEGATIVES: standard + visible human face, second cat, 5 paws, both front paws raised, mouth opening, demonic/horror glowing eyes, green sclera.
 DRIFT RISK: 🟡 YELLOW — frame-0 paw action near the owner is higher drift than a static hold, but a STRONG MOTION HOOK is worth it (Lesson 4: the hook MUST move — a static hook loses the swipe in 2 sec). Keep the pat small and controlled; may need 1 retry. ⛔ Do NOT Ken-Burns this scene — the hook gets real animation.
 ```
-**🎙️ VO (EN):** `It's 4 AM. I'm patting your face — and staring into your soul. Here's why.`
-**🎙️ VO (RU):** `4 утра. Я бью тебя лапой по щеке — и смотрю тебе в душу. Вот почему.`
+**🎙️ VO (EN):**
+```
+It's 4 AM. I'm patting your face — and staring into your soul. Here's why.
+```
+**🎙️ VO (RU):**
+```
+4 утра. Я бью тебя лапой по щеке — и смотрю тебе в душу. Вот почему.
+```
 **Оверлей:** «IT'S 4 AM 👁️» + record-scratch sting.
 
 ---
@@ -163,8 +169,14 @@ MOUTH RULE (strict): mouth stays CLOSED the entire clip — no lip-sync.
 NEGATIVES: standard + mouth opening, halo morphing into other shapes, second cat, green sclera, 5 paws, both front paws raised.
 DRIFT RISK: 🟡 YELLOW — head double-take + halo + paw-shrug (livelier than a single blink). Worth it to keep the early beat moving; may need 1 retry.
 ```
-**🎙️ VO (EN):** `I'm not doing it to be cruel. Okay — maybe a little. But mostly, it's instinct.`
-**🎙️ VO (RU):** `Я делаю это не со зла. Ну… может, чуть-чуть. Но в основном это инстинкт.`
+**🎙️ VO (EN):**
+```
+I'm not doing it to be cruel. Okay — maybe a little. But mostly, it's instinct.
+```
+**🎙️ VO (RU):**
+```
+Я делаю это не со зла. Ну… может, чуть-чуть. Но в основном это инстинкт.
+```
 **Оверлей:** «IT'S INSTINCT» + soft halo chime.
 
 ---
@@ -187,8 +199,14 @@ MOUTH RULE (strict): mouth stays CLOSED the entire clip.
 NEGATIVES: standard + hologram becoming a full second scene, second real cat, mouth opening, iris turning amber, green sclera, 5 paws.
 DRIFT RISK: 🟡 YELLOW — hologram animation + pupil change. May need 1 retry.
 ```
-**🎙️ VO (EN):** `I'm wired to hunt at dawn and dusk. When the light shifts, my whole body screams: go time.`
-**🎙️ VO (RU):** `Я заточен охотиться на рассвете и в сумерках. Свет меняется — и всё тело орёт: пора.`
+**🎙️ VO (EN):**
+```
+I'm wired to hunt at dawn and dusk. When the light shifts, my whole body screams: go time.
+```
+**🎙️ VO (RU):**
+```
+Я заточен охотиться на рассвете и в сумерках. Свет меняется — и всё тело орёт: пора.
+```
 **Оверлей:** «DAWN = HUNT TIME» + soft whoosh.
 
 ---
@@ -211,8 +229,14 @@ MOUTH RULE (strict): mouth stays CLOSED the entire clip.
 NEGATIVES: standard + 5 paws, both front paws raised together, mouth opening, bowl hologram garbling, second cat, green sclera.
 DRIFT RISK: 🟡 YELLOW — paw-point gesture + hologram. May need 1 retry.
 ```
-**🎙️ VO (EN):** `And my stomach runs on a clock. It says breakfast is NOW. Not in two hours. Now.`
-**🎙️ VO (RU):** `А мой желудок живёт по часам. И они говорят: завтрак СЕЙЧАС. Не через два часа. Сейчас.`
+**🎙️ VO (EN):**
+```
+And my stomach runs on a clock. It says breakfast is NOW. Not in two hours. Now.
+```
+**🎙️ VO (RU):**
+```
+А мой желудок живёт по часам. И они говорят: завтрак СЕЙЧАС. Не через два часа. Сейчас.
+```
 **Оверлей:** «FEED ME NOW ⏰» + soft alarm ding.
 
 ---
@@ -236,8 +260,14 @@ HUMAN RULE (strict): inside the hologram, ONLY one feminine hand (cream sleeve),
 NEGATIVES: standard + visible human face, two hands, male hand, mouth opening, second cat, garbled "✓ LEARNED" text, green sclera.
 DRIFT RISK: 🟡 YELLOW — hologram hand + small text. If "✓ LEARNED" garbles in 2 tries → render without the text and add it as a clean CapCut overlay.
 ```
-**🎙️ VO (EN):** `But here's the part that's on you. Every time you fed me to make me stop — you taught me that waking you works.`
-**🎙️ VO (RU):** `Но вот часть, которая на тебе. Каждый раз, когда ты кормил меня, чтоб я замолчал, — ты учил меня, что будить тебя работает.`
+**🎙️ VO (EN):**
+```
+But here's the part that's on you. Every time you fed me to make me stop — you taught me that waking you works.
+```
+**🎙️ VO (RU):**
+```
+Но вот часть, которая на тебе. Каждый раз, когда ты кормил меня, чтоб я замолчал, — ты учил меня, что будить тебя работает.
+```
 **Оверлей:** «YOU TRAINED ME 🤯» + soft "aha" sting (эмоционально-смысловой пик).
 
 ---
@@ -261,8 +291,14 @@ HUMAN RULE (strict): background sleeping owner only — face hidden, no second p
 NEGATIVES: standard + motion too violent/blurry, mouth opening, visible human face, 5 paws, second cat, green sclera.
 DRIFT RISK: 🟡 YELLOW — bouncy motion raises anatomy-drift risk; keep the bounce small. May need 1 retry.
 ```
-**🎙️ VO (EN):** `Plus, I slept all day while you were gone. Now I'm fully charged. You're... not.`
-**🎙️ VO (RU):** `Плюс я проспал весь день, пока тебя не было. Я заряжен на сто процентов. А ты — нет.`
+**🎙️ VO (EN):**
+```
+Plus, I slept all day while you were gone. Now I'm fully charged. You're... not.
+```
+**🎙️ VO (RU):**
+```
+Плюс я проспал весь день, пока тебя не было. Я заряжен на сто процентов. А ты — нет.
+```
 **Оверлей:** «FULLY CHARGED 🔋» + soft power-up chime.
 
 ---
@@ -287,8 +323,14 @@ NEGATIVES: standard + garbled icons/text, 5 paws, mouth opening, second cat, gre
 DRIFT RISK: 🟡 YELLOW — UI/icon animation is Veo's weak spot. If icons garble in 2 tries → render Brain-only and add the PLAY→FEED→SLEEP timeline as a CapCut overlay.
 ```
 > Если Veo коверкает иконки таймлайна → fallback: чистый стилл (Brain-only) + 3-step timeline overlay в CapCut.
-**🎙️ VO (EN):** `Want me to stop? Play with me hard, then feed me right before YOUR bedtime. Full belly, tired body — I'll sleep till morning.`
-**🎙️ VO (RU):** `Хочешь, чтоб я перестал? Заиграй меня до упаду и покорми прямо перед СВОИМ сном. Полный живот, уставшее тело — и я просплю до утра.`
+**🎙️ VO (EN):**
+```
+Want me to stop? Play with me hard, then feed me right before YOUR bedtime. Full belly, tired body — I'll sleep till morning.
+```
+**🎙️ VO (RU):**
+```
+Хочешь, чтоб я перестал? Заиграй меня до упаду и покорми прямо перед СВОИМ сном. Полный живот, уставшее тело — и я просплю до утра.
+```
 **Оверлей:** «THE FIX ✅: PLAY → FEED → SLEEP» + soft success chime.
 
 ---
@@ -312,8 +354,14 @@ HUMAN RULE (strict): only the sleeping owner, face hidden, no second person, she
 NEGATIVES: standard + visible human face, second person, mouth opening, 5 paws, green sclera.
 DRIFT RISK: 🟡 YELLOW — owner in frame + warm relight. Keep owner static, face hidden; may need 1 retry.
 ```
-**🎙️ VO (EN):** `I don't wake you to annoy you. You're my favorite human. ...but also, feed me. Follow me for more.`
-**🎙️ VO (RU):** `Я бужу тебя не назло. Ты мой любимый человек. …но всё-таки покорми. Подпишись — будет ещё.`
+**🎙️ VO (EN):**
+```
+I don't wake you to annoy you. You're my favorite human. ...but also, feed me. Follow me for more.
+```
+**🎙️ VO (RU):**
+```
+Я бужу тебя не назло. Ты мой любимый человек. …но всё-таки покорми. Подпишись — будет ещё.
+```
 **Оверлей:** «FOLLOW BRAIN 🐱» + warm music swell.
 
 ---
