@@ -320,6 +320,17 @@ ok the "you literally trained me to do this" part hurt because its true 😭 min
 часть про «ты сам меня этому научил» прям задела потому что правда 😭 мой начинает ровно в 4:47 как по будильнику. во сколько тебя будит твой?? скажи что я не одна такая
 ```
 
+### 51. 5 Things I Do ONLY When I'm Truly Happy (TBD — backlog) — Cat Psychology / Happy 5-signs
+
+```
+ok my cat does the tail-up thing every single time i walk in and i had no idea it meant hes happy 😭 now i feel like i won at being a cat parent. how many does yours do?? need to know
+```
+
+🇷🇺 (для RU-зеркала):
+```
+мой делает этот хвост-трубой каждый раз когда я захожу и я понятия не имела что это значит что он счастлив 😭 теперь чувствую что выиграла в котородительстве. сколько делает твой?? скажи
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
