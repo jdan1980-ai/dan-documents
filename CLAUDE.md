@@ -357,6 +357,7 @@ If editing the script's title, scenes, or VO, **re-verify tags reflect the new t
 **Every prompt the assistant hands to the user must be copy-paste ready with ALL locks already baked in — the user must NEVER have to assemble or paste anything extra.** Do this automatically, every time, without being asked:
 
 - **Any image prompt** (Nano Banana) → automatically PREPEND the full **Locked Brain Prompt** (style-guide §8) at the start. The user copies one block and it already contains Brain's full locked look (kitten proportions, emerald #3DDC84 eyes, glasses, brown collar + heart tag, ginger paws/no white socks, 2 ears, 4 paws, Pixar cartoon / not photoreal).
+  - 🚫 **NEVER use a placeholder** like `[Locked Brain Prompt]`, `[вставь Locked Brain сверху]`, "paste Brain here", etc. — in ANY prompt, in scripts OR in chat. The full Locked Brain text MUST be written out verbatim by the assistant in every single Brain image prompt. A placeholder = the user has to assemble the prompt = a miss. (Locked 10 июн 2026 after wake-up script shipped with `[Locked Brain Prompt]` placeholders in all 8 scenes + thumbnail.)
 - **Any animation prompt** (Veo) → automatically INCLUDE the full **Veo anti-drift rules block** (EYE COLOR / GLASSES / SINGLE-CHARACTER / STYLE / ANATOMY / MOUTH / MOTION) before STYLE.
 - **Any prompt with the human owner** → automatically include the HUMAN RULE + HAND COUNT RULE.
 - Negatives block always included with the prompt.
