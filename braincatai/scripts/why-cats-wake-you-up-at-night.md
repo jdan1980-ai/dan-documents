@@ -2,7 +2,7 @@
 
 **Формула:** first-person confession explainer — Брайн признаётся, почему сам будит хозяина в 4 утра, и наполовину сваливает вину на него (counter-intuitive payoff) + даёт работающий фикс. Подача от 1-го лица (как Brain Science Lesson 5, но на кошачьей психологии — Брайн = сам виновник).
 **vidIQ:** anchor `why does my cat wake me up at night` 🟡 **60.74 / 5,324 / comp 31.6**. Cluster: `cat behavior` 72.29 / 142k, `cat behavior problems` 64.88 / 36,643, `strange cat behavior` 60.65 / 3,490. ⚠️ «morning»-варианты = 0 volume → целимся в **NIGHT/4 AM**, не в утро.
-**Пайплайн (этот скрипт — OVERRIDE: Kling недоступен у юзера, анимируем в Veo 3):** Nano Banana 2 → **Veo 3 (image-to-video)** → CapCut (overlays/numerals) → Google Vids TTS (рот закрыт). Каждая сцена прогнана через CLAUDE.md Veo 3 pre-flight checklist + drift-risk помечен. Статичные/reaction-сцены (1, 2) можно вообще пропустить Veo и идти через Ken Burns zoom на стилле Nano Banana 2 (экономия кредитов).
+**Пайплайн (этот скрипт — OVERRIDE: Kling недоступен у юзера, анимируем в Veo 3):** Nano Banana 2 → **Veo 3 (image-to-video)** → CapCut (overlays/numerals) → Google Vids TTS (рот закрыт). Каждая сцена прогнана через CLAUDE.md Veo 3 pre-flight checklist + drift-risk помечен. ⛔ **ХУК (Sc 1) и ранние биты — всегда полноценная анимация, Ken Burns на них ЗАПРЕЩЁН** (Lesson 4: хук без движения = свайп за 2 сек). Ken Burns допустим только на реально низкоэнергетичных НЕ-хуковых битах ради экономии кредитов.
 
 ---
 
@@ -121,22 +121,23 @@ Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9
 # Scenes
 
 ## Сцена 1 — ХУК (0–7с)
-**Что зритель видит:** кадр 0 — Брайн уже сидит на груди спящей хозяйки, морда крупно, огромные светящиеся в темноте изумрудные глаза в упор в камеру, часы на тумбе 4:00 AM. Лёгкий «record-scratch». Оверлей «IT'S 4 AM 👁️».
+**Что зритель видит:** кадр 0 уже В ДЕЙСТВИИ — Брайн настойчиво **лупит лапкой по щеке спящей хозяйки** (pat-pat, классика «кот будит»), хвост лупит по одеялу, глаза огромные светящиеся в упор, часы 4:00 AM. На последней доле замирает в гипноз-взгляд в камеру. Лёгкий «record-scratch». Оверлей «IT'S 4 AM 👁️». **(Lesson 4: хук = движение с кадра 0, без статичного establish.)**
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. Vertical 9:16. — perched directly on the cream duvet over the sleeping owner's chest (chestnut hair on pillow, face hidden under the cover), in INT. COZY BEDROOM — NIGHT (cool blue moonlight, window with sheer curtains, nightstand with a glowing alarm clock reading "4:00 AM" in soft red numerals, snake plant, honey-wood floor). CAUGHT AT FRAME 0 already staring: eyes huge and round and softly GLOWING emerald in the dark, pupils dilated for night vision, an unblinking intense "I'm watching you" stare straight into camera, tiny smug closed-mouth micro-smile, whiskers forward, ears up and alert, one front paw lightly planted on the duvet. Moonlight rim-lights his fur; the clock's red glow touches one side of his face. Medium close-up, slight low angle as if from the pillow. Negative space upper-third for "IT'S 4 AM 👁️" text plate.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. Vertical 9:16. — leaning in over the sleeping owner's head, ONE front paw raised and pressed mid-PAT against the side of her cheek/temple (her face turned down into the pillow — ONLY her chestnut hair and the side of her cheek visible, NO face), insistently waking her up, in INT. COZY BEDROOM — NIGHT (cool blue moonlight, window with sheer curtains, nightstand with a glowing alarm clock reading "4:00 AM" in soft red numerals, snake plant, honey-wood floor). CAUGHT AT FRAME 0 MID-ACTION — paw planted on her cheek mid-tap, eyes huge and round and softly GLOWING emerald in the dark, pupils dilated, an intense demanding "wake UP" look, mouth closed, whiskers forward, ears up and alert, tail caught mid-thwack against the duvet. Dynamic energy, sense of motion frozen at its peak. Moonlight rim-lights his fur; the clock's red glow touches one side of his face. Dynamic medium close-up, slight low angle as if from the pillow. Negative space upper-third for "IT'S 4 AM 👁️" text plate.
 ```
-**🎬 Veo 3 (image-to-video) — pre-flight 🟢:**
+**🎬 Veo 3 (image-to-video) — pre-flight 🟡 (motion HOOK — приоритет движения над дешевизной):**
 ```
-INPUT: Nano Banana 2 still (Sc 1 above) — Brain staring into camera on the sleeping owner's chest, clock 4:00 AM.
-MOTION: Brain holds the dead-eyed stare into camera, pupils slowly dilate a touch wider, ONE slow ear flick, the tip of his tail twitches once on the duvet, the clock's red "4:00 AM" numerals faintly pulse. Funny-ominous middle-of-the-night stillness.
-DURATION: 7 seconds. CAMERA: very slow push-in (~5%).
-PRESERVE STRICT: identity IDENTICAL to input — same kitten anatomy, EXACTLY 2 ears + 4 paws, glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws (no white socks).
+INPUT: Nano Banana 2 still (Sc 1 above) — Brain mid-pat on the sleeping owner's cheek, paw raised, clock 4:00 AM.
+MOTION (frame-0 action HOOK — NO calm establish, Lesson 4): the clip OPENS already in motion — Brain insistently PAT-PATS the sleeping owner's cheek/temple with his front paw, 2–3 quick taps, his tail thwacking the duvet, ears swivelling — then on the final beat he FREEZES and locks a wide demanding "wake UP" stare into camera. Stack the motions simultaneously (paw taps + tail thwack + ear flick + the clock's red numerals pulse) — something moves every frame from 0.
+DURATION: 7 seconds. CAMERA: continuous slow push-in from frame 0 (NEVER fully static).
+PRESERVE STRICT: identity IDENTICAL to input — same kitten anatomy, EXACTLY 2 ears + 4 paws (ONLY the right front paw taps; other front paw + both back paws planted), glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws (no white socks).
 EYE COLOR RULE (strict): each eye = LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84) + black pupil; ONLY the iris is green, white of the eye stays pure white, NEVER a fully-green eyeball. The dark room / red clock glow must NOT tint the iris.
-MOUTH RULE (strict): mouth stays CLOSED the entire clip — no lip-sync, no talking, no chewing.
-NEGATIVES: standard + mouth opening, talking, second cat, visible human face, 5 paws, demonic/horror glowing eyes, green sclera.
-DRIFT RISK: 🟢 GREEN — near-static stare + micro-motion. Easy first-try.
+MOUTH RULE (strict): mouth stays CLOSED the entire clip — the demand reads through the paw + eyes, not the mouth.
+HUMAN RULE (strict): the sleeping owner's face stays hidden/turned into the pillow — ONLY chestnut hair + the side of a cheek visible, NO full face, no second person.
+NEGATIVES: standard + visible human face, second cat, 5 paws, both front paws raised, mouth opening, demonic/horror glowing eyes, green sclera.
+DRIFT RISK: 🟡 YELLOW — frame-0 paw action near the owner is higher drift than a static hold, but a STRONG MOTION HOOK is worth it (Lesson 4: the hook MUST move — a static hook loses the swipe in 2 sec). Keep the pat small and controlled; may need 1 retry. ⛔ Do NOT Ken-Burns this scene — the hook gets real animation.
 ```
 **🎙️ VO (EN):** `It's 4 AM. I'm sitting on your chest, staring into your soul. Here's why.`
 **🎙️ VO (RU):** `4 утра. Я сижу у тебя на груди и смотрю тебе в душу. Вот почему.`
@@ -154,13 +155,13 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 **🎬 Veo 3 (image-to-video) — pre-flight 🟢:**
 ```
 INPUT: Nano Banana 2 still (Sc 2 above) — Brain head-tilted with an angel halo above him.
-MOTION: Brain tilts his head slightly, the little angel halo flickers brighter then fizzles out (one comedic flicker-out), one slow innocent blink, whiskers twitch. Mouth closed.
+MOTION (keep it lively — still early, retention-critical): Brain does an exaggerated guilty DOUBLE-TAKE — he snaps a quick glance away then whips back to camera with wide innocent eyes, the angel halo POPS in bright above his head then CRACKS and drops/fizzles, he gives a tiny innocent paw-shrug. Whiskers twitch, ears flick. Mouth closed. Something moves the whole 7s — no static hold.
 DURATION: 7 seconds. CAMERA: subtle push-in.
-PRESERVE STRICT: identity IDENTICAL — same anatomy, EXACTLY 2 ears + 4 paws, glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws.
+PRESERVE STRICT: identity IDENTICAL — same anatomy, EXACTLY 2 ears + 4 paws (only one front paw does the small shrug, others planted), glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws.
 EYE COLOR RULE (strict): LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84) + black pupil; ONLY the iris is green, NEVER a fully-green eyeball.
 MOUTH RULE (strict): mouth stays CLOSED the entire clip — no lip-sync.
-NEGATIVES: standard + mouth opening, halo morphing into other shapes, second cat, green sclera, 5 paws.
-DRIFT RISK: 🟢 GREEN — static subject + one halo flicker. Easy first-try.
+NEGATIVES: standard + mouth opening, halo morphing into other shapes, second cat, green sclera, 5 paws, both front paws raised.
+DRIFT RISK: 🟡 YELLOW — head double-take + halo + paw-shrug (livelier than a single blink). Worth it to keep the early beat moving; may need 1 retry.
 ```
 **🎙️ VO (EN):** `I'm not doing it to be cruel. Okay — maybe a little. But mostly, it's instinct.`
 **🎙️ VO (RU):** `Я делаю это не со зла. Ну… может, чуть-чуть. Но в основном это инстинкт.`
@@ -382,7 +383,8 @@ why does my cat wake me up at night, why does my cat wake me up, cat wakes me up
 
 ## 🛑 Pre-flight
 - Все image-промты = Nano Banana 2, полный Locked Brain (анатомия, ginger paws, heart-tag, белая склера + изумруд)
-- **Veo 3 i2v** (override — Kling недоступен у юзера) — pre-flight verified на каждой сцене, drift-risk помечен. Статичные reaction-сцены (1, 2) можно гнать Ken Burns zoom на стилле без Veo (дешевле).
+- **Veo 3 i2v** (override — Kling недоступен у юзера) — pre-flight verified на каждой сцене, drift-risk помечен. ⛔ ХУК (Sc 1) и ранние биты — всегда полная анимация (Lesson 4), Ken Burns на хуке запрещён. Ken Burns — только для НЕ-хуковых низкоэнергетичных битов.
+- **Sc 1 ХУК переделан в motion-хук с кадра 0** (Брайн бьёт лапой по щеке хозяйки = «кот будит», узнаваемо + движение). Sc 2 усилена до double-take + halo-pop. Если стилл Sc 1 ещё «статичный взгляд» — перегенери его в action-позу (промт обновлён).
 - **Одна локация (спальня-ночь)** во всех сценах — наука через голограммы/thought-bubble, НЕ новые сцены.
 - **Sc 5 (flashback-рука) + Sc 8 (CTA)** — HUMAN RULE: одна женская рука / спящий силуэт, лицо скрыто, без мужских фигур и вторых людей.
 - **Sc 5 flashback + Sc 7 timeline** — кандидаты на CapCut-fallback, если Veo коверкает иконки/текст.
