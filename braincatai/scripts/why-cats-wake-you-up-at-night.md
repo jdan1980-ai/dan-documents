@@ -147,7 +147,11 @@ It's 4 AM. I'm patting your face — and staring into your soul. Here's why.
 ```
 4 утра. Я бью тебя лапой по щеке — и смотрю тебе в душу. Вот почему.
 ```
-**Оверлей:** «IT'S 4 AM 👁️» + record-scratch sting.
+**Оверлей (текст в CapCut):**
+```
+IT'S 4 AM 👁️
+```
+🔊 SFX: record-scratch sting.
 
 ---
 
@@ -177,7 +181,11 @@ I'm not doing it to be cruel. Okay — maybe a little. But mostly, it's instinct
 ```
 Я делаю это не со зла. Ну… может, чуть-чуть. Но в основном это инстинкт.
 ```
-**Оверлей:** «IT'S INSTINCT» + soft halo chime.
+**Оверлей (текст в CapCut):**
+```
+IT'S INSTINCT
+```
+🔊 SFX: soft halo chime.
 
 ---
 
@@ -207,7 +215,11 @@ I'm wired to hunt at dawn and dusk. When the light shifts, my whole body screams
 ```
 Я заточен охотиться на рассвете и в сумерках. Свет меняется — и всё тело орёт: пора.
 ```
-**Оверлей:** «DAWN = HUNT TIME» + soft whoosh.
+**Оверлей (текст в CapCut):**
+```
+DAWN = HUNT TIME
+```
+🔊 SFX: soft whoosh.
 
 ---
 
@@ -237,7 +249,11 @@ And my stomach runs on a clock. It says breakfast is NOW. Not in two hours. Now.
 ```
 А мой желудок живёт по часам. И они говорят: завтрак СЕЙЧАС. Не через два часа. Сейчас.
 ```
-**Оверлей:** «FEED ME NOW ⏰» + soft alarm ding.
+**Оверлей (текст в CapCut):**
+```
+FEED ME NOW ⏰
+```
+🔊 SFX: soft alarm ding.
 
 ---
 
@@ -268,7 +284,11 @@ But here's the part that's on you. Every time you fed me to make me stop — you
 ```
 Но вот часть, которая на тебе. Каждый раз, когда ты кормил меня, чтоб я замолчал, — ты учил меня, что будить тебя работает.
 ```
-**Оверлей:** «YOU TRAINED ME 🤯» + soft "aha" sting (эмоционально-смысловой пик).
+**Оверлей (текст в CapCut):**
+```
+YOU TRAINED ME 🤯
+```
+🔊 SFX: soft "aha" sting (эмоционально-смысловой пик).
 
 ---
 
@@ -299,7 +319,11 @@ Plus, I slept all day while you were gone. Now I'm fully charged. You're... not.
 ```
 Плюс я проспал весь день, пока тебя не было. Я заряжен на сто процентов. А ты — нет.
 ```
-**Оверлей:** «FULLY CHARGED 🔋» + soft power-up chime.
+**Оверлей (текст в CapCut):**
+```
+FULLY CHARGED 🔋
+```
+🔊 SFX: soft power-up chime.
 
 ---
 
@@ -331,7 +355,11 @@ Want me to stop? Play with me hard, then feed me right before YOUR bedtime. Full
 ```
 Хочешь, чтоб я перестал? Заиграй меня до упаду и покорми прямо перед СВОИМ сном. Полный живот, уставшее тело — и я просплю до утра.
 ```
-**Оверлей:** «THE FIX ✅: PLAY → FEED → SLEEP» + soft success chime.
+**Оверлей (текст в CapCut):**
+```
+THE FIX ✅: PLAY → FEED → SLEEP
+```
+🔊 SFX: soft success chime.
 
 ---
 
@@ -362,7 +390,11 @@ I don't wake you to annoy you. You're my favorite human. ...but also, feed me. F
 ```
 Я бужу тебя не назло. Ты мой любимый человек. …но всё-таки покорми. Подпишись — будет ещё.
 ```
-**Оверлей:** «FOLLOW BRAIN 🐱» + warm music swell.
+**Оверлей (текст в CapCut):**
+```
+FOLLOW BRAIN 🐱
+```
+🔊 SFX: warm music swell.
 
 ---
 
