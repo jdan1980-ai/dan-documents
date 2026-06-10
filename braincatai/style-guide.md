@@ -380,10 +380,16 @@ Paste this **exact string** at the top of every image prompt. It locks **only Br
 
 Updated 16 мая 2026 after Veo 3 introduced phantom 3rd ear + chubby adult-cat drift in bathroom Sc 4 video render. Tightened with kitten-age proportions + EXACTLY 2 EARS lock + anti-artifact tokens.
 
+> 🔒 **Hardened 10 июн 2026 (kitten proportions):** the `why-cats-wake-you-up-at-night` Nano Banana stills drifted toward a chubby adult Garfield-type body because scripts were carrying a CONDENSED Locked Brain ("slender, NOT chubby") instead of the full proportion wording. Fix = the strengthened anti-Garfield/anti-fat proportion clause below. **Rule: always paste the FULL §8 block into scripts verbatim — never condense the proportion line.**
+
 ```
-Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult,
-NOT chubby, NOT pudgy — slender petite kitten body with small chest,
-slim torso, delicate proportions, small paws), big round Pixar-style eyes
+Cute orange tabby kitten named Brain (very young 8-10 week old KITTEN —
+STRICT kitten proportions: an oversized round head on a SMALL, SLIM,
+lightweight body, narrow little chest, short slim torso, long thin delicate
+legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT
+a big cat, NOT chubby, NOT fat, NOT plump, NOT pudgy, NOT round-bodied, NOT
+a thick chunky Garfield-type cat — keep him clearly a tiny slender baby
+kitten), big round Pixar-style eyes
 — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible
 all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a
 black pupil in the center; ONLY the small iris is colored green, the white
@@ -431,6 +437,7 @@ Brain's identity must be IDENTICAL to the input image throughout — same face, 
 2D, flat, anime, cel-shaded, photorealistic cat, realistic cat, real cat,
 photoreal, hyperrealistic, realistic fur, photograph, live action, lifelike, 3D realism,
 multiple cats, two cats, second cat, extra cat, wild cat,
+chubby cat, fat cat, overweight cat, plump cat, pudgy cat, round-bodied cat, thick body, chunky body, big adult cat, adult cat proportions, Garfield, fat orange cat, beefy cat, heavy-set cat,
 low quality, blurry, distorted face, extra limbs, extra paws,
 five legs, six legs, both front paws raised, two paws raised together,
 missing glasses, glasses removed, missing collar, missing heart tag, watermark,
