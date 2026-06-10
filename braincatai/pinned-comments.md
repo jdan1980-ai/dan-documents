@@ -309,6 +309,17 @@ ok the snake-face one always confuses me when he does it lol mine looks possesse
 ok finding out the headbutt is literally him claiming me as property is unhinged behavior i'm into it 😭 does YOUR cat headbutt you constantly or never? need data
 ```
 
+### 50. Why I Wake You Up at 4 AM (10 июн, 15:00) — Cat Psychology / First-person confession
+
+```
+ok the "you literally trained me to do this" part hurt because its true 😭 mine starts at 4:47 sharp like clockwork i could set a watch to him. what time does yours wake you?? need to know im not alone
+```
+
+🇷🇺 (для RU-зеркала):
+```
+часть про «ты сам меня этому научил» прям задела потому что правда 😭 мой начинает ровно в 4:47 как по будильнику. во сколько тебя будит твой?? скажи что я не одна такая
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы

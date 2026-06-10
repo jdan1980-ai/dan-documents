@@ -68,14 +68,15 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 
 🚨 **Lesson learned 17 мая 2026 (double-publish kill):** 15 мая вышли ДВА видео в один день — Giant (44 views) + Stares (**4 views**). Алгоритм задушил второе видео. **НИКОГДА не публиковать два Shorts в один день** — даже если одно сильнее. Один день = один Short максимум.
 
-### 🔬 Brain Science re-uploads (новый эксперимент — first-person format, июнь 2026)
+### 🔬 First-person experiment (Brain Science re-uploads + first-person Cat Psychology, июнь 2026)
 
-> Редкий научный вкрапленный тест в потоке кошек (кошки = костяк до конца recovery). Подача — Брайн от первого лица (Lesson 5), рубрика **Brain Science** (переименована из Brain Hacks).
+> Новый формат: Брайн рассказывает **от первого лица** (Lesson 5). Два потока — (1) редкие научные вкрапления **Brain Science** (переименована из Brain Hacks), (2) кошачья психология от лица самого Брайна. Кошки = костяк до конца recovery.
 
 | Дата | Видео | Рубрика | Slug | Статус |
 |------|-------|---------|------|--------|
-| **8 июн 15:00** | A Black Hole Would Stretch Me Into Spaghetti | Brain Science | `whats-inside-a-black-hole` | 📝 NEW re-upload — VO в 1-е лицо + spaghetti thumbnail v2 готовы; reuse 8 клипов as-is; новый ID при заливке |
-| 9 июн 15:00 | Why Your Cat HEADBUTTS You — It's NOT Affection (сдвинут с 8 июн) | Cat Psychology | `why-cats-headbutt-you` | 📝 VO в 1-е лицо готов; production |
+| **8 июн 15:00** | A Black Hole Would Stretch Me Into Spaghetti | Brain Science | `whats-inside-a-black-hole` | ✅ опубликован 8 июн (first-person re-upload, новый ID) |
+| 9 июн 15:00 | Why Your Cat HEADBUTTS You — It's NOT Affection (сдвинут с 8 июн) | Cat Psychology | `why-cats-headbutt-you` | ✅ опубликован 9 июн (VO в 1-е лицо) |
+| **10 июн 15:00** | **Why I Wake You Up at 4 AM** (first-person confession + counter-intuitive «ты сам меня научил» + фикс) | Cat Psychology (1st-person) | `why-cats-wake-you-up-at-night` | ✅ залит, scheduled 10 июн 15:00 · vidIQ anchor `why does my cat wake me up at night` 60.74 / 5,324 / comp 31.6 (retitled с «morning» = 0 vol → «night») |
 
 ⚠️ **Override 18 мая:** `why-cats-sit-above-you` опубликован вне vidIQ-плана (score 25.6 RED, 0 monthly). User decision: канал в recovery mode → лучше потратить слот на инстинкт-тему чем держать сильную в очереди. Трекаем результат для валидации.
 
@@ -165,7 +166,9 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `5-cat-owner-mistakes` | 5 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 |
 | `cat-zoomies-explained` | 6 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 |
 | `5-strange-cat-behaviors-explained` | 7 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `why-cats-headbutt-you` | 8 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `why-cats-headbutt-you` | 9 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
+| `whats-inside-a-black-hole` | 8 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (1st-person re-upload) |
+| `why-cats-wake-you-up-at-night` | 10 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 (1st-person) |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 
