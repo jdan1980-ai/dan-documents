@@ -31,7 +31,10 @@
 ```
 Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. Vertical 9:16.
 ```
-**Negatives (база):** `2D, flat, anime, photorealistic cat, multiple cats, blurry, distorted face, extra limbs, 5 paws, 6 legs, white socks, white back paws, missing glasses, missing collar, missing heart tag, round/disc/bell tag, mouth open as if talking, lip-sync, talking cat, chattering, brown eyes, amber eyes, yellow eyes, hazel eyes, fully-green eyeball, green sclera, green eye-whites, eye color tinted by lighting, watermark, text artifacts, Russian text, ugly, scary, aggressive`
+**Negatives (база):**
+```
+2D, flat, anime, photorealistic cat, multiple cats, blurry, distorted face, extra limbs, 5 paws, 6 legs, white socks, white back paws, missing glasses, missing collar, missing heart tag, round/disc/bell tag, mouth open as if talking, lip-sync, talking cat, chattering, brown eyes, amber eyes, yellow eyes, hazel eyes, fully-green eyeball, green sclera, green eye-whites, eye color tinted by lighting, watermark, text artifacts, Russian text, ugly, scary, aggressive
+```
 
 ## 🔢 LOCKED text style (CapCut)
 Fredoka One / Nunito Bold, Electric Yellow #FFD23F, charcoal #2B2B2B outline. Все цифры/оверлеи — один шрифт. На английском.
@@ -113,7 +116,10 @@ LINE 2: "AT 4 AM"
 
 Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9:16.
 ```
-**Thumbnail negatives:** `база + scary/horror glowing eyes, demonic, fully-green eyeball, green sclera, visible human face, garbled clock numerals, emoji in text, illegible text`
+**Thumbnail negatives:**
+```
+база + scary/horror glowing eyes, demonic, fully-green eyeball, green sclera, visible human face, garbled clock numerals, emoji in text, illegible text
+```
 > A/B text alts (no emoji): `IT'S 4 AM. WAKE UP.` / `I DO IT ON PURPOSE` / `4 AM = MY TIME`
 
 ---
