@@ -12,7 +12,7 @@
 - **Category:** Cat Psychology (positive 5-signs + warm payoff, first-person)
 - **Series:** Brain first-person POV
 - **Status:** 📝 script
-- **Publish target:** TBD, 15:00 локального (Jerusalem UTC+3)
+- **Publish target:** 11 июн, 15:00 локального (Jerusalem UTC+3)
 - **Why this topic:** user idea «Things Cats Do Only When They're Living Their Best Life». vidIQ `signs your cat is happy` 62.70 / 12,778 (свежо, не дубль). Позитив-зеркало к 21 мая «DOESN'T Love You» и 31 мая «trusts you».
 
 ## Audience Promise

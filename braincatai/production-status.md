@@ -77,6 +77,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | **8 июн 15:00** | A Black Hole Would Stretch Me Into Spaghetti | Brain Science | `whats-inside-a-black-hole` | ✅ опубликован 8 июн (first-person re-upload, новый ID) |
 | 9 июн 15:00 | Why Your Cat HEADBUTTS You — It's NOT Affection (сдвинут с 8 июн) | Cat Psychology | `why-cats-headbutt-you` | ✅ опубликован 9 июн (VO в 1-е лицо) |
 | **10 июн 15:00** | **Why I Wake You Up at 4 AM** (first-person confession + counter-intuitive «ты сам меня научил» + фикс) | Cat Psychology (1st-person) | `why-cats-wake-you-up-at-night` | ✅ залит, scheduled 10 июн 15:00 · vidIQ anchor `why does my cat wake me up at night` 60.74 / 5,324 / comp 31.6 (retitled с «morning» = 0 vol → «night») |
+| **11 июн 15:00** | **5 Things I Do ONLY When I'm Truly Happy** (positive 5-signs «best life»: tail-up / slow blink / belly-up / biscuits / sleeps-by-you, warm twist #5) | Cat Psychology (1st-person) | `signs-your-cat-is-happy` | 📝 скрипт готов → производство · vidIQ anchor `signs your cat is happy` 62.70 / 12,778 / comp 35.2 |
 
 ⚠️ **Override 18 мая:** `why-cats-sit-above-you` опубликован вне vidIQ-плана (score 25.6 RED, 0 monthly). User decision: канал в recovery mode → лучше потратить слот на инстинкт-тему чем держать сильную в очереди. Трекаем результат для валидации.
 
@@ -169,6 +170,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `why-cats-headbutt-you` | 9 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
 | `whats-inside-a-black-hole` | 8 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (1st-person re-upload) |
 | `why-cats-wake-you-up-at-night` | 10 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 (1st-person) |
+| `signs-your-cat-is-happy` | 11 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ (1st-person, happy 5-signs) |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 
