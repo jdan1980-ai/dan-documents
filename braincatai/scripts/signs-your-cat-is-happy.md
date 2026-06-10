@@ -19,7 +19,7 @@
 Зритель узнаёт 5 конкретных поведений счастливого кота (хвост-труба, медленный моргок, живот вверх, «месит лапками», спит рядом животом вверх) + тёплый вывод: если кот это делает — ты дал ему лучшую жизнь.
 
 ## ✍️ Формула + Rule 14
-- **Hook Sc 1:** Брайн с кадра 0 радостно перекатывается на спину животом вверх (мгновенно «счастливый кот»). VO обещает 5 признаков.
+- **Hook Sc 1:** Брайн с кадра 0 радостно подпрыгивает на месте, хвост пружиной вверх (мгновенно «счастливый кот», без вращения — Veo ломает перекат). VO обещает 5 признаков.
 - **5 signs Sc 3–7:** хвост вверх → slow blink → живот вверх → biscuits → спит рядом (warm twist на #5).
 - **Warm twist Sc 7:** «сплю рядом с тобой животом вверх = ты мой целый мир» (эмоциональный пик).
 - **🔧 Comedy injections (Rule 14)** в каждом бите, кроме тёплого #5.
@@ -125,22 +125,22 @@ Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9
 # Scenes
 
 ## Сцена 1 — ХУК (0–7с)
-**Что зритель видит:** кадр 0 уже в действии — Брайн радостно **перекатывается на спину, животом вверх**, блаженная морда, лапки в воздухе, хвост довольно бьёт по ковру. Узнаваемое «счастливый кот». Оверлей «5 SIGNS I'M HAPPY 😺».
+**Что зритель видит:** кадр 0 уже в действии — Брайн радостно **подпрыгивает на месте от восторга**, хвост пружиной встаёт трубой, уши вперёд, глаза сияют, крошечная довольная улыбка. Узнаваемое «счастливый кот встречает тебя». Оверлей «5 SIGNS I'M HAPPY 😺». **(БЕЗ переката на спину — Veo ломает вращение; belly-up живёт в Sc 5.)**
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow little chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT a big cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws), tail ginger to the very tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — caught at FRAME 0 MID-ACTION joyfully ROLLING onto his back on the sage-green rug, soft fluffy belly starting to show, all 4 paws relaxed in the air, eyes half-closed in blissful joy, tiny happy smile, tail mid-thump against the rug. INT. COZY LIVING ROOM — DAY (cream walls, honey-amber wood floor, ONE plain SOLID sage-green woven rug, cream armchair, tall window with sheer curtains and warm daylight, snake plant). Dynamic medium close-up, slight high angle, motion frozen at its peak. Negative space upper-third for "5 SIGNS I'M HAPPY 😺" text plate. Vertical 9:16.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow little chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT a big cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws), tail ginger to the very tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — caught at FRAME 0 MID-ACTION doing an excited joyful little BOUNCE/HOP standing on the sage-green rug (front paws just springing up off the rug in a happy hop, body upright and normal — NOT rolling, NOT on his back), his TAIL shooting STRAIGHT UP like a happy flag, ears perked forward, big bright wide emerald eyes sparkling with excitement, tiny happy closed-mouth smile. INT. COZY LIVING ROOM — DAY (cream walls, honey-amber wood floor, ONE plain SOLID sage-green woven rug, cream armchair, tall window with sheer curtains and warm daylight, snake plant). Dynamic medium shot, upright happy energy frozen at its peak. Negative space upper-third for "5 SIGNS I'M HAPPY 😺" text plate. Vertical 9:16.
 ```
 **🎬 Veo 3 (image-to-video) — pre-flight 🟡 (motion HOOK):**
 ```
-INPUT: Nano Banana 2 still (Sc 1 above) — Brain mid-roll onto his back, belly up, blissful, on the sage rug.
-MOTION (frame-0 action HOOK — NO calm establish, Lesson 4): the clip OPENS already in motion — Brain joyfully finishes rolling onto his back, all 4 paws give a happy little wiggle in the air, his tail thumps the rug twice, eyes squint in bliss. Stack the motions (roll + paw wiggle + tail thump) — something moves from frame 0.
-DURATION: 7 seconds. CAMERA: continuous slow push-in from frame 0 (never fully static).
-PRESERVE STRICT: identity IDENTICAL — strict slender KITTEN proportions (NOT chubby/Garfield), EXACTLY 2 ears + 4 paws, glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws (no white socks).
+INPUT: Nano Banana 2 still (Sc 1 above) — Brain upright mid happy bounce, tail straight up, on the sage rug.
+MOTION (frame-0 action HOOK — NO calm establish, Lesson 4): the clip OPENS already in motion — Brain does an excited happy BOUNCE/SHIMMY in place (one little hop, front paws spring off the rug and land), his tail springs and stays straight UP, ears flick forward, eyes go bright — then a second smaller happy wiggle. He stays UPRIGHT and IN PLACE the whole time (minimal travel) so anatomy stays clean. NO rolling, NO flipping, NO going on his back.
+DURATION: 7 seconds. CAMERA: slight push-in (keep it small so his scale doesn't morph).
+PRESERVE STRICT: identity IDENTICAL — strict slender KITTEN proportions (NOT chubby/Garfield), upright normal cat posture, EXACTLY 2 ears + 4 paws, glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws (no white socks), tail ginger to the tip.
 EYE COLOR RULE (strict): LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84) + black pupil; ONLY the iris is green, NEVER a fully-green eyeball. Warm daylight must NOT tint the iris.
 MOUTH RULE (strict): mouth stays CLOSED — joy reads through eyes + body, no talking.
-NEGATIVES: standard + chubby/fat/Garfield body, mouth opening, second cat, 5 paws, green sclera.
-DRIFT RISK: 🟡 YELLOW — belly-roll motion can drift proportions; keep it a small happy roll. ⛔ Do NOT Ken-Burns — hook gets real animation.
+NEGATIVES: standard + rolling, flipping over, lying on back, belly-up, contorted body, broken/twisted limbs, "disabled"-looking pose, chubby/fat/Garfield body, mouth opening, second cat, 5 paws, white tail tip, green sclera.
+DRIFT RISK: 🟢→🟡 — in-place upright bounce is clean (no rotation = no morph). Explicitly NO roll/flip. ⛔ Do NOT Ken-Burns — hook gets real animation.
 ```
 **🎙️ VO (EN):**
 ```
