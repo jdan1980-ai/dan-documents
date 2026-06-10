@@ -2,7 +2,7 @@
 
 **Формула:** first-person confession explainer — Брайн признаётся, почему сам будит хозяина в 4 утра, и наполовину сваливает вину на него (counter-intuitive payoff) + даёт работающий фикс. Подача от 1-го лица (как Brain Science Lesson 5, но на кошачьей психологии — Брайн = сам виновник).
 **vidIQ:** anchor `why does my cat wake me up at night` 🟡 **60.74 / 5,324 / comp 31.6**. Cluster: `cat behavior` 72.29 / 142k, `cat behavior problems` 64.88 / 36,643, `strange cat behavior` 60.65 / 3,490. ⚠️ «morning»-варианты = 0 volume → целимся в **NIGHT/4 AM**, не в утро.
-**Пайплайн (locked default):** Nano Banana 2 → **Kling 3.0 i2v** (motion-only + preserve input image) → CapCut (overlays/numerals) → Google Vids TTS (рот закрыт). Статичные/reaction-сцены могут пропустить Kling и идти через Ken Burns zoom на стилле Nano Banana 2.
+**Пайплайн (этот скрипт — OVERRIDE: Kling недоступен у юзера, анимируем в Veo 3):** Nano Banana 2 → **Veo 3 (image-to-video)** → CapCut (overlays/numerals) → Google Vids TTS (рот закрыт). Каждая сцена прогнана через CLAUDE.md Veo 3 pre-flight checklist + drift-risk помечен. Статичные/reaction-сцены (1, 2) можно вообще пропустить Veo и идти через Ken Burns zoom на стилле Nano Banana 2 (экономия кредитов).
 
 ---
 
@@ -127,9 +127,16 @@ Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9
 ```
 Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. Vertical 9:16. — perched directly on the cream duvet over the sleeping owner's chest (chestnut hair on pillow, face hidden under the cover), in INT. COZY BEDROOM — NIGHT (cool blue moonlight, window with sheer curtains, nightstand with a glowing alarm clock reading "4:00 AM" in soft red numerals, snake plant, honey-wood floor). CAUGHT AT FRAME 0 already staring: eyes huge and round and softly GLOWING emerald in the dark, pupils dilated for night vision, an unblinking intense "I'm watching you" stare straight into camera, tiny smug closed-mouth micro-smile, whiskers forward, ears up and alert, one front paw lightly planted on the duvet. Moonlight rim-lights his fur; the clock's red glow touches one side of his face. Medium close-up, slight low angle as if from the pillow. Negative space upper-third for "IT'S 4 AM 👁️" text plate.
 ```
-**🎬 Kling 3.0 i2v (motion-only, preserve input image) — drift 🟢:**
+**🎬 Veo 3 (image-to-video) — pre-flight 🟢:**
 ```
-PRESERVE INPUT IMAGE (identity, anatomy, eye color, glasses, collar, heart tag — all IDENTICAL). MOTION ONLY: Brain holds the dead-eyed stare into camera, pupils slowly dilate a touch wider, ONE slow ear flick, the tip of his tail twitches once on the duvet, the clock's red numerals glow faintly pulsing. Mouth stays closed. Camera: very slow push-in (~5%). 7 seconds. Mood: funny-ominous "middle of the night" stillness. NEGATIVES: mouth opening, talking, second cat, visible human face, 5 paws.
+INPUT: Nano Banana 2 still (Sc 1 above) — Brain staring into camera on the sleeping owner's chest, clock 4:00 AM.
+MOTION: Brain holds the dead-eyed stare into camera, pupils slowly dilate a touch wider, ONE slow ear flick, the tip of his tail twitches once on the duvet, the clock's red "4:00 AM" numerals faintly pulse. Funny-ominous middle-of-the-night stillness.
+DURATION: 7 seconds. CAMERA: very slow push-in (~5%).
+PRESERVE STRICT: identity IDENTICAL to input — same kitten anatomy, EXACTLY 2 ears + 4 paws, glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws (no white socks).
+EYE COLOR RULE (strict): each eye = LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84) + black pupil; ONLY the iris is green, white of the eye stays pure white, NEVER a fully-green eyeball. The dark room / red clock glow must NOT tint the iris.
+MOUTH RULE (strict): mouth stays CLOSED the entire clip — no lip-sync, no talking, no chewing.
+NEGATIVES: standard + mouth opening, talking, second cat, visible human face, 5 paws, demonic/horror glowing eyes, green sclera.
+DRIFT RISK: 🟢 GREEN — near-static stare + micro-motion. Easy first-try.
 ```
 **🎙️ VO (EN):** `It's 4 AM. I'm sitting on your chest, staring into your soul. Here's why.`
 **🎙️ VO (RU):** `4 утра. Я сижу у тебя на груди и смотрю тебе в душу. Вот почему.`
@@ -144,9 +151,16 @@ PRESERVE INPUT IMAGE (identity, anatomy, eye color, glasses, collar, heart tag �
 ```
 Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. Vertical 9:16. — still on the duvet next to the sleeping owner (face hidden), same INT. COZY BEDROOM — NIGHT, head tilted in a playful "who, me?" innocent-but-guilty expression, big emerald eyes, closed-mouth sly smile. A tiny cartoon ANGEL HALO glows softly just above his head (comedic "I'm innocent... mostly" gag). Moonlight rim-light. Medium close-up.
 ```
-**🎬 Kling 3.0 i2v — drift 🟢:**
+**🎬 Veo 3 (image-to-video) — pre-flight 🟢:**
 ```
-PRESERVE INPUT IMAGE. MOTION ONLY: Brain tilts his head slightly, the little angel halo flickers brighter then fizzles out (one comedic flicker-out), one slow innocent blink, whiskers twitch. Mouth closed. Camera: subtle push-in. 7s. NEGATIVES: mouth opening, halo morphing into other shapes, second cat.
+INPUT: Nano Banana 2 still (Sc 2 above) — Brain head-tilted with an angel halo above him.
+MOTION: Brain tilts his head slightly, the little angel halo flickers brighter then fizzles out (one comedic flicker-out), one slow innocent blink, whiskers twitch. Mouth closed.
+DURATION: 7 seconds. CAMERA: subtle push-in.
+PRESERVE STRICT: identity IDENTICAL — same anatomy, EXACTLY 2 ears + 4 paws, glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws.
+EYE COLOR RULE (strict): LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84) + black pupil; ONLY the iris is green, NEVER a fully-green eyeball.
+MOUTH RULE (strict): mouth stays CLOSED the entire clip — no lip-sync.
+NEGATIVES: standard + mouth opening, halo morphing into other shapes, second cat, green sclera, 5 paws.
+DRIFT RISK: 🟢 GREEN — static subject + one halo flicker. Easy first-try.
 ```
 **🎙️ VO (EN):** `I'm not doing it to be cruel. Okay — maybe a little. But mostly, it's instinct.`
 **🎙️ VO (RU):** `Я делаю это не со зла. Ну… может, чуть-чуть. Но в основном это инстинкт.`
@@ -161,9 +175,16 @@ PRESERVE INPUT IMAGE. MOTION ONLY: Brain tilts his head slightly, the little ang
 ```
 Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. Vertical 9:16. — sitting alert on the bed in INT. COZY BEDROOM — NIGHT, body in a low "hunter ready" crouch, eyes focused and intense (pupils slit-narrowed in predator focus). Above him floats a soft glowing cartoon THOUGHT-BUBBLE / hologram showing a stylized dawn-dusk horizon with a tiny silhouette of a wild cat creeping toward prey (golden sunrise gradient). The hologram glows warm amber against the cool blue room. Moonlight rim-light. Medium shot.
 ```
-**🎬 Kling 3.0 i2v — drift 🟡:**
+**🎬 Veo 3 (image-to-video) — pre-flight 🟡:**
 ```
-PRESERVE INPUT IMAGE. MOTION ONLY: the dawn hologram above Brain gently animates — the sun edge rises a touch, the wild-cat silhouette creeps one step. Brain's pupils narrow into focused hunter slits, his head lowers slightly into a stalk posture, tail tip flicks. Mouth closed. Camera: slow push-in. 7s. NEGATIVES: hologram becoming a full second scene, second real cat, mouth opening, eye color turning amber (iris stays emerald #3DDC84).
+INPUT: Nano Banana 2 still (Sc 3 above) — Brain in low hunter crouch with a dawn-hunt thought-bubble hologram above him.
+MOTION: the dawn hologram gently animates — the sun edge rises a touch, the wild-cat silhouette creeps one step. Brain's pupils narrow into focused hunter slits, his head lowers slightly into a stalk posture, tail tip flicks. Mouth closed.
+DURATION: 7 seconds. CAMERA: slow push-in.
+PRESERVE STRICT: identity IDENTICAL — same anatomy, EXACTLY 2 ears + 4 paws, glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws.
+EYE COLOR RULE (strict): LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84) even when the pupils narrow into slits; the warm amber hologram light must NOT tint the iris amber. Never a fully-green eyeball.
+MOUTH RULE (strict): mouth stays CLOSED the entire clip.
+NEGATIVES: standard + hologram becoming a full second scene, second real cat, mouth opening, iris turning amber, green sclera, 5 paws.
+DRIFT RISK: 🟡 YELLOW — hologram animation + pupil change. May need 1 retry.
 ```
 **🎙️ VO (EN):** `I'm wired to hunt at dawn and dusk. When the light shifts, my whole body screams: go time.`
 **🎙️ VO (RU):** `Я заточен охотиться на рассвете и в сумерках. Свет меняется — и всё тело орёт: пора.`
@@ -178,9 +199,16 @@ PRESERVE INPUT IMAGE. MOTION ONLY: the dawn hologram above Brain gently animates
 ```
 Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. Vertical 9:16. — sitting upright on the nightstand beside the glowing "4:00 AM" alarm clock in INT. COZY BEDROOM — NIGHT, one front paw pointing at the clock, demanding expression with wide emerald eyes and raised eyebrows. A soft glowing cartoon hologram of an EMPTY food bowl floats beside him with a little "ding!" alarm icon over it (his "stomach alarm"). Moonlight + clock red glow. Medium close-up.
 ```
-**🎬 Kling 3.0 i2v — drift 🟡:**
+**🎬 Veo 3 (image-to-video) — pre-flight 🟡:**
 ```
-PRESERVE INPUT IMAGE. MOTION ONLY: Brain taps/points his front paw toward the clock twice, the empty-bowl hologram pulses with a little "ding" ring, his eyes widen demandingly, ears forward. Mouth closed. Camera: subtle push-in. 7s. NEGATIVES: 5 paws, mouth opening, bowl hologram garbling, second cat.
+INPUT: Nano Banana 2 still (Sc 4 above) — Brain by the 4:00 AM clock with a floating empty-bowl hologram.
+MOTION: Brain points/taps ONLY his right front paw toward the clock twice, the empty-bowl hologram pulses with a little "ding" ring, his eyes widen demandingly, ears forward. Mouth closed.
+DURATION: 7 seconds. CAMERA: subtle push-in.
+PRESERVE STRICT: identity IDENTICAL — EXACTLY 2 ears + 4 paws; ONLY the right front paw is raised/pointing, the other front paw + both back paws stay planted. Glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws.
+EYE COLOR RULE (strict): LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84); ONLY the iris is green; the red clock glow must NOT tint the iris.
+MOUTH RULE (strict): mouth stays CLOSED the entire clip.
+NEGATIVES: standard + 5 paws, both front paws raised together, mouth opening, bowl hologram garbling, second cat, green sclera.
+DRIFT RISK: 🟡 YELLOW — paw-point gesture + hologram. May need 1 retry.
 ```
 **🎙️ VO (EN):** `And my stomach runs on a clock. It says breakfast is NOW. Not in two hours. Now.`
 **🎙️ VO (RU):** `А мой желудок живёт по часам. И они говорят: завтрак СЕЙЧАС. Не через два часа. Сейчас.`
@@ -195,9 +223,17 @@ PRESERVE INPUT IMAGE. MOTION ONLY: Brain taps/points his front paw toward the cl
 ```
 Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. Vertical 9:16. — sitting on the duvet with a smug, knowing, slightly raised-eyebrow "gotcha" expression, big emerald eyes locked on camera, tiny smirk (mouth closed). Beside him floats a soft glowing cartoon FLASHBACK hologram: a sleepy feminine hand (cream sleeve, NO face) pouring kibble into a bowl in the dark — the "you fed me to shut me up" memory. A small "✓ LEARNED" tag glows near the hologram. INT. COZY BEDROOM — NIGHT, moonlight rim-light. Medium close-up.
 ```
-**🎬 Kling 3.0 i2v — drift 🟡:**
+**🎬 Veo 3 (image-to-video) — pre-flight 🟡:**
 ```
-PRESERVE INPUT IMAGE. MOTION ONLY: the flashback hologram plays once (hand tips the bowl, kibble drops), then a small "✓" stamp pops beside it. Brain raises one eyebrow and gives a slow knowing blink at camera, smirk holds. Mouth closed. Camera: slow push-in. 7s. HUMAN RULE: only ONE feminine hand in the hologram, NO face, NO second hand. NEGATIVES: visible human face, two hands, mouth opening, second cat.
+INPUT: Nano Banana 2 still (Sc 5 above) — Brain smug to camera + a flashback hologram of one feminine hand pouring kibble, "✓ LEARNED" tag.
+MOTION: the flashback hologram plays once (the ONE feminine hand tips the bowl, kibble drops), then a small "✓" stamp pops beside it. Brain raises one eyebrow and gives a slow knowing blink at camera, smirk holds. Mouth closed.
+DURATION: 7 seconds. CAMERA: slow push-in.
+PRESERVE STRICT: identity IDENTICAL — same anatomy, EXACTLY 2 ears + 4 paws, glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws.
+EYE COLOR RULE (strict): LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84); ONLY the iris is green, never a fully-green eyeball.
+MOUTH RULE (strict): mouth stays CLOSED the entire clip.
+HUMAN RULE (strict): inside the hologram, ONLY one feminine hand (cream sleeve), NO face, NO second hand, NO male hand.
+NEGATIVES: standard + visible human face, two hands, male hand, mouth opening, second cat, garbled "✓ LEARNED" text, green sclera.
+DRIFT RISK: 🟡 YELLOW — hologram hand + small text. If "✓ LEARNED" garbles in 2 tries → render without the text and add it as a clean CapCut overlay.
 ```
 **🎙️ VO (EN):** `But here's the part that's on you. Every time you fed me to make me stop — you taught me that waking you works.`
 **🎙️ VO (RU):** `Но вот часть, которая на тебе. Каждый раз, когда ты кормил меня, чтоб я замолчал, — ты учил меня, что будить тебя работает.`
@@ -212,9 +248,17 @@ PRESERVE INPUT IMAGE. MOTION ONLY: the flashback hologram plays once (hand tips 
 ```
 Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. Vertical 9:16. — in a bouncy, wide-eyed hyper "zoomies-ready" pose on the bed in INT. COZY BEDROOM — NIGHT, body coiled with playful energy, big bright emerald eyes, ears perked, comedic over-energized look. A cartoon BATTERY ICON glows "100%" full green beside him. In the soft-blurred background, the exhausted sleeping owner silhouette under the duvet (face hidden) — comedic contrast (he's charged, she's drained). Moonlight rim-light. Medium shot.
 ```
-**🎬 Kling 3.0 i2v — drift 🟡:**
+**🎬 Veo 3 (image-to-video) — pre-flight 🟡:**
 ```
-PRESERVE INPUT IMAGE. MOTION ONLY: Brain does one little excited bounce/wiggle (pre-pounce butt-wiggle energy), the 100% battery icon pulses green, tail flicks fast, ears swivel. Mouth closed. Camera: subtle handheld-style energy / micro push-in. 7s. NEGATIVES: motion too violent, mouth opening, visible human face, 5 paws, second cat.
+INPUT: Nano Banana 2 still (Sc 6 above) — Brain in hyper zoomies-ready pose, 100% battery icon, sleeping owner blurred behind.
+MOTION: Brain does one little excited bounce/wiggle (pre-pounce butt-wiggle), the 100% battery icon pulses green, tail flicks fast, ears swivel. The sleeping owner silhouette stays still. Mouth closed.
+DURATION: 7 seconds. CAMERA: subtle micro push-in (light energy, NOT shaky).
+PRESERVE STRICT: identity IDENTICAL — EXACTLY 2 ears + 4 paws, glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws.
+EYE COLOR RULE (strict): LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84); ONLY the iris is green.
+MOUTH RULE (strict): mouth stays CLOSED the entire clip.
+HUMAN RULE (strict): background sleeping owner only — face hidden, no second person, she does NOT wake.
+NEGATIVES: standard + motion too violent/blurry, mouth opening, visible human face, 5 paws, second cat, green sclera.
+DRIFT RISK: 🟡 YELLOW — bouncy motion raises anatomy-drift risk; keep the bounce small. May need 1 retry.
 ```
 **🎙️ VO (EN):** `Plus, I slept all day while you were gone. Now I'm fully charged. You're... not.`
 **🎙️ VO (RU):** `Плюс я проспал весь день, пока тебя не было. Я заряжен на сто процентов. А ты — нет.`
@@ -229,11 +273,19 @@ PRESERVE INPUT IMAGE. MOTION ONLY: Brain does one little excited bounce/wiggle (
 ```
 Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. Vertical 9:16. — shown content and calm in INT. COZY BEDROOM — NIGHT (or soft evening light), mid-play with a feather wand toy, a FULL food bowl nearby, settling into a cozy loaf. Above him a clean soft glowing 3-step cartoon TIMELINE hologram with simple icons: a feather toy → a full food bowl → a sleeping "Zzz" cat, connected by arrows (left to right). His expression is satisfied and sleepy. Warm cozy light. Medium shot.
 ```
-**🎬 Kling 3.0 i2v — drift 🟡 (текст в голограмме):**
+**🎬 Veo 3 (image-to-video) — pre-flight 🟡 (текст/иконки в голограмме):**
 ```
-PRESERVE INPUT IMAGE. MOTION ONLY: the 3-step timeline icons light up in sequence — feather toy glows, then full bowl glows, then the "Zzz" sleeping icon glows. Brain gives one batting paw-swat at the feather, then settles into a loaf with a sleepy slow blink. Mouth closed. Camera: gentle push-in. 7s. ICON RULE: timeline stays clean cartoon icons (toy / bowl / Zzz), readable. NEGATIVES: garbled icons/text, 5 paws, mouth opening, second cat.
+INPUT: Nano Banana 2 still (Sc 7 above) — calm Brain mid-play, full bowl, 3-step PLAY→FEED→SLEEP timeline hologram.
+MOTION: the 3 timeline icons light up in sequence — feather toy glows, then full bowl glows, then the "Zzz" sleeping icon glows. Brain gives ONE batting paw-swat at the feather, then settles into a loaf with a sleepy slow blink. Mouth closed.
+DURATION: 7 seconds. CAMERA: gentle push-in.
+PRESERVE STRICT: identity IDENTICAL — EXACTLY 2 ears + 4 paws, glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws.
+EYE COLOR RULE (strict): LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84); ONLY the iris is green.
+MOUTH RULE (strict): mouth stays CLOSED the entire clip.
+ICON RULE: timeline stays clean cartoon icons (toy / bowl / Zzz), readable, no morphing.
+NEGATIVES: standard + garbled icons/text, 5 paws, mouth opening, second cat, green sclera.
+DRIFT RISK: 🟡 YELLOW — UI/icon animation is Veo's weak spot. If icons garble in 2 tries → render Brain-only and add the PLAY→FEED→SLEEP timeline as a CapCut overlay.
 ```
-> Если Kling коверкает иконки таймлайна → fallback: чистый стилл + 3-step timeline overlay в CapCut.
+> Если Veo коверкает иконки таймлайна → fallback: чистый стилл (Brain-only) + 3-step timeline overlay в CapCut.
 **🎙️ VO (EN):** `Want me to stop? Play with me hard, then feed me right before YOUR bedtime. Full belly, tired body — I'll sleep till morning.`
 **🎙️ VO (RU):** `Хочешь, чтоб я перестал? Заиграй меня до упаду и покорми прямо перед СВОИМ сном. Полный живот, уставшее тело — и я просплю до утра.`
 **Оверлей:** «THE FIX ✅: PLAY → FEED → SLEEP» + soft success chime.
@@ -247,9 +299,17 @@ PRESERVE INPUT IMAGE. MOTION ONLY: the 3-step timeline icons light up in sequenc
 ```
 Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. Vertical 9:16. — curled in a cozy content loaf right beside the sleeping owner's shoulder (chestnut hair on pillow, face hidden) in INT. COZY BEDROOM — soft warm pre-dawn light now replacing the cold moonlight, big soft loving emerald eyes half-closed, tiny content smile (mouth closed). Soft pastel-pink/green heart particles drift around them. A "💚" glows softly. Warm intimate "you're my human" vibe. Medium-wide shot.
 ```
-**🎬 Kling 3.0 i2v — drift 🟡:**
+**🎬 Veo 3 (image-to-video) — pre-flight 🟡:**
 ```
-PRESERVE INPUT IMAGE. MOTION ONLY: Brain settles deeper into the loaf, gives a warm slow blink, soft hearts drift up, then at the very end he opens his eyes and shoots ONE sly knowing glance at camera (the "...but feed me" beat). Mouth closed. HUMAN RULE: only the sleeping owner, face hidden, no second person. Camera: slow warm push-in. 7s. NEGATIVES: visible face, second person, mouth opening, 5 paws.
+INPUT: Nano Banana 2 still (Sc 8 above) — Brain curled by the sleeping owner in warm pre-dawn light, hearts + 💚.
+MOTION: Brain settles deeper into the loaf, gives a warm slow blink, soft hearts drift up, then at the very end he opens his eyes and shoots ONE sly knowing glance at camera (the "...but feed me" beat). Mouth closed.
+DURATION: 7 seconds. CAMERA: slow warm push-in.
+PRESERVE STRICT: identity IDENTICAL — EXACTLY 2 ears + 4 paws, glasses ALWAYS on, brown collar + HEART-shaped gold tag, ALL ginger paws.
+EYE COLOR RULE (strict): LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84); ONLY the iris is green; the warm pre-dawn light must NOT tint the iris.
+MOUTH RULE (strict): mouth stays CLOSED — the warm beat plays through the eyes, not the mouth.
+HUMAN RULE (strict): only the sleeping owner, face hidden, no second person, she does NOT wake.
+NEGATIVES: standard + visible human face, second person, mouth opening, 5 paws, green sclera.
+DRIFT RISK: 🟡 YELLOW — owner in frame + warm relight. Keep owner static, face hidden; may need 1 retry.
 ```
 **🎙️ VO (EN):** `I don't wake you to annoy you. You're my favorite human. ...but also, feed me. Follow me for more.`
 **🎙️ VO (RU):** `Я бужу тебя не назло. Ты мой любимый человек. …но всё-таки покорми. Подпишись — будет ещё.`
@@ -267,7 +327,7 @@ Playful-cozy nighttime cat-psychology score for a 60-second YouTube Short "Why I
 - Цифры/оверлеи/таймлайн — CapCut, шрифт залочен, на английском
 - **Тон:** funny-confession + counter-intuitive «это ты виноват» + реальный фикс + тёплый твист. НЕ жуткий (светящиеся глаза = смешно-милые, не хоррор).
 - SFX: record-scratch (Sc 1), halo chime (Sc 2), whoosh (Sc 3), alarm ding (Sc 4), «aha» (Sc 5), power-up (Sc 6), success chime (Sc 7), warm swell (Sc 8)
-- **Sc 5 flashback-голограмма** и **Sc 7 timeline** — главные кандидаты на CapCut-fallback, если Kling коверкает.
+- **Sc 5 flashback-голограмма** и **Sc 7 timeline** — главные кандидаты на CapCut-fallback, если Veo коверкает текст/иконки.
 - End card: 3-сек Short variant.
 
 ## 📌 Pinned comment (Karena-style, человеческий голос)
@@ -322,10 +382,10 @@ why does my cat wake me up at night, why does my cat wake me up, cat wakes me up
 
 ## 🛑 Pre-flight
 - Все image-промты = Nano Banana 2, полный Locked Brain (анатомия, ginger paws, heart-tag, белая склера + изумруд)
-- **Kling 3.0 i2v** (locked default) — motion-only + preserve input на каждой сцене. Статичные reaction-сцены (1, 2) можно гнать Ken Burns zoom на стилле без Kling.
+- **Veo 3 i2v** (override — Kling недоступен у юзера) — pre-flight verified на каждой сцене, drift-risk помечен. Статичные reaction-сцены (1, 2) можно гнать Ken Burns zoom на стилле без Veo (дешевле).
 - **Одна локация (спальня-ночь)** во всех сценах — наука через голограммы/thought-bubble, НЕ новые сцены.
 - **Sc 5 (flashback-рука) + Sc 8 (CTA)** — HUMAN RULE: одна женская рука / спящий силуэт, лицо скрыто, без мужских фигур и вторых людей.
-- **Sc 5 flashback + Sc 7 timeline** — кандидаты на CapCut-fallback, если Kling коверкает иконки/текст.
+- **Sc 5 flashback + Sc 7 timeline** — кандидаты на CapCut-fallback, если Veo коверкает иконки/текст.
 - Светящиеся глаза в Sc 1 + тумбнейле — смешно-милые, НЕ демонические (в негативах).
 - Цифры/подписи/часы «4:00 AM» — CapCut поверх, шрифт залочен, English only.
 
