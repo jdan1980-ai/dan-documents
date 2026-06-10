@@ -19,7 +19,7 @@
 Зритель узнаёт 4 реальные причины ночных подъёмов (crepuscular-инстинкт, пищевые часы, **он сам случайно это закрепил**, накопленная за день энергия) + конкретный фикс (игра + кормёжка перед СВОИМ сном) + тёплый твист, что кот делает это не назло.
 
 ## ✍️ Формула + Rule 14
-- **Hook Sc 1:** «It's 4 AM. I'm on your chest, staring into your soul. Here's why.» — кадр 0 уже в действии.
+- **Hook Sc 1:** «It's 4 AM. I'm patting your face — and staring into your soul. Here's why.» — кадр 0 уже в действии (лапа по лицу → взгляд).
 - **Counter-intuitive payoff Sc 5:** «это ТЫ меня научил» — перекладывает вину, держит внимание.
 - **Actionable fix Sc 7:** играй + корми перед сном → кот спит до утра (реальная польза = сохранения/шеры).
 - **Warm twist Sc 8:** «бужу не назло, ты мой любимый человек… но и покорми».
@@ -55,7 +55,7 @@ INT. COZY BEDROOM — NIGHT. A cozy Pixar-style bedroom lit ONLY by cool blue mo
 
 **🇬🇧 English (copy this block alone):**
 ```
-It's 4 AM. I'm sitting on your chest, staring into your soul. Here's why.
+It's 4 AM. I'm patting your face — and staring into your soul. Here's why.
 
 I'm not doing it to be cruel. Okay — maybe a little. But mostly, it's instinct.
 
@@ -74,7 +74,7 @@ I don't wake you to annoy you. You're my favorite human. ...but also, feed me. F
 
 **🇷🇺 Русская версия (copy this block alone):**
 ```
-4 утра. Я сижу у тебя на груди и смотрю тебе в душу. Вот почему.
+4 утра. Я бью тебя лапой по щеке — и смотрю тебе в душу. Вот почему.
 
 Я делаю это не со зла. Ну… может, чуть-чуть. Но в основном это инстинкт.
 
@@ -139,8 +139,8 @@ HUMAN RULE (strict): the sleeping owner's face stays hidden/turned into the pill
 NEGATIVES: standard + visible human face, second cat, 5 paws, both front paws raised, mouth opening, demonic/horror glowing eyes, green sclera.
 DRIFT RISK: 🟡 YELLOW — frame-0 paw action near the owner is higher drift than a static hold, but a STRONG MOTION HOOK is worth it (Lesson 4: the hook MUST move — a static hook loses the swipe in 2 sec). Keep the pat small and controlled; may need 1 retry. ⛔ Do NOT Ken-Burns this scene — the hook gets real animation.
 ```
-**🎙️ VO (EN):** `It's 4 AM. I'm sitting on your chest, staring into your soul. Here's why.`
-**🎙️ VO (RU):** `4 утра. Я сижу у тебя на груди и смотрю тебе в душу. Вот почему.`
+**🎙️ VO (EN):** `It's 4 AM. I'm patting your face — and staring into your soul. Here's why.`
+**🎙️ VO (RU):** `4 утра. Я бью тебя лапой по щеке — и смотрю тебе в душу. Вот почему.`
 **Оверлей:** «IT'S 4 AM 👁️» + record-scratch sting.
 
 ---
