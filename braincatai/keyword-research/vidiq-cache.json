@@ -4,7 +4,7 @@
   "schema_version": "1.1",
   "created": "2026-05-17",
   "last_updated": "2026-06-10",
-  "total_credits_spent": 505,
+  "total_credits_spent": 510,
   "credits_saved_so_far": 0,
   "changelog": [
    "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
@@ -31,7 +31,8 @@
    "2026-06-02 (YouTube-suggested topics triage + 6 июн hunt): +15 credits. User pasted 12 YouTube-suggested 'similar topics'. Triage: 4 duplicates with our published (stare-at-walls/bite/box/dead-things), 5 cannibalize queue/cluster (tail-twitch/sleep-face/scent-mark/meow-humans/watch-rooms), 3 fresh-test. Tested: 'cat zoomies' 🟢 66.83/12,928/comp-25 GREEN-strong (3rd strongest in cache, after owner 22k + bond 17k). 'how cats train their owners' null seed RED. 'why cats drink running water' HARD RED 5.71/0. WINNER: zoomies for 6 июн. Cross-link to owner-mistakes #5 (skip-play → pent-up predator energy → zoomies) = serial momentum.",
    "2026-06-02 (30-day analytics review + 7-8 июн hunt): +40 credits (4x keyword_research after pulling vidiq_channel_analytics). 30d totals: 3,044 views, 52.02% avg retention (CROSSED 50% recovery threshold!), +10 net subs. Feed dominates 86% (driven by Chirps 1.2k + Dead Things 1k = 75% of traffic, May 3-5 pre-drop tail). DOESN'T Love 489.7% retention = looping champion (replay pattern). Verdict: need MORE single-moment hooks (feed-bait, replicate Chirps formula). Tested: 'why do cats headbutt you' seed RED but cluster GREEN — 'why does my cat headbutt me' 🟢 63.27/4,918/comp-24.5 + 'cat affection' 67.47/14,213 + 'cat communication' 70.51/36,240. 'strange cat behaviors explained' 🟢 63.12/14,691/comp-35.5 GREEN ⭐ (feed-bait listicle GOLDMINE). 'why cats sit in squares' null/0 (search-dead, related goes to boxes). 'why do cats lick plastic bags' seed RED but 'cat licking plastic bags' 64.35/4,828/comp-21.6. 'things cats hate' YELLOW-low 53.39/4,585/comp-48.5 — skip standalone. DECISIONS: 7 июн = strange-behaviors listicle (feed-bait), 8 июн = headbutt single-fact (search + counter-intuitive).",
    "2026-06-10 (best-life/happy-cat topic check): +5 credits — user idea 'Things Cats Do Only When They're Living Their Best Life'. 'signs your cat is happy' 🟡 62.70/12,778/comp-35.2 (YELLOW-strong, solid volume, FRESH not dup). Related: 'happy cat' 67.65/64,046 (broad/generic title), 'cat body language' 65.01/47,568 GREEN (4x volume, fresh alt), 'feline behavior' 64.09/24,365. Earlier same-session 'things cats love that owners rarely do' REJECTED = near-dup of 23 May things-cats-love (8 views). Awaiting user pick: happy-signs vs body-language.",
-   "2026-06-10 (competitor/trend sweep): +15 credits (2x outliers + 1x trending, shorts, thisMonth). EDUCATIONAL BREAKOUTS (our format, replicable): TheCognition 'Why do cats hate water #education' 102k views / 795 subs / breakout 74 / VPH 275 — proof tiny edu channel can pop, and hates-water IS in our cache 60.88/3,659 → promote from backlog. DK Vibes 'Why Your Cat Hates Your New Nails' 967k / 4.6k subs / breakout 95 (hyper-specific micro-behavior). GanpatPedia 'Why Cats Go Crazy for Catnip' 276k / 67k subs. '5 Signs Your Cat Secretly Hates You' 29k / 2k subs / breakout 33 (negative-mirror still wins). HEALTH-WARNING angle breaking out: feline asthma 31k/4.3k + 'Silent Signs Your Cat Is In Pain' — pairs with our cached 'cat health' 73.29 GREEN. TT Paws story-voice 638k / 11.6% engagement (character voice works). DURATION PATTERN: winners are 9-30s, we ship 56s — test 25-35s loop format. Feed still dominated by funny-compilations (anti-pattern, skip)."
+   "2026-06-10 (competitor/trend sweep): +15 credits (2x outliers + 1x trending, shorts, thisMonth). EDUCATIONAL BREAKOUTS (our format, replicable): TheCognition 'Why do cats hate water #education' 102k views / 795 subs / breakout 74 / VPH 275 — proof tiny edu channel can pop, and hates-water IS in our cache 60.88/3,659 → promote from backlog. DK Vibes 'Why Your Cat Hates Your New Nails' 967k / 4.6k subs / breakout 95 (hyper-specific micro-behavior). GanpatPedia 'Why Cats Go Crazy for Catnip' 276k / 67k subs. '5 Signs Your Cat Secretly Hates You' 29k / 2k subs / breakout 33 (negative-mirror still wins). HEALTH-WARNING angle breaking out: feline asthma 31k/4.3k + 'Silent Signs Your Cat Is In Pain' — pairs with our cached 'cat health' 73.29 GREEN. TT Paws story-voice 638k / 11.6% engagement (character voice works). DURATION PATTERN: winners are 9-30s, we ship 56s — test 25-35s loop format. Feed still dominated by funny-compilations (anti-pattern, skip).",
+   "2026-06-10 (health rubric opener): +5 credits — 'signs your cat is in pain' 🟢 64.37/5,264/comp-22.4 (lowest-comp GREEN-light). Cluster: sick 61.95/5,021 + is-my-cat-in-pain 61.08/4,496 (~15k). Script for 12 Jun written = FIRST 33s short-format test (hook 4s + 5 signs x 5s + CTA 4s, seamless-loop music). Mind-blow #5: purr = self-soothing."
   ]
  },
  "queries": [
@@ -2561,6 +2562,46 @@
    ],
    "verdict": "🟡 YELLOW-strong 62.70 / 12,778 / comp 35.2 — solid volume, fresh (NOT a dup). Good as positive 5-signs 'best life' first-person. Stronger fresh alt in cluster: cat body language 65.01/47,568 GREEN (4x volume).",
    "notes": "User idea 'Things Cats Do Only When They're Living Their Best Life'. NOTE: earlier 'things cats love that owners rarely do' rejected = near-dup of 23 May things-cats-love (8 views). Awaiting user pick: happy-signs vs body-language."
+  },
+  {
+   "keyword": "signs your cat is in pain",
+   "fetched": "2026-06-10",
+   "credits_spent": 5,
+   "seed": {
+    "volume": 55.55,
+    "competition": 22.4,
+    "overall": 64.37,
+    "monthly": 5264
+   },
+   "top_related": [
+    {
+     "keyword": "signs your cat is sick",
+     "overall": 61.95,
+     "monthly": 5021
+    },
+    {
+     "keyword": "is my cat in pain",
+     "overall": 61.08,
+     "monthly": 4496
+    },
+    {
+     "keyword": "cat care",
+     "overall": 67.44,
+     "monthly": 55887
+    },
+    {
+     "keyword": "cat behavior explained",
+     "overall": 70.67,
+     "monthly": 98056
+    },
+    {
+     "keyword": "cat psychology",
+     "overall": 76.9,
+     "monthly": 303383
+    }
+   ],
+   "verdict": "🟢 GREEN-light 64.37 / 5,264 / comp 22.4 (very low comp) + trend proof (asthma 31k/4.3k, Silent Pain Signs in outliers). Script written for 12 Jun: signs-your-cat-is-in-pain (first 33s short-format test).",
+   "notes": "Health-warning rubric opener. Pain/sick cluster ~15k monthly. Tone-gate: kid-safe care, no scary."
   }
  ],
  "non_keyword_calls": [

@@ -331,6 +331,17 @@ ok my cat does the tail-up thing every single time i walk in and i had no idea i
 мой делает этот хвост-трубой каждый раз когда я захожу и я понятия не имела что это значит что он счастлив 😭 теперь чувствую что выиграла в котородительстве. сколько делает твой?? скажи
 ```
 
+### 52. 5 Signs I'm Hiding Pain From You (12 июн, 15:00) — Cat Psychology / Health 5-signs
+
+```
+the purring one broke me a little. i always thought purring = happy and now im replaying every weird 2am purr in my head 😭 check on your babies. has your cat ever hidden being sick from you?
+```
+
+🇷🇺 (для RU-зеркала):
+```
+про мурчание прям прилетело. всю жизнь думала мурчит значит счастлив а теперь прокручиваю в голове все странные ночные мурчания 😭 проверяйте своих. твой когда-нибудь скрывал что ему плохо?
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
