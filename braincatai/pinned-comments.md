@@ -342,6 +342,17 @@ the purring one broke me a little. i always thought purring = happy and now im r
 про мурчание прям прилетело. всю жизнь думала мурчит значит счастлив а теперь прокручиваю в голове все странные ночные мурчания 😭 проверяйте своих. твой когда-нибудь скрывал что ему плохо?
 ```
 
+### 53. How I Chose YOU as My Human (13 июн, 15:00) — Cat Psychology / Bonding
+
+```
+the #5 wrecked me lol i literally got my cat when i was going through the worst week of my life and now hes always next to me when im upset. like he just KNOWS somehow. did your cat find you at a weird time too?
+```
+
+🇷🇺 (для RU-зеркала):
+```
+пятый пункт просто убил лол я буквально завёл кота когда была самая отстойная неделя в жизни и теперь он всегда рядом когда мне плохо. типа просто ЗНАЕТ как-то. твой кот тоже появился в странное время?
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы

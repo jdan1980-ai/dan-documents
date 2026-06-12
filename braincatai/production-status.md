@@ -79,6 +79,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | **10 июн 15:00** | **Why I Wake You Up at 4 AM** (first-person confession + counter-intuitive «ты сам меня научил» + фикс) | Cat Psychology (1st-person) | `why-cats-wake-you-up-at-night` | ✅ залит, scheduled 10 июн 15:00 · vidIQ anchor `why does my cat wake me up at night` 60.74 / 5,324 / comp 31.6 (retitled с «morning» = 0 vol → «night») |
 | **11 июн 15:00** | **5 Things I Do ONLY When I'm Truly Happy** (positive 5-signs «best life»: tail-up / slow blink / belly-up / biscuits / sleeps-by-you, warm twist #5) | Cat Psychology (1st-person) | `signs-your-cat-is-happy` | ✅ залит, scheduled 11 июн 15:00 · vidIQ anchor `signs your cat is happy` 62.70 / 12,778 / comp 35.2 |
 | **12 июн 15:00** | **5 Signs I'm Hiding Pain From You** (health-warning 5-signs, mind-blow #5 purr≠happy; ⚡ ПЕРВЫЙ ТЕСТ короткого формата ~33с) | Cat Psychology / Health (1st-person) | `signs-your-cat-is-in-pain` | ✅ залит, scheduled 12 июн 15:00 · vidIQ anchor `signs your cat is in pain` 🟢 64.37 / 5,264 / comp 22.4 |
+| **13 июн 15:00** | **How I Chose YOU as My Human** (emotional 5-reasons first-person, counter-intuitive «ты не выбирал — я выбрал», warm twist #5 «тебе было грустно»; ⚡ формат 33с тест #2) | Cat Psychology / Bonding (1st-person) | `how-cats-choose-their-human` | 📝 скрипт готов → производство · vidIQ anchor `how cats choose their favorite person` 🟢🟢 66.16 / 28,344 / comp 34.3 GREEN-JACKPOT |
 
 ⚠️ **Override 18 мая:** `why-cats-sit-above-you` опубликован вне vidIQ-плана (score 25.6 RED, 0 monthly). User decision: канал в recovery mode → лучше потратить слот на инстинкт-тему чем держать сильную в очереди. Трекаем результат для валидации.
 
@@ -173,6 +174,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `why-cats-wake-you-up-at-night` | 10 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 (1st-person) |
 | `signs-your-cat-is-happy` | 11 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 (1st-person, happy 5-signs) |
 | `signs-your-cat-is-in-pain` | 12 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 (1st-person, health, ⚡33с формат-тест) |
+| `how-cats-choose-their-human` | 13 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ (1st-person, emotional, ⚡33с тест #2) |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 
