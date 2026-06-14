@@ -1,7 +1,7 @@
 # Script Template — BrainCatAI Short
 
-**Pipeline:** 8 scenes → image in Nano Banana → animation in Veo 3 → glue together.
-**Total runtime:** ≤ 60 sec (target ~7 sec per scene).
+**Pipeline:** 7 scenes → image in Nano Banana 2 → animation in Veo 3 → CapCut overlays → Google Vids TTS.
+**Total runtime (DEFAULT, locked 14 июн 2026):** **~33 sec** — short loop format (hook 4s + 5 beats × ~5s + CTA 4s). Each Veo clip cut to 4-5s in CapCut. Music written for ~60s but edited to loop seamlessly under ~33s. Validated by pain (12 июн) + choose-human (14 июн); niche winners run 9-30s, looping drives retention (DOESN'T Love 489%). Only go to 56s/8-scene if a topic genuinely needs the extra room — short is the default.
 
 > ⚠️ **Before you start, read [`director-checklist.md`](./director-checklist.md)** — the master playbook with mantras, per-stage checklists, troubleshooting, and analytics-based learnings. Reading the 5 mantras (top of that file) is non-optional for every new video.
 
