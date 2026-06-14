@@ -342,7 +342,7 @@ the purring one broke me a little. i always thought purring = happy and now im r
 про мурчание прям прилетело. всю жизнь думала мурчит значит счастлив а теперь прокручиваю в голове все странные ночные мурчания 😭 проверяйте своих. твой когда-нибудь скрывал что ему плохо?
 ```
 
-### 53. How I Chose YOU as My Human (13 июн, 15:00) — Cat Psychology / Bonding
+### 53. How I Chose YOU as My Human (14 июн, 15:00) — Cat Psychology / Bonding
 
 ```
 the #5 wrecked me lol i literally got my cat when i was going through the worst week of my life and now hes always next to me when im upset. like he just KNOWS somehow. did your cat find you at a weird time too?
@@ -351,6 +351,17 @@ the #5 wrecked me lol i literally got my cat when i was going through the worst 
 🇷🇺 (для RU-зеркала):
 ```
 пятый пункт просто убил лол я буквально завёл кота когда была самая отстойная неделя в жизни и теперь он всегда рядом когда мне плохо. типа просто ЗНАЕТ как-то. твой кот тоже появился в странное время?
+```
+
+### 54. Why We Orange Cats Are Built Different (15 июн, 15:00) — Cat Psychology / Facts
+
+```
+ok the food one is SO my orange boy he literally screams at me at 5am like the bowl is empty when its NOT 😭 and yeah hes dumb as rocks but in the bravest way possible lol. is your orange cat also running on one braincell?
+```
+
+🇷🇺 (для RU-зеркала):
+```
+пункт про еду это прям мой рыжий он буквально орёт на меня в 5 утра типа миска пустая хотя она НЕ пустая 😭 и да он тупой как пробка но самым храбрым способом лол. твой рыжий тоже на одном браинцелле?
 ```
 
 ---

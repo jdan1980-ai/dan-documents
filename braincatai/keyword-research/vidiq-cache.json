@@ -3,8 +3,8 @@
   "purpose": "Cache of vidIQ API responses (keyword research, outliers, breakout channels, channel videos) to avoid burning paid credits on repeat queries. Cat psychology niche keywords stay relevant ~30-60 days. Refresh entries older than 60 days only if you suspect drift.",
   "schema_version": "1.1",
   "created": "2026-05-17",
-  "last_updated": "2026-06-12",
-  "total_credits_spent": 535,
+  "last_updated": "2026-06-14",
+  "total_credits_spent": 545,
   "credits_saved_so_far": 0,
   "changelog": [
    "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
@@ -34,7 +34,8 @@
    "2026-06-10 (competitor/trend sweep): +15 credits (2x outliers + 1x trending, shorts, thisMonth). EDUCATIONAL BREAKOUTS (our format, replicable): TheCognition 'Why do cats hate water #education' 102k views / 795 subs / breakout 74 / VPH 275 — proof tiny edu channel can pop, and hates-water IS in our cache 60.88/3,659 → promote from backlog. DK Vibes 'Why Your Cat Hates Your New Nails' 967k / 4.6k subs / breakout 95 (hyper-specific micro-behavior). GanpatPedia 'Why Cats Go Crazy for Catnip' 276k / 67k subs. '5 Signs Your Cat Secretly Hates You' 29k / 2k subs / breakout 33 (negative-mirror still wins). HEALTH-WARNING angle breaking out: feline asthma 31k/4.3k + 'Silent Signs Your Cat Is In Pain' — pairs with our cached 'cat health' 73.29 GREEN. TT Paws story-voice 638k / 11.6% engagement (character voice works). DURATION PATTERN: winners are 9-30s, we ship 56s — test 25-35s loop format. Feed still dominated by funny-compilations (anti-pattern, skip).",
    "2026-06-10 (health rubric opener): +5 credits — 'signs your cat is in pain' 🟢 64.37/5,264/comp-22.4 (lowest-comp GREEN-light). Cluster: sick 61.95/5,021 + is-my-cat-in-pain 61.08/4,496 (~15k). Script for 12 Jun written = FIRST 33s short-format test (hook 4s + 5 signs x 5s + CTA 4s, seamless-loop music). Mind-blow #5: purr = self-soothing.",
    "2026-06-10 (health-warning check): +5 credits — 'signs your cat is in pain' 🟡 64.37/5,264/comp-22.4 (YELLOW-strong, LOW comp, fresh, breakout-proven). Cluster 'signs your cat is sick' 61.95/5,021, 'is my cat in pain' 61.08/4,496. Candidate for first-person '5 Silent Signs I'm In Pain' (gentle/kid-safe).",
-   "2026-06-12 (13 июн topic hunt): +20 credits (4x keyword_research on competitor-proven candidates). Tested belly-rubs/spoiled/elevator-butt/choose-human from williamcat backlog. WINNER: 'how cats choose their favorite person' 🟢🟢 66.16/28,344/comp-34.3 GREEN-JACKPOT — 3rd highest VOLUME in entire cache (after cat-sounds 110k + happy-cat 64k broad). Related: 'signs your cat loves you' 71.14/44,753 GREEN, 'cat love' 64.61/34,562. LOSERS: 'why cats don't like belly rubs' RED 53.99/4,355/comp-46.5 (weak despite Furever Stories 3.8M proof — CTR-only). 'signs you spoiled your cat' HARD RED 0/0. 'why cats lift their butt when you pet them' HARD RED 0/0. Lesson: competitor views ≠ search demand — 3 of 4 proven virals had ZERO search. Script written for 13 Jun."
+   "2026-06-12 (13 июн topic hunt): +20 credits (4x keyword_research on competitor-proven candidates). Tested belly-rubs/spoiled/elevator-butt/choose-human from williamcat backlog. WINNER: 'how cats choose their favorite person' 🟢🟢 66.16/28,344/comp-34.3 GREEN-JACKPOT — 3rd highest VOLUME in entire cache (after cat-sounds 110k + happy-cat 64k broad). Related: 'signs your cat loves you' 71.14/44,753 GREEN, 'cat love' 64.61/34,562. LOSERS: 'why cats don't like belly rubs' RED 53.99/4,355/comp-46.5 (weak despite Furever Stories 3.8M proof — CTR-only). 'signs you spoiled your cat' HARD RED 0/0. 'why cats lift their butt when you pet them' HARD RED 0/0. Lesson: competitor views ≠ search demand — 3 of 4 proven virals had ZERO search. Script written for 14 Jun (choose-human; pushed from 13 to 14 because 13 had no new upload — legacy Vagus re-enabled instead).",
+   "2026-06-14 (15 июн topic hunt — user 7-idea batch): +10 credits (2x keyword_research). Triaged user's 7 ideas: 5 DUPES (stare=15+24May, pain=12Jun, tail=2Jun, bathroom=17May, secretly-adores=cannibalizes trust-signs 31May+love-cluster). 2 fresh tested. WINNER: 'orange cat behavior' 🟢 63.09/30,546/comp-42.7 (seed 'orange cat personality'=0, pivoted to behavior — HUGE volume, 'orange cat one braincell' meme massive; related 'orange cat' 62/95,503). NOT a dup of 8-May orange-cats-are-boys (that=gender, this=personality). Script written for 15 Jun. RUNNER-UP: 'cat peeing outside litter box' 🟡 — seed 'why is my cat peeing outside the litter box' 57.87/4,970/comp-38.1 YELLOW, better via 'cat peeing outside litter box' 63.96/4,986/comp-22.9 (low comp) or 'cat behavior problems' 63.73/29,344. Viable, queued to backlog."
   ]
  },
  "queries": [
@@ -2705,8 +2706,46 @@
     {"keyword": "cat bonding", "overall": 63.61, "monthly": 9454},
     {"keyword": "cat emotions", "overall": 60.86, "monthly": 13046}
    ],
-   "verdict": "🟢🟢 GREEN-JACKPOT — 66.16 / 28,344 monthly / comp 34.3. 3rd highest volume keyword in entire cache. Emotional relational angle. Competitor proof williamcat 1.4M. Script written for 13 Jun.",
+   "verdict": "🟢🟢 GREEN-JACKPOT — 66.16 / 28,344 monthly / comp 34.3. 3rd highest volume keyword in entire cache. Emotional relational angle. Competitor proof williamcat 1.4M. Script written for 14 Jun.",
    "notes": "12 Jun topic hunt WINNER. First-person angle 'How I Chose YOU as My Human'. Counter-intuitive (cat chose YOU). Warm twist #5 'you were sad and I felt it'. Distinct from trust-signs (passive) and bond (active) — this is the SELECTION process."
+  },
+  {
+   "keyword": "orange cat personality",
+   "fetched": "2026-06-14",
+   "credits_spent": 5,
+   "seed": {
+    "volume": 0,
+    "competition": 28.8,
+    "overall": 28.48,
+    "monthly": 0
+   },
+   "top_related": [
+    {"keyword": "orange cat behavior", "overall": 63.09, "monthly": 30546},
+    {"keyword": "orange cat", "overall": 62.00, "monthly": 95503},
+    {"keyword": "orange cats", "overall": 55.78, "monthly": 20087},
+    {"keyword": "ginger cats", "overall": 50.87, "monthly": 4220}
+   ],
+   "verdict": "🟢 GREEN via pivot — seed 'orange cat personality' is 0/dead, but 'orange cat behavior' 63.09/30,546/comp-42.7 is a big-volume winner. The 'orange cat = one braincell' meme is massive. Script written for 15 Jun ('Why We Orange Cats Are Built Different', first-person).",
+   "notes": "14 Jun topic hunt WINNER. NOT a dup of 8-May orange-cats-are-boys (gender) — this is personality/behavior. Brain is orange → first-person ideal."
+  },
+  {
+   "keyword": "why is my cat peeing outside the litter box",
+   "fetched": "2026-06-14",
+   "credits_spent": 5,
+   "seed": {
+    "volume": 55.18,
+    "competition": 38.1,
+    "overall": 57.87,
+    "monthly": 4970
+   },
+   "top_related": [
+    {"keyword": "cat peeing outside litter box", "overall": 63.96, "monthly": 4986},
+    {"keyword": "cat behavior problems", "overall": 63.73, "monthly": 29344},
+    {"keyword": "cat behavior explained", "overall": 70.24, "monthly": 87786},
+    {"keyword": "cat health", "overall": 63.87, "monthly": 49724}
+   ],
+   "verdict": "🟡 YELLOW-strong — seed 57.87/4,970/comp-38.1. Better via 'cat peeing outside litter box' 63.96/4,986/comp-22.9 (low comp) or frame under 'cat behavior problems' 63.73/29,344. Viable, fresh, health/behavior angle. Queued to backlog (runner-up to orange cat).",
+   "notes": "14 Jun topic hunt runner-up. Angle: 'not revenge — a cry for help' (medical/stress, not spite). Good first-person health candidate."
   }
  ],
  "non_keyword_calls": [
