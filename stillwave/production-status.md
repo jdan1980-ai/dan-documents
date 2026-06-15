@@ -90,6 +90,50 @@ Production reuse — 50/10 ships fast because almost everything is locked from 2
 
 A/B benchmark on D7 of 50/10 — does the bigger-keyword market + study-timer tag translate to lift over 25/5? If yes → lock 50/10 as the primary Power Hour Pomodoro format. If no → 25/5 stays.
 
+### Power Hour Pomodoro 50/10 — published Wed Jun 10, 09:00 MSK (`V4xwN0RRdpw`) + Shorts Jun 11 (`t_valshIMi4`)
+
+**Long-form D5 read (2026-06-15):** 24 views, 2 likes, 1 comment, like-rate **8.3% 🔥** — HIGHEST engagement on the channel ever recorded. But raw views WEAK (×0.5 vs 25/5 at D5=52).
+
+**Shorts D4 read:** 11 views, 0 likes, 1 comment — dead (same fate as 25/5 Shorts: cross-promo doesn't work on 50-sub channels).
+
+**🚨 Two critical issues found 2026-06-15:**
+
+1. **Topic categorization is WRONG — `Lifestyle (sociology)`** instead of `Music` for both 50/10 videos. YouTube put them in the wrong recommendation pool, killing music-cluster discovery. Root cause: the published long-form title was changed from our locked `Pomodoro Study Timer 50/10 — 2H Deep Focus Music | Tokyo Rain for Coding & Studying` to **`Need to Focus? 2 Hours of Tokyo Rain & Productivity | Pomodoro Study Timer 50/10`** — the productivity-question hook pushed it into lifestyle classification. The word "Music" disappeared from the first half of the title. Algorithm reads first words as most important. **Fix:** rename to our locked title to recover Music classification.
+
+2. **Shorts description is BROKEN BOILERPLATE.** Some AI/app substituted in unrelated Lightroom/Premiere content: `"Explore the nuances of color temperature and visual comfort in our latest video, showcasing how various lighting conditions can impact a scene. We demonstrate effective techniques for editing color in Lightroom and how to color grade using tools like Adobe Premiere Pro."` Completely off-topic. **Fix:** replace with the proper Pomodoro 50/10 Shorts description from script §SHORTS PACKAGE.
+
+**Main lesson from 50/10 launch:**
+
+The 8.3% like-rate is **the strongest engagement signal we've ever had** — the format IS working for the audience that finds it. The discovery layer is the bottleneck, not the content. This validates pushing forward with the channel-positioning + Topic-categorization fixes rather than abandoning the Pomodoro thesis.
+
+### Pomodoro 25/5 — D13 read (2026-06-15)
+
+- D3: 52 · D6: 60 · **D13: 65** (Δ +5 in 7 days, ~0.7/day) — full plateau
+- Like-rate 3.1% (still solid)
+- Cross-promo Shorts at 11 views — totally dead, did not re-ignite long-form
+- Verdict: not a flop, not a hit. Beats 963, beats Sound Bath rebrand. Loses to Kyoto's D13 ~150.
+
+### Channel snapshot 2026-06-15
+
+- **Subs: 50** (+1 in 11 days: 49 on Jun 4 → 50 on Jun 12, then static) — practical plateau
+- Views: 5690 → 5794 (+104 in 11 days = ~9.5/day baseline drift)
+- 3 videos uploaded in window (25/5 Shorts, 50/10 long, 50/10 Shorts)
+- All recent uploads got the same plateau treatment from the algorithm — channel-authority bottleneck is real
+
+### 🔴 Key lesson (2026-06-15) — Topic categorization must be controlled by title
+
+Music videos MUST classify as `Music` topic. If YouTube classifies a video as `Lifestyle (sociology)` (as it did for both 50/10 entries), the video is routed to lifestyle-vlog recommendation pool, where ambient/focus music has no audience match.
+
+**Topic classification is driven by:**
+1. **First words of title** — front-load `Music` or genre keyword (`Deep Focus Music`, `Zen Music`, `Ambient Music`)
+2. Tags ordering — early tags weigh more
+3. Description content
+4. Channel-level category
+
+Our locked Power Hour Pomodoro title format `Pomodoro [Modifier] [N/N] — 2H Deep Focus Music | Tokyo Rain ...` puts `Music` in the second clause. The 50/10 publish swapped to `Need to Focus? 2 Hours of Tokyo Rain & Productivity | Pomodoro Study Timer 50/10` — no "Music" in first half, "Productivity" loaded — boom, classified as Lifestyle.
+
+**Rule going forward:** Every long-form music video title MUST contain `Music` or a clear music-genre word (`Zen Music`, `Focus Music`, `Ambient`, `Lofi`) in the first 50% of the title. Question hooks like `Need to Focus?` are NOT to be used for music classification reasons — they read as lifestyle/productivity content.
+
 ### Power Hour Tokyo Sound Bath — rebrand applied (2026-05-21)
 
 Rebrand of `-1RE1P98_u8` went live 21.5 (title + tags + description + DEEP CALM thumbnail + Power Hour playlist all applied; hashtags last to add). Review schedule — **do not judge before day 7** (BrainCatAI Lesson 3: videos catch the algo push days 4–14):

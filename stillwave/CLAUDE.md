@@ -430,6 +430,24 @@ StillWave — Lantern Glow Focus | 3H Late Night Coding
 
 **Иероглиф stays in:** description body, playlist titles, tags. **Removed from:** video title, thumbnail.
 
+### 🚨 LOCKED RULE — Title controls Topic Categorization (lesson 2026-06-15)
+
+**Every long-form music video title MUST contain the word `Music` or a clear music-genre keyword (`Zen Music`, `Focus Music`, `Ambient Music`, `Lofi`) within the FIRST 50% of the title.** YouTube classifies videos by reading title-first; if `Music` is absent up front, the algorithm can mis-classify as `Lifestyle (sociology)` or another non-music category, killing music-cluster discovery.
+
+**What happened:** Pomodoro 50/10 (`V4xwN0RRdpw`, Jun 10) was published with the title `Need to Focus? 2 Hours of Tokyo Rain & Productivity | Pomodoro Study Timer 50/10` — productivity-question hook front-loaded, `Music` absent from first half. YouTube classified the video as **Lifestyle (sociology)** instead of **Music**. As a result the video got 24 views in 5 days despite 8.3% like-rate (the strongest engagement signal we've ever recorded on the channel). The audience that DID find it loved it; the algorithm never showed it to enough people because it sat in the wrong recommendation pool.
+
+**Forbidden in titles:**
+- ❌ Question hooks like `Need to Focus?`, `Can You Focus?`, `Want to Stop Overthinking?` — read as lifestyle/productivity content
+- ❌ Productivity-stack words front-loaded: `Productivity`, `Get Things Done`, `Boost Your`
+- ❌ Generic outcome promises without genre anchor: `Stay in the Zone for 2 Hours`
+
+**Required in titles:**
+- ✅ Genre anchor in first half: `Music`, `Zen Music`, `Ambient`, `Focus Music`, `Deep Focus Music`, `Sleep Music`, `Meditation Music`, `Lofi`
+- ✅ Concept/topic concept can lead (`MUSHIN — 無心 | Japanese Zen Music for No-Mind State`) — note `Music` arrives by char ~30
+- ✅ Keyword + Music: `Pomodoro Study Timer 50/10 — 2H Deep Focus Music | Tokyo Rain for Coding & Studying`
+
+**Verification step before publish:** Open the published video page → scroll down → check the topic categories surfaced (visible in VidIQ video metadata). If anything other than `Music` shows, RENAME IMMEDIATELY and re-check 48h later.
+
 ## 🎨 Design rules
 
 - **Photorealistic cinematic** for Power Hour (penthouse) · **Studio Ghibli illustration** for Healing Hour (see the Healing Hour aesthetic spec). Match the visual to the cluster.
