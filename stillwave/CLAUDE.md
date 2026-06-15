@@ -185,6 +185,107 @@ Keep the existing `1 Hour Healing Uninterrupted Vol. N` series tag in the subtit
 
 ---
 
+## 🌀 Kanji-Concept Series — competitor-template spec (NEW, locked 2026-06-15)
+
+**Why this exists:** Healing Hour Vol.1 (Kyoto) + Vol.2 (Mount Koya) both plateaued at <160 views despite our Ghibli + Hz approach. Competitor analysis (2026-06-15) of the winning Japanese ambient/zen cluster — Hikari Zen TAO 973K views, RollinSound BUDŌ/TORA/IKIGAI 100K+, Seiiki KAMI 428K at 6.56K subs — revealed a clear shared template we were missing. Our two prior Healing Hour failures were ABOUT THIS TEMPLATE GAP, not about the music. This series implements the winning template.
+
+### Style — locked
+
+- **Photoreal cinematic** (NOT Ghibli painterly) — like a still frame from a Kurosawa film. Data-driven choice: 5 of 6 viral competitor hits used photoreal or photo-painterly mix, NOT Ghibli.
+- **Lone Buddhist monk OR samurai, back-to-camera** — face never visible, viewer projects themselves onto the figure. Universal across all winning thumbnails.
+- **ONE massive symbolic visual hook** dominating the upper two-thirds of the frame — competitor examples: giant tiger mural (Tiger Temple), giant tiger head + samurai (TORA), dragon mural (DAO), gods mural (KAMI), samurai armor (BUDŌ), samurai walking through red flower field (TAO Path of Samurai). For us: **ENSO (zen circle), single brush stroke kanji on hanging scroll, sacred mythological mural, animal-spirit fog**. Pick ONE per video.
+- **Single dramatic location** — temple interior at dawn, mountain peak at sunrise, zen rock garden in fog, mirror pond, red flower field. Atmospheric depth obligatory.
+- **One dominant warm palette** — golden dawn / warm rust / sepia / one-color-pop on dark moody background. Mostly muted dark interior + ONE warm light accent (incense light beam, lantern glow, sunrise).
+- **Mood:** profound stillness, contemplation, mystery — NOT cheerful relaxation. Heavy emotional weight.
+- **Composition:** monk/samurai in LOWER third, visual hero (mural/ENSO/spirit) in UPPER two-thirds — the kanji text overlay will go OVER the visual hero (upper-center), not in lower-left.
+
+### Title format — locked
+
+```
+[KANJI ROMAJI] — [漢字] | Japanese [Zen/Ambient] Music for [outcome 1, outcome 2, outcome 3]
+```
+
+Examples (taken — DO NOT reuse):
+- TAO / DAO (道) — Hikari Zen (973K) + Samurai Relax + Hikari Zen 103K
+- BUDŌ (武道) — RollinSound
+- KAMI (神) — Seiiki (428K)
+- TORA (虎) — RollinSound (739K)
+- SHORYŪ (昇龍) — Lonely Samurai Sanctuary
+- IKIGAI (生き甲斐) — RollinSound (289K)
+
+Free for our use (rank-ordered by crossover appeal):
+- **MUSHIN (無心)** — no-mind state (Bruce Lee anchor) — **NEXT VIDEO**
+- **SATORI (悟り)** — sudden awakening
+- **YUGEN (幽玄)** — profound mystery
+- **KENSHO (見性)** — seeing one's true nature
+- **KOAN (公案)** — zen paradox
+- **MAKOTO (誠)** — sincerity / truth
+- **HARA (腹)** — inner center (martial arts gut)
+- **WABI-SABI (侘寂)** — acceptance of imperfection
+- **GAMAN (我慢)** — endurance / perseverance
+- **KAIZEN (改善)** — continuous improvement (business crossover!)
+
+Hard rule: title ≤ 90 chars so YouTube doesn't truncate. NO Hz numbers in title (concept-driven, not frequency-driven). NO hashtags in title (per Karena).
+
+### Description format — Hikari-style (locked from TAO 973K teardown)
+
+Strict 5-block structure:
+
+1. **Tags-as-prose paragraph at TOP** — keyword stuffing for the algorithm. Comma-separated list of all main tags, ending with "— [scene description in plain English]." The algorithm parses first text as most important; we front-load keywords here.
+
+2. **Kanji concept poetry (3 lines)** — short philosophical gloss of the kanji meaning. Example: `🌀 MUSHIN means "the mind without mind." / A focus not achieved by trying, / but revealed when thinking stops.`
+
+3. **Scene in lyrical prose (5-6 lines)** — paint the picture of what's in the video. NO bullet lists. NO "Built for:" sections. Just atmosphere as poetry.
+
+4. **Tracklist with mood-poetic names** — each track named as a small zen koan or scene image (`Dawn at the Temple`, `Breath of Incense`, `The Brush Completes the Circle`). Never use Hz, never use technical music terms.
+
+5. **Closing 2-line poetry + ONE simple subscribe** — `🌀 Let the brush complete the circle. / 🍃 Let one thought pass. Then the next. / / Subscribe for more Japanese ambient meditation journeys 🌿`
+
+**OVERRIDES of our other rules:**
+- ❌ **NO "Best for:" bullet lists** (Hikari doesn't use them)
+- ❌ **NO hashtags in description body** (Hikari uses zero; only emoji separators)
+- ❌ **NO heavy CTA stack** (no `🔔 + 👍 + 💬 + Share`) — one simple subscribe line
+- ❌ **NO Hz section** (`🎵 528 Hz | The Miracle Frequency`) — concept-driven, no frequency mysticism
+- ❌ **NO `▶ Subscribe to StillWave for [genre] every week`** — too brand-heavy; use Hikari's `Subscribe for more Japanese ambient meditation journeys 🌿`
+
+### Tag format — Hikari Zen formula (locked from TAO teardown)
+
+Front-load BROAD tags by VidIQ score, NOT by brand-rule:
+
+- **Brand: 1 tag (~3%)** — just `stillwave`. Hikari uses zero brand tags; we keep 1 for identity minimum.
+- **Broad HIGH-SCORE: ~13 tags (~46%)** — pick HIGH-SCORE broad keywords via VidIQ tag-score check before upload. Hikari front-loaded `focus music` 84.7 / `background music` 82.1 / `meditation music` 79.7 / etc. **Always check scores, don't guess.**
+- **Instrument: ~3 tags (~10%)** — `shakuhachi flute music`, `flute music`, `koto music` (captures instrument-search traffic)
+- **Concept-narrow: ~7 tags (~25%)** — specific to this video's kanji (`mushin`, `no mind state`, `zazen meditation`) + general zen narrow (`japanese meditation music`, `zen meditation music`, `mindfulness music`, `bonsho temple bell`)
+- **Mood/feeling: ~3 tags (~10%)** — `peaceful ambiance`, `serene ambience`, `evening relaxation`
+- **Scene-description: 1 tag** ⚡ — full-sentence scene description (Hikari trick: gives the AI semantic context). Example: `buddhist monk meditating in dawn temple with giant enso zen circle scroll and incense smoke`
+- **Celeb-anchor: 1 tag** ⚡ — `joe hisaishi` (Ghibli/Kurosawa composer — our Japanese counterpart to RollinSound's `hans zimmer` trick)
+
+Karena's 20/20/40-50 brand-heavy rule is **overridden** for Kanji-Concept series.
+
+### Thumbnail format — KANJI + ROMAJI upper-center (NOT figure-8 lower-left)
+
+- **Background:** the NanoBanana 16:9 image (monk + symbolic visual hook). NO additional compositing — image IS the thumbnail with text on top.
+- **Text 1 — KANJI (LARGE):** `[漢字]` rendered LARGE in upper-center, in deep black sumi-ink calligraphic style (like a brush stroke). Should read AS IF the kanji is brushed onto the visual hero (the ENSO, the mural, etc.).
+- **Text 2 — ROMAJI (medium):** `[ROMAJI]` rendered below the kanji in elegant cream `#F5EAD2` serif (Liberation Serif Bold). Centered under the kanji.
+- **No tag/Hz/duration text** — clean. Just the concept + symbol.
+
+> **Why deviate from figure-8 lower-left?** Because competitor data is overwhelming: KAMI, TORA, BUDŌ, TAO, SHORYŪ, IKIGAI all use upper-center kanji + romaji over the visual hero. The Kanji-Concept format has its own brand-recognition logic — the kanji IS the click magnet, not the negative-space text overlay. Figure-8 stays the rule for Power Hour Pomodoro + Healing Hour Ghibli (other series).
+
+### Tracklist naming style
+
+- Each track = 3-6 words, evocative scene image or small zen koan
+- NEVER use Hz numbers, BPM, technical music terms, or Solfeggio references
+- Examples (Hikari TAO style): `Enter the Sacred Way` · `Breath of Incense` · `Silent Tiger Presence` · `Path Without Thought`
+- Our MUSHIN style: `Dawn at the Temple` · `First Bell of Morning` · `The Brush Completes the Circle` · `One Thought Passes`
+
+### Channel-level positioning (do this once)
+
+- Channel description should mention: `Japanese zen ambient music` + `meditation, focus, sleep` + at least one Kanji-Concept video as featured
+- Channel keywords (Studio → Settings → Channel → Basic info): `zen music, japanese zen music, ambient music, meditation music, focus music, study music, sleep music, japanese ambient music, shakuhachi music, zazen meditation, mindfulness`
+- Create dedicated playlist: `Kanji-Concept Series — Japanese Zen Music` and add each video. Algorithm uses playlists as topic signal.
+
+---
+
 ## 🛠️ Pipeline
 
 > **⚡ CURRENT workflow (2026-05+): FULL ALBUM, assembled in CapCut — no ffmpeg, no 8-sec loop.**

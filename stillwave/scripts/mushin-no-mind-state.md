@@ -99,55 +99,59 @@ MUSHIN — 無心 | Japanese Zen Music for No-Mind State, Deep Focus & Inner Sti
 
 (86 chars. Front-loads: **MUSHIN (kanji concept)** + **無心** (kanji symbol) — matches viral competitor template (TAO/BUDŌ/KAMI/TORA). Outcome stack: No-Mind State + Deep Focus + Inner Stillness = wide audience appeal. Like all Hikari Zen / RollinSound hits — concept first, outcomes second.)
 
-## 8. 📝 YouTube Description (copy-paste ready)
+## 8. 📝 YouTube Description (Hikari-style, copy-paste ready)
+
+> Format learned from Hikari Zen TAO (973K views): tags-as-prose at TOP (SEO keyword stuffing) → kanji-meaning poetry (3 lines) → scene in lyrical prose (5-6 lines, NO bullet list) → tracklist with mood-poetic names → closing 2-line poetry + ONE simple subscribe. **NO "Best for:" lists. NO hashtags in description body. NO heavy CTA stack.**
 
 ```
-MUSHIN — 無心 | Japanese Zen Music for No-Mind State, Deep Focus & Inner Stillness
+Zen music, relaxing music, meditation music, ambient music, focus music, study music, sleep music, background music, japanese music, flute music, shakuhachi flute music, calming sounds, deep relaxation, stress relief, mindfulness music, japanese ambient music, relaxing japanese music, zen meditation music, zen ambience, calm music, deep focus music, meditation background music, mushin, no mind state, zazen meditation, bonsho temple bell — a buddhist monk meditating in an ancient dawn temple with a giant ENSO zen circle scroll and drifting incense smoke.
 
-MUSHIN (無心) — the "mind without mind" — is the zen state when thought stops and pure awareness remains. The Japanese sword saint Miyamoto Musashi called it the deepest level of mastery. Bruce Lee echoed it: "empty your mind, be formless, shapeless — like water."
+🌀 MUSHIN means "the mind without mind."
+A focus not achieved by trying,
+but revealed when thinking stops.
 
-This 2-hour zen ambient session is built to carry you into that stillness. Soft shakuhachi bamboo flute breaths between long silences. A distant temple bell (bonsho) marks the slow heartbeat of the morning. No melody, no climax — just the long exhale of a mind dissolving into the ENSO (円相), the zen circle of completeness and emptiness.
+In an ancient wooden temple at dawn,
+a Buddhist monk kneels in silent zazen.
+Behind him, painted in a single confident brush stroke,
+the ENSO — the zen circle of completeness and emptiness.
+Incense smoke rises slowly into a golden shaft of morning light,
+drifting like thoughts dissolving into silence.
 
-Sit on the zabuton with the monk in the dawn temple. Watch the incense rise into the golden light. Let one thought pass, then the next. Let MUSHIN come.
+🌀 Tracklist — MUSHIN
 
-Best for:
-• Deep zazen meditation and mindfulness
-• Stopping the overthinking mind, releasing rumination
-• Deep focus, study, coding, writing — the zone of flow
-• Sleep onset, anxiety calm, nervous system reset
-• Yoga, breathwork, tea ceremony, journaling
-• Quiet morning practice, evening wind-down
+00:00 — Dawn at the Temple
+[fill in 20-24 mood-poetic track names after Suno export — e.g. "First Bell of Morning", "Breath of Incense", "The Brush Completes the Circle", "Silent Pine Wind", "Light Through the Shoji", "Where the Mind Was", "The Empty Cup", "Mountain Still", "One Thought Passes", "Stillness Within", etc.]
 
-🌀 ENSO — 円相 | The Zen Circle
-The brush-painted circle on the scroll behind the monk is the ENSO — the most iconic symbol of zen. A single brushstroke painted in one breath, slightly imperfect, representing the moment of enlightenment, the void, and absolute completeness all at once.
+🌀 Let the brush complete the circle.
+🍃 Let one thought pass. Then the next.
 
-🎵 Tracklist
-[fill in track timecodes after Suno export — derive start of track N from end of track N-1; last track should end at ~2:00:00]
-
-▶ Subscribe to StillWave for new Japanese zen music every week.
-🔔 Tap the bell to catch the next session.
-
-#mushin #無心 #japanesezenmusic #zenmusic #zazen #meditationmusic #shakuhachi #deepfocus #stopoverthinking #stillness #ambient #stillwave #作業用bgm
+Subscribe for more Japanese ambient meditation journeys 🌿
 ```
 
-> Tracklist timecodes are TRACK START times, fill in after Suno export. Last track ends at ~2:00:00. The chapters can also be themed: `Dawn in the Temple`, `The Bell at the Bonsho`, `Smoke Rising in Light`, `The Stroke of the Brush`, `Empty as the Sky`, `Mountain Wind`, `No-Mind`, etc.
+> Tracklist timecodes are TRACK START times, fill in after Suno export. Last track ends at ~2:00:00. Theme each name as a small zen koan or scene image — never use Hz numbers, never use technical music terms.
 
-## 9. 🏷️ Tags (hybrid Hikari Zen BROAD + a few CONCEPT-narrow)
+## 9. 🏷️ Tags (Hikari Zen formula — front-loaded by VidIQ score)
 
 ```
-zen music, japanese zen music, meditation music, ambient music, japanese ambient music, relaxing japanese music, focus music, deep focus music, study music, sleep music, background music, calming sounds, deep relaxation, stress relief, mindfulness music, zazen meditation, mushin, no mind, no mind state, japanese meditation music, shakuhachi flute music, koto music, zen ambient, bonsho temple bell, ronin meditating in a sacred temple with a giant enso scroll and drifting incense, joe hisaishi, stillwave
+focus music, background music, meditation music, japanese music, ambient music, relaxing music, sleep music, study music, japanese ambient music, zen music, stress relief, deep relaxation, shakuhachi flute music, flute music, koto music, mushin, no mind state, zazen meditation, japanese meditation music, zen meditation music, mindfulness music, inner peace, bonsho temple bell, peaceful ambiance, serene ambience, evening relaxation, buddhist monk meditating in dawn temple with giant enso zen circle scroll and incense smoke, joe hisaishi, stillwave
 ```
 
-Distribution (modeled on Hikari Zen 973K hit, NOT Karena brand-heavy):
-- **Brand: 1** (~4%) — `stillwave` (we sacrifice brand-weight for max discovery — Hikari proved this works on small channels)
-- **Broad: 13** (~50%) — `zen music`, `japanese zen music`, `meditation music`, `ambient music`, `japanese ambient music`, `relaxing japanese music`, `focus music`, `deep focus music`, `study music`, `sleep music`, `background music`, `calming sounds`, `deep relaxation`
-- **Narrow / concept / instrument: 11** (~42%) — `stress relief`, `mindfulness music`, `zazen meditation`, `mushin`, `no mind`, `no mind state`, `japanese meditation music`, `shakuhachi flute music`, `koto music`, `zen ambient`, `bonsho temple bell`
-- **Scene-description tag: 1** ⚡ — `ronin meditating in a sacred temple with a giant enso scroll and drifting incense` (Hikari Zen trick — gives the AI semantic context of the scene)
-- **Celeb-anchor: 1** ⚡ — `joe hisaishi` (Ghibli/Kurosawa composer — closest Japanese counterpart to the Hans Zimmer trick RollinSound uses)
+Distribution (modeled on Hikari Zen 973K hit — VidIQ score data verified 2026-06-15):
+- **Brand: 1 tag (~3%)** — `stillwave` (Hikari has ZERO brand tags; we keep 1 as minimum identity)
+- **Broad HIGH-SCORE: 13 (~46%)** — front-loaded by VidIQ score: `focus music` (84.7) · `background music` (82.1) · `meditation music` (79.7) · `japanese music` (79.7) · `ambient music` (78.7) · `relaxing music` (78.7) · `sleep music` (74.3) · `japanese ambient music` (73.5) · `study music` (70.9) · `stress relief` (70.2) · `zen music` (69) · `flute music` (69.5) · `deep relaxation` (64.1)
+- **Instrument: 3 (~10%)** — `shakuhachi flute music` (67.8), `flute music`, `koto music` (catches instrument-search traffic)
+- **Concept-narrow / MUSHIN-specific: 7 (~25%)** — `mushin`, `no mind state`, `zazen meditation`, `japanese meditation music`, `zen meditation music`, `mindfulness music`, `bonsho temple bell`, `inner peace`
+- **Mood/feeling: 3 (~10%)** — `peaceful ambiance`, `serene ambience`, `evening relaxation`
+- **Scene-description: 1 ⚡** — `buddhist monk meditating in dawn temple with giant enso zen circle scroll and incense smoke` (Hikari semantic-context trick)
+- **Celeb-anchor: 1 ⚡** — `joe hisaishi` (Hikari trick borrowed from RollinSound's `hans zimmer` — closest Japanese counterpart)
 
-## 10. 🏷️ Hashtags
+> **Karena 20/20/40-50 brand-heavy rule does NOT apply to Kanji-Concept series.** Hikari Zen proved zero-brand + broad-HIGH-SCORE-front-loaded wins on small channels. See CLAUDE.md Kanji-Concept Series Rules.
 
-Top-3 (description body, NOT title per Karena #1): `#mushin #無心 #japanesezenmusic`. Extended set in description body: `#mushin #無心 #japanesezenmusic #zenmusic #zazen #meditationmusic #shakuhachi #deepfocus #stopoverthinking #stillness #ambient #stillwave #作業用bgm`
+## 10. 🏷️ Hashtags — NONE in description body for this series
+
+Per Hikari Zen TAO formula: **no hashtag block in description body.** Only emoji visual separators (🌀, 🍃, 🌿). This is a deliberate Kanji-Concept series rule — for healing/zen ambient, hashtag clutter breaks the contemplative mood and YouTube doesn't reward them in this niche.
+
+(Karena #1 — hashtags-in-body-not-title — is overridden for Kanji-Concept series.)
 
 ## 11. 📌 Pinned Comment
 
