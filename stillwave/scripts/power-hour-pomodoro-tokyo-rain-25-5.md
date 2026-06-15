@@ -6,6 +6,7 @@
 
 - **Title:** Pomodoro Study With Me — Deep Focus Music | Tokyo Rain 25/5 for Coding & Studying
 - **Series:** Power Hour (Tokyo penthouse focus marathon)
+- **Playlist (add to in Studio):** `Power Hour — Deep Focus & Pomodoro`
 - **Format:** Long-form, **2H total**, classic Pomodoro: **25 min focus / 5 min break × 4 cycles** (25/5 ×4)
 - **Aesthetic:** Tokyo penthouse + rain on glass + MacBook (code editor) + **signature: 砂時計 sunadokei hourglass on the desk** (Power Hour locked signature object — per CLAUDE.md)
 - **Outcome owned:** focused work / classic Pomodoro / coding / studying — distinct from the Sound Bath (deep sleep) and Tokyo Rain/Snowfall Marathon

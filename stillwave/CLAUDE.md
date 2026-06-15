@@ -48,6 +48,10 @@ Required four playlists for algorithmic clarity — algorithm reads playlists as
 | **Healing Hour — Solfeggio Frequencies** | Kyoto 528 + 963 Mount Koya + 528 Hz DNA Repair + 639 Hz Fuji + 852 Hz Monks' Secret + 432 Hz Kyoto Rain |
 | **Japanese Zen Soundscapes** | TAKUMI + KIRI + YORU + SEIJAKU + HI 火 + MA 間 + AMAOTO 雨音 + Water Memories + Bamboo Rain + Ancient Japan Meditation + Forest Sounds + Samurai Zen + Shakuhachi |
 
+### 🔒 Script must declare its Playlist in Meta
+
+Every `stillwave/scripts/<slug>.md` MUST have a `Playlist (add to in Studio): X` line in its Meta block, where X is one of the 4 locked playlists above. This removes the "which playlist?" question at upload time — you just open the script and copy.
+
 ### 🚨 Pre-publish checklist — verify before scheduling EVERY new video
 
 Before any new upload goes live, confirm:
@@ -56,7 +60,7 @@ Before any new upload goes live, confirm:
 - [ ] **Topic Categories will be `Music`** — title front-loaded with music keyword, productivity/lifestyle hooks avoided
 - [ ] **Channel Keywords already set** (one-time, verify if changed)
 - [ ] **Channel Description already set** (one-time, verify if changed)
-- [ ] **New video added to its correct Playlist** (Kanji-Concept / Power Hour / Healing Hour / Japanese Zen)
+- [ ] **New video added to its correct Playlist** per the script Meta `Playlist` line (Kanji-Concept / Power Hour / Healing Hour / Japanese Zen)
 - [ ] **"Not for kids" = Yes** (Karena #5)
 - [ ] **No hashtags in title** (Karena #1)
 - [ ] **First publish = Scheduled or Unlisted, never Public-direct** (Karena #4)
