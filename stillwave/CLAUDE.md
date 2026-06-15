@@ -11,6 +11,61 @@ This file is the single source of truth for the StillWave channel. All productio
 - **Tagline:** Sleep · Focus · Meditation · Deep Work
 - **Cadence:** 4 videos / week
 
+---
+
+## 🚨 Channel-level positioning (LOCKED 2026-06-15 — verify before EACH upload)
+
+Channel-level signals tell the YouTube algorithm what the channel is about. Without proper channel positioning, even a great video lands in the wrong recommendation pool (we proved this with Pomodoro 50/10 — 8.3% like-rate, 24 views at D5, classified as Lifestyle instead of Music).
+
+**Three mandatory channel-level fixes — done ONCE, then verified pre-launch each new video:**
+
+### 1. Channel Keywords (Studio → Settings → Channel → Basic info → Keywords)
+
+Locked set (23 keywords, covers both Healing & Power Hour clusters):
+```
+zen music, japanese zen music, japanese ambient music, meditation music, focus music, deep focus music, study music, sleep music, ambient music, relaxing music, background music, japanese meditation music, shakuhachi music, mindfulness music, zen meditation music, calming music, pomodoro music, study with me, study timer, lofi pomodoro, work music, healing music, stillwave
+```
+
+### 2. Channel Description (Studio → Settings → Channel → About → Description)
+
+Hikari-style — lean, poetic, single CTA:
+```
+StillWave — Japanese ambient music for deep focus, meditation, and sleep.
+
+Slow shakuhachi flutes. Distant temple bells. The brush completes the circle. Each session is a small zen koan — long-form ambient soundscapes from ancient temples, mountain valleys, and Tokyo penthouses at night.
+
+Subscribe for new Japanese zen and focus sessions every week 🌿
+```
+
+### 3. Playlists (Studio → Content → Playlists → Create)
+
+Required four playlists for algorithmic clarity — algorithm reads playlists as topic clusters and recommends accordingly. Add every existing video to its correct playlist:
+
+| Playlist | Contents |
+|----------|----------|
+| **Kanji-Concept Series** | MUSHIN + future SATORI / YUGEN / KENSHO etc. |
+| **Power Hour — Deep Focus & Pomodoro** | Pomodoro 25/5 + 50/10 + Tokyo Rain Marathon + Tokyo Snowfall Coding + Sound Bath rebrand |
+| **Healing Hour — Solfeggio Frequencies** | Kyoto 528 + 963 Mount Koya + 528 Hz DNA Repair + 639 Hz Fuji + 852 Hz Monks' Secret + 432 Hz Kyoto Rain |
+| **Japanese Zen Soundscapes** | TAKUMI + KIRI + YORU + SEIJAKU + HI 火 + MA 間 + AMAOTO 雨音 + Water Memories + Bamboo Rain + Ancient Japan Meditation + Forest Sounds + Samurai Zen + Shakuhachi |
+
+### 🚨 Pre-publish checklist — verify before scheduling EVERY new video
+
+Before any new upload goes live, confirm:
+
+- [ ] **Title contains `Music` (or genre word) in the first 50% of chars** (Topic-Categorization rule, lesson 2026-06-15)
+- [ ] **Topic Categories will be `Music`** — title front-loaded with music keyword, productivity/lifestyle hooks avoided
+- [ ] **Channel Keywords already set** (one-time, verify if changed)
+- [ ] **Channel Description already set** (one-time, verify if changed)
+- [ ] **New video added to its correct Playlist** (Kanji-Concept / Power Hour / Healing Hour / Japanese Zen)
+- [ ] **"Not for kids" = Yes** (Karena #5)
+- [ ] **No hashtags in title** (Karena #1)
+- [ ] **First publish = Scheduled or Unlisted, never Public-direct** (Karena #4)
+- [ ] **Description format matches series spec** (Kanji-Concept = Hikari-style; Power Hour = bullet-list OK)
+
+48h after publish: verify Topic Categories via VidIQ API or VidIQ Chrome extension. If wrong → rename title immediately.
+
+---
+
 ## ⏳ Format transition plan (May 2026 — June 2026)
 
 > **Why gradual?** YouTube's algorithm takes 2–3 weeks to "re-categorize" a channel after a niche shift. Sudden change kills 30–50% of impressions. We phase the new format in slowly.
