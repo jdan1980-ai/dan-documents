@@ -119,8 +119,44 @@ drifting like thoughts dissolving into silence.
 
 🌀 Tracklist — MUSHIN
 
-00:00 — Dawn at the Temple
-[fill in 20-24 mood-poetic track names after Suno export — e.g. "First Bell of Morning", "Breath of Incense", "The Brush Completes the Circle", "Silent Pine Wind", "Light Through the Shoji", "Where the Mind Was", "The Empty Cup", "Mountain Still", "One Thought Passes", "Stillness Within", etc.]
+00:00 — Before the First Breath
+02:56 — The Bonsho Speaks Once
+06:01 — Incense Finds the Light
+09:20 — The Paper Glows from Within
+11:35 — A Slow Floor of Gold
+15:14 — Settling Like Sand
+18:34 — Pine Voice in the Eaves
+21:54 — Hands Forget the Hands
+25:29 — The Bowl Holds Its Note
+29:02 — Smoke Becomes Sky
+32:25 — Empty Mirror, No Face
+34:29 — One Flute, One Breath
+37:13 — The Brush Closes the Circle
+39:42 — Beneath the Stone Mountain
+41:57 — Where the Thought Was
+44:32 — Cedar Holding the Hour
+48:26 — The Long Out-Breath
+51:25 — Cold Floor, Warm Heart
+54:10 — A Cup Without Bottom
+57:08 — Halfway Toward Nothing
+01:00:37 — Mountain Mist Returns
+01:03:19 — Floorboards Breathing
+01:06:09 — One Thought Passes
+01:09:43 — A Bell Beyond the Wall
+01:12:43 — Light Moves Without Hurry
+01:16:08 — The Hat Tilts a Fraction
+01:18:33 — Pine Shadow Lengthens
+01:21:42 — Mind Without Mind
+01:24:55 — The Sky Drifts In
+01:28:05 — Form, Then Formless
+01:31:49 — Stillness Settles Deeper
+01:35:39 — Where the Brush Began
+01:39:15 — The Circle Holds Itself
+01:43:09 — Light Through the Paper Walls
+01:46:19 — The Last Bell, Far Away
+01:51:08 — Dissolving Into the Dawn
+01:55:07 — No Beginning, No End
+01:58:27 — The Stillness That Remains
 
 🌀 Let the brush complete the circle.
 🍃 Let one thought pass. Then the next.
@@ -128,7 +164,7 @@ drifting like thoughts dissolving into silence.
 Subscribe for more Japanese ambient meditation journeys 🌿
 ```
 
-> Tracklist timecodes are TRACK START times, fill in after Suno export. Last track ends at ~2:00:00. Theme each name as a small zen koan or scene image — never use Hz numbers, never use technical music terms.
+> Tracklist locked 2026-06-15 — 38 tracks, total runtime 2:01:11. Names derived from the user's handwritten end-of-track timecodes; each name is a small zen koan or scene image (no Hz, no technical music terms, per Kanji-Concept Series rules).
 
 ## 9. 🏷️ Tags (Hikari Zen formula — front-loaded by VidIQ score)
 
