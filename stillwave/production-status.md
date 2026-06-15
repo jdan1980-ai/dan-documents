@@ -46,6 +46,8 @@ See `published-videos.md` for the full table with metrics.
 - If D2 long-form views > 50 → drop Shorts cover D3-D4 (Fri Jun 19 / Sat Jun 20)
 - If D2 < 50 → skip Shorts (cross-promo on 50-sub channel doesn't work, per 25/5 and 50/10 lessons)
 
+**Update 2026-06-15:** user chose **D1 drop strategy** instead — Shorts publishes Wed Jun 17 18:00 MSK (exactly 24h after long-form), regardless of long-form D1 performance. Rationale: catch the long-form's D1-D2 algorithmic test while it's still hot, rather than wait for the plateau (D3-D4 delayed strategy failed on Pomodoro 25/5 with only 11 views on Shorts). New experimental cross-promo timing — we'll learn from the comparison vs Pomodoro 25/5 delayed.
+
 ### Tokyo Apartment Rain — review schedule
 
 After publish (May 10, 14:00):
