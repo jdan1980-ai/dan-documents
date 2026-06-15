@@ -16,7 +16,35 @@ See `published-videos.md` for the full table with metrics.
 
 | Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎞️ | ⏰ | 📤 |
 |------|-------|--------|----|----|----|-----|-----|-----|
+| `mushin-no-mind-state` | MUSHIN — 無心 \| Japanese Zen Music for No-Mind State, Deep Focus & Inner Stillness | 2H 01min 11sec (38 tracks) | ✅ | ✅ | ✅ thumb + Shorts cover | ✅ CapCut assembled | ✅ **scheduled Tue Jun 16, 18:00 MSK** (`CamT9sohYQM`) | ⏳ |
 | `tokyo-apartment-rain-1h` | Power Hour Focus Music — Tokyo Apartment Rain | 1H 04min 48sec (24 tracks) | ✅ | ✅ | ✅ | ✅ | ✅ **scheduled May 10, 14:00** | ⏳ |
+
+### MUSHIN — 無心 scheduled Tue Jun 16, 18:00 MSK (`CamT9sohYQM`)
+
+**FIRST Kanji-Concept Series video.** Built on the locked formula from competitor analysis 2026-06-15 (Hikari Zen TAO 973K, RollinSound BUDŌ/TORA/IKIGAI, Seiiki KAMI 428K). The bet: Healing Hour Vol.1 + Vol.2 plateaued because we used Ghibli + Hz format instead of the proven Kanji-Concept + photoreal-cinematic + lone-monk + symbolic-visual-hook formula. MUSHIN implements the full corrected formula.
+
+**SEO can't be verified pre-publish** (VidIQ public API doesn't return Scheduled videos). Verify post-publish:
+- **Wed Jun 17 morning (~12-14h after live):** pull metadata, confirm Topic Categories = `Music` (not Lifestyle like 50/10!), title intact, description intact, tags intact
+- If Topic = Lifestyle → rename title immediately (per CLAUDE.md Topic-Categorization rule)
+
+**Why 18:00 MSK Tue is OK for Healing Hour:** unlike Pomodoro/work-music (which peaks weekday mornings), meditation/sleep/focus content has 24/7 demand. Evening drops catch the wind-down + sleep-prep audience.
+
+**Review schedule:**
+- **48h** — Thu Jun 18, 18:00: log views/likes/comments + VPH + verify Topic still Music
+- **7d** — Tue Jun 23: real read. Success benchmarks:
+  - D7 views > 200 → MUSHIN formula works, **plan next Kanji-Concept** (SATORI/YUGEN/KENSHO)
+  - D7 views 50-150 → format helps a bit but channel-authority is still the ceiling
+  - D7 views < 50 → format wasn't the magic bullet; channel needs a different lever (cross-platform, paid boost, fundamental pivot)
+- **30d** — Thu Jul 16: final snapshot; lock or unlock the Kanji-Concept Series template
+
+**Asset references in repo:**
+- Script: `stillwave/scripts/mushin-no-mind-state.md` (full description Hikari-style, 38-track tracklist, tags Hikari formula, pinned, Shorts package)
+- Thumbnail: `stillwave/assets/mushin-no-mind-thumb.jpg` (16:9, vertical 無心 tategaki cream + MUSHIN romaji)
+- Shorts cover: `stillwave/assets/mushin-no-mind-shorts-cover.jpg` (9:16, kanji + MUSHIN + Japanese Zen Music)
+
+**Shorts cross-promo decision logic:**
+- If D2 long-form views > 50 → drop Shorts cover D3-D4 (Fri Jun 19 / Sat Jun 20)
+- If D2 < 50 → skip Shorts (cross-promo on 50-sub channel doesn't work, per 25/5 and 50/10 lessons)
 
 ### Tokyo Apartment Rain — review schedule
 
