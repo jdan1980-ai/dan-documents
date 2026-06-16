@@ -25,7 +25,7 @@
 - **Hook Sc 1:** «Я написал мимо лотка. Ты думаешь — это месть? Нет.» + Brain виновато-встревоженно смотрит в камеру у чистого лотка.
 - **Mind-blow #5:** коты НЕ мстят — это миф; всегда есть причина (медицина/стресс/лоток).
 - **CTA:** «Я не злюсь — я прошу о помощи.» (care-расширение, не вина хозяина).
-- **Тон-правило (строго):** НЕ грязно. НИКАКОЙ мочи/луж/экскрементов в кадре. Заботливо, kid-safe. Лёгкий юмор уместен только на «грязном лотке» (Sc 3 — комичное отвращение).
+- **Тон-правило (строго):** НЕ грязно, kid-safe. **Sc 1 (хук) — маленькая аккуратная СТИЛИЗОВАННАЯ мультяшная лужица у лотка** (показываем, что кот промахнулся — буквальная визуализация VO), НО без реалистичной мочи/жёлтого пятна/вонь-волн. Никаких экскрементов нигде. Лёгкий юмор уместен только на «грязном лотке» (Sc 3 — комичное отвращение).
 - **🔧 Comedy injections (Rule 14):** дозированно — disgust на грязном лотке (Sc 3). Остальное — care.
 
 ---
@@ -125,22 +125,24 @@ Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9
 # Scenes
 
 ## Сцена 1 — ХУК (0–4с)
-**Что зритель видит:** Brain виновато сидит на полу рядом с ЧИСТЫМ лотком (мимо — НИЧЕГО грязного не показываем), большие извиняющиеся глаза в камеру, одна лапка чуть приподнята в «прости». Кадр 0 уже в действии — он поднимает виноватый взгляд. Оверлей «NOT REVENGE».
+**Что зритель видит:** Brain виновато сидит на полу рядом с лотком, а РЯДОМ на полу — маленькая аккуратная стилизованная мультяшная лужица (он промахнулся мимо лотка). Большие извиняющиеся глаза в камеру, одна лапка чуть приподнята в «прости». Кадр 0 уже в действии — он поднимает виноватый взгляд. Оверлей «NOT REVENGE».
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow little chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws fully ginger (NO white socks, NO white back paws), tail ginger to the tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — sitting apologetically on the honey-amber floor a little away from a CLEAN light-grey litter box (tidy beige cartoon litter, absolutely NO mess, NO puddle, NO stain anywhere), looking up at camera with big GUILTY pleading worried eyes, one front paw raised slightly in a tiny "sorry" gesture, ears tilted softly back. Touching, sorry, NOT scary, NOT gross. INT. COZY LIVING ROOM — DAY (cream walls, honey-amber wood floor, ONE plain SOLID sage-green woven rug, cream armchair, tall window with sheer curtains, snake plant, clean litter box in corner). Medium close-up. Negative space upper-third for "NOT REVENGE" text plate. Vertical 9:16.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow little chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws fully ginger (NO white socks, NO white back paws), tail ginger to the tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — sitting apologetically on the honey-amber floor right BESIDE a light-grey litter box, and on the floor between him and the box there is ONE small neat STYLIZED cartoon puddle (a small simple pale puddle shape with a tiny cartoon shine — clearly "he missed the box", but clean and cartoonish, NOT realistic urine, NO yellow stain, NO splatter, NO smell-waves, NO mess inside the box), Brain looking up at camera with big GUILTY pleading worried eyes, one front paw raised slightly in a tiny "sorry" gesture, ears tilted softly back. Touching, sorry, NOT scary, NOT gross. INT. COZY LIVING ROOM — DAY (cream walls, honey-amber wood floor, ONE plain SOLID sage-green woven rug, cream armchair, tall window with sheer curtains, snake plant, clean litter box in corner). Medium close-up. Negative space upper-third for "NOT REVENGE" text plate. Vertical 9:16.
 ```
+> ⚠️ **Sc 1 negatives (важно):** для ЭТОГО кадра убери из базового negatives-блока слова `urine, pee, puddle, wet spot, mess` (иначе лужа не сгенерится). Вместо них добавь: `realistic urine, yellow stain, splatter, smell-waves, feces, poop, big mess, gross close-up`. Лужа должна быть, но стилизованная и чистая. (Sc 2–7 — базовые негативы как есть, БЕЗ лужи.)
+
 **🎬 Veo 3 (image-to-video) — pre-flight 🟢:**
 ```
-INPUT: Nano Banana 2 still (Sc 1 above) — Brain sitting guiltily by the clean litter box, sorry eyes.
-MOTION (frame-0 action HOOK — NO calm establish, Lesson 4): clip OPENS in motion — Brain lifts his guilty gaze up to the camera, his raised front paw gives one small "sorry" dip, ears fold back a touch more, tail curls in apologetically. Tender, sorry. Mouth closed.
+INPUT: Nano Banana 2 still (Sc 1 above) — Brain sitting guiltily beside the litter box with ONE small stylized cartoon puddle on the floor, sorry eyes.
+MOTION (frame-0 action HOOK — NO calm establish, Lesson 4): clip OPENS in motion — Brain lifts his guilty gaze up to the camera, his raised front paw gives one small "sorry" dip, ears fold back a touch more, tail curls in apologetically. The small puddle stays static (just a tiny cartoon shine glint). Tender, sorry. Mouth closed.
 DURATION: 4-5 seconds. CAMERA: slow gentle push-in.
 PRESERVE STRICT: identity IDENTICAL — strict slender KITTEN proportions (NOT chubby/Garfield), EXACTLY 2 ears + 4 paws, glasses ALWAYS on, collar + HEART tag, ALL ginger paws.
 EYE COLOR RULE (strict): LARGE PURE WHITE sclera + medium EMERALD-GREEN iris (#3DDC84) + black pupil; ONLY the iris is green, NEVER a fully-green eyeball.
 MOUTH RULE (strict): mouth CLOSED the entire clip.
-TONE RULE (strict): sorry and touching, NOT scary, NO mess/puddle/urine anywhere, kid-safe.
-NEGATIVES: standard + urine, puddle, wet spot, mess, gross, chubby/Garfield body, mouth opening, second cat, 5 paws, green sclera.
+TONE RULE (strict): sorry and touching, NOT scary, kid-safe. ONE small STYLIZED cartoon puddle is allowed (clean, pale, cartoonish — NOT realistic urine, NO yellow stain, NO splatter, NO smell-waves); nothing else messy.
+NEGATIVES: standard + realistic urine, yellow stain, splatter, smell-waves, feces, big mess, gross close-up, chubby/Garfield body, mouth opening, second cat, 5 paws, green sclera.
 DRIFT RISK: 🟢 GREEN — sitting + gaze lift + paw dip. Easy. ⛔ NOT Ken-Burns — hook gets real animation.
 ```
 **🎙️ VO (EN):**
@@ -160,21 +162,21 @@ NOT REVENGE
 ---
 
 ## Сцена 2 — Reason 1: IT HURTS (4–9с)
-**Что зритель видит:** Brain сидит, рядом мягкая мысль-баблер с иконкой вет-креста (медицинский крест) + лёгкое пастельное свечение у животика (намёк на дискомфорт, БЕЗ крови/раны). Оверлей «1. IT HURTS».
+**Что зритель видит:** Brain сидит, рядом мягкая мысль-баблер с иконкой вет-креста (КРАСНЫЙ медицинский крест) + лёгкое пастельное свечение у животика (намёк на дискомфорт, БЕЗ крови/раны). Оверлей «1. IT HURTS».
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws fully ginger (NO white socks, NO white back paws), tail ginger to the tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — sitting on the sage-green rug with a slightly uncomfortable tender expression, looking up at a clean cartoon THOUGHT-BUBBLE beside his head containing a simple soft-blue MEDICAL CROSS icon (vet symbol, clean and stylized). A very soft pastel glow near his lower tummy hints at discomfort (NO wound, NO blood, NO redness — fur normal). INT. COZY LIVING ROOM — DAY (same locked room). Medium close-up. Vertical 9:16.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws fully ginger (NO white socks, NO white back paws), tail ginger to the tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — sitting on the sage-green rug with a slightly uncomfortable tender expression, looking up at a clean cartoon THOUGHT-BUBBLE beside his head containing a simple bold RED MEDICAL CROSS icon (classic red vet/health cross, clean and stylized). A very soft pastel glow near his lower tummy hints at discomfort (NO wound, NO blood, NO redness — fur normal). INT. COZY LIVING ROOM — DAY (same locked room). Medium close-up. Vertical 9:16.
 ```
 **🎬 Veo 3 (image-to-video) — pre-flight 🟡 (graphic element):**
 ```
 INPUT: Nano Banana 2 still (Sc 2 above) — Brain with the medical-cross thought-bubble, soft tummy glow.
-MOTION: the medical cross in the bubble pulses gently with a soft glow, Brain gives a small uncomfortable shift and looks up to camera with worried eyes (one slow blink). Tender. Mouth closed.
+MOTION: the RED medical cross in the bubble pulses gently with a soft glow, Brain gives a small uncomfortable shift and looks up to camera with worried eyes (one slow blink). Tender. Mouth closed.
 DURATION: 4-5 seconds. CAMERA: gentle push-in.
 PRESERVE STRICT: identity IDENTICAL — slender KITTEN proportions, EXACTLY 2 ears + 4 paws, glasses ALWAYS on, collar + HEART tag, ALL ginger paws, fur normal (NO wound).
 EYE COLOR RULE (strict): LARGE PURE WHITE sclera + EMERALD-GREEN iris (#3DDC84); only iris green.
 MOUTH RULE (strict): mouth CLOSED.
-TYPOGRAPHY PRESERVE: medical cross stays a clean simple cross — no garbled glyphs.
+TYPOGRAPHY PRESERVE: medical cross stays a clean simple RED cross — no garbled glyphs, stays red.
 NEGATIVES: standard + wound, blood, redness, urine, chubby/Garfield body, mouth opening, second cat, 5 paws, green sclera.
 DRIFT RISK: 🟡 YELLOW — graphic icon. Keep simple; fallback = add cross as CapCut overlay.
 ```
