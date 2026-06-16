@@ -11,19 +11,16 @@ This file is the single source of truth for the StillWave channel. All productio
 - **Tagline:** Sleep · Focus · Meditation · Deep Work
 - **Cadence:** 4 videos / week
 
-## 🗣️ Communication rule (Russian + Hebrew for action items, LOCKED 2026-06-16)
+## 🗣️ Communication rule (Russian for action items, LOCKED 2026-06-16)
 
-When responding to the user about StillWave work: **action items** (anything the user needs to read, do, paste, schedule, click in Studio, etc.) must be written in **both Russian and Hebrew**. The user lives in Israel and works bilingually. Content for the YouTube channel itself stays in English (target audience). Format:
+When responding to the user about StillWave work: **action items** (anything the user needs to read, do, paste, schedule, click in Studio, etc.) should be written in **Russian in addition to English** where English copy is also present (e.g. copy-paste content for YouTube). Format:
 
 ```
 ### 🇷🇺 RU
 [Russian instruction]
-
-### 🇮🇱 HE (עברית)
-[Hebrew instruction]
 ```
 
-Apply this to: "publish this", "click here", "schedule for X", "verify Y in Studio", "wait until Z", deadlines. **Do NOT translate**: copy-paste content for YouTube (titles, descriptions, tags, hashtags, pinned comments, community posts in English), prompts for tools (Suno/NanoBanana/Flow/CapCut), file paths, technical commands.
+Apply this to: "publish this", "click here", "schedule for X", "verify Y in Studio", "wait until Z", deadlines, action items. **Do NOT translate**: copy-paste content for YouTube (titles, descriptions, tags, hashtags, pinned comments, community posts in English), prompts for tools (Suno/NanoBanana/Flow/CapCut), file paths, technical commands.
 
 ---
 
