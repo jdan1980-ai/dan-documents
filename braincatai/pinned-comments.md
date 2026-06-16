@@ -364,6 +364,17 @@ ok the food one is SO my orange boy he literally screams at me at 5am like the b
 пункт про еду это прям мой рыжий он буквально орёт на меня в 5 утра типа миска пустая хотя она НЕ пустая 😭 и да он тупой как пробка но самым храбрым способом лол. твой рыжий тоже на одном браинцелле?
 ```
 
+### 55. Why I Pee Outside My Box (It's NOT Revenge) (16 июн, 15:00) — Cat Psychology / Health
+
+```
+ok i feel so bad now i literally yelled at my cat for this last month and turned out he had a UTI 😭 the "we dont do spite" part got me. has your cat ever done this and it turned out to be something medical?
+```
+
+🇷🇺 (для RU-зеркала):
+```
+блин мне так стыдно я в прошлом месяце реально наорала на кота за это а оказалось у него цистит был 😭 фраза «коты не мстят» прям задела. у твоего такое было и оказалось что-то по здоровью?
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
