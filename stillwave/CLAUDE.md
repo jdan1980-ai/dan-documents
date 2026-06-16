@@ -11,6 +11,20 @@ This file is the single source of truth for the StillWave channel. All productio
 - **Tagline:** Sleep · Focus · Meditation · Deep Work
 - **Cadence:** 4 videos / week
 
+## 🗣️ Communication rule (Russian + Hebrew for action items, LOCKED 2026-06-16)
+
+When responding to the user about StillWave work: **action items** (anything the user needs to read, do, paste, schedule, click in Studio, etc.) must be written in **both Russian and Hebrew**. The user lives in Israel and works bilingually. Content for the YouTube channel itself stays in English (target audience). Format:
+
+```
+### 🇷🇺 RU
+[Russian instruction]
+
+### 🇮🇱 HE (עברית)
+[Hebrew instruction]
+```
+
+Apply this to: "publish this", "click here", "schedule for X", "verify Y in Studio", "wait until Z", deadlines. **Do NOT translate**: copy-paste content for YouTube (titles, descriptions, tags, hashtags, pinned comments, community posts in English), prompts for tools (Suno/NanoBanana/Flow/CapCut), file paths, technical commands.
+
 ---
 
 ## 🚨 Channel-level positioning (LOCKED 2026-06-15 — verify before EACH upload)
@@ -55,6 +69,34 @@ Required five playlists for algorithmic clarity — algorithm reads playlists as
 
 Every `stillwave/scripts/<slug>.md` MUST have a `Playlist (add to in Studio): X` line in its Meta block, where X is one of the 4 locked playlists above. This removes the "which playlist?" question at upload time — you just open the script and copy.
 
+### 🔒 Community Post per Kanji-Concept video (LOCKED 2026-06-16)
+
+Every Kanji-Concept Series long-form gets a paired Community Post published in YouTube Studio → Content → Posts → Create, ideally **the same day, a few hours before the long-form goes live** (e.g. 4-6h before scheduled time). Reuses existing format established 2026-03 → 2026-04 with SAKURA / FOREST / SEIJAKU / ZEN / AME posts.
+
+**Template (English content for the post):**
+
+```
+[ROMAJI] ([漢字]) in Japanese Culture: A Concise Overview
+
+[3-4 sentence essay: literal meaning + cultural context + one master/icon quote + visual hook reference]
+
+🌀 New [duration] [concept] zen session drops today at [HH:MM] (MSK).
+```
+
+**Why it matters:**
+- Activity signal for the algorithm (channel is alive, regular content)
+- Brand consistency — channel = "Japanese-concept educator + music" niche
+- Reaches the ~50-sub existing audience with a reminder to watch the upcoming drop
+- Aligns the post-cluster with the video — Wikipedia-style topic match strengthens
+
+**Cadence:**
+- 1 Community Post per Kanji-Concept long-form (day-of or day-before)
+- Plus 1-2 standalone kanji-essay posts between videos (every 3-4 days) to keep the channel page alive in the Community algorithm
+
+**Image:** use the long-form thumbnail (`<slug>-thumb.jpg`) or Shorts cover.
+
+**Don't:** post too often (daily fatigue), don't write long tutorials, don't target external reach (the channel is too small for it). The point is brand signal + sub activation.
+
 ### 🚨 Pre-publish checklist — verify before scheduling EVERY new video
 
 Before any new upload goes live, confirm:
@@ -64,6 +106,7 @@ Before any new upload goes live, confirm:
 - [ ] **Channel Keywords already set** (one-time, verify if changed)
 - [ ] **Channel Description already set** (one-time, verify if changed)
 - [ ] **New video added to its correct Playlist** per the script Meta `Playlist` line (Kanji-Concept / Power Hour / Healing Hour / Japanese Zen)
+- [ ] **Community Post published** day-of or day-before (per Kanji-Concept rule above) — for Kanji-Concept series only
 - [ ] **"Not for kids" = Yes** (Karena #5)
 - [ ] **No hashtags in title** (Karena #1)
 - [ ] **First publish = Scheduled or Unlisted, never Public-direct** (Karena #4)
