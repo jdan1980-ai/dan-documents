@@ -39,7 +39,7 @@ Subscribe for new Japanese zen and focus sessions every week 🌿
 
 ### 3. Playlists (Studio → Content → Playlists → Create)
 
-Required four playlists for algorithmic clarity — algorithm reads playlists as topic clusters and recommends accordingly. Add every existing video to its correct playlist:
+Required five playlists for algorithmic clarity — algorithm reads playlists as topic clusters and recommends accordingly. Add every existing video to its correct playlist:
 
 | Playlist | Contents |
 |----------|----------|
@@ -47,6 +47,9 @@ Required four playlists for algorithmic clarity — algorithm reads playlists as
 | **Power Hour — Deep Focus & Pomodoro** | Pomodoro 25/5 + 50/10 + Tokyo Rain Marathon + Tokyo Snowfall Coding + Sound Bath rebrand |
 | **Healing Hour — Solfeggio Frequencies** | Kyoto 528 + 963 Mount Koya + 528 Hz DNA Repair + 639 Hz Fuji + 852 Hz Monks' Secret + 432 Hz Kyoto Rain |
 | **Japanese Zen Soundscapes** | TAKUMI + KIRI + YORU + SEIJAKU + HI 火 + MA 間 + AMAOTO 雨音 + Water Memories + Bamboo Rain + Ancient Japan Meditation + Forest Sounds + Samurai Zen + Shakuhachi |
+| **StillWave Shorts** | ALL Shorts videos (cross-promo cuts for long-form sessions) |
+
+**Shorts rule:** every Shorts video goes into the **StillWave Shorts** playlist regardless of its long-form parent's playlist. Shorts have their own discovery cluster on YouTube — keep them in one place.
 
 ### 🔒 Script must declare its Playlist in Meta
 

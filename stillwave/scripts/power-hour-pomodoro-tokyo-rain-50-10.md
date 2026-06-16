@@ -170,6 +170,8 @@ Final file: `assets/power-hour-pomodoro-tokyo-rain-thumb-5010.jpg` — I'll comp
 
 # 📱 SHORTS PACKAGE (cross-promo → long-form)
 
+> **Playlist (add to in Studio):** `StillWave Shorts`
+
 > Same file = both formats. Figure-8 does NOT apply to 9:16 — text upper third, bottom = Shorts UI.
 
 **Cover (9:16):** reuse the existing Shorts cover image, re-composite text:

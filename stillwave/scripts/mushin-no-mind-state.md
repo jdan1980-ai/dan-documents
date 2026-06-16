@@ -215,6 +215,8 @@ Final file: `assets/mushin-no-mind-thumb.jpg` (after image generation + composit
 
 # 📱 SHORTS PACKAGE (cross-promo → long-form)
 
+> **Playlist (add to in Studio):** `StillWave Shorts`
+
 **Cover (9:16):** reuse the 9:16 vertical image (monk + ENSO). Text upper-third:
 - `無心` (kanji large, sumi-ink black)
 - `MUSHIN` (romaji cream)

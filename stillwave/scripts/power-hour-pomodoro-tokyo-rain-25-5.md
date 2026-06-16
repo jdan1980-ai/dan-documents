@@ -300,6 +300,8 @@ The NanoBanana 16:9 IS the thumbnail (hourglass + MacBook + rain + fireplace + n
 
 # 📱 SHORTS PACKAGE (cross-promo → long-form)
 
+> **Playlist (add to in Studio):** `StillWave Shorts`
+
 > Same file = both formats (project rule). Figure-8 does NOT apply to 9:16 — text upper/center, bottom = Shorts UI.
 
 **Cover (9:16):** vertical Tokyo penthouse + hourglass + rain. Cover text upper-third: `POMODORO 25/5` (cream serif). To make later: `assets/power-hour-pomodoro-shorts-cover.jpg`.
