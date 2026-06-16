@@ -39,8 +39,8 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very youn
 2D, flat, anime, photorealistic cat, real cat, multiple cats, second cat, blurry, distorted face, extra limbs, 5 paws, 6 legs, white socks, white back paws, missing glasses, missing collar, missing heart tag, round/disc/bell tag, mouth open as if talking, lip-sync, talking cat, chattering, brown eyes, amber eyes, yellow eyes, hazel eyes, fully-green eyeball, green sclera, green eye-whites, eye color tinted by lighting, chubby cat, fat cat, overweight cat, plump cat, round-bodied cat, chunky body, big adult cat, adult cat proportions, Garfield, urine, pee, puddle, wet spot, mess, feces, poop, dirty floor, gross, watermark, text artifacts, Russian text, ugly, scary, aggressive
 ```
 
-## 🔢 LOCKED text style (CapCut)
-Fredoka One / Nunito Bold, Electric Yellow #FFD23F, charcoal #2B2B2B outline. Все цифры/оверлеи — один шрифт. English only.
+## 🔢 LOCKED text style (CapCut) — ЖЁЛТЫЕ ПЛАШКИ (locked 16 июн 2026)
+Все оверлеи/цифры 1–5/фразы — **тёмные буквы (charcoal #2B2B2B) на сплошной жёлтой плашке-кубике (Electric Yellow #FFD23F rounded rectangle)**, НЕ просто жёлтые буквы. Шрифт Fredoka One / Nunito Bold, ALL CAPS, лёгкий наклон 2-3°, один стиль во всём видео. English only. (Тот же block-стиль, что и на тумбе.)
 
 ## 👩 LOCKED Human Owner (когда в кадре — лицо скрыто)
 Adult woman ~30, long chestnut-brown wavy hair (mid-back), cream-colored V-neck sweater, slim feminine build, Pixar 3D cartoon style, ALWAYS face-out-of-frame / turned away (NEVER a visible face). EXACTLY ONE hand connected to one arm — no extra/floating hand.

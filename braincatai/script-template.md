@@ -420,6 +420,7 @@ Camera motion + Brain's action + facial expression + duration ~7s
 
 - Резать сцены хард-cut'ами или whip-pan'ами
 - Burn-in субтитры (макс 4 слова за раз, верхняя треть)
+- **Оверлеи/цифры/фразы — ЖЁЛТЫЕ ПЛАШКИ (locked 16 июн 2026):** тёмные буквы charcoal #2B2B2B на сплошной жёлтой плашке-кубике (Electric Yellow #FFD23F rounded rectangle), Fredoka/Nunito Bold, ALL CAPS, наклон 2-3°. НЕ просто жёлтые буквы. Один стиль на тумбе И во всём видео. English only.
 - Голос -12 LUFS, музыка -18 LUFS
 - SFX: whoosh на переходах, ding на момент-озарение, meow на CTA
 

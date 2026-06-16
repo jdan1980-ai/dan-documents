@@ -691,6 +691,8 @@ Always lead with the topic-specific emotional close BEFORE the follow line (see 
 
 Locked 16 мая 2026 after typography drift made overlays inside one video feel like cuts from different videos (one scene's "3" was rounded pastel-yellow sans, another scene's "1. GUARD" was a sharp serif outline). All on-screen text in a single video — and ideally across the channel — must share ONE font family + ONE color palette + ONE style treatment.
 
+> 🟨 **UPDATE 16 июн 2026 (user directive + reference) — ЖЁЛТЫЕ ПЛАШКИ / highlighter-block style.** Going forward ALL on-screen text — thumbnail title AND every in-video overlay/numeral/caption — uses the **yellow-block (highlighter-plate)** treatment: **BOLD DARK CHARCOAL `#2B2B2B` letters sitting INSIDE a solid Electric Yellow `#FFD23F` rounded-rectangle block** (one filled yellow box hugging each text line), ALL CAPS, Fredoka One / Nunito Bold, slight 2-3° tilt, soft drop-shadow. This SUPERSEDES the old "pastel-yellow letters with charcoal outline" fill below — now it's **dark letters ON yellow blocks**, NOT plain yellow letters. Same block style on the thumbnail and inside the video for one unified look.
+
 ### Canonical channel-wide typography lock
 
 | Element | Spec |
@@ -698,7 +700,8 @@ Locked 16 мая 2026 after typography drift made overlays inside one video feel
 | **Font family** | Rounded geometric sans-serif (Pixar-friendly cartoon font). Reference: **Nunito Bold / Quicksand Bold / Fredoka One** — soft rounded terminals, no sharp serifs, no hand-drawn brush. |
 | **Weight** | Bold (700) for primary overlays; Semibold (600) for secondary lower-thirds |
 | **Case** | ALL CAPS for hooks/numerals/category labels ("EVERY TIME", "1. GUARD", "BLINK = SOUND"). Title Case acceptable for longer captions only. |
-| **Primary fill color** | Soft pastel-yellow `#FFE066` (warm friendly, matches Brain's emerald-on-cream palette) |
+| **Block treatment (locked 16 июн 2026)** | **Dark charcoal `#2B2B2B` letters on a solid Electric Yellow `#FFD23F` rounded-rectangle block (highlighter plate), one block per line, 2-3° tilt.** This is the current standard — overrides the plain-fill rows below. |
+| **Primary fill color** | _(legacy)_ Soft pastel-yellow `#FFE066` letters — SUPERSEDED by the yellow-block treatment above (now dark letters on yellow blocks) |
 | **Secondary fill color** | Cream-white `#FFF8E7` for lower-thirds against warm backgrounds |
 | **Accent fill (thumbnails only)** | Electric Yellow `#FFD23F` for thumbnail title plate |
 | **Stroke / outline** | Solid charcoal `#2B2B2B` outline, 4–6px (scales to text size). Keeps text readable on any background. |
