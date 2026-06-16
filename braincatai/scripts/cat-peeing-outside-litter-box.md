@@ -162,21 +162,21 @@ NOT REVENGE
 ---
 
 ## Сцена 2 — Reason 1: IT HURTS (4–9с)
-**Что зритель видит:** Brain сидит, рядом мягкая мысль-баблер с иконкой вет-креста (КРАСНЫЙ медицинский крест) + лёгкое пастельное свечение у животика (намёк на дискомфорт, БЕЗ крови/раны). Оверлей «1. IT HURTS».
+**Что зритель видит:** Brain сидит, рядом мягкая мысль-баблер с иконкой вет-креста (КРАСНЫЙ медицинский крест) + знак вопроса «?» рядом (что-то не так со мной?) + лёгкое пастельное свечение у животика (намёк на дискомфорт, БЕЗ крови/раны). Оверлей «1. IT HURTS».
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws fully ginger (NO white socks, NO white back paws), tail ginger to the tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — sitting on the sage-green rug with a slightly uncomfortable tender expression, looking up at a clean cartoon THOUGHT-BUBBLE beside his head containing a simple bold RED MEDICAL CROSS icon (classic red vet/health cross, clean and stylized). A very soft pastel glow near his lower tummy hints at discomfort (NO wound, NO blood, NO redness — fur normal). INT. COZY LIVING ROOM — DAY (same locked room). Medium close-up. Vertical 9:16.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws fully ginger (NO white socks, NO white back paws), tail ginger to the tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — sitting on the sage-green rug with a slightly uncomfortable tender expression, looking up at a clean cartoon THOUGHT-BUBBLE beside his head containing a simple bold RED MEDICAL CROSS icon (classic red vet/health cross) next to a small RED QUESTION MARK "?" ("is something wrong with me?", clean and stylized). A very soft pastel glow near his lower tummy hints at discomfort (NO wound, NO blood, NO redness — fur normal). INT. COZY LIVING ROOM — DAY (same locked room). Medium close-up. Vertical 9:16.
 ```
 **🎬 Veo 3 (image-to-video) — pre-flight 🟡 (graphic element):**
 ```
 INPUT: Nano Banana 2 still (Sc 2 above) — Brain with the medical-cross thought-bubble, soft tummy glow.
-MOTION: the RED medical cross in the bubble pulses gently with a soft glow, Brain gives a small uncomfortable shift and looks up to camera with worried eyes (one slow blink). Tender. Mouth closed.
+MOTION: the RED medical cross and the "?" in the bubble pulse gently with a soft glow, Brain gives a small uncomfortable shift and looks up to camera with worried eyes (one slow blink). Tender. Mouth closed.
 DURATION: 4-5 seconds. CAMERA: gentle push-in.
 PRESERVE STRICT: identity IDENTICAL — slender KITTEN proportions, EXACTLY 2 ears + 4 paws, glasses ALWAYS on, collar + HEART tag, ALL ginger paws, fur normal (NO wound).
 EYE COLOR RULE (strict): LARGE PURE WHITE sclera + EMERALD-GREEN iris (#3DDC84); only iris green.
 MOUTH RULE (strict): mouth CLOSED.
-TYPOGRAPHY PRESERVE: medical cross stays a clean simple RED cross — no garbled glyphs, stays red.
+TYPOGRAPHY PRESERVE: red cross + "?" stay clean and simple — no garbled glyphs, cross stays red, "?" stays a clear single question mark. (Если Veo гарблит — делать крест+«?» CapCut-оверлеем, Veo только мимика.)
 NEGATIVES: standard + wound, blood, redness, urine, chubby/Garfield body, mouth opening, second cat, 5 paws, green sclera.
 DRIFT RISK: 🟡 YELLOW — graphic icon. Keep simple; fallback = add cross as CapCut overlay.
 ```
@@ -235,7 +235,7 @@ Two — my box is dirty. I'm pickier than you think.
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws fully ginger (NO white socks, NO white back paws), tail ginger to the tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — awkwardly squeezed inside a too-SMALL OPEN litter box / litter tray (a clear open rectangular light-grey plastic litter tray with clean beige cartoon litter inside — UNMISTAKABLY a litter box, NOT a covered hooded house, NOT a pet bed, NOT an igloo, NO blanket, NO cushion) that is clearly too tight for him (he barely fits, paws cramped over the low edges, looking uncomfortable and uneasy), positioned right next to a large cartoon WASHING MACHINE with small cartoon vibration/sound lines coming off it (loud scary appliance). Ears flattened, anxious wide eyes. NO mess. INT. COZY LIVING ROOM — DAY (same locked room, corner). Medium shot. Vertical 9:16.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws fully ginger (NO white socks, NO white back paws), tail ginger to the tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — awkwardly squeezed inside a too-SMALL OPEN litter box / litter tray (a clear open rectangular light-grey plastic litter tray FILLED with clearly visible beige cartoon LITTER / SAND granules — UNMISTAKABLY a sand-filled litter box, NOT a covered hooded house, NOT a pet bed, NOT an igloo, NO blanket, NO cushion, NO soft bedding) that is clearly too tight for him (he barely fits, paws cramped over the low edges, looking uncomfortable and uneasy), positioned right next to a large cartoon WASHING MACHINE with small cartoon vibration/sound lines coming off it (loud scary appliance). Ears flattened, anxious wide eyes. NO mess. INT. COZY LIVING ROOM — DAY (same locked room, corner). Medium shot. Vertical 9:16.
 ```
 **🎬 Veo 3 (image-to-video) — pre-flight 🟡:**
 ```
@@ -265,7 +265,7 @@ Three — the spot scares me. Or the box is too small.
 ---
 
 ## Сцена 5 — Reason 4: I'M STRESSED (19–24с)
-**Что зритель видит:** Brain тревожно сидит, на фоне «что-то изменилось» — открытый чемодан / коробки переезда (намёк на перемену), над головой лёгкая нервная мысль-тучка. Оверлей «4. I'M STRESSED».
+**Что зритель видит:** Brain тревожно сидит, на фоне «что-то изменилось» — открытый чемодан / коробки переезда (намёк на перемену), над головой лёгкая нервная мысль-тучка с текстом «I'M STRESSED» внутри/над ней. Оверлей «4. I'M STRESSED» (ставим в CapCut прямо в облачко / над ним).
 
 **🎨 Image (Nano Banana 2):**
 ```
@@ -294,6 +294,7 @@ Four — something changed, and I'm stressed about it.
 ```
 4. I'M STRESSED
 ```
+> 📍 Разместить «I'M STRESSED» прямо В мысль-тучке над головой Brain (или сразу над ней), не в общей верхней трети — текст должен читаться как его тревожная мысль. Шрифт залочен (Fredoka/Nunito).
 🔊 SFX: soft low note
 
 ---
@@ -334,16 +335,16 @@ Five — it's NEVER revenge. We cats don't do spite.
 ---
 
 ## Сцена 7 — CTA (29–33с)
-**Что зритель видит:** тёплый финал — Brain доверчиво прижимается к руке хозяйки, мягкий свет, 💚. Оверлей «I NEED HELP 💚».
+**Что зритель видит:** тёплый финал — Brain доверчиво прижимается к руке хозяйки, мягкий свет, красные сердечки ❤️. Оверлей «I NEED HELP ❤️».
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws fully ginger (NO white socks, NO white back paws), tail ginger to the tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — sitting on the sage-green rug, LEANING his cheek warmly and trustingly into a slim feminine woman's gentle open hand (cream V-neck sweater sleeve, palm cupping his cheek softly, EXACTLY ONE hand connected to one arm, NO face), eyes softly closing in relief and trust, tiny hopeful smile. Soft pastel-green heart particles drift; a small "💚" glows. Warm golden light. INT. COZY LIVING ROOM — DAY (same locked room). Medium close-up. ONLY ONE PERSON (hand only). Vertical 9:16.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws fully ginger (NO white socks, NO white back paws), tail ginger to the tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — sitting on the sage-green rug, LEANING his cheek warmly and trustingly into a slim feminine woman's gentle open hand (cream V-neck sweater sleeve, palm cupping his cheek softly, EXACTLY ONE hand connected to one arm, NO face), eyes softly closing in relief and trust, tiny hopeful smile. Soft RED heart particles drift up; a small RED "❤️" glows. Warm golden light. INT. COZY LIVING ROOM — DAY (same locked room). Medium close-up. ONLY ONE PERSON (hand only). Vertical 9:16.
 ```
 **🎬 Veo 3 (image-to-video) — pre-flight 🟡:**
 ```
-INPUT: Nano Banana 2 still (Sc 7 above) — Brain leaning into the owner's hand, hearts + 💚.
-MOTION: the woman's hand gives ONE slow gentle stroke along Brain's cheek, he LEANS deeper into the palm and closes his eyes in relief, soft green hearts drift up, the "💚" glows once. Warm, reassuring. Mouth closed (one soft optional meow allowed at the lean-in peak).
+INPUT: Nano Banana 2 still (Sc 7 above) — Brain leaning into the owner's hand, red hearts + ❤️.
+MOTION: the woman's hand gives ONE slow gentle stroke along Brain's cheek, he LEANS deeper into the palm and closes his eyes in relief, soft RED hearts drift up, the red "❤️" glows once. Warm, reassuring. Mouth closed (one soft optional meow allowed at the lean-in peak).
 DURATION: 4-5 seconds. CAMERA: slow warm push-in.
 PRESERVE STRICT: identity IDENTICAL — slender KITTEN proportions, EXACTLY 2 ears + 4 paws, glasses ALWAYS on, collar + HEART tag, ALL ginger paws.
 EYE COLOR RULE (strict): if eyes visible — LARGE PURE WHITE sclera + EMERALD-GREEN iris (#3DDC84); only iris green.
@@ -362,7 +363,7 @@ I'm not mad. I'm asking for help. Follow for more.
 ```
 **Оверлей (текст в CapCut):**
 ```
-I NEED HELP 💚
+I NEED HELP ❤️
 ```
 🔊 SFX: warm swell + soft meow
 
