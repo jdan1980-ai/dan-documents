@@ -231,22 +231,22 @@ Two — my box is dirty. I'm pickier than you think.
 ---
 
 ## Сцена 4 — Reason 3: WRONG SPOT (14–19с)
-**Что зритель видит:** Brain зажат в слишком ТЕСНОМ закрытом лотке рядом с громкой стиральной машиной (намёк на «страшное место/мал размер»), уши прижаты, тревожный взгляд. Оверлей «3. WRONG SPOT».
+**Что зритель видит:** Brain зажат в слишком ТЕСНОМ открытом ЛОТКЕ (обычный лоток с наполнителем, явно лоток — НЕ домик, НЕ лежанка, НЕ одеяло) рядом с громкой стиральной машиной (намёк на «страшное место/мал размер»), уши прижаты, тревожный взгляд. Оверлей «3. WRONG SPOT».
 
 **🎨 Image (Nano Banana 2):**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws fully ginger (NO white socks, NO white back paws), tail ginger to the tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — awkwardly squeezed inside a too-SMALL covered/hooded litter box that is clearly too tight for him (he barely fits, looking cramped and uneasy), positioned right next to a large cartoon WASHING MACHINE with small cartoon vibration/sound lines coming off it (loud scary appliance). Ears flattened, anxious wide eyes peeking out. NO mess. INT. COZY LIVING ROOM — DAY (same locked room, corner). Medium shot. Vertical 9:16.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws fully ginger (NO white socks, NO white back paws), tail ginger to the tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. — awkwardly squeezed inside a too-SMALL OPEN litter box / litter tray (a clear open rectangular light-grey plastic litter tray with clean beige cartoon litter inside — UNMISTAKABLY a litter box, NOT a covered hooded house, NOT a pet bed, NOT an igloo, NO blanket, NO cushion) that is clearly too tight for him (he barely fits, paws cramped over the low edges, looking uncomfortable and uneasy), positioned right next to a large cartoon WASHING MACHINE with small cartoon vibration/sound lines coming off it (loud scary appliance). Ears flattened, anxious wide eyes. NO mess. INT. COZY LIVING ROOM — DAY (same locked room, corner). Medium shot. Vertical 9:16.
 ```
 **🎬 Veo 3 (image-to-video) — pre-flight 🟡:**
 ```
-INPUT: Nano Banana 2 still (Sc 4 above) — Brain cramped in too-small box beside a noisy washing machine.
-MOTION: the washing machine gives a small cartoon shudder with vibration lines, Brain flinches slightly and shrinks down, ears flatten more, anxious eyes dart. Mouth closed.
+INPUT: Nano Banana 2 still (Sc 4 above) — Brain cramped in a too-small OPEN litter tray beside a noisy washing machine.
+MOTION: the washing machine gives a small cartoon shudder with vibration lines, Brain flinches slightly and shrinks down inside the cramped litter tray, ears flatten more, anxious eyes dart. Mouth closed.
 DURATION: 4-5 seconds. CAMERA: slow push-in.
 PRESERVE STRICT: identity IDENTICAL — slender KITTEN proportions, EXACTLY 2 ears + 4 paws, glasses ALWAYS on, collar + HEART tag, ALL ginger paws.
 EYE COLOR RULE (strict): LARGE PURE WHITE sclera + EMERALD-GREEN iris (#3DDC84); only iris green.
 MOUTH RULE (strict): mouth CLOSED.
-NEGATIVES: standard + urine, mess, chubby/Garfield body (he's cramped but still slim), mouth opening, second cat, 5 paws, green sclera, scary horror tone.
-DRIFT RISK: 🟡 YELLOW — appliance + box props. May need 1 retry.
+NEGATIVES: standard + covered hooded house, pet bed, igloo, blanket, cushion, urine, mess, chubby/Garfield body (he's cramped but still slim), mouth opening, second cat, 5 paws, green sclera, scary horror tone.
+DRIFT RISK: 🟡 YELLOW — appliance + litter-tray props. May need 1 retry.
 ```
 **🎙️ VO (EN):**
 ```
