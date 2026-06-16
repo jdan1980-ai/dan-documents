@@ -502,11 +502,11 @@ HOOK ELEMENT (~20-25% of frame, lower-RIGHT or upper-LEFT, NOT covering face): [
 
 BACKGROUND: cozy living room HEAVILY BLURRED with warm honey-amber bokeh (sage rug + cream armchair faintly visible but heavy DOF). Brain is rim-lit so he POPS off the background. High contrast.
 
-TEXT PLATE (BIG and BOLD, positioned in the LOWER-MIDDLE of the frame at roughly 55-70% height — raised well CLEAR of the very bottom edge so it is NOT cut off by the phone UI / duration badge. Text is LARGE, filling ~85-90% of the frame width, easily readable on a small phone screen. 2 lines, ALL CAPS, slight 2-3° tilt, BOLD ROUNDED GEOMETRIC SANS-SERIF Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, solid charcoal #2B2B2B outline 6px, soft black drop-shadow). Lines:
-LINE 1: "[HOOK WORD / NUMBER]"
-LINE 2: "[PAYOFF + EMOJI 💔/🤯/💚/❓]"
+TEXT — YELLOW-BLOCK STYLE (locked 16 июн 2026, user directive + reference): instead of plain yellow letters, each line sits INSIDE its OWN solid ELECTRIC-YELLOW #FFD23F rounded-rectangle BLOCK (a filled yellow highlighter box behind the words, hugging the text with small padding), letters in BOLD DARK CHARCOAL #2B2B2B with a thin clean outline. Positioned LOWER-MIDDLE ~55-72% height (raised CLEAR of the very bottom edge so it is NOT cut off by phone UI / duration badge), ~80-88% width, 2 lines stacked, ALL CAPS, BOLD ROUNDED GEOMETRIC SANS-SERIF Fredoka One / Nunito Bold, each block tilted slightly 2-3°, soft drop-shadow. NO emoji inside the blocks (emoji/marker goes as a separate floating element). Lines:
+BLOCK LINE 1: "[HOOK WORD / NUMBER]"
+BLOCK LINE 2: "[PAYOFF]"
 
-TYPOGRAPHY LOCK (strict — same font on every BrainCatAI thumbnail): single font family, soft rounded terminals, NO serifs, NO brush-script, NO Comic Sans, NO Papyrus, NO Impact.
+TYPOGRAPHY LOCK (strict — same on every BrainCatAI thumbnail): single rounded sans font family + the yellow-block (highlighter-plate) treatment above; dark charcoal letters on solid yellow blocks, NOT plain yellow letters. NO serifs, NO brush-script, NO Comic Sans, NO Papyrus, NO Impact.
 
 EYE COLOR RULE (strict): Each eye = LARGE PURE WHITE sclera with medium round EMERALD-GREEN iris (#3DDC84) and black pupil — only the small iris is green, sclera stays pure white, NEVER a fully-green eyeball, NEVER green sclera.
 ANATOMY RULE (strict): EXACTLY 4 paws AND EXACTLY 2 EARS. NO 5th paw, NO phantom 3rd ear, NO extra fur tuft.
@@ -524,7 +524,7 @@ LANGUAGE RULE (strict): All on-screen text in ENGLISH only. NO Russian text, NO 
 **Negative prompts (Nano Banana — thumbnail):**
 
 ```
-2D flat, anime, photorealistic cat, real cat, photoreal, hyperrealistic, multiple cats, second cat, low quality, blurry, cluttered background, busy background, distorted face, extra limbs, extra paws, five legs, three ears, extra ear, phantom ear, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, yellow eyes, hazel eyes, green sclera, green eye-whites, fully green eyes, green-tinted eyeballs, white paws, white socks, white tail tip, round tag, blank tag, mouth open as if talking, talking cat, serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, gradient text, neon text, metallic text, multiple fonts, mixed typography, sharp serifs on text, calligraphy, Russian text, Cyrillic letters, ugly, scary, watermark, logo
+2D flat, anime, photorealistic cat, real cat, photoreal, hyperrealistic, multiple cats, second cat, low quality, blurry, cluttered background, busy background, distorted face, extra limbs, extra paws, five legs, three ears, extra ear, phantom ear, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, yellow eyes, hazel eyes, green sclera, green eye-whites, fully green eyes, green-tinted eyeballs, white paws, white socks, white tail tip, round tag, blank tag, mouth open as if talking, talking cat, serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, plain yellow letters with no block, no highlight box, gradient text, neon text, metallic text, multiple fonts, mixed typography, sharp serifs on text, calligraphy, Russian text, Cyrillic letters, ugly, scary, watermark, logo
 ```
 
 ---

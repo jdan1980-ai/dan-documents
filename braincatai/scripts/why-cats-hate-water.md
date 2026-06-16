@@ -108,17 +108,18 @@ HOOK ELEMENT (right side, ~22% area): a big bold cartoon WATER SPLASH / single f
 
 BACKGROUND: cozy living-room WARM HONEY-AMBER bokeh, HEAVILY BLURRED, heavy DOF. Brain rim-lit so he POPS. HIGH CONTRAST.
 
-TEXT PLATE (BIG + BOLD, lower-middle ~55-70% height, 85-90% width, 2 lines ALL CAPS, Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, charcoal #2B2B2B outline 7px, slight 2-3° tilt, NO emoji inside the letters except the marker):
-LINE 1: "WHY I HATE"
-LINE 2: "WATER 💦"
+TEXT — YELLOW-BLOCK STYLE (highlighter plates): 2 lines, ALL CAPS, BOLD ROUNDED GEOMETRIC SANS (Fredoka One / Nunito Bold). Each line sits INSIDE its OWN solid ELECTRIC-YELLOW #FFD23F rounded-rectangle BLOCK (a filled yellow highlighter box behind the words, hugging the text with small padding), letters in BOLD DARK CHARCOAL #2B2B2B with a thin clean outline, each block tilted slightly 2-3°, positioned lower-middle ~55-72% height, ~80-88% width, stacked. NO emoji inside the blocks.
+BLOCK LINE 1: "WHY I HATE"
+BLOCK LINE 2: "WATER"
 
 Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9:16.
 ```
 **Thumbnail negatives:**
 ```
-2D flat, anime, photorealistic cat, real cat, multiple cats, second cat, blurry, distorted face, extra limbs, 5 paws, three ears, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, fully-green eyeball, green sclera, white paws, white socks, round tag, mouth open, garbled text, illegible text, visible human face, chubby cat, fat cat, Garfield, soaking-wet matted realism, scary, terrified horror, Russian text, Cyrillic
+2D flat, anime, photorealistic cat, real cat, multiple cats, second cat, blurry, distorted face, extra limbs, 5 paws, three ears, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, fully-green eyeball, green sclera, white paws, white socks, round tag, mouth open, garbled text, illegible text, plain yellow letters with no block, no highlight box, visible human face, chubby cat, fat cat, Garfield, soaking-wet matted realism, scary, terrified horror, Russian text, Cyrillic
 ```
-> A/B text alts: `IT'S NOT / FEAR ❓` / `TIGERS / LOVE IT?! 🤯` / `NOT JUST / SCARED ❓`
+> Текст-плашки: тёмные буквы на сплошных жёлтых блоках, НЕ просто жёлтые буквы. Если Nano гарблит — генерь кота+брызги без текста, плашки добавляй в CapCut. Маркер 💦 ставить отдельным элементом у воды (не внутри плашки).
+> A/B text alts (block-стиль): `IT'S NOT / FEAR?` / `TIGERS / LOVE IT?!` / `NOT JUST / SCARED?`
 
 ---
 

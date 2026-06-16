@@ -97,28 +97,29 @@ _~70 слов EN, ~4-5с/бит, итого ~31-33с. Формат-тест #4._
 
 # 🖼️ ТУМБНЕЙЛ (Nano Banana 2 — генерить ПЕРВЫМ)
 
-> «5 Signs» формула, эмоция-маркер ❓ (виноватый-просящий, не страшный). Brain виновато сидит рядом с лотком, большие извиняющиеся глаза.
+> Эмоция-маркер ❓ (стыд, не страшно). Brain **закрывает лицо лапой от стыда**, рядом лоток + маленькая стилизованная лужица на полу. Текст — в **жёлтых плашках-кубиках** (тёмные буквы на сплошном жёлтом блоке за каждой строкой). Референс: пользовательский скрин 16 июн.
 
 **🎨 Image prompt (Nano Banana 2):**
 ```
 Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (very young 8-10 week old KITTEN — strict kitten proportions: an oversized round head on a SMALL, SLIM, lightweight body, narrow chest, short slim torso, long thin delicate legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT chubby, NOT fat, NOT a thick chunky Garfield-type cat; NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar with EXACTLY ONE clearly HEART-SHAPED gold tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws fully ginger (NO white socks, NO white back paws), tail ginger to the tip, pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed.
-— EXTREME CLOSE-UP, Brain's face fills ~58% of the frame, LEFT-CENTER, slight 3° tilt. He sits beside a CLEAN light-grey litter box (tidy beige cartoon litter, NO mess). EXPRESSION (MAX EMOTION, the click driver): big GUILTY-but-PLEADING wide eyes looking straight up at the viewer — apologetic, worried, "I didn't mean to, something's wrong" look, one front paw raised slightly in a small sorry gesture, ears tilted back softly. NOT scary, NOT gross — just a sorry, worried kitten. Mouth closed.
+— EXTREME CLOSE-UP, Brain's face fills ~58% of the frame, LEFT-CENTER, slight 3° tilt. EXPRESSION (MAX EMOTION, the click driver): Brain is ASHAMED and embarrassed — he COVERS his face / eyes with ONE front paw (a clear "I'm so embarrassed, I can't look" facepalm gesture), peeking out a little with a guilty worried eye, ears tilted back, body small and sheepish. Mortified-but-cute, NOT scary, NOT gross. Mouth closed. He sits BESIDE an open light-grey litter box (with beige cartoon litter), and on the floor beside the box there is ONE small neat STYLIZED cartoon puddle (small, pale, cartoonish "he missed the box" — NOT realistic urine, NO yellow stain, NO splatter, NO smell-waves).
 
-HOOK ELEMENT (right side, ~20% area): a soft glowing "❓" floating beside him.
+HOOK ELEMENT (right side, ~18% area): a soft glowing "❓" floating beside him.
 
 BACKGROUND: cozy living-room WARM HONEY-AMBER bokeh, HEAVILY BLURRED, heavy DOF. Brain rim-lit so he POPS. HIGH CONTRAST.
 
-TEXT PLATE (BIG + BOLD, lower-middle ~55-70% height, 85-90% width, 2 lines ALL CAPS, Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, charcoal #2B2B2B outline 7px, slight 2-3° tilt, NO emoji in the letters):
-LINE 1: "NOT"
-LINE 2: "REVENGE ❓"
+TEXT — YELLOW-BLOCK STYLE (highlighter plates, like the reference): 2 lines, ALL CAPS, BOLD ROUNDED GEOMETRIC SANS (Fredoka One / Nunito Bold). Each line sits INSIDE its OWN solid ELECTRIC-YELLOW #FFD23F rounded-rectangle BLOCK (a filled yellow highlighter box behind the words, blocks hugging the text with small padding), letters in BOLD DARK CHARCOAL #2B2B2B with a thin clean outline, each block tilted slightly 2-3°, positioned lower-middle ~55-72% height, ~80-88% width, stacked. NO emoji inside the blocks.
+BLOCK LINE 1: "NOT"
+BLOCK LINE 2: "REVENGE?"
 
 Pixar/Disney 3D ANIMATED CARTOON, NOT photorealistic, NOT a real cat. Vertical 9:16.
 ```
 **Thumbnail negatives:**
 ```
-2D flat, anime, photorealistic cat, real cat, multiple cats, second cat, blurry, distorted face, extra limbs, 5 paws, three ears, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, fully-green eyeball, green sclera, white paws, white socks, round tag, mouth open, garbled text, emoji in text, illegible text, visible human face, chubby cat, fat cat, Garfield, urine, pee, puddle, wet spot, mess, feces, poop, dirty floor, gross, scary, Russian text, Cyrillic
+2D flat, anime, photorealistic cat, real cat, multiple cats, second cat, blurry, distorted face, extra limbs, 5 paws, three ears, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, fully-green eyeball, green sclera, white paws, white socks, round tag, mouth open, garbled text, illegible text, plain yellow letters with no block, no highlight box, visible human face, chubby cat, fat cat, Garfield, realistic urine, yellow stain, splatter, smell-waves, feces, poop, big mess, gross close-up, scary, Russian text, Cyrillic
 ```
-> A/B text alts: `IT'S NOT / SPITE ❓` / `NOT MAD / AT YOU 💚` / `A CRY / FOR HELP ❓`
+> Текст-плашки: тёмные буквы на сплошных жёлтых блоках (как на референсе), НЕ просто жёлтые буквы. Если Nano гарблит буквы — генерь кота+лоток+лужу+«?» без текста, а жёлтые плашки добавляй в CapCut.
+> A/B text alts (тот же block-стиль): `IT'S NOT / SPITE?` / `NOT MAD / AT YOU` / `A CRY / FOR HELP?`
 
 ---
 
