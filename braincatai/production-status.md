@@ -85,6 +85,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | **14 июн 15:00** | **How I Chose YOU as My Human** (emotional 5-reasons first-person, counter-intuitive «ты не выбирал — я выбрал», warm twist #5 «тебе было грустно»; ⚡ формат 33с тест #2) | Cat Psychology / Bonding (1st-person) | `how-cats-choose-their-human` | ✅ залит, scheduled 14 июн 15:00 · vidIQ anchor `how cats choose their favorite person` 🟢🟢 66.16 / 28,344 / comp 34.3 GREEN-JACKPOT |
 | **15 июн 15:00** | **Why We Orange Cats Are Built Different** (orange-cat «built different» мем + наука first-person, mind-blow #5: «один браинцелл»-хаос = бесстрашие; ⚡ формат 33с тест #3) | Cat Psychology / Facts (1st-person) | `orange-cat-behavior` | ✅ залит, scheduled 15 июн 15:00 · vidIQ anchor `orange cat behavior` 🟢 63.09 / 30,546 / comp 42.7 |
 | **16 июн 15:00** | **Why I Pee Outside My Box (It's NOT Revenge)** (health/behavior warning first-person, 4 причины + mind-blow #5 «коты не мстят»; ⚡ формат 33с тест #4) | Cat Psychology / Health (1st-person) | `cat-peeing-outside-litter-box` | 📝 скрипт готов → производство (сдвинуть на 17 если нужен буфер) · vidIQ anchor `cat peeing outside litter box` 🟢 63.96 / 4,986 / comp 22.9 · конкурент-чек: educational white-space, search-play |
+| **17 июн 15:00** | **Why I HATE Water (It's NOT Just Fear)** (first-person, 4 причины: тяжёлая шерсть / холод+запах / пустынные предки / нет контроля + mind-blow #5 «тигры обожают плавать»; ⚡ формат 33с тест #5) | Cat Psychology / Behavior (1st-person) | `why-cats-hate-water` | 📝 скрипт готов → производство · vidIQ anchor `why cats hate water` 🟡 60.88 / 3,659 / comp 27.6 (YELLOW override) · breakout-доказательство: TheCognition 102k/795 subs на этой теме |
 
 ⚠️ **Override 18 мая:** `why-cats-sit-above-you` опубликован вне vidIQ-плана (score 25.6 RED, 0 monthly). User decision: канал в recovery mode → лучше потратить слот на инстинкт-тему чем держать сильную в очереди. Трекаем результат для валидации.
 
@@ -113,7 +114,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 
 **Бэклог YELLOW (cached, available):**
 - `why-cats-wag-their-tails` 62.59 / 5,400 — лучший AVAILABLE в кэше
-- `why-cats-hate-water` 60.88 / 3,659
+- ~~`why-cats-hate-water` 60.88 / 3,659~~ → ✅ взят на 17 июн (breakout-proof TheCognition 102k)
 - `why-cats-meow-only-at-humans` 60.70 / 3,685
 - `cat-jealousy` 59.01 / 5,156
 
@@ -182,6 +183,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `how-cats-choose-their-human` | 14 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 (1st-person, emotional, ⚡33с тест #2) |
 | `orange-cat-behavior` | 15 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 (1st-person, orange-cat meme+science, ⚡33с тест #3) |
 | `cat-peeing-outside-litter-box` | 16 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ (1st-person, health/behavior, ⚡33с тест #4) |
+| `why-cats-hate-water` | 17 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ (1st-person, behavior, ⚡33с тест #5) |
 | `your-body-calm-down-button` | ~~13 июн~~ | — | — | — | — | — | ⚠️ легаси-Vagus снова Public 13 июн (риск-предупреждение дано, оставлено по решению Dan) |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.

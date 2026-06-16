@@ -375,6 +375,17 @@ ok i feel so bad now i literally yelled at my cat for this last month and turned
 блин мне так стыдно я в прошлом месяце реально наорала на кота за это а оказалось у него цистит был 😭 фраза «коты не мстят» прям задела. у твоего такое было и оказалось что-то по здоровью?
 ```
 
+### 56. Why I HATE Water (It's NOT Just Fear) (17 июн, 15:00) — Cat Psychology / Behavior
+
+```
+ok the tiger part actually shocked me i had no idea some cats LIKE water lol. mine acts like the bathtub is lava every single time 😂 does yours hate water too or are you one of the lucky ones with a weird water-loving cat?
+```
+
+🇷🇺 (для RU-зеркала):
+```
+блин про тигров реально удивило я не знала что некоторые коты ЛЮБЯТ воду 😂 мой ведёт себя будто ванна это лава каждый раз. твой тоже ненавидит воду или тебе повезло и у тебя странный кот-водохлёб?
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
