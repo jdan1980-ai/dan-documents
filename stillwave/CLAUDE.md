@@ -32,19 +32,19 @@ Channel-level signals tell the YouTube algorithm what the channel is about. With
 
 ### 1. Channel Keywords (Studio → Settings → Channel → Basic info → Keywords)
 
-Locked set (updated 2026-06-17 after audience demographic teardown — 55+ Asian-heavy audience, Japan #1 region 10%, KR 5%, Taiwan 3.3%):
+Locked set (updated 2026-06-17 after audience demographic teardown — 55+ Asian-heavy audience, Japan #1 region 10%, KR 5%, Taiwan 3.3%). **498/500 chars — maxed out:**
 
 ```
-zen music, japanese zen music, japanese ambient music, meditation music, focus music, sleep music, healing music, ambient music, relaxing music, background music, japanese meditation music, shakuhachi music, mindfulness music, zen meditation music, calming music, slow living music, gentle music, peaceful music, deep relaxation, mature meditation, 作業用BGM, 勉強BGM, 集中BGM, 瞑想BGM, 睡眠BGM, 禅音樂, 冥想音樂, 공부 BGM, 명상 음악, музыка для медитации, música para meditar, stillwave
+zen music, japanese zen music, japanese ambient music, meditation music, focus music, sleep music, healing music, ambient music, relaxing music, background music, japanese meditation music, shakuhachi music, mindfulness music, zen meditation music, calming music, slow living music, gentle music, peaceful music, deep relaxation, mature meditation, 作業用BGM, 勉強BGM, 集中BGM, 瞑想BGM, 睡眠BGM, 禅音樂, 冥想音樂, 공부 BGM, 명상 음악, музыка для медитации, música para meditar, stillwave, 수면 음악, музыка для сна, música zen
 ```
 
-**Tier breakdown (32 keywords):**
+**Tier breakdown (35 keywords, 498 chars):**
 - 🇬🇧 Core English (20) — broad zen / meditation / focus / sleep / ambient
 - 🇯🇵 Japanese (5) — JP is top region 10%: `作業用BGM`, `勉強BGM`, `集中BGM`, `瞑想BGM`, `睡眠BGM`
 - 🇨🇳 Chinese Traditional (2) — Taiwan 3.3% + HK + diaspora: `禅音樂`, `冥想音樂`
-- 🇰🇷 Korean (2) — KR 5%: `공부 BGM`, `명상 음악`
-- 🇷🇺 Russian (1, speculative) — `музыка для медитации`
-- 🇪🇸 Spanish (1, speculative) — `música para meditar`
+- 🇰🇷 Korean (3) — KR 5%: `공부 BGM`, `명상 음악`, `수면 음악`
+- 🇷🇺 Russian (2) — `музыка для медитации`, `музыка для сна`
+- 🇪🇸 Spanish (2) — `música para meditar`, `música zen`
 - 🏷️ Brand (1) — `stillwave`
 
 **Removed in 2026-06-17 update** (low value for our actual 55+ audience):
