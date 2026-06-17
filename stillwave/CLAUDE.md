@@ -32,10 +32,24 @@ Channel-level signals tell the YouTube algorithm what the channel is about. With
 
 ### 1. Channel Keywords (Studio → Settings → Channel → Basic info → Keywords)
 
-Locked set (23 keywords, covers both Healing & Power Hour clusters):
+Locked set (updated 2026-06-17 after audience demographic teardown — 55+ Asian-heavy audience, Japan #1 region 10%, KR 5%, Taiwan 3.3%):
+
 ```
-zen music, japanese zen music, japanese ambient music, meditation music, focus music, deep focus music, study music, sleep music, ambient music, relaxing music, background music, japanese meditation music, shakuhachi music, mindfulness music, zen meditation music, calming music, pomodoro music, study with me, study timer, lofi pomodoro, work music, healing music, stillwave
+zen music, japanese zen music, japanese ambient music, meditation music, focus music, sleep music, healing music, ambient music, relaxing music, background music, japanese meditation music, shakuhachi music, mindfulness music, zen meditation music, calming music, slow living music, gentle music, peaceful music, deep relaxation, mature meditation, 作業用BGM, 勉強BGM, 集中BGM, 瞑想BGM, 睡眠BGM, 禅音樂, 冥想音樂, 공부 BGM, 명상 음악, музыка для медитации, música para meditar, stillwave
 ```
+
+**Tier breakdown (32 keywords):**
+- 🇬🇧 Core English (20) — broad zen / meditation / focus / sleep / ambient
+- 🇯🇵 Japanese (5) — JP is top region 10%: `作業用BGM`, `勉強BGM`, `集中BGM`, `瞑想BGM`, `睡眠BGM`
+- 🇨🇳 Chinese Traditional (2) — Taiwan 3.3% + HK + diaspora: `禅音樂`, `冥想音樂`
+- 🇰🇷 Korean (2) — KR 5%: `공부 BGM`, `명상 음악`
+- 🇷🇺 Russian (1, speculative) — `музыка для медитации`
+- 🇪🇸 Spanish (1, speculative) — `música para meditar`
+- 🏷️ Brand (1) — `stillwave`
+
+**Removed in 2026-06-17 update** (low value for our actual 55+ audience):
+- ~~`pomodoro music`~~, ~~`study with me`~~, ~~`study timer`~~, ~~`lofi pomodoro`~~, ~~`work music`~~ — target younger work-from-home crowd; our audience is 55+ meditation/sleep seekers
+- ~~`deep focus music`~~ — overlap with `focus music`
 
 ### 2. Channel Description (Studio → Settings → Channel → About → Description)
 

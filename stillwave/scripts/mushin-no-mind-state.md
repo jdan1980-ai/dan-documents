@@ -167,22 +167,25 @@ Subscribe for more Japanese ambient meditation journeys 🌿
 
 > Tracklist locked 2026-06-15 — 38 tracks, total runtime 2:01:11. Names derived from the user's handwritten end-of-track timecodes; each name is a small zen koan or scene image (no Hz, no technical music terms, per Kanji-Concept Series rules).
 
-## 9. 🏷️ Tags (Hikari Zen formula — front-loaded by VidIQ score)
+## 9. 🏷️ Tags (Hikari Zen formula + multilingual — Asian markets first)
 
 ```
-focus music, background music, meditation music, japanese music, ambient music, relaxing music, sleep music, study music, japanese ambient music, zen music, stress relief, deep relaxation, shakuhachi flute music, flute music, koto music, mushin, no mind state, zazen meditation, japanese meditation music, zen meditation music, mindfulness music, inner peace, bonsho temple bell, peaceful ambiance, serene ambience, evening relaxation, buddhist monk meditating in dawn temple with giant enso zen circle scroll and incense smoke, joe hisaishi, stillwave
+focus music, background music, meditation music, japanese music, ambient music, relaxing music, sleep music, study music, japanese ambient music, zen music, stress relief, deep relaxation, shakuhachi flute music, flute music, mushin, zazen meditation, japanese meditation music, zen meditation music, mindfulness music, inner peace, peaceful ambiance, serene ambience, mature meditation, calming music, joe hisaishi, stillwave, 作業用BGM, 瞑想BGM, 禅音樂, 공부 BGM, 명상 음악
 ```
 
-Distribution (modeled on Hikari Zen 973K hit — VidIQ score data verified 2026-06-15):
-- **Brand: 1 tag (~3%)** — `stillwave` (Hikari has ZERO brand tags; we keep 1 as minimum identity)
-- **Broad HIGH-SCORE: 13 (~46%)** — front-loaded by VidIQ score: `focus music` (84.7) · `background music` (82.1) · `meditation music` (79.7) · `japanese music` (79.7) · `ambient music` (78.7) · `relaxing music` (78.7) · `sleep music` (74.3) · `japanese ambient music` (73.5) · `study music` (70.9) · `stress relief` (70.2) · `zen music` (69) · `flute music` (69.5) · `deep relaxation` (64.1)
-- **Instrument: 3 (~10%)** — `shakuhachi flute music` (67.8), `flute music`, `koto music` (catches instrument-search traffic)
-- **Concept-narrow / MUSHIN-specific: 7 (~25%)** — `mushin`, `no mind state`, `zazen meditation`, `japanese meditation music`, `zen meditation music`, `mindfulness music`, `bonsho temple bell`, `inner peace`
-- **Mood/feeling: 3 (~10%)** — `peaceful ambiance`, `serene ambience`, `evening relaxation`
-- **Scene-description: 1 ⚡** — `buddhist monk meditating in dawn temple with giant enso zen circle scroll and incense smoke` (Hikari semantic-context trick)
-- **Celeb-anchor: 1 ⚡** — `joe hisaishi` (Hikari trick borrowed from RollinSound's `hans zimmer` — closest Japanese counterpart)
+Distribution (updated 2026-06-17 after audience demographic teardown):
+- **Brand: 1** — `stillwave` (Hikari zero-brand strategy)
+- **Broad HIGH-SCORE: 13** — front-loaded by VidIQ score (`focus music` 84.7, `background music` 82.1, etc.)
+- **Instrument: 2** — `shakuhachi flute music`, `flute music` (dropped `koto music` — low search volume)
+- **Concept-narrow / MUSHIN-specific: 7** — `mushin`, `zazen meditation`, `japanese meditation music`, `zen meditation music`, `mindfulness music`, `inner peace`, `mature meditation`
+- **Mood/feeling: 2** — `peaceful ambiance`, `serene ambience` (dropped `evening relaxation` — too generic)
+- **Celeb-anchor: 1** ⚡ — `joe hisaishi`
+- **🌏 Multilingual Asian markets (new): 5** ⚡ — `作業用BGM`+`瞑想BGM` (JP — 10% of audience), `禅音樂` (Traditional Chinese — Taiwan 3.3% + HK), `공부 BGM`+`명상 음악` (KR — 5%)
 
-> **Karena 20/20/40-50 brand-heavy rule does NOT apply to Kanji-Concept series.** Hikari Zen proved zero-brand + broad-HIGH-SCORE-front-loaded wins on small channels. See CLAUDE.md Kanji-Concept Series Rules.
+**Removed in 2026-06-17 update** (low value for our 55+ Asian-heavy audience):
+- ~~`koto music`~~, ~~`evening relaxation`~~, ~~`meditation`~~ (too generic, overlaps with `meditation music`), ~~`work music`~~ (audience is 55+, not working coders), ~~`yoga music`~~ (no yoga demand in our data), ~~`bonsho temple bell`~~ (too narrow)
+
+> **Karena 20/20/40-50 brand-heavy rule does NOT apply to Kanji-Concept series.** Hikari Zen proved zero-brand + broad-HIGH-SCORE-front-loaded wins on small channels. See CLAUDE.md Kanji-Concept Series Rules. Multilingual tags added 2026-06-17 based on real audience data: Japan 10%, Korea 5%, Taiwan 3.3%.
 
 ## 10. 🏷️ Hashtags — NONE in description body for this series
 

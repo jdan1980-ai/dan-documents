@@ -146,20 +146,20 @@ Subscribe for more Japanese ambient meditation journeys 🌿
 
 > Tracklist timecodes are TRACK START times, fill in after Suno export. Last track ends at ~2:00:00. Theme each name as a small zen koan or scene image — never use Hz numbers, never use technical music terms.
 
-## 9. 🏷️ Tags (Hikari Zen formula — front-loaded by VidIQ score)
+## 9. 🏷️ Tags (Hikari Zen formula + multilingual — Asian markets first)
 
 ```
-focus music, background music, meditation music, japanese music, ambient music, relaxing music, sleep music, study music, japanese ambient music, zen music, stress relief, deep relaxation, shakuhachi flute music, flute music, koto music, satori, sudden awakening, inner clarity, zen meditation music, japanese meditation music, mindfulness music, bonsho temple bell, mountain meditation, peaceful ambiance, serene ambience, dawn meditation, a lone buddhist monk standing on a mountain cliff at dawn as the golden sunrise breaks through layered clouds, joe hisaishi, stillwave
+focus music, background music, meditation music, japanese music, ambient music, relaxing music, sleep music, study music, japanese ambient music, zen music, stress relief, deep relaxation, shakuhachi flute music, flute music, satori, sudden awakening, inner clarity, zen meditation music, japanese meditation music, mindfulness music, mature meditation, peaceful ambiance, serene ambience, mountain meditation, joe hisaishi, stillwave, 作業用BGM, 瞑想BGM, 禅音樂, 공부 BGM, 명상 음악
 ```
 
-Distribution (same Hikari formula as MUSHIN):
-- **Brand: 1 tag (~3%)** — `stillwave`
-- **Broad HIGH-SCORE: 13 (~45%)** — same VidIQ-score-front-loaded set as MUSHIN
-- **Instrument: 3 (~10%)** — `shakuhachi flute music`, `flute music`, `koto music`
-- **Concept-narrow / SATORI-specific: 7 (~24%)** — `satori`, `sudden awakening`, `inner clarity`, `zen meditation music`, `japanese meditation music`, `mindfulness music`, `bonsho temple bell`
-- **Mood/feeling: 3 (~10%)** — `peaceful ambiance`, `serene ambience`, `dawn meditation`, `mountain meditation`
-- **Scene-description: 1** ⚡ — `a lone buddhist monk standing on a mountain cliff at dawn as the golden sunrise breaks through layered clouds`
+Distribution (Kanji-Concept Series tag spec, updated 2026-06-17):
+- **Brand: 1** — `stillwave`
+- **Broad HIGH-SCORE: 13** — same VidIQ-score-front-loaded set as MUSHIN
+- **Instrument: 2** — `shakuhachi flute music`, `flute music`
+- **Concept-narrow / SATORI-specific: 6** — `satori`, `sudden awakening`, `inner clarity`, `zen meditation music`, `japanese meditation music`, `mindfulness music`, `mature meditation`
+- **Mood/feeling: 3** — `peaceful ambiance`, `serene ambience`, `mountain meditation`
 - **Celeb-anchor: 1** ⚡ — `joe hisaishi`
+- **🌏 Multilingual Asian markets: 5** ⚡ — `作業用BGM`+`瞑想BGM` (JP), `禅音樂` (ZH-TW), `공부 BGM`+`명상 음악` (KR)
 
 ## 10. 🏷️ Hashtags — NONE in description body (Kanji-Concept rule)
 
