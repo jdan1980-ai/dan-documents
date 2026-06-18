@@ -2,6 +2,53 @@
 
 Output of `GAP: SW` runs lands here. Updated after each gap analysis.
 
+## 🔥 PRIORITY POST-SATORI — Hans Zimmer / Last Samurai cinematic test
+
+> **Added 2026-06-18.** User is currently test-generating Suno tracks in Hans Zimmer / Last Samurai style. **Plan: pick this up immediately after SATORI publishes (target Jun 22-24).** If Suno test-generation today produces a good track, this becomes the 3rd Kanji-Concept Series video.
+
+**Concept:** Cinematic Japanese orchestral ambient — not pure shakuhachi-zen, but Zimmer-style orchestral score with Japanese instruments. Wider emotional range = potential breakout from the pure-meditation cluster into the "epic cinematic Japanese music" cluster (Samurai Relax / Lonely Samurai Sanctuary territory).
+
+**Working titles (pick after Suno test):**
+- `BUSHIDO — 武士道 | Japanese Cinematic Music for Inner Strength, Courage & Stillness`
+- `MAKOTO — 誠 | Japanese Cinematic Music for Honor, Courage & the Last Stand`
+- `HARA — 腹 | Japanese Cinematic Music for Inner Center & Warrior's Calm`
+
+**Visual:** Lone samurai standing on misty mountain hill at dawn, sakura petals drifting, distant Mt. Fuji silhouette — Last Samurai poster energy. Same Kanji-Concept template (photoreal cinematic, back-to-camera, kanji+romaji upper-center thumbnail).
+
+**Suno prompts (drafted, ready to test today):**
+
+Style field:
+```
+Cinematic Japanese orchestral ambient — Hans Zimmer Last Samurai style. Sparse shakuhachi bamboo flute with long bending notes and breathy decay, slow orchestral strings moving like deep breathing (very legato, no vibrato), distant taiko ceremonial drum strikes once every 60-90 seconds with long decay, occasional koto pluck resonating in silence, soft wordless Japanese choir very low in the mix, single sparse piano notes. 45 BPM, extremely slow cinematic tempo. Builds slowly from intimate silence to sweeping emotional swell then returns to stillness. Deeply melancholic, profound, contemplative — the weight of a warrior's last journey. Cinematic orchestral score, instrumental only, no lyrics, no vocals except distant wordless choir texture.
+```
+
+Lyrics field:
+```
+[no lyrics, instrumental cinematic score — Last Samurai orchestral ambient style]
+[0:00–0:30 intro: single shakuhachi note fades in from silence, breathes slowly, strings enter underneath like fog]
+[0:30–1:15 section A: slow string melody, very quiet, koto pluck once, taiko strike once in the distance with long resonance]
+[1:15–2:00 section B: shakuhachi carries a plaintive melody, strings swell gently underneath, wordless choir enters very softly]
+[2:00–2:30 section C: emotional peak — strings build to a quiet crescendo, shakuhachi soars above, taiko strikes mark the moment]
+[2:30–3:00 outro: everything dissolves, only shakuhachi and piano remain, fades to near-silence]
+[mood: a lone samurai standing in a misty mountain valley at dawn, facing his last battle with perfect stillness — grief, honor, acceptance]
+[texture: shakuhachi flute, slow orchestral strings, distant taiko, koto, wordless choir, sparse piano, mountain mist]
+```
+
+**Celeb-anchor for tags:** `hans zimmer` (parallel to our `joe hisaishi` anchor — Zimmer scored Last Samurai 2003, this is the literal genre signal).
+
+**Decision tree:**
+- ✅ Suno test today produces 1+ usable cinematic track → **promote to next Kanji-Concept Series script** (write full `scripts/[kanji]-[meaning].md` after SATORI publishes)
+- ❌ Suno can't pull off orchestral strings convincingly → keep as backlog idea, revisit if Suno v6 ships better orchestral
+
+**Next action when SATORI is published (Jun 22-24):**
+1. Review Suno test tracks from today's session
+2. Pick winning title (BUSHIDO vs MAKOTO vs HARA)
+3. Write full script in `scripts/<slug>.md`
+4. Generate full album + image + Flow loop
+5. Ship as 3rd Kanji-Concept Series video
+
+---
+
 ## Themes by category
 
 ### Hz / Frequency series
