@@ -16,7 +16,8 @@ See `published-videos.md` for the full table with metrics.
 
 | Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎞️ | ⏰ | 📤 |
 |------|-------|--------|----|----|----|-----|-----|-----|
-| `mushin-no-mind-state` | MUSHIN — 無心 \| Japanese Zen Music for No-Mind State, Deep Focus & Inner Stillness | 2H 01min 11sec (38 tracks) | ✅ | ✅ | ✅ thumb + Shorts cover | ✅ CapCut assembled | ✅ **scheduled Tue Jun 16, 18:00 MSK** (`CamT9sohYQM`) | ⏳ |
+| `mushin-no-mind-state` | MUSHIN — 無心 \| Japanese Zen Music for No-Mind State, Deep Focus & Inner Stillness | 2H 01min 11sec (38 tracks) | ✅ | ✅ | ✅ thumb + Shorts cover | ✅ CapCut assembled | ✅ **published Tue Jun 16, 18:00 MSK** (`CamT9sohYQM`) | ✅ |
+| `satori-sudden-awakening` | SATORI — 悟り \| Japanese Zen Music for Sudden Awakening, Inner Clarity & Deep Focus | 2H target (~20-24 tracks) | ✅ | ⏳ | ⏳ | ⏳ | ⏳ Target ship window Mon-Wed Jun 22-24 | ⏳ |
 | `tokyo-apartment-rain-1h` | Power Hour Focus Music — Tokyo Apartment Rain | 1H 04min 48sec (24 tracks) | ✅ | ✅ | ✅ | ✅ | ✅ **scheduled May 10, 14:00** | ⏳ |
 
 ### MUSHIN — 無心 scheduled Tue Jun 16, 18:00 MSK (`CamT9sohYQM`)
@@ -47,6 +48,53 @@ See `published-videos.md` for the full table with metrics.
 - If D2 < 50 → skip Shorts (cross-promo on 50-sub channel doesn't work, per 25/5 and 50/10 lessons)
 
 **Update 2026-06-15:** user chose **D1 drop strategy** instead — Shorts publishes Wed Jun 17 18:00 MSK (exactly 24h after long-form), regardless of long-form D1 performance. Rationale: catch the long-form's D1-D2 algorithmic test while it's still hot, rather than wait for the plateau (D3-D4 delayed strategy failed on Pomodoro 25/5 with only 11 views on Shorts). New experimental cross-promo timing — we'll learn from the comparison vs Pomodoro 25/5 delayed.
+
+### MUSHIN — D2 read (2026-06-18)
+
+Full breakdown: `analytics/2026-06-18-mushin-d2-read.md`.
+
+- Long-form `CamT9sohYQM` at 51h: **16 views, 0 likes, 1 comment**. ✅ Topic = `Music` (template fix worked). ❌ No discovery push.
+- Shorts `Rrwb_BBDMuM` at 27h: **7 views, 0 likes, 1 comment**. ✅ Topic = Music. ❌ D1 drop strategy did not save it.
+- Channel: subs flat at **50** (7 days), MUSHIN brought zero new subs.
+- Pomodoro 50/10 long-form Topic is now `Music` (no Lifestyle anymore — title rename NOT needed). The earlier Lifestyle classification has self-corrected.
+- Pomodoro 50/10 Shorts still **wrong Topic + broken description** — open issue, needs Studio fix.
+
+**Verdict:** Format + SEO + Topic all working. Channel-authority bottleneck is the wall. User decision: **ship SATORI in parallel** (don't wait for MUSHIN D7) — two videos = more surface area for algo to catch one.
+
+### SATORI — 悟り (in production, target ship Jun 22-24)
+
+Second Kanji-Concept Series video. Decision 2026-06-18: ship in parallel with MUSHIN D7 read instead of waiting for verdict — two videos = wider net for algorithmic discovery on a 50-sub channel.
+
+**Visual contrast with MUSHIN** (locked):
+- MUSHIN = interior temple dawn, ENSO scroll, monk seated zazen, intimate
+- SATORI = mountain peak sunrise, lone monk standing on cliff edge, golden sunrise breaking through clouds, expansive
+
+**Production checklist (sequential):**
+
+1. **🎵 Suno album** — generate 20-24 unique tracks using `script §1 Style` + `§2 Lyrics` prompts. Same DNA as MUSHIN (45 BPM, shakuhachi, bonsho bell, drone). Allow 2-3 reroll cycles for quality bar. **TARGET: 2H continuous album end-to-end in CapCut.**
+2. **🎨 NanoBanana 16:9** — use script §3 prompt verbatim. Hero image = monk silhouette on cliff (lower-right third) + GIANT golden sunrise dominating upper two-thirds. Must keep upper-left dark mountain area clean for kanji `悟り` overlay (different from MUSHIN's tanzaku zone — SATORI's negative space is over the dark mountain mass on the left).
+3. **🎨 NanoBanana 9:16** — script §4 verbatim. Vertical: monk in lower third, sunrise upper two-thirds.
+4. **🎬 Flow / Kling 8-sec seamless loop** — script §5 prompt. Three motions ONLY: cloud drift (slow R→L), sunrise ray shimmer (subtle pulse), monk micro-sway (1cm forward-back). Everything else frozen. Camera locked.
+5. **🖼️ Thumbnail composite** — PIL script: load NanoBanana 16:9 + overlay `悟り` (IPAMincho cream tategaki, LEFT side over dark mountain) + `SATORI` (Liberation Serif Bold cream below kanji). Same template as MUSHIN v4. **A ready-to-run composite script lives at `assets/satori-compose-thumb.py`** — drop the 16:9 image into `assets/satori-sudden-awakening-source.jpg` and run.
+6. **📱 Shorts cover** — PIL composite of 9:16 image + 悟り upper-center + SATORI bold cream + optional Jobs quote at bottom. Script at `assets/satori-compose-shorts.py`.
+7. **🎞️ CapCut assembly** — 8-sec loop extended to 2H + 24 Suno tracks laid end-to-end + optional wind ambient (-14 dB) + optional rare bonsho hits (-16 dB, every ~10 min). NO rain, NO gongs, NO timer overlays (continuous flow, not Pomodoro).
+8. **📝 Community Post** — publish 4-6h before long-form drops. Text in script §Community Post.
+9. **📤 Schedule** — Mon-Wed Jun 22-24, 18:00 MSK (matches MUSHIN window). Add to **`Kanji-Concept Series`** playlist. "Not for kids = Yes". Scheduled (not direct-public).
+10. **📤 Shorts drop strategy** — D1 drop (Jun 23 or Jun 24, +24h after long-form), same experimental pattern as MUSHIN.
+
+**Review schedule:**
+- 48h: log views/likes/comments + verify Topic = Music
+- 7d: real read. A/B vs MUSHIN — does mountain-dawn outperform temple-interior on the SAME template?
+- 30d: final snapshot; if BOTH MUSHIN and SATORI break 100+ → format LOCKED, ship 4-6 more (YUGEN, KENSHO, KOAN, MAKOTO)
+
+**Asset references:**
+- Script: `stillwave/scripts/satori-sudden-awakening.md`
+- Thumb composite (PIL): `stillwave/assets/satori-compose-thumb.py` (created 2026-06-18, ready to run)
+- Shorts composite (PIL): `stillwave/assets/satori-compose-shorts.py` (created 2026-06-18, ready to run)
+- Source 16:9 (to be generated): `stillwave/assets/satori-sudden-awakening-source.jpg`
+- Source 9:16 (to be generated): `stillwave/assets/satori-sudden-awakening-shorts-source.jpg`
+- Final thumb: `stillwave/assets/satori-sudden-awakening-thumb.jpg`
+- Final Shorts cover: `stillwave/assets/satori-sudden-awakening-shorts-cover.jpg`
 
 ### Tokyo Apartment Rain — review schedule
 
