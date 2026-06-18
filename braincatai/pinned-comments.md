@@ -388,6 +388,19 @@ ok the tiger part actually shocked me i had no idea some cats LIKE water lol. mi
 
 ---
 
+### 57. Before You Adopt Me — 5 Things I Wish You Knew (18 июн, 15:00) — Cat Psychology / New Kitten
+
+```
+honestly the first week i had mine she hid behind the washing machine the ENTIRE time and i was convinced i adopted a ghost lol. took her like 5 days to trust me. how long did yours take to actually come out and chill?
+```
+
+🇷🇺 (для RU-зеркала):
+```
+честно первую неделю мой прятался за стиралкой ВСЁ время и я уже думала что усыновила привидение 😂 дней пять привыкал ко мне. а твой сколько прятался пока не начал выходить и тусить?
+```
+
+---
+
 ## Принципы, по которым написаны закрепы
 
 1. **Один вопрос на комментарий** — запутанные опросы убивают ответы

@@ -86,6 +86,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 | **15 июн 15:00** | **Why We Orange Cats Are Built Different** (orange-cat «built different» мем + наука first-person, mind-blow #5: «один браинцелл»-хаос = бесстрашие; ⚡ формат 33с тест #3) | Cat Psychology / Facts (1st-person) | `orange-cat-behavior` | ✅ залит, scheduled 15 июн 15:00 · vidIQ anchor `orange cat behavior` 🟢 63.09 / 30,546 / comp 42.7 |
 | **16 июн 15:00** | **Why I Pee Outside My Box (It's NOT Revenge)** (health/behavior warning first-person, 4 причины + mind-blow #5 «коты не мстят»; ⚡ формат 33с тест #4) | Cat Psychology / Health (1st-person) | `cat-peeing-outside-litter-box` | ✅ опубликован 16 июн · vidIQ anchor `cat peeing outside litter box` 🟢 63.96 / 4,986 / comp 22.9 · конкурент-чек: educational white-space, search-play |
 | **17 июн 15:00** | **Why I HATE Water (It's NOT Just Fear)** (first-person, 4 причины: тяжёлая шерсть / холод+запах / пустынные предки / нет контроля + mind-blow #5 «тигры обожают плавать»; ⚡ формат 33с тест #5) | Cat Psychology / Behavior (1st-person) | `why-cats-hate-water` | ✅ опубликован 17 июн · vidIQ anchor `why cats hate water` 🟡 60.88 / 3,659 / comp 27.6 (YELLOW override) · breakout-доказательство: TheCognition 102k/795 subs на этой теме |
+| **18 июн 15:00** | **Before You Adopt Me — 5 Things I Wish You Knew** (first-person new-kitten: безопасная комната / дай подойти / игра=охота / я малыш + тёплый mind-blow #5 «я твой на всю жизнь»; ⚡ формат 33с тест #6) | Cat Psychology / New Kitten (1st-person) | `getting-a-kitten` | 📝 скрипт готов → производство · vidIQ anchor `getting a kitten` 🟢 66.30 / 10,734 / низкая comp (GREEN, WHITE-SPACE) · не каннибал (проверено vs 42 скрипта 18 июн) |
 
 ⚠️ **Override 18 мая:** `why-cats-sit-above-you` опубликован вне vidIQ-плана (score 25.6 RED, 0 monthly). User decision: канал в recovery mode → лучше потратить слот на инстинкт-тему чем держать сильную в очереди. Трекаем результат для валидации.
 
@@ -184,6 +185,7 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `orange-cat-behavior` | 15 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 (1st-person, orange-cat meme+science, ⚡33с тест #3) |
 | `cat-peeing-outside-litter-box` | 16 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (1st-person, health/behavior, ⚡33с тест #4) |
 | `why-cats-hate-water` | 17 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (1st-person, behavior, ⚡33с тест #5) |
+| `getting-a-kitten` | 18 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ (1st-person, new-kitten, ⚡33с тест #6) |
 | `your-body-calm-down-button` | ~~13 июн~~ | — | — | — | — | — | ⚠️ легаси-Vagus снова Public 13 июн (риск-предупреждение дано, оставлено по решению Dan) |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
