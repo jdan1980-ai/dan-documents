@@ -7,7 +7,7 @@
 - **Title:** SATORI — 悟り | Japanese Zen Music for Sudden Awakening, Inner Clarity & Deep Focus
 - **Series:** Kanji-Concept
 - **Playlist (add to in Studio):** `Kanji-Concept Series`
-- **Format:** Long-form, **2H** continuous ambient meditation (no Pomodoro structure)
+- **Format:** Long-form, **3H** continuous ambient meditation (no Pomodoro structure) — upgraded from 2H, leans sleep/overnight meditation use-case
 - **Aesthetic:** **Photoreal cinematic** — lone Buddhist monk silhouetted on a rocky mountain peak at dawn, vast sea of clouds below, brilliant golden sunrise breaking through layered cloud bands across the sky. Different visual register from MUSHIN (interior temple/ENSO).
 - **Hero concept:** Golden sunrise breaking through clouds (悟り — the moment of awakening, light breaking through). Lone monk on cliff edge is the focal anchor. Universal "moment of insight" visual symbol.
 - **Outcome owned:** sudden awakening · inner clarity · deep focus · transformation · the moment of insight
@@ -47,7 +47,7 @@ EXTENDED LONG-FORM JAPANESE ZEN AMBIENT PIECE — target runtime 3 minutes minim
 [texture: warm low drone, sparse shakuhachi, distant bonsho temple bell, soft koto, mountain wind through pine, the expansion of dawn]
 ```
 
-> Generate ~20-24 unique tracks at this prompt to fill 2H. Same SATORI DNA as MUSHIN baseline — interchangeable music if needed.
+> Generate ~22-26 unique tracks at this prompt to fill 3H. Same SATORI DNA as MUSHIN baseline — interchangeable music if needed.
 
 ---
 
@@ -99,7 +99,15 @@ Style: photorealistic cinematic 4K, matching the source image exactly. Warm gold
 
 ## 6. 🎶 Track structure (continuous ambient, NOT Pomodoro)
 
-No gongs, no timer overlays, no Pomodoro structure. **Continuous 2H ambient flow** — same as MUSHIN.
+No gongs, no timer overlays, no Pomodoro structure. **Continuous 3H ambient flow** — extended over MUSHIN's 2H, leans deeper into overnight sleep / long-meditation use-case.
+
+**ffmpeg encode (3H):**
+```bash
+ffmpeg -stream_loop -1 -i satori-loop-16s.mp4 -i satori-album-3h.mp3 \
+  -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
+  -c:a aac -b:a 192k -shortest -t 10800 satori-final.mp4
+```
+`-t 10800` = 3 hours exactly.
 
 Audio layers in CapCut:
 1. **Track 1:** Suno albums (20-24 unique tracks end-to-end)
@@ -112,10 +120,15 @@ Audio layers in CapCut:
 ## 7. 📝 YouTube Title
 
 ```
-SATORI — 悟り | Japanese Zen Music for Sudden Awakening, Inner Clarity & Deep Focus
+SATORI — 悟り | 3 Hours Japanese Zen Music for Sudden Awakening, Inner Clarity & Deep Meditation
 ```
 
-(85 chars. Front-loads: **SATORI (kanji concept)** + **悟り** (kanji symbol) — matches Kanji-Concept template. `Japanese Zen Music` puts genre keyword in first half (Topic-Categorization rule from CLAUDE.md). Outcome stack: Sudden Awakening + Inner Clarity + Deep Focus = wide audience appeal — covers meditation, focus, study, transformation seekers.)
+(98 chars. Front-loads: **3 Hours** (duration SEO — high search demand "3 hours japanese music") + **SATORI (kanji concept)** + **悟り** (kanji symbol). `Japanese Zen Music` lands at char ~30 (first half — Topic-Categorization rule from CLAUDE.md locks Music topic). Outcome stack: Sudden Awakening + Inner Clarity + Deep Meditation = wide audience including overnight sleep + long meditation seekers.)
+
+**A/B variant:**
+```
+3 Hours SATORI 悟り — Japanese Zen Music for Sudden Awakening, Deep Meditation & Sleep
+```
 
 ## 8. 📝 YouTube Description (Hikari-style, copy-paste ready)
 
@@ -136,7 +149,7 @@ Satori is not earned. It is recognized.
 🌀 Tracklist — SATORI
 
 00:00 — Before the First Light
-[fill in 20-24 mood-poetic track names after Suno export — e.g. "The First Ray Breaks", "Cloud Sea Below", "Mountain Wind Speaks", "The Light Arrives", "Standing at the Edge", "What Was Hidden", "The Sky Opens", "Eagle on the Wind", "Sun on the Stone", "Where Striving Ends", "The Long Look", "Beyond the Clouds", etc.]
+[fill in 22-26 mood-poetic track names after Suno export — e.g. "The First Ray Breaks", "Cloud Sea Below", "Mountain Wind Speaks", "The Light Arrives", "Standing at the Edge", "What Was Hidden", "The Sky Opens", "Eagle on the Wind", "Sun on the Stone", "Where Striving Ends", "The Long Look", "Beyond the Clouds", etc.]
 
 🌀 What was hidden becomes plain.
 🍃 The clouds part. The light arrives.
@@ -211,7 +224,7 @@ SATORI — 悟り | Sudden Awakening 🌅
 ```
 SATORI (悟り) — the moment of sudden awakening. The instant the clouds part and the light arrives. Not earned through striving — recognized in stillness.
 
-▶ Full 2H SATORI zen session: [paste long-form link after upload]
+▶ Full 3H SATORI zen session: [paste long-form link after upload]
 
 Subscribe to StillWave for new Japanese zen sessions every week.
 
