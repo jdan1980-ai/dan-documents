@@ -26,7 +26,7 @@ CANVAS = (1080, 1920)
 
 KANJI_FONT = "/usr/share/fonts/opentype/ipafont-mincho/ipam.ttf"
 ROMAJI_FONT = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
-QUOTE_FONT = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
+QUOTE_FONT = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 
 CREAM = (245, 234, 210)
 
@@ -40,12 +40,13 @@ ROMAJI_Y = 720      # below kanji
 ROMAJI_LETTER_SPACING = 6
 
 QUOTE_LINES = [
-    "You can't connect the dots looking forward;",
-    "you can only connect them looking backwards.",
-    "— Steve Jobs",
+    "Before awakening: mountains are mountains.",
+    "During awakening: mountains are not mountains.",
+    "After awakening: mountains are mountains again.",
+    "— Qingyuan",
 ]
 QUOTE_SIZE = 38
-QUOTE_Y = 1700      # bottom area, above Shorts UI safe zone (~150px)
+QUOTE_Y = 1520      # bottom area, above Shorts UI safe zone (~150px)
 QUOTE_LINE_GAP = 14
 
 
@@ -95,7 +96,7 @@ def main() -> None:
 
     y = QUOTE_Y
     for line in QUOTE_LINES:
-        draw_centered(draw, y, line, quote_font, CREAM, shadow=2)
+        draw_centered(draw, y, line, quote_font, CREAM, shadow=4)
         y += QUOTE_SIZE + QUOTE_LINE_GAP
 
     bg.save(OUT, "JPEG", quality=92, optimize=True, progressive=True)

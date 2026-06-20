@@ -29,19 +29,19 @@ ROMAJI_FONT = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 CREAM = (245, 234, 210)         # #F5EAD2 — locked StillWave text color
 SHADOW = (0, 0, 0, 180)         # dark drop for legibility on mid-tones
 
-# Tategaki kanji block — vertical, left side (over dark mountain area)
+# Tategaki kanji block — vertical, left side (over pine tree / dark mountain)
 KANJI_TEXT = "悟り"
-KANJI_SIZE = 95
-KANJI_LINE_GAP = 8
-KANJI_X = 120                   # horizontal center of the tategaki column
-KANJI_Y_TOP = 130               # top of the first character
+KANJI_SIZE = 130                # bumped from 95 for stronger presence
+KANJI_LINE_GAP = 12
+KANJI_X = 160                   # pushed right from 120 to avoid edge crop
+KANJI_Y_TOP = 120
 
 # Romaji block — bottom-left under the kanji
 ROMAJI_TEXT = "SATORI"
-ROMAJI_SIZE = 62
-ROMAJI_X_CENTER = 120
-ROMAJI_Y = 540
-ROMAJI_LETTER_SPACING = 3
+ROMAJI_SIZE = 72                # bumped from 62 to match larger kanji
+ROMAJI_X_CENTER = 200           # pushed right so SATORI (~310px wide) doesn't clip
+ROMAJI_Y = 600
+ROMAJI_LETTER_SPACING = 5
 
 
 def load_source() -> Image.Image:
