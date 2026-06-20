@@ -198,6 +198,41 @@ Final file: `assets/satori-sudden-awakening-thumb.jpg` (after image generation +
 
 ---
 
+## 🇯🇵 Japanese wisdom phrase library (locked 2026-06-20)
+
+Optional second-line overlay for thumbnail / Shorts cover / community post / in-video corner watermark. Pick per asset.
+
+| # | Phrase | Reading | Meaning | Best use |
+|---|--------|---------|---------|----------|
+| 1 | 悟り | satori | Awakening | Thumbnail (default, locked) |
+| 2 | 今ここ | ima koko | Here, now | Minimal modern dzen, Shorts hook |
+| 3 | 一期一会 | ichigo ichie | One moment, one encounter | Community post, universal |
+| 4 | 見性成仏 | kenshō jōbutsu | See your nature, become Buddha | ⭐ Canonical Zen phrase for sat ori — in-video corner watermark |
+| 5 | 日々是好日 | hibi kore kōjitsu | Every day is a good day | Sleep/long-meditation framing |
+| 6 | 山是山、水是水 | yama wa yama, mizu wa mizu | Mountains are mountains, waters are waters | ⭐ Shorts cover quote (replaces Steve Jobs) |
+| 7 | 朝日や / 雲の海から / 悟り来る | asahi ya / kumo no umi kara / satori kuru | Morning sun! / From the sea of clouds / Awakening arrives | Hokku — community post or video opening title card |
+
+### Locked decisions for SATORI assets
+
+- **Thumbnail 16:9** → `悟り` + `SATORI` only (no secondary phrase, keep clean — same as MUSHIN)
+- **In-video corner watermark (optional, lower-right, 24pt cream):** `見性成仏 — see your nature, become Buddha`
+- **Shorts cover 9:16 quote zone (replaces Steve Jobs):**
+  ```
+  Before awakening: mountains are mountains.
+  During awakening: mountains are not mountains.
+  After awakening: mountains are mountains again.
+                                       — Qingyuan
+  ```
+  Rationale: post-satori realization quote directly resonates with the monk-on-mountain visual; Jobs reference feels less aligned.
+- **Community post hokku (optional opener above main copy):**
+  ```
+  朝日や
+  雲の海から
+  悟り来る
+  ```
+
+---
+
 # 📱 SHORTS PACKAGE (cross-promo → long-form)
 
 > **Playlist (add to in Studio):** `StillWave Shorts`
@@ -205,7 +240,14 @@ Final file: `assets/satori-sudden-awakening-thumb.jpg` (after image generation +
 **Cover (9:16):** vertical version of the image. Text overlay style same as MUSHIN Shorts cover:
 - `悟り` (kanji LARGE upper-center, sumi-ink style + cream shadow OR clean cream)
 - `SATORI` (romaji bold cream below kanji)
-- Quote at bottom (instead of "Japanese Zen Music" tag): one short Steve Jobs / zen-master line about insight, e.g. `"Stay foolish. The light arrives when you stop chasing it."` — to find a real, attributed quote that fits SATORI. Default Jobs reference: `"You can't connect the dots looking forward; you can only connect them looking backwards." — Steve Jobs` (Stanford 2005 — Jobs studied zen and SATORI directly). OR keep it minimal without quote if Jobs feels off-brand.
+- Quote at bottom (LOCKED — Qingyuan post-satori realization, replaces Steve Jobs):
+  ```
+  Before awakening: mountains are mountains.
+  During awakening: mountains are not mountains.
+  After awakening: mountains are mountains again.
+                                       — Qingyuan
+  ```
+  Rationale: this is the canonical post-satori realization quote (Qingyuan Weixin, 9th century Zen master). It resonates directly with the monk-on-mountain visual — every word lands. Steve Jobs Stanford 2005 line is the fallback only if user wants a Western anchor.
 
 **9:16 visual:** see section 4.
 
