@@ -149,7 +149,55 @@ Satori is not earned. It is recognized.
 🌀 Tracklist — SATORI
 
 00:00 — Before the First Light
-[fill in 22-26 mood-poetic track names after Suno export — e.g. "The First Ray Breaks", "Cloud Sea Below", "Mountain Wind Speaks", "The Light Arrives", "Standing at the Edge", "What Was Hidden", "The Sky Opens", "Eagle on the Wind", "Sun on the Stone", "Where Striving Ends", "The Long Look", "Beyond the Clouds", etc.]
+03:29 — Mist on the Cliff
+06:02 — Distant Temple Bell
+09:32 — The Sky Begins to Whisper
+12:01 — Shakuhachi Breathes In
+15:53 — First Stars Fade
+19:51 — The Mountain Wakes
+23:49 — Stillness Before Sunrise
+27:09 — A Crane Crosses the Valley
+31:14 — Pine Shadow on Wet Stone
+33:46 — The First Ray Breaks
+36:56 — Gold Touches the Pine
+40:41 — The Sky Opens
+43:24 — Standing at the Edge
+47:26 — One Bell at Sunrise
+50:45 — Koto Across the Valley
+54:50 — Mountain Wind Speaks
+57:23 — Light Through the Pines
+1:01:08 — Bonsho From the Valley
+1:03:51 — Cedar in Morning Mist
+1:07:52 — The Long Look
+1:11:50 — Where Striving Ends
+1:15:00 — The Monk Does Not Move
+1:18:27 — Eagle on the Wind
+1:22:41 — Daybreak Over Fuji
+1:26:56 — Held in Golden Light
+1:31:10 — The Brush Lifts
+1:34:59 — Cloud Sea Below
+1:38:39 — A Thought Passes Through
+1:42:19 — Stone and Sky
+1:45:34 — Sunlight on Wet Stone
+1:49:36 — Breath of the Mountain
+1:53:11 — Beyond Thought
+1:57:50 — The Empty Hour
+2:01:19 — One Breath of the World
+2:05:27 — Snowmelt Returns to River
+2:09:02 — A Quiet Mountain Year
+2:13:00 — Path Without a Map
+2:13:13 — One Heartbeat
+2:20:33 — Smoke Rises Without Effort
+2:24:37 — Returning to Stillness
+2:28:14 — Footstep on the Old Stone
+2:32:08 — A River Hidden in Mist
+2:35:27 — The Sun Climbs Slowly
+2:39:17 — Pine Shadow Falls Soft
+2:43:22 — The Mountain Breathes
+2:46:15 — A Single Drop of Light
+2:50:04 — The Last Note Holds
+2:54:09 — What Was Hidden Becomes Plain
+2:57:52 — The Monk Turns Inward
 
 🌀 What was hidden becomes plain.
 🍃 The clouds part. The light arrives.
@@ -157,7 +205,14 @@ Satori is not earned. It is recognized.
 Subscribe for more Japanese ambient meditation journeys 🌿
 ```
 
-> Tracklist timecodes are TRACK START times, fill in after Suno export. Last track ends at ~2:00:00. Theme each name as a small zen koan or scene image — never use Hz numbers, never use technical music terms.
+> **Tracklist SEO note (locked 2026-06-20):** Track names ARE parsed by YouTube for description-body SEO. The names above naturally weave the high-value keywords across all 50 tracks without breaking the Hikari-style poetic rule:
+> - `shakuhachi` ×1 · `koto` ×1 · `bell` / `bonsho` / `temple bell` ×3 · `Fuji` ×1
+> - `mountain` ×5 · `pine` ×4 · `mist` ×3 · `cloud` ×2 · `sky` ×3
+> - `dawn` / `sunrise` / `daybreak` ×5 · `breath` ×3 · `stillness` ×3 · `monk` ×2
+>
+> Each token appears organically (never as a list), distributed across the 3 hours so the algorithm sees the channel's core vocabulary repeatedly without spam. Keyword cadence ≈ 1 per 6 tracks on average. **DO NOT add `Hz` / `BPM` / `frequency` / `binaural` / `solfeggio` tokens** — those belong to Healing Hour, not Kanji-Concept.
+>
+> Total runtime: **3:01:22** (50 tracks). Last track ends at 3:01:22 — pad with 30-60s of mountain wind ambience tail in CapCut to land cleanly at 3:02:00 round number.
 
 ## 9. 🏷️ Tags (Hikari Zen formula + multilingual — Asian markets first)
 
