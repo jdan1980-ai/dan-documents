@@ -32,9 +32,9 @@ KANJI_SIZE   = 96
 ROMAJI_SIZE  = 36
 ENGLISH_SIZE = 36
 
-# Lower-left anchor (same zone as tenchi-ichinyo)
+# Bottom-left anchor — over the dark rock area for max legibility
 LEFT_MARGIN = 80
-KANJI_Y     = 660
+KANJI_Y     = 852
 ROMAJI_Y    = KANJI_Y + KANJI_SIZE + 12
 ENGLISH_Y   = ROMAJI_Y + ROMAJI_SIZE + 8
 
