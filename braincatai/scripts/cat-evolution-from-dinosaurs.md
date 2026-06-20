@@ -323,7 +323,7 @@
 **Кадр 59**
 — VO (EN): "So tonight, look at the small creature sleeping on your couch."
 — Озвучка (RU): «Так что сегодня вечером взгляни на маленькое существо, спящее на твоём диване.»
-— На экране: A dim modern living room, a cat curled asleep on a couch, warm lamp light.
+— На экране: A dim modern living room, a plain ordinary ginger cat curled asleep on a couch, warm lamp light (NO glasses — looks like any cat).
 
 **Кадр 60**
 — VO (EN): "It is not just a pet."
@@ -343,12 +343,12 @@
 **Кадр 63** 🎬
 — VO (EN): "You didn't adopt a pet. You adopted a survivor of the end of the world."
 — Озвучка (RU): «Ты завёл не питомца. Ты приютил выжившего на краю света.»
-— На экране: The cat on the couch slowly opens its eyes — bright emerald green `#3DDC84`. This is BRAIN.
+— На экране: The ginger cat slowly opens its eyes — bright emerald green `#3DDC84` (still NO glasses). First hint.
 
 **Кадр 64**
 — VO (EN): "And it chose, out of everything alive — to stay with you."
 — Озвучка (RU): «И оно выбрало — из всего живого — остаться с тобой.»
-— На экране: Brain (emerald eyes, collar + heart tag) holds a calm steady gaze straight at camera.
+— На экране: The round glasses + collar with red heart tag appear — now it is BRAIN, holding a calm steady gaze straight at camera. Full reveal.
 
 **Кадр 65** 🎬
 — VO (EN): "Sleep well. The apex predator likes you."
@@ -366,9 +366,9 @@
 
 ## EDITING NOTES
 
-- **Brain appears ONLY from Кадр 63.** Before that, all cats are generic wildcats / house cats — do NOT give them emerald eyes or the collar. The reveal only works if Brain is withheld.
+- **TWO-STEP REVEAL.** Кадры 59–62: a plain ordinary ginger cat asleep (NO glasses, NO collar) — must read as "your cat". Кадр 63: opens emerald-green eyes `#3DDC84` (still NO glasses) = first hint. Кадр 64: glasses + collar with red heart tag appear = full reveal "this is Brain". This preserves the emotional gut-punch (it's YOUR cat) AND the brand mascot. Before Кадр 59 all cats are generic wildcats / grey house cats.
 - Keep Brain's mouth **closed** the whole finale except the single soft meow on Кадр 65 (allowed exception).
-- Brain: bright emerald green eyes `#3DDC84`, collar + heart tag visible. 4 paws, never 5.
+- Brain: ginger-orange tabby, round black-rimmed glasses, bright emerald green eyes `#3DDC84` behind glasses, collar + red heart tag visible. 4 paws, never 5.
 - Locations: keep them few and consistent — (1) prehistoric forest/ash world, (2) desert + Fertile Crescent village/granary, (3) Egypt temple, (4) modern living room. Reuse identical wording per location in image prompts.
 - Animation count: 16 shots marked 🎬 across ~6.5 min ≈ ~2.5/min — within the "limited animation, motion only where it earns it" rule.
 
@@ -415,7 +415,7 @@ flat 2D hand-drawn doodle explainer illustration, bold slightly uneven black mar
 - `HOUSECAT` = a doodle house cat, round white head, big round eyes with dot pupils, pointed ears, simple flat-grey body, curled tail, bold black marker outline
 - `SABERTOOTH` = a doodle sabertooth cat, round white head, big round eyes, two long curved white fangs, flat tan body, bold black marker outline
 - `HUMAN` = a simple doodle stick-figure human, round white head, big round eyes, thin line body, bold black marker outline
-- `BRAIN` (finale only) = BRAIN the doodle cat, round white head, big round BRIGHT EMERALD GREEN eyes (#3DDC84) with dot pupils, pointed ears, flat-grey body, thin collar with a small heart tag, bold black marker outline, mouth closed
+- `BRAIN` (finale only — our channel mascot) = BRAIN the doodle cat, round head with flat ginger-orange fill and a few darker orange tabby stripes, white muzzle and chest, round black-rimmed glasses, big round BRIGHT EMERALD GREEN eyes (#3DDC84) with dot pupils behind the glasses, pointed orange ears, flat ginger-orange body, thin collar with a small red heart tag, bold black marker outline, mouth closed
 - `ASTEROID` = a doodle flaming asteroid, round rock with simple orange-yellow flame streak, bold black outline
 - `GRAINJAR` = a doodle clay storage jar overflowing with small yellow grain dots, bold black outline
 - `EGYPTCAT` = a doodle seated cat statue colored flat yellow-gold, big round eyes, bold black outline
@@ -484,13 +484,13 @@ flat 2D hand-drawn doodle explainer illustration, bold slightly uneven black mar
 56. Two cats ignoring each other in silence, then one HOUSECAT meowing up at a HUMAN.
 57. Close-up of a purring HOUSECAT against a HUMAN chest, soft doodle vibration rings.
 58. A long glowing doodle timeline from ASTEROID to a modern cat, ending at a HUMAN silhouette.
-59. A dim modern doodle living room, a HOUSECAT curled asleep on a couch, warm flat-yellow lamp light.
-60. Slow push-in toward the sleeping HOUSECAT, rest of the room darkening.
-61. Faint ghostly doodle images of ASTEROID, WILDCAT and EGYPTCAT drifting behind the sleeping cat.
-62. The three ghost images fading one by one back into the sleeping cat's body.
-63. The cat on the couch slowly opening its eyes — now BRAIN with bright emerald-green eyes (#3DDC84).
-64. BRAIN holding a calm steady gaze straight at camera, collar + heart tag visible.
-65. BRAIN giving one slow blink, settling back down, mouth closed, lamp dimming, small "MEOW".
+59. A dim modern doodle living room, a plain ginger house cat (NO glasses, NO collar, eyes CLOSED asleep) curled on a couch, warm flat-yellow lamp light. [looks like an ordinary ginger cat]
+60. Slow push-in toward the sleeping plain ginger cat (no glasses, eyes closed), rest of the room darkening.
+61. Faint ghostly doodle images of ASTEROID, WILDCAT and EGYPTCAT drifting behind the sleeping plain ginger cat.
+62. The three ghost images fading one by one back into the ginger cat's body (still asleep, no glasses).
+63. The ginger cat slowly opening his eyes — bright emerald-green (#3DDC84), NO glasses yet. [first hint]
+64. The round black-rimmed GLASSES appear on the cat's face and a collar with red heart tag fades in — now it is BRAIN, calm steady gaze straight at camera. [full reveal: this is our mascot]
+65. BRAIN (now with glasses + collar) giving one slow blink, settling back down, mouth closed, lamp dimming, small "MEOW".
 66. Same living room, BRAIN sitting upright by the couch, hand-lettered subscribe prompt, warm light.
 
 ---
