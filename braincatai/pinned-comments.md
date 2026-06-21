@@ -153,6 +153,12 @@ Be honest — did you Google "6-7" before clicking this? 🤣 Drop a 🤚 if yes
 Your cat is barely changed from a desert wildcat that watched the dinosaurs die 66 million years ago. 🦖🐈 It didn't get tamed — it tamed itself, walked into our granaries, and chose to stay. Which fact broke your brain the most? 👇 #catevolution #BrainCatAI
 ```
 
+### 24. Why Cats Are Terrified of Cucumbers (TBD) — LONG-FORM / Cat Psychology
+
+```
+Your cat isn't scared of a vegetable — it's a 30-million-year-old snake alarm firing in your kitchen. 🐱🐍 That's also why the cucumber "prank" isn't funny: it floods a cat with real fear. Please don't do it to yours. 💚 Did your cat ever freak out at something harmless? 👇 #catpsychology #BrainCatAI
+```
+
 ---
 
 ## Принципы, по которым написаны закрепы
