@@ -101,18 +101,20 @@ cinematic japanese ambient, sparse koto opening with 4-5 plucked notes alone for
 
 ## 3. NanoBanana 16:9 (main scene + thumbnail base)
 
+> ⚠️ **No airborne particles** — fallen leaves on the ground only, never mid-flight. Airborne elements freeze badly in the 8-sec Flow loop (same lesson as SATORI eagle, MAKOTO leaves Jun 22).
+
 ```
-Photoreal cinematic still, like a frame from a Kurosawa film, ultra-wide 16:9 4K resolution. Lone Japanese samurai standing on a misty autumn battlefield plain at dawn, back to camera, positioned in the lower-right third of the frame. He wears a dark indigo and rust-red haori jacket with subtle weathering, two katana swords sheathed at his hip, hands resting at his sides, head slightly bowed in quiet acceptance. Long unbound black hair touching his shoulders, lifting gently in dawn breeze. Around him: tall pale dry grass swaying, scattered fallen red maple leaves drifting on the wind, deep morning mist rolling across the ground.
+Photoreal cinematic still, like a frame from a Kurosawa film, ultra-wide 16:9 4K resolution. Lone Japanese samurai standing on a misty autumn battlefield plain at dawn, back to camera, positioned in the lower-right third of the frame. He wears a dark indigo and rust-red haori jacket with subtle weathering, two katana swords sheathed at his hip, hands resting at his sides, head slightly bowed in quiet acceptance. Long unbound black hair touching his shoulders, lifting gently in dawn breeze. Tall pale dry grass swaying around him, deep morning mist rolling across the ground. A handful of fallen red maple leaves scattered on the wet earth and grass at his feet — lying flat on the ground, NOT airborne, NOT mid-flight, NOT suspended in the air.
 
-Visual hero filling the upper two-thirds: a massive rising sun, deep golden-amber warm rust, breaking through low horizon mist. Silhouettes of distant rolling mountain ridges layered in fog, like a sumi-e ink painting come to life. A few red maple leaves caught mid-flight against the glowing sun.
+Visual hero filling the upper two-thirds: a massive rising sun, deep golden-amber warm rust, breaking through low horizon mist. Silhouettes of distant rolling mountain ridges layered in fog, like a sumi-e ink painting come to life.
 
-Atmosphere: profound stillness, contemplation, the weight of a final morning, end of an era. Dominant warm palette — burnt sienna, sepia gold, deep rust crimson, dark forest charcoal in the foreground. Strong atmospheric depth: 4 distinct planes (drifting maple leaves foreground / samurai mid-ground / mist-shrouded plain / sunrise and distant ridges background).
+Atmosphere: profound stillness, contemplation, the weight of a final morning, end of an era. Dominant warm palette — burnt sienna, sepia gold, deep rust crimson, dark forest charcoal in the foreground. Strong atmospheric depth: 4 distinct planes (foreground grass and ground / samurai mid-ground / mist-shrouded plain / sunrise and distant ridges background).
 
 Photorealistic cinematic detail, shallow depth of field on the samurai, golden hour rim light catching the edge of his shoulders and hair, distant ridges as soft glowing bokeh. Mostly muted dark tones with one dominant warm color pop in the sky. Subtle film grain texture like 35mm Kurosawa cinematography.
 
 Keep the lower-left corner as dark, empty negative space — no bright objects, no busy detail, no key subject in the bottom-left third. The samurai sits lower-right; the sun and brightest light fill the upper-center and upper-right.
 
-NO text. NO logos. NO letters. NO watermarks. NO crisp daylight clarity — atmospheric mist obligatory. NO face visible — strict back-to-camera only.
+NO text. NO logos. NO letters. NO watermarks. NO crisp daylight clarity — atmospheric mist obligatory. NO face visible — strict back-to-camera only. NO airborne leaves. NO floating leaves. NO leaves suspended in mid-air. Leaves only on the ground.
 ```
 
 ---
@@ -120,13 +122,13 @@ NO text. NO logos. NO letters. NO watermarks. NO crisp daylight clarity — atmo
 ## 4. NanoBanana 9:16 (Shorts cross-promo + Shorts cover)
 
 ```
-Photoreal cinematic still, vertical 9:16 4K. Lone Japanese samurai standing on a misty autumn battlefield plain at dawn, back to camera, positioned in the centered lower-third of the frame. Dark indigo and rust-red haori jacket, two katana swords at his hip, hands at sides, head slightly bowed. Long unbound black hair lifting gently in the breeze. Around him: pale dry grass swaying, drifting fallen red maple leaves, deep morning mist rolling across the ground.
+Photoreal cinematic still, vertical 9:16 4K. Lone Japanese samurai standing on a misty autumn battlefield plain at dawn, back to camera, positioned in the centered lower-third of the frame. Dark indigo and rust-red haori jacket, two katana swords at his hip, hands at sides, head slightly bowed. Long unbound black hair lifting gently in the breeze. Tall pale dry grass swaying around him, deep morning mist rolling across the ground. A handful of fallen red maple leaves scattered on the wet earth and grass at his feet — lying flat on the ground, NOT airborne, NOT mid-flight, NOT suspended in the air.
 
-Visual hero filling the upper two-thirds: massive rising sun, deep golden-amber, breaking through horizon mist. Distant mountain ridges layered in fog. Red maple leaves caught mid-flight against the glowing sun.
+Visual hero filling the upper two-thirds: massive rising sun, deep golden-amber, breaking through horizon mist. Distant mountain ridges layered in fog.
 
 Mood of profound stillness, end of an era. Warm palette — burnt sienna, sepia gold, deep rust, dark charcoal foreground. Photorealistic cinematic, shallow depth of field on samurai, golden rim light on shoulders. Subtle 35mm film grain.
 
-NO text. NO logos. NO letters. NO face visible — back-to-camera only.
+NO text. NO logos. NO letters. NO face visible — back-to-camera only. NO airborne leaves. NO floating leaves. NO leaves suspended in mid-air. Leaves only on the ground.
 ```
 
 ---

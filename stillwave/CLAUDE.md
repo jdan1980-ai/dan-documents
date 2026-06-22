@@ -469,6 +469,7 @@ For specific length use `-t 7200` (2H), `-t 10800` (3H), `-t 28800` (8H).
 ### Loop motion rules (for Flow / Kling prompts)
 
 - **Camera locked** — no pan, zoom, dolly, or shake. Frame stays identical to the start image.
+- **🔒 NO AIRBORNE PARTICLES in NanoBanana stills (LOCKED 2026-06-22).** Never include leaves/petals/birds/feathers/embers/snowflakes **mid-flight, drifting, suspended in air, or caught in motion** in the source image. They freeze badly in an 8-sec loop — either appear stuck like a glitch, or "rewind" to start every 8 sec creating a jarring teleport. Allowed: same elements **on the ground** (fallen leaves scattered, settled snow, perched bird that doesn't move). Past hits: SATORI eagle (removed), MAKOTO airborne maple leaves (regenerated). Always add to NanoBanana prompt: `NO airborne X. NO floating X. NO X suspended in mid-air. X only on the ground/perched/settled.`
 - **3–4 motion elements only** — rain on glass / fireplace flicker / laptop screen activity / steam from a cup. Pick 3–4 max.
 - **Everything else still** — bonsai, tea cup itself, table, walls, furniture, distant city. Static.
 - **Distant cars / red taillights:** static shapes — NOT visibly moving (full traffic motion would be too distracting for ambient focus).
