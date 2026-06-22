@@ -348,17 +348,41 @@ satori, sudden awakening, zen music, japanese zen music, meditation music, shaku
 
 **Image:** `satori-sudden-awakening-thumb.jpg` (or Shorts cover)
 
-**Text:**
+**Text (educational reveal — matches the MUSHIN format, locked CLAUDE.md template):**
 ```
 SATORI (悟り) in Japanese Culture: A Concise Overview
 
-Satori — literally "comprehension" or "understanding" — is the zen concept of sudden awakening. Unlike the slow accumulation of knowledge, satori arrives in an instant: a clap of insight that breaks through the clouds of confusion and reveals what was always there.
+SATORI is the Zen Buddhist term for sudden awakening — the instant the thinking mind falls silent and reality is seen directly, without words. While the kanji 悟り simply means "comprehension," in Rinzai Zen it names the central event of practice: not a slow climb, but a single moment of recognition.
 
-The 12th-century Rinzai master Hakuin Ekaku described satori as "the great laughter of the universe." Steve Jobs, who studied zen for decades, called the equivalent moment "connecting the dots looking backwards."
+The 18th-century master Hakuin Ekaku, who revived Rinzai Zen in Japan, wrote that satori "comes like a thunderclap to the well-prepared mind" — never seized, only received. The 20th-century philosopher D.T. Suzuki put it more plainly: "Satori is the raison d'être of Zen — without it, there is no Zen at all."
 
-To embody satori, the zen image is the LONE MONK ON THE MOUNTAIN at dawn — small against the vastness, present at the instant of light. Not seeking. Receiving.
+The classical image is ancient: a lone monk standing on a mountain cliff at dawn, the sea of clouds rolling beneath him, and in the instant the first golden light pierces the horizon — what was hidden becomes plain.
 
-🌀 New 2-hour SATORI zen session drops today at [HH:MM] (MSK).
+🌀 New 3-hour SATORI zen session drops today at [HH:MM] (MSK).
+```
+
+**Optional hokku opener** (place ABOVE the title line if you want a poetic frame — use only on the standalone kanji-essay version, not the day-of drop post):
+```
+朝日や
+雲の海から
+悟り来る
+```
+
+---
+
+## 📝 Short "drop reminder" Community Post (alternative, 1-2h before drop)
+
+Use this shorter variant if you also want a second post the same day, closer to the drop time (the long educational reveal goes up 4-6h before, this one nudges 1-2h before):
+
+**Text:**
+```
+悟り
+
+In one hour — SATORI drops.
+3 hours. Shakuhachi. Mountain dawn.
+The instant the clouds part.
+
+🌅 (heart this if you'll be there)
 ```
 
 ---
