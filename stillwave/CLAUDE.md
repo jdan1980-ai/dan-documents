@@ -522,6 +522,29 @@ ALWAYS use this format:
 
 Concrete imagery — never abstract emotional adjectives.
 
+### 🔒 Opening variety — MANDATORY (Lesson 2026-06-22, SATORI Content ID hit)
+
+**Problem:** Suno's ambient/zen presets tend to start every track with the same opening motif (soft pad → flute entry around 0:03-0:05). When 20+ tracks share the same intro pattern, YouTube Content ID can match the opening 10-20 sec against an already-registered track in the WMG/SD Music catalog (e.g. "Peaceful Music" by Prem Das hit SATORI on tracks #31 and #37 — both at track start).
+
+**Rule:** Every `SW:` package for a multi-track album MUST deliver **2-3 Style/Lyrics variants** with explicitly DIFFERENT opening seconds. Rotate variants across the tracklist (variant A on tracks 1-7, B on 8-14, C on 15-22) so no two adjacent tracks share an intro pattern.
+
+**Opening variant menu — pick 2-3 per album:**
+
+| Variant | Opening 0:00-0:08 |
+|---------|-------------------|
+| A — Bell-led | single low temple bell strike (bonshō) → 3-4 sec resonance → shakuhachi enters |
+| B — Wind-led | 4-6 sec of mountain wind / pine rustle / distant water → instruments enter |
+| C — Koto-led | sparse koto plucks (3-5 notes) → pad swells underneath |
+| D — Pad-only | slow swelling drone pad alone for first 6-8 sec, no melodic instrument until 0:08+ |
+| E — Rain-led | 4 sec of light rain / stream / cave drip → flute enters around 0:04 |
+| F — Bowl-led | single singing-bowl strike → long decay → flute or koto enters around 0:05 |
+
+Add to Suno Prompt B (Lyrics field) explicit `[opening: ...]` line per variant. Example:
+- Variant A: `[opening: single low temple bell strike, 4 seconds of resonance, then shakuhachi enters quietly]`
+- Variant B: `[opening: 5 seconds of mountain wind through pines, then koto plucks softly]`
+
+**Why mandatory:** Content ID claims on a published video are slow to resolve from Studio (Erase/Mute work but leave 33+ sec gaps). Preventing the claim at generation time is 100× cheaper than fixing post-upload. Always vary openings.
+
 ---
 
 ## 📝 Title format (3-phase evolution)
