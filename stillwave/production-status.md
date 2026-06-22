@@ -27,6 +27,7 @@ After publish (May 10, 14:00):
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `satori-sudden-awakening` | SATORI — 悟り \| 3 Hours Japanese Zen Music for Sudden Awakening & Deep Meditation | **3H** (~22 tracks) | ✅ | 🟡 generating | ⏳ | ⏳ | ⏳ Jun 22-24 | ⏳ |
+| `makoto-the-last-samurai` | MAKOTO — 誠 \| Japanese Samurai Zen Music for Honor, Bushidō Spirit & Deep Meditation | 1H (~18 tracks) | ✅ | ✅ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 ## Phase 1 batch — week of May 13–19
 
