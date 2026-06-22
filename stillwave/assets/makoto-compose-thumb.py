@@ -34,15 +34,15 @@ GOLD = (201, 168, 76)   # #C9A84C — warm gold, Bushidō honor
 
 # Single large kanji 誠 — lower-left over dark grass/mist zone
 KANJI_TEXT = "誠"
-KANJI_SIZE = 180
+KANJI_SIZE = 120
 KANJI_X = 80       # left margin
-KANJI_Y = 430      # lower zone over dark grass
+KANJI_Y = 480      # lower zone over dark grass
 
 # MAKOTO romaji — left-aligned below kanji
 ROMAJI_TEXT = "MAKOTO"
-ROMAJI_SIZE = 65
+ROMAJI_SIZE = 52
 ROMAJI_X = 80
-ROMAJI_LETTER_SPACING = 5
+ROMAJI_LETTER_SPACING = 4
 
 
 def load_source() -> Image.Image:
