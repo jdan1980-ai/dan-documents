@@ -32,17 +32,17 @@ ROMAJI_FONT_PATH = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.tt
 
 GOLD = (201, 168, 76)   # #C9A84C — warm gold, Bushidō honor
 
-# Single large kanji 誠 — upper-center
+# Single large kanji 誠 — lower-left over dark grass/mist zone
 KANJI_TEXT = "誠"
 KANJI_SIZE = 180
-KANJI_CENTER_X = 640
-KANJI_Y = 70
+KANJI_X = 80       # left margin
+KANJI_Y = 430      # lower zone over dark grass
 
-# MAKOTO romaji — centered below kanji
+# MAKOTO romaji — left-aligned below kanji
 ROMAJI_TEXT = "MAKOTO"
-ROMAJI_SIZE = 72
-ROMAJI_CENTER_X = 640
-ROMAJI_LETTER_SPACING = 6
+ROMAJI_SIZE = 65
+ROMAJI_X = 80
+ROMAJI_LETTER_SPACING = 5
 
 
 def load_source() -> Image.Image:
@@ -75,23 +75,21 @@ def main() -> None:
     kanji_font  = ImageFont.truetype(KANJI_FONT_PATH,  KANJI_SIZE)
     romaji_font = ImageFont.truetype(ROMAJI_FONT_PATH, ROMAJI_SIZE)
 
-    # --- 誠 kanji centered ---
+    # --- 誠 kanji lower-left ---
     bb = kanji_font.getbbox(KANJI_TEXT)
-    kw = bb[2] - bb[0]
-    kx = KANJI_CENTER_X - kw // 2 - bb[0]
+    kx = KANJI_X - bb[0]
     ky = KANJI_Y - bb[1]
     draw_with_shadow(draw, (kx, ky), KANJI_TEXT, kanji_font, GOLD)
 
     kanji_bottom = KANJI_Y + (bb[3] - bb[1])
 
-    # --- MAKOTO romaji centered ---
+    # --- MAKOTO romaji left-aligned below kanji ---
     advances = []
     for ch in ROMAJI_TEXT:
         cbb = romaji_font.getbbox(ch)
         advances.append((ch, cbb[2] - cbb[0], cbb))
-    total_w = sum(a[1] for a in advances) + ROMAJI_LETTER_SPACING * (len(advances) - 1)
-    rx = ROMAJI_CENTER_X - total_w // 2
-    ry = kanji_bottom + 18
+    rx = ROMAJI_X
+    ry = kanji_bottom + 14
 
     for ch, w, cbb in advances:
         draw_with_shadow(draw, (rx - cbb[0], ry - cbb[1]), ch, romaji_font, GOLD)
