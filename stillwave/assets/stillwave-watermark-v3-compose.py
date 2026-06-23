@@ -52,14 +52,16 @@ def extract():
 
     out = Image.fromarray(arr, "RGBA")
 
-    # Tight crop around non-transparent pixels
-    ys, xs = np.where(arr[:, :, 3] > 30)
+    # Tight crop around the mark only — exclude "StillWave" text below.
+    # Look at upper portion (top 60% of image) where ensō+wave live.
+    upper_alpha = arr[:int(h * 0.62), :, 3]
+    ys, xs = np.where(upper_alpha > 30)
     if len(xs) > 0:
-        pad = 30
+        pad = 25
         x0 = max(xs.min() - pad, 0)
         x1 = min(xs.max() + pad, w)
         y0 = max(ys.min() - pad, 0)
-        y1 = min(ys.max() + pad, h)
+        y1 = min(ys.max() + pad, int(h * 0.62))
         out = out.crop((x0, y0, x1, y1))
 
     out.save(MARK, "PNG")
@@ -68,8 +70,8 @@ def extract():
 
 
 def overlay(mark: Image.Image):
-    # Scale mark to ~160px height (logo + text reads at this size)
-    target_h = 160
+    # Scale mark to ~140px height (mark only, no text)
+    target_h = 140
     ratio = target_h / mark.size[1]
     new_w = int(mark.size[0] * ratio)
     mark = mark.resize((new_w, target_h), Image.LANCZOS)
