@@ -329,11 +329,13 @@ MAKOTO — 誠 | Japanese Cinematic Zen Music for the Samurai Heart & Inner Stil
 ```
 MAKOTO (誠) in Japanese Culture: A Concise Overview
 
-MAKOTO is the Japanese word for sincerity — the heart that does not lie. While its kanji 誠 looks deceptively simple (言 word + 成 to become), it carries one of the heaviest virtues in samurai ethics: a person's words and actions must become one.
+Makoto is one of the highest virtues in Japanese culture — absolute sincerity, the unwavering alignment of one's heart with word and deed. It is not honesty in speech alone, but the complete unity of intention and action: a person of Makoto does not wear different faces for different situations.
 
-In the final years of the samurai era, the Shinsengumi — the last sworn protectors of the old way — wore this single kanji on the back of their pale-blue haori. They lost the war for the old Japan. But the symbol endured. The 19th-century scholar Yoshida Shōin, executed for sincerity to his convictions, wrote that "a man who speaks from MAKOTO loses everything except that."
+For the samurai, Makoto was a cornerstone of Bushidō — the Way of the Warrior. A warrior's word carried the weight of a written contract. The Shinsengumi, often called Japan's last samurai force, adopted 誠 as their emblem; for them the character meant loyalty, devotion, and unwavering commitment to principle. They lost the war for the old Japan, but the symbol endured.
 
-The classical image: a lone samurai standing at dawn on a misty autumn battlefield, the rising sun breaking through the fog, red maple leaves drifting around him — the last of his order, but the truth in his heart untouched.
+"A person's true worth is revealed when words, actions, and heart become one."
+
+A lone samurai stands at dawn on a misty autumn battlefield — the rising sun breaking through the fog, red maple leaves drifting around him, the last of his order, but the truth in his heart untouched.
 ```
 
 **Image:** use the 16:9 NanoBanana render or the Shorts cover.
