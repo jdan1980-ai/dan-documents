@@ -137,6 +137,34 @@ NO text. NO logos. NO letters. NO face visible — back-to-camera only. NO bare 
 
 ---
 
+## 4b. NanoBanana 1:1 (Community Post image — square)
+
+> **Use:** YouTube Community Post day-of-drop. Same visual DNA as §4 (lone samurai, daishō, susuki grass, rising sun) reframed to 1:1 with a single in-scene 誠 banner as the kanji brand mark. Filename: `makoto-the-last-samurai-community-post.jpg` (1080×1080 or 2048×2048).
+
+```
+Photoreal cinematic still, perfect SQUARE 1:1 ratio 4K (1080×1080). Lone Japanese samurai standing waist-deep in a vast open field of tall pale dry susuki pampas grass at dawn, back to camera, centered horizontally and placed in the lower-half of the frame. The grass surrounds him completely — no bare earth, no dirt path, no wet ground, no rocks visible at his feet. Dark indigo and rust-red haori jacket. EXACTLY TWO Japanese swords — a katana and a shorter wakizashi (the daishō pair) — both fully sheathed inside the obi belt at his LEFT hip, hilts pointing forward. NO third sword. NO sword drawn. NO sword in his hands. Hands hang empty and relaxed at his sides. Head slightly bowed. Long unbound black hair lifting gently in breeze. Deep morning mist rolling through the grass around him.
+
+To the samurai's right, slightly behind him in the mid-ground, a single tall narrow nobori-bata cloth banner of weathered cream washi-linen hangs from a bamboo pole planted in the grass. On the banner, painted vertically in DEEP BLACK sumi ink — exactly ONE Japanese kanji: 誠. Painted in heavy, confident traditional brush calligraphy, properly proportioned (言 radical on the left, 成 on the right). ONLY this single character on the banner — no other writing, no other kanji, no Latin alphabet, no numbers, no signature. Banner softly weathered by wind, edges slightly frayed, hanging straight.
+
+Visual hero in the upper-half of the frame: massive rising sun, deep golden-amber, breaking through horizon mist behind the samurai's right shoulder. Distant mountain ridges layered in fog. Sky a soft dawn palette — amber, dusty rose, pale teal at the top edge.
+
+Composition: square, balanced — samurai vertical axis at centre-left, the 誠 banner at centre-right, sun mid-upper, horizon line crossing the lower-third. Rule of thirds.
+
+Mood of profound stillness, end of an era. Warm palette — burnt sienna, sepia gold, deep rust, dark charcoal foreground. Photorealistic cinematic, shallow depth of field on the samurai, golden rim light on his shoulders. Subtle 35mm film grain.
+
+NO English text. NO Latin letters. NO subtitles. NO captions. NO titles. NO film names. NO logos. NO watermarks. The ONLY text-like element in the entire image is the single kanji 誠 painted on the cloth banner — nothing else, anywhere. NO face visible — back-to-camera only. NO bare ground. NO dirt path. NO wet earth — he stands fully in tall grass. EXACTLY 2 swords (katana + wakizashi daishō pair), both sheathed at left hip. NO third sword. NO sword drawn. NO sword in hands. Hands empty at sides.
+```
+
+**Acceptance checklist before saving the final render:**
+- [ ] Aspect is exactly 1:1 (NanoBanana sometimes drifts — re-roll if 4:5 or 1:1.1)
+- [ ] Exactly ONE 誠 kanji on the banner, proportioned 言+成 correctly, no extra strokes
+- [ ] No Latin letters / English text / subtitles anywhere in the frame
+- [ ] Exactly 2 sheathed swords at left hip (count them — discard if 3 or drawn)
+- [ ] Back-to-camera only (no face)
+- [ ] No bare ground at the samurai's feet — grass all the way around
+
+---
+
 ## 5. Flow / Kling / Omni Flash loop prompt (8-sec seamless)
 
 Loop attaches to the 16:9 still via CapCut motion track:
@@ -338,7 +366,10 @@ For the samurai, Makoto was a cornerstone of Bushidō — the Way of the Warrior
 A lone samurai stands at dawn on a misty autumn battlefield — the rising sun breaking through the fog, red maple leaves drifting around him, the last of his order, but the truth in his heart untouched.
 ```
 
-**Image:** use the 16:9 NanoBanana render or the Shorts cover.
+**Image (in priority order):**
+1. Dedicated 1:1 render `makoto-the-last-samurai-community-post.jpg` — prompt in §4b (preferred — fills the Community Post square crop with no compromise).
+2. Fallback: existing `makoto-the-last-samurai-shorts-cover.jpg` (9:16 — YouTube will square-crop, samurai stays centered).
+3. Last resort: the 16:9 NanoBanana render (will lose top/bottom in square crop).
 
 ---
 
