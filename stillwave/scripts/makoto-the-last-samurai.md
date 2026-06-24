@@ -169,13 +169,16 @@ ffmpeg -stream_loop -1 -i loop.mp4 -i makoto-album.mp3 \
 ## 7. YouTube Title
 
 ```
-MAKOTO — 誠 | Japanese Samurai Zen Music for Honor, Bushidō Spirit & Deep Meditation
+誠 MAKOTO | Japanese Cinematic Samurai Zen for Honor, Bushidō & Spirit
 ```
 
-- **Chars:** 84/90 ✅
-- **"Music" position:** char 28 of 84 (first 33%) ✅
-- **Topic-categorization:** front-loaded as Music ✅
+- **Chars:** 69/90 ✅ (no mobile truncation)
+- **Brand-lead:** kanji 誠 first — matches cover + thumbnail brand mark
+- **Keyword cluster:** `Cinematic Samurai Zen` (film-score + samurai + ambient genre) ✅
+- **Concept anchor:** `Honor, Bushidō & Spirit` — Kanji-Concept value triad
+- **Topic-categorization:** "Cinematic / Zen" front-loaded for YouTube classifier ✅
 - **No hashtags in title** (Karena #1) ✅
+- **No "Hans Zimmer" / "The Last Samurai" in title** (locked legal rule §12) ✅
 
 ---
 
