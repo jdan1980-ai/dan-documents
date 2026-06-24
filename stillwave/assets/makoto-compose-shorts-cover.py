@@ -11,7 +11,8 @@ Output: makoto-the-last-samurai-shorts-cover.jpg (1080×1920, JPEG q92)
 """
 
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
+import numpy as np
 
 HERE = Path(__file__).parent
 SRC  = HERE / "makoto-the-last-samurai-shorts-source.jpg"
@@ -70,8 +71,27 @@ def draw_with_shadow(draw, xy, text, font, fill, shadow_r=5):
     draw.text(xy, text, font=font, fill=fill)
 
 
+def darken_corner(bg: Image.Image) -> Image.Image:
+    """Soft radial darken on lower-left so gold text reads cleanly."""
+    w, h = bg.size
+    cx, cy = 240, 1700           # darkness anchor inside text zone
+    radius = 880                 # falloff radius
+    ys, xs = np.mgrid[0:h, 0:w]
+    dist = np.sqrt((xs - cx) ** 2 + (ys - cy) ** 2) / radius
+    strength = np.clip(1.0 - dist, 0, 1) ** 1.4
+    alpha = (strength * 165).astype(np.uint8)     # peak ~65% black
+    veil = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    veil_arr = np.array(veil)
+    veil_arr[:, :, 3] = alpha
+    veil = Image.fromarray(veil_arr, "RGBA").filter(ImageFilter.GaussianBlur(40))
+    bg = bg.convert("RGBA")
+    bg.alpha_composite(veil)
+    return bg.convert("RGB")
+
+
 def main() -> None:
     bg = load_source()
+    bg = darken_corner(bg)
     draw = ImageDraw.Draw(bg)
 
     kanji_font  = ImageFont.truetype(KANJI_FONT_PATH,  KANJI_SIZE)
