@@ -412,6 +412,41 @@ MAKOTO
 The heart that does not lie.
 ```
 
+### Marquee concept ticker (optional, 0:03 → 0:28 — 25 sec scroll)
+
+> **Use case:** explain the MAKOTO concept during the Short alongside the music, without breaking the hook. A/B against the static 3-line overlay above on the next 2 Shorts to see which retains better.
+>
+> **Retention guard (LOCKED — Karena rule #7):** ticker text starts at **0:03** (after the kanji-reveal hook lands), ends by **0:28** (last 2 sec of the Short are clean — no text — so the closing image breathes). Never on screen during 0:00-0:03 — that window is reserved for the hook alone.
+
+**Locked single-line text (~210 chars, ~33 words):**
+
+```
+誠 MAKOTO  •  the heart that does not lie  •  in samurai Bushidō, words and actions must become one  •  the Shinsengumi wore this kanji as their truth — Japan's last samurai who would not betray it
+```
+
+**CapCut params:**
+- **Position:** bottom strip, vertical centre at y ≈ 1740 (1080×1920 canvas) — below the samurai's feet line, not over his body
+- **Strip background:** semi-transparent black bar, full canvas width, ~110 px tall, opacity 35-45% (gives the text enough contrast over the dawn footage without killing the visual)
+- **Font:** Liberation Serif (matches the Shorts cover branding — single visual family across the Short)
+- **Size:** 44-50 px
+- **Colour:** cream `#F5EAD2` (matches the locked Shorts cover palette)
+- **Drop shadow:** black, 5 px blur, 50% opacity, 0/2 offset (subtle lift over moving background)
+- **Animation:** CapCut → "Text Animations" → **Loop / Marquee → Right-to-Left**
+- **Speed:** medium (target full cross from off-screen right to off-screen left ≈ 22-25 seconds; tune the slider until the slowest reader can catch every phrase)
+- **Timeline:** insert text clip from **00:03.00 to 00:28.00**
+
+**Acceptance check before export:**
+- [ ] Text NOT on screen during 0:00-0:03
+- [ ] Text fully off-screen by 0:28
+- [ ] Strip does NOT cover the samurai's body or the kanji 誠 at the top
+- [ ] On a phone preview (CapCut → Polное / Full preview), every phrase between • separators is readable without pausing
+- [ ] No spelling/diacritic damage to `Bushidō` (the ō macron sometimes drops in CapCut font rendering — fallback to `Bushido` if it breaks)
+
+**Don't:**
+- Don't translate to Russian for this Short — the whole channel surface (title, description, pinned, Community Post) is in English; mixing languages on one video looks off-brand and confuses YouTube's language classifier.
+- Don't add a second ticker, a CTA card, or any other overlay during the 25-sec ticker window. One text element at a time.
+- Don't write "Hans Zimmer" or "The Last Samurai" anywhere in the ticker (§12 legal rule applies to overlay text the same way it applies to title).
+
 ### Shorts Title
 
 ```
