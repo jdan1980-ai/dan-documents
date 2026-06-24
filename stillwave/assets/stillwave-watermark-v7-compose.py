@@ -25,7 +25,7 @@ STAMP  = HERE / "stillwave-stamp-v7.png"
 WM     = HERE / "stillwave-watermark-v7.png"
 PREV   = HERE / "stillwave-watermark-v7-preview.jpg"
 
-INTERIOR_BLUE = (30, 74, 122)   # #1E4A7A — clearly blue, dark enough for wave contrast
+INTERIOR_BLUE = (10, 14, 30)    # deep navy — nearly #0A0E1E
 STAMP_PX      = 180
 MARGIN        = 36
 BADGE_SIZE    = 800
@@ -82,7 +82,7 @@ def build_badge() -> Image.Image:
     cx = (x0 + x1) // 2
     cy = (y0 + y1) // 2
     outer_r = min((x1 - x0), (y1 - y0)) // 2
-    inner_r = int(outer_r * 0.90)   # disc just inside ензō outer edge
+    inner_r = int(outer_r * 0.97)   # disc fills to inner edge of ензō brush
 
     disc = Image.new("RGBA", mark.size, (0, 0, 0, 0))
     ImageDraw.Draw(disc).ellipse(
