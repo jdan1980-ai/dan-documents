@@ -31,13 +31,13 @@ CREAM      = (245, 234, 210)    # #F5EAD2
 
 # 誠 kanji upper-centre over the sun zone
 KANJI_TEXT = "誠"
-KANJI_SIZE = 460                # big — owns the upper third
-KANJI_Y_CENTER = 560            # vertical centre of kanji block
+KANJI_SIZE = 260                # smaller, sits cleanly over sun
+KANJI_Y_CENTER = 480            # vertical centre of kanji block
 
 # MAKOTO romaji below kanji
 ROMAJI_TEXT           = "MAKOTO"
-ROMAJI_SIZE           = 132
-ROMAJI_LETTER_SPACING = 14
+ROMAJI_SIZE           = 96
+ROMAJI_LETTER_SPACING = 10
 
 
 def load_source() -> Image.Image:
@@ -101,7 +101,7 @@ def main() -> None:
         advances.append((ch, cbb[2] - cbb[0], cbb))
     total_w = sum(w for _, w, _ in advances) + ROMAJI_LETTER_SPACING * (len(advances) - 1)
     rx = (CANVAS[0] - total_w) // 2
-    ry = kanji_bottom + 70
+    ry = kanji_bottom + 48
 
     for ch, w, cbb in advances:
         draw_with_halo(bg, (rx - cbb[0], ry - cbb[1]), ch, romaji_font, CREAM,
