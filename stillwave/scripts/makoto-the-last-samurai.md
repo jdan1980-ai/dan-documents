@@ -1,8 +1,9 @@
 # MAKOTO — 誠 (The Last Samurai)
 
 > **Series:** Kanji-Concept Series (slot #3 after MUSHIN → SATORI)
-> **Length:** 1H (~18 Suno tracks)
-> **Concept anchor:** 誠 MAKOTO = sincerity / the heart that does not lie. The kanji worn by the Shinsengumi on their pale-blue haori — the literal "last samurai" police force that fought the Meiji modernization in the Boshin War (1868-69). Cultural foundation of Bushidō. Hans Zimmer *Last Samurai* score vibe.
+> **Length:** 1H exactly (1:00:02 — 21 Suno tracks, locked from CapCut export 2026-06-24)
+> **Concept anchor:** 誠 MAKOTO = sincerity / the heart that does not lie. The kanji worn by the Shinsengumi on their pale-blue haori — the literal "last samurai" police force that fought the Meiji modernization in the Boshin War (1868-69). Cultural foundation of Bushidō.
+> **Inspiration line (safe to publish):** the album is inspired by Hans Zimmer's cinematic film-score style and the spirit of *The Last Samurai* (2003) — declared as inspiration only, NEVER as ownership/affiliation. See §12 below for the locked legal wording.
 > **Visual lock:** photoreal cinematic, lone samurai back-to-camera on misty autumn battlefield at dawn, massive rising sun behind him, drifting red maple leaves, warm rust + sepia palette.
 > **Playlist (add to in Studio):** Kanji-Concept Series
 
@@ -11,10 +12,13 @@
 ## Meta
 
 - **Slug:** `makoto-the-last-samurai`
-- **Status:** 🟢 generating (Suno tracks ready, NanoBanana + assembly pending)
+- **Status:** 🟢 assembling (21 Suno tracks locked, CapCut timeline = 1:00:02, NanoBanana + Flow done, thumb done, Shorts cover done)
 - **Format:** Kanji-Concept Series long-form (Hikari-style description, kanji-upper-center thumbnail)
+- **Track count:** 21 (locked 2026-06-24 from CapCut export)
+- **Total length:** 1:00:02
 - **Topic-categorization compliance:** `Music` appears at char ~28 of 84 (first 33%) ✅
-- **Length cap compliance:** 1H = within 2H locked rule ✅
+- **Length cap compliance:** 1:00:02 = within 2H locked rule ✅
+- **Legal/Inspiration compliance:** "inspired by" phrasing only, no claim of soundtrack/affiliation, no film artwork used ✅ (see §12)
 - **Series naming:** MUSHIN → SATORI → MAKOTO
 
 ---
@@ -145,8 +149,8 @@ Subtle photorealistic motion, camera locked with no pan or zoom or shake. The au
 
 ## 6. Assembly — CapCut workflow (CURRENT, no ffmpeg)
 
-1. Drop the 8-sec Flow loop onto video track, extend/loop across full 1H length
-2. Place all 18 Suno tracks end-to-end on audio track 1
+1. Drop the 8-sec Flow loop onto video track, extend/loop across full 1:00:02 length
+2. Place all 21 Suno tracks end-to-end on audio track 1 (locked tracklist + timestamps in §8)
 3. Add ambient overlay (audio track 2): faint mountain wind + occasional distant crow call (CC0 from freesound.org) — 10-15% volume, fills any gap between tracks
 4. **REORDER tracks** so same-opening variants are non-adjacent — alternate bell/wind/koto across the hour
 5. Color grade: slight warm push (+5 warmth, -5 saturation on shadows) to lock the sepia palette
@@ -213,10 +217,14 @@ The mist rolls slow across an empty plain. Red maple leaves drift through the da
 🌀 Let the heart keep its truth.
 🍃 Let the sun rise on what remains.
 
+🎬 Inspired by Hans Zimmer's cinematic film-score style and the spirit of "The Last Samurai" (2003). All music is original, composed for this album — not from the film soundtrack.
+
 Subscribe for more Japanese ambient meditation journeys 🌿
 ```
 
 **Note:** track timestamps locked from CapCut export 2026-06-24 — 21 tracks, total length 1:00:02. Source: handwritten end-times sheet.
+
+**Inspiration disclaimer wording is mandatory** — see §12 for why this exact phrasing is safe and what to never say instead.
 
 ---
 
@@ -248,9 +256,57 @@ The way of the sword fades, but the way of the heart endures.
 
 In the final years of the samurai era, the Shinsengumi — the last sworn protectors of the old way — wore one kanji on the back of their pale-blue haori: 誠, MAKOTO. Not "loyalty," not "honor" — sincerity. The heart that does not lie. The truth a warrior dies to keep.
 
+This 1-hour album is an original composition, inspired by Hans Zimmer's film-score style and the spirit of "The Last Samurai" (2003) — not music from the film itself.
+
 What is the one truth you carry into your morning?
 
 🌿 New Japanese zen sessions every week. Subscribe and walk with us.
+```
+
+---
+
+## 12. Legal & Inspiration disclaimer — LOCKED wording
+
+The album is **inspired by** Hans Zimmer's *Last Samurai* score, not derived from it. All music is original Suno-generated composition. To stay clean of trademark/copyright disputes, the wording is locked exactly as below.
+
+### ✅ Safe to publish (already woven into description + pinned comment)
+
+```
+🎬 Inspired by Hans Zimmer's cinematic film-score style and the spirit of "The Last Samurai" (2003). All music is original, composed for this album — not from the film soundtrack.
+```
+
+Why this works:
+- **"Inspired by"** = nominative fair use. Naming an influence is protected speech.
+- **"All music is original"** = explicit disclaimer that prevents misleading-metadata claims (YouTube policy).
+- **"not from the film soundtrack"** = explicit denial of affiliation/ownership.
+- **Quotes around "The Last Samurai"** = treats it as a film title reference, not a brand we co-opt.
+- **Year (2003)** = bibliographic-style reference, framing it as cultural context.
+
+### ❌ NEVER write any of these (claim/affiliation risk)
+
+- ❌ `Music from The Last Samurai` — implies you hold rights to the soundtrack
+- ❌ `Hans Zimmer's MAKOTO` — implies he composed/endorsed it
+- ❌ `The Last Samurai soundtrack` — direct trademark infringement
+- ❌ `Official Last Samurai music` — false affiliation
+- ❌ Anything in TITLE field containing `Hans Zimmer` or `The Last Samurai` — YouTube misleading-metadata policy could deindex
+- ❌ The film's poster, font, character images, or stills — Warner Bros copyright
+
+### ⚠️ Audio Content ID risk (independent of text)
+
+Text wording doesn't trigger Content ID — only audio fingerprints do. Suno tracks generated with prompts like `hans zimmer last samurai inspired` MAY occasionally produce melodies close enough to actual Zimmer themes (e.g. *A Way of Life*, *A Hard Teacher*, *Spectres in the Fog*) to trigger a Content ID match against Sony Classical / Decca catalog.
+
+**Mitigation (already in §0 Pre-publish):**
+1. Upload Unlisted first.
+2. Wait 30-60 min for Content ID scan.
+3. Studio → Copyright → check claims.
+4. If hit: **Erase song** on claimed segment (preferred) or **Mute song**. Never **Trim out** (shifts all tracklist timestamps).
+5. Only flip to Public/Scheduled if clean.
+
+### Same rule applies to all future Kanji-Concept albums
+
+If a future album invokes another film composer / soundtrack inspiration (e.g. Joe Hisaishi for Ghibli, Ennio Morricone for samurai westerns), use the same template:
+```
+🎬 Inspired by [COMPOSER]'s [STYLE/GENRE] and the spirit of "[FILM/SERIES]" ([YEAR]). All music is original, composed for this album — not from the film soundtrack.
 ```
 
 ---
@@ -335,6 +391,8 @@ MAKOTO — The One Kanji Every Samurai Died For 誠 #shorts
 ```
 MAKOTO 誠 — the heart that does not lie. The kanji of the Shinsengumi, the last samurai.
 
+🎬 Inspired by Hans Zimmer's cinematic style and "The Last Samurai" (2003). Original composition.
+
 Full 1-hour zen session: [LINK TO LONG-FORM]
 
 #shorts #zenmusic #samurai
@@ -369,6 +427,7 @@ The Last Samurai's Sacred Kanji: 誠 MAKOTO #shorts
 ## Pre-publish checklist (per `CLAUDE.md` §Pre-publish checklist)
 
 - [ ] Title contains `Music` in first 50% ✅ (char 28/84)
+- [ ] Title contains NO `Hans Zimmer` and NO `The Last Samurai` (legal §12) ✅
 - [ ] Topic Categories will be `Music`
 - [ ] Channel Keywords set (one-time, already done)
 - [ ] Channel Description set (one-time, already done)
@@ -376,7 +435,10 @@ The Last Samurai's Sacred Kanji: 誠 MAKOTO #shorts
 - [ ] **Community Post published** 4-6h before drop
 - [ ] "Not for kids" = Yes (Karena #5)
 - [ ] No hashtags in title (Karena #1) ✅
+- [ ] **Inspiration disclaimer line present in description AND pinned comment** (§12 wording, verbatim) ✅
+- [ ] NO film artwork, character images, or original-soundtrack covers used anywhere (thumb/Shorts/community post)
 - [ ] First publish = **Unlisted** (per Content ID pre-check) → check Studio Copyright after 30-60 min → flip to Scheduled/Public only if clean
 - [ ] Description matches Hikari-style 5-block structure ✅
+- [ ] Tracklist = 21 entries ending 56:57, total runtime 1:00:02 ✅
 
 48h after publish: verify Topic Categories = `Music` via VidIQ extension. If wrong → rename immediately.
