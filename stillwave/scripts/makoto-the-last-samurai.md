@@ -189,23 +189,26 @@ The mist rolls slow across an empty plain. Red maple leaves drift through the da
 🌿 Tracklist
 
 00:00 — Before the Last Morning
-03:20 — Mist on the Battlefield
-06:40 — The Sun Breaks the Ridge
-10:00 — Heart of the Shinsengumi
-13:20 — One Truth, One Sword
-16:40 — Maple Leaves on the Wind
-20:00 — The Taiko Remembers
-23:20 — Koto in the Quiet Hall
-26:40 — A Letter Never Sent
-30:00 — Walking the Old Road
-33:20 — Shakuhachi at Dawn
-36:40 — Silver Rain on Steel
-40:00 — The Master's Last Bow
-43:20 — Promise Beneath the Pines
-46:40 — Lantern in the Temple
-50:00 — Rising Sun, Falling Leaves
-53:20 — The Way That Endures
-56:40 — Honor Carried Home
+02:47 — Mist on the Battlefield
+06:06 — The Sun Breaks the Ridge
+09:00 — Heart of the Shinsengumi
+11:48 — One Truth, One Sword
+14:32 — Maple Leaves on the Wind
+17:16 — The Taiko Remembers
+20:14 — Koto in the Quiet Hall
+23:27 — A Letter Never Sent
+26:26 — Walking the Old Road
+28:49 — Footprints in the Frost
+31:23 — Shakuhachi at Dawn
+33:42 — Silver Rain on Steel
+35:56 — The Vow Spoken Once
+38:40 — The Master's Last Bow
+41:03 — Promise Beneath the Pines
+43:58 — Lantern in the Temple
+47:31 — Cranes Over the Battlefield
+50:35 — Rising Sun, Falling Leaves
+53:43 — The Way That Endures
+56:57 — Honor Carried Home
 
 🌀 Let the heart keep its truth.
 🍃 Let the sun rise on what remains.
@@ -213,7 +216,7 @@ The mist rolls slow across an empty plain. Red maple leaves drift through the da
 Subscribe for more Japanese ambient meditation journeys 🌿
 ```
 
-**Note:** track timestamps above are even-spaced placeholders (18 tracks × 3:20 = 60:00). Replace with actual end-times from your Suno export before scheduling.
+**Note:** track timestamps locked from CapCut export 2026-06-24 — 21 tracks, total length 1:00:02. Source: handwritten end-times sheet.
 
 ---
 
