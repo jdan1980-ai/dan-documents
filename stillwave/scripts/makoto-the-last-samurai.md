@@ -331,8 +331,6 @@ MAKOTO is the Japanese word for sincerity — the heart that does not lie. While
 In the final years of the samurai era, the Shinsengumi — the last sworn protectors of the old way — wore this single kanji on the back of their pale-blue haori. They lost the war for the old Japan. But the symbol endured. The 19th-century scholar Yoshida Shōin, executed for sincerity to his convictions, wrote that "a man who speaks from MAKOTO loses everything except that."
 
 The classical image: a lone samurai standing at dawn on a misty autumn battlefield, the rising sun breaking through the fog, red maple leaves drifting around him — the last of his order, but the truth in his heart untouched.
-
-🌀 New 1-hour MAKOTO zen session drops today at [HH:MM] (MSK).
 ```
 
 **Image:** use the 16:9 NanoBanana render or the Shorts cover.

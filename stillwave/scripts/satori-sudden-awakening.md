@@ -357,8 +357,6 @@ SATORI is the Zen Buddhist term for sudden awakening — the instant the thinkin
 The 18th-century master Hakuin Ekaku, who revived Rinzai Zen in Japan, wrote that satori "comes like a thunderclap to the well-prepared mind" — never seized, only received. The 20th-century philosopher D.T. Suzuki put it more plainly: "Satori is the raison d'être of Zen — without it, there is no Zen at all."
 
 The classical image is ancient: a lone monk standing on a mountain cliff at dawn, the sea of clouds rolling beneath him, and in the instant the first golden light pierces the horizon — what was hidden becomes plain.
-
-🌀 New 3-hour SATORI zen session drops today at [HH:MM] (MSK).
 ```
 
 **Optional hokku opener** (place ABOVE the title line if you want a poetic frame — use only on the standalone kanji-essay version, not the day-of drop post):

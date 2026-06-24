@@ -90,9 +90,14 @@ Every Kanji-Concept Series long-form gets a paired Community Post published in Y
 [ROMAJI] ([漢字]) in Japanese Culture: A Concise Overview
 
 [3-4 sentence essay: literal meaning + cultural context + one master/icon quote + visual hook reference]
-
-🌀 New [duration] [concept] zen session drops today at [HH:MM] (MSK).
 ```
+
+**🚫 LOCKED — NEVER WRITE (any variant of the drop-time line):**
+- ❌ `🌀 New [duration] [concept] zen session drops today at [HH:MM] (MSK).`
+- ❌ `🌀 New 1-hour MAKOTO zen session drops today at [HH:MM] (MSK).`
+- ❌ Any reworded "drops today / drops at / launching at / out today at" closing line.
+
+Reason: locks the post to a specific clock time → dates the copy, breaks if the schedule slips, reads as ad-copy instead of the standalone essay format we want. The Community Post ends on the essay's last sentence — that's the format. No drop-time CTA.
 
 **Why it matters:**
 - Activity signal for the algorithm (channel is alive, regular content)
