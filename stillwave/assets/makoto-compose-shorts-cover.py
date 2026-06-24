@@ -2,10 +2,13 @@
 """
 MAKOTO — 誠 Shorts cover (9:16) — Kanji-Concept Series.
 
-Layout (mirrors long-form thumb style):
-- Background: NanoBanana 9:16 source (samurai vertical) cropped/resized to 1080x1920
-- Text 1: 誠 — IPAMincho GOLD, lower-left over dark grass/mist zone
-- Text 2: MAKOTO — Liberation Serif Bold GOLD, below kanji
+Layout (per Kanji-Concept spec — upper-centre over sun):
+- Background: NanoBanana 9:16 source (samurai vertical) cropped to 1080×1920
+- Text 1: 誠 — IPAMincho DEEP BLACK sumi-ink, large, upper-centre over the sun
+- Text 2: MAKOTO — Liberation Serif Bold CREAM #F5EAD2, centred below kanji
+
+Black kanji reads on the bright sun; cream romaji reads on the warm sky.
+Soft white halo around the text gives lift without losing the ink look.
 
 Output: makoto-the-last-samurai-shorts-cover.jpg (1080×1920, JPEG q92)
 """
@@ -23,19 +26,18 @@ CANVAS = (1080, 1920)
 KANJI_FONT_PATH  = "/usr/share/fonts/opentype/ipafont-mincho/ipam.ttf"
 ROMAJI_FONT_PATH = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 
-GOLD = (201, 168, 76)   # #C9A84C
+SUMI_BLACK = (12, 10, 8)        # near-black sumi ink
+CREAM      = (245, 234, 210)    # #F5EAD2
 
-# 誠 kanji lower-left (proportional to long-form: 120px on 720h → 180px on 1920h)
+# 誠 kanji upper-centre over the sun zone
 KANJI_TEXT = "誠"
-KANJI_SIZE = 180
-KANJI_X    = 80
-KANJI_Y    = 1480       # lower-left over dark grass zone
+KANJI_SIZE = 460                # big — owns the upper third
+KANJI_Y_CENTER = 560            # vertical centre of kanji block
 
-# MAKOTO romaji
+# MAKOTO romaji below kanji
 ROMAJI_TEXT           = "MAKOTO"
-ROMAJI_SIZE           = 78
-ROMAJI_X              = 80
-ROMAJI_LETTER_SPACING = 5
+ROMAJI_SIZE           = 132
+ROMAJI_LETTER_SPACING = 14
 
 
 def load_source() -> Image.Image:
@@ -45,7 +47,6 @@ def load_source() -> Image.Image:
             "Drop the NanoBanana 9:16 MAKOTO render here, then re-run."
         )
     img = Image.open(SRC).convert("RGB")
-    # Cover-fit: scale to fill 1080x1920, centre-crop
     sw, sh = img.size
     target_ratio = CANVAS[0] / CANVAS[1]
     src_ratio    = sw / sh
@@ -61,61 +62,53 @@ def load_source() -> Image.Image:
     return img.crop((left, top, left + CANVAS[0], top + CANVAS[1]))
 
 
-def draw_with_shadow(draw, xy, text, font, fill, shadow_r=5):
-    x, y = xy
-    for dx in range(-shadow_r, shadow_r + 1):
-        for dy in range(-shadow_r, shadow_r + 1):
-            if dx == 0 and dy == 0:
-                continue
-            draw.text((x + dx, y + dy), text, font=font, fill=(0, 0, 0))
-    draw.text(xy, text, font=font, fill=fill)
+def draw_with_halo(base: Image.Image, xy, text, font, fill,
+                   halo_color=(255, 255, 255), halo_radius=14, halo_alpha=180):
+    """Soft white halo under the glyph for lift over the bright sun."""
+    w, h = base.size
+    halo_layer = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(halo_layer)
+    d.text(xy, text, font=font, fill=(*halo_color, halo_alpha))
+    halo_layer = halo_layer.filter(ImageFilter.GaussianBlur(halo_radius))
+    base.alpha_composite(halo_layer)
 
-
-def darken_corner(bg: Image.Image) -> Image.Image:
-    """Soft radial darken on lower-left so gold text reads cleanly."""
-    w, h = bg.size
-    cx, cy = 240, 1700           # darkness anchor inside text zone
-    radius = 880                 # falloff radius
-    ys, xs = np.mgrid[0:h, 0:w]
-    dist = np.sqrt((xs - cx) ** 2 + (ys - cy) ** 2) / radius
-    strength = np.clip(1.0 - dist, 0, 1) ** 1.4
-    alpha = (strength * 165).astype(np.uint8)     # peak ~65% black
-    veil = Image.new("RGBA", (w, h), (0, 0, 0, 0))
-    veil_arr = np.array(veil)
-    veil_arr[:, :, 3] = alpha
-    veil = Image.fromarray(veil_arr, "RGBA").filter(ImageFilter.GaussianBlur(40))
-    bg = bg.convert("RGBA")
-    bg.alpha_composite(veil)
-    return bg.convert("RGB")
+    fill_layer = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    ImageDraw.Draw(fill_layer).text(xy, text, font=font, fill=(*fill, 255))
+    base.alpha_composite(fill_layer)
 
 
 def main() -> None:
-    bg = load_source()
-    bg = darken_corner(bg)
-    draw = ImageDraw.Draw(bg)
+    bg = load_source().convert("RGBA")
 
     kanji_font  = ImageFont.truetype(KANJI_FONT_PATH,  KANJI_SIZE)
     romaji_font = ImageFont.truetype(ROMAJI_FONT_PATH, ROMAJI_SIZE)
 
-    # 誠 kanji lower-left
+    # 誠 — centred horizontally, vertical centre at KANJI_Y_CENTER
     bb = kanji_font.getbbox(KANJI_TEXT)
-    kx = KANJI_X - bb[0]
-    ky = KANJI_Y - bb[1]
-    draw_with_shadow(draw, (kx, ky), KANJI_TEXT, kanji_font, GOLD)
+    kw = bb[2] - bb[0]
+    kh = bb[3] - bb[1]
+    kx = (CANVAS[0] - kw) // 2 - bb[0]
+    ky = KANJI_Y_CENTER - kh // 2 - bb[1]
+    draw_with_halo(bg, (kx, ky), KANJI_TEXT, kanji_font, SUMI_BLACK,
+                   halo_color=(255, 255, 255), halo_radius=18, halo_alpha=200)
 
-    kanji_bottom = KANJI_Y + (bb[3] - bb[1])
+    kanji_bottom = KANJI_Y_CENTER + kh // 2
 
-    # MAKOTO romaji below kanji, tracked letters
-    rx = ROMAJI_X
-    ry = kanji_bottom + 22
+    # MAKOTO — centred, tracked letters, below kanji
+    advances = []
     for ch in ROMAJI_TEXT:
         cbb = romaji_font.getbbox(ch)
-        w = cbb[2] - cbb[0]
-        draw_with_shadow(draw, (rx - cbb[0], ry - cbb[1]),
-                         ch, romaji_font, GOLD)
+        advances.append((ch, cbb[2] - cbb[0], cbb))
+    total_w = sum(w for _, w, _ in advances) + ROMAJI_LETTER_SPACING * (len(advances) - 1)
+    rx = (CANVAS[0] - total_w) // 2
+    ry = kanji_bottom + 70
+
+    for ch, w, cbb in advances:
+        draw_with_halo(bg, (rx - cbb[0], ry - cbb[1]), ch, romaji_font, CREAM,
+                       halo_color=(0, 0, 0), halo_radius=8, halo_alpha=160)
         rx += w + ROMAJI_LETTER_SPACING
 
-    bg.save(OUT, "JPEG", quality=92, optimize=True, progressive=True)
+    bg.convert("RGB").save(OUT, "JPEG", quality=92, optimize=True, progressive=True)
     print(f"Wrote {OUT} ({OUT.stat().st_size // 1024} KB)")
 
 
