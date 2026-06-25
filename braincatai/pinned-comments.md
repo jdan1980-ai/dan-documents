@@ -74,7 +74,7 @@ Be honest — is your cat the boss of your house? 😼 Drop a 👑 if yes, 🐾 
 ### 11. Did you know why Is the Sky Blue? (2 мая)
 
 ```
-What's another "fact" you grew up believing that turned out to be wrong? 🤯 Best one gets a heart from me 💚
+What's another "fact" you grew up believing that turned out to be wrong? 🤯 Drop the title below — best one gets a heart from me 💚
 ```
 
 ### 12. Why Your Cat Brings You Dead Things (3 мая)
@@ -307,6 +307,17 @@ ok the snake-face one always confuses me when he does it lol mine looks possesse
 
 ```
 ok finding out the headbutt is literally him claiming me as property is unhinged behavior i'm into it 😭 does YOUR cat headbutt you constantly or never? need data
+```
+
+### 50. Why Does A Squid Eat Through Its Own Brain (TBD) — Did You Know / Brain's Lab
+
+🇬🇧:
+```
+ok the colorblind thing right after the 1 millisecond color change broke my brain 🤯 how does that even work?? also finding out food literally passes through the brain with every bite is something i did NOT need to know but now i can never unknow it. what fact hit you hardest?
+```
+🇷🇺:
+```
+ладно, дальтоник ПОСЛЕ смены цвета за 1 миллисекунду — это сломало мне мозг 🤯 как это вообще работает?? и что еда проходит прямо через мозг с каждым укусом — этого я знать не хотел но теперь не забуду. какой факт врезался сильнее всего?
 ```
 
 ---
