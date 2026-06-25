@@ -380,10 +380,16 @@ Paste this **exact string** at the top of every image prompt. It locks **only Br
 
 Updated 16 мая 2026 after Veo 3 introduced phantom 3rd ear + chubby adult-cat drift in bathroom Sc 4 video render. Tightened with kitten-age proportions + EXACTLY 2 EARS lock + anti-artifact tokens.
 
+> 🔒 **Hardened 10 июн 2026 (kitten proportions):** the `why-cats-wake-you-up-at-night` Nano Banana stills drifted toward a chubby adult Garfield-type body because scripts were carrying a CONDENSED Locked Brain ("slender, NOT chubby") instead of the full proportion wording. Fix = the strengthened anti-Garfield/anti-fat proportion clause below. **Rule: always paste the FULL §8 block into scripts verbatim — never condense the proportion line.**
+
 ```
-Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult,
-NOT chubby, NOT pudgy — slender petite kitten body with small chest,
-slim torso, delicate proportions, small paws), big round Pixar-style eyes
+Cute orange tabby kitten named Brain (very young 8-10 week old KITTEN —
+STRICT kitten proportions: an oversized round head on a SMALL, SLIM,
+lightweight body, narrow little chest, short slim torso, long thin delicate
+legs, small dainty paws — petite, skinny, baby-like; NOT an adult cat, NOT
+a big cat, NOT chubby, NOT fat, NOT plump, NOT pudgy, NOT round-bodied, NOT
+a thick chunky Garfield-type cat — keep him clearly a tiny slender baby
+kitten), big round Pixar-style eyes
 — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible
 all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a
 black pupil in the center; ONLY the small iris is colored green, the white
@@ -431,6 +437,7 @@ Brain's identity must be IDENTICAL to the input image throughout — same face, 
 2D, flat, anime, cel-shaded, photorealistic cat, realistic cat, real cat,
 photoreal, hyperrealistic, realistic fur, photograph, live action, lifelike, 3D realism,
 multiple cats, two cats, second cat, extra cat, wild cat,
+chubby cat, fat cat, overweight cat, plump cat, pudgy cat, round-bodied cat, thick body, chunky body, big adult cat, adult cat proportions, Garfield, fat orange cat, beefy cat, heavy-set cat,
 low quality, blurry, distorted face, extra limbs, extra paws,
 five legs, six legs, both front paws raised, two paws raised together,
 missing glasses, glasses removed, missing collar, missing heart tag, watermark,
@@ -684,6 +691,8 @@ Always lead with the topic-specific emotional close BEFORE the follow line (see 
 
 Locked 16 мая 2026 after typography drift made overlays inside one video feel like cuts from different videos (one scene's "3" was rounded pastel-yellow sans, another scene's "1. GUARD" was a sharp serif outline). All on-screen text in a single video — and ideally across the channel — must share ONE font family + ONE color palette + ONE style treatment.
 
+> 🟨 **UPDATE 16 июн 2026 (user directive + reference) — ЖЁЛТЫЕ ПЛАШКИ / highlighter-block style.** Going forward ALL on-screen text — thumbnail title AND every in-video overlay/numeral/caption — uses the **yellow-block (highlighter-plate)** treatment: **BOLD DARK CHARCOAL `#2B2B2B` letters sitting INSIDE a solid Electric Yellow `#FFD23F` rounded-rectangle block** (one filled yellow box hugging each text line), ALL CAPS, Fredoka One / Nunito Bold, slight 2-3° tilt, soft drop-shadow. This SUPERSEDES the old "pastel-yellow letters with charcoal outline" fill below — now it's **dark letters ON yellow blocks**, NOT plain yellow letters. Same block style on the thumbnail and inside the video for one unified look.
+
 ### Canonical channel-wide typography lock
 
 | Element | Spec |
@@ -691,7 +700,8 @@ Locked 16 мая 2026 after typography drift made overlays inside one video feel
 | **Font family** | Rounded geometric sans-serif (Pixar-friendly cartoon font). Reference: **Nunito Bold / Quicksand Bold / Fredoka One** — soft rounded terminals, no sharp serifs, no hand-drawn brush. |
 | **Weight** | Bold (700) for primary overlays; Semibold (600) for secondary lower-thirds |
 | **Case** | ALL CAPS for hooks/numerals/category labels ("EVERY TIME", "1. GUARD", "BLINK = SOUND"). Title Case acceptable for longer captions only. |
-| **Primary fill color** | Soft pastel-yellow `#FFE066` (warm friendly, matches Brain's emerald-on-cream palette) |
+| **Block treatment (locked 16 июн 2026)** | **Dark charcoal `#2B2B2B` letters on a solid Electric Yellow `#FFD23F` rounded-rectangle block (highlighter plate), one block per line, 2-3° tilt.** This is the current standard — overrides the plain-fill rows below. |
+| **Primary fill color** | _(legacy)_ Soft pastel-yellow `#FFE066` letters — SUPERSEDED by the yellow-block treatment above (now dark letters on yellow blocks) |
 | **Secondary fill color** | Cream-white `#FFF8E7` for lower-thirds against warm backgrounds |
 | **Accent fill (thumbnails only)** | Electric Yellow `#FFD23F` for thumbnail title plate |
 | **Stroke / outline** | Solid charcoal `#2B2B2B` outline, 4–6px (scales to text size). Keeps text readable on any background. |

@@ -121,19 +121,20 @@ Then **wait for user yes/no** before executing.
 
 ### BrainCatAI (`/braincatai`)
 
-YouTube Shorts channel — animated AI cat (Brain) explains **cat psychology, cat behavior, cat facts**. Cats only.
+YouTube Shorts channel — animated AI cat (Brain) explains **cat psychology, cat behavior, cat facts** (core) + occasional **Brain Science** (first-person science facts). Cats are the backbone; Brain Science is a rare accent, always in Brain's own first-person voice.
 
-#### 🚫 ABSOLUTE RULE — cats-only channel (do not violate)
+#### 🎯 FORMAT POLICY — mixed, cats-led (updated 14 июн 2026, supersedes old cats-only rule)
 
-User policy as of 11 мая 2026: **every BrainCatAI video must be about cats.** YouTube's algorithm demoted previous off-topic videos (Brain Hacks / What If / Did You Know / Kids Trend) for "content doesn't fit channel". Even when one off-topic video (Sky Blue) outperformed expectations, the channel paid for the others.
+> ⚠️ **This replaces the old "ABSOLUTE RULE — cats-only" (11 мая 2026).** That strict cats-only period stalled the channel (~37 subs), so as of early June 2026 we returned to a **mixed format**: Cat Psychology/Behavior/Facts as the **core**, plus **Brain Science** (renamed from "Brain Hacks") as an occasional accent — but **only in Brain's first-person voice** so it still reads as "the same cat character," not a generic narrator on an off-topic video.
 
-- ✅ ALLOWED rubrics: Cat Psychology, Cat Behavior, Cat Facts, Cat Communication, Cat Health, Cat History/Evolution, Cat Senses
-- ❌ FORBIDDEN rubrics (do NOT propose, do NOT script): Brain Hacks, What If, Did You Know (non-cat), Kids Trend, anything physics/space/anatomy/psychology of humans
-- ❌ FORBIDDEN even with a "cat angle": stretching a human topic onto Brain. The topic itself must be feline.
-- If user asks to deviate ("let's do a Brain Hacks one"), surface this rule and ask them to confirm before drafting.
-- All title-style references — including the competitor `Мир Глазами Кошек` formulas — apply only to cat content.
+- ✅ **CORE rubrics (the backbone, default for every slot):** Cat Psychology, Cat Behavior, Cat Facts, Cat Communication, Cat Health, Cat History/Evolution, Cat Senses, Cat Bonding.
+- ✅ **Brain Science (occasional accent, first-person only):** Brain narrates a science fact **as himself, from his POV** (e.g. "A Black Hole Would Stretch ME Into Spaghetti" — first-person re-upload 8 июн). Keep it rare (≤1 per week), keep the cat character central. The June first-person re-uploads are the validated pattern.
+- ❌ **STILL FORBIDDEN — generic third-person off-topic** (the format that caused the crash): human-psychology / What If / Did You Know / Kids Trend videos delivered by a faceless narrator with no first-person cat framing. The demotion came from *audience confusion* (generic off-topic content on a cat-identity channel), not from science per se.
+- ❌ **Anti-patterns** (compilation, AI-fiction, single-cat bio, persona-less narration) — see the locked list below; those are unchanged.
+- During **recovery**, lean cats-heavy; reserve Brain Science for when there's a strong first-person hook. If unsure whether a topic fits, surface it and confirm before drafting.
+- All title-style references — including the competitor `Мир Глазами Кошек` formulas — apply primarily to cat content.
 
-Existing non-cat scripts in the repo (Sky Blue, Doorway Effect, Vagus Nerve, Black Hole, Goosebumps, 6-7 Kids Trend) are **legacy** — do not duplicate, do not generate sequels in those niches. Their slots in the schedule should be swapped for cat topics where still possible.
+**Historical lesson (why the crash happened — keep this in mind):** 11 мая – 7 мая 2026 BrainCatAI lost ~40-50× traffic because **third-person, off-topic, persona-less** videos (Sky Blue / Doorway Effect / Vagus Nerve / Black Hole) were posted to a cat-identity channel → YouTube read it as audience confusion → demoted the whole channel. The fix is NOT "never do science" — it's "**never break the cat persona / never go generic off-topic**." First-person Brain Science keeps the persona intact and is allowed. Legacy non-cat scripts (Sky Blue, Doorway Effect, Vagus Nerve, original Black Hole, Goosebumps, 6-7 Kids Trend) live in `scripts/_archive/` — don't duplicate them or make third-person sequels.
 
 #### ❌ Anti-patterns — formats/practices we DON'T do (locked 30 мая 2026, from Nexlev+vidIQ analysis `analytics/2026-05-30-channel-analysis-nexlev.md`)
 
@@ -363,6 +364,7 @@ If editing the script's title, scenes, or VO, **re-verify tags reflect the new t
 **Every prompt the assistant hands to the user must be copy-paste ready with ALL locks already baked in — the user must NEVER have to assemble or paste anything extra.** Do this automatically, every time, without being asked:
 
 - **Any image prompt** (Nano Banana) → automatically PREPEND the full **Locked Brain Prompt** (style-guide §8) at the start. The user copies one block and it already contains Brain's full locked look (kitten proportions, emerald #3DDC84 eyes, glasses, brown collar + heart tag, ginger paws/no white socks, 2 ears, 4 paws, Pixar cartoon / not photoreal).
+  - 🚫 **NEVER use a placeholder** like `[Locked Brain Prompt]`, `[вставь Locked Brain сверху]`, "paste Brain here", etc. — in ANY prompt, in scripts OR in chat. The full Locked Brain text MUST be written out verbatim by the assistant in every single Brain image prompt. A placeholder = the user has to assemble the prompt = a miss. (Locked 10 июн 2026 after wake-up script shipped with `[Locked Brain Prompt]` placeholders in all 8 scenes + thumbnail.)
 - **Any animation prompt** (Veo) → automatically INCLUDE the full **Veo anti-drift rules block** (EYE COLOR / GLASSES / SINGLE-CHARACTER / STYLE / ANATOMY / MOUTH / MOTION) before STYLE.
 - **Any prompt with the human owner** → automatically include the HUMAN RULE + HAND COUNT RULE.
 - Negatives block always included with the prompt.

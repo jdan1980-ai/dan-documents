@@ -309,7 +309,95 @@ ok the snake-face one always confuses me when he does it lol mine looks possesse
 ok finding out the headbutt is literally him claiming me as property is unhinged behavior i'm into it 😭 does YOUR cat headbutt you constantly or never? need data
 ```
 
-### 50. Why Does A Squid Eat Through Its Own Brain (TBD) — Did You Know / Brain's Lab
+### 50. Why I Wake You Up at 4 AM (10 июн, 15:00) — Cat Psychology / First-person confession
+
+```
+ok the "you literally trained me to do this" part hurt because its true 😭 mine starts at 4:47 sharp like clockwork i could set a watch to him. what time does yours wake you?? need to know im not alone
+```
+
+🇷🇺 (для RU-зеркала):
+```
+часть про «ты сам меня этому научил» прям задела потому что правда 😭 мой начинает ровно в 4:47 как по будильнику. во сколько тебя будит твой?? скажи что я не одна такая
+```
+
+### 51. 5 Things I Do ONLY When I'm Truly Happy (11 июн, 15:00) — Cat Psychology / Happy 5-signs
+
+```
+ok my cat does the tail-up thing every single time i walk in and i had no idea it meant hes happy 😭 now i feel like i won at being a cat parent. how many does yours do?? need to know
+```
+
+🇷🇺 (для RU-зеркала):
+```
+мой делает этот хвост-трубой каждый раз когда я захожу и я понятия не имела что это значит что он счастлив 😭 теперь чувствую что выиграла в котородительстве. сколько делает твой?? скажи
+```
+
+### 52. 5 Signs I'm Hiding Pain From You (12 июн, 15:00) — Cat Psychology / Health 5-signs
+
+```
+the purring one broke me a little. i always thought purring = happy and now im replaying every weird 2am purr in my head 😭 check on your babies. has your cat ever hidden being sick from you?
+```
+
+🇷🇺 (для RU-зеркала):
+```
+про мурчание прям прилетело. всю жизнь думала мурчит значит счастлив а теперь прокручиваю в голове все странные ночные мурчания 😭 проверяйте своих. твой когда-нибудь скрывал что ему плохо?
+```
+
+### 53. How I Chose YOU as My Human (14 июн, 15:00) — Cat Psychology / Bonding
+
+```
+the #5 wrecked me lol i literally got my cat when i was going through the worst week of my life and now hes always next to me when im upset. like he just KNOWS somehow. did your cat find you at a weird time too?
+```
+
+🇷🇺 (для RU-зеркала):
+```
+пятый пункт просто убил лол я буквально завёл кота когда была самая отстойная неделя в жизни и теперь он всегда рядом когда мне плохо. типа просто ЗНАЕТ как-то. твой кот тоже появился в странное время?
+```
+
+### 54. Why We Orange Cats Are Built Different (15 июн, 15:00) — Cat Psychology / Facts
+
+```
+ok the food one is SO my orange boy he literally screams at me at 5am like the bowl is empty when its NOT 😭 and yeah hes dumb as rocks but in the bravest way possible lol. is your orange cat also running on one braincell?
+```
+
+🇷🇺 (для RU-зеркала):
+```
+пункт про еду это прям мой рыжий он буквально орёт на меня в 5 утра типа миска пустая хотя она НЕ пустая 😭 и да он тупой как пробка но самым храбрым способом лол. твой рыжий тоже на одном браинцелле?
+```
+
+### 55. Why I Pee Outside My Box (It's NOT Revenge) (16 июн, 15:00) — Cat Psychology / Health
+
+```
+ok i feel so bad now i literally yelled at my cat for this last month and turned out he had a UTI 😭 the "we dont do spite" part got me. has your cat ever done this and it turned out to be something medical?
+```
+
+🇷🇺 (для RU-зеркала):
+```
+блин мне так стыдно я в прошлом месяце реально наорала на кота за это а оказалось у него цистит был 😭 фраза «коты не мстят» прям задела. у твоего такое было и оказалось что-то по здоровью?
+```
+
+### 56. Why I HATE Water (It's NOT Just Fear) (17 июн, 15:00) — Cat Psychology / Behavior
+
+```
+ok the tiger part actually shocked me i had no idea some cats LIKE water lol. mine acts like the bathtub is lava every single time 😂 does yours hate water too or are you one of the lucky ones with a weird water-loving cat?
+```
+
+🇷🇺 (для RU-зеркала):
+```
+блин про тигров реально удивило я не знала что некоторые коты ЛЮБЯТ воду 😂 мой ведёт себя будто ванна это лава каждый раз. твой тоже ненавидит воду или тебе повезло и у тебя странный кот-водохлёб?
+```
+
+### 57. Before You Adopt Me — 5 Things I Wish You Knew (18 июн, 15:00) — Cat Psychology / New Kitten
+
+```
+honestly the first week i had mine she hid behind the washing machine the ENTIRE time and i was convinced i adopted a ghost lol. took her like 5 days to trust me. how long did yours take to actually come out and chill?
+```
+
+🇷🇺 (для RU-зеркала):
+```
+честно первую неделю мой прятался за стиралкой ВСЁ время и я уже думала что усыновила привидение 😂 дней пять привыкал ко мне. а твой сколько прятался пока не начал выходить и тусить?
+```
+
+### 58. Why Does A Squid Eat Through Its Own Brain (TBD) — Did You Know / Brain's Lab
 
 🇬🇧:
 ```

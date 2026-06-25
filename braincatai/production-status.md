@@ -21,6 +21,8 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 
 **📊 Stats check-in: ~31 мая 2026** — посмотреть как изменились метрики у видео, опубликованных с новыми тегами (STARES, GIANT и далее). Сравнить CTR/retention с предыдущими видео.
 
+**⚡ Формат-тест чек-ин: ~21 июн 2026 (locked 14 июн, Dan)** — НЕ гоним новые скрипты пока. Наблюдаем неделю как заходит короткий 7-сцен/~33с формат: pain (12 июн), choose-human (14 июн) + следующие. Сравнить retention / лупы / CTR / subs против 56с-когорты. Решение масштабировать короткий формат ИЛИ откатиться — принимаем по данным после ~21 июн, не раньше.
+
 ---
 
 ## 🗓️ Расписание
@@ -68,14 +70,23 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 
 🚨 **Lesson learned 17 мая 2026 (double-publish kill):** 15 мая вышли ДВА видео в один день — Giant (44 views) + Stares (**4 views**). Алгоритм задушил второе видео. **НИКОГДА не публиковать два Shorts в один день** — даже если одно сильнее. Один день = один Short максимум.
 
-### 🔬 Brain Science re-uploads (новый эксперимент — first-person format, июнь 2026)
+### 🔬 First-person experiment (Brain Science re-uploads + first-person Cat Psychology, июнь 2026)
 
-> Редкий научный вкрапленный тест в потоке кошек (кошки = костяк до конца recovery). Подача — Брайн от первого лица (Lesson 5), рубрика **Brain Science** (переименована из Brain Hacks).
+> Новый формат: Брайн рассказывает **от первого лица** (Lesson 5). Два потока — (1) редкие научные вкрапления **Brain Science** (переименована из Brain Hacks), (2) кошачья психология от лица самого Брайна. Кошки = костяк до конца recovery.
 
 | Дата | Видео | Рубрика | Slug | Статус |
 |------|-------|---------|------|--------|
-| **8 июн 15:00** | A Black Hole Would Stretch Me Into Spaghetti | Brain Science | `whats-inside-a-black-hole` | 📝 NEW re-upload — VO в 1-е лицо + spaghetti thumbnail v2 готовы; reuse 8 клипов as-is; новый ID при заливке |
-| 9 июн 15:00 | Why Your Cat HEADBUTTS You — It's NOT Affection (сдвинут с 8 июн) | Cat Psychology | `why-cats-headbutt-you` | 📝 VO в 1-е лицо готов; production |
+| **8 июн 15:00** | A Black Hole Would Stretch Me Into Spaghetti | Brain Science | `whats-inside-a-black-hole` | ✅ опубликован 8 июн (first-person re-upload, новый ID) |
+| 9 июн 15:00 | Why Your Cat HEADBUTTS You — It's NOT Affection (сдвинут с 8 июн) | Cat Psychology | `why-cats-headbutt-you` | ✅ опубликован 9 июн (VO в 1-е лицо) |
+| **10 июн 15:00** | **Why I Wake You Up at 4 AM** (first-person confession + counter-intuitive «ты сам меня научил» + фикс) | Cat Psychology (1st-person) | `why-cats-wake-you-up-at-night` | ✅ залит, scheduled 10 июн 15:00 · vidIQ anchor `why does my cat wake me up at night` 60.74 / 5,324 / comp 31.6 (retitled с «morning» = 0 vol → «night») |
+| **11 июн 15:00** | **5 Things I Do ONLY When I'm Truly Happy** (positive 5-signs «best life»: tail-up / slow blink / belly-up / biscuits / sleeps-by-you, warm twist #5) | Cat Psychology (1st-person) | `signs-your-cat-is-happy` | ✅ залит, scheduled 11 июн 15:00 · vidIQ anchor `signs your cat is happy` 62.70 / 12,778 / comp 35.2 |
+| **12 июн 15:00** | **5 Signs I'm Hiding Pain From You** (health-warning 5-signs, mind-blow #5 purr≠happy; ⚡ ПЕРВЫЙ ТЕСТ короткого формата ~33с) | Cat Psychology / Health (1st-person) | `signs-your-cat-is-in-pain` | ✅ залит, scheduled 12 июн 15:00 · vidIQ anchor `signs your cat is in pain` 🟢 64.37 / 5,264 / comp 22.4 |
+| ~~13 июн~~ | ⚠️ **Новинки НЕ было** — вместо неё включён легаси-Vagus «Кнопка стресса» (`your-body-calm-down-button`, Brain Hacks, 3-е лицо, анатомия человека) | Legacy Brain Hacks | `your-body-calm-down-button` | ⚠️ Public по решению Dan 14 июн (предупреждён о риске audience-confusion — тот же тип, что вызвал краш 11-7 мая; оставлено осознанно) |
+| **14 июн 15:00** | **How I Chose YOU as My Human** (emotional 5-reasons first-person, counter-intuitive «ты не выбирал — я выбрал», warm twist #5 «тебе было грустно»; ⚡ формат 33с тест #2) | Cat Psychology / Bonding (1st-person) | `how-cats-choose-their-human` | ✅ залит, scheduled 14 июн 15:00 · vidIQ anchor `how cats choose their favorite person` 🟢🟢 66.16 / 28,344 / comp 34.3 GREEN-JACKPOT |
+| **15 июн 15:00** | **Why We Orange Cats Are Built Different** (orange-cat «built different» мем + наука first-person, mind-blow #5: «один браинцелл»-хаос = бесстрашие; ⚡ формат 33с тест #3) | Cat Psychology / Facts (1st-person) | `orange-cat-behavior` | ✅ залит, scheduled 15 июн 15:00 · vidIQ anchor `orange cat behavior` 🟢 63.09 / 30,546 / comp 42.7 |
+| **16 июн 15:00** | **Why I Pee Outside My Box (It's NOT Revenge)** (health/behavior warning first-person, 4 причины + mind-blow #5 «коты не мстят»; ⚡ формат 33с тест #4) | Cat Psychology / Health (1st-person) | `cat-peeing-outside-litter-box` | ✅ опубликован 16 июн · vidIQ anchor `cat peeing outside litter box` 🟢 63.96 / 4,986 / comp 22.9 · конкурент-чек: educational white-space, search-play |
+| **17 июн 15:00** | **Why I HATE Water (It's NOT Just Fear)** (first-person, 4 причины: тяжёлая шерсть / холод+запах / пустынные предки / нет контроля + mind-blow #5 «тигры обожают плавать»; ⚡ формат 33с тест #5) | Cat Psychology / Behavior (1st-person) | `why-cats-hate-water` | ✅ опубликован 17 июн · vidIQ anchor `why cats hate water` 🟡 60.88 / 3,659 / comp 27.6 (YELLOW override) · breakout-доказательство: TheCognition 102k/795 subs на этой теме |
+| **18 июн 15:00** | **Before You Adopt Me — 5 Things I Wish You Knew** (first-person new-kitten: безопасная комната / дай подойти / игра=охота / я малыш + тёплый mind-blow #5 «я твой на всю жизнь»; ⚡ формат 33с тест #6) | Cat Psychology / New Kitten (1st-person) | `getting-a-kitten` | 📝 скрипт готов → производство · vidIQ anchor `getting a kitten` 🟢 66.30 / 10,734 / низкая comp (GREEN, WHITE-SPACE) · не каннибал (проверено vs 42 скрипта 18 июн) |
 
 ⚠️ **Override 18 мая:** `why-cats-sit-above-you` опубликован вне vidIQ-плана (score 25.6 RED, 0 monthly). User decision: канал в recovery mode → лучше потратить слот на инстинкт-тему чем держать сильную в очереди. Трекаем результат для валидации.
 
@@ -104,7 +115,7 @@ Applied channel-wide. **Full canonical spec → [`karena-playbook.md`](./karena-
 
 **Бэклог YELLOW (cached, available):**
 - `why-cats-wag-their-tails` 62.59 / 5,400 — лучший AVAILABLE в кэше
-- `why-cats-hate-water` 60.88 / 3,659
+- ~~`why-cats-hate-water` 60.88 / 3,659~~ → ✅ взят на 17 июн (breakout-proof TheCognition 102k)
 - `why-cats-meow-only-at-humans` 60.70 / 3,685
 - `cat-jealousy` 59.01 / 5,156
 
@@ -165,7 +176,17 @@ User decision: **1 день = 1 эпоха** + 1 day для assembly. Темп c
 | `5-cat-owner-mistakes` | 5 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 |
 | `cat-zoomies-explained` | 6 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 |
 | `5-strange-cat-behaviors-explained` | 7 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `why-cats-headbutt-you` | 8 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `why-cats-headbutt-you` | 9 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован |
+| `whats-inside-a-black-hole` | 8 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (1st-person re-upload) |
+| `why-cats-wake-you-up-at-night` | 10 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 (1st-person) |
+| `signs-your-cat-is-happy` | 11 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 (1st-person, happy 5-signs) |
+| `signs-your-cat-is-in-pain` | 12 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 (1st-person, health, ⚡33с формат-тест) |
+| `how-cats-choose-their-human` | 14 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 (1st-person, emotional, ⚡33с тест #2) |
+| `orange-cat-behavior` | 15 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ⏰ scheduled 15:00 (1st-person, orange-cat meme+science, ⚡33с тест #3) |
+| `cat-peeing-outside-litter-box` | 16 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (1st-person, health/behavior, ⚡33с тест #4) |
+| `why-cats-hate-water` | 17 июн | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ опубликован (1st-person, behavior, ⚡33с тест #5) |
+| `getting-a-kitten` | 18 июн | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ (1st-person, new-kitten, ⚡33с тест #6) |
+| `your-body-calm-down-button` | ~~13 июн~~ | — | — | — | — | — | ⚠️ легаси-Vagus снова Public 13 июн (риск-предупреждение дано, оставлено по решению Dan) |
 
 > Легаси не-кошачьи скрипты (Sky Blue / Black Hole / 6-7 / Goosebumps / Doorway / Vagus) перенесены в `scripts/_archive/`.
 
