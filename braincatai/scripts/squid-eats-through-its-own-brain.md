@@ -1,6 +1,6 @@
 # Script — Why Does A Squid Eat Through Its Own Brain 🦑 | Brain's Lab
 
-**Формула:** first-person listicle от лица Brain-учёного — "5 facts + reframe-CTA" — структура `svxYqphz95s` (working template): hook-challenge → 4 numbered facts → twist at #5 → reframe + "Follow for more" объединены.
+**Формула:** first-person listicle от лица Brain-учёного — "5 facts + bonus payoff + micro-CTA" — структура `svxYqphz95s` (working template): hook-challenge → 4 numbered facts → twist at #5 → BONUS fact #6 закрывает twist (skin-vision payoff) + micro-CTA в финальные 1.5 сек.
 **Длительность:** ✅ **7 сцен × ~6 сек = ~42 сек VO + 3 сек end-card = 45 сек total.**
 **vidIQ:** anchor `squid facts` ⚠️ [TBD — проверить при следующем доступе к vidIQ]. Предполагаемый cluster: `squid facts mind blowing`, `squid brain facts`, `giant squid facts`, `squid fun facts for kids`.
 **Пайплайн (OVERRIDE: Kling недоступен у юзера):** Nano Banana 2 → **Veo 3 (image-to-video)** → CapCut (overlays/numerals) → Google Vids TTS (рот закрыт). ⛔ **ХУК (Sc 1) — всегда полноценная анимация с кадра 0, Ken Burns ЗАПРЕЩЁН** (Lesson 4).
@@ -16,18 +16,17 @@
 - **Series:** Brain first-person POV (новый формат, июнь 2026) — Brain изучает существо, которое заставляет пересмотреть всё
 - **Status:** 📝 script
 - **Publish target:** TBD
-- **VO Format:** "5 facts + twist + reframe-CTA" listicle — Brain от 1-го лица как учёный-наблюдатель. **7 сцен × ~6 сек ≤ 45 сек total.**
-- **Why this topic:** мозг кальмара в форме КОЛЬЦА с едой насквозь = мгновенный pattern interrupt. Twist #5: меняет цвет за 1мс — но полностью дальтоник. Reframe пересекается с темой канала (Brain = мозг).
+- **VO Format:** "5 facts + twist + BONUS payoff (skin vision) + micro-CTA" listicle — Brain от 1-го лица как учёный-наблюдатель. **7 сцен × ~6 сек ≤ 45 сек total.** Max info-density — финальная сцена несёт настоящий факт #6, не пустой CTA.
+- **Why this topic:** мозг кальмара в форме КОЛЬЦА с едой насквозь = мгновенный pattern interrupt. Twist #5: меняет цвет за 1мс — но полностью дальтоник. BONUS #6 закрывает loop: видят цвет КОЖЕЙ (фоторецепторы — opsin-гены по всему телу). Reframe пересекается с темой канала (Brain = мозг).
 
-## Audience Promise
-Зритель узнаёт 5 mind-blowing фактов о кальмаре через Brain-учёного, который сам не может поверить: мозг-кольцо с едой насквозь → нейроны в щупальцах → 3 сердца + голубая кровь → цвет за 1мс → twist: полностью дальтоник. Финальный reframe + CTA Brain'а ("один мозг — я уже устал. этот распределил задачу. подпишись") = shareable, quotable.
+Зритель узнаёт 6 mind-blowing фактов о кальмаре через Brain-учёного, который сам не может поверить: мозг-кольцо с едой насквозь → нейроны в щупальцах → 3 сердца + голубая кровь → цвет за 1мс → twist: полностью дальтоник → BONUS payoff: видит цвет КОЖЕЙ (фоторецепторы по всему телу). Bonus-факт закрывает twist и даёт "aha-moment" в финале — без пустого "подпишись".
 
 ## ✍️ Формула + Rule 14
 - **Sc 1 Hook:** «You think MY brain is impressive? This creature eats food THROUGH its brain. Every. Single. Bite.» — Brain делает double-take на голограмму. IN MOTION с кадра 0.
 - **Sc 2–5 Facts:** 4 нарастающих факта через голограммы в лаборатории.
 - **Sc 6 Twist #5:** полностью дальтоник — comedic pause.
-- **Sc 7 Reframe + CTA:** "Один мозг — я уже устал. Этот распределил задачу. Уважаю. Подпишись." Sincere beat + casual CTA.
-- **🔧 Comedy injections (Rule 14):** Sc 1 (double-take), Sc 2 (ужас от мозг-кольца), Sc 4 (шок от голубой крови, смотрит на свою лапу), Sc 6 (comedic pause).
+- **Sc 7 BONUS payoff + micro-CTA:** "Так КАК он меняет цвет? Видит цвет КОЖЕЙ. Фоторецепторы по всему телу. Мозг не нужен. Подпишись." Real factual payoff (skin photoreceptors / opsin-genes), закрывает twist. CTA ужат в 1.5 сек финала.
+- **🔧 Comedy injections (Rule 14):** Sc 1 (double-take), Sc 2 (ужас от мозг-кольца), Sc 4 (шок от голубой крови, смотрит на свою лапу), Sc 6 (comedic pause), Sc 7 (Brain трогает свою шерсть — "а я так не могу?!").
 
 ---
 
@@ -50,7 +49,7 @@ INT. BRAIN'S LAB — NIGHT. A cozy Pixar-style scientist's laboratory: glass bea
 
 ---
 
-## Полный VO — FIRST PERSON (7 сцен / ~88 слов EN / ~42 сек)
+## Полный VO — FIRST PERSON (7 сцен / ~92 слова EN / ~42 сек)
 
 **🇬🇧 English (copy this block alone):**
 ```
@@ -66,7 +65,7 @@ Four — it changes color in ONE millisecond. Faster than you can blink.
 
 Five — but it's completely colorblind.
 
-I have one brain and I'm already exhausted. This thing distributed the problem. Respect. Follow for more.
+So how does it match colors? It SEES with its SKIN. Photoreceptors all over its body. The brain doesn't even decide. Follow Brain.
 ```
 
 **🇷🇺 Русская версия (copy this block alone):**
@@ -83,9 +82,9 @@ I have one brain and I'm already exhausted. This thing distributed the problem. 
 
 Пять — но он полностью дальтоник.
 
-Один мозг — и я уже устал. Этот распределил задачу. Уважаю. Подпишись.
+Так как он подбирает цвет? Он ВИДИТ КОЖЕЙ. Фоторецепторы по всему телу. Мозг даже не решает. Подпишись.
 ```
-_~88 слов EN, ~5–6с/сцена (≤7с каждая, ~42с VO + 3с end-card = 45с)._
+_~92 слова EN, ~5–6с/сцена (≤7с каждая, ~42с VO + 3с end-card = 45с). Sc 7 — самый плотный по информации, бонус-факт закрывает twist._
 
 ---
 
@@ -100,7 +99,7 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 ```
 2D, flat, anime, photorealistic cat, multiple cats, blurry, distorted face, extra limbs, 5 paws, 6 legs, white socks, white back paws, missing glasses, missing collar, missing heart tag, round/disc/bell tag, mouth open as if talking, lip-sync, talking cat, chattering, brown eyes, amber eyes, yellow eyes, hazel eyes, fully-green eyeball, green sclera, green eye-whites, eye color tinted by lighting, watermark, text artifacts, Russian text, ugly, scary, aggressive, real squid, photorealistic squid, scary squid, cat mouth open, no glasses, no heart tag, garbled text, emoji in text, adult cat, chubby cat
 ```
-> A/B text alts: `BRAIN SHAPED LIKE A RING` / `3 HEARTS. BLUE BLOOD.` / `IT'S COLORBLIND`
+> A/B text alts: `BRAIN SHAPED LIKE A RING` / `3 HEARTS. BLUE BLOOD.` / `IT'S COLORBLIND` / `SEES COLOR WITH SKIN`
 
 ---
 
@@ -274,55 +273,59 @@ DRIFT RISK: 🟢 GREEN — mostly still scene, subtle motion. Low risk.
 
 ---
 
-## Сцена 7 — REFRAME + CTA (36–42с) | 🟡 drift-risk
-**Что зритель видит:** Brain садится на лабораторный стул, смотрит в камеру с genuine уважением, один медленный кивок → в конце дружелюбный paw-wave. Оверлей «I RESPECT THAT 🎓 FOLLOW BRAIN 🐱». End-card 3-сек Short variant сразу после.
+## Сцена 7 — BONUS FACT #6: Skin sees color + micro-CTA (36–42с) | 🟡 drift-risk
+**Что зритель видит:** голограмма переключается на крупный план кожи кальмара со светящимися точками-фоторецепторами, расходящимися волнами по поверхности. Brain поднимает одну лапу, разглядывает свою шерсть («а я так не могу?!»), затем смотрит в камеру с финальным "mind blown" взглядом. Последние ~1.5 сек — мини paw-wave «follow». Оверлей **первые 4 сек:** `6️⃣ SKIN SEES COLOR 🌈🦑`, **последние 2 сек:** `→ FOLLOW BRAIN 🧠`. End-card 3-сек Short variant сразу после.
 
 **🎨 Image (Nano Banana 2) — копи-пейст:**
 ```
-Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. Vertical 9:16. — seated on a tall lab stool in INT. BRAIN'S LAB — NIGHT, wearing a small white lab coat (collar + heart tag visible at V-cut neckline), holographic projector dimmed/idle behind him with the squid hologram still rotating softly. He sits in a thoughtful "I get it now" pose — eyes half-open then opening warmly, emerald irises visible, a quiet genuine look of intellectual respect on his face, followed by a small warm closed-mouth smile and a casual paw-wave. Mouth closed throughout. Warm amber desk lamp light + dim blue ambient glow from the lingering hologram. Medium close-up. Negative space lower-third for text plate.
+Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week old kitten, slender, NOT adult, NOT chubby, NOT photorealistic, NOT a real cat), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil; ONLY the small iris is green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. Small thin round gold-framed glasses ALWAYS on. A plain smooth brown leather collar (smooth band, NO studs, NO buckle) with EXACTLY ONE clearly HEART-SHAPED gold tag (unmistakable heart silhouette) engraved "Brain" (NOT round, NOT a disc, NOT a bell). Soft fluffy orange tabby fur with darker stripes, ALL 4 paws — both FRONT and both BACK paws — fully ginger tabby (NO white socks, NO white back paws, NO white toes), tail ginger to the very tip (NO white tip), pink nose, white whiskers, EXACTLY 2 ears, EXACTLY 4 paws, mouth closed. Vertical 9:16. — standing at the holographic projector in INT. BRAIN'S LAB — NIGHT, wearing a small white lab coat (collar + heart tag visible at V-cut neckline). The hologram shows a glowing extreme close-up patch of squid SKIN with dozens of tiny glowing photoreceptor dots scattered across the surface — each dot sampling a different rainbow color (red, orange, yellow, green, blue, violet) — labeled "OPSINS IN SKIN" in glowing text. Brain holds one front paw up near his cheek, comparing the glowing squid-skin hologram to his own ginger-striped fur on the raised paw — eyes blown wide in a final "aha-moment" amazement, eyebrows up, mouth closed in a small awed smile. He looks half at the hologram, half at his own paw. Medium close-up.
 ```
 **🎬 Veo 3 (i2v) — pre-flight 🟡 — копи-пейст:**
 ```
-INPUT: Nano Banana 2 still (Sc 7 above) — Brain seated on lab stool, thoughtful face, projector dimmed with squid hologram rotating softly behind.
-EYE COLOR RULE (strict): PURE WHITE sclera + EMERALD-GREEN iris (#3DDC84) only.
-GLASSES RULE (strict): ALWAYS on.
-SINGLE-CHARACTER RULE: ONLY Brain.
-STYLE RULE: Pixar/Disney 3D ANIMATED CARTOON only.
-ANATOMY RULE: EXACTLY 2 ears, EXACTLY 4 paws (seated naturally); ONLY the one raised paw at the end does the wave, the other front paw + both back paws planted.
-MOUTH RULE: mouth CLOSED — warmth reads through the eyes and small closed-mouth smile.
-MOTION RULE: Brain gives one slow deliberate nod of genuine "respect" (0–3s), then his expression warms into a small closed-mouth smile, and at ~4–5s he raises one front paw in a casual "follow me" wave at camera (3–6s). Tail does one slow content swish throughout. Squid hologram rotates softly behind. Something moves from frame 0.
-DURATION: 6 seconds. CAMERA: gentle slow push-in.
-NEGATIVES: standard + second cat, 5 paws, mouth opening, both front paws raised, green sclera, comedic expression (this is sincere then warm).
-DRIFT RISK: 🟡 YELLOW — two-beat motion (nod → wave) + active background hologram. May need 1 retry.
+INPUT: Nano Banana 2 still (Sc 7 above) — Brain holding one paw up, comparing his fur to glowing squid-skin hologram with rainbow photoreceptor dots.
+EYE COLOR RULE (strict): PURE WHITE sclera + EMERALD-GREEN iris (#3DDC84); rainbow hologram glow must NOT tint the iris. Never fully-green.
+GLASSES RULE (strict): small thin round gold-framed glasses ALWAYS on throughout.
+SINGLE-CHARACTER RULE (strict): ONLY Brain — no second cat, no second character.
+STYLE RULE (strict): Pixar/Disney 3D ANIMATED CARTOON throughout, NOT photorealistic.
+ANATOMY RULE (strict): EXACTLY 2 ears, EXACTLY 4 paws; ONLY the one front paw is raised (paw + cheek + then wave), other front paw + both back paws planted.
+MOUTH RULE (strict): mouth stays CLOSED the entire clip — awe reads through the eyes.
+MOTION RULE (strict, info-dense beat then micro-CTA):
+  0–1.5s: hologram rainbow photoreceptor dots pulse outward in a wave across the squid-skin patch.
+  1.5–3s: Brain glances from the hologram down to his own raised paw, then back — comedic "wait, MY skin doesn't do that?!" double-take.
+  3–4.5s: Brain's eyes blow even wider — final "aha-moment" amazement, eyebrows sky-high, small closed-mouth awed smile.
+  4.5–6s: he gives ONE small casual paw-wave at the camera (same raised paw — half-flick "follow") — micro-CTA, NOT a long sales pitch. Tail does one slow content swish.
+DURATION: 6 seconds. CAMERA: gentle slow push-in throughout.
+NEGATIVES: standard + second cat, 5 paws, mouth opening, both front paws raised, green sclera, rainbow tinting the iris, "OPSINS IN SKIN" label garbling.
+DRIFT RISK: 🟡 YELLOW — multi-beat motion (hologram pulse → paw-compare double-take → wave) + active rainbow hologram. May need 1 retry. FALLBACK: if "OPSINS IN SKIN" label garbles in 2 tries → render rainbow dots only and add the label as CapCut overlay.
 ```
-**🎙️ VO (EN):** I have one brain and I'm already exhausted. This thing distributed the problem. Respect. Follow for more.
-**🎙️ VO (RU):** Один мозг — и я уже устал. Этот распределил задачу. Уважаю. Подпишись.
-**Оверлей (CapCut):** `I RESPECT THAT 🎓 → FOLLOW BRAIN 🐱`
-🔊 SFX: soft piano note (during nod) → warm playful sting (during wave).
+**🎙️ VO (EN):** So how does it match colors? It SEES with its SKIN. Photoreceptors all over its body. The brain doesn't even decide. Follow Brain.
+**🎙️ VO (RU):** Так как он подбирает цвет? Он ВИДИТ КОЖЕЙ. Фоторецепторы по всему телу. Мозг даже не решает. Подпишись.
+**Оверлей (CapCut):** 0–4с `6️⃣ SKIN SEES COLOR 🌈🦑` → 4–6с `→ FOLLOW BRAIN 🧠`
+🔊 SFX: rainbow shimmer (0–1.5s) → comedic "boing" on paw double-take (1.5–3s) → soft awe-chime + warm playful sting on wave (4.5–6s).
 
 ---
 
 ## 🎵 Музыка (Suno — ~45 сек) — копи-пейст:
 ```
-Playful-curious science lab score for a 45-second YouTube Short about squid brain facts. Open 0-6s with a lively curious "discovery" sting — staccato pizzicato with a subtle oceanic/underwater feel, immediately energetic. Build 6-30s with an academic-curious pulse (light marimba + plucked strings + quiet tension), escalating with each numbered fact. Comedic tension break 30-36s (colorblind twist — brief whimsical sting + half-beat pause). Quiet respectful resolution then warm playful close 36-42s (warm solo piano nod → soft pizzicato outro on the paw-wave CTA). 100 BPM, no vocals, mood arc: curious → building excitement → comedic shock → genuine respect → warm. Royalty-free.
+Playful-curious science lab score for a 45-second YouTube Short about squid brain facts. Open 0-6s with a lively curious "discovery" sting — staccato pizzicato with a subtle oceanic/underwater feel, immediately energetic. Build 6-30s with an academic-curious pulse (light marimba + plucked strings + quiet tension), escalating with each numbered fact. Comedic tension break 30-36s (colorblind twist — brief whimsical sting + half-beat pause). 36-40.5s BONUS payoff — bright rainbow shimmer + a single rising chime as "aha-moment" lands (skin sees color). 40.5-42s warm playful pizzicato outro on micro paw-wave. 100 BPM, no vocals, mood arc: curious → building excitement → comedic shock → bright revelation → warm. Royalty-free.
 ```
 
 ## Сборка / монтаж
 - VO -12 LUFS, музыка -18 LUFS, субтитры верхняя треть ≤4 слова
 - Цифры/оверлеи — CapCut, шрифт залочен (Fredoka One / Nunito Bold, Electric Yellow #FFD23F), English only
 - **Тон:** Brain как учёный, который сам не может поверить → numbered facts → twist → искреннее уважение + casual CTA. НЕ страшно. НЕ грустно.
-- SFX: record-scratch (Sc 1), whoosh + horror sting (Sc 2), neural ping x3 (Sc 3), heartbeat x3 (Sc 4), shutter snap (Sc 5), mini record-scratch (Sc 6), piano note → warm sting (Sc 7)
-- **Sc 2 "FOOD→BRAIN→STOMACH" arrow** + **Sc 6 "WHAT IT SEES" label** → главные кандидаты на CapCut-fallback, если Veo коверкает текст в голограмме.
+- SFX: record-scratch (Sc 1), whoosh + horror sting (Sc 2), neural ping x3 (Sc 3), heartbeat x3 (Sc 4), shutter snap (Sc 5), mini record-scratch (Sc 6), rainbow shimmer → comedic boing → awe-chime + warm sting (Sc 7)
+- **Sc 2 "FOOD→BRAIN→STOMACH" arrow** + **Sc 6 "WHAT IT SEES" label** + **Sc 7 "OPSINS IN SKIN" label** → главные кандидаты на CapCut-fallback, если Veo коверкает текст в голограмме.
 - End card: 3-сек Short variant сразу после Sc 7 (общее ≤ 45 сек).
 
 ## 📌 Pinned comment (Karena-style)
 🇬🇧:
 ```
-ok the colorblind thing right after the 1 millisecond color change broke my brain 🤯 how does that even work?? also finding out food literally passes through the brain with every bite is something i did NOT need to know but now i can never unknow it. what fact hit you hardest?
+wait wait wait — colorblind BUT sees color with its SKIN?? that last fact rearranged my entire brain 🤯 photoreceptors literally on its body. and the food-through-the-brain thing is something i did NOT need to know but can never unknow now. which fact hit you hardest — the brain-ring, the colorblind twist, or the skin-vision payoff?
 ```
 🇷🇺:
 ```
-ладно, дальтоник ПОСЛЕ смены цвета за 1 миллисекунду — это сломало мне мозг 🤯 как это вообще работает?? и что еда проходит прямо через мозг с каждым укусом — этого я знать не хотел но теперь не забуду. какой факт врезался сильнее всего?
+стоп стоп стоп — дальтоник, НО видит цвет КОЖЕЙ?? последний факт переставил мне мозги 🤯 фоторецепторы буквально по всему телу. и что еда проходит прямо через мозг с каждым укусом — этого я знать не хотел но теперь не забуду. какой факт сломал сильнее — мозг-кольцо, дальтоник или зрение кожей?
 ```
 
 ## SEO Pack
@@ -334,7 +337,8 @@ _(60 chars ✓)_
 ```
 This Creature Eats Through Its Brain Every Single Bite 🦑 | Brain's Lab
 A Squid's Food Passes Through Its Brain Every Bite 🦑 | Brain's Lab
-5 Squid Facts That Broke My Brain 🦑 | Brain's Lab
+6 Squid Facts That Broke My Brain (Skin Vision?!) 🦑 | Brain's Lab
+This Squid Sees Color With Its SKIN 🌈🦑 | Brain's Lab
 ```
 
 **Russian titles (RU mirror):**
@@ -347,18 +351,18 @@ A Squid's Food Passes Through Its Brain Every Bite 🦑 | Brain's Lab
 ```
 Did you know a squid's brain is shaped like a RING — and its throat runs straight through the middle? 🦑 Every single bite of food passes through its own brain. That's just fact #1.
 
-Brain breaks down 5 mind-blowing squid facts: the brain-ring, neurons in the arms, 3 hearts + blue blood, color change in 1 millisecond — and the twist that makes all of it even weirder.
+Brain breaks down 6 mind-blowing squid facts: the brain-ring, neurons in the arms, 3 hearts + blue blood, color change in 1 millisecond, total colorblindness — and the bonus payoff that explains it all: squids see color with their SKIN. Photoreceptors all over their body.
 
 🐱 Follow Brain for animal facts and brain hacks every day.
 
-#shorts #squidfacts #animalmindblown #braincatai #didyouknow #weirdanimalfacts #squid #brainhacks
+#shorts #squidfacts #animalmindblown #braincatai #didyouknow #weirdanimalfacts #squid #brainhacks #skinvision
 ```
 
 **Tags:**
 ```
-squid facts, squid facts mind blowing, squid brain, squid nervous system, weird animal facts, amazing animal facts, did you know, animal facts for kids, squid fun facts, giant squid facts, squid intelligence, octopus vs squid, squid color change, blue blood animals, animal brain facts, brain cat, braincatai, funny animal facts, sea creature facts, mind blowing facts
+squid facts, squid facts mind blowing, squid brain, squid nervous system, weird animal facts, amazing animal facts, did you know, animal facts for kids, squid fun facts, giant squid facts, squid intelligence, octopus vs squid, squid color change, squid sees with skin, skin photoreceptors, blue blood animals, animal brain facts, brain cat, braincatai, mind blowing facts
 ```
-_(20 tags ✓)_
+_(20 tags ✓ — добавлены `squid sees with skin` + `skin photoreceptors` под bonus-факт)_
 
 **Hashtags:**
 ```
@@ -372,7 +376,8 @@ _(20 tags ✓)_
 - [ ] Veo 3 i2v (override — Kling недоступен) — pre-flight verified на каждой сцене, drift-risk помечен
 - [ ] Sc 1 ХУК — полная анимация с кадра 0, Ken Burns ЗАПРЕЩЁН (Lesson 4)
 - [ ] Одна локация (лаборатория-ночь) — все факты через голограммы из проектора
-- [ ] Sc 2 "FOOD→BRAIN" arrow + Sc 6 "WHAT IT SEES" → CapCut-fallback если Veo коверкает текст
+- [ ] Sc 2 "FOOD→BRAIN" arrow + Sc 6 "WHAT IT SEES" + Sc 7 "OPSINS IN SKIN" → CapCut-fallback если Veo коверкает текст
+- [ ] Sc 7 = BONUS FACT #6 (skin-vision payoff) + micro-CTA (paw-wave в последние 1.5 сек) — НЕ пустой "подпишись"
 - [ ] 7 сцен × ~6 сек ≤ 45 сек total ✓
 - [ ] vidIQ anchor: ⚠️ [TBD] — проверить при следующем доступе: предположительно `squid facts mind blowing`
 - [ ] Pinned comment добавлен в `braincatai/pinned-comments.md`

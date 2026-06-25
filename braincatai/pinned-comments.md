@@ -313,11 +313,11 @@ ok finding out the headbutt is literally him claiming me as property is unhinged
 
 🇬🇧:
 ```
-ok the colorblind thing right after the 1 millisecond color change broke my brain 🤯 how does that even work?? also finding out food literally passes through the brain with every bite is something i did NOT need to know but now i can never unknow it. what fact hit you hardest?
+wait wait wait — colorblind BUT sees color with its SKIN?? that last fact rearranged my entire brain 🤯 photoreceptors literally on its body. and the food-through-the-brain thing is something i did NOT need to know but can never unknow now. which fact hit you hardest — the brain-ring, the colorblind twist, or the skin-vision payoff?
 ```
 🇷🇺:
 ```
-ладно, дальтоник ПОСЛЕ смены цвета за 1 миллисекунду — это сломало мне мозг 🤯 как это вообще работает?? и что еда проходит прямо через мозг с каждым укусом — этого я знать не хотел но теперь не забуду. какой факт врезался сильнее всего?
+стоп стоп стоп — дальтоник, НО видит цвет КОЖЕЙ?? последний факт переставил мне мозги 🤯 фоторецепторы буквально по всему телу. и что еда проходит прямо через мозг с каждым укусом — этого я знать не хотел но теперь не забуду. какой факт сломал сильнее — мозг-кольцо, дальтоник или зрение кожей?
 ```
 
 ---
