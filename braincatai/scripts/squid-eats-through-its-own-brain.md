@@ -1,8 +1,9 @@
 # Script — Why Does A Squid Eat Through Its Own Brain 🦑 | Brain's Lab
 
-**Формула:** first-person listicle от лица Brain-учёного — "5 facts + twist + reframe" — точная структура `svxYqphz95s` (водная серия, working template): hook-challenge → 4 numbered facts → twist at #5 → personality reframe → "Follow for more". ~95 слов EN/RU, ~48 сек.
+**Формула:** first-person listicle от лица Brain-учёного — "5 facts + reframe-CTA" — структура `svxYqphz95s` (working template): hook-challenge → 4 numbered facts → twist at #5 → reframe + "Follow for more" объединены.
+**Длительность:** ✅ **7 сцен × ~6 сек = ~42 сек VO + 3 сек end-card = 45 сек total.**
 **vidIQ:** anchor `squid facts` ⚠️ [TBD — проверить при следующем доступе к vidIQ]. Предполагаемый cluster: `squid facts mind blowing`, `squid brain facts`, `giant squid facts`, `squid fun facts for kids`.
-**Пайплайн (OVERRIDE: Kling недоступен у юзера):** Nano Banana 2 → **Veo 3 (image-to-video)** → CapCut (overlays/numerals) → Google Vids TTS (рот закрыт). Каждая сцена прогнана через CLAUDE.md Veo 3 pre-flight checklist + drift-risk помечен. ⛔ **ХУК (Sc 1) — всегда полноценная анимация с кадра 0, Ken Burns ЗАПРЕЩЁН** (Lesson 4).
+**Пайплайн (OVERRIDE: Kling недоступен у юзера):** Nano Banana 2 → **Veo 3 (image-to-video)** → CapCut (overlays/numerals) → Google Vids TTS (рот закрыт). ⛔ **ХУК (Sc 1) — всегда полноценная анимация с кадра 0, Ken Burns ЗАПРЕЩЁН** (Lesson 4).
 
 ---
 
@@ -13,19 +14,18 @@
 - **Series:** Brain first-person POV (новый формат, июнь 2026) — Brain изучает существо, которое заставляет пересмотреть всё
 - **Status:** 📝 script
 - **Publish target:** TBD
-- **VO Format:** "5 facts + twist + reframe" listicle (структура из `svxYqphz95s`) — Brain от 1-го лица как учёный-наблюдатель
-- **Why this topic:** мозг кальмара в форме КОЛЬЦА с едой насквозь = мгновенный pattern interrupt. Проходит "it's deeper than that" тест. Twist: меняет цвет за 1мс — но полностью дальтоник. Пересекается с темой канала (Brain = мозг).
+- **VO Format:** "5 facts + twist + reframe-CTA" listicle — Brain от 1-го лица как учёный-наблюдатель. **7 сцен × ~6 сек ≤ 45 сек total.**
+- **Why this topic:** мозг кальмара в форме КОЛЬЦА с едой насквозь = мгновенный pattern interrupt. Twist #5: меняет цвет за 1мс — но полностью дальтоник. Reframe пересекается с темой канала (Brain = мозг).
 
 ## Audience Promise
-Зритель узнаёт 5 mind-blowing фактов о кальмаре через Brain-учёного, который сам не может поверить: мозг-кольцо с едой насквозь → нейроны в щупальцах → 3 сердца + голубая кровь → цвет за 1мс → twist: полностью дальтоник. Финальный reframe Brain'а ("один мозг — и я уже устал. этот распределил задачу") = shareable, quotable момент.
+Зритель узнаёт 5 mind-blowing фактов о кальмаре через Brain-учёного, который сам не может поверить: мозг-кольцо с едой насквозь → нейроны в щупальцах → 3 сердца + голубая кровь → цвет за 1мс → twist: полностью дальтоник. Финальный reframe + CTA Brain'а ("один мозг — я уже устал. этот распределил задачу. подпишись") = shareable, quotable.
 
 ## ✍️ Формула + Rule 14
-- **Hook Sc 1 (вопрос-challenge):** «You think MY brain is impressive? This creature eats food THROUGH its brain. Every. Single. Bite.» — Brain смотрит на голограмму кальмара с выражением "что я вижу". IN MOTION с кадра 0.
-- **Facts Sc 2–5:** 4 нарастающих факта через голограммы в лаборатории.
-- **Twist Sc 6 (#5):** полностью дальтоник — после "меняет цвет за 1мс". Comedic pause.
-- **Reframe Sc 7:** "Один мозг — и я уже устал. Этот распределил задачу. Уважаю." Sincere beat, NO comedy.
-- **CTA Sc 8:** Brain поворачивается к камере. "Follow for more."
-- **🔧 Comedy injections (Rule 14):** Sc 1 (double-take на голограмму), Sc 2 (ужас от мозг-кольца), Sc 4 (шок от голубой крови + смотрит на свою лапу), Sc 6 (comedic pause — дальтоник). Sc 7 — serious/respectful, NO comedy.
+- **Sc 1 Hook:** «You think MY brain is impressive? This creature eats food THROUGH its brain. Every. Single. Bite.» — Brain делает double-take на голограмму. IN MOTION с кадра 0.
+- **Sc 2–5 Facts:** 4 нарастающих факта через голограммы в лаборатории.
+- **Sc 6 Twist #5:** полностью дальтоник — comedic pause.
+- **Sc 7 Reframe + CTA:** "Один мозг — я уже устал. Этот распределил задачу. Уважаю. Подпишись." Sincere beat + casual CTA.
+- **🔧 Comedy injections (Rule 14):** Sc 1 (double-take), Sc 2 (ужас от мозг-кольца), Sc 4 (шок от голубой крови, смотрит на свою лапу), Sc 6 (comedic pause).
 
 ---
 
@@ -52,46 +52,42 @@ INT. BRAIN'S LAB — NIGHT. A cozy Pixar-style scientist's laboratory: glass bea
 
 ---
 
-## Полный VO — FIRST PERSON
+## Полный VO — FIRST PERSON (7 сцен / ~88 слов EN / ~42 сек)
 
 **🇬🇧 English (copy this block alone):**
 ```
-You think MY brain is impressive? This creature eats food THROUGH its brain. Every. Single. Bite.
+You think MY brain is impressive? This thing eats food THROUGH its brain. Every. Single. Bite.
 
-One — its brain is shaped like a RING. The throat runs straight through the middle. Tiny bites only. Forever.
+One — its brain is shaped like a RING. The throat runs straight through. Tiny bites only.
 
-Two — two thirds of its neurons aren't even in the brain. They're in its ARMS. Each arm thinks alone.
+Two — two thirds of its neurons aren't in the brain. They're in its ARMS.
 
-Three — three hearts. Two just for the gills. Blue blood, not red.
+Three — three hearts. Blue blood. Not red.
 
 Four — it changes color in ONE millisecond. Faster than you can blink.
 
 Five — but it's completely colorblind.
 
-I have one brain and I'm already exhausted. This thing distributed the whole problem. I respect that.
-
-Follow for more.
+I have one brain and I'm already exhausted. This thing distributed the problem. Respect. Follow for more.
 ```
 
 **🇷🇺 Русская версия (copy this block alone):**
 ```
-Ты думаешь, МОЙ мозг — это что-то? Этот кальмар ест еду ЧЕРЕЗ свой мозг. Каждый. Укус.
+Думаешь, МОЙ мозг — это что-то? Этот ест еду ЧЕРЕЗ свой мозг. Каждый. Укус.
 
-Раз — его мозг кольцом. Горло идёт прямо сквозь середину. Только маленькие кусочки. Вечно.
+Раз — его мозг кольцом. Горло идёт прямо сквозь середину. Только маленькие кусочки.
 
-Два — две трети нейронов — не в мозге. Они в РУКАХ. Каждая рука думает сама.
+Два — две трети нейронов — не в мозге. Они в РУКАХ.
 
-Три — три сердца. Два только для жабр. Голубая кровь, не красная.
+Три — три сердца. Голубая кровь. Не красная.
 
 Четыре — меняет цвет за одну миллисекунду. Быстрее моргания.
 
 Пять — но он полностью дальтоник.
 
-У меня один мозг — и я уже устал. Этот распределил задачу. Уважаю.
-
-Подпишись — будет ещё.
+Один мозг — и я уже устал. Этот распределил задачу. Уважаю. Подпишись.
 ```
-_~95 слов EN, ~6–7с/сцена (≤7с каждая, ≤52с VO + 3с end-card ≤60с)._
+_~88 слов EN, ~5–6с/сцена (≤7с каждая, ~42с VO + 3с end-card = 45с)._
 
 ---
 
@@ -110,10 +106,10 @@ Cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten named Brain (8-10 week
 
 ---
 
-# Scenes
+# Scenes (7 × ~6с)
 
-## Сцена 1 — ХУК (0–7с) | 🟡 drift-risk
-**Что зритель видит:** кадр 0 уже В ДВИЖЕНИИ — Brain у лабораторного проектора, голограмма кальмара вращается, Brain делает double-take и поворачивается к камере. Оверлей «IT EATS THROUGH ITS OWN BRAIN 🦑». **(Lesson 4: хук = движение с кадра 0, Ken Burns ЗАПРЕЩЁН.)**
+## Сцена 1 — ХУК (0–6с) | 🟡 drift-risk
+**Что зритель видит:** кадр 0 уже В ДВИЖЕНИИ — Brain у лабораторного проектора, голограмма кальмара вращается, Brain делает double-take. Оверлей «IT EATS THROUGH ITS OWN BRAIN 🦑». **(Lesson 4: хук = движение с кадра 0, Ken Burns ЗАПРЕЩЁН.)**
 
 **🎨 Image (Nano Banana 2):**
 ```
@@ -129,19 +125,19 @@ STYLE RULE (strict): Pixar/Disney 3D ANIMATED CARTOON throughout, NOT photoreali
 ANATOMY RULE (strict): EXACTLY 2 ears, EXACTLY 4 paws — ONLY the one raised front paw; other front paw + both back paws planted.
 MOUTH RULE (strict): mouth stays CLOSED the entire clip.
 MOTION RULE (strict, Lesson 4 — HOOK): clip OPENS already in action from frame 0 — Brain snaps a rapid double-take (head: hologram → camera → hologram → camera), squid hologram spins and pulses cyan, paw raised in "wait WHAT" gesture. Something moves every frame from 0. NO calm establish. NO Ken Burns.
-DURATION: 7 seconds. CAMERA: quick push-in from frame 0.
+DURATION: 6 seconds. CAMERA: quick push-in from frame 0.
 NEGATIVES: standard + Ken Burns, static opening, second cat, 5 paws, green sclera, fully-green eyeball, lab coat disappearing.
 DRIFT RISK: 🟡 YELLOW — double-take head motion + hologram. May need 1 retry.
 ```
-**🎙️ VO (EN):** You think MY brain is impressive? This creature eats food THROUGH its brain. Every. Single. Bite.
-**🎙️ VO (RU):** Ты думаешь, МОЙ мозг — это что-то? Этот кальмар ест еду ЧЕРЕЗ свой мозг. Каждый. Укус.
+**🎙️ VO (EN):** You think MY brain is impressive? This thing eats food THROUGH its brain. Every. Single. Bite.
+**🎙️ VO (RU):** Думаешь, МОЙ мозг — это что-то? Этот ест еду ЧЕРЕЗ свой мозг. Каждый. Укус.
 **Оверлей (CapCut):** `IT EATS THROUGH ITS OWN BRAIN 🦑`
 🔊 SFX: record-scratch sting.
 
 ---
 
-## Сцена 2 — FACT 1: Brain-ring (7–14с) | 🟡 drift-risk
-**Что зритель видит:** голограмма переключается на поперечный срез кальмарьего мозга — КОЛЬЦО с горлом посередине. Brain смотрит в ужасе-восхищении, прижимает лапу к щеке. Оверлей «1️⃣ BRAIN = RING 💍».
+## Сцена 2 — FACT 1: Brain-ring (6–12с) | 🟡 drift-risk
+**Что зритель видит:** голограмма переключается на поперечный срез кальмарьего мозга — КОЛЬЦО с горлом посередине. Brain в ужасе-восхищении, прижимает лапу к щеке. Оверлей «1️⃣ BRAIN = RING 💍».
 
 **🎨 Image (Nano Banana 2):**
 ```
@@ -157,19 +153,19 @@ STYLE RULE: Pixar/Disney 3D ANIMATED CARTOON only.
 ANATOMY RULE: EXACTLY 2 ears, EXACTLY 4 paws; ONLY the one front paw raised to cheek.
 MOUTH RULE: mouth CLOSED.
 MOTION RULE: hologram arrow animates once (food particle travels through the ring). Brain's eyes widen more; he presses his cheek paw in a slow horrified headshake.
-DURATION: 7 seconds. CAMERA: slow push-in.
+DURATION: 6 seconds. CAMERA: slow push-in.
 NEGATIVES: standard + arrow text garbling, 5 paws, both front paws raised, second cat, green sclera.
 DRIFT RISK: 🟡 YELLOW — hologram arrow animation. If "FOOD→BRAIN→STOMACH" label garbles in 2 tries → render Brain-only and add the label as CapCut overlay.
 ```
-**🎙️ VO (EN):** One — its brain is shaped like a RING. The throat runs straight through the middle. Tiny bites only. Forever.
-**🎙️ VO (RU):** Раз — его мозг кольцом. Горло идёт прямо сквозь середину. Только маленькие кусочки. Вечно.
+**🎙️ VO (EN):** One — its brain is shaped like a RING. The throat runs straight through. Tiny bites only.
+**🎙️ VO (RU):** Раз — его мозг кольцом. Горло идёт прямо сквозь середину. Только маленькие кусочки.
 **Оверлей (CapCut):** `1️⃣ BRAIN = RING 💍`
 🔊 SFX: soft whoosh + subtle horror sting.
 
 ---
 
-## Сцена 3 — FACT 2: Arms think (14–21с) | 🟢 drift-risk
-**Что зритель видит:** голограмма — кальмар с нейронными путями в щупальцах, каждое светится mini-brain. Brain отслеживает взглядом, голова следует от щупальца к щупальцу. Оверлей «2️⃣ ARMS = BRAINS 🦾».
+## Сцена 3 — FACT 2: Arms think (12–18с) | 🟢 drift-risk
+**Что зритель видит:** голограмма — кальмар с нейронными путями в щупальцах, каждое светится mini-brain. Brain отслеживает взглядом. Оверлей «2️⃣ ARMS = BRAINS 🦾».
 
 **🎨 Image (Nano Banana 2):**
 ```
@@ -185,19 +181,19 @@ STYLE RULE: Pixar/Disney 3D ANIMATED CARTOON only.
 ANATOMY RULE: EXACTLY 2 ears, EXACTLY 4 paws planted.
 MOUTH RULE: mouth CLOSED.
 MOTION RULE: hologram arms light up sequentially one by one, neural paths pulsing. Brain's head tilts and tracks each arm as it lights up.
-DURATION: 7 seconds. CAMERA: slow push-in.
+DURATION: 6 seconds. CAMERA: slow push-in.
 NEGATIVES: standard + squid becoming photorealistic, second cat, 5 paws, mouth opening, green sclera.
 DRIFT RISK: 🟢 GREEN — subtle sequential hologram glow + gentle head-tilt. Low complexity.
 ```
-**🎙️ VO (EN):** Two — two thirds of its neurons aren't even in the brain. They're in its ARMS. Each arm thinks alone.
-**🎙️ VO (RU):** Два — две трети нейронов — не в мозге. Они в РУКАХ. Каждая рука думает сама.
+**🎙️ VO (EN):** Two — two thirds of its neurons aren't in the brain. They're in its ARMS.
+**🎙️ VO (RU):** Два — две трети нейронов — не в мозге. Они в РУКАХ.
 **Оверлей (CapCut):** `2️⃣ ARMS = BRAINS 🦾`
 🔊 SFX: soft neural ping x3.
 
 ---
 
-## Сцена 4 — FACT 3: 3 hearts, blue blood (21–28с) | 🟡 drift-risk
-**Что зритель видит:** голограмма 3 сердца + синяя кровь. Brain в шоке смотрит на свою лапу — "а у меня какая?". Оверлей «3️⃣ 3 HEARTS 💙 BLUE BLOOD».
+## Сцена 4 — FACT 3: 3 hearts, blue blood (18–24с) | 🟡 drift-risk
+**Что зритель видит:** голограмма 3 сердца + синяя кровь. Brain в шоке смотрит на свою лапу. Оверлей «3️⃣ 3 HEARTS 💙 BLUE BLOOD».
 
 **🎨 Image (Nano Banana 2):**
 ```
@@ -213,19 +209,19 @@ STYLE RULE: Pixar/Disney 3D ANIMATED CARTOON only.
 ANATOMY RULE: EXACTLY 2 ears, EXACTLY 4 paws; ONLY the one front paw raised to look at.
 MOUTH RULE: mouth CLOSED.
 MOTION RULE: the 3 hearts in the hologram pulse once (2 gill hearts then 1 main). Brain looks at hologram, then down at his own raised paw in comedic "what color is mine?" moment, then back to hologram wide-eyed.
-DURATION: 7 seconds. CAMERA: slow push-in.
+DURATION: 6 seconds. CAMERA: slow push-in.
 NEGATIVES: standard + red blood in hologram, second cat, 5 paws, mouth opening, green sclera.
 DRIFT RISK: 🟡 YELLOW — paw-look gesture + hologram hearts pulse. May need 1 retry.
 ```
-**🎙️ VO (EN):** Three — three hearts. Two just for the gills. Blue blood, not red.
-**🎙️ VO (RU):** Три — три сердца. Два только для жабр. Голубая кровь, не красная.
+**🎙️ VO (EN):** Three — three hearts. Blue blood. Not red.
+**🎙️ VO (RU):** Три — три сердца. Голубая кровь. Не красная.
 **Оверлей (CapCut):** `3️⃣ 3 HEARTS 💙 BLUE BLOOD`
 🔊 SFX: heartbeat thump x3 (deep, slightly alien-sounding).
 
 ---
 
-## Сцена 5 — FACT 4: Color in 1ms (28–35с) | 🟡 drift-risk
-**Что зритель видит:** голограмма кальмара explodes with color — Brain дazzled, щурится, прикрывает лапой. Оверлей «4️⃣ 1 MILLISECOND ⚡».
+## Сцена 5 — FACT 4: Color in 1ms (24–30с) | 🟡 drift-risk
+**Что зритель видит:** голограмма кальмара explodes with color — Brain дazzled, щурится. Оверлей «4️⃣ 1 MILLISECOND ⚡».
 
 **🎨 Image (Nano Banana 2):**
 ```
@@ -241,7 +237,7 @@ STYLE RULE: Pixar/Disney 3D ANIMATED CARTOON only.
 ANATOMY RULE: EXACTLY 2 ears, EXACTLY 4 paws; ONLY the one shielding paw raised.
 MOUTH RULE: mouth CLOSED.
 MOTION RULE: hologram squid flashes through vivid color sequence (grey → red → blue → gold → back). Brain blinks and pulls back with a comedic "wow" flinch, paw shielding face.
-DURATION: 7 seconds. CAMERA: slow push-in.
+DURATION: 6 seconds. CAMERA: slow push-in.
 NEGATIVES: standard + second cat, 5 paws, mouth opening, iris tinting from color burst, green sclera.
 DRIFT RISK: 🟡 YELLOW — rapid color hologram. May need 1 retry.
 ```
@@ -252,8 +248,8 @@ DRIFT RISK: 🟡 YELLOW — rapid color hologram. May need 1 retry.
 
 ---
 
-## Сцена 6 — TWIST: Colorblind (35–42с) | 🟢 drift-risk
-**Что зритель видит:** Brain медленно моргает. Долгая пауза. Голограмма показывает "WHAT IT SEES" — полностью серый спектр вместо цветного. Comedic realization. Оверлей «5️⃣ BUT IT'S COLORBLIND 🤯».
+## Сцена 6 — TWIST #5: Colorblind (30–36с) | 🟢 drift-risk
+**Что зритель видит:** Brain медленно моргает. Долгая пауза. Голограмма "WHAT IT SEES" — полностью серый спектр. Оверлей «5️⃣ BUT IT'S COLORBLIND 🤯».
 
 **🎨 Image (Nano Banana 2):**
 ```
@@ -269,7 +265,7 @@ STYLE RULE: Pixar/Disney 3D ANIMATED CARTOON only.
 ANATOMY RULE: EXACTLY 2 ears, EXACTLY 4 paws planted.
 MOUTH RULE: mouth CLOSED.
 MOTION RULE: Brain does a classic slow-blink processing pause, then one eyebrow slowly rises as realization hits — "this doesn't add up" face. Greyscale hologram bar pulses once. Subtle, mostly still — the comedic timing IS the stillness.
-DURATION: 7 seconds. CAMERA: slow push-in.
+DURATION: 6 seconds. CAMERA: slow push-in.
 NEGATIVES: standard + second cat, 5 paws, mouth opening, green sclera, color appearing in the greyscale hologram.
 DRIFT RISK: 🟢 GREEN — mostly still scene, subtle motion. Low risk.
 ```
@@ -280,74 +276,46 @@ DRIFT RISK: 🟢 GREEN — mostly still scene, subtle motion. Low risk.
 
 ---
 
-## Сцена 7 — BRAIN'S VERDICT / reframe (42–49с) | 🟢 drift-risk
-**Что зритель видит:** Brain садится на лабораторный стул, смотрит в камеру с genuine уважением. Один медленный кивок. Оверлей «I RESPECT THAT 🎓».
+## Сцена 7 — REFRAME + CTA (36–42с) | 🟡 drift-risk
+**Что зритель видит:** Brain садится на лабораторный стул, смотрит в камеру с genuine уважением, один медленный кивок → в конце дружелюбный paw-wave. Оверлей «I RESPECT THAT 🎓 FOLLOW BRAIN 🐱». End-card 3-сек Short variant сразу после.
 
 **🎨 Image (Nano Banana 2):**
 ```
-[LOCKED BRAIN PROMPT] — seated on a tall lab stool in INT. BRAIN'S LAB — NIGHT (lab coat + collar + heart tag), holographic projector dimmed/idle behind him. He sits in a thoughtful "take a moment to process this" pose — eyes half-open, emerald irises visible, a quiet genuine look of intellectual respect on his face. Mouth closed. Expression is NOT comedic — this is the sincere reframe beat. Warm amber desk lamp light + dim blue ambient glow. Medium close-up.
-```
-**🎬 Veo 3 (i2v) — pre-flight 🟢:**
-```
-INPUT: Nano Banana 2 still (Sc 7 above) — Brain seated on lab stool, thoughtful genuine face, projector dimmed.
-EYE COLOR RULE (strict): PURE WHITE sclera + EMERALD-GREEN iris (#3DDC84) only.
-GLASSES RULE (strict): ALWAYS on.
-SINGLE-CHARACTER RULE: ONLY Brain.
-STYLE RULE: Pixar/Disney 3D ANIMATED CARTOON only.
-ANATOMY RULE: EXACTLY 2 ears, EXACTLY 4 paws (seated naturally, tail beside).
-MOUTH RULE: mouth CLOSED.
-MOTION RULE: Brain gives one slow deliberate nod of genuine "I get it now" respect. Tail does one slow content swish. Eyes open and reflective. Quiet — the stillness after facts land.
-DURATION: 7 seconds. CAMERA: gentle slow push-in.
-NEGATIVES: standard + second cat, 5 paws, mouth opening, comedic expression, green sclera.
-DRIFT RISK: 🟢 GREEN — very low motion, single nod. Easiest scene.
-```
-**🎙️ VO (EN):** I have one brain and I'm already exhausted. This thing distributed the whole problem. I respect that.
-**🎙️ VO (RU):** У меня один мозг — и я уже устал. Этот распределил задачу. Уважаю.
-**Оверлей (CapCut):** `I RESPECT THAT 🎓`
-🔊 SFX: soft single piano note.
-
----
-
-## Сцена 8 — CTA (49–56с) | 🟡 drift-risk
-**Что зритель видит:** Brain поворачивается к камере, голограмма кальмара снова загорается за ним — friendly "signature" бит. Оверлей «FOLLOW BRAIN 🐱». End-card 3-сек Short variant.
-
-**🎨 Image (Nano Banana 2):**
-```
-[LOCKED BRAIN PROMPT] — standing/turning toward camera in INT. BRAIN'S LAB — NIGHT (lab coat + collar + heart tag), the holographic projector glowing warmly behind him with the squid hologram rotating again — soft and friendly now. He has a warm, knowing, slightly playful expression — big emerald eyes direct to camera, tiny closed-mouth content smile. One front paw raised in a casual "until next time" wave. Warm lab atmosphere. Medium close-up. Negative space lower-third for text plate.
+[LOCKED BRAIN PROMPT] — seated on a tall lab stool in INT. BRAIN'S LAB — NIGHT (lab coat + collar + heart tag), holographic projector dimmed/idle behind him with the squid hologram still rotating softly. He sits in a thoughtful "I get it now" pose — eyes half-open then opening warmly, emerald irises visible, a quiet genuine look of intellectual respect on his face, followed by a small warm closed-mouth smile and a casual paw-wave. Mouth closed throughout. Warm amber desk lamp light + dim blue ambient glow from the lingering hologram. Medium close-up. Negative space lower-third for text plate.
 ```
 **🎬 Veo 3 (i2v) — pre-flight 🟡:**
 ```
-INPUT: Nano Banana 2 still (Sc 8 above) — Brain turning to camera with warm knowing look, squid hologram rotating behind.
+INPUT: Nano Banana 2 still (Sc 7 above) — Brain seated on lab stool, thoughtful face, projector dimmed with squid hologram rotating softly behind.
 EYE COLOR RULE (strict): PURE WHITE sclera + EMERALD-GREEN iris (#3DDC84) only.
 GLASSES RULE (strict): ALWAYS on.
 SINGLE-CHARACTER RULE: ONLY Brain.
 STYLE RULE: Pixar/Disney 3D ANIMATED CARTOON only.
-ANATOMY RULE: EXACTLY 2 ears, EXACTLY 4 paws; ONLY the one front paw raised in wave.
-MOUTH RULE: mouth CLOSED — warmth reads through the eyes.
-MOTION RULE: Brain raises one front paw in a slow "hey you" wave at camera, gives a warm slow blink, squid hologram rotates slowly behind. Something moves from frame 0.
-DURATION: 7 seconds. CAMERA: slow push-in.
-NEGATIVES: standard + second cat, 5 paws, mouth opening, green sclera, lab coat disappearing, hologram turning into a real/photorealistic squid.
-DRIFT RISK: 🟡 YELLOW — paw-wave + active background hologram. May need 1 retry.
+ANATOMY RULE: EXACTLY 2 ears, EXACTLY 4 paws (seated naturally); ONLY the one raised paw at the end does the wave, the other front paw + both back paws planted.
+MOUTH RULE: mouth CLOSED — warmth reads through the eyes and small closed-mouth smile.
+MOTION RULE: Brain gives one slow deliberate nod of genuine "respect" (0–3s), then his expression warms into a small closed-mouth smile, and at ~4–5s he raises one front paw in a casual "follow me" wave at camera (3–6s). Tail does one slow content swish throughout. Squid hologram rotates softly behind. Something moves from frame 0.
+DURATION: 6 seconds. CAMERA: gentle slow push-in.
+NEGATIVES: standard + second cat, 5 paws, mouth opening, both front paws raised, green sclera, comedic expression (this is sincere then warm).
+DRIFT RISK: 🟡 YELLOW — two-beat motion (nod → wave) + active background hologram. May need 1 retry.
 ```
-**🎙️ VO (EN):** Follow for more.
-**🎙️ VO (RU):** Подпишись — будет ещё.
-**Оверлей (CapCut):** `FOLLOW BRAIN 🐱`
-🔊 SFX: warm playful sting.
+**🎙️ VO (EN):** I have one brain and I'm already exhausted. This thing distributed the problem. Respect. Follow for more.
+**🎙️ VO (RU):** Один мозг — и я уже устал. Этот распределил задачу. Уважаю. Подпишись.
+**Оверлей (CapCut):** `I RESPECT THAT 🎓 → FOLLOW BRAIN 🐱`
+🔊 SFX: soft piano note (during nod) → warm playful sting (during wave).
 
 ---
 
-## 🎵 Музыка (Suno — ~55 сек)
+## 🎵 Музыка (Suno — ~45 сек)
 ```
-Playful-curious science lab score for a 55-second YouTube Short about squid brain facts. Open 0-7s with a lively curious "discovery" sting — staccato pizzicato with a subtle oceanic/underwater feel, immediately energetic. Build 7-35s with an academic-curious pulse (light marimba + plucked strings + quiet tension), escalating with each numbered fact. Comedic tension break 35-42s (colorblind twist — brief whimsical sting). Quiet respectful resolution 42-49s (warm solo piano + single warm pad). Warm playful close 49-56s (soft pizzicato outro). 100 BPM, no vocals, mood arc: curious → building excitement → comedic shock → genuine respect → warm. Royalty-free.
+Playful-curious science lab score for a 45-second YouTube Short about squid brain facts. Open 0-6s with a lively curious "discovery" sting — staccato pizzicato with a subtle oceanic/underwater feel, immediately energetic. Build 6-30s with an academic-curious pulse (light marimba + plucked strings + quiet tension), escalating with each numbered fact. Comedic tension break 30-36s (colorblind twist — brief whimsical sting + half-beat pause). Quiet respectful resolution then warm playful close 36-42s (warm solo piano nod → soft pizzicato outro on the paw-wave CTA). 100 BPM, no vocals, mood arc: curious → building excitement → comedic shock → genuine respect → warm. Royalty-free.
 ```
 
 ## Сборка / монтаж
 - VO -12 LUFS, музыка -18 LUFS, субтитры верхняя треть ≤4 слова
 - Цифры/оверлеи — CapCut, шрифт залочен (Fredoka One / Nunito Bold, Electric Yellow #FFD23F), English only
-- **Тон:** Brain как учёный, который сам не может поверить в находку → numbered facts → twist → искреннее уважение. НЕ страшно. НЕ грустно.
-- SFX: record-scratch (Sc 1), whoosh + horror sting (Sc 2), neural ping x3 (Sc 3), heartbeat x3 (Sc 4), shutter snap (Sc 5), mini record-scratch (Sc 6), piano note (Sc 7), warm sting (Sc 8)
-- **Sc 2 "FOOD→BRAIN→STOMACH" arrow** + **Sc 6 "WHAT IT SEES" label** → главные кандидаты на CapCut-fallback, если Veo коверкает текст в голограмме. Рендерить Brain-only, добавить лейблы в CapCut.
-- End card: 3-сек Short variant.
+- **Тон:** Brain как учёный, который сам не может поверить → numbered facts → twist → искреннее уважение + casual CTA. НЕ страшно. НЕ грустно.
+- SFX: record-scratch (Sc 1), whoosh + horror sting (Sc 2), neural ping x3 (Sc 3), heartbeat x3 (Sc 4), shutter snap (Sc 5), mini record-scratch (Sc 6), piano note → warm sting (Sc 7)
+- **Sc 2 "FOOD→BRAIN→STOMACH" arrow** + **Sc 6 "WHAT IT SEES" label** → главные кандидаты на CapCut-fallback, если Veo коверкает текст в голограмме.
+- End card: 3-сек Short variant сразу после Sc 7 (общее ≤ 45 сек).
 
 ## 📌 Pinned comment (Karena-style)
 🇬🇧:
@@ -407,6 +375,7 @@ _(20 tags ✓)_
 - [ ] Sc 1 ХУК — полная анимация с кадра 0, Ken Burns ЗАПРЕЩЁН (Lesson 4)
 - [ ] Одна локация (лаборатория-ночь) — все факты через голограммы из проектора
 - [ ] Sc 2 "FOOD→BRAIN" arrow + Sc 6 "WHAT IT SEES" → CapCut-fallback если Veo коверкает текст
+- [ ] 7 сцен × ~6 сек ≤ 45 сек total ✓
 - [ ] vidIQ anchor: ⚠️ [TBD] — проверить при следующем доступе: предположительно `squid facts mind blowing`
 - [ ] Pinned comment добавлен в `braincatai/pinned-comments.md`
 - [ ] SEO Pack — title, tags, description, hashtags — ✓ выше
