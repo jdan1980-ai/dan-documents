@@ -416,6 +416,24 @@ Bathroom Sc 4 — Brain in sentry pose at doorway, static camera 7s, "very subtl
 
 You'll know you skipped because you delivered a Veo prompt without an "I verified against checklist — flags: [...]" line. If you catch yourself doing that, immediately ask the user to HOLD the generation and re-verify. Better to delay 30s than to waste $2.
 
+## 📋 Upload playbook — Karena Roshaian (applies to ALL channels)
+
+Locked YouTube upload rules. Check every video against these before publishing — both StillWave and BrainCatAI.
+
+1. **NO hashtags in the title field.** Hashtags live in the description body only.
+2. **Fill tags up to ~500 chars**, distributed: **brand ~20% + broad ~20% + narrow/long-tail ~40-50%** (rest medium). Brand = channel name + signature series terms; broad = huge generic keywords; narrow = specific multi-word phrases that exactly match the video. No mismatched carryover tags.
+3. **Upload from the phone only** — the phone lets you pick the freeze-frame for the thumbnail. (Custom uploaded thumbnails are fine and preferred where we have them.)
+4. **First publish = Unlisted or Scheduled, never straight to Public.** Review, then flip.
+5. **Always set "Not for kids"** (Made for kids = No).
+6. **Link Short → long-form** via the Related video setting so the Short funnels to the full video.
+7. **First 3 seconds = ~90% of retention weight.** Open ON the scene + sound immediately — no slow fade-in from black at 0:00. Any text overlay (wisdom card, etc.) comes AFTER the hook lands, never delaying it.
+8. **Update the YouTube app before each upload** (avoids stale-version upload bugs).
+
+### Public copy rules (titles, descriptions, pinned comments)
+
+- **No specific weekdays.** Never write "every Wednesday" / "next Tuesday & Friday". Use **"next week" / "every week" / "the next one"**. Schedules change; specific days date the copy and break promises.
+- **Don't lean on Vol. 1 / Vol. 2 numbering in public copy.** Refer to "the next session" / "the series" / "the next one". Volume numbers can stay in internal slugs/tracking docs for organization, but keep them out of public titles, descriptions, and pinned comments.
+
 ## Notes
 
 - Add project-specific conventions, commands, and context here as the repository grows.
