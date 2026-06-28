@@ -30,65 +30,69 @@ The penthouse (269 views in 30 days) proved the format works. Café is the next 
 **Rotation rule:** Variant A on tracks 1-7, Variant B on tracks 8-14, Variant C on tracks 15-20. Different openings = Content ID immunity across the album.
 *(Правило ротации: Вариант A — треки 1-7, Вариант B — треки 8-14, Вариант C — треки 15-20. Разные открытия = защита от Content ID по всему альбому.)*
 
-### Variant A — Rain-led / Дождь первым
-*(Открытие: дождь на стекле, потом бас и пианино; японская нота: редкий щипок кото в фоне)*
+### Variant A — Koto-led / Кото ведёт
+*(Кото — главный инструмент и мелодия; упрайт-бас + винил — атмосфера; дождь на стекле)*
 
 ```
-Slow warm lo-fi jazz ambient with a subtle Japanese texture — a rainy afternoon Tokyo jazz kissaten. Opens with rain drumming gently on a small café window for 4 seconds before any instrument enters. Then upright bass walking very softly every 2-3 bars, brushed snare whisper on every beat (almost inaudible), solo piano playing sparse jazz chords with long sustain and room reverb. A single koto pluck appears once every 35-40 seconds — very low in the mix, like an afterthought from a different room — adding a Japanese accent without dominating. Occasional muted trumpet one or two notes then resting 30 seconds. Vinyl surface crackle woven into the texture. Distant espresso machine hiss once every 90 seconds. 68 BPM. Intimate, introspective, warm — jazz café with a Japanese soul. Instrumental only, no vocals, no singing, no chanting, no spoken word.
+Japanese ambient instrumental, koto as the primary lead instrument playing a slow contemplative melody — sparse single notes and gentle two-note phrases with long resonant decay, meditative and unhurried. Upright bass enters softly underneath walking very slowly, almost imperceptibly. Brushed snare whisper barely audible on every other bar. Vinyl record surface crackle woven into the texture throughout. Rain drumming gently on a café window behind everything. Occasional distant espresso machine hiss once every 90 seconds. 60-65 BPM. The koto carries the entire emotional weight — everything else is atmosphere. Deeply Japanese, intimate, contemplative — a Tokyo kissaten on a rainy afternoon. Instrumental only, no vocals, no singing, no chanting, no spoken word.
 ```
 
-### Variant B — Vinyl-led / Винил первым
-*(Открытие: треск винила, потом бас; японская нота: далёкий шакухати как фоновый туман)*
+### Variant B — Shakuhachi-led / Шакухати ведёт
+*(Шакухати — долгие ноты с дыханием; кото отвечает; пауза — это тоже музыка)*
 
 ```
-Slow warm lo-fi jazz ambient with a subtle Japanese texture — a rainy afternoon Tokyo jazz kissaten. Opens with 3 seconds of vinyl record surface crackle alone — the needle drops — then upright bass enters with a single low note. Brushed snare whispers in at 0:06. Solo piano plays its first chord at 0:10 with long room reverb. Rain on café window fades in gradually, reaching full presence by 0:20. A very faint shakuhachi breath texture floats underneath the jazz instruments like distant fog — not a melody, just an atmospheric exhale appearing and disappearing. Muted trumpet plays one quiet phrase at 0:45 then rests. Vinyl crackle throughout. 68 BPM. Warm, lived-in, Japanese jazz soul under a Western exterior. Instrumental only, no vocals, no singing, no chanting, no spoken word.
+Japanese ambient instrumental, shakuhachi bamboo flute as the primary lead — long breathy notes with natural breath tone and slow vibrato, each phrase followed by 4-6 seconds of silence before the next. Koto answers the shakuhachi with sparse single plucks between phrases, like a quiet conversation. Upright bass holds a very slow pulse underneath, almost inaudible. Vinyl surface crackle present throughout. Rain on a small café window as constant background texture. 58-62 BPM. The silences are as important as the notes — this is ma (間), the Japanese concept of meaningful space. Introspective, melancholic, authentically Japanese — music that belongs in a Shimokitazawa kissaten on a rainy afternoon. Instrumental only, no vocals, no singing, no chanting, no spoken word.
 ```
 
-### Variant C — Piano-led / Пианино первым
-*(Открытие: одиночный аккорд пианино в тишине; японская нота: далёкий храмовый колокол однажды)*
+### Variant C — Koto + Piano dialogue / Кото и пианино разговаривают
+*(Кото и пианино отвечают друг другу по очереди — японское встречает западное в одном пространстве)*
 
 ```
-Slow warm lo-fi jazz ambient with a subtle Japanese texture — a rainy afternoon Tokyo jazz kissaten. Opens with a single solo piano chord played in near-silence — 3 notes, long sustain, heavy room reverb, fades for 5 seconds. Then rain on a café window fades in underneath. Upright bass enters at 0:10 with a soft walk. Brushed snare at 0:15. Vinyl crackle texture enters at 0:20. Distant espresso machine hiss once at 0:50 then gone. A single distant Japanese temple bell (bonsho) strikes softly once around 1:00 — one strike, long resonant decay, then silence. Never repeats in the same track. Muted trumpet plays two notes and rests. 68 BPM. Meditative, sparse — jazz as a form of Japanese ma (間), the meaningful space between sounds. Instrumental only, no vocals, no singing, no chanting, no spoken word.
+Japanese ambient instrumental, a quiet dialogue between koto and solo piano — each instrument plays a short phrase, then waits while the other responds. Koto always sounds more Japanese: sparse plucks, resonant decay, pentatonic intervals. Piano always sounds more Western: sparse jazz chords, room reverb, sustained notes. Neither dominates — they share the space equally, like two musicians who understand each other without words. Upright bass walks very slowly underneath both. Vinyl crackle texture throughout. Rain on café window as constant backdrop. Distant bonsho temple bell strikes once at the midpoint — single strike, long decay, never repeats. 63-67 BPM. Warm, intimate, culturally hybrid — the sound of a Japanese kissaten where East and West became the same thing. Instrumental only, no vocals, no singing, no chanting, no spoken word.
 ```
 
 ---
 
 ## 2. Suno Lyrics (Prompt B) — 3 VARIANTS
 
-### Variant A — Rain-led / Дождь первым
+### Variant A — Koto-led / Кото ведёт
 
 ```
 [no lyrics, no vocals, instrumental only]
-[opening: 4 seconds of rain on café window glass alone — then a single upright bass note enters quietly]
-[section A: solo piano enters with a slow jazz chord — three notes, long sustain, room reverb fills, brushed snare whispers underneath]
-[section B: muted trumpet plays one quiet phrase — six notes — then rests. Espresso machine grinds briefly, then fades. A single koto pluck sounds once, very low in the mix, like a whisper from another room]
-[section C: bass walks slowly. Piano responds with a chord. Vinyl crackle. Koto pluck once more. Silence 6 seconds. Piano again]
-[loop point: rain constant throughout, koto appears and disappears without pattern — never predictable, never dominant]
-[mood: sitting alone at a window seat in a Shimokitazawa jazz kissaten, rain on steamed glass, notebook open, espresso cooling — a Tokyo afternoon that is both Japanese and Western at once]
-[texture: rain on window, vinyl crackle, upright bass, brushed snare, jazz piano, muted trumpet, distant espresso machine, rare koto pluck]
+[opening: 3 seconds of silence, then koto plays its first single note — long resonant decay, nothing else for 2 seconds]
+[section A: koto continues with a sparse slow melody — 3-4 notes per phrase, long pauses between. Upright bass enters underneath almost inaudibly. Rain on café window fades in behind everything]
+[section B: koto plays a second phrase, slightly higher. Brushed snare whispers in. Espresso machine hiss once in the background then gone. Vinyl crackle texture present]
+[section C: koto slows further — single notes with 5-6 seconds between each. Bass holds a quiet root note. Rain steady on glass]
+[loop point: koto resolves to the same opening note, long decay, bass fades to silence — circle complete, rain continues]
+[mood: a window seat in a Shimokitazawa kissaten. Rain on old glass. The koto recording on the turntable is Japanese but the room is jazz. Nobody is in a hurry]
+[texture: koto melody primary, rain on window, vinyl crackle, barely-audible bass, brushed snare whisper, distant espresso machine once]
 ```
 
-### Variant B — Vinyl-led / Винил первым
-
-```
-[no lyrics, no vocals, instrumental only]
-[opening: 3 seconds of vinyl crackle alone — the needle has just dropped — then upright bass enters with one low note]
-[section A: brushed snare at 0:06, solo piano first chord at 0:10 with long reverb, rain fades in gradually reaching full presence at 0:20]
-[section B: a very faint shakuhachi breath texture floats in underneath — not a melody, just a soft atmospheric exhale lasting 8-10 seconds then gone. Muted trumpet one quiet phrase at 0:45, long rest]
-[section C: piano and bass exchange slow phrases, vinyl crackle present throughout, shakuhachi breath drifts back in once more then dissolves into rain]
-[loop point: vinyl crackle fades slightly, bass resolves to root note, rain and faint shakuhachi hold the space — seamless join]
-[mood: the record has started spinning. Rain outside. The café owner is Japanese. The music is jazz. The silence between them is ma — 間]
-[texture: vinyl crackle first, bass and snare, jazz piano, rain building underneath, faint shakuhachi breath as fog, distant trumpet]
-```
-
-### Variant C — Piano-led / Пианино первым
+### Variant B — Shakuhachi-led / Шакухати ведёт
 
 ```
 [no lyrics, no vocals, instrumental only]
-[opening: single piano chord in near-silence — 3 notes, heavy room reverb, 5 seconds of resonance alone]
-[section A: rain on café window fades in underneath at 0:05. Bass enters at 0:10. Brushed snare at 0:15. Vinyl crackle at 0:20]
-[section B: espresso machine hiss once at 0:50 then gone. Piano second chord, long sustain. A single bonsho temple bell strikes softly at 1:00 — one strike, long resonant decay fading over 8 seconds — never repeats in this track]
-[section C: muted trumpet two notes, then 40 seconds of rest. Bass and piano slow conversation. The temple bell's resonance still seems to hang in the air]
+[opening: shakuhachi plays one long breathy note alone — 4 seconds of sustained tone with natural breath texture, then 5 seconds of silence]
+[section A: shakuhachi plays a second phrase — three notes, slow, with long resonant tail. Koto answers with two plucks. Then silence for 4 seconds. Rain on café window behind everything]
+[section B: shakuhachi and koto continue their conversation — phrase, pause, response, pause. Upright bass enters underneath holding a single low note. Vinyl crackle throughout]
+[section C: shakuhachi plays its longest phrase — 6-7 notes slowly descending. Koto answers once. Then both fall silent for 6 seconds. Only rain and vinyl remain]
+[loop point: shakuhachi returns to the opening single note, koto plucks once softly, silence — the same beginning again]
+[mood: the music breathes. Between each phrase the café exhales. This is ma — 間 — the Japanese understanding that silence is not empty, it is the shape of the sound around it]
+[texture: shakuhachi breath primary, koto responses, rain on window constant, vinyl crackle, barely-audible bass pulse]
+```
+
+### Variant C — Koto + Piano dialogue / Кото и пианино разговаривают
+
+```
+[no lyrics, no vocals, instrumental only]
+[opening: koto plays a short phrase — 3 notes, pentatonic, with long resonant decay. 3 seconds of silence. Then piano answers with a single jazz chord — 3 notes, room reverb. 3 seconds of silence again]
+[section A: koto and piano continue exchanging phrases — never at the same time, always waiting. Upright bass enters very quietly underneath. Rain on café window behind everything. Vinyl crackle throughout]
+[section B: the phrases grow slightly longer — koto plays 4-5 notes, piano answers with a two-chord phrase. A bonsho temple bell strikes once in the distance — single strike, long resonant decay over 8 seconds — never repeats]
+[section C: koto and piano slow further. Bass holds one note. The two instruments find a moment where they play together — just once — then separate again into their dialogue. Rain steady]
+[loop point: koto plays its opening 3-note phrase, piano answers with the opening chord, silence, rain — the conversation begins again]
+[mood: East and West sitting at the same small table in a Shimokitazawa kissaten, rain on the window, neither trying to convince the other of anything]
+[texture: koto and piano in dialogue primary, rain constant, vinyl crackle, quiet bass, single temple bell once only]
+```
 [loop point: piano plays the opening chord again, reverb trails, rain and vinyl hold the space — the bell is gone but its shape remains in the silence]
 [mood: a Japanese kissaten where jazz and Zen share the same room. The bell was not an accident. It was the owner's way of saying: slow down]
 [texture: piano silence, then rain, bass and snare, vinyl crackle throughout, single temple bell once, trumpet appearing and disappearing]
