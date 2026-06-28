@@ -21,36 +21,98 @@ The penthouse (269 views in 30 days) proved the format works. Café is the next 
 - Different thumbnail aesthetic = different click-through audience (cozy/warm vs luxury/dark)
 - Shimokitazawa angle = Japan-specific detail that signals authenticity
 
+*Пентхаус (269 просмотров за 30 дней) подтвердил формат. Кафе — следующая незанятая ниша: более близко каждому (все учились в кафе), огромный поисковый трафик ("café music", "coffee shop music"), другой визуал = другая аудитория. Симокитазава — конкретная деталь Токио, сигнал аутентичности.*
+
 ---
 
-## 1. Suno Prompt A — Style field
+## 1. Suno Style (Prompt A) — 3 VARIANTS
+
+**Rotation rule:** Variant A on tracks 1-7, Variant B on tracks 8-14, Variant C on tracks 15-20. Different openings = Content ID immunity across the album.
+*(Правило ротации: Вариант A — треки 1-7, Вариант B — треки 8-14, Вариант C — треки 15-20. Разные открытия = защита от Content ID по всему альбому.)*
+
+### Variant A — Rain-led / Дождь первым
+*(Открытие: дождь на стекле, потом бас и пианино)*
 
 ```
-Slow warm lo-fi jazz ambient for a rainy afternoon café. Upright bass walking very softly every 2-3 bars, brushed snare whisper on every beat (almost inaudible), solo piano playing sparse jazz chords with long sustain and room reverb, occasional muted trumpet playing one or two notes then resting for 30 seconds, vinyl surface crackle woven into the texture, distant espresso machine hiss and grind once every 90 seconds fading in and out, rain drumming gently on a small café window, low warm room ambience hum. 68 BPM. Intimate, introspective, warm. No melody that demands attention — the music frames the silence. Loopable across 20 tracks pre-mixed in CapCut. Instrumental only, no vocals, no singing, no chanting, no spoken word.
+Slow warm lo-fi jazz ambient for a rainy afternoon café. Opens with rain drumming gently on a small café window for 4 seconds before any instrument enters. Then upright bass walking very softly every 2-3 bars, brushed snare whisper on every beat (almost inaudible), solo piano playing sparse jazz chords with long sustain and room reverb. Occasional muted trumpet one or two notes then resting 30 seconds. Vinyl surface crackle woven into the texture. Distant espresso machine hiss and grind once every 90 seconds fading in and out. 68 BPM. Intimate, introspective, warm. No melody that demands attention — the music frames the silence. Instrumental only, no vocals, no singing, no chanting, no spoken word.
 ```
 
-## 2. Suno Prompt B — Lyrics field
+### Variant B — Vinyl-led / Винил первым
+*(Открытие: треск винила, потом бас, дождь нарастает постепенно)*
+
+```
+Slow warm lo-fi jazz ambient for a rainy afternoon café. Opens with 3 seconds of vinyl record surface crackle alone — the needle drops — then upright bass enters with a single low note. Brushed snare whispers in at 0:06. Solo piano plays its first chord at 0:10 with long room reverb. Rain on café window fades in gradually under the instruments, reaching full presence by 0:20. Muted trumpet plays one quiet phrase at 0:45 then rests. 68 BPM. Warm, lived-in, slightly melancholic. No dramatic builds — the café is always just there. Instrumental only, no vocals, no singing, no chanting, no spoken word.
+```
+
+### Variant C — Piano-led / Пианино первым
+*(Открытие: одиночный аккорд пианино в тишине, потом дождь и бас)*
+
+```
+Slow warm lo-fi jazz ambient for a rainy afternoon café. Opens with a single solo piano chord played in near-silence — 3 notes, long sustain, heavy room reverb, fades for 5 seconds. Then rain on a café window fades in underneath. Upright bass enters at 0:10 with a soft walk. Brushed snare at 0:15. Vinyl crackle texture enters at 0:20. Distant espresso machine hiss once at 0:50 then gone. Muted trumpet plays two notes at 1:00 then rests for 40 seconds. 68 BPM. Meditative, sparse, interior. Music built around the spaces between notes. Instrumental only, no vocals, no singing, no chanting, no spoken word.
+```
+
+---
+
+## 2. Suno Lyrics (Prompt B) — 3 VARIANTS
+
+### Variant A — Rain-led / Дождь первым
 
 ```
 [no lyrics, no vocals, instrumental only]
-[opening: distant rain begins on glass, vinyl crackle starts, a single upright bass note announces the space]
+[opening: 4 seconds of rain on café window glass alone — then a single upright bass note enters quietly]
 [section A: solo piano enters with a slow jazz chord — three notes, long sustain, room reverb fills, brushed snare whispers underneath]
 [section B: muted trumpet plays one quiet phrase — six notes — then rests. Rain on the window grows slightly. Espresso machine grinds briefly in the background, then fades]
 [section C: bass walks slowly. Piano responds with a chord. Vinyl crackle. Silence held for 6 seconds. Then piano again]
 [loop point: rain texture constant throughout, instruments orbit around it, no dramatic changes — the café is just there, always]
 [mood: sitting alone at a window seat in a small Shimokitazawa jazz kissaten, rain streaking the steamed glass, notebook open, espresso cooling, no rush, afternoon dissolved into evening]
-[texture: vinyl crackle, upright bass, brushed snare, solo jazz piano, muted trumpet, distant espresso machine, rain on a small café window]
+[texture: rain on window first, then vinyl crackle, upright bass, brushed snare, solo jazz piano, muted trumpet, distant espresso machine]
+```
+
+### Variant B — Vinyl-led / Винил первым
+
+```
+[no lyrics, no vocals, instrumental only]
+[opening: 3 seconds of vinyl crackle alone — the needle has just dropped — then upright bass enters with one low note]
+[section A: brushed snare at 0:06, solo piano first chord at 0:10 with long reverb, rain fades in gradually under the music reaching full presence at 0:20]
+[section B: muted trumpet one quiet phrase at 0:45 then long rest, bass continues walking underneath, espresso machine hiss once then silence]
+[section C: piano and bass exchange slow phrases, vinyl crackle present throughout, rain steady on glass]
+[loop point: vinyl crackle fades slightly, bass resolves to root note, rain continues — seamless join]
+[mood: the record has just started spinning. Rain outside. Nobody looking at the time. The afternoon has its own logic]
+[texture: vinyl crackle first, then bass and snare, piano with room reverb, rain building underneath, distant trumpet]
+```
+
+### Variant C — Piano-led / Пианино первым
+
+```
+[no lyrics, no vocals, instrumental only]
+[opening: single piano chord in near-silence — 3 notes, heavy room reverb, 5 seconds of resonance alone]
+[section A: rain on café window fades in underneath at 0:05. Bass enters at 0:10 with soft walk. Brushed snare at 0:15. Vinyl crackle at 0:20]
+[section B: espresso machine hiss once at 0:50 then completely gone. Piano plays second chord with long sustain]
+[section C: muted trumpet two notes at 1:00 then 40 seconds of rest. Bass and piano continue their slow conversation]
+[loop point: piano plays the same opening chord, reverb trails, rain and vinyl hold the space — circle complete]
+[mood: someone sat down, ordered something warm, opened a notebook, and found that the afternoon had quietly arranged itself around them]
+[texture: piano silence first, then rain, then bass and snare, vinyl crackle throughout, trumpet appearing and disappearing]
 ```
 
 ---
 
 ## 3. NanoBanana 16:9 (thumbnail + video visual)
 
+> Generate one image. Used for: the video loop base + 16:9 thumbnail.
+> *Генерируем одно изображение. Используется для: основа видео-петли + тумбнейл 16:9.*
+>
+> ⚠️ **Acceptance check before saving:**
+> No readable text anywhere in the frame. Notebook content = abstract stripes only.
+> *(Перед сохранением: нет читаемого текста нигде. Содержимое блокнота = только абстрактные штрихи.)*
+
 ```
 Photorealistic cinematic interior, small intimate Japanese jazz kissaten café in the Shimokitazawa neighbourhood of Tokyo, late afternoon during heavy rain. Warm, low-ceilinged, slightly cluttered with character — the opposite of luxury minimalism: cosy, layered, lived-in. Walls lined with floor-to-ceiling wooden shelves holding hundreds of vinyl records in paper sleeves, a few well-thumbed jazz paperbacks wedged between the records. Edison filament bulbs hanging on copper wire from the ceiling glow amber-warm. LEFT SIDE of frame: a narrow window seat — a single wooden chair and small round table pressed against a tall window. On the table: an open notebook with handwritten Japanese characters on the left page and English notes on the right, a ceramic espresso cup (half-drunk), a small glass ashtray (empty, clean), a vintage Zippo lighter. The window is steamed at the edges; rain streaks run vertically down the lower half of the glass; beyond the glass — rain-blurred bokeh of Shimokitazawa street: warm yellow of a ramen shop sign across the lane, a red bicycle leaning against a utility pole, a figure under an umbrella passing quickly. RIGHT SIDE of frame: the café counter in the mid-ground — a short wooden bar, a vintage La Marzocco espresso machine with steam rising from the wand, a row of jazz LP covers propped up as décor (no readable text — abstract cover shapes), a small tube amplifier glowing blue-orange, a Technics SL-1200 turntable with a record spinning. The café owner — visible only as a silhouette in the back, turning away — adjusting something on a shelf. Soft atmospheric layers: amber Edison glow (primary warmth), pale window light filtered through rain and steam (cool secondary), faint neon pink from the ramen shop across the street bleeding through the rain-streaked window as a soft bokeh accent. Colour palette: warm cedar brown wood, aged cream paper, deep shadow charcoal, amber filament glow, steamed glass grey. NO text overlays in image. NO logos. NO watermarks. NO readable text anywhere. 4K photorealistic, cinematic shallow depth of field focused on the notebook and espresso cup, rain and records as soft bokeh. Contemplative rainy afternoon jazz café Tokyo mood.
 ```
 
 ## 4. NanoBanana 9:16 (Shorts cross-promo / thumbnail crop)
+
+> Generate separately from §3. Used for: Shorts cover + cross-promo vertical.
+> *Генерируем отдельно от §3. Используется для: обложка Шортс + вертикальная кросс-промо версия.*
 
 ```
 Photorealistic cinematic vertical 9:16, small intimate Japanese jazz kissaten in Shimokitazawa, Tokyo, late afternoon rain. LOWER THIRD of frame: close-up of the narrow window-seat table — open notebook (Japanese + English handwriting, no readable letters), ceramic espresso cup with steam rising, rain-streaked café window immediately behind the table, water droplets on the lower glass. MIDDLE of frame: the steamed café window dominates — rain running down in long vertical streaks, beyond the glass a rain-blurred bokeh of the Shimokitazawa lane: warm yellow ramen-shop sign, red bicycle silhouette, a figure with umbrella. UPPER THIRD of frame: the low ceiling of the café — amber Edison filament bulbs on copper wire, the tops of vinyl-record shelves, a section of the café bar with the turntable visible (record spinning). Three light sources: Edison amber glow from above, cool rain-filtered window light in the middle, faint neon pink bokeh from outside. Warm cedar and aged cream palette, deep shadows. NO text overlays. NO logos. NO readable text. 4K photorealistic, shallow depth of field on the notebook and espresso cup, rain-streaked glass as midground, café records and bulbs as top bokeh. Intimate rainy afternoon Tokyo café mood.
@@ -59,6 +121,12 @@ Photorealistic cinematic vertical 9:16, small intimate Japanese jazz kissaten in
 ---
 
 ## 5. Flow / Kling motion loop prompt (8-second seamless loop)
+
+> Feed the §3 (16:9) image as the start frame. Generate in Flow or Kling. Then loop in CapCut across full 1H.
+> *Подаём изображение из §3 (16:9) как стартовый кадр. Генерируем в Flow или Kling. Потом зацикливаем в CapCut на весь 1 час.*
+>
+> ⚠️ **Must be perfectly seamless** — last frame = first frame. Re-roll if there is any visible cut or flash at the loop point.
+> *(Должна быть идеально бесшовной — последний кадр = первый кадр. Перегенерируй, если виден разрыв или вспышка на точке петли.)*
 
 ```
 SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour focus video. Photorealistic cinematic Tokyo jazz café interior, Shimokitazawa, rainy afternoon. Camera COMPLETELY LOCKED — no pan, no zoom, no dolly, no shake. Frame stays identical to the start image.
@@ -92,6 +160,8 @@ PERFECTLY SEAMLESS — last frame matches first frame for invisible ffmpeg join.
 3. Import Suno audio (20 tracks, pre-arranged in order)
 4. Sync audio start to 0:00
 5. Export 1080p 30fps H.264
+
+*Сборка в CapCut: (1) бросаем 8-сек петлю на видео-трек, (2) растягиваем/зацикливаем на весь 1 час, (3) импортируем 20 Suno-треков по порядку, (4) синхронизируем старт аудио с 0:00, (5) экспорт 1080p 30fps H.264.*
 
 > If using ffmpeg instead:
 > ```bash
@@ -222,6 +292,7 @@ Full 1-hour session above 🌿
 ---
 
 ## 13. Pre-publish checklist
+*(Чеклист перед публикацией — проверь каждый пункт)*
 
 - [ ] Suno: 20 tracks generated, all instrumental (no vocal bleed)
 - [ ] NanoBanana: 16:9 render accepted (notebook + espresso + rain glass + vinyl visible)
