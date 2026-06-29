@@ -309,6 +309,23 @@ ok the snake-face one always confuses me when he does it lol mine looks possesse
 ok finding out the headbutt is literally him claiming me as property is unhinged behavior i'm into it 😭 does YOUR cat headbutt you constantly or never? need data
 ```
 
+### 51. Do Cats REALLY Miss You When You're Gone? (2026-06-29, 15:00) — Cat Psychology
+
+🇬🇧:
+```
+my cat literally met me at the door today and did the full slow blink thing right after. i stood there for like 10 seconds just looking at her like "oh. oh no you DO miss me"
+
+does yours do the door-waiting thing or is she more of a "pretend i wasn't worried" type 😭
+```
+🇷🇺:
+```
+моя кошка встречает у двери каждый раз, делает вид что случайно там оказалась. но вот этот взгляд... она явно ждала 😭
+
+ваша открыто скучает или включает режим "мне было норм"? 😄
+```
+
+---
+
 ### 50. Why Does A Squid Eat Through Its Own Brain (TBD) — Did You Know / Brain's Lab
 
 🇬🇧:
