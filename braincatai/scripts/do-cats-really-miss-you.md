@@ -15,7 +15,7 @@
 
 ## Audience Promise
 
-Viewer learns their cat DOES miss them — just differently from dogs, and in a way that actually reveals the depth of their bond. They walk away with the "safe base" concept they'll think about every time their cat rubs against their legs.
+Зритель узнаёт что его кошка ДЕЙСТВИТЕЛЬНО скучает — просто иначе чем собака, и это даже интереснее. Уходит с концепцией «безопасная база», о которой будет думать каждый раз когда кошка трётся об ногу.
 
 ---
 
@@ -79,22 +79,21 @@ INT. MICRO LAB — DAY. Cozy miniature laboratory perfectly sized for a kitten-s
 
 | Scene | Location | Notes |
 |-------|----------|-------|
-| 1 | A | Near window — Brain waiting/watching |
-| 2 | A | Brain dismisses "dog" comparison with thought-bubble |
-| 3 | B | Scientist Brain at desk with stress chart |
-| 4 | A | ECU — Brain alone, vulnerable moment |
-| 5 | A | Brain + floating holographic "safe base" diagram |
-| 6 | A | Heart pupils — pattern interrupt / emotional peak |
-| 7 | A | Brain cheek-rub on owner's lower leg |
-| 8 (CTA) | A | Front-facing wave + slow blink |
+| 1 | A | Возле окна — Brain смотрит в окно |
+| 2 | A | Brain смахивает «собачий» thought-bubble |
+| 3 | B | Учёный Brain у стола с чартом стресса |
+| 4 | A | ECU — Brain один, уязвимый момент |
+| 5 | A | Brain + парящая голограмма «safe base» |
+| 6 | A | Сердечки в зрачках — pattern interrupt / эмоциональный пик |
+| 7 (payoff + CTA) | A | Трение об ногу хозяйки → разворот к камере + CTA |
 
 ---
 
 ## Полный VO (целиком на всё видео)
 
-Target: 80–120 words EN ≈ 50s at 130 wpm. RU inline.
+Целевой объём **86 слов EN** ≈ 40 сек при 130 wpm + паузы между репликами = ~44–45 сек. 7 сцен.
 
-**🇬🇧 English:**
+**🇬🇧 English (основной канал @braincatai):**
 
 ```
 Your cat misses you when you're gone. Sort of.
@@ -103,21 +102,19 @@ Scientists tested it. When you leave — your cat's stress hormone spikes.
 They don't tell you. But their body does.
 You're your cat's safe base. When you're gone... that safety disappears.
 Here's the wild part. The cats who miss you MOST... trust you MOST.
-And that rub on your leg when you get home? That's your cat resetting their world.
-Does your cat miss you? Follow Brain for more cat secrets.
+That rub on your leg when you get home? Your cat resetting their world. Follow Brain for more cat secrets.
 ```
 
 **🇷🇺 Русская версия (RU-зеркало):**
 
 ```
 Твоя кошка скучает по тебе пока тебя нет. Ну, почти.
-Не как собака. Без воя, без паники. Но кое-что куда интереснее.
+Не как собака. Без воя, без паники. Кое-что куда интереснее.
 Учёные проверили. Когда ты уходишь — гормон стресса у кошки растёт.
 Она тебе не скажет. Но её тело знает.
 Ты — её безопасная база. Когда тебя нет... этот покой исчезает.
-И вот что удивляет. Сильнее всего скучают те кошки, которые доверяют тебе больше всего.
-А это трение об твою ногу когда приходишь домой? Это она восстанавливает свой мир.
-Скучает ли твоя кошка по тебе? Подписывайся на Brain — больше кошачьих секретов каждый день.
+И вот что удивляет. Сильнее всего скучают те, кто доверяет тебе больше всего.
+Это трение об твою ногу когда приходишь домой? Твоя кошка восстанавливает свой мир. Подписывайся на Brain за кошачьими секретами.
 ```
 
 ---
@@ -126,7 +123,7 @@ Does your cat miss you? Follow Brain for more cat secrets.
 
 ---
 
-## Scene 1 — HOOK (0–7 sec)
+## Scene 1 — HOOK (0–6 sec)
 
 **Что видит зритель:** Brain сидит на ковре у окна, смотрит в окно, медленно поворачивается к камере с выражением «да... но и нет». Перехват внимания за 2 секунды — противоречие уже в позе и взгляде, до слов.
 
@@ -154,16 +151,15 @@ FRAMING: MEDIUM CLOSE-UP, eye-level. Brain sits on the sage-green rug in 3/4 vie
 **🎬 Animation-промт для Veo 3 (copy-paste):**
 
 ```
-SHOT: Static medium close-up, eye-level, 3/4 view — Brain initially facing the window, then slowly turns to camera.
+SHOT: Static medium close-up, eye-level, 3/4 view — Brain initially facing the window, then slowly turns to camera. Total duration: 6 seconds.
 
 TIME 0–2s: Brain sits on the rug, gaze directed at the window. Tail slowly curls and uncurls once. One ear swivels slightly toward the room. Completely still otherwise.
 TIME 2–4s: Brain's head slowly turns from the window and meets the camera directly. Wide eyes. A moment of held eye contact — soft, complicated expression.
-TIME 4–6s: He blinks once, deliberate. A tiny confused frown settles. One ear tilts gently back. Still holding eye contact.
-TIME 6–7s: Brain stays still. His whiskers flick once. He holds the look. Camera does not move.
+TIME 4–6s: He blinks once, deliberate. A tiny confused frown settles. One ear tilts gently back. Whiskers flick once. Holds the look.
 
 EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera (white of the eye clearly visible all around) with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil in the center. ONLY the small iris is green — the white of the eye/sclera stays PURE WHITE, NEVER tinted green, NEVER a fully-green eyeball. Iris NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER BLUE, NEVER CYAN, NEVER grey. Warm OR cool lighting must NOT tint the iris or sclera. Stays emerald green even half-closed or dilated.
 
-GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip. NEVER remove the glasses, NEVER let them fade out, NEVER animate them off his face.
+GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire 6 seconds. NEVER remove the glasses, NEVER let them fade out, NEVER animate them off his face.
 
 SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat in frame at all times — Brain. NEVER add a second cat, NEVER spawn another kitten, NEVER add a wild cat or any other animal.
 
@@ -171,18 +167,18 @@ STYLE RULE (strict): Pixar 3D animated CARTOON style throughout — NEVER photor
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear, NO ear-shaped artifact). Body stays slender 8-week-old kitten proportions — NEVER morphing chubby. Keep the brown collar with the gold heart tag visible.
 
-ANATOMY PRESERVATION RULE (strict): Brain's anatomy must stay perfectly stable — EXACTLY 2 ears (NO phantom third ear, NO extra fur tuft), exactly 4 paws (NO 5th paw), kitten body proportions held constant (NEVER morphing chubby). EAR SHAPE & SIZE LOCK: ears MUST stay identical to the input image — small rounded kitten triangle ears, NEVER elongating into bat/vampire shape. Brain's identity stays IDENTICAL to the input image throughout.
+ANATOMY PRESERVATION RULE (strict): Brain's anatomy must stay perfectly stable the entire 6 seconds — EXACTLY 2 ears (NO phantom third ear, NO extra fur tuft), exactly 4 paws (NO 5th paw), kitten body proportions held constant (NEVER morphing chubby). EAR SHAPE & SIZE LOCK: ears MUST stay identical to the input image — small rounded kitten triangle ears, NEVER elongating. Brain's identity stays IDENTICAL throughout.
 
-MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No chewing motion. No talking motion. All emotion through eyes, ears, and whiskers.
+MOUTH RULE (strict): Mouth stays completely closed the entire 6 seconds. No lip-sync. No talking motion. All emotion through eyes, ears, and whiskers.
 
-MOTION RULE (strict): Keep motion modest. ONLY the head-turn and tail-curl move. Camera is static.
+MOTION RULE (strict): Camera is static. Only the head-turn and tail-curl move. Modest and controlled.
 
 STYLE: Pixar 3D animated CARTOON, warm afternoon light from upper-left window, vertical 9:16, soft depth of field.
 ```
 
 ---
 
-**🎙️ Voiceover (Google Vids TTS):**
+**🎙️ Voiceover:**
 
 🇬🇧 EN:
 ```
@@ -196,9 +192,9 @@ Your cat misses you when you're gone. Sort of.
 
 ---
 
-## Scene 2 — Curiosity Gap (7–14 sec)
+## Scene 2 — Curiosity Gap (6–12 sec)
 
-**Что видит зритель:** Brain dismisses the dog comparison — a cartoon thought-bubble above his head shows a howling dog, Brain swipes it away with one paw. Sets up the "something way more interesting" hook.
+**Что видит зритель:** Brain смахивает сравнение с собакой — над его головой cartoon thought-bubble с воющим псом, Brain одной лапой сметает пузырь. Устанавливает крючок «кое-что куда интереснее».
 
 **Локация:** A
 
@@ -224,16 +220,15 @@ FRAMING: MEDIUM shot, slightly HIGH ANGLE looking down. Brain sits on the sage-g
 **🎬 Animation-промт для Veo 3 (copy-paste):**
 
 ```
-SHOT: Slow push-in from medium to medium close-up, slightly high angle — 7 seconds total.
+SHOT: Slow push-in from medium to medium close-up, slightly high angle. Total duration: 6 seconds.
 
 TIME 0–2s: Brain sits looking at camera, the cartoon thought-bubble dog visible hovering above him. His tail flicks once. He glances up at the thought-bubble.
 TIME 2–4s: Brain raises his ONE right front paw and makes a deliberate sideways swipe at the thought-bubble — dismissing it. His left ear presses flat in mild annoyance. The thought-bubble wobbles or fades at his swipe.
-TIME 4–6s: Brain lowers the paw, looks back at camera with a knowing head tilt. Camera has pushed in slightly.
-TIME 6–7s: His whiskers twitch. He blinks once. Settled. Confident.
+TIME 4–6s: Brain lowers the paw, looks back at camera with a knowing head tilt. Camera has pushed in slightly. His whiskers twitch. He blinks once. Settled, confident.
 
 EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera (white of the eye clearly visible all around) with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil in the center. ONLY the small iris is green — the white of the eye/sclera stays PURE WHITE, NEVER tinted green, NEVER a fully-green eyeball. Iris NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER BLUE, NEVER CYAN, NEVER grey.
 
-GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip. NEVER remove the glasses, NEVER let them fade out.
+GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire 6 seconds. NEVER remove the glasses.
 
 SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat in frame at all times — Brain. NEVER add a second cat. The cartoon dog in the thought-bubble is a simple 2D sketch inside the bubble — NOT a real solid animal.
 
@@ -241,11 +236,11 @@ STYLE RULE (strict): Pixar 3D animated CARTOON style throughout — NEVER photor
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear). Body stays slender 8-week-old kitten. Keep the brown collar with the gold heart tag visible.
 
-ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable — 2 ears, 4 paws, kitten proportions. Ears NEVER elongate or morph. Character stays IDENTICAL to input image throughout.
+ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable the entire 6 seconds — 2 ears, 4 paws, kitten proportions. Ears NEVER elongate or morph. Character stays IDENTICAL to input image throughout.
 
-MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No talking motion. All expression through eyes, ears, whiskers, and the paw swipe.
+MOUTH RULE (strict): Mouth stays completely closed the entire 6 seconds. No lip-sync. No talking motion. All expression through eyes, ears, whiskers, and the paw swipe.
 
-MOTION RULE (strict): Camera slow push-in, paw-swipe is the one main action. Keep all other motion minimal.
+MOTION RULE (strict): Camera slow push-in. Paw-swipe is the one main action. Keep all other motion minimal.
 
 STYLE: Pixar 3D animated CARTOON, warm afternoon light, vertical 9:16, soft depth of field.
 ```
@@ -261,18 +256,18 @@ Not like a dog. No howling, no panic. Something way more interesting.
 
 🇷🇺 RU:
 ```
-Не как собака. Без воя, без паники. Но кое-что куда интереснее.
+Не как собака. Без воя, без паники. Кое-что куда интереснее.
 ```
 
 ---
 
-## Scene 3 — Setup (14–21 sec)
+## Scene 3 — Setup (12–18 sec)
 
-**Что видит зритель:** Brain in lab coat at his mini desk, pointing at the stress-chart — gives scientific authority to the claim. Low angle = authority pose.
+**Что видит зритель:** Brain в лабхалате у микро-стола указывает лапой на чарт стресса — «OWNER HOME» (низкая планка) / «OWNER AWAY ↑» (высокая). Низкий угол = поза эксперта, научный авторитет к заявлению.
 
 **Локация:** B (Micro Lab)
 
-**WARDROBE RULE:** Tiny white lab coat — collar + gold heart tag always visible at neckline. Gold glasses always on.
+**WARDROBE RULE:** Tiny white lab coat — collar + gold heart tag visible at neckline. Gold glasses always on.
 
 ---
 
@@ -287,7 +282,7 @@ INT. MICRO LAB — DAY. Cozy miniature laboratory perfectly sized for a kitten-s
 
 FRAMING: LOW ANGLE looking up at Brain. Brain stands on the wooden stool at the desk, facing camera with body at 3/4 angle. He points with ONE right front paw at the WALL CHART behind him — specifically at the tall "OWNER AWAY ↑" red bar. His expression: confident, eyebrows raised, scientist-smug knowing look. Ears perked straight up. His tail hangs behind the stool.
 
-TYPOGRAPHY LOCK (strict — same font in every overlay across this video and the channel): All on-screen text/numerals rendered in BOLD ROUNDED GEOMETRIC SANS-SERIF font (Pixar cartoon style, Nunito Bold / Fredoka One look — soft rounded terminals, NO serifs, NO brush-script, NO hand-drawn). Fill color: soft pastel-yellow #FFE066. Solid charcoal #2B2B2B outline 4-6px. Soft black drop-shadow 30% opacity. ALL CAPS. NEVER use a serif font, NEVER use a brush font, NEVER mix multiple fonts.
+TYPOGRAPHY LOCK (strict): All on-screen text in BOLD ROUNDED GEOMETRIC SANS-SERIF (Nunito Bold / Fredoka One — soft rounded terminals, NO serifs, NO brush-script). Fill: soft pastel-yellow #FFE066. Outline: charcoal #2B2B2B 4-6px. ALL CAPS. NEVER serif, NEVER brush font, NEVER mixed fonts.
 ```
 
 **Negatives:**
@@ -300,15 +295,15 @@ TYPOGRAPHY LOCK (strict — same font in every overlay across this video and the
 **🎬 Animation-промт для Veo 3 (copy-paste):**
 
 ```
-SHOT: Static low-angle looking up at Brain on the stool at the lab desk — 7 seconds.
+SHOT: Static low-angle looking up at Brain on the stool at the lab desk. Total duration: 6 seconds.
 
 TIME 0–2s: Brain stands on the stool in scientist pose, one paw pointing at the OWNER AWAY bar on the wall chart. Ears perked up. Tail hangs still behind the stool.
-TIME 2–5s: He taps the tall red bar on the chart TWICE with his paw (two deliberate pats). His head turns back to camera with a confident nod. His ears stay perked.
-TIME 5–7s: Brain straightens his posture, adjusts the collar area of his lab coat slightly (the brown collar with gold heart tag becomes clearly visible). Blinks once. Holds the expert scientist pose.
+TIME 2–4s: He taps the tall red bar on the chart TWICE with his paw (two deliberate pats). His head turns back to camera with a confident nod.
+TIME 4–6s: Brain straightens his posture — the brown collar with gold heart tag becomes clearly visible at the lab coat neckline. Blinks once. Holds the expert pose.
 
 EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera (white of the eye clearly visible all around) with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil in the center. ONLY the small iris is green — the white of the eye/sclera stays PURE WHITE, NEVER tinted green, NEVER a fully-green eyeball. Iris NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER BLUE, NEVER CYAN, NEVER grey.
 
-GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip. NEVER remove the glasses.
+GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire 6 seconds. NEVER remove the glasses.
 
 SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat in frame at all times — Brain. NEVER add a second cat or any other animal.
 
@@ -316,13 +311,13 @@ STYLE RULE (strict): Pixar 3D animated CARTOON style throughout — NEVER photor
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear). Body stays slender 8-week-old kitten. Keep the brown collar + gold heart tag visible at the lab coat neckline.
 
-ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable — 2 ears, 4 paws, kitten proportions. Ears NEVER elongate. Character stays IDENTICAL to input image.
+ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable the entire 6 seconds — 2 ears, 4 paws, kitten proportions. Ears NEVER elongate. Character stays IDENTICAL to input image.
 
-MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No talking motion.
+MOUTH RULE (strict): Mouth stays completely closed the entire 6 seconds. No lip-sync. No talking motion.
 
 MOTION RULE (strict): Camera static. Only Brain's paw-tapping and head-turn move. Modest controlled motion.
 
-WARDROBE RULE (strict): Brain's tiny white lab coat stays on the entire 7 seconds. The plain brown leather collar and gold heart-shaped tag remain visible at the V-neckline opening throughout — never covered. Lab coat NEVER comes off. Gold glasses NEVER removed.
+WARDROBE RULE (strict): Brain's tiny white lab coat stays on the entire 6 seconds. The plain brown leather collar and gold heart-shaped tag remain visible at the V-neckline opening — never covered. Gold glasses NEVER removed.
 
 STYLE: Pixar 3D animated CARTOON, clean daylight from the left, vertical 9:16, soft depth of field on the chart.
 ```
@@ -343,9 +338,9 @@ Scientists tested it. When you leave — your cat's stress hormone spikes.
 
 ---
 
-## Scene 4 — Build-up (21–28 sec)
+## Scene 4 — Build-up (18–24 sec)
 
-**Что видит зритель:** EXTREME CLOSE-UP of Brain's face — alone in the living room, soft worried eyes. Vulnerable, still, honest. The physical truth landing. No action — just a held emotional moment with micro-motion (ear swivel, dilating pupils).
+**Что видит зритель:** EXTREME CLOSE-UP лица Brain — один в гостиной, мягкий тревожный взгляд. Уязвимо, тихо, честно. Физическая правда приземляется без слов — только микро-движения: ухо медленно поворачивается назад, зрачки чуть расширяются.
 
 **Локация:** A
 
@@ -358,7 +353,7 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 
 INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: ONE plain SOLID sage-green woven rug — solid sage-green color, NO pattern, NO border, NO fringe, simple rectangular shape — in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (OFF, lampshade cream-colored) and ONE small open book lying face-down beside the lamp. WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains letting in soft warm afternoon daylight from the upper-left. PLANT: ONE leafy snake plant (Sansevieria) with 5–7 upright sword-shaped dark-green leaves with lighter variegated cream-green stripes, positioned in a small terracotta pot BESIDE the window on the floor. NO other plants. NO wall art (clean cream wall behind). LIGHTING: soft warm honey-amber ambient with daylight bloom from the window. Cozy lived-in atmosphere, shallow depth of field — armchair and window slightly soft-focus.
 
-FRAMING: EXTREME CLOSE-UP of Brain's face, slightly off-center, eye-level. His face fills ~70% of frame. Emerald eyes wide and gently dilated — pupils slightly enlarged, giving a soft worried, searching look. One ear slightly tilted back. Whiskers barely forward. Mouth softly closed in a neutral line. The background is very heavily blurred — warm amber bokeh only, the room invisible behind the shallow DOF. This is a vulnerable, quiet, honest moment. Front-facing.
+FRAMING: EXTREME CLOSE-UP of Brain's face, slightly off-center, eye-level. His face fills ~70% of frame. Emerald eyes wide and gently dilated — pupils slightly enlarged, giving a soft worried, searching look. One ear slightly tilted back. Whiskers barely forward. Mouth softly closed in a neutral line. The background is very heavily blurred — warm amber bokeh only. Vulnerable, quiet, honest moment.
 ```
 
 **Negatives:**
@@ -371,15 +366,15 @@ FRAMING: EXTREME CLOSE-UP of Brain's face, slightly off-center, eye-level. His f
 **🎬 Animation-промт для Veo 3 (copy-paste):**
 
 ```
-SHOT: Slow micro push-in, extreme close-up, eye-level, front-facing — 7 seconds.
+SHOT: Slow micro push-in, extreme close-up, eye-level, front-facing. Total duration: 6 seconds.
 
-TIME 0–2s: Brain stares softly forward. Eyes gently wide. Both ears still. A barely perceptible whisker twitch. Nothing dramatic — just stillness.
-TIME 2–5s: One ear slowly swivels backward (a soft instinct-reaction). His pupils dilate just slightly larger. He continues to stare. Stays still otherwise. Camera has pushed in very slightly.
-TIME 5–7s: His gaze drops for half a second, then returns to camera. One slow, deliberate blink. Holds the look. Camera stopped.
+TIME 0–2s: Brain stares softly forward. Eyes gently wide. Both ears still. A barely perceptible whisker twitch. Pure stillness.
+TIME 2–4s: One ear slowly swivels backward (a soft instinct-reaction). His pupils dilate just slightly larger. He stays still. Camera has pushed in very slightly.
+TIME 4–6s: His gaze drops for half a second, then returns to camera. One slow deliberate blink. Holds the look.
 
 EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera (white of the eye clearly visible all around) with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil in the center. ONLY the small iris is green — the white of the eye/sclera stays PURE WHITE, NEVER tinted green, NEVER a fully-green eyeball. Iris NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER BLUE, NEVER CYAN, NEVER grey. Even with warm ambient lighting, the sclera stays white and the iris stays emerald.
 
-GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire 7 seconds. NEVER remove them.
+GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire 6 seconds.
 
 SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat in frame at all times — Brain. NEVER add a second cat.
 
@@ -387,11 +382,11 @@ STYLE RULE (strict): Pixar 3D animated CARTOON style throughout — NEVER photor
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear). Body stays slender 8-week-old kitten. Keep the brown collar with the gold heart tag visible.
 
-ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable — 2 ears, 4 paws, kitten proportions held constant. Ears NEVER elongate. Character stays IDENTICAL to input image throughout.
+ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable the entire 6 seconds — 2 ears, 4 paws, kitten proportions held constant. Ears NEVER elongate. Character stays IDENTICAL to input image throughout.
 
-MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No talking motion. No mouth movement of any kind. All emotion through eyes, ears, and whiskers only.
+MOUTH RULE (strict): Mouth stays completely closed the entire 6 seconds. No lip-sync. No talking motion. No mouth movement of any kind. All emotion through eyes, ears, and whiskers only.
 
-MOTION RULE (strict): Camera: only a very gentle micro push-in (barely perceptible). Only the ear-swivel and blink move. All other motion is stillness. This is an intentionally quiet scene — minimal motion is correct here.
+MOTION RULE (strict): Camera: only a very gentle micro push-in (barely perceptible). Only the ear-swivel and blink move. Intentionally quiet and still — minimal motion is correct here.
 
 STYLE: Pixar 3D animated CARTOON, warm honey-amber ambient light, very heavy shallow DOF (blurred bokeh background), vertical 9:16.
 ```
@@ -412,9 +407,9 @@ They don't tell you. But their body does.
 
 ---
 
-## Scene 5 — Core Explanation (28–35 sec)
+## Scene 5 — Core Explanation (24–30 sec)
 
-**Что видит зритель:** Brain stands beside a floating holographic diagram — a glowing blue translucent illustration of a small cat near a person (their "safe base"). Brain touches it with one paw. This delivers the key concept visually without words needing to do all the work.
+**Что видит зритель:** Brain стоит рядом с плавающей полупрозрачной голубой голограммой — простая иллюстрация кошки рядом с силуэтом человека, кружок «SAFE BASE» вокруг них. Brain касается голограммы лапой и она пульсирует. Ключевой концепт подаётся визуально.
 
 **Локация:** A
 
@@ -427,9 +422,9 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 
 INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: ONE plain SOLID sage-green woven rug — solid sage-green color, NO pattern, NO border, NO fringe, simple rectangular shape — in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (OFF, lampshade cream-colored) and ONE small open book lying face-down beside the lamp. WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains letting in soft warm afternoon daylight from the upper-left. PLANT: ONE leafy snake plant (Sansevieria) with 5–7 upright sword-shaped dark-green leaves with lighter variegated cream-green stripes, positioned in a small terracotta pot BESIDE the window on the floor. NO other plants. NO wall art (clean cream wall behind). LIGHTING: soft warm honey-amber ambient with daylight bloom from the window. Cozy lived-in atmosphere, shallow depth of field — armchair and window slightly soft-focus.
 
-FRAMING: MEDIUM shot, eye-level, 3/4 view from the right. Brain stands on the sage-green rug, looking LEFT at a GLOWING TRANSLUCENT BLUE holographic diagram floating in mid-air beside him (to the left, not covering his face). The hologram: a simple line-art cartoon showing a small cat silhouette (NOT photorealistic — just a simple cartoon outline) sitting close beside a simple person silhouette, with a soft glowing circle around the pair labeled "SAFE BASE" in bold rounded sans-serif yellow-white text. The hologram is CLEARLY TRANSLUCENT — see-through, blue-tinted glow at the edges, NOT a solid real animal. Brain's expression: thoughtful, ears perked forward. ONE front paw slightly raised, pointing gently toward the hologram.
+FRAMING: MEDIUM shot, eye-level, 3/4 view from the right. Brain stands on the sage-green rug, looking LEFT at a GLOWING TRANSLUCENT BLUE holographic diagram floating in mid-air beside him (to his left, not covering his face). The hologram: a simple line-art cartoon showing a small cat silhouette sitting close beside a simple person silhouette, with a soft glowing circle around the pair labeled "SAFE BASE" in bold rounded sans-serif yellow-white text. The hologram is CLEARLY TRANSLUCENT — see-through, blue-tinted glow at the edges, NOT a solid real animal. Brain's expression: thoughtful, ears perked forward. ONE front paw slightly raised, pointing gently toward the hologram.
 
-TYPOGRAPHY LOCK (strict): All text on the hologram in BOLD ROUNDED GEOMETRIC SANS-SERIF (Nunito Bold / Fredoka One style), soft pastel-yellow #FFE066 fill, charcoal #2B2B2B outline, ALL CAPS. NEVER serif, NEVER brush-script.
+TYPOGRAPHY LOCK (strict): All text on hologram in BOLD ROUNDED GEOMETRIC SANS-SERIF (Nunito Bold / Fredoka One style), soft pastel-yellow #FFE066 fill, charcoal #2B2B2B outline, ALL CAPS. NEVER serif, NEVER brush-script.
 ```
 
 **Negatives:**
@@ -442,26 +437,25 @@ TYPOGRAPHY LOCK (strict): All text on the hologram in BOLD ROUNDED GEOMETRIC SAN
 **🎬 Animation-промт для Veo 3 (copy-paste):**
 
 ```
-SHOT: Static medium, eye-level — Brain on the right of frame, hologram floating to the left of Brain — 7 seconds.
+SHOT: Static medium, eye-level — Brain on the right of frame, hologram floating to the left of Brain. Total duration: 6 seconds.
 
 TIME 0–2s: Brain looks at the hologram. One ear perked forward. Tail tip curls once.
 TIME 2–4s: Brain raises ONE front paw and gently touches the edge of the hologram — it pulses THREE times with a soft blue glow ripple. Brain watches it pulse.
-TIME 4–6s: The hologram shimmer settles. Brain looks back at camera. He lowers the paw slowly.
-TIME 6–7s: Brain's tail swishes once. He blinks. Thoughtful expression holds.
+TIME 4–6s: The hologram shimmer settles. Brain looks back at camera. He lowers the paw. Tail swishes once. Thoughtful blink.
 
 EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera (white of the eye clearly visible all around) with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil in the center. ONLY the small iris is green — the white of the eye/sclera stays PURE WHITE, NEVER tinted green, NEVER a fully-green eyeball. Iris NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER BLUE, NEVER CYAN, NEVER grey.
 
-GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip. NEVER remove the glasses.
+GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire 6 seconds.
 
-SINGLE-CHARACTER RULE (strict): EXACTLY ONE real solid cat in frame at all times — Brain. The glowing blue diagram/hologram is a TRANSLUCENT CARTOON ILLUSTRATION (NOT a real solid second cat) — clearly see-through with blue-glow edges only. Only Brain is real and solid.
+SINGLE-CHARACTER RULE (strict): EXACTLY ONE real solid cat in frame at all times — Brain. The glowing blue hologram is a TRANSLUCENT CARTOON ILLUSTRATION (clearly see-through, blue-glow edges) — NOT a real solid second cat.
 
 STYLE RULE (strict): Pixar 3D animated CARTOON style throughout — NEVER photorealistic. Brain's identity stays IDENTICAL to the input image.
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear). Body stays slender 8-week-old kitten. Keep the brown collar with the gold heart tag visible.
 
-ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable — 2 ears, 4 paws, kitten proportions. Ears NEVER elongate. Character stays IDENTICAL to input image throughout.
+ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable the entire 6 seconds — 2 ears, 4 paws, kitten proportions. Ears NEVER elongate. Character stays IDENTICAL to input image throughout.
 
-MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No talking motion.
+MOUTH RULE (strict): Mouth stays completely closed the entire 6 seconds. No lip-sync. No talking motion.
 
 MOTION RULE (strict): Camera is static. Only Brain's paw-touch, hologram pulse glow, and tail swish move. Modest, controlled.
 
@@ -484,9 +478,9 @@ You're your cat's safe base. When you're gone... that safety disappears.
 
 ---
 
-## Scene 6 — Twist / Aha Moment (35–42 sec)
+## Scene 6 — Twist / Aha Moment (30–37 sec)
 
-**Что видит зритель:** PATTERN INTERRUPT — slow dramatic push-in to Brain's face, his pupils bloom into heart shapes as the twist lands. Emotional peak. This is the one viral moment of the video. The "sticky label": the cats who trust you most, miss you most.
+**Что видит зритель:** PATTERN INTERRUPT — медленный драматичный push-in к лицу Brain, зрачки расцветают в форму сердечек в момент твиста. Эмоциональный пик видео. «Sticky label»: кто доверяет больше — скучает больше.
 
 **Локация:** A
 
@@ -499,7 +493,7 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 
 INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: ONE plain SOLID sage-green woven rug — solid sage-green color, NO pattern, NO border, NO fringe, simple rectangular shape — in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (OFF, lampshade cream-colored) and ONE small open book lying face-down beside the lamp. WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains letting in soft warm afternoon daylight from the upper-left. PLANT: ONE leafy snake plant (Sansevieria) with 5–7 upright sword-shaped dark-green leaves with lighter variegated cream-green stripes, positioned in a small terracotta pot BESIDE the window on the floor. NO other plants. NO wall art (clean cream wall behind). LIGHTING: soft warm honey-amber ambient with daylight bloom from the window. Cozy lived-in atmosphere, shallow depth of field — armchair and window VERY heavily blurred bokeh.
 
-FRAMING: CLOSE-UP of Brain's face, center-frame, slight 3/4 angle, eye-level. Brain's face fills ~65% of the frame. SPECIAL FOR THIS SCENE: his pupils have bloomed into soft cartoon HEART SHAPES — the iris is EMERALD GREEN (#3DDC84) in PURE WHITE sclera, and the pupils are soft rounded hearts (NOT sharp — cartoon stylized, warm, sweet). Both ears are perked sharply UPWARD and slightly forward. His expression is a warm, knowing "aha" look — the soft half-smile of someone who just understood something beautiful. Whiskers fanned forward. Background: very heavy bokeh blur — warm amber living room background completely soft.
+FRAMING: CLOSE-UP of Brain's face, center-frame, slight 3/4 angle, eye-level. Brain's face fills ~65% of the frame. SPECIAL FOR THIS SCENE: his pupils have bloomed into soft cartoon HEART SHAPES — the iris is EMERALD GREEN (#3DDC84) in PURE WHITE sclera, and the pupils are soft rounded hearts (NOT sharp — cartoon stylized, warm, sweet). Both ears are perked sharply UPWARD and slightly forward. Warm knowing "aha" expression — soft half-smile of understanding. Whiskers fanned forward. Background: very heavy bokeh blur — warm amber bokeh.
 ```
 
 **Negatives:**
@@ -512,16 +506,16 @@ FRAMING: CLOSE-UP of Brain's face, center-frame, slight 3/4 angle, eye-level. Br
 **🎬 Animation-промт для Veo 3 (copy-paste):**
 
 ```
-SHOT: Slow dramatic push-in, starting medium close-up, ending at FULL CLOSE-UP filling the frame — 7 seconds total. This is the PATTERN INTERRUPT beat of the video.
+SHOT: Slow dramatic push-in, starting medium close-up, ending at FULL CLOSE-UP. Total duration: 7 seconds. This is the PATTERN INTERRUPT beat of the video.
 
 TIME 0–1s: Brain sits with a neutral curious expression. Camera begins a slow push-in. Eyes are normal (round pupils).
 TIME 1–3s: Camera continues pushing in. Brain's eyes widen. His pupils GRADUALLY bloom from round into soft cartoon HEART SHAPES over these 2 seconds. His ears perk sharply upward. The "aha" realization blooms across his expression.
 TIME 3–5s: Full close-up reached. Brain's face fills the frame. Heart-shaped pupils glow very softly. Whiskers fan forward. He holds the warm knowing look directly at camera.
-TIME 5–7s: One very deliberate slow blink — the heart pupils are visible as the eyes close (they dim), then reopen (they glow gently back). He holds. This is the emotional climax of the video.
+TIME 5–7s: One very deliberate slow blink — the heart pupils dim as eyes close, then glow gently back as eyes open. He holds. This is the emotional climax of the video.
 
-EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera (white of the eye clearly visible all around) with a medium round EMERALD-GREEN iris (#3DDC84). ONLY the small iris is green — the sclera stays PURE WHITE. In this scene, the pupils bloom into soft cartoon HEART SHAPES within the green iris — the sclera remains white throughout. Iris NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER BLUE, NEVER CYAN, NEVER grey.
+EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera (white of the eye clearly visible all around) with a medium round EMERALD-GREEN iris (#3DDC84). ONLY the small iris is green — the sclera stays PURE WHITE throughout. In this scene, the pupils bloom into soft cartoon HEART SHAPES within the green iris — the sclera remains white. Iris NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER BLUE, NEVER CYAN, NEVER grey.
 
-GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip. NEVER remove the glasses.
+GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire 7 seconds.
 
 SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat in frame at all times — Brain. NEVER add a second cat.
 
@@ -529,13 +523,15 @@ STYLE RULE (strict): Pixar 3D animated CARTOON style throughout — NEVER photor
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear). Body stays slender 8-week-old kitten. Keep the brown collar with the gold heart tag visible.
 
-ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable — 2 ears, 4 paws, kitten proportions. Ears NEVER elongate. Character stays IDENTICAL to input image throughout.
+ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable the entire 7 seconds — 2 ears, 4 paws, kitten proportions. Ears NEVER elongate. Character stays IDENTICAL to input image throughout.
 
-MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No talking motion. The warm "aha" expression is conveyed entirely through the heart pupils, ears, and whiskers.
+MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No talking motion. The warm "aha" expression is conveyed through the heart pupils, ears, and whiskers only.
 
 MOTION RULE (strict): Camera slow push-in is the main motion. Only the pupil-shape-bloom and ear-perk move on Brain. Modest, intentional.
 
-STYLE: Pixar 3D animated CARTOON, warm honey-amber ambient light, VERY heavy bokeh background (living room invisible behind Brain), vertical 9:16.
+EYE SHAPE SPECIAL RULE (this scene only): Brain's pupils bloom into soft rounded HEART SHAPES. The iris stays EMERALD GREEN (#3DDC84) in PURE WHITE sclera. The heart pupils are a cartoon stylized effect — soft, warm, not sharp.
+
+STYLE: Pixar 3D animated CARTOON, warm honey-amber ambient light, VERY heavy bokeh background, vertical 9:16.
 ```
 
 ---
@@ -549,16 +545,16 @@ Here's the wild part. The cats who miss you MOST... trust you MOST.
 
 🇷🇺 RU:
 ```
-И вот что удивляет. Сильнее всего скучают те кошки, которые доверяют тебе больше всего.
+И вот что удивляет. Сильнее всего скучают те, кто доверяет тебе больше всего.
 ```
 
 ---
 
-## Scene 7 — Bonus Fact / Contrast (42–49 sec)
+## Scene 7 — Payoff + CTA (37–45 sec)
 
-**Что видит зритель:** Brain cheek-rubbing the owner's lower leg — literally showing the VO action. The human owner's lower legs are visible from the knees down only (face off-frame). This is the emotional payoff that makes the video shareable.
+**Что видит зритель:** Brain трётся щекой о ногу хозяйки (только лодыжки видны, лицо за кадром) — VO буквально показан действием. Затем Brain плавно разворачивается к камере, машет одной лапой, делает slow blink и один тихий meow. Эмоциональный payoff и CTA в одной сцене.
 
-**Локация:** A (with human legs)
+**Локация:** A (с лодыжками хозяйки)
 
 ---
 
@@ -567,16 +563,16 @@ Here's the wild part. The cats who miss you MOST... trust you MOST.
 ```
 Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil in the center; ONLY the small iris is colored green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera (iris NOT brown, NOT amber, NOT yellow, NOT hazel), small thin round gold-framed glasses (ALWAYS on, every shot), a plain smooth brown leather collar (smooth band, NO studs, NO spikes, NO metal plates, NO front buckle) with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart shape — NOT round, NOT blank; identical every scene), soft fluffy orange fur with darker tabby stripes, ALL 4 PAWS — both FRONT and both BACK — the SAME orange ginger tabby color as the body (NO white paws, NO white socks, NO white mittens, NO white toes, NO white BACK paws), tail orange ginger tabby to the very tip (NO white tail tip), pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar/Disney 3D ANIMATED CARTOON style (stylized smooth cartoon shading, big cartoon eyes, rounded cartoon forms — like a frame from a Pixar movie, NOT photorealistic, NOT a real cat, NOT realistic fur), soft cartoon lighting, vertical 9:16 composition.
 
-LOCKED HUMAN OWNER (lower legs only — same identity in every scene): The human owner's lower legs and feet visible from the knees down ONLY — the rest of the body is completely off-frame above. She is an adult WOMAN — slim FEMININE build. She wears soft cream-colored slim trousers and soft white socks. NO face, NO upper body, NO hands visible in this scene. STRICTLY FEMALE — NEVER male, NEVER broad-shouldered, NEVER muscular. Legs are slim and feminine. Pixar 3D cartoon style matching Brain's render.
+LOCKED HUMAN OWNER (lower legs only): The human owner's lower legs and feet visible from the knees down ONLY — the rest of the body is completely off-frame above. She is an adult WOMAN — slim FEMININE build. She wears soft cream-colored slim trousers and soft white socks. NO face, NO upper body, NO hands visible in this scene. STRICTLY FEMALE — NEVER male, NEVER broad-shouldered, NEVER muscular. Pixar 3D cartoon style matching Brain's render.
 
 INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: ONE plain SOLID sage-green woven rug — solid sage-green color, NO pattern, NO border, NO fringe, simple rectangular shape — in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (OFF, lampshade cream-colored) and ONE small open book lying face-down beside the lamp. WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains letting in soft warm afternoon daylight from the upper-left. PLANT: ONE leafy snake plant (Sansevieria) with 5–7 upright sword-shaped dark-green leaves with lighter variegated cream-green stripes, positioned in a small terracotta pot BESIDE the window on the floor. NO other plants. NO wall art (clean cream wall behind). LIGHTING: soft warm honey-amber ambient with daylight bloom from the window. Cozy lived-in atmosphere, shallow depth of field — armchair and window slightly soft-focus.
 
-FRAMING: MEDIUM-LOW ANGLE, eye-level with Brain. Brain is pressed cheek-first against the owner's lower leg — his cheek and side of his face touching her calf, eyes softly half-closed in the moment of contentment. ONE front paw resting gently on her foot. His orange tabby fur presses slightly against her cream trousers. His tail curves up gently behind him. His expression: pure contentment — the physical relief of the reunion. Background: the living room blurred warmly behind them.
+FRAMING: MEDIUM-LOW ANGLE, eye-level with Brain — capturing the transition moment. Brain is mid-pulling-back from the cheek rub, his face turning toward camera. His cheek/fur are still slightly pressed toward the leg. His emerald eyes are opening and meeting the camera — warm, content, direct. ONE front paw resting on the owner's foot. Tail curves gently upward. Background living room warmly blurred.
 ```
 
 **Negatives:**
 ```
-2D, flat, anime, cel-shaded, photorealistic cat, realistic cat, real cat, photoreal, hyperrealistic, realistic fur, photograph, live action, lifelike, 3D realism, multiple cats, two cats, second cat, extra cat, low quality, blurry face, distorted face, extra limbs, extra paws, five legs, six legs, both front paws raised, missing glasses, glasses removed, missing collar, missing heart tag, watermark, white paws, white socks, white mittens, white toes, white feet, white-tipped paws, white back paws, white hind paws, brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes, blue eyes, cyan eyes, grey eyes, wrong eye color, green sclera, green eye-whites, fully green eyes, green-tinted eyeballs, white tail tip, round tag, blank tag, two tags, studded collar, spiked collar, patterned rug, beige rug, fringed rug, man, male figure, male owner, masculine build, broad shoulders, muscular legs, male legs, dark trousers, jeans, male pants, visible face, visible hands, hoodie, dark clothing, extra hands, floating hand, three legs on the human
+2D, flat, anime, cel-shaded, photorealistic cat, realistic cat, real cat, photoreal, hyperrealistic, realistic fur, photograph, live action, lifelike, 3D realism, multiple cats, two cats, second cat, extra cat, low quality, blurry face, distorted face, extra limbs, extra paws, five legs, six legs, both front paws raised, missing glasses, glasses removed, missing collar, missing heart tag, watermark, white paws, white socks, white mittens, white toes, white feet, white-tipped paws, white back paws, white hind paws, brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes, blue eyes, cyan eyes, grey eyes, wrong eye color, green sclera, green eye-whites, fully green eyes, green-tinted eyeballs, white tail tip, round tag, blank tag, two tags, studded collar, spiked collar, patterned rug, beige rug, fringed rug, man, male figure, male owner, masculine build, broad shoulders, muscular legs, male legs, dark trousers, jeans, male pants, visible face, visible hands, hoodie, dark clothing, extra hands, floating hand
 ```
 
 ---
@@ -584,16 +580,16 @@ FRAMING: MEDIUM-LOW ANGLE, eye-level with Brain. Brain is pressed cheek-first ag
 **🎬 Animation-промт для Veo 3 (copy-paste):**
 
 ```
-SHOT: Static medium-low angle, eye-level with Brain against the human leg — 7 seconds.
+SHOT: Static medium-low angle, eye-level with Brain against the human leg. Total duration: 8 seconds.
 
-TIME 0–2s: Brain is pressed against the owner's lower leg, cheek to calf. His eyes are softly half-closed. His tail curls upward gently. He is still, savoring the contact.
-TIME 2–4s: Brain slowly pulls his cheek back from the leg. His eyes open fully. He looks up at the leg (owner off-frame above). Then his gaze slowly drops to look at camera.
-TIME 4–6s: Brain settles back against the leg slightly, side-brushing. His tail wraps loosely around his own front paws.
-TIME 6–7s: He blinks once — soft, content. Whiskers relaxed. Settled.
+TIME 0–3s: Brain is pressed cheek-first against the owner's lower leg, cheek to calf. His eyes are softly half-closed in contentment. Tail curls upward gently. He savors the contact.
+TIME 3–5s: Brain slowly pulls his cheek back from the leg and opens his eyes fully. He looks up briefly (toward the off-frame owner), then his gaze drops directly to camera. Warm, direct eye contact.
+TIME 5–7s: Brain raises ONE front paw in a gentle half-wave toward the camera. His tail wraps loosely around his other paws.
+TIME 7–8s: ONE deliberate slow blink. His mouth opens briefly for ONE single soft meow (mouth closes immediately after). Holds. End beat.
 
 EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera (white of the eye clearly visible all around) with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil in the center. ONLY the small iris is green — the white of the eye/sclera stays PURE WHITE, NEVER tinted green, NEVER a fully-green eyeball. Iris NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER BLUE, NEVER CYAN, NEVER grey.
 
-GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip.
+GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire 8 seconds.
 
 SINGLE-CHARACTER RULE (strict): EXACTLY ONE real solid cat in frame — Brain. NO second cat. The human lower legs are allowed and are part of this scene.
 
@@ -601,13 +597,13 @@ STYLE RULE (strict): Pixar 3D animated CARTOON style throughout — NEVER photor
 
 ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear). Body stays slender 8-week-old kitten. Keep the brown collar with the gold heart tag visible.
 
-ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable — 2 ears, 4 paws, kitten proportions. Ears NEVER elongate. Character stays IDENTICAL throughout.
+ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable the entire 8 seconds — 2 ears, 4 paws, kitten proportions. Ears NEVER elongate. Character stays IDENTICAL throughout.
 
-MOUTH RULE (strict): Mouth stays completely closed the entire 7 seconds. No lip-sync. No talking motion. Contentment through half-closed eyes and relaxed whiskers.
+MOUTH RULE EXCEPTION (this scene only): At TIME 7–8s, Brain's mouth opens briefly for ONE single soft meow, then immediately closes. This is the ONLY mouth movement in the entire clip. No repetitive open/close. No lip-sync. Mouth closed before and after the meow.
 
-MOTION RULE (strict): Camera is static. Only Brain's head-pull-back, look-around, and tail motion move. Human legs are completely still — only Brain moves.
+MOTION RULE (strict): Camera is static. Only Brain's head-pull-back, look-around, paw wave, and tail motion move. Human legs are completely still — only Brain moves.
 
-HUMAN RULE (strict — LOCKED OWNER, lower legs only): ONLY the lower legs and feet of the owner are visible from the knees down — the rest of the body is off-frame above. She is an adult WOMAN — slim feminine build, soft cream-colored slim trousers, white socks. NEVER male, NEVER masculine, NEVER broad-shouldered. Face entirely off-frame. ONLY ONE real solid cat (Brain) in frame.
+HUMAN RULE (strict — lower legs only): ONLY the lower legs and feet of the owner are visible from the knees down — the rest of the body is off-frame above. She is an adult WOMAN — slim feminine build, soft cream-colored slim trousers, white socks. NEVER male, NEVER masculine. Face entirely off-frame. ONLY ONE real solid cat (Brain) in frame.
 
 HAND COUNT RULE (strict): NO hands visible in this scene. Only lower legs and feet. No extra floating hands. No arms.
 
@@ -620,96 +616,26 @@ STYLE: Pixar 3D animated CARTOON, warm honey-amber afternoon light, vertical 9:1
 
 🇬🇧 EN:
 ```
-And that rub on your leg when you get home? That's your cat resetting their world.
+That rub on your leg when you get home? Your cat resetting their world. Follow Brain for more cat secrets.
 ```
 
 🇷🇺 RU:
 ```
-А это трение об твою ногу когда приходишь домой? Это она восстанавливает свой мир.
+Это трение об твою ногу когда приходишь домой? Твоя кошка восстанавливает свой мир. Подписывайся на Brain за кошачьими секретами.
 ```
 
----
-
-## Scene 8 — CTA / Outro (49–56 sec)
-
-**Что видит зритель:** Brain faces camera warmly, one paw wave, slow blink, one soft meow. Direct eye contact. CTA.
-
-**Локация:** A
-
----
-
-**🎨 Image-промт для Nano Banana (copy-paste):**
-
-```
-Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil in the center; ONLY the small iris is colored green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera (iris NOT brown, NOT amber, NOT yellow, NOT hazel), small thin round gold-framed glasses (ALWAYS on, every shot), a plain smooth brown leather collar (smooth band, NO studs, NO spikes, NO metal plates, NO front buckle) with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart shape — NOT round, NOT blank; identical every scene), soft fluffy orange fur with darker tabby stripes, ALL 4 PAWS — both FRONT and both BACK — the SAME orange ginger tabby color as the body (NO white paws, NO white socks, NO white mittens, NO white toes, NO white BACK paws), tail orange ginger tabby to the very tip (NO white tail tip), pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar/Disney 3D ANIMATED CARTOON style (stylized smooth cartoon shading, big cartoon eyes, rounded cartoon forms — like a frame from a Pixar movie, NOT photorealistic, NOT a real cat, NOT realistic fur), soft cartoon lighting, vertical 9:16 composition.
-
-INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: ONE plain SOLID sage-green woven rug — solid sage-green color, NO pattern, NO border, NO fringe, simple rectangular shape — in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (OFF, lampshade cream-colored) and ONE small open book lying face-down beside the lamp. WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains letting in soft warm afternoon daylight from the upper-left. PLANT: ONE leafy snake plant (Sansevieria) with 5–7 upright sword-shaped dark-green leaves with lighter variegated cream-green stripes, positioned in a small terracotta pot BESIDE the window on the floor. NO other plants. NO wall art (clean cream wall behind). LIGHTING: soft warm honey-amber ambient with daylight bloom from the window. Cozy lived-in atmosphere, shallow depth of field — armchair and window slightly soft-focus.
-
-FRAMING: MEDIUM CLOSE-UP, front-facing, eye-level. Brain sits on the sage-green rug, looking DIRECTLY at camera with warm, friendly eye contact. ONE front paw slightly raised in a gentle half-wave. Ears relaxed and upright. Expression: warm, friendly, inviting — the cozy sign-off look. Tail curls around his front paws. Mouth softly closed.
-```
-
-**Negatives:**
-```
-2D, flat, anime, cel-shaded, photorealistic cat, realistic cat, real cat, photoreal, hyperrealistic, realistic fur, photograph, live action, lifelike, 3D realism, multiple cats, two cats, second cat, extra cat, low quality, blurry, distorted face, extra limbs, extra paws, five legs, six legs, both front paws raised, two paws raised together, missing glasses, glasses removed, missing collar, missing heart tag, watermark, white paws, white socks, white mittens, white toes, white feet, white-tipped paws, white back paws, white hind paws, brown eyes, amber eyes, yellow eyes, hazel eyes, golden eyes, blue eyes, cyan eyes, grey eyes, wrong eye color, green sclera, green eye-whites, fully green eyes, green-tinted eyeballs, white tail tip, round tag, blank tag, two tags, studded collar, spiked collar, patterned rug, beige rug, fringed rug
-```
-
----
-
-**🎬 Animation-промт для Veo 3 (copy-paste):**
-
-```
-SHOT: Static medium close-up, front-facing, eye-level — 7 seconds.
-
-TIME 0–2s: Brain looks directly at camera. Ears upright. Tail curls gently. ONE front paw raised in a soft half-wave.
-TIME 2–4s: Brain performs ONE slow blink — eyes close fully, then reopen. His expression is warm and inviting.
-TIME 4–6s: Brain lowers the raised paw. His mouth opens briefly for ONE single soft meow (mouth closes immediately after — no more movement).
-TIME 6–7s: Brain is back to soft direct eye contact. One ear flick. Tail swish. Hold.
-
-EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera (white of the eye clearly visible all around) with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil in the center. ONLY the small iris is green — the white of the eye/sclera stays PURE WHITE, NEVER tinted green, NEVER a fully-green eyeball. Iris NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER BLUE, NEVER CYAN, NEVER grey.
-
-GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip.
-
-SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat in frame at all times — Brain. NEVER add a second cat.
-
-STYLE RULE (strict): Pixar 3D animated CARTOON style throughout — NEVER photorealistic. Brain's identity stays IDENTICAL to the input image.
-
-ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear). Body stays slender 8-week-old kitten. Keep the brown collar with the gold heart tag visible.
-
-ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable — 2 ears, 4 paws, kitten proportions. Ears NEVER elongate. Character stays IDENTICAL to input image throughout.
-
-MOUTH RULE EXCEPTION (this scene only): At TIME 4–6s, Brain's mouth opens briefly for ONE single soft meow, then immediately closes. This is the ONLY mouth movement in the entire clip. No repetitive open/close. No lip-sync. The meow is a single beat — mouth closed before and after.
-
-MOTION RULE (strict): Camera is static. Only Brain's wave, slow blink, single meow, ear flick, and tail swish move. Modest, warm.
-
-STYLE: Pixar 3D animated CARTOON, warm honey-amber ambient light, vertical 9:16, soft depth of field.
-```
-
----
-
-**🎙️ Voiceover:**
-
-🇬🇧 EN:
-```
-Does your cat miss you? Follow Brain for more cat secrets.
-```
-
-🇷🇺 RU:
-```
-Скучает ли твоя кошка по тебе? Подписывайся на Brain — больше кошачьих секретов каждый день.
-```
-
-> **End card:** after Scene 8, append the reusable Brain end card (Thanks For Watching + Like + Subscribe) — Short variant (3 sec) to keep total runtime under 60 sec.
+> **End card:** after Scene 7, append the reusable Brain end card (Thanks For Watching + Like + Subscribe) — Short variant (3 sec).
 
 ---
 
 ## 🎵 Промт для музыки (Suno)
 
-**Логика трека:** soft curious open → build on the science reveal → emotional swell at the heart-pupils twist → warm gentle close. ~60s total.
+**Логика трека:** soft curious open → build on science reveal → emotional swell at heart-pupils twist → warm gentle close. ~60s.
 
 **Полный промт:**
 
 ```
-Cozy curious cat psychology short film score, warm acoustic piano melody with soft synth pad underneath, gentle ambient texture, playful but slightly introspective, 100 BPM, uplifting and warm tone — NOT sad, NOT dramatic, NOT epic. [HOOK STING 0-3s: single clear piano note with a soft sparkle shimmer, brief attention-grab] [BUILD 3-25s: piano melody continues with light synth pad layering in, building gently, curious and light] [PAYOFF SWELL 25-45s: add warm soft string pad or gentle brass swell, emotional warmth peaks — this is the "aha" moment, heartwarming not epic] [SOFT CLOSE 45-60s: strip back to piano + ambient pad, gentle fade, warm and resolved]. Instrumental only, no vocals, no lyrics, no percussion heavier than a soft brush snare. 60 seconds.
+Cozy curious cat psychology short film score, warm acoustic piano melody with soft synth pad underneath, gentle ambient texture, playful but slightly introspective, 100 BPM, uplifting and warm tone — NOT sad, NOT dramatic, NOT epic. [HOOK STING 0-3s: single clear piano note with a soft sparkle shimmer] [BUILD 3-25s: piano melody continues with light synth pad layering in, building gently, curious and light] [PAYOFF SWELL 25-45s: add warm soft string pad or gentle brass swell, emotional warmth peaks] [SOFT CLOSE 45-60s: strip back to piano + ambient pad, gentle fade, warm and resolved]. Instrumental only, no vocals, no lyrics, no heavy percussion. 60 seconds.
 ```
 
 **Альт-промт:**
@@ -722,29 +648,28 @@ Cute cat facts short music, warm piano, ambient synth, 100 BPM, cozy emotional, 
 
 ## Сборка в CapCut / Google Vids
 
-1. Загрузить клипы 1–8 по порядку
-2. VO-трек (Google Vids TTS, mouth closed setting) — один цельный файл
-3. Музыка на -18 LUFS, голос на -12 LUFS (~6 dB голос над музыкой)
-4. Субтитры верхняя треть, максимум 4 слова на экране (Nunito Bold, Electric Yellow #FFE066, charcoal outline)
-5. SFX: whoosh на переходах Sc1→2, Sc2→3; record scratch / sparkle ding на Sc6 (heart pupils moment = emotional peak); soft meow SFX on Sc8
+1. Клипы 1–7 по порядку + end card (3 сек) = ~48 сек
+2. VO-трек (Google Vids TTS, mouth closed) — один цельный файл
+3. Музыка на -18 LUFS, голос на -12 LUFS
+4. Субтитры верхняя треть, макс 4 слова на экране (Nunito Bold, Electric Yellow #FFE066, charcoal outline)
+5. SFX: whoosh Sc1→2, Sc2→3; sparkle ding на Sc6 (heart pupils); soft meow SFX на Sc7
 
 ## Заметки по монтажу
 
-- Sc 1→2: whip pan transition (энергия)
-- Sc 2→3: quick hard cut (смена локации)
-- Sc 3→4: slow dissolve (смена темпа — от науки к личному)
+- Sc 1→2: whip pan transition
+- Sc 2→3: hard cut (смена локации)
+- Sc 3→4: slow dissolve (от науки к личному)
 - Sc 4→5: hard cut
-- Sc 5→6: hard cut → slow push-in (pattern interrupt begins)
-- Sc 6→7: dissolve (emotional flow continues)
-- Sc 7→8: hard cut (энергия CTA)
-- Text overlay on Sc 3 (in Google Vids): "STRESS ↑" lower-third in #FFE066 Nunito Bold
-- Text overlay on Sc 6 (in Google Vids): "MOST TRUST = MOST MISS" in #FFE066 Nunito Bold, brief pop-in
+- Sc 5→6: hard cut → slow push-in начинается
+- Sc 6→7: dissolve (эмоциональный поток продолжается)
+- Overlay Sc3 (Google Vids): "STRESS ↑" нижняя треть, #FFE066 Nunito Bold
+- Overlay Sc6 (Google Vids): "MOST TRUST = MOST MISS" #FFE066 Nunito Bold, краткий pop-in
 
 ---
 
 ## SEO Pack
 
-> **Karena rules:** NO hashtags in the title field. Upload as Unlisted/Scheduled first (NOT Public). Upload 3 hours before publish time. Check with SEO Scorecard bot before publishing.
+> **Правила Карены:** NO хэштегов в поле title. Загружать как Unlisted/Scheduled, НЕ Public. За 3 часа до publish. Проверить SEO Scorecard бот перед публикацией.
 
 **Финальный title:**
 
@@ -752,7 +677,7 @@ Cute cat facts short music, warm piano, ambient synth, 100 BPM, cozy emotional, 
 Do Cats REALLY Miss You When You're Gone? 🐱 | Cat Psychology
 ```
 
-**Hashtags for description only (NOT in title):**
+**Hashtags (только в тело описания — НИКОГДА в title):**
 
 ```
 #shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts
@@ -780,7 +705,7 @@ Cat psychology explained in under 60 seconds. 🐱
 #shorts #catpsychology #catfacts #catbehavior #braincatai #didyouknow #petfacts #cats #catlover #catscience
 ```
 
-**Tags (видео-специфичные + базовый набор):**
+**Tags:**
 
 ```
 cat psychology, cat facts, cat behavior, cat secrets, cat science, cat communication, cat body language, feline behavior, understanding cats, facts about cats, animal facts, animal science, did you know, mind blowing facts, brain cat, cat facts daily, cat behavior funny, cat domestication, cats vs humans, braincatai, cat facts mind blowing, cat behavior explained, do cats miss you, do cats miss their owners, cat separation anxiety, cat secure attachment, cat stress, why cats rub your legs, cat missing owner, cat behavior when alone, cat home alone behavior, cats and owners bond
@@ -790,25 +715,25 @@ cat psychology, cat facts, cat behavior, cat secrets, cat science, cat communica
 
 ## 🖼️ ТУМБНЕЙЛ (ОБЯЗАТЕЛЬНО)
 
-**Концепт:** Brain with SHOCKED "WHAT?!" wide eyes + heart pupils from Sc 6 as the image — dilated emerald eyes locked into viewer. Hook object: a closed cartoon front door (bottom-right corner). Text: "THEY MISS YOU" / "SECRETLY 🤯"
+**Концепт:** Brain с SHOCKED «WHAT?!» глазами смотрит в камеру. Hook-объект: закрытая cartoon-дверь (правый нижний угол). Текст: «THEY MISS YOU» / «SECRETLY 🤯»
 
 **🖼️ Промт для тумбнейла (Nano Banana 2 — «5 Signs» formula):**
 
 ```
-EXTREME CLOSE-UP of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain — face fills ~60% of frame, slight 2-4° tilt for energy. Big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil in the center; ONLY the small iris is colored green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. EYES WIDE AND DILATED locked DIRECTLY into the viewer with SHOCKED "WHAT?!" expression — wide-open emerald eyes, pupils large and round (NOT heart-shaped in this thumbnail — round shocked pupils). Ears perked sharply UP and forward. Mouth closed in a soft surprised line. Small thin round gold-framed glasses ALWAYS on. Plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the tip, EXACTLY 2 ears, EXACTLY 4 paws. Pixar/Disney 3D ANIMATED CARTOON style (stylized smooth cartoon shading, NOT photorealistic, NOT a real cat). Vertical 9:16.
+EXTREME CLOSE-UP of cute Pixar/Disney 3D ANIMATED CARTOON orange tabby kitten Brain — face fills ~60% of frame, slight 2-4° tilt for energy. Big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil in the center; ONLY the small iris is colored green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera. EYES WIDE AND DILATED locked DIRECTLY into the viewer with SHOCKED "WHAT?!" expression — wide-open emerald eyes, pupils large and round (NOT heart-shaped — round shocked pupils). Ears perked sharply UP and forward. Mouth closed in a soft surprised line. Small thin round gold-framed glasses ALWAYS on. Plain smooth brown leather collar with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain". Soft fluffy orange tabby fur with darker stripes, ALL 4 paws ginger (NO white socks), tail ginger to the tip, EXACTLY 2 ears, EXACTLY 4 paws. Pixar/Disney 3D ANIMATED CARTOON style (stylized smooth cartoon shading, NOT photorealistic, NOT a real cat). Vertical 9:16.
 
-HOOK ELEMENT (~20-25% of frame, lower-RIGHT corner, NOT covering face): a simple cartoon CLOSED FRONT DOOR — wooden door with a round doorknob, slightly stylized Pixar-cartoon style, faint warm light underneath the door gap. The door represents "you leaving." Should READ in 0.5s at thumbnail size.
+HOOK ELEMENT (~20-25% of frame, lower-RIGHT corner, NOT covering face): a simple cartoon CLOSED FRONT DOOR — wooden door with a round doorknob, slightly stylized Pixar-cartoon style, faint warm light underneath the door gap. Should READ in 0.5s at thumbnail size.
 
 BACKGROUND: cozy living room HEAVILY BLURRED with warm honey-amber bokeh (sage rug + cream armchair faintly visible but heavy DOF). Brain is rim-lit so he POPS off the background. High contrast.
 
-TEXT PLATE (BIG and BOLD, positioned in the LOWER-MIDDLE of the frame at roughly 55-70% height — raised CLEAR of the very bottom edge so it is NOT cut off by the phone UI / duration badge. Text is LARGE, filling ~85-90% of the frame width, easily readable on a small phone screen. 2 lines, ALL CAPS, slight 2-3° tilt, BOLD ROUNDED GEOMETRIC SANS-SERIF Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, solid charcoal #2B2B2B outline 6px, soft black drop-shadow).
+TEXT PLATE (BIG and BOLD, positioned in the LOWER-MIDDLE of the frame at roughly 55-70% height — raised CLEAR of the very bottom edge. Text LARGE, filling ~85-90% of frame width, easily readable on a small phone screen. 2 lines, ALL CAPS, slight 2-3° tilt, BOLD ROUNDED GEOMETRIC SANS-SERIF Fredoka One / Nunito Bold, Electric Yellow #FFD23F fill, solid charcoal #2B2B2B outline 6px, soft black drop-shadow).
 LINE 1: "THEY MISS YOU"
 LINE 2: "SECRETLY 🤯"
 
-TYPOGRAPHY LOCK (strict — same font on every BrainCatAI thumbnail): single font family, soft rounded terminals, NO serifs, NO brush-script, NO Comic Sans, NO Papyrus, NO Impact.
+TYPOGRAPHY LOCK (strict): single font family, soft rounded terminals, NO serifs, NO brush-script, NO Comic Sans, NO Papyrus, NO Impact.
 
-EYE COLOR RULE (strict): Each eye = LARGE PURE WHITE sclera with medium round EMERALD-GREEN iris (#3DDC84) and black pupil — only the small iris is green, sclera stays pure white, NEVER a fully-green eyeball, NEVER green sclera.
-ANATOMY RULE (strict): EXACTLY 4 paws AND EXACTLY 2 EARS. NO 5th paw, NO phantom 3rd ear, NO extra fur tuft.
+EYE COLOR RULE (strict): Each eye = LARGE PURE WHITE sclera with medium round EMERALD-GREEN iris (#3DDC84) and black pupil — only the small iris is green, sclera stays pure white, NEVER a fully-green eyeball.
+ANATOMY RULE (strict): EXACTLY 4 paws AND EXACTLY 2 EARS. NO 5th paw, NO phantom 3rd ear.
 STYLE RULE (strict): Pixar/Disney 3D ANIMATED CARTOON. NOT photorealistic, NOT a real cat.
 LANGUAGE RULE (strict): All on-screen text in ENGLISH only. NO Russian text, NO Cyrillic.
 ```
@@ -816,14 +741,14 @@ LANGUAGE RULE (strict): All on-screen text in ENGLISH only. NO Russian text, NO 
 **Negative prompts (thumbnail):**
 
 ```
-2D flat, anime, photorealistic cat, real cat, photoreal, hyperrealistic, multiple cats, second cat, low quality, blurry, cluttered background, busy background, distorted face, extra limbs, extra paws, five legs, three ears, extra ear, phantom ear, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, yellow eyes, hazel eyes, green sclera, green eye-whites, fully green eyes, green-tinted eyeballs, white paws, white socks, white tail tip, round tag, blank tag, mouth open as if talking, talking cat, serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, gradient text, neon text, metallic text, multiple fonts, mixed typography, sharp serifs on text, calligraphy, Russian text, Cyrillic letters, ugly, scary, watermark, logo, heart-shaped pupils (thumbnail uses round shocked pupils)
+2D flat, anime, photorealistic cat, real cat, photoreal, hyperrealistic, multiple cats, second cat, low quality, blurry, cluttered background, busy background, distorted face, extra limbs, extra paws, five legs, three ears, extra ear, phantom ear, missing glasses, missing collar, missing heart tag, brown eyes, amber eyes, yellow eyes, hazel eyes, green sclera, green eye-whites, fully green eyes, green-tinted eyeballs, white paws, white socks, white tail tip, round tag, blank tag, mouth open as if talking, talking cat, serif font, hand-drawn text, brush-script font, Comic Sans, Papyrus, Impact font, gradient text, neon text, metallic text, multiple fonts, mixed typography, sharp serifs on text, calligraphy, Russian text, Cyrillic letters, ugly, scary, watermark, logo, heart-shaped pupils
 ```
 
 ---
 
 ## 📌 Закрепляемый комментарий (Pinned comment)
 
-**→ Также добавить в [`pinned-comments.md`](../pinned-comments.md) как следующую пронумерованную запись.**
+**→ Добавлен в [`pinned-comments.md`](../pinned-comments.md) как запись #51.**
 
 🇬🇧 EN:
 ```
