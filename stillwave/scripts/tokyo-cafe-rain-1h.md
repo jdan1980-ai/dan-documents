@@ -110,19 +110,22 @@ Japanese ambient instrumental, a quiet dialogue between koto and solo piano — 
 > *(Перед сохранением: нет читаемого текста нигде. Содержимое блокнота = только абстрактные штрихи.)*
 
 ```
-Photorealistic cinematic interior, modern cosy Japanese café in Tokyo at night during heavy rain. The café has a clean contemporary Japandi design — light natural oak wood, white concrete walls, matte black metal accents, large lush green plants (monstera, trailing pothos). The overall feeling is warm, minimal, and inviting — modern without being cold.
+Photorealistic cinematic interior, modern cosy Japanese café in Tokyo at night during heavy rain. 4K. Ultra-wide 16:9.
 
-HERO ELEMENT: the entire back wall of the café is a massive floor-to-ceiling panoramic window. Through the rain-streaked glass, dominating the view, stands the Tokyo Skytree tower — fully lit in its signature cool blue-white LED gradient, the upper lattice glowing against the dark rainy sky. Rain runs in long streaks down the glass, softly blurring the tower into a luminous blue bokeh column. The city below: a sea of warm amber and white streetlights stretching to the horizon, distant high-rise windows lit in yellow grids, wet streets reflecting the Skytree glow.
+CAMERA ANGLE: camera is placed DIRECTLY IN FRONT of the scene, facing STRAIGHT AHEAD — perfectly frontal, completely symmetrical composition, NO side angle, NO Dutch tilt, NO perspective distortion. The viewer is sitting in the armchair looking straight at the window. Eye-level shot, horizon line at mid-frame.
 
-FOREGROUND (left side, window seat): a single comfortable low armchair in warm oatmeal bouclé fabric angled toward the panoramic window. Next to it: a small round light oak table with a ceramic pour-over coffee dripper (black, modern), a white ceramic mug with steam rising, an open notebook (abstract handwritten stripes — NOT readable letters), and a small potted succulent. The table surface is clean and uncluttered.
+LIGHTING: the café interior is DARK and MOODY — not a bright showroom. The only light sources are: (1) ONE warm amber pendant light hanging low directly above the coffee table, casting a tight warm pool of light on the table surface and the mug — the rest of the ceiling is in deep shadow; (2) the cool blue glow of the Tokyo Skytree bleeding through the rain-streaked window — this is the DOMINANT light source filling the background; (3) the faint ambient reflection of city lights on the wet glass. The walls and ceiling are in darkness. Corners are black. This is a cinematic low-key exposure — shadows everywhere except the table pool and the glowing window.
 
-CAFÉ INTERIOR (right mid-ground): a sleek minimal café counter in light oak and matte black — a modern espresso machine (clean white design, no vintage elements), a small glass pastry display case, two bar stools. Pendant lights hang from the concrete ceiling — geometric matte black cylinders, warm white glow. A large monstera plant in a matte black pot stands in the corner.
+COMPOSITION (front to back, perfectly symmetrical):
+— FOREGROUND: a low round oak coffee table centred in the lower frame. On it: a white ceramic mug with a thin wisp of steam, a ceramic pour-over dripper (matte black), an open notebook (abstract handwritten stripes, NOT readable letters), one small succulent. No clutter. The amber pendant light pools warmly on this table only.
+— MID-GROUND: a single wide low armchair in warm sand-coloured bouclé fabric, centred in frame, facing the camera. A light knit throw blanket draped over one armrest. The armchair sits in near-darkness — only the table's amber light touches its front edge.
+— BACKGROUND: the entire back wall is a massive floor-to-ceiling panoramic window with heavy rain running down the glass in long dense streaks. Beyond the glass, perfectly centred: the Tokyo Skytree tower glowing in cool electric blue-white LED light — tall, luminous, partly blurred by the rain into a blue bokeh column. The city below is a sea of blurred amber and cool white lights in deep darkness. The Skytree glow is the brightest element in the entire image — the eye goes there first.
 
-Three light sources: warm pendant light glow (amber-white, primary), cool blue Skytree glow bleeding through the rain-streaked window (secondary accent), soft laptop/notebook reflection on the table surface (tertiary).
+MOOD: late night, solitude, rain, focus. The kind of café where one person sits with a coffee and a notebook and the city is three floors below.
 
-Colour palette: warm light oak, white concrete, matte black, oatmeal bouclé, lush green plants — with the cool blue Skytree luminescence as the single dramatic accent through the rain-streaked window.
+Colour temperature contrast: warm amber (table pool) vs cool electric blue (Skytree through rain). Everything else is dark grey and shadow.
 
-NO text overlays. NO logos. NO watermarks. NO readable text anywhere (notebook = abstract stripes only). NO vintage elements — no vinyl, no Edison bulbs, no tube amps. 4K photorealistic, cinematic shallow depth of field focused on the mug and notebook, Skytree through the rain as glowing blue bokeh. Modern cosy Tokyo café on a rainy night.
+NO text overlays. NO logos. NO watermarks. NO readable text (notebook = abstract stripes only). NO vintage elements. NO side angle — perfectly straight-on frontal shot only. Cinematic shallow depth of field: sharp on the mug and notebook, armchair softly blurred, Skytree and rain fully blurred into glowing bokeh.
 ```
 
 ## 4. NanoBanana 9:16 (Shorts cross-promo / thumbnail crop)
@@ -131,19 +134,21 @@ NO text overlays. NO logos. NO watermarks. NO readable text anywhere (notebook =
 > *Генерируем отдельно от §3. Используется для: обложка Шортс + вертикальная кросс-промо версия.*
 
 ```
-Photorealistic cinematic vertical 9:16, modern cosy Japanese café in Tokyo at night during heavy rain.
+Photorealistic cinematic vertical 9:16, modern cosy Japanese café in Tokyo at night during heavy rain. Dark, moody, intimate.
 
-LOWER THIRD of frame: foreground close-up of a small round light oak table — white ceramic mug with steam rising, open notebook (abstract handwritten stripes, NOT readable letters), small black succulent pot. The table surface is clean and minimal. Rain-streaked panoramic window immediately behind the table, water droplets running down the glass.
+CAMERA ANGLE: perfectly straight-on frontal shot — camera facing directly ahead, NO side angle, completely symmetrical. Eye-level from the seated position.
 
-MIDDLE THIRD of frame: the panoramic café window dominates — rain running in long vertical streaks down the glass. Beyond the glass, centred and filling the middle of the frame: the Tokyo Skytree tower lit in cool blue-white LED gradient, glowing luminously through the rain. The Skytree is slightly blurred by the rain on the glass — a soft blue bokeh column of light. City lights below: amber and white streetlight sea, wet streets reflecting blue.
+LIGHTING: very dark interior — moody low-key. One warm amber pendant light above the table creates a tight pool of warmth in the lower third. The rest of the interior is in deep shadow. The Skytree glow through the rain-streaked window is the dominant background light — cool electric blue filling the middle and upper frame.
 
-UPPER THIRD of frame: the modern café interior continues upward — concrete ceiling with geometric matte black pendant lights glowing warm white, a large monstera plant visible at the upper edge, the top of the café counter in light oak.
+LOWER THIRD of frame: close-up of the round oak coffee table in the amber light pool — white ceramic mug with thin steam wisp, open notebook (abstract stripes, NOT readable letters), ceramic pour-over dripper. Table in warm amber light, everything else dark around it.
 
-Three light sources: warm pendant amber-white from above, cool Skytree blue bleeding through rain glass in the middle, soft steam glow from the mug below.
+MIDDLE THIRD of frame: the panoramic window fills the entire width — dense rain running in long vertical streaks down the glass. Through the glass, dead centre: Tokyo Skytree glowing in electric blue-white light, blurred by the rain into a luminous blue bokeh column. City lights below as blurred warm amber sea in darkness.
 
-Colour palette: light oak, white concrete, matte black, lush green plants, oatmeal — with the cool Skytree blue as dramatic window accent.
+UPPER THIRD of frame: mostly dark ceiling with the single pendant light visible as a warm source. A monstera leaf partially visible on the upper left edge. Deep shadow everywhere except the Skytree glow outside.
 
-NO text overlays. NO logos. NO readable text. NO vintage elements. 4K photorealistic, shallow depth of field on the mug and notebook, Skytree glowing through rain-streaked glass as midground hero. Modern cosy rainy Tokyo café night.
+Colour contrast: warm amber pool (lower, table) vs electric blue Skytree (upper, window). Everything else dark.
+
+NO text overlays. NO logos. NO readable text. NO side angle. NO bright even lighting. 4K photorealistic, shallow DOF: mug and notebook sharp, window rain and Skytree fully bokeh. Dark moody rainy Tokyo café night.
 ```
 
 ---
