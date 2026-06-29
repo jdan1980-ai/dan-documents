@@ -110,7 +110,19 @@ Japanese ambient instrumental, a quiet dialogue between koto and solo piano — 
 > *(Перед сохранением: нет читаемого текста нигде. Содержимое блокнота = только абстрактные штрихи.)*
 
 ```
-Photorealistic cinematic interior, small intimate Japanese jazz kissaten café in the Shimokitazawa neighbourhood of Tokyo, late afternoon during heavy rain. Warm, low-ceilinged, slightly cluttered with character — the opposite of luxury minimalism: cosy, layered, lived-in. Walls lined with floor-to-ceiling wooden shelves holding hundreds of vinyl records in paper sleeves, a few well-thumbed jazz paperbacks wedged between the records. Edison filament bulbs hanging on copper wire from the ceiling glow amber-warm. LEFT SIDE of frame: a narrow window seat — a single wooden chair and small round table pressed against a tall window. On the table: an open notebook with handwritten Japanese characters on the left page and English notes on the right, a ceramic espresso cup (half-drunk), a small glass ashtray (empty, clean), a vintage Zippo lighter. The window is steamed at the edges; rain streaks run vertically down the lower half of the glass; beyond the glass — rain-blurred bokeh of Shimokitazawa street: warm yellow of a ramen shop sign across the lane, a red bicycle leaning against a utility pole, a figure under an umbrella passing quickly. RIGHT SIDE of frame: the café counter in the mid-ground — a short wooden bar, a vintage La Marzocco espresso machine with steam rising from the wand, a row of jazz LP covers propped up as décor (no readable text — abstract cover shapes), a small tube amplifier glowing blue-orange, a Technics SL-1200 turntable with a record spinning. The café owner — visible only as a silhouette in the back, turning away — adjusting something on a shelf. Soft atmospheric layers: amber Edison glow (primary warmth), pale window light filtered through rain and steam (cool secondary), faint neon pink from the ramen shop across the street bleeding through the rain-streaked window as a soft bokeh accent. Colour palette: warm cedar brown wood, aged cream paper, deep shadow charcoal, amber filament glow, steamed glass grey. NO text overlays in image. NO logos. NO watermarks. NO readable text anywhere. 4K photorealistic, cinematic shallow depth of field focused on the notebook and espresso cup, rain and records as soft bokeh. Contemplative rainy afternoon jazz café Tokyo mood.
+Photorealistic cinematic interior, modern cosy Japanese café in Tokyo at night during heavy rain. The café has a clean contemporary Japandi design — light natural oak wood, white concrete walls, matte black metal accents, large lush green plants (monstera, trailing pothos). The overall feeling is warm, minimal, and inviting — modern without being cold.
+
+HERO ELEMENT: the entire back wall of the café is a massive floor-to-ceiling panoramic window. Through the rain-streaked glass, dominating the view, stands the Tokyo Skytree tower — fully lit in its signature cool blue-white LED gradient, the upper lattice glowing against the dark rainy sky. Rain runs in long streaks down the glass, softly blurring the tower into a luminous blue bokeh column. The city below: a sea of warm amber and white streetlights stretching to the horizon, distant high-rise windows lit in yellow grids, wet streets reflecting the Skytree glow.
+
+FOREGROUND (left side, window seat): a single comfortable low armchair in warm oatmeal bouclé fabric angled toward the panoramic window. Next to it: a small round light oak table with a ceramic pour-over coffee dripper (black, modern), a white ceramic mug with steam rising, an open notebook (abstract handwritten stripes — NOT readable letters), and a small potted succulent. The table surface is clean and uncluttered.
+
+CAFÉ INTERIOR (right mid-ground): a sleek minimal café counter in light oak and matte black — a modern espresso machine (clean white design, no vintage elements), a small glass pastry display case, two bar stools. Pendant lights hang from the concrete ceiling — geometric matte black cylinders, warm white glow. A large monstera plant in a matte black pot stands in the corner.
+
+Three light sources: warm pendant light glow (amber-white, primary), cool blue Skytree glow bleeding through the rain-streaked window (secondary accent), soft laptop/notebook reflection on the table surface (tertiary).
+
+Colour palette: warm light oak, white concrete, matte black, oatmeal bouclé, lush green plants — with the cool blue Skytree luminescence as the single dramatic accent through the rain-streaked window.
+
+NO text overlays. NO logos. NO watermarks. NO readable text anywhere (notebook = abstract stripes only). NO vintage elements — no vinyl, no Edison bulbs, no tube amps. 4K photorealistic, cinematic shallow depth of field focused on the mug and notebook, Skytree through the rain as glowing blue bokeh. Modern cosy Tokyo café on a rainy night.
 ```
 
 ## 4. NanoBanana 9:16 (Shorts cross-promo / thumbnail crop)
@@ -119,7 +131,19 @@ Photorealistic cinematic interior, small intimate Japanese jazz kissaten café i
 > *Генерируем отдельно от §3. Используется для: обложка Шортс + вертикальная кросс-промо версия.*
 
 ```
-Photorealistic cinematic vertical 9:16, small intimate Japanese jazz kissaten in Shimokitazawa, Tokyo, late afternoon rain. LOWER THIRD of frame: close-up of the narrow window-seat table — open notebook (Japanese + English handwriting, no readable letters), ceramic espresso cup with steam rising, rain-streaked café window immediately behind the table, water droplets on the lower glass. MIDDLE of frame: the steamed café window dominates — rain running down in long vertical streaks, beyond the glass a rain-blurred bokeh of the Shimokitazawa lane: warm yellow ramen-shop sign, red bicycle silhouette, a figure with umbrella. UPPER THIRD of frame: the low ceiling of the café — amber Edison filament bulbs on copper wire, the tops of vinyl-record shelves, a section of the café bar with the turntable visible (record spinning). Three light sources: Edison amber glow from above, cool rain-filtered window light in the middle, faint neon pink bokeh from outside. Warm cedar and aged cream palette, deep shadows. NO text overlays. NO logos. NO readable text. 4K photorealistic, shallow depth of field on the notebook and espresso cup, rain-streaked glass as midground, café records and bulbs as top bokeh. Intimate rainy afternoon Tokyo café mood.
+Photorealistic cinematic vertical 9:16, modern cosy Japanese café in Tokyo at night during heavy rain.
+
+LOWER THIRD of frame: foreground close-up of a small round light oak table — white ceramic mug with steam rising, open notebook (abstract handwritten stripes, NOT readable letters), small black succulent pot. The table surface is clean and minimal. Rain-streaked panoramic window immediately behind the table, water droplets running down the glass.
+
+MIDDLE THIRD of frame: the panoramic café window dominates — rain running in long vertical streaks down the glass. Beyond the glass, centred and filling the middle of the frame: the Tokyo Skytree tower lit in cool blue-white LED gradient, glowing luminously through the rain. The Skytree is slightly blurred by the rain on the glass — a soft blue bokeh column of light. City lights below: amber and white streetlight sea, wet streets reflecting blue.
+
+UPPER THIRD of frame: the modern café interior continues upward — concrete ceiling with geometric matte black pendant lights glowing warm white, a large monstera plant visible at the upper edge, the top of the café counter in light oak.
+
+Three light sources: warm pendant amber-white from above, cool Skytree blue bleeding through rain glass in the middle, soft steam glow from the mug below.
+
+Colour palette: light oak, white concrete, matte black, lush green plants, oatmeal — with the cool Skytree blue as dramatic window accent.
+
+NO text overlays. NO logos. NO readable text. NO vintage elements. 4K photorealistic, shallow depth of field on the mug and notebook, Skytree glowing through rain-streaked glass as midground hero. Modern cosy rainy Tokyo café night.
 ```
 
 ---
@@ -133,28 +157,27 @@ Photorealistic cinematic vertical 9:16, small intimate Japanese jazz kissaten in
 > *(Должна быть идеально бесшовной — последний кадр = первый кадр. Перегенерируй, если виден разрыв или вспышка на точке петли.)*
 
 ```
-SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour focus video. Photorealistic cinematic Tokyo jazz café interior, Shimokitazawa, rainy afternoon. Camera COMPLETELY LOCKED — no pan, no zoom, no dolly, no shake. Frame stays identical to the start image.
+SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour focus video. Photorealistic cinematic modern Tokyo café at night, rainy. Camera COMPLETELY LOCKED — no pan, no zoom, no dolly, no shake. Frame stays identical to the start image.
 
-FOUR continuous motion elements that loop seamlessly:
+THREE continuous motion elements that loop seamlessly:
 
-1. RAIN ON WINDOW (dominant): Rain streaks run continuously down the café window glass — droplets form at the top edge and trickle down at varied natural speeds. Some join into longer streams. Rain never stops.
+1. RAIN ON WINDOW (dominant): Rain streaks run continuously down the panoramic café window glass — droplets form at the top edge and trickle diagonally down at varied natural speeds. Some droplets join into longer streams. The Skytree glow through the glass pulses very subtly (barely perceptible breathing — 0-10% intensity variation) as rain blurs and clears it moment to moment. Rain never stops.
 
-2. VINYL RECORD (right side bar): The Technics turntable record rotates slowly and continuously — one full rotation approximately every 1.8 seconds. The tonearm stays still; only the record platter rotates.
+2. MUG STEAM (foreground table): A thin wisp of steam rises from the white ceramic mug — a continuous gentle upward curl that drifts very slightly to the right, then loops seamlessly. Never stops.
 
-3. ESPRESSO STEAM (right side bar): A thin wisp of steam rises from the espresso machine steam wand — continuous upward curl that drifts very slightly left, then loops. Never stops.
-
-4. NOTEBOOK PAGE (foreground table): The open notebook — on the right-hand page, an abstract handwritten text line appears character-by-character over 5 seconds (typewriter-style abstract stripes, NOT readable letters), then gently fades at loop point. The left page stays still with existing writing.
+3. NOTEBOOK PAGE (foreground table): On the open notebook, an abstract handwritten line appears character-by-character over 5 seconds (typewriter-style abstract stripes, NOT readable letters), then fades softly at loop point and restarts. Never readable letters — only abstract stroke shapes.
 
 EVERYTHING ELSE COMPLETELY STILL:
-- Edison bulbs: constant amber glow, no flicker
-- Espresso cup: still (steam handled separately)
-- Vinyl record covers on wall: still
-- Café owner silhouette in back: completely still
-- Outside street bokeh: static — neon pink glow constant, no flashing
+- Pendant lights: constant warm white glow, no flicker
+- Monstera plant: completely still, no leaf movement
+- Café counter and espresso machine: still
+- Skytree tower shape through glass: static blue glow (only the rain blurring it creates subtle movement — NOT the tower itself moving or flashing)
+- Bouclé armchair: still
+- City lights below: static amber glow, no movement
 
-PERFECTLY SEAMLESS — last frame matches first frame for invisible ffmpeg join. NO new objects. NO scene transitions. NO camera moves. NO dramatic changes.
+PERFECTLY SEAMLESS — last frame matches first frame for invisible loop join. NO new objects. NO scene transitions. NO camera moves. NO dramatic changes.
 
-4K photorealistic cinematic, warm amber + rain grey palette, intimate rainy café mood. Dominant motion: rain on glass + spinning record + espresso steam + subtle notebook writing.
+4K photorealistic cinematic, warm oak + concrete interior, cool blue Skytree glow through rain. Dominant motion: rain on glass + mug steam + notebook writing. Modern cosy Tokyo café night.
 ```
 
 ## 6. Assembly — CapCut (no ffmpeg needed for 1H)
