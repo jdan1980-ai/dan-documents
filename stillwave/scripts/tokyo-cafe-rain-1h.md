@@ -106,26 +106,31 @@ Japanese ambient instrumental, a quiet dialogue between koto and solo piano — 
 > *Генерируем одно изображение. Используется для: основа видео-петли + тумбнейл 16:9.*
 >
 > ⚠️ **Acceptance check before saving:**
-> No readable text anywhere in the frame. Notebook content = abstract stripes only.
-> *(Перед сохранением: нет читаемого текста нигде. Содержимое блокнота = только абстрактные штрихи.)*
+> (1) No readable text anywhere. (2) Face NOT visible — back of head and shoulders only. (3) Window = ONE unbroken panoramic glass, no frame divisions.
+> *(Перед сохранением: нет текста нигде. Лицо НЕ видно — только затылок и плечи. Окно = одно сплошное стекло без рам.)*
 
 ```
-Photorealistic cinematic interior, modern cosy Japanese café in Tokyo at night during heavy rain. 4K. Ultra-wide 16:9.
+Photorealistic cinematic interior, modern cosy Japanese apartment or café in Tokyo at night during heavy rain. 4K. Ultra-wide 16:9.
 
-CAMERA ANGLE: camera is placed DIRECTLY IN FRONT of the scene, facing STRAIGHT AHEAD — perfectly frontal, completely symmetrical composition, NO side angle, NO Dutch tilt, NO perspective distortion. The viewer is sitting in the armchair looking straight at the window. Eye-level shot, horizon line at mid-frame.
+SUBJECT: a single person seated in a wooden rocking chair, viewed completely from behind — face NEVER visible, back to camera. The person wears a loose warm knit sweater, relaxed and still. They sit in quiet stillness gazing out at the rain and the city. The figure is centred in the lower-centre of the frame. This is a "you are there" composition — the viewer inhabits the figure.
 
-LIGHTING: the café interior is DARK and MOODY — not a bright showroom. The only light sources are: (1) ONE warm amber pendant light hanging low directly above the coffee table, casting a tight warm pool of light on the table surface and the mug — the rest of the ceiling is in deep shadow; (2) the cool blue glow of the Tokyo Skytree bleeding through the rain-streaked window — this is the DOMINANT light source filling the background; (3) the faint ambient reflection of city lights on the wet glass. The walls and ceiling are in darkness. Corners are black. This is a cinematic low-key exposure — shadows everywhere except the table pool and the glowing window.
+CAMERA ANGLE: camera placed DIRECTLY BEHIND the person, facing straight ahead toward the window — perfectly symmetrical frontal composition. Eye-level with the seated figure's head. NO side angle, NO Dutch tilt.
 
-COMPOSITION (front to back, perfectly symmetrical):
-— FOREGROUND: a low round oak coffee table centred in the lower frame. On it: a white ceramic mug with a thin wisp of steam, a ceramic pour-over dripper (matte black), an open notebook (abstract handwritten stripes, NOT readable letters), one small succulent. No clutter. The amber pendant light pools warmly on this table only.
-— MID-GROUND: a single wide low armchair in warm sand-coloured bouclé fabric, centred in frame, facing the camera. A light knit throw blanket draped over one armrest. The armchair sits in near-darkness — only the table's amber light touches its front edge.
-— BACKGROUND: the entire back wall is a massive floor-to-ceiling panoramic window with heavy rain running down the glass in long dense streaks. Beyond the glass, perfectly centred: the Tokyo Skytree tower glowing in cool electric blue-white LED light — tall, luminous, partly blurred by the rain into a blue bokeh column. The city below is a sea of blurred amber and cool white lights in deep darkness. The Skytree glow is the brightest element in the entire image — the eye goes there first.
+LIGHTING: dark and moody interior — not a bright room. Light sources: (1) ONE warm amber pendant light hanging above, slightly forward of the chair — pools softly on the back of the person's hair and shoulders, and on the small side table to their right; (2) the Tokyo Skytree glow bleeding through the rain-streaked window = the DOMINANT cool blue-white background light filling the entire upper two-thirds of the frame; (3) faint city-light reflections on the wet glass. Walls, ceiling, and floor in deep shadow. Corners black. Cinematic low-key exposure.
 
-MOOD: late night, solitude, rain, focus. The kind of café where one person sits with a coffee and a notebook and the city is three floors below.
+ROCKING CHAIR: natural oak or walnut wood, classic curved runners, clean Scandinavian-Japanese design — elegant, not ornate. The chair is centred in frame, runners resting on a slightly worn wooden floor.
 
-Colour temperature contrast: warm amber (table pool) vs cool electric blue (Skytree through rain). Everything else is dark grey and shadow.
+SIDE TABLE (right of chair only): a small round oak side table to the RIGHT of the rocking chair — a white ceramic mug with a thin wisp of steam rising. Nothing else on the table. This is the only foreground object.
 
-NO text overlays. NO logos. NO watermarks. NO readable text (notebook = abstract stripes only). NO vintage elements. NO side angle — perfectly straight-on frontal shot only. Cinematic shallow depth of field: sharp on the mug and notebook, armchair softly blurred, Skytree and rain fully blurred into glowing bokeh.
+WINDOW (critical — must be correct): the entire back wall is ONE SINGLE UNINTERRUPTED PANORAMIC WINDOW — continuous glass from the left edge to the right edge of the frame with NO frame divisions, NO mullions, NO horizontal bars, NO vertical bars cutting the glass. One wide unbroken pane. Heavy rain runs down in long continuous streaks across the full width of the glass. Beyond the glass, perfectly centred and visible directly above the figure's head: Tokyo Skytree glowing in electric blue-white LED light — tall, luminous, blurred by rain into a glowing blue bokeh column. City lights spread left and right as a blurred warm amber sea in darkness far below.
+
+MOOD: late night, solitude, rain on the glass, time forgotten. One person. One window. One rainy night in Tokyo.
+
+Colour contrast: warm amber pendant glow (on person's back and side table) vs cool electric blue Skytree (through rain). Everything else in darkness and shadow.
+
+Keep the lower-left corner of the frame as DARK EMPTY NEGATIVE SPACE — no objects, no bright light, no detail in the bottom-left third. The chair and side table are centred and right of centre; lower-left is clean dark floor.
+
+NO face visible — back of head only. NO window frame divisions. NO text overlays. NO logos. NO readable text. Cinematic shallow DOF: the person's back and chair sharp, Skytree and rain as glowing bokeh. 4K photorealistic.
 ```
 
 ## 4. NanoBanana 9:16 (Shorts cross-promo / thumbnail crop)
@@ -134,21 +139,21 @@ NO text overlays. NO logos. NO watermarks. NO readable text (notebook = abstract
 > *Генерируем отдельно от §3. Используется для: обложка Шортс + вертикальная кросс-промо версия.*
 
 ```
-Photorealistic cinematic vertical 9:16, modern cosy Japanese café in Tokyo at night during heavy rain. Dark, moody, intimate.
+Photorealistic cinematic vertical 9:16, modern cosy Japanese apartment or café in Tokyo at night during heavy rain. Dark, moody, intimate.
 
-CAMERA ANGLE: perfectly straight-on frontal shot — camera facing directly ahead, NO side angle, completely symmetrical. Eye-level from the seated position.
+SUBJECT: a single person in a wooden rocking chair, viewed completely from behind — face NEVER visible, back of head and shoulders only. Loose warm knit sweater. Seated in stillness, gazing out at the rain and the Skytree.
 
-LIGHTING: very dark interior — moody low-key. One warm amber pendant light above the table creates a tight pool of warmth in the lower third. The rest of the interior is in deep shadow. The Skytree glow through the rain-streaked window is the dominant background light — cool electric blue filling the middle and upper frame.
+CAMERA ANGLE: perfectly straight-on, camera directly behind the person facing the window — NO side angle, symmetrical.
 
-LOWER THIRD of frame: close-up of the round oak coffee table in the amber light pool — white ceramic mug with thin steam wisp, open notebook (abstract stripes, NOT readable letters), ceramic pour-over dripper. Table in warm amber light, everything else dark around it.
+LOWER THIRD: the wooden rocking chair with the person's back fills the lower third — runners on the floor, the back of the chair and the person's shoulders clearly visible. A small round side table to the right edge with a white ceramic mug and thin steam wisp. The amber pendant glow catches the person's hair and the side table warmly. Floor in deep shadow.
 
-MIDDLE THIRD of frame: the panoramic window fills the entire width — dense rain running in long vertical streaks down the glass. Through the glass, dead centre: Tokyo Skytree glowing in electric blue-white light, blurred by the rain into a luminous blue bokeh column. City lights below as blurred warm amber sea in darkness.
+MIDDLE THIRD: the panoramic window fills the entire width — ONE single unbroken pane of glass (NO frame divisions, NO mullions). Dense rain running in long vertical streaks down the glass. Through the glass, dead centre: Tokyo Skytree glowing in electric blue-white light, blurred by rain into a luminous tall bokeh column. The Skytree is the brightest element — eye goes there first.
 
-UPPER THIRD of frame: mostly dark ceiling with the single pendant light visible as a warm source. A monstera leaf partially visible on the upper left edge. Deep shadow everywhere except the Skytree glow outside.
+UPPER THIRD: dark ceiling with the single amber pendant light visible as a warm point source. Deep shadow everywhere above except the Skytree glow through the window.
 
-Colour contrast: warm amber pool (lower, table) vs electric blue Skytree (upper, window). Everything else dark.
+Colour contrast: warm amber (pendant on person's back, side table) vs cool electric blue Skytree (filling the window). Everything else dark.
 
-NO text overlays. NO logos. NO readable text. NO side angle. NO bright even lighting. 4K photorealistic, shallow DOF: mug and notebook sharp, window rain and Skytree fully bokeh. Dark moody rainy Tokyo café night.
+NO face visible. NO window frame divisions. NO text. NO logos. 4K photorealistic, shallow DOF: person and chair sharp, Skytree and rain fully bokeh. Dark moody rainy Tokyo night.
 ```
 
 ---
@@ -158,31 +163,30 @@ NO text overlays. NO logos. NO readable text. NO side angle. NO bright even ligh
 > Feed the §3 (16:9) image as the start frame. Generate in Flow or Kling. Then loop in CapCut across full 1H.
 > *Подаём изображение из §3 (16:9) как стартовый кадр. Генерируем в Flow или Kling. Потом зацикливаем в CapCut на весь 1 час.*
 >
-> ⚠️ **Must be perfectly seamless** — last frame = first frame. Re-roll if there is any visible cut or flash at the loop point.
-> *(Должна быть идеально бесшовной — последний кадр = первый кадр. Перегенерируй, если виден разрыв или вспышка на точке петли.)*
+> ⚠️ **Must be perfectly seamless** — the rocking chair must return to its EXACT start position at frame 8. Re-roll if the loop seam is visible.
+> *(Должна быть идеально бесшовной — кресло-качалка должна вернуться в точно то же положение к кадру 8. Перегенерируй, если шов виден.)*
 
 ```
-SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour focus video. Photorealistic cinematic modern Tokyo café at night, rainy. Camera COMPLETELY LOCKED — no pan, no zoom, no dolly, no shake. Frame stays identical to the start image.
+SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour focus video. Photorealistic cinematic dark interior: one person from behind in a wooden rocking chair, facing a panoramic rain-streaked window with Tokyo Skytree beyond. Camera COMPLETELY LOCKED — no pan, no zoom, no dolly, no shake.
 
-THREE continuous motion elements that loop seamlessly:
+THREE motion elements that loop seamlessly:
 
-1. RAIN ON WINDOW (dominant): Rain streaks run continuously down the panoramic café window glass — droplets form at the top edge and trickle diagonally down at varied natural speeds. Some droplets join into longer streams. The Skytree glow through the glass pulses very subtly (barely perceptible breathing — 0-10% intensity variation) as rain blurs and clears it moment to moment. Rain never stops.
+1. ROCKING CHAIR — primary motion, the heart of the loop: the figure rocks gently and slowly in the chair — one complete, smooth back-and-forth cycle in exactly 8 seconds, returning to the IDENTICAL start position at frame 8 so the loop is perfectly seamless. The rock is SUBTLE — 10 to 15 degrees forward, then 10 to 15 degrees back. Slow, meditative, unhurried. The wooden runners move softly on the floor. The person's posture stays relaxed throughout — head never turns, no fidgeting, shoulders loose. The movement is hypnotic, like breathing.
 
-2. MUG STEAM (foreground table): A thin wisp of steam rises from the white ceramic mug — a continuous gentle upward curl that drifts very slightly to the right, then loops seamlessly. Never stops.
+2. RAIN ON WINDOW — constant background: rain streaks continuously run down the panoramic glass — droplets form at the top and trickle diagonally downward at varied natural speeds, some joining into streams. The Skytree glow pulses very subtly through the rain (barely perceptible — 0 to 8 percent intensity variation as raindrops blur and clear it momentarily). Rain never stops.
 
-3. NOTEBOOK PAGE (foreground table): On the open notebook, an abstract handwritten line appears character-by-character over 5 seconds (typewriter-style abstract stripes, NOT readable letters), then fades softly at loop point and restarts. Never readable letters — only abstract stroke shapes.
+3. MUG STEAM — side table, right of chair: a thin wisp of steam rises from the ceramic mug in a continuous gentle upward curl. Loops seamlessly. Never stops.
 
 EVERYTHING ELSE COMPLETELY STILL:
-- Pendant lights: constant warm white glow, no flicker
-- Monstera plant: completely still, no leaf movement
-- Café counter and espresso machine: still
-- Skytree tower shape through glass: static blue glow (only the rain blurring it creates subtle movement — NOT the tower itself moving or flashing)
-- Bouclé armchair: still
-- City lights below: static amber glow, no movement
+- Person's head: does not turn — moves only with the natural forward-back of the rocking
+- Pendant light: constant warm glow, no flicker
+- Walls, floor, ceiling: still
+- City lights below the window: static blurred amber glow, no movement
+- Skytree shape: static blue glow (only rain variation, NOT the tower moving or flashing)
 
-PERFECTLY SEAMLESS — last frame matches first frame for invisible loop join. NO new objects. NO scene transitions. NO camera moves. NO dramatic changes.
+PERFECTLY SEAMLESS — rocking chair returns to exact start position at frame 8 for an invisible loop join. The gentle rocking is the signature motion of this video — slow, meditative, hypnotic.
 
-4K photorealistic cinematic, warm oak + concrete interior, cool blue Skytree glow through rain. Dominant motion: rain on glass + mug steam + notebook writing. Modern cosy Tokyo café night.
+4K photorealistic cinematic, dark warm interior, cool blue Skytree glow through rain. Dominant motion: gentle rocking chair back-and-forth + rain on glass + mug steam. One person. One window. One rainy night in Tokyo.
 ```
 
 ## 6. Assembly — CapCut (no ffmpeg needed for 1H)
