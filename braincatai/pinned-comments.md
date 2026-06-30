@@ -309,6 +309,19 @@ ok the snake-face one always confuses me when he does it lol mine looks possesse
 ok finding out the headbutt is literally him claiming me as property is unhinged behavior i'm into it 😭 does YOUR cat headbutt you constantly or never? need data
 ```
 
+### 54. Do Cats REALLY Feel Jealous? (TBD) — Cat Psychology
+
+🇬🇧:
+```
+my cat literally does the laptop thing every single time without fail and i always thought she was just being annoying 😭 found out she was jealous of my laptop. of a laptop. i cannot. does yours have a specific thing they always interrupt?
+```
+🇷🇺:
+```
+моя кошка садится на ноутбук каждый раз без исключения и я всегда думала что просто вредничает 😭 оказывается она ревновала к ноутбуку. к ноутбуку. не могу. у вашей есть что-то конкретное что она всегда прерывает?
+```
+
+---
+
 ### 53. Do Cats REALLY Dream About You? (TBD) — Cat Psychology
 
 🇬🇧:
