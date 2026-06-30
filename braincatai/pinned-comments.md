@@ -309,6 +309,19 @@ ok the snake-face one always confuses me when he does it lol mine looks possesse
 ok finding out the headbutt is literally him claiming me as property is unhinged behavior i'm into it 😭 does YOUR cat headbutt you constantly or never? need data
 ```
 
+### 52. Do Cats REALLY Love You? (TBD) — Cat Psychology
+
+🇬🇧:
+```
+ok wait so i've been looking at my cat wrong this whole time 😭 she does the slow blink thing every morning and i just thought she was tired. turns out that was literally her saying i love you and i just... sat there. does yours do the blink or more of the grooming thing
+```
+🇷🇺:
+```
+подождите, я всё это время неправильно читала свою кошку 😭 она каждое утро так медленно моргает, я думала просто хочет спать. а оказывается это «я тебя люблю» и я просто сидела там. ваша больше моргает или вылизывает вас
+```
+
+---
+
 ### 51. Do Cats REALLY Miss You When You're Gone? (2026-06-29, 15:00) — Cat Psychology
 
 🇬🇧:
