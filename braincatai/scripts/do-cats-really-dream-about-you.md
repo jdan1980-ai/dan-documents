@@ -457,8 +457,10 @@ STYLE: Pixar 3D animated cartoon, warm amber lamplight from left, soft silver mo
 
 ### Sc7 — CTA (37–45s)
 
+> ⚡ **Ken Burns — NO Veo needed.** Статичное изображение + медленный zoom-in в CapCut. Экономия 1 кредита Veo (~$0.50-2). Сохрани изображение как `assets/cta-brain-wave.png` — переиспользуй в серии Love + Jealous (один рендер на три видео).
+
 **Что видит зритель:**
-Средний план, прямо в камеру. Брейн просыпается — потягивается, зевает (рот открывается один раз, зевок), глаза открываются широко и изумрудно-зелёные. Он смотрит прямо в камеру, делает медленное преднамеренное моргание (the slow blink — "я тебя люблю"). Поднимает одну переднюю лапу в маленьком приветственном жесте. Издаёт один мягкий тихий мяу (рот открывается один раз — только для мяу, потом закрывается). Хвост поднимается вертикально — вопросительный знак на кончике.
+Средний крупный план. Статичное изображение Брейна: сидит прямо, смотрит в камеру, одна лапа поднята в приветствии, хвост вертикально с загнутым кончиком, глаза широко открыты и изумрудно-зелёные, выражение тёплое и приглашающее. CapCut делает медленный плавный push-in (Ken Burns, ~3-5% zoom за 8 секунд). Движения нет — работает VO + текстовый оверлей.
 
 **VO (EN):**
 Watch them sleep tonight. That little twitch? You're in there. Follow Brain for more cat secrets.
@@ -472,12 +474,14 @@ Watch them sleep tonight. That little twitch? You're in there. Follow Brain for 
 
 #### 🖼️ Image prompt (Nano Banana 2)
 
+> 💾 **После рендера → сохранить как `assets/cta-brain-wave.png`** для переиспользования.
+
 ```
 Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil in the center; ONLY the small iris is colored green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera (iris NOT brown, NOT amber, NOT yellow, NOT hazel), small thin round gold-framed glasses (ALWAYS on, every shot), a plain smooth brown leather collar (smooth band, NO studs, NO spikes, NO metal plates, NO front buckle) with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart shape — NOT round, NOT blank; identical every scene), soft fluffy orange fur with darker tabby stripes, ALL 4 PAWS — both FRONT and both BACK — the SAME orange ginger tabby color as the body (NO white paws, NO white socks, NO white mittens, NO white toes, NO white BACK paws), tail orange ginger tabby to the very tip (NO white tail tip), pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar/Disney 3D ANIMATED CARTOON style (stylized smooth cartoon shading, big cartoon eyes, rounded cartoon forms — like a frame from a Pixar movie, NOT photorealistic, NOT a real cat, NOT realistic fur), soft cartoon lighting, vertical 9:16 composition.
 
 INT. COZY LIVING ROOM — NIGHT. Cozy modern living room at night. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: ONE plain SOLID sage-green woven rug — solid sage-green color, NO pattern, NO border, NO fringe, simple rectangular shape — in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (ON, casting soft warm amber glow — main light source) and ONE small open book lying face-down beside the lamp. WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains — soft silver MOONLIGHT filtering through from outside, no daytime sunlight. NO other plants. NO wall art (clean cream wall behind). LIGHTING: soft warm amber lamplight from the desk lamp on the left, soft cool silver moonlight from the window background — dim cozy night atmosphere. Shallow depth of field — armchair and window slightly soft-focus.
 
-MEDIUM CLOSE-UP, eye-level, slightly angled 3/4 toward camera. Brain is freshly awake — sitting upright on the sage-green rug, eyes WIDE OPEN and sparkling emerald green, both ears up and perky. One front paw (LEFT paw) raised in a small friendly wave gesture, palm facing outward, the other 3 paws in natural relaxed positions. He is looking directly into the camera with warm, affectionate, slightly playful expression. Tail rises vertically behind him with a gentle curl at the very tip (upward question-mark curl). Mouth: CLOSED (NO yawn in the static image — yawn happens during animation only). FREEZE THIS POSE — static image for animation.
+MEDIUM CLOSE-UP, eye-level, slightly angled 3/4 toward camera. Brain is freshly awake — sitting upright on the sage-green rug, eyes WIDE OPEN and sparkling emerald green, both ears up and perky. One front paw (LEFT paw) raised in a small friendly wave gesture, palm facing outward, the other 3 paws in natural relaxed positions. He is looking directly into the camera with warm, affectionate, slightly playful expression. Tail rises vertically behind him with a gentle curl at the very tip (upward question-mark curl). Mouth CLOSED. STATIC IMAGE — used for Ken Burns zoom in CapCut, no Veo animation.
 ```
 
 **Negative prompts:**
@@ -487,36 +491,17 @@ MEDIUM CLOSE-UP, eye-level, slightly angled 3/4 toward camera. Brain is freshly 
 
 ---
 
-#### 🎬 Animation prompt (Veo 3 — Kling 3.0 i2v)
+#### CapCut — Ken Burns settings
 
 ```
-SHOT: Medium close-up, eye-level, 3/4 angle toward camera. Static camera.
-
-TIME 0–2s: Brain sits with left front paw raised in a small wave, looking directly into the camera. Eyes wide, bright emerald green. Tail vertical with gentle curl at tip. Ears both perky.
-TIME 2–4s: Brain performs one deliberate SLOW BLINK — eyes close very slowly (1 second to close) then open back slowly (1 second to open). The blink is intentional and warm. While eyes are closed, a single whisker trembles.
-TIME 4–6s: Eyes reopen to bright emerald. Brain's wave paw lowers back to the rug. He opens his mouth ONCE for a single soft quiet meow — mouth opens briefly (0.5 seconds), then closes gently. This is the ONE allowed mouth opening.
-TIME 6–8s: Brain's mouth is closed again. He holds eye contact with camera — warm, affectionate. His tail gives one last slow gentle swish. One ear does a single small happy twitch. Hold on his face looking into camera.
-
-MOUTH RULE (modified for this CTA scene): Mouth stays closed EXCEPT for ONE single soft quiet meow at TIME 4–6s — mouth opens gently for 0.5 seconds then closes completely. This is the ONLY mouth opening in the entire 8-second clip. All other moments: mouth completely closed.
-
-EYE COLOR RULE (strict): Each of Brain's eyes is a LARGE PURE WHITE sclera (white of the eye clearly visible all around) with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil in the center. ONLY the small iris is green — white of the eye/sclera stays PURE WHITE throughout. Iris NEVER brown, NEVER amber, NEVER yellow, NEVER hazel, NEVER golden, NEVER BLUE, NEVER CYAN. Warm lamplight must NOT tint the iris. Stays emerald green even during the slow blink (visible as eyes close and reopen). During the slow blink, the iris must re-emerge as emerald green when eyes reopen.
-
-GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire 8 seconds. NEVER remove or fade them.
-
-SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat in frame — Brain. No second cat, no other animal.
-
-STYLE RULE (strict): Pixar 3D animated CARTOON style throughout. Brain's identity stays IDENTICAL to the input image.
-
-ANATOMY RULE (strict): Brain has exactly 4 paws — 2 front, 2 back — AND exactly 2 EARS (NO third ear, NO phantom ear). Body stays slender kitten proportions. Collar and heart tag visible.
-
-ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable the entire 8 seconds — EXACTLY 2 ears (NO phantom third ear), exactly 4 paws, kitten proportions (NEVER morphing chubby), face, fur, glasses, collar stay identical to input image. NO extra limbs, NO paw multiplication during wave.
-
-MOTION RULE (strict): Keep motion contained — slow blink, wave paw lowering, single meow mouth open, tail swish, ear twitch. Static camera. No sudden moves or jumps.
-
-STYLE: Pixar 3D animated cartoon, warm amber lamplight from left, soft silver moonlight from window, cozy night atmosphere, vertical 9:16.
+Clip duration: 8 seconds
+Effect: Ken Burns — slow push-in (zoom from 100% → 103-105%, centered on Brain's face)
+Speed: linear, no easing spike
+VO layer: "Watch them sleep tonight. That little twitch? You're in there. Follow Brain for more cat secrets."
+Text overlay: FOLLOW BRAIN 🐱 — Electric Yellow #FFD23F, Fredoka One Bold, top third of frame
 ```
 
-**Pre-flight check:** GREEN — MCU with natural CTA motions (slow blink, wave, single meow). 8 seconds but with clear action beats (not static hold). Meow exception explicitly stated. Low drift risk.
+**Cost:** 0 Veo credits. Just a CapCut zoom on the Nano Banana still.
 
 ---
 
@@ -609,7 +594,7 @@ my cat literally does the running paws thing at like 3am and i always just watch
 - [ ] Locked Brain Prompt prepended to all 7 image prompts ✓
 - [ ] Veo 3 anti-drift rules in all 7 animation prompts ✓
 - [ ] Sc6 flagged as YELLOW (ECU + 7s) — use 5-credit Veo tier + reference image ✓
-- [ ] Mouth exception stated explicitly in Sc7 (single meow) ✓
+- [ ] Sc7 = Ken Burns / NO Veo — save image as `assets/cta-brain-wave.png` for reuse ✓
 - [ ] Wardrobe rule in Sc3 (lab coat, collar visible) ✓
 - [ ] VO in normal sentence case (not ALL-CAPS) ✓
 - [ ] EN and RU VO on separate blocks ✓
