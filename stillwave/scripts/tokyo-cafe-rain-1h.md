@@ -284,26 +284,28 @@ Best for:
 Put on your headphones. Open your notebook. The café is ready.
 
 🎵 Tracklist:
-00:00 — First Rain on the Glass
-02:48 — The Vinyl Starts
-05:31 — Window Seat
-08:14 — Espresso Order
-10:52 — Shimokitazawa Lane
-13:29 — Pages Turn Slowly
-16:05 — Jazz in the Back Room
-18:40 — Afternoon Dissolves
-21:17 — Rain Heavier Now
-23:58 — The Owner Turns a Record
-26:34 — Notebook Open
-29:11 — Muted Trumpet, Once
-31:49 — Steam from the Wand
-34:22 — Between Two Thoughts
-36:58 — The Long Afternoon
-39:35 — Neon Across the Lane
-42:12 — Vinyl Side B
-44:49 — Rain on the Sill
-47:26 — Last Espresso
-50:04 — The Café Empties Slowly
+0:00 — First Rain on the Glass
+2:16 — The Vinyl Starts
+4:43 — Window Seat
+7:20 — Espresso Order
+9:32 — Shimokitazawa Lane
+13:52 — Pages Turn Slowly
+17:48 — Jazz in the Back Room
+20:52 — Afternoon Dissolves
+23:21 — Rain Heavier Now
+27:07 — The Owner Turns a Record
+30:17 — Notebook Open
+33:08 — Muted Trumpet, Once
+35:33 — Steam from the Wand
+38:27 — Between Two Thoughts
+40:56 — The Long Afternoon
+43:38 — Neon Across the Lane
+46:17 — Vinyl Side B
+48:24 — Rain on the Sill
+50:58 — Last Espresso
+53:47 — The Café Empties Slowly
+55:56 — Table by the Window
+58:01 — Until the Next Rain
 
 🌿 New focus sessions every week — subscribe and let the wave carry you.
 
