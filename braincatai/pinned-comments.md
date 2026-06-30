@@ -309,6 +309,19 @@ ok the snake-face one always confuses me when he does it lol mine looks possesse
 ok finding out the headbutt is literally him claiming me as property is unhinged behavior i'm into it 😭 does YOUR cat headbutt you constantly or never? need data
 ```
 
+### 53. Do Cats REALLY Dream About You? (TBD) — Cat Psychology
+
+🇬🇧:
+```
+my cat literally does the running paws thing at like 3am and i always just watched and wondered what was going on 😭 now knowing she might be dreaming about ME i genuinely cannot handle it. does yours make sounds while sleeping or just the paws?
+```
+🇷🇺:
+```
+моя кошка бегает лапами во сне ровно в 3 ночи и я всегда смотрела и не понимала что происходит 😭 теперь зная что она, возможно, снит меня — не могу это переварить. ваша издаёт звуки во сне или только лапками двигает?
+```
+
+---
+
 ### 52. Do Cats REALLY Love You? (TBD) — Cat Psychology
 
 🇬🇧:

@@ -3,8 +3,8 @@
     "purpose": "Cache of vidIQ API responses (keyword research, outliers, breakout channels, channel videos) to avoid burning paid credits on repeat queries. Cat psychology niche keywords stay relevant ~30-60 days. Refresh entries older than 60 days only if you suspect drift.",
     "schema_version": "1.1",
     "created": "2026-05-17",
-    "last_updated": "2026-06-02",
-    "total_credits_spent": 485,
+    "last_updated": "2026-06-30",
+    "total_credits_spent": 500,
     "credits_saved_so_far": 0,
     "changelog": [
       "2026-05-18 (session 2): +30 credits — competitor discovery batch (outliers williamcat empty, breakout_channels query, 4× channel_videos). similar_channels denied = no charge.",
@@ -29,7 +29,8 @@
       "2026-06-02 (Karena transcript analysis + Изумруд hunt): +25 credits. After analyzing Karena Roshyan's '5 mistakes до 1k subs' video: ran vidiq_outliers in 'Изумруд' mode (maxSubs ≤3000, minViews ≥50000) — 90% are funny-compilation (Nexlev anti-pattern, skip). 2 real izumruds: 'Unveiling the Secrets to Kitten Mastery' Little Mouse 2.09k subs / 660k views (educational kitten-parenting angle). Pivoted to test kitten/new-owner cluster via 3x keyword research. JACKPOT: 'cat owner mistakes' 🟢🟢 67.18/22,260/comp-29.4 GREEN-strong (highest VOLUME jackpot to date — beats bond 17,435). Anti-pattern listicle frame ('5 Mistakes EVERY Cat Owner Makes') = high CTR. White-space in our catalog. Queued for 5 июн. Side finds: 'cat health' 73.29/47,568 GREEN huge cluster. 'understanding cats' 68.85/23,636. 'getting a kitten' 66.30/10,734.",
       "2026-06-02 (user single-behavior topic checks): +30 credits (6x keyword_research on user-flagged topics: whisker-darkness x3 + scratch-floor x3). All RED — these are CTR-curiosity topics, not search topics. Pattern: user notices something his cat does → types query → vidIQ shows no one searches for it. Decision: instead of standalone scripts, EMBED user-flagged behaviors as items in '5-cat-owner-mistakes' listicle (5 июн). Whisker-fatigue 61.00 → Mistake #2. Scratch-floor instinct → Mistake #3 (title-promised shock). Saves production slots, leverages 67.18 JACKPOT keyword. Future user-flagged single-behavior topics → automatic listicle-defer.",
       "2026-06-02 (YouTube-suggested topics triage + 6 июн hunt): +15 credits. User pasted 12 YouTube-suggested 'similar topics'. Triage: 4 duplicates with our published (stare-at-walls/bite/box/dead-things), 5 cannibalize queue/cluster (tail-twitch/sleep-face/scent-mark/meow-humans/watch-rooms), 3 fresh-test. Tested: 'cat zoomies' 🟢 66.83/12,928/comp-25 GREEN-strong (3rd strongest in cache, after owner 22k + bond 17k). 'how cats train their owners' null seed RED. 'why cats drink running water' HARD RED 5.71/0. WINNER: zoomies for 6 июн. Cross-link to owner-mistakes #5 (skip-play → pent-up predator energy → zoomies) = serial momentum.",
-      "2026-06-02 (30-day analytics review + 7-8 июн hunt): +40 credits (4x keyword_research after pulling vidiq_channel_analytics). 30d totals: 3,044 views, 52.02% avg retention (CROSSED 50% recovery threshold!), +10 net subs. Feed dominates 86% (driven by Chirps 1.2k + Dead Things 1k = 75% of traffic, May 3-5 pre-drop tail). DOESN'T Love 489.7% retention = looping champion (replay pattern). Verdict: need MORE single-moment hooks (feed-bait, replicate Chirps formula). Tested: 'why do cats headbutt you' seed RED but cluster GREEN — 'why does my cat headbutt me' 🟢 63.27/4,918/comp-24.5 + 'cat affection' 67.47/14,213 + 'cat communication' 70.51/36,240. 'strange cat behaviors explained' 🟢 63.12/14,691/comp-35.5 GREEN ⭐ (feed-bait listicle GOLDMINE). 'why cats sit in squares' null/0 (search-dead, related goes to boxes). 'why do cats lick plastic bags' seed RED but 'cat licking plastic bags' 64.35/4,828/comp-21.6. 'things cats hate' YELLOW-low 53.39/4,585/comp-48.5 — skip standalone. DECISIONS: 7 июн = strange-behaviors listicle (feed-bait), 8 июн = headbutt single-fact (search + counter-intuitive)."
+      "2026-06-02 (30-day analytics review + 7-8 июн hunt): +40 credits (4x keyword_research after pulling vidiq_channel_analytics). 30d totals: 3,044 views, 52.02% avg retention (CROSSED 50% recovery threshold!), +10 net subs. Feed dominates 86% (driven by Chirps 1.2k + Dead Things 1k = 75% of traffic, May 3-5 pre-drop tail). DOESN'T Love 489.7% retention = looping champion (replay pattern). Verdict: need MORE single-moment hooks (feed-bait, replicate Chirps formula). Tested: 'why do cats headbutt you' seed RED but cluster GREEN — 'why does my cat headbutt me' 🟢 63.27/4,918/comp-24.5 + 'cat affection' 67.47/14,213 + 'cat communication' 70.51/36,240. 'strange cat behaviors explained' 🟢 63.12/14,691/comp-35.5 GREEN ⭐ (feed-bait listicle GOLDMINE). 'why cats sit in squares' null/0 (search-dead, related goes to boxes). 'why do cats lick plastic bags' seed RED but 'cat licking plastic bags' 64.35/4,828/comp-21.6. 'things cats hate' YELLOW-low 53.39/4,585/comp-48.5 — skip standalone. DECISIONS: 7 июн = strange-behaviors listicle (feed-bait), 8 июн = headbutt single-fact (search + counter-intuitive).",
+      "2026-06-30 (Do REALLY Love/Dream/Jealous keyword validation): +15 credits (3x keyword_research). 'do cats love you' seed SEARCH-DEAD 26.08/0 — confirms 'cat love' 63.62/23k is the correct tag keyword (Love script already written, see scripts/do-cats-really-love-you.md). 'do cats dream' YELLOW-GREEN 62.99/5,180/comp-25.7 — LOW competition is key advantage, cluster 'what do cats dream about' variants add ~9k monthly at comp-21/23. Approved as 2nd in queue. 'cat jealousy' YELLOW 60.53/5,156 — top related POLLUTED by funny-cat compilations (521k+358k monthly = wrong audience), avoid those tags. Weakest of 3. Queue confirmed: Love ✅ → Dream → Jealous."
     ]
   },
   "queries": [
@@ -2209,6 +2210,120 @@
       },
       "result_summary": "FALSE POSITIVE — channel 'The Cat Code' is mostly Roblox-rant content with occasional cat-fight clips. NOT cat psychology. +1357% growth is on Roblox content. DO NOT add to tracker.",
       "notes": "Second vidIQ misclassification this session. Reinforces verify-before-add rule."
+    },
+    {
+      "keyword": "do cats love you",
+      "fetched": "2026-06-30",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 0,
+        "competition": null,
+        "overall": 26.08,
+        "monthly": 0
+      },
+      "top_related": [
+        {
+          "keyword": "cat behavior",
+          "overall": 73.62,
+          "monthly": 147599,
+          "competition": 31.7
+        },
+        {
+          "keyword": "cat health",
+          "overall": 69.07,
+          "monthly": 46328
+        },
+        {
+          "keyword": "cat love",
+          "overall": 63.62,
+          "monthly": 23178
+        },
+        {
+          "keyword": "signs your cat loves you",
+          "overall": 61.78,
+          "monthly": 25172,
+          "competition": 44.1
+        }
+      ],
+      "verdict": "SEARCH-DEAD seed (0 volume / 26.08 overall). Confirms 'do cats love you' phrasing has zero search demand. Script for 'Do Cats REALLY Love You?' correctly uses 'cat love' (63.62/23,178) as primary tag keyword.",
+      "notes": "Script written: scripts/do-cats-really-love-you.md. Primary SEO keyword = 'cat love'. Never use 'do cats love you' as a tag — search-dead."
+    },
+    {
+      "keyword": "do cats dream",
+      "fetched": "2026-06-30",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 56.4,
+        "competition": 25.7,
+        "overall": 62.99,
+        "monthly": 5180
+      },
+      "top_related": [
+        {
+          "keyword": "cat behavior",
+          "overall": 73.62,
+          "monthly": 147599
+        },
+        {
+          "keyword": "dream interpretation",
+          "overall": 69.46,
+          "monthly": 27933
+        },
+        {
+          "keyword": "cat care tips",
+          "overall": 66.69,
+          "monthly": 17170
+        },
+        {
+          "keyword": "what do cats dream about?",
+          "overall": 64.10,
+          "monthly": 4253,
+          "competition": 21.0
+        },
+        {
+          "keyword": "what do cats dream about",
+          "overall": 63.42,
+          "monthly": 4517,
+          "competition": 23.3
+        }
+      ],
+      "verdict": "YELLOW-GREEN 62.99/5,180/comp-25.7. Cluster 'what do cats dream about' variants add ~9k monthly at very low comp (21-23). Total addressable ~14k monthly. LOW competition is the key advantage. Approved for script.",
+      "notes": "2nd in confirmed queue (Love ✅ → Dream → Jealous). Title: 'Do Cats REALLY Dream About You?'. Primary keyword: 'do cats dream'. Tags cluster: do cats dream / what do cats dream about / cat dreams / cat REM sleep / do cats dream about their owners. Avoid 'dream interpretation' tag — wrong audience."
+    },
+    {
+      "keyword": "cat jealousy",
+      "fetched": "2026-06-30",
+      "credits_spent": 5,
+      "seed": {
+        "volume": 52.4,
+        "competition": 31.8,
+        "overall": 60.53,
+        "monthly": 5156
+      },
+      "top_related": [
+        {
+          "keyword": "funny cats",
+          "overall": 70.60,
+          "monthly": 521168
+        },
+        {
+          "keyword": "funny cat videos",
+          "overall": 69.86,
+          "monthly": 357731
+        },
+        {
+          "keyword": "jealous cats",
+          "overall": 60.80,
+          "monthly": 4782
+        },
+        {
+          "keyword": "cats and babies",
+          "overall": 60.09,
+          "monthly": 5156
+        }
+      ],
+      "verdict": "YELLOW 60.53/5,156/comp-31.8. Weakest of the 3 'Do Cats REALLY X?' candidates. AUDIENCE RISK: top related keywords are compilation niche — wrong audience for BrainCatAI psychology explainer. Do NOT use funny-cat tags. Title CTR formula compensates for weaker keyword.",
+      "notes": "3rd in confirmed queue. AVOID TAGS: 'funny cats', 'funny cat videos', 'cat fails', 'cat compilation'. Use: 'cat jealousy', 'jealous cats', 'do cats feel jealousy', 'cat emotions', 'cat psychology'. Anchor to 'cat emotions' 64.63/15,891 (cached 2026-05-30) as stronger tag."
     }
   ],
   "candidates_not_yet_researched": [
