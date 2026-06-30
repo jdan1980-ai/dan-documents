@@ -197,9 +197,41 @@ PERFECTLY SEAMLESS — rocking chair returns to exact start position at frame 8 
 2. Extend / loop across full ~1H length using CapCut loop function
 3. Import Suno audio (20 tracks, pre-arranged in order)
 4. Sync audio start to 0:00
-5. Export 1080p 30fps H.264
+5. Add wisdom overlay text layer (see §6a)
+6. Export 1080p 30fps H.264
 
-*Сборка в CapCut: (1) бросаем 8-сек петлю на видео-трек, (2) растягиваем/зацикливаем на весь 1 час, (3) импортируем 20 Suno-треков по порядку, (4) синхронизируем старт аудио с 0:00, (5) экспорт 1080p 30fps H.264.*
+*Сборка в CapCut: (1) петля Flow на видео-трек, (2) зацикливаем на 1 час, (3) 20 Suno-треков по порядку, (4) синхрон аудио к 0:00, (5) слой мудрости (§6a), (6) экспорт 1080p 30fps H.264.*
+
+## 6a. 🈴 Wisdom Overlay — CapCut text layer
+
+> Add as a TEXT layer on the TOP track. Scene + sound from 0:00 with NO text (Karena rule #7 — first 3 sec uninterrupted). Text fades in at 0:03, holds, fades out by 0:14. After 0:14 = pure atmosphere for the rest of the hour.
+> *Текстовый слой на верхний трек. Сцена + звук с 0:00 без текста (правило Карены #7). Текст появляется с 0:03, держится, исчезает к 0:14. Дальше — чистая атмосфера.*
+
+**Phrase for this video:**
+
+```
+雨だれ石を穿つ
+Amadare ishi o utsu
+"Raindrops wear the stone"
+```
+
+*Перевод: «Капли дождя пробивают камень» — терпеливая работа преодолевает всё. Буквально о дожде (совпадает с визуалом) + метафора сессии глубокого фокуса.*
+
+**CapCut settings:**
+| Setting | Value |
+|---------|-------|
+| Font | **Liberation Serif Bold** (phone: EB Garamond / Cormorant Garamond) |
+| Color | **cream `#F5EAD2`** |
+| Line 1 — 雨だれ石を穿つ | large (kanji) |
+| Line 2 — Amadare ishi o utsu | medium (romaji) |
+| Line 3 — "Raindrops wear the stone" | small (English gloss) |
+| Alignment | Left |
+| Position | **Upper-left** — over the dark café interior wall on the left edge of the frame |
+| Clip start | **0:03** |
+| Clip end | **0:14** |
+| Transition in | Fade 2s |
+| Transition out | Fade 2s |
+| Glow / shadow / box | ❌ None |
 
 > If using ffmpeg instead:
 > ```bash

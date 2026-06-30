@@ -127,6 +127,7 @@ Before any new upload goes live, confirm:
 - [ ] **No hashtags in title** (Karena #1)
 - [ ] **First publish = Scheduled or Unlisted, never Public-direct** (Karena #4)
 - [ ] **Description format matches series spec** (Kanji-Concept = Hikari-style; Power Hour = bullet-list OK)
+- [ ] **Wisdom overlay written** — §6a in the script has kanji / romaji / English gloss and CapCut placement. Skip ONLY for Pomodoro timer videos (timer overlay is the signature there).
 
 48h after publish: verify Topic Categories via VidIQ API or VidIQ Chrome extension. If wrong → rename title immediately.
 
@@ -205,6 +206,45 @@ Continue using the original style for the videos that aren't in the new format y
 
 ---
 
+## 🈴 Wisdom Overlay — Channel Standard (ALL long-form, locked 2026-06-30)
+
+Every StillWave long-form video opens with a Japanese wisdom phrase overlay in the first 14 seconds. This is the channel's signature — every video teaches one Japanese concept before the music begins. Competitors play music; we play music AND teach. Brand differentiator.
+
+### Format (identical across all series)
+
+- **Text:** a REAL Japanese phrase — yojijukugo (4-character idiom), kotowaza (proverb), or a short Zen kōan line. Always thematically matched to THIS video. Never reuse the same phrase across videos.
+- **Three lines, always in this order:**
+  - Line 1: **kanji** — large
+  - Line 2: **romaji** (pronunciation) — medium
+  - Line 3: **short English gloss** (2–5 words) — small
+- **Placement:** LEFT side of the frame, over a calm/dark zone (interior wall, dark sky, mist) — away from the focal subject. The left edge is typically calmer than the center/right in our compositions.
+- **Color:** cream `#F5EAD2` (standard) · gold `#E4C46C` ONLY for divine/sacred themes (see Healing Hour rule)
+- **Font:** Liberation Serif Bold — the ONE locked channel font, always. Phone equivalent: EB Garamond / Cormorant Garamond.
+- **Timing — retention-safe (Karena #7):** 0:00–0:03 = scene + sound ONLY, NO text → Fade In 2s → hold ~5s → Fade Out 2s → clip ends at 0:14. Total on-screen: ~11 seconds.
+- **CapCut:** add as a TEXT layer on the TOP track. Start at 0:03, end at 0:14. Apply Fade-In 2s + Fade-Out 2s transitions. No glow, no shadow, no box.
+
+### Series phrase guide
+
+| Series | Phrase theme | Example direction |
+|--------|-------------|-------------------|
+| **Kanji-Concept** (SATORI, MUSHIN…) | The concept's own depth | Zen kōan, yojijukugo about the kanji concept |
+| **Healing Hour** (Hz) | Healing, stillness, inner light | 4-char idiom about peace, clarity, body-mind |
+| **Tokyo Rain / Café** | Rain, focus, perseverance | Rain proverbs, patience idioms |
+| **Power Hour** (standard, not Pomodoro) | Work, flow, clarity, discipline | Action + wisdom phrases |
+| **Power Hour Pomodoro** | **SKIP** — timer overlay is the signature | — |
+
+### Phrase bank (used — do not repeat)
+
+| Video | Phrase | Romaji | Gloss |
+|-------|--------|--------|-------|
+| Tokyo Café Rain 1H | 雨だれ石を穿つ | Amadare ishi o utsu | Raindrops wear the stone |
+
+### Every script must include §6a
+
+Every `scripts/<slug>.md` must have a **§6a Wisdom Overlay** section with: the chosen phrase (3 lines), the CapCut placement note for this specific video's frame. Written as part of the production package, not added as an afterthought. When creating a new script, pick the phrase BEFORE writing the Assembly section.
+
+---
+
 ## 🩹 Healing Hour aesthetic — ILLUSTRATED spec (Hz-series visual signature)
 
 **Healing Hour ≠ Power Hour.** Power Hour (Tokyo Penthouse, photorealistic, MacBook + fireplace) targets the Deep Work cluster. Healing Hour targets the Spiritual / Frequency-healing cluster, which on YouTube is dominated by **stylized illustrations**, not photoreal interiors. Mixing them confuses the algorithm — Healing Hour Vol. 1 (528 Hz Marathon, 2026-05-14) stalled at 53 views because it used the Power-Hour-style penthouse visual and landed in the wrong recommendation pool.
@@ -237,16 +277,13 @@ Continue using the original style for the videos that aren't in the new format y
    - **🔒 Text color rule:** **cream `#F5EAD2` is the DEFAULT (standard).** Use **gold `#E4C46C` ONLY when the title/theme explicitly references gold / God / divine / miracle / sacred** — e.g. `963 Hz Frequency of God`, a "miracle frequency" angle. Gold then echoes the warm stone-lantern flame and the divine theme. Everything else stays cream/white.
    - **🔒 Font rule — ALWAYS ONE FONT.** Every thumbnail, Shorts cover and wisdom overlay across the WHOLE channel uses the **same single elegant thin serif** — never mix fonts. Renders use **Liberation Serif** (the locked render font); the nearest Canva/phone equivalent is **EB Garamond / Cormorant Garamond** (use only this if redoing by hand). One font everywhere = brand recognition. Word = bold weight, the Hz/tag = same font smaller.
 
-### Wisdom intro overlay (LOCKED — standard on EVERY Healing Hour video)
+### Wisdom intro overlay — Healing Hour phrase selection
 
-Every Healing Hour video opens with a Japanese-wisdom intro overlay (the signature intro — like 明鏡止水 on the Kyoto video, 天地一如 on Mount Koya). Build it as a **transparent PNG** the editor drops on the finished video:
+> **Format spec** is in `§🈴 Wisdom Overlay — Channel Standard` above — same rules apply (font, color, timing, CapCut method). Healing Hour adds only Hz-specific phrase guidance below.
 
-- **Text:** a real Japanese phrase (yojijukugo idiom or Zen term) that fits THAT scene + the Hz outcome — never generic. Three lines: kanji / romaji / short English gloss.
-- **Placement:** LEFT side, over a **soft/calm zone of the frame** (mist, haze, or dark sky) — not over the busy focal area, not over the subject. Reads better on a quiet backdrop.
-- **Color:** per the text-color rule (cream default, gold for God/divine/gold themes).
-- **Font:** the one locked serif (same as thumbnails).
-- **Timing (retention-safe, Karena #7):** 0:00–0:03 scene + sound only (NO text, no fade from black) → fade in 2s → hold → fade out by ~0:14 → pure atmosphere for the rest.
-- Deliver the transparent PNG into `assets/` so it can be reused/overlaid anytime.
+For Healing Hour videos, pick a phrase that matches **both the scene AND the Hz healing outcome**. Past examples: 明鏡止水 (Kyoto 528 Hz — "still water reflects clearly"), 天地一如 (Mount Koya 963 Hz — "heaven and earth as one"). The Hz number and the scene should both point to the phrase's meaning.
+
+Healing Hour phrase principle: the phrase should feel like what the frequency claims to do — cellular healing, clearing negative energy, activating intuition — expressed as a timeless Japanese truth, not as a New Age claim.
 
 ### Location bank (validated against YouTube recommendation cluster)
 
