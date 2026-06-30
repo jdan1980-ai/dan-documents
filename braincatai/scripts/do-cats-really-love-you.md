@@ -82,7 +82,7 @@ INT. BRAIN'S MICRO-LAB — DAY. Cozy miniature science lab sized for a kitten. W
 | 4 | A | Brain settles next to human on couch |
 | 5 | A | Brain grooms human's wrist |
 | 6 | A | Extreme close-up slow blink — pattern interrupt |
-| 7 (CTA) | A | Brain blink demo + wave + meow |
+| 7 (CTA) | A | Ken Burns on assets/cta-brain-wave.png (0 Veo) |
 
 ---
 
@@ -509,7 +509,7 @@ Third: the slow blink. Oxford University calls it a cat kiss. It means "I love y
 
 ## Scene 7 — Payoff + CTA (37–45 sec)
 
-**Что видит зритель:** Brain вернулся в средний план, смотрит прямо в камеру с тёплым выражением — сам медленно моргает, показывая как надо. Потом поднимает одну лапу в мягком жесте «попробуй». В конце — тихий «мяу» (исключение из правила для CTA). Overlay: «TRY IT NOW 💚». Тёплый финал с прямым интерактивом.
+**Что видит зритель:** Статичное изображение Брейна — смотрит в камеру, одна лапа поднята в тёплом жесте «попробуй», хвост вертикально. Ken Burns медленный push-in в CapCut. VO + текстовый оверлей делают всю работу. Overlay: «FOLLOW BRAIN 🐱».
 **Локация:** A
 
 **🎨 Image-промт для Nano Banana:**
@@ -522,34 +522,20 @@ INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painte
 SHOT: MEDIUM CLOSE-UP (face + chest visible), eye-level. Brain sits centered on the sage-green rug, facing camera directly. Expression: warm, relaxed, slightly knowing — like a friend wrapping up a good conversation. Eyes soft, half-lidded. Right front paw raised slightly in a gentle "try it" gesture (paw at chest level, NOT above shoulder). Tail wrapped around his paws or resting to the side.
 ```
 
-**🎬 Animation-промт для Veo 3:**
+**⚡ Ken Burns — NO Veo.** Generate the Nano Banana image above ONCE → save as **`assets/cta-brain-wave.png`**. This asset is reused for the CTA of every video in the Love → Dream → Jealous series (0 additional Veo or Nano Banana renders needed for Dream and Jealous CTAs).
+
+#### CapCut — Ken Burns settings
 
 ```
-SHOT: Medium close-up, eye-level, static camera with very gentle 2% pull-back over 8 seconds (slight reveal of the warm living room).
-
-TIME 0–3s: Brain sits facing camera. Performs a slow deliberate blink at the viewer — eyelids lower fully then open slowly, as if demonstrating what he just taught. One whisker fans forward during the blink. Ears stay forward and relaxed.
-TIME 3–6s: Brain raises his right front paw in a gentle "try it" wave/point gesture — paw at chest level, not too high. Expression becomes slightly warmer. Tail gives one slow side-swish.
-TIME 6–7s: Brain's paw lowers. Holds warm eye contact with camera.
-TIME 7–8s: Brain opens his mouth in ONE SINGLE SOFT MEOW — mouth opens briefly then closes completely. After the meow, mouth is closed and Brain holds the warm gaze.
-
-EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil. ONLY the small iris is green — sclera stays PURE WHITE. Iris NEVER brown, NEVER amber, NEVER hazel, NEVER BLUE, NEVER CYAN. Stays emerald green during the slow blink.
-
-GLASSES RULE (strict): Small round gold-framed glasses stay ON Brain's face the entire 8 seconds. Do NOT let glasses slide or disappear during the paw wave or meow.
-
-SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat in frame — Brain. NEVER add a second cat.
-
-STYLE RULE (strict): Pixar 3D animated CARTOON style throughout. NEVER photorealistic.
-
-ANATOMY RULE (strict): Brain has exactly 4 paws AND exactly 2 EARS (NO third ear). Stays slender kitten proportions. Brown collar + gold heart tag visible.
-
-ANATOMY PRESERVATION RULE (strict): Brain's anatomy stays perfectly stable through all 8 seconds. Same face, fur, glasses, collar. IDENTICAL to input image. NO character drift.
-
-MOUTH RULE (exception): Mouth stays CLOSED except for ONE SINGLE SOFT MEOW at TIME 7–8s (mouth opens and closes once, single brief beat). All other emotion through eyes, ears, whiskers, body. After the meow, mouth closes and stays closed.
-
-MOTION RULE (strict): Motion contained — slow blink, paw raise/lower, tail swish, single meow. Camera pull-back minimal (2%). Character look stays locked.
-
-STYLE: Pixar 3D animated cartoon, warm honey-amber living room lighting, vertical 9:16, shallow depth of field.
+Asset: assets/cta-brain-wave.png
+Clip duration: 8 seconds
+Effect: Ken Burns — slow push-in (zoom from 100% → 103-105%, centered on Brain's face)
+Speed: linear, no easing spike
+VO layer: "Blink back slowly right now. Watch what happens. Follow Brain for more cat secrets."
+Text overlay: FOLLOW BRAIN 🐱 — Electric Yellow #FFD23F, Fredoka One Bold, top third of frame
 ```
+
+**Cost:** 0 Veo credits. 1 Nano Banana render (the image above) — then reused in Dream + Jealous.
 
 **🎙️ Voiceover:**
 
@@ -562,6 +548,10 @@ Blink back slowly right now. Watch what happens. Follow Brain for more cat secre
 ```
 Медленно моргни своей кошке прямо сейчас. Посмотри что будет. Следи за Brain — за новыми секретами кошек.
 ```
+
+---
+
+**On-screen text (CapCut):** FOLLOW BRAIN 🐱
 
 ---
 
