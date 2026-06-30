@@ -100,68 +100,70 @@ Japanese ambient instrumental, a quiet dialogue between koto and solo piano — 
 
 ---
 
-## 3. NanoBanana 16:9 (thumbnail + video visual)
+## 3. NanoBanana 16:9 (thumbnail image)
 
-> Generate one image. Used for: the video loop base + 16:9 thumbnail.
-> *Генерируем одно изображение. Используется для: основа видео-петли + тумбнейл 16:9.*
+> **Role:** thumbnail only. The VIDEO LOOP uses the approved rocking chair image (generated separately) as Flow/Kling start frame — see §5.
+> *Роль: только тумбнейл. Видео-петля использует отдельный рендер (кресло-качалка) как стартовый кадр для Flow/Kling — см. §5.*
 >
 > ⚠️ **Acceptance check before saving:**
-> (1) No readable text anywhere. (2) Face NOT visible — back of head and shoulders only. (3) Window = ONE unbroken panoramic glass, no frame divisions.
-> *(Перед сохранением: нет текста нигде. Лицо НЕ видно — только затылок и плечи. Окно = одно сплошное стекло без рам.)*
+> (1) NO readable Latin text anywhere — no book titles, no English brand names, no Roman alphabet. Japanese kanji on signs in background = fine. (2) Notebook cover = dark, no text. (3) Lower-left corner = dark empty wall with no objects.
+> *(Перед сохранением: нет читаемых латинских букв нигде — ни на книгах, ни на вывесках по-английски. Иероглифы кандзи на вывесках = норм. Обложка блокнота = тёмная, без текста. Нижний левый угол = тёмная пустая стена.)*
 
 ```
-Photorealistic cinematic interior, modern cosy Japanese apartment or café in Tokyo at night during heavy rain. 4K. Ultra-wide 16:9.
+Photorealistic cinematic interior, dark cozy Japanese café in Tokyo at night during heavy rain. 4K. Ultra-wide 16:9.
 
-SUBJECT: a single person seated in a wooden rocking chair, viewed completely from behind — face NEVER visible, back to camera. The person wears a loose warm knit sweater, relaxed and still. They sit in quiet stillness gazing out at the rain and the city. The figure is centred in the lower-centre of the frame. This is a "you are there" composition — the viewer inhabits the figure.
+CAMERA ANGLE: camera positioned INSIDE the café, facing the window directly — perfectly straight-on frontal, NO side angle, NO Dutch tilt. The viewer is seated at the café table looking out through the window at the rainy street.
 
-CAMERA ANGLE: camera placed DIRECTLY BEHIND the person, facing straight ahead toward the window — perfectly symmetrical frontal composition. Eye-level with the seated figure's head. NO side angle, NO Dutch tilt.
+WINDOW: a large café window with simple dark wooden frame — three wide panes side by side. Heavy rain runs in long continuous streaks down the glass. The inside surface of the glass is lightly fogged from the warmth of the café.
 
-LIGHTING: dark and moody interior — not a bright room. Light sources: (1) ONE warm amber pendant light hanging above, slightly forward of the chair — pools softly on the back of the person's hair and shoulders, and on the small side table to their right; (2) the Tokyo Skytree glow bleeding through the rain-streaked window = the DOMINANT cool blue-white background light filling the entire upper two-thirds of the frame; (3) faint city-light reflections on the wet glass. Walls, ceiling, and floor in deep shadow. Corners black. Cinematic low-key exposure.
+OUTSIDE VIEW through the window (the emotional heart of the image): a narrow Tokyo alley at night in heavy rain. The alley stretches away from the viewer into warm amber darkness. Atmospheric depth front to back.
 
-ROCKING CHAIR: natural oak or walnut wood, classic curved runners, clean Scandinavian-Japanese design — elegant, not ornate. The chair is centred in frame, runners resting on a slightly worn wooden floor.
+— LEFT SIDE OF ALLEY: a tall red Japanese chōchin paper lantern glowing warm orange with kanji characters on it. Low buildings with glowing neon signs — vertical banners, kanji-only text (NO Roman alphabet, NO Latin letters anywhere on signs).
+— RIGHT SIDE OF ALLEY: more low buildings with lit windows, kanji neon signs, warm amber globe street lanterns on poles casting orange reflections on the rain-soaked cobblestones.
+— WET ALLEY FLOOR: reflects all the neon and lantern colours — orange, red, amber shimmer in puddles and wet stone.
+— DISTANT FIGURES: two small silhouette figures far down the alley, walking away from the camera into the depth — very small, holding one red and one blue umbrella. They are distant enough to be soft blurred shapes, NOT detailed people in the foreground.
+— DEPTH: the alley fades into warm amber haze and bokeh in the far background.
 
-SIDE TABLE (right of chair only): a small round oak side table to the RIGHT of the rocking chair — a white ceramic mug with a thin wisp of steam rising. Nothing else on the table. This is the only foreground object.
+FOREGROUND — inside the café (lower centre of frame, slightly right of centre): a dark wooden café table. On the table: a white ceramic coffee cup on a saucer with a thin wisp of steam rising, and a small closed notebook with a plain dark cover — NO title, NO text, NO lettering on the cover (abstract dark texture only). The table surface catches warm amber glow bleeding in from the street lanterns through the glass.
 
-WINDOW (critical — must be correct): the entire back wall is ONE SINGLE UNINTERRUPTED PANORAMIC WINDOW — continuous glass from the left edge to the right edge of the frame with NO frame divisions, NO mullions, NO horizontal bars, NO vertical bars cutting the glass. One wide unbroken pane. Heavy rain runs down in long continuous streaks across the full width of the glass. Beyond the glass, perfectly centred and visible directly above the figure's head: Tokyo Skytree glowing in electric blue-white LED light — tall, luminous, blurred by rain into a glowing blue bokeh column. City lights spread left and right as a blurred warm amber sea in darkness far below.
+LIGHTING: very dark inside the café. The dominant light source is the warm amber glow from the Tokyo street lanterns and neon signs bleeding through the rain-streaked glass. Deep shadow everywhere inside — dark walls, dark ceiling. NO bright overhead café lights. Only the amber street glow illuminates the table.
 
-MOOD: late night, solitude, rain on the glass, time forgotten. One person. One window. One rainy night in Tokyo.
+LOWER-LEFT corner of the frame: DARK EMPTY INTERIOR WALL — deep shadow, no objects, no light, no detail in the bottom-left third. This space must remain clean for a text overlay.
 
-Colour contrast: warm amber pendant glow (on person's back and side table) vs cool electric blue Skytree (through rain). Everything else in darkness and shadow.
+MOOD: the warmth of being inside while the city is wet and alive outside. Solitude. Rain as companion. The alley keeps moving; you stay here with your coffee.
 
-Keep the lower-left corner of the frame as DARK EMPTY NEGATIVE SPACE — no objects, no bright light, no detail in the bottom-left third. The chair and side table are centred and right of centre; lower-left is clean dark floor.
-
-NO face visible — back of head only. NO window frame divisions. NO text overlays. NO logos. NO readable text. Cinematic shallow DOF: the person's back and chair sharp, Skytree and rain as glowing bokeh. 4K photorealistic.
+NO readable Latin text anywhere. NO Roman alphabet. NO English words. NO book titles. NO brand names in English. Japanese kanji on neon signs and lanterns = fine as atmospheric elements. NO text overlays. NO logos. NO watermarks. 4K photorealistic, cinematic shallow DOF: coffee cup and near table edge sharp, window glass and rain in mid-focus, alley and distant umbrella figures in soft bokeh. Dark moody cinematic colour grade — warm amber street glow vs cool dark interior.
 ```
 
-## 4. NanoBanana 9:16 (Shorts cross-promo / thumbnail crop)
+## 4. NanoBanana 9:16 (Shorts cross-promo cover)
 
-> Generate separately from §3. Used for: Shorts cover + cross-promo vertical.
+> Generate separately from §3. Used for: Shorts cover + vertical cross-promo.
 > *Генерируем отдельно от §3. Используется для: обложка Шортс + вертикальная кросс-промо версия.*
+>
+> ⚠️ **Acceptance check:** No Latin text. Notebook = plain dark cover. Lower portion = table + cup visible and warm.
 
 ```
-Photorealistic cinematic vertical 9:16, modern cosy Japanese apartment or café in Tokyo at night during heavy rain. Dark, moody, intimate.
+Photorealistic cinematic vertical 9:16, dark cozy Japanese café in Tokyo at night during heavy rain.
 
-SUBJECT: a single person in a wooden rocking chair, viewed completely from behind — face NEVER visible, back of head and shoulders only. Loose warm knit sweater. Seated in stillness, gazing out at the rain and the Skytree.
+CAMERA ANGLE: inside the café, facing the window straight-on — NO side angle, symmetrical. The viewer is at the table.
 
-CAMERA ANGLE: perfectly straight-on, camera directly behind the person facing the window — NO side angle, symmetrical.
+LOWER THIRD of frame: the dark wooden café table fills the lower portion — close-up of a white ceramic coffee cup on a saucer with a thin steam wisp, a closed notebook with a plain dark cover (NO text, NO title on cover). The table is lit by warm amber glow bleeding in from the street outside. Warm, intimate, close.
 
-LOWER THIRD: the wooden rocking chair with the person's back fills the lower third — runners on the floor, the back of the chair and the person's shoulders clearly visible. A small round side table to the right edge with a white ceramic mug and thin steam wisp. The amber pendant glow catches the person's hair and the side table warmly. Floor in deep shadow.
+MIDDLE THIRD of frame: the café window with simple dark wooden frame — three panes with rain running down the glass. The glass is lightly fogged on the inside. Through the glass: a narrow Tokyo alley at night — a glowing red Japanese chōchin lantern on the left, warm amber globe street lanterns on poles, kanji neon signs on buildings (NO Latin text, kanji only), wet cobblestones reflecting warm amber. Two small distant silhouette figures far down the alley holding colourful umbrellas — very blurred, bokeh shapes only.
 
-MIDDLE THIRD: the panoramic window fills the entire width — ONE single unbroken pane of glass (NO frame divisions, NO mullions). Dense rain running in long vertical streaks down the glass. Through the glass, dead centre: Tokyo Skytree glowing in electric blue-white light, blurred by rain into a luminous tall bokeh column. The Skytree is the brightest element — eye goes there first.
+UPPER THIRD of frame: the alley stretches into warm amber haze and darkness in the distance. More neon signs (kanji only) and building facades on both sides, receding into bokeh. Deep night sky visible at the top of the alley.
 
-UPPER THIRD: dark ceiling with the single amber pendant light visible as a warm point source. Deep shadow everywhere above except the Skytree glow through the window.
+LIGHTING: dark café interior lit only by the warm amber street glow through the glass. The cup and table surface are warmly lit; everything inside above the table is in shadow.
 
-Colour contrast: warm amber (pendant on person's back, side table) vs cool electric blue Skytree (filling the window). Everything else dark.
-
-NO face visible. NO window frame divisions. NO text. NO logos. 4K photorealistic, shallow DOF: person and chair sharp, Skytree and rain fully bokeh. Dark moody rainy Tokyo night.
+NO Latin text. NO English words. NO book titles. NO text overlays. NO logos. 4K photorealistic, shallow DOF: cup and table sharp, alley and figures as warm bokeh. Dark moody rainy Tokyo night.
 ```
 
 ---
 
 ## 5. Flow / Kling motion loop prompt (8-second seamless loop)
 
-> Feed the §3 (16:9) image as the start frame. Generate in Flow or Kling. Then loop in CapCut across full 1H.
-> *Подаём изображение из §3 (16:9) как стартовый кадр. Генерируем в Flow или Kling. Потом зацикливаем в CapCut на весь 1 час.*
+> **START FRAME: use the ROCKING CHAIR NanoBanana image (approved render — person from behind in wooden rocking chair, tatami, andon lantern, Skytree through rain). NOT the §3 street view — §3 is the thumbnail only.**
+> *Стартовый кадр: используй рендер кресла-качалки (одобрен — человек со спины, татами, фонарь-андон, Skytree сквозь дождь). НЕ §3 (уличный вид) — §3 только для тумбнейла.*
 >
 > ⚠️ **Must be perfectly seamless** — the rocking chair must return to its EXACT start position at frame 8. Re-roll if the loop seam is visible.
 > *(Должна быть идеально бесшовной — кресло-качалка должна вернуться в точно то же положение к кадру 8. Перегенерируй, если шов виден.)*
