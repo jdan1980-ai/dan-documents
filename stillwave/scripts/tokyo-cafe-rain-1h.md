@@ -2,7 +2,7 @@
 
 ## Meta
 
-- **Title:** Rainy Afternoon in a Tokyo Café — 1 Hour Deep Focus Music | Study, Work & Writing
+- **Title:** Late Night in a Tokyo Café — 1 Hour Deep Focus Music | Study, Work & Writing
 - **Slug:** `tokyo-cafe-rain-1h`
 - **Format:** Long-form
 - **Length:** 1H 00min 32sec (3 632 sec)
@@ -223,10 +223,10 @@ Amadare ishi o utsu
 ## 7. 📝 YouTube Title
 
 ```
-Rainy Afternoon in a Tokyo Café — 1 Hour Deep Focus Music | Study, Work & Writing
+Late Night in a Tokyo Café — 1 Hour Deep Focus Music | Study, Work & Writing
 ```
 
-- **Chars:** 82/90 ✅
+- **Chars:** 76/90 ✅
 - **Music keyword in first 50%:** "1 Hour Deep Focus Music" — passes topic categorization rule ✅
 - **No hashtags in title** (Karena #1) ✅
 
