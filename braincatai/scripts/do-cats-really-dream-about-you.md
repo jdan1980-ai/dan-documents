@@ -66,7 +66,7 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 Средний план. Брейн свернулся клубочком на диване и спит. Его лапки начинают быстро подёргиваться — бегут. Уши резко дёргаются влево-вправо. Усы вибрируют. Хвост начинает плавно извиваться. Явно что-то снится — и довольно активное. Камера чуть наклоняется (slight tilt) в сторону Брейна.
 
 **VO (EN):**
-Your cat twitches in their sleep. Paws running. Ears flicking. Something is happening in there.
+Your cat twitches in sleep. Paws running. Ears flicking. Something is happening.
 
 **VO (RU):**
 Твоя кошка дёргается во сне. Лапки бегут. Уши дёргаются. Там что-то происходит.
@@ -130,10 +130,10 @@ STYLE: Pixar 3D animated cartoon, warm amber lamplight from left + soft silver m
 Крупный план. Брейн резко открывает глаза — зрачки широко расширены от удивления. Голова чуть поворачивается к камере. Одно ухо настораживается, другое поворачивается в сторону. Хвост медленно поднимается вертикально. Брейн смотрит прямо в камеру — как будто задаёт вопрос тебе лично.
 
 **VO (EN):**
-Is it mice? Birds? Something in the walls? Or — is it you?
+Mice? Birds? Something in the walls? Or — is it you?
 
 **VO (RU):**
-Это мыши? Птицы? Что-то в стенах? Или — это ты?
+Мыши? Птицы? Что-то в стенах? Или — это ты?
 
 **On-screen text (CapCut):** IS IT YOU?
 
@@ -194,10 +194,10 @@ STYLE: Pixar 3D animated cartoon, warm amber lamplight from left, soft silver mo
 Средний план снизу вверх. Брейн в крошечном белом лабораторном халате стоит перед большой пастельной диаграммой "CAT BRAIN WAVES" на стене. Он тычет лапкой в секцию "REM" на диаграмме. Диаграмма светится слабым бирюзовым цветом в месте, где он показывает. На нём очки и воротник с сердечком под халатом.
 
 **VO (EN):**
-Scientists wired up sleeping cats. Their brains lit up during REM sleep. The same deep dream stage humans have.
+Scientists wired sleeping cats to sensors. Brains lit up in REM. Same dream stage as humans.
 
 **VO (RU):**
-Учёные подключили спящих кошек к приборам. Их мозг засиял во время REM-сна. Той же глубокой фазы сна, что и у людей.
+Учёные подключили спящих кошек к датчикам. Мозг засветился в фазе REM. Та же фаза сна, что у людей.
 
 **On-screen text (CapCut):** REM SLEEP ✓
 
@@ -262,10 +262,10 @@ STYLE: Pixar 3D animated cartoon, warm cozy amber overhead lamplight, cozy micro
 Широкий план. Брейн снова спит на диване, но теперь над его головой плавно появляется прозрачный МЫЛЬНЫЙ ПУЗЫРЬ-СОН (cartoon thought bubble). Внутри пузыря: сначала крошечная мышка бежит влево (размытая, мультяшная), потом птичка мелькает, потом — мягкий силуэт женской руки с игрушкой-удочкой. Каждый образ сменяет другой плавно, как слайд-шоу во сне. Лапки Брейна всё ещё подёргиваются.
 
 **VO (EN):**
-Cats replay what happened while they were awake. Every game, every hunt, every person they spent time with.
+Cats replay what happened while awake. Every game, every hunt, every person.
 
 **VO (RU):**
-Кошки воспроизводят то, что было, пока они бодрствовали. Каждую игру, каждую охоту, каждого, с кем провели время.
+Кошки воспроизводят то, что было, пока бодрствовали. Каждую игру, каждую охоту, каждого человека.
 
 **On-screen text (CapCut):** EVERY EXPERIENCE
 
@@ -328,10 +328,10 @@ STYLE: Pixar 3D animated cartoon, warm amber lamplight from left, soft silver mo
 Средний крупный план, ракурс сбоку (3/4). Брейн сидит на ковре, широко открыл глаза — умный и уверенный вид. Одна лапка поднята и прижата к груди ("вот в чём дело"). Хвост плавно обвился вокруг лап. Уши направлены прямо вперёд, сосредоточены. Это момент "ключевой факт".
 
 **VO (EN):**
-For an indoor cat, their whole world is you. Feeding time. Playtime. Naps on your lap. All day.
+For an indoor cat, their whole world is you. Food. Play. Naps on your lap.
 
 **VO (RU):**
-Для домашней кошки весь её мир — это ты. Время кормления. Игры. Дрёма у тебя на коленях. Весь день.
+Для домашней кошки весь её мир — это ты. Еда. Игры. Дрёма у тебя на коленях.
 
 **On-screen text (CapCut):** THEIR WHOLE WORLD = YOU
 
@@ -392,10 +392,10 @@ STYLE: Pixar 3D animated cartoon, warm amber lamplight from left, soft silver mo
 **⚡ PATTERN INTERRUPT** — резкий переход на EXTREME close-up спящего лица Брейна (профиль). Лицо занимает почти весь кадр. Выражение — мирный сон с лёгкой улыбкой. Над головой появляется мягкий золотисто-тёплый пузырь сна: внутри — размытый контур спины женщины с длинными тёмными волосами (ЛИЦО НЕ ВИДНО, только спина/плечо), рядом с размытым силуэтом Брейна в пузыре. Глаза Брейна приоткрываются на долю секунды — видна тончайшая полоска изумрудной радужки — зрачки принимают форму крошечных сердечек. Потом глаза снова закрываются.
 
 **VO (EN):**
-That twitching at 3am? Animals dream about daily experience. And for your cat — that's you.
+That twitching at 3am? Cats dream about daily life. And your cat's daily life is you.
 
 **VO (RU):**
-Это подёргивание в 3 ночи? Животные воспроизводят дневной опыт во снах. А для твоей кошки этот опыт — ты.
+Это подёргивание в 3 ночи? Кошки воспроизводят дневную жизнь во снах. А дневная жизнь твоей кошки — это ты.
 
 **On-screen text (CapCut):** THAT'S YOU 💚
 
