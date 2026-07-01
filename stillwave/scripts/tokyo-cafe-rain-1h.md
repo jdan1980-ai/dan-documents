@@ -2,7 +2,7 @@
 
 ## Meta
 
-- **Title:** Late Night Tokyo Café | Rain & Vinyl for Focused Work
+- **Title:** Tokyo Rain & Vinyl | Late Night Café Ambience for Productivity
 - **Slug:** `tokyo-cafe-rain-1h`
 - **Format:** Long-form
 - **Length:** 1H 00min 32sec (3 632 sec)
@@ -223,10 +223,10 @@ Amadare ishi o utsu
 ## 7. 📝 YouTube Title
 
 ```
-Late Night Tokyo Café | Rain & Vinyl for Focused Work
+Tokyo Rain & Vinyl | Late Night Café Ambience for Productivity
 ```
 
-- **Chars:** 53/90 ✅
+- **Chars:** 62/90 ✅
 - **No hashtags in title** (Karena #1) ✅
 - ⚠️ **Post-publish:** verify Topic Category = Music via VidIQ — no explicit "Music" word in title, monitor 48h after upload and rename if mis-classified
 
