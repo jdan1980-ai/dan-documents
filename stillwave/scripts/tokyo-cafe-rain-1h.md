@@ -5,7 +5,8 @@
 - **Title:** Rainy Afternoon in a Tokyo Café — 1 Hour Deep Focus Music | Study, Work & Writing
 - **Slug:** `tokyo-cafe-rain-1h`
 - **Format:** Long-form
-- **Length:** ~1H 00min (target 20 Suno tracks × ~3 min avg)
+- **Length:** 1H 00min 32sec (3 632 sec)
+- **Phase:** 1 (soft intro — 22 Suno tracks at 1H 00min 32sec, no loop)
 - **Aesthetic:** Small jazz kissaten in Shimokitazawa — window seat, rain on glass, espresso, open notebook, warm Edison bulbs, vinyl records, steamed windows
 - **Status:** 🟡 script ready — awaiting Suno + NanoBanana generation
 - **Upload date:** TBD (target week of July 6–12)
@@ -13,39 +14,24 @@
 
 ---
 
-## Why this video
+## 1. 🎵 Suno Prompt A — Style field
 
-The penthouse (269 views in 30 days) proved the format works. Café is the next untapped setting:
-- More relatable than a penthouse — everyone has studied in a café
-- Massive competing keyword: "café music", "coffee shop music", "study café" (millions of views on lofi channels)
-- Different thumbnail aesthetic = different click-through audience (cozy/warm vs luxury/dark)
-- Shimokitazawa angle = Japan-specific detail that signals authenticity
+**Rotation rule:** Variant A on tracks 1–7, Variant B on tracks 8–14, Variant C on tracks 15–22. Different openings = Content ID immunity across the album.
+*(Правило ротации: Вариант A — треки 1-7, Вариант B — треки 8-14, Вариант C — треки 15-22. Разные открытия = защита от Content ID по всему альбому.)*
 
-*Пентхаус (269 просмотров за 30 дней) подтвердил формат. Кафе — следующая незанятая ниша: более близко каждому (все учились в кафе), огромный поисковый трафик ("café music", "coffee shop music"), другой визуал = другая аудитория. Симокитазава — конкретная деталь Токио, сигнал аутентичности.*
-
----
-
-## 1. Suno Style (Prompt A) — 3 VARIANTS
-
-**Rotation rule:** Variant A on tracks 1-7, Variant B on tracks 8-14, Variant C on tracks 15-20. Different openings = Content ID immunity across the album.
-*(Правило ротации: Вариант A — треки 1-7, Вариант B — треки 8-14, Вариант C — треки 15-20. Разные открытия = защита от Content ID по всему альбому.)*
-
-### Variant A — Koto-led / Кото ведёт
-*(Кото — главный инструмент и мелодия; упрайт-бас + винил — атмосфера; дождь на стекле)*
+### Variant A — Koto-led
 
 ```
 Japanese ambient instrumental, koto as the primary lead instrument playing a slow contemplative melody — sparse single notes and gentle two-note phrases with long resonant decay, meditative and unhurried. Upright bass enters softly underneath walking very slowly, almost imperceptibly. Brushed snare whisper barely audible on every other bar. Vinyl record surface crackle woven into the texture throughout. Rain drumming gently on a café window behind everything. Occasional distant espresso machine hiss once every 90 seconds. 60-65 BPM. The koto carries the entire emotional weight — everything else is atmosphere. Deeply Japanese, intimate, contemplative — a Tokyo kissaten on a rainy afternoon. Instrumental only, no vocals, no singing, no chanting, no spoken word.
 ```
 
-### Variant B — Shakuhachi-led / Шакухати ведёт
-*(Шакухати — долгие ноты с дыханием; кото отвечает; пауза — это тоже музыка)*
+### Variant B — Shakuhachi-led
 
 ```
 Japanese ambient instrumental, shakuhachi bamboo flute as the primary lead — long breathy notes with natural breath tone and slow vibrato, each phrase followed by 4-6 seconds of silence before the next. Koto answers the shakuhachi with sparse single plucks between phrases, like a quiet conversation. Upright bass holds a very slow pulse underneath, almost inaudible. Vinyl surface crackle present throughout. Rain on a small café window as constant background texture. 58-62 BPM. The silences are as important as the notes — this is ma (間), the Japanese concept of meaningful space. Introspective, melancholic, authentically Japanese — music that belongs in a Shimokitazawa kissaten on a rainy afternoon. Instrumental only, no vocals, no singing, no chanting, no spoken word.
 ```
 
-### Variant C — Koto + Piano dialogue / Кото и пианино разговаривают
-*(Кото и пианино отвечают друг другу по очереди — японское встречает западное в одном пространстве)*
+### Variant C — Koto + Piano dialogue
 
 ```
 Japanese ambient instrumental, a quiet dialogue between koto and solo piano — each instrument plays a short phrase, then waits while the other responds. Koto always sounds more Japanese: sparse plucks, resonant decay, pentatonic intervals. Piano always sounds more Western: sparse jazz chords, room reverb, sustained notes. Neither dominates — they share the space equally, like two musicians who understand each other without words. Upright bass walks very slowly underneath both. Vinyl crackle texture throughout. Rain on café window as constant backdrop. Distant bonsho temple bell strikes once at the midpoint — single strike, long decay, never repeats. 63-67 BPM. Warm, intimate, culturally hybrid — the sound of a Japanese kissaten where East and West became the same thing. Instrumental only, no vocals, no singing, no chanting, no spoken word.
@@ -53,9 +39,9 @@ Japanese ambient instrumental, a quiet dialogue between koto and solo piano — 
 
 ---
 
-## 2. Suno Lyrics (Prompt B) — 3 VARIANTS
+## 2. 🎵 Suno Prompt B — Lyrics field
 
-### Variant A — Koto-led / Кото ведёт
+### Variant A — Koto-led
 
 ```
 [no lyrics, no vocals, instrumental only]
@@ -68,7 +54,7 @@ Japanese ambient instrumental, a quiet dialogue between koto and solo piano — 
 [texture: koto melody primary, rain on window, vinyl crackle, barely-audible bass, brushed snare whisper, distant espresso machine once]
 ```
 
-### Variant B — Shakuhachi-led / Шакухати ведёт
+### Variant B — Shakuhachi-led
 
 ```
 [no lyrics, no vocals, instrumental only]
@@ -81,7 +67,7 @@ Japanese ambient instrumental, a quiet dialogue between koto and solo piano — 
 [texture: shakuhachi breath primary, koto responses, rain on window constant, vinyl crackle, barely-audible bass pulse]
 ```
 
-### Variant C — Koto + Piano dialogue / Кото и пианино разговаривают
+### Variant C — Koto + Piano dialogue
 
 ```
 [no lyrics, no vocals, instrumental only]
@@ -93,21 +79,14 @@ Japanese ambient instrumental, a quiet dialogue between koto and solo piano — 
 [mood: East and West sitting at the same small table in a Shimokitazawa kissaten, rain on the window, neither trying to convince the other of anything]
 [texture: koto and piano in dialogue primary, rain constant, vinyl crackle, quiet bass, single temple bell once only]
 ```
-[loop point: piano plays the opening chord again, reverb trails, rain and vinyl hold the space — the bell is gone but its shape remains in the silence]
-[mood: a Japanese kissaten where jazz and Zen share the same room. The bell was not an accident. It was the owner's way of saying: slow down]
-[texture: piano silence, then rain, bass and snare, vinyl crackle throughout, single temple bell once, trumpet appearing and disappearing]
-```
 
 ---
 
-## 3. NanoBanana 16:9 (thumbnail image)
+## 3. 🎨 NanoBanana prompt 16:9 (thumbnail image)
 
 > **Role:** thumbnail only. The VIDEO LOOP uses the approved rocking chair image (generated separately) as Flow/Kling start frame — see §5.
-> *Роль: только тумбнейл. Видео-петля использует отдельный рендер (кресло-качалка) как стартовый кадр для Flow/Kling — см. §5.*
 >
-> ⚠️ **Acceptance check before saving:**
-> (1) NO readable Latin text anywhere — no book titles, no English brand names, no Roman alphabet. Japanese kanji on signs in background = fine. (2) Notebook cover = dark, no text. (3) Lower-left corner = dark empty wall with no objects.
-> *(Перед сохранением: нет читаемых латинских букв нигде — ни на книгах, ни на вывесках по-английски. Иероглифы кандзи на вывесках = норм. Обложка блокнота = тёмная, без текста. Нижний левый угол = тёмная пустая стена.)*
+> ⚠️ **Acceptance check before saving:** (1) NO readable Latin text anywhere — no book titles, no English brand names. Japanese kanji on signs = fine. (2) Notebook cover = dark, no text. (3) Lower-left corner = dark empty wall.
 
 ```
 Photorealistic cinematic interior, dark cozy Japanese café in Tokyo at night during heavy rain. 4K. Ultra-wide 16:9.
@@ -135,10 +114,9 @@ MOOD: the warmth of being inside while the city is wet and alive outside. Solitu
 NO readable Latin text anywhere. NO Roman alphabet. NO English words. NO book titles. NO brand names in English. Japanese kanji on neon signs and lanterns = fine as atmospheric elements. NO text overlays. NO logos. NO watermarks. 4K photorealistic, cinematic shallow DOF: coffee cup and near table edge sharp, window glass and rain in mid-focus, alley and distant umbrella figures in soft bokeh. Dark moody cinematic colour grade — warm amber street glow vs cool dark interior.
 ```
 
-## 4. NanoBanana 9:16 (Shorts cross-promo cover)
+## 4. 🎨 NanoBanana prompt 9:16 (Shorts cross-promo cover)
 
 > Generate separately from §3. Used for: Shorts cover + vertical cross-promo.
-> *Генерируем отдельно от §3. Используется для: обложка Шортс + вертикальная кросс-промо версия.*
 >
 > ⚠️ **Acceptance check:** No Latin text. Notebook = plain dark cover. Lower portion = table + cup visible and warm.
 
@@ -160,13 +138,11 @@ NO Latin text. NO English words. NO book titles. NO text overlays. NO logos. 4K 
 
 ---
 
-## 5. Flow / Kling motion loop prompt (8-second seamless loop)
+## 5. 🎬 Flow / Kling motion loop prompt (8-second seamless loop)
 
-> **START FRAME: use the ROCKING CHAIR NanoBanana image (approved render — person from behind in wooden rocking chair, tatami, andon lantern, Skytree through rain). NOT the §3 street view — §3 is the thumbnail only.**
-> *Стартовый кадр: используй рендер кресла-качалки (одобрен — человек со спины, татами, фонарь-андон, Skytree сквозь дождь). НЕ §3 (уличный вид) — §3 только для тумбнейла.*
+> **START FRAME: use the ROCKING CHAIR NanoBanana image (approved render — person from behind in wooden rocking chair, tatami, andon lantern, Skytree through rain). NOT §3 — §3 is thumbnail only.**
 >
-> ⚠️ **Must be perfectly seamless** — the rocking chair must return to its EXACT start position at frame 8. Re-roll if the loop seam is visible.
-> *(Должна быть идеально бесшовной — кресло-качалка должна вернуться в точно то же положение к кадру 8. Перегенерируй, если шов виден.)*
+> ⚠️ **Must be perfectly seamless** — rocking chair returns to exact start position at frame 8. Re-roll if the loop seam is visible.
 
 ```
 SUBTLE 8-SECOND SEAMLESS LOOP for a 1-hour focus video. Photorealistic cinematic dark interior: one person from behind in a wooden rocking chair, facing a panoramic rain-streaked window with Tokyo Skytree beyond. Camera COMPLETELY LOCKED — no pan, no zoom, no dolly, no shake.
@@ -191,21 +167,29 @@ PERFECTLY SEAMLESS — rocking chair returns to exact start position at frame 8 
 4K photorealistic cinematic, dark warm interior, cool blue Skytree glow through rain. Dominant motion: gentle rocking chair back-and-forth + rain on glass + mug steam. One person. One window. One rainy night in Tokyo.
 ```
 
-## 6. Assembly — CapCut (no ffmpeg needed for 1H)
+## 6. 🛠️ ffmpeg encode command (loop the 8-sec video to 1H 00min 32sec + audio)
 
-1. Drop the 8-sec Flow loop onto video track
-2. Extend / loop across full ~1H length using CapCut loop function
-3. Import Suno audio (20 tracks, pre-arranged in order)
-4. Sync audio start to 0:00
-5. Add wisdom overlay text layer (see §6a)
-6. Export 1080p 30fps H.264
+```bash
+ffmpeg -stream_loop -1 -i tokyo-cafe-rain-1h-loop.mp4 -i tokyo-cafe-rain-1h.mp3 \
+  -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
+  -c:a aac -b:a 192k -shortest -t 3632 tokyo-cafe-rain-1h.mp4
+```
 
-*Сборка в CapCut: (1) петля Flow на видео-трек, (2) зацикливаем на 1 час, (3) 20 Suno-треков по порядку, (4) синхрон аудио к 0:00, (5) слой мудрости (§6a), (6) экспорт 1080p 30fps H.264.*
+> Alternative (no re-encode — requires loop already in 1080p H.264 yuv420p):
+> ```bash
+> ffmpeg -stream_loop -1 -i tokyo-cafe-rain-1h-loop.mp4 -i tokyo-cafe-rain-1h.mp3 \
+>   -c:v copy -c:a aac -b:a 192k -shortest -t 3632 tokyo-cafe-rain-1h.mp4
+> ```
+
+**CapCut assembly (if not using ffmpeg):**
+1. Drop 8-sec Flow loop onto video track — extend / loop across full ~1H length
+2. Import 22 Suno tracks, pre-arranged in order — sync audio start to 0:00
+3. Add wisdom overlay text layer (see §6a)
+4. Export 1080p 30fps H.264
 
 ## 6a. 🈴 Wisdom Overlay — CapCut text layer
 
-> Add as a TEXT layer on the TOP track. Scene + sound from 0:00 with NO text (Karena rule #7 — first 3 sec uninterrupted). Text fades in at 0:03, holds, fades out by 0:14. After 0:14 = pure atmosphere for the rest of the hour.
-> *Текстовый слой на верхний трек. Сцена + звук с 0:00 без текста (правило Карены #7). Текст появляется с 0:03, держится, исчезает к 0:14. Дальше — чистая атмосфера.*
+> Add as a TEXT layer on the TOP track. Scene + sound from 0:00 with NO text (Karena rule #7 — first 3 sec uninterrupted). Text fades in at 0:03, holds, fades out by 0:14.
 
 **Phrase for this video:**
 
@@ -215,9 +199,10 @@ Amadare ishi o utsu
 "Raindrops wear the stone"
 ```
 
-*Перевод: «Капли дождя пробивают камень» — терпеливая работа преодолевает всё. Буквально о дожде (совпадает с визуалом) + метафора сессии глубокого фокуса.*
+*«Капли дождя пробивают камень» — терпеливая работа преодолевает всё. Буквально о дожде (совпадает с визуалом) + метафора сессии глубокого фокуса.*
 
 **CapCut settings:**
+
 | Setting | Value |
 |---------|-------|
 | Font | **Liberation Serif Bold** (phone: EB Garamond / Cormorant Garamond) |
@@ -226,44 +211,28 @@ Amadare ishi o utsu
 | Line 2 — Amadare ishi o utsu | medium (romaji) |
 | Line 3 — "Raindrops wear the stone" | small (English gloss) |
 | Alignment | Left |
-| Position | **Upper-left** — over the dark café interior wall on the left edge of the frame |
+| Position | **Lower-left** — over the dark interior corner, bottom-left of the frame |
 | Clip start | **0:03** |
 | Clip end | **0:14** |
 | Transition in | Fade 2s |
 | Transition out | Fade 2s |
 | Glow / shadow / box | ❌ None |
 
-> If using ffmpeg instead:
-> ```bash
-> ffmpeg -stream_loop -1 -i tokyo-cafe-rain-1h-loop.mp4 -i tokyo-cafe-rain-1h.mp3 \
->   -c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p \
->   -c:a aac -b:a 192k -shortest -t 3600 tokyo-cafe-rain-1h.mp4
-> ```
-
 ---
 
-## 7. YouTube Title
+## 7. 📝 YouTube Title
 
 ```
 Rainy Afternoon in a Tokyo Café — 1 Hour Deep Focus Music | Study, Work & Writing
 ```
 
 - **Chars:** 82/90 ✅
-- **Hook front-loaded:** "Rainy Afternoon in a Tokyo Café" — visual anchor before the dash
-- **Use-case clear:** Deep Focus / Study, Work & Writing — three audiences in one
+- **Music keyword in first 50%:** "1 Hour Deep Focus Music" — passes topic categorization rule ✅
 - **No hashtags in title** (Karena #1) ✅
-
-### A/B Title Variant
-
-```
-Tokyo Café Rain — 1 Hour Uninterrupted Focus Music | Study & Deep Work Session
-```
-
-*(78 chars — "Uninterrupted" carried the 269-view marathon video, worth testing)*
 
 ---
 
-## 8. YouTube Description (Hikari-style — 5 blocks)
+## 8. 📝 YouTube Description
 
 ```
 Find your table by the window. Let the rain handle the rest.
@@ -309,41 +278,46 @@ Put on your headphones. Open your notebook. The café is ready.
 
 🌿 New focus sessions every week — subscribe and let the wave carry you.
 
-stillwave • japanese ambient • deep focus music • café music tokyo • study music • rain music • lofi jazz • work music • shimokitazawa • kissaten
+#deepfocus #cafémusic #studymusic #tokyocafe #rainmusic #lofijazz #focusmusic #studywithme #deepwork #workmusic #japanesecafe #shimokitazawa #ambientmusic #coffeemusic #productivitymusic #writingmusic #codingmusic #rainyday
 ```
 
----
+> ✅ **Timestamps confirmed** (22 tracks, total 1:00:32). First entry is exactly `0:00`, entries in ascending order → YouTube auto-detects chapters.
 
-## 9. Tags (22 tags — MERSO core + café-specific)
+## 9. 🏷️ Tags (22 tags — MERSO core + café-specific)
 
 ```
 deep work music, deep focus music, focus music, study music, work music, concentration music, productivity music, background music for work, music for studying, instrumental music, ambient music, ambient study music, café music, coffee shop music, lofi jazz, rainy café music, tokyo café music, japanese café music, rain music for studying, shimokitazawa, relajarse, música para concentrarse
 ```
 
-**Tag audit:**
-- Brand/core (MERSO locked 10): `deep work music`, `deep focus music`, `focus music`, `study music`, `work music`, `concentration music`, `productivity music`, `background music for work`, `music for studying`, `instrumental music` ✅
-- Ambient cross-niche: `ambient music`, `ambient study music` ✅
-- Café niche (NEW for this video): `café music`, `coffee shop music`, `lofi jazz`, `rainy café music`, `tokyo café music`, `japanese café music`, `rain music for studying` ✅
-- Brand geo: `shimokitazawa` (highly specific — low competition, strong topic signal) ✅
-- Spanish reach: `relajarse`, `música para concentrarse` ✅
+### Tag audit
+
+| Tag | Source | Why it works |
+|-----|--------|--------------|
+| `deep work music` | MERSO core | #1 niche keyword for the channel |
+| `deep focus music` | MERSO + PHF | Universal across both winner channels |
+| `focus music`, `study music`, `work music`, `concentration music`, `productivity music` | MERSO 10-tag locked set | Channel-level authority signal |
+| `background music for work`, `music for studying`, `instrumental music` | MERSO 10-tag locked set | Cover the niche broadly |
+| `ambient music`, `ambient study music` | PHF top-2 | Ambient-cluster captures alternate search intent |
+| `café music`, `coffee shop music` | Café niche | Primary search terms for coffee-shop music seekers |
+| `lofi jazz` | Café niche | Jazz-café crossover, low competition |
+| `rainy café music`, `tokyo café music`, `japanese café music` | Café long-tail | Specific multi-word — low competition, strong topic signal |
+| `rain music for studying` | Cross-niche bridge | Rain + study overlap keyword |
+| `shimokitazawa` | Brand geo | Highly specific location — low competition, high authenticity signal |
+| `relajarse`, `música para concentrarse` | PHF Spanish reach | Multi-language algorithm reach |
 
 **Total chars: ~378 / 500** ✅
 
----
-
-## 10. Hashtags
+## 10. # Hashtags
 
 **Top-3 (appear under title in YouTube UI):**
+
 ```
 #deepfocus #cafémusic #studymusic
 ```
 
-**Extended set in description body** (already embedded above — YouTube uses first 15 from description for search):
-`#tokyocafe #rainmusic #lofijazz #focusmusic #studywithme #deepwork #workmusic #japanesecafe #shimokitazawa #ambientmusic #coffeemusic #productivitymusic #writingmusic #codingmusic #rainyday`
+**Extended set embedded in description body** (already included above — YouTube uses first 15 from description for search relevance, order matters).
 
----
-
-## 11. Pinned Comment
+## 11. 📌 Pinned comment
 
 ```
 ☕ Find a window seat. The rain is already there.
@@ -353,30 +327,13 @@ What are you working on today? Drop one word — writing, coding, studying, desi
 Full 1-hour session above 🌿
 ```
 
----
+## 12. 🔁 A/B title variant
 
-## 12. Thumbnail spec
+```
+Tokyo Café Rain — 1 Hour Uninterrupted Focus Music | Study & Deep Work Session
+```
 
-**Layout:** close crop of the window-seat table — notebook + espresso cup in foreground, rain-streaked glass immediately behind, blurred Shimokitazawa street bokeh (warm yellow + pink neon) through the glass. No text overlay needed — the image tells the whole story. If text needed: cream `#F5EAD2` Liberation Serif, upper-left, max 3 words.
-
-**File:** `tokyo-cafe-rain-1h-thumb.jpg` (1280×720, JPEG q92)
-
----
-
-## 13. Pre-publish checklist
-*(Чеклист перед публикацией — проверь каждый пункт)*
-
-- [ ] Suno: 20 tracks generated, all instrumental (no vocal bleed)
-- [ ] NanoBanana: 16:9 render accepted (notebook + espresso + rain glass + vinyl visible)
-- [ ] Flow/Kling: 8-sec loop seamless (record rotating, rain running, espresso steam, notebook writing)
-- [ ] CapCut: 20 tracks assembled, total ~60 min, timestamps verified
-- [ ] Title: no hashtags ✅ no "Hans Zimmer" / film references ✅
-- [ ] Description: tracklist timestamps match CapCut export ✅
-- [ ] Tags: ≤500 chars ✅ café cluster present ✅
-- [ ] Upload: Unlisted first → review → flip Public
-- [ ] "Not for kids" set ✅
-- [ ] Pinned comment posted within 10 min of going Public
-- [ ] Add to playlist: Tokyo Rain Focus Series
+*(78 chars — "Uninterrupted" carried the 269-view marathon video, worth testing)*
 
 ---
 
