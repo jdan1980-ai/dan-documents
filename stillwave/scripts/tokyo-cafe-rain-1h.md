@@ -22,13 +22,13 @@
 ### Variant A — Koto-led
 
 ```
-Japanese ambient instrumental, koto as the primary lead instrument playing a slow contemplative melody — sparse single notes and gentle two-note phrases with long resonant decay, meditative and unhurried. Upright bass enters softly underneath walking very slowly, almost imperceptibly. Brushed snare whisper barely audible on every other bar. Vinyl record surface crackle woven into the texture throughout. Rain drumming gently on a café window behind everything. Occasional distant espresso machine hiss once every 90 seconds. 60-65 BPM. The koto carries the entire emotional weight — everything else is atmosphere. Deeply Japanese, intimate, contemplative — a Tokyo kissaten on a rainy afternoon. Instrumental only, no vocals, no singing, no chanting, no spoken word.
+Japanese ambient instrumental, koto as the primary lead instrument playing a slow contemplative melody — sparse single notes and gentle two-note phrases with long resonant decay, meditative and unhurried. Upright bass enters softly underneath walking very slowly, almost imperceptibly. Brushed snare whisper barely audible on every other bar. Vinyl record surface crackle woven into the texture throughout. Rain drumming gently on a café window behind everything. Occasional distant espresso machine hiss once every 90 seconds. 60-65 BPM. The koto carries the entire emotional weight — everything else is atmosphere. Deeply Japanese, intimate, contemplative — a Tokyo kissaten late at night in the rain. Instrumental only, no vocals, no singing, no chanting, no spoken word.
 ```
 
 ### Variant B — Shakuhachi-led
 
 ```
-Japanese ambient instrumental, shakuhachi bamboo flute as the primary lead — long breathy notes with natural breath tone and slow vibrato, each phrase followed by 4-6 seconds of silence before the next. Koto answers the shakuhachi with sparse single plucks between phrases, like a quiet conversation. Upright bass holds a very slow pulse underneath, almost inaudible. Vinyl surface crackle present throughout. Rain on a small café window as constant background texture. 58-62 BPM. The silences are as important as the notes — this is ma (間), the Japanese concept of meaningful space. Introspective, melancholic, authentically Japanese — music that belongs in a Shimokitazawa kissaten on a rainy afternoon. Instrumental only, no vocals, no singing, no chanting, no spoken word.
+Japanese ambient instrumental, shakuhachi bamboo flute as the primary lead — long breathy notes with natural breath tone and slow vibrato, each phrase followed by 4-6 seconds of silence before the next. Koto answers the shakuhachi with sparse single plucks between phrases, like a quiet conversation. Upright bass holds a very slow pulse underneath, almost inaudible. Vinyl surface crackle present throughout. Rain on a small café window as constant background texture. 58-62 BPM. The silences are as important as the notes — this is ma (間), the Japanese concept of meaningful space. Introspective, melancholic, authentically Japanese — music that belongs in a Shimokitazawa kissaten late at night in the rain. Instrumental only, no vocals, no singing, no chanting, no spoken word.
 ```
 
 ### Variant C — Koto + Piano dialogue
@@ -237,7 +237,7 @@ Late Night in a Tokyo Café — 1 Hour Deep Focus Music | Study, Work & Writing
 ```
 Find your table by the window. Let the rain handle the rest.
 
-This 1-hour focus session was made for the hours that matter — the long afternoon at the café, notebook open, espresso cooling, the kind of afternoon where time slips away and real work gets done.
+This 1-hour focus session was made for the hours that matter — the late night at the café, notebook open, espresso cooling, the kind of night where time slips away and real work gets done.
 
 Recorded in the spirit of a small Shimokitazawa jazz kissaten: vinyl on the turntable, rain on the window, nobody rushing anywhere.
 
@@ -260,14 +260,14 @@ Put on your headphones. Open your notebook. The café is ready.
 9:32 — Shimokitazawa Lane
 13:52 — Pages Turn Slowly
 17:48 — Jazz in the Back Room
-20:52 — Afternoon Dissolves
+20:52 — The Night Deepens
 23:21 — Rain Heavier Now
 27:07 — The Owner Turns a Record
 30:17 — Notebook Open
 33:08 — Muted Trumpet, Once
 35:33 — Steam from the Wand
 38:27 — Between Two Thoughts
-40:56 — The Long Afternoon
+40:56 — The Long Night
 43:38 — Neon Across the Lane
 46:17 — Vinyl Side B
 48:24 — Rain on the Sill
