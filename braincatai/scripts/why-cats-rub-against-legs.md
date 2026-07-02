@@ -455,15 +455,30 @@ More rubs = more trust. That's how cats say: you're family.
 
 ## Scene 7 — CTA (37–45 sec)
 
-⚡ **Ken Burns — NO Veo, NO Kling, NO new Nano Banana image needed.**
+⚡ **Ken Burns on Nano Banana still — NO Kling / Veo needed.**
 
-Use existing asset: `assets/cta-brain-wave.png`
-(Shared CTA asset across Love → Dream → Jealous → Rub series. If the file does not yet exist, generate it from the Sc7 Nano Banana prompt in `scripts/do-cats-really-love-you.md`.)
+Generate the image below → save as `assets/cta-brain-wave.png` (reusable across future videos). Then apply Ken Burns in CapCut.
+
+What the viewer sees: Brain sits in the living room, facing the camera, one paw raised in a friendly wave. Warm, inviting expression — slow blink mid-wave. Direct eye contact with the viewer. This is the follow/subscribe moment.
+
+Что видит зритель: Брейн сидит в гостиной, смотрит в камеру, одна лапа поднята в приветственном жесте. Тёплое выражение. Зрительный контакт. Момент подписки.
+
+**🎨 Image prompt (Nano Banana):**
+
+```
+Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubby, NOT pudgy — slender petite kitten body with small chest, slim torso, delicate proportions, small paws), big round Pixar-style eyes — each eye has a LARGE PURE WHITE sclera (white of the eye clearly visible all around) surrounding a medium round EMERALD-GREEN iris (#3DDC84) with a black pupil in the center; ONLY the small iris is colored green, the white of the eye stays pure white, NEVER a fully-green eyeball, NEVER green sclera (iris NOT brown, NOT amber, NOT yellow, NOT hazel), small thin round gold-framed glasses (ALWAYS on, every shot), a plain smooth brown leather collar (smooth band, NO studs, NO spikes, NO metal plates, NO front buckle) with EXACTLY ONE gold HEART-SHAPED tag engraved "Brain" (heart shape — NOT round, NOT blank; identical every scene), soft fluffy orange fur with darker tabby stripes, ALL 4 PAWS — both FRONT and both BACK — the SAME orange ginger tabby color as the body (NO white paws, NO white socks, NO white mittens, NO white toes, NO white BACK paws), tail orange ginger tabby to the very tip (NO white tail tip), pink nose, long white whiskers, EXACTLY 2 EARS (one left, one right — both pointed perky triangle kitten ears, perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped artifact on head), Pixar/Disney 3D ANIMATED CARTOON style (stylized smooth cartoon shading, big cartoon eyes, rounded cartoon forms — like a frame from a Pixar movie, NOT photorealistic, NOT a real cat, NOT realistic fur), soft cartoon lighting.
+
+INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: ONE plain SOLID sage-green woven rug — solid sage-green color, NO pattern, NO border, NO fringe, simple rectangular shape — in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (OFF, lampshade cream-colored) and ONE small open book lying face-down beside the lamp. WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains letting in soft warm afternoon daylight from the upper-right. PLANT: ONE leafy snake plant (Sansevieria) with 5–7 upright sword-shaped dark-green leaves with lighter variegated cream-green stripes, positioned in a small terracotta pot BESIDE the window on the floor. NO other plants. NO wall art (clean cream wall behind). LIGHTING: soft warm honey-amber ambient with daylight bloom from the window. Cozy lived-in atmosphere, shallow depth of field — armchair and window slightly soft-focus.
+
+MEDIUM CLOSE-UP, eye-level camera. Brain sits centered on the sage-green rug facing DIRECTLY toward the camera. His RIGHT FRONT PAW is raised in a friendly open-palm wave — paw pads visible, arm extended at a relaxed 45° angle (NOT fully extended stiff, NOT both paws raised). His other three paws are natural and relaxed (left front paw on rug, back paws tucked under). Expression: eyes bright and warm, naturally open, looking directly into the lens with a gentle welcoming smile-energy — mouth closed in a soft friendly closed-lip expression. Ears relaxed and slightly forward. Tail curves gently behind him. Warm, inviting, friendly — the "come follow me" energy.
+
+vertical 9:16 composition, full bleed edge-to-edge, NO white border, NO white frame, NO padding, NO margins.
+```
 
 **CapCut Ken Burns settings:**
 
 ```
-Asset: assets/cta-brain-wave.png
+Asset: assets/cta-brain-wave.png (save generated image here for reuse)
 Duration: 8 seconds
 Zoom: 100% → 104% (slow push-in, linear easing)
 Position: centered, no drift
