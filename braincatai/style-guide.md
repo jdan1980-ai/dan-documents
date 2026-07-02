@@ -402,7 +402,7 @@ perfectly symmetric, NO third ear, NO extra fur tuft, NO ear-shaped
 artifact on head), Pixar/Disney 3D ANIMATED CARTOON style (stylized
 smooth cartoon shading, big cartoon eyes, rounded cartoon forms — like a
 frame from a Pixar movie, NOT photorealistic, NOT a real cat, NOT realistic
-fur), soft cartoon lighting, vertical 9:16 composition.
+fur), soft cartoon lighting, vertical 9:16 composition, full bleed edge-to-edge, NO white border, NO white frame, NO padding, NO margins.
 ```
 
 > ⚠️ **Realism trap (locked 22 мая 2026):** tokens like "3D render", "cinematic lighting", "4K", "hyperrealistic" pull the model toward photorealism. Lead with "Pixar/Disney ANIMATED CARTOON", drop "render/4K", and put realism words in negatives. The 10-credit Veo also drifts to realism on its own — a higher tier holds the cartoon style better.

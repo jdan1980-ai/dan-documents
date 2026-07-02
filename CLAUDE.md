@@ -381,6 +381,8 @@ Two-tier formatting for every BrainCatAI script section:
 
 Do NOT add negatives as a separate block — user does not use negatives (bakes them into the main prompt or skips).
 
+**Every Nano Banana image prompt MUST end with:** `full bleed edge-to-edge, NO white border, NO white frame, NO padding, NO margins.` — locked 2 июл 2026 (Nano Banana adds white border by default; this line removes it).
+
 ---
 
 ## 📋 Self-contained prompt delivery (MANDATORY — locked 22 мая 2026, user directive)
