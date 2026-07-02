@@ -25,6 +25,46 @@
 
 ---
 
+## 📝 Полный VO
+
+**🇬🇧 English:**
+
+```
+Your cat twitches in sleep. Paws running. Ears flicking.
+
+Mice? Birds? Something in the walls? Or — is it you?
+
+Scientists wired sleeping cats. Their brains lit up in REM. Just like humans.
+
+Cats replay everything from the day. Every game. Every person.
+
+For indoor cats, their whole world is you. Food, play, naps.
+
+That twitching at 3am? Cats dream about daily life. Your cat's life is you.
+
+Watch them sleep tonight. That twitch? You're in there. Follow Brain for more cat secrets.
+```
+
+**🇷🇺 Русская версия:**
+
+```
+Твоя кошка дёргается во сне. Лапки бегут. Уши дёргаются.
+
+Мыши? Птицы? Что-то в стенах? Или это ты?
+
+Учёные подключили спящих кошек к датчикам. Их мозг засветился в фазе REM. Как у людей.
+
+Кошки воспроизводят всё, что было за день. Каждую игру. Каждого человека.
+
+Для домашней кошки весь её мир — это ты. Еда, игры, сон.
+
+Это подёргивание в 3 ночи? Кошки воспроизводят дневную жизнь во снах. Жизнь твоей кошки — это ты.
+
+Посмотри как они спят сегодня ночью. Это подёргивание? Ты там. Подписывайся на Брейна за новыми секретами.
+```
+
+---
+
 ## 🏠 Локации — залочить на это видео
 
 ### Location A — INT. COZY LIVING ROOM — NIGHT

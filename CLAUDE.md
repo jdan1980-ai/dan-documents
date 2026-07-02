@@ -377,6 +377,8 @@ Two-tier formatting for every BrainCatAI script section:
 - Pre-publish checklist
 - Keyword research notes / vidIQ verdict
 
+**Every script must include a `## 📝 Полный VO` section** immediately after the keyword block and before the Locations section. Contains the complete VO for the entire video in two code blocks: 🇬🇧 English first, then 🇷🇺 Russian. Both in code blocks for copy-paste. Used for subtitles, TTS input, and translation review.
+
 **SEO Pack must include Suno music prompt** as the last item before the checklist — user needs it in one place.
 
 Do NOT add negatives as a separate block — user does not use negatives (bakes them into the main prompt or skips).

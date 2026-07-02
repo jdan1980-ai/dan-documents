@@ -27,6 +27,46 @@
 
 ---
 
+## 📝 Полный VO
+
+**🇬🇧 English:**
+
+```
+Your cat is watching you. Not cute watching. Jealous watching.
+
+Do cats actually feel jealousy? Or just... run chaos management?
+
+Scientists showed cats a fake cat. 79% squeezed between the owner and the fake. That's jealousy.
+
+They insert themselves. Paw at you. Sit on your laptop. Make noise. Right now.
+
+It's not jealousy like you feel it. They're protecting access to their most valuable resource.
+
+That resource? It's you. The one thing they cannot afford to lose.
+
+Next time they sit on your laptop — that's love. Couldn't-lose-you love. Follow Brain for more cat secrets.
+```
+
+**🇷🇺 Русская версия:**
+
+```
+Твоя кошка наблюдает за тобой. Не мило наблюдает. Ревниво наблюдает.
+
+Кошки вообще ревнуют? Или просто управляют хаосом?
+
+Учёные показали кошкам фальшивую кошку. 79% вклинились между хозяином и фальшивкой. Это ревность.
+
+Они вклиниваются. Тычут лапой. Садятся на ноутбук. Шумят. Прямо сейчас.
+
+Это не ревность как у людей. Они охраняют доступ к самому ценному ресурсу.
+
+Этот ресурс — ты. То, что они не могут себе позволить потерять.
+
+Когда они сядут на ноутбук — это любовь. Та самая «не могу тебя потерять» любовь. Подписывайся на Брейна.
+```
+
+---
+
 ## 🏠 Локации — залочить на это видео
 
 ### Location A — INT. COZY LIVING ROOM — DAY
