@@ -583,6 +583,20 @@ my cat literally does the running paws thing at like 3am and i always just watch
 моя кошка бегает лапами во сне ровно в 3 ночи и я всегда смотрела и не понимала что происходит 😭 теперь зная что она, возможно, снит меня — не могу это переварить. ваша издаёт звуки во сне или только лапками двигает?
 ```
 
+### 🎵 Suno music prompt (~60s)
+
+```
+[dreamy orchestral pop, wonder and warmth, ~60 seconds]
+[0-6s: hook sting] soft music box single notes — gentle and mysterious, tiptoeing quality
+[6-18s: build] light piano joins music box, barely-there brushed drums, soft string swell builds curiosity
+[18-37s: groove] full soft arrangement — piano melody, muted strings, light brushed percussion — dreamy and gentle, forward momentum with wonder
+[37-52s: payoff swell] warm emotional peak — strings open fully, piano brightens, heart-pulling swell of warmth — tender revelation landing softly
+[52-60s: soft close] music box returns gently, strings fade, final warm piano note holds.
+
+Mood: dreamy, wondering, warm reveal. Like a tender secret you just discovered. NOT dramatic. NOT sad. NOT dark.
+BPM ~90. Key: major. Style: modern dreamy orchestral pop, YouTube Shorts friendly. No vocals.
+```
+
 ---
 
 ## ✅ Pre-publish checklist

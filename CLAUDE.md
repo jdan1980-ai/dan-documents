@@ -357,6 +357,32 @@ If editing the script's title, scenes, or VO, **re-verify tags reflect the new t
 - **All on-screen text MUST be in English** — channel is English-language (@braincatai). This applies to: thumbnails (title plate, arrow callouts), in-video overlays ("SAY THEIR NAME", "ADOPTED ✓", "TOP SCORE"), scene captions, chart labels in lab scenes. Russian alt-titles in scripts are ONLY for potential future RU mirror channel — never used on the current EN channel. Locked 15 мая 2026 after the assistant slipped Russian "ВОТ КАК ОНА ВИДИТ ВАС" into a thumbnail prompt.
 - **All on-screen text/numerals in a single video MUST use ONE LOCKED FONT and ONE LOCKED STYLE.** This applies to: cartoon numerals in image prompts ("1", "2", "3" in curiosity-gap and build-up scenes), category lower-thirds ("1. GUARD", "2. SEPARATION", "3. TERRITORY"), in-video overlay phrases ("EVERY TIME", "BLINK = SOUND", "VERIFY"), chart labels in lab scenes, thumbnail text plate. If a video uses a soft pastel-yellow rounded sans for the curiosity-gap "3", then EVERY numeral/overlay/caption in that video must be the same soft pastel-yellow rounded sans — not a serif here and a brush there. The full channel-wide locked typography spec lives in `braincatai/style-guide.md` §13 (font family, weight, color, stroke). Locked 16 мая 2026 after typography drift made overlays feel like different videos stitched together.
 
+## 📋 Script formatting rule (LOCKED 2 июл 2026, user directive)
+
+Two-tier formatting for every BrainCatAI script section:
+
+**Tier 1 — Copy-paste sections** (user pastes directly into a tool — Nano Banana, Veo/Kling, Suno, CapCut, YouTube): always wrap in ``` code blocks ```. This applies to:
+- Every image prompt (Nano Banana 2)
+- Every animation prompt (Veo 3 / Kling)
+- Every VO line (EN and RU — each in its own code block)
+- Suno music prompt
+- SEO Pack: Title, Alt titles, Description, Tags, Hashtags, Pinned comment
+- Thumbnail prompt and thumbnail negatives
+- CapCut settings blocks
+
+**Tier 2 — Read-to-understand sections** (user reads to plan / review, doesn't paste): write in **English first**, then **Russian translation directly below**. This applies to:
+- Scene descriptions ("What the viewer sees" / "Что видит зритель")
+- Pre-flight check notes
+- Scene structure overview table
+- Pre-publish checklist
+- Keyword research notes / vidIQ verdict
+
+**SEO Pack must include Suno music prompt** as the last item before the checklist — user needs it in one place.
+
+Do NOT add negatives as a separate block — user does not use negatives (bakes them into the main prompt or skips).
+
+---
+
 ## 📋 Self-contained prompt delivery (MANDATORY — locked 22 мая 2026, user directive)
 
 **Every prompt the assistant hands to the user must be copy-paste ready with ALL locks already baked in — the user must NEVER have to assemble or paste anything extra.** Do this automatically, every time, without being asked:
