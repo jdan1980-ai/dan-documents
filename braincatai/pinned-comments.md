@@ -322,6 +322,19 @@ my cat literally does the laptop thing every single time without fail and i alwa
 
 ---
 
+### 55. Why Your Cat Rubs Against Your Legs (TBD) — Cat Psychology
+
+🇬🇧:
+```
+my cat does this every single time i come home no matter if i was gone 5 minutes or 5 hours 😭 found out she's basically signing me as hers each time. i literally belong to her now. does yours do it more when you've been away longer or is it always the same amount
+```
+🇷🇺:
+```
+моя кошка делает это каждый раз когда я прихожу домой неважно на 5 минут или на 5 часов 😭 оказывается она каждый раз подписывает меня как свою. я теперь официально её собственность. у вашей больше трений после долгого отсутствия или всегда одинаково
+```
+
+---
+
 ### 53. Do Cats REALLY Dream About You? (TBD) — Cat Psychology
 
 🇬🇧:
