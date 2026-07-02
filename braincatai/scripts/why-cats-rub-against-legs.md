@@ -84,11 +84,11 @@ INT. BRAIN'S MICRO-LAB — DAY. Cozy miniature science laboratory scaled for a k
 
 ## Scene 1 — HOOK (0–6 sec)
 
-What the viewer sees: Low-angle medium shot. One pair of human legs (cropped mid-calf, body fully out of frame) in soft cream linen trousers. Brain walks in from left with tail held high and presses his cheek deliberately against the ankle — rubbing slowly along it. The contact moment happens in the first 2 seconds. The scent-mark contact is the visual hook.
+What the viewer sees: Low-angle shot from floor level looking up. TWO human legs (both visible, gap between them) in soft cream linen trousers, feet flat on the floor. Brain walks INTO the gap between the legs from behind, body weaving through in a fluid figure-8 — tail draped along the right calf as he passes through, then cheek presses briefly against the left ankle as he exits the other side. This is the figure-8 weave that every cat owner instantly recognizes. The hook is the familiarity of the behavior, not just the rub.
 
-Что видит зритель: Ракурс снизу. Пара человеческих ног (обрезано до середины голени) в светлых льняных брюках. Брейн входит слева с поднятым хвостом и прижимает щёку к лодыжке — медленно трётся. Контакт — зацепка.
+Что видит зритель: Ракурс с пола снизу вверх. ДВЕ человеческих ноги видны целиком (зазор между ними). Брейн входит в зазор МЕЖДУ ног сзади, тело в змейке проходит насквозь — хвост скользит по правой голени, щека прижимается к левой лодыжке на выходе. Именно это движение «восьмёрка» каждый владелец кошки узнаёт моментально.
 
-Pre-flight: YELLOW — human legs as static prop; low-angle. Keep legs completely static in animation prompt. Recommend standard Kling tier.
+Pre-flight: YELLOW — two legs + moving figure-8 pattern. For the Nano Banana still: capture Brain mid-pass, body between the legs, tail touching the right calf. For Kling: the weave motion is the key action; keep everything else still.
 
 **🎨 Image prompt (Nano Banana):**
 
@@ -97,9 +97,9 @@ Cute orange tabby kitten named Brain (8-10 week old kitten, NOT adult, NOT chubb
 
 INT. COZY LIVING ROOM — DAY. Cozy modern living room. WALLS: soft cream-painted. FLOOR: warm honey-amber wooden floorboards. RUG: ONE plain SOLID sage-green woven rug — solid sage-green color, NO pattern, NO border, NO fringe, simple rectangular shape — in the center of the floor. ARMCHAIR: ONE low cream linen armchair on the RIGHT side of frame with ONE folded amber knit throw blanket draped on its arm. SIDE-TABLE: ONE small wooden side-table on the LEFT side of frame holding ONE brass desk lamp (OFF, lampshade cream-colored) and ONE small open book lying face-down beside the lamp. WINDOW: ONE tall window in the BACKGROUND with sheer linen curtains letting in soft warm afternoon daylight from the upper-right. PLANT: ONE leafy snake plant (Sansevieria) with 5–7 upright sword-shaped dark-green leaves with lighter variegated cream-green stripes, positioned in a small terracotta pot BESIDE the window on the floor. NO other plants. NO wall art (clean cream wall behind). LIGHTING: soft warm honey-amber ambient with daylight bloom from the window. Cozy lived-in atmosphere, shallow depth of field — armchair and window slightly soft-focus.
 
-HUMAN LEGS (cropped): A PAIR OF ADULT HUMAN LEGS — cropped at mid-calf, body and face fully out of frame. Soft cream linen trousers, relaxed cut. Both feet flat on the honey-amber floorboards. NO torso, NO hands, NO face visible — strictly legs only.
+HUMAN LEGS (cropped): TWO ADULT HUMAN LEGS side by side — cropped at mid-calf, body and face fully out of frame. Soft cream linen trousers, relaxed cut. Both feet flat on the honey-amber floorboards, a clear GAP of about 25-30 cm between the legs. NO torso, NO hands, NO face visible — strictly legs only.
 
-LOW-ANGLE MEDIUM SHOT, camera at floor level looking slightly upward. Brain is in 3/4-profile mid-rub: his body faces slightly right, head turned left to press his LEFT CHEEK firmly against the human's right ankle — tail held vertically upright, one front paw stepping forward. Brain's expression: eyes bright and alert, naturally open, slightly smug — NOT startled, NOT wide-eyed.
+LOW-ANGLE SHOT from floor level looking slightly upward, camera centered between the two legs. Brain is captured MID-WEAVE: his body is passing BETWEEN the two legs, moving from right to left — his slender torso threads the gap, his TAIL is draped and curling against the RIGHT calf, his HEAD is turned LEFT with his left cheek pressing lightly against the LEFT ankle as he exits. PROFILE view of Brain's body — side on, showing the full weave posture. Tail held high with tip curling. Brain's expression: eyes bright and alert, slightly smug — focused on the exit direction.
 
 vertical 9:16 composition, full bleed edge-to-edge, NO white border, NO white frame, NO padding, NO margins.
 ```
@@ -107,25 +107,26 @@ vertical 9:16 composition, full bleed edge-to-edge, NO white border, NO white fr
 **🎬 Animation prompt (Kling 3.0):**
 
 ```
-SHOT: Low-angle medium, static camera at floor level looking slightly upward. 6-second clip.
+SHOT: Low-angle, camera on the floor centered between two human legs looking slightly upward. Static camera. 6-second clip.
 
-TIME 0–2s: Brain walks into frame from the left — tail held high, purposeful stride, 3/4-profile moving right. He approaches the human's right ankle. Eyes bright and alert.
-TIME 2–4s: Brain turns his head left and presses his LEFT CHEEK firmly against the ankle — slow deliberate rub along it, cheek slides 2–3 cm. Tail stays upright. Eyes close slightly in satisfaction (NOT squinting — just softer).
-TIME 4–6s: Brain lifts his head, looks directly into camera for a beat — bright smug expression — then walks off-frame right. Tail still high.
+TIME 0–1.5s: Brain enters the gap between the two legs from the RIGHT side of frame — tail held high, slender body threading into the gap. Eyes bright.
+TIME 1.5–3.5s: Brain weaves through — body arcs left, TAIL drapes and slides along the right calf (soft contact, fluid motion), head turns left, LEFT CHEEK presses briefly against the left ankle as he passes through the gap.
+TIME 3.5–5s: Brain exits the gap to the LEFT side of frame, completing the pass-through. Tail flicks as it clears the right leg.
+TIME 5–6s: Brain turns his head back toward camera over his shoulder — brief direct look, smug bright-eyed expression — then continues walking left.
 
-EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera (white of the eye clearly visible all around) with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil. ONLY the small iris is green — sclera stays PURE WHITE the entire 6 seconds. Iris NEVER brown, NEVER amber, NEVER hazel, NEVER BLUE, NEVER CYAN.
+EYE COLOR RULE (strict): Each eye is a LARGE PURE WHITE sclera with a medium round EMERALD-GREEN iris (#3DDC84) and a black pupil. ONLY the small iris is green — sclera PURE WHITE the entire 6 seconds. Iris NEVER brown, NEVER amber, NEVER BLUE, NEVER CYAN.
 
-GLASSES RULE (strict): Brain ALWAYS wears his small round gold-framed glasses — they stay ON his face the entire clip. NEVER remove.
+GLASSES RULE (strict): Gold-framed glasses stay ON Brain's face the entire clip.
 
-SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat in frame. The human legs are a fully STATIC prop — they do NOT move at all. NEVER add a second cat.
+SINGLE-CHARACTER RULE (strict): EXACTLY ONE cat — Brain. The human legs are COMPLETELY STATIC props — they do NOT move at all. NEVER add a second cat.
 
-STYLE RULE (strict): Pixar 3D animated CARTOON style — NEVER photorealistic. Brain's identity stays IDENTICAL to the input image.
+STYLE RULE (strict): Pixar 3D animated CARTOON — NEVER photorealistic. Brain stays IDENTICAL to input image.
 
-ANATOMY RULE (strict): Brain has exactly 4 paws AND exactly 2 EARS. Body stays slender 8-10 week old kitten. Collar with gold heart tag visible.
+ANATOMY RULE (strict): Exactly 4 paws AND exactly 2 EARS. Slender kitten body. Collar with gold heart tag visible throughout.
 
-MOUTH RULE (strict): Mouth stays completely closed the entire 6 seconds. No lip-sync. No talking motion.
+MOUTH RULE (strict): Mouth stays completely closed the entire 6 seconds. No lip-sync.
 
-MOTION RULE (strict): Only Brain moves — walk, cheek-press, head turn. The human legs are completely static.
+MOTION RULE (strict): Only Brain moves — the weave-through. The two human legs are completely static.
 
 STYLE: Pixar 3D animated cartoon, warm honey-amber living room lighting, vertical 9:16.
 ```
