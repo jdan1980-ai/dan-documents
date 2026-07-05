@@ -1,111 +1,131 @@
 # StillWave — Published Videos
 
-Pulled live via VidIQ + NexLev on **2026-06-28** (channel UC188FjOT6tivjPOPfZ69s7Q, handle @stillwavezen).
+Pulled live via VidIQ on **2026-07-05** (channel UC188FjOT6tivjPOPfZ69s7Q, handle @stillwavezen).
 
 ## Channel summary
 
-- **Subscribers:** 52 (+16 since May 9)
-- **Total views:** 6,218 (+1,956 since May 9)
-- **Total videos:** 49 (+18 since May 9)
+- **Subscribers:** ~77 (est. from analytics — +25 in Jul 1-4 alone from MUSHIN viral push)
+- **Total views:** ~9,500+ (est.)
+- **Total videos:** 30 long-form + Shorts
 - **Channel published:** 2008 (legacy account, repurposed for StillWave brand in March 2026)
 
-## Growth snapshot (May 9 → June 28, 50 days)
+## Growth snapshot (June 28 → July 5, 7 days)
 
-| Metric | May 9 | June 28 | Delta | Rate/day |
-|--------|-------|---------|-------|----------|
-| Subscribers | 36 | 52 | +16 | +0.32/day |
-| Views | 4,262 | 6,218 | +1,956 | +39/day |
-| Videos | 31 | 49 | +18 | — |
+| Metric | June 28 | July 5 | Delta | Notes |
+|--------|---------|--------|-------|-------|
+| Subscribers | 52 | ~77 | +25 | MUSHIN viral pickup |
+| MUSHIN views | 65 | **2,198** | +2,133 | Active algo push, 31 VPH |
+| VPH (Jul 5) | — | **31.3** | — | Still climbing |
 
-**Key growth events (from daily stats):**
-- **May 25-26:** +432 views in one day — Tokyo Rain Deep Work + 528 Hz batch drop
-- **May 22-26:** +4 subs spike (38→42) — SEIJAKU release + Tokyo Rain surge
-- **June 24:** +168 views in one day — SATORI launch effect
-- **June 1-11:** plateau (~10 views/day) — no new uploads, algorithm coasts
+**Key growth events (Jun 28 → Jul 5):**
+- **Jul 1-4:** MUSHIN explodes — 99 → 199 → 412 → 778 → 1,468 → 2,198 views in 5 days
+- **Jul 3:** +369 views single day (VPH peak 26.2)
+- **Jul 4:** +690 views single day (VPH peak 36.2) — best day in channel history
+- **Jul 5:** 31.3 VPH — algo push still active as of pull time
 
-## All long-form videos — sorted by views (NexLev, June 28)
+## All long-form videos — sorted by views (VidIQ, July 5)
 
 | Date | Title | Length | Views |
 |------|-------|--------|-------|
-| 2026-04-10 | 852 Hz / Monks' Secret to Unlock Intuition / 2H Deep Meditation | 1H 59M | **616** ⭐ |
-| 2026-04-23 | KIRI — 霧 / Japanese Zen Music for Deep Focus, Meditation & Inner Calm | 2H 17M | **551** |
-| 2026-05-28 | Tokyo Rain Deep Work Marathon / 1 Hour Uninterrupted | 1H 5M | **269** 🆕 |
-| 2026-03-21 | 1 Hour Shakuhachi Flute Meditation • Japanese Zen Music | 1H 5M | 233 |
-| 2026-05-28 | 528 Hz Healing Frequency / Stop Overthinking | 1H 2M | 162 🆕 |
-| 2026-03-25 | Ancient Japan Meditation Music • 2 Hours Zen Ambient | 2H 2M | 161 |
-| 2026-04-18 | 3 Hours of 528 Hz: Restore Balance & Activate Your Heart Chakra | 2H 58M | 156 |
-| 2026-04-27 | YORU — 夜 / Japanese Zen Music for Deep Sleep | 2H 3M | 141 |
-| 2026-03-23 | Japanese Rain Sounds for Anxiety Relief 2H | 1H 58M | 133 |
-| 2026-06-22 | SATORI — 悟り / Zen Japanese Music for Meditation, Healing & Spirit | 3H 1M | **129** 🆕🔥 |
-| 2026-03-29 | 2.5 Hours Japanese Forest Sounds for Deep Sleep | 2H 28M | 95 |
-| 2026-04-12 | 3 Hours of 639 Hz Solfeggio • Heal, Relax, and Sleep Deeply | 3H 43M | 87 |
-| 2026-04-15 | TAKUMI — 匠 / Japanese Zen Music for Deep Focus | 2H 59M | 85 |
-| 2026-06-17 | MUSHIN — 無心 / Japanese Zen Music for No-Mind State, Deep Focus | 2H 1M | 67 🆕 |
-| 2026-06-07 | 2 Hours of Deep Focus — Tokyo Rain Pomodoro for Coding & Study | 2H | 65 🆕 |
-| 2026-05-28 | 528 Hz Deep Sleep Music / Tokyo Sound Bath for Anxiety Relief | 1H 1M | 61 🆕 |
-| 2026-03-31 | Water Memories — 水の記憶 / Japanese Ambient Music | 1H 11M | 60 |
-| 2026-05-28 | Tokyo Snowfall Coding Marathon / 1 Hour Uninterrupted | 1H 6M | 50 🆕 |
-| 2026-05-01 | 静寂 — SEIJAKU / Sacred Temple Silence 3H | 3H 1S | 50 |
-| 2026-04-17 | 20 Min Morning Healing: 528 Hz DNA Repair & Heart Activation | 22M | 49 |
-| 2026-04-08 | Bamboo Rain / 2.5H Japanese Focus Music / 528 Hz | 2H 34M | 48 |
-| 2026-04-05 | 528 Hz Sleep Music / 8 Hours Japanese Healing | 8H | 44 |
-| 2026-05-28 | 963 Hz Frequency of God / Pineal Gland Activation | 1H 20M | 42 🆕 |
-| 2026-04-28 | HI — 火 / The Sacred Fire • Japanese Zen + Shakuhachi | 1H 60M | 40 |
-| 2026-06-25 | MAKOTO — 誠 / Japanese Samurai Zen Music for Honor, Bushidō Spirit | 1H | **38** 🆕 (D3) |
-| 2026-05-28 | 間 — MA / The Space Between Sounds — Deep Focus & Sleep | 1H 59M | 32 |
-| 2026-06-14 | Pomodoro Study Timer 50/10 — 2H Deep Focus / Tokyo Rain | 2H | 26 🆕 |
-| 2026-04-03 | 432 Hz / Fall Asleep to Rain in Kyoto / 8H | 8H | 23 |
-| 2026-05-28 | 雨音 — AMAOTO / Rain on Ancient Temple Roof | 2H 58M | 19 |
+| 2026-06-16 | MUSHIN — 無心 \| Japanese Zen Music for No-Mind State, Deep Focus & Inner Stillness | 2H | **2,198** 🔥⭐ NEW #1 |
+| 2026-04-10 | 852 Hz / Monks' Secret to Unlock Intuition / 2H Deep Meditation | 1H 59M | ~630 |
+| 2026-04-23 | KIRI — 霧 / Japanese Zen Music for Deep Focus, Meditation & Inner Calm | 2H 17M | ~560 |
+| 2026-05-28 | Tokyo Rain Deep Work Marathon / 1 Hour Uninterrupted | 1H 5M | ~275 |
+| 2026-03-21 | 1 Hour Shakuhachi Flute Meditation • Japanese Zen Music | 1H 5M | ~235 |
+| 2026-06-21 | SATORI — 悟り / Zen Japanese Music for Meditation, Healing & Spirit | 3H 1M | ~170 |
+| 2026-05-28 | 528 Hz Healing Frequency / Stop Overthinking | 1H 2M | ~165 |
+| 2026-03-25 | Ancient Japan Meditation Music • 2 Hours Zen Ambient | 2H 2M | ~162 |
+| 2026-04-18 | 3 Hours of 528 Hz: Restore Balance & Activate Your Heart Chakra | 2H 58M | ~157 |
+| 2026-04-27 | YORU — 夜 / Japanese Zen Music for Deep Sleep | 2H 3M | ~143 |
+| 2026-03-23 | Japanese Rain Sounds for Anxiety Relief 2H | 1H 58M | ~135 |
+| 2026-03-29 | 2.5 Hours Japanese Forest Sounds for Deep Sleep | 2H 28M | ~97 |
+| 2026-04-12 | 3 Hours of 639 Hz Solfeggio • Heal, Relax, and Sleep Deeply | 3H 43M | ~88 |
+| 2026-04-15 | TAKUMI — 匠 / Japanese Zen Music for Deep Focus | 2H 59M | ~86 |
+| 2026-06-10 | Pomodoro Study Timer 50/10 — 2H Deep Focus Music / Tokyo Rain | 2H | ~70 |
+| 2026-06-07 | 2 Hours of Deep Focus — Tokyo Rain Pomodoro for Coding & Study | 2H | ~66 |
+| 2026-05-28 | 528 Hz Deep Sleep Music / Tokyo Sound Bath for Anxiety Relief | 1H 1M | ~62 |
+| 2026-03-31 | Water Memories — 水の記憶 / Japanese Ambient Music | 1H 11M | ~61 |
+| 2026-05-28 | Tokyo Snowfall Coding Marathon / 1 Hour Uninterrupted | 1H 6M | ~51 |
+| 2026-05-01 | 静寂 — SEIJAKU / Sacred Temple Silence 3H | 3H 1S | ~51 |
+| 2026-04-17 | 20 Min Morning Healing: 528 Hz DNA Repair & Heart Activation | 22M | ~50 |
+| 2026-04-08 | Bamboo Rain / 2.5H Japanese Focus Music / 528 Hz | 2H 34M | ~49 |
+| 2026-04-05 | 528 Hz Sleep Music / 8 Hours Japanese Healing | 8H | ~45 |
+| 2026-05-28 | 963 Hz Frequency of God / Pineal Gland Activation | 1H 20M | ~43 |
+| 2026-04-28 | HI — 火 / The Sacred Fire • Japanese Zen + Shakuhachi | 1H 60M | ~41 |
+| 2026-06-25 | MAKOTO — 誠 / Japanese Samurai Zen Music for Honor, Bushidō Spirit | 1H | ~43 |
+| 2026-05-28 | 間 — MA / The Space Between Sounds — Deep Focus & Sleep | 1H 59M | ~33 |
+| 2026-03-29 | 432 Hz / Fall Asleep to Rain in Kyoto / 8H | 8H | ~24 |
+| 2026-05-28 | 雨音 — AMAOTO / Rain on Ancient Temple Roof | 2H 58M | ~20 |
+| 2026-07-01 | Tokyo Rain & Vinyl \| Late Night Café Ambience Music for Productivity | 1H | **10** 🆕 (D4) |
 
 *(Shorts are on a separate tab — not included in this sort. KIRI Shorts ~398 views, SEIJAKU Shorts ~124 views as of May 9.)*
 
-## Key insights — updated June 28
+## MUSHIN viral pickup — detailed daily (VidIQ)
+
+| Day | Date | Views | Likes | VPH |
+|-----|------|-------|-------|-----|
+| D1 | Jun 17 | 7 | 0 | 0.60 |
+| D3 | Jun 19 | 26 | 0 | 0.39 |
+| D10 | Jun 26 | 46 | 3 | 0.44 |
+| D12 | Jun 28 | 65 | 2 | 0.44 |
+| D14 | Jun 30 | 99 | 3 | 1.19 |
+| D15 | Jul 1 | 199 | 6 | 4.60 ← algo wakes up |
+| D16 | Jul 2 | 412 | 15 | 9.60 |
+| D17 | Jul 3 | 778 | 27 | 26.2 |
+| D18 | Jul 4 | 1,468 | 44 | 36.2 ← best day |
+| D19 | Jul 5 | **2,198** | **77** | **31.3** ← still active |
+
+**Like rate D19:** 77/2198 = **3.5%** (exceptional; channel avg ~1.5%)
+
+## Key insights — updated July 5
 
 ### 🏆 Top performers
 
-1. **852 Hz Monks' Secret** — **616 views** ⭐ NEW #1 (overtook KIRI). Mystery + Hz framing is the single strongest formula.
-2. **KIRI — 霧** — **551 views**. Kanji-Concept long-form benchmark.
-3. **Tokyo Rain Deep Work Marathon** — **269 views in ~30 days** 🔥. Breakthrough — NEW format (productivity/coding niche), organic discovery without a Shorts push.
-4. **SATORI — 悟り** — **129 views in just 6 days** 🔥. Best Kanji-Concept launch to date (vs MUSHIN 67 views in 11 days, SEIJAKU 50 views all-time). SATORI is the series' strongest entry so far.
+1. **MUSHIN — 無心** — **2,198 views** ⭐⭐ NEW #1 BY FAR. Delayed viral pattern: slow first 2 weeks → algo push on D15, still accelerating. Kanji-Concept + No-Mind/Bruce Lee crossover = strongest title format discovered to date.
+2. **852 Hz Monks' Secret** — ~630 views. Mystery + Hz framing still #2 all-time.
+3. **KIRI — 霧** — ~560 views. Kanji-Concept long-form benchmark.
+4. **Tokyo Rain Deep Work Marathon** — ~275 views. Second pillar (productivity niche) holding steady.
+5. **SATORI — 悟り** — ~170 views at D14. Solid Kanji-Concept trajectory.
 
 ### 🎯 Patterns that work
 
-- ✅ **Hz + "Monks' Secret" / mystery framing** — single strongest title format. 616 views vs channel avg ~80.
-- ✅ **Tokyo Rain + productivity/coding hook** — "Deep Work Marathon", "Snowfall Coding" — found organic audience fast. No Shorts needed.
-- ✅ **Kanji-Concept Series is accelerating** — MUSHIN (D11: 67) < SATORI (D6: 129). Brand recognition compound effect is real.
-- ✅ **1H sweet spot confirmed again** — Tokyo Rain (1H: 269 views) vs Pomodoro 2H (65 views) — shorter = more completions = better signals.
-- ✅ **2H still solid for Kanji-Concept** — KIRI 2H (551), YORU 2H (141), MUSHIN 2H (67).
+- ✅ **Kanji-Concept Series is the primary driver** — MUSHIN 2198 views (D19) vs. SATORI 170 views (D14) vs. KIRI 560 views (all-time). The series compounds with each release as brand recognition builds.
+- ✅ **Delayed viral pattern is real** — MUSHIN was slow for 2 weeks (65 views D12), then algo caught it (199 D15 → 2198 D19). Don't judge Kanji-Concept by D7 numbers.
+- ✅ **Hz + "Monks' Secret" / mystery framing** — 852 Hz still #2 at ~630 views. A new Healing Hour volume with this framing should outperform now that the channel has more authority.
+- ✅ **Tokyo Rain + productivity/coding hook** — Deep Work Marathon ~275 views. Second pillar confirmed.
+- ✅ **1H sweet spot** — MUSHIN (2H is an exception because Kanji-Concept audiences stay longer). For standard focus: 1H still wins.
 
 ### 🚧 Patterns that struggle
 
-- ❌ **8H videos** — 44 and 23 views. Still dead weight at this subs level.
-- ❌ **3H+ except SATORI** — 639 Hz 3H (87), SEIJAKU 3H (50), AMAOTO 3H (19). SATORI at 3H is the exception — brand recognition lifted it.
-- ❌ **June 1-11 plateau** — 10 days of ~10 views/day. Stagnation when no uploads. Algorithm needs feeding every 3-4 days minimum.
-- ❌ **963 Hz / Pineal Gland** (42 views) — esoteric Hz framing without the "Monks' Secret" hook doesn't carry.
+- ❌ **8H videos** — ~45 and ~24 views. Still dead weight.
+- ❌ **3H+ except Kanji-Concept** — 639 Hz 3H (~88), SEIJAKU 3H (~51). SATORI at 3H works only because the brand carried it.
+- ❌ **Tokyo Rain & Vinyl** — 10 views at D4. Café format may need time (MUSHIN was 7 views at D1 too), but it's not connected to any hot algo thread right now. Monitor at D14.
+- ❌ **963 Hz / Pineal Gland** (~43 views) — esoteric Hz framing without the "Monks' Secret" hook doesn't carry.
 
-### 📊 Format performance (updated)
+### 📊 Format performance (updated July 5)
 
 | Format | Count | Avg views | Notes |
 |--------|-------|-----------|-------|
-| Long-form 1H | 7 | ~124 | Best ROI — short to produce, high completion |
-| Long-form 2H | 9 | ~166 | Solid — Kanji-Concept sweet spot |
-| Long-form 3H+ | 7 | ~73 | Only works with brand (SATORI exception) |
-| Long-form 8H | 2 | ~34 | Discontinue until 10K subs |
-| Shorts (≤60s) | ~13 | ~120 est. | Cross-promo still strong |
+| Kanji-Concept long-form | 5 | ~680 (MUSHIN spike) | **Primary series — double down NOW** |
+| Long-form 1H focus | 4 | ~160 | Good ROI — short to produce |
+| Long-form 2H focus | 6 | ~130 | Solid for established series |
+| Hz / Healing Hour | 8 | ~120 | Still works with "Monks' Secret" hook |
+| Long-form 3H+ | 5 | ~70 | Avoid unless Kanji-Concept |
+| Long-form 8H | 2 | ~34 | Discontinue |
 
-### 🆕 New niche discovered: Tokyo Rain / Coding Focus
+### 🔥 Priority action: ride the MUSHIN wave
 
-Three "Tokyo Rain" productivity videos published May 28 are outperforming expectations:
-- Tokyo Rain Deep Work Marathon (1H): **269 views** — 3rd all-time on channel
-- Deep Focus Tokyo Rain Pomodoro 2H: **65 views**
-- Tokyo Snowfall Coding Marathon: **50 views**
+MUSHIN is in active algo push (31 VPH on Jul 5 / D19). YouTube is currently recommending StillWave to a specific audience cluster. Upload the next Kanji-Concept video ASAP — the algo will use MUSHIN as the seed to push the new video to the same audience.
 
-**This is a second pillar alongside Kanji-Concept.** Coding/deep-work audience is real, consistent, and not yet served well by Japanese ambient channels. Worth 1 video/week in this format.
+**Next Kanji-Concept candidates (from content-ideas.md):**
+- YUGEN (幽玄) — profound mystery
+- KENSHO (見性) — seeing one's true nature
+- GAMAN (我慢) — endurance / perseverance
 
 ## Update procedure
 
 When a video is published:
-1. Re-run live pull via VidIQ `vidiq_channel_stats` + NexLev `youtube_channel_videos`
+1. Re-run live pull via VidIQ `vidiq_channel_stats` + `vidiq_channel_videos`
 2. Sort by views, replace this table
 3. Update insights at the bottom if patterns shift
 4. Mark new top performer with ⭐

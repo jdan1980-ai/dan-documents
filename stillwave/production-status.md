@@ -10,24 +10,25 @@ Single source of truth for the StillWave pipeline. Update at every status change
 
 See `published-videos.md` for the full table with metrics.
 
-## In production / scheduled
+## Recently published
 
-> Pipeline для long-form статической картинки: 📝 script → 🎵 suno generated → 🎨 image generated → 🎬 ~~not needed~~ → 🎞️ ffmpeg encoded → ⏰ scheduled → 📤 published.
+| Slug | Title | Published | Views (D) | Notes |
+|------|-------|-----------|-----------|-------|
+| `tokyo-cafe-rain-1h` | Tokyo Rain & Vinyl \| Late Night Café Ambience Music for Productivity | 2026-07-01 | **10** (D4) | Café format — monitor at D14 |
+| `makoto-the-last-samurai` | MAKOTO — 誠 \| Japanese Cinematic Zen for Honor, Bushido & Spirit · 1H | 2026-06-25 | ~43 (D10) | — |
+| `satori-sudden-awakening` | SATORI — 悟り \| Zen Japanese Music for Meditation, Healing & Spiritual Enlightenment | 2026-06-21 | ~170 (D14) | — |
+| `mushin-no-mind` | MUSHIN — 無心 \| Japanese Zen Music for No-Mind State, Deep Focus & Inner Stillness | 2026-06-16 | **2,198** (D19) 🔥 | VIRAL — 31 VPH on Jul 5, still in algo push |
+| `tokyo-apartment-rain-1h` | Power Hour Focus Music — Tokyo Apartment Rain | 2026-05-10 | ~275 (D56) | 3rd all-time, productivity pillar |
 
-| Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎞️ | ⏰ | 📤 |
-|------|-------|--------|----|----|----|-----|-----|-----|
-| `tokyo-apartment-rain-1h` | Power Hour Focus Music — Tokyo Apartment Rain | 1H 04min 48sec (24 tracks) | ✅ | ✅ | ✅ | ✅ | ✅ **scheduled May 10, 14:00** | ⏳ |
+## In production / next up
 
-### Tokyo Apartment Rain — review schedule
+> Pipeline для long-form full-album: 📝 script → 🎵 suno generated → 🎨 image generated → 🎬 video loop → 🎞️ assembled in CapCut → ⏰ scheduled → 📤 published.
 
-After publish (May 10, 14:00):
-- **48h review** — May 12, 14:00 → pull live API data, log views/likes/comments/CTR
-- **7d review** — May 17, 14:00 → full retention analysis + comment mining + first lessons
-- **30d review** — June 9, 14:00 → final perf snapshot, decide if pattern goes into Power Hour series template
-| `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `satori-sudden-awakening` | SATORI — 悟り \| 3 Hours Japanese Zen Music for Sudden Awakening & Deep Meditation | **3H** (~22 tracks) | ✅ | 🟡 generating | ⏳ | ⏳ | ⏳ Jun 22-24 | ⏳ |
-| `makoto-the-last-samurai` | MAKOTO — 誠 \| Japanese Samurai Zen Music for Honor, Bushidō Spirit & Deep Meditation | 1H (~18 tracks) | ✅ | ✅ | ⏳ | ⏳ | ⏳ | ⏳ |
+| Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎬 | 🎞️ | ⏰ | 📤 |
+|------|-------|--------|----|----|----|----|-----|-----|-----|
+| — | **NEXT Kanji-Concept** (YUGEN / KENSHO / GAMAN) | 1-2H | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 ## Phase 1 batch — week of May 13–19
 
