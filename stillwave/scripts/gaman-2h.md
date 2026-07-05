@@ -6,7 +6,7 @@
 - **Slug:** `gaman-2h`
 - **Format:** Long-form
 - **Length:** ~2H (20 Suno tracks, ~6 min avg)
-- **Aesthetic:** Ancient mountain temple at dusk — lone monk before a massive ink-brushed scroll, rain on stone, stone lantern burning, palette deep storm blue-grey + single amber accent
+- **Aesthetic:** Ancient mountain temple in rain — lone monk before a massive ink-brushed scroll, incense smoke rising, palette deep charcoal grey + white smoke accent
 - **Playlist (add to in Studio):** Kanji-Concept Series
 - **Status:** 🟡 script ready — awaiting Suno + NanoBanana generation
 - **Upload date:** TBD (ASAP — ride MUSHIN algo push)
@@ -192,7 +192,7 @@ Not by resistance — but by roots.
 
 The rain comes as it always has.
 The monk sits as he always has.
-The stone lantern burns through the night.
+The incense burns through the night.
 What endures is not the strongest —
 it is the deepest rooted.
 

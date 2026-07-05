@@ -26,9 +26,11 @@ See `published-videos.md` for the full table with metrics.
 
 | Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎬 | 🎞️ | ⏰ | 📤 |
 |------|-------|--------|----|----|----|----|-----|-----|-----|
-| — | **NEXT Kanji-Concept** (YUGEN / KENSHO / GAMAN) | 1-2H | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `gaman-2h` | **GAMAN — 我慢** \| Japanese Zen Music for Endurance, Deep Focus & Inner Strength | 2H | ✅ | ⏳ | ✅ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+
+> **GAMAN notes (Jul 5):** Thumbnail image selected — monk + 我慢 scroll + incense smoke. Thumbnail text (`GAMAN` cream 185px lower-left) applied. Next: Suno 20 tracks (A×7 + B×7 + C×6) → Flow loop → CapCut assembly. Upload ASAP — MUSHIN algo push still active at 31 VPH.
 
 ## Phase 1 batch — week of May 13–19
 
