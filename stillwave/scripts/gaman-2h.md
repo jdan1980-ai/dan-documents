@@ -23,19 +23,19 @@ Three style variants — rotate across tracklist to avoid Content ID on openings
 ### Variant A — Style field (Koto-led)
 
 ```
-sparse koto plucking, distant shakuhachi flute, low bowed cello-like bass strings, slow taiko heartbeat at 55 BPM, mountain temple stone ambience, rain on ancient stone, occasional far temple bell resonance with long decay, deep meditative Japanese zen ambient, minor pentatonic, sparse arrangement with sustained notes and long silences between phrases, cinematic depth and weight, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+sparse koto plucking, distant shakuhachi flute, low bowed cello-like bass strings, slow taiko heartbeat at 55 BPM, mountain temple stone ambience, occasional far temple bell resonance with long decay, deep meditative Japanese zen ambient, minor pentatonic, sparse arrangement with sustained notes and long silences between phrases, cinematic depth and weight, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 
 ### Variant B — Style field (Shakuhachi/Wind-led)
 
 ```
-solo shakuhachi flute with deep mountain wind texture, sparse bass koto (lower strings only), slow ceremonial taiko at 50 BPM, heavy monsoon rain ambience layer, single temple bell every 80 seconds, wide reverb cave-like space, deep stillness beneath every note, traditional Japanese ambient minor scale, meditative heavy with unspoken emotional weight, cinematic and solemn, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+solo shakuhachi flute with deep mountain wind texture, sparse bass koto (lower strings only), slow ceremonial taiko at 50 BPM, single temple bell every 80 seconds, wide reverb cave-like space, deep stillness beneath every note, traditional Japanese ambient minor scale, meditative heavy with unspoken emotional weight, cinematic and solemn, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 
 ### Variant C — Style field (Bowl-led)
 
 ```
-singing bowl resonance as primary texture, sparse shakuhachi response lines, very slow ceremonial koto 3–4 notes per minute, deep bass drone pad beneath everything, rain on stone roof ambience, 48 BPM or slower, extreme reverb with long natural decay on every note, traditional Japanese deep ambient meditation, vast and solemn like the interior of an ancient stone temple, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+singing bowl resonance as primary texture, sparse shakuhachi response lines, very slow ceremonial koto 3–4 notes per minute, deep bass drone pad beneath everything, 48 BPM or slower, extreme reverb with long natural decay on every note, traditional Japanese deep ambient meditation, vast and solemn like the interior of an ancient stone temple, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 
 ---
@@ -51,21 +51,21 @@ singing bowl resonance as primary texture, sparse shakuhachi response lines, ver
 [section B: low cello-drone rises beneath, taiko heartbeat enters softly — the sense of weight being held, not surrendered]
 [section C: all three layers together — koto, shakuhachi, taiko — sparse, unhurried, no resolution, the storm does not rush]
 [loop point: koto returns to opening 3-note phrase, shakuhachi fades to single breath]
-[mood: a monk seated before an ancient ink-brushed scroll in an empty stone hall, rain outside — not resisting, simply outlasting]
-[texture: stone in rain — smooth, cold, patient, ancient]
+[mood: a monk seated before an ancient ink-brushed scroll in an empty stone hall — not resisting, simply outlasting]
+[texture: stone — smooth, cold, patient, ancient]
 ```
 
 ### Variant B — Lyrics (Shakuhachi/Wind-led)
 
 ```
 [no lyrics, no vocals, instrumental only]
-[opening: 6 seconds of mountain wind and rain on ancient stone — then single shakuhachi note, low, held for 5 full seconds]
+[opening: 6 seconds of mountain wind through ancient stone corridors — then single shakuhachi note, low, held for 5 full seconds]
 [section A: shakuhachi alone — slow searching phrases with 5–7 second rests — the breath of someone who has stopped counting time]
 [section B: bass koto joins with 2–3 low notes per phrase — the weight beneath the melody, the ground that does not move]
 [section C: taiko heartbeat enters at extreme low volume — steady, slow, a pulse that simply continues, storm or no storm]
 [loop point: wind rises for 4 seconds, then shakuhachi returns to opening note alone]
-[mood: rain falling on a stone courtyard — each drop adds to what has always been there]
-[texture: wet ancient stone under monsoon — cold surface, centuries of warmth beneath]
+[mood: silence settling in a stone courtyard — each moment adds to what has always been there]
+[texture: ancient stone — cold surface, centuries of warmth beneath]
 ```
 
 ### Variant C — Lyrics (Bowl-led)
@@ -77,8 +77,8 @@ singing bowl resonance as primary texture, sparse shakuhachi response lines, ver
 [section B: sparse koto notes — 3 notes every 25 seconds — each resting inside the bowl's resonance field before the next]
 [section C: bass drone rises below — not heavy, simply present — the mountain beneath the storm]
 [loop point: bowl strike, 7 seconds of silence, bowl strike, shakuhachi breath fades to nothing]
-[mood: sitting inside a stone temple while rain falls outside — the bowl's sound outlasting the storm]
-[texture: reverberant stone interior — space that holds sound longer than expected, longer than the storm]
+[mood: sitting inside a stone temple in deep silence — the bowl's sound outlasting everything]
+[texture: reverberant stone interior — space that holds sound longer than expected, longer than the mind]
 ```
 
 ---
