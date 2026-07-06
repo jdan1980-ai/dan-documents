@@ -5,7 +5,7 @@
 - **Title:** GAMAN — 我慢 | Japanese Zen Music for Endurance, Deep Focus & Inner Strength
 - **Slug:** `gaman-2h`
 - **Format:** Long-form
-- **Length:** ~2H (20 Suno tracks, ~6 min avg)
+- **Length:** ~2H (39 Suno tracks, ~3 min avg, runtime 2:01:00)
 - **Aesthetic:** Ancient mountain temple in rain — lone monk before a massive ink-brushed scroll, incense smoke rising, palette deep charcoal grey + white smoke accent
 - **Playlist (add to in Studio):** Kanji-Concept Series
 - **Status:** 🟡 script ready — awaiting Suno + NanoBanana generation
@@ -112,34 +112,51 @@ Seamless loop: last frame identical to first frame.
 
 ---
 
-## §5 — Tracklist (placeholder timestamps — update after Suno generation)
+## §5 — Tracklist (real timestamps — updated 2026-07-06)
 
-Variant A tracks 1–7 · Variant B tracks 8–14 · Variant C tracks 15–20
+39 tracks · ~3 min avg · total runtime ~2:01:00
 
 ```
 0:00 — Before the Storm
-6:00 — The Gate Holds
-12:00 — Rain on the Stone Floor
-18:00 — Seated in the Wind
-24:00 — One Breath, One Year
-30:00 — What the Bell Carries
-36:00 — Still Water Beneath Rain
-42:00 — The Root That Holds
-48:00 — Three Hundred Winters
-54:00 — Silence as Weight
-1:00:00 — The Lantern Keeps Its Flame
-1:06:00 — Something Older Than the Storm
-1:12:00 — The Night That Passes
-1:18:00 — Unmoved
-1:24:00 — The Weight of Rain
-1:30:00 — Stone Memory
-1:36:00 — Before It Clears
-1:42:00 — What Remains
-1:48:00 — The Stone Does Not Speak
-1:54:00 — After the Storm
+3:24 — The Gate Holds
+6:48 — Rain on the Stone Floor
+9:52 — Seated in the Wind
+12:57 — One Breath, One Year
+15:52 — What the Bell Carries
+19:01 — Still Water Beneath Rain
+22:01 — The Root That Holds
+25:12 — Three Hundred Winters
+28:00 — Silence as Weight
+31:04 — The Lantern Keeps Its Flame
+33:50 — Something Older Than the Storm
+37:21 — The Night That Passes
+40:21 — Unmoved
+43:24 — The Weight of Rain
+46:24 — Stone Memory
+49:34 — Before It Clears
+52:39 — What Remains
+55:21 — The Stone Does Not Speak
+58:24 — After the Storm
+1:01:09 — The Incense Knows No Hurry
+1:04:24 — Weight That Becomes Warmth
+1:07:20 — Second Hour, Same Stone
+1:10:24 — What Patience Leaves Behind
+1:13:12 — The Scroll Holds Everything
+1:15:44 — Deeper Than the Wind
+1:18:50 — The Bell's Long Reach
+1:21:44 — Neither Yields
+1:26:07 — Stone and Smoke
+1:28:56 — The Monk Does Not Move
+1:31:59 — What the Mountain Holds
+1:34:48 — Breath After Breath
+1:38:07 — The Cold Is Not the Enemy
+1:41:20 — Endurance Without Name
+1:43:57 — The Ash That Stays Still
+1:47:31 — What Remains When the Wind Stops
+1:50:48 — The Final Bell
+1:54:31 — After Everything, Still Here
+1:57:56 — The Stone Grows Warm
 ```
-
-*(Update all timestamps after Suno generation — these are placeholders at ~6 min/track.)*
 
 ---
 
@@ -205,25 +222,44 @@ This is GAMAN — 我慢.
 ─────────────────────────────
 
 0:00 — Before the Storm
-6:00 — The Gate Holds
-12:00 — Rain on the Stone Floor
-18:00 — Seated in the Wind
-24:00 — One Breath, One Year
-30:00 — What the Bell Carries
-36:00 — Still Water Beneath Rain
-42:00 — The Root That Holds
-48:00 — Three Hundred Winters
-54:00 — Silence as Weight
-1:00:00 — The Lantern Keeps Its Flame
-1:06:00 — Something Older Than the Storm
-1:12:00 — The Night That Passes
-1:18:00 — Unmoved
-1:24:00 — The Weight of Rain
-1:30:00 — Stone Memory
-1:36:00 — Before It Clears
-1:42:00 — What Remains
-1:48:00 — The Stone Does Not Speak
-1:54:00 — After the Storm
+3:24 — The Gate Holds
+6:48 — Rain on the Stone Floor
+9:52 — Seated in the Wind
+12:57 — One Breath, One Year
+15:52 — What the Bell Carries
+19:01 — Still Water Beneath Rain
+22:01 — The Root That Holds
+25:12 — Three Hundred Winters
+28:00 — Silence as Weight
+31:04 — The Lantern Keeps Its Flame
+33:50 — Something Older Than the Storm
+37:21 — The Night That Passes
+40:21 — Unmoved
+43:24 — The Weight of Rain
+46:24 — Stone Memory
+49:34 — Before It Clears
+52:39 — What Remains
+55:21 — The Stone Does Not Speak
+58:24 — After the Storm
+1:01:09 — The Incense Knows No Hurry
+1:04:24 — Weight That Becomes Warmth
+1:07:20 — Second Hour, Same Stone
+1:10:24 — What Patience Leaves Behind
+1:13:12 — The Scroll Holds Everything
+1:15:44 — Deeper Than the Wind
+1:18:50 — The Bell's Long Reach
+1:21:44 — Neither Yields
+1:26:07 — Stone and Smoke
+1:28:56 — The Monk Does Not Move
+1:31:59 — What the Mountain Holds
+1:34:48 — Breath After Breath
+1:38:07 — The Cold Is Not the Enemy
+1:41:20 — Endurance Without Name
+1:43:57 — The Ash That Stays Still
+1:47:31 — What Remains When the Wind Stops
+1:50:48 — The Final Bell
+1:54:31 — After Everything, Still Here
+1:57:56 — The Stone Grows Warm
 
 ─────────────────────────────
 
@@ -233,7 +269,7 @@ This is GAMAN — 我慢.
 Subscribe for more Japanese zen music and meditation journeys 🌿
 ```
 
-*(Update timestamps after Suno generation.)*
+*(Timestamps updated 2026-07-06 after Suno generation.)*
 
 ---
 
