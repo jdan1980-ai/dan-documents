@@ -337,6 +337,89 @@ Tokyo Café Rain — 1 Hour Uninterrupted Focus Music | Study & Deep Work Sessio
 
 ---
 
+---
+
+## 13. 📱 Shorts cross-promo package
+
+> Cut: first 30–45 sec of the long-form + Shorts-specific 9:16 loop. Visual = §4 NanoBanana 9:16 image animated below.
+
+### 13a. 🎬 Flow / Kling loop prompt 9:16 (Shorts — 8-sec seamless)
+
+```
+SUBTLE 8-SECOND SEAMLESS LOOP, vertical 9:16 format. Photorealistic cinematic dark Japanese café interior at night in heavy rain. Camera COMPLETELY LOCKED — no pan, no zoom, no shake.
+
+THREE motion elements:
+
+1. RAIN ON WINDOW — continuous: rain streaks run down the three café window panes — droplets form at the top and trickle diagonally downward, some joining into slow streams. The glass stays lightly fogged. Rain never stops.
+
+2. STEAM FROM COFFEE CUP — lower third: a thin wisp of steam rises from the white ceramic cup on the dark café table — slow, continuous, gently curling upward. Loops seamlessly.
+
+3. DISTANT UMBRELLA FIGURES — through the window: the two tiny silhouette figures far down the rain-soaked alley barely perceptibly sway — 1-2 mm of gentle motion, as if seen through rain-blurred glass. Almost imperceptible.
+
+EVERYTHING ELSE COMPLETELY STILL: window frame, notebook, table surface, chōchin lantern glow, neon signs, wet cobblestones, café walls.
+
+PERFECTLY SEAMLESS — last frame identical to first. 4K photorealistic cinematic. Dominant motion: rain on glass + steam + barely-perceptible distant figures. Dark warm amber interior. Heavy rain outside.
+```
+
+### 13b. 🖼️ Shorts text overlay (CapCut)
+
+```
+TOKYO CAFÉ RAIN
+Find your window seat ☕
+```
+
+- Font: Liberation Serif Bold · cream `#F5EAD2`
+- Position: center of frame, over the middle-third (window zone)
+- Duration: 0:02 → 0:08 · Fade In 1s + Fade Out 1s
+- No glow, no shadow, no box
+
+### 13c. 📝 Shorts Title
+
+```
+Tokyo Café Rain — Late Night Focus ☕
+```
+
+*(37 chars ✅ · no hashtags in title per Karena #1)*
+
+**A/B variant:**
+```
+Rain & Vinyl — Tokyo Late Night Focus Session
+```
+
+### 13d. 📝 Shorts Description
+
+```
+Rain on the window. Koto on the turntable. Your best work is already happening. ☕
+
+Full 1-hour session → link in bio 🌿
+
+#tokyocafe #rainmusic #studymusic #cafemusic #focusmusic #lofi #shorts
+```
+
+### 13e. 🏷️ Shorts Tags
+
+```
+study with me, café music, tokyo cafe, focus music, lofi, rain music, study shorts, coffee shop music, deep focus, shimokitazawa, japanese cafe, ambient music, productivity music, study motivation, rain sounds
+```
+
+*(15 tags)*
+
+### 13f. \# Shorts Hashtags
+
+```
+#tokyocafe #rainmusic #studymusic #cafemusic #focusmusic #lofi #shorts
+```
+
+### 13g. 📌 Shorts Pinned Comment
+
+```
+☕ Your table is ready. The rain is already there.
+
+Full 1-hour session above 🌿 Drop a ☔ if you're working right now.
+```
+
+---
+
 ## Post-publish metrics
 
 | Metric | D3 | D7 | D30 |
