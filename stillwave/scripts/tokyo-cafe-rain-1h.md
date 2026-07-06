@@ -2,7 +2,7 @@
 
 ## Meta
 
-- **Title:** Tokyo Rain & Vinyl | Late Night Café Ambience Music for Productivity
+- **Title:** Tokyo Café Rain — Late Night Focus Music
 - **Slug:** `tokyo-cafe-rain-1h`
 - **Format:** Long-form
 - **Length:** 1H 00min 32sec (3 632 sec)
@@ -223,11 +223,11 @@ Amadare ishi o utsu
 ## 7. 📝 YouTube Title
 
 ```
-Tokyo Rain & Vinyl | Late Night Café Ambience Music for Productivity
+Tokyo Café Rain — Late Night Focus Music
 ```
 
-- **Chars:** 69/90 ✅
-- **Music keyword present:** "Ambience Music" — passes topic categorization rule ✅
+- **Chars:** 40/90 ✅
+- **Music keyword present:** "Focus Music" ✅
 - **No hashtags in title** (Karena #1) ✅
 
 ---
