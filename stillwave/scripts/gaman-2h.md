@@ -142,7 +142,7 @@ Seamless loop: last frame identical to first frame.
 1:07:20 — Second Hour, Same Stone
 1:10:24 — What Patience Leaves Behind
 1:13:12 — The Scroll Holds Everything
-1:15:44 — Deeper Than the Wind
+1:15:39 — Deeper Than the Wind
 1:18:50 — The Bell's Long Reach
 1:21:44 — Neither Yields
 1:26:07 — Stone and Smoke
@@ -246,7 +246,7 @@ This is GAMAN — 我慢.
 1:07:20 — Second Hour, Same Stone
 1:10:24 — What Patience Leaves Behind
 1:13:12 — The Scroll Holds Everything
-1:15:44 — Deeper Than the Wind
+1:15:39 — Deeper Than the Wind
 1:18:50 — The Bell's Long Reach
 1:21:44 — Neither Yields
 1:26:07 — Stone and Smoke
