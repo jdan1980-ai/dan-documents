@@ -301,8 +301,7 @@ He sits until the rain understands him.
 
 Which track kept you going? Drop the timestamp below 👇
 
-→ More from the series: MUSHIN — 無心 | Japanese Zen Music for No-Mind State
-Subscribe for new sessions every week 🌿
+If this session helped — subscribe. New journeys every week 🌿
 ```
 
 ---
