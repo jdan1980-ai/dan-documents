@@ -8,8 +8,8 @@
 - **Length:** ~2H (39 Suno tracks, ~3 min avg, runtime 2:01:00)
 - **Aesthetic:** Ancient mountain temple in rain — lone monk before a massive ink-brushed scroll, incense smoke rising, palette deep charcoal grey + white smoke accent
 - **Playlist (add to in Studio):** Kanji-Concept Series
-- **Status:** 🟡 script ready — awaiting Suno + NanoBanana generation
-- **Upload date:** TBD (ASAP — ride MUSHIN algo push)
+- **Status:** ✅ published — 2026-07-08
+- **Upload date:** 2026-07-08
 
 ---
 

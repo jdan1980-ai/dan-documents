@@ -14,7 +14,8 @@ See `published-videos.md` for the full table with metrics.
 
 | Slug | Title | Published | Views (D) | Notes |
 |------|-------|-----------|-----------|-------|
-| `tokyo-cafe-rain-1h` | Tokyo Rain & Vinyl \| Late Night Café Ambience Music for Productivity | 2026-07-01 | **10** (D4) | Café format — monitor at D14 |
+| `gaman-2h` | GAMAN — 我慢 \| Japanese Zen Music for Endurance, Deep Focus & Inner Strength | 2026-07-08 | — (D0) | Kanji-Concept — monitor D3/D7/D14 |
+| `tokyo-cafe-rain-1h` | Tokyo Rain & Vinyl \| Late Night Café Ambience Music for Productivity | 2026-07-01 | **10** (D4) | Café format — monitor at D14 (Jul 15) |
 | `makoto-the-last-samurai` | MAKOTO — 誠 \| Japanese Cinematic Zen for Honor, Bushido & Spirit · 1H | 2026-06-25 | ~43 (D10) | — |
 | `satori-sudden-awakening` | SATORI — 悟り \| Zen Japanese Music for Meditation, Healing & Spiritual Enlightenment | 2026-06-21 | ~170 (D14) | — |
 | `mushin-no-mind` | MUSHIN — 無心 \| Japanese Zen Music for No-Mind State, Deep Focus & Inner Stillness | 2026-06-16 | **2,198** (D19) 🔥 | VIRAL — 31 VPH on Jul 5, still in algo push |
@@ -26,11 +27,11 @@ See `published-videos.md` for the full table with metrics.
 
 | Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎬 | 🎞️ | ⏰ | 📤 |
 |------|-------|--------|----|----|----|----|-----|-----|-----|
-| `gaman-2h` | **GAMAN — 我慢** \| Japanese Zen Music for Endurance, Deep Focus & Inner Strength | 2H | ✅ | ⏳ | ✅ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `gaman-2h` | **GAMAN — 我慢** \| Japanese Zen Music for Endurance, Deep Focus & Inner Strength | 2H | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
-> **GAMAN notes (Jul 5):** Thumbnail image selected — monk + 我慢 scroll + incense smoke. Thumbnail text (`GAMAN` cream 185px lower-left) applied. Next: Suno 20 tracks (A×7 + B×7 + C×6) → Flow loop → CapCut assembly. Upload ASAP — MUSHIN algo push still active at 31 VPH.
+> **GAMAN published 2026-07-08.** Monitor D3 (Jul 11) / D7 (Jul 15) / D14 (Jul 22). Tokyo Rain & Vinyl D14 also due Jul 15.
 
 ## Phase 1 batch — week of May 13–19
 
