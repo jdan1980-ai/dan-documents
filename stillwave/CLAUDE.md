@@ -64,21 +64,22 @@ Subscribe for new Japanese zen and focus sessions every week 🌿
 
 ### 3. Playlists (Studio → Content → Playlists → Create)
 
-Required five playlists for algorithmic clarity — algorithm reads playlists as topic clusters and recommends accordingly. Add every existing video to its correct playlist:
+**Updated 2026-07-09 — reduced from 5 to 4 playlists, names optimized.** Algorithm insight confirmed by VidIQ: playlists are a positive signal (not confusion) — they create additional discovery points and keep autoplay within the right cluster.
 
 | Playlist | Contents |
 |----------|----------|
-| **Kanji-Concept Series** | MUSHIN + future SATORI / YUGEN / KENSHO etc. |
-| **Power Hour — Deep Focus & Pomodoro** | Pomodoro 25/5 + 50/10 + Tokyo Rain Marathon + Tokyo Snowfall Coding + Sound Bath rebrand |
-| **Healing Hour — Solfeggio Frequencies** | Kyoto 528 + 963 Mount Koya + 528 Hz DNA Repair + 639 Hz Fuji + 852 Hz Monks' Secret + 432 Hz Kyoto Rain |
-| **Japanese Zen Soundscapes** | TAKUMI + KIRI + YORU + SEIJAKU + HI 火 + MA 間 + AMAOTO 雨音 + Water Memories + Bamboo Rain + Ancient Japan Meditation + Forest Sounds + Samurai Zen + Shakuhachi |
-| **StillWave Shorts** | ALL Shorts videos (cross-promo cuts for long-form sessions) |
+| **Japanese Zen Music** (MUSHIN, KIRI, …) | ALL Japanese zen long-form: Kanji-Concept series (MUSHIN, GAMAN, SATORI, KIRI, MAKOTO, YORU, SEIJAKU, MA, HI, TAKUMI, AMAOTO…) + Japanese Zen Soundscapes (Ancient Japan, Shakuhachi, Water Memories, Bamboo Rain, Forest Sounds, etc.) — merged into one playlist |
+| **Tokyo Rain Deep Work — Focus Music** | Tokyo Rain Marathon + Tokyo Snowfall Coding + Tokyo Rain & Vinyl Café + Pomodoro 25/5 + Pomodoro 50/10 |
+| **Solfeggio Frequencies** (528Hz, 852Hz, …) | All Hz videos: 528 Hz (Overthinking, Sound Bath, DNA Repair, 3H, 8H) + 852 Hz Monks' Secret + 963 Hz + 639 Hz + 432 Hz |
+| **StillWave Shorts — Japanese Zen & Frequencies** | ALL Shorts videos regardless of long-form parent |
 
-**Shorts rule:** every Shorts video goes into the **StillWave Shorts** playlist regardless of its long-form parent's playlist. Shorts have their own discovery cluster on YouTube — keep them in one place.
+**Shorts rule:** every Shorts video goes into **StillWave Shorts — Japanese Zen & Frequencies** regardless of the long-form parent playlist.
+
+**VidIQ confirmed (2026-07-09):** Editing tags/titles does NOT stop algo push — myth. YouTube does not penalise metadata edits. Ideal time to edit: first 48h after upload OR after the organic peak (when video is on residual traffic). Mid-viral-push edits carry minor CTR reset risk but net-positive if title improves.
 
 ### 🔒 Script must declare its Playlist in Meta
 
-Every `stillwave/scripts/<slug>.md` MUST have a `Playlist (add to in Studio): X` line in its Meta block, where X is one of the 4 locked playlists above. This removes the "which playlist?" question at upload time — you just open the script and copy.
+Every `stillwave/scripts/<slug>.md` MUST have a `Playlist (add to in Studio): X` line in its Meta block, where X is one of the 3 locked playlists above (Shorts always go to StillWave Shorts). This removes the "which playlist?" question at upload time — you just open the script and copy.
 
 ### 🔒 Community Post per Kanji-Concept video (LOCKED 2026-06-16)
 

@@ -6,7 +6,7 @@
 
 - **Title:** MUSHIN — 無心 | Japanese Zen Music for No-Mind State, Deep Focus & Inner Stillness
 - **Series:** Kanji-Concept (NEW — see lesson 2026-06-15 in CLAUDE.md after lock-in)
-- **Playlist (add to in Studio):** `Kanji-Concept Series`
+- **Playlist (add to in Studio):** `Japanese Zen Music`
 - **Format:** Long-form, **2H** continuous ambient meditation (no Pomodoro structure)
 - **Aesthetic:** **Photoreal cinematic** — lone Buddhist monk back-to-camera + massive ENSO (円相) scroll on temple wall + incense smoke + golden dawn light. NO Ghibli painterly this time (data: photoreal wins in this cluster).
 - **Hero concept:** ENSO (円相) — the brush-painted zen circle. Direct literal symbol of MUSHIN. Never used by competitors (they used tigers, dragons, gods, samurai armor). Our visual differentiator.
@@ -218,7 +218,7 @@ Final file: `assets/mushin-no-mind-thumb.jpg` (after image generation + composit
 
 # 📱 SHORTS PACKAGE (cross-promo → long-form)
 
-> **Playlist (add to in Studio):** `StillWave Shorts`
+> **Playlist (add to in Studio):** `StillWave Shorts — Japanese Zen & Frequencies`
 
 **Cover (9:16):** reuse the 9:16 vertical image (monk + ENSO). Text upper-third:
 - `無心` (kanji large, sumi-ink black)

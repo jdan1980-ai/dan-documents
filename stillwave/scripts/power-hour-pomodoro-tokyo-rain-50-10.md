@@ -6,7 +6,7 @@
 
 - **Title:** Pomodoro Study Timer 50/10 — 2H Deep Focus Music | Tokyo Rain for Coding & Studying
 - **Series:** Power Hour (Tokyo penthouse focus marathon)
-- **Playlist (add to in Studio):** `Power Hour — Deep Focus & Pomodoro`
+- **Playlist (add to in Studio):** `Tokyo Rain Deep Work — Focus Music`
 - **Format:** Long-form, **2H total**, **50/10 ×2** Pomodoro variant (50 min focus / 10 min break, twice = exactly 2H)
 - **Aesthetic:** Tokyo penthouse + rain on glass + MacBook (code editor) + 砂時計 hourglass (Power Hour locked signature)
 - **Outcome owned:** **long-form deep work** — sister to 25/5 (`power-hour-pomodoro-tokyo-rain-25-5.md`). 25/5 = classic Cirillo for fast cycles; 50/10 = long-block deep work, the bigger search market
@@ -170,7 +170,7 @@ Final file: `assets/power-hour-pomodoro-tokyo-rain-thumb-5010.jpg` — I'll comp
 
 # 📱 SHORTS PACKAGE (cross-promo → long-form)
 
-> **Playlist (add to in Studio):** `StillWave Shorts`
+> **Playlist (add to in Studio):** `StillWave Shorts — Japanese Zen & Frequencies`
 
 > Same file = both formats. Figure-8 does NOT apply to 9:16 — text upper third, bottom = Shorts UI.
 

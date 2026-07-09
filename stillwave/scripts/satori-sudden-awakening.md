@@ -6,7 +6,7 @@
 
 - **Title:** SATORI — 悟り | Japanese Zen Music for Sudden Awakening, Inner Clarity & Deep Focus
 - **Series:** Kanji-Concept
-- **Playlist (add to in Studio):** `Kanji-Concept Series`
+- **Playlist (add to in Studio):** `Japanese Zen Music`
 - **Format:** Long-form, **3H** continuous ambient meditation (no Pomodoro structure) — upgraded from 2H, leans sleep/overnight meditation use-case
 - **Aesthetic:** **Photoreal cinematic** — lone Buddhist monk silhouetted on a rocky mountain peak at dawn, vast sea of clouds below, brilliant golden sunrise breaking through layered cloud bands across the sky. Different visual register from MUSHIN (interior temple/ENSO).
 - **Hero concept:** Golden sunrise breaking through clouds (悟り — the moment of awakening, light breaking through). Lone monk on cliff edge is the focal anchor. Universal "moment of insight" visual symbol.
@@ -290,7 +290,7 @@ Optional second-line overlay for thumbnail / Shorts cover / community post / in-
 
 # 📱 SHORTS PACKAGE (cross-promo → long-form)
 
-> **Playlist (add to in Studio):** `StillWave Shorts`
+> **Playlist (add to in Studio):** `StillWave Shorts — Japanese Zen & Frequencies`
 
 **Cover (9:16):** vertical version of the image. Text overlay style same as MUSHIN Shorts cover:
 - `悟り` (kanji LARGE upper-center, sumi-ink style + cream shadow OR clean cream)

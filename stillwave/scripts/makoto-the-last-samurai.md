@@ -5,7 +5,7 @@
 > **Concept anchor:** 誠 MAKOTO = sincerity / the heart that does not lie. The kanji worn by the Shinsengumi on their pale-blue haori — the literal "last samurai" police force that fought the Meiji modernization in the Boshin War (1868-69). Cultural foundation of Bushidō.
 > **Inspiration line (safe to publish):** the album is inspired by Hans Zimmer's cinematic film-score style and the spirit of *The Last Samurai* (2003) — declared as inspiration only, NEVER as ownership/affiliation. See §12 below for the locked legal wording.
 > **Visual lock:** photoreal cinematic, lone samurai back-to-camera on misty autumn battlefield at dawn, massive rising sun behind him, drifting red maple leaves, warm rust + sepia palette.
-> **Playlist (add to in Studio):** Kanji-Concept Series
+> **Playlist (add to in Studio):** Japanese Zen Music
 
 ---
 

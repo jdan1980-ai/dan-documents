@@ -10,7 +10,7 @@
 - **Aesthetic:** Small jazz kissaten in Shimokitazawa — window seat, rain on glass, espresso, open notebook, warm Edison bulbs, vinyl records, steamed windows
 - **Status:** 🟡 script ready — awaiting Suno + NanoBanana generation
 - **Upload date:** TBD (target week of July 6–12)
-- **Playlist (add to in Studio):** Tokyo Rain Focus Series
+- **Playlist (add to in Studio):** Tokyo Rain Deep Work — Focus Music
 
 ---
 
