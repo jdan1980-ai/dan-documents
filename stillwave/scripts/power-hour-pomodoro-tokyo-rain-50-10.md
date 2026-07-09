@@ -4,7 +4,7 @@
 
 ## Meta
 
-- **Title:** Pomodoro Study Timer 50/10 — 2H Deep Focus Music | Tokyo Rain for Coding & Studying
+- **Title:** Tokyo Rain Deep Work Music — 50/10 Focus Blocks | 2H for Coding & Study
 - **Series:** Power Hour (Tokyo penthouse focus marathon)
 - **Playlist (add to in Studio):** `Tokyo Rain Deep Work — Focus Music`
 - **Format:** Long-form, **2H total**, **50/10 ×2** Pomodoro variant (50 min focus / 10 min break, twice = exactly 2H)
@@ -87,17 +87,20 @@ Same rule as 25/5 — scrub to each gong timestamp, verify timer shows `00:00`:
 ## 7. 📝 YouTube Title
 
 ```
-Pomodoro Study Timer 50/10 — 2H Deep Focus Music | Tokyo Rain for Coding & Studying
+Tokyo Rain Deep Work Music — 50/10 Focus Blocks | 2H for Coding & Study
 ```
 
-(81 chars. Front-loads two giant keywords: **`Pomodoro Study Timer`** = `pomodoro` 1.1M + `study timer` 171K (comp 21 = cheap impressions!) + `pomodoro study with me` 64K. Then `50/10` 162K. Then `Deep Focus Music` (genre) + `Tokyo Rain for Coding & Studying` (brand + format + use case).)
+(72 chars. "Music" in first 50% ✓ — avoids Lifestyle mis-classification. "Deep Work Music" front-loaded for the 770K/mo keyword. "50/10 Focus Blocks" replaces "Pomodoro 50/10" in title — pomodoro stays in tags/description for SEO without locking the title into the high-comp Pomodoro niche.)
+
+**A/B variant:**
+```
+2H Tokyo Rain Deep Work Music — 50/10 Focus Blocks | Coding & Study Sessions
+```
 
 ## 8. 📝 YouTube Description (copy-paste ready)
 
 ```
-Pomodoro Study Timer 50/10 — 2H Deep Focus Music | Tokyo Rain for Coding & Studying
-
-Two hours of long-block deep work, Pomodoro 50/10 — 50 minutes deep focus, 10 minutes break, twice. The long-block Pomodoro variant for coding, studying, and writing where breaking every 25 minutes costs too much momentum.
+Tokyo rain deep work music, focus music 2 hours, deep focus music for coding and study, concentration music, study with me, work music, tokyo rain ambient music — two hours of long-block deep work: 50 minutes focus, 10 minutes break, twice. Pomodoro 50/10 technique. The long-block Pomodoro variant for coding, studying, and writing where breaking every 25 minutes costs too much momentum.
 
 High above the neon glow of Tokyo, with rain on the glass and the slow fall of sand in the hourglass, this 2-hour 50/10 session is built to carry you through two full long-focus blocks. A soft Japanese temple bell marks every transition. No talking, no climaxes — just the warm pulse of the city below the music, the rain, and your work in front of you.
 
@@ -129,18 +132,17 @@ The sand falling in the Japanese hourglass (砂時計 sunadokei) is the recurrin
 
 > Tracklist timecodes are TRACK START times, fill in after Suno export. Last track must end at 2:00:00 ± few seconds. The Pomodoro schedule block is what YouTube auto-chapters; tracklist entries are clickable links, not chapters.
 
-## 9. 🏷️ Tags (Karena 20/20/40-50, target ~450 chars / ~25-27 tags)
+## 9. 🏷️ Tags (~450 chars / ~22 tags)
 
 ```
-stillwave, stillwave pomodoro, tokyo rain pomodoro, stillwave focus music, pomodoro, study with me, study timer, deep focus music, focus music, pomodoro music, study music, work music, concentration music, pomodoro 50 10, pomodoro 50/10, 2 hour pomodoro, pomodoro deep focus music, study with me pomodoro, tokyo rain study music, pomodoro music for coding, pomodoro timer 2 hours, deep work pomodoro, focus playlist, lofi pomodoro, pomodoro timer, 作業用bgm, 勉強bgm
+stillwave, deep work music, tokyo rain focus music, focus music, deep focus music, study music, study with me, work music, concentration music, coding music, tokyo rain study music, 2 hour focus music, deep work session, long block deep work, tokyo rain deep work, 50 10 focus, pomodoro 50 10, pomodoro music, pomodoro timer, lofi study music, 作業用bgm, 勉強bgm
 ```
 
-Distribution (Karena 20/20/40-50):
-- **Brand (~20%):** `stillwave`, `stillwave pomodoro`, `stillwave focus music`, `tokyo rain pomodoro` (4 of 27 = ~15%)
-- **Broad (~20%):** `pomodoro`, `study with me`, `focus music`, `study music`, `deep focus music` (5 of 27 = ~19%)
-- **Narrow / long-tail (~50%):** `pomodoro 50 10`, `pomodoro 50/10`, `2 hour pomodoro`, `pomodoro music for coding`, `pomodoro timer 2 hours`, `deep work pomodoro`, `study with me pomodoro`, `pomodoro deep focus music`, `tokyo rain study music`, `study timer`, `concentration music`, `work music`, `pomodoro music`, `pomodoro timer`, `focus playlist`, `lofi pomodoro`, `作業用bgm`, `勉強bgm` (18 of 27 = ~67%)
-
-**Japanese tags `作業用bgm` + `勉強bgm`** target the 169K/mo Japan-specific work-music market — our Japanese aesthetic + JP search demand = free traffic.
+- **Brand (~5%):** `stillwave`
+- **Broad (~25%):** `deep work music`, `focus music`, `deep focus music`, `study music`, `work music`, `study with me`
+- **Narrow / long-tail (~55%):** `tokyo rain focus music`, `tokyo rain study music`, `2 hour focus music`, `deep work session`, `long block deep work`, `tokyo rain deep work`, `50 10 focus`, `concentration music`, `coding music`, `lofi study music`
+- **SEO bridge (~15%):** `pomodoro 50 10`, `pomodoro music`, `pomodoro timer` — keeps pomodoro search traffic without front-loading in title
+- **Multilingual:** `作業用bgm`, `勉強bgm`
 
 ## 10. 🏷️ Hashtags
 
@@ -190,7 +192,7 @@ All gold. File: `assets/power-hour-pomodoro-shorts-cover-5010.jpg`.
 
 **Shorts Title:**
 ```
-50/10 Pomodoro Deep Focus 🍅
+Tokyo Rain 50/10 Focus Session 🍅
 ```
 
 **Description:**
