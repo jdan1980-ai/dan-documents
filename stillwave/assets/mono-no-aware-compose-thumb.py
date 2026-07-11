@@ -30,10 +30,10 @@ KANJI_Y_TOP = 72            # start near top
 
 # --- Romaji block ---
 ROMAJI_TEXT    = "MONO NO AWARE"
-ROMAJI_SIZE    = 42
-ROMAJI_X_CTR   = 260        # center pushed right — long 13-char string needs room
-ROMAJI_Y       = 624
-ROMAJI_SPACING = 3          # extra letter spacing
+ROMAJI_SIZE    = 58
+ROMAJI_X_CTR   = 310        # center pushed right — long 13-char string needs room
+ROMAJI_Y       = 618
+ROMAJI_SPACING = 4          # extra letter spacing
 
 
 def shadow_text(draw, xy, text, font, fill, offset=SHADOW):
