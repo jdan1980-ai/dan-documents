@@ -5,8 +5,8 @@
 - **Title:** MONO NO AWARE — 物の哀れ | Japanese Zen Music for Healing, Letting Go & Inner Peace
 - **Slug:** `mono-no-aware-2h`
 - **Format:** Long-form
-- **Length:** ~2H (~36 Suno tracks, ~3.3 min avg, runtime ~2:00:00)
-- **Aesthetic:** Ancient temple garden at dusk — lone monk seated at edge of a still garden pond, fireflies rising above the water as soft luminous points, stone lantern glowing at water's edge, deep indigo-violet sky, palette dark teal and deep indigo with warm amber lantern glow and pale firefly light
+- **Length:** ~2H (41 tracks, ~2.9 min avg, runtime ~1:59:12)
+- **Aesthetic:** Traditional Japanese garden across a full day — woman in slate blue kimono, back to camera, seated at the edge of a koi pond. Stone lantern, bamboo, mountains in the distance. Day → Dusk → Night arc. Palette: soft natural daylight fading to deep indigo-violet, warm amber lantern glow, pale firefly light at night.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Status:** 📝 script ready — awaiting Suno + NanoBanana generation
 - **Upload date:** TBD
@@ -112,50 +112,55 @@ Seamless loop: last frame identical to first frame.
 
 ---
 
-## §5 — Tracklist (fill timestamps after Suno export)
+## §5 — Tracklist
 
-36 tracks · ~3.3 min avg · total runtime ~2:00:00
+41 tracks · ~2.9 min avg · total runtime 1:59:12
 
 ```
-0:00 — What the Garden Holds at Dusk
-3:18 — Fireflies Over Still Water
-6:40 — The Bell That Says Goodbye
-9:55 — One Moment, Completely
-13:10 — The Pond Outlasts the Rain
-16:28 — What Passes Without Haste
-19:50 — Evening on the Stone Steps
-23:05 — The Last of the Light
-26:20 — Before the Firefly Fades
-29:40 — Fading Without Resistance
-32:58 — The Grass Remembers Rain
-36:15 — What the Water Keeps
-39:30 — A Thousand Autumns
-42:48 — The Smoke That Finds Its Way
-46:05 — Nothing Is Lost, Nothing Stays
-49:20 — The Color Leaving the Sky
-52:38 — Still Water, Still Mind
-55:50 — The Bell Knows Only Now
-59:05 — Before the Last Light Goes
-1:02:20 — What the Firefly Carried
-1:05:38 — The Monk Does Not Mourn
-1:08:55 — Dusk Without Destination
-1:12:10 — The Reed Remembers Wind
-1:15:28 — What Passes Returns as Silence
-1:18:45 — Second Hour, Same Garden
-1:22:00 — The Evening and Its Gift
-1:25:18 — Letting Go Without Trying
-1:28:35 — What Remains Is Enough
-1:31:50 — The Light That Wanted to Stay
-1:35:05 — After the Firefly Season
-1:38:20 — The Stone Steps Know the Hours
-1:41:38 — What Stillness Holds
-1:44:55 — One Breath, Then the Next
-1:48:10 — The Garden After Rain
-1:51:28 — The Last Bell of the Evening
-1:54:45 — After Everything, Peace
-```
+0:00 ☀️ Day — The Garden Wakes
+2:32 Morning Dew on Moss
+5:26 First Koi Stirs
+8:08 Silence Between Bells
+11:00 The Bamboo Holds Still
+13:58 Light Through Leaves
+16:58 A Single Ripple Fades
+19:20 Stone and Water
+22:17 Cherry Petals Rest
+25:12 The Hour of No Wind
+28:23 Blossom on Still Water
+31:08 Before the Sun Turns
+34:40 The Light Begins to Change
 
-*(Timestamps are placeholders — update after Suno export.)*
+37:51 🌅 Dusk — Long Shadows on the Engawa
+40:53 Gold Fades to Blue
+43:44 The Garden Remembers the Day
+46:50 Lantern Glow at Dusk
+49:27 First Star Above the Bamboo
+52:07 The Koi Slow Down
+54:47 Wind in the Pine at Dusk
+56:48 Between Day and Dark
+59:36 The Colour the Sky Keeps
+1:02:47 Moss Holds the Last Light
+1:05:20 Stillness Deepens
+1:08:23 The Hour Passes Without Notice
+1:10:56 What Stays When Light Goes
+1:13:28 The Garden Breathes
+1:16:00 A Bell Far Away
+1:18:32 The Moon Arrives
+
+1:20:58 🌙 Night — Fireflies Among the Bamboo
+1:24:15 Pond Mirror, Sky Mirror
+1:28:00 The Lantern and the Moon
+1:31:27 She Does Not Move
+1:34:04 Night Holds Everything Gently
+1:37:04 Water Remembers the Day
+1:40:49 The Koi Sleep in the Deep
+1:43:38 Silence Is Not Empty
+1:46:42 All Things Pass, All Things Rest
+1:49:44 Moonlight on Her Shoulders
+1:52:56 The Garden at the End of the Day
+1:56:17 One Petal, One Moment
+```
 
 ---
 
@@ -215,42 +220,47 @@ There is nothing to resist. Only this — and then the next.
 
 ─────────────────────────────
 
-0:00 — What the Garden Holds at Dusk
-3:18 — Fireflies Over Still Water
-6:40 — The Bell That Says Goodbye
-9:55 — One Moment, Completely
-13:10 — The Pond Outlasts the Rain
-16:28 — What Passes Without Haste
-19:50 — Evening on the Stone Steps
-23:05 — The Last of the Light
-26:20 — Before the Firefly Fades
-29:40 — Fading Without Resistance
-32:58 — The Grass Remembers Rain
-36:15 — What the Water Keeps
-39:30 — A Thousand Autumns
-42:48 — The Smoke That Finds Its Way
-46:05 — Nothing Is Lost, Nothing Stays
-49:20 — The Color Leaving the Sky
-52:38 — Still Water, Still Mind
-55:50 — The Bell Knows Only Now
-59:05 — Before the Last Light Goes
-1:02:20 — What the Firefly Carried
-1:05:38 — The Monk Does Not Mourn
-1:08:55 — Dusk Without Destination
-1:12:10 — The Reed Remembers Wind
-1:15:28 — What Passes Returns as Silence
-1:18:45 — Second Hour, Same Garden
-1:22:00 — The Evening and Its Gift
-1:25:18 — Letting Go Without Trying
-1:28:35 — What Remains Is Enough
-1:31:50 — The Light That Wanted to Stay
-1:35:05 — After the Firefly Season
-1:38:20 — The Stone Steps Know the Hours
-1:41:38 — What Stillness Holds
-1:44:55 — One Breath, Then the Next
-1:48:10 — The Garden After Rain
-1:51:28 — The Last Bell of the Evening
-1:54:45 — After Everything, Peace
+0:00 ☀️ Day — The Garden Wakes
+2:32 Morning Dew on Moss
+5:26 First Koi Stirs
+8:08 Silence Between Bells
+11:00 The Bamboo Holds Still
+13:58 Light Through Leaves
+16:58 A Single Ripple Fades
+19:20 Stone and Water
+22:17 Cherry Petals Rest
+25:12 The Hour of No Wind
+28:23 Blossom on Still Water
+31:08 Before the Sun Turns
+34:40 The Light Begins to Change
+37:51 🌅 Dusk — Long Shadows on the Engawa
+40:53 Gold Fades to Blue
+43:44 The Garden Remembers the Day
+46:50 Lantern Glow at Dusk
+49:27 First Star Above the Bamboo
+52:07 The Koi Slow Down
+54:47 Wind in the Pine at Dusk
+56:48 Between Day and Dark
+59:36 The Colour the Sky Keeps
+1:02:47 Moss Holds the Last Light
+1:05:20 Stillness Deepens
+1:08:23 The Hour Passes Without Notice
+1:10:56 What Stays When Light Goes
+1:13:28 The Garden Breathes
+1:16:00 A Bell Far Away
+1:18:32 The Moon Arrives
+1:20:58 🌙 Night — Fireflies Among the Bamboo
+1:24:15 Pond Mirror, Sky Mirror
+1:28:00 The Lantern and the Moon
+1:31:27 She Does Not Move
+1:34:04 Night Holds Everything Gently
+1:37:04 Water Remembers the Day
+1:40:49 The Koi Sleep in the Deep
+1:43:38 Silence Is Not Empty
+1:46:42 All Things Pass, All Things Rest
+1:49:44 Moonlight on Her Shoulders
+1:52:56 The Garden at the End of the Day
+1:56:17 One Petal, One Moment
 
 ─────────────────────────────
 
@@ -309,13 +319,12 @@ MONO NO AWARE (物の哀れ) is one of the oldest and most distinctly Japanese a
 
 ## §13 — Thumbnail spec
 
-Same format as MUSHIN / GAMAN:
-- **Background:** NanoBanana 16:9 image (monk at garden pond, fireflies, stone lantern)
-- **Text 1 — KANJI (LARGE):** `物の哀れ` — upper-center, deep black brushstroke style, rendered large
-- **Text 2 — ROMAJI (medium):** `MONO NO AWARE` — cream #F5EAD2, centered below the kanji, elegant serif
-- No other text. Clean.
-
-*(Add kanji + romaji overlay in Canva or CapCut after NanoBanana generation.)*
+Kanji-Concept Series format (same as SATORI / MUSHIN):
+- **Source image:** `stillwave/assets/mono-no-aware-source.jpg` (woman in slate blue kimono, back to camera, koi pond, stone lantern, bamboo, mountains)
+- **Thumbnail file:** `stillwave/assets/mono-no-aware-2h-thumb.jpg` (1280×720, JPEG q92) — **DONE ✅**
+- **Compose script:** `stillwave/assets/mono-no-aware-compose-thumb.py`
+- **Text 1 — Tategaki kanji:** `物の哀れ` — IPAMincho 108px, cream #F5EAD2, left column, vertically stacked
+- **Text 2 — Romaji:** `MONO NO AWARE` — Liberation Serif Bold 58px, cream #F5EAD2, bottom-left (X_CTR 370)
 
 ---
 

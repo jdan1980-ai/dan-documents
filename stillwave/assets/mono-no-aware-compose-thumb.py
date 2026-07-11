@@ -31,7 +31,7 @@ KANJI_Y_TOP = 72            # start near top
 # --- Romaji block ---
 ROMAJI_TEXT    = "MONO NO AWARE"
 ROMAJI_SIZE    = 58
-ROMAJI_X_CTR   = 310        # center pushed right — long 13-char string needs room
+ROMAJI_X_CTR   = 370        # center pushed right — long 13-char string needs room
 ROMAJI_Y       = 618
 ROMAJI_SPACING = 4          # extra letter spacing
 
