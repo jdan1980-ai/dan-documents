@@ -328,11 +328,61 @@ Kanji-Concept Series format (same as SATORI / MUSHIN):
 
 ---
 
-## §14 — Shorts cross-promo
+## §14 — Shorts (standalone content — concept #10)
 
-- **Concept:** 30-sec cut — opening 0:00–0:30 of the long-form + wisdom overlay + MONO NO AWARE kanji text
-- **Shorts Title:** `MONO NO AWARE — Even Fireflies Know When to Let Go 🌿 #shorts`
-- **Shorts Description:** `The Japanese art of beautiful impermanence. Full 2H session → link in bio 🌿`
-- **Shorts Tags:** `japanese zen music, mono no aware, meditation, letting go, inner peace, healing, #shorts, stillwave`
-- **Shorts Hashtags:** `#monono aware #japanesezenmusicforhealing #zenmusic #shorts #stillwave`
-- **Pinned (Shorts):** `🌀 MONO NO AWARE — the beauty of things that don't last. Full 2H session in bio 🌿`
+**Format:** 30–35 sec · 9:16 vertical · standalone educational hook (not a trailer)
+
+### Scene structure
+
+| Sec | Visual | Text overlay |
+|-----|--------|--------------|
+| 0–3 | Sakura petal falling in slow motion, macro | *There's a Japanese word for beautiful sadness...* |
+| 3–8 | Cherry tree in full bloom, petals drifting | **物の哀れ** (large) · *MONO NO AWARE* (below) |
+| 8–15 | Woman by koi pond (our garden image) | *When something is perfect —* · *because it will end.* |
+| 15–22 | Petals touching still water surface | *The Japanese mastered letting go.* |
+| 22–30 | Engawa photo OR 2-sec video preview (pick one) | *2 hours of letting go —* · *full session in bio 🌸* |
+
+> **Visual note:** for 8–15 use `mono-no-aware-source.jpg` (woman in kimono, koi pond) — no new generation needed. For 0–3 and 15–22 use slow-motion sakura footage (stock or NanoBanana macro).
+
+### Shorts Title
+
+```
+MONO NO AWARE — Even Fireflies Know When to Let Go 🌿
+```
+
+*(no hashtags in title — per channel rule)*
+
+### Shorts Description
+
+```
+There's a Japanese word for the bittersweet beauty of things that don't last.
+
+物の哀れ — Mono No Aware.
+
+Not grief. Just presence. The Japanese mastered it.
+
+Full 2-hour session → link in bio 🌸
+```
+
+### Tags
+
+```
+mono no aware, japanese zen music, japanese culture, letting go, meditation music, healing music, japanese aesthetic, wabi sabi, japanese philosophy, mindfulness, calm music, zen music, japanese garden, stillwave, japanese words
+```
+
+### Hashtags
+
+```
+#monono aware #japanesezenmusicforhealing #japaneseculture #lettinggo #zenmusic #meditationmusic #shorts
+```
+
+### Pinned Comment
+
+```
+🌀 物の哀れ (Mono No Aware) — the Japanese art of finding beauty in what doesn't last.
+
+The firefly rises. The firefly fades.
+Both moments are whole.
+
+Full 2-hour session in bio 🌸
+```
