@@ -336,13 +336,81 @@ Kanji-Concept Series format (same as SATORI / MUSHIN):
 
 | Sec | Visual | Text overlay |
 |-----|--------|--------------|
-| 0–3 | Sakura petal falling in slow motion, macro | *There's a Japanese word for beautiful sadness...* |
-| 3–8 | Cherry tree in full bloom, petals drifting | **物の哀れ** (large) · *MONO NO AWARE* (below) |
-| 8–15 | Woman by koi pond (our garden image) | *When something is perfect —* · *because it will end.* |
-| 15–22 | Petals touching still water surface | *The Japanese mastered letting go.* |
-| 22–30 | Engawa photo OR 2-sec video preview (pick one) | *2 hours of letting go —* · *full session in bio 🌸* |
+| 0–3 | Sakura petal macro, extreme close-up | *There's a Japanese word for beautiful sadness...* |
+| 3–8 | Cherry tree canopy in full bloom | **物の哀れ** (large) · *MONO NO AWARE* (below) |
+| 8–15 | Woman by koi pond — `mono-no-aware-source.jpg` | *When something is perfect —* · *because it will end.* |
+| 15–22 | Petals resting on still water surface | *The Japanese mastered letting go.* |
+| 22–30 | Engawa at dusk OR still from main video (pick one) | *2 hours of letting go —* · *full session in bio 🌸* |
 
-> **Visual note:** for 8–15 use `mono-no-aware-source.jpg` (woman in kimono, koi pond) — no new generation needed. For 0–3 and 15–22 use slow-motion sakura footage (stock or NanoBanana macro).
+---
+
+### Scene 1 (0–3 sec) — NanoBanana prompt 9:16
+
+```
+Vertical 9:16 cinematic composition, photorealistic macro photography. Extreme close-up of a single pale pink sakura petal resting on the surface of dark still water in a traditional Japanese koi pond. The petal is centred in frame, surrounded by the dark water mirror reflecting soft cherry blossom bokeh above. Shallow depth of field: petal edge-sharp, water surface slightly soft, background reflected blossoms as pure soft pink bokeh. Ultra-fine petal texture visible — translucent, delicate, with subtle veins. Natural overcast daylight, cool and diffuse. Palette: pale shell pink petal, near-black still water, soft pink-white bokeh. Cinematic, tender, still. No text, no logos, no watermarks. 4K detail.
+```
+
+**Flow / Kling motion prompt (Scene 1):**
+
+```
+Camera completely locked. From the NanoBanana still, animate only: the petal very slowly rotating a few degrees in place on the water surface — as if the water beneath it barely trembles. One almost imperceptible concentric ripple expanding outward from under the petal and fading before it reaches the frame edge. Everything else completely still. No camera movement. 5-second clip.
+```
+
+---
+
+### Scene 2 (3–8 sec) — NanoBanana prompt 9:16
+
+```
+Vertical 9:16 cinematic composition, photorealistic. Looking up through a traditional Japanese cherry tree (sakura) canopy at peak bloom — pale pink blossoms filling the upper three-quarters of the frame edge to edge, dense clusters of flowers against a soft white-grey overcast sky. Ancient dark-grey bark and branches framing the clusters. Lower quarter of frame: stone garden path with scattered pale pink petals resting on the surface. Shallow depth of field: lower branches sharp, upper canopy progressively softer toward the sky. Natural diffuse light, no harsh shadows. Palette: pale pink blossoms, dark grey branch structure, luminous white-grey sky. Cinematic, still, breathtaking. No text, no logos, no watermarks. 4K detail.
+```
+
+**Flow / Kling motion prompt (Scene 2):**
+
+```
+Camera completely locked. From the NanoBanana still, animate only: the outermost branch clusters swaying imperceptibly — the gentlest possible breath of wind, just enough to see they are alive. The petals on the stone path do not move. No falling motion. The sky stays still. No camera pan or zoom. 5-second clip.
+```
+
+---
+
+### Scene 3 (8–15 sec) — existing image
+
+```
+Use: stillwave/assets/mono-no-aware-source.jpg
+```
+
+**Flow / Kling motion prompt (Scene 3):**
+
+```
+Camera completely locked. From the garden source image, animate only: the koi pond surface — the faintest slow shimmer, as if a single distant stone was dropped moments ago and the last ring of ripples is almost gone. The woman in the kimono is completely still. Bamboo still. Stone lantern still. Mountains still. Reflections in the water shift almost imperceptibly with the surface movement. No camera movement. 7-second clip.
+```
+
+---
+
+### Scene 4 (15–22 sec) — NanoBanana prompt 9:16
+
+```
+Vertical 9:16 cinematic composition, photorealistic. Close view of a still dark koi pond surface in a traditional Japanese garden — looking slightly downward from above. Scattered pale pink sakura petals rest motionless on the dark water mirror, each one casting a faint soft shadow beneath it. Two or three pale orange koi fish visible as soft shapes just below the surface, moving slowly. Stone garden lantern (石灯籠, kasuga style) partially visible at the water's edge — lower portion only, mossy stone base. The water surface reflects the blurred cherry tree canopy above as pink bokeh. Palette: near-black water, pale pink petals, pale orange koi, mossy stone. Photorealistic, cinematic. Tender, melancholic, still. Natural soft light. No text, no logos, no watermarks. 4K detail.
+```
+
+**Flow / Kling motion prompt (Scene 4):**
+
+```
+Camera completely locked. From the NanoBanana still, animate only: the koi fish gliding very slowly just below the surface — smooth, unhurried, one passing beneath a petal without disturbing it. The petals on the surface remain motionless. The water surface has the barest shimmer where the koi passes below. Everything else completely still. No camera movement. 7-second clip.
+```
+
+---
+
+### Scene 5 (22–30 sec) — NanoBanana prompt 9:16
+
+```
+Vertical 9:16 cinematic composition, photorealistic. Traditional Japanese engawa (wooden veranda) seen from the garden at soft evening light — weathered dark cedar planks extending into the frame, the inner shoji screen panels glowing warm amber from within. A single ceramic tea cup rests on the engawa edge, a thin curl of steam rising from it. Beyond the engawa: the garden — stone lantern (石灯籠) partially visible, bamboo silhouettes, soft evening sky. Shallow depth of field: tea cup and engawa planks sharp, garden soft and atmospheric behind. Warm amber interior light through shoji contrasting with cool soft garden dusk. Palette: warm amber shoji glow, dark weathered cedar, muted garden grey-green, pale steam. Cinematic, intimate, still. No text, no logos, no watermarks. 4K detail.
+```
+
+**Flow / Kling motion prompt (Scene 5):**
+
+```
+Camera completely locked. From the NanoBanana still, animate only: the thin curl of steam from the tea cup — rising slowly, curling gently upward and fading. The shoji screen light flickers almost imperceptibly — like a candle breathing inside. Everything else completely still. No camera movement. 8-second clip.
+```
 
 ### Shorts Title
 
