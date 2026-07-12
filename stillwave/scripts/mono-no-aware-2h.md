@@ -412,6 +412,24 @@ Vertical 9:16 cinematic composition, photorealistic. Traditional Japanese engawa
 Camera completely locked. From the NanoBanana still, animate only: the thin curl of steam from the tea cup — rising slowly, curling gently upward and fading. The shoji screen light flickers almost imperceptibly — like a candle breathing inside. Everything else completely still. No camera movement. 8-second clip.
 ```
 
+---
+
+### Shorts Thumbnail (cover image)
+
+- **File:** `stillwave/assets/mono-no-aware-shorts-thumb.jpg` (1080×1920, JPEG q92)
+- **Compose script:** `stillwave/assets/mono-no-aware-shorts-thumb.py`
+- **Source image:** Scene 4 NanoBanana 9:16 still (petals on koi pond) → save as `mono-no-aware-shorts-source.jpg`
+- **Text 1 — Tategaki kanji:** `物の哀れ` — IPAMincho 120px, cream #F5EAD2, left column, top-anchored (Y=120)
+- **Text 2 — Romaji:** `MONO NO AWARE` — Liberation Serif Bold 55px, cream #F5EAD2, bottom area (Y=1780)
+
+**Run after dropping the source image:**
+```bash
+cd stillwave/assets
+python3 mono-no-aware-shorts-thumb.py
+```
+
+---
+
 ### Shorts Title
 
 ```
