@@ -328,11 +328,90 @@ Same format as MUSHIN:
 
 ---
 
-## §14 — Shorts cross-promo
+## §14 — Shorts (standalone educational — "The Japanese Secret to Never Giving Up")
 
-- **Concept:** 30-sec cut — opening 0:00–0:30 of the long-form + wisdom overlay + GAMAN kanji text appear
-- **Shorts Title:** `GAMAN — Sit Long Enough, Even Stones Grow Warm 🪨 #shorts`
-- **Shorts Description:** `The Japanese art of endurance. Full 2H session → link in bio 🌿`
-- **Shorts Tags:** `japanese zen music, gaman, meditation, endurance, zen, #shorts, stillwave`
-- **Shorts Hashtags:** `#gaman #japanesezenmusicforendurance #zenmusic #shorts #stillwave`
-- **Pinned (Shorts):** `🌀 GAMAN — bear the unbearable, quietly. Full 2H session in bio 🌿`
+**Concept:** 35-sec educational Short — 3 frames, teaches GAMAN as a concept, funnels to the long-form (`https://youtu.be/8t8QiNw4rEg`).
+
+### Storyboard (locked)
+
+| Sec | Frame | Visual | Text overlay |
+|-----|-------|--------|--------------|
+| 0–4 | 1 HOOK | Heavy rain on temple courtyard | *Why do the Japanese never give up?* |
+| 4–25 | 2 REVEAL | Monk + scroll (§3b) | **我慢** + GAMAN (dark sumi ink on scroll) → *To endure the unbearable with quiet dignity* → *Samurai trained their minds with this* (cream, dark zone) |
+| 25–35 | 3 CTA | Incense smoke close-up | *Full 2-hour session on the channel* + StillWave badge |
+
+Audio: taiko-forward section from the album — recommended: opening of **Before the Storm** (track 1) or any section where taiko + shakuhachi enter together. 35 sec, fade-in 1 s, fade-out 2 s (handled by the build script).
+
+### Assembly (automated — no CapCut needed)
+
+Everything builds locally from 3 NanoBanana stills:
+
+```bash
+cd stillwave/assets
+# drop gaman-shorts-frame1.jpg / frame2.jpg / frame3.jpg (9:16, prompts below)
+python3 gaman-shorts-build.py --audio /path/to/before-the-storm.mp3
+python3 gaman-shorts-thumb.py     # cover: tategaki 我慢 + GAMAN over frame 2
+```
+
+Output: `gaman-shorts-35s.mp4` (1080×1920, 30 fps) + `gaman-shorts-cover.jpg`. Missing frames render as labeled MOCK placeholders so the cut can be previewed — the current committed mp4 is that mock preview (timings + overlays are final, visuals are placeholders).
+
+### NanoBanana prompts (9:16)
+
+**Frame 1 — HOOK (rain on courtyard):**
+```
+Vertical 9:16 cinematic composition, photorealistic, Kurosawa film quality. Heavy rain falling on an ancient stone temple courtyard at dusk, seen from just inside a dim temple hall — dark aged wooden pillars framing the left and right edges, rain streaking down in the opening between them, wet stone paving glistening with faint reflections, dark pine trees dissolving into mountain mist beyond the courtyard wall. Deep charcoal grey and shadow black palette, soft ambient storm light only. No people. No text, no logos, no watermarks. 4K, cinematic, solemn.
+```
+
+**Frame 2 — REVEAL:** use §3b prompt as-is (monk + scroll + incense, 9:16). The build script lays 我慢 + GAMAN in dark sumi ink over the ivory scroll — keep the scroll dominating the upper half, clean of busy detail.
+
+**Frame 3 — CTA (incense close-up):**
+```
+Vertical 9:16 cinematic composition, photorealistic, Kurosawa film quality. Close-up of a low stone incense holder (香炉) standing on the ancient stone floor of a dim mountain temple hall — a small dark bronze bowl on a carved stone pedestal, three lit incense sticks, thin white smoke rising in slow elegant vertical wisps filling the upper half of the frame. Background: the dark temple hall dissolves into soft shadow bokeh, a faint suggestion of rain beyond the hall opening. Deep charcoal grey and shadow black palette, the white smoke is the only bright element, soft ambient temple light. No text, no logos, no watermarks. 4K, cinematic, solemn.
+```
+
+### Flow / Kling prompts (per frame, camera locked)
+
+- **Frame 1:** `Camera completely locked. Animate only the rain — steady heavy rain falling in the courtyard opening, faint ripples in the wet stone reflections. Pillars, trees, mist: still. Seamless loop.`
+- **Frame 2:** use §4 adapted to 9:16 (rain at sides + incense smoke rising + 1–2 mm scroll sway; monk motionless).
+- **Frame 3:** `Camera completely locked. Animate only the incense smoke — thin white wisps rising slowly and vertically, gently curling. The ember tips glow and dim very subtly. Everything else completely still. Seamless loop.`
+
+*(If assembling from Flow clips instead of stills: replace the zoompan stage — lay the 3 clips in CapCut with the same 4 / 21 / 10-sec timing and reuse the overlay PNGs from `gaman-shorts-work/`.)*
+
+### Shorts Title (winner — 88/100)
+
+```
+The Japanese Secret to Never Giving Up — GAMAN 我慢
+```
+
+*(no hashtags in title — Karena #1)*
+
+**A/B variant:** `Why the Japanese Never Give Up — GAMAN 我慢`
+
+### Shorts Description
+
+```
+GAMAN (我慢) — the Japanese art of enduring the unbearable with quiet dignity.
+
+Full 2-hour zen session for endurance and deep focus:
+https://youtu.be/8t8QiNw4rEg
+
+#gaman #japanesephilosophy #zenmusic #shorts
+```
+
+### Shorts Tags
+
+```
+gaman, japanese philosophy, japanese zen music, never give up, mental strength, endurance, samurai mindset, stoicism, japanese culture, zen, meditation music, stillwave
+```
+
+### Pinned (Shorts)
+
+```
+🌀 GAMAN — bear the unbearable, quietly. The full 2-hour session is on the channel 🌿
+```
+
+### Upload notes
+
+- **Related Video** (Studio → Shorts related link): set to the GAMAN long-form — this button is the primary funnel, the CTA overlay is secondary.
+- Playlist: **StillWave Shorts — Japanese Zen & Frequencies**.
+- Not for kids · first publish Unlisted/Scheduled (Karena #4/#5).
