@@ -2,14 +2,14 @@
 
 ## Meta
 
-- **Title:** IKIGAI — 生き甲斐 | Japanese Zen Music for Life Purpose, Deep Focus & Morning Clarity
+- **Title:** IKIGAI — 生き甲斐 | 2H Japanese Zen Music for Morning Focus & a Reason to Rise
 - **Slug:** `ikigai-2h`
 - **Format:** Long-form
 - **Length:** ~2H (40 Suno tracks, ~3 min avg, target runtime ≤ 2:00:00)
 - **Aesthetic:** Mountain temple engawa at first light — lone monk facing a massive golden sunrise over an indigo sea of mist, steam rising from a single tea cup; palette deep indigo + amber/gold accent
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Status:** 📝 draft — pre-production (created 2026-07-13)
-- **Competitor note:** RollinSound published IKIGAI (289K). Our differentiation: dawn/purpose angle + typography-Venn thumbnail (theirs = samurai/warrior aesthetic). Verify their title wording before upload to avoid near-duplicate phrasing.
+- **Competitor note (verified via VidIQ 2026-07-13):** RollinSound `IKIGAI - Japanese Zen Ambient Music for Finding Your Purpose` (`0xzDpKzW9IY`, 2026-02-11) — **358K views / 5K likes in 5 months, 1H long**. Concept proven in-niche. Their aesthetic: dark fantasy ambient + ritualistic chants + wadaiko — opposite of our dawn/warmth angle, differentiation is clean. Keyword `ikigai`: volume 81 / competition 44 / overall 71, ~277K monthly searches (top markets VN, US, JP, IN, BR). Our 2H length also differentiates vs their 1H.
 
 ---
 
@@ -188,18 +188,20 @@ Tomorrow, Again, Gladly
 
 ---
 
-## §7 — YouTube Title
+## §7 — YouTube Title (VidIQ-scored 2026-07-13)
 
 ```
-IKIGAI — 生き甲斐 | Japanese Zen Music for Life Purpose, Deep Focus & Morning Clarity
+IKIGAI — 生き甲斐 | 2H Japanese Zen Music for Morning Focus & a Reason to Rise
 ```
 
-*(~85 chars · "Zen Music" in first 40% ✓ · no hashtags ✓)*
+*(~77 chars · "Zen Music" in first 40% ✓ · no hashtags ✓ · **VidIQ score 96/100**)*
 
-**A/B variant:**
+**A/B variant (94/100):**
 ```
 IKIGAI — 生き甲斐 | 2H Japanese Zen Music for Purpose, Focus & a Reason to Rise
 ```
+
+*(Rejected: "…for Life Purpose, Deep Focus & Morning Clarity" — scored 79.)*
 
 ---
 
@@ -235,13 +237,13 @@ Subscribe for more Japanese ambient meditation journeys 🌿
 
 ---
 
-## §9 — Tags
+## §9 — Tags (updated 2026-07-13 after VidIQ mining of RollinSound IKIGAI 358K)
 
 ```
-focus music, background music, meditation music, zen music, japanese zen music, japanese ambient music, study music, sleep music, morning music, deep focus music, shakuhachi music, koto music, japanese meditation music, ikigai, life purpose, ikigai meditation, morning meditation music, japanese philosophy, mindfulness music, peaceful music, serene ambience, buddhist monk watching golden sunrise over indigo sea of clouds temple veranda morning purpose, joe hisaishi, stillwave
+focus music, background music, meditation music, zen music, japanese zen music, japanese ambient music, japanese zen ambient, morning music, deep focus music, shakuhachi music, koto music, japanese meditation music, ikigai, ikigai meditation, ikigai philosophy, what is ikigai, find your purpose, life purpose, morning meditation music, japanese philosophy, mindfulness music, buddhist monk watching golden sunrise over indigo sea of clouds temple veranda morning purpose, joe hisaishi, stillwave
 ```
 
-*(24 tags · ~460 chars · broad-first per Hikari formula ✓ · scene-description + celeb-anchor ✓)*
+*(24 tags · ~495 chars · broad-first ✓ · scene-description + celeb-anchor ✓ · added from competitor mining + keyword research: `japanese zen ambient`, `ikigai philosophy`, `what is ikigai` (vol 55 / comp 31), `find your purpose`)*
 
 ---
 
