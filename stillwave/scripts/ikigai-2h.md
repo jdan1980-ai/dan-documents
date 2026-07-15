@@ -8,7 +8,7 @@
 - **Length:** 1:58:34 — FINAL (37 mastered Suno tracks; 40 generated, 3 dropped to fit the 2H cap)
 - **Aesthetic:** Mountain temple engawa at first light — lone monk facing a massive golden sunrise over an indigo sea of mist, steam rising from a single tea cup; palette deep indigo + amber/gold accent
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Status:** 🎵 audio DONE (2026-07-15) — 37 tracks mastered (−16 LUFS, 48 kHz/24-bit), renamed & ordered; next: NanoBanana visual + Flow loop + CapCut
+- **Status:** 📅 SCHEDULED — publishes 2026-07-15 18:00 (uploaded & assembled; 37 tracks / 1:58:34 / Flow loop / wisdom overlay)
 - **Competitor note (verified via VidIQ 2026-07-13):** RollinSound `IKIGAI - Japanese Zen Ambient Music for Finding Your Purpose` (`0xzDpKzW9IY`, 2026-02-11) — **358K views / 5K likes in 5 months, 1H long**. Concept proven in-niche. Their aesthetic: dark fantasy ambient + ritualistic chants + wadaiko — opposite of our dawn/warmth angle, differentiation is clean. Keyword `ikigai`: volume 81 / competition 44 / overall 71, ~277K monthly searches (top markets VN, US, JP, IN, BR). Our 2H length also differentiates vs their 1H.
 
 ---
