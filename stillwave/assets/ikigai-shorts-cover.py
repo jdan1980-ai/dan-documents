@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
 IKIGAI — Shorts cover (9:16, 1080x1920).
-Series style (matches GAMAN cover): tategaki kanji in dark sumi ink over the
-glowing shoji screen (left) + cream ROMAJI over the dark floor (bottom-left).
+Layout v2 (giant-sun source): kanji 生き甲斐 in dark sumi ink brushed ACROSS the
+sun disc (the visual hero — Kanji-Concept series trick) + cream IKIGAI over the
+dark wooden deck, bottom-left.
 
-Source: ikigai-shorts-source.jpg (NanoBanana 9:16 — monk + sunrise + shoji)
+Source: ikigai-shorts-source.jpg (NanoBanana 9:16 — monk, giant sun, tea steam)
 Output: ikigai-shorts-cover.jpg (1080x1920, JPEG q92)
 """
 
@@ -17,23 +18,23 @@ OUT  = HERE / "ikigai-shorts-cover.jpg"
 
 W, H = 1080, 1920
 CREAM = (245, 234, 210)          # #F5EAD2 — locked StillWave cream
-INK   = (30, 24, 18)             # sumi ink — kanji over the lit shoji paper
+INK   = (30, 24, 18)             # sumi ink — kanji over the bright sun disc
 
 KANJI_FONT  = "/usr/share/fonts/opentype/ipafont-mincho/ipam.ttf"
 ROMAJI_FONT = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 
-# --- Tategaki 生き甲斐 — over the glowing shoji screen, left ---
-KANJI_TEXT  = "生き甲斐"
-KANJI_SIZE  = 108
-KANJI_GAP   = 18
-KANJI_X     = 100                # column center from left edge
-KANJI_Y_TOP = 470
+# --- 生き甲斐 — horizontal row across the sun disc ---
+KANJI_TEXT   = "生き甲斐"
+KANJI_SIZE   = 118
+KANJI_GAP    = 22
+KANJI_X_CTR  = 620               # sun disc center-ish
+KANJI_Y      = 380
 
-# --- IKIGAI — cream, over the dark floor, bottom-left ---
+# --- IKIGAI — cream, bottom-left over the dark deck ---
 ROMAJI_TEXT    = "IKIGAI"
-ROMAJI_SIZE    = 118
-ROMAJI_X       = 64
-ROMAJI_Y       = 1690
+ROMAJI_SIZE    = 112
+ROMAJI_X       = 56
+ROMAJI_Y       = 1740
 ROMAJI_SPACING = 12
 
 
@@ -56,13 +57,18 @@ def main():
     kf = ImageFont.truetype(KANJI_FONT,  KANJI_SIZE)
     rf = ImageFont.truetype(ROMAJI_FONT, ROMAJI_SIZE)
 
-    y = KANJI_Y_TOP
+    # kanji — horizontal, centered on KANJI_X_CTR
+    widths = []
     for ch in KANJI_TEXT:
         bb = kf.getbbox(ch)
-        w  = bb[2] - bb[0]
-        d.text((KANJI_X - w // 2 - bb[0], y), ch, font=kf, fill=INK)
-        y += (bb[3] - bb[1]) + KANJI_GAP
+        widths.append((ch, bb[2] - bb[0], bb))
+    total = sum(w for _, w, _ in widths) + KANJI_GAP * (len(widths) - 1)
+    x = KANJI_X_CTR - total // 2
+    for ch, w, bb in widths:
+        d.text((x - bb[0], KANJI_Y), ch, font=kf, fill=INK)
+        x += w + KANJI_GAP
 
+    # romaji — tracked left-to-right
     x = ROMAJI_X
     for ch in ROMAJI_TEXT:
         bb = rf.getbbox(ch)
