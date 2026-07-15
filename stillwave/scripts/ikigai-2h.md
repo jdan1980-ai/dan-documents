@@ -5,10 +5,10 @@
 - **Title:** IKIGAI — 生き甲斐 | 2H Japanese Zen Music for Morning Focus & a Reason to Rise
 - **Slug:** `ikigai-2h`
 - **Format:** Long-form
-- **Length:** ~2H (40 Suno tracks, ~3 min avg, target runtime ≤ 2:00:00)
+- **Length:** 1:58:34 — FINAL (37 mastered Suno tracks; 40 generated, 3 dropped to fit the 2H cap)
 - **Aesthetic:** Mountain temple engawa at first light — lone monk facing a massive golden sunrise over an indigo sea of mist, steam rising from a single tea cup; palette deep indigo + amber/gold accent
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Status:** 📝 draft — pre-production (created 2026-07-13)
+- **Status:** 🎵 audio DONE (2026-07-15) — 37 tracks mastered (−16 LUFS, 48 kHz/24-bit), renamed & ordered; next: NanoBanana visual + Flow loop + CapCut
 - **Competitor note (verified via VidIQ 2026-07-13):** RollinSound `IKIGAI - Japanese Zen Ambient Music for Finding Your Purpose` (`0xzDpKzW9IY`, 2026-02-11) — **358K views / 5K likes in 5 months, 1H long**. Concept proven in-niche. Their aesthetic: dark fantasy ambient + ritualistic chants + wadaiko — opposite of our dawn/warmth angle, differentiation is clean. Keyword `ikigai`: volume 81 / competition 44 / overall 71, ~277K monthly searches (top markets VN, US, JP, IN, BR). Our 2H length also differentiates vs their 1H.
 
 ---
@@ -19,6 +19,8 @@ Three style variants — rotate across tracklist to avoid Content ID on openings
 - **Variant A (Koto-led):** tracks 1–14
 - **Variant B (Wind/Shakuhachi-led):** tracks 15–27
 - **Variant C (Bowl-led):** tracks 28–40
+
+> **✅ AS BUILT (2026-07-15):** generated in 3 Suno batches (`IKIGAI` = A · `IKIGAI 2` = B · `IKIGAI 3` = C). Final lay-down order INTERLEAVES the variants (no two adjacent tracks share an opening pattern — SATORI Content ID lesson). Files renamed `01…37 <poetic name>.wav` so filename sort = CapCut order. Dropped 3 tracks to fit the 2H cap: `IKIGAI 2 (15)` (1:48 truncated generation), `IKIGAI 2 (3)` (2:33), `IKIGAI 3 (13)` (4:14) — parked in `…-mastered/extra/`.
 
 ### Variant A — Style field (Koto-led dawn)
 
@@ -114,54 +116,50 @@ Seamless loop: last frame identical to first frame.
 
 ---
 
-## §5 — Tracklist (names locked — timestamps TBD after Suno generation)
+## §5 — Tracklist (FINAL — real timestamps from mastered files, 2026-07-15)
 
-40 tracks · ~3 min avg · target ≤ 2:00:00. Arc: pre-dawn → first light → full morning with purpose.
+37 tracks · 1:58:34 total · variants interleaved A/B/C. Arc: pre-dawn → first light → full morning with purpose.
+*(3 names unused after the 2H-cap trim: "Second Hour of Light", "What Remains After Rest", "The Long Middle of the Morning".)*
 
 ```
-Before First Light
-The Hour the Sky Turns
-Indigo Sky, Amber Edge
-The Reason to Rise
-First Steam of the Kettle
-The Garden Waits
-What the Hands Remember
-One Cup, Poured Slowly
-The Sun Clears the Ridge
-Small Things Done Well
-The Craftsman's First Cut
-Morning on the Engawa
-Mist Leaves the Valley
-The Work That Chooses You
-Where Love Meets Skill
-The Village Below Stirs
-Bread, Tea, Purpose
-The Path You Walk Daily
-Gold on the Paper Screens
-The Quiet Joy of Beginning
-Second Hour of Light
-What the World Asks
-The Old Man and His Garden
-A Life Measured in Mornings
-The Needle and the Thread
-Warmth Reaches the Floorboards
-The Answer Is the Doing
-Noon Will Come, Not Yet
-The Brush Knows the Way
-Ten Thousand Ordinary Days
-The Fisherman Returns at Dawn
-What Remains After Rest
-The Tea Grows Cold, Refill It
-Purpose Without a Name
-The Long Middle of the Morning
-Light on the Workbench
-Each Day, the Same Gift
-The Mountain Watches You Work
-Evening Will Ask What You Did
-Tomorrow, Again, Gladly
+0:00 Before First Light
+3:10 The Hour the Sky Turns
+6:09 Indigo Sky, Amber Edge
+9:14 The Reason to Rise
+12:29 First Steam of the Kettle
+15:34 The Garden Waits
+18:48 What the Hands Remember
+21:37 One Cup, Poured Slowly
+24:46 The Sun Clears the Ridge
+28:05 Small Things Done Well
+31:05 The Craftsman's First Cut
+34:10 Morning on the Engawa
+37:38 Mist Leaves the Valley
+40:23 The Work That Chooses You
+43:38 Where Love Meets Skill
+46:42 The Village Below Stirs
+49:37 Bread, Tea, Purpose
+53:07 The Path You Walk Daily
+56:21 Gold on the Paper Screens
+59:23 The Quiet Joy of Beginning
+1:02:29 What the World Asks
+1:05:49 The Old Man and His Garden
+1:08:57 A Life Measured in Mornings
+1:12:12 The Needle and the Thread
+1:15:17 Warmth Reaches the Floorboards
+1:18:30 The Answer Is the Doing
+1:21:38 Noon Will Come, Not Yet
+1:25:03 The Brush Knows the Way
+1:28:32 Ten Thousand Ordinary Days
+1:31:46 The Fisherman Returns at Dawn
+1:35:05 The Tea Grows Cold, Refill It
+1:38:20 Purpose Without a Name
+1:41:34 Light on the Workbench
+1:45:08 Each Day, the Same Gift
+1:48:41 The Mountain Watches You Work
+1:51:46 Evening Will Ask What You Did
+1:55:10 Tomorrow, Again, Gladly
 ```
-
-*(After Suno: run `stillwave/tools/tracklist-timestamps.py` on the final files to produce real timestamps, then update §8.)*
 
 ---
 
@@ -181,7 +179,7 @@ Tomorrow, Again, Gladly
 ## §6b — CapCut Assembly notes
 
 1. Video track: Flow loop repeated to cover ~2H
-2. Audio track 1: Suno tracks 1–40 laid end-to-end (openings differ per variant — no cross-fade needed)
+2. Audio track 1: mastered tracks `01…37` laid end-to-end in filename order (openings differ per variant — no cross-fade needed)
 3. Audio track 2 (optional): very soft morning-air ambience at –14 dB under the music for continuity
 4. Text layer: Wisdom overlay §6a — start 0:03, end 0:14
 5. Export: 1920×1080, H.264, AAC 192k
@@ -225,7 +223,45 @@ This is IKIGAI — 生き甲斐.
 
 ─────────────────────────────
 
-[TRACKLIST — paste real timestamps after Suno generation, §5 names]
+🎵 Tracklist
+
+0:00 Before First Light
+3:10 The Hour the Sky Turns
+6:09 Indigo Sky, Amber Edge
+9:14 The Reason to Rise
+12:29 First Steam of the Kettle
+15:34 The Garden Waits
+18:48 What the Hands Remember
+21:37 One Cup, Poured Slowly
+24:46 The Sun Clears the Ridge
+28:05 Small Things Done Well
+31:05 The Craftsman's First Cut
+34:10 Morning on the Engawa
+37:38 Mist Leaves the Valley
+40:23 The Work That Chooses You
+43:38 Where Love Meets Skill
+46:42 The Village Below Stirs
+49:37 Bread, Tea, Purpose
+53:07 The Path You Walk Daily
+56:21 Gold on the Paper Screens
+59:23 The Quiet Joy of Beginning
+1:02:29 What the World Asks
+1:05:49 The Old Man and His Garden
+1:08:57 A Life Measured in Mornings
+1:12:12 The Needle and the Thread
+1:15:17 Warmth Reaches the Floorboards
+1:18:30 The Answer Is the Doing
+1:21:38 Noon Will Come, Not Yet
+1:25:03 The Brush Knows the Way
+1:28:32 Ten Thousand Ordinary Days
+1:31:46 The Fisherman Returns at Dawn
+1:35:05 The Tea Grows Cold, Refill It
+1:38:20 Purpose Without a Name
+1:41:34 Light on the Workbench
+1:45:08 Each Day, the Same Gift
+1:48:41 The Mountain Watches You Work
+1:51:46 Evening Will Ask What You Did
+1:55:10 Tomorrow, Again, Gladly
 
 ─────────────────────────────
 
