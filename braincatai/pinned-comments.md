@@ -322,6 +322,19 @@ my cat literally does the laptop thing every single time without fail and i alwa
 
 ---
 
+### 56. Every Cat Sound Explained — LONG-FORM (TBD) — Cat Communication
+
+🇬🇧:
+```
+ok the silent meow part got me. my cat does that exact thing every morning right at my face and i thought she was just being dramatic 😭 turns out its literally a whisper only for me?? anyway now i owe her an apology. which sound is your cat's favorite — mine is definitely the 6am solicitation purr
+```
+🇷🇺:
+```
+ладно, беззвучное мяу меня добило. моя кошка делает ровно это каждое утро прямо мне в лицо и я думала она просто драматизирует 😭 а это оказывается шёпот только для меня?? короче я должна ей извинение. какой звук у вашего кота любимый — у моей точно просящее мурчание в 6 утра
+```
+
+---
+
 ### 55. Why Your Cat Rubs Against Your Legs (TBD) — Cat Psychology
 
 🇬🇧:
