@@ -83,16 +83,22 @@ Meditative Japanese ambient, single bonsho temple bell opening with long decay, 
 
 ## §3 — NanoBanana 16:9 prompt (thumbnail + video visual)
 
+**PRIMARY (locked 2026-07-16) — the master at work.** Elderly craftsman mending the bowl, over-the-shoulder, face never visible (channel lock), hands FROZEN mid-gesture (brush poised, not moving — loop-safe). Historically he is "a master craftsman", NOT named Sen no Rikyū in any public copy (Rikyū was a tea master, not a potter/lacquerer — his name stays in the §12 Community Post quote only).
+
+```
+Photorealistic cinematic, Kurosawa film quality, 4K. An elderly Japanese master craftsman in a dark indigo work kimono, seen from behind over his shoulder, face not visible, kneeling at a low wooden workbench in a shadowed tearoom workshop. In his weathered hands he holds a broken Japanese tea bowl, a fine brush poised motionless over a crack he is filling with luminous gold lacquer — the kintsugi seam glowing as the single bright element. One soft warm side light from the right rakes across his hands, the bowl, and the gold; small pots of urushi lacquer and gold powder rest on the bench. Deep charcoal and umber palette, ONE warm gold accent. Reverent, unhurried, museum-like stillness. Keep the lower-left corner as dark, empty negative space for a text overlay — no bright objects or busy detail in the bottom-left third. No text, no logos, no watermarks.
+```
+
+**Alt A — still life (no figure, original concept):**
+
 ```
 Photorealistic cinematic still life, Kurosawa film quality, 4K. A single broken Japanese tea bowl (chawan) mended in the kintsugi tradition — its cracks filled with luminous gold lacquer seams — standing on a dark aged wooden shelf in a shadowed tearoom. One soft warm side light from the right rakes across the bowl, making the gold veins glow against the deep charcoal-black background; the rough clay surface shows its texture and small chips honestly. Behind the bowl, darkness fades to black with the faintest suggestion of tearoom timbers. Deep charcoal and umber palette with ONE warm gold accent — the shining kintsugi seams. Quiet, reverent, museum-like stillness. Keep the lower-left corner as dark, empty negative space for a text overlay — no bright objects or busy detail in the bottom-left third. No text, no logos, no watermarks.
 ```
 
-*(Still life — no monk. Deviation from series-standard justified: the kintsugi bowl IS the massive symbolic hook, same logic as competitor hero-object thumbnails. Alt variant with figure below if the still life underperforms in generation.)*
-
-**Alt 16:9 (series-standard, with figure):**
+**Alt B — hands macro (also Shorts frame 2 option):**
 
 ```
-Photorealistic cinematic, Kurosawa film quality, 4K. A lone Buddhist monk in dark robes, back to camera, kneeling in a shadowed tearoom before a low wooden shelf, contemplating a single broken Japanese tea bowl mended with glowing gold kintsugi seams. One soft warm side light rakes across the bowl and the monk's shoulder from the right; deep charcoal darkness everywhere else. The gold cracks are the only bright element. Keep the lower-left corner as dark, empty negative space for a text overlay — no bright objects or busy detail in the bottom-left third. No text, no logos, no watermarks.
+Photorealistic cinematic close-up, Kurosawa film quality, 4K. The weathered hands of an elderly Japanese craftsman cradling a broken tea bowl, a fine brush held motionless as liquid gold lacquer fills the crack — the kintsugi seam glowing warmly in soft side light, every wrinkle of the hands and grain of the rough clay in sharp detail. Deep charcoal darkness around; small dish of gold powder blurred at the frame edge. No face visible. ONE warm gold accent in a dark umber palette. Keep the lower-left corner as dark, empty negative space for a text overlay. No text, no logos, no watermarks.
 ```
 
 ---
@@ -107,11 +113,19 @@ Vertical 9:16 photorealistic cinematic still life, Kurosawa film quality, 4K. A 
 
 ## §4 — Flow / Kling loop prompt (8-sec seamless)
 
+**For the PRIMARY master-at-work image:**
+
+```
+Camera completely locked. Animate only three subtle elements: the warm side light breathing slowly (the gold seam glints and softens), a thin ribbon of incense smoke rising in the dark background, and the faintest shimmer on the wet gold lacquer. The master, his hands, the brush, the bowl — completely motionless, a held breath. Seamless loop, last frame matches first frame.
+```
+
+**For the Alt A still life:**
+
 ```
 Camera completely locked, no pan, no zoom. Animate only three subtle elements: (1) the warm side light breathes very slowly — the gold kintsugi seams glint and soften as if by candlelight, (2) a thin ribbon of incense smoke rises slowly in the dark background behind the bowl, gently swaying, (3) the soft light gradient on the back wall shifts almost imperceptibly. The bowl itself, the shelf, everything else — completely motionless. Seamless loop, last frame matches first frame.
 ```
 
-*(No airborne particles — no dust motes, no petals. Smoke ribbon is the safe continuous element.)*
+*(No airborne particles — no dust motes, no petals. Smoke ribbon is the safe continuous element. ⚠️ The master's hands must be a HELD pose — any hand motion in an 8-sec loop reads as a glitch repeated 900×.)*
 
 ---
 
