@@ -5,10 +5,10 @@
 - **Title:** WABI SABI — 侘寂 | 2H Japanese Zen Music for Letting Go, Imperfection & Deep Calm
 - **Slug:** `wabi-sabi-2h`
 - **Format:** Long-form (Kanji-Concept Series)
-- **Length:** ~2H target (≤ 2:00:00 after trim — same workflow as IKIGAI: generate ~40, drop to fit)
+- **Length:** 1:57:10 — FINAL (35 mastered tracks; 41 generated, 6 dropped to fit the 2H cap)
 - **Aesthetic:** Kintsugi bowl still life — dark tearoom, a broken Japanese chawan mended with gold seams, one soft side light. The gold cracks ARE the visual hero.
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Status:** 📝 draft — pre-production (created 2026-07-16)
+- **Status:** 🎵 audio DONE (2026-07-17) — 35 tracks mastered (−16 LUFS, 48 kHz/24-bit), renamed & interleaved; visuals: master-at-work + bowl-in-void + tea ceremony ready; next: CapCut assembly
 - **Concept note:** WABI-SABI (侘寂) — beauty of imperfection and impermanence. Kintsugi (金継ぎ, golden repair) is its most photogenic embodiment: the break is not hidden, it is honored. Strong crossover appeal (self-help / healing / acceptance audience + zen music cluster). Concept marked free-for-use in the Kanji-Concept bank.
 
 ---
@@ -17,6 +17,8 @@
 
 Three style variants — rotate across tracklist to avoid Content ID on openings (SATORI lesson).
 Batch naming for Suno: `WABISABI` = A · `WABISABI 2` = B · `WABISABI 3` = C. Interleave in final lay-down (no two adjacent tracks share an opening) — same as-built process as IKIGAI.
+
+> **✅ AS BUILT (2026-07-17):** generated 41 tracks in 3 batches (`WABI SABI 1` = A ×18 · `WABI SABI 2` = B ×14 · `WABI SABI 3` = C ×9). Per user priority ALL 18 A-tracks kept; dropped 6 to fit the 2H cap: `WABI SABI 2 (1)` (TP 0.0 — borderline clip), `2 (3)`, `2 (12)`, `2 (13)`, `3 (4)`, `3 (7)` — parked in `…-mastered/extra/`. Final order = strict A-alternation (A on odd positions, B/C on even) → no two adjacent tracks share an opening. Files renamed `01…35 <poetic name>.wav`, filename sort = CapCut order. The long 5:26 track closes the album as "Whole Again, Differently".
 
 ### Variant A — Style field (Pad-led stillness)
 
@@ -163,54 +165,48 @@ Camera completely locked, no pan, no zoom. Animate only three subtle elements: (
 
 ---
 
-## §5 — Tracklist (names locked — timestamps after Suno generation + trim)
+## §5 — Tracklist (FINAL — real timestamps from mastered files, 2026-07-17)
 
-40 names · ~3 min avg · target ≤ 2:00:00 after trim. Arc: the break → the mending → gold in the cracks → acceptance.
+35 tracks · 1:57:10 total · A-tracks on every odd position (user priority: all of batch 1 kept). Arc: the break → the mending → gold in the cracks → acceptance.
+*(5 names unused after the trim: "The Chip on the Rim", "The Candle and the Bowl", "The Kiln Remembers", "Faded Indigo", "The Shelf in Shadow".)*
 
 ```
-The Bowl That Fell
-What Breaking Teaches
-Shards on the Workbench
-The Potter Does Not Weep
-Lacquer and Patience
-The First Golden Seam
-Nothing Is Finished
-Nothing Is Perfect
-Nothing Lasts
-The Beauty of the Flaw
-Where the Light Enters
-Gold in the Cracks
-The Repair Is the Story
-An Honest Surface
-The Chip on the Rim
-Tea Tastes Deeper Now
-The Candle and the Bowl
-Rain on the Tearoom Roof
-Old Wood, Older Clay
-The Master's Favorite Cup
-A Scar Worth Keeping
-Twilight in the Workshop
-The Kiln Remembers
-Weathered, Not Worn Out
-The Moss Chooses the Stone
-Faded Indigo
-The Season of Falling
-What Remains Is Enough
-The Unswept Garden
-Asymmetry at Rest
-The Silence Between Notes
-Everything Passing
-A Bowl Full of Evening
-The Glaze Crackles Softly
-Patina of Years
-Held Together by Light
-The Last Firing
-Beauty Keeps No Schedule
-The Shelf in Shadow
-Whole Again, Differently
+0:00 The Bowl That Fell
+3:25 What Breaking Teaches
+6:40 Shards on the Workbench
+10:04 The Potter Does Not Weep
+13:34 Lacquer and Patience
+17:12 The First Golden Seam
+20:22 Nothing Is Finished
+23:51 Nothing Is Perfect
+27:10 Nothing Lasts
+31:09 The Beauty of the Flaw
+34:14 Where the Light Enters
+37:54 Gold in the Cracks
+40:53 The Repair Is the Story
+44:08 An Honest Surface
+47:18 Tea Tastes Deeper Now
+50:22 Rain on the Tearoom Roof
+53:22 Old Wood, Older Clay
+56:37 The Master's Favorite Cup
+59:56 A Scar Worth Keeping
+1:03:25 Twilight in the Workshop
+1:06:32 Weathered, Not Worn Out
+1:09:31 The Moss Chooses the Stone
+1:13:00 The Season of Falling
+1:16:19 What Remains Is Enough
+1:19:20 The Unswept Garden
+1:22:40 Asymmetry at Rest
+1:25:49 The Silence Between Notes
+1:28:57 Everything Passing
+1:32:06 A Bowl Full of Evening
+1:35:36 The Glaze Crackles Softly
+1:38:44 Patina of Years
+1:41:54 Held Together by Light
+1:45:16 The Last Firing
+1:48:40 Beauty Keeps No Schedule
+1:51:44 Whole Again, Differently
 ```
-
-*(After Suno: master with `stillwave/tools/master-album.py`, trim to ≤2H, rename `01…NN <name>.wav` interleaved A/B/C, run `stillwave/tools/tracklist-timestamps.py`, update §8 — same as-built process as IKIGAI.)*
 
 ---
 
@@ -274,7 +270,43 @@ This is WABI SABI — 侘寂.
 
 ─────────────────────────────
 
-[TRACKLIST — paste real timestamps after Suno generation + trim, §5 names]
+🎵 Tracklist
+
+0:00 The Bowl That Fell
+3:25 What Breaking Teaches
+6:40 Shards on the Workbench
+10:04 The Potter Does Not Weep
+13:34 Lacquer and Patience
+17:12 The First Golden Seam
+20:22 Nothing Is Finished
+23:51 Nothing Is Perfect
+27:10 Nothing Lasts
+31:09 The Beauty of the Flaw
+34:14 Where the Light Enters
+37:54 Gold in the Cracks
+40:53 The Repair Is the Story
+44:08 An Honest Surface
+47:18 Tea Tastes Deeper Now
+50:22 Rain on the Tearoom Roof
+53:22 Old Wood, Older Clay
+56:37 The Master's Favorite Cup
+59:56 A Scar Worth Keeping
+1:03:25 Twilight in the Workshop
+1:06:32 Weathered, Not Worn Out
+1:09:31 The Moss Chooses the Stone
+1:13:00 The Season of Falling
+1:16:19 What Remains Is Enough
+1:19:20 The Unswept Garden
+1:22:40 Asymmetry at Rest
+1:25:49 The Silence Between Notes
+1:28:57 Everything Passing
+1:32:06 A Bowl Full of Evening
+1:35:36 The Glaze Crackles Softly
+1:38:44 Patina of Years
+1:41:54 Held Together by Light
+1:45:16 The Last Firing
+1:48:40 Beauty Keeps No Schedule
+1:51:44 Whole Again, Differently
 
 ─────────────────────────────
 
