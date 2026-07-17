@@ -86,8 +86,10 @@ Meditative Japanese ambient, single bonsho temple bell opening with long decay, 
 **PRIMARY (locked 2026-07-16) — the master at work.** Elderly craftsman mending the bowl, over-the-shoulder, face never visible (channel lock), hands FROZEN mid-gesture (brush poised, not moving — loop-safe). Historically he is "a master craftsman", NOT named Sen no Rikyū in any public copy (Rikyū was a tea master, not a potter/lacquerer — his name stays in the §12 Community Post quote only).
 
 ```
-Photorealistic cinematic, Kurosawa film quality, 4K. An elderly Japanese master craftsman in a dark indigo work kimono, seen from behind over his shoulder, face not visible, kneeling at a low wooden workbench in a shadowed tearoom workshop. In his weathered hands he holds a broken Japanese tea bowl, a fine brush poised motionless over a crack he is filling with luminous gold lacquer — the kintsugi seam glowing as the single bright element. One soft warm side light from the right rakes across his hands, the bowl, and the gold; small pots of urushi lacquer and gold powder rest on the bench. Deep charcoal and umber palette, ONE warm gold accent. Reverent, unhurried, museum-like stillness. Keep the lower-left corner as dark, empty negative space for a text overlay — no bright objects or busy detail in the bottom-left third. No text, no logos, no watermarks.
+Photorealistic cinematic, Kurosawa film quality, 4K, wide 16:9 shot. An elderly Japanese master craftsman in a dark indigo work kimono and headcloth, seen from behind over his shoulder, face not visible, kneeling at the CENTER of the frame at a low wooden workbench in a shadowed tearoom workshop. In his weathered hands he holds a broken Japanese tea bowl, a fine brush poised motionless over a crack filled with luminous gold lacquer — the glowing kintsugi seam is the single bright element. Soft daylight from a shoji window in the upper right rakes across his hands and the bowl. The workbench with small pots of urushi lacquer and gold powder sits to his left; dark wooden shelves with old bowls fade into shadow on the far left. The FOREGROUND is empty dark tatami floor stretching across the entire bottom of the frame — both the bottom-left and bottom-right corners are calm, dark, empty negative space with no objects, no bright details, no parts of the figure (bottom-left = text overlay, bottom-right = channel logo). The master's body stays fully inside the middle third of the frame, never touching the left or right edge. Deep charcoal and umber palette, ONE warm gold accent. Reverent, museum-like stillness. No text, no logos, no watermarks.
 ```
+
+*(Composition v2 locked 2026-07-16: master centered, BOTH bottom corners clean — left for the wisdom overlay, right for the channel logo that covers the generator watermark.)*
 
 **Alt A — still life (no figure, original concept):**
 
@@ -99,6 +101,38 @@ Photorealistic cinematic still life, Kurosawa film quality, 4K. A single broken 
 
 ```
 Photorealistic cinematic close-up, Kurosawa film quality, 4K. The weathered hands of an elderly Japanese craftsman cradling a broken tea bowl, a fine brush held motionless as liquid gold lacquer fills the crack — the kintsugi seam glowing warmly in soft side light, every wrinkle of the hands and grain of the rough clay in sharp detail. Deep charcoal darkness around; small dish of gold powder blurred at the frame edge. No face visible. ONE warm gold accent in a dark umber palette. Keep the lower-left corner as dark, empty negative space for a text overlay. No text, no logos, no watermarks.
+```
+
+---
+
+## §3c — Closing scene: tea ceremony with the mended bowl (finale, locked 2026-07-16)
+
+The narrative arc: broken → mended with gold → SERVES TEA AGAIN. Use as the video's alternate visual chapter and the Shorts finale.
+
+**Variant A — whisking matcha in the kintsugi bowl (recommended):**
+
+```
+Photorealistic cinematic close-up, Kurosawa film quality, 4K, 16:9. A Japanese tea ceremony moment: weathered hands holding a bamboo chasen whisk poised motionless over the kintsugi tea bowl — the same dark chawan with luminous gold seams — filled with vivid green matcha, a thin wisp of steam rising from the hot tea. Soft warm side light in a shadowed tearoom, tatami and a dark iron kettle blurred in the background. No face visible. Deep charcoal palette, the glowing gold seams and the green matcha as the only color accents. Keep the lower-left corner as dark, empty negative space for a text overlay, and keep the bottom-right corner as calm, dark, low-detail space — no subject or bright detail there (logo placement). Quiet, ceremonial stillness. No text, no logos, no watermarks.
+```
+
+**Variant B — after the ceremony, no people:**
+
+```
+Photorealistic cinematic still life, Kurosawa film quality, 4K, 16:9. After the tea ceremony: the kintsugi bowl with glowing gold seams stands on a tatami mat, half full of green matcha, a faint wisp of steam rising. Beside it a bamboo chasen whisk resting on a folded cloth and a dark iron kettle in soft shadow. Warm late-afternoon light from a shoji window rakes low across the tatami weave. No people. Deep charcoal and umber palette, gold seams and matcha green as the only accents. Keep the lower-left corner as dark, empty negative space for a text overlay, and keep the bottom-right corner as calm, dark, low-detail space — no subject or bright detail there (logo placement). No text, no logos, no watermarks.
+```
+
+**Flow loop (Variant A):**
+
+```
+Camera completely locked. Animate only three subtle elements: (1) the thin wisp of steam rising slowly from the hot matcha, gently swaying, (2) the gold seams glinting softly with the breathing light, (3) the warm light itself brightening and dimming almost imperceptibly. The hands, the whisk, the bowl, everything else — completely motionless. Seamless loop.
+```
+
+*(Steam is safe HERE — it rises from the hot tea intentionally. This is the one kintsugi scene where steam/smoke is allowed.)*
+
+**Bowl-in-void turntable (Shorts, generated 2026-07-16 — bowl centered in black space):**
+
+```
+Camera completely locked, no pan, no zoom. The kintsugi bowl rotates slowly and steadily on its axis like a museum turntable — completing exactly ONE full 360-degree rotation over the clip, constant speed, ending in the same position it started. As it turns, the gold seams radiate a soft inner glow that gently pulses — brightening and breathing like embers, casting a faint warm reflection on the dark surface beneath. The background stays pure black and completely still. The bowl keeps its exact shape, size, texture and crack pattern throughout the rotation. Smooth, hypnotic, reverent.
 ```
 
 ---
