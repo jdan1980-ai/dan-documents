@@ -113,19 +113,19 @@ Vertical 9:16 photorealistic cinematic still life, Kurosawa film quality, 4K. A 
 
 ## §4 — Flow / Kling loop prompt (8-sec seamless)
 
-**For the PRIMARY master-at-work image:**
+**For the PRIMARY master-at-work image (v2 — NO smoke, lesson 2026-07-16):**
 
 ```
-Camera completely locked. Animate only three subtle elements: the warm side light breathing slowly (the gold seam glints and softens), a thin ribbon of incense smoke rising in the dark background, and the faintest shimmer on the wet gold lacquer. The master, his hands, the brush, the bowl — completely motionless, a held breath. Seamless loop, last frame matches first frame.
+Camera completely locked, no pan, no zoom. Animate only three subtle elements: (1) the warm side light breathes very slowly, as if by candlelight, (2) the gold lacquer seam on the bowl glints and softens with the breathing light, (3) the soft light gradient on the dark back wall shifts almost imperceptibly. The master, his hands, the brush, the bowl, the workbench — completely motionless, a held breath. Seamless loop, last frame matches first frame.
 ```
 
-**For the Alt A still life:**
+**For the Alt A still life (v2 — NO smoke):**
 
 ```
-Camera completely locked, no pan, no zoom. Animate only three subtle elements: (1) the warm side light breathes very slowly — the gold kintsugi seams glint and soften as if by candlelight, (2) a thin ribbon of incense smoke rises slowly in the dark background behind the bowl, gently swaying, (3) the soft light gradient on the back wall shifts almost imperceptibly. The bowl itself, the shelf, everything else — completely motionless. Seamless loop, last frame matches first frame.
+Camera completely locked, no pan, no zoom. Animate only three subtle elements: (1) the warm side light breathes very slowly — the gold kintsugi seams glint and soften as if by candlelight, (2) the shadows on the shelf deepen and release with the breathing light, (3) the soft light gradient on the back wall shifts almost imperceptibly. The bowl itself, the shelf, everything else — completely motionless. Seamless loop, last frame matches first frame.
 ```
 
-*(No airborne particles — no dust motes, no petals. Smoke ribbon is the safe continuous element. ⚠️ The master's hands must be a HELD pose — any hand motion in an 8-sec loop reads as a glitch repeated 900×.)*
+*(No airborne particles — no dust motes, no petals. ⚠️ **NO SMOKE in kintsugi scenes** — lesson 2026-07-16: any mention of incense smoke makes the model attach the smoke to the bowl/brush, reading as if the bowl is smoking. Same principle as the NO-negative-mention rule: just omit it. Light-breathing + gold-glint + wall-gradient are the safe trio. ⚠️ The master's hands must be a HELD pose — any hand motion in an 8-sec loop reads as a glitch repeated 900×.)*
 
 ---
 
