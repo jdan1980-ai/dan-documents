@@ -5,10 +5,10 @@
 - **Title:** WABI SABI — 侘寂 | 2H Japanese Zen Music for Letting Go, Imperfection & Deep Calm
 - **Slug:** `wabi-sabi-2h`
 - **Format:** Long-form (Kanji-Concept Series)
-- **Length:** 1:57:10 — FINAL (35 mastered tracks; 41 generated, 6 dropped to fit the 2H cap)
+- **Length:** 2:00:39 — FINAL (36 mastered tracks; 41 generated, 5 dropped). Conscious 39-sec overage past the 2H cap — reads as an even "2 hours" on YouTube; user call 2026-07-17.
 - **Aesthetic:** Kintsugi bowl still life — dark tearoom, a broken Japanese chawan mended with gold seams, one soft side light. The gold cracks ARE the visual hero.
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Status:** 🎵 audio DONE (2026-07-17) — 35 tracks mastered (−16 LUFS, 48 kHz/24-bit), renamed & interleaved; visuals: master-at-work + bowl-in-void + tea ceremony ready; next: CapCut assembly
+- **Status:** 🎵 audio DONE (2026-07-17) — 36 tracks mastered (−16 LUFS, 48 kHz/24-bit), renamed & interleaved; visuals: master-at-work + bowl-in-void + tea ceremony ready; next: CapCut assembly
 - **Concept note:** WABI-SABI (侘寂) — beauty of imperfection and impermanence. Kintsugi (金継ぎ, golden repair) is its most photogenic embodiment: the break is not hidden, it is honored. Strong crossover appeal (self-help / healing / acceptance audience + zen music cluster). Concept marked free-for-use in the Kanji-Concept bank.
 
 ---
@@ -18,7 +18,7 @@
 Three style variants — rotate across tracklist to avoid Content ID on openings (SATORI lesson).
 Batch naming for Suno: `WABISABI` = A · `WABISABI 2` = B · `WABISABI 3` = C. Interleave in final lay-down (no two adjacent tracks share an opening) — same as-built process as IKIGAI.
 
-> **✅ AS BUILT (2026-07-17):** generated 41 tracks in 3 batches (`WABI SABI 1` = A ×18 · `WABI SABI 2` = B ×14 · `WABI SABI 3` = C ×9). Per user priority ALL 18 A-tracks kept; dropped 6 to fit the 2H cap: `WABI SABI 2 (1)` (TP 0.0 — borderline clip), `2 (3)`, `2 (12)`, `2 (13)`, `3 (4)`, `3 (7)` — parked in `…-mastered/extra/`. Final order = strict A-alternation (A on odd positions, B/C on even) → no two adjacent tracks share an opening. Files renamed `01…35 <poetic name>.wav`, filename sort = CapCut order. The long 5:26 track closes the album as "Whole Again, Differently".
+> **✅ AS BUILT (2026-07-17):** generated 41 tracks in 3 batches (`WABI SABI 1` = A ×18 · `WABI SABI 2` = B ×14 · `WABI SABI 3` = C ×9). Per user priority ALL 18 A-tracks kept; dropped 5: `2 (3)`, `2 (12)`, `2 (13)`, `3 (4)`, `3 (7)` — parked in `…-mastered/extra/`. `WABI SABI 2 (1)` (TP 0.0 in Suno — mastered file peak-safe, verify by ear) restored per user as the closing epilogue track #36 "The Shelf in Shadow". Final order = strict A-alternation through #35, then B epilogue → no two adjacent tracks share an opening. Files renamed `01…36 <poetic name>.wav`, filename sort = CapCut order.
 
 ### Variant A — Style field (Pad-led stillness)
 
@@ -167,8 +167,8 @@ Camera completely locked, no pan, no zoom. Animate only three subtle elements: (
 
 ## §5 — Tracklist (FINAL — real timestamps from mastered files, 2026-07-17)
 
-35 tracks · 1:57:10 total · A-tracks on every odd position (user priority: all of batch 1 kept). Arc: the break → the mending → gold in the cracks → acceptance.
-*(5 names unused after the trim: "The Chip on the Rim", "The Candle and the Bowl", "The Kiln Remembers", "Faded Indigo", "The Shelf in Shadow".)*
+36 tracks · 2:00:39 total · A-tracks on every odd position through #35, B epilogue closes (user priority: all of batch 1 kept). Arc: the break → the mending → gold in the cracks → acceptance → the shelf.
+*(4 names unused after the trim: "The Chip on the Rim", "The Candle and the Bowl", "The Kiln Remembers", "Faded Indigo".)*
 
 ```
 0:00 The Bowl That Fell
@@ -206,6 +206,7 @@ Camera completely locked, no pan, no zoom. Animate only three subtle elements: (
 1:45:16 The Last Firing
 1:48:40 Beauty Keeps No Schedule
 1:51:44 Whole Again, Differently
+1:57:10 The Shelf in Shadow
 ```
 
 ---
@@ -307,6 +308,7 @@ This is WABI SABI — 侘寂.
 1:45:16 The Last Firing
 1:48:40 Beauty Keeps No Schedule
 1:51:44 Whole Again, Differently
+1:57:10 The Shelf in Shadow
 
 ─────────────────────────────
 
