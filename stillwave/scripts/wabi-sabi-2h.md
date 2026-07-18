@@ -8,7 +8,7 @@
 - **Length:** 2:00:39 — FINAL (36 mastered tracks; 41 generated, 5 dropped). Conscious 39-sec overage past the 2H cap — reads as an even "2 hours" on YouTube; user call 2026-07-17.
 - **Aesthetic:** Kintsugi bowl still life — dark tearoom, a broken Japanese chawan mended with gold seams, one soft side light. The gold cracks ARE the visual hero.
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Status:** 🎵 audio DONE (2026-07-17) — 36 tracks mastered (−16 LUFS, 48 kHz/24-bit), renamed & interleaved; visuals: master-at-work + bowl-in-void + tea ceremony ready; next: CapCut assembly
+- **Status:** 📅 SCHEDULED — publishes 2026-07-18 18:00 (assembled & uploaded; 36 tracks / 2:00:39 / thumbnail = kintsugi bowl + gold kanji)
 - **Concept note:** WABI-SABI (侘寂) — beauty of imperfection and impermanence. Kintsugi (金継ぎ, golden repair) is its most photogenic embodiment: the break is not hidden, it is honored. Strong crossover appeal (self-help / healing / acceptance audience + zen music cluster). Concept marked free-for-use in the Kanji-Concept bank.
 
 ---
