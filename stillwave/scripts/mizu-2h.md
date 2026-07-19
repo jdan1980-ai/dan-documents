@@ -5,10 +5,10 @@
 - **Title:** MIZU — 水 | Japanese Zen Music & Water Garden Sounds for Deep Calm & Sleep
 - **Slug:** `mizu-2h`
 - **Format:** Long-form (Kanji-Concept Series)
-- **Length:** target ≤ 2:00:00 (~36 mastered tracks; generate ~40, trim)
+- **Length:** 2:00:09 — FINAL (36 mastered tracks; 43 generated, 7 dropped as loudest/peakiest to keep the calmest set, per user call 2026-07-19). Conscious 9-sec overage past the 2H cap — reads as an even "2 hours" on YouTube.
 - **Aesthetic:** Japanese garden in soft MORNING / DAYTIME light — tsukubai (蹲踞) stone water basin with bamboo kakei spout, thin continuous stream, moss, gentle sun. NOT spa (no plumeria/towels — Bali aesthetic is off-brand). Bright but calm; NOT night (user call 2026-07-19).
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Status:** 🚧 IN PRODUCTION (package created 2026-07-19)
+- **Status:** 🚧 IN PRODUCTION — audio DONE (36 tracks mastered + named, 2:00:09). Pending: pick koi-pond source image, build video in CapCut (Flow loop + water bed), thumbnail, upload.
 - **Concept note:** MIZU (水) — water. Zen ideal of effortless power: water never argues with the rock, and always wins. **FIRST StillWave video with a continuous nature-sound bed** — tsukubai water trickle mixed ~−20 dB under the full 2H album. Opens the water/nature tag cluster (VidIQ 2026-07-19: `water sounds` 115K/mo comp 41, `nature sounds` 511K/mo comp 38, `spa music` 193K/mo comp 50 — all softer than `meditation music` 45).
 
 ## §0 — Pre-production (done 2026-07-19)
@@ -177,7 +177,42 @@ and it always finds its way.
 Morning light settles over the moss garden. A bamboo spout pours one thin silver thread into the tsukubai basin, and the ripples widen, and settle, and widen again. Sun filters through green maple leaves onto wet stone. The flute breathes in long phrases; the koto falls like slow drops. Beneath it all, the water never stops — and never hurries.
 
 Tracklist:
-[added after mastering — mood-poetic names, no Hz, no technical terms]
+0:00 First Light on Water
+3:25 The Spring Awakens
+6:34 Stone and Slow Water
+9:33 Ripples Widen and Settle
+12:47 Morning Over the Pond
+15:42 The Bamboo Spout Pours
+19:01 Koi Drift in Silence
+22:31 Dew on the Moss
+26:01 Where Water Meets Stone
+29:16 A Thread of Silver
+32:25 The Still Surface
+35:38 Sunlight Through Maples
+39:27 Small Waves Returning
+42:49 The Garden Breathes
+46:49 Water Finds Its Way
+50:09 Reflections at Dawn
+53:59 Beneath the Surface
+57:18 The Quiet Basin
+1:00:18 Mist Lifts from the Water
+1:03:48 One Drop, Then Another
+1:06:55 The Patient Current
+1:10:24 Green Shade, Cool Water
+1:13:49 The Pond Remembers
+1:17:08 Soft Fall of the Spout
+1:20:26 Circles on the Water
+1:24:00 Morning Stillness
+1:27:10 The Water's Long Breath
+1:30:23 Moss and Old Stones
+1:33:48 A Calm That Holds
+1:37:11 The Slow Turning Pool
+1:40:30 Light Rests on Ripples
+1:43:44 The Unhurried Flow
+1:47:21 The Water Holds the Sky
+1:50:31 The Clear Shallows
+1:53:27 Where the Koi Rest
+1:56:32 Water Without Haste
 
 🌀 Be like water — soft, and unstoppable.
 🍃 Let one thought pass. Then the next.
