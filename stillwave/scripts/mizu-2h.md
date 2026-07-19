@@ -189,27 +189,27 @@ Tracklist:
 29:16 A Thread of Silver
 32:25 The Still Surface
 35:38 Sunlight Through Maples
-39:27 Small Waves Returning
-42:49 The Garden Breathes
-46:49 Water Finds Its Way
-50:09 Reflections at Dawn
+39:28 Small Waves Returning
+42:50 The Garden Breathes
+46:50 Water Finds Its Way
+50:10 Reflections at Dawn
 53:59 Beneath the Surface
-57:18 The Quiet Basin
-1:00:18 Mist Lifts from the Water
+57:19 The Quiet Basin
+1:00:19 Mist Lifts from the Water
 1:03:48 One Drop, Then Another
-1:06:55 The Patient Current
-1:10:24 Green Shade, Cool Water
-1:13:49 The Pond Remembers
+1:06:56 The Patient Current
+1:10:25 Green Shade, Cool Water
+1:13:50 The Pond Remembers
 1:17:08 Soft Fall of the Spout
-1:20:26 Circles on the Water
-1:24:00 Morning Stillness
+1:20:27 Circles on the Water
+1:24:01 Morning Stillness
 1:27:10 The Water's Long Breath
-1:30:23 Moss and Old Stones
+1:30:24 Moss and Old Stones
 1:33:48 A Calm That Holds
-1:37:11 The Slow Turning Pool
-1:40:30 Light Rests on Ripples
-1:43:44 The Unhurried Flow
-1:47:21 The Water Holds the Sky
+1:37:12 The Slow Turning Pool
+1:40:31 Light Rests on Ripples
+1:43:45 The Unhurried Flow
+1:47:22 The Water Holds the Sky
 1:50:31 The Clear Shallows
 1:53:27 Where the Koi Rest
 1:56:32 Water Without Haste
