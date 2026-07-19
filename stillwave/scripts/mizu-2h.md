@@ -6,7 +6,7 @@
 - **Slug:** `mizu-2h`
 - **Format:** Long-form (Kanji-Concept Series)
 - **Length:** target ≤ 2:00:00 (~36 mastered tracks; generate ~40, trim)
-- **Aesthetic:** Japanese garden at dusk — tsukubai (蹲踞) stone water basin with bamboo kakei spout, thin continuous stream, moss, stone lantern glow. NOT spa (no plumeria/towels — Bali aesthetic is off-brand).
+- **Aesthetic:** Japanese garden in soft MORNING / DAYTIME light — tsukubai (蹲踞) stone water basin with bamboo kakei spout, thin continuous stream, moss, gentle sun. NOT spa (no plumeria/towels — Bali aesthetic is off-brand). Bright but calm; NOT night (user call 2026-07-19).
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Status:** 🚧 IN PRODUCTION (package created 2026-07-19)
 - **Concept note:** MIZU (水) — water. Zen ideal of effortless power: water never argues with the rock, and always wins. **FIRST StillWave video with a continuous nature-sound bed** — tsukubai water trickle mixed ~−20 dB under the full 2H album. Opens the water/nature tag cluster (VidIQ 2026-07-19: `water sounds` 115K/mo comp 41, `nature sounds` 511K/mo comp 38, `spa music` 193K/mo comp 50 — all softer than `meditation music` 45).
@@ -18,46 +18,87 @@
 
 ---
 
-## §1 — Suno prompts
+## §1 — Suno prompts (4 ready-to-paste variants — very calm)
 
-Batch naming: `MIZU` = A · `MIZU 2` = B · `MIZU 3` = C. Generate ~40 (A×14, B×13, C×13), master, keep best ~36. Interleave A/B/C in final lay-down — no two adjacent tracks share an opening (SATORI Content ID lesson).
+Batch naming in Suno: variant 1 = `MIZU` · variant 2 = `MIZU 2` · variant 3 = `MIZU 3` · variant 4 = `MIZU 4`. Each variant has a DIFFERENT opening (Content ID / SATORI lesson). Generate ~10 per variant (~40 total), master, keep best ~36. Interleave 1/2/3/4 in final lay-down — no two adjacent tracks share an opening.
 
 > Water bed is added in CapCut, NOT in Suno — keep tracks clean of water SFX so the bed loops independently and Content ID sees unique music.
 
-### Prompt A — Style field (batch MIZU — bell-led opening)
+Each variant below is a self-contained copy-paste block: **STYLE** goes in Suno's Style field, **LYRICS** goes in the Lyrics field.
 
+### Variant 1 — MIZU (bell-led)
+
+STYLE:
 ```
-Japanese zen ambient, deeply calm and fluid. Sparse shakuhachi bamboo flute with long breathy notes, soft koto plucks resonating in silence, warm slow synth pads like still water, occasional low temple bell with long decay. 50 BPM, extremely slow and flowing, phrases that drift like ripples widening on a pond. Gentle, transparent, meditative — music that moves the way water moves, never forcing. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Very calm Japanese zen ambient, extremely slow and peaceful. Soft shakuhachi bamboo flute with long gentle breathy notes, sparse koto plucks resonating in silence, warm slow synth pads like still water, one quiet low temple bell now and then with long decay. 48 BPM, spacious, flowing, phrases drifting like ripples widening on a calm pond in morning light. Soothing, transparent, meditative, restful. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
-
-### Prompt B — Lyrics field (batch MIZU)
-
+LYRICS:
 ```
 [no lyrics, no vocals, instrumental only]
-[opening: single low temple bell strike, 4 seconds of resonance, then shakuhachi enters quietly]
-[section A: shakuhachi drifts in long unhurried phrases, pad swells slowly underneath]
-[section B: koto plucks like drops falling into a stone basin, wide silence between notes]
-[section C: flute and koto weave gently, everything slow and transparent]
+[opening: single soft low temple bell strike, 4 seconds of resonance, then shakuhachi enters very quietly]
+[section A: shakuhachi drifts in long unhurried phrases, warm pad swells slowly underneath]
+[section B: gentle koto plucks like slow drops into a stone basin, wide calm silence between notes]
+[section C: flute and koto weave softly, everything slow, spacious and transparent]
 [loop point: fades to near-silence with a last soft bell resonance, ready to begin again]
-[mood: dusk in a moss garden, a bamboo spout pours a thin thread of water into a stone basin, ripples widen and settle]
-[texture: shakuhachi, koto, warm pads, distant temple bell, still evening air]
+[mood: a quiet moss garden in soft morning light, a bamboo spout pours a thin thread of water into a stone basin, ripples widen and settle]
+[texture: shakuhachi, koto, warm pads, distant temple bell, still morning air]
 ```
 
-### Batch B — `MIZU 2` (koto-led opening)
+### Variant 2 — MIZU 2 (koto-led)
 
-Style: same as A, reorder instrument list to lead with koto (`Sparse koto plucks resonating in silence, soft shakuhachi...`).
-Lyrics: change opening line to:
+STYLE:
 ```
-[opening: sparse koto plucks, 3-5 slow notes alone, then a warm pad swells underneath]
+Very calm Japanese zen ambient, extremely slow and peaceful. Sparse koto plucks resonating in wide silence, soft shakuhachi bamboo flute entering with long gentle breathy notes, warm slow synth pads like sunlit still water. 46 BPM, spacious, unhurried, notes falling like slow water drops with calm space between them. Soothing, tender, meditative, restful daytime stillness. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: sparse koto plucks, 3 to 5 slow gentle notes alone, then a warm pad swells softly underneath]
+[section A: koto continues in calm phrases, shakuhachi enters quietly with long breaths]
+[section B: pads widen like sunlight on water, koto and flute trade slow soft notes]
+[section C: everything settles into spacious calm, single koto notes ringing in silence]
+[loop point: fades gently to near-silence, a last koto note ringing, ready to begin again]
+[mood: a stone water basin in a Japanese garden at mid-morning, thin water thread falling, ripples catching soft daylight]
+[texture: koto, shakuhachi, warm pads, soft daylight, gentle water stillness]
 ```
 
-### Batch C — `MIZU 3` (pad-led opening)
+### Variant 3 — MIZU 3 (pad-led / softest)
 
-Style: same as A, lead with pads (`Warm slow synth pads like still water, sparse shakuhachi...`).
-Lyrics: change opening line to:
+STYLE:
 ```
-[opening: slow swelling drone pad alone for the first 6-8 seconds, no melodic instrument until the flute enters softly]
+Very calm Japanese zen ambient, the softest and slowest of the set. Warm slow synth pads like gentle daylight on still water swelling first, then sparse soft shakuhachi bamboo flute and a few quiet koto notes far apart. 44 BPM, extremely spacious and restful, almost weightless, long fades, deep calm. Ideal for deep relaxation and sleep. Soothing, warm, meditative. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: a slow warm drone pad swells alone for the first 6 to 8 seconds, no melody yet]
+[section A: soft shakuhachi enters with one long gentle phrase over the pad]
+[section B: a few sparse koto notes fall far apart, pad breathing slowly underneath]
+[section C: everything dissolves into warm spacious calm, only pad and a distant flute breath]
+[loop point: pad fades to near-silence, ready to begin again seamlessly]
+[mood: soft daylight over a quiet garden pond, mist lifting, a thin water thread trickling into a mossy stone basin]
+[texture: warm synth pads, sparse shakuhachi, occasional koto, soft light, deep stillness]
+```
+
+### Variant 4 — MIZU 4 (flute-led / brighter morning)
+
+STYLE:
+```
+Very calm Japanese zen ambient with a gentle bright morning feel. Soft shakuhachi bamboo flute leading with long tender breathy melodies, light koto accents, warm airy synth pads, a faint high shimmer like sunlight on water. 50 BPM, slow, flowing, hopeful but deeply peaceful, spacious. Soothing, uplifting yet restful, meditative. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: soft shakuhachi flute alone for a few seconds with a gentle tender phrase, then warm airy pad enters underneath]
+[section A: flute carries a calm hopeful melody, light koto accents, pad glowing softly]
+[section B: a faint high shimmer like sunlight on ripples, koto and flute answer each other slowly]
+[section C: melody eases back into spacious calm, warm pad and soft flute breaths]
+[loop point: fades gently to near-silence with a last soft flute breath, ready to begin again]
+[mood: early morning sunlight breaking over a Japanese water garden, a bamboo spout trickling into a stone basin, dew on the moss]
+[texture: shakuhachi, light koto, warm airy pads, high shimmer, morning light]
+```
+
+### 💧 Water-sound bed — see spec below (unchanged; added in CapCut).
 
 ### 💧 Water-sound bed (NEW — assembled in CapCut)
 
@@ -76,17 +117,17 @@ Same two-pass loudnorm pipeline as IKIGAI/WABI SABI (`master-album.py`): −16 L
 ## §3 — NanoBanana 16:9 (PRIMARY — tsukubai still life)
 
 ```
-Photorealistic cinematic still life, Japanese tea garden at dusk. A weathered round tsukubai stone water basin (蹲踞) sits right-of-center on mossy stones, filled with dark still water. A bamboo kakei spout pours ONE thin continuous silver thread of water into the basin, small ripples widening on the surface. Deep green moss on the stones, a hint of raked gravel behind. In the soft-focus background right, a weathered stone lantern with a warm flame glowing inside its fire-box — the single warm light accent. Dusk blue-hour light, dark tranquil atmosphere, muted palette of deep greens, wet stone grey and one warm amber accent. Shallow depth of field, atmospheric mist very subtle in the far background. Keep the lower-left corner as dark, empty negative space for a text overlay — no bright objects or busy detail in the bottom-left third. Keep the bottom-right corner as calm, dark, low-detail space — no subject or bright detail there (logo placement). No people, no text, no letters, no watermark. 4K, cinematic composition.
+Photorealistic cinematic still life, Japanese tea garden in soft morning light. A weathered round tsukubai stone water basin (蹲踞) sits right-of-center on mossy stones, filled with clear still water. A bamboo kakei spout pours ONE thin continuous silver thread of water into the basin, small ripples widening on the sunlit surface. Deep green moss on the stones, a hint of neatly raked gravel behind, a few smooth pebbles. Gentle early-morning sunlight filtering through green maple leaves overhead, warm soft light rays, fresh peaceful daytime atmosphere. Calm bright palette of fresh greens, wet stone grey, and warm morning gold. Shallow depth of field, soft dewy haze very subtle in the far background. Keep the lower-left corner as calm, low-detail negative space for a text overlay — no bright objects or busy detail in the bottom-left third. Keep the bottom-right corner as calm, low-detail space — no subject or bright detail there (logo placement). No people, no text, no letters, no watermark. 4K, cinematic composition.
 ```
 
-**Alt — with monk (Kanji-Concept classic):** same scene, add `a lone buddhist monk in dark robes kneels at the basin, back to camera, lower third of frame, face never visible, ladling water with a wooden hishaku dipper` — hero basin stays upper-right.
+**Alt — with monk (Kanji-Concept classic):** same scene, add `a lone buddhist monk in light grey robes kneels at the basin, back to camera, lower third of frame, face never visible, ladling water with a wooden hishaku dipper` — hero basin stays upper-right.
 
 > 🔒 No airborne particles (no falling leaves/petals). Water stream + ripples are the motion story.
 
 ## §3b — NanoBanana 9:16 (Shorts)
 
 ```
-Photorealistic cinematic vertical composition, Japanese tea garden at dusk. A weathered round tsukubai stone water basin in the lower half of frame, dark still water, a bamboo kakei spout entering from upper right pours one thin continuous silver thread of water into the basin, ripples widening. Deep green moss on wet stones, soft blue-hour dusk light, one warm amber glow from a stone lantern soft-focus in the upper background. Muted dark palette, tranquil, meditative. No people, no text, no letters, no watermark. 4K.
+Photorealistic cinematic vertical composition, Japanese tea garden in soft morning light. A weathered round tsukubai stone water basin in the lower half of frame, clear still water, a bamboo kakei spout entering from upper right pours one thin continuous silver thread of water into the basin, ripples widening in the sunlight. Deep green moss on wet stones, gentle early-morning sun rays through green maple leaves in the upper background, warm soft daylight. Fresh bright but calm palette, tranquil, meditative. No people, no text, no letters, no watermark. 4K.
 ```
 
 ---
@@ -94,7 +135,7 @@ Photorealistic cinematic vertical composition, Japanese tea garden at dusk. A we
 ## §4 — Flow / Kling prompt (16:9 loop)
 
 ```
-Camera locked, no camera movement at all. Seamless loop. Animate ONLY: (1) the thin water stream pouring continuously from the bamboo spout — constant, unbroken flow; (2) small ripples widening gently across the basin surface, calm and regular; (3) the stone lantern flame glowing with a soft slow flicker; (4) very subtle mist drifting slowly in the far background. Everything else perfectly still — basin, stones, moss, bamboo, background. Slow, hypnotic, meditative. Last frame matches first frame exactly for a perfect loop.
+Camera locked, no camera movement at all. Seamless loop. Animate ONLY: (1) the thin water stream pouring continuously from the bamboo spout — constant, unbroken flow; (2) small ripples widening gently across the basin surface, calm and regular; (3) soft morning sun rays and light shifting very slowly through the leaves overhead; (4) very subtle dewy haze drifting slowly in the far background. Everything else perfectly still — basin, stones, moss, bamboo, background. Slow, hypnotic, meditative. Last frame matches first frame exactly for a perfect loop.
 ```
 
 > Falling water + ripples = continuous motion, inherently seam-free. If adding a shishi-odoshi variant clip: it MUST complete exactly ONE full fill-tip-return cycle per clip, ending in the start position (cyclic-motion rule).
@@ -106,7 +147,7 @@ Camera locked, no camera movement at all. Seamless loop. Animate ONLY: (1) the t
 - Line 1 (kanji): **上善若水**
 - Line 2 (romaji): *Jōzen wa mizu no gotoshi*
 - Line 3 (gloss): The highest good is like water
-- Cream `#F5EAD2`, Liberation Serif Bold, left side over the dark moss/gravel zone. 0:00–0:03 scene+sound only → fade-in 2s → hold ~5s → fade-out 2s, gone by 0:14.
+- Cream `#F5EAD2`, Liberation Serif Bold, left side over the calm moss/gravel zone. 0:00–0:03 scene+sound only → fade-in 2s → hold ~5s → fade-out 2s, gone by 0:14.
 
 ---
 
@@ -127,13 +168,13 @@ MIZU — 水 | Japanese Water Garden Zen Music for Sleep, Stress Relief & Calm
 ## §8 — Description (Hikari 5-block; tracklist added after mastering)
 
 ```
-japanese zen music, water sounds, zen garden, meditation music, sleep music, nature sounds, japanese water garden, relaxing music, spa music, healing music, shakuhachi flute, koto music, calming music for stress relief — a two-hour Japanese zen session beside a stone water basin at dusk, gentle water trickling beneath every note.
+japanese zen music, water sounds, zen garden, meditation music, sleep music, nature sounds, japanese water garden, relaxing music, spa music, healing music, shakuhachi flute, koto music, calming music for stress relief — a two-hour Japanese zen session beside a stone water basin in soft morning light, gentle water trickling beneath every note.
 
 🌀 MIZU means "water."
 It never argues with the stone,
 and it always finds its way.
 
-Dusk settles over the moss garden. A bamboo spout pours one thin silver thread into the tsukubai basin, and the ripples widen, and settle, and widen again. A stone lantern holds its small flame against the coming night. The flute breathes in long phrases; the koto falls like slow drops. Beneath it all, the water never stops — and never hurries.
+Morning light settles over the moss garden. A bamboo spout pours one thin silver thread into the tsukubai basin, and the ripples widen, and settle, and widen again. Sun filters through green maple leaves onto wet stone. The flute breathes in long phrases; the koto falls like slow drops. Beneath it all, the water never stops — and never hurries.
 
 Tracklist:
 [added after mastering — mood-poetic names, no Hz, no technical terms]
@@ -159,8 +200,8 @@ No hashtags in title or description body (Kanji-Concept lock).
 ## §10 — Thumbnail
 
 - Background: §3 primary image (basin right-of-center).
-- **水** LARGE upper-center (single kanji — the biggest brush glyph we've run), cream `#F5EAD2`, IPA Mincho; **MIZU** in Liberation Serif Bold below, smaller, tracked.
-- Corners: lower-left free/dark (no text needed there — kanji carries the click), lower-right = logo.
+- **水** LARGE upper-center (single kanji — the biggest brush glyph we've run), deep sumi-ink black OR cream `#F5EAD2` (test both — over a bright morning image, dark ink may read stronger), IPA Mincho; **MIZU** in Liberation Serif Bold below, smaller, tracked.
+- Corners: lower-left calm (no text needed there — kanji carries the click), lower-right = logo.
 - Compose with a PIL script (adapt `wabi-sabi-2h-compose-thumb.py`) once the source image is picked.
 
 ---
