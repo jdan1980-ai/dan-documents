@@ -49,6 +49,23 @@ Lyrics field:
 
 ---
 
+## 💧 MIZU (水) — Zen Garden Water (added 2026-07-19, user-spotted trend)
+
+> User noticed zen-garden/fountain/water-sounds videos gaining traction; VidIQ confirms. Candidate for the slot after WABI SABI (competes with KENSHO/YUGEN — MIZU has the stronger data case).
+
+**Data (VidIQ, 2026-07-19):**
+- Relax-TV `ZEN WATER GARDEN — Relaxing Zen Music with Water Sounds in 4K` — 342K views / breakout 5.9. **Winning formula = MUSIC + water sounds layered**, categorized Music.
+- `Zen Garden 4k` (4.3K subs) — Abu Simbel water garden hit breakout 68 (18K views on a tiny channel), BUT their pure-ambience 4H videos sit in **Lifestyle (sociology)** category and most get 1-4K. Lesson: water-only ambience without music mis-categorizes (our Pomodoro 50/10 lesson) — we do music-first.
+- Keywords: `water sounds` 115K/mo comp 41 · `nature sounds` 511K/mo comp 38 · `spa music` 193K/mo comp 50 — all softer competition than `meditation music` (45).
+
+**Format:** Kanji-Concept series — `MIZU — 水 | Japanese Zen Music & Water Garden Sounds for Deep Calm & Sleep` (Music-genre anchor in first half — mandatory). 2H album + **NEW: continuous water-sound bed** mixed ~−20 dB under the music (tsukubai trickle), full 2H, fade with the tracks. First StillWave video with a nature-sound layer — opens the water/nature tag cluster.
+**Visual:** Japanese garden, NOT spa (no plumeria/towels — Bali aesthetic is off-brand): tsukubai (蹲踞) stone basin with bamboo kakei spout, thin water stream, moss, stone lantern, dusk side light. Corners rule as always (lower-left dark for text, lower-right calm for logo).
+**Loop-safety:** falling water stream + surface ripple = continuous motion, inherently loop-safe. Optional shishi-odoshi (鹿威し) — MUST complete exactly one full fill-tip-return cycle per clip (cyclic-motion rule). No airborne leaves/petals.
+**Tags to add:** water sounds, zen garden, water fountain sounds, nature sounds, japanese water garden, spa music + standard zen set.
+**Status:** 🟢 idea — next-slot candidate.
+
+---
+
 ## Themes by category
 
 ### Hz / Frequency series
