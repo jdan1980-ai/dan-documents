@@ -26,15 +26,17 @@ SHADOW = (0, 0, 0, 175)
 KANJI_FONT = "/usr/share/fonts/opentype/ipafont-mincho/ipam.ttf"
 ROMAJI_FONT = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 
+LEFT_X = 58             # shared left margin for BOTH 水 and MIZU
+
 KANJI = "水"
-KANJI_SIZE = 250
-KANJI_CX = 640          # centered horizontally
-KANJI_Y = 178           # just below the bamboo spout
+KANJI_SIZE = 190        # smaller
+KANJI_X = LEFT_X
+KANJI_Y = 168
 
 ROMAJI = "MIZU"
 ROMAJI_SIZE = 116
-ROMAJI_X = 58
-ROMAJI_Y = 594          # lower-left corner
+ROMAJI_X = LEFT_X
+ROMAJI_Y = 536          # raised a bit
 ROMAJI_SPACING = 12
 
 
@@ -53,10 +55,10 @@ def fit_cover(img):
 def darken(bg):
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
-    # upper-center (behind 水)
-    d.ellipse((KANJI_CX - 340, 60, KANJI_CX + 340, 540), fill=(0, 0, 0, 120))
+    # upper-left (behind 水)
+    d.ellipse((-300, 40, 470, 500), fill=(0, 0, 0, 130))
     # lower-left (behind MIZU)
-    d.ellipse((-340, 500, 560, 940), fill=(0, 0, 0, 140))
+    d.ellipse((-340, 440, 560, 880), fill=(0, 0, 0, 140))
     layer = layer.filter(ImageFilter.GaussianBlur(75))
     return Image.alpha_composite(bg.convert("RGBA"), layer).convert("RGB")
 
@@ -85,7 +87,7 @@ def main():
     bg = darken(bg)
 
     d = ImageDraw.Draw(bg)
-    draw_center(d, KANJI_CX, KANJI_Y, KANJI, ImageFont.truetype(KANJI_FONT, KANJI_SIZE), 0)
+    draw_left(d, KANJI_X, KANJI_Y, KANJI, ImageFont.truetype(KANJI_FONT, KANJI_SIZE), 0)
     draw_left(d, ROMAJI_X, ROMAJI_Y, ROMAJI, ImageFont.truetype(ROMAJI_FONT, ROMAJI_SIZE), ROMAJI_SPACING)
 
     bg.save(OUT, "JPEG", quality=92, optimize=True, progressive=True)
