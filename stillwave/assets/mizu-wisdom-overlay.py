@@ -16,22 +16,24 @@ HERE = Path(__file__).parent
 OUT = HERE / "mizu-wisdom-overlay.png"
 
 W, H = 1920, 1080
-CREAM = (245, 234, 210, 255)
+GOLD = (228, 196, 108, 255)          # #E4C46C — kintsugi / channel gold
+SHADOW = (0, 0, 0, 130)              # soft shadow for legibility over bright morning bg
 
 KANJI_FONT = "/usr/share/fonts/opentype/ipafont-mincho/ipam.ttf"
 SERIF_BOLD = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf"
 
-X = 120                       # left column start (over the calm left third)
-KANJI = ("上善若水", 150, 360)
-ROMAJI = ("Jōzen wa mizu no gotoshi", 60, 552)
-GLOSS = ("The highest good is like water", 44, 636)
+X = 120                       # left column start
+KANJI = ("上善若水", 150, 548)        # lowered from 360
+ROMAJI = ("Jōzen wa mizu no gotoshi", 60, 742)
+GLOSS = ("The highest good is like water", 44, 828)
 
 
 def track(d, xy, text, font, spacing=2):
     x, y = xy
     for ch in text:
-        d.text((x, y), ch, font=font, fill=CREAM)
+        d.text((x + 3, y + 3), ch, font=font, fill=SHADOW)
+        d.text((x, y), ch, font=font, fill=GOLD)
         x += d.textlength(ch, font=font) + spacing
 
 
