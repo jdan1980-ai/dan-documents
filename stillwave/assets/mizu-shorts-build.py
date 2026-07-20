@@ -34,7 +34,7 @@ XFADE = 0.6
 
 KANJI_FONT = "/usr/share/fonts/opentype/ipafont-mincho/ipam.ttf"
 SERIF_BOLD = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
-GOLD = (228, 196, 108, 255)          # #E4C46C
+WHITE = (255, 255, 255, 255)         # white titles
 SHADOW = (0, 0, 0, 210)
 
 # (file, duration, kind, payload)
@@ -55,7 +55,7 @@ def _font(path, size):
     return ImageFont.truetype(path, size)
 
 
-def _center(draw, y, text, font, fill=GOLD, spacing=2, shadow=True):
+def _center(draw, y, text, font, fill=WHITE, spacing=2, shadow=True):
     total = draw.textlength(text, font=font) + spacing * (len(text) - 1)
     x = (W - total) / 2
     for ch in text:
@@ -101,11 +101,19 @@ def build(audio):
 
     inputs, filters = [], []
     n = len(STORY)
+    SS = 4  # supersample factor — kills zoompan integer-rounding jitter
     for i, (frame, dur, _, _) in enumerate(STORY):
+        fr = int((dur + XFADE) * FPS)
+        # alternate smooth centered zoom: in, out, in, out... NO pan, NO jitter
+        if i % 2 == 0:
+            zexpr = f"min(1.10,1.0+0.10*on/{fr})"       # slow zoom IN
+        else:
+            zexpr = f"max(1.0,1.10-0.10*on/{fr})"        # slow zoom OUT
         inputs += ["-loop", "1", "-t", str(dur + XFADE), "-i", str(HERE / frame)]
         filters.append(
-            f"[{i}:v]scale={W}:{H}:force_original_aspect_ratio=increase,"
-            f"crop={W}:{H},zoompan=z='min(zoom+0.0004,1.12)':d={int((dur+XFADE)*FPS)}"
+            f"[{i}:v]scale={W*SS}:{H*SS}:force_original_aspect_ratio=increase,"
+            f"crop={W*SS}:{H*SS},"
+            f"zoompan=z='{zexpr}':d={fr}"
             f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={W}x{H}:fps={FPS},"
             f"format=yuv420p[v{i}]")
 
