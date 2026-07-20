@@ -277,11 +277,24 @@ Image: the long-form thumbnail.
 
 > **AS-BUILT (2026-07-20):** Short assembled by `stillwave/assets/mizu-shorts-build.py` → `mizu-shorts-44s.mp4` (44s, 6 frames, WHITE titles top, jitter-free centered Ken Burns in/out, no badge, silent). Frames fr1 macro-pour → fr2 koi pond → fr3 rock garden → fr4 水 MIZU kanji → fr5 mossy basin → fr6 autumn temple. On upload: Related video → long-form, StillWave Shorts playlist, pin the comment below.
 
-- **Concept/Hook (0–2s):** close-up of the water thread hitting the basin — *"This sound has calmed Japan for 400 years"*
-- **Visual:** §3b vertical + Flow loop (stream + ripples only, camera locked, 20–30s)
-- **Text overlays (gold, TOP — proven WABI SABI layout):** `This sound has calmed Japan for 400 years` → `水 MIZU — water` → `Full 2-hour session on the channel`
-- **Title:** `The Water Sound Japan Uses to Calm the Mind 🌿 #shorts` (≤60 ✅)
-- **Description:** `MIZU (水) — the tsukubai water basin of Japanese tea gardens. Full 2-hour zen session on the channel 🌿 [link]`
-- **Tags:** `water sounds, zen garden, japanese garden, mizu, zen music, meditation, relaxing sounds, tsukubai, calming sounds, stillwave`
+### Competitor-informed corrections (2026-07-20)
+
+Serene Bamboo Meditation (89K) wins on the tokens `Shakuhachi` + `Bamboo Water Fountain`, promises water in the title but has NO water audio, and does almost NO Shorts. So the Short: (1) bakes the proven token into the title, (2) leads with REAL water audio (our edge), (3) tags into their "asian" cluster, (4) exploits an uncontested Shorts lane.
+
+- **🔊 Audio hook (KEY edge):** open the first ~1s on WATER ALONE (macro-pour frame fr1), then the music enters. Water at **−12/−14 dB** through the Short — clearly audible (competitor's title promises water and delivers none; we deliver). Fade in 1s / out 2s.
+- **Title:** `The Japanese Bamboo Water Fountain That Calms the Mind 🎋 #shorts` (proven token `bamboo water fountain` + honest hook, ≤60)
+  - A/B: `The Water Sound Japan Uses to Calm the Mind 🌿 #shorts`
+- **Description:**
+  ```
+  MIZU (水) — a real Japanese bamboo water fountain (tsukubai) in a morning garden. Shakuhachi zen music with the actual sound of water.
+
+  Full 2-hour session on the channel 🌿
+  ▶ [long-form link]
+
+  #shorts #bamboofountain #shakuhachi #zengarden #watersounds #asianmusic
+  ```
+- **Tags:** `bamboo water fountain, shakuhachi meditation, water sounds, zen garden, japanese garden, asian relaxing music, mizu, zen music, meditation, tsukubai, nature sounds, stillwave`
+- **Text overlays (WHITE, TOP — as-built v2):** fr1 `This sound has calmed / Japan for centuries` → fr2 `The tsukubai — / a garden water basin` → fr3 `Water never argues / with the stone` → fr4 `水 MIZU / water` → fr5 `Be like water — / soft, unstoppable` → fr6 `2 hours of garden calm / on the channel`
 - **Pinned:** `🌀 MIZU — water never argues with the stone. The full 2-hour session is on the channel 🌿`
 - **Upload:** Related video → long-form · Playlist **StillWave Shorts — Japanese Zen & Frequencies** · Not for kids · Scheduled, day after the long-form.
+- **Strategy note:** the top water-garden competitor does long-form only — Shorts in this exact niche are an uncontested funnel. Lean into more water Shorts.
