@@ -270,6 +270,8 @@ Image: the long-form thumbnail.
 
 ## §14 — Shorts (cross-promo package)
 
+> **AS-BUILT (2026-07-20):** Short assembled by `stillwave/assets/mizu-shorts-build.py` → `mizu-shorts-44s.mp4` (44s, 6 frames, WHITE titles top, jitter-free centered Ken Burns in/out, no badge, silent). Frames fr1 macro-pour → fr2 koi pond → fr3 rock garden → fr4 水 MIZU kanji → fr5 mossy basin → fr6 autumn temple. On upload: Related video → long-form, StillWave Shorts playlist, pin the comment below.
+
 - **Concept/Hook (0–2s):** close-up of the water thread hitting the basin — *"This sound has calmed Japan for 400 years"*
 - **Visual:** §3b vertical + Flow loop (stream + ripples only, camera locked, 20–30s)
 - **Text overlays (gold, TOP — proven WABI SABI layout):** `This sound has calmed Japan for 400 years` → `水 MIZU — water` → `Full 2-hour session on the channel`
