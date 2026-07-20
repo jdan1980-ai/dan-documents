@@ -103,8 +103,9 @@ LYRICS:
 ### 💧 Water-sound bed (NEW — assembled in CapCut)
 
 - Source: royalty-free/CC0 "small stone fountain / water trickle" loop 1–2 min (Pixabay SFX / freesound), gentle THIN stream — not a river, not a waterfall, no birds.
-- CapCut: own audio track, loop the clip across the full 2H, volume **~−20 dB relative to music** (music clearly in front, water = texture you notice only when you listen for it), 2s fade-in at 0:00, fade-out with the last track.
-- QA: listen at 3 random points on phone speaker — water must never mask the flute.
+- CapCut: own audio track, loop the clip across the full 2H, volume **~−16 to −18 dB relative to music**, 2s fade-in at 0:00, fade-out with the last track.
+- **🆕 Water is a DIFFERENTIATOR (2026-07-20):** the biggest competitor (Serene Bamboo Meditation, 89K) titles videos "Bamboo Water Fountain Zen" but has NO actual water audio. MIZU delivers on the title promise — so keep the water **clearly perceptible** (not subliminal): a listener should notice the fountain within the first 10 seconds. That's why −16/−18 dB, not −20.
+- QA: listen at 3 random points on phone speaker — water must be clearly audible but NEVER mask the flute.
 
 ---
 
