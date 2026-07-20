@@ -2,13 +2,13 @@
 """
 MIZU — 水 | long-form thumbnail compose (1280x720).
 
-Layout (same as WABI SABI / IKIGAI):
-  - 水 kanji — UPPER-LEFT corner
+Layout (user brief 2026-07-20, macro bamboo-fountain image):
+  - 水 kanji — UPPER-CENTER, just below the bamboo spout
   - MIZU romaji — LOWER-LEFT corner
-  - soft darkening behind BOTH corners so text pops on the bright koi-pond image
-  - lower-right kept clear for the logo
+  - soft darkening behind BOTH text zones so they pop
+  - lower-right (basin) kept clearer for the logo
 
-Source: mizu-2h-source.jpg (koi pond, bamboo spout, morning light)
+Source: mizu-2h-source.jpg (bamboo spout pouring onto mossy stone basin)
 Output: mizu-2h-thumb.jpg (1280x720, JPEG q92)
 """
 
@@ -21,20 +21,20 @@ OUT = HERE / "mizu-2h-thumb.jpg"
 
 W, H = 1280, 720
 CREAM = (247, 241, 228)
-SHADOW = (0, 0, 0, 170)
+SHADOW = (0, 0, 0, 175)
 
 KANJI_FONT = "/usr/share/fonts/opentype/ipafont-mincho/ipam.ttf"
 ROMAJI_FONT = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 
 KANJI = "水"
-KANJI_SIZE = 260
-KANJI_X = 60
-KANJI_Y = 40
+KANJI_SIZE = 250
+KANJI_CX = 640          # centered horizontally
+KANJI_Y = 178           # just below the bamboo spout
 
 ROMAJI = "MIZU"
-ROMAJI_SIZE = 118
-ROMAJI_X = 60
-ROMAJI_Y = 556
+ROMAJI_SIZE = 116
+ROMAJI_X = 58
+ROMAJI_Y = 594          # lower-left corner
 ROMAJI_SPACING = 12
 
 
@@ -51,15 +51,23 @@ def fit_cover(img):
 
 
 def darken(bg):
-    """Soft darkening behind the upper-left and lower-left text corners."""
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
-    # upper-left (behind 水)
-    d.ellipse((-260, -220, 470, 430), fill=(0, 0, 0, 140))
+    # upper-center (behind 水)
+    d.ellipse((KANJI_CX - 340, 60, KANJI_CX + 340, 540), fill=(0, 0, 0, 120))
     # lower-left (behind MIZU)
-    d.ellipse((-320, 470, 620, 940), fill=(0, 0, 0, 140))
+    d.ellipse((-340, 500, 560, 940), fill=(0, 0, 0, 140))
     layer = layer.filter(ImageFilter.GaussianBlur(75))
     return Image.alpha_composite(bg.convert("RGBA"), layer).convert("RGB")
+
+
+def draw_center(d, cx, y, text, font, spacing):
+    total = d.textlength(text, font=font) + spacing * (len(text) - 1)
+    x = cx - total / 2
+    for ch in text:
+        d.text((x + 4, y + 4), ch, font=font, fill=SHADOW)
+        d.text((x, y), ch, font=font, fill=CREAM)
+        x += d.textlength(ch, font=font) + spacing
 
 
 def draw_left(d, x, y, text, font, spacing):
@@ -77,7 +85,7 @@ def main():
     bg = darken(bg)
 
     d = ImageDraw.Draw(bg)
-    draw_left(d, KANJI_X, KANJI_Y, KANJI, ImageFont.truetype(KANJI_FONT, KANJI_SIZE), 0)
+    draw_center(d, KANJI_CX, KANJI_Y, KANJI, ImageFont.truetype(KANJI_FONT, KANJI_SIZE), 0)
     draw_left(d, ROMAJI_X, ROMAJI_Y, ROMAJI, ImageFont.truetype(ROMAJI_FONT, ROMAJI_SIZE), ROMAJI_SPACING)
 
     bg.save(OUT, "JPEG", quality=92, optimize=True, progressive=True)
