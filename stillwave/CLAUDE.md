@@ -32,24 +32,28 @@ Channel-level signals tell the YouTube algorithm what the channel is about. With
 
 ### 1. Channel Keywords (Studio → Settings → Channel → Basic info → Keywords)
 
-Locked set (updated 2026-06-17 after audience demographic teardown — 55+ Asian-heavy audience, Japan #1 region 10%, KR 5%, Taiwan 3.3%). **498/500 chars — maxed out:**
+Locked set (**updated 2026-07-20** after a full VidIQ analytics teardown — see below. The old 2026-06-17 set assumed a 55+ Asian-heavy, Japan-#1 audience; the MUSHIN breakout FLIPPED the real audience to **~84% male, core 25–54, US #1, Brazil #2, strong LATAM (Mexico, Argentina, Spain), Japan fell to #6**. Keywords realigned accordingly.) **458/500 chars:**
 
 ```
-zen music, japanese zen music, japanese ambient music, meditation music, focus music, sleep music, healing music, ambient music, relaxing music, background music, japanese meditation music, shakuhachi music, mindfulness music, zen meditation music, calming music, slow living music, gentle music, peaceful music, deep relaxation, mature meditation, 作業用BGM, 勉強BGM, 集中BGM, 瞑想BGM, 睡眠BGM, 禅音樂, 冥想音樂, 공부 BGM, 명상 음악, музыка для медитации, música para meditar, stillwave, 수면 음악, музыка для сна, música zen
+zen music, japanese zen music, meditation music, focus music, sleep music, relaxing music, ambient music, healing music, study music, deep focus music, deep work music, concentration music, focus music for coding, calming music, background music, nature sounds, spa music, música para meditar, música para dormir, música relajante, música relaxante, música zen, música para estudar, música para concentrarse, 作業用BGM, 睡眠BGM, 瞑想BGM, shakuhachi music, stillwave
 ```
 
-**Tier breakdown (35 keywords, 498 chars):**
-- 🇬🇧 Core English (20) — broad zen / meditation / focus / sleep / ambient
-- 🇯🇵 Japanese (5) — JP is top region 10%: `作業用BGM`, `勉強BGM`, `集中BGM`, `瞑想BGM`, `睡眠BGM`
-- 🇨🇳 Chinese Traditional (2) — Taiwan 3.3% + HK + diaspora: `禅音樂`, `冥想音樂`
-- 🇰🇷 Korean (3) — KR 5%: `공부 BGM`, `명상 음악`, `수면 음악`
-- 🇷🇺 Russian (2) — `музыка для медитации`, `музыка для сна`
-- 🇪🇸 Spanish (2) — `música para meditar`, `música zen`
+**Tier breakdown (29 keywords, 458 chars):**
+- 🇬🇧 Core English broad (11) — the backbone: `zen music`, `japanese zen music`, `meditation music`, `focus music`, `sleep music`, `relaxing music`, `ambient music`, `healing music`, `study music`, `calming music`, `background music`
+- 💻 Deep-work / focus angle (5) — for the 25–54 male core: `deep focus music`, `deep work music`, `concentration music`, `focus music for coding`, `study music`
+- 🌊 Adjacent broad (2) — `nature sounds`, `spa music` (open the water/nature + spa clusters, softer competition)
+- 🇧🇷 Portuguese (Brazil #2 + shared with ES) — `música para meditar`, `música para dormir`, `música relaxante`, `música para estudar`
+- 🇪🇸 Spanish (Mexico + Argentina + Spain) — `música relajante`, `música zen`, `música para concentrarse` (+ `música para meditar` / `música para dormir` are identical spelling in PT & ES = double coverage)
+- 🇯🇵 Japanese (3) — Japan still top-6: `作業用BGM`, `睡眠BGM`, `瞑想BGM`
 - 🏷️ Brand (1) — `stillwave`
 
-**Removed in 2026-06-17 update** (low value for our actual 55+ audience):
-- ~~`pomodoro music`~~, ~~`study with me`~~, ~~`study timer`~~, ~~`lofi pomodoro`~~, ~~`work music`~~ — target younger work-from-home crowd; our audience is 55+ meditation/sleep seekers
-- ~~`deep focus music`~~ — overlap with `focus music`
+**Removed in 2026-07-20 update** (misaligned with the real post-MUSHIN audience):
+- ~~`mature meditation`~~, ~~`slow living music`~~, ~~`deep relaxation`~~, ~~`gentle music`~~, ~~`peaceful music`~~ — coded for the old 55+ hypothesis; core is now 25–54 male
+- ~~`공부 BGM`~~, ~~`명상 음악`~~, ~~`수면 음악`~~ (Korean), ~~`禅音樂`~~, ~~`冥想音樂`~~ (Chinese) — KR/TW share shrank; freed the chars for PT/ES which now map to a far bigger slice (Brazil #2, Mexico, Argentina, Spain)
+- ~~`музыка для медитации`~~, ~~`музыка для сна`~~ (Russian) — negligible RU traffic
+- ~~`japanese ambient music`~~, ~~`japanese meditation music`~~, ~~`zen meditation music`~~, ~~`mindfulness music`~~ — redundant with `japanese zen music` / `meditation music`, low marginal value vs the PT/ES additions
+
+> **Data basis (VidIQ, window 2026-06-18 → 07-17):** Geography US 3061 / BR 1341 / TH 788 / MX 701 / VN 539 / JP 538. Demographics ~84% male, peaks 35–44 M (26.9%), 45–54 M (20%), 25–34 M (19.4%). Traffic 58.5% browse + 27.7% suggested, **search only 0.6%** (so these keywords are a minor signal — packaging/thumbnail/suggested-linking matter far more; still worth getting right, cost is zero).
 
 ### 2. Channel Description (Studio → Settings → Channel → About → Description)
 
