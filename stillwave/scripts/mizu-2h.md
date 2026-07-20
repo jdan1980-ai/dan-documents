@@ -2,7 +2,7 @@
 
 ## Meta
 
-- **Title:** MIZU — 水 | Japanese Zen Music & Water Garden Sounds for Deep Calm & Sleep
+- **Title:** MIZU — 水 | Japanese Zen Music, Shakuhachi & Bamboo Water Fountain for Deep Calm (updated 2026-07-20 to match the proven Serene-Bamboo-Meditation formula — `Shakuhachi` + `Bamboo Water Fountain` are the tokens on both their 80–90K mega-hits; `Music` still lands by char ~20 for topic categorization)
 - **Slug:** `mizu-2h`
 - **Format:** Long-form (Kanji-Concept Series)
 - **Length:** 2:00:09 — FINAL (36 mastered tracks; 43 generated, 7 dropped as loudest/peakiest to keep the calmest set, per user call 2026-07-19). Conscious 9-sec overage past the 2H cap — reads as an even "2 hours" on YouTube.
@@ -225,8 +225,10 @@ Subscribe for more Japanese ambient meditation journeys 🌿
 ## §9 — Tags (Hikari formula — verify scores in VidIQ before upload)
 
 ```
-stillwave, water sounds, nature sounds, zen music, japanese zen music, meditation music, sleep music, relaxing music, calming music, spa music, healing music, ambient music, background music, shakuhachi flute music, koto music, flute music, mizu, japanese water garden, zen garden, water fountain sounds, zen meditation music, japanese meditation music, mindfulness music, peaceful ambiance, serene ambience, evening relaxation, japanese zen garden at dusk with tsukubai stone water basin bamboo fountain and stone lantern, joe hisaishi
+stillwave, japanese zen music, shakuhachi meditation, bamboo water fountain zen, asian relaxing music, relaxing asian music, water sounds, nature sounds, zen music, meditation music, sleep music, relaxing music, spa music, healing music, background music, shakuhachi flute music, koto music, mizu, japanese water garden, zen garden, water fountain sounds, japanese meditation music, peaceful water sounds, japanese zen garden with tsukubai stone water basin bamboo fountain and koi pond, joe hisaishi
 ```
+
+> **Tag note (2026-07-20):** front-loaded the proven competitor tokens `shakuhachi meditation` + `bamboo water fountain zen` (from Serene Bamboo Meditation's 80–90K hits) and added the wider-tent `asian relaxing music` / `relaxing asian music`. Verify top-tag VidIQ scores before upload; total stays under 450 chars.
 
 No hashtags in title or description body (Kanji-Concept lock).
 
