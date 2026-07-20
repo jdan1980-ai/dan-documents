@@ -603,6 +603,10 @@ Add to Suno Prompt B (Lyrics field) explicit `[opening: ...]` line per variant. 
 
 **Why mandatory:** Content ID claims on a published video are slow to resolve from Studio (Erase/Mute work but leave 33+ sec gaps). Preventing the claim at generation time is 100× cheaper than fixing post-upload. Always vary openings.
 
+**Real-world tracking (as of 2026-07-20):** ~3 Content ID claims across past videos so far. Resolution used: **Trim out the matched segment** (a few seconds each) via Studio → Editor → "Trim out" — low-impact for ambient, the gap is inaudible in a 2-hour laydown. This is the pragmatic go-to fix.
+- **Alternative = Dispute.** Our music is genuinely ours (Suno v5.5, we hold the rights), so a dispute with "I own the rights / original content" is legitimate — but slower and the claimant can reject, so for a small channel trimming a few seconds is usually faster/safer. Trim when it's a short match; dispute only if the match is long or repeated.
+- **🆕 Water/nature-bed videos (MIZU onward) — extra Content ID vector:** the ambient SFX bed (water fountain, rain, etc.) must be **CC0 / royalty-free** (Pixabay, freesound CC0). A rogue SFX clip can trigger a claim even when the Suno music is clean. Verify the SFX license BEFORE laying it under the album.
+
 ---
 
 ## 📝 Title format (3-phase evolution)
