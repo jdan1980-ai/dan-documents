@@ -129,8 +129,19 @@ Before any new upload goes live, confirm:
 - [ ] **First publish = Scheduled or Unlisted, never Public-direct** (Karena #4)
 - [ ] **Description format matches series spec** (Kanji-Concept = Hikari-style; Power Hour = bullet-list OK)
 - [ ] **Wisdom overlay written** — §6a in the script has kanji / romaji / English gloss and CapCut placement. Skip ONLY for Pomodoro timer videos (timer overlay is the signature there).
+- [ ] **Mid-roll ads minimized** — mid-rolls OFF (or 1–2 near the very end only), never YouTube's auto-density (per Low-ad rule below).
 
 48h after publish: verify Topic Categories via VidIQ API or VidIQ Chrome extension. If wrong → rename title immediately.
+
+### 🔕 Low-ad rule — minimize mid-rolls on EVERY long-form (LOCKED 2026-07-20)
+
+**Turn mid-roll ads OFF (or keep only 1–2 near the very end) on every long-form upload.** Never accept YouTube's automatic mid-roll density.
+
+**Why:** we make sleep / meditation / focus music. A mid-roll ad in the middle of a 2-hour ambient track wakes the sleeping listener and shatters the calm — the exact opposite of the product. It directly hurts retention (our weakest metric, especially in the first minutes) and provokes negative comments. Lesson: MUSHIN got a public complaint — *"Too much ads for a calm and focusing music"* (2026-07-20). For a channel this size, watch-time + retention + goodwill are worth far more than the pennies from mid-rolls. The tiny pre-roll/post-roll is enough.
+
+**Where:** YouTube Studio → Content → [video] → Monetization → **Ads** tab → uncheck **Mid-roll** (or open **Manage mid-rolls** and delete the auto-placed breaks, leaving at most 1–2 in the final minutes). Do this on new uploads AND retro-fit older long-forms when convenient.
+
+**Note:** the creator does NOT manually insert these ads — YouTube auto-places them via monetization — but the creator fully controls their frequency here. "Not my ads" is only half true; density is ours to set, so we set it low.
 
 ---
 
