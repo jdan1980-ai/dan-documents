@@ -133,15 +133,13 @@ Before any new upload goes live, confirm:
 
 48h after publish: verify Topic Categories via VidIQ API or VidIQ Chrome extension. If wrong → rename title immediately.
 
-### 🔕 Low-ad rule — minimize mid-rolls on EVERY long-form (LOCKED 2026-07-20)
+### 🔕 Low-ad rule — minimize mid-rolls (applies ONLY once monetized)
 
-**Turn mid-roll ads OFF (or keep only 1–2 near the very end) on every long-form upload.** Never accept YouTube's automatic mid-roll density.
+**⚠️ Status 2026-07-20: the channel is NOT in the YouTube Partner Program yet.** Video detail pages have NO "Monetization" tab (confirmed on MUSHIN — menu shows only Сведения / Аналитика / Редактор / Комментарии / Языки / Заявки / Клипы, no 💲). This means:
+- We do **NOT** control ads at all right now. Any ads a viewer sees are placed by **YouTube itself** on non-monetized videos — we earn nothing and cannot switch them off.
+- When a viewer complains about ads (e.g. MUSHIN got *"Too much ads for a calm and focusing music"*), the honest reply is: the ads are YouTube's, not ours; the only way to remove them is YouTube Premium. Do NOT go hunting for an ad-break setting — there isn't one until we're monetized.
 
-**Why:** we make sleep / meditation / focus music. A mid-roll ad in the middle of a 2-hour ambient track wakes the sleeping listener and shatters the calm — the exact opposite of the product. It directly hurts retention (our weakest metric, especially in the first minutes) and provokes negative comments. Lesson: MUSHIN got a public complaint — *"Too much ads for a calm and focusing music"* (2026-07-20). For a channel this size, watch-time + retention + goodwill are worth far more than the pennies from mid-rolls. The tiny pre-roll/post-roll is enough.
-
-**Where:** YouTube Studio → Content → [video] → Monetization → **Ads** tab → uncheck **Mid-roll** (or open **Manage mid-rolls** and delete the auto-placed breaks, leaving at most 1–2 in the final minutes). Do this on new uploads AND retro-fit older long-forms when convenient.
-
-**Note:** the creator does NOT manually insert these ads — YouTube auto-places them via monetization — but the creator fully controls their frequency here. "Not my ads" is only half true; density is ours to set, so we set it low.
+**Once the channel IS accepted into YPP, THEN apply this rule to every long-form:** turn mid-roll ads OFF (or keep only 1–2 near the very end); never accept YouTube's automatic mid-roll density. Rationale: a mid-roll in the middle of a 2-hour ambient/sleep track wakes the listener and shatters the calm — it hurts retention (our weakest metric) and goodwill far more than the pennies earned. Simplest path once available: Settings → Upload defaults → Monetization → uncheck **During video**, so every new upload defaults to no mid-rolls. Then retro-fit older long-forms via each video's Monetization → Ad types.
 
 ---
 
