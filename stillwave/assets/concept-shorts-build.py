@@ -41,6 +41,14 @@ CONFIGS = {
         ("wabi-sabi-shorts-fr7.jpg", 6.0, "lines", (["Nothing is perfect.", "And that is beautiful."], 160, 76)),
         ("wabi-sabi-shorts-fr5.jpg", 6.0, "lines", (["Full 2-hour session", "on the channel"], 160, 78)),
     ],
+    "zanshin": [
+        ("zanshin-shorts-fr1.jpg", 6.5, "lines", (["What calm does a samurai", "keep after the strike?"], 150, 74)),
+        ("zanshin-shorts-fr2.jpg", 6.5, "kanji", ("残心", "ZANSHIN")),
+        ("zanshin-shorts-fr3.jpg", 6.5, "lines", (["The awareness that stays", "after the moment passes"], 155, 72)),
+        ("zanshin-shorts-fr4.jpg", 6.5, "lines", (["Guard never dropped.", "Breath still even."], 155, 76)),
+        ("zanshin-shorts-fr5.jpg", 6.5, "lines", (["Off the mat —", "steady after a hard day"], 155, 74)),
+        ("zanshin-shorts-fr6.jpg", 6.5, "lines", (["Full 2-hour session", "on the channel"], 155, 76)),
+    ],
     "mizu": [
         ("mizu-shorts-fr1.jpg", 6.0, "lines", (["What does WATER mean", "to the Japanese?"], 160, 78)),
         ("mizu-shorts-fr4.jpg", 6.0, "kanji", ("水", "MIZU — water")),
@@ -95,7 +103,7 @@ def make_overlays(story, work):
 def build(slug):
     story = CONFIGS[slug]
     work = HERE / f"{slug}-concept-work"
-    out = HERE / f"{slug}-concept-short-42s.mp4"
+    out = HERE / f"{slug}-concept-short-{int(round(sum(d for _, d, _, _ in CONFIGS[slug])))}s.mp4"
     total = sum(d for _, d, _, _ in story)
 
     missing = [f for f, *_ in story if not (HERE / f).exists()]
