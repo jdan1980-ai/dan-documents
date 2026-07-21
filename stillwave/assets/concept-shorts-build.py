@@ -18,7 +18,7 @@ import sys
 import subprocess
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 HERE = Path(__file__).parent
 W, H = 1080, 1920
@@ -27,7 +27,9 @@ XFADE = 0.6
 
 KANJI_FONT = "/usr/share/fonts/opentype/ipafont-mincho/ipam.ttf"
 SERIF_BOLD = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
+BRUSH_FONT = str(HERE / "fonts" / "YujiBoku-Regular.ttf")   # Japanese brush calligraphy
 WHITE = (255, 255, 255, 255)
+GOLD = (228, 196, 108, 255)
 SHADOW = (0, 0, 0, 210)
 
 # payload for "lines": (list_of_lines, y0, size) ; for "kanji": (kanji, romaji)
@@ -42,11 +44,11 @@ CONFIGS = {
         ("wabi-sabi-shorts-fr5.jpg", 6.0, "lines", (["Full 2-hour session", "on the channel"], 160, 78)),
     ],
     "zanshin": [
-        ("zanshin-shorts-fr1.jpg", 6.5, "lines", (["What calm does a samurai", "keep after the strike?"], 150, 74)),
-        ("zanshin-shorts-fr2.jpg", 6.5, "kanji", ("残心", "ZANSHIN")),
-        ("zanshin-shorts-fr3.jpg", 6.5, "lines", (["The awareness that stays", "after the moment passes"], 155, 72)),
-        ("zanshin-shorts-fr4.jpg", 6.5, "lines", (["Guard never dropped.", "Breath still even."], 155, 76)),
-        ("zanshin-shorts-fr5.jpg", 6.5, "lines", (["Off the mat —", "steady after a hard day"], 155, 74)),
+        ("zanshin-shorts-fr3.jpg", 6.5, "lines", (["What calm does a samurai", "keep after the strike?"], 150, 74)),
+        ("zanshin-shorts-fr1.jpg", 7.5, "kanji", ("残心", "ZANSHIN")),   # calligraphy reveal on the dramatic tiger mural
+        ("zanshin-shorts-fr4.jpg", 6.5, "lines", (["The awareness that stays", "after the moment passes"], 155, 72)),
+        ("zanshin-shorts-fr5.jpg", 6.5, "lines", (["Guard never dropped.", "Breath still even."], 155, 76)),
+        ("zanshin-shorts-fr2.jpg", 6.5, "lines", (["Off the mat —", "steady after a hard day"], 155, 74)),
         ("zanshin-shorts-fr6.jpg", 6.5, "lines", (["Full 2-hour session", "on the channel"], 155, 76)),
     ],
     "mizu": [
@@ -65,12 +67,12 @@ def _font(path, size):
     return ImageFont.truetype(path, size)
 
 
-def _center(draw, y, text, font, spacing=2):
+def _center(draw, y, text, font, spacing=2, fill=WHITE):
     total = draw.textlength(text, font=font) + spacing * (len(text) - 1)
     x = (W - total) / 2
     for ch in text:
         draw.text((x + 3, y + 3), ch, font=font, fill=SHADOW)
-        draw.text((x, y), ch, font=font, fill=WHITE)
+        draw.text((x, y), ch, font=font, fill=fill)
         x += draw.textlength(ch, font=font) + spacing
 
 
@@ -83,9 +85,15 @@ def make_overlays(story, work):
         d = ImageDraw.Draw(img)
         if kind == "kanji":
             kanji, romaji = payload
-            ksize = 300 if len(kanji) == 1 else 250
-            _center(d, 150, kanji, _font(KANJI_FONT, ksize), spacing=24)
-            _center(d, 150 + ksize + 40, romaji, _font(SERIF_BOLD, 84), spacing=8)
+            # soft dark backing so the brush calligraphy reads over a busy mural
+            back = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+            ImageDraw.Draw(back).ellipse((W / 2 - 440, 340, W / 2 + 440, 1120), fill=(0, 0, 0, 150))
+            img.alpha_composite(back.filter(ImageFilter.GaussianBlur(70)))
+            d = ImageDraw.Draw(img)
+            # brush calligraphy — 残心 (white ink) + ZANSHIN (gold ink)
+            ksize = 320 if len(kanji) == 1 else 260
+            _center(d, 470, kanji, _font(BRUSH_FONT, ksize), spacing=18)
+            _center(d, 470 + ksize + 60, romaji, _font(BRUSH_FONT, 118), spacing=6, fill=GOLD)
         else:
             lines, y0, size = payload
             f = _font(SERIF_BOLD, size)
