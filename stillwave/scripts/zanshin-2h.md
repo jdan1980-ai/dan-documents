@@ -5,10 +5,10 @@
 - **Title:** ZANSHIN — 残心 | Japanese Zen Music for Calm Awareness, Steady Nerves & Quiet Resilience
 - **Slug:** `zanshin-2h`
 - **Format:** Long-form (Kanji-Concept Series)
-- **Length:** target ≤ 2:00:00 (~36 mastered tracks; generate ~40, trim; interleave openings)
+- **Length:** ≈ 1:59:45 — FINAL (33 mastered tracks; 39 generated, 6 dropped as loudest/peakiest to keep the calmest set, per the MIZU lesson). Under the 2H cap.
 - **Aesthetic:** Photoreal cinematic — a lone samurai (OR kendoka) standing in composed stillness in a misty dawn dojo / garden, back to camera, swords sheathed. The mood is *after the moment has passed* — calm, watchful, unshaken. One warm sunrise light beam.
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Status:** 🚧 IN PRODUCTION (package created 2026-07-21)
+- **Status:** 🚧 IN PRODUCTION — audio DONE (33 tracks mastered + named, ≈1:59:45), overlay DONE, Short DONE, thumbnail source picked. Pending: build long-form in CapCut (Flow tiger loop + wisdom overlay), thumbnail compose, upload.
 - **Concept note:** ZANSHIN (残心) = "the remaining/lingering mind." In budō (kendo, kyūdō, aikidō) it is the state of relaxed, total awareness that continues *after* the strike, the arrow, the throw — you do not drop your guard, you stay present and steady. Reframed for StillWave (per user brief, 2026-07-21): **NOT a "high-stress performance tool," but music for quiet resilience — staying inwardly still when the pressure already exists.** Not the music that makes you work under pressure; the music that helps you keep your inner quiet while it's happening.
   - **🇷🇺** ZANSHIN (残心) — «остающийся ум». В будо (кендо, кюдо, айкидо) это состояние расслабленного, полного внимания, которое сохраняется *после* удара, выстрела, броска — ты не опускаешь защиту, остаёшься собранным и устойчивым. Для StillWave переосмыслено: это **НЕ «инструмент для работы под стрессом», а музыка тихой устойчивости — как сохранить внутреннюю тишину, когда давление уже есть.** Не музыка, которая заставляет работать под давлением, а та, что помогает удержать внутренний покой, пока оно длится.
 
@@ -304,7 +304,39 @@ steady, watchful, unshaken.
 Dawn light falls through the dojo. A lone figure stands still, the moment already behind him, guard never dropped, breath slow and even. A warm drone holds like held breath; a distant flute, a few calm koto notes, and once in a long while a soft low pulse — felt more than heard. Not music to push through pressure, but music to keep your inner quiet while it passes.
 
 Tracklist:
-[added after mastering — mood-poetic names, arc from unease to steadiness, no Hz, no technical terms; naming pool: "The Moment After", "Guard Never Dropped", "Even Breath", "Standing Still at Dawn", "The Mind That Remains", "Nothing Shakes the Water", "Steady in the Storm's Eye", "After the Strike", "Composed", "The Long Exhale"]
+0:00 The Moment After
+3:18 Guard Never Dropped
+7:18 Even Breath
+11:17 Standing Still at Dawn
+15:05 The Mind That Remains
+19:05 Nothing Shakes the Water
+22:29 Steady in the Storm's Eye
+25:43 After the Strike
+30:37 The Long Exhale
+34:52 Composed
+38:37 Held in Stillness
+42:13 The Weight Set Down
+45:31 Quiet Under Pressure
+48:41 Watchful and Calm
+51:58 The Slow Return
+55:23 Ground Beneath the Noise
+58:32 One Breath, Then Another
+1:01:51 The Room Grows Quiet
+1:05:21 Unmoved
+1:09:03 The Tiger Rests
+1:12:31 Dust in the Light
+1:16:06 Settling of the Mind
+1:20:06 Still Water at Dusk
+1:23:55 The Ache Softens
+1:27:15 Nothing Left to Prove
+1:31:13 The Shoulders Lower
+1:34:37 A Calm That Holds
+1:39:07 The Day Lets Go
+1:42:35 Rooted
+1:46:06 The Last Tension Leaves
+1:49:11 Clear After the Rain
+1:52:15 Home to the Breath
+1:56:15 Stillness Remains
 
 🌀 Let the moment pass. Keep the quiet.
 🍃 Stay steady. Stay present. Then the next breath.
