@@ -217,6 +217,44 @@ Photorealistic cinematic vertical still, a lone samurai standing in composed sti
 
 ---
 
+## §3c — Shorts image set (9:16 — 6 frames for the teaser / concept Short)
+
+The Short is built from a sequence of vertical stills (Ken Burns + white titles, via `concept-shorts-build.py` / `<slug>-shorts-build.py`). Generate all 6 in NanoBanana 9:16. Same locked rules: sword count (exactly 2 sheathed daishō, no drawn blade, hands empty), NO airborne particles, no in-image text, keep the bottom-right corner calm/dark for the logo. Save as `zanshin-shorts-fr1.jpg … fr6.jpg`.
+
+**🇷🇉** Набор из 6 вертикальных кадров, из которых собирается Short (наезд/титры). Сгенерируй все 6 в NanoBanana 9:16. Правила те же: ровно 2 меча в ножнах (ни одного вынутого, руки пустые), без летящих частиц, без текста на картинке, правый нижний угол тёмный под лого. Сохрани как `zanshin-shorts-fr1.jpg … fr6.jpg`. Кадр 4 — «пустой» под иероглиф 残心.
+
+**Frame 1 — HOOK (wide):**
+```
+Photorealistic cinematic vertical still, a lone samurai standing in perfect composed stillness in a misty dojo at dawn, seen from behind, back to camera, face never visible, in the lower third of the frame. EXACTLY TWO swords — a katana and a shorter wakizashi (the daishō pair) — both fully sheathed in the obi at his LEFT hip, hilts forward. NO third sword. NO drawn sword. Hands hang empty at his sides. A warm gold beam of dawn sunlight pours from above through a tall shoji doorway through soft drifting mist, filling the upper frame — the visual hero. Bare wooden floor, deep shadow, profound quiet. Warm gold-on-dark palette. No text, no letters, no watermark. 4K.
+```
+
+**Frame 2 — back / shoulders (medium):**
+```
+Photorealistic cinematic vertical still, close from behind, a lone samurai's back and shoulders in a misty dawn dojo, face never visible, relaxed and unshaken. The two sheathed swords (daishō) at his LEFT hip, hilts forward, NO third sword, NO drawn sword, hands empty. Warm gold rim light from a shoji doorway grazes his shoulder; deep shadow elsewhere. Warm gold-on-dark palette, quiet, grounded. No text, no letters, no watermark. 4K.
+```
+
+**Frame 3 — empty dojo light (atmospheric, for text):**
+```
+Photorealistic cinematic vertical still, a tall shoji doorway in an empty dojo at dawn, one warm gold beam of sunlight cutting through slowly drifting mist onto a bare wooden floor, deep shadow around. No people. Profound stillness, warm gold-on-dark palette. No text, no letters, no watermark. 4K.
+```
+
+**Frame 4 — KANJI frame (figure small, dark space above for 残心):**
+```
+Photorealistic cinematic vertical still, a lone samurai standing small and still in the lower-center of the frame, seen from behind in a misty dawn dojo, a warm gold light beam behind him, the upper half of the frame calm dark mist and shadow (empty space). Two sheathed swords (daishō) at his LEFT hip, NO drawn sword, hands empty. Warm gold-on-dark, deep quiet. No text, no letters, no watermark. 4K.
+```
+
+**Frame 5 — the daishō detail (still life):**
+```
+Photorealistic cinematic vertical close-up, a katana and a shorter wakizashi (the daishō pair) sheathed together in a dark silk obi belt at a samurai's LEFT hip, hilts forward, seen from behind and to the side. Warm gold dawn light grazing the lacquered scabbards, deep shadow background, soft mist. EXACTLY TWO swords, nothing drawn. Warm gold-on-dark, quiet and still. No text, no letters, no watermark. 4K.
+```
+
+**Frame 6 — ending (wide, figure distant):**
+```
+Photorealistic cinematic vertical still, a wide quiet dawn dojo, a lone samurai standing small and still far back in a warm gold beam of light through drifting mist, back to camera, face never visible, two sheathed swords at his LEFT hip, hands empty. Vast calm empty space, bare wooden floor, deep shadow. Warm gold-on-dark palette, peaceful, resolved. No text, no letters, no watermark. 4K.
+```
+
+---
+
 ## §4 — Flow / Kling prompt (16:9 loop)
 
 ```

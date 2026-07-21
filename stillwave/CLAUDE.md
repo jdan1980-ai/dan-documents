@@ -761,6 +761,12 @@ Every video's `scripts/<slug>.md` MUST contain **BOTH** packages:
 
 Never split formats across files. One video = one file = both formats. Build them together from the start.
 
+### 🔒 Shorts image set (LOCKED 2026-07-21)
+
+Because Shorts (teaser AND concept) are built from a sequence of vertical stills (Ken Burns + white titles via `concept-shorts-build.py` / `<slug>-shorts-build.py`), every script MUST include a dedicated **Shorts image set** section (e.g. `§3c`) with **6 distinct 9:16 NanoBanana prompts** — one per storyboard beat — not just a single 9:16 prompt. Frame 4 is the "kanji frame" (calm/empty zone for the concept kanji overlay). All frames follow the locked rules (sword count, NO airborne particles, no in-image text, bottom-right calm for logo). Save as `<slug>-shorts-fr1.jpg … fr6.jpg`.
+
+**🇷🇺** Так как Shorts (тизер И концепт) собираются из набора вертикальных кадров, в каждом скрипте — отдельный раздел **набора картинок для Shorts** (напр. `§3c`) с **6 разными 9:16 промтами** (по одному на кадр раскадровки), а не один. Кадр 4 — «под иероглиф» (спокойная/пустая зона). Все — по локнутым правилам, сохранять как `<slug>-shorts-fr1.jpg … fr6.jpg`.
+
 ---
 
 ## 🔑 YouTube Data API v3 access
