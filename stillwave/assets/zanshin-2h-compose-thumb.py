@@ -18,22 +18,23 @@ SRC = HERE / "zanshin-2h-source.jpg"
 OUT = HERE / "zanshin-2h-thumb.jpg"
 
 W, H = 1280, 720
-GOLD = (228, 196, 108)               # #E4C46C
-SHADOW = (0, 0, 0, 180)
+GOLD = (228, 196, 108)               # #E4C46C — ZANSHIN
+INK = (246, 243, 236)                # near-white brush ink — 残心
+SHADOW = (0, 0, 0, 190)
 
-KANJI_FONT = "/usr/share/fonts/opentype/ipafont-mincho/ipam.ttf"
-ROMAJI_FONT = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
+# Japanese brush calligraphy (same as the Short's reveal frame)
+BRUSH_FONT = str(Path(__file__).parent / "fonts" / "YujiBoku-Regular.ttf")
 
 KANJI = "残心"
-KANJI_SIZE = 228
-KANJI_X = 58
-KANJI_Y = 44
+KANJI_SIZE = 224
+KANJI_X = 56
+KANJI_Y = 40
 
 ROMAJI = "ZANSHIN"
-ROMAJI_SIZE = 104
-ROMAJI_X = 60
-ROMAJI_Y = 566
-ROMAJI_SPACING = 10
+ROMAJI_SIZE = 112
+ROMAJI_X = 58
+ROMAJI_Y = 560
+ROMAJI_SPACING = 8
 
 
 def fit_cover(img):
@@ -57,10 +58,10 @@ def darken(bg):
     return Image.alpha_composite(bg.convert("RGBA"), layer).convert("RGB")
 
 
-def draw_left(d, x, y, text, font, spacing):
+def draw_left(d, x, y, text, font, spacing, fill):
     for ch in text:
         d.text((x + 4, y + 4), ch, font=font, fill=SHADOW)
-        d.text((x, y), ch, font=font, fill=GOLD)
+        d.text((x, y), ch, font=font, fill=fill)
         x += d.textlength(ch, font=font) + spacing
 
 
@@ -69,8 +70,8 @@ def main():
         raise SystemExit(f"Source not found: {SRC}")
     bg = darken(fit_cover(Image.open(SRC).convert("RGB")))
     d = ImageDraw.Draw(bg)
-    draw_left(d, KANJI_X, KANJI_Y, KANJI, ImageFont.truetype(KANJI_FONT, KANJI_SIZE), 0)
-    draw_left(d, ROMAJI_X, ROMAJI_Y, ROMAJI, ImageFont.truetype(ROMAJI_FONT, ROMAJI_SIZE), ROMAJI_SPACING)
+    draw_left(d, KANJI_X, KANJI_Y, KANJI, ImageFont.truetype(BRUSH_FONT, KANJI_SIZE), 6, INK)
+    draw_left(d, ROMAJI_X, ROMAJI_Y, ROMAJI, ImageFont.truetype(BRUSH_FONT, ROMAJI_SIZE), ROMAJI_SPACING, GOLD)
     bg.save(OUT, "JPEG", quality=92, optimize=True, progressive=True)
     print(f"Saved → {OUT}  ({OUT.stat().st_size // 1024} KB)")
 
