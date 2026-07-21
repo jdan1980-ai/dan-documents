@@ -26,9 +26,9 @@
 
 ---
 
-## §1 — Suno prompts (4 ready-to-paste variants — warm, steady, resilient)
+## §1 — Suno prompts (8 ready-to-paste variants — all different, all very calm)
 
-Batch names in Suno: variant 1 = `ZANSHIN` · 2 = `ZANSHIN 2` · 3 = `ZANSHIN 3` · 4 = `ZANSHIN 4`. Each has a DIFFERENT opening (Content ID / SATORI lesson). Generate ~10 per variant (~40 total), master, keep best ~36, interleave 1/2/3/4 so no two adjacent tracks share an intro.
+Batch names in Suno: variant 1 = `ZANSHIN` · 2 = `ZANSHIN 2` · … · 8 = `ZANSHIN 8`. Every variant has a DIFFERENT opening AND a different lead instrument (Content ID / SATORI lesson) — but all share the same warm, steady, resilient mood. Generate ~5 per variant (~40 total), master, keep best ~36, interleave 1–8 so no two adjacent tracks share an intro.
 
 Sound direction (locked to the brief): deep but **warm** ambient drone; **rare, soft percussive pulses** (a single low taiko/frame-drum heartbeat every 60–90s, felt more than heard); **shakuhachi far in the background**; **calm koto textures**; a sense of inner composure, not tension; a gradual arc **from unease → steadiness**.
 
@@ -104,6 +104,78 @@ LYRICS:
 [loop point: fades gently to near-silence over the warm drone and one last soft pulse, ready to begin again]
 [mood: standing centered after the moment has passed, heartbeat slow, mind clear and watchful]
 [texture: rare soft frame-drum pulse, warm ambient drone, distant shakuhachi, calm koto, grounded stillness]
+```
+
+### Variant 5 — ZANSHIN 5 (temple-bell-led)
+
+STYLE:
+```
+Warm deep Japanese zen ambient, extremely slow and steady. Opens with a single low temple bell (bonshō) and its long resonance, then a warm low ambient drone, a distant shakuhachi bamboo flute far in the background, calm koto textures in wide silence, and a rare soft low frame-drum pulse felt more than heard. 47 BPM, spacious, grounded, composed, quietly resilient — moving gently from unease toward steadiness. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: a single low temple bell strike, 5 seconds of deep resonance, then a warm low drone rises underneath]
+[section A: a distant shakuhachi enters far back with one long soft tone, koto notes fall slowly]
+[section B: the warm drone widens, one rare soft low drum pulse in the distance, calm and unshaken]
+[section C: everything settles into steady warmth, bell resonance long faded, koto and flute trading quiet notes]
+[loop point: a last soft bell tone over the warm drone fades to near-silence, ready to begin again]
+[mood: dawn in a still dojo, the bell's ring fading, a lone figure standing composed after the moment has passed]
+[texture: low temple bell, warm ambient drone, distant shakuhachi, calm koto, rare frame-drum pulse]
+```
+
+### Variant 6 — ZANSHIN 6 (singing-bowl-led)
+
+STYLE:
+```
+Warm deep Japanese zen ambient, extremely slow and steady. Opens with a single struck singing bowl and its shimmering long decay, then calm koto plucks in wide silence, a warm low ambient drone underneath, a distant shakuhachi far in the background, and a rare soft low frame-drum pulse. 45 BPM, spacious, grounded, composed, quietly resilient. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: a single singing bowl struck, long shimmering decay for several seconds, then calm koto notes enter]
+[section A: a warm low drone rises under the koto, a distant shakuhachi tone far back]
+[section B: the bowl shimmer returns once, the drone widens, one soft low drum pulse in the distance]
+[section C: everything eases into grounded calm, single koto notes ringing over the warm drone]
+[loop point: a last bowl shimmer fades to near-silence over the drone, ready to begin again]
+[mood: soft dawn light, the mind clear and still, composed after the moment has passed]
+[texture: singing bowl, koto, warm ambient drone, distant shakuhachi, rare frame-drum pulse]
+```
+
+### Variant 7 — ZANSHIN 7 (dawn-wind-led)
+
+STYLE:
+```
+Warm deep Japanese zen ambient, extremely slow and steady. Opens with soft dawn wind and a faint pine rustle, then a warm low ambient drone rises, a distant shakuhachi bamboo flute far in the background, calm koto textures, and a rare soft low frame-drum pulse. 46 BPM, spacious, grounded, composed, quietly resilient — from unease toward steadiness. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: 5 seconds of soft dawn wind and a faint pine rustle, then a warm low drone rises slowly underneath]
+[section A: a distant shakuhachi enters far back over the drone, calm koto notes fall in silence]
+[section B: the wind settles, the drone holds steady, one rare soft low drum pulse in the distance]
+[section C: everything settles into warm grounded calm, flute and koto trading slow quiet notes]
+[loop point: the wind returns faintly as the drone fades to near-silence, ready to begin again]
+[mood: cold dawn air in an open dojo doorway, a lone figure standing still and watchful, unshaken]
+[texture: soft dawn wind, warm ambient drone, distant shakuhachi, calm koto, rare frame-drum pulse]
+```
+
+### Variant 8 — ZANSHIN 8 (near-silence / breath-led — softest)
+
+STYLE:
+```
+Warm deep Japanese zen ambient, the softest and slowest of the set. Opens in near silence with faint room tone and one slow breath, then a warm low ambient drone rises almost imperceptibly, sparse distant shakuhachi far back, a few calm koto notes far apart, a very rare soft low pulse. 44 BPM, extremely spacious, weightless yet grounded, long fades, deep calm — inner quiet under pressure, ideal for evening recovery. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: near silence, faint room tone and one slow deep breath for the first 6-8 seconds, no instruments yet]
+[section A: a warm low drone rises almost imperceptibly, a distant shakuhachi breath far back]
+[section B: a few sparse koto notes fall far apart, a single very soft low pulse, deeply grounded]
+[section C: everything dissolves into warm steady calm, only the drone and a far flute breath remain]
+[loop point: the drone fades back to near-silence and one slow breath, ready to begin again]
+[mood: the stillest moment before dawn, breath slow and even, the mind clear after the pressure has passed]
+[texture: room tone, slow breath, warm ambient drone, sparse distant shakuhachi, occasional koto, deep stillness]
 ```
 
 ---
