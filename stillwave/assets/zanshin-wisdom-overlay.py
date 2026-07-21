@@ -17,24 +17,24 @@ HERE = Path(__file__).parent
 OUT = HERE / "zanshin-wisdom-overlay.png"
 
 W, H = 1920, 1080
-CREAM = (245, 234, 210, 255)
-SHADOW = (0, 0, 0, 150)
+GOLD = (228, 196, 108, 255)          # #E4C46C — warm gold (matches the sepia hall)
+SHADOW = (0, 0, 0, 170)
 
 KANJI_FONT = "/usr/share/fonts/opentype/ipafont-mincho/ipam.ttf"
 SERIF_BOLD = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf"
 
 X = 130
-KANJI = ("平常心是道", 108, 372)
-ROMAJI = ("Heijōshin kore michi", 56, 520)
-GLOSS = ("The ordinary, steady mind is the Way", 40, 600)
+KANJI = ("平常心是道", 108, 196)       # raised into the upper third
+ROMAJI = ("Heijōshin kore michi", 56, 344)
+GLOSS = ("The ordinary, steady mind is the Way", 40, 424)
 
 
 def track(d, xy, text, font, spacing):
     x, y = xy
     for ch in text:
         d.text((x + 3, y + 3), ch, font=font, fill=SHADOW)
-        d.text((x, y), ch, font=font, fill=CREAM)
+        d.text((x, y), ch, font=font, fill=GOLD)
         x += d.textlength(ch, font=font) + spacing
 
 
