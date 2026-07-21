@@ -197,22 +197,25 @@ Same two-pass loudnorm pipeline (`master-album.py`): −16 LUFS, TP −1.5 dB, 2
 
 ---
 
-## §3 — NanoBanana 16:9 (PRIMARY)
+## §3 — NanoBanana 16:9 (PRIMARY — Hikari winning template: grand hall + giant mural)
+
+Modeled on the proven Kanji-Concept winners (Hikari TAO 1.2M, DAO 113K): a **grand empty hall in deep perspective**, a **giant animal-spirit mural filling the upper two-thirds** (the click magnet), a **lone seated figure small in the lower third**, incense smoke, warm gold-sepia. For ZANSHIN the mural is a **watchful tiger** (vigilance = the lingering awareness of zanshin).
 
 ```
-Photorealistic cinematic still, a lone samurai standing in perfect composed stillness in a misty dojo at dawn, seen from behind, back to camera, face never visible, positioned in the lower third of the frame. He stands relaxed and unshaken, the moment already passed. EXACTLY TWO swords — a katana and a shorter wakizashi (the daishō pair) — both fully sheathed inside the obi belt at his LEFT hip, hilts pointing forward. NO third sword. NO sword drawn. NO sword in his hands. Hands hang empty and relaxed at his sides. Above and around him, one warm gold beam of dawn sunlight pours through a tall shoji screen / open dojo doorway, cutting through soft mist and filling the upper two-thirds of the frame — the visual hero. Bare wooden dojo floor, deep shadow, profound quiet. Warm dawn palette — gold light on a dark moody interior, one warm accent, muted everywhere else. Keep the lower-left corner as dark, empty negative space for a text overlay — no bright objects or busy detail in the bottom-left third. Keep the bottom-right corner as calm, dark, low-detail space — no subject or bright detail there (logo placement). No text, no letters, no watermark. 4K, cinematic, still-frame-from-a-Kurosawa-film mood.
+Photorealistic cinematic still, a grand empty Japanese temple hall / dojo at dawn, deep one-point perspective — tall wooden pillars, open shoji screens along the sides letting warm gold dawn light and soft mist flood across a vast bare wooden floor. Dominating the back wall in the upper two-thirds of the frame: a MASSIVE faded ink mural of a crouching tiger, half-dissolving into drifting fog and incense smoke — watchful, alert, powerful (the visual hero). A lone samurai sits in seiza in the lower third, small, back to camera, face never visible, perfectly still and composed. EXACTLY TWO swords — a katana and a shorter wakizashi (the daishō pair) — sheathed in the obi at his LEFT hip, hilts forward. NO third sword, NO drawn sword, hands resting on his thighs. A thin curl of incense smoke rises beside him. Warm gold-and-sepia palette, one warm light source, deep shadow, profound stillness. Keep the lower-left corner and the bottom-right corner calm and low-detail (text left / logo right). No text, no letters, no watermark. 4K, still-frame-from-a-Kurosawa-film mood.
 ```
 
-**Alt — monk variant:** replace the samurai with `a lone buddhist monk in dark robes kneeling in seiza, back to camera, lower third, face never visible` — same dawn light beam hero, same corner rules.
+**Alt A — dragon mural** (DAO/DO style): replace `a MASSIVE faded ink mural of a crouching tiger` with `a MASSIVE faded ink mural of a coiled dragon`.
+**Alt B — monk figure:** replace the samurai with `a lone buddhist monk in dark robes sitting in seiza` (drop the sword lines).
 
-> 🔒 No airborne particles (no drifting petals/embers). Motion = mist drift + light + one breath. Sword rules per CLAUDE.md.
+> 🔒 Mural + incense smoke are for the STILL. In the Flow loop, animate the incense smoke rising gently + mist drift + one slow breath (a single thin curl in open space away from the figure loops cleanly — unlike smoke attached to an object, the WABI SABI lesson). No airborne petals/embers. Sword rules per CLAUDE.md.
 
-**🇷🇺** Кадр: одинокий самурай спиной к камере в неподвижной собранности в рассветном додзё, «момент уже прошёл». Меч в ножнах — **ровно 2 (дайсё) на ЛЕВОМ бедре, ни одного вынутого, руки пустые** (правило канала). Герой кадра — тёплый луч рассвета в верхних двух третях. Левый нижний угол тёмный под текст, правый нижний спокойный под лого. Альт — монах в сэйдза. Без летящих частиц; в движении только туман, свет и один вдох.
+**🇷🇺** Кадр по выигрышному шаблону конкурентов: **грандиозный пустой зал** с глубокой перспективой, **огромный мурал тигра** в верхних ⅔ (главный крючок — тигр = бдительность, суть zanshin), **одинокий самурай в сэйдза** маленький в нижней трети, спиной, дымок благовоний, тёплое золото-сепия. Меч — ровно 2 в ножнах на левом бедре, ничего вынутого, руки на бёдрах. Альт A — дракон вместо тигра (стиль DAO). Альт B — монах. Углы: слева под текст, справа-низ под лого. Дым и мурал — для картинки; в Flow анимируем тонкий дымок вверх + туман + один вдох (одиночный дымок в пустом пространстве зацикливается чисто, в отличие от дыма на предмете — урок WABI SABI).
 
 ## §3b — NanoBanana 9:16 (Shorts)
 
 ```
-Photorealistic cinematic vertical still, a lone samurai standing in composed stillness seen from behind in a misty dojo at dawn, back to camera, face never visible, in the lower third. EXACTLY TWO sheathed swords (daishō) at his LEFT hip, hilts forward, NO third sword, NO drawn sword, hands empty at his sides. A warm gold beam of dawn light pours from above through a tall shoji doorway through soft mist, filling the upper frame. Warm gold-on-dark palette, deep quiet, profound stillness. No text, no letters, no watermark. 4K.
+Photorealistic cinematic vertical still, a grand empty Japanese temple hall / dojo at dawn in deep perspective, a MASSIVE faded ink mural of a crouching tiger dominating the upper two-thirds of the frame, half-dissolving into drifting fog and incense smoke. A lone samurai sits in seiza in the lower third, small, back to camera, face never visible, perfectly still. EXACTLY TWO sheathed swords (daishō) in the obi at his LEFT hip, hilts forward, NO third sword, NO drawn sword, hands resting on his thighs. A thin curl of incense smoke rises beside him. Warm gold-and-sepia palette, one warm light source, deep shadow, profound stillness. No text, no letters, no watermark. 4K.
 ```
 
 ---
@@ -223,9 +226,9 @@ The Short is built from a sequence of vertical stills (Ken Burns + white titles,
 
 **🇷🇉** Набор из 6 вертикальных кадров, из которых собирается Short (наезд/титры). Сгенерируй все 6 в NanoBanana 9:16. Правила те же: ровно 2 меча в ножнах (ни одного вынутого, руки пустые), без летящих частиц, без текста на картинке, правый нижний угол тёмный под лого. Сохрани как `zanshin-shorts-fr1.jpg … fr6.jpg`. Кадр 4 — «пустой» под иероглиф 残心.
 
-**Frame 1 — HOOK (wide):**
+**Frame 1 — HOOK (grand hall + tiger mural):**
 ```
-Photorealistic cinematic vertical still, a lone samurai standing in perfect composed stillness in a misty dojo at dawn, seen from behind, back to camera, face never visible, in the lower third of the frame. EXACTLY TWO swords — a katana and a shorter wakizashi (the daishō pair) — both fully sheathed in the obi at his LEFT hip, hilts forward. NO third sword. NO drawn sword. Hands hang empty at his sides. A warm gold beam of dawn sunlight pours from above through a tall shoji doorway through soft drifting mist, filling the upper frame — the visual hero. Bare wooden floor, deep shadow, profound quiet. Warm gold-on-dark palette. No text, no letters, no watermark. 4K.
+Photorealistic cinematic vertical still, a grand empty Japanese temple hall / dojo at dawn in deep perspective, a MASSIVE faded ink mural of a crouching tiger dominating the upper two-thirds, half-dissolving into drifting fog and incense smoke — watchful, powerful. A lone samurai sits in seiza in the lower third, small, back to camera, face never visible, perfectly still. EXACTLY TWO sheathed swords (daishō) in the obi at his LEFT hip, hilts forward, NO third sword, NO drawn sword, hands on his thighs. A thin curl of incense smoke rises beside him. Warm gold-and-sepia palette, one warm light source, deep shadow. No text, no letters, no watermark. 4K.
 ```
 
 **Frame 2 — back / shoulders (medium):**
@@ -238,9 +241,9 @@ Photorealistic cinematic vertical still, close from behind, a lone samurai's bac
 Photorealistic cinematic vertical still, a tall shoji doorway in an empty dojo at dawn, one warm gold beam of sunlight cutting through slowly drifting mist onto a bare wooden floor, deep shadow around. No people. Profound stillness, warm gold-on-dark palette. No text, no letters, no watermark. 4K.
 ```
 
-**Frame 4 — KANJI frame (figure small, dark space above for 残心):**
+**Frame 4 — KANJI frame (figure small, calm dark space above for 残心):**
 ```
-Photorealistic cinematic vertical still, a lone samurai standing small and still in the lower-center of the frame, seen from behind in a misty dawn dojo, a warm gold light beam behind him, the upper half of the frame calm dark mist and shadow (empty space). Two sheathed swords (daishō) at his LEFT hip, NO drawn sword, hands empty. Warm gold-on-dark, deep quiet. No text, no letters, no watermark. 4K.
+Photorealistic cinematic vertical still, a lone samurai sitting in seiza small and still in the lower-center of a grand dawn temple hall, seen from behind, face never visible, a faded tiger mural and warm gold light softly behind him, the upper half of the frame calm dark mist, smoke and shadow (empty space for a kanji). Two sheathed swords (daishō) in the obi at his LEFT hip, NO drawn sword, hands on his thighs. Warm gold-and-sepia, deep quiet. No text, no letters, no watermark. 4K.
 ```
 
 **Frame 5 — the daishō detail (still life):**
@@ -258,7 +261,7 @@ Photorealistic cinematic vertical still, a wide quiet dawn dojo, a lone samurai 
 ## §4 — Flow / Kling prompt (16:9 loop)
 
 ```
-Camera locked, no camera movement at all. Seamless loop. Animate ONLY: (1) soft mist drifting slowly through the warm dawn light beam; (2) faint dust motes turning gently in the shaft of light; (3) the samurai's shoulders rising and falling with ONE slow, barely perceptible breath per loop; (4) the warm light very slowly, subtly shifting intensity. Everything else perfectly still — figure, swords, floor, walls, shoji. Slow, meditative, grounded. Last frame matches first frame exactly for a perfect loop.
+Camera locked, no camera movement at all. Seamless loop. Animate ONLY: (1) a thin single curl of incense smoke rising slowly and dissipating; (2) soft mist drifting slowly across the giant mural and the warm light; (3) the seated samurai's shoulders rising and falling with ONE slow, barely perceptible breath per loop; (4) the warm light very slowly, subtly shifting intensity. Everything else perfectly still — figure, swords, mural, floor, pillars, shoji. Slow, meditative, grounded. Last frame matches first frame exactly for a perfect loop.
 ```
 
 ---
