@@ -22,6 +22,14 @@ When responding to the user about StillWave work: **action items** (anything the
 
 Apply this to: "publish this", "click here", "schedule for X", "verify Y in Studio", "wait until Z", deadlines, action items. **Do NOT translate**: copy-paste content for YouTube (titles, descriptions, tags, hashtags, pinned comments, community posts in English), prompts for tools (Suno/NanoBanana/Flow/CapCut), file paths, technical commands.
 
+### 🌐 Bilingual scripts (LOCKED 2026-07-21)
+
+Every `scripts/<slug>.md` is written **bilingually**:
+- **Copy-paste content stays English-only** — Suno STYLE/LYRICS, title, description, tracklist, tags, hashtags, pinned comment, Community Post. These go straight into YouTube/tools, so no translation, no RU mixed in.
+- **All explanatory / reading-comprehension prose is EN + RU** — concept notes, positioning, section intros, sound direction, rationale, placement instructions, thumbnail notes. Write the English, then a `🇷🇺` block with the Russian directly below it, so the user can read and understand every part.
+
+Rule of thumb: if the text is *pasted somewhere*, English only. If the text is *read to understand*, English + Russian below.
+
 ---
 
 ## 🚨 Channel-level positioning (LOCKED 2026-06-15 — verify before EACH upload)

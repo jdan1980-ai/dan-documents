@@ -10,6 +10,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Status:** 🚧 IN PRODUCTION (package created 2026-07-21)
 - **Concept note:** ZANSHIN (残心) = "the remaining/lingering mind." In budō (kendo, kyūdō, aikidō) it is the state of relaxed, total awareness that continues *after* the strike, the arrow, the throw — you do not drop your guard, you stay present and steady. Reframed for StillWave (per user brief, 2026-07-21): **NOT a "high-stress performance tool," but music for quiet resilience — staying inwardly still when the pressure already exists.** Not the music that makes you work under pressure; the music that helps you keep your inner quiet while it's happening.
+  - **🇷🇺** ZANSHIN (残心) — «остающийся ум». В будо (кендо, кюдо, айкидо) это состояние расслабленного, полного внимания, которое сохраняется *после* удара, выстрела, броска — ты не опускаешь защиту, остаёшься собранным и устойчивым. Для StillWave переосмыслено: это **НЕ «инструмент для работы под стрессом», а музыка тихой устойчивости — как сохранить внутреннюю тишину, когда давление уже есть.** Не музыка, которая заставляет работать под давлением, а та, что помогает удержать внутренний покой, пока оно длится.
 
 ## §0 — Positioning & pre-production (traffic-aware)
 
@@ -20,9 +21,15 @@
 - the core Japanese-Zen + meditation-music audience
 - viewers who already liked **MUSHIN** and **GAMAN** (this is the same mind-state lane)
 
+**🇷🇺 Аудитория (шире, НЕ только офис/стресс):** люди после эмоционально тяжёлого дня · слушатели вечернего восстановления · те, кому нужна музыка для спокойного, устойчивого внимания · ядро Japanese Zen + meditation · зрители, которым уже зашли **MUSHIN** и **GAMAN** (та же полоса «состояния ума»).
+
 **Traffic reality (user's 90-day figures):** subscribers **12,413** views · suggested **6,624** · YouTube **Search only 226**. → The word **ZANSHIN** pulls the core (subs + suggested); the plain-English outcome in the title/description ("calm awareness, steady nerves, quiet resilience") is what lets suggested + new viewers understand *why* to watch. Do not assume the viewer knows the philosophy — the title teaches the payoff, the video teaches the concept.
 
+**🇷🇺 Трафик (90 дней):** подписчики **12 413** · рекомендации **6 624** · поиск **всего 226**. → Слово **ZANSHIN** тянет ядро (подписчики + рекомендации), а понятный английский outcome в заголовке/описании («calm awareness, steady nerves, quiet resilience») объясняет рекомендациям и новичкам, *зачем* смотреть. Не считаем, что зритель знает философию — заголовок продаёт результат, видео объясняет понятие.
+
 **Sibling anchor:** MUSHIN (17K+, our breakout) and GAMAN (979) are the same "Japanese mind-state" cluster. Bridge ZANSHIN from BOTH via pinned comments after launch.
+
+**🇷🇺 Родственный якорь:** MUSHIN (17K+, наш прорыв) и GAMAN (979) — тот же кластер «японских состояний ума». После запуска связать ZANSHIN с ОБОИМИ через закреплённые комментарии.
 
 ---
 
@@ -31,6 +38,10 @@
 Batch names in Suno: variant 1 = `ZANSHIN` · 2 = `ZANSHIN 2` · … · 8 = `ZANSHIN 8`. Every variant has a DIFFERENT opening AND a different lead instrument (Content ID / SATORI lesson) — but all share the same warm, steady, resilient mood. Generate ~5 per variant (~40 total), master, keep best ~36, interleave 1–8 so no two adjacent tracks share an intro.
 
 Sound direction (locked to the brief): deep but **warm** ambient drone; **rare, soft percussive pulses** (a single low taiko/frame-drum heartbeat every 60–90s, felt more than heard); **shakuhachi far in the background**; **calm koto textures**; a sense of inner composure, not tension; a gradual arc **from unease → steadiness**.
+
+**🇷🇺 Звук (по брифу):** глубокий, но **тёплый** ambient-дрон; **редкие мягкие перкуссионные импульсы** (одиночный низкий тайко/рамочный барабан раз в 60–90 сек, ощущается, а не слышится); **сякухати на дальнем плане**; **спокойные koto-текстуры**; ощущение внутренней собранности, а не напряжения; постепенная арка **от тревоги → к устойчивости**.
+
+**🇷🇺 Как вставлять:** блок **STYLE** → в поле Style, блок **LYRICS** → в поле Lyrics. Генерируй ~5 на каждый из 8 вариантов (≈40 треков), чередуй 1–8 при раскладке.
 
 Each block: **STYLE** → Suno Style field, **LYRICS** → Lyrics field.
 
@@ -196,6 +207,8 @@ Photorealistic cinematic still, a lone samurai standing in perfect composed stil
 
 > 🔒 No airborne particles (no drifting petals/embers). Motion = mist drift + light + one breath. Sword rules per CLAUDE.md.
 
+**🇷🇺** Кадр: одинокий самурай спиной к камере в неподвижной собранности в рассветном додзё, «момент уже прошёл». Меч в ножнах — **ровно 2 (дайсё) на ЛЕВОМ бедре, ни одного вынутого, руки пустые** (правило канала). Герой кадра — тёплый луч рассвета в верхних двух третях. Левый нижний угол тёмный под текст, правый нижний спокойный под лого. Альт — монах в сэйдза. Без летящих частиц; в движении только туман, свет и один вдох.
+
 ## §3b — NanoBanana 9:16 (Shorts)
 
 ```
@@ -218,6 +231,7 @@ Camera locked, no camera movement at all. Seamless loop. Animate ONLY: (1) soft 
 - Line 2 (romaji): *Heijōshin kore michi*
 - Line 3 (gloss): The ordinary, steady mind is the Way
 - Cream `#F5EAD2`, Liberation Serif Bold, LEFT side over the dark floor/shadow zone. 0:00–0:03 scene+sound only → fade-in 2s → hold ~5s → fade-out 2s, gone by 0:14.
+- **🇷🇉** Фраза-мудрость: **平常心是道** / *Heijōshin kore michi* / «Обычный, ровный ум — это Путь» (дзен-коан, идеально ложится на «тихую устойчивость»). Кремовый, слева над тёмной зоной пола. Первые 3 сек — только сцена и звук, потом плавное появление/уход, исчезает к 0:14.
 
 ---
 
@@ -272,6 +286,7 @@ stillwave, japanese zen music, meditation music, zen music, calm music, relaxing
 - **ZANSHIN (ROMAJI):** cream `#F5EAD2`, Liberation Serif Bold, below/under the kanji.
 - No tag/duration text. Lower-right kept clear for logo.
 - Compose with a PIL script (adapt `mizu-2h-compose-thumb.py`) once the image is picked.
+- **🇷🇺** Обложка: фон — кадр §3 (самурай + луч рассвета). Иероглиф **残心** крупно (тёмная тушь) вверху-центре над лучом, ЛИБО наш левый стиль (残心 верх-лево, ZANSHIN низ-лево) — тестируем, что читается сильнее. **ZANSHIN** кремовым под иероглифом. Без тегов/длительности, правый нижний угол под лого. Соберу PIL-скриптом, когда выберешь кадр.
 
 ---
 
