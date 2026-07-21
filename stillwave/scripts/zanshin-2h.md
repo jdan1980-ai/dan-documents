@@ -1,0 +1,241 @@
+# ZANSHIN — 残心 | 2H Japanese Zen Music
+
+## Meta
+
+- **Title:** ZANSHIN — 残心 | Japanese Zen Music for Calm Awareness, Steady Nerves & Quiet Resilience
+- **Slug:** `zanshin-2h`
+- **Format:** Long-form (Kanji-Concept Series)
+- **Length:** target ≤ 2:00:00 (~36 mastered tracks; generate ~40, trim; interleave openings)
+- **Aesthetic:** Photoreal cinematic — a lone samurai (OR kendoka) standing in composed stillness in a misty dawn dojo / garden, back to camera, swords sheathed. The mood is *after the moment has passed* — calm, watchful, unshaken. One warm sunrise light beam.
+- **Playlist (add to in Studio):** Japanese Zen Music
+- **Status:** 🚧 IN PRODUCTION (package created 2026-07-21)
+- **Concept note:** ZANSHIN (残心) = "the remaining/lingering mind." In budō (kendo, kyūdō, aikidō) it is the state of relaxed, total awareness that continues *after* the strike, the arrow, the throw — you do not drop your guard, you stay present and steady. Reframed for StillWave (per user brief, 2026-07-21): **NOT a "high-stress performance tool," but music for quiet resilience — staying inwardly still when the pressure already exists.** Not the music that makes you work under pressure; the music that helps you keep your inner quiet while it's happening.
+
+## §0 — Positioning & pre-production (traffic-aware)
+
+**Audience (broadened, NOT just office/high-pressure):**
+- people winding down after an emotionally heavy day
+- evening recovery / decompression listeners
+- anyone wanting music for calm, steady attention
+- the core Japanese-Zen + meditation-music audience
+- viewers who already liked **MUSHIN** and **GAMAN** (this is the same mind-state lane)
+
+**Traffic reality (user's 90-day figures):** subscribers **12,413** views · suggested **6,624** · YouTube **Search only 226**. → The word **ZANSHIN** pulls the core (subs + suggested); the plain-English outcome in the title/description ("calm awareness, steady nerves, quiet resilience") is what lets suggested + new viewers understand *why* to watch. Do not assume the viewer knows the philosophy — the title teaches the payoff, the video teaches the concept.
+
+**Sibling anchor:** MUSHIN (17K+, our breakout) and GAMAN (979) are the same "Japanese mind-state" cluster. Bridge ZANSHIN from BOTH via pinned comments after launch.
+
+---
+
+## §1 — Suno prompts (4 ready-to-paste variants — warm, steady, resilient)
+
+Batch names in Suno: variant 1 = `ZANSHIN` · 2 = `ZANSHIN 2` · 3 = `ZANSHIN 3` · 4 = `ZANSHIN 4`. Each has a DIFFERENT opening (Content ID / SATORI lesson). Generate ~10 per variant (~40 total), master, keep best ~36, interleave 1/2/3/4 so no two adjacent tracks share an intro.
+
+Sound direction (locked to the brief): deep but **warm** ambient drone; **rare, soft percussive pulses** (a single low taiko/frame-drum heartbeat every 60–90s, felt more than heard); **shakuhachi far in the background**; **calm koto textures**; a sense of inner composure, not tension; a gradual arc **from unease → steadiness**.
+
+Each block: **STYLE** → Suno Style field, **LYRICS** → Lyrics field.
+
+### Variant 1 — ZANSHIN (drone-led)
+
+STYLE:
+```
+Warm deep Japanese zen ambient, extremely slow and steady. A warm low ambient drone like held breath, a distant shakuhachi bamboo flute far in the background with long soft tones, calm koto textures in wide silence, and a rare soft low frame-drum pulse once in a long while — felt more than heard. 48 BPM, spacious, grounded, composed. The feeling of staying inwardly still while pressure passes — moving gently from unease toward steadiness. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: a warm low drone fades in alone and breathes for 6-8 seconds, grounded and steady]
+[section A: a distant shakuhachi enters far back with one long soft tone, koto notes fall slowly]
+[section B: a single soft low drum pulse in the distance, drone widens, calm and unshaken]
+[section C: everything settles into steady warmth, shakuhachi and koto trading slow quiet notes]
+[loop point: fades to near-silence over the warm drone, ready to begin again]
+[mood: a lone figure standing perfectly still in a misty dawn dojo after the moment has passed — watchful, calm, resilient]
+[texture: warm ambient drone, distant shakuhachi, calm koto, rare soft frame-drum pulse, still dawn air]
+```
+
+### Variant 2 — ZANSHIN 2 (koto-led)
+
+STYLE:
+```
+Warm deep Japanese zen ambient, extremely slow and steady. Calm koto plucks resonating in wide silence, a warm low ambient drone underneath, a distant shakuhachi bamboo flute far in the background, and a rare soft low frame-drum pulse felt in the chest. 46 BPM, spacious, grounded, composed, quietly resilient — moving from unease toward steadiness. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: calm koto plucks, 3 to 5 slow steady notes alone, then a warm low drone swells softly underneath]
+[section A: koto continues composed, a distant shakuhachi enters far back with a long soft tone]
+[section B: the warm drone widens, one rare soft low drum pulse in the distance]
+[section C: everything settles into grounded calm, single koto notes ringing over the drone]
+[loop point: fades gently to near-silence, a last koto note over the warm drone, ready to begin again]
+[mood: standing steady in a quiet dawn garden, breath even, the mind clear after the moment has passed]
+[texture: koto, warm ambient drone, distant shakuhachi, rare frame-drum pulse, dawn stillness]
+```
+
+### Variant 3 — ZANSHIN 3 (shakuhachi-distant-led / softest)
+
+STYLE:
+```
+Warm deep Japanese zen ambient, the softest and slowest of the set. A distant shakuhachi bamboo flute far back with long breathy tones enters first, then a warm low ambient drone rises underneath and sparse koto notes far apart. 44 BPM, extremely spacious and grounded, weightless yet steady, long fades. Ideal for evening recovery and deep calm — inner quiet under pressure. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: a distant shakuhachi alone, far back, one long soft breathy tone for the first several seconds]
+[section A: a warm low drone rises slowly underneath the flute, grounding it]
+[section B: sparse koto notes fall far apart, a single soft low drum pulse very distant]
+[section C: everything dissolves into warm steady calm, only drone and a far shakuhachi breath]
+[loop point: drone fades to near-silence, ready to begin again seamlessly]
+[mood: soft dawn light in a still dojo, a lone figure breathing slowly, composed and unshaken]
+[texture: distant shakuhachi, warm ambient drone, sparse koto, rare frame-drum pulse, deep stillness]
+```
+
+### Variant 4 — ZANSHIN 4 (pulse-led / grounded)
+
+STYLE:
+```
+Warm deep Japanese zen ambient with a grounded steady pulse. A rare soft low frame-drum pulse like a calm heartbeat opens the space, a warm low ambient drone underneath, a distant shakuhachi bamboo flute far in the background, calm koto textures in the silence. 50 BPM, slow, composed, resilient — steady awareness that holds while the pressure passes, moving from unease toward calm. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: a single soft low frame-drum pulse alone, like a calm slow heartbeat, twice, then a warm drone rises]
+[section A: the warm drone holds steady, a distant shakuhachi enters far back with a long soft tone]
+[section B: calm koto notes fall in wide silence, the low pulse returns once, grounded]
+[section C: everything eases into steady warmth, drone and distant flute holding the calm]
+[loop point: fades gently to near-silence over the warm drone and one last soft pulse, ready to begin again]
+[mood: standing centered after the moment has passed, heartbeat slow, mind clear and watchful]
+[texture: rare soft frame-drum pulse, warm ambient drone, distant shakuhachi, calm koto, grounded stillness]
+```
+
+---
+
+## §2 — Mastering
+
+Same two-pass loudnorm pipeline (`master-album.py`): −16 LUFS, TP −1.5 dB, 28 Hz low-cut, 48 kHz/24-bit. Folder `Suno-Zanshin` → `Suno-Zanshin-mastered`, then `tracklist-timestamps.py` for §8. Interleave the 4 variants; drop the loudest/peakiest if trimming to fit 2H (keep the calmest set — MIZU lesson).
+
+---
+
+## §3 — NanoBanana 16:9 (PRIMARY)
+
+```
+Photorealistic cinematic still, a lone samurai standing in perfect composed stillness in a misty dojo at dawn, seen from behind, back to camera, face never visible, positioned in the lower third of the frame. He stands relaxed and unshaken, the moment already passed. EXACTLY TWO swords — a katana and a shorter wakizashi (the daishō pair) — both fully sheathed inside the obi belt at his LEFT hip, hilts pointing forward. NO third sword. NO sword drawn. NO sword in his hands. Hands hang empty and relaxed at his sides. Above and around him, one warm gold beam of dawn sunlight pours through a tall shoji screen / open dojo doorway, cutting through soft mist and filling the upper two-thirds of the frame — the visual hero. Bare wooden dojo floor, deep shadow, profound quiet. Warm dawn palette — gold light on a dark moody interior, one warm accent, muted everywhere else. Keep the lower-left corner as dark, empty negative space for a text overlay — no bright objects or busy detail in the bottom-left third. Keep the bottom-right corner as calm, dark, low-detail space — no subject or bright detail there (logo placement). No text, no letters, no watermark. 4K, cinematic, still-frame-from-a-Kurosawa-film mood.
+```
+
+**Alt — monk variant:** replace the samurai with `a lone buddhist monk in dark robes kneeling in seiza, back to camera, lower third, face never visible` — same dawn light beam hero, same corner rules.
+
+> 🔒 No airborne particles (no drifting petals/embers). Motion = mist drift + light + one breath. Sword rules per CLAUDE.md.
+
+## §3b — NanoBanana 9:16 (Shorts)
+
+```
+Photorealistic cinematic vertical still, a lone samurai standing in composed stillness seen from behind in a misty dojo at dawn, back to camera, face never visible, in the lower third. EXACTLY TWO sheathed swords (daishō) at his LEFT hip, hilts forward, NO third sword, NO drawn sword, hands empty at his sides. A warm gold beam of dawn light pours from above through a tall shoji doorway through soft mist, filling the upper frame. Warm gold-on-dark palette, deep quiet, profound stillness. No text, no letters, no watermark. 4K.
+```
+
+---
+
+## §4 — Flow / Kling prompt (16:9 loop)
+
+```
+Camera locked, no camera movement at all. Seamless loop. Animate ONLY: (1) soft mist drifting slowly through the warm dawn light beam; (2) faint dust motes turning gently in the shaft of light; (3) the samurai's shoulders rising and falling with ONE slow, barely perceptible breath per loop; (4) the warm light very slowly, subtly shifting intensity. Everything else perfectly still — figure, swords, floor, walls, shoji. Slow, meditative, grounded. Last frame matches first frame exactly for a perfect loop.
+```
+
+---
+
+## §6a — Wisdom Overlay
+
+- Line 1 (kanji): **平常心是道**
+- Line 2 (romaji): *Heijōshin kore michi*
+- Line 3 (gloss): The ordinary, steady mind is the Way
+- Cream `#F5EAD2`, Liberation Serif Bold, LEFT side over the dark floor/shadow zone. 0:00–0:03 scene+sound only → fade-in 2s → hold ~5s → fade-out 2s, gone by 0:14.
+
+---
+
+## §7 — Title
+
+```
+ZANSHIN — 残心 | Japanese Zen Music for Calm Awareness, Steady Nerves & Quiet Resilience
+```
+(`Music` by char ~15 ✅ · ~85 chars ✅ · concept + plain-English outcome · no hashtags)
+
+**A/B variant:**
+```
+ZANSHIN — 残心 | Japanese Zen Music for Staying Calm & Steady Under Pressure
+```
+
+---
+
+## §8 — Description (Hikari 5-block; tracklist after mastering)
+
+```
+japanese zen music, meditation music, zen music, calm music, sleep music, relaxing music, ambient music, healing music, focus music, background music, asian relaxing music, shakuhachi flute, koto music, stress relief music, music for anxiety — a two-hour Japanese zen session for staying calm, steady, and quietly resilient after a heavy day.
+
+🌀 ZANSHIN means "the mind that remains."
+The awareness that stays after the moment has passed —
+steady, watchful, unshaken.
+
+Dawn light falls through the dojo. A lone figure stands still, the moment already behind him, guard never dropped, breath slow and even. A warm drone holds like held breath; a distant flute, a few calm koto notes, and once in a long while a soft low pulse — felt more than heard. Not music to push through pressure, but music to keep your inner quiet while it passes.
+
+Tracklist:
+[added after mastering — mood-poetic names, arc from unease to steadiness, no Hz, no technical terms; naming pool: "The Moment After", "Guard Never Dropped", "Even Breath", "Standing Still at Dawn", "The Mind That Remains", "Nothing Shakes the Water", "Steady in the Storm's Eye", "After the Strike", "Composed", "The Long Exhale"]
+
+🌀 Let the moment pass. Keep the quiet.
+🍃 Stay steady. Stay present. Then the next breath.
+
+Subscribe for more Japanese ambient meditation journeys 🌿
+```
+
+---
+
+## §9 — Tags (Hikari formula — verify VidIQ scores before upload, total < 450 chars)
+
+```
+stillwave, japanese zen music, meditation music, zen music, calm music, relaxing music, sleep music, ambient music, focus music, healing music, background music, asian relaxing music, shakuhachi flute music, koto music, zanshin, japanese mind state, samurai meditation, budo meditation, japanese meditation music, mindfulness music, stress relief music, music for anxiety and calm, evening relaxation, lone samurai standing still in a misty dawn dojo with warm light, joe hisaishi
+```
+
+---
+
+## §10 — Thumbnail
+
+- **Background:** §3 primary image (samurai + dawn light beam). Image IS the thumbnail.
+- **残心 (KANJI):** LARGE, deep sumi-ink black, upper-center over the warm light hero (Kanji-Concept spec) — OR our left-aligned style (残心 upper-left, ROMAJI lower-left) if it reads stronger over this composition; test both.
+- **ZANSHIN (ROMAJI):** cream `#F5EAD2`, Liberation Serif Bold, below/under the kanji.
+- No tag/duration text. Lower-right kept clear for logo.
+- Compose with a PIL script (adapt `mizu-2h-compose-thumb.py`) once the image is picked.
+
+---
+
+## §11 — Pinned Comment
+
+```
+🌀 ZANSHIN (残心) — the mind that remains.
+
+In the martial arts it's the calm awareness that stays after the strike —
+guard never dropped, breath still even.
+
+Off the mat, it's how we stay steady after a hard day.
+
+What helps you keep your inner quiet under pressure? Share below 👇
+
+If this session helped — subscribe. New journeys every week 🌿
+```
+
+---
+
+## §12 — Community Post (day-of, 4–6h before publish; reuse for the concept Short)
+
+```
+ZANSHIN (残心) in Japanese Culture: A Concise Overview
+
+ZANSHIN (残心) means "the remaining mind." In kendō, kyūdō, and aikidō it names the state of relaxed, complete awareness that continues after the strike is finished, the arrow loosed, the throw complete — the warrior never drops their guard, never lets the mind scatter. It is not tension; it is composure that outlasts the moment. Off the dōjō floor, zanshin is the quiet resilience that lets a person stay present and steady after a hard day, keeping their inner stillness while the pressure passes. As the Zen saying goes, 平常心是道 — "the ordinary, steady mind is the Way."
+```
+
+Image: the long-form thumbnail.
+
+---
+
+## §14 — Shorts (cross-promo + concept)
+
+**Teaser Short** (funnel): §3b vertical + Flow loop, WHITE titles top, ~40s. Hook → 残心 ZANSHIN → "the calm that stays after the moment" → CTA. Title: `The Samurai Secret to Staying Calm Under Pressure 🌀 #shorts`.
+
+**Concept Short** (search lane — build via `concept-shorts-build.py` once frames exist): teaches ZANSHIN from the §12 essay. Title: `What Is Zanshin? 残心 The Mind That Remains 🌀 #shorts`. Tags: `zanshin, zanshin meaning, japanese philosophy, kendo, budo, samurai mindset, staying calm, japanese culture, zen, stillwave`.
+
+Both: Related video → long-form · Playlist **StillWave Shorts — Japanese Zen & Frequencies** · Not for kids · Scheduled.
