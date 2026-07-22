@@ -396,8 +396,38 @@ Image: the long-form thumbnail.
 
 ## §14 — Shorts (cross-promo + concept)
 
-**Teaser Short** (funnel): §3b vertical + Flow loop, WHITE titles top, ~40s. Hook → 残心 ZANSHIN → "the calm that stays after the moment" → CTA. Title: `The Samurai Secret to Staying Calm Under Pressure 🌀 #shorts`.
+> **AS-BUILT (2026-07-21):** ZANSHIN concept Short = `zanshin-concept-short-40s.mp4` (40s, 6 frames, young samurai, jitter-free Ken Burns, **残心 + ZANSHIN in Japanese brush calligraphy — Yuji Boku** on the dramatic tiger-mural reveal frame, white titles top, silent). Add music at upload (recommend "The Mind That Remains" or "The Tiger Rests").
 
-**Concept Short** (search lane — build via `concept-shorts-build.py` once frames exist): teaches ZANSHIN from the §12 essay. Title: `What Is Zanshin? 残心 The Mind That Remains 🌀 #shorts`. Tags: `zanshin, zanshin meaning, japanese philosophy, kendo, budo, samurai mindset, staying calm, japanese culture, zen, stillwave`.
+### Concept Short — SEO pack (copy-paste)
 
-Both: Related video → long-form · Playlist **StillWave Shorts — Japanese Zen & Frequencies** · Not for kids · Scheduled.
+**Title (≤60):**
+```
+What Is Zanshin? The Samurai Secret to Staying Calm 🌀 #shorts
+```
+A/B: `残心 ZANSHIN — The Warrior's Mind That Never Drops #shorts`
+
+**Description:**
+```
+ZANSHIN (残心) — "the mind that remains." In the martial arts it's the calm, complete awareness that stays after the strike: guard never dropped, breath still even. Off the mat, it's how we stay steady after a hard day.
+
+Full 2-hour ZANSHIN zen session on the channel 🌿
+▶ [long-form link]
+
+#shorts #zanshin #samurai #japanesephilosophy #zen #meditation
+```
+
+**Tags:**
+```
+zanshin, what is zanshin, zanshin meaning, samurai mindset, japanese philosophy, staying calm under pressure, budo, kendo, japanese zen, meditation, calm awareness, samurai meditation, japanese culture, mushin, stillwave
+```
+
+**Hashtags:** `#shorts #zanshin #samurai #japanesephilosophy #zen #meditation #budo`
+
+**Pinned:**
+```
+🌀 残心 ZANSHIN — the mind that remains. Guard never dropped, breath still even. The full 2-hour session is on the channel 🌿
+```
+
+**Upload:** Related video → long-form · Playlist **StillWave Shorts — Japanese Zen & Frequencies** · Not for kids · Scheduled, day after the long-form.
+
+**🇷🇺** Концепт-Short собран (40с, каллиграфия Yuji Boku на тигре, молодой самурай). Музыку добавить при заливке («The Mind That Remains» / «The Tiger Rests»). Related video → лонг, плейлист Shorts, Not for kids.
