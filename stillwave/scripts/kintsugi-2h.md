@@ -212,9 +212,10 @@ Photorealistic extreme macro, vertical 9:16. Dark charcoal-black ceramic surface
 ## §4 — Flow / Kling prompt (16:9 long-form loop)
 
 ```
-Camera fully locked, no movement. Seamless loop. The golden seam gently breathes with light — a soft warm highlight slowly drifts along the gold and fades, as if candlelight flickers across it. Faint shimmer on the gold only. Everything else perfectly still — the ceramic, the surface, the background. Slow, warm, meditative, hypnotic. No particles, no camera motion. Last frame matches the first frame exactly for a perfect loop.
+Camera fully locked, no camera movement, no zoom. Seamless loop. The molten gold inside the seam looks alive and liquid — its surface gently shimmers and undulates in place, with tiny caustic glints slowly appearing and dissolving all along the gold at once. A soft warm glow swells and fades evenly over the entire seam, like breathing embers, never a single point of light travelling along it. The dark ceramic and everything else stay perfectly still. Extremely slow, warm, hypnotic, meditative, very low motion. Last frame matches the first frame exactly for a perfect loop.
 ```
-> 🔒 Long-form loop keeps the seam calm (light breathing across the gold) — do NOT animate the gold actively flowing/filling here (it completes and can't loop cleanly). Active flow lives in the Short (§14). No airborne particles.
+> 🔒 Long-form loop keeps the seam calm — the gold **shimmers/breathes IN PLACE**, do NOT let a highlight travel along the seam (reads as a running spark, not molten gold) and do NOT actively flow/fill (completes, can't loop). Set the tool's motion strength to MINIMUM. Active flow lives in the Short (§14). No airborne particles.
+> ⚠️ **Lesson 2026-07-23:** the earlier "highlight drifts along the gold" wording produced a *travelling firefly* along the seam. Fixed by describing an even in-place molten shimmer instead.
 **🇷🇺** Лонг-луп: золото «дышит» светом (тёплый блик медленно скользит по шву и гаснет), лёгкое мерцание. Активное течение золота НЕ здесь (оно завершается — плохо лупится), а в Shorts (§14). Всё остальное неподвижно, бесшовный луп.
 
 ---
