@@ -180,42 +180,42 @@ LYRICS:
 
 ---
 
-## §3 — NanoBanana 16:9 (PRIMARY)
+## §3 — NanoBanana 16:9 (PRIMARY) — MACRO GOLDEN SEAM "delta" (1B, locked 2026-07-23)
+
+> **Direction change:** the old "bowl in a tearoom" look was dropped (didn't land + too close to WABI SABI). KINTSUGI now leans hard into its own visual language — **extreme macro of living gold in the crack**, dark-and-gold only, no recognizable "bowl scene." Gold = hero; healing/transformation = motion. That's what separates it from WABI SABI.
 
 ```
-Photorealistic cinematic still life, a dark quiet Japanese tearoom. A single broken chawan tea bowl, mended with kintsugi — bright molten-gold seams running through the dark ceramic where it was repaired, the gold catching one warm candle light. The bowl sits right-of-center on a weathered wooden surface, deep shadow around it, a thin wisp of warmth in the air. The glowing gold cracks are the visual hero. Warm gold-on-black palette, one warm light source, everything else muted and dark. Shallow depth of field. Keep the lower-left corner dark, empty negative space for a text overlay; keep the bottom-right corner calm, dark, low-detail (logo placement). No people, no text, no letters, no watermark. 4K, cinematic.
+Photorealistic extreme macro, cinematic still. Dark charcoal-black raku ceramic surface, matte, fine clay texture. Three fine cracks meet at one junction, all filled with glowing molten-looking gold that pools slightly where they join — like a golden river delta on black stone. Real gold texture, softly raised, catching warm directional light from the upper-right. Razor focus on the junction, the rest falling into deep dark bokeh. Warm low-key single-source lighting. Palette: near-black and molten gold only, nothing else. Mood: sacred, still, precious. Keep the lower-left corner as dark, empty negative space for a text overlay — no bright objects or busy detail in the bottom-left third. Keep the bottom-right corner as calm, dark, low-detail space — no bright detail there (logo placement). No people, no text, no letters, no watermark. 4K.
 ```
 
-**Alt — master's hands:** add `a craftsman's hands seen from over the shoulder, brushing gold lacquer along a crack` (hands only, face never visible).
-**🇷🇺** Кадр: тёмная чайная комната, разбитая пиала, склеенная золотом (кинцуги) — золотые швы светятся в тёплом свете свечи, они и есть герой. Золото на чёрном, один тёплый источник. Углы: слева-низ тёмный под текст, справа-низ под лого. Альт — руки мастера с кистью и золотым лаком (только руки).
+**Alt framings if the delta doesn't land (generate & pick):**
+- **1a single seam:** `Photorealistic extreme macro, cinematic still. Dark charcoal-black raku ceramic, matte. A single kintsugi repair seam of molten-looking gold runs diagonally across the frame, slightly raised, glowing warm amber-gold, with a few fine hairline gold branches. Razor focus on the seam, deep dark bokeh. Warm low-key light from upper-right. Palette: near-black and gold only. Keep the lower-left corner dark and empty for a text overlay. Keep the bottom-right corner calm, dark, low-detail (logo). No text, no letters, no watermark. 4K.`
+- **1c seam over rim:** `Photorealistic macro, cinematic. The curved rim of a dark charcoal-black tea bowl fills the lower half of the frame; a single glowing gold kintsugi seam runs up and over the rim. Deep dark bokeh, warm low-key light from upper-right. Palette near-black and gold. Keep the lower-left corner dark and empty for a text overlay. Keep the bottom-right corner calm and dark (logo). No text, no letters, no watermark. 4K.`
 
-## §3b — NanoBanana 9:16 (Shorts)
+**🇷🇺** Сменили направление: старая «пиала в чайной» ушла (не зашла + близко к WABI SABI). Теперь KINTSUGI = **экстремальное макро живого золота в трещине**, только чёрное + золото. 1B = стык трёх трещин, золото собирается в «дельту», razor-focus на стыке. Углы: слева-низ под текст, справа-низ под лого. Альты 1a/1c — если дельта не выйдет.
+
+## §3b — NanoBanana 9:16 (Shorts — mid-repair macro)
 
 ```
-Photorealistic cinematic vertical still, a dark quiet Japanese tearoom, a single broken chawan tea bowl mended with kintsugi — bright molten-gold seams glowing through dark ceramic in one warm candle light, deep shadow around, the gold cracks the hero. Warm gold-on-black palette. No people, no text, no letters, no watermark. 4K.
+Photorealistic extreme macro, vertical 9:16. Dark charcoal-black ceramic surface, fine clay texture. A single kintsugi crack runs vertically down the frame — the upper part still a bare dark fracture, the lower part already filled with glowing molten gold, mid-repair. Real gold texture, softly raised, warm amber glow against near-black. Shallow depth of field, warm low-key light from the upper-right. Palette: near-black and gold only. No text, no letters, no watermark. 4K.
 ```
+**🇷🇺** Вертикаль под Short: одна трещина сверху вниз — верх ещё пустой, низ уже залит золотом (момент починки). Угол под лого в 9:16 не резервируем.
 
-## §3c — Shorts image set (9:16 — 6 frames)
+## §3c — Shorts = MOTION transformation (NOT a still-sequence)
 
-Generate all 6, save `kintsugi-shorts-fr1.jpg … fr6.jpg`. No in-image text; keep bottom-right calm for logo. Frame 4 = calm/empty for the kanji overlay.
-**🇷🇺** 6 вертикальных кадров под Short; кадр 4 — под иероглиф 金継ぎ.
+> **Format change (2026-07-23):** KINTSUGI's Short is a **real animated macro** of gold flowing into the crack — NOT the 6-frame Ken-Burns still-sequence used for WABI SABI / MIZU / ZANSHIN. We deliberately break the repeated concept-Short format here (user: "we already have that for WABI SABI, we don't need identical content"). Build = one Kling/Flow clip (see §14), YouTube loops it. No `concept-shorts-build.py` for this one.
 
-1. **HOOK — broken shards:** `Photorealistic cinematic vertical still, sharp broken shards of a dark ceramic bowl scattered on dark weathered wood, one warm light, deep shadow, before repair. No text, no watermark. 4K.`
-2. **hands + gold brush:** `Photorealistic cinematic vertical close-up, a craftsman's hands (face never visible) brushing bright gold lacquer along a crack in a dark bowl, warm candle light, deep shadow. No text, no watermark. 4K.`
-3. **seam macro:** `Photorealistic cinematic vertical macro of a single glowing molten-gold kintsugi seam running through dark ceramic, one warm light catching the gold, deep shadow. No text, no watermark. 4K.`
-4. **KANJI frame — bowl in void:** `Photorealistic cinematic vertical still, a single kintsugi-mended bowl small and centered in the lower frame in a vast dark space, gold seams glowing, the upper half calm black empty space. No text, no watermark. 4K.`
-5. **the mended bowl whole:** `Photorealistic cinematic vertical still, the finished kintsugi bowl held in soft warm light, gold seams beautiful and whole, dark background. No text, no watermark. 4K.`
-6. **tea poured in:** `Photorealistic cinematic vertical still, warm tea being poured into the gold-mended bowl, steam rising softly, warm candle light, dark tearoom. No text, no watermark. 4K.`
+**🇷🇺** Формат Short сменён: это **живое макро-видео** втекающего золота, а НЕ набор из 6 стиллов (как в WABI SABI/MIZU/ZANSHIN). Намеренно не повторяем тот формат. Сборка — один клип Kling/Flow (§14), YouTube крутит по кругу.
 
 ---
 
-## §4 — Flow / Kling prompt (16:9 loop)
+## §4 — Flow / Kling prompt (16:9 long-form loop)
 
 ```
-Camera locked, static. Seamless loop. Animate ONLY: (1) the warm candle light very slowly flickering, making the gold seams shimmer and glow softly; (2) a thin wisp of warmth / faint steam drifting slowly upward and dissipating; (3) very subtle warm-light intensity shift. Everything else perfectly still — bowl, surface, background. Slow, warm, meditative. Last frame matches first frame exactly for a perfect loop.
+Camera fully locked, no movement. Seamless loop. The golden seam gently breathes with light — a soft warm highlight slowly drifts along the gold and fades, as if candlelight flickers across it. Faint shimmer on the gold only. Everything else perfectly still — the ceramic, the surface, the background. Slow, warm, meditative, hypnotic. No particles, no camera motion. Last frame matches the first frame exactly for a perfect loop.
 ```
-> 🔒 NO smoke touching the bowl (WABI SABI lesson — smoke attaches badly). Keep any wisp thin and away from the bowl. No airborne particles.
-**🇷🇉** В лупе: свеча медленно мерцает → золото переливается; тонкая струйка тепла/пара вверх (НЕ касается пиалы — урок WABI SABI); лёгкий сдвиг света. Остальное неподвижно.
+> 🔒 Long-form loop keeps the seam calm (light breathing across the gold) — do NOT animate the gold actively flowing/filling here (it completes and can't loop cleanly). Active flow lives in the Short (§14). No airborne particles.
+**🇷🇺** Лонг-луп: золото «дышит» светом (тёплый блик медленно скользит по шву и гаснет), лёгкое мерцание. Активное течение золота НЕ здесь (оно завершается — плохо лупится), а в Shorts (§14). Всё остальное неподвижно, бесшовный луп.
 
 ---
 
@@ -333,6 +333,28 @@ KINTSUGI (金継ぎ) in Japanese Culture: A Concise Overview
 KINTSUGI (金継ぎ, "golden joinery") is the Japanese art of repairing broken pottery with urushi lacquer dusted or mixed with powdered gold. Rooted in the wabi-sabi aesthetic, it refuses to disguise damage: the cracks are traced in shining gold and become the most treasured feature of the piece, a visible record of its history. The philosophy reaches far beyond ceramics — it teaches that breakage and repair are part of an object's life, not something to be ashamed of, and that what has been wounded and mended can be more beautiful, and more valuable, than what was never broken.
 ```
 
-## §14 — Shorts (concept + teaser)
+## §14 — Shorts (MOTION transformation — the differentiator)
 
-**Concept Short** (build via `concept-shorts-build.py` once frames exist — add a `kintsugi` config): teaches KINTSUGI from §12. **Title:** `What Is Kintsugi? The Japanese Art of Golden Repair 🌿 #shorts`. **Tags:** `kintsugi, what is kintsugi, kintsugi meaning, japanese art, healing, wabi sabi, japanese philosophy, letting go, zen, stillwave`. **Pinned:** `🌀 金継ぎ KINTSUGI — the break filled with gold. Full 2-hour session on the channel 🌿`. Related video → long-form · StillWave Shorts playlist · Not for kids.
+**Format:** a single animated macro clip (~30–40s), NOT a Ken-Burns still-sequence. This is the deliberate break from the WABI SABI / MIZU / ZANSHIN concept-Short format (user: don't repeat identical content). The **gold flowing into the crack** IS the hook — mesmerizing, ASMR, scroll-stop. YouTube auto-loops it; loop point = finished gold seam fades to a bare dark crack again = the eternal cycle of breaking & mending.
+
+**Kling / Flow prompt (9:16, the money shot):**
+```
+Camera locked. Extreme macro of a dark charcoal-black ceramic surface with a single fracture. Molten liquid gold slowly flows into the dark crack, filling the fracture line from top to bottom, then settles and hardens into a glowing golden seam as the warm light gently intensifies. Slow, mesmerizing, ASMR-like. No other motion, no particles, no camera movement.
+```
+Start frame = §3b (mid-repair macro). ~30–40s. Optional: at the end, slow fade to darkness and back to the bare crack so the loop reads as an endless repair.
+
+**Text overlay (white, minimal, appears after the hook lands ~0:03):**
+- Line 1 (hook): `Broken. Then filled with gold.`
+- Line 2 (concept): `金継ぎ KINTSUGI`
+- Line 3 (wisdom, near end): `The scar is the most beautiful part.`
+
+**Title:** `Broken, Then Filled With Gold — 金継ぎ Kintsugi 🌿 #shorts`
+**A/B Title:** `The Japanese Art of Golden Repair — Kintsugi 🌿 #shorts`
+**Description:** `金継ぎ Kintsugi — the Japanese art of mending what broke with gold, so the scar becomes the most beautiful part. Full 2-hour Japanese zen session on the channel 🌿`
+**Tags:** `kintsugi, what is kintsugi, kintsugi meaning, golden repair, japanese art, healing, embracing scars, wabi sabi, japanese philosophy, letting go, zen, satisfying, asmr, stillwave`
+**Hashtags:** `#kintsugi #healing #zen #japanese #satisfying #asmr #shorts`
+**Pinned:** `🌀 金継ぎ KINTSUGI — the break filled with gold, honored not hidden. Full 2-hour session on the channel 🌿`
+
+Related video → long-form · StillWave Shorts playlist · Not for kids · Music/genre word not needed (Short).
+
+**🇷🇺** Short = один живой макро-клип (~30–40с) с втекающим золотом, НЕ слайд-шоу. Это и есть отличие от WABI SABI/MIZU/ZANSHIN — не повторяем формат. YouTube крутит по кругу; в конце золото гаснет и трещина снова пустая = вечный цикл починки. Стартовый кадр — §3b. Текст-оверлеи появляются после 0:03 (первые 3с — только картинка+звук, правило ретеншена).
