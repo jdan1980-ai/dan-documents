@@ -16,8 +16,8 @@ ImageDraw.Draw(veil).ellipse((-W*0.35, H*0.30, W*0.60, H*1.35), fill=(0, 0, 0, 1
 img = Image.alpha_composite(img.convert("RGBA"), veil.filter(ImageFilter.GaussianBlur(80))).convert("RGB")
 
 kanji = ImageFont.truetype(FONT, 188)
-romaji = ImageFont.truetype(FONT, 78)
-x0, y0 = 70, int(H * 0.50)
+romaji = ImageFont.truetype(FONT, 96)
+x0, y0 = 70, int(H * 0.44)
 
 # --- kanji into a mask, packed tight by ink width (kills the brush font's ぎ gap) ---
 mask = Image.new("L", (W, H), 0)
@@ -55,7 +55,7 @@ img = Image.alpha_composite(img.convert("RGBA"), glow).convert("RGB")
 img.paste(grad, (0, 0), mask)
 
 # romaji — cream, left-aligned under the kanji
-ImageDraw.Draw(img).text((x0 + 6, y0 + 214), "KINTSUGI", font=romaji, fill=CREAM)
+ImageDraw.Draw(img).text((x0 + 6, y0 + 210), "KINTSUGI", font=romaji, fill=CREAM)
 
 img.save(OUT, quality=94)
 print("saved", OUT, img.size)
