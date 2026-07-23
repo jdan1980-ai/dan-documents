@@ -11,25 +11,25 @@ CREAM = (245, 234, 210)
 img = Image.open(SRC).convert("RGB")
 W, H = img.size
 
-# darken the LEFT zone (where text goes) so gold text reads; leave the gold delta on the right untouched
+# darken the LOWER-LEFT zone (where text goes, under the seam) so gold text reads
 veil = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-ImageDraw.Draw(veil).ellipse((-W*0.30, -H*0.20, W*0.62, H*1.20), fill=(0, 0, 0, 120))
+ImageDraw.Draw(veil).ellipse((-W*0.35, H*0.30, W*0.60, H*1.35), fill=(0, 0, 0, 125))
 img = Image.alpha_composite(img.convert("RGBA"), veil.filter(ImageFilter.GaussianBlur(80))).convert("RGB")
 
 d = ImageDraw.Draw(img)
 
-kanji = ImageFont.truetype(FONT, 200)
-romaji = ImageFont.truetype(FONT, 82)
+kanji = ImageFont.truetype(FONT, 188)
+romaji = ImageFont.truetype(FONT, 78)
 
-# kanji drawn glyph-by-glyph at a fixed pitch (fixes the brush font's uneven advance, esp. ぎ)
+# kanji glyph-by-glyph at fixed pitch, in the LOWER-LEFT under the seam
 chars = ["金", "継", "ぎ"]
-pitch = 196
-x0, y0 = 72, int(H*0.13)
+pitch = 184
+x0, y0 = 70, int(H*0.50)
 for i, ch in enumerate(chars):
     d.text((x0 + i*pitch, y0), ch, font=kanji, fill=GOLD)
 
 # romaji left-aligned under the kanji block
-d.text((x0 + 6, y0 + 232), "KINTSUGI", font=romaji, fill=CREAM)
+d.text((x0 + 6, y0 + 214), "KINTSUGI", font=romaji, fill=CREAM)
 
 img.save(OUT, quality=94)
 print("saved", OUT, img.size)
