@@ -8,7 +8,7 @@
 - **Length:** target ≤ 2:00:00 (~36 mastered tracks; generate ~40, trim, keep calmest)
 - **Aesthetic:** Intimate still life — a dark tearoom, a single broken chawan mended with glowing GOLD seams catching one warm light. The gold cracks ARE the hero. (Distinct from WABI SABI's wider concept: KINTSUGI is the golden-repair art itself, framed as personal healing.)
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Status:** 🚧 IN PRODUCTION (package created 2026-07-21)
+- **Status:** 🚧 IN PRODUCTION — audio DONE (35 tracks mastered + ordered + named, 1:58:50, 2026-07-23). Pending: build video in CapCut (long-form calm loop of finished bowl + Shorts transformation), wisdom overlay, thumbnail, upload.
 - **Concept note:** KINTSUGI (金継ぎ, "golden joinery") repairs broken pottery with lacquer and gold — the break is not hidden but honored as the most beautiful part of the object's story. Framed for StillWave as **personal healing**: our scars are where the light gets in; what broke us can become the most golden part of who we are.
   - **🇷🇺** KINTSUGI (金継ぎ, «золотая починка») — ремонт разбитой керамики лаком и золотом: трещину не прячут, а делают самой красивой частью истории вещи. Для канала — метафора **личного исцеления**: наши шрамы там, где входит свет; то, что нас сломало, может стать самым золотым в нас.
 
@@ -174,7 +174,9 @@ LYRICS:
 
 ## §2 — Mastering
 
-`master-album.py` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) → `Suno-Kintsugi-mastered`, then `tracklist-timestamps.py`. Trim loudest/peakiest to keep the calmest ~36 (MIZU lesson).
+`master-album.py` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) → `Suno-KINTSUGI-mastered`, then `tracklist-timestamps.py`. Trim loudest/peakiest to keep the calmest set (MIZU lesson).
+
+**AS-BUILT (2026-07-23):** 36 tracks generated & mastered (all clean, 0 clipped, input −13.5…−15.5 LUFS). Dropped the loudest/peakiest (`KINTSUGI  V3.wav`, −13.5 LUFS / TP −1.2) to fit the 2H cap. **Final = 35 tracks, TOTAL 1:58:50.** Reordered anti-Content-ID (interleaved so no two adjacent tracks share the same Suno base-variant / opening) and renamed `01 - … 35 -` — that play order is what §8 timestamps below reflect.
 
 ---
 
@@ -249,8 +251,43 @@ It is filled with gold, and honored.
 
 A candle burns low in a quiet tearoom. A broken bowl is mended not to hide the cracks, but to trace them in gold — the repair more beautiful than the unbroken thing. What broke you is not the end of your story. It can become the most golden part of it.
 
-Tracklist:
-[added after mastering — mood-poetic names, arc broken → mended → whole]
+🎵 Tracklist
+
+0:00 The Vessel Before
+3:29 A Single Crack
+6:32 The Bowl Falls Silent
+9:49 Pieces on the Floor
+13:18 Gathering the Shards
+16:51 What Was Broken
+20:15 The First Fracture Line
+23:54 Dust of Old Clay
+27:09 Holding the Fragments
+30:19 The Master's Hands
+33:49 Lacquer and Patience
+36:28 Mixing the Gold
+40:12 The First Golden Seam
+43:06 Gold Finds the Crack
+46:25 Rivers of Light
+49:43 Warmth Along the Break
+53:06 The Seam Glows
+57:11 Slowly, It Holds
+1:00:26 Gold Settles In
+1:03:49 The Wound Becomes Light
+1:07:11 Every Scar a Vein
+1:10:11 The Break Turns Beautiful
+1:13:40 Where It Was Broken, Gold
+1:17:30 The Vessel Remembers
+1:21:18 Made Whole Again
+1:24:21 Stronger at the Seam
+1:27:40 The Bowl Returns
+1:31:04 Tea Poured Once More
+1:34:23 Steam Over Gold
+1:37:53 Held in Both Hands
+1:41:12 The First Quiet Sip
+1:44:55 Nothing Is Wasted
+1:48:09 The Scar Is the Story
+1:52:11 More Beautiful for the Break
+1:55:30 Whole, and Golden
 
 🌀 Fill the cracks with gold.
 🍃 What broke you can become your light.
