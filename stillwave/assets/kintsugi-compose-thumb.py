@@ -19,14 +19,18 @@ kanji = ImageFont.truetype(FONT, 188)
 romaji = ImageFont.truetype(FONT, 96)
 x0, y0 = 70, int(H * 0.44)
 
-# --- kanji into a mask, packed tight by ink width (kills the brush font's ぎ gap) ---
+# --- kanji into a mask, placed at EVEN GLYPH CENTERS (uniform visual rhythm) ---
 mask = Image.new("L", (W, H), 0)
 md = ImageDraw.Draw(mask)
-cursor, gap = x0, 30
-for ch in ["金", "継", "ぎ"]:
+chars = ["金", "継", "ぎ"]
+pitch = 184
+nudge = {2: -10}  # pull ぎ slightly tighter
+l0, _, r0, _ = kanji.getbbox(chars[0])
+c0 = x0 + (r0 - l0) / 2  # first glyph's ink left edge sits at x0
+for i, ch in enumerate(chars):
     l, t, r, b = kanji.getbbox(ch)
-    md.text((cursor - l, y0), ch, font=kanji, fill=255)
-    cursor += (r - l) + gap
+    cx = c0 + i * pitch + nudge.get(i, 0)
+    md.text((cx - (l + (r - l) / 2), y0), ch, font=kanji, fill=255)
 
 # --- molten-gold vertical gradient (like the seam: hot core, amber, deep bronze) ---
 stops = [(0.00, (255, 240, 186)), (0.35, (240, 205, 112)),
