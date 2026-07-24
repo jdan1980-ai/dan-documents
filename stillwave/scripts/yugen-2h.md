@@ -20,9 +20,9 @@
 
 ---
 
-## §1 — Suno prompts (8 copy-paste variants — deep, mysterious, maximally calm & meditative)
+## §1 — Suno prompts (10 copy-paste variants — deep, mysterious, maximally calm & meditative)
 
-Batch names: `YUGEN` … `YUGEN 8`. Different opening each. ~5 per variant (~40), keep calmest ~36, interleave 1–8. All variants are **as slow, spacious and meditative as possible** — deep sleep-friendly zen ambient.
+Batch names: `YUGEN` … `YUGEN 10`. Different opening each (10 distinct intros). ~4 per variant (~40), keep calmest ~36, interleave 1–10. All variants are **as slow, spacious and meditative as possible** — deep sleep-friendly zen ambient.
 
 **🇷🇺 Звук:** глубокий, таинственный, максимально просторный и медитативный эмбиент — низкие дроны, далёкая сякухати, редкие koto с длинным ревербом, ощущение бездонной глубины, эфирность; много воздуха и тишины. STYLE → Style, LYRICS → Lyrics.
 
@@ -168,6 +168,42 @@ LYRICS:
 [loop point: the drone fades back into vast silence and one slow breath, ready to begin again]
 [mood: the deepest hush before night, the world dissolving into fog and moonlight]
 [texture: vast faint air, deep drone, distant shakuhachi, reverberant koto, immense stillness]
+```
+
+### Variant 9 — YUGEN 9 (low-bowed-string-led)
+
+STYLE:
+```
+Deep mysterious Japanese zen ambient, vast and spacious, extremely slow. Opens with a low bowed string like a cello drawing one long dark note that swells and fades, then a deep fog-drone rises beneath, a distant haunting shakuhachi, sparse koto dissolving in reverb, faint moonlit shimmer. 43 BPM, immense depth, profound, mysterious, sleep-friendly. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: a low bowed string draws one long dark note, swelling and fading slowly in vast space for several seconds]
+[section A: a deep fog-drone rises beneath, a far haunting shakuhachi drifts in]
+[section B: sparse koto notes dissolve in immense reverb, a faint moonlit shimmer above]
+[section C: everything floats in vast mysterious depth, the bowed note long faded]
+[loop point: the drone and a last low bow fade into deep silence, ready to begin again]
+[mood: dusk deepening over a fog-drowned valley, a single low tone hanging in the mist]
+[texture: low bowed string, deep drone, distant shakuhachi, reverberant koto, moonlit shimmer]
+```
+
+### Variant 10 — YUGEN 10 (distant wind-bell / fūrin-led)
+
+STYLE:
+```
+Deep mysterious Japanese zen ambient, vast and ethereal, extremely slow. Opens with a single faint far-off wind-bell (fūrin) chime dissolving into immense reverb, then a deep low fog-drone, a very distant shakuhachi, sparse koto far away, ethereal shimmer high above. 42 BPM, immense weightless depth, profound and still, mysterious. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: a single faint far-off wind-bell chime, tiny and metallic, dissolving into vast reverb, alone in deep space]
+[section A: a deep low fog-drone rises beneath, a very distant shakuhachi breath drifts in]
+[section B: sparse koto notes dissolve in immense reverb, ethereal shimmer drifting high]
+[section C: everything floats in vast mysterious calm, the chime long gone, the drone vast]
+[loop point: the shimmer and drone fade into deep silence, ready to begin again]
+[mood: a wind-bell ringing once somewhere unseen in the fog, the sound vanishing into depth]
+[texture: faint wind-bell, deep drone, distant shakuhachi, reverberant koto, moonlit shimmer]
 ```
 
 ---
