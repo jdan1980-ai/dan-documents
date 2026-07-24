@@ -336,7 +336,10 @@ KINTSUGI (金継ぎ, "golden joinery") is the Japanese art of repairing broken p
 
 ## §14 — Shorts (MOTION transformation — the differentiator)
 
-**Format:** a single animated macro clip (~30–40s), NOT a Ken-Burns still-sequence. This is the deliberate break from the WABI SABI / MIZU / ZANSHIN concept-Short format (user: don't repeat identical content). The **gold flowing into the crack** IS the hook — mesmerizing, ASMR, scroll-stop. YouTube auto-loops it; loop point = finished gold seam fades to a bare dark crack again = the eternal cycle of breaking & mending.
+**Format:** a single animated macro clip, NOT a Ken-Burns still-sequence. This is the deliberate break from the WABI SABI / MIZU / ZANSHIN concept-Short format (user: don't repeat identical content). The **gold flowing into the crack** IS the hook — mesmerizing, ASMR, scroll-stop. YouTube auto-loops it; loop point = finished gold seam dims to darkness → a bare dark crack again = the eternal cycle of breaking & mending.
+
+> **AS-BUILT (2026-07-23) — macro-only, locked:** empty dark crack (BEFORE) → molten gold rises and fills the fracture upward → hold on the full glowing golden seam (AFTER) → dim to dark for a clean loop. ~16s (Veo/Flow, 2× 8s: fill, then settle+dim).
+> **✂️ Rejected: the "pull back to reveal the whole bowl" ending.** AI can't reproduce the *exact same crack* we animated, so every full-bowl gen reads as a different object → the cut breaks continuity ("всё не то"). Staying in the single macro shot keeps perfect continuity and hits just as hard. Don't reintroduce a bowl reveal.
 
 **Kling / Flow prompt (9:16, the money shot):**
 ```
