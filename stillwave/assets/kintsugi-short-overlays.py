@@ -86,6 +86,13 @@ draw_gold_kanji(concept,["金","継","ぎ"],158,X,1230,150)
 draw_text(concept,"KINTSUGI",72,X+4,1452,CREAM,ls=3)
 concept.save(f"{OUT}/ov_concept.png")
 
+# ---- video beat: proverb 七転び八起き (resilience) ----
+proverb=new()
+scrim(proverb,1190,1590)
+draw_gold_kanji(proverb,["七","転","び","八","起","き"],86,X,1250,84)
+draw_text(proverb,"Fall seven, rise eight",44,X+4,1452,SUBGOLD,ls=1)
+proverb.save(f"{OUT}/ov_proverb.png")
+
 # ---- AFTER still (video frame, unused now): wisdom 傷も景色 + sub ----
 wisdom=new()
 scrim(wisdom,1280,1620)
