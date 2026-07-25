@@ -57,24 +57,25 @@ def draw_text(img, text, size, x, y, fill, ls=0):
     else:
         d.text((x,y),text,font=f,fill=fill)
 
+# raised into the y~1300-1550 band, sized to clear the central seam (left zone ~500px)
 # ---- beat 1: hook (cream, 3 lines) ----
 hook=new()
 d=ImageDraw.Draw(hook)
-hf=ImageFont.truetype(FONT,90)
+hf=ImageFont.truetype(FONT,84)
 for i,line in enumerate(["Broken.","Then filled","with gold."]):
-    d.text((130,1360+i*112),line,font=hf,fill=CREAM)
+    d.text((118,1240+i*104),line,font=hf,fill=CREAM)
 hook.save(f"{OUT}/ov_hook.png")
 
 # ---- beat 2: concept 金継ぎ + KINTSUGI ----
 concept=new()
-draw_gold_kanji(concept,["金","継","ぎ"],168,130,1980,166)
-draw_text(concept,"KINTSUGI",92,134,2200,CREAM,ls=6)
+draw_gold_kanji(concept,["金","継","ぎ"],130,118,1320,130)
+draw_text(concept,"KINTSUGI",66,122,1520,CREAM,ls=5)
 concept.save(f"{OUT}/ov_concept.png")
 
 # ---- beat 3: wisdom 傷も景色 + sub ----
 wisdom=new()
-draw_gold_kanji(wisdom,["傷","も","景","色"],130,130,1980,132)
-draw_text(wisdom,"Even the scar is scenery",50,134,2150,SUBGOLD,ls=1)
+draw_gold_kanji(wisdom,["傷","も","景","色"],96,118,1340,96)
+draw_text(wisdom,"Even the scar is scenery",34,122,1516,SUBGOLD,ls=1)
 wisdom.save(f"{OUT}/ov_wisdom.png")
 
 print("overlays saved to", OUT)
