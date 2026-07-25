@@ -79,11 +79,11 @@ for i,line in enumerate(["Then filled","with gold."]):
     d.text((X,1372+i*110),line,font=ff,fill=CREAM)
 filled.save(f"{OUT}/ov_filled.png")
 
-# ---- video beat B: concept 金継ぎ + KINTSUGI (big) ----
+# ---- video beat B: concept 金継ぎ + KINTSUGI (big) — raised so KINTSUGI's tail sits on dark ceramic ----
 concept=new()
-scrim(concept,1280,1680)
-draw_gold_kanji(concept,["金","継","ぎ"],158,X,1320,150)
-draw_text(concept,"KINTSUGI",74,X+4,1544,CREAM,ls=4)
+scrim(concept,1190,1590)
+draw_gold_kanji(concept,["金","継","ぎ"],158,X,1230,150)
+draw_text(concept,"KINTSUGI",72,X+4,1452,CREAM,ls=3)
 concept.save(f"{OUT}/ov_concept.png")
 
 # ---- AFTER still (video frame, unused now): wisdom 傷も景色 + sub ----
