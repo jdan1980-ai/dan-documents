@@ -25,6 +25,12 @@ def gold_gradient(H_):
 
 def new(): return Image.new("RGBA",(W,H),(0,0,0,0))
 
+def scrim(img, top, bot):
+    """soft dark backing anchored to the LEFT third — fades out before the central seam"""
+    s=Image.new("RGBA",(W,H),(0,0,0,0))
+    ImageDraw.Draw(s).rounded_rectangle((-160, top, 495, bot), radius=140, fill=(0,0,0,160))
+    img.alpha_composite(s.filter(ImageFilter.GaussianBlur(85)))
+
 def draw_gold_kanji(img, chars, size, x0, y0, pitch):
     """glyphs at even centres, filled with a molten-gold gradient + glow"""
     f=ImageFont.truetype(FONT,size)
@@ -57,25 +63,34 @@ def draw_text(img, text, size, x, y, fill, ls=0):
     else:
         d.text((x,y),text,font=f,fill=fill)
 
-# raised into the y~1300-1550 band, sized to clear the central seam (left zone ~500px)
-# ---- beat 1: hook (cream, 3 lines) ----
-hook=new()
-d=ImageDraw.Draw(hook)
-hf=ImageFont.truetype(FONT,84)
-for i,line in enumerate(["Broken.","Then filled","with gold."]):
-    d.text((118,1240+i*104),line,font=hf,fill=CREAM)
-hook.save(f"{OUT}/ov_hook.png")
+# BIGGER kanji; all text shifted LEFT (x0=90) with smaller latin lines so nothing grazes the wandering seam.
+X=90
+# ---- BEFORE still: "Broken." (big, empty-crack frame has room) ----
+before=new()
+scrim(before,1430,1720)
+ImageDraw.Draw(before).text((X,1500),"Broken.",font=ImageFont.truetype(FONT,168),fill=CREAM)
+before.save(f"{OUT}/ov_before.png")
 
-# ---- beat 2: concept 金継ぎ + KINTSUGI ----
+# ---- video beat A: "Then filled with gold." ----
+filled=new()
+scrim(filled,1320,1640)
+d=ImageDraw.Draw(filled); ff=ImageFont.truetype(FONT,88)
+for i,line in enumerate(["Then filled","with gold."]):
+    d.text((X,1372+i*110),line,font=ff,fill=CREAM)
+filled.save(f"{OUT}/ov_filled.png")
+
+# ---- video beat B: concept 金継ぎ + KINTSUGI (big) ----
 concept=new()
-draw_gold_kanji(concept,["金","継","ぎ"],130,118,1320,130)
-draw_text(concept,"KINTSUGI",66,122,1520,CREAM,ls=5)
+scrim(concept,1280,1680)
+draw_gold_kanji(concept,["金","継","ぎ"],158,X,1320,150)
+draw_text(concept,"KINTSUGI",74,X+4,1544,CREAM,ls=4)
 concept.save(f"{OUT}/ov_concept.png")
 
-# ---- beat 3: wisdom 傷も景色 + sub ----
+# ---- AFTER still: wisdom 傷も景色 + sub (big, full-gold frame) ----
 wisdom=new()
-draw_gold_kanji(wisdom,["傷","も","景","色"],96,118,1340,96)
-draw_text(wisdom,"Even the scar is scenery",34,122,1516,SUBGOLD,ls=1)
+scrim(wisdom,1280,1620)
+draw_gold_kanji(wisdom,["傷","も","景","色"],128,X,1320,124)
+draw_text(wisdom,"Even the scar is scenery",36,X+4,1492,SUBGOLD,ls=1)
 wisdom.save(f"{OUT}/ov_wisdom.png")
 
 print("overlays saved to", OUT)
