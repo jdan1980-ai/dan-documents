@@ -86,11 +86,18 @@ draw_gold_kanji(concept,["金","継","ぎ"],158,X,1320,150)
 draw_text(concept,"KINTSUGI",74,X+4,1544,CREAM,ls=4)
 concept.save(f"{OUT}/ov_concept.png")
 
-# ---- AFTER still: wisdom 傷も景色 + sub (big, full-gold frame) ----
+# ---- AFTER still (video frame, unused now): wisdom 傷も景色 + sub ----
 wisdom=new()
 scrim(wisdom,1280,1620)
 draw_gold_kanji(wisdom,["傷","も","景","色"],128,X,1320,124)
 draw_text(wisdom,"Even the scar is scenery",36,X+4,1492,SUBGOLD,ls=1)
 wisdom.save(f"{OUT}/ov_wisdom.png")
+
+# ---- AFTER (finished bowl scene): wisdom lower-left over dark slate ----
+bowl=new()
+scrim(bowl,1940,2290)
+draw_gold_kanji(bowl,["傷","も","景","色"],130,X,1980,126)
+draw_text(bowl,"Even the scar is scenery",40,X+4,2168,SUBGOLD,ls=1)
+bowl.save(f"{OUT}/ov_bowl.png")
 
 print("overlays saved to", OUT)
