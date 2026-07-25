@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="./vendor/gsap.min.js"></script>
+    <style>
+      @font-face{font-family:"Noto Serif JP";font-style:normal;font-weight:700;font-display:block;src:url("vendor/fonts/noto-serif-jp-700-0.woff2") format("woff2");unicode-range:U+3e, U+3005, U+4e0d, U+4e88, U+4ecb, U+4ee3, U+4ef6, U+4fdd, U+4fe1, U+500b, U+50cf, U+5186, U+5316, U+53d7, U+540c, U+544a, U+54e1, U+5728, U+58f2, U+5973, U+5b89, U+5c71, U+5e02, U+5e97, U+5f15, U+5fc3, U+5fdc, U+601d, U+611b, U+611f, U+671f, U+6728, U+6765, U+683c, U+6b21, U+6ce8, U+6d3b, U+6d77, U+7530, U+7740, U+7acb, U+7d50, U+826f, U+8f09, U+8fbc, U+9001, U+9053, U+91ce, U+9762, U+98df;}
+      @font-face{font-family:"Noto Serif JP";font-style:normal;font-weight:700;font-display:block;src:url("vendor/fonts/noto-serif-jp-700-1.woff2") format("woff2");unicode-range:U+4e, U+a0, U+3000, U+300c-300d, U+4e00, U+4e0a, U+4e2d, U+4e8b, U+4eba, U+4f1a, U+5165, U+5168, U+5185, U+51fa, U+5206, U+5229, U+524d, U+52d5, U+5408, U+554f, U+5831, U+5834, U+5927, U+5b9a, U+5e74, U+5f0f, U+60c5, U+65b0, U+65b9, U+6642, U+6700, U+672c, U+682a, U+6b63, U+6c17, U+7121, U+751f, U+7528, U+753b, U+76ee, U+793e, U+884c, U+898b, U+8a18, U+9593, U+95a2, U+ff01, U+ff08-ff09;}
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: #000;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+      }
+
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform-origin: 50% 50%;
+        will-change: transform, opacity;
+      }
+      #sceneA { z-index: 1; }
+      #sceneB { z-index: 2; opacity: 0; }
+      #sceneC { z-index: 3; opacity: 0; }
+
+      /* Legibility scrim — above imagery, below text */
+      #scrim {
+        position: absolute;
+        inset: 0;
+        z-index: 6;
+        pointer-events: none;
+        background:
+          radial-gradient(72% 44% at 50% 52%, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0) 70%),
+          linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.05) 26%, rgba(0, 0, 0, 0.05) 60%, rgba(0, 0, 0, 0.72) 100%);
+      }
+
+      .cap {
+        position: absolute;
+        left: 8%;
+        width: 84%;
+        z-index: 10;
+        text-align: center;
+        opacity: 0;
+        will-change: transform, opacity;
+        color: #f4f1ea;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 1.14;
+        letter-spacing: -0.5px;
+        text-shadow: 0 4px 26px rgba(0, 0, 0, 0.72), 0 1px 3px rgba(0, 0, 0, 0.6);
+      }
+      .cap.low { top: 61%; }
+      .cap.mid { top: 44%; }
+
+      .gold {
+        background: linear-gradient(180deg, #f6dd97 0%, #e2b355 46%, #b6801f 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: none;
+      }
+
+      #kanji {
+        font-family: "Noto Serif JP", serif;
+        font-weight: 700;
+        font-size: 224px;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin-bottom: 22px;
+      }
+      #romaji {
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        letter-spacing: 20px;
+        text-transform: uppercase;
+        color: rgba(244, 241, 234, 0.86);
+        text-shadow: 0 3px 18px rgba(0, 0, 0, 0.7);
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="40"
+      data-width="1080"
+      data-height="1920"
+    >
+      <!-- Imagery (full-duration; cross-dissolve via opacity on the timeline) -->
+      <img id="sceneA" class="scene clip" data-start="0" data-duration="40" data-track-index="1"
+           src="assets/01-before-crack.jpg" alt="raw crack" />
+      <img id="sceneB" class="scene clip" data-start="0" data-duration="40" data-track-index="2"
+           src="assets/02-during-gold.jpg" alt="gold filling the crack" />
+      <img id="sceneC" class="scene clip" data-start="0" data-duration="40" data-track-index="3"
+           src="assets/03-after-bowl.jpg" alt="repaired kintsugi bowl" />
+
+      <div id="scrim" class="clip" data-start="0" data-duration="40" data-track-index="6"></div>
+
+      <!-- Act 1 — the break -->
+      <div id="cap-a1" class="cap low clip" data-start="0.8" data-duration="3.0" data-track-index="10">They broke you.</div>
+      <div id="cap-a2" class="cap low clip" data-start="3.8" data-duration="3.0" data-track-index="11">Not bent&nbsp;—&nbsp;broken.</div>
+      <div id="cap-a3" class="cap low clip" data-start="6.8" data-duration="3.2" data-track-index="10">A crack. Darkness. Silence.</div>
+      <div id="cap-a4" class="cap low clip" data-start="10.0" data-duration="3.2" data-track-index="11">And it feels like the end.</div>
+
+      <!-- Act 2 — the gold -->
+      <div id="cap-b1" class="cap low clip" data-start="14.0" data-duration="3.4" data-track-index="10">But there is an ancient art&nbsp;— <span class="gold">kintsugi</span>.</div>
+      <div id="cap-b2" class="cap low clip" data-start="17.6" data-duration="3.0" data-track-index="11">You don't hide what's broken.</div>
+      <div id="cap-b3" class="cap low clip" data-start="20.8" data-duration="3.4" data-track-index="10">You fill the cracks with <span class="gold">gold</span>.</div>
+      <div id="cap-b4" class="cap low clip" data-start="24.2" data-duration="2.9" data-track-index="11">The break becomes the pattern.</div>
+
+      <!-- Act 3 — fudoshin -->
+      <div class="cap mid clip" id="term" data-start="27.4" data-duration="4.0" data-track-index="10">
+        <div id="kanji" class="gold">不動心</div>
+        <div id="romaji">Fudoshin</div>
+      </div>
+      <div id="cap-c2" class="cap mid clip" data-start="31.6" data-duration="3.0" data-track-index="11">The immovable mind.</div>
+      <div id="cap-c3" class="cap mid clip" data-start="34.6" data-duration="3.0" data-track-index="10">You are not broken.<br />You are <span class="gold">forged</span>.</div>
+      <div id="cap-c4" class="cap mid clip" data-start="37.4" data-duration="2.6" data-track-index="11">Where you cracked,<br />now there is <span class="gold">gold</span>.</div>
+
+      <!-- Music (separate audio element; fades via volume on the timeline) -->
+      <audio id="bgm" src="assets/kintsugi.mp3" data-start="0" data-duration="40" data-track-index="20" data-volume="0.85"></audio>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+
+      /* ---- Imagery: Ken Burns + cross-dissolves ---- */
+      // Scene A — slow push in, then dissolve out
+      tl.fromTo("#sceneA", { scale: 1.08 }, { scale: 1.22, duration: 15, ease: "none" }, 0);
+      tl.to("#sceneA", { opacity: 0, duration: 0.9, ease: "power1.inOut" }, 13.0);
+
+      // Scene B — dissolve in, gentle push toward the gold, dissolve out
+      tl.fromTo("#sceneB", { scale: 1.16 }, { scale: 1.05, duration: 15, ease: "none" }, 12.6);
+      tl.fromTo("#sceneB", { opacity: 0 }, { opacity: 1, duration: 0.9, ease: "power1.inOut" }, 12.8);
+      tl.to("#sceneB", { opacity: 0, duration: 0.9, ease: "power1.inOut" }, 26.0);
+
+      // Scene C — dissolve in, slow settle, hold to the end
+      tl.fromTo("#sceneC", { scale: 1.14 }, { scale: 1.04, duration: 14, ease: "none" }, 26.0);
+      tl.fromTo("#sceneC", { opacity: 0 }, { opacity: 1, duration: 1.1, ease: "power1.inOut" }, 25.9);
+
+      /* ---- Captions: rise-in / hold / rise-out, driven by their windows ---- */
+      gsap.utils.toArray(".cap").forEach((el) => {
+        const s = parseFloat(el.dataset.start);
+        const d = parseFloat(el.dataset.duration);
+        tl.fromTo(
+          el,
+          { yPercent: 42, opacity: 0 },
+          { yPercent: 0, opacity: 1, duration: 0.6, ease: "power3.out" },
+          s + 0.12
+        );
+        tl.to(
+          el,
+          { yPercent: -16, opacity: 0, duration: 0.5, ease: "power2.in" },
+          s + d - 0.5
+        );
+      });
+
+      /* ---- Music: fade in, hold, fade out ---- */
+      tl.fromTo("#bgm", { volume: 0 }, { volume: 0.85, duration: 2.0, ease: "none" }, 0);
+      tl.to("#bgm", { volume: 0, duration: 2.4, ease: "none" }, 37.6);
+
+      tl.seek(0);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

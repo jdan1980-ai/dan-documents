@@ -1,0 +1,7 @@
+# HyperFrames build artifacts & local tooling
+videos/**/renders/
+videos/**/snapshots/
+videos/**/node_modules/
+videos/**/*.log
+videos/.ffbin/
+node_modules/

@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="./vendor/gsap.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #05030f;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+      }
+
+      #bg {
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(120% 120% at 50% 38%, #241466 0%, #0c0730 42%, #05030f 100%);
+      }
+      #bg::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(60% 60% at 50% 50%, transparent 55%, rgba(0, 0, 0, 0.55) 100%);
+      }
+
+      #stage {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 44px;
+      }
+
+      #wordmark {
+        display: flex;
+        font-weight: 800;
+        font-size: 230px;
+        letter-spacing: -8px;
+        line-height: 1;
+        white-space: nowrap;
+      }
+      .ltr-wrap {
+        display: inline-block;
+        overflow: hidden;
+        padding-bottom: 0.09em; /* room for descenders during the mask reveal */
+      }
+      .ltr {
+        display: inline-block;
+        color: #ffffff;
+      }
+      .ltr.accent {
+        background: linear-gradient(180deg, #c4b5fd 0%, #7c6cf5 55%, #5b57f0 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+
+      #rule {
+        width: 620px;
+        height: 8px;
+        border-radius: 8px;
+        transform-origin: 50% 50%;
+        background: linear-gradient(90deg, transparent 0%, #7c6cf5 20%, #c4b5fd 50%, #7c6cf5 80%, transparent 100%);
+      }
+
+      #tag {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 34px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        color: rgba(230, 226, 255, 0.62);
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="5.5"
+      data-width="1920"
+      data-height="1080"
+    >
+      <div id="bg" class="clip" data-start="0" data-duration="5.5" data-track-index="0"></div>
+
+      <div id="stage" class="clip" data-start="0" data-duration="5.5" data-track-index="1">
+        <div id="wordmark" data-layout-allow-overflow>
+          <span class="ltr-wrap"><span class="ltr">H</span></span>
+          <span class="ltr-wrap"><span class="ltr">y</span></span>
+          <span class="ltr-wrap"><span class="ltr">p</span></span>
+          <span class="ltr-wrap"><span class="ltr">e</span></span>
+          <span class="ltr-wrap"><span class="ltr">r</span></span>
+          <span class="ltr-wrap"><span class="ltr accent">F</span></span>
+          <span class="ltr-wrap"><span class="ltr accent">r</span></span>
+          <span class="ltr-wrap"><span class="ltr accent">a</span></span>
+          <span class="ltr-wrap"><span class="ltr accent">m</span></span>
+          <span class="ltr-wrap"><span class="ltr accent">e</span></span>
+          <span class="ltr-wrap"><span class="ltr accent">s</span></span>
+        </div>
+        <div id="rule"></div>
+        <div id="tag">Video, rendered from HTML</div>
+      </div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+
+      tl.from(
+        ".ltr",
+        {
+          yPercent: 125,
+          opacity: 0,
+          duration: 0.72,
+          ease: "power3.out",
+          stagger: 0.05,
+        },
+        0.2
+      );
+
+      tl.from(
+        "#rule",
+        { scaleX: 0, opacity: 0, duration: 0.6, ease: "power2.out" },
+        1.05
+      );
+
+      tl.from(
+        "#tag",
+        { y: 26, opacity: 0, duration: 0.7, ease: "power2.out" },
+        1.35
+      );
+
+      // Final hold: no idle motion — the frame settles and holds to 5.5s.
+
+      tl.seek(0);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
