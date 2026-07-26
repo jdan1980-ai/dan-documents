@@ -214,41 +214,43 @@ LYRICS:
 
 ---
 
-## §3 — NanoBanana 16:9 (PRIMARY)
+## §3 — NanoBanana 16:9 (PRIMARY) — SEA OF FOG, **NO FIGURE** (locked 2026-07-25)
+
+> **Why no figure (deliberate deviation from the Kanji-Concept template):** YUGEN is the beauty of what is only *half-seen and never fully grasped* — the mountain behind mist, the moon behind cloud. A human figure makes the scene concrete and gives the eye a place to land, which is the opposite of the concept. Earlier figure-based generations were rejected for exactly this. The visual hero is the **fog itself**: endless ridges fading into nothing.
+> **🇷🇺** Фигуру убрали намеренно. Югэн — красота едва увиденного, непознаваемого; человек в кадре «заземляет» сцену и убивает концепт (первые генерации с фигурой отклонены). Герой — сам туман: бесконечные хребты, тающие в никуда.
 
 ```
-Photorealistic cinematic still, a lone figure (a monk in dark robes OR a traveler) standing small at the edge of a high cliff or temple platform, back to camera, face never visible, in the lower third, looking out over a vast sea of fog at dusk. Distant mountain peaks rise half-hidden through drifting mist filling the upper two-thirds of the frame — the visual hero. A pale moon glows softly behind thin cloud. Deep atmospheric perspective, layers of fading blue-grey mist, immense depth and quiet mystery. Muted twilight palette — soft indigo, grey-blue, one pale moonlight accent, mostly dark and misty. Keep the lower-left corner dark, empty negative space for text; keep the bottom-right corner calm, dark, low-detail (logo). No text, no letters, no watermark. 4K, cinematic, profound stillness.
+Photorealistic cinematic still, no people, no figures. An endless sea of fog at dusk seen from high above — layer after layer of dark mountain ridges receding into pale mist, each range fainter than the last, dissolving into nothing at the horizon. Deep atmospheric perspective, immense scale and unknowable depth. A pale moon glows faintly behind thin high cloud in the upper frame. Muted twilight palette — soft indigo, grey-blue, cold silver, one pale moonlight accent, mostly dark and misty. No trees in the foreground, no structures, no path, no living thing — only mist, ridges and sky. Profound stillness, quiet awe, mystery. Keep the lower-left corner dark, empty negative space for a text overlay — no bright detail in the bottom-left third. Keep the bottom-right corner calm, dark, low-detail (logo placement). No text, no letters, no watermark. 4K, cinematic.
 ```
 
-**Alt — floating torii in mist:** replace the mountains with `a great torii gate half-dissolving into fog over a still lake, a pale moon behind cloud`.
-**🇷🇺** Кадр: одинокая фигура (монах/странник) спиной, мелко в нижней трети, на краю обрыва над морем тумана в сумерках; далёкие горы полу-скрыты дымкой в верхних ⅔ (герой), бледная луна за облаком, бездонная глубина. Приглушённый сумеречный индиго-серый. Углы: слева-низ под текст, справа-низ под лого. Альт — тории в тумане над озером.
+**Alt — torii dissolving in mist (if the ridges read flat):** `a great torii gate half-dissolving into thick fog over a still dark lake at dusk, nothing visible beyond it, a faint moon behind cloud` (same palette, same corner rules, still NO figure).
 
-## §3b — NanoBanana 9:16 (Shorts)
+## §3b — NanoBanana 9:16 (Shorts) — no figure
 
 ```
-Photorealistic cinematic vertical still, a lone monk in dark robes standing small at the lower third at the edge of a cliff, back to camera, face never visible, looking out over a vast sea of dusk fog, half-hidden mountain peaks and a pale moon behind thin cloud filling the upper frame, immense atmospheric depth. Muted indigo-grey twilight palette. No text, no letters, no watermark. 4K.
+Photorealistic cinematic vertical still, no people, no figures. An endless sea of fog at dusk — layers of dark mountain ridges receding upward into pale mist, each fainter than the last, dissolving at the horizon, a faint pale moon behind thin cloud high in the frame. Immense atmospheric depth, muted indigo-grey-silver twilight palette, profound stillness and mystery. No trees, no structures, no living thing — only mist, ridges and sky. No text, no letters, no watermark. 4K.
 ```
 
-## §3c — Shorts image set (9:16 — 6 frames)
+## §3c — Shorts image set (9:16 — 6 frames, all figure-free)
 
 Save `yugen-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm/empty for the kanji overlay.
-**🇷🇺** 6 вертикальных кадров; кадр 4 — под иероглиф 幽玄.
+**🇷🇺** 6 вертикальных кадров, **без фигур**; кадр 4 — под иероглиф 幽玄.
 
-1. **HOOK — figure over fog:** `Photorealistic cinematic vertical still, a lone monk small at the lower third on a cliff edge, back to camera, gazing over a vast sea of dusk fog with half-seen mountains, a pale moon behind cloud, immense depth. No text, no watermark. 4K.`
-2. **mist through peaks:** `Photorealistic cinematic vertical still, layers of drifting fog rolling between half-hidden dark mountain ridges at dusk, deep atmospheric perspective, muted indigo-grey. No text, no watermark. 4K.`
-3. **pale moon behind cloud:** `Photorealistic cinematic vertical still, a pale soft moon glowing behind thin drifting cloud over a misty dark valley, ethereal and quiet. No text, no watermark. 4K.`
-4. **KANJI frame — vast void:** `Photorealistic cinematic vertical still, a lone tiny figure at the very bottom of the frame on a misty ridge, the upper two-thirds filled with calm dark fog and a faint moon (empty space for a kanji). No text, no watermark. 4K.`
-5. **torii in fog:** `Photorealistic cinematic vertical still, a great torii gate half-dissolving into fog over a still dark lake at dusk, a faint moon, profound mystery. No text, no watermark. 4K.`
-6. **the figure walks into mist:** `Photorealistic cinematic vertical still, a lone robed figure small, seen from behind, walking away into deep fog on a mountain path at dusk, disappearing into mystery. No text, no watermark. 4K.`
+1. **HOOK — the sea of fog:** `Photorealistic cinematic vertical still, no people. An endless sea of dusk fog with layer after layer of dark ridges fading into nothing, immense depth, muted indigo-grey. No text, no watermark. 4K.`
+2. **mist pouring between ridges:** `Photorealistic cinematic vertical still, no people. Thick fog pouring slowly through a gap between two dark mountain ridges at dusk, deep atmospheric perspective. No text, no watermark. 4K.`
+3. **pale moon behind cloud:** `Photorealistic cinematic vertical still, no people. A pale soft moon glowing behind thin drifting cloud over a fog-drowned dark valley, ethereal and quiet. No text, no watermark. 4K.`
+4. **KANJI frame — the void:** `Photorealistic cinematic vertical still, no people. The lower third shows the faint top of a fog-covered ridge; the upper two-thirds is calm dark mist and empty sky with a barely visible moon (empty space for a kanji). No text, no watermark. 4K.`
+5. **torii dissolving:** `Photorealistic cinematic vertical still, no people. A great torii gate half-dissolving into thick fog over a still dark lake at dusk, nothing visible beyond, profound mystery. No text, no watermark. 4K.`
+6. **the last ridge:** `Photorealistic cinematic vertical still, no people. A single faint mountain silhouette barely visible through deep pale mist, almost gone, the rest of the frame empty fog. No text, no watermark. 4K.`
 
 ---
 
 ## §4 — Flow / Kling prompt (16:9 loop)
 
 ```
-Camera locked, static. Seamless loop. Animate ONLY: (1) layers of fog drifting slowly and continuously between the distant peaks, revealing and re-hiding them; (2) the pale moon's glow behind cloud very slowly shifting as thin cloud drifts across it; (3) the robed figure's shoulders with one slow, barely perceptible breath per loop. Everything else perfectly still — cliff, mountains, sky. Slow, mysterious, meditative, immense. Last frame matches first frame exactly for a perfect loop.
+Camera locked, static, no zoom. Seamless loop. Animate ONLY: (1) layers of fog drifting slowly and continuously between the distant ridges, revealing and re-hiding them; (2) the pale moon's glow behind cloud very slowly shifting as thin cloud drifts across it; (3) a barely perceptible breathing of the mist depth. Everything else perfectly still — ridges, sky. Extremely slow, mysterious, meditative, immense, very low motion. No people, no particles. Last frame matches first frame exactly for a perfect loop.
 ```
-**🇷🇺** В лупе: слои тумана медленно дрейфуют между вершинами (то скрывают, то открывают), лунный свет чуть меняется за облаком, один вдох плеч фигуры. Остальное неподвижно.
+**🇷🇺** В лупе: слои тумана медленно дрейфуют между хребтами (то скрывают, то открывают), свет луны чуть меняется за облаком, лёгкое «дыхание» глубины. Остальное неподвижно, минимум движения, бесшовный луп.
 
 ---
 
