@@ -543,6 +543,30 @@ For specific length use `-t 7200` (2H), `-t 10800` (3H), `-t 28800` (8H).
 - **Loop must be perfectly seamless** — last frame matches first frame. The looped audio is 2–3 hours long, so any seam shows up 900+ times. Pick repeating cycles for typewriter screen text and rain to ensure clean loop join.
 - **Subtle, not dramatic** — viewers leave this on for hours. Distracting motion = swipe-away.
 
+### 🔒 Ken Burns must be JITTER-FREE — render the drift yourself (LOCKED 2026-07-26)
+
+**Never build a Shorts slow-drift with ffmpeg `zoompan`.** zoompan rounds its crop rectangle to
+whole pixels, so a slow zoom (~10% over 6s) advances in 1-px steps: the picture freezes for 2-3
+frames, then jumps. Measured on YUGEN: per-frame change bounced 0.64 → 1.28 (CV **0.208**).
+Supersampling (4x) reduces but does not remove it.
+
+**Do this instead:** render each frame in Python/PIL from a **float-precision crop box** of the
+full-res source and resample LANCZOS, then encode the frame sequence. No rounding = smooth by
+construction. Same run measured CV **0.002** on source frames, **0.034** on the encoded file, zero
+frozen frames — ~100x more uniform. Reference implementation: `assets/yugen-short-build.py`
+(also does crossfades + overlay alpha fades in PIL).
+
+**⚠️ MANDATORY CHECK before sending any Short:** extract ~25 consecutive frames from the ENCODED
+file inside one shot (no crossfade, no text) and measure mean |frame-to-frame difference|.
+Pass = zero frozen frames (diff < 0.05) AND CV < 0.25. Do not judge motion by eye, and do not
+trust phase-correlation on soft/foggy footage — it is unreliable there (learned the hard way).
+
+**🇺🇦** Никогда не делай медленный дрейф через ffmpeg `zoompan` — он округляет кроп до целых
+пикселей, и картинка «замирает-прыгает». Рендерь кадры сами в PIL по координатам с плавающей
+точкой (LANCZOS) — дрожание невозможно по построению. Эталон: `assets/yugen-short-build.py`.
+**Обязательная проверка перед отправкой:** взять ~25 подряд идущих кадров из ГОТОВОГО файла и
+померить среднюю разницу между кадрами: замерших кадров 0 и CV < 0.25. На глаз не судить.
+
 ### Shorts pipeline (unchanged)
 
 | Stage | Tool |
