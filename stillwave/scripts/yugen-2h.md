@@ -5,10 +5,10 @@
 - **Title:** YUGEN — 幽玄 | Japanese Zen Music for Deep Mystery, Profound Calm & Quiet Awe
 - **Slug:** `yugen-2h`
 - **Format:** Long-form (Kanji-Concept Series)
-- **Length:** target ≤ 2:00:00 (~36 mastered tracks; trim to calmest)
-- **Aesthetic:** Vast atmospheric depth — a lone figure at the edge of a fog-drowned mountain valley at dusk, a pale moon, mist half-hiding distant peaks. The profound, half-seen depth IS the mood.
+- **Length:** 1:57:34 (34 mastered tracks) ✅
+- **Aesthetic:** Vast atmospheric depth — an endless sea of fog at dusk, ridge behind ridge fading into nothing, a pale moon behind thin cloud. **No figure** (see §3). The profound, half-seen depth IS the mood.
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Status:** 🚧 IN PRODUCTION (package created 2026-07-21)
+- **Status:** 🚧 IN PRODUCTION — audio DONE (34 tracks mastered + ordered + named, 1:57:34, 2026-07-25). Pending: hero image (§3 sea-of-fog, no figure), Flow loop, thumbnail, wisdom overlay, Short, upload.
 - **Concept note:** YUGEN (幽玄) — "profound grace and subtlety." A core Japanese aesthetic: the deep, mysterious beauty of things only half-seen, suggested rather than stated — mist over mountains, a voice fading, the moon behind cloud. It points to the vast depth beneath the surface of the world, and the quiet awe of sensing what cannot be fully known.
   - **🇷🇺** YUGEN (幽玄) — «сокровенная, глубинная красота». Ключевая японская эстетика: глубокая таинственная красота едва увиденного, подсказанного, а не показанного — туман над горами, затихающий голос, луна за облаком. О бездне под поверхностью мира и тихом благоговении перед непознаваемым.
 
@@ -210,7 +210,9 @@ LYRICS:
 
 ## §2 — Mastering
 
-`master-album.py` → `Suno-Yugen-mastered`, then `tracklist-timestamps.py`. Trim loudest/peakiest to the calmest ~36 (MIZU lesson).
+`master-album.py` → `Suno-Yugen-mastered`, then timestamps. Trim loudest/peakiest to the calmest set (MIZU lesson).
+
+**AS-BUILT (2026-07-25):** 39 tracks generated & mastered (0 clipped, input −12.3…−17.3 LUFS), raw total 2:16:00. Dropped 5 to fit the 2H cap — `YUGEN1 (1)` (−12.3, loudest), `YUGEN1` (−13.0), `YUGEN3 (2)` (−13.3), `YUGEN6` (TP −0.8, peakiest), `YUGEN10` (−17.3, abnormally quiet). **Final = 34 tracks, TOTAL 1:57:34.** Reordered anti-Content-ID (no two adjacent tracks share a Suno variant/opening; all 10 openings still represented) and renamed `01 - … 34 -` — that play order is what the §8 timestamps reflect.
 
 ---
 
@@ -286,8 +288,42 @@ mist over mountains, the moon behind cloud.
 
 Dusk falls over a sea of fog. Peaks appear and vanish; a pale moon drifts behind thin cloud; a distant flute is half-heard and gone. Yugen is the quiet awe of sensing the vast depth beneath the surface of the world — the beauty that lives in what cannot be fully seen or said.
 
-Tracklist:
-[added after mastering — mood-poetic names, deep and mysterious]
+🎵 Tracklist
+
+0:00 The Fog Comes In
+3:39 Ridges Without End
+7:19 What the Mist Half-Shows
+10:59 A Pale Moon Behind Cloud
+14:28 Distance Beyond Distance
+17:53 The Valley Disappears
+21:09 Where the Eye Cannot Follow
+25:11 Faint Peaks at Dusk
+28:55 Something Vast and Unseen
+32:09 The Sound of Depth
+35:38 A Bell Somewhere in the Fog
+39:03 Neither Near Nor Far
+42:37 The World Softens
+45:57 Layers of Fading Blue
+49:51 What Cannot Be Named
+52:50 Moonlight Through Thin Cloud
+56:30 The Last Ridge Dissolves
+1:00:10 Silence Between Mountains
+1:03:39 A Path That Vanishes
+1:07:08 Deeper Than Seeing
+1:10:07 The Hour Without Edges
+1:13:30 Mist Fills the Hollow
+1:16:52 What Remains Unsaid
+1:20:22 The Shape of Nothing
+1:24:01 Beyond the Farthest Peak
+1:27:20 Where the Fog Is Deepest
+1:30:59 A Light That Barely Reaches
+1:34:24 The Long Dissolving
+1:37:26 Nothing to Hold
+1:41:01 Only the Depth Remains
+1:44:30 Night Enters the Valley
+1:47:55 The Moon Withdraws
+1:51:23 All Grows Faint
+1:54:39 And Fades Into Mystery
 
 🌀 Let the mountains fade into mist.
 🍃 The deepest beauty is only half-seen.
