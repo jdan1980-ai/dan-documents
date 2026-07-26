@@ -10,14 +10,14 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Status:** 🚧 IN PRODUCTION (package created 2026-07-21)
 - **Concept note:** SHINRIN-YOKU (森林浴, "forest bathing") is the Japanese practice of slowing down and immersing the senses in a forest — not hiking, just being among the trees, breathing the green air. Medically studied for lowering stress and blood pressure. Framed for StillWave as grounding: let the forest hold you, and let the noise drain out.
-  - **🇷🇺** SHINRIN-YOKU (森林浴, «лесное купание») — японская практика медленного погружения чувств в лес: не поход, а просто пребывание среди деревьев, дыхание зелёным воздухом. Клинически изучена (снижает стресс и давление). Для канала — заземление: пусть лес держит тебя, а шум уходит.
+  - **🇺🇦** SHINRIN-YOKU (森林浴, «лесное купание») — японская практика медленного погружения чувств в лес: не поход, а просто пребывание среди деревьев, дыхание зелёным воздухом. Клинически изучена (снижает стресс и давление). Для канала — заземление: пусть лес держит тебя, а шум уходит.
 - **🌿 NEW format element — forest-sound bed** (like MIZU's water bed): a subtle CC0 forest ambience (soft wind in leaves, faint distant birdsong, a hint of a stream) mixed **~−18 dB under the music**, full 2H. Opens the nature/forest-sounds tag cluster and delivers on the title. **SFX must be CC0 (Pixabay)** — Content ID vector (see CLAUDE.md water-bed note).
 
 ## §0 — Positioning & pre-production
 
 - **Data:** ~16,817 searches/mo · competition 15–31 · title-score 85. Nature/forest-sounds is a huge evergreen cluster; softer competition. Pairs with the forest-sound bed to catch both music AND nature-sounds traffic.
 - **Audience:** nature-sounds + forest-bathing seekers · stress-relief / grounding listeners · sleep & study · Japanese-zen core. Overlaps MIZU (both nature-bed videos).
-- **🇷🇺** Данные: ~16 817 поисков/мес, конкуренция 15–31, оценка 85. Лес/nature sounds — огромный вечнозелёный кластер с мягкой конкуренцией. Подложка леса ловит и музыкальный, и nature-трафик. Мост — с MIZU (оба с природным слоем).
+- **🇺🇦** Данные: ~16 817 поисков/мес, конкуренция 15–31, оценка 85. Лес/nature sounds — огромный вечнозелёный кластер с мягкой конкуренцией. Подложка леса ловит и музыкальный, и nature-трафик. Мост — с MIZU (оба с природным слоем).
 
 ---
 
@@ -25,7 +25,7 @@
 
 Batch names: `SHINRINYOKU` … `SHINRINYOKU 8`. Different opening each. ~5 per variant (~40), keep calmest ~36, interleave 1–8. All **as slow, minimal and meditative as possible** — deep, grounding, sleep-friendly zen ambient. Keep tracks clean of nature SFX — the forest bed is added separately in CapCut.
 
-**🇷🇺 Звук:** зелёный, заземляющий, максимально спокойный медитативный эмбиент — мягкая флейта, koto, тёплые пэды; много воздуха; ощущение густого тихого леса. Звук леса в Suno НЕ добавлять — он идёт отдельной дорожкой в CapCut. STYLE → Style, LYRICS → Lyrics.
+**🇺🇦 Звук:** зелёный, заземляющий, максимально спокойный медитативный эмбиент — мягкая флейта, koto, тёплые пэды; много воздуха; ощущение густого тихого леса. Звук леса в Suno НЕ добавлять — он идёт отдельной дорожкой в CapCut. STYLE → Style, LYRICS → Lyrics.
 
 ### Variant 1 — SHINRINYOKU (flute-led)
 
@@ -176,7 +176,7 @@ LYRICS:
 - Source: CC0 **forest ambience** (soft wind in leaves + faint distant birdsong + optional gentle stream) — Pixabay / freesound CC0. Not loud, not chaotic; a calm continuous green wash.
 - CapCut: own audio track, loop across the full 2H, volume **~−18 dB** relative to music (music clearly in front), 2s fade-in, fade-out with the last track.
 - QA: check on phone speaker at 3 points — forest clearly present but NEVER masking the flute. Verify SFX license is CC0.
-- **🇷🇺** Подложка леса — отдельной дорожкой в CapCut, ~−18 дБ под музыкой, источник **CC0** (Pixabay). Слышно, но флейта впереди.
+- **🇺🇦** Подложка леса — отдельной дорожкой в CapCut, ~−18 дБ под музыкой, источник **CC0** (Pixabay). Слышно, но флейта впереди.
 
 ---
 
@@ -194,7 +194,7 @@ Photorealistic cinematic still, a misty Japanese forest at dawn. Tall straight c
 
 **Alt — path only (no figure):** the mossy forest path with komorebi and mist, empty, for an object/scene-focused thumbnail.
 > 🔒 No airborne particles (no drifting leaves/petals). Motion = mist drift + swaying canopy + light. Sunbeams/komorebi and mist loop cleanly.
-**🇷🇺** Кадр: туманный кедрово-бамбуковый лес на рассвете, лучи сквозь листву (комореби), мшистая тропа, папоротник, слоистая зелёная глубина (герой), одинокая фигура мелко спиной. Свежая зелёно-золотая палитра. Углы: слева-низ под текст, справа-низ под лого. Без летящих листьев.
+**🇺🇦** Кадр: туманный кедрово-бамбуковый лес на рассвете, лучи сквозь листву (комореби), мшистая тропа, папоротник, слоистая зелёная глубина (герой), одинокая фигура мелко спиной. Свежая зелёно-золотая палитра. Углы: слева-низ под текст, справа-низ под лого. Без летящих листьев.
 
 ## §3b — NanoBanana 9:16 (Shorts)
 
@@ -205,7 +205,7 @@ Photorealistic cinematic vertical still, a misty Japanese cedar and bamboo fores
 ## §3c — Shorts image set (9:16 — 6 frames)
 
 Save `shinrin-yoku-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm/empty for the kanji overlay.
-**🇷🇺** 6 вертикальных кадров; кадр 4 — под иероглиф 森林浴.
+**🇺🇦** 6 вертикальных кадров; кадр 4 — под иероглиф 森林浴.
 
 1. **HOOK — sunbeams through trees:** `Photorealistic cinematic vertical still, warm sunbeams filtering through a misty green forest canopy onto a mossy path at dawn, deep green depth, ethereal. No text, no watermark. 4K.`
 2. **figure among trees:** `Photorealistic cinematic vertical still, a lone figure in muted robes standing small among tall misty cedar trunks, back to camera, breathing in the forest, komorebi light. No text, no watermark. 4K.`
@@ -231,7 +231,7 @@ Camera locked, static. Seamless loop. Animate ONLY: (1) soft mist drifting slowl
 - Line 2 (romaji): *Komorebi*
 - Line 3 (gloss): Sunlight filtering through the leaves
 - Cream `#F5EAD2`, Liberation Serif Bold, LEFT over a calm dark-green zone. 0:00–0:03 scene only → fade-in 2s → hold ~5s → fade-out 2s.
-- **🇷🇺** Мудрость: **木漏れ日** / *Komorebi* / «Солнечный свет сквозь листву» (знаменитое японское слово без прямого перевода — идеально под лес). Слева, кремовым.
+- **🇺🇦** Мудрость: **木漏れ日** / *Komorebi* / «Солнечный свет сквозь листву» (знаменитое японское слово без прямого перевода — идеально под лес). Слева, кремовым.
 
 ---
 
@@ -279,7 +279,7 @@ stillwave, japanese zen music, forest music, nature sounds, meditation music, ze
 ## §10 — Thumbnail
 
 - Background: §3 (forest + komorebi). **森林浴** kanji upper-left (brush — Yuji Boku), **SHINRIN-YOKU** lower-left, cream or soft gold; darken corners; lower-right free for logo. Compose via `zanshin-2h-compose-thumb.py` pattern.
-- **🇷🇺** Обложка: туманный лес с лучами, 森林浴 верх-лево + SHINRIN-YOKU низ-лево кистевой каллиграфией, углы затемнить.
+- **🇺🇦** Обложка: туманный лес с лучами, 森林浴 верх-лево + SHINRIN-YOKU низ-лево кистевой каллиграфией, углы затемнить.
 
 ---
 

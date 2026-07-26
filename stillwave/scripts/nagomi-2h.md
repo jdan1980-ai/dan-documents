@@ -10,13 +10,13 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Status:** 🚧 IN PRODUCTION (package created 2026-07-21)
 - **Concept note:** NAGOMI (和) — "harmony, calm, being at ease." The soft, everyday peace of a mind and heart in balance — with oneself, with others, with the moment. Not dramatic enlightenment, but the quiet comfort of warmth, gentleness, and things in their right place. 和 is also the character for "Japan" itself — harmony as the culture's root value.
-  - **🇷🇺** NAGOMI (和) — «гармония, покой, умиротворённость». Мягкий, повседневный мир ума и сердца в равновесии — с собой, с другими, с моментом. Не драматичное просветление, а тихий уют тепла и вещей на своих местах. 和 — ещё и иероглиф самой «Японии»: гармония как корневая ценность культуры.
+  - **🇺🇦** NAGOMI (和) — «гармония, покой, умиротворённость». Мягкий, повседневный мир ума и сердца в равновесии — с собой, с другими, с моментом. Не драматичное просветление, а тихий уют тепла и вещей на своих местах. 和 — ещё и иероглиф самой «Японии»: гармония как корневая ценность культуры.
 
 ## §0 — Positioning & pre-production
 
 - **Data:** ~31,099 searches/mo · competition 14–37 · title-score 77. Solid demand, soft competition. Warmest / most universally comforting concept of the batch — broad appeal, gentle everyday listening.
 - **Audience:** comfort / cozy listeners · evening wind-down · the "gentle self-care" crowd · Japanese-zen + meditation core · overlaps SEIJAKU / MAKOTO viewers.
-- **🇷🇺** Данные: ~31 099 поисков/мес, конкуренция 14–37, оценка 77. Самый тёплый и «уютный» концепт пятёрки — широкая аудитория, вечернее расслабление, self-care. Мост — с SEIJAKU / MAKOTO.
+- **🇺🇦** Данные: ~31 099 поисков/мес, конкуренция 14–37, оценка 77. Самый тёплый и «уютный» концепт пятёрки — широкая аудитория, вечернее расслабление, self-care. Мост — с SEIJAKU / MAKOTO.
 
 ---
 
@@ -24,7 +24,7 @@
 
 Batch names: `NAGOMI` … `NAGOMI 8`. Different opening each (Content ID lesson). ~5 per variant (~40), keep calmest ~36, interleave 1–8. All **as slow, minimal and meditative as possible** — deep, cozy, sleep-friendly zen ambient.
 
-**🇷🇺 Звук:** тёплый, уютный, максимально спокойный медитативный эмбиент — мягкий koto, сякухати, тёплые пэды, тихий очаг/дождь на грани слышимости; много воздуха, ощущение равновесия и тепла. STYLE → Style, LYRICS → Lyrics.
+**🇺🇦 Звук:** тёплый, уютный, максимально спокойный медитативный эмбиент — мягкий koto, сякухати, тёплые пэды, тихий очаг/дождь на грани слышимости; много воздуха, ощущение равновесия и тепла. STYLE → Style, LYRICS → Lyrics.
 
 ### Variant 1 — NAGOMI (koto-led)
 
@@ -185,7 +185,7 @@ Photorealistic cinematic still, a serene traditional Japanese tatami room at gol
 ```
 
 **Alt — no figure (pure still life):** the tea set + hearth + garden light, empty room, for a calmer object-focused thumbnail.
-**🇷🇺** Кадр: тёплая татами-комната в золотой час, солнце сквозь сёдзи, чайный набор с лёгким паром, тлеющий очаг, спокойный сад за открытой перегородкой; одинокая фигура в сэйдза мелко, спиной, умиротворённая. Тёплая уютная палитра. Углы: слева-низ под текст, справа-низ под лого. Альт — без фигуры, чистый натюрморт.
+**🇺🇦** Кадр: тёплая татами-комната в золотой час, солнце сквозь сёдзи, чайный набор с лёгким паром, тлеющий очаг, спокойный сад за открытой перегородкой; одинокая фигура в сэйдза мелко, спиной, умиротворённая. Тёплая уютная палитра. Углы: слева-низ под текст, справа-низ под лого. Альт — без фигуры, чистый натюрморт.
 
 ## §3b — NanoBanana 9:16 (Shorts)
 
@@ -196,7 +196,7 @@ Photorealistic cinematic vertical still, a serene traditional Japanese tatami ro
 ## §3c — Shorts image set (9:16 — 6 frames)
 
 Save `nagomi-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm/empty for the kanji overlay.
-**🇷🇺** 6 вертикальных кадров; кадр 4 — под иероглиф 和.
+**🇺🇦** 6 вертикальных кадров; кадр 4 — под иероглиф 和.
 
 1. **HOOK — tea + warm light:** `Photorealistic cinematic vertical still, a simple ceramic tea cup with soft steam on a low table in a warm sunlit tatami room at golden hour, honey-gold light, cozy. No text, no watermark. 4K.`
 2. **figure in seiza:** `Photorealistic cinematic vertical still, a lone figure in seiza, back to camera, face never visible, in a warm sunlit tatami room, at ease, golden hour light. No text, no watermark. 4K.`
@@ -213,7 +213,7 @@ Save `nagomi-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm fo
 Camera locked, static. Seamless loop. Animate ONLY: (1) soft steam rising gently from the tea cup and dissipating; (2) warm hearth embers glowing with a slow soft flicker; (3) warm sunlight very slowly shifting intensity, with faint dust motes turning in the light; (4) the seated figure's shoulders with one slow, barely perceptible breath per loop; (5) the garden foliage beyond the shoji swaying very slightly. Everything else perfectly still. Slow, warm, cozy, meditative. Last frame matches first frame exactly for a perfect loop.
 ```
 > 🔒 Steam thin and away from the figure; garden leaves sway (not falling). No airborne particles.
-**🇷🇺** В лупе: пар от чая вверх, угли очага мягко мерцают, тёплый свет чуть меняется, один вдох плеч, листва сада еле колышется. Остальное неподвижно.
+**🇺🇦** В лупе: пар от чая вверх, угли очага мягко мерцают, тёплый свет чуть меняется, один вдох плеч, листва сада еле колышется. Остальное неподвижно.
 
 ---
 
@@ -223,7 +223,7 @@ Camera locked, static. Seamless loop. Animate ONLY: (1) soft steam rising gently
 - Line 2 (romaji): *Wa-kei-sei-jaku*
 - Line 3 (gloss): Harmony, respect, purity, stillness
 - Cream `#F5EAD2`, Liberation Serif Bold, LEFT over a calm warm-dark zone. 0:00–0:03 scene only → fade-in 2s → hold ~5s → fade-out 2s.
-- **🇷🇺** Мудрость: **和敬清寂** / *Wa-kei-sei-jaku* / «Гармония, уважение, чистота, покой» (четыре принципа чайной церемонии Сэн-но Рикю; 和 — первый из них). Слева, кремовым.
+- **🇺🇦** Мудрость: **和敬清寂** / *Wa-kei-sei-jaku* / «Гармония, уважение, чистота, покой» (четыре принципа чайной церемонии Сэн-но Рикю; 和 — первый из них). Слева, кремовым.
 
 ---
 
@@ -271,7 +271,7 @@ stillwave, japanese zen music, meditation music, zen music, relaxing music, calm
 ## §10 — Thumbnail
 
 - Background: §3 (warm tea room). **和** kanji upper-left (brush — Yuji Boku), **NAGOMI** lower-left, cream or warm gold; darken corners; lower-right free for logo. Compose via `zanshin-2h-compose-thumb.py` pattern.
-- **🇷🇺** Обложка: тёплая чайная комната, 和 верх-лево + NAGOMI низ-лево кистевой каллиграфией, углы затемнить.
+- **🇺🇦** Обложка: тёплая чайная комната, 和 верх-лево + NAGOMI низ-лево кистевой каллиграфией, углы затемнить.
 
 ---
 

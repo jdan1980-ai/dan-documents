@@ -10,13 +10,13 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Status:** ✅ DONE (2026-07-25). Audio: 35 tracks mastered/ordered (1:58:50). Thumbnail: `kintsugi-thumb.jpg`. Wisdom overlay: `kintsugi-wisdom-overlay.png`. **Short: rendered locally (ffmpeg) — v5 final, ~31s, slowed:** empty crack `Broken.` → gold flows `Then filled with gold.` → **七転び八起き** (Fall seven, rise eight) → **金継ぎ / KINTSUGI** → pull-back (zoom-out) from seam to the finished bowl `傷も景色`. Real before/after stills (user-supplied), music `KINTSUGI_V1`, fade loop. Long-form: user assembles in CapCut (calm loop §4 + 35 tracks + wisdom overlay). Reusable: `kintsugi-short-overlays.py`.
 - **Concept note:** KINTSUGI (金継ぎ, "golden joinery") repairs broken pottery with lacquer and gold — the break is not hidden but honored as the most beautiful part of the object's story. Framed for StillWave as **personal healing**: our scars are where the light gets in; what broke us can become the most golden part of who we are.
-  - **🇷🇺** KINTSUGI (金継ぎ, «золотая починка») — ремонт разбитой керамики лаком и золотом: трещину не прячут, а делают самой красивой частью истории вещи. Для канала — метафора **личного исцеления**: наши шрамы там, где входит свет; то, что нас сломало, может стать самым золотым в нас.
+  - **🇺🇦** KINTSUGI (金継ぎ, «золотая починка») — ремонт разбитой керамики лаком и золотом: трещину не прячут, а делают самой красивой частью истории вещи. Для канала — метафора **личного исцеления**: наши шрамы там, где входит свет; то, что нас сломало, может стать самым золотым в нас.
 
 ## §0 — Positioning & pre-production
 
 - **Data (user brief 2026-07-21):** ~60,139 searches/mo · competition 27–55 · title-score 95. **Highest search volume of the batch.** Strong crossover into the self-help / healing / acceptance audience on top of the zen-music cluster.
 - **Audience:** people healing from loss or hardship · the self-worth / acceptance crowd · WABI SABI + MUSHIN viewers · evening recovery listeners.
-- **🇷🇺** Данные: ~60 139 поисков/мес, конкуренция 27–55, оценка заголовка 95 — **самый высокий спрос в пятёрке**. Аудитория: исцеление после потерь, принятие себя, зрители WABI SABI/MUSHIN. Мост после запуска — с WABI SABI (та же линия) и MUSHIN.
+- **🇺🇦** Данные: ~60 139 поисков/мес, конкуренция 27–55, оценка заголовка 95 — **самый высокий спрос в пятёрке**. Аудитория: исцеление после потерь, принятие себя, зрители WABI SABI/MUSHIN. Мост после запуска — с WABI SABI (та же линия) и MUSHIN.
 
 ---
 
@@ -24,7 +24,7 @@
 
 Batch names: `KINTSUGI` … `KINTSUGI 8`. Different opening each (Content ID / SATORI lesson). ~5 per variant (~40), keep calmest ~36, interleave 1–8. All variants are **as slow, minimal and meditative as possible** — deep sleep-friendly zen ambient.
 
-**🇷🇺 Звук:** тёплый, нежный, максимально спокойный медитативный эмбиент — мягкий koto, сякухати, редкие ноты фортепиано, тёплые пэды; много воздуха и тишины между нотами; арка *разбито → склеено золотом → красивее прежнего*. STYLE → поле Style, LYRICS → поле Lyrics.
+**🇺🇦 Звук:** тёплый, нежный, максимально спокойный медитативный эмбиент — мягкий koto, сякухати, редкие ноты фортепиано, тёплые пэды; много воздуха и тишины между нотами; арка *разбито → склеено золотом → красивее прежнего*. STYLE → поле Style, LYRICS → поле Lyrics.
 
 ### Variant 1 — KINTSUGI (piano-led)
 
@@ -192,20 +192,20 @@ Photorealistic extreme macro, cinematic still. Dark charcoal-black raku ceramic 
 - **1a single seam:** `Photorealistic extreme macro, cinematic still. Dark charcoal-black raku ceramic, matte. A single kintsugi repair seam of molten-looking gold runs diagonally across the frame, slightly raised, glowing warm amber-gold, with a few fine hairline gold branches. Razor focus on the seam, deep dark bokeh. Warm low-key light from upper-right. Palette: near-black and gold only. Keep the lower-left corner dark and empty for a text overlay. Keep the bottom-right corner calm, dark, low-detail (logo). No text, no letters, no watermark. 4K.`
 - **1c seam over rim:** `Photorealistic macro, cinematic. The curved rim of a dark charcoal-black tea bowl fills the lower half of the frame; a single glowing gold kintsugi seam runs up and over the rim. Deep dark bokeh, warm low-key light from upper-right. Palette near-black and gold. Keep the lower-left corner dark and empty for a text overlay. Keep the bottom-right corner calm and dark (logo). No text, no letters, no watermark. 4K.`
 
-**🇷🇺** Сменили направление: старая «пиала в чайной» ушла (не зашла + близко к WABI SABI). Теперь KINTSUGI = **экстремальное макро живого золота в трещине**, только чёрное + золото. 1B = стык трёх трещин, золото собирается в «дельту», razor-focus на стыке. Углы: слева-низ под текст, справа-низ под лого. Альты 1a/1c — если дельта не выйдет.
+**🇺🇦** Сменили направление: старая «пиала в чайной» ушла (не зашла + близко к WABI SABI). Теперь KINTSUGI = **экстремальное макро живого золота в трещине**, только чёрное + золото. 1B = стык трёх трещин, золото собирается в «дельту», razor-focus на стыке. Углы: слева-низ под текст, справа-низ под лого. Альты 1a/1c — если дельта не выйдет.
 
 ## §3b — NanoBanana 9:16 (Shorts — mid-repair macro)
 
 ```
 Photorealistic extreme macro, vertical 9:16. Dark charcoal-black ceramic surface, fine clay texture. A single kintsugi crack runs vertically down the frame — the upper part still a bare dark fracture, the lower part already filled with glowing molten gold, mid-repair. Real gold texture, softly raised, warm amber glow against near-black. Shallow depth of field, warm low-key light from the upper-right. Palette: near-black and gold only. No text, no letters, no watermark. 4K.
 ```
-**🇷🇺** Вертикаль под Short: одна трещина сверху вниз — верх ещё пустой, низ уже залит золотом (момент починки). Угол под лого в 9:16 не резервируем.
+**🇺🇦** Вертикаль под Short: одна трещина сверху вниз — верх ещё пустой, низ уже залит золотом (момент починки). Угол под лого в 9:16 не резервируем.
 
 ## §3c — Shorts = MOTION transformation (NOT a still-sequence)
 
 > **Format change (2026-07-23):** KINTSUGI's Short is a **real animated macro** of gold flowing into the crack — NOT the 6-frame Ken-Burns still-sequence used for WABI SABI / MIZU / ZANSHIN. We deliberately break the repeated concept-Short format here (user: "we already have that for WABI SABI, we don't need identical content"). Build = one Kling/Flow clip (see §14), YouTube loops it. No `concept-shorts-build.py` for this one.
 
-**🇷🇺** Формат Short сменён: это **живое макро-видео** втекающего золота, а НЕ набор из 6 стиллов (как в WABI SABI/MIZU/ZANSHIN). Намеренно не повторяем тот формат. Сборка — один клип Kling/Flow (§14), YouTube крутит по кругу.
+**🇺🇦** Формат Short сменён: это **живое макро-видео** втекающего золота, а НЕ набор из 6 стиллов (как в WABI SABI/MIZU/ZANSHIN). Намеренно не повторяем тот формат. Сборка — один клип Kling/Flow (§14), YouTube крутит по кругу.
 
 ---
 
@@ -216,7 +216,7 @@ Camera fully locked, no camera movement, no zoom. Seamless loop. The molten gold
 ```
 > 🔒 Long-form loop keeps the seam calm — the gold **shimmers/breathes IN PLACE**, do NOT let a highlight travel along the seam (reads as a running spark, not molten gold) and do NOT actively flow/fill (completes, can't loop). Set the tool's motion strength to MINIMUM. Active flow lives in the Short (§14). No airborne particles.
 > ⚠️ **Lesson 2026-07-23:** the earlier "highlight drifts along the gold" wording produced a *travelling firefly* along the seam. Fixed by describing an even in-place molten shimmer instead.
-**🇷🇺** Лонг-луп: золото «дышит» светом (тёплый блик медленно скользит по шву и гаснет), лёгкое мерцание. Активное течение золота НЕ здесь (оно завершается — плохо лупится), а в Shorts (§14). Всё остальное неподвижно, бесшовный луп.
+**🇺🇦** Лонг-луп: золото «дышит» светом (тёплый блик медленно скользит по шву и гаснет), лёгкое мерцание. Активное течение золота НЕ здесь (оно завершается — плохо лупится), а в Shorts (§14). Всё остальное неподвижно, бесшовный луп.
 
 ---
 
@@ -226,7 +226,7 @@ Camera fully locked, no camera movement, no zoom. Seamless loop. The molten gold
 - Line 2 (romaji): *Kizu mo keshiki*
 - Line 3 (gloss): Even the scar is scenery
 - Cream `#F5EAD2` (or gold — the concept is literally gold), Liberation Serif Bold, LEFT over the dark zone. 0:00–0:03 scene only → fade-in 2s → hold ~5s → fade-out 2s, gone by 0:14.
-- **🇷🇺** Мудрость: **傷も景色** / *Kizu mo keshiki* / «Даже шрам — это пейзаж» (чайное выражение о красоте следов времени/починки). Слева, кремовым или золотым.
+- **🇺🇦** Мудрость: **傷も景色** / *Kizu mo keshiki* / «Даже шрам — это пейзаж» (чайное выражение о красоте следов времени/починки). Слева, кремовым или золотым.
 
 ---
 
@@ -309,7 +309,7 @@ stillwave, japanese zen music, healing music, meditation music, zen music, kints
 ## §10 — Thumbnail
 
 - Background: §3 (gold-seam bowl on black). **金継ぎ** kanji upper-left (brush calligraphy — Yuji Boku, `assets/fonts/`), **KINTSUGI** lower-left, **gold** (concept = gold). Darken corners, lower-right free for logo. Compose via `zanshin-2h-compose-thumb.py` pattern.
-- **🇷🇺** Обложка: пиала с золотыми швами, 金継ぎ верх-лево + KINTSUGI низ-лево кистевой каллиграфией, золотом, углы затемнить.
+- **🇺🇦** Обложка: пиала с золотыми швами, 金継ぎ верх-лево + KINTSUGI низ-лево кистевой каллиграфией, золотом, углы затемнить.
 
 ---
 
@@ -361,4 +361,4 @@ Start frame = §3b (mid-repair macro). ~30–40s. Optional: at the end, slow fad
 
 Related video → long-form · StillWave Shorts playlist · Not for kids · Music/genre word not needed (Short).
 
-**🇷🇺** Short = один живой макро-клип (~30–40с) с втекающим золотом, НЕ слайд-шоу. Это и есть отличие от WABI SABI/MIZU/ZANSHIN — не повторяем формат. YouTube крутит по кругу; в конце золото гаснет и трещина снова пустая = вечный цикл починки. Стартовый кадр — §3b. Текст-оверлеи появляются после 0:03 (первые 3с — только картинка+звук, правило ретеншена).
+**🇺🇦** Short = один живой макро-клип (~30–40с) с втекающим золотом, НЕ слайд-шоу. Это и есть отличие от WABI SABI/MIZU/ZANSHIN — не повторяем формат. YouTube крутит по кругу; в конце золото гаснет и трещина снова пустая = вечный цикл починки. Стартовый кадр — §3b. Текст-оверлеи появляются после 0:03 (первые 3с — только картинка+звук, правило ретеншена).

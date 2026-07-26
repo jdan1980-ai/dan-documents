@@ -10,13 +10,13 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Status:** 🚧 IN PRODUCTION — audio DONE (34 tracks mastered + ordered + named, 1:57:34, 2026-07-25). Pending: hero image (§3 sea-of-fog + faint samurai silhouette), Flow loop, thumbnail, wisdom overlay, Short, upload.
 - **Concept note:** YUGEN (幽玄) — "profound grace and subtlety." A core Japanese aesthetic: the deep, mysterious beauty of things only half-seen, suggested rather than stated — mist over mountains, a voice fading, the moon behind cloud. It points to the vast depth beneath the surface of the world, and the quiet awe of sensing what cannot be fully known.
-  - **🇷🇺** YUGEN (幽玄) — «сокровенная, глубинная красота». Ключевая японская эстетика: глубокая таинственная красота едва увиденного, подсказанного, а не показанного — туман над горами, затихающий голос, луна за облаком. О бездне под поверхностью мира и тихом благоговении перед непознаваемым.
+  - **🇺🇦** YUGEN (幽玄) — «сокровенная, глубинная красота». Ключевая японская эстетика: глубокая таинственная красота едва увиденного, подсказанного, а не показанного — туман над горами, затихающий голос, луна за облаком. О бездне под поверхностью мира и тихом благоговении перед непознаваемым.
 
 ## §0 — Positioning & pre-production
 
 - **Data:** ~51,083 searches/mo · competition **9–46 (very low)** · title-score 89. **Best demand-to-competition ratio of the batch** — top priority after KINTSUGI.
 - **Audience:** deep-calm / awe seekers · meditation + ambient core · fans of atmospheric "beautiful sadness" (MONO NO AWARE viewers) · evening/sleep.
-- **🇷🇺** Данные: ~51 083 поисков/мес, конкуренция **9–46 (очень низкая)**, оценка 89 — **лучшее соотношение спрос/конкуренция**. Аудитория: глубокий покой, благоговение, зрители MONO NO AWARE. Мост после запуска — с MONO NO AWARE и SEIJAKU.
+- **🇺🇦** Данные: ~51 083 поисков/мес, конкуренция **9–46 (очень низкая)**, оценка 89 — **лучшее соотношение спрос/конкуренция**. Аудитория: глубокий покой, благоговение, зрители MONO NO AWARE. Мост после запуска — с MONO NO AWARE и SEIJAKU.
 
 ---
 
@@ -24,7 +24,7 @@
 
 Batch names: `YUGEN` … `YUGEN 10`. Different opening each (10 distinct intros). ~4 per variant (~40), keep calmest ~36, interleave 1–10. All variants are **as slow, spacious and meditative as possible** — deep sleep-friendly zen ambient.
 
-**🇷🇺 Звук:** глубокий, таинственный, максимально просторный и медитативный эмбиент — низкие дроны, далёкая сякухати, редкие koto с длинным ревербом, ощущение бездонной глубины, эфирность; много воздуха и тишины. STYLE → Style, LYRICS → Lyrics.
+**🇺🇦 Звук:** глубокий, таинственный, максимально просторный и медитативный эмбиент — низкие дроны, далёкая сякухати, редкие koto с длинным ревербом, ощущение бездонной глубины, эфирность; много воздуха и тишины. STYLE → Style, LYRICS → Lyrics.
 
 ### Variant 1 — YUGEN (deep-drone-led)
 
@@ -219,7 +219,7 @@ LYRICS:
 ## §3 — NanoBanana 16:9 (PRIMARY) — SEA OF FOG, **NO FIGURE** (locked 2026-07-25)
 
 > **Figure rule for YUGEN (revised 2026-07-25):** the fog is the hero; a figure is allowed **only as a barely-visible silhouette** — tiny, featureless, half-dissolved in the mist, so faint it's almost missed. That *serves* yugen (presence only suggested). What was rejected earlier was the opposite: a clear, prominent figure that made the scene concrete and gave the eye a place to land. **Never let the figure become the subject.**
-> **🇷🇺** Туман — главный герой. Фигура допустима **только как едва различимый силуэт** — крошечный, без деталей, полурастворённый в дымке, который замечаешь не сразу. Это работает на югэн (присутствие лишь подсказано). Отклонили раньше обратное — чёткую крупную фигуру, которая «заземляет» кадр. Фигура НИКОГДА не должна становиться сюжетом.
+> **🇺🇦** Туман — главный герой. Фигура допустима **только как едва различимый силуэт** — крошечный, без деталей, полурастворённый в дымке, который замечаешь не сразу. Это работает на югэн (присутствие лишь подсказано). Отклонили раньше обратное — чёткую крупную фигуру, которая «заземляет» кадр. Фигура НИКОГДА не должна становиться сюжетом.
 
 ```
 Photorealistic cinematic still. An endless sea of fog at dusk seen from a high ridge — layer after layer of dark mountain ranges receding into pale mist, each fainter than the last, dissolving into nothing at the horizon. A pale moon glows faintly behind thin high cloud. In the lower third, very small and far away, the barely visible dark silhouette of a lone samurai standing on the ridge, back to camera, no face, no visible detail — just a soft dark shape half-dissolved in the mist, extremely small and almost missed at first glance. He must read as a faint hint of presence, never as the subject. EXACTLY TWO sheathed swords (the daishō pair) at his left hip, hilts forward. NO third sword. NO drawn sword. Hands hang empty and relaxed at his sides. Deep atmospheric perspective, immense scale, unknowable depth. Muted twilight palette — soft indigo, grey-blue, cold silver, one pale moonlight accent, mostly dark and misty. Profound stillness, quiet awe, mystery. Keep the lower-left corner dark, empty negative space for a text overlay — no bright detail in the bottom-left third. Keep the bottom-right corner calm, dark, low-detail (logo placement). No text, no letters, no watermark. 4K, cinematic.
@@ -228,7 +228,7 @@ Photorealistic cinematic still. An endless sea of fog at dusk seen from a high r
 **Alt A — no figure at all:** drop the figure + sword sentences and add `no people, no figures, no living thing — only mist, ridges and sky.`
 **Alt B — torii dissolving in mist:** `a great torii gate half-dissolving into thick fog over a still dark lake at dusk, nothing visible beyond it, a faint moon behind cloud` (same palette + corner rules).
 > If the samurai comes out too large or too sharp, add `extremely small, barely perceptible, seen through thick mist, edges lost in fog` and regenerate — that is the exact failure mode that got the first batch rejected.
-> **🇷🇺** Если самурай вышел крупным/чётким — добавь `extremely small, barely perceptible, seen through thick mist, edges lost in fog` и перегенери. Именно это (чёткая крупная фигура) забраковали в первой партии.
+> **🇺🇦** Если самурай вышел крупным/чётким — добавь `extremely small, barely perceptible, seen through thick mist, edges lost in fog` и перегенери. Именно это (чёткая крупная фигура) забраковали в первой партии.
 
 ## §3b — NanoBanana 9:16 (Shorts) — samurai silhouette
 
@@ -239,7 +239,7 @@ Photorealistic cinematic vertical still. An endless sea of fog at dusk — layer
 ## §3c — Shorts image set (9:16 — 6 frames)
 
 Save `yugen-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm/empty for the kanji overlay. The samurai appears only in fr1 and fr6 — everywhere else the fog alone carries it.
-**🇷🇺** 6 вертикальных кадров; самурай-силуэт только в кадрах 1 и 6, остальное несёт туман. Кадр 4 — под иероглиф 幽玄.
+**🇺🇦** 6 вертикальных кадров; самурай-силуэт только в кадрах 1 и 6, остальное несёт туман. Кадр 4 — под иероглиф 幽玄.
 
 1. **HOOK — silhouette over the sea of fog:** `Photorealistic cinematic vertical still. An endless sea of dusk fog, layer after layer of dark ridges fading into nothing; in the lower third, very small and far away, the barely visible dark silhouette of a lone samurai on the ridge, back to camera, no face, no detail, half-dissolved in mist. EXACTLY TWO sheathed swords at his left hip, hilts forward. NO third sword, NO drawn sword, hands empty at his sides. Immense depth, muted indigo-grey. No text, no watermark. 4K.`
 2. **mist pouring between ridges:** `Photorealistic cinematic vertical still, no people. Thick fog pouring slowly through a gap between two dark mountain ridges at dusk, deep atmospheric perspective. No text, no watermark. 4K.`
@@ -255,7 +255,7 @@ Save `yugen-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for
 ```
 Camera locked, static, no zoom. Seamless loop. Animate ONLY: (1) layers of fog drifting slowly and continuously between the distant ridges, revealing and re-hiding them; (2) the pale moon's glow behind cloud very slowly shifting as thin cloud drifts across it; (3) the samurai silhouette's shoulders with one slow, barely perceptible breath per loop — he never turns, never walks. Everything else perfectly still — ridges, sky. Extremely slow, mysterious, meditative, immense, very low motion. No particles. Last frame matches first frame exactly for a perfect loop.
 ```
-**🇷🇺** В лупе: слои тумана медленно дрейфуют между хребтами (то скрывают, то открывают), свет луны чуть меняется за облаком, один еле заметный вдох плеч силуэта (он не оборачивается и не идёт). Остальное неподвижно, минимум движения, бесшовный луп.
+**🇺🇦** В лупе: слои тумана медленно дрейфуют между хребтами (то скрывают, то открывают), свет луны чуть меняется за облаком, один еле заметный вдох плеч силуэта (он не оборачивается и не идёт). Остальное неподвижно, минимум движения, бесшовный луп.
 
 ---
 
@@ -265,7 +265,7 @@ Camera locked, static, no zoom. Seamless loop. Animate ONLY: (1) layers of fog d
 - Line 2 (romaji): *Iwanu ga hana*
 - Line 3 (gloss): The unspoken is the flower
 - Cream `#F5EAD2`, Liberation Serif Bold, LEFT over the dark misty zone. 0:00–0:03 scene only → fade-in 2s → hold ~5s → fade-out 2s.
-- **🇷🇺** Мудрость: **言わぬが花** / *Iwanu ga hana* / «Несказанное — вот цветок» (недосказанность красивее прямого — сердцевина югэн). Слева, кремовым.
+- **🇺🇦** Мудрость: **言わぬが花** / *Iwanu ga hana* / «Несказанное — вот цветок» (недосказанность красивее прямого — сердцевина югэн). Слева, кремовым.
 
 ---
 
@@ -347,7 +347,7 @@ stillwave, japanese zen music, meditation music, zen music, ambient music, deep 
 ## §10 — Thumbnail
 
 - Background: §3 (figure + fog valley + moon). **幽玄** kanji upper-left (brush — Yuji Boku), **YUGEN** lower-left, cream or gold; darken corners; lower-right free for logo. Compose via `zanshin-2h-compose-thumb.py` pattern.
-- **🇷🇺** Обложка: фигура над морем тумана + луна, 幽玄 верх-лево + YUGEN низ-лево кистевой каллиграфией, углы затемнить.
+- **🇺🇦** Обложка: фигура над морем тумана + луна, 幽玄 верх-лево + YUGEN низ-лево кистевой каллиграфией, углы затемнить.
 
 ---
 

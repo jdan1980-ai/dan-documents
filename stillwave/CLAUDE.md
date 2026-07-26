@@ -16,7 +16,7 @@ This file is the single source of truth for the StillWave channel. All productio
 When responding to the user about StillWave work: **action items** (anything the user needs to read, do, paste, schedule, click in Studio, etc.) should be written in **Russian in addition to English** where English copy is also present (e.g. copy-paste content for YouTube). Format:
 
 ```
-### 🇷🇺 RU
+### 🇺🇦 RU
 [Russian instruction]
 ```
 
@@ -26,7 +26,7 @@ Apply this to: "publish this", "click here", "schedule for X", "verify Y in Stud
 
 Every `scripts/<slug>.md` is written **bilingually**:
 - **Copy-paste content stays English-only** — Suno STYLE/LYRICS, title, description, tracklist, tags, hashtags, pinned comment, Community Post. These go straight into YouTube/tools, so no translation, no RU mixed in.
-- **All explanatory / reading-comprehension prose is EN + RU** — concept notes, positioning, section intros, sound direction, rationale, placement instructions, thumbnail notes. Write the English, then a `🇷🇺` block with the Russian directly below it, so the user can read and understand every part.
+- **All explanatory / reading-comprehension prose is EN + RU** — concept notes, positioning, section intros, sound direction, rationale, placement instructions, thumbnail notes. Write the English, then a `🇺🇦` block with the Russian directly below it, so the user can read and understand every part.
 
 Rule of thumb: if the text is *pasted somewhere*, English only. If the text is *read to understand*, English + Russian below.
 
@@ -536,7 +536,7 @@ For specific length use `-t 7200` (2H), `-t 10800` (3H), `-t 28800` (8H).
 - **🔒 NO AIRBORNE PARTICLES in NanoBanana stills (LOCKED 2026-06-22).** Never include leaves/petals/birds/feathers/embers/snowflakes **mid-flight, drifting, suspended in air, or caught in motion** in the source image. They freeze badly in an 8-sec loop — either appear stuck like a glitch, or "rewind" to start every 8 sec creating a jarring teleport. Past hits: SATORI eagle (removed), MAKOTO airborne maple leaves (regenerated 3×). **⚠️ Don't mention the unwanted element even in negative form** (`NO airborne leaves`, `leaves only on ground`) — NanoBanana frequently generates whatever you describe, regardless of NO prefix. **Just omit it entirely from the prompt.** If the element is needed for atmosphere, replace it with safe alternatives: tall grass swaying (not falling leaves), mist drifting (not snow), distant mountain silhouettes (not birds).
 - **🔒 SAMURAI SWORD COUNT — EXACTLY 2 sheathed daishō (LOCKED 2026-06-22).** Every samurai figure in NanoBanana stills must carry **exactly two swords** — the daishō pair (long katana + shorter wakizashi), **both fully sheathed in the obi at the LEFT hip**, hilts forward. **NEVER three swords.** **NEVER a sword drawn or held in the hand** — hands stay empty at the sides (it's a meditation/contemplation channel, not a duel channel). NanoBanana tends to hallucinate an extra blade (tantō hilt artifact, mirror-image confusion). Always add to samurai prompts: `EXACTLY TWO swords — a katana and a shorter wakizashi (the daishō pair) — both fully sheathed inside the obi belt at his LEFT hip, hilts pointing forward. NO third sword. NO sword drawn. NO sword in his hands. Hands hang empty and relaxed at his sides.` Past hit: MAKOTO first batch showed 3 swords incl. one in hand (regenerated).
   - **🔒 SEATED figures (LOCKED 2026-07-21):** a samurai sitting in seiza does NOT wear the swords — the daishō (still exactly 2, both sheathed) **rest on a low wooden sword rack (katanakake) or laid on the floor BESIDE him**, hands on his thighs. Worn-at-hip is for STANDING figures only. `EXACTLY TWO sheathed swords (daishō) resting on a low wooden sword rack beside him. NO third sword. NO drawn sword. NO sword in his hands.`
-  - **🇷🇺** Сидящая фигура (сэйдза) мечи НЕ носит — дайсё (ровно 2, в ножнах) лежат **на подставке-катанакакэ или на полу РЯДОМ**, руки на бёдрах. На поясе — только для стоящих.
+  - **🇺🇦** Сидящая фигура (сэйдза) мечи НЕ носит — дайсё (ровно 2, в ножнах) лежат **на подставке-катанакакэ или на полу РЯДОМ**, руки на бёдрах. На поясе — только для стоящих.
 - **3–4 motion elements only** — rain on glass / fireplace flicker / laptop screen activity / steam from a cup. Pick 3–4 max.
 - **Everything else still** — bonsai, tea cup itself, table, walls, furniture, distant city. Static.
 - **Distant cars / red taillights:** static shapes — NOT visibly moving (full traffic motion would be too distracting for ambient focus).
@@ -767,7 +767,7 @@ Never split formats across files. One video = one file = both formats. Build the
 
 Because Shorts (teaser AND concept) are built from a sequence of vertical stills (Ken Burns + white titles via `concept-shorts-build.py` / `<slug>-shorts-build.py`), every script MUST include a dedicated **Shorts image set** section (e.g. `§3c`) with **6 distinct 9:16 NanoBanana prompts** — one per storyboard beat — not just a single 9:16 prompt. Frame 4 is the "kanji frame" (calm/empty zone for the concept kanji overlay). All frames follow the locked rules (sword count, NO airborne particles, no in-image text, bottom-right calm for logo). Save as `<slug>-shorts-fr1.jpg … fr6.jpg`.
 
-**🇷🇺** Так как Shorts (тизер И концепт) собираются из набора вертикальных кадров, в каждом скрипте — отдельный раздел **набора картинок для Shorts** (напр. `§3c`) с **6 разными 9:16 промтами** (по одному на кадр раскадровки), а не один. Кадр 4 — «под иероглиф» (спокойная/пустая зона). Все — по локнутым правилам, сохранять как `<slug>-shorts-fr1.jpg … fr6.jpg`.
+**🇺🇦** Так как Shorts (тизер И концепт) собираются из набора вертикальных кадров, в каждом скрипте — отдельный раздел **набора картинок для Shorts** (напр. `§3c`) с **6 разными 9:16 промтами** (по одному на кадр раскадровки), а не один. Кадр 4 — «под иероглиф» (спокойная/пустая зона). Все — по локнутым правилам, сохранять как `<slug>-shorts-fr1.jpg … fr6.jpg`.
 
 ---
 

@@ -10,7 +10,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Status:** 📅 SCHEDULED — long-form publishes 2026-07-24 + Community Post same day; Short (§14) publishes 2026-07-25 (day-after funnel). Everything uploaded. (33 tracks / ≈1:59:45 / tiger-mural thumbnail with brush calligraphy.)
 - **Concept note:** ZANSHIN (残心) = "the remaining/lingering mind." In budō (kendo, kyūdō, aikidō) it is the state of relaxed, total awareness that continues *after* the strike, the arrow, the throw — you do not drop your guard, you stay present and steady. Reframed for StillWave (per user brief, 2026-07-21): **NOT a "high-stress performance tool," but music for quiet resilience — staying inwardly still when the pressure already exists.** Not the music that makes you work under pressure; the music that helps you keep your inner quiet while it's happening.
-  - **🇷🇺** ZANSHIN (残心) — «остающийся ум». В будо (кендо, кюдо, айкидо) это состояние расслабленного, полного внимания, которое сохраняется *после* удара, выстрела, броска — ты не опускаешь защиту, остаёшься собранным и устойчивым. Для StillWave переосмыслено: это **НЕ «инструмент для работы под стрессом», а музыка тихой устойчивости — как сохранить внутреннюю тишину, когда давление уже есть.** Не музыка, которая заставляет работать под давлением, а та, что помогает удержать внутренний покой, пока оно длится.
+  - **🇺🇦** ZANSHIN (残心) — «остающийся ум». В будо (кендо, кюдо, айкидо) это состояние расслабленного, полного внимания, которое сохраняется *после* удара, выстрела, броска — ты не опускаешь защиту, остаёшься собранным и устойчивым. Для StillWave переосмыслено: это **НЕ «инструмент для работы под стрессом», а музыка тихой устойчивости — как сохранить внутреннюю тишину, когда давление уже есть.** Не музыка, которая заставляет работать под давлением, а та, что помогает удержать внутренний покой, пока оно длится.
 
 ## §0 — Positioning & pre-production (traffic-aware)
 
@@ -21,15 +21,15 @@
 - the core Japanese-Zen + meditation-music audience
 - viewers who already liked **MUSHIN** and **GAMAN** (this is the same mind-state lane)
 
-**🇷🇺 Аудитория (шире, НЕ только офис/стресс):** люди после эмоционально тяжёлого дня · слушатели вечернего восстановления · те, кому нужна музыка для спокойного, устойчивого внимания · ядро Japanese Zen + meditation · зрители, которым уже зашли **MUSHIN** и **GAMAN** (та же полоса «состояния ума»).
+**🇺🇦 Аудитория (шире, НЕ только офис/стресс):** люди после эмоционально тяжёлого дня · слушатели вечернего восстановления · те, кому нужна музыка для спокойного, устойчивого внимания · ядро Japanese Zen + meditation · зрители, которым уже зашли **MUSHIN** и **GAMAN** (та же полоса «состояния ума»).
 
 **Traffic reality (user's 90-day figures):** subscribers **12,413** views · suggested **6,624** · YouTube **Search only 226**. → The word **ZANSHIN** pulls the core (subs + suggested); the plain-English outcome in the title/description ("calm awareness, steady nerves, quiet resilience") is what lets suggested + new viewers understand *why* to watch. Do not assume the viewer knows the philosophy — the title teaches the payoff, the video teaches the concept.
 
-**🇷🇺 Трафик (90 дней):** подписчики **12 413** · рекомендации **6 624** · поиск **всего 226**. → Слово **ZANSHIN** тянет ядро (подписчики + рекомендации), а понятный английский outcome в заголовке/описании («calm awareness, steady nerves, quiet resilience») объясняет рекомендациям и новичкам, *зачем* смотреть. Не считаем, что зритель знает философию — заголовок продаёт результат, видео объясняет понятие.
+**🇺🇦 Трафик (90 дней):** подписчики **12 413** · рекомендации **6 624** · поиск **всего 226**. → Слово **ZANSHIN** тянет ядро (подписчики + рекомендации), а понятный английский outcome в заголовке/описании («calm awareness, steady nerves, quiet resilience») объясняет рекомендациям и новичкам, *зачем* смотреть. Не считаем, что зритель знает философию — заголовок продаёт результат, видео объясняет понятие.
 
 **Sibling anchor:** MUSHIN (17K+, our breakout) and GAMAN (979) are the same "Japanese mind-state" cluster. Bridge ZANSHIN from BOTH via pinned comments after launch.
 
-**🇷🇺 Родственный якорь:** MUSHIN (17K+, наш прорыв) и GAMAN (979) — тот же кластер «японских состояний ума». После запуска связать ZANSHIN с ОБОИМИ через закреплённые комментарии.
+**🇺🇦 Родственный якорь:** MUSHIN (17K+, наш прорыв) и GAMAN (979) — тот же кластер «японских состояний ума». После запуска связать ZANSHIN с ОБОИМИ через закреплённые комментарии.
 
 ---
 
@@ -39,9 +39,9 @@ Batch names in Suno: variant 1 = `ZANSHIN` · 2 = `ZANSHIN 2` · … · 8 = `ZAN
 
 Sound direction (locked to the brief): deep but **warm** ambient drone; **rare, soft percussive pulses** (a single low taiko/frame-drum heartbeat every 60–90s, felt more than heard); **shakuhachi far in the background**; **calm koto textures**; a sense of inner composure, not tension; a gradual arc **from unease → steadiness**.
 
-**🇷🇺 Звук (по брифу):** глубокий, но **тёплый** ambient-дрон; **редкие мягкие перкуссионные импульсы** (одиночный низкий тайко/рамочный барабан раз в 60–90 сек, ощущается, а не слышится); **сякухати на дальнем плане**; **спокойные koto-текстуры**; ощущение внутренней собранности, а не напряжения; постепенная арка **от тревоги → к устойчивости**.
+**🇺🇦 Звук (по брифу):** глубокий, но **тёплый** ambient-дрон; **редкие мягкие перкуссионные импульсы** (одиночный низкий тайко/рамочный барабан раз в 60–90 сек, ощущается, а не слышится); **сякухати на дальнем плане**; **спокойные koto-текстуры**; ощущение внутренней собранности, а не напряжения; постепенная арка **от тревоги → к устойчивости**.
 
-**🇷🇺 Как вставлять:** блок **STYLE** → в поле Style, блок **LYRICS** → в поле Lyrics. Генерируй ~5 на каждый из 8 вариантов (≈40 треков), чередуй 1–8 при раскладке.
+**🇺🇦 Как вставлять:** блок **STYLE** → в поле Style, блок **LYRICS** → в поле Lyrics. Генерируй ~5 на каждый из 8 вариантов (≈40 треков), чередуй 1–8 при раскладке.
 
 Each block: **STYLE** → Suno Style field, **LYRICS** → Lyrics field.
 
@@ -210,7 +210,7 @@ Photorealistic cinematic still of a grand empty Japanese temple hall / dojo at d
 
 > 🔒 The mural is drawn as flat Japanese ink art ON the wall (not a real animal) — that's what lets Flow animate it as stylized living ink without it looking like a real beast walking off the wall. Keep the tiger's motion SUBTLE in the loop (slow breathing + ink/mist drift, NOT prowling) — sleep-friendly. Incense smoke = a single thin curl in open space (loops clean, unlike smoke on an object — WABI SABI lesson). Sword rules per CLAUDE.md.
 
-**🇷🇺** Кадр по выигрышному шаблону конкурентов: **грандиозный пустой зал**, глубокая перспектива, **огромный мурал в верхних ⅔** (главный крючок), **одинокий самурай в сэйдза** внизу, дымок благовоний, золото-сепия. Мурал — в **аутентичной японской технике (sumi-e / укиё-э, тушь + сусальное золото, фусума школы Кано)**, мотив — **тигр в покое, настороженный** (бдительность в неподвижности = буквально zanshin, и спокойнее дракона для 2-часового видео; дракон — для будущего силового концепта RYŪ/BUSHIDO). В лупе анимируем тигра **тонко** (медленное дыхание + дрейф туши/тумана, НЕ крадётся). Мурал — плоская роспись тушью НА стене. Меч — 2 в ножнах на подставке рядом. Углы: слева текст, справа-низ лого.
+**🇺🇦** Кадр по выигрышному шаблону конкурентов: **грандиозный пустой зал**, глубокая перспектива, **огромный мурал в верхних ⅔** (главный крючок), **одинокий самурай в сэйдза** внизу, дымок благовоний, золото-сепия. Мурал — в **аутентичной японской технике (sumi-e / укиё-э, тушь + сусальное золото, фусума школы Кано)**, мотив — **тигр в покое, настороженный** (бдительность в неподвижности = буквально zanshin, и спокойнее дракона для 2-часового видео; дракон — для будущего силового концепта RYŪ/BUSHIDO). В лупе анимируем тигра **тонко** (медленное дыхание + дрейф туши/тумана, НЕ крадётся). Мурал — плоская роспись тушью НА стене. Меч — 2 в ножнах на подставке рядом. Углы: слева текст, справа-низ лого.
 
 ## §3b — NanoBanana 9:16 (Shorts)
 
@@ -264,7 +264,7 @@ Photorealistic cinematic vertical still, a wide quiet dawn dojo, a lone samurai 
 Camera locked, no camera movement at all. Seamless loop. Animate ONLY, very subtly: (1) the giant ink TIGER mural breathing slowly — its flanks rising and falling almost imperceptibly, ink brushstrokes and gold mist drifting and softly reforming like living sumi-e, a gentle continuous cyclic motion that returns exactly to the start (the tiger stays crouched and still — it does NOT prowl or walk); (2) a thin single curl of incense smoke rising slowly and dissipating; (3) soft mist drifting slowly across the mural and the warm light; (4) the seated samurai's shoulders rising and falling with ONE slow, barely perceptible breath per loop. Everything else perfectly still — figure, swords, floor, pillars, shoji. Slow, meditative, grounded, sleep-friendly. Last frame matches first frame exactly for a perfect loop.
 ```
 
-**🇷🇺** Ключевое: в лупе мурал **оживает тонко** — тушевой тигр медленно «дышит» (бока чуть поднимаются), штрихи и золотой туман дрейфуют как живая sumi-e, движение циклическое (возврат в старт → чистый шов). Тигр остаётся в неподвижной позе, НЕ крадётся. Плюс тонкий дымок, дрейф тумана, один вдох плеч. Всё остальное неподвижно, камера залочена. Спокойно, под сон.
+**🇺🇦** Ключевое: в лупе мурал **оживает тонко** — тушевой тигр медленно «дышит» (бока чуть поднимаются), штрихи и золотой туман дрейфуют как живая sumi-e, движение циклическое (возврат в старт → чистый шов). Тигр остаётся в неподвижной позе, НЕ крадётся. Плюс тонкий дымок, дрейф тумана, один вдох плеч. Всё остальное неподвижно, камера залочена. Спокойно, под сон.
 
 ---
 
@@ -361,7 +361,7 @@ stillwave, japanese zen music, meditation music, zen music, calm music, relaxing
 - **ZANSHIN (ROMAJI):** cream `#F5EAD2`, Liberation Serif Bold, below/under the kanji.
 - No tag/duration text. Lower-right kept clear for logo.
 - Compose with a PIL script (adapt `mizu-2h-compose-thumb.py`) once the image is picked.
-- **🇷🇺** Обложка: фон — кадр §3 (самурай + луч рассвета). Иероглиф **残心** крупно (тёмная тушь) вверху-центре над лучом, ЛИБО наш левый стиль (残心 верх-лево, ZANSHIN низ-лево) — тестируем, что читается сильнее. **ZANSHIN** кремовым под иероглифом. Без тегов/длительности, правый нижний угол под лого. Соберу PIL-скриптом, когда выберешь кадр.
+- **🇺🇦** Обложка: фон — кадр §3 (самурай + луч рассвета). Иероглиф **残心** крупно (тёмная тушь) вверху-центре над лучом, ЛИБО наш левый стиль (残心 верх-лево, ZANSHIN низ-лево) — тестируем, что читается сильнее. **ZANSHIN** кремовым под иероглифом. Без тегов/длительности, правый нижний угол под лого. Соберу PIL-скриптом, когда выберешь кадр.
 
 ---
 
@@ -430,4 +430,4 @@ zanshin, what is zanshin, zanshin meaning, samurai mindset, japanese philosophy,
 
 **Upload:** Related video → long-form · Playlist **StillWave Shorts — Japanese Zen & Frequencies** · Not for kids · Scheduled, day after the long-form.
 
-**🇷🇺** Концепт-Short собран (40с, каллиграфия Yuji Boku на тигре, молодой самурай). Музыку добавить при заливке («The Mind That Remains» / «The Tiger Rests»). Related video → лонг, плейлист Shorts, Not for kids.
+**🇺🇦** Концепт-Short собран (40с, каллиграфия Yuji Boku на тигре, молодой самурай). Музыку добавить при заливке («The Mind That Remains» / «The Tiger Rests»). Related video → лонг, плейлист Shorts, Not for kids.

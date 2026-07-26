@@ -10,13 +10,13 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Status:** 🚧 IN PRODUCTION (package created 2026-07-21)
 - **Concept note:** FUDOSHIN (不動心) — "immovable mind/heart." A state of unshakable inner steadiness: the mind that stays calm and clear no matter what storm strikes it — like a mountain that does not move, or a monk meditating beneath a waterfall while the torrent crashes around him. Not rigidity, but a rooted composure that cannot be knocked over. The same mind-state family as MUSHIN, GAMAN, and ZANSHIN.
-  - **🇷🇺** FUDOSHIN (不動心) — «неподвижный ум/сердце». Состояние непоколебимой внутренней устойчивости: ум остаётся спокойным и ясным в любую бурю — как гора, что не движется, или монах под водопадом, пока поток обрушивается вокруг. Не жёсткость, а укоренённое самообладание, которое не опрокинуть. Тот же кластер, что MUSHIN, GAMAN, ZANSHIN.
+  - **🇺🇦** FUDOSHIN (不動心) — «неподвижный ум/сердце». Состояние непоколебимой внутренней устойчивости: ум остаётся спокойным и ясным в любую бурю — как гора, что не движется, или монах под водопадом, пока поток обрушивается вокруг. Не жёсткость, а укоренённое самообладание, которое не опрокинуть. Тот же кластер, что MUSHIN, GAMAN, ZANSHIN.
 
 ## §0 — Positioning & pre-production
 
 - **Data:** ~8,458 searches/mo · competition 13–29 · **title-score 96 (highest of the batch)**. Smaller volume but very low competition and a razor-sharp promise ("unshakable mind"). Strong for the martial / mental-fortitude crossover.
 - **Audience:** mental-strength / resilience seekers · people under pressure wanting steadiness · martial-arts & stoicism crossover · MUSHIN / GAMAN / ZANSHIN viewers (same cluster).
-- **🇷🇺** Данные: ~8 458 поисков/мес, конкуренция 13–29, **оценка заголовка 96 — высшая в пятёрке**. Меньше объём, но очень низкая конкуренция и чёткое обещание. Мост после запуска — с MUSHIN, GAMAN, ZANSHIN (тот же кластер «состояний ума»).
+- **🇺🇦** Данные: ~8 458 поисков/мес, конкуренция 13–29, **оценка заголовка 96 — высшая в пятёрке**. Меньше объём, но очень низкая конкуренция и чёткое обещание. Мост после запуска — с MUSHIN, GAMAN, ZANSHIN (тот же кластер «состояний ума»).
 
 ---
 
@@ -24,7 +24,7 @@
 
 Batch names: `FUDOSHIN` … `FUDOSHIN 8`. Different opening each. ~5 per variant (~40), keep calmest ~36, interleave 1–8. All **as slow, grounded and meditative as possible** — deep, unshakable, sleep-friendly zen ambient (steady, never tense).
 
-**🇷🇺 Звук:** глубокий, укоренённый, максимально спокойный медитативный эмбиент — тёплый низкий дрон, редкий мягкий низкий пульс (как далёкий тайко/сердце горы), сякухати на дальнем плане, koto; ощущение непоколебимой устойчивости, а не напряжения. STYLE → Style, LYRICS → Lyrics.
+**🇺🇦 Звук:** глубокий, укоренённый, максимально спокойный медитативный эмбиент — тёплый низкий дрон, редкий мягкий низкий пульс (как далёкий тайко/сердце горы), сякухати на дальнем плане, koto; ощущение непоколебимой устойчивости, а не напряжения. STYLE → Style, LYRICS → Lyrics.
 
 ### Variant 1 — FUDOSHIN (deep-drone-led)
 
@@ -186,7 +186,7 @@ Photorealistic cinematic still, a lone monk in dark robes seated in perfect immo
 
 **Alt — mountain solitude:** replace the waterfall with `a lone monk seated immovable on a high rocky ledge before a vast still mountain (Mt. Fuji silhouette) at dawn` — same immovable-calm mood.
 > 🔒 Falling water loops cleanly (continuous). No airborne particles otherwise. Sword rules N/A (monk, no swords).
-**🇷🇺** Кадр: одинокий монах в тёмных одеждах, неподвижно в сэйдза на плоском камне у подножия громадного водопада в туманном зелёном ущелье, спиной, лицо не видно, в нижней трети; мощный водопад рушится сквозь туман в верхних ⅔ — контраст «яростная вода / неподвижный покой» и есть герой. Зелёно-серо-белая палитра. Углы: слева-низ под текст, справа-низ под лого. Альт — монах перед горой (Фудзи) на рассвете.
+**🇺🇦** Кадр: одинокий монах в тёмных одеждах, неподвижно в сэйдза на плоском камне у подножия громадного водопада в туманном зелёном ущелье, спиной, лицо не видно, в нижней трети; мощный водопад рушится сквозь туман в верхних ⅔ — контраст «яростная вода / неподвижный покой» и есть герой. Зелёно-серо-белая палитра. Углы: слева-низ под текст, справа-низ под лого. Альт — монах перед горой (Фудзи) на рассвете.
 
 ## §3b — NanoBanana 9:16 (Shorts)
 
@@ -197,7 +197,7 @@ Photorealistic cinematic vertical still, a lone monk in dark robes seated immova
 ## §3c — Shorts image set (9:16 — 6 frames)
 
 Save `fudoshin-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm/empty for the kanji overlay.
-**🇷🇺** 6 вертикальных кадров; кадр 4 — под иероглиф 不動心.
+**🇺🇦** 6 вертикальных кадров; кадр 4 — под иероглиф 不動心.
 
 1. **HOOK — monk under waterfall:** `Photorealistic cinematic vertical still, a lone monk seated immovable in seiza on a rock at the foot of a thundering waterfall in a misty gorge, back to camera, the white torrent crashing behind him, profound calm amid violence. No text, no watermark. 4K.`
 2. **the waterfall:** `Photorealistic cinematic vertical still, a tall powerful white waterfall crashing down a dark mossy cliff through drifting mist, immense and roaring. No text, no watermark. 4K.`
@@ -213,7 +213,7 @@ Save `fudoshin-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm 
 ```
 Camera locked, static. Seamless loop. Animate ONLY: (1) the waterfall falling continuously, a constant unbroken torrent of white water; (2) mist and spray drifting slowly upward and dissipating; (3) very subtle soft light shifting through the mist; (4) the seated monk's shoulders with one slow, barely perceptible breath per loop — otherwise perfectly, immovably still. Everything else perfectly still — rock, cliff, moss. The contrast of constant crashing water and the unmoving monk is the whole point. Slow, grounded, meditative. Last frame matches first frame exactly for a perfect loop.
 ```
-**🇷🇺** В лупе: водопад льётся непрерывно, туман/брызги медленно вверх, свет чуть меняется, один вдох плеч монаха — в остальном он абсолютно неподвижен. Контраст «поток / неподвижность» — суть.
+**🇺🇦** В лупе: водопад льётся непрерывно, туман/брызги медленно вверх, свет чуть меняется, один вдох плеч монаха — в остальном он абсолютно неподвижен. Контраст «поток / неподвижность» — суть.
 
 ---
 
@@ -223,7 +223,7 @@ Camera locked, static. Seamless loop. Animate ONLY: (1) the waterfall falling co
 - Line 2 (romaji): *Taizen jijaku*
 - Line 3 (gloss): Calm and composed, unshaken
 - Cream `#F5EAD2`, Liberation Serif Bold, LEFT over a calm dark zone. 0:00–0:03 scene only → fade-in 2s → hold ~5s → fade-out 2s.
-- **🇷🇺** Мудрость: **泰然自若** / *Taizen jijaku* / «Спокоен и невозмутим, непоколебим» (ёдзидзюкуго об абсолютном самообладании — точно под fudoshin). Слева, кремовым.
+- **🇺🇦** Мудрость: **泰然自若** / *Taizen jijaku* / «Спокоен и невозмутим, непоколебим» (ёдзидзюкуго об абсолютном самообладании — точно под fudoshin). Слева, кремовым.
 
 ---
 
@@ -271,7 +271,7 @@ stillwave, japanese zen music, meditation music, zen music, calm music, focus mu
 ## §10 — Thumbnail
 
 - Background: §3 (monk + waterfall). **不動心** kanji upper-left (brush — Yuji Boku), **FUDOSHIN** lower-left, cream or gold; darken corners; lower-right free for logo. Compose via `zanshin-2h-compose-thumb.py` pattern.
-- **🇷🇺** Обложка: монах у водопада, 不動心 верх-лево + FUDOSHIN низ-лево кистевой каллиграфией, углы затемнить.
+- **🇺🇦** Обложка: монах у водопада, 不動心 верх-лево + FUDOSHIN низ-лево кистевой каллиграфией, углы затемнить.
 
 ---
 
