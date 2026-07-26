@@ -6,9 +6,9 @@
 - **Slug:** `yugen-2h`
 - **Format:** Long-form (Kanji-Concept Series)
 - **Length:** 1:57:34 (34 mastered tracks) ✅
-- **Aesthetic:** Vast atmospheric depth — an endless sea of fog at dusk, ridge behind ridge fading into nothing, a pale moon behind thin cloud. **No figure** (see §3). The profound, half-seen depth IS the mood.
+- **Aesthetic:** Vast atmospheric depth — an endless sea of fog at dusk, ridge behind ridge fading into nothing, a pale moon behind thin cloud, and a **barely-visible lone samurai silhouette** half-dissolved in the mist (see §3). The profound, half-seen depth IS the mood.
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Status:** 🚧 IN PRODUCTION — audio DONE (34 tracks mastered + ordered + named, 1:57:34, 2026-07-25). Pending: hero image (§3 sea-of-fog, no figure), Flow loop, thumbnail, wisdom overlay, Short, upload.
+- **Status:** 🚧 IN PRODUCTION — audio DONE (34 tracks mastered + ordered + named, 1:57:34, 2026-07-25). Pending: hero image (§3 sea-of-fog + faint samurai silhouette), Flow loop, thumbnail, wisdom overlay, Short, upload.
 - **Concept note:** YUGEN (幽玄) — "profound grace and subtlety." A core Japanese aesthetic: the deep, mysterious beauty of things only half-seen, suggested rather than stated — mist over mountains, a voice fading, the moon behind cloud. It points to the vast depth beneath the surface of the world, and the quiet awe of sensing what cannot be fully known.
   - **🇷🇺** YUGEN (幽玄) — «сокровенная, глубинная красота». Ключевая японская эстетика: глубокая таинственная красота едва увиденного, подсказанного, а не показанного — туман над горами, затихающий голос, луна за облаком. О бездне под поверхностью мира и тихом благоговении перед непознаваемым.
 
@@ -222,39 +222,40 @@ LYRICS:
 > **🇷🇺** Туман — главный герой. Фигура допустима **только как едва различимый силуэт** — крошечный, без деталей, полурастворённый в дымке, который замечаешь не сразу. Это работает на югэн (присутствие лишь подсказано). Отклонили раньше обратное — чёткую крупную фигуру, которая «заземляет» кадр. Фигура НИКОГДА не должна становиться сюжетом.
 
 ```
-Photorealistic cinematic still. An endless sea of fog at dusk seen from a high ridge — layer after layer of dark mountain ranges receding into pale mist, each fainter than the last, dissolving into nothing at the horizon. A pale moon glows faintly behind thin high cloud. In the lower third, very small and far away, the barely visible dark silhouette of a lone robed monk standing on the ridge, back to camera, no face, no visible detail — just a soft dark shape half-dissolved in the mist, so faint it is almost missed at first glance. He must read as a hint of presence, not as the subject. Deep atmospheric perspective, immense scale, unknowable depth. Muted twilight palette — soft indigo, grey-blue, cold silver, one pale moonlight accent, mostly dark and misty. Profound stillness, quiet awe, mystery. Keep the lower-left corner dark, empty negative space for a text overlay — no bright detail in the bottom-left third. Keep the bottom-right corner calm, dark, low-detail (logo placement). No text, no letters, no watermark. 4K, cinematic.
+Photorealistic cinematic still. An endless sea of fog at dusk seen from a high ridge — layer after layer of dark mountain ranges receding into pale mist, each fainter than the last, dissolving into nothing at the horizon. A pale moon glows faintly behind thin high cloud. In the lower third, very small and far away, the barely visible dark silhouette of a lone samurai standing on the ridge, back to camera, no face, no visible detail — just a soft dark shape half-dissolved in the mist, extremely small and almost missed at first glance. He must read as a faint hint of presence, never as the subject. EXACTLY TWO sheathed swords (the daishō pair) at his left hip, hilts forward. NO third sword. NO drawn sword. Hands hang empty and relaxed at his sides. Deep atmospheric perspective, immense scale, unknowable depth. Muted twilight palette — soft indigo, grey-blue, cold silver, one pale moonlight accent, mostly dark and misty. Profound stillness, quiet awe, mystery. Keep the lower-left corner dark, empty negative space for a text overlay — no bright detail in the bottom-left third. Keep the bottom-right corner calm, dark, low-detail (logo placement). No text, no letters, no watermark. 4K, cinematic.
 ```
 
-**Alt A — samurai silhouette:** swap the figure line for `the barely visible dark silhouette of a lone samurai standing on the ridge, back to camera, no face, no visible detail, half-dissolved in the mist. EXACTLY TWO sheathed swords (the daishō pair) at his left hip, hilts forward. NO third sword. NO drawn sword. Hands hang empty at his sides.`
-**Alt B — no figure at all:** drop the figure sentence entirely and add `no people, no figures, no living thing — only mist, ridges and sky.`
-**Alt C — torii dissolving in mist:** `a great torii gate half-dissolving into thick fog over a still dark lake at dusk, nothing visible beyond it, a faint moon behind cloud` (same palette + corner rules).
+**Alt A — no figure at all:** drop the figure + sword sentences and add `no people, no figures, no living thing — only mist, ridges and sky.`
+**Alt B — torii dissolving in mist:** `a great torii gate half-dissolving into thick fog over a still dark lake at dusk, nothing visible beyond it, a faint moon behind cloud` (same palette + corner rules).
+> If the samurai comes out too large or too sharp, add `extremely small, barely perceptible, seen through thick mist, edges lost in fog` and regenerate — that is the exact failure mode that got the first batch rejected.
+> **🇷🇺** Если самурай вышел крупным/чётким — добавь `extremely small, barely perceptible, seen through thick mist, edges lost in fog` и перегенери. Именно это (чёткая крупная фигура) забраковали в первой партии.
 
-## §3b — NanoBanana 9:16 (Shorts) — no figure
+## §3b — NanoBanana 9:16 (Shorts) — samurai silhouette
 
 ```
-Photorealistic cinematic vertical still, no people, no figures. An endless sea of fog at dusk — layers of dark mountain ridges receding upward into pale mist, each fainter than the last, dissolving at the horizon, a faint pale moon behind thin cloud high in the frame. Immense atmospheric depth, muted indigo-grey-silver twilight palette, profound stillness and mystery. No trees, no structures, no living thing — only mist, ridges and sky. No text, no letters, no watermark. 4K.
+Photorealistic cinematic vertical still. An endless sea of fog at dusk — layers of dark mountain ridges receding upward into pale mist, each fainter than the last, dissolving at the horizon, a faint pale moon behind thin cloud high in the frame. In the lower third, very small and far away, the barely visible dark silhouette of a lone samurai standing on the ridge, back to camera, no face, no visible detail, half-dissolved in the mist, almost missed at first glance — a faint hint of presence, never the subject. EXACTLY TWO sheathed swords (the daishō pair) at his left hip, hilts forward. NO third sword. NO drawn sword. Hands hang empty at his sides. Immense atmospheric depth, muted indigo-grey-silver twilight palette, profound stillness and mystery. No text, no letters, no watermark. 4K.
 ```
 
-## §3c — Shorts image set (9:16 — 6 frames, all figure-free)
+## §3c — Shorts image set (9:16 — 6 frames)
 
-Save `yugen-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm/empty for the kanji overlay.
-**🇷🇺** 6 вертикальных кадров, **без фигур**; кадр 4 — под иероглиф 幽玄.
+Save `yugen-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm/empty for the kanji overlay. The samurai appears only in fr1 and fr6 — everywhere else the fog alone carries it.
+**🇷🇺** 6 вертикальных кадров; самурай-силуэт только в кадрах 1 и 6, остальное несёт туман. Кадр 4 — под иероглиф 幽玄.
 
-1. **HOOK — the sea of fog:** `Photorealistic cinematic vertical still, no people. An endless sea of dusk fog with layer after layer of dark ridges fading into nothing, immense depth, muted indigo-grey. No text, no watermark. 4K.`
+1. **HOOK — silhouette over the sea of fog:** `Photorealistic cinematic vertical still. An endless sea of dusk fog, layer after layer of dark ridges fading into nothing; in the lower third, very small and far away, the barely visible dark silhouette of a lone samurai on the ridge, back to camera, no face, no detail, half-dissolved in mist. EXACTLY TWO sheathed swords at his left hip, hilts forward. NO third sword, NO drawn sword, hands empty at his sides. Immense depth, muted indigo-grey. No text, no watermark. 4K.`
 2. **mist pouring between ridges:** `Photorealistic cinematic vertical still, no people. Thick fog pouring slowly through a gap between two dark mountain ridges at dusk, deep atmospheric perspective. No text, no watermark. 4K.`
 3. **pale moon behind cloud:** `Photorealistic cinematic vertical still, no people. A pale soft moon glowing behind thin drifting cloud over a fog-drowned dark valley, ethereal and quiet. No text, no watermark. 4K.`
 4. **KANJI frame — the void:** `Photorealistic cinematic vertical still, no people. The lower third shows the faint top of a fog-covered ridge; the upper two-thirds is calm dark mist and empty sky with a barely visible moon (empty space for a kanji). No text, no watermark. 4K.`
 5. **torii dissolving:** `Photorealistic cinematic vertical still, no people. A great torii gate half-dissolving into thick fog over a still dark lake at dusk, nothing visible beyond, profound mystery. No text, no watermark. 4K.`
-6. **the last ridge:** `Photorealistic cinematic vertical still, no people. A single faint mountain silhouette barely visible through deep pale mist, almost gone, the rest of the frame empty fog. No text, no watermark. 4K.`
+6. **walking into the mist:** `Photorealistic cinematic vertical still. The barely visible dark silhouette of a lone samurai, small and far away, seen from behind, walking away along a fog-covered ridge at dusk and almost gone into the mist. EXACTLY TWO sheathed swords at his left hip, hilts forward. NO third sword, NO drawn sword, hands empty at his sides. Muted indigo-grey, profound mystery. No text, no watermark. 4K.`
 
 ---
 
 ## §4 — Flow / Kling prompt (16:9 loop)
 
 ```
-Camera locked, static, no zoom. Seamless loop. Animate ONLY: (1) layers of fog drifting slowly and continuously between the distant ridges, revealing and re-hiding them; (2) the pale moon's glow behind cloud very slowly shifting as thin cloud drifts across it; (3) a barely perceptible breathing of the mist depth. Everything else perfectly still — ridges, sky. Extremely slow, mysterious, meditative, immense, very low motion. No people, no particles. Last frame matches first frame exactly for a perfect loop.
+Camera locked, static, no zoom. Seamless loop. Animate ONLY: (1) layers of fog drifting slowly and continuously between the distant ridges, revealing and re-hiding them; (2) the pale moon's glow behind cloud very slowly shifting as thin cloud drifts across it; (3) the samurai silhouette's shoulders with one slow, barely perceptible breath per loop — he never turns, never walks. Everything else perfectly still — ridges, sky. Extremely slow, mysterious, meditative, immense, very low motion. No particles. Last frame matches first frame exactly for a perfect loop.
 ```
-**🇷🇺** В лупе: слои тумана медленно дрейфуют между хребтами (то скрывают, то открывают), свет луны чуть меняется за облаком, лёгкое «дыхание» глубины. Остальное неподвижно, минимум движения, бесшовный луп.
+**🇷🇺** В лупе: слои тумана медленно дрейфуют между хребтами (то скрывают, то открывают), свет луны чуть меняется за облаком, один еле заметный вдох плеч силуэта (он не оборачивается и не идёт). Остальное неподвижно, минимум движения, бесшовный луп.
 
 ---
 
