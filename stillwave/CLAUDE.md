@@ -543,6 +543,32 @@ For specific length use `-t 7200` (2H), `-t 10800` (3H), `-t 28800` (8H).
 - **Loop must be perfectly seamless** — last frame matches first frame. The looped audio is 2–3 hours long, so any seam shows up 900+ times. Pick repeating cycles for typewriter screen text and rain to ensure clean loop join.
 - **Subtle, not dramatic** — viewers leave this on for hours. Distracting motion = swipe-away.
 
+### 🔒 SHORTS SAFE ZONE — the player hides a quarter of the frame (LOCKED 2026-07-26)
+
+On a phone the YouTube Shorts UI covers: the **bottom ~24%** (title, channel name, description,
+music ticker), the **right ~17%** (like / comment / share / remix buttons, which reach up ~40% of
+the height) and the **top ~7%** (back / search). Anything placed there is simply not seen.
+
+**Every glyph in a Short must sit inside `y 150-1450` and `x 60-880` of a 1080x1920 frame**
+(≈ 8%-76% of the height). For a 1440x2560 master the equivalent band is `y 200-1930`, `x 80-1170`.
+Text belongs in the **middle-lower** third — NOT hugging the bottom edge like a 16:9 thumbnail.
+The lower-left figure-8 rule is for **thumbnails only**; it does not transfer to Shorts.
+
+**⚠️ MANDATORY CHECK before sending any Short:** measure the opaque-pixel bounding box of every
+text overlay PNG (alpha > 200, ignoring the soft scrim) and assert it falls inside the band. Print
+the numbers — do not eyeball it.
+
+Caught on YUGEN v2: hook sat at 64-72% (borderline), 幽玄 at 65-79% (bottom clipped), 言わぬが花 at
+**81-94% — almost entirely hidden** behind the description. Fixed by lifting all three into
+53-67% and moving the wisdom beat onto the final dissolving shot.
+
+**🇺🇦** Интерфейс Shorts на телефоне съедает **низ ~24%** (тайтл, канал, описание, тикер музыки),
+**правый край ~17%** (кнопки лайк/коммент/шер) и верх ~7%. Весь текст обязан лежать внутри
+`y 150-1450`, `x 60-880` (для 1080x1920) — то есть в средне-нижней третьей, а НЕ у самого низа.
+Правило «нижний левый угол» работает только для превью 16:9, для Shorts не переносится.
+**Обязательная проверка:** замерить bounding box непрозрачных пикселей каждого оверлея и вывести
+числа. На глаз не проверять.
+
 ### 🔒 Ken Burns must be JITTER-FREE — render the drift yourself (LOCKED 2026-07-26)
 
 **Never build a Shorts slow-drift with ffmpeg `zoompan`.** zoompan rounds its crop rectangle to

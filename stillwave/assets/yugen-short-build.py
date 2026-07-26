@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """YUGEN Short builder — jitter-free Ken Burns rendered in PIL with FLOAT crop boxes.
 
+Also respects the locked SHORTS SAFE ZONE (glyphs inside y 150-1450, x 60-880 of
+1080x1920) — the YouTube Shorts player hides the bottom ~24% and right ~17%.
+
 Why not ffmpeg zoompan: zoompan rounds its crop rectangle to whole pixels, so a slow
 zoom advances in 1-px steps -> visible stutter. Here every frame is resampled
 (LANCZOS) from a float-precision crop of the full-res source, so motion is smooth by
@@ -36,7 +39,7 @@ ZOOM = 0.10         # 10% travel
 OVERLAYS = [
     ("yov_hook.png", 3.5, 9.5),
     ("yov_concept.png", 12.4, 17.6),
-    ("yov_wisdom.png", 23.8, 29.0),
+    ("yov_wisdom.png", 29.4, 33.2),   # on the final dissolving shot — samurai reveal stays text-free
 ]
 FADE = 0.9
 END_FADE = 0.9      # fade to black at the tail for a clean loop

@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""YUGEN Short text overlays — transparent PNGs (1080x1920), moonlit cream/silver, lower-left."""
+"""YUGEN Short text overlays — transparent PNGs (1080x1920), moonlit cream/silver.
+
+🔒 SHORTS SAFE ZONE (locked 2026-07-26): the YouTube Shorts player covers the
+bottom ~24% of the frame (title, channel, description, music ticker), the right
+~17% (like / comment / share buttons) and the top ~7%. ALL glyphs must therefore
+sit inside  y 150-1450  and  x 60-880  of 1080x1920. Text placed below y~1450 is
+invisible on a phone. Verified after every build by measuring the opaque-pixel
+bounding box of each overlay."""
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 FONT = "/home/user/dan-documents/stillwave/assets/fonts/YujiBoku-Regular.ttf"
@@ -41,28 +48,29 @@ def spaced(img, text, size, x, y, fill, ls=4):
         d.text((cx, y), ch, font=f, fill=fill)
         cx += d.textlength(ch, font=f) + ls
 
-# ---- beat 1: hook line ----
+# ---- beat 1: hook line ----  (safe zone: glyphs 1050-1290)
 b1 = new()
-scrim(b1, 1150, 1450)
+scrim(b1, 1000, 1330)
 d = ImageDraw.Draw(b1)
 f1 = ImageFont.truetype(FONT, 78)
 for i, line in enumerate(["What the mist", "half-shows"]):
-    d.text((X, 1200 + i * 96), line, font=f1, fill=CREAM)
+    d.text((X, 1060 + i * 96), line, font=f1, fill=CREAM)
 b1.save(f"{OUT}/yov_hook.png")
 
-# ---- beat 2: concept 幽玄 + YUGEN ----
+# ---- beat 2: concept 幽玄 + YUGEN ----  (safe zone: glyphs 1010-1340)
 b2 = new()
-scrim(b2, 1130, 1560)
-kanji_row(b2, ["幽", "玄"], 190, X, 1180, 200)
-spaced(b2, "YUGEN", 86, X + 4, 1420, SILVER, ls=8)
+scrim(b2, 950, 1400)
+kanji_row(b2, ["幽", "玄"], 190, X, 940, 200)
+spaced(b2, "YUGEN", 86, X + 4, 1180, SILVER, ls=8)
 b2.save(f"{OUT}/yov_concept.png")
 
-# ---- beat 3: wisdom 言わぬが花 — dropped low onto the dark rock so it clears the samurai ----
+# ---- beat 3: wisdom 言わぬが花 ----  (safe zone: glyphs 1040-1310; shown on the
+# final dissolving-fog shot, so it never fights the samurai silhouette)
 b3 = new()
-scrim(b3, 1490, 1860)
-kanji_row(b3, ["言", "わ", "ぬ", "が", "花"], 98, X, 1530, 105)
-spaced(b3, "Iwanu ga hana", 48, X + 4, 1666, SILVER, ls=3)
-ImageDraw.Draw(b3).text((X + 4, 1748), "The unspoken is the flower",
+scrim(b3, 980, 1380)
+kanji_row(b3, ["言", "わ", "ぬ", "が", "花"], 98, X, 1000, 105)
+spaced(b3, "Iwanu ga hana", 48, X + 4, 1140, SILVER, ls=3)
+ImageDraw.Draw(b3).text((X + 4, 1222), "The unspoken is the flower",
                         font=ImageFont.truetype(FONT, 38), fill=SUB)
 b3.save(f"{OUT}/yov_wisdom.png")
 
