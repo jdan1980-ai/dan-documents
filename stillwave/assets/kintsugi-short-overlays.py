@@ -100,11 +100,12 @@ draw_gold_kanji(wisdom,["傷","も","景","色"],128,X,1320,124)
 draw_text(wisdom,"Even the scar is scenery",36,X+4,1492,SUBGOLD,ls=1)
 wisdom.save(f"{OUT}/ov_wisdom.png")
 
-# ---- AFTER (finished bowl scene): wisdom lower-left over dark slate ----
+# ---- AFTER (finished bowl scene): wisdom over the dark slate, LIFTED into the
+# Shorts safe zone (glyphs must stay above y1930 of 2560 — player hides bottom ~24%) ----
 bowl=new()
-scrim(bowl,1940,2290)
-draw_gold_kanji(bowl,["傷","も","景","色"],130,X,1980,126)
-draw_text(bowl,"Even the scar is scenery",40,X+4,2168,SUBGOLD,ls=1)
+scrim(bowl,1410,1760)
+draw_gold_kanji(bowl,["傷","も","景","色"],130,X,1450,126)
+draw_text(bowl,"Even the scar is scenery",40,X+4,1638,SUBGOLD,ls=1)
 bowl.save(f"{OUT}/ov_bowl.png")
 
 print("overlays saved to", OUT)
