@@ -364,7 +364,8 @@ stillwave, japanese zen music, meditation music, zen music, relaxing music, calm
 
 ## §10 — Thumbnail
 
-- Background: §3 (warm tea room). **和** kanji upper-left (brush — Yuji Boku), **NAGOMI** lower-left, cream or warm gold; darken corners; lower-right free for logo. Compose via `zanshin-2h-compose-thumb.py` pattern.
+- Background: §3 (warm tea room). **和** + **NAGOMI** cream, brush font (Yuji Boku), **lower-left** — the upper-left of the delivered hero is taken by the hanging scroll, and the lower-left tatami is the calmest area in the frame. Vignette on the corners; lower-right free for logo.
+- **AS-BUILT (2026-07-27):** `assets/nagomi-compose-thumb.py` → `assets/nagomi-2h-thumb.jpg` (1920×1080).
 - **🇺🇦** Обложка: тёплая чайная комната, 和 верх-лево + NAGOMI низ-лево кистевой каллиграфией, углы затемнить.
 
 ---
@@ -399,6 +400,14 @@ composited with alpha fades, tail fade to black for a clean loop. Reference buil
 
 **Shot order:** 1 tea (hook) → 5 garden → 4 empty room (kanji frame) → 3 hearth → 2 hands+tea → 6 man at rest.
 Each shot 6.5s, crossfade 0.8s → **35.0s total**.
+
+**AS-BUILT (2026-07-27):** кадр 1 (чашка с паром) не сгенерирован, поэтому Short собран из **5 кадров**:
+2 hands+tea (хук) → 5 garden → 4 empty room (和) → 3 hearth → 6 man at rest. Shot 7.4s, XF 0.8s →
+**33.8s / 1014 кадров**. Билдер `assets/nagomi-short-build.py`, оверлеи `assets/nagomi-short-overlays.py`.
+Обе обязательные проверки пройдены: плавность — 0 замерших кадров, CV **0.028**; safe zone — hook
+y 1078-1243, 和/NAGOMI y 1000-1299, 和敬清寂 y 1017-1270, всё внутри y 150-1450 / x 60-880.
+Музыка ещё не подложена (файл `nagomi-shorts-34s-silent.mp4` без звука) — как появится трек, мукс
++ fade-in/out 1.6s. Если кадр 1 догенерируется, он встаёт первым и длительность вернётся к 35s.
 
 **Text beats** (warm cream `#F5EAD2` + soft gold, brush font, LEFT side, glyphs must land inside
 **y 150–1450** of 1080×1920 — the Shorts safe zone):
