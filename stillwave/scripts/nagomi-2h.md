@@ -212,6 +212,8 @@ LYRICS:
 
 `master-album.py` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) → `Suno-Nagomi-mastered`, then timestamps. Generate ~4 per variant (~40), keep the calmest set that fits the 2H cap, drop the loudest/peakiest (MIZU lesson). Reorder anti-Content-ID so no two adjacent tracks share a Suno variant, then rename `01 - … NN -`.
 
+**AS-BUILT (2026-07-27):** 38 треков сгенерировано и отмастерено (0 клиппованных, input −13.7…−16.8 LUFS), сырой тотал 2:01:54 — перебор на 1:54. Выброшено 2: `Nagomi9` (−13.7 LUFS, TP −1.3 — одновременно самый громкий и самый пиковый) и `Nagomi8 (4)` (−16.8 LUFS, TP −4.0 — аномально тихий, на 2 dB ниже всего ряда). **Финал = 36 треков, TOTAL 1:55:20.** Порядок пересобран анти-Content-ID: чистый раунд-робин по 10 вариантам, ни одной пары соседей из одного варианта; открывает самый спокойный кото-трек (`Nagomi1 (2)`, −14.5), закрывает вариант 8 (near-silence / breath) — самый тихий финал. Переименовано `01 - … 36 -`, именно этот порядок отражён в таймкодах §8.
+
 **🇺🇦** Мастеринг −16 LUFS → отбор самых спокойных под ≤2:00 (выкинуть самые громкие/пиковые) → перемешать так, чтобы соседние треки были из разных вариантов → переименовать `01 - …`.
 
 ---
@@ -297,8 +299,44 @@ but the quiet comfort of things in their place.
 
 Golden light fills a tatami room. Tea steams softly; a hearth glows low; a garden rests beyond the open screens. Nagomi is the soft, everyday peace of a heart in balance — with yourself, with others, with the moment. Nothing needs to be done. Everything is already enough.
 
-Tracklist:
-[added after mastering — mood-poetic names, warm and gentle]
+🎵 Tracklist
+
+0:00 The Door Slides Open
+3:14 A Breath Through Bamboo
+6:27 Warm Air, Nothing More
+9:41 Soft Rain on the Eaves
+13:20 A Distant Temple Bell
+16:42 Embers in the Hearth
+19:51 A Music Box Two Rooms Away
+22:49 Almost Silence
+26:08 One Wind Chime, Once
+29:12 Low Strings, Warm Room
+32:10 Afternoon Light on Tatami
+35:13 The Flute Remembers Summer
+38:27 Nowhere Else to Be
+41:51 Rain Softens the Garden Path
+44:55 The Bell Fades Slowly
+48:19 Coals Turn Amber
+51:23 Small Bright Notes
+54:32 Breathing Room
+57:33 Wind Moves the Chime
+1:00:39 Warmth in the Low Strings
+1:03:52 Tea Poured Twice
+1:06:56 A Long Note, Held
+1:10:35 Everything Settles
+1:13:44 Rain and Nothing to Do
+1:16:52 One Bell, Far Away
+1:20:05 The Hearth Keeps Watch
+1:23:08 Light on the Kettle
+1:26:25 Quiet Enough to Hear the Room
+1:29:19 Evening Air Through Paper
+1:32:33 Dusk in the Cello
+1:35:46 The Last Warm Breath
+1:38:59 Shadows Lengthen Gently
+1:42:13 The Final Coal
+1:45:29 Nothing Is Asked of You
+1:48:57 The Room at Rest
+1:52:21 Harmony, and Sleep
 
 🌀 Let the light grow soft and gold.
 🍃 Be at ease. Everything is already enough.
