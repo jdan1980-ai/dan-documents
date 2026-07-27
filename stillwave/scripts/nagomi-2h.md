@@ -219,16 +219,16 @@ LYRICS:
 ## §3 — NanoBanana 16:9 (PRIMARY)
 
 ```
-Photorealistic cinematic still, a serene traditional Japanese tatami room at golden hour. Warm late-afternoon sunlight pours through open shoji screens on the right, glowing across the tatami and paper walls. On a low table right-of-centre: a simple ceramic tea set with a cup of tea, soft steam rising gently. A low irori hearth glows warm nearby. Beyond the open shoji, a calm green garden softly out of focus. A lone figure sits in seiza in the lower third, small, back to camera, face never visible, at ease. Warm, cozy, balanced palette — honey gold light, soft wood browns, gentle green garden bokeh. Deep sense of comfort and harmony. Keep the lower-left corner as dark, empty negative space for a text overlay — no bright objects or busy detail in the bottom-left third. Keep the bottom-right corner as calm, dark, low-detail space (logo placement). No text, no letters, no watermark. 4K, cinematic warmth.
+Photorealistic cinematic still, a serene traditional Japanese tatami room at golden hour. Warm late-afternoon sunlight pours through open shoji screens on the right, glowing across the tatami and paper walls. On a low table right-of-centre: a simple ceramic tea set with a cup of tea, soft steam rising gently. A low irori hearth glows warm nearby. Beyond the open shoji, a calm green garden softly out of focus. A lone man sits in seiza in the lower third, small, back to camera, face never visible, wearing a simple dark indigo kimono, at ease. Warm, cozy, balanced palette — honey gold light, soft wood browns, gentle green garden bokeh. Deep sense of comfort and harmony. Keep the lower-left corner as dark, empty negative space for a text overlay — no bright objects or busy detail in the bottom-left third. Keep the bottom-right corner as calm, dark, low-detail space (logo placement). No text, no letters, no watermark. 4K, cinematic warmth.
 ```
 
 **Alt — no figure (pure still life):** drop the seated figure; the tea set + hearth + garden light in an empty room. Calmer, object-focused, also works as the thumbnail.
-**🇺🇦** Кадр: тёплая татами-комната в золотой час, солнце сквозь сёдзи справа, чайный набор с лёгким паром, тлеющий очаг, спокойный сад за перегородкой; одинокая фигура в сэйдза мелко, спиной. Тёплая уютная палитра. Углы: слева-низ тёмный под текст, справа-низ под лого. Альт — без фигуры, чистый натюрморт.
+**🇺🇦** Кадр: тёплая татами-комната в золотой час, солнце сквозь сёдзи справа, чайный набор с лёгким паром, тлеющий очаг, спокойный сад за перегородкой; одинокий мужчина в сэйдза мелко, спиной (тёмное индиговое кимоно). Тёплая уютная палитра. Углы: слева-низ тёмный под текст, справа-низ под лого. Альт — без фигуры, чистый натюрморт.
 
 ## §3b — NanoBanana 9:16 (Shorts)
 
 ```
-Photorealistic cinematic vertical still 9:16, a serene traditional Japanese tatami room at golden hour, warm sunlight through open shoji, a simple ceramic tea set with soft steam on a low table, a low irori hearth glowing warm, a calm green garden softly out of focus beyond the shoji, a lone figure in seiza small in the lower third, back to camera, face never visible. Warm cozy honey-gold palette, deep comfort and harmony. Keep the middle-left of the frame calm and low-detail — no bright highlight or busy pattern across the centre-left band (a text overlay sits there). No text, no letters, no watermark. 4K.
+Photorealistic cinematic vertical still 9:16, a serene traditional Japanese tatami room at golden hour, warm sunlight through open shoji, a simple ceramic tea set with soft steam on a low table, a low irori hearth glowing warm, a calm green garden softly out of focus beyond the shoji, a lone man in seiza small in the lower third, back to camera, face never visible, in a simple dark indigo kimono. Warm cozy honey-gold palette, deep comfort and harmony. Keep the middle-left of the frame calm and low-detail — no bright highlight or busy pattern across the centre-left band (a text overlay sits there). No text, no letters, no watermark. 4K.
 ```
 
 ## §3c — Shorts image set (9:16 — 6 frames)
@@ -251,7 +251,7 @@ Generate all 6, save `nagomi-shorts-fr1.jpg … fr6.jpg`.
 3. **hearth glow:** `Photorealistic cinematic vertical still 9:16, a low irori hearth glowing warm in a dim cozy tatami room, soft embers and gentle amber light on the right, deep warmth, everything else quiet and dark. Keep the centre-left dim and low-detail. No text, no watermark. 4K.`
 4. **KANJI frame — warm empty room:** `Photorealistic cinematic vertical still 9:16, a warm empty tatami room at golden hour, soft light through shoji on the right, a small tea set low in the frame, and a large calm low-detail warm-dark area across the centre and left (deliberate empty space). No text, no watermark. 4K.`
 5. **garden beyond shoji:** `Photorealistic cinematic vertical still 9:16, a calm green Japanese garden seen softly through open shoji screens from inside a warm tatami room, golden hour, gentle bokeh, peaceful. Keep the centre-left calm and low-detail. No text, no watermark. 4K.`
-6. **figure at rest (loop point):** `Photorealistic cinematic vertical still 9:16, a lone figure sitting in seiza, small and low in the frame, back to camera, face never visible, in a warm sunlit tatami room at golden hour, completely at ease, soft light from the upper right. Keep the centre-left calm and low-detail. No text, no watermark. 4K.`
+6. **man at rest (loop point):** `Photorealistic cinematic vertical still 9:16, a lone man sitting in seiza, small and low in the frame, back to camera, face never visible, wearing a simple dark indigo kimono, in a warm sunlit tatami room at golden hour, completely at ease, soft light from the upper right. Keep the centre-left calm and low-detail. No text, no watermark. 4K.`
 
 ---
 
@@ -351,7 +351,7 @@ ffmpeg `zoompan` — it rounds the crop to whole pixels and stutters), 0.8s cros
 composited with alpha fades, tail fade to black for a clean loop. Reference builder:
 `assets/yugen-short-build.py` (swap the image list, overlay names and beat timings).
 
-**Shot order:** 1 tea (hook) → 5 garden → 4 empty room (kanji frame) → 3 hearth → 2 hands+tea → 6 figure at rest.
+**Shot order:** 1 tea (hook) → 5 garden → 4 empty room (kanji frame) → 3 hearth → 2 hands+tea → 6 man at rest.
 Each shot 6.5s, crossfade 0.8s → **35.0s total**.
 
 **Text beats** (warm cream `#F5EAD2` + soft gold, brush font, LEFT side, glyphs must land inside
@@ -359,7 +359,7 @@ Each shot 6.5s, crossfade 0.8s → **35.0s total**.
 - `Warmth. Balance. Enough.` — fades in 3.5s, out by 9.5s (over the tea + garden shots)
 - **和 / NAGOMI** — 12.4 → 17.6s (on the empty-room kanji frame)
 - **和敬清寂 / Wa-kei-sei-jaku / Harmony, respect, purity, stillness** — 29.4 → 33.2s (on the closing
-  figure-at-rest shot, so the reveal itself stays text-free)
+  man-at-rest shot, so the reveal itself stays text-free)
 
 **Music:** one calm NAGOMI track, trimmed to 35s, fade-in 1.6s / fade-out 1.6s.
 
