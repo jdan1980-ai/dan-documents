@@ -266,11 +266,28 @@ Generate all 6, save `nagomi-shorts-fr1.jpg … fr6.jpg`.
 
 ## §4 — Flow / Kling prompt (16:9 loop)
 
+Built for the delivered hero (`assets/nagomi-2h-thumb.jpg` source): man in seiza centre, tea set on the
+low table right of him, irori embers glowing lower-right, garden through the open shoji, hanging scroll
+on the left wall.
+
 ```
-Camera locked, static. Seamless loop. Animate ONLY: (1) soft steam rising gently from the tea cup and dissipating; (2) warm hearth embers glowing with a slow soft flicker; (3) warm sunlight very slowly shifting intensity, with faint dust motes turning in the light; (4) the seated figure's shoulders with one slow, barely perceptible breath per loop; (5) the garden foliage beyond the shoji swaying very slightly. Everything else perfectly still. Slow, warm, cozy, meditative. Last frame matches first frame exactly for a perfect loop.
+Camera locked, completely static. Seamless loop. Animate ONLY these five things: (1) thin soft steam rising gently from the tea cup on the low table and dissipating; (2) the glowing embers in the sunken hearth pulsing with a slow, soft warm flicker; (3) the warm sunset light through the open shoji shifting intensity very slightly, breathing brighter and dimmer; (4) the seated man's shoulders rising and falling with ONE slow, barely perceptible breath across the whole loop — he never turns, never moves his head, face never visible; (5) the garden foliage beyond the doorway swaying very slightly in a soft breeze. EVERYTHING else is perfectly still: the tatami, the walls, the hanging scroll, the tea set, the table, the cushion. No camera pan, no zoom, no dolly, no shake. Slow, warm, cozy, meditative. The last frame matches the first frame exactly for a perfect seamless loop.
 ```
-> 🔒 Steam thin and away from the figure; garden leaves sway (not falling). No airborne particles.
-**🇺🇦** В лупе: пар от чая вверх, угли очага мягко мерцают, тёплый свет чуть меняется, один вдох плеч, листва сада еле колышется. Остальное неподвижно.
+
+**Shorter Kling variant** (if the model ignores long prompts):
+```
+Static locked camera, seamless loop. Only movement: thin steam from the tea cup, slow flicker of the hearth embers, warm light gently breathing, one slow breath in the seated man's shoulders, soft sway of the garden leaves outside. Everything else frozen. No pan, no zoom. Last frame matches first frame.
+```
+
+> 🔒 Steam stays thin and rises away from the figure. Garden leaves **sway**, never fall. **No dust motes,
+> no airborne particles of any kind** — they break the loop seam and freeze badly over 2 hours.
+> The man must not turn his head or shift position; one breath per loop is the whole performance.
+
+**🇺🇦** В лупе двигается только пять вещей: пар от чашки, мерцание углей в очаге, лёгкое «дыхание»
+тёплого света, один медленный вдох плеч сидящего и еле заметное колыхание листвы в саду. Всё
+остальное — татами, стены, свиток, чайный набор — неподвижно. Камера намертво зафиксирована: без
+панорам, зума и тряски. Последний кадр = первый. **Никаких пылинок и летящих частиц** — они рвут стык
+лупа и за два часа мозолят глаз.
 
 ---
 
