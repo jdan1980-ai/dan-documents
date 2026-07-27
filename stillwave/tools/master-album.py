@@ -12,7 +12,9 @@ Per track (two-pass EBU R128 loudnorm — accurate, dynamics preserved):
 Usage:
   python3 master-album.py <folder-with-suno-wavs> [-o out-folder] [--lufs -16] [--fade 1.0] [--no-shelf]
 
-Output: <folder>-mastered/ with the same file names + a summary table.
+Output: <folder>-mastered/ with the same file names + a summary table
+(length per track, album TOTAL, and duplicate detection — Suno sometimes
+returns the same render twice; identical length + LUFS + TP flags it).
 Tracks whose input true peak exceeds 0 dB (clipped upstream) are flagged — consider regenerating those.
 """
 
@@ -38,6 +40,13 @@ def probe_duration(path):
     r = run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
              "-of", "csv=p=0", str(path)])
     return float(r.stdout.strip())
+
+
+def hms(sec):
+    sec = int(round(sec))
+    h, rem = divmod(sec, 3600)
+    m, s = divmod(rem, 60)
+    return f"{h}:{m:02d}:{s:02d}" if h else f"{m}:{s:02d}"
 
 
 def measure(path, prefilter):
@@ -93,24 +102,44 @@ def main():
         prefilter += "highshelf=g=-1.5:f=9000,"
 
     print(f"{len(files)} tracks → {out_dir}   (target {args.lufs} LUFS, TP -1.5 dB, 48 kHz/24-bit)\n")
-    print(f"{'track':<44} {'in LUFS':>8} {'in TP':>7}  note")
+    print(f"{'track':<40} {'length':>7} {'in LUFS':>8} {'in TP':>7}  note")
     print("-" * 78)
 
     clipped = []
+    dups = []
+    seen = {}
+    total = 0.0
     for f in files:
         try:
             meas = measure(f, prefilter)
+            dur = probe_duration(f)
+            total += dur
             note = ""
             if float(meas["input_tp"]) > 0:
                 note = "⚠ clipped input — consider regenerating"
                 clipped.append(f.name)
+            # Suno occasionally hands back the same render twice — identical
+            # length + LUFS + TP is the signature. Flag it before track selection.
+            sig = (round(dur), round(float(meas["input_i"]), 1), round(float(meas["input_tp"]), 1))
+            if sig in seen:
+                note = (note + "  " if note else "") + f"⧉ duplicate of {seen[sig]}"
+                dups.append((f.name, seen[sig]))
+            else:
+                seen[sig] = f.name
             master(f, out_dir / (f.stem + ".wav"), prefilter, args.lufs, args.fade, meas)
-            print(f"{f.name[:43]:<44} {float(meas['input_i']):>8.1f} {float(meas['input_tp']):>7.1f}  {note}")
+            print(f"{f.name[:39]:<40} {hms(dur):>7} {float(meas['input_i']):>8.1f} "
+                  f"{float(meas['input_tp']):>7.1f}  {note}")
         except Exception as e:
-            print(f"{f.name[:43]:<44}  FAILED: {e}")
+            print(f"{f.name[:39]:<40}  FAILED: {e}")
 
     print("-" * 78)
+    print(f"{'TOTAL':<40} {hms(total):>7}   ({len(files)} tracks)")
     print(f"Done → {out_dir}")
+    if dups:
+        print(f"\n⧉ {len(dups)} likely duplicate(s) — same length, LUFS and true peak:")
+        for a, b in dups:
+            print(f"   {a}  ==  {b}")
+        print("Keep one of each pair before building the album.")
     if clipped:
         print(f"\n⚠ {len(clipped)} track(s) had clipped input (TP > 0 dB):")
         for n in clipped:
