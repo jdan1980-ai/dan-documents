@@ -423,8 +423,10 @@ Each shot 6.5s, crossfade 0.8s → **35.0s total**.
 **33.8s / 1014 кадров**. Билдер `assets/nagomi-short-build.py`, оверлеи `assets/nagomi-short-overlays.py`.
 Обе обязательные проверки пройдены: плавность — 0 замерших кадров, CV **0.028**; safe zone — hook
 y 1078-1243, 和/NAGOMI y 1000-1299, 和敬清寂 y 1017-1270, всё внутри y 150-1450 / x 60-880.
-Музыка ещё не подложена (файл `nagomi-shorts-34s-silent.mp4` без звука) — как появится трек, мукс
-+ fade-in/out 1.6s. Если кадр 1 догенерируется, он встаёт первым и длительность вернётся к 35s.
+Музыка — `Nagomi10` (виолончель), сегмент с 4.5с (интро трека нарастает 4 секунды, а Short обязан
+звучать с нулевого кадра), fade-in 0.6s / fade-out 1.6s. Итог **−13.8 LUFS** — YouTube нормализует
+Shorts к −14, так что уровень попадает точно. Готовый файл: `assets/nagomi-shorts-34s.mp4`.
+Если кадр 1 догенерируется, он встаёт первым и длительность вернётся к 35s.
 
 **Text beats** (warm cream `#F5EAD2` + soft gold, brush font, LEFT side, glyphs must land inside
 **y 150–1450** of 1080×1920 — the Shorts safe zone):
