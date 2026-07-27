@@ -217,7 +217,7 @@ LYRICS:
 - `Nagomi8 (4)` — −16.8 LUFS, TP −4.0: аномально тихий, на 2 dB ниже всего ряда;
 - `Nagomi10 (4)` — дубль `Nagomi10 (3)` (совпали длительность 3:13, LUFS −14.4 и TP −2.1). Suno иногда отдаёт две одинаковые выгрузки — **перед отбором сверять длительность+LUFS+TP внутри каждого варианта**, совпадение всех трёх = дубль.
 
-**Финал = 35 треков, TOTAL 1:52:07** → **+2 догенерации** (`Nagomi011`, `Nagomi01 (3)`, папка `Suno-Nagomi-add`, −14.8 и −14.1 LUFS — самые спокойные из четырёх кандидатов) → **37 треков, TOTAL 1:58:55**. Названия у добавленных нарочно нейтральные, без привязки к инструменту. Порядок анти-Content-ID: раунд-робин по 10 вариантам, ни одной пары соседей из одного варианта; открывает самый спокойный кото-трек (`Nagomi1 (2)`, −14.5), закрывает вариант 8 (near-silence / breath) — самый тихий финал. Переименовано `01 - … 37 -`, именно этот порядок отражён в таймкодах §8.
+**Финал = 35 треков, TOTAL 1:52:07** → **+2 догенерации** (`Nagomi011`, `Nagomi01 (3)`, папка `Suno-Nagomi-add`, −14.8 и −14.1 LUFS — самые спокойные из четырёх кандидатов) → **37 треков, TOTAL 1:59:15**. Названия у добавленных нарочно нейтральные, без привязки к инструменту. Порядок анти-Content-ID: раунд-робин по 10 вариантам, ни одной пары соседей из одного варианта; открывает самый спокойный кото-трек (`Nagomi1 (2)`, −14.5), закрывает вариант 8 (near-silence / breath) — самый тихий финал. Переименовано `01 - … 37 -`, именно этот порядок отражён в таймкодах §8.
 
 **Инструменты:** `master-album.py` теперь печатает длительность каждого трека, TOTAL и помечает вероятные дубли Suno (совпали длина + LUFS + TP). `tracklist-timestamps.py` по переименованной папке сразу отдаёт готовый блок для описания (префикс `01 - ` срезается автоматически).
 
@@ -310,41 +310,41 @@ Golden light fills a tatami room. Tea steams softly; a hearth glows low; a garde
 
 0:00 The Door Slides Open
 3:14 A Breath Through Bamboo
-6:27 Warm Air, Nothing More
-9:41 Soft Rain on the Eaves
-13:20 A Distant Temple Bell
-16:42 Embers in the Hearth
-19:51 The Room Holds the Warmth
-23:11 A Music Box Two Rooms Away
-26:09 Almost Silence
-29:28 One Wind Chime, Once
-32:32 Low Strings, Warm Room
-35:30 Afternoon Light on Tatami
-38:33 The Flute Remembers Summer
-41:47 Nowhere Else to Be
-45:11 Rain Softens the Garden Path
-48:15 The Bell Fades Slowly
-51:39 Coals Turn Amber
-54:43 Small Bright Notes
-57:52 Breathing Room
-1:00:53 Wind Moves the Chime
-1:03:59 Warmth in the Low Strings
-1:07:12 Tea Poured Twice
-1:10:16 A Long Note, Held
-1:13:55 Everything Settles
-1:17:04 Rain and Nothing to Do
-1:20:12 One Bell, Far Away
-1:23:25 The Hearth Keeps Watch
-1:26:28 Light on the Kettle
-1:29:45 Quiet Enough to Hear the Room
-1:32:39 Evening Air Through Paper
-1:35:53 The Last Warm Breath
-1:39:06 Shadows Lengthen Gently
-1:42:20 Nothing Hurries Here
-1:45:48 The Final Coal
-1:49:04 Nothing Is Asked of You
-1:52:32 The Room at Rest
-1:55:56 Harmony, and Sleep
+6:28 Warm Air, Nothing More
+9:43 Soft Rain on the Eaves
+13:22 A Distant Temple Bell
+16:45 Embers in the Hearth
+19:55 The Room Holds the Warmth
+23:14 A Music Box Two Rooms Away
+26:13 Almost Silence
+29:32 One Wind Chime, Once
+32:37 Low Strings, Warm Room
+35:36 Afternoon Light on Tatami
+38:39 The Flute Remembers Summer
+41:54 Nowhere Else to Be
+45:19 Rain Softens the Garden Path
+48:24 The Bell Fades Slowly
+51:48 Coals Turn Amber
+54:53 Small Bright Notes
+58:03 Breathing Room
+1:01:04 Wind Moves the Chime
+1:04:11 Warmth in the Low Strings
+1:07:25 Tea Poured Twice
+1:10:30 A Long Note, Held
+1:14:09 Everything Settles
+1:17:19 Rain and Nothing to Do
+1:20:27 One Bell, Far Away
+1:23:40 The Hearth Keeps Watch
+1:26:44 Light on the Kettle
+1:30:01 Quiet Enough to Hear the Room
+1:32:55 Evening Air Through Paper
+1:36:10 The Last Warm Breath
+1:39:23 Shadows Lengthen Gently
+1:42:38 Nothing Hurries Here
+1:46:07 The Final Coal
+1:49:23 Nothing Is Asked of You
+1:52:51 The Room at Rest
+1:56:15 Harmony, and Sleep
 
 🌀 Let the light grow soft and gold.
 🍃 Be at ease. Everything is already enough.
