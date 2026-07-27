@@ -217,7 +217,7 @@ LYRICS:
 - `Nagomi8 (4)` — −16.8 LUFS, TP −4.0: аномально тихий, на 2 dB ниже всего ряда;
 - `Nagomi10 (4)` — дубль `Nagomi10 (3)` (совпали длительность 3:13, LUFS −14.4 и TP −2.1). Suno иногда отдаёт две одинаковые выгрузки — **перед отбором сверять длительность+LUFS+TP внутри каждого варианта**, совпадение всех трёх = дубль.
 
-**Финал = 35 треков, TOTAL 1:52:07** → **+2 догенерации** (`Nagomi011`, `Nagomi01 (3)`, папка `Suno-Nagomi-add`, −14.8 и −14.1 LUFS — самые спокойные из четырёх кандидатов) → **37 треков**. Названия у добавленных нарочно нейтральные, без привязки к инструменту. Порядок анти-Content-ID: раунд-робин по 10 вариантам, ни одной пары соседей из одного варианта; открывает самый спокойный кото-трек (`Nagomi1 (2)`, −14.5), закрывает вариант 8 (near-silence / breath) — самый тихий финал. Переименовано `01 - … 37 -`, именно этот порядок отражён в таймкодах §8.
+**Финал = 35 треков, TOTAL 1:52:07** → **+2 догенерации** (`Nagomi011`, `Nagomi01 (3)`, папка `Suno-Nagomi-add`, −14.8 и −14.1 LUFS — самые спокойные из четырёх кандидатов) → **37 треков, TOTAL 1:58:55**. Названия у добавленных нарочно нейтральные, без привязки к инструменту. Порядок анти-Content-ID: раунд-робин по 10 вариантам, ни одной пары соседей из одного варианта; открывает самый спокойный кото-трек (`Nagomi1 (2)`, −14.5), закрывает вариант 8 (near-silence / breath) — самый тихий финал. Переименовано `01 - … 37 -`, именно этот порядок отражён в таймкодах §8.
 
 **Инструменты:** `master-album.py` теперь печатает длительность каждого трека, TOTAL и помечает вероятные дубли Suno (совпали длина + LUFS + TP). `tracklist-timestamps.py` по переименованной папке сразу отдаёт готовый блок для описания (префикс `01 - ` срезается автоматически).
 
@@ -314,35 +314,37 @@ Golden light fills a tatami room. Tea steams softly; a hearth glows low; a garde
 9:41 Soft Rain on the Eaves
 13:20 A Distant Temple Bell
 16:42 Embers in the Hearth
-19:51 A Music Box Two Rooms Away
-22:49 Almost Silence
-26:08 One Wind Chime, Once
-29:12 Low Strings, Warm Room
-32:10 Afternoon Light on Tatami
-35:13 The Flute Remembers Summer
-38:27 Nowhere Else to Be
-41:51 Rain Softens the Garden Path
-44:55 The Bell Fades Slowly
-48:19 Coals Turn Amber
-51:23 Small Bright Notes
-54:32 Breathing Room
-57:33 Wind Moves the Chime
-1:00:39 Warmth in the Low Strings
-1:03:52 Tea Poured Twice
-1:06:56 A Long Note, Held
-1:10:35 Everything Settles
-1:13:44 Rain and Nothing to Do
-1:16:52 One Bell, Far Away
-1:20:05 The Hearth Keeps Watch
-1:23:08 Light on the Kettle
-1:26:25 Quiet Enough to Hear the Room
-1:29:19 Evening Air Through Paper
-1:32:33 The Last Warm Breath
-1:35:46 Shadows Lengthen Gently
-1:39:00 The Final Coal
-1:42:16 Nothing Is Asked of You
-1:45:44 The Room at Rest
-1:49:08 Harmony, and Sleep
+19:51 The Room Holds the Warmth
+23:11 A Music Box Two Rooms Away
+26:09 Almost Silence
+29:28 One Wind Chime, Once
+32:32 Low Strings, Warm Room
+35:30 Afternoon Light on Tatami
+38:33 The Flute Remembers Summer
+41:47 Nowhere Else to Be
+45:11 Rain Softens the Garden Path
+48:15 The Bell Fades Slowly
+51:39 Coals Turn Amber
+54:43 Small Bright Notes
+57:52 Breathing Room
+1:00:53 Wind Moves the Chime
+1:03:59 Warmth in the Low Strings
+1:07:12 Tea Poured Twice
+1:10:16 A Long Note, Held
+1:13:55 Everything Settles
+1:17:04 Rain and Nothing to Do
+1:20:12 One Bell, Far Away
+1:23:25 The Hearth Keeps Watch
+1:26:28 Light on the Kettle
+1:29:45 Quiet Enough to Hear the Room
+1:32:39 Evening Air Through Paper
+1:35:53 The Last Warm Breath
+1:39:06 Shadows Lengthen Gently
+1:42:20 Nothing Hurries Here
+1:45:48 The Final Coal
+1:49:04 Nothing Is Asked of You
+1:52:32 The Room at Rest
+1:55:56 Harmony, and Sleep
 
 🌀 Let the light grow soft and gold.
 🍃 Be at ease. Everything is already enough.
