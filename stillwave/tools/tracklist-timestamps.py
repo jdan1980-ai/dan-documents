@@ -22,6 +22,7 @@ tracklist-timestamps.py — автоматический тайм-лайн тр�
 """
 
 import sys
+import re
 import os
 import argparse
 import subprocess
@@ -88,6 +89,8 @@ def main():
     parser.add_argument("--names", help="Файл с именами треков (одно имя на строку)")
     parser.add_argument("--offset", type=float, default=0.0,
                         help="Начальный офсет в секундах (default: 0)")
+    parser.add_argument("--keep-index", action="store_true",
+                        help="не срезать префикс '01 - ' из имени файла")
     args = parser.parse_args()
 
     folder = Path(args.folder)
@@ -127,6 +130,9 @@ def main():
             name = custom_names[i]
         else:
             name = f.stem  # имя файла без расширения
+            if not args.keep_index:
+                # файлы называются '01 - Track Name' — в описание идёт только название
+                name = re.sub(r"^\d+\s*[-–—.]\s*", "", name)
 
         lines.append(f"{fmt_time(cursor)} {name}")
         print(f"  {fmt_time(cursor)}  {name}  ({fmt_time(dur)})")
