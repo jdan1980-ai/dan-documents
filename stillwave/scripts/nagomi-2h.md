@@ -5,10 +5,10 @@
 - **Title:** NAGOMI — 和 | Japanese Zen Music for Harmony, Comfort & Gentle Everyday Peace
 - **Slug:** `nagomi-2h`
 - **Format:** Long-form (Kanji-Concept Series)
-- **Length:** target ≤ 2:00:00 (~36 mastered tracks; trim to calmest)
+- **Length:** target ≤ 2:00:00 (generate ~40, keep the calmest set that fits)
 - **Aesthetic:** Warm comfort — a serene traditional tatami room at golden hour, a tea set with soft steam, an irori hearth glowing low, gentle light, a calm garden beyond the open shoji. Warmth and balance, being at ease.
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Status:** 🚧 IN PRODUCTION (package created 2026-07-21)
+- **Status:** 🟢 READY TO PRODUCE — full package prepared 2026-07-26 (10 Suno variants, hero 16:9, 6-frame Shorts set composed for the safe zone, Short build spec, SEO). Next: generate music + images.
 - **Concept note:** NAGOMI (和) — "harmony, calm, being at ease." The soft, everyday peace of a mind and heart in balance — with oneself, with others, with the moment. Not dramatic enlightenment, but the quiet comfort of warmth, gentleness, and things in their right place. 和 is also the character for "Japan" itself — harmony as the culture's root value.
   - **🇺🇦** NAGOMI (和) — «гармония, покой, умиротворённость». Мягкий, повседневный мир ума и сердца в равновесии — с собой, с другими, с моментом. Не драматичное просветление, а тихий уют тепла и вещей на своих местах. 和 — ещё и иероглиф самой «Японии»: гармония как корневая ценность культуры.
 
@@ -20,9 +20,9 @@
 
 ---
 
-## §1 — Suno prompts (8 copy-paste variants — warm, comforting, maximally calm & meditative)
+## §1 — Suno prompts (10 copy-paste variants — warm, comforting, maximally calm & meditative)
 
-Batch names: `NAGOMI` … `NAGOMI 8`. Different opening each (Content ID lesson). ~5 per variant (~40), keep calmest ~36, interleave 1–8. All **as slow, minimal and meditative as possible** — deep, cozy, sleep-friendly zen ambient.
+Batch names: `NAGOMI` … `NAGOMI 10`. Different opening each (Content ID lesson). ~5 per variant (~40), keep calmest ~36, interleave 1–8. All **as slow, minimal and meditative as possible** — deep, cozy, sleep-friendly zen ambient.
 
 **🇺🇦 Звук:** тёплый, уютный, максимально спокойный медитативный эмбиент — мягкий koto, сякухати, тёплые пэды, тихий очаг/дождь на грани слышимости; много воздуха, ощущение равновесия и тепла. STYLE → Style, LYRICS → Lyrics.
 
@@ -170,40 +170,88 @@ LYRICS:
 [texture: warm room tone, glowing pads, single sparse koto, distant shakuhachi]
 ```
 
+### Variant 9 — NAGOMI 9 (wind-chime / fūrin-led)
+
+STYLE:
+```
+Warm comforting Japanese zen ambient, extremely slow and cozy. Opens with a single soft wind-chime (fūrin) note from the garden, then warm glowing pads rise, a gentle koto, a distant soft shakuhachi, faint room tone. 46 BPM, spacious, tender, homely, deeply restful. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: one soft wind-chime note from an open window, ringing and fading for several seconds, then warm pads rise]
+[section A: gentle koto notes far apart, warm pads glowing beneath like afternoon light]
+[section B: a distant soft shakuhachi breath, everything unhurried and balanced]
+[section C: settles into warm homely calm, koto and pad barely moving]
+[loop point: fades to a last faint chime and warm room tone, ready to begin again]
+[mood: a breeze through an open shoji, tea cooling on a low table, nothing to hurry for]
+[texture: wind-chime, warm pads, gentle koto, distant shakuhachi, soft room tone]
+```
+
+### Variant 10 — NAGOMI 10 (soft cello / bowed-warmth-led)
+
+STYLE:
+```
+Warm comforting Japanese zen ambient with a soft bowed warmth, extremely slow. Opens with a gentle low cello note swelling and fading, then warm pads, sparse koto, a faint shakuhachi far away, quiet hearth hush. 44 BPM, tender, enveloping, homely, sleep-friendly. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+LYRICS:
+```
+[no lyrics, no vocals, instrumental only]
+[opening: a gentle low cello note swells softly and fades over several seconds, warm and close]
+[section A: warm pads rise beneath, sparse koto notes fall gently far apart]
+[section B: a faint distant shakuhachi, the warmth widens like a room at dusk]
+[section C: everything rests in tender homely calm, only pad and one low bowed tone]
+[loop point: the cello and pad fade into warm quiet, ready to begin again]
+[mood: an old wooden room holding the day's last warmth, someone breathing slowly nearby]
+[texture: soft cello, warm pads, gentle koto, faint shakuhachi, hearth hush]
+```
+
 ---
 
 ## §2 — Mastering
 
-`master-album.py` → `Suno-Nagomi-mastered`, then `tracklist-timestamps.py`. Trim loudest/peakiest to the calmest ~36 (MIZU lesson).
+`master-album.py` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) → `Suno-Nagomi-mastered`, then timestamps. Generate ~4 per variant (~40), keep the calmest set that fits the 2H cap, drop the loudest/peakiest (MIZU lesson). Reorder anti-Content-ID so no two adjacent tracks share a Suno variant, then rename `01 - … NN -`.
+
+**🇺🇦** Мастеринг −16 LUFS → отбор самых спокойных под ≤2:00 (выкинуть самые громкие/пиковые) → перемешать так, чтобы соседние треки были из разных вариантов → переименовать `01 - …`.
 
 ---
 
 ## §3 — NanoBanana 16:9 (PRIMARY)
 
 ```
-Photorealistic cinematic still, a serene traditional Japanese tatami room at golden hour. Warm late-afternoon sunlight pours through open shoji screens on the left, glowing across the tatami and paper walls. In the foreground on a low table: a simple ceramic tea set with a cup of tea, soft steam rising gently. A low irori hearth glows warm on one side. Beyond the open shoji, a calm green garden softly out of focus. A lone figure sits in seiza in the lower third, small, back to camera, face never visible, at ease. Warm, cozy, balanced palette — honey gold light, soft wood browns, gentle green garden bokeh. Deep sense of comfort and harmony. Keep the lower-left corner calm/low-detail for text; keep the bottom-right corner calm, low-detail (logo). No text, no letters, no watermark. 4K, cinematic warmth.
+Photorealistic cinematic still, a serene traditional Japanese tatami room at golden hour. Warm late-afternoon sunlight pours through open shoji screens on the right, glowing across the tatami and paper walls. On a low table right-of-centre: a simple ceramic tea set with a cup of tea, soft steam rising gently. A low irori hearth glows warm nearby. Beyond the open shoji, a calm green garden softly out of focus. A lone figure sits in seiza in the lower third, small, back to camera, face never visible, at ease. Warm, cozy, balanced palette — honey gold light, soft wood browns, gentle green garden bokeh. Deep sense of comfort and harmony. Keep the lower-left corner as dark, empty negative space for a text overlay — no bright objects or busy detail in the bottom-left third. Keep the bottom-right corner as calm, dark, low-detail space (logo placement). No text, no letters, no watermark. 4K, cinematic warmth.
 ```
 
-**Alt — no figure (pure still life):** the tea set + hearth + garden light, empty room, for a calmer object-focused thumbnail.
-**🇺🇦** Кадр: тёплая татами-комната в золотой час, солнце сквозь сёдзи, чайный набор с лёгким паром, тлеющий очаг, спокойный сад за открытой перегородкой; одинокая фигура в сэйдза мелко, спиной, умиротворённая. Тёплая уютная палитра. Углы: слева-низ под текст, справа-низ под лого. Альт — без фигуры, чистый натюрморт.
+**Alt — no figure (pure still life):** drop the seated figure; the tea set + hearth + garden light in an empty room. Calmer, object-focused, also works as the thumbnail.
+**🇺🇦** Кадр: тёплая татами-комната в золотой час, солнце сквозь сёдзи справа, чайный набор с лёгким паром, тлеющий очаг, спокойный сад за перегородкой; одинокая фигура в сэйдза мелко, спиной. Тёплая уютная палитра. Углы: слева-низ тёмный под текст, справа-низ под лого. Альт — без фигуры, чистый натюрморт.
 
 ## §3b — NanoBanana 9:16 (Shorts)
 
 ```
-Photorealistic cinematic vertical still, a serene traditional Japanese tatami room at golden hour, warm sunlight through open shoji, a simple tea set with soft steam on a low table, a low irori hearth glowing warm, a calm green garden softly out of focus beyond the shoji, a lone figure in seiza small in the lower third, back to camera. Warm cozy honey-gold palette, deep comfort. No text, no letters, no watermark. 4K.
+Photorealistic cinematic vertical still 9:16, a serene traditional Japanese tatami room at golden hour, warm sunlight through open shoji, a simple ceramic tea set with soft steam on a low table, a low irori hearth glowing warm, a calm green garden softly out of focus beyond the shoji, a lone figure in seiza small in the lower third, back to camera, face never visible. Warm cozy honey-gold palette, deep comfort and harmony. Keep the middle-left of the frame calm and low-detail — no bright highlight or busy pattern across the centre-left band (a text overlay sits there). No text, no letters, no watermark. 4K.
 ```
 
 ## §3c — Shorts image set (9:16 — 6 frames)
 
-Save `nagomi-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm/empty for the kanji overlay.
-**🇺🇦** 6 вертикальных кадров; кадр 4 — под иероглиф 和.
+Generate all 6, save `nagomi-shorts-fr1.jpg … fr6.jpg`.
 
-1. **HOOK — tea + warm light:** `Photorealistic cinematic vertical still, a simple ceramic tea cup with soft steam on a low table in a warm sunlit tatami room at golden hour, honey-gold light, cozy. No text, no watermark. 4K.`
-2. **figure in seiza:** `Photorealistic cinematic vertical still, a lone figure in seiza, back to camera, face never visible, in a warm sunlit tatami room, at ease, golden hour light. No text, no watermark. 4K.`
-3. **hearth glow:** `Photorealistic cinematic vertical still, a low irori hearth glowing warm in a dim cozy tatami room, soft embers, deep warmth. No text, no watermark. 4K.`
-4. **KANJI frame — warm empty room:** `Photorealistic cinematic vertical still, a warm empty tatami room at golden hour, soft light through shoji, calm dark warm space in the upper half (empty for a kanji), a small tea set at the bottom. No text, no watermark. 4K.`
-5. **garden beyond shoji:** `Photorealistic cinematic vertical still, a calm green Japanese garden seen softly through open shoji screens from a warm tatami room, golden hour, peaceful. No text, no watermark. 4K.`
-6. **pouring tea:** `Photorealistic cinematic vertical still, warm tea being poured gently into a simple cup, soft steam rising, warm golden-hour light in a tatami room. No text, no watermark. 4K.`
+> **🔒 Compose for the SHORTS SAFE ZONE.** The player hides the bottom ~24% and right ~17% of the
+> frame, so our text beats sit at **53–67% of the height on the LEFT**. Every frame therefore needs a
+> **calm, low-detail centre-left band** (roughly the middle-lower third, left half) — no bright
+> highlight, no busy pattern, no key subject there. Put the hero object / bright light on the RIGHT
+> or in the UPPER half. Frame 4 is the "kanji frame" (extra-empty for 和). No airborne particles.
+>
+> **🇺🇦** Компонуй под безопасную зону: плеер прячет низ ~24% и правый край ~17%, поэтому текст
+> ложится на **53–67% высоты слева**. В каждом кадре нужна **спокойная малодетальная зона в
+> центре-слева** — без ярких бликов и пёстрых деталей. Герой и свет — справа или вверху. Кадр 4 —
+> «под иероглиф» 和. Никаких летящих частиц.
+
+1. **HOOK — tea + warm light:** `Photorealistic cinematic vertical still 9:16, a simple ceramic tea cup with soft steam on a low wooden table in a warm sunlit tatami room at golden hour, honey-gold light falling from the upper right, cozy and still. Keep the centre-left of the frame calm, dim and low-detail. No text, no watermark. 4K.`
+2. **hands + tea (human warmth, face never visible):** `Photorealistic cinematic vertical still 9:16, two hands cupped gently around a warm ceramic tea bowl on a low table in a sunlit tatami room, face never visible, soft steam, golden-hour warmth from the upper right. Keep the centre-left calm and low-detail. No text, no watermark. 4K.`
+3. **hearth glow:** `Photorealistic cinematic vertical still 9:16, a low irori hearth glowing warm in a dim cozy tatami room, soft embers and gentle amber light on the right, deep warmth, everything else quiet and dark. Keep the centre-left dim and low-detail. No text, no watermark. 4K.`
+4. **KANJI frame — warm empty room:** `Photorealistic cinematic vertical still 9:16, a warm empty tatami room at golden hour, soft light through shoji on the right, a small tea set low in the frame, and a large calm low-detail warm-dark area across the centre and left (deliberate empty space). No text, no watermark. 4K.`
+5. **garden beyond shoji:** `Photorealistic cinematic vertical still 9:16, a calm green Japanese garden seen softly through open shoji screens from inside a warm tatami room, golden hour, gentle bokeh, peaceful. Keep the centre-left calm and low-detail. No text, no watermark. 4K.`
+6. **figure at rest (loop point):** `Photorealistic cinematic vertical still 9:16, a lone figure sitting in seiza, small and low in the frame, back to camera, face never visible, in a warm sunlit tatami room at golden hour, completely at ease, soft light from the upper right. Keep the centre-left calm and low-detail. No text, no watermark. 4K.`
 
 ---
 
@@ -296,6 +344,41 @@ NAGOMI (和) in Japanese Culture: A Concise Overview
 NAGOMI (和) means harmony, calm, and being at ease — one of the most quietly important ideas in Japanese life. The same character stands for "Japan" itself, and harmony is treated as a root cultural value: balance between people, between a person and their surroundings, and within one's own heart. Nagomi is not a dramatic breakthrough but a gentle, everyday state — the comfort of a warm room, a shared cup of tea, and things resting in their right place. As the tea ceremony teaches through 和敬清寂 (harmony, respect, purity, stillness), true peace begins with 和: meeting the moment softly, and letting it be enough.
 ```
 
-## §14 — Shorts (concept + teaser)
+## §14 — Shorts (built here from the §3c stills — 6 shots, ~35s)
 
-**Concept Short** (add a `nagomi` config to `concept-shorts-build.py`): teaches NAGOMI from §12. **Title:** `What Is Nagomi? The Japanese Art of Everyday Calm 🍵 #shorts`. **Tags:** `nagomi, what is nagomi, nagomi meaning, japanese philosophy, harmony, comfort, cozy, japanese culture, zen, tea, stillwave`. **Pinned:** `🌀 和 NAGOMI — harmony and everyday ease. Full 2-hour session on the channel 🌿`. Related video → long-form · StillWave Shorts playlist · Not for kids.
+**Method (locked):** 6 vertical stills → slow Ken Burns rendered **float-precision in PIL** (never
+ffmpeg `zoompan` — it rounds the crop to whole pixels and stutters), 0.8s crossfades, text beats
+composited with alpha fades, tail fade to black for a clean loop. Reference builder:
+`assets/yugen-short-build.py` (swap the image list, overlay names and beat timings).
+
+**Shot order:** 1 tea (hook) → 5 garden → 4 empty room (kanji frame) → 3 hearth → 2 hands+tea → 6 figure at rest.
+Each shot 6.5s, crossfade 0.8s → **35.0s total**.
+
+**Text beats** (warm cream `#F5EAD2` + soft gold, brush font, LEFT side, glyphs must land inside
+**y 150–1450** of 1080×1920 — the Shorts safe zone):
+- `Warmth. Balance. Enough.` — fades in 3.5s, out by 9.5s (over the tea + garden shots)
+- **和 / NAGOMI** — 12.4 → 17.6s (on the empty-room kanji frame)
+- **和敬清寂 / Wa-kei-sei-jaku / Harmony, respect, purity, stillness** — 29.4 → 33.2s (on the closing
+  figure-at-rest shot, so the reveal itself stays text-free)
+
+**Music:** one calm NAGOMI track, trimmed to 35s, fade-in 1.6s / fade-out 1.6s.
+
+**⚠️ Two mandatory checks before delivery** (both were learned the hard way on YUGEN/KINTSUGI):
+1. **Smoothness** — 25 consecutive frames from the ENCODED file inside one shot: zero frozen frames
+   (diff < 0.05) and CV < 0.25.
+2. **Safe zone** — measure the opaque-pixel bounding box of every overlay PNG (alpha > 200) and
+   assert it sits inside y 150–1450 / x 60–880. Do not eyeball it, and do not threshold the video
+   frame itself (bright scenery reads as text and gives false failures).
+
+**Title:** `Warmth, Balance, Enough — 和 Nagomi 🍵 #shorts`
+**A/B Title:** `What Is Nagomi? The Japanese Art of Everyday Calm 🍵 #shorts`
+**Description:** `和 Nagomi — the Japanese art of everyday harmony: warmth, balance, and letting the moment be enough. Full 2-hour Japanese zen session on the channel 🌿`
+**Tags:** `nagomi, what is nagomi, nagomi meaning, japanese philosophy, harmony, comfort, cozy, japanese culture, wabi sabi, zen, tea ceremony, calm, self care, stillwave`
+**Hashtags:** `#nagomi #zen #japanese #cozy #calm #shorts`
+**Pinned:** `🌀 和 NAGOMI — harmony, warmth, and everyday ease. Full 2-hour session on the channel 🌿`
+
+Related video → long-form · **StillWave Shorts** playlist · Not for kids.
+
+**🇺🇦** Short собирается здесь из 6 кадров §3c: медленный дрейф (float-рендер, без `zoompan`),
+наплывы 0.8с, три текст-бита в безопасной зоне, музыка + фейд-луп, 35с. Перед отправкой —
+обязательные две проверки: плавность (0 замерших кадров, CV < 0.25) и попадание текста в зону.
