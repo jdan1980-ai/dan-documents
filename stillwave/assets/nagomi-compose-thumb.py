@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """NAGOMI thumbnail — 和 + NAGOMI over the engawa tea-for-two hero (1920x1080).
 
-Locked layout = V2: a stacked lockup on the shadowed veranda boards, LEFT side.
+Locked layout = V3: a stacked lockup on the shadowed veranda boards, LEFT side —
+和 + NAGOMI + the promise line EVERYDAY CALM.
 The frame is symmetric, so the only calm zone is the lower band; the scrim reaches
 up into the ferns so the kanji can stay large enough to read at feed size.
 Grade pulls the daylight green towards honey gold — warmth is half of what NAGOMI means.
-V1 (horizontal) and V3 (+ EVERYDAY CALM) are kept below as alternates.
+NAGOMI is an unfamiliar word and promises nothing on its own, so the third line does the
+selling — a deliberate departure from the clean kanji+romaji Kanji-Concept canon.
+V1 (horizontal) and V2 (no third line) are kept in this script as A/B alternates.
 """
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
 import numpy as np
@@ -100,7 +103,7 @@ im = base()
 scrim(im, (-260, 560, 700, 1110), alpha=178, blur=125)
 kanji(im, "和", 258, 112, 606)
 spaced(im, "NAGOMI", 80, 118, 896)
-im.convert("RGB").save("/home/user/dan-documents/stillwave/assets/nagomi-2h-thumb.jpg", quality=94)  # LOCKED
+im.convert("RGB").save(f"{SP}/nagomi2-thumb-v2.jpg", quality=94)
 
 # ── V3 — V2 + третья строка-обещание ────────────────────────────────────────
 im = base()
@@ -108,6 +111,6 @@ scrim(im, (-260, 520, 720, 1110), alpha=180, blur=125)
 kanji(im, "和", 236, 112, 556)
 spaced(im, "NAGOMI", 76, 118, 812)
 spaced(im, "EVERYDAY CALM", 40, 122, 912, fill=SUB, ls=6)
-im.convert("RGB").save(f"{SP}/nagomi2-thumb-v3.jpg", quality=94)
+im.convert("RGB").save("/home/user/dan-documents/stillwave/assets/nagomi-2h-thumb.jpg", quality=94)  # LOCKED
 
 print("saved v1 v2 v3")
