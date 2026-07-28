@@ -234,6 +234,42 @@ Photorealistic cinematic still, a serene traditional Japanese tatami room at gol
 **Alt — no figure (pure still life):** drop the seated figure; the tea set + hearth + garden light in an empty room. Calmer, object-focused, also works as the thumbnail.
 **🇺🇦** Кадр: тёплая татами-комната в золотой час, солнце сквозь сёдзи справа, чайный набор с лёгким паром, тлеющий очаг, спокойный сад за перегородкой; одинокий мужчина в сэйдза мелко, спиной (тёмное индиговое кимоно). Тёплая уютная палитра. Углы: слева-низ тёмный под текст, справа-низ под лого. Альт — без фигуры, чистый натюрморт.
 
+### §3 v2 — HERO v2: чайный столик на энгаве, накрыто на двоих (2026-07-28)
+
+Смысловой сдвиг: 和 — это лад *с кем-то*, а не соло-медитация. Накрытый на двоих столик читается как
+«тебя ждут», а комореби сквозь листву даёт максимальный комфорт. Анимируется тремя чистыми
+элементами (пар · качание листвы · скользящие пятна света) — без летящих частиц.
+
+**Ракурс A — низкая камера, сидячий уровень (основной):**
+```
+Photorealistic cinematic 16:9 still, shot on a professional full-frame camera, 35mm lens at f/2.0, camera low at seated eye level about 40 cm above the floor, gentle three-quarter angle. A traditional Japanese engawa veranda of an old wooden house looking out over an enclosed inner garden — moss, stepping stones, a stone water basin, maple and bamboo. On the polished dark wood veranda, right of centre, a low table is set for two: a cast-iron tetsubin teapot with thin steam rising, two rustic ceramic tea bowls on small wooden saucers, a bamboo whisk and scoop resting on a folded linen cloth, a small plate of wagashi sweets, and two flat cushions facing each other, one slightly creased as if someone has just risen. Late-afternoon sunlight filters through the maple leaves and falls across the veranda and the table in soft dappled komorebi patches. Warm honey-gold light, deep green moss, dark wood browns, cream paper shoji behind. Peaceful, intimate, deeply comfortable. The LEFT third of the frame is calm shadowed veranda boards and dim shoji — deliberately empty, low-detail negative space for a text overlay, no bright objects or busy detail there. Keep the bottom-right corner calm, dark and low-detail (logo placement). Nobody in the frame. No text, no letters, no watermark. 4K, cinematic warmth, shallow depth of field.
+```
+
+**Ракурс B — из глубины комнаты наружу (больше воздуха и глубины):**
+```
+Photorealistic cinematic 16:9 still, shot on a professional full-frame camera, 35mm lens at f/2.2, camera low at seated eye level inside a dim tatami room, looking out through a wide open shoji doorway onto a sunlit engawa veranda and an enclosed Japanese inner garden beyond — moss, stepping stones, a stone water basin, maple leaves. The dark wooden door frame and shoji edges frame the bright view like a picture. On the veranda, right of centre, a low table set for two: a cast-iron tetsubin teapot with thin steam, two ceramic tea bowls on wooden saucers, a bamboo whisk and scoop on a folded cloth, a small plate of wagashi, two flat cushions facing each other. Warm late-afternoon sun filters through the maple leaves in soft dappled komorebi patches across the veranda boards. Strong contrast between the cool shadowed interior and the glowing garden light. The LEFT third is dim interior wall and bare tatami — deliberately empty, low-detail negative space for a text overlay. Keep the bottom-right corner calm, dark and low-detail (logo placement). Nobody in the frame. No text, no letters, no watermark. 4K, cinematic warmth, shallow depth of field.
+```
+
+**Ракурс C — ближе, 85 мм, стол крупно, сад в боке:**
+```
+Photorealistic cinematic 16:9 still, shot on a professional full-frame camera, 85mm lens at f/1.8, camera low and close at table height. Close on a low wooden table on a traditional Japanese engawa veranda, set for two: a cast-iron tetsubin teapot with thin steam curling upward, two rustic ceramic tea bowls on small wooden saucers, a bamboo whisk and scoop on a folded linen cloth, a small plate of wagashi sweets. Two flat cushions face each other, one slightly creased. Behind, an enclosed Japanese inner garden dissolves into soft green bokeh — moss, stone basin, maple leaves. Warm late-afternoon sunlight filters through the leaves, laying soft dappled komorebi highlights across the wood grain and the rim of one bowl. Extremely shallow depth of field, creamy background separation. The LEFT third of the frame is shadowed veranda boards — deliberately empty and low-detail for a text overlay. Keep the bottom-right corner calm, dark and low-detail (logo placement). Nobody in the frame. No text, no letters, no watermark. 4K, cinematic warmth.
+```
+
+**9:16 для Shorts (тот же кадр):**
+```
+Photorealistic cinematic vertical still 9:16, professional full-frame camera, 35mm lens at f/2.0, low seated camera angle. A traditional Japanese engawa veranda looking onto an enclosed inner garden with moss, stepping stones and maple leaves. A low table set for two: a cast-iron tetsubin teapot with thin steam, two ceramic tea bowls on wooden saucers, a bamboo whisk and scoop on a folded cloth, a small plate of wagashi, two flat cushions facing each other. Warm late-afternoon sun filters through the leaves in soft dappled komorebi patches. Honey-gold light, deep green moss, dark wood. Keep the middle-left of the frame calm, shadowed and low-detail — no bright highlight or busy pattern across the centre-left band (a text overlay sits there). Nobody in the frame. No text, no letters, no watermark. 4K.
+```
+
+**Луп для Flow / Kling под этот кадр:**
+```
+Camera locked, completely static. Seamless loop. Animate ONLY these four things: (1) thin steam rising gently from the iron teapot and dissipating; (2) the maple leaves above swaying very slightly in a soft breeze; (3) the dappled sunlight patches on the veranda boards and the table shifting and breathing very slowly as the leaves move; (4) the surface of the water in the stone basin rippling faintly. EVERYTHING else is perfectly still: the table, the tea bowls, the cushions, the veranda, the shoji, the stones. No camera pan, no zoom, no dolly, no shake. Slow, warm, intimate, comfortable. The last frame matches the first frame exactly for a perfect seamless loop.
+```
+
+> 🔒 Ни одного падающего листа и ни одной пылинки — только качание и скольжение света.
+> Никого в кадре: пустая вторая подушка и есть весь сюжет.
+
+---
+
 ## §3b — NanoBanana 9:16 (Shorts)
 
 ```
