@@ -417,8 +417,9 @@ stillwave, japanese zen music, meditation music, zen music, relaxing music, calm
 
 ## §10 — Thumbnail
 
-- Background: §3 (warm tea room). **和** + **NAGOMI** cream, brush font (Yuji Boku), **lower-left** — the upper-left of the delivered hero is taken by the hanging scroll, and the lower-left tatami is the calmest area in the frame. Vignette on the corners; lower-right free for logo.
-- **AS-BUILT (2026-07-27):** `assets/nagomi-compose-thumb.py` → `assets/nagomi-2h-thumb.jpg` (1920×1080).
+- **LOCKED (2026-07-28):** фон — hero v2 `assets/nagomi-2h-source.jpg` (энгава, столик на двоих, внутренний сад). **和** крупно + **NAGOMI** под ним, кремовым кистевым (Yuji Boku), **слева на затенённых досках**. Кадр симметричный, поэтому единственная спокойная зона — нижняя полоса; скрим заходит вверх в папоротники, чтобы иероглиф остался крупным. Грейдинг тянет дневную зелень к медовому — тепло это половина смысла 和. Виньетка + мягкое свечение на пар и на подсвеченную стену. Нижний правый под лого свободен.
+- Сборка: `assets/nagomi-compose-thumb.py` → `assets/nagomi-2h-thumb.jpg` (1920×1080). В том же скрипте лежат альтернативы: **V1** — горизонтальная связка на нижних досках, **V3** — V2 + третья строка `EVERYDAY CALM` (кандидат на A/B, если CTR через 48 ч будет ниже 3%: NAGOMI — незнакомое слово и само по себе ничего не обещает).
+- Проверено: глифы `y 607–990`, `x 123–550` — внутри кадра с запасом, край ничего не режет.
 - **🇺🇦** Обложка: тёплая чайная комната, 和 верх-лево + NAGOMI низ-лево кистевой каллиграфией, углы затемнить.
 
 ---
