@@ -302,28 +302,34 @@ Generate all 6, save `nagomi-shorts-fr1.jpg … fr6.jpg`.
 
 ## §4 — Flow / Kling prompt (16:9 loop)
 
-Built for the delivered hero (`assets/nagomi-2h-thumb.jpg` source): man in seiza centre, tea set on the
-low table right of him, irori embers glowing lower-right, garden through the open shoji, hanging scroll
-on the left wall.
+Под финальный герой `assets/nagomi-2h-source.jpg` (энгава, столик на двоих, внутренний сад с прудом,
+бамбуковый желоб слева, каменные фонари справа). **В генератор подаётся ЧИСТОЕ изображение без текста** —
+тумбу с надписями скармливать нельзя, модель начнёт анимировать буквы и размажет их.
 
 ```
-Camera locked, completely static. Seamless loop. Animate ONLY these five things: (1) thin soft steam rising gently from the tea cup on the low table and dissipating; (2) the glowing embers in the sunken hearth pulsing with a slow, soft warm flicker; (3) the warm sunset light through the open shoji shifting intensity very slightly, breathing brighter and dimmer; (4) the seated man's shoulders rising and falling with ONE slow, barely perceptible breath across the whole loop — he never turns, never moves his head, face never visible; (5) the garden foliage beyond the doorway swaying very slightly in a soft breeze. EVERYTHING else is perfectly still: the tatami, the walls, the hanging scroll, the tea set, the table, the cushion. No camera pan, no zoom, no dolly, no shake. Slow, warm, cozy, meditative. The last frame matches the first frame exactly for a perfect seamless loop.
+Camera locked, completely static. Seamless loop. Animate ONLY these five things: (1) very thin, faint steam barely rising from the teapot — a subtle, almost imperceptible wisp, not a plume; (2) the koi fish in the pond swimming slowly and lazily in a wide circle, each fish completing EXACTLY ONE full slow circuit during the clip and returning to its exact starting position and orientation at the end; (3) the thin stream of water falling from the bamboo spout on the left into the pond, with faint ripples spreading slowly across the water surface; (4) the maple and pine foliage swaying very slightly in a soft breeze; (5) the warm light on the far garden wall and the dappled patches on the veranda boards shifting and breathing very slowly as the leaves move. EVERYTHING else is perfectly still: the table, the teapot, the two cups, the two cushions, the veranda boards, the wooden posts, the stone lanterns, the stepping stones, the moss. No falling leaves, no birds, no insects, no dust motes, no particles of any kind. No camera pan, no zoom, no dolly, no shake. Slow, warm, intimate, comfortable. The last frame matches the first frame exactly for a perfect seamless loop.
 ```
 
-**Shorter Kling variant** (if the model ignores long prompts):
+**Короткая версия для Kling:**
 ```
-Static locked camera, seamless loop. Only movement: thin steam from the tea cup, slow flicker of the hearth embers, warm light gently breathing, one slow breath in the seated man's shoulders, soft sway of the garden leaves outside. Everything else frozen. No pan, no zoom. Last frame matches first frame.
+Static locked camera, seamless loop. Only movement: a faint barely-visible wisp of steam from the teapot, koi swimming one slow full circle and returning to their starting spots, water falling from the bamboo spout with faint ripples, soft sway of the maple leaves, dappled light slowly breathing on the veranda boards. Everything else frozen. No pan, no zoom, no particles. Last frame matches first frame.
 ```
 
-> 🔒 Steam stays thin and rises away from the figure. Garden leaves **sway**, never fall. **No dust motes,
-> no airborne particles of any kind** — they break the loop seam and freeze badly over 2 hours.
-> The man must not turn his head or shift position; one breath per loop is the whole performance.
+**Если модель двигает камеру** — добавить в конец:
+```
+ABSOLUTELY NO camera movement of any kind. The frame must be identical from first to last. This is a static locked-off tripod shot.
+```
 
-**🇺🇦** В лупе двигается только пять вещей: пар от чашки, мерцание углей в очаге, лёгкое «дыхание»
-тёплого света, один медленный вдох плеч сидящего и еле заметное колыхание листвы в саду. Всё
-остальное — татами, стены, свиток, чайный набор — неподвижно. Камера намертво зафиксирована: без
-панорам, зума и тряски. Последний кадр = первый. **Никаких пылинок и летящих частиц** — они рвут стык
-лупа и за два часа мозолят глаз.
+> 🔒 Пар — **еле заметная струйка, не столб**: модели любят давать густой пар, он перетягивает внимание
+> и за два часа читается как кипящий чайник.
+> 🔒 Карпы плавают, но круг должен **замкнуться ровно один раз** за клип — иначе на стыке рывок,
+> повторённый сотни раз за два часа. Если модель всё же не сведёт — на монтаже луп ставится не встык,
+> а через кроссфейд 0.5–1 с.
+> 🔒 Никаких падающих листьев и пылинок: летящие частицы не зацикливаются.
+
+**🇺🇦** В лупе двигается пять вещей: еле заметный пар от чайника, карпы (ровно один круг за клип),
+струя из бамбукового желоба и рябь на пруду, лёгкое качание листвы, медленное «дыхание» пятен света
+на досках. Всё остальное неподвижно, камера намертво зафиксирована, последний кадр = первый.
 
 ---
 
