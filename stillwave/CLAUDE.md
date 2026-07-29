@@ -640,6 +640,36 @@ ALWAYS use this format:
 
 Concrete imagery — never abstract emotional adjectives.
 
+### 🔒 NO PERCUSSION, NO BPM — the ambient must stay ametric (LOCKED 2026-07-28)
+
+**Never name a percussive instrument and never write a BPM number in a StillWave ambient prompt.**
+Suno treats both as instructions, not as atmosphere: a "rare soft low frame-drum pulse felt more
+than heard" comes back as an actual beat locked to a grid, and a stated tempo (`44 BPM`) makes the
+model hold that tempo throughout. The FUDOSHIN first batch had the word *pulse* three times per
+variant — in STYLE, in section B and in `[texture: …]` — plus a BPM number, and the whole batch
+came back rhythmic and non-meditative. Unusable for sleep/meditation.
+
+**Locked STYLE tail — replaces the old vocals-only tail:**
+```
+no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+
+**Locked LYRICS line — second line, right after the no-vocals line:**
+```
+[no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
+```
+
+Also: describe tempo as `extremely slow`, `completely ametric`, `free time` — never as a number.
+For plucked instruments add `never a repeating pattern` / `long gaps between notes`, otherwise
+sparse koto collects itself into an arpeggio, which reads as rhythm too.
+
+**🇺🇦** Никогда не называй ударные и никогда не пиши число BPM в промте для эмбиента. Suno понимает
+и то и другое как инструкцию: «редкий мягкий низкий удар барабана» превращается в реальный бит по
+сетке, а указанный темп модель начинает держать весь трек. На первой партии FUDOSHIN слово *pulse*
+стояло по три раза в каждом варианте плюс BPM — вся партия вышла ритмичной и немедитативной.
+Темп описывать словами (`extremely slow`, `ametric`, `free time`), а щипковым добавлять
+`never a repeating pattern`, иначе редкое кото само собирается в арпеджио.
+
 ### 🔒 Opening variety — MANDATORY (Lesson 2026-06-22, SATORI Content ID hit)
 
 **Problem:** Suno's ambient/zen presets tend to start every track with the same opening motif (soft pad → flute entry around 0:03-0:05). When 20+ tracks share the same intro pattern, YouTube Content ID can match the opening 10-20 sec against an already-registered track in the WMG/SD Music catalog (e.g. "Peaceful Music" by Prem Das hit SATORI on tracks #31 and #37 — both at track start).

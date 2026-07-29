@@ -24,150 +24,168 @@
 
 Batch names: `FUDOSHIN` … `FUDOSHIN 8`. Different opening each. ~5 per variant (~40), keep calmest ~36, interleave 1–8. All **as slow, grounded and meditative as possible** — deep, unshakable, sleep-friendly zen ambient (steady, never tense).
 
-**🇺🇦 Звук:** глубокий, укоренённый, максимально спокойный медитативный эмбиент — тёплый низкий дрон, редкий мягкий низкий пульс (как далёкий тайко/сердце горы), сякухати на дальнем плане, koto; ощущение непоколебимой устойчивости, а не напряжения. STYLE → Style, LYRICS → Lyrics.
+> 🔒 **NO PERCUSSION, NO TEMPO (fixed 2026-07-28).** The first draft of these prompts asked for a
+> "rare soft low frame-drum pulse" and gave a BPM number — Suno took both literally and came back
+> with rhythmic, non-meditative tracks. Every mention of drum / pulse / heartbeat is gone, the BPM
+> numbers are gone, and the locked tail now forbids percussion outright. Do not put a BPM number or
+> any percussive instrument in a StillWave ambient prompt.
+>
+> **🇺🇦** В первой версии этих промтов стоял «редкий низкий удар рамочного барабана» и число BPM —
+> Suno понял буквально и выдал ритмичные, немедитативные треки. Вся перкуссия и все BPM убраны,
+> запрет вынесен в хвост STYLE и отдельной строкой в LYRICS. Не писать BPM и не упоминать ударные.
+
+**🇺🇦 Звук:** глубокий, укоренённый, максимально спокойный медитативный эмбиент — тёплый низкий дрон, сякухати на дальнем плане, редкие ноты кото в широкой тишине; ощущение непоколебимой устойчивости, а не напряжения. Ни барабанов, ни пульса, ни темпа. STYLE → Style, LYRICS → Lyrics.
 
 ### Variant 1 — FUDOSHIN (deep-drone-led)
 
 STYLE:
 ```
-Deep grounded Japanese zen ambient, extremely slow and unshakable. A warm deep low drone like the weight of a mountain, a distant shakuhachi bamboo flute far away, sparse koto notes, a rare soft low frame-drum pulse felt more than heard. 46 BPM, immense stillness and depth, rooted, composed, sleep-friendly — a mind that cannot be moved. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deep grounded Japanese zen ambient, extremely slow and unshakable, completely ametric. A warm deep low drone like the weight of a mountain, a distant shakuhachi bamboo flute far away, sparse koto notes ringing in wide silence. Immense stillness and depth, rooted, composed, sleep-friendly — a mind that cannot be moved. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 LYRICS:
 ```
 [no lyrics, no vocals, instrumental only]
+[no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
 [opening: a warm deep low drone fades in alone, heavy and grounded like a mountain, for 6 to 8 seconds]
-[section A: a far shakuhachi tone drifts in, sparse koto notes fall slowly]
-[section B: a single rare soft low drum pulse in the distance, the drone widens, unshaken]
+[section A: a far shakuhachi tone drifts in, sparse koto notes ring far apart, never a repeating pattern]
+[section B: the drone widens and deepens, unshaken, a single koto note hangs in the silence]
 [section C: everything settles into rooted immense stillness, flute and koto half-heard]
 [loop point: fades into the deep drone and silence, ready to begin again]
 [mood: a monk seated immovable on a rock, a waterfall thundering past, his mind perfectly still]
-[texture: deep mountain drone, distant shakuhachi, sparse koto, rare low pulse, vast stillness]
+[texture: deep mountain drone, distant shakuhachi, sparse koto, vast stillness, no percussion]
 ```
 
-### Variant 2 — FUDOSHIN 2 (low-pulse-led)
+### Variant 2 — FUDOSHIN 2 (singing-bowl-led)
 
 STYLE:
 ```
-Deep grounded Japanese zen ambient, extremely slow and unshakable. Opens with a rare soft low frame-drum pulse like a slow mountain heartbeat, a warm deep drone beneath, a distant shakuhachi far away, sparse koto. 47 BPM, rooted, composed, immense and still, sleep-friendly. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deep grounded Japanese zen ambient, extremely slow and unshakable, completely ametric. Opens with a single struck singing bowl whose long shimmering decay fills the space, then a warm deep drone rises beneath, a distant shakuhachi far away, sparse koto. Rooted, composed, immense and still, sleep-friendly. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 LYRICS:
 ```
 [no lyrics, no vocals, instrumental only]
-[opening: a single soft low frame-drum pulse like a slow heartbeat, twice, then a warm deep drone rises]
-[section A: the drone holds heavy and steady, a distant shakuhachi drifts in, koto far back]
-[section B: the low pulse returns once, grounded, sparse koto notes in wide silence]
-[section C: everything eases into rooted stillness, drone and distant flute unshaken]
-[loop point: fades over the deep drone and one last soft pulse, ready to begin again]
+[no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
+[opening: one singing bowl is struck softly, its long shimmering decay filling the space for several seconds]
+[section A: a warm deep drone rises beneath the fading bowl, heavy and steady, a distant shakuhachi drifts in]
+[section B: the drone holds unshaken, sparse koto notes ring far apart in wide silence]
+[section C: everything eases into rooted stillness, drone and distant flute unmoved]
+[loop point: fades over the deep drone as one last bowl tone decays, ready to begin again]
 [mood: seated centered like a mountain, the storm passing without touching the mind]
-[texture: rare low frame-drum pulse, deep drone, distant shakuhachi, sparse koto]
+[texture: singing bowl, deep drone, distant shakuhachi, sparse koto, no percussion]
 ```
 
 ### Variant 3 — FUDOSHIN 3 (distant-shakuhachi-led / softest)
 
 STYLE:
 ```
-Deep grounded Japanese zen ambient, the softest and slowest of the set. A distant shakuhachi bamboo flute far away with long tones enters first, then a warm deep drone rises beneath, sparse koto far apart, a very rare soft low pulse. 44 BPM, immense weightless depth, rooted and still, deep sleep-friendly. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deep grounded Japanese zen ambient, the softest and slowest of the set, completely ametric. A distant shakuhachi bamboo flute far away with long tones enters first, then a warm deep drone rises beneath, sparse koto far apart. Immense weightless depth, rooted and still, deep sleep-friendly. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 LYRICS:
 ```
 [no lyrics, no vocals, instrumental only]
+[no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
 [opening: a distant shakuhachi alone, far away, one long steady tone hanging in deep space]
 [section A: a warm deep drone rises beneath, grounding it, sparse koto far apart]
-[section B: a very rare soft low pulse, the drone widens, deeply rooted and calm]
+[section B: the drone widens, deeply rooted and calm, the flute breathes long and slow]
 [section C: everything floats in immense rooted stillness, flute and koto half-heard]
 [loop point: the flute and drone fade into deep silence, ready to begin again]
 [mood: dawn mist over a gorge, a still figure and the endless fall of water]
-[texture: distant shakuhachi, deep drone, sparse koto, rare low pulse, vast stillness]
+[texture: distant shakuhachi, deep drone, sparse koto, vast stillness, no percussion]
 ```
 
 ### Variant 4 — FUDOSHIN 4 (distant-waterfall-led)
 
 STYLE:
 ```
-Deep grounded Japanese zen ambient, extremely slow and unshakable. Opens with a soft distant waterfall roar softened by mist, then a warm deep drone rises, a distant shakuhachi, sparse koto, a rare low pulse. 45 BPM, rooted, immense, composed, sleep-friendly. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deep grounded Japanese zen ambient, extremely slow and unshakable, completely ametric. Opens with a soft distant waterfall roar softened by mist, then a warm deep drone rises, a distant shakuhachi, sparse koto. Rooted, immense, composed, sleep-friendly. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 LYRICS:
 ```
 [no lyrics, no vocals, instrumental only]
+[no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
 [opening: a soft distant waterfall roar, softened by mist and distance, for several seconds, then a deep drone rises]
-[section A: a distant shakuhachi drifts in over the drone, sparse koto notes fall]
-[section B: the deep drone widens beneath the far water, a single low pulse, unshaken]
+[section A: a distant shakuhachi drifts in over the drone, sparse koto notes ring far apart]
+[section B: the deep drone widens beneath the far water, unshaken and heavy]
 [section C: everything settles into rooted immense calm, flute and koto half-heard]
 [loop point: the far water and drone fade softly, ready to begin again]
 [mood: a waterfall crashing past a seated monk whose mind does not move]
-[texture: distant softened waterfall, deep drone, distant shakuhachi, sparse koto, low pulse]
+[texture: distant softened waterfall, deep drone, distant shakuhachi, sparse koto, no percussion]
 ```
 
 ### Variant 5 — FUDOSHIN 5 (temple-bell-led)
 
 STYLE:
 ```
-Deep grounded Japanese zen ambient, extremely slow and unshakable. Opens with a single low temple bell whose resonance dissolves into deep space, then a warm deep drone rises, a distant shakuhachi, sparse koto, a rare low pulse. 44 BPM, rooted, immense, composed, sleep-friendly. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deep grounded Japanese zen ambient, extremely slow and unshakable, completely ametric. Opens with a single low temple bell whose resonance dissolves into deep space, then a warm deep drone rises, a distant shakuhachi, sparse koto. Rooted, immense, composed, sleep-friendly. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 LYRICS:
 ```
 [no lyrics, no vocals, instrumental only]
+[no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
 [opening: a single low temple bell strike, deep resonance dissolving slowly into vast space, then a deep drone rises]
-[section A: a distant shakuhachi drifts in, sparse koto notes fall far apart]
-[section B: the deep drone widens, a single low pulse, bell long faded, unshaken]
+[section A: a distant shakuhachi drifts in, sparse koto notes ring far apart]
+[section B: the deep drone widens, bell long faded, unshaken and immense]
 [section C: everything settles into rooted immense stillness, flute and koto half-heard]
 [loop point: the resonance and drone fade into silence, ready to begin again]
 [mood: a mountain temple bell tolling once over a misty gorge at dawn]
-[texture: low temple bell, deep drone, distant shakuhachi, sparse koto, rare low pulse]
+[texture: low temple bell, deep drone, distant shakuhachi, sparse koto, no percussion]
 ```
 
 ### Variant 6 — FUDOSHIN 6 (koto-led)
 
 STYLE:
 ```
-Deep grounded Japanese zen ambient, extremely slow and rooted. Sparse koto plucks resonating in deep silence, a warm deep drone beneath, a distant shakuhachi far away, a rare soft low pulse. 45 BPM, immense, composed, still, sleep-friendly. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deep grounded Japanese zen ambient, extremely slow and rooted, completely ametric. Sparse koto plucks resonating in deep silence with long gaps between them, never a repeating pattern, a warm deep drone beneath, a distant shakuhachi far away. Immense, composed, still, sleep-friendly. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 LYRICS:
 ```
 [no lyrics, no vocals, instrumental only]
-[opening: sparse koto plucks, 3 to 5 slow grounded notes alone, then a warm deep drone rises beneath]
-[section A: a distant shakuhachi drifts in, koto continues slow and rooted]
-[section B: the deep drone widens, a single low pulse, deeply steady and calm]
-[section C: everything settles into rooted stillness, single koto notes ringing]
+[no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
+[opening: sparse koto plucks, 3 to 5 slow grounded notes alone with long silence between them, then a warm deep drone rises beneath]
+[section A: a distant shakuhachi drifts in, koto continues slow and rooted, never falling into a pattern]
+[section B: the deep drone widens, deeply steady and calm, single koto notes ringing out]
+[section C: everything settles into rooted stillness, one koto note at a time]
 [loop point: a last koto note fades over the deep drone, ready to begin again]
 [mood: a still figure of stone-like calm, the world moving and the mind unmoved]
-[texture: koto, deep drone, distant shakuhachi, rare low pulse, vast stillness]
+[texture: koto, deep drone, distant shakuhachi, vast stillness, no percussion]
 ```
 
 ### Variant 7 — FUDOSHIN 7 (mountain-wind-led)
 
 STYLE:
 ```
-Deep grounded Japanese zen ambient, extremely slow and unshakable. Opens with soft distant mountain wind, then a warm deep drone rises like the weight of stone, a distant shakuhachi, sparse koto, a rare low pulse. 44 BPM, rooted, immense, composed, sleep-friendly. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deep grounded Japanese zen ambient, extremely slow and unshakable, completely ametric. Opens with soft distant mountain wind, then a warm deep drone rises like the weight of stone, a distant shakuhachi, sparse koto. Rooted, immense, composed, sleep-friendly. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 LYRICS:
 ```
 [no lyrics, no vocals, instrumental only]
+[no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
 [opening: soft distant mountain wind for several seconds, then a warm deep drone rises like stone]
-[section A: a distant shakuhachi drifts in over the drone, sparse koto notes fall]
-[section B: the wind settles, the deep drone widens, a single low pulse, unshaken]
+[section A: a distant shakuhachi drifts in over the drone, sparse koto notes ring far apart]
+[section B: the wind settles, the deep drone widens, unshaken and vast]
 [section C: everything settles into rooted immense calm, flute and koto half-heard]
 [loop point: the wind returns faintly as the drone fades into silence, ready to begin again]
 [mood: high cold wind over a mountain ledge, a seated figure utterly unmoved]
-[texture: distant mountain wind, deep drone, distant shakuhachi, sparse koto, low pulse]
+[texture: distant mountain wind, deep drone, distant shakuhachi, sparse koto, no percussion]
 ```
 
 ### Variant 8 — FUDOSHIN 8 (near-silence / breath-led — softest)
 
 STYLE:
 ```
-Deep grounded Japanese zen ambient, the softest and slowest of the set. Opens in near silence with vast faint air and one slow deep breath, then a warm deep drone rises almost imperceptibly, a single far shakuhachi tone, sparse koto, a very rare low pulse. 42 BPM, extremely minimal and rooted, weightless yet immovable, deep sleep-friendly. instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deep grounded Japanese zen ambient, the softest and slowest of the set, completely ametric. Opens in near silence with vast faint air and one slow deep breath, then a warm deep drone rises almost imperceptibly, a single far shakuhachi tone, sparse koto. Extremely minimal and rooted, weightless yet immovable, deep sleep-friendly. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 LYRICS:
 ```
 [no lyrics, no vocals, instrumental only]
+[no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
 [opening: near silence, vast faint air and one slow deep breath for the first 6 to 8 seconds, no instruments yet]
 [section A: a warm deep drone rises almost imperceptibly, a single far shakuhachi tone drifts in]
-[section B: sparse koto notes fall far apart, a very rare soft low pulse, deeply rooted]
+[section B: sparse koto notes ring far apart, deeply rooted, silence between them longer than the notes]
 [section C: everything settles into immense rooted minimal calm, only drone and a distant breath]
 [loop point: the drone fades back into vast silence and one slow breath, ready to begin again]
 [mood: the deepest stillness, a mind like a mountain that nothing can move]
-[texture: vast faint air, deep drone, distant shakuhachi, sparse koto, rare low pulse]
+[texture: vast faint air, deep drone, distant shakuhachi, sparse koto, no percussion]
 ```
 
 ---
