@@ -267,8 +267,41 @@ a mountain that does not move.
 
 A waterfall thunders down a misty gorge, and a lone monk sits at its foot, unmoved. Fudōshin is not rigidity; it is a rooted composure — the clear, steady mind that stays centered while everything around it crashes and roars. Sit for two hours and grow roots. Let the noise fall past you like water.
 
-Tracklist:
-[added after mastering — mood-poetic names, deep and rooted]
+🎵 Tracklist
+
+0:00 The Mountain Does Not Move
+3:34 First Light on Wet Stone
+7:03 A Distant Bell Over the Gorge
+10:46 Water Falls, the Rock Remains
+14:21 Rooted Before the Storm
+18:15 Deep Drone of the Valley
+22:00 Mist Rises, the Mind Is Still
+25:50 One Breath in the Silence
+29:49 The Weight of Stone
+33:47 Far Water, Steady Heart
+37:07 A Single Koto Note
+40:47 Wind Over the High Ledge
+43:46 The Torrent Cannot Reach Him
+47:16 Immovable at Dawn
+50:51 Bell Fading into Space
+53:54 Nothing Shakes the Deep
+57:58 Shakuhachi Far Away
+1:01:21 The Still Point
+1:04:31 Cold Wind, Warm Depth
+1:08:45 Where the Water Cannot Move Me
+1:11:58 Seated Like the Mountain
+1:15:51 A Long Tone in the Mist
+1:20:26 The Roar and the Calm
+1:23:35 Grounded in the Fall
+1:27:03 Breath of the Gorge
+1:30:46 The Drone Beneath Everything
+1:34:11 One Note, Then Silence
+1:38:01 The Rock at the Waterfall's Foot
+1:41:41 Unshaken
+1:45:00 Deep Valley, Deeper Stillness
+1:48:15 The Mind Like a Mountain
+1:51:24 Water Passing, Stone Staying
+1:55:19 Into the Immovable Quiet
 
 🌀 Be the mountain, not the storm.
 🍃 Let the noise fall past you like water.
