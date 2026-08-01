@@ -79,12 +79,13 @@ for i, line in enumerate(["The storm", "cannot move you"]):
     d.text((X, 1040 + i * 100), line, font=f1, fill=CREAM)
 b1.save(f"{OUT}/fov_hook.png")
 
-# ---- beat 2: concept 不動心 + FUDOSHIN — raised HIGH (shot 3 has the samurai low
-# and bright misty sea up top; text sits above him, over the calm mist) ----
+# ---- beat 2: concept 不動心 + FUDOSHIN — HIGH in the misty band, ENTIRELY above
+# the samurai's head (his head top sits ~y620 in shot 3, rising a little with the
+# zoom, so the whole lockup stays above ~y500 to never touch the figure) ----
 b2 = new()
-scrim(b2, 300, 760)
-gold_kanji(b2, ["不", "動", "心"], 210, X, 330, 226)
-spaced(b2, "FUDOSHIN", 80, X + 4, 580, GOLD, ls=10)
+scrim(b2, 150, 560)
+gold_kanji(b2, ["不", "動", "心"], 176, X, 175, 188)
+spaced(b2, "FUDOSHIN", 66, X + 4, 400, GOLD, ls=9)
 b2.save(f"{OUT}/fov_concept.png")
 
 # ---- beat 3: wisdom 泰然自若 ----
