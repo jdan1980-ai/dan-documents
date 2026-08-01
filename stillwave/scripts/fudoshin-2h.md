@@ -8,7 +8,7 @@
 - **Length:** target ≤ 2:00:00 (~36 mastered tracks; trim to calmest)
 - **Aesthetic:** A lone monk seated in perfect immovable stillness on a rock beside a thundering waterfall in a misty gorge — unmoved by the torrent. Mountain-solid calm. (Fudōshin echoes Fudō Myōō, the Immovable One, and takigyō waterfall meditation.)
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Status:** 🚧 IN PRODUCTION (package created 2026-07-21)
+- **Status:** 🟢 READY — assets done (audio 33 tracks, thumb, Short, wisdom overlay). **Schedule: Long-form 2026-08-05, Short 2026-08-06.** Remaining: Flow/Kling loop + CapCut assembly of the long-form.
 - **Concept note:** FUDOSHIN (不動心) — "immovable mind/heart." A state of unshakable inner steadiness: the mind that stays calm and clear no matter what storm strikes it — like a mountain that does not move, or a monk meditating beneath a waterfall while the torrent crashes around him. Not rigidity, but a rooted composure that cannot be knocked over. The same mind-state family as MUSHIN, GAMAN, and ZANSHIN.
   - **🇺🇦** FUDOSHIN (不動心) — «неподвижный ум/сердце». Состояние непоколебимой внутренней устойчивости: ум остаётся спокойным и ясным в любую бурю — как гора, что не движется, или монах под водопадом, пока поток обрушивается вокруг. Не жёсткость, а укоренённое самообладание, которое не опрокинуть. Тот же кластер, что MUSHIN, GAMAN, ZANSHIN.
 
