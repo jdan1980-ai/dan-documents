@@ -244,6 +244,7 @@ Camera locked, static. Seamless loop. Animate ONLY: (1) the waterfall falling co
 - Line 3 (gloss): Calm and composed, unshaken
 - Cream `#F5EAD2`, Liberation Serif Bold, LEFT over a calm dark zone. 0:00–0:03 scene only → fade-in 2s → hold ~5s → fade-out 2s.
 - **🇺🇦** Мудрость: **泰然自若** / *Taizen jijaku* / «Спокоен и невозмутим, непоколебим» (ёдзидзюкуго об абсолютном самообладании — точно под fudoshin). Слева, кремовым.
+- **AS-BUILT (2026-07-28):** `assets/fudoshin-wisdom-overlay.py` → `assets/fudoshin-taizenjijaku-overlay.png` (прозрачный 1920×1080). CapCut: верхняя дорожка, 0:03→0:14, фейды по 2с.
 
 ---
 
