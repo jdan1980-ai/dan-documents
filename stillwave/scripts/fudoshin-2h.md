@@ -199,17 +199,19 @@ LYRICS:
 ## §3 — NanoBanana 16:9 (PRIMARY)
 
 ```
-Photorealistic cinematic still, a lone monk in dark robes seated in perfect immovable stillness in seiza on a flat rock at the foot of a tall thundering waterfall in a misty green gorge, seen from behind, back to camera, face never visible, in the lower third. The powerful white waterfall crashes down through drifting mist in the upper two-thirds of the frame — vast, roaring, yet the monk is utterly unmoved (the visual hero is the contrast: violent water, immovable calm). Wet dark stone, deep green moss, soft dawn light through mist. Muted green-grey-and-white palette, one soft light, profound rooted stillness. Keep the lower-left corner calm/low-detail for text; keep the bottom-right corner calm, low-detail (logo). No text, no letters, no watermark. 4K, cinematic.
+Photorealistic cinematic still, a lone samurai seated in perfect immovable stillness in seiza on a flat wet rock at the foot of a tall thundering waterfall in a misty green gorge, seen from behind, back to camera, face never visible, in the lower third. He wears a dark weathered kimono and hakama in muted indigo-grey, hands resting on his thighs. Laid directly on the wet rock close beside him rest EXACTLY TWO sheathed swords — a katana and a shorter wakizashi (the daishō pair), both fully sheathed in dark lacquer scabbards, lying flat on the stone. NO third sword, NO drawn sword, NO sword in his hands, NO sword rack. The powerful white waterfall crashes down through drifting mist in the upper two-thirds of the frame — vast, roaring, yet the samurai is utterly unmoved (the visual hero is the contrast: violent water, immovable calm). Wet dark stone, deep green moss, soft dawn light through mist. Muted green-grey-and-white palette, one soft light, profound rooted stillness. Keep the lower-left corner calm/low-detail for text; keep the bottom-right corner calm, low-detail (logo). No text, no letters, no watermark. 4K, cinematic.
+
+**AS-BUILT (2026-07-28):** сгенерирован самурай в сэйдза, два меча (дайсё) лежат на камне справа, водопад в верхних ⅔. Сохранён как `assets/fudoshin-2h-source.jpg`. Тумба — `assets/fudoshin-compose-thumb.py` → `assets/fudoshin-2h-thumb.jpg`: 不動心 суми-стилем вверху-центр поверх водопада (с тёмным гало для читаемости на белой воде) + FUDOSHIN кремовым под ним, по канону Kanji-Concept.
 ```
 
-**Alt — mountain solitude:** replace the waterfall with `a lone monk seated immovable on a high rocky ledge before a vast still mountain (Mt. Fuji silhouette) at dawn` — same immovable-calm mood.
-> 🔒 Falling water loops cleanly (continuous). No airborne particles otherwise. Sword rules N/A (monk, no swords).
-**🇺🇦** Кадр: одинокий монах в тёмных одеждах, неподвижно в сэйдза на плоском камне у подножия громадного водопада в туманном зелёном ущелье, спиной, лицо не видно, в нижней трети; мощный водопад рушится сквозь туман в верхних ⅔ — контраст «яростная вода / неподвижный покой» и есть герой. Зелёно-серо-белая палитра. Углы: слева-низ под текст, справа-низ под лого. Альт — монах перед горой (Фудзи) на рассвете.
+**Alt — mountain solitude:** replace the waterfall with `a lone samurai seated immovable on a high rocky ledge before a vast still mountain (Mt. Fuji silhouette) at dawn` — same immovable-calm mood.
+> 🔒 Falling water loops cleanly (continuous). No airborne particles otherwise. Swords: EXACTLY 2 sheathed daishō lying flat on the rock beside him (seated-figure rule).
+**🇺🇦** Кадр: одинокий самурай неподвижно в сэйдза на плоском камне у подножия громадного водопада, два меча (дайсё) лежат на камне рядом в туманном зелёном ущелье, спиной, лицо не видно, в нижней трети; мощный водопад рушится сквозь туман в верхних ⅔ — контраст «яростная вода / неподвижный покой» и есть герой. Зелёно-серо-белая палитра. Углы: слева-низ под текст, справа-низ под лого. Альт — самурай перед горой (Фудзи) на рассвете.
 
 ## §3b — NanoBanana 9:16 (Shorts)
 
 ```
-Photorealistic cinematic vertical still, a lone monk in dark robes seated immovable in seiza on a flat wet rock at the foot of a tall thundering waterfall in a misty green gorge, back to camera, face never visible, in the lower third, the powerful white waterfall crashing down through mist filling the upper frame, wet dark stone and green moss, soft dawn light. Muted green-grey-white palette, profound rooted stillness. No text, no letters, no watermark. 4K.
+Photorealistic cinematic vertical still, a lone samurai in a dark weathered kimono seated immovable in seiza on a flat wet rock at the foot of a tall thundering waterfall in a misty green gorge, back to camera, face never visible, in the lower third, EXACTLY TWO sheathed swords (daishō) lying flat on the rock beside him, the powerful white waterfall crashing down through mist filling the upper frame, wet dark stone and green moss, soft dawn light. Muted green-grey-white palette, profound rooted stillness. No text, no letters, no watermark. 4K.
 ```
 
 ## §3c — Shorts image set (9:16 — 6 frames)
@@ -217,12 +219,12 @@ Photorealistic cinematic vertical still, a lone monk in dark robes seated immova
 Save `fudoshin-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm/empty for the kanji overlay.
 **🇺🇦** 6 вертикальных кадров; кадр 4 — под иероглиф 不動心.
 
-1. **HOOK — monk under waterfall:** `Photorealistic cinematic vertical still, a lone monk seated immovable in seiza on a rock at the foot of a thundering waterfall in a misty gorge, back to camera, the white torrent crashing behind him, profound calm amid violence. No text, no watermark. 4K.`
+1. **HOOK — monk under waterfall:** `Photorealistic cinematic vertical still, a lone samurai in a dark weathered kimono seated immovable in seiza on a rock at the foot of a thundering waterfall in a misty gorge, back to camera, face never visible, EXACTLY TWO sheathed swords (daishō) lying flat on the rock beside him, the white torrent crashing behind him, profound calm amid violence. No text, no watermark. 4K.`
 2. **the waterfall:** `Photorealistic cinematic vertical still, a tall powerful white waterfall crashing down a dark mossy cliff through drifting mist, immense and roaring. No text, no watermark. 4K.`
-3. **monk's back / stillness:** `Photorealistic cinematic vertical still, close from behind, a seated monk's still back and shoulders, wet dark robes, mist and spray around him, utterly composed. No text, no watermark. 4K.`
-4. **KANJI frame — mist and rock:** `Photorealistic cinematic vertical still, a small seated monk at the bottom of the frame on a rock, the upper half calm dark mist and rock face (empty space for a kanji), soft light. No text, no watermark. 4K.`
+3. **monk's back / stillness:** `Photorealistic cinematic vertical still, close from behind, a seated samurai's still back and shoulders, dark weathered kimono, mist and spray around him, utterly composed. No text, no watermark. 4K.`
+4. **KANJI frame — mist and rock:** `Photorealistic cinematic vertical still, a small seated samurai at the bottom of the frame on a rock with two sheathed swords beside him, the upper half calm dark mist and rock face (empty space for a kanji), soft light. No text, no watermark. 4K.`
 5. **water on stone macro:** `Photorealistic cinematic vertical close-up, white water crashing and foaming over dark wet mossy stones, mist and droplets, powerful and calming. No text, no watermark. 4K.`
-6. **mountain at dawn (alt scene):** `Photorealistic cinematic vertical still, a lone monk small on a high rocky ledge before a vast still mountain silhouette at dawn, back to camera, immovable calm. No text, no watermark. 4K.`
+6. **mountain at dawn (alt scene):** `Photorealistic cinematic vertical still, a lone samurai small on a high rocky ledge before a vast still mountain silhouette at dawn, back to camera, two sheathed swords beside him, immovable calm. No text, no watermark. 4K.`
 
 ---
 
