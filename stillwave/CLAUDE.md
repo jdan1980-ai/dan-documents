@@ -446,7 +446,7 @@ Karena's 20/20/40-50 brand-heavy rule is **overridden** for Kanji-Concept series
 
 - **Background:** the NanoBanana 16:9 image (monk + symbolic visual hook). NO additional compositing — image IS the thumbnail with text on top.
 - **Text 1 — KANJI (LARGE):** `[漢字]` rendered LARGE in upper-center, in deep black sumi-ink calligraphic style (like a brush stroke). Should read AS IF the kanji is brushed onto the visual hero (the ENSO, the mural, etc.).
-- **Text 2 — ROMAJI (medium):** `[ROMAJI]` rendered below the kanji in elegant cream `#F5EAD2` serif (Liberation Serif Bold). Centered under the kanji.
+- **Text 2 — ROMAJI (medium):** `[ROMAJI]` rendered in elegant cream `#F5EAD2` serif (Liberation Serif Bold), **centred but LOW — down on the foreground (rock/floor) beneath the figure, NOT tucked directly under the kanji** (user pref, LOCKED 2026-07-28). Kanji high + romaji low lets the frame breathe and keeps the visual hero clear in the middle. Give the romaji a soft dark scrim if the surface under it is mid-tone.
 - **No tag/Hz/duration text** — clean. Just the concept + symbol.
 
 > **Why deviate from figure-8 lower-left?** Because competitor data is overwhelming: KAMI, TORA, BUDŌ, TAO, SHORYŪ, IKIGAI all use upper-center kanji + romaji over the visual hero. The Kanji-Concept format has its own brand-recognition logic — the kanji IS the click magnet, not the negative-space text overlay. Figure-8 stays the rule for Power Hour Pomodoro + Healing Hour Ghibli (other series).

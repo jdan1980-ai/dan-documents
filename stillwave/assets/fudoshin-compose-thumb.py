@@ -2,7 +2,8 @@
 """FUDOSHIN thumbnail — 不動心 upper-centre over the waterfall + FUDOSHIN below.
 
 Kanji-Concept canon (per CLAUDE.md): the KANJI goes LARGE upper-centre in dark
-sumi ink brushed over the visual hero (here the waterfall), ROMAJI in cream below.
+sumi ink brushed over the visual hero (here the waterfall), ROMAJI in cream LOW on the rock beneath the samurai (user pref 2026-07-28:
+keep the romaji down on the stone, not tucked under the kanji — lets the frame breathe).
 NOT the lower-left figure-8 rule — that's for Healing Hour / Pomodoro only.
 
 The waterfall is bright (mean ~176), so the sumi kanji gets a soft DARK halo to
@@ -69,9 +70,9 @@ def spaced_centre(im, text, size, cx_centre, y, fill=CREAM, ls=16):
     x = cx_centre - total / 2
     # soft dark backing for the romaji
     sc = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(sc).rounded_rectangle((x - 60, y - 20, x + total + 60, y + size + 30),
-                                         radius=60, fill=(8, 12, 14, 130))
-    im.alpha_composite(sc.filter(ImageFilter.GaussianBlur(50)))
+    ImageDraw.Draw(sc).rounded_rectangle((x - 70, y - 24, x + total + 70, y + size + 34),
+                                         radius=70, fill=(8, 12, 14, 165))
+    im.alpha_composite(sc.filter(ImageFilter.GaussianBlur(60)))
     cx = x
     for c, w in zip(text, widths):
         d.text((cx, y), c, font=f, fill=fill)
@@ -81,6 +82,6 @@ def spaced_centre(im, text, size, cx_centre, y, fill=CREAM, ls=16):
 im = base()
 CENTRE = 958   # slightly left of frame centre — samurai head sits just right of it
 sumi(im, ["不", "動", "心"], 300, CENTRE, 70, pitch=310)
-spaced_centre(im, "FUDOSHIN", 92, CENTRE, 400, ls=18)
+spaced_centre(im, "FUDOSHIN", 86, CENTRE, 946, ls=16)  # low, on the rock under the samurai
 im.convert("RGB").save(OUT, quality=94)
 print("saved", OUT)
