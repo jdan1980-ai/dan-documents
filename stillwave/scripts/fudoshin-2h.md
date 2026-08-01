@@ -358,7 +358,7 @@ fr1 самурай под большим водопадом (хук) → fr2 м�
 (float-Ken Burns + кроссфейды 0.8с), оверлеи `assets/fudoshin-short-overlays.py`. 32.4с. Три бита:
 `The storm cannot move you` → **不動心 / FUDOSHIN** → **泰然自若 / Taizen jijaku / Calm and composed, unshaken**
 (золото + кремовый, кистевой шрифт). Обе проверки пройдены: плавность — 0 замерших, CV 0.027; safe zone —
-hook y1079-1251, 不動心 y1038-1303, 泰然自若 y1020-1280, всё внутри y150-1450 / x60-880. Музыка
+hook y1079-1251, 不動心 (поднят) y408-673, 泰然自若 y1020-1280, всё внутри y150-1450 / x60-880. Музыка
 `Fudoshin_4` (сегмент с 22с, fade 0.6/1.6), −13.4 LUFS. Готовый файл: `assets/fudoshin-shorts-34s.mp4`.
 
 **Concept Short** (add a `fudoshin` config to `concept-shorts-build.py`): teaches FUDOSHIN from §12. **Title:** `What Is Fudoshin? The Samurai's Immovable Mind 🗻 #shorts`. **Tags:** `fudoshin, what is fudoshin, fudoshin meaning, immovable mind, samurai mindset, mental strength, japanese philosophy, staying calm, zen, stillwave`. **Pinned:** `🌀 不動心 FUDOSHIN — the mind the storm cannot move. Full 2-hour session on the channel 🌿`. Related video → long-form · StillWave Shorts playlist · Not for kids.
