@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
-"""FUDOSHIN Short builder — single hero, jitter-free Ken Burns in PIL (float crop).
+"""FUDOSHIN Short builder — 4 vertical shots, jitter-free Ken Burns (PIL float crop).
 
-The 6 vertical §3c frames were not generated, so the Short is built from the 16:9
-hero (`fudoshin-2h-source.jpg`) centre-cropped to 9:16 — the samurai + waterfall
-sit centred, so the vertical crop keeps the whole composition. One slow zoom-in
-across the clip, rendered from float-precision crop boxes (never ffmpeg zoompan),
-text beats composited with alpha fades, tail fade to black for a clean loop.
+Shots (user-generated 9:16 stills):
+  fr1 samurai under the big waterfall (hook)
+  fr2 white water on mossy stones (macro breather)
+  fr3 samurai's back over a stormy sea in mist (concept 不動心)
+  fr4 samurai on a mountain ledge at dawn (wisdom 泰然自若)
+
+Every frame is resampled LANCZOS from a float-precision crop box (never ffmpeg
+zoompan), crossfades + overlay alpha fades blended in PIL, tail fade to black.
 """
 from PIL import Image
 from pathlib import Path
@@ -14,16 +17,23 @@ import numpy as np
 A = Path("/home/user/dan-documents/stillwave/assets")
 SP = Path("/tmp/claude-0/-home-user-dan-documents/48780e4d-ee5f-5a8f-92df-523468e19c72/scratchpad")
 OUTDIR = SP / "fframes"
-SRC = A / "fudoshin-2h-source.jpg"
 W, H = 1080, 1920
 FPS = 30
-TOTAL = 34.0
-ZOOM = 0.10          # 10% slow zoom-in across the whole clip
+SHOT = 8.7
+XF = 0.8
+
+SHOTS = [
+    ("fudoshin-shorts-fr1.jpg", True),
+    ("fudoshin-shorts-fr2.jpg", False),
+    ("fudoshin-shorts-fr3.jpg", True),
+    ("fudoshin-shorts-fr4.jpg", False),
+]
+ZOOM = 0.10
 
 OVERLAYS = [
-    ("fov_hook.png", 3.0, 9.5),
-    ("fov_concept.png", 12.5, 19.5),
-    ("fov_wisdom.png", 24.0, 31.5),
+    ("fov_hook.png", 3.0, 8.6),
+    ("fov_concept.png", 16.6, 22.4),
+    ("fov_wisdom.png", 25.2, 31.2),
 ]
 FADE = 0.9
 END_FADE = 1.0
@@ -42,8 +52,8 @@ def load_cover(p):
     return im
 
 
-def kb_frame(src, prog):
-    z = 1.0 + ZOOM * prog
+def kb_frame(src, prog, zoom_in):
+    z = (1.0 + ZOOM * prog) if zoom_in else (1.0 + ZOOM * (1.0 - prog))
     cw, ch = src.width / z, src.height / z
     x0, y0 = (src.width - cw) / 2.0, (src.height - ch) / 2.0
     return src.resize((W, H), Image.LANCZOS, box=(x0, y0, x0 + cw, y0 + ch))
@@ -53,13 +63,38 @@ def main():
     OUTDIR.mkdir(parents=True, exist_ok=True)
     for old in OUTDIR.glob("*.jpg"):
         old.unlink()
-    src = load_cover(SRC)
-    nframes = int(round(TOTAL * FPS))
+    srcs = [load_cover(A / f) for f, _ in SHOTS]
+    n = len(SHOTS)
+    step = SHOT - XF
+    total = step * (n - 1) + SHOT
+    nframes = int(round(total * FPS))
     ovs = [(Image.open(SP / p).convert("RGBA"), a, b) for p, a, b in OVERLAYS]
-    print(f"total {TOTAL}s -> {nframes} frames")
+    print(f"total {total:.2f}s -> {nframes} frames")
     for i in range(nframes):
         t = i / FPS
-        frame = kb_frame(src, t / TOTAL)
+        layers = []
+        for s in range(n):
+            s0 = s * step
+            s1 = s0 + SHOT
+            if s0 - 1e-6 <= t < s1:
+                prog = (t - s0) / SHOT
+                w = 1.0
+                if s > 0 and t < s0 + XF:
+                    w = (t - s0) / XF
+                if s < n - 1 and t > s0 + step:
+                    w = 1.0 - (t - (s0 + step)) / XF
+                layers.append((s, prog, max(0.0, min(1.0, w))))
+        if not layers:
+            layers = [(n - 1, 1.0, 1.0)]
+        if len(layers) == 1:
+            s, prog, _ = layers[0]
+            frame = kb_frame(srcs[s], prog, SHOTS[s][1])
+        else:
+            (sa, pa, wa), (sb, pb, wb) = layers[0], layers[1]
+            Aa = np.asarray(kb_frame(srcs[sa], pa, SHOTS[sa][1]), dtype=np.float32)
+            Bb = np.asarray(kb_frame(srcs[sb], pb, SHOTS[sb][1]), dtype=np.float32)
+            f = wb / max(1e-6, wa + wb)
+            frame = Image.fromarray(np.clip(Aa * (1 - f) + Bb * f, 0, 255).astype(np.uint8))
         for ov, a, b in ovs:
             if a - FADE <= t <= b + FADE:
                 if t < a:
@@ -74,8 +109,8 @@ def main():
                         np.dstack([np.asarray(ov)[:, :, :3],
                                    (np.asarray(ov)[:, :, 3] * al).astype(np.uint8)]))
                     frame = Image.alpha_composite(frame.convert("RGBA"), layer).convert("RGB")
-        if t > TOTAL - END_FADE:
-            k = 1.0 - (t - (TOTAL - END_FADE)) / END_FADE
+        if t > total - END_FADE:
+            k = 1.0 - (t - (total - END_FADE)) / END_FADE
             frame = Image.fromarray((np.asarray(frame, dtype=np.float32) * max(0.0, k)).astype(np.uint8))
         frame.save(OUTDIR / f"f_{i:05d}.jpg", quality=95)
         if i % 150 == 0:

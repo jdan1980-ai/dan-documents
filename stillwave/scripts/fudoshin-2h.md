@@ -352,13 +352,13 @@ FUDOSHIN (不動心) means "the immovable mind" — a state of unshakable inner 
 
 ## §14 — Shorts (concept + teaser)
 
-**AS-BUILT Short (2026-08-01):** 6 вертикальных кадров §3c не генерировались, поэтому Short собран из
-16:9-героя `assets/fudoshin-2h-source.jpg`, центр-кроп в 9:16 (самурай+водопад по центру), один
-медленный Ken Burns во float-точности (`assets/fudoshin-short-build.py`), оверлеи
-`assets/fudoshin-short-overlays.py`. 34.0с. Три бита: `The storm cannot move you` → **不動心 / FUDOSHIN**
-→ **泰然自若 / Taizen jijaku / Calm and composed, unshaken** (золото + кремовый, кистевой шрифт).
-Обе проверки пройдены: плавность — 0 замерших, CV 0.130; safe zone — hook y1079-1251, 不動心 y1038-1303,
-泰然自若 y1020-1280, всё внутри y150-1450 / x60-880. Музыка `Fudoshin_4` (сегмент с 22с, fade 0.6/1.6),
-итог −13.4 LUFS. Готовый файл: `assets/fudoshin-shorts-34s.mp4`.
+**AS-BUILT Short (2026-08-01):** собран из **4 вертикальных кадров** (`assets/fudoshin-shorts-fr1…fr4.jpg`):
+fr1 самурай под большим водопадом (хук) → fr2 макро белой воды на камнях → fr3 спина у штормового моря
+в тумане (不動心) → fr4 самурай на вершине на рассвете (泰然自若). Билдер `assets/fudoshin-short-build.py`
+(float-Ken Burns + кроссфейды 0.8с), оверлеи `assets/fudoshin-short-overlays.py`. 32.4с. Три бита:
+`The storm cannot move you` → **不動心 / FUDOSHIN** → **泰然自若 / Taizen jijaku / Calm and composed, unshaken**
+(золото + кремовый, кистевой шрифт). Обе проверки пройдены: плавность — 0 замерших, CV 0.027; safe zone —
+hook y1079-1251, 不動心 y1038-1303, 泰然自若 y1020-1280, всё внутри y150-1450 / x60-880. Музыка
+`Fudoshin_4` (сегмент с 22с, fade 0.6/1.6), −13.4 LUFS. Готовый файл: `assets/fudoshin-shorts-34s.mp4`.
 
 **Concept Short** (add a `fudoshin` config to `concept-shorts-build.py`): teaches FUDOSHIN from §12. **Title:** `What Is Fudoshin? The Samurai's Immovable Mind 🗻 #shorts`. **Tags:** `fudoshin, what is fudoshin, fudoshin meaning, immovable mind, samurai mindset, mental strength, japanese philosophy, staying calm, zen, stillwave`. **Pinned:** `🌀 不動心 FUDOSHIN — the mind the storm cannot move. Full 2-hour session on the channel 🌿`. Related video → long-form · StillWave Shorts playlist · Not for kids.
