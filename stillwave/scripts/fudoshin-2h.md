@@ -268,7 +268,7 @@ japanese zen music, meditation music, zen music, focus music, calm music, sleep 
 The calm that the storm cannot reach —
 a mountain that does not move.
 
-A waterfall thunders down a misty gorge, and a lone monk sits at its foot, unmoved. Fudōshin is not rigidity; it is a rooted composure — the clear, steady mind that stays centered while everything around it crashes and roars. Sit for two hours and grow roots. Let the noise fall past you like water.
+A waterfall thunders down a misty gorge, and a lone samurai sits at its foot, unmoved. Fudōshin is not rigidity; it is a rooted composure — the clear, steady mind that stays centered while everything around it crashes and roars. Sit for two hours and grow roots. Let the noise fall past you like water.
 
 🎵 Tracklist
 
@@ -317,7 +317,7 @@ Subscribe for more Japanese ambient meditation journeys 🌿
 ## §9 — Tags (verify VidIQ scores; < 450 chars)
 
 ```
-stillwave, japanese zen music, meditation music, zen music, calm music, focus music, sleep music, relaxing music, ambient music, fudoshin, immovable mind, music for inner strength, shakuhachi flute music, koto music, japanese meditation music, mindfulness music, stress relief music, mental strength music, samurai meditation, a lone monk meditating immovable beneath a thundering waterfall in a misty gorge, joe hisaishi
+stillwave, japanese zen music, meditation music, zen music, calm music, focus music, sleep music, relaxing music, ambient music, fudoshin, immovable mind, music for inner strength, shakuhachi flute music, koto music, japanese meditation music, mindfulness music, stress relief music, mental strength music, samurai meditation, a lone samurai meditating immovable beneath a thundering waterfall in a misty gorge, joe hisaishi
 ```
 
 ---
@@ -334,7 +334,7 @@ stillwave, japanese zen music, meditation music, zen music, calm music, focus mu
 ```
 🌀 FUDOSHIN (不動心) — the immovable mind.
 
-The waterfall crashes. The monk does not move.
+The waterfall crashes. The samurai does not move.
 Not rigidity — a calm the storm cannot reach.
 
 What helps you stay rooted when everything shakes? Share below 👇

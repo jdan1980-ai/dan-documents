@@ -835,6 +835,24 @@ Use Canva ONLY when a special variant is needed (e.g., text overlay for a viral 
 - `production-status.md` — pipeline tracker per video
 - `scripts/<slug>.md` — one file per video
 
+### 🔒 Copy-paste packs — one field per fenced block (LOCKED 2026-08-01)
+
+When delivering upload copy to the user (in chat OR in the script), give **each field in its own
+separate fenced code block**, clearly labelled, in this order — never merged into a paragraph:
+
+1. **Title** (its own block)
+2. **A/B Title** (its own block)
+3. **Description** (its own block — includes the tracklist for long-form)
+4. **Tags** (its own block)
+5. **Pinned comment** (its own block)
+
+Then the non-copy settings as a short plain line (Not for kids · playlist · Related video). The user
+copies one block at a time into Studio, so each must be independently copyable — do not bundle title
++ tags + pinned into one line. This applies to every video, both long-form and Shorts.
+
+**🇺🇦** Копи-паст для загрузки — каждое поле ОТДЕЛЬНЫМ код-блоком: тайтл, A/B, описание, теги,
+закреп — по порядку, не слитно. Настройки (Not for kids · плейлист · Related) — отдельной строкой.
+
 ### 🔒 Rule — both formats in ONE script file
 
 Every video's `scripts/<slug>.md` MUST contain **BOTH** packages:
