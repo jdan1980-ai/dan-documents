@@ -361,4 +361,24 @@ fr1 самурай под большим водопадом (хук) → fr2 м�
 hook y1079-1251, 不動心 (поднят) y408-673, 泰然自若 y1020-1280, всё внутри y150-1450 / x60-880. Музыка
 `Fudoshin_4` (сегмент с 22с, fade 0.6/1.6), −13.4 LUFS. Готовый файл: `assets/fudoshin-shorts-34s.mp4`.
 
-**Concept Short** (add a `fudoshin` config to `concept-shorts-build.py`): teaches FUDOSHIN from §12. **Title:** `What Is Fudoshin? The Samurai's Immovable Mind 🗻 #shorts`. **Tags:** `fudoshin, what is fudoshin, fudoshin meaning, immovable mind, samurai mindset, mental strength, japanese philosophy, staying calm, zen, stillwave`. **Pinned:** `🌀 不動心 FUDOSHIN — the mind the storm cannot move. Full 2-hour session on the channel 🌿`. Related video → long-form · StillWave Shorts playlist · Not for kids.
+### 📋 Shorts — copy-paste pack
+
+**Title:** `What Is Fudoshin? The Samurai's Immovable Mind 🗻 #shorts`
+**A/B Title:** `Fudoshin — The Mind the Storm Cannot Move 🗻 #shorts`
+
+**Description:**
+```
+不動心 Fudoshin — "the immovable mind." The calm the storm cannot reach: a samurai sits unmoved as the waterfall crashes around him. Not rigidity, but a rooted composure nothing can knock over.
+
+泰然自若 — calm and composed, unshaken.
+
+Full 2-hour Japanese zen session on the channel 🌿
+
+#fudoshin #samurai #zen #japanese #shorts
+```
+
+**Tags:** `fudoshin, what is fudoshin, fudoshin meaning, immovable mind, samurai mindset, mental strength, japanese philosophy, staying calm, zen, meditation, stillwave`
+
+**Pinned:** `🌀 不動心 FUDOSHIN — the mind the storm cannot move. Full 2-hour session on the channel 🌿`
+
+Related video → long-form · StillWave Shorts playlist · Not for kids.
