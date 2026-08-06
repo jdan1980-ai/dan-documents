@@ -321,6 +321,15 @@ Komorebi describes the soft, dappled sunlight that filters through the leaves of
 
 Built from the §3c stills (float Ken Burns + crossfades, three text beats, both mandatory checks — smoothness + safe zone). Music: one calm Komorebi track, ~34s, fade in/out.
 
+**AS-BUILT Short (2026-08-06):** 6 вертикальных кадров `assets/komorebi-shorts-fr1…fr6.jpg` (все без людей):
+fr1 лес с лучами (хук) → fr2 подсвеченные листья → fr3 тропа в свет → fr4 просвет в кроне (木漏れ日) →
+fr5 мох на камне → fr6 золотая тропа (一期一会). Билдер `assets/komorebi-short-build.py` (float Ken Burns +
+кроссфейды 0.8с), оверлеи `assets/komorebi-short-overlays.py`. 35.0с. Три бита золотом/кремом:
+`Sunlight through the leaves` → **木漏れ日 / KOMOREBI** → **一期一会 / Ichigo ichie / This moment, once, never again**.
+Проверки: плавность 0 замерших, CV 0.013; safe zone — hook y1075-1243, 木漏れ日 y1021-1298, 一期一会 y1021-1275,
+всё внутри y150-1450 / x60-880. Музыка ещё не подложена (`assets/komorebi-shorts-35s-silent.mp4`) — как будет
+трек, мукс + fade 0.6/1.6.
+
 ### 📋 Shorts — copy-paste pack
 
 **Title:** `What Is Komorebi? The Japanese Word for Sunlight Through Leaves 🌿 #shorts`
