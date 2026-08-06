@@ -191,7 +191,7 @@ LYRICS:
 - `Komorebi_1.mp3` (−13.3 LUFS / −0.2 TP, the loud Shorts take) shares its output stem with `Komorebi_1.wav`, so it was **overwritten** in the mastered folder → naturally dropped. No other cuts needed: every remaining take is a calm −14…−16 LUFS.
 - **Final set = 33 tracks, 1:52:35.** Per-variant count: V1=6, V2=6, V3=4, V4=2, V5=4, V6=3, V7=4, V8=4.
 - Anti-Content-ID round-robin sequence (variant index per slot): `1234 5678 1234 5678 123 5678 123 578 12 12` — no two adjacent from the same variant, all 8 openings represented.
-- **Slot 34** = `Fudoshin_7 (5)` borrowed from the FUDOSHIN album (a calm leftover take), appended last as `One More Breath of Light` (starts 1:52:35). Final TOTAL = 1:52:35 + its length.
+- **Slots 34–35** = `Fudoshin_7 (5)` + `Fudoshin_7 (4)`, two calm leftover takes borrowed from the FUDOSHIN album, appended last as `One More Breath of Light` (starts 1:52:35) + `The Forest Keeps the Warmth` (starts 1:52:35 + len 7_5). Both are FUDOSHIN variant 7 (stream-led opening) — minor note: they sit adjacent at the tail, so a listener hears the same intro twice; fine for leftovers at the 1:52 mark, but can interleave one earlier if wanted. Final TOTAL = 1:52:35 + len(7_5) + len(7_4). 35 tracks.
 
 **🇺🇦** Из 34 сырых один (`Komorebi_1.mp3`, громкий трек Шортса) сам перезаписался при мастеринге → выпал. Остальные все спокойные, резать не нужно → **33 трека, 1:52:35**, раунд-робин по 8 вариантам. Плюс 1 «одолженный» трек последним — жду его длину.
 
@@ -307,6 +307,7 @@ Tracklist:
 1:45:42 Shadows Lengthen Gently
 1:49:27 Stillness Returns to the Forest
 1:52:35 One More Breath of Light
+[+ length of 7_5] The Forest Keeps the Warmth
 
 🌀 Let the light fall softly through the leaves.
 🍃 Nothing to hold. Only the warmth of this moment.
