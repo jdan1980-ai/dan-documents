@@ -208,14 +208,18 @@ Photorealistic cinematic vertical still 9:16, warm morning sunlight streaming do
 ## §3c — Shorts image set (9:16 — 6 frames)
 
 Save `komorebi-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm/empty upper zone for the 木漏れ日 kanji overlay. No airborne particles anywhere.
-**🇺🇦** 6 вертикальных кадров; кадр 4 — под иероглиф 木漏れ日. Никаких летящих частиц.
+**🔒 KOMOREBI is figure-free** — the light is the subject. Any frame with an "empty clearing / path"
+must say **uninhabited / no people**, or the generator fills the empty focal point with a random
+(often Western) person. Learned on frame 6 (a modern European woman appeared).
+
+**🇺🇦** 6 вертикальных кадров; кадр 4 — под иероглиф 木漏れ日. Никаких летящих частиц. **KOMOREBI без людей** — герой это свет; в кадрах с «пустой поляной/тропой» обязательно писать «без людей», иначе модель впишет случайного человека (на кадре 6 появилась современная европейка).
 
 1. **HOOK — sunbeams through canopy:** `Photorealistic cinematic vertical still, warm golden shafts of sunlight streaming down through a dense green forest canopy in the morning, dappled light on a mossy path, gentle haze catching the beams, rich greens and honey gold, alive and comforting. No text, no watermark. 4K.`
 2. **dappled light on moss (macro):** `Photorealistic cinematic vertical close-up, warm dappled sunlight falling across deep green moss and a stone on the forest floor, soft shifting patches of gold and shadow, gentle and warm. No text, no watermark. 4K.`
-3. **path into the light:** `Photorealistic cinematic vertical still, a mossy forest path curving away between tall trees toward a bright sunlit clearing, warm light filtering through the leaves, deep green and gold, inviting and calm. No text, no watermark. 4K.`
+3. **path into the light:** `Photorealistic cinematic vertical still, an empty mossy forest path curving away between tall trees toward a bright sunlit opening, warm light filtering through the leaves, deep green and gold, inviting and calm, no people on the path. No text, no watermark. 4K.`
 4. **KANJI frame — canopy and light above:** `Photorealistic cinematic vertical still, looking up at a green forest canopy with warm sunlight breaking through the leaves in the upper half (bright and open for a kanji), the forest darker and calmer below, soft haze. No text, no watermark. 4K.`
 5. **leaves backlit by sun:** `Photorealistic cinematic vertical close-up, green maple leaves glowing translucent as warm sunlight passes through them from behind, soft golden light, gentle and luminous. No text, no watermark. 4K.`
-6. **sunlit clearing (calm hero):** `Photorealistic cinematic vertical still, a peaceful sunlit forest clearing at golden hour, warm shafts of light falling through the trees onto soft green undergrowth, deeply calm and warm. No text, no watermark. 4K.`
+6. **sunlit forest (calm hero, NO people):** `Photorealistic cinematic vertical still, a peaceful Japanese forest at golden hour, warm shafts of sunlight falling through tall trees onto dense green undergrowth and ferns, glowing dappled light across moss and foliage filling the whole frame, no open clearing, no path, deeply calm and warm. Uninhabited nature only — no people, no person, no figure, no human. No text, no watermark. 4K.`
 
 ---
 
