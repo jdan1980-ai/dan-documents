@@ -191,7 +191,7 @@ LYRICS:
 - `Komorebi_1.mp3` (−13.3 LUFS / −0.2 TP, the loud Shorts take) shares its output stem with `Komorebi_1.wav`, so it was **overwritten** in the mastered folder → naturally dropped. No other cuts needed: every remaining take is a calm −14…−16 LUFS.
 - **Final set = 33 tracks, 1:52:35.** Per-variant count: V1=6, V2=6, V3=4, V4=2, V5=4, V6=3, V7=4, V8=4.
 - Anti-Content-ID round-robin sequence (variant index per slot): `1234 5678 1234 5678 123 5678 123 578 12 12` — no two adjacent from the same variant, all 8 openings represented.
-- One track borrowed from a previous album is appended **last (slot 34)** — pending its length.
+- **Slot 34** = `Fudoshin_7 (5)` borrowed from the FUDOSHIN album (a calm leftover take), appended last as `One More Breath of Light` (starts 1:52:35). Final TOTAL = 1:52:35 + its length.
 
 **🇺🇦** Из 34 сырых один (`Komorebi_1.mp3`, громкий трек Шортса) сам перезаписался при мастеринге → выпал. Остальные все спокойные, резать не нужно → **33 трека, 1:52:35**, раунд-робин по 8 вариантам. Плюс 1 «одолженный» трек последним — жду его длину.
 
@@ -306,6 +306,7 @@ Tracklist:
 1:42:29 The Last Beam of Day
 1:45:42 Shadows Lengthen Gently
 1:49:27 Stillness Returns to the Forest
+1:52:35 One More Breath of Light
 
 🌀 Let the light fall softly through the leaves.
 🍃 Nothing to hold. Only the warmth of this moment.
