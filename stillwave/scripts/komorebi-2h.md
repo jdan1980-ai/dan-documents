@@ -327,8 +327,7 @@ fr5 мох на камне → fr6 золотая тропа (一期一会). Б�
 кроссфейды 0.8с), оверлеи `assets/komorebi-short-overlays.py`. 35.0с. Три бита золотом/кремом:
 `Sunlight through the leaves` → **木漏れ日 / KOMOREBI** → **一期一会 / Ichigo ichie / This moment, once, never again**.
 Проверки: плавность 0 замерших, CV 0.013; safe zone — hook y1075-1243, 木漏れ日 y1021-1298, 一期一会 y1021-1275,
-всё внутри y150-1450 / x60-880. Музыка ещё не подложена (`assets/komorebi-shorts-35s-silent.mp4`) — как будет
-трек, мукс + fade 0.6/1.6.
+всё внутри y150-1450 / x60-880. Музыка `Komorebi_1` (сегмент с 24с, fade 0.6/1.6), −12.9 LUFS. Готовый файл: `assets/komorebi-shorts-35s.mp4`.
 
 ### 📋 Shorts — copy-paste pack
 
