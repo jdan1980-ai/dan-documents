@@ -183,11 +183,17 @@ LYRICS:
 
 ---
 
-## §2 — Mastering
+## §2 — Mastering (AS-BUILT 2026-08-06)
 
-`master-album.py` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) → `Suno-Komorebi-mastered`, then timestamps. Generate ~5 per variant (~40), keep the calmest set that fits the 2H cap, drop the loudest/peakiest + any duplicates (the script now prints length + TOTAL and flags dupes). Reorder anti-Content-ID (round-robin over the 8 variants, no two adjacent from the same variant), then rename `01 - … NN -`.
+`master-album.py` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) → `Suno-Komorebi-mastered`.
 
-**🇺🇦** Мастеринг −16 LUFS → отбор самых спокойных под ≤2:00 (выкинуть громкие/пиковые + дубли) → перемешать раунд-робином по 8 вариантам → переименовать `01 - …`.
+- **34 raw** across 8 variants (V1–V8) + 4 extra takes (`_11`, `_22`, `_111`, `_222`). TOTAL raw 1:56:34.
+- `Komorebi_1.mp3` (−13.3 LUFS / −0.2 TP, the loud Shorts take) shares its output stem with `Komorebi_1.wav`, so it was **overwritten** in the mastered folder → naturally dropped. No other cuts needed: every remaining take is a calm −14…−16 LUFS.
+- **Final set = 33 tracks, 1:52:35.** Per-variant count: V1=6, V2=6, V3=4, V4=2, V5=4, V6=3, V7=4, V8=4.
+- Anti-Content-ID round-robin sequence (variant index per slot): `1234 5678 1234 5678 123 5678 123 578 12 12` — no two adjacent from the same variant, all 8 openings represented.
+- One track borrowed from a previous album is appended **last (slot 34)** — pending its length.
+
+**🇺🇦** Из 34 сырых один (`Komorebi_1.mp3`, громкий трек Шортса) сам перезаписался при мастеринге → выпал. Остальные все спокойные, резать не нужно → **33 трека, 1:52:35**, раунд-робин по 8 вариантам. Плюс 1 «одолженный» трек последним — жду его длину.
 
 ---
 
@@ -267,7 +273,39 @@ dappling the ground — a beauty with no English name.
 Warm morning light sifts down through a green canopy, moving slowly across the moss as the leaves stir. Komorebi is the small, fleeting warmth most of us feel but never name — quiet, alive, gone the moment a leaf turns. Sit for two hours in the light and let the day soften around you.
 
 Tracklist:
-[added after mastering — mood-poetic names, warm and luminous]
+0:00 First Light Through the Canopy
+3:44 Dappled on the Forest Floor
+7:29 Morning Mist Between the Trees
+11:23 Where the Path Turns Gold
+14:51 Moss Drinking the Sun
+17:59 A Clearing Opens Quietly
+21:39 Leaves Filter the Warmth
+24:49 The Slow Drift of Light
+28:07 Sunbeams on Wet Bark
+31:26 Between Shadow and Glow
+34:20 Ferns Lean Toward Morning
+38:08 Light Pools on the Trail
+41:23 The Forest Breathes Slowly
+44:36 Warmth Falls Through Green
+47:51 Still Air, Gentle Shine
+51:14 A Single Ray Descends
+54:47 Golden Hour in the Grove
+58:46 Shade Softens Every Step
+1:01:49 The Canopy Whispers Above
+1:05:32 Sunlight Rests on Stone
+1:09:00 Quiet Under Tall Trees
+1:12:18 Where Warm Light Gathers
+1:15:50 The Trail Fades Into Green
+1:19:33 Afternoon Settles Softly
+1:22:56 Light Threads the Branches
+1:25:59 A Path of Scattered Sun
+1:29:29 The Woods Hold Their Calm
+1:33:02 Glow Between the Leaves
+1:36:09 Slow Warmth of the Grove
+1:39:19 Evening Light Grows Long
+1:42:29 The Last Beam of Day
+1:45:42 Shadows Lengthen Gently
+1:49:27 Stillness Returns to the Forest
 
 🌀 Let the light fall softly through the leaves.
 🍃 Nothing to hold. Only the warmth of this moment.
