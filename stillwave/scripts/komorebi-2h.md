@@ -191,7 +191,10 @@ LYRICS:
 - `Komorebi_1.mp3` (−13.3 LUFS / −0.2 TP, the loud Shorts take) shares its output stem with `Komorebi_1.wav`, so it was **overwritten** in the mastered folder → naturally dropped. No other cuts needed: every remaining take is a calm −14…−16 LUFS.
 - **Final set = 33 tracks, 1:52:35.** Per-variant count: V1=6, V2=6, V3=4, V4=2, V5=4, V6=3, V7=4, V8=4.
 - Anti-Content-ID round-robin sequence (variant index per slot): `1234 5678 1234 5678 123 5678 123 578 12 12` — no two adjacent from the same variant, all 8 openings represented.
-- **Slots 34–35** = `Fudoshin_7 (5)` + `Fudoshin_7 (4)`, two calm leftover takes borrowed from the FUDOSHIN album, appended last as `One More Breath of Light` (starts 1:52:35) + `The Forest Keeps the Warmth` (starts 1:52:35 + len 7_5). Both are FUDOSHIN variant 7 (stream-led opening) — minor note: they sit adjacent at the tail, so a listener hears the same intro twice; fine for leftovers at the 1:52 mark, but can interleave one earlier if wanted. Final TOTAL = 1:52:35 + len(7_5) + len(7_4). 35 tracks.
+- **35 tracks** — two calm leftover FUDOSHIN takes (`Fudoshin_7 (5)`, `Fudoshin_7 (4)`) **interleaved into separate places** (user pref) so the two identical stream-led openings never sit adjacent:
+  - **slot 12** = `Fudoshin_7 (5)` → `One More Breath of Light` (between slot 11 V3 and slot 13 V4; starts 38:08)
+  - **slot 26** = `Fudoshin_7 (4)` → `The Forest Keeps the Warmth` (between slot 25 V1 and slot 27 V2)
+  - Neither insert touches a KOMOREBI variant-7 track. Timestamps 13→35 recompute once both lengths are in. Final TOTAL = 1:52:35 + len(7_5) + len(7_4).
 
 **🇺🇦** Из 34 сырых один (`Komorebi_1.mp3`, громкий трек Шортса) сам перезаписался при мастеринге → выпал. Остальные все спокойные, резать не нужно → **33 трека, 1:52:35**, раунд-робин по 8 вариантам. Плюс 1 «одолженный» трек последним — жду его длину.
 
@@ -284,30 +287,31 @@ Tracklist:
 28:07 Sunbeams on Wet Bark
 31:26 Between Shadow and Glow
 34:20 Ferns Lean Toward Morning
-38:08 Light Pools on the Trail
-41:23 The Forest Breathes Slowly
-44:36 Warmth Falls Through Green
-47:51 Still Air, Gentle Shine
-51:14 A Single Ray Descends
-54:47 Golden Hour in the Grove
-58:46 Shade Softens Every Step
-1:01:49 The Canopy Whispers Above
-1:05:32 Sunlight Rests on Stone
-1:09:00 Quiet Under Tall Trees
-1:12:18 Where Warm Light Gathers
-1:15:50 The Trail Fades Into Green
-1:19:33 Afternoon Settles Softly
-1:22:56 Light Threads the Branches
-1:25:59 A Path of Scattered Sun
-1:29:29 The Woods Hold Their Calm
-1:33:02 Glow Between the Leaves
-1:36:09 Slow Warmth of the Grove
-1:39:19 Evening Light Grows Long
-1:42:29 The Last Beam of Day
-1:45:42 Shadows Lengthen Gently
-1:49:27 Stillness Returns to the Forest
-1:52:35 One More Breath of Light
-[+ length of 7_5] The Forest Keeps the Warmth
+38:08 One More Breath of Light          ← Fudoshin_7 (5), inserted
+•:•• Light Pools on the Trail
+•:•• The Forest Breathes Slowly
+•:•• Warmth Falls Through Green
+•:•• Still Air, Gentle Shine
+•:•• A Single Ray Descends
+•:•• Golden Hour in the Grove
+•:•• Shade Softens Every Step
+•:•• The Canopy Whispers Above
+•:•• Sunlight Rests on Stone
+•:•• Quiet Under Tall Trees
+•:•• Where Warm Light Gathers
+•:•• The Trail Fades Into Green
+•:•• Afternoon Settles Softly
+•:•• The Forest Keeps the Warmth      ← Fudoshin_7 (4), inserted
+•:•• Light Threads the Branches
+•:•• A Path of Scattered Sun
+•:•• The Woods Hold Their Calm
+•:•• Glow Between the Leaves
+•:•• Slow Warmth of the Grove
+•:•• Evening Light Grows Long
+•:•• The Last Beam of Day
+•:•• Shadows Lengthen Gently
+•:•• Stillness Returns to the Forest
+(timestamps 13→35 recompute once 7_5 & 7_4 lengths are in — track 12 starts 38:08, everything below shifts by +len(7_5), then +len(7_4) after track 26)
 
 🌀 Let the light fall softly through the leaves.
 🍃 Nothing to hold. Only the warmth of this moment.
