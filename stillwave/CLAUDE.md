@@ -260,6 +260,7 @@ Every StillWave long-form video opens with a Japanese wisdom phrase overlay in t
 | Video | Phrase | Romaji | Gloss |
 |-------|--------|--------|-------|
 | Tokyo Café Rain 1H | 雨だれ石を穿つ | Amadare ishi o utsu | Raindrops wear the stone |
+| KOMOREBI 2H | 一期一会 | Ichigo ichie | This moment, once, never again |
 
 ### Every script must include §6a
 
