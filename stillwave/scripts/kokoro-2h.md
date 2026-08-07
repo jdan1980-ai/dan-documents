@@ -209,10 +209,17 @@ Healing Japanese zen ambient. A small rin bell shimmers softly, a deep warm dron
 
 ---
 
-## §2 — Mastering
+## §2 — Mastering (AS-BUILT 2026-08-07)
 
-`master-album.py "<Suno-Kokoro folder>"` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) → prints length + TOTAL + flags dupes. Generate ~4 per variant (~40), keep the calmest set ≤ 2:00 (score = LUFS + TP, drop loudest/peakiest + dupes), reorder anti-Content-ID (round-robin over the 10 variants, no two adjacent from the same variant), rename `01 - … NN -`, then I build §8 timestamps + poetic tracklist.
-**🇺🇦** Прогони через `master-album.py`, скинь таблицу — отберу спокойный сет под 2:00, раунд-робин по 10 вариантам, соберу §8.
+`master-album.py` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit).
+
+- **33 raw** in `Suno-Kokoro-mastered` (1:52:34) + **3 extra V6** takes in `Kokoro Extra-mastered` (V6 was thin — only 1 usable from the first batch). All calm, −13…−16.6 LUFS.
+- 33 + 3 = 2:02:32 → over the 2:00 cap, so **dropped the single loudest** `KOKORO_4 (1)` (−13.1 / −1.7 peak; V4 kept 3 takes).
+- **Final set = 35 tracks, 1:59:38.** Per-variant: V1=4, V2=4, V3=4, V4=3, V5=3, V6=4, V7=4, V8=2, V9=4, V10=3.
+- Anti-Content-ID round-robin over the 10 variants (variant index per slot): `1234567890 1234567890 123456790 123679` — no two adjacent from the same variant, all 10 openings represented; the 4 V6 tracks land on slots 6/16/26/33 (never adjacent).
+- Three V6 extras come from `Kokoro Extra-mastered` (note: one is named `KOKORO_6.wav`, same as the original V6 in the main folder — the rename map pulls each from its own source folder).
+
+**🇺🇦** 33 основных + 3 экстры V6 = 2:02:32 → за лимит, выкинул самый громкий `KOKORO_4 (1)` → **35 треков, 1:59:38**, раунд-робин по 10 вариантам, V6 разнесены.
 
 ---
 
@@ -286,7 +293,41 @@ quiet enough, at last, to heal.
 In a candlelit temple hall a monk sits before a fading golden Buddha, incense rising in a single thin thread. Kokoro is the heart that has been carrying too much, set down for a while. Slow shakuhachi, warm koto, the long decay of a singing bowl — two hours to let the feeling soften, and the mind grow still.
 
 Tracklist:
-[added after mastering — mood-poetic names, warm and healing]
+0:00 The Heart Sets Itself Down
+3:34 Candlelight on the Buddha
+7:02 First Breath in the Hall
+9:55 Incense Rising Slowly
+13:45 What the Heart Has Carried
+17:58 Stillness Enters the Room
+21:06 Gold Light on Old Walls
+24:20 The Weight Begins to Lift
+27:39 A Quiet Deeper Than Sleep
+31:39 Letting the Thought Pass
+35:39 Warmth Behind the Eyes
+38:59 The Mind Grows Soft
+42:13 Nothing Left to Hold
+45:42 Breath After Breath
+49:14 The Sorrow Loosens
+52:49 Mercy in the Half-Light
+56:19 A Single Flame Holds Steady
+59:32 The Heart Remembers Peace
+1:02:45 Ash Settles on the Censer
+1:05:59 Where Feeling Meets Silence
+1:09:43 The Room Holds You Gently
+1:13:17 Slow Return to Calm
+1:16:47 A Tenderness Without Name
+1:20:41 The Buddha's Quiet Gaze
+1:23:31 Everything Softens Now
+1:27:14 Smoke Curls Toward the Ceiling
+1:30:14 The Old Ache Eases
+1:33:18 Resting in the Open Heart
+1:36:12 Warm Dark, Warm Light
+1:39:21 The Breath Comes Home
+1:43:06 Peace Settles in the Chest
+1:46:24 Nothing to Fix, Only This
+1:49:23 The Candle Burns Lower
+1:52:51 A Heart at Ease
+1:56:04 Stillness Stays Behind
 
 🌀 Let the heart set down what it carries.
 🍃 Nothing to fix. Only this quiet, and the next breath.
