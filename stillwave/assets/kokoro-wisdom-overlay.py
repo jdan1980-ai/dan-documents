@@ -21,16 +21,16 @@ X = 120
 
 img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
 
-# soft scrim so cream reads over the dark temple pillar / shadow on the left
+# soft scrim so cream reads over the dark tatami / shadow in the lower-left
 s = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-ImageDraw.Draw(s).rounded_rectangle((-200, 360, 900, 800), radius=180, fill=(6, 6, 9, 140))
-img.alpha_composite(s.filter(ImageFilter.GaussianBlur(110)))
+ImageDraw.Draw(s).rounded_rectangle((-200, 660, 820, 1060), radius=170, fill=(6, 6, 9, 150))
+img.alpha_composite(s.filter(ImageFilter.GaussianBlur(100)))
 
 # 安心立命 — brush kanji, cream, faint warm glow for legibility over the wood
-f = ImageFont.truetype(KANJI, 150)
+f = ImageFont.truetype(KANJI, 132)
 mask = Image.new("L", (W, H), 0)
 md = ImageDraw.Draw(mask)
-chars, pitch, y0 = ["安", "心", "立", "命"], 162, 400
+chars, pitch, y0 = ["安", "心", "立", "命"], 144, 720
 l0, _, r0, _ = f.getbbox(chars[0])
 c0 = X + (r0 - l0) / 2
 for i, ch in enumerate(chars):
@@ -44,9 +44,9 @@ img.alpha_composite(Image.composite(Image.new("RGBA", (W, H), CREAM),
                                     Image.new("RGBA", (W, H), (0, 0, 0, 0)), mask))
 
 d = ImageDraw.Draw(img)
-d.text((X + 4, 600), "Anjin ritsumei", font=ImageFont.truetype(SERIF, 64), fill=CREAM)
-d.text((X + 4, 684), "Peace of mind, serene stability",
-       font=ImageFont.truetype(SERIF, 46), fill=SUB)
+d.text((X + 4, 878), "Anjin ritsumei", font=ImageFont.truetype(SERIF, 58), fill=CREAM)
+d.text((X + 4, 952), "Peace of mind, serene stability",
+       font=ImageFont.truetype(SERIF, 42), fill=SUB)
 
 img.save(OUT)
 print("saved", OUT)
