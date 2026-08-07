@@ -194,7 +194,7 @@ LYRICS:
 - **35 tracks** — two calm leftover FUDOSHIN takes (`Fudoshin_7 (5)`, `Fudoshin_7 (4)`) **interleaved into separate places** (user pref) so the two identical stream-led openings never sit adjacent:
   - **slot 12** = `Fudoshin_7 (5)` → `One More Breath of Light` (between slot 11 V3 and slot 13 V4; starts 38:08)
   - **slot 26** = `Fudoshin_7 (4)` → `The Forest Keeps the Warmth` (between slot 25 V1 and slot 27 V2)
-  - Neither insert touches a KOMOREBI variant-7 track. Timestamps 13→35 recompute once both lengths are in. Final TOTAL = 1:52:35 + len(7_5) + len(7_4).
+  - Neither insert touches a KOMOREBI variant-7 track. Both borrowed takes are 3:14. **Final TOTAL = 1:59:03 (35 tracks).**
 
 **🇺🇦** Из 34 сырых один (`Komorebi_1.mp3`, громкий трек Шортса) сам перезаписался при мастеринге → выпал. Остальные все спокойные, резать не нужно → **33 трека, 1:52:35**, раунд-робин по 8 вариантам. Плюс 1 «одолженный» трек последним — жду его длину.
 
@@ -288,31 +288,30 @@ Tracklist:
 28:07 Sunbeams on Wet Bark
 31:26 Between Shadow and Glow
 34:20 Ferns Lean Toward Morning
-38:08 One More Breath of Light          ← Fudoshin_7 (5), inserted
-•:•• Light Pools on the Trail
-•:•• The Forest Breathes Slowly
-•:•• Warmth Falls Through Green
-•:•• Still Air, Gentle Shine
-•:•• A Single Ray Descends
-•:•• Golden Hour in the Grove
-•:•• Shade Softens Every Step
-•:•• The Canopy Whispers Above
-•:•• Sunlight Rests on Stone
-•:•• Quiet Under Tall Trees
-•:•• Where Warm Light Gathers
-•:•• The Trail Fades Into Green
-•:•• Afternoon Settles Softly
-•:•• The Forest Keeps the Warmth      ← Fudoshin_7 (4), inserted
-•:•• Light Threads the Branches
-•:•• A Path of Scattered Sun
-•:•• The Woods Hold Their Calm
-•:•• Glow Between the Leaves
-•:•• Slow Warmth of the Grove
-•:•• Evening Light Grows Long
-•:•• The Last Beam of Day
-•:•• Shadows Lengthen Gently
-•:•• Stillness Returns to the Forest
-(timestamps 13→35 recompute once 7_5 & 7_4 lengths are in — track 12 starts 38:08, everything below shifts by +len(7_5), then +len(7_4) after track 26)
+38:08 One More Breath of Light
+41:22 Light Pools on the Trail
+44:37 The Forest Breathes Slowly
+47:50 Warmth Falls Through Green
+51:05 Still Air, Gentle Shine
+54:28 A Single Ray Descends
+58:01 Golden Hour in the Grove
+1:02:00 Shade Softens Every Step
+1:05:03 The Canopy Whispers Above
+1:08:46 Sunlight Rests on Stone
+1:12:14 Quiet Under Tall Trees
+1:15:32 Where Warm Light Gathers
+1:19:04 The Trail Fades Into Green
+1:22:47 Afternoon Settles Softly
+1:26:10 The Forest Keeps the Warmth
+1:29:24 Light Threads the Branches
+1:32:27 A Path of Scattered Sun
+1:35:57 The Woods Hold Their Calm
+1:39:30 Glow Between the Leaves
+1:42:37 Slow Warmth of the Grove
+1:45:47 Evening Light Grows Long
+1:48:57 The Last Beam of Day
+1:52:10 Shadows Lengthen Gently
+1:55:55 Stillness Returns to the Forest
 
 🌀 Let the light fall softly through the leaves.
 🍃 Nothing to hold. Only the warmth of this moment.
