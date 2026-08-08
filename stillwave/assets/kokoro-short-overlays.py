@@ -70,6 +70,24 @@ def spaced(img, text, size, x, y, fill=CREAM, ls=6, font=KANJI):
         cx += d.textlength(ch, font=f) + ls
 
 
+def spaced_center(img, text, size, y, fill=CREAM, ls=6, font=KANJI, cx0=540):
+    f = ImageFont.truetype(font, size)
+    d = ImageDraw.Draw(img)
+    ws = [d.textlength(c, font=f) for c in text]
+    total = sum(ws) + ls * (len(text) - 1)
+    x = cx0 - total / 2
+    for c, w in zip(text, ws):
+        d.text((x, y), c, font=f, fill=fill)
+        x += w + ls
+
+
+def gold_kanji_center(img, chars, size, y0, pitch, cx0=540):
+    # centre the whole run horizontally on cx0
+    total = (len(chars) - 1) * pitch
+    x0 = cx0 - total / 2
+    gold_kanji(img, chars, size, x0, y0, pitch)
+
+
 # ---- beat 1: hook ----
 b1 = new()
 scrim(b1, 980, 1330)
@@ -79,20 +97,22 @@ for i, line in enumerate(["The heart that", "carries too much"]):
     d.text((X, 1040 + i * 96), line, font=f1, fill=CREAM)
 b1.save(f"{OUT}/kokov_hook.png")
 
-# ---- beat 2: concept 心 + KOKORO (shot 4 = dark upper hall) ----
+# ---- beat 2: concept 心 + KOKORO — HIGH in the dark ceiling, KOKORO maximally large ----
 b2 = new()
-scrim(b2, 950, 1400)
-gold_kanji(b2, ["心"], 210, X, 968, 0)
-spaced(b2, "KOKORO", 80, X + 6, 1230, GOLD, ls=10, font=SERIF)
+sc = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+ImageDraw.Draw(sc).rounded_rectangle((40, 150, 1040, 740), radius=170, fill=(8, 8, 10, 165))
+b2.alpha_composite(sc.filter(ImageFilter.GaussianBlur(100)))
+gold_kanji_center(b2, ["心"], 168, 214, 0, cx0=470)
+spaced_center(b2, "KOKORO", 170, 470, GOLD, ls=4, font=SERIF, cx0=470)
 b2.save(f"{OUT}/kokov_concept.png")
 
-# ---- beat 3: wisdom 安心立命 ----
+# ---- beat 3: wisdom 安心立命 — lower-left (over the floor beside the monk) ----
 b3 = new()
-scrim(b3, 958, 1402)
-gold_kanji(b3, ["安", "心", "立", "命"], 116, X, 978, 126)
-spaced(b3, "Anjin ritsumei", 50, X + 4, 1142, GOLD, ls=3, font=SERIF)
-ImageDraw.Draw(b3).text((X + 4, 1222), "Peace of mind, serene stability",
-                        font=ImageFont.truetype(SERIF, 34), fill=SUB)
+scrim(b3, 1030, 1440)
+gold_kanji(b3, ["安", "心", "立", "命"], 112, X, 1058, 122)
+spaced(b3, "Anjin ritsumei", 48, X + 4, 1216, GOLD, ls=3, font=SERIF)
+ImageDraw.Draw(b3).text((X + 4, 1292), "Peace of mind, serene stability",
+                        font=ImageFont.truetype(SERIF, 33), fill=SUB)
 b3.save(f"{OUT}/kokov_wisdom.png")
 
 # ---- safe-zone check ----
