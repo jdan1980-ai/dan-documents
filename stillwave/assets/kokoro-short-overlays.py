@@ -100,19 +100,19 @@ b1.save(f"{OUT}/kokov_hook.png")
 # ---- beat 2: concept 心 + KOKORO — HIGH in the dark ceiling, KOKORO maximally large ----
 b2 = new()
 sc = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-ImageDraw.Draw(sc).rounded_rectangle((40, 150, 1040, 740), radius=170, fill=(8, 8, 10, 165))
+ImageDraw.Draw(sc).rounded_rectangle((40, 300, 1040, 900), radius=170, fill=(8, 8, 10, 165))
 b2.alpha_composite(sc.filter(ImageFilter.GaussianBlur(100)))
-gold_kanji_center(b2, ["心"], 168, 214, 0, cx0=470)
-spaced_center(b2, "KOKORO", 170, 470, GOLD, ls=4, font=SERIF, cx0=470)
+gold_kanji_center(b2, ["心"], 168, 356, 0, cx0=470)
+spaced_center(b2, "KOKORO", 170, 612, GOLD, ls=4, font=SERIF, cx0=470)
 b2.save(f"{OUT}/kokov_concept.png")
 
-# ---- beat 3: wisdom 安心立命 — lower-left (over the floor beside the monk) ----
+# ---- beat 3: wisdom 安心立命 — lowered onto the monk's body, clearing his head ----
 b3 = new()
-scrim(b3, 1030, 1440)
-gold_kanji(b3, ["安", "心", "立", "命"], 112, X, 1058, 122)
-spaced(b3, "Anjin ritsumei", 48, X + 4, 1216, GOLD, ls=3, font=SERIF)
-ImageDraw.Draw(b3).text((X + 4, 1292), "Peace of mind, serene stability",
-                        font=ImageFont.truetype(SERIF, 33), fill=SUB)
+scrim(b3, 1150, 1500)
+gold_kanji(b3, ["安", "心", "立", "命"], 104, X, 1192, 114)
+spaced(b3, "Anjin ritsumei", 46, X + 4, 1338, GOLD, ls=3, font=SERIF)
+ImageDraw.Draw(b3).text((X + 4, 1410), "Peace of mind, serene stability",
+                        font=ImageFont.truetype(SERIF, 30), fill=SUB)
 b3.save(f"{OUT}/kokov_wisdom.png")
 
 # ---- safe-zone check ----
