@@ -14,6 +14,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
 
 SRC = "/home/user/dan-documents/stillwave/assets/komorebi-2h-source.jpg"
 KANJI = "/home/user/dan-documents/stillwave/assets/fonts/YujiBoku-Regular.ttf"
+SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 OUT = "/home/user/dan-documents/stillwave/assets/komorebi-2h-thumb.jpg"
 W, H = 1920, 1080
 CREAM = (245, 234, 210, 255)
@@ -88,8 +89,8 @@ def sumi(im, chars, size, cx_centre, y, pitch, halo=44):
     im.alpha_composite(Image.composite(grad, Image.new("RGBA", (W, H), (0, 0, 0, 0)), mask))
 
 
-def spaced_centre(im, text, size, cx_centre, y, fill=CREAM, ls=16):
-    f = ImageFont.truetype(KANJI, size)
+def spaced_centre(im, text, size, cx_centre, y, fill=CREAM, ls=16, font=KANJI):
+    f = ImageFont.truetype(font, size)
     d = ImageDraw.Draw(im)
     widths = [d.textlength(c, font=f) for c in text]
     total = sum(widths) + ls * (len(text) - 1)
@@ -108,6 +109,6 @@ def spaced_centre(im, text, size, cx_centre, y, fill=CREAM, ls=16):
 im = base()
 CENTRE = 950   # the beam origin sits just about frame centre
 sumi(im, ["木", "漏", "れ", "日"], 224, CENTRE, 66, pitch=246)
-spaced_centre(im, "KOMOREBI", 84, CENTRE, 940, fill=GOLD, ls=18)  # low, on the path; brush font = calligraphic, warm gold
+spaced_centre(im, "KOMOREBI", 132, CENTRE, 892, fill=GOLD, ls=14, font=SERIF)  # low on the path; large legible Liberation Serif Bold
 im.convert("RGB").save(OUT, quality=94)
 print("saved", OUT)
