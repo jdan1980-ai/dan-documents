@@ -12,6 +12,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
 
 SRC = "/home/user/dan-documents/stillwave/assets/kokoro-2h-source.jpg"
 KANJI = "/home/user/dan-documents/stillwave/assets/fonts/YujiBoku-Regular.ttf"
+SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 OUT = "/home/user/dan-documents/stillwave/assets/kokoro-2h-thumb.jpg"
 W, H = 1920, 1080
 CREAM = (245, 234, 210, 255)
@@ -81,8 +82,8 @@ def sumi(im, chars, size, cx_centre, y, pitch, halo=42):
     im.alpha_composite(Image.composite(grad, Image.new("RGBA", (W, H), (0, 0, 0, 0)), mask))
 
 
-def spaced_centre(im, text, size, cx_centre, y, fill=CREAM, ls=16):
-    f = ImageFont.truetype(KANJI, size)
+def spaced_centre(im, text, size, cx_centre, y, fill=CREAM, ls=16, font=KANJI):
+    f = ImageFont.truetype(font, size)
     d = ImageDraw.Draw(im)
     widths = [d.textlength(c, font=f) for c in text]
     total = sum(widths) + ls * (len(text) - 1)
@@ -99,8 +100,7 @@ def spaced_centre(im, text, size, cx_centre, y, fill=CREAM, ls=16):
 
 im = base()
 CENTRE = 960
-# single 心 high, above the Buddha's halo — never over the sacred face
-sumi(im, ["心"], 250, CENTRE, 34, pitch=0)
-spaced_centre(im, "KOKORO", 88, CENTRE, 928, fill=GOLD, ls=20)  # low, on the monk's dark robe
+# user pref: no kanji — just KOKORO large & legible (Liberation Serif Bold), low centre
+spaced_centre(im, "KOKORO", 152, CENTRE, 858, fill=GOLD, ls=20, font=SERIF)
 im.convert("RGB").save(OUT, quality=94)
 print("saved", OUT)

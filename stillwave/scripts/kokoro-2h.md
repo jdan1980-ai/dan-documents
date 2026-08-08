@@ -348,8 +348,7 @@ stillwave, japanese zen music, meditation music, zen music, healing music, relax
 ## §10 — Thumbnail
 
 - `kokoro-2h-thumb.jpg` — built from the hero via `kokoro-compose-thumb.py`.
-- **心** molten gold, upper-centre **above the Buddha's halo** (sacred face never covered) + dark halo for legibility.
-- **KOKORO** gold calligraphic (brush font), low, centred on the monk's dark robe with a soft scrim.
+- **User pref (2026-08-07): no kanji.** Just **KOKORO** — large gold Liberation Serif Bold (legible at size — the brush font turned to mush at that scale), low, centred on the monk's dark robe with a soft scrim.
 - Bottom-right corner dark → logo in post.
 
 ---
