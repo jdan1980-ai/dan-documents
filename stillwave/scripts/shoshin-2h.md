@@ -16,8 +16,8 @@
 
 - 初心 is **free** (not among taken TAO/BUDŌ/KAMI/TORA/SHORYŪ, and not in our produced list).
 - **Why this one:** replicates the MUSHIN win — a real Zen concept carried by an iconic Western anchor (Suzuki's book is a self-help staple; "beginner's mind" is a productivity/creativity buzz-phrase). Rides the Kanji-Concept flywheel AND opens crossover search.
-- Mood = **fresh, clear, open, first-light** — brighter and airier than KOKORO's dark-temple healing. Differentiates the two back-to-back releases.
-- **🇺🇦** 初心 свободен. Формула как у MUSHIN (дзен + западный якорь Судзуки/Джобс) → кроссовер-спрос. Настроение — свежесть/ясность/первый свет, светлее и воздушнее, чем тёмный KOKORO.
+- **Visual (locked 2026-08-11):** dark temple room + a round **marumado** window framing a vivid **AUTUMN** momiji garden (seasonal — autumn incoming). High contrast = clickable. Concept bridge: meet even this autumn *fresh*, as if for the first time — beginner's mind. Music stays fresh/clear/luminous (§1); the picture carries the warmth of autumn.
+- **🇺🇦** 初心 свободен. Формула как у MUSHIN (дзен + западный якорь Судзуки/Джобс) → кроссовер-спрос. Визуал — тёмная комната + круглое окно с осенним садом (сезонно, кликабельно). Мысль: встретить даже эту осень *свежо*, как впервые. Музыка — свежая/ясная, картинка несёт тепло осени.
 
 ---
 
@@ -214,40 +214,44 @@ Fresh Japanese zen ambient. A small rin bell shimmers brightly, a soft warm dron
 
 ---
 
-## §3 — NanoBanana 16:9 (PRIMARY — hero)
+## §3 — NanoBanana 16:9 (PRIMARY — hero) — AUTUMN round-window (marumado)
+
+**Direction (locked 2026-08-11):** dark temple tea room, lone monk back-to-camera in near-silhouette, facing a large round "window of enlightenment" (marumado) that frames a vivid AUTUMN garden (crimson-gold momiji). High contrast (dark room ↔ glowing circle) = strong clickable hook. Seasonal (autumn incoming). Leaves rest on tree/ground in the STILL — falling leaves are added in the loop only (§4).
 
 ```
-Photorealistic cinematic still, 16:9, 4K. A lone Buddhist monk in dark robes sits in seiza from behind, back to the camera, centered in the lower third, perfectly still, on the wooden veranda (engawa) of an old Japanese temple. Beyond him the veranda opens to a misty mountain valley at first dawn light; a soft glowing sun disc is rising through the mist in the upper centre of the frame — a perfect calm circle of warm light (like a natural enso) dominating the upper two-thirds. Gentle low mist over the valley, dew on the dark wood. Warm fresh dawn palette — soft gold and pale amber light breaking through cool blue-grey mist, a clean luminous open feeling. Profound stillness, a fresh new beginning. Keep the lower-left corner dark, empty, low-detail negative space for a text overlay. Keep the bottom-right corner calm, dark and low-detail (logo). No airborne particles (no petals, no leaves, no birds), no text, no letters, no watermark.
+Photorealistic cinematic still, 16:9, 4K, high contrast. A dark serene Japanese temple tea room, deep shadows framing the scene. A lone Buddhist monk in dark robes sits in seiza from behind, back to the camera, centered in the lower third, a near-silhouette against the light. He faces a large round "window of enlightenment" (marumado) set in the wall. Through the perfect circular window: a vivid autumn Japanese garden — a brilliant crimson-and-gold Japanese maple (momiji) glowing in soft warm morning light, fallen red and orange leaves scattered across green moss and stone, gentle mist. The warm autumn view glows vividly against the dark interior and dominates the upper two-thirds. Warm gold and crimson light spills from the circle into the near-black room. Clean empty tatami floor — no objects, no tea bowl, no cups. Profound stillness, warm and vivid. Keep the lower-left corner dark and low-detail for a text overlay, keep the bottom-right corner calm and dark (logo). No text, no letters, no watermark.
 ```
-> Chosen generation → save as `shoshin-2h-source.jpg`. The rising sun disc doubles as an ENSO (circle = the beginning/wholeness) — 初心 kanji sits over the sky beside/above it, SHOSHIN low on the veranda.
+> Chosen generation → save as `shoshin-2h-source.jpg`. 初心 kanji goes upper area (dark wall beside the circle, or just inside the top of the circle), SHOSHIN large legible serif low on the dark floor.
 
 ## §3b — NanoBanana 9:16 (Shorts)
 
 ```
-Photorealistic cinematic vertical still 9:16, 4K. A lone Buddhist monk in dark robes seated in seiza from behind, lower third, on the wooden veranda of an old Japanese temple. Beyond him a misty mountain valley at first dawn light, a soft glowing sun disc rising through the mist in the upper portion — a calm warm circle of light. Low mist, dew on dark wood, fresh gold-and-blue-grey dawn palette, luminous and open, profound stillness. Keep the centre-left band calm and low-detail (a text overlay sits there). No airborne particles, no text, no letters, no watermark.
+Photorealistic cinematic vertical still 9:16, 4K, high contrast. A dark Japanese temple tea room, a lone Buddhist monk in dark robes seated in seiza from behind, lower third, near-silhouette, facing a large round marumado window. Through the circle: a vivid autumn garden — a glowing crimson-and-gold Japanese maple, fallen leaves on green moss, gentle mist, soft warm morning light. The bright circular autumn view glows against the dark interior. Keep the centre-left band calm and low-detail (a text overlay sits there). No text, no letters, no watermark.
 ```
 
 ## §3c — Shorts image set (9:16 — 6 frames)
 
-Save `shoshin-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm/open sky zone for the 初心 kanji overlay. No airborne particles. Monk = plain robes, no swords.
+Save `shoshin-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm dark interior zone for the 初心 kanji overlay. Leaves rest on tree/ground only (falling leaves live in the Short's motion, not the stills). Monk = plain robes, no swords.
 
-1. **HOOK — monk before the rising dawn sun:** `Photorealistic cinematic vertical still, a lone Buddhist monk in dark robes seated in seiza from behind on a temple veranda, facing a soft glowing sun disc rising through mist over a valley at first dawn light, warm gold and blue-grey, profound stillness. No text, no watermark. 4K.`
-2. **dew on the veranda (macro):** `Photorealistic cinematic vertical close-up, dew drops on dark weathered temple wood at dawn, a soft warm sunrise glow reflected in them, cool morning light, fresh and quiet. No text, no watermark. 4K.`
-3. **the rising sun through mist (natural enso):** `Photorealistic cinematic vertical still, a soft glowing sun disc rising through low valley mist at first light, a clean warm circle of gold light in cool blue-grey mist, serene and open. No text, no watermark. 4K.`
-4. **KANJI frame — open dawn sky:** `Photorealistic cinematic vertical still, a wide open dawn sky over a misty valley, soft gradient of pale gold and cool grey, calm and empty in the upper half (open for a kanji), a thin dark ridge of mountains along the bottom. No text, no watermark. 4K.`
-5. **fresh green branch with dew (detail):** `Photorealistic cinematic vertical close-up, a single fresh green pine or maple branch with dew at dawn, soft warm morning light behind it, clean and luminous, gentle. No text, no watermark. 4K.`
-6. **monk on the veranda, wide (wisdom):** `Photorealistic cinematic vertical still, a lone monk in dark robes seated in seiza from behind on a temple veranda looking out over a misty valley as the dawn sun rises, warm gold light filling the mist, deeply calm and fresh, only the one seated monk, no other people. No text, no watermark. 4K.`
+1. **HOOK — monk before the glowing round window:** `Photorealistic cinematic vertical still, high contrast, a lone Buddhist monk in dark robes seated in seiza from behind in a dark temple room, near-silhouette, facing a large round marumado window glowing with a vivid crimson-and-gold autumn maple garden in soft warm light. No text, no watermark. 4K.`
+2. **crimson maple (macro):** `Photorealistic cinematic vertical close-up, brilliant crimson and gold Japanese maple leaves (momiji) on the branch glowing in soft warm autumn morning light, gentle and vivid, dark background. No text, no watermark. 4K.`
+3. **the round window (autumn garden, closer):** `Photorealistic cinematic vertical still, a round temple marumado window framing a vivid autumn Japanese garden — glowing red-gold maple, moss, stone, mist — bright warm circle against a dark interior wall. No text, no watermark. 4K.`
+4. **KANJI frame — dark interior wall:** `Photorealistic cinematic vertical still, the dark shadowed interior wall of an old temple tea room, aged plaster and wood, deep calm shadow filling the upper half (dark and open for a kanji), a faint warm glow from a window at the lower edge. No text, no watermark. 4K.`
+5. **fallen leaves on moss (detail):** `Photorealistic cinematic vertical close-up, fallen red and orange maple leaves resting on deep green moss and a wet stone in a Japanese garden, soft warm autumn light, gentle and still. No text, no watermark. 4K.`
+6. **monk before the round window, wide (wisdom):** `Photorealistic cinematic vertical still, high contrast, a lone monk in dark robes seated in seiza from behind in a dark temple room facing a round marumado window glowing with an autumn maple garden, warm light spilling into the dark room, deeply calm, only the one seated monk, no other people. No text, no watermark. 4K.`
 
 ---
 
-## §4 — Flow / Kling prompt (16:9 loop)
+## §4 — Flow / Kling prompt (16:9 loop) — occasional falling leaves
 
-Feed the CLEAN hero (no text). Only the mist + light live; everything else frozen.
+Feed the CLEAN hero (no text). Leaves fall **inside the window (garden) only**, sparsely.
 
 ```
-Camera completely locked and static — no pan, no zoom, no push-in, no dolly, no shake. The frame never changes position or scale. IMPORTANT: from the very first frame the mist is ALREADY present and already drifting — it does not start or appear. Animate ONLY these three things, all very subtle: (1) the low valley mist drifts and curls slowly and continuously; (2) the soft glow of the rising sun disc shimmers very gently through the mist (the sun stays in exactly the same position and the same colour and the same overall brightness — it does NOT rise higher, does NOT change time of day, does NOT ramp brighter or dimmer); (3) the warm dawn light breathes almost imperceptibly. EVERYTHING else is completely still — the monk does not move, the veranda, the wood, the mountains all stay perfectly frozen. No falling particles, no petals, no leaves, no birds. Slow, fresh, calm, luminous. The mist and shimmer move in a smooth continuous cycle so the last frame matches the first frame exactly for a perfectly seamless 8-second loop.
+Camera completely locked and static — no pan, no zoom, no push-in, no dolly, no shake. The frame never moves. Animate ONLY these, all subtle: (1) inside the round window, in the garden, a few autumn maple leaves drift gently down from time to time — sparse, only one or two at a time, slow and soft, never a constant shower; (2) thin mist drifts slowly through the garden (already present from the very first frame); (3) the warm morning light shimmers very gently. EVERYTHING else is completely still and frozen — the monk, the dark room, the tatami, the round window frame, the maple tree. The light does not change colour or overall brightness, does not shift time of day. Slow, warm, meditative. Keep the leaf motion sparse and the loop as seamless as possible.
 ```
-**🇺🇦** В лупе живут только туман (уже в кадре с первого кадра, вьётся непрерывно) и лёгкое мерцание света. Солнце СТОИТ — не поднимается, не меняет цвет/яркость, не уходит в день. Монах, веранда, горы — намертво. Камера статична, последний кадр = первый.
+> **🔒 Leaf-loop handling (deviation from the no-airborne rule, on purpose):** the STILL stays clean (no mid-air leaves); falling leaves exist ONLY in the Flow clip, and ONLY inside the window/garden. A falling leaf can't loop perfectly, so: generate the **longest** clip Flow allows, and in CapCut loop it with a **1.5–2 s cross-dissolve at the join** (never a hard cut) — a leaf at the seam dissolves instead of teleporting. Sparse leaves + crossfade = the seam is invisible across the 2-hour laydown.
+>
+> **🇺🇦** Листья падают ТОЛЬКО в саду за окном и ТОЛЬКО в анимации (в статике их нет). Лист не зациклится идеально → бери самый длинный клип Flow и в CapCut закольцовывай **кросс-фейдом 1.5–2с** (не встык): лист на стыке растворяется, а не прыгает. Редкие листья + кросс-фейд = шва не видно на 2 часах. Всё остальное (монах, комната, рама окна, клён) — намертво; свет не меняет цвет/яркость.
 
 ---
 
