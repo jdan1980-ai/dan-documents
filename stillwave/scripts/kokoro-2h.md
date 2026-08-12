@@ -398,9 +398,9 @@ Full 2-hour Japanese zen session on the channel 🌿
 
 #kokoro #japanese #zen #meditation #shorts
 ```
-**Tags**
+**Tags** (SEO-optimized — front-loaded, broad + long-tail, ~460 chars)
 ```
-kokoro, what is kokoro, kokoro meaning, japanese words, heart mind spirit, japanese philosophy, zen, meditation, emotional healing, inner peace, buddha, stillwave
+kokoro, what is kokoro, kokoro meaning, japanese word for heart, heart mind spirit, 心, japanese words, untranslatable japanese words, japanese philosophy, japanese aesthetics, zen, zen buddhism, meditation, mindfulness, emotional healing, inner peace, anjin ritsumei, japanese zen music, meditation music, calm music, buddha, temple meditation, zen shorts, meditation shorts, stillwave
 ```
 **Pinned comment**
 ```
