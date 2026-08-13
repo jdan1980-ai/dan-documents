@@ -243,12 +243,35 @@ Photorealistic cinematic vertical still 9:16, 4K, high contrast. A dark Japanese
 
 Save `shoshin-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm dark interior zone for the 初心 kanji overlay. Leaves rest on tree/ground only (falling leaves live in the Short's motion, not the stills). Monk = plain robes, no swords.
 
-1. **HOOK — monk before the glowing round window:** `Photorealistic cinematic vertical still, high contrast, a lone Buddhist monk in dark robes seated in seiza from behind on a low round meditation cushion in a dark temple room, near-silhouette, facing a single large round marumado window set in a plain smooth unbroken earthen-plaster wall, bare flat wall on both sides, no shoji screens, no sliding doors, no lattice panels, only the round window in a solid wall, the circle glowing with a vivid crimson-and-gold autumn maple garden in soft warm light; warm light from the window spills forward across the tatami-mat floor in the foreground, softly lighting the woven mat texture so the foreground is warm and readable, not pure black. No text, no watermark. 4K.`
-2. **crimson maple (macro):** `Photorealistic cinematic vertical close-up, brilliant crimson and gold Japanese maple leaves (momiji) on the branch glowing in soft warm autumn morning light, gentle and vivid, dark background. No text, no watermark. 4K.`
-3. **the round window (autumn garden, closer):** `Photorealistic cinematic vertical still, a single round temple marumado window set in a plain smooth unbroken earthen-plaster wall (bare on both sides, no shoji, no sliding doors, no lattice panels), framing a vivid autumn Japanese garden — glowing red-gold maple, moss, stone, mist — bright warm circle against a dark solid wall. No text, no watermark. 4K.`
-4. **KANJI frame — plain dark wall:** `Photorealistic cinematic vertical still, a plain smooth dark earthen-plaster temple wall (no shoji, no doors, no panels), deep calm shadow filling the upper half (dark and open for a kanji), a soft warm glow from an unseen round window spilling up from the lower edge onto a strip of warm tatami floor. No text, no watermark. 4K.`
-5. **fallen leaves on moss (detail):** `Photorealistic cinematic vertical close-up, fallen red and orange maple leaves resting on deep green moss and a wet stone in a Japanese garden, soft warm autumn light, gentle and still. No text, no watermark. 4K.`
-6. **monk before the round window, wide (wisdom):** `Photorealistic cinematic vertical still, high contrast, a lone monk in dark robes seated in seiza from behind on a low round cushion in a dark temple room facing a single round marumado window set in a plain smooth unbroken earthen-plaster wall (bare on both sides, no shoji, no sliding doors, no lattice panels, only the round window in a solid wall), the circle glowing with an autumn maple garden; warm light spills forward across the tatami-mat floor in the foreground, softly lighting the mat texture so the floor is warm and readable, not pure black; deeply calm, only the one seated monk, no other people. No text, no watermark. 4K.`
+**1. HOOK — monk before the glowing round window**
+```
+Photorealistic cinematic vertical still, 9:16, 4K, shot on a full-frame camera, high contrast, dark moody Japanese temple aesthetic. Inside a dark, quiet temple tea room at dawn, a lone Buddhist monk in dark indigo robes sits in seiza from behind, a calm near-silhouette, centered in the lower third on a low round meditation cushion. Before him, dominating the frame, is a single large perfectly round window (marumado) cut into a plain, smooth, unbroken earthen-plaster wall — the wall on both sides is completely bare and flat, no shoji screens, no sliding doors, no wooden lattice panels, no other openings, only the round window in a solid wall. Through the circle glows a vivid autumn Japanese garden: a brilliant crimson-and-gold maple, a mossy stone lantern, a stone path, gentle mist, lit by soft warm morning light. Warm light from the window spills forward across the woven tatami-mat floor in the foreground, gently lighting its texture so the floor reads warm and detailed, never pure black. Deep shadows, profound stillness, meditative and serene. No text, no letters, no watermark.
+```
+
+**2. Crimson maple (macro breather)**
+```
+Photorealistic cinematic vertical close-up, 9:16, 4K, high contrast, dark background. An extreme close-up of a Japanese maple branch in full autumn colour — brilliant crimson, scarlet and gold momiji leaves glowing translucent as soft warm morning light passes through them from behind. A few leaves in crisp sharp focus, the rest melting into deep, misty bokeh. Delicate, luminous, vivid against deep shadow, wet with a trace of dew. Profound calm, intimate. No text, no letters, no watermark.
+```
+
+**3. The round window (autumn garden, closer)**
+```
+Photorealistic cinematic vertical still, 9:16, 4K, high contrast. A single large perfectly round temple window (marumado) cut into a plain, smooth, unbroken dark earthen-plaster wall — bare and flat on all sides, no shoji, no sliding doors, no lattice panels, no other openings, only the round window in a solid wall. Through the circle, filling it, a vivid autumn Japanese garden: a glowing red-and-gold maple, a moss-covered stone lantern, a curving stone path, wet stones, soft drifting mist, all lit by warm morning light. The bright warm circle glows dramatically against the dark plaster wall. Deep shadows, serene and perfectly still. No text, no letters, no watermark.
+```
+
+**4. KANJI frame — plain dark wall + warm floor**
+```
+Photorealistic cinematic vertical still, 9:16, 4K, high contrast. A plain, smooth, dark earthen-plaster temple wall — completely bare, no shoji, no doors, no panels, no decoration. Deep calm shadow fills the upper two-thirds of the frame, empty and open (clean space for a large kanji). At the lower edge, a soft warm golden glow spills in from an unseen round window, falling across a strip of woven tatami-mat floor and gently lighting its texture. Minimal, quiet, meditative, warm-in-shadow. No text, no letters, no watermark.
+```
+
+**5. Fallen leaves on moss (detail)**
+```
+Photorealistic cinematic vertical close-up, 9:16, 4K, high contrast, dark background. A close-up of fallen autumn maple leaves — red, orange and gold — resting on deep green velvet moss and a smooth wet grey stone in a quiet Japanese garden. Soft warm morning light rakes low across them, dew glistening, rich warm colour against cool shadow. Gentle, still, intimate. No text, no letters, no watermark.
+```
+
+**6. Monk before the round window, wide (wisdom)**
+```
+Photorealistic cinematic vertical still, 9:16, 4K, high contrast, dark moody Japanese temple aesthetic. Inside a dark, quiet temple tea room, a lone Buddhist monk in dark robes sits in seiza from behind, a calm near-silhouette, centered in the lower third on a low round cushion — only this one monk, no other people. Before him a single large perfectly round window (marumado) in a plain, smooth, unbroken earthen-plaster wall — bare and flat on both sides, no shoji, no sliding doors, no lattice panels, only the round window in a solid wall. Through the circle a serene autumn Japanese garden glows: red-and-gold maple, a mossy stone lantern, a stone path, soft mist, warm morning light. Warm light spills forward across the tatami-mat floor in the foreground, softly lighting the mat texture so the floor is warm and detailed, never pure black. Deep shadows, profound stillness, contemplative. No text, no letters, no watermark.
+```
 
 ---
 
