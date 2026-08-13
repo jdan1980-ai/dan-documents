@@ -25,11 +25,13 @@
 
 > 🔒 ALL variants: **no percussion, no BPM, free time** (locked). Tempo in words only. Plucked/струнные — `never a repeating pattern`, long gaps. Each variant a DIFFERENT opening (anti-Content-ID). Instruments soft and CLEAR — shakuhachi, koto, singing bowl, temple bell, warm-bright pad, harp, felt piano, morning air — luminous, never dark or heavy.
 > **🇺🇦** Все 10 — без ударных и BPM, свободный темп, разные вступления. Тон светлый и ясный (не мрачный): первый свет, чистый воздух, простор.
+>
+> **⏱️ Длина (2026-08-11):** в STYLE добавлена подсказка `a long slowly unfolding piece … unhurried and extended, do not end early`, чтобы Suno не резал треки коротко. Если трек всё равно вышел < 3:00 — жми **Extend** в Suno (продлить на ~1–1.5 мин), это надёжнее, чем перегенерация. Целимся 3:15–4:00.
 
 ### Variant 1 — singing-bowl-led
 **STYLE**
 ```
-Fresh, luminous Japanese zen ambient for a clear beginner's mind. A single crystal singing bowl rings and blooms into a soft bright drone, breathy shakuhachi enters far away, open and calm — the feeling of first morning light. Deeply slow, spacious, clear. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Fresh, luminous Japanese zen ambient for a clear beginner's mind. A single crystal singing bowl rings and blooms into a soft bright drone, breathy shakuhachi enters far away, open and calm — the feeling of first morning light. Deeply slow, spacious, clear. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
@@ -47,7 +49,7 @@ Fresh, luminous Japanese zen ambient for a clear beginner's mind. A single cryst
 ### Variant 2 — temple-bell-led
 **STYLE**
 ```
-Clear Japanese zen ambient, fresh and open. A distant temple bell (bonshō) tolls once and resonates a long time, sparse koto notes answer with long silences, a soft bright pad glows beneath. Slow, calm, awakening. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Clear Japanese zen ambient, fresh and open. A distant temple bell (bonshō) tolls once and resonates a long time, sparse koto notes answer with long silences, a soft bright pad glows beneath. Slow, calm, awakening. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
@@ -65,7 +67,7 @@ Clear Japanese zen ambient, fresh and open. A distant temple bell (bonshō) toll
 ### Variant 3 — drone-pad-only opening
 **STYLE**
 ```
-Luminous Japanese zen ambient, open stillness. A slow swelling bright warm drone pad alone for the first several seconds, then a soft distant flute drifts in. Gentle, spacious, fresh. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Luminous Japanese zen ambient, open stillness. A slow swelling bright warm drone pad alone for the first several seconds, then a soft distant flute drifts in. Gentle, spacious, fresh. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
@@ -83,7 +85,7 @@ Luminous Japanese zen ambient, open stillness. A slow swelling bright warm drone
 ### Variant 4 — koto-led
 **STYLE**
 ```
-Fresh Japanese zen ambient, clear and intimate. Sparse bright koto, each note ringing alone with long silence between, a soft pad underneath, distant shakuhachi breath. Slow, open, awakening. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Fresh Japanese zen ambient, clear and intimate. Sparse bright koto, each note ringing alone with long silence between, a soft pad underneath, distant shakuhachi breath. Slow, open, awakening. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
@@ -101,7 +103,7 @@ Fresh Japanese zen ambient, clear and intimate. Sparse bright koto, each note ri
 ### Variant 5 — shakuhachi-led
 **STYLE**
 ```
-Fresh Japanese zen ambient for clarity. A breathy shakuhachi flute leads from the start with long open held tones, a bright warm drone pad glows beneath, faint singing-bowl shimmer. Deeply slow and clear. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Fresh Japanese zen ambient for clarity. A breathy shakuhachi flute leads from the start with long open held tones, a bright warm drone pad glows beneath, faint singing-bowl shimmer. Deeply slow and clear. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
@@ -119,7 +121,7 @@ Fresh Japanese zen ambient for clarity. A breathy shakuhachi flute leads from th
 ### Variant 6 — morning-air-led
 **STYLE**
 ```
-Fresh Japanese zen ambient. Several seconds of soft clear morning air and very distant faint birdsong far off, then a bright singing bowl and a soft drone enter, koto far away. Open, calm, awakening. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Fresh Japanese zen ambient. Several seconds of soft clear morning air and very distant faint birdsong far off, then a bright singing bowl and a soft drone enter, koto far away. Open, calm, awakening. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
@@ -136,7 +138,7 @@ Fresh Japanese zen ambient. Several seconds of soft clear morning air and very d
 ### Variant 7 — harp-led
 **STYLE**
 ```
-Fresh luminous Japanese zen ambient. A soft harp plays single bright notes with long gaps, never a pattern, a warm pad swells beneath, distant flute. Slow, gentle, clear. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Fresh luminous Japanese zen ambient. A soft harp plays single bright notes with long gaps, never a pattern, a warm pad swells beneath, distant flute. Slow, gentle, clear. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
@@ -154,7 +156,7 @@ Fresh luminous Japanese zen ambient. A soft harp plays single bright notes with 
 ### Variant 8 — soft-strings-led
 **STYLE**
 ```
-Fresh Japanese zen ambient. Soft sustained strings swell in slowly like a first calm breath, a distant shakuhachi answers, a faint bright bowl shimmer. Deeply slow, open, clear. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Fresh Japanese zen ambient. Soft sustained strings swell in slowly like a first calm breath, a distant shakuhachi answers, a faint bright bowl shimmer. Deeply slow, open, clear. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
@@ -172,7 +174,7 @@ Fresh Japanese zen ambient. Soft sustained strings swell in slowly like a first 
 ### Variant 9 — felt-piano-led
 **STYLE**
 ```
-Fresh Japanese zen ambient. A soft felt piano plays single clear notes with long silences, never a repeating pattern, a bright warm pad beneath, distant koto. Intimate, slow, open. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Fresh Japanese zen ambient. A soft felt piano plays single clear notes with long silences, never a repeating pattern, a bright warm pad beneath, distant koto. Intimate, slow, open. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
@@ -190,7 +192,7 @@ Fresh Japanese zen ambient. A soft felt piano plays single clear notes with long
 ### Variant 10 — rin-bell + drone-led
 **STYLE**
 ```
-Fresh Japanese zen ambient. A small rin bell shimmers brightly, a soft warm drone rises, koto notes drift far away with long gaps. Hushed, clear, awakening. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Fresh Japanese zen ambient. A small rin bell shimmers brightly, a soft warm drone rises, koto notes drift far away with long gaps. Hushed, clear, awakening. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
