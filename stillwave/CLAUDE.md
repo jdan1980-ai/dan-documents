@@ -22,6 +22,8 @@ When responding to the user about StillWave work: **action items** (anything the
 
 Apply this to: "publish this", "click here", "schedule for X", "verify Y in Studio", "wait until Z", deadlines, action items. **Do NOT translate**: copy-paste content for YouTube (titles, descriptions, tags, hashtags, pinned comments, community posts in English), prompts for tools (Suno/NanoBanana/Flow/CapCut), file paths, technical commands.
 
+**🔒 Applies to CHAT replies too, not just scripts (reaffirmed 2026-08-11):** anything the user must READ and UNDERSTAND (assessments, rationale, what-changed notes, next-step instructions, options) → **EN + RU** (`### 🇺🇦 RU` block). Anything to be COPIED (prompts, titles, tags, pinned, Suno/NanoBanana/CapCut text) → **English, in its own fenced code block** for one-click copy-paste. The user flagged that this was slipping — do not drop the RU side. **🇺🇦** Правило действует и в чате: что нужно прочитать/понять — на двух языках; что нужно копировать — по-английски отдельным код-блоком. Не забывать русскую сторону.
+
 ### 🌐 Bilingual scripts (LOCKED 2026-07-21)
 
 Every `scripts/<slug>.md` is written **bilingually**:
@@ -866,6 +868,8 @@ Never split formats across files. One video = one file = both formats. Build the
 ### 🔒 Shorts image set (LOCKED 2026-07-21)
 
 Because Shorts (teaser AND concept) are built from a sequence of vertical stills (Ken Burns + white titles via `concept-shorts-build.py` / `<slug>-shorts-build.py`), every script MUST include a dedicated **Shorts image set** section (e.g. `§3c`) with **6 distinct 9:16 NanoBanana prompts** — one per storyboard beat — not just a single 9:16 prompt. Frame 4 is the "kanji frame" (calm/empty zone for the concept kanji overlay). All frames follow the locked rules (sword count, NO airborne particles, no in-image text, bottom-right calm for logo). Save as `<slug>-shorts-fr1.jpg … fr6.jpg`.
+
+**🔒 FULL standalone prompt per frame (LOCKED 2026-08-11):** every one of the 6 frames gets a **complete, self-contained, copy-paste-ready prompt** — same richness/length as the §3 hero prompt (style, subject, setting, light, palette, mood, corner/wall/floor constraints). **NEVER shorthand/abbreviated** ("close-up of leaves, dark bg" is banned). The user copies each block straight into NanoBanana; a terse prompt = a bad generation. Same applies to any image/video prompt anywhere. **🇺🇦** Каждый из 6 кадров — **полный самостоятельный промт под копи-паст**, такой же подробный, как промт героя §3 (стиль, объект, сцена, свет, палитра, настроение, углы/стена/пол). Никаких огрызков — они дают плохую генерацию.
 
 **🇺🇦** Так как Shorts (тизер И концепт) собираются из набора вертикальных кадров, в каждом скрипте — отдельный раздел **набора картинок для Shorts** (напр. `§3c`) с **6 разными 9:16 промтами** (по одному на кадр раскадровки), а не один. Кадр 4 — «под иероглиф» (спокойная/пустая зона). Все — по локнутым правилам, сохранять как `<slug>-shorts-fr1.jpg … fr6.jpg`.
 
