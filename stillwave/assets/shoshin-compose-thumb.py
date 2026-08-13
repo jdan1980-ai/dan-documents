@@ -52,7 +52,8 @@ def _lerp_gold(f):
     return GOLD_STOPS[-1][1]
 
 
-def sumi(im, chars, size, cx_centre, y, pitch, halo=46):
+def sumi(im, chars, size, cx_centre, y, pitch, halo=40):
+    """dark sumi-ink kanji + soft cream halo — high contrast over the red maple."""
     f = ImageFont.truetype(KANJI, size)
     mask = Image.new("L", (W, H), 0)
     md = ImageDraw.Draw(mask)
@@ -62,22 +63,16 @@ def sumi(im, chars, size, cx_centre, y, pitch, halo=46):
     for i, ch in enumerate(chars):
         l, t, r, b = f.getbbox(ch)
         md.text((x0 + i * pitch - (l + (r - l) / 2), y - t), ch, font=f, fill=255)
-    halo_l = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    halo_l.paste((6, 5, 6, 255), (0, 0), mask.filter(ImageFilter.GaussianBlur(halo)).point(lambda p: int(p * 0.95)))
-    im.alpha_composite(halo_l)
-    im.alpha_composite(halo_l)
+    # soft cream glow so the black ink separates from the dark branches
     glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    glow.paste((250, 214, 140, 255), (0, 0), mask.filter(ImageFilter.GaussianBlur(26)).point(lambda p: int(p * 0.55)))
+    glow.paste((252, 246, 228, 255), (0, 0),
+               mask.filter(ImageFilter.GaussianBlur(halo)).point(lambda p: int(p * 0.7)))
     im.alpha_composite(glow)
-    ys = [yy for yy in range(H) if mask.crop((0, yy, W, yy + 1)).getextrema()[1] > 0]
-    top_y, bot_y = (min(ys), max(ys)) if ys else (y, y + size)
-    span = max(1, bot_y - top_y)
-    col = Image.new("RGB", (1, span))
-    for yy in range(span):
-        col.putpixel((0, yy), _lerp_gold(yy / span))
-    grad = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    grad.paste(col.resize((W, span)).convert("RGBA"), (0, top_y))
-    im.alpha_composite(Image.composite(grad, Image.new("RGBA", (W, H), (0, 0, 0, 0)), mask))
+    im.alpha_composite(glow)
+    # deep sumi-ink fill
+    ink = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ink.paste((20, 14, 12, 255), (0, 0), mask)
+    im.alpha_composite(ink)
 
 
 def spaced_centre(im, text, size, cx_centre, y, fill=CREAM, ls=16, font=KANJI):
@@ -98,8 +93,8 @@ def spaced_centre(im, text, size, cx_centre, y, fill=CREAM, ls=16, font=KANJI):
 
 im = base()
 CENTRE = 960
-# 初心 gold high, over the top of the maple canopy — above the monk's head
-sumi(im, ["初", "心"], 210, CENTRE, 40, pitch=232)
+# 初心 dark sumi, LOWERED onto the dense red canopy (high contrast), still above the monk's head
+sumi(im, ["初", "心"], 208, CENTRE, 214, pitch=230)
 spaced_centre(im, "SHOSHIN", 138, CENTRE, 880, fill=GOLD, ls=16, font=SERIF)  # low on dark tatami
 im.convert("RGB").save(OUT, quality=94)
 print("saved", OUT)
