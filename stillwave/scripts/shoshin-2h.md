@@ -258,10 +258,11 @@ Photorealistic cinematic vertical close-up, 9:16, 4K, high contrast, dark backgr
 Photorealistic cinematic vertical still, 9:16, 4K, high contrast. A single large perfectly round temple window (marumado) cut into a plain, smooth, unbroken dark earthen-plaster wall — bare and flat on all sides, no shoji, no sliding doors, no lattice panels, no other openings, only the round window in a solid wall. Through the circle, filling it, a vivid autumn Japanese garden: a glowing red-and-gold maple, a moss-covered stone lantern, a curving stone path, wet stones, soft drifting mist, all lit by warm morning light. The bright warm circle glows dramatically against the dark plaster wall. Deep shadows, serene and perfectly still. No text, no letters, no watermark.
 ```
 
-**4. KANJI frame — plain dark wall + warm floor**
+**4. KANJI frame — tokonoma with an autumn maple branch** (plain grey wall was rejected 2026-08-11)
 ```
-Photorealistic cinematic vertical still, 9:16, 4K, high contrast. A plain, smooth, dark earthen-plaster temple wall — completely bare, no shoji, no doors, no panels, no decoration. Deep calm shadow fills the upper two-thirds of the frame, empty and open (clean space for a large kanji). At the lower edge, a soft warm golden glow spills in from an unseen round window, falling across a strip of woven tatami-mat floor and gently lighting its texture. Minimal, quiet, meditative, warm-in-shadow. No text, no letters, no watermark.
+Photorealistic cinematic vertical still, 9:16, 4K, high contrast, dark moody Japanese temple aesthetic. A traditional tokonoma alcove in a dark tea room: against a plain dark earthen-plaster back wall, a single elegant branch of autumn Japanese maple with crimson and gold leaves stands in a simple dark ceramic vase on a raised wooden platform. One soft warm shaft of morning light falls across the maple branch, glowing vividly against the deep shadow, while the upper portion of the wall stays calm dark negative space (room for the 初心 kanji overlay). Minimal, refined, meditative, warm-in-shadow. No text, no letters, no watermark.
 ```
+> Alt (if the tokonoma reads busy): a soft-focus autumn garden bokeh — `Photorealistic cinematic vertical still, 9:16, 4K, high contrast. A soft-focus, out-of-focus autumn Japanese garden — a dreamy wash of glowing crimson, orange and gold maple bokeh with warm morning light and gentle drifting mist, the colours melting together, darker and calmer toward the top of the frame. Warm, luminous, softly abstract and serene. No text, no letters, no watermark.`
 
 **5. Fallen leaves on moss (detail)**
 ```
