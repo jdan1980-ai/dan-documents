@@ -209,10 +209,16 @@ Fresh Japanese zen ambient. A small rin bell shimmers brightly, a soft warm dron
 
 ---
 
-## §2 — Mastering
+## §2 — Mastering (AS-BUILT 2026-08-11)
 
-`master-album.py "<Suno-Shoshin folder>"` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) → prints length + TOTAL + flags dupes. Generate ~4 per variant (~40), keep the calmest set ≤ 2:00 (score = LUFS + TP, drop loudest/peakiest + dupes), reorder anti-Content-ID (round-robin over the 10 variants, no two adjacent from the same variant), rename `01 - … NN -`, then I build §8 timestamps + poetic tracklist.
-**🇺🇦** Прогони через `master-album.py`, скинь таблицу — отберу спокойный сет под 2:00, раунд-робин по 10 вариантам, соберу §8 + раскладку `Shoshin-ALBUM`.
+`master-album.py` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) → `SUNO-SHOSHIN-mastered`.
+
+- **36 raw**, TOTAL 1:56:49. All calm (−13.2…−16.0 LUFS) — the locked length cue held (most 3:00–4:25).
+- **1 duplicate** flagged (`SHOSHIN_60 1(1).wav` == `SHOSHIN_6 1.wav`) → dropped.
+- **Final set = 35 tracks, 1:53:24.** No further cuts needed. Per-variant: V1=3, V2=6, V3=3, V4=4, V5=3, V6=2, V7=3, V8=4, V9=4, V10=3.
+- Anti-Content-ID: V2 (6 takes — the heaviest) placed on slots 1/7/13/19/25/31, the other 9 variants round-robin-filled between them. **No two adjacent tracks share a variant**, all 10 openings represented.
+
+**🇺🇦** 36 сырых, 1 дубликат выкинут → **35 треков, 1:53:24**, все спокойные. V2 (6 штук) разнёс по слотам 1/7/13/19/25/31, остальные — раунд-робином между ними; соседних одинаковых нет.
 
 ---
 
@@ -290,7 +296,41 @@ open, unhurried, free of what you think you know.
 Dawn light spreads through the mist over a quiet valley, and a lone figure sits in the first clear light. Shoshin is the mind that has set down its expertise — the fresh, unclouded attention a beginner brings. In the words a Zen teacher gave the world: "In the beginner's mind there are many possibilities, in the expert's mind there are few." Two hours to empty the cup and begin again.
 
 Tracklist:
-[added after mastering — mood-poetic names, fresh and luminous]
+0:00 Empty the Cup
+3:01 First Light on the Floor
+6:21 Meet This Breath as the First
+9:19 The Mind Set Down
+12:12 Fresh Eyes at Dawn
+15:52 Nothing Yet Decided
+19:20 The Open Hand
+22:35 A Clear Morning Within
+26:15 Before the First Thought
+29:25 The Cup Filled with Light
+32:48 Unhurried, Unafraid
+36:13 Return to the Beginning
+39:07 Soft Light, Clear Mind
+42:20 The First Step Again
+45:20 What the Beginner Sees
+48:18 A Room Swept Clean
+52:43 Morning Without Memory
+56:07 The Quiet Before Knowing
+59:05 Light Through the Round Window
+1:01:59 Beginning, Again and Again
+1:04:49 The Fresh and Open Way
+1:08:23 Nothing to Master
+1:11:37 A Single Clear Note
+1:14:26 The Day Meets You New
+1:17:46 Still Learning to Be Still
+1:21:24 The First Warmth of the Sun
+1:24:44 An Open, Unwritten Page
+1:28:22 Letting the Expert Go
+1:31:22 The World Made New
+1:34:30 Simple, Clear, Awake
+1:37:53 The Beginner's Quiet Joy
+1:41:17 Each Moment, the First
+1:44:40 Light Settling on the Leaves
+1:47:30 The Long Slow Morning
+1:50:35 Begin Here, Begin Now
 
 🌀 Empty the cup. Meet this breath as the first.
 🍃 Nothing to master. Only this clear, open beginning.
