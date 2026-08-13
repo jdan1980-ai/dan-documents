@@ -8,7 +8,8 @@
 - **Western crossover anchor:** Shunryu Suzuki's *Zen Mind, Beginner's Mind* + a favourite Steve Jobs idea — the same "Zen concept + famous Western anchor" formula that made **MUSHIN (Bruce Lee) our #1 hit (6,846+)**. Pulls the self-improvement / productivity search crowd, not just meditation.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** ~2H full album (unique Suno tracks, CapCut laydown)
-- **Status:** 🟡 IN PROGRESS — generate hero (§3) + 10 Suno variants (§1), then master → select → §8.
+- **Status:** 🟢 READY. Music (37 tracks, 1:59:21), thumbnail, wisdom overlay 初心忘るべからず, Short — all done.
+- **Schedule:** Long-form **2026-08-14 17:00**, Short **2026-08-15**.
 
 ---
 
