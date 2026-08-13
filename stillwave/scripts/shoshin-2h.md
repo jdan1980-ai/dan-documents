@@ -213,12 +213,13 @@ Fresh Japanese zen ambient. A small rin bell shimmers brightly, a soft warm dron
 
 `master-album.py` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) → `SUNO-SHOSHIN-mastered`.
 
-- **36 raw**, TOTAL 1:56:49. All calm (−13.2…−16.0 LUFS) — the locked length cue held (most 3:00–4:25).
+- **36 raw** in `SUNO-SHOSHIN-mastered` + **2 extra V6** in `SUSHIN EXTRA-mastered` (V6 was the thinnest → topped up). All calm (−13.2…−16.0 LUFS) — the locked length cue held.
 - **1 duplicate** flagged (`SHOSHIN_60 1(1).wav` == `SHOSHIN_6 1.wav`) → dropped.
-- **Final set = 35 tracks, 1:53:24.** No further cuts needed. Per-variant: V1=3, V2=6, V3=3, V4=4, V5=3, V6=2, V7=3, V8=4, V9=4, V10=3.
-- Anti-Content-ID: V2 (6 takes — the heaviest) placed on slots 1/7/13/19/25/31, the other 9 variants round-robin-filled between them. **No two adjacent tracks share a variant**, all 10 openings represented.
+- **Final set = 37 tracks, 1:59:21** (under the 2:00 cap — no cuts needed). Per-variant: V1=3, V2=6, V3=3, V4=4, V5=3, **V6=4**, V7=3, V8=4, V9=4, V10=3.
+- Anti-Content-ID: V2 (6 takes — heaviest) on slots 1/7/13/20/26/32; the 4 V6 spread to slots 3/14/24/35; the rest round-robin. **No two adjacent tracks share a variant**, all 10 openings represented.
+- The 2 extra V6 come from `SUSHIN EXTRA-mastered` (`SHOSHIN_6 (1).wav`, `SHOSHIN_6.wav`) — the rename map pulls them from that folder.
 
-**🇺🇦** 36 сырых, 1 дубликат выкинут → **35 треков, 1:53:24**, все спокойные. V2 (6 штук) разнёс по слотам 1/7/13/19/25/31, остальные — раунд-робином между ними; соседних одинаковых нет.
+**🇺🇦** 36 сырых + 2 экстры V6, 1 дубликат выкинут → **37 треков, 1:59:21** (под 2:00, резать не нужно). V6 добит до 4 (слоты 3/14/24/35), V2 (6) — слоты 1/7/13/20/26/32; соседних одинаковых нет.
 
 ---
 
@@ -298,39 +299,41 @@ Dawn light spreads through the mist over a quiet valley, and a lone figure sits 
 Tracklist:
 0:00 Empty the Cup
 3:01 First Light on the Floor
-6:21 Meet This Breath as the First
-9:19 The Mind Set Down
-12:12 Fresh Eyes at Dawn
-15:52 Nothing Yet Decided
-19:20 The Open Hand
-22:35 A Clear Morning Within
-26:15 Before the First Thought
-29:25 The Cup Filled with Light
-32:48 Unhurried, Unafraid
+6:21 Unhurried, Unafraid
+9:46 Meet This Breath as the First
+12:44 The Mind Set Down
+15:37 Fresh Eyes at Dawn
+19:17 The Open Hand
+22:32 Nothing Yet Decided
+26:00 A Clear Morning Within
+29:40 Before the First Thought
+32:50 The Cup Filled with Light
 36:13 Return to the Beginning
 39:07 Soft Light, Clear Mind
-42:20 The First Step Again
-45:20 What the Beginner Sees
-48:18 A Room Swept Clean
-52:43 Morning Without Memory
-56:07 The Quiet Before Knowing
-59:05 Light Through the Round Window
-1:01:59 Beginning, Again and Again
-1:04:49 The Fresh and Open Way
-1:08:23 Nothing to Master
+42:20 Nothing to Master
+45:34 The First Step Again
+48:34 What the Beginner Sees
+51:32 A Room Swept Clean
+55:57 Morning Without Memory
+59:21 The Quiet Before Knowing
+1:02:19 Light Through the Round Window
+1:05:13 Beginning, Again and Again
+1:08:03 The Fresh and Open Way
 1:11:37 A Single Clear Note
-1:14:26 The Day Meets You New
-1:17:46 Still Learning to Be Still
-1:21:24 The First Warmth of the Sun
-1:24:44 An Open, Unwritten Page
-1:28:22 Letting the Expert Go
-1:31:22 The World Made New
-1:34:30 Simple, Clear, Awake
-1:37:53 The Beginner's Quiet Joy
-1:41:17 Each Moment, the First
-1:44:40 Light Settling on the Leaves
-1:47:30 The Long Slow Morning
-1:50:35 Begin Here, Begin Now
+1:14:26 The Morning Air Is New
+1:17:34 The Day Meets You New
+1:20:54 Still Learning to Be Still
+1:24:32 The First Warmth of the Sun
+1:27:52 An Open, Unwritten Page
+1:31:30 Letting the Expert Go
+1:34:30 The World Made New
+1:37:38 Simple, Clear, Awake
+1:41:01 The Beginner's Quiet Joy
+1:44:25 Each Moment, the First
+1:47:48 Light Settling on the Leaves
+1:50:38 A Breath of Fresh Beginning
+1:53:27 The Long Slow Morning
+1:56:32 Begin Here, Begin Now
 
 🌀 Empty the cup. Meet this breath as the first.
 🍃 Nothing to master. Only this clear, open beginning.
