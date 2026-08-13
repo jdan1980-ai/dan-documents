@@ -650,10 +650,11 @@ model hold that tempo throughout. The FUDOSHIN first batch had the word *pulse* 
 variant — in STYLE, in section B and in `[texture: …]` — plus a BPM number, and the whole batch
 came back rhythmic and non-meditative. Unusable for sleep/meditation.
 
-**Locked STYLE tail — replaces the old vocals-only tail:**
+**Locked STYLE tail — replaces the old vocals-only tail (includes the length cue, LOCKED 2026-08-11):**
 ```
-no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
+> **⏱️ Length cue (LOCKED 2026-08-11):** the `a long slowly unfolding piece … do not end early` clause is now PART of the standard tail on EVERY variant of EVERY album. Suno v5.5 otherwise randomly ends ambient tracks short (many < 3:00); this clause reliably pushes them to ~3:15–4:00. Confirmed working on SHOSHIN. If a track still comes short, use Suno **Extend** (+1–1.5 min) rather than regenerating. **🇺🇦** Подсказка на длину теперь всегда в хвосте STYLE для всех альбомов — Suno иначе режет эмбиент коротко. Не помогло → жми Extend.
 
 **Locked LYRICS line — second line, right after the no-vocals line:**
 ```
