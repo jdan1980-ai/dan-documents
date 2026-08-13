@@ -52,27 +52,43 @@ def _lerp_gold(f):
     return GOLD_STOPS[-1][1]
 
 
-def sumi(im, chars, size, cx_centre, y, pitch, halo=40):
-    """dark sumi-ink kanji + soft cream halo — high contrast over the red maple."""
+def sumi(im, chars, size, cx, y0, pitch, vertical=False, halo=44, scrim=None):
+    """gold-gradient kanji (dark halo + warm glow). vertical=True stacks the chars
+    top-to-bottom (縦書き). scrim=(x0,y0,x1,y1) draws a soft dark backing first so the
+    gold reads over a light wall."""
     f = ImageFont.truetype(KANJI, size)
+    if scrim:
+        sc = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(sc).rounded_rectangle(scrim, radius=120, fill=(8, 7, 6, 150))
+        im.alpha_composite(sc.filter(ImageFilter.GaussianBlur(80)))
     mask = Image.new("L", (W, H), 0)
     md = ImageDraw.Draw(mask)
-    n = len(chars)
-    total = (n - 1) * pitch
-    x0 = cx_centre - total / 2
-    for i, ch in enumerate(chars):
-        l, t, r, b = f.getbbox(ch)
-        md.text((x0 + i * pitch - (l + (r - l) / 2), y - t), ch, font=f, fill=255)
-    # soft cream glow so the black ink separates from the dark branches
+    if vertical:
+        for i, ch in enumerate(chars):
+            l, t, r, b = f.getbbox(ch)
+            md.text((cx - (l + (r - l) / 2), y0 + i * pitch - t), ch, font=f, fill=255)
+    else:
+        total = (len(chars) - 1) * pitch
+        x0 = cx - total / 2
+        for i, ch in enumerate(chars):
+            l, t, r, b = f.getbbox(ch)
+            md.text((x0 + i * pitch - (l + (r - l) / 2), y0 - t), ch, font=f, fill=255)
+    halo_l = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    halo_l.paste((6, 5, 6, 255), (0, 0), mask.filter(ImageFilter.GaussianBlur(halo)).point(lambda p: int(p * 0.9)))
+    im.alpha_composite(halo_l)
+    im.alpha_composite(halo_l)
     glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    glow.paste((252, 246, 228, 255), (0, 0),
-               mask.filter(ImageFilter.GaussianBlur(halo)).point(lambda p: int(p * 0.7)))
+    glow.paste((250, 214, 140, 255), (0, 0), mask.filter(ImageFilter.GaussianBlur(26)).point(lambda p: int(p * 0.55)))
     im.alpha_composite(glow)
-    im.alpha_composite(glow)
-    # deep sumi-ink fill
-    ink = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ink.paste((20, 14, 12, 255), (0, 0), mask)
-    im.alpha_composite(ink)
+    ys = [yy for yy in range(H) if mask.crop((0, yy, W, yy + 1)).getextrema()[1] > 0]
+    top_y, bot_y = (min(ys), max(ys)) if ys else (y0, y0 + size)
+    span = max(1, bot_y - top_y)
+    col = Image.new("RGB", (1, span))
+    for yy in range(span):
+        col.putpixel((0, yy), _lerp_gold(yy / span))
+    grad = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    grad.paste(col.resize((W, span)).convert("RGBA"), (0, top_y))
+    im.alpha_composite(Image.composite(grad, Image.new("RGBA", (W, H), (0, 0, 0, 0)), mask))
 
 
 def spaced_centre(im, text, size, cx_centre, y, fill=CREAM, ls=16, font=KANJI):
@@ -93,8 +109,8 @@ def spaced_centre(im, text, size, cx_centre, y, fill=CREAM, ls=16, font=KANJI):
 
 im = base()
 CENTRE = 960
-# 初心 dark sumi, LOWERED onto the dense red canopy (high contrast), still above the monk's head
-sumi(im, ["初", "心"], 208, CENTRE, 214, pitch=230)
+# 初心 gold, VERTICAL (top-to-bottom) on the LEFT, over a soft dark scrim so it reads on the wall
+sumi(im, ["初", "心"], 216, 262, 150, pitch=250, vertical=True, scrim=(90, 110, 440, 700))
 spaced_centre(im, "SHOSHIN", 138, CENTRE, 880, fill=GOLD, ls=16, font=SERIF)  # low on dark tatami
 im.convert("RGB").save(OUT, quality=94)
 print("saved", OUT)
