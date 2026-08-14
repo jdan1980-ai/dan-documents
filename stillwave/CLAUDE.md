@@ -652,15 +652,18 @@ model hold that tempo throughout. The FUDOSHIN first batch had the word *pulse* 
 variant — in STYLE, in section B and in `[texture: …]` — plus a BPM number, and the whole batch
 came back rhythmic and non-meditative. Unusable for sleep/meditation.
 
-**Locked STYLE tail — replaces the old vocals-only tail (includes the length cue, LOCKED 2026-08-11):**
+**Locked STYLE tail — replaces the old vocals-only tail (includes the length cue + flat-dynamics cue, LOCKED 2026-08-11, flat-dynamics added 2026-08-14):**
 ```
-no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
-> **⏱️ Length cue (LOCKED 2026-08-11):** the `a long slowly unfolding piece … do not end early` clause is now PART of the standard tail on EVERY variant of EVERY album. Suno v5.5 otherwise randomly ends ambient tracks short (many < 3:00); this clause reliably pushes them to ~3:15–4:00. Confirmed working on SHOSHIN. If a track still comes short, use Suno **Extend** (+1–1.5 min) rather than regenerating. **🇺🇦** Подсказка на длину теперь всегда в хвосте STYLE для всех альбомов — Suno иначе режет эмбиент коротко. Не помогло → жми Extend.
+> **⏱️ Length cue (LOCKED 2026-08-11):** the `a long slowly drifting piece … do not end early` clause is now PART of the standard tail on EVERY variant of EVERY album. Suno v5.5 otherwise randomly ends ambient tracks short (many < 3:00); this clause reliably pushes them to ~3:15–4:00. Confirmed working on SHOSHIN. If a track still comes short, use Suno **Extend** (+1–1.5 min) rather than regenerating. **🇺🇦** Подсказка на длину теперь всегда в хвосте STYLE для всех альбомов — Suno иначе режет эмбиент коротко. Не помогло → жми Extend.
 
-**Locked LYRICS line — second line, right after the no-vocals line:**
+> **🛌 FLAT DYNAMICS — must stay meditative, NEVER build (LOCKED 2026-08-14):** the audience falls ASLEEP to this music. The moment a track moves from "full meditative" into a rising/building/swelling section, they wake up and switch off — views drop off exactly at that transition (user-observed on his own listening). So every track must hold **one soft, even, unchanging level from the first second to the last** — no crescendo, no swell, no build, no rise in intensity, no climax, no "section B deepens / widens / grows." Instruments may drift in and out and change colour, but the **volume and intensity never grow.** This is why the tail above carries `no crescendo, no swell, no build … stays calm and unchanging`, and why the LYRICS block carries a dedicated flat-dynamics line (below). **Banned words in any STYLE/LYRICS:** `swell(s)`, `swelling`, `builds`, `building`, `rises`, `rising`, `grows`, `deepen(s)`, `widens`, `crescendo`, `climax`, `soars`, `blooms into`. Replace with `rests`, `already at a low even level`, `stays exactly as it was`, `drifts`, `holds`. **🇺🇦** Музыка под сон — как только динамика идёт вверх (нарастание/swell/build), слушатель просыпается и выключает, просмотры падают именно на этом переходе. Каждый трек держит один мягкий ровный уровень от начала до конца — без крещендо, нарастаний, кульминаций. Инструменты могут появляться/уходить и менять окраску, но громкость/интенсивность НЕ растут. Запрещённые слова: swell/build/rise/grow/deepen/widen/crescendo/climax/blooms into — заменять на rests / already at a low even level / drifts / holds.
+
+**Locked LYRICS lines — second and third lines, right after the no-vocals line:**
 ```
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 ```
 
 Also: describe tempo as `extremely slow`, `completely ametric`, `free time` — never as a number.

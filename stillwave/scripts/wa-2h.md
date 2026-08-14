@@ -20,188 +20,199 @@
 
 ---
 
-## §1 — Suno prompts (10 copy-paste variants — warm, flowing, balanced, ametric)
+## §1 — Suno prompts (10 copy-paste variants — deeply meditative, FLAT dynamics, ametric)
 
-> 🔒 ALL variants: **no percussion, no BPM, free time** + the locked length cue (in the tail). Tempo in words only. Plucked/струнные — `never a repeating pattern`, long gaps. Each variant a DIFFERENT opening (anti-Content-ID). Instruments warm and rounded, in gentle accord — koto, shakuhachi, singing bowl, temple bell, warm strings, harp, felt piano — everything blending, nothing sharp.
-> **🇺🇦** Все 10 — без ударных и BPM, свободный темп, разные вступления, + подсказка на длину в хвосте. Тон тёплый, текучий, «всё в согласии» — инструменты мягкие, сливаются.
+> 🔒 ALL variants: **no percussion, no BPM, free time** + the locked length cue AND the locked **flat-dynamics cue** (both in the tail). **🛌 CRITICAL — the music must stay MEDITATIVE and NEVER build.** Listeners fall asleep to it; the instant a track rises/swells/builds they wake and switch off (views drop at that exact transition — user-observed). So every track holds **one soft even unchanging level from first second to last** — no crescendo, no swell, no build, no climax, no "section B deepens/widens." Instruments drift in and out and change colour, but volume/intensity never grow. Tempo in words only. Plucked/струнные — `never a repeating pattern`, long gaps. Each variant a DIFFERENT opening (anti-Content-ID). Instruments warm and rounded, in gentle accord — koto, shakuhachi, singing bowl, temple bell, warm strings, harp, felt piano — everything blending, nothing sharp, nothing rising.
+> **🇺🇦** Все 10 — глубоко медитативные, **ровная динамика без нарастаний**. Слушатель засыпает под музыку; как только идёт нарастание/swell/build — просыпается и выключает, просмотры падают на этом переходе. Каждый трек держит один мягкий ровный уровень от начала до конца: без крещендо, кульминаций, «секция B нарастает». Инструменты появляются/уходят и меняют окраску, но громкость НЕ растёт. Без ударных/BPM, свободный темп, разные вступления, подсказка на длину + ровную динамику в хвосте.
 
 ### Variant 1 — singing-bowl-led
 **STYLE**
 ```
-Warm, harmonious Japanese zen ambient for balance and inner peace. A single singing bowl rings and blooms into a soft warm drone, breathy shakuhachi and koto enter far away in gentle accord, everything blending into one calm whole. Deeply slow, spacious, balanced. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative, harmonious Japanese zen ambient for balance and inner peace, for sleep. A single singing bowl rings softly with a warm drone resting beneath at a low even level, breathy shakuhachi and koto drift far away in gentle accord, everything staying at one calm unchanging level. Deeply slow, spacious, balanced, unchanging. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
-[opening: a single singing bowl strike, long warm decay, then a soft drone rises underneath]
-[section A: breathy shakuhachi and koto enter far away, blending gently, in accord]
-[section B: warm strings deepen underneath, the bowl returns once, everything floats as one]
-[section C: instruments settle into a single warm chord, the bowl shimmers a last time]
-[loop point: the final bowl decay dissolves back into the opening drone]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
+[opening: a single soft singing bowl strike with a long warm decay, a calm drone already resting underneath at a low even level]
+[section A: breathy shakuhachi and koto drift in far away at the same soft level, blending gently, nothing grows louder]
+[section B: the koto and flute drift on and change colour slightly, the bowl returns once just as softly, everything stays even and calm]
+[section C: the instruments thin out to the drone and an occasional bowl shimmer, still at the same soft level]
+[loop point: the final bowl decay dissolves back into the opening drone with no change in volume]
 [mood: two things reflected in perfectly still water, in balance]
-[texture: warm, round, blended, weightless]
+[texture: warm, round, blended, weightless, unchanging]
 ```
 
 ### Variant 2 — temple-bell-led
 **STYLE**
 ```
-Harmonious Japanese zen ambient, balanced and calm. A distant temple bell (bonshō) tolls once and resonates a long time, sparse koto answers softly, a warm string pad glows beneath in accord. Slow, spacious, settled. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative, harmonious Japanese zen ambient, balanced and calm, for sleep. A distant temple bell (bonshō) tolls once and resonates a long time, sparse koto answers softly, a warm string pad rests beneath at a low even level in gentle accord. Slow, spacious, settled, unchanging. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: one distant temple bell strike, four seconds of resonance, silence]
-[section A: sparse koto notes, never a repeating pattern, long gaps between them]
-[section B: a warm string pad swells softly under the koto, blending with it]
-[section C: the bell tolls once more, distant, everything settles into balance]
-[loop point: the last resonance fades into the first bell]
+[section A: sparse koto notes, never a repeating pattern, long gaps between them, all at the same soft level]
+[section B: a warm string pad rests softly under the koto, steady and even, never swelling]
+[section C: the bell tolls once more, distant, everything staying calm and level]
+[loop point: the last resonance fades into the first bell with no change in volume]
 [mood: a still garden at dawn, stone and moss and water in quiet accord]
-[texture: warm, blended, patient, hollow reverberation]
+[texture: warm, blended, patient, hollow reverberation, unchanging]
 ```
 
 ### Variant 3 — drone-pad-only opening
 **STYLE**
 ```
-Harmonious Japanese zen ambient, deep balanced stillness. A slow swelling warm drone pad alone for the first several seconds, then a soft flute and koto drift in together in gentle accord. Enveloping, warm, settled. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative, harmonious Japanese zen ambient, deep balanced stillness, for sleep. A soft warm drone pad resting at a low even level from the first second, then a soft flute and koto drift in gently on top in accord, nothing building. Enveloping, warm, settled, unchanging. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
-[opening: a slow swelling warm drone pad alone, no melody for the first eight seconds]
-[section A: a soft flute and a koto drift in together, blending, long held notes]
-[section B: the pad widens, a faint singing bowl shimmer appears, all in accord]
-[section C: flute and koto recede, the warm pad breathes alone]
-[loop point: the pad's swell returns seamlessly to the start]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
+[opening: a soft warm drone pad already at a low even level, no melody for the first eight seconds, steady and calm]
+[section A: a soft flute and a koto drift in together on top, long held notes at the same soft level]
+[section B: a faint singing bowl shimmer appears, the pad stays exactly as it was, all in accord, nothing grows]
+[section C: flute and koto recede, the warm even pad drifts on alone]
+[loop point: the pad returns seamlessly to the start with no change in volume]
 [mood: everything in the room settling into balance, nothing out of place]
-[texture: soft, wide, blended, weightless]
+[texture: soft, wide, blended, weightless, unchanging]
 ```
 
 ### Variant 4 — koto-led
 **STYLE**
 ```
-Harmonious Japanese zen ambient, warm and intimate. Sparse warm koto, each note ringing alone with long silence between, a soft drone and distant shakuhachi answering in gentle accord. Slow, balanced, settled. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative, harmonious Japanese zen ambient, warm and intimate, for sleep. Sparse warm koto, each note ringing alone with long silence between, a soft even drone and distant shakuhachi resting beneath in gentle accord. Slow, balanced, settled, unchanging. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: three or four sparse warm koto notes, never a repeating pattern, long silences]
-[section A: a soft drone pad swells underneath the koto, blending]
-[section B: distant shakuhachi answers the koto tenderly, the two in accord]
-[section C: the koto slows, notes further apart, the pad holds them in balance]
+[section A: a soft drone pad rests underneath the koto at a low even level, never swelling]
+[section B: distant shakuhachi answers the koto tenderly, the two in accord, all at the same soft level]
+[section C: the koto slows, notes further apart, the even pad holds them, calm and unchanging]
 [loop point: the last koto note decays into the opening silence]
 [mood: two reflections meeting on still water, perfectly balanced]
-[texture: intimate, warm wood, blended silence]
+[texture: intimate, warm wood, blended silence, unchanging]
 ```
 
 ### Variant 5 — shakuhachi-led
 **STYLE**
 ```
-Harmonious Japanese zen ambient for balance. A breathy shakuhachi flute leads from the start with long warm held tones, a warm drone pad and koto glow beneath in gentle accord. Deeply slow and settled. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative, harmonious Japanese zen ambient for balance, for sleep. A breathy shakuhachi flute leads from the start with long warm held tones, a warm even drone pad and koto resting beneath in gentle accord. Deeply slow, settled, unchanging. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: a breathy shakuhachi long warm tone from the second second, calm and settled]
-[section A: a warm drone pad glows beneath the flute, blending]
-[section B: a soft koto joins in accord, a faint bowl shimmers]
-[section C: shakuhachi softens to almost nothing, the pad holds the balance]
-[loop point: the flute's last breath returns to the opening tone]
+[section A: a warm drone pad rests beneath the flute at a low even level]
+[section B: a soft koto joins in accord, a faint bowl shimmers, everything staying at the same soft level]
+[section C: shakuhachi softens to almost nothing, the even pad holds the calm]
+[loop point: the flute's last breath returns to the opening tone with no change in volume]
 [mood: breath and silence in balance, the whole scene at rest]
-[texture: airy, warm, breath-like, blended]
+[texture: airy, warm, breath-like, blended, unchanging]
 ```
 
 ### Variant 6 — still-water / pond-air-led
 **STYLE**
 ```
-Harmonious Japanese zen ambient. Several seconds of soft air over still water with the faintest distant water drip, then a warm singing bowl and a soft drone enter, koto far away in accord. Hushed, balanced, settled. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative, harmonious Japanese zen ambient, for sleep. Several seconds of soft air over still water with the faintest distant water drip, then a warm singing bowl and a soft even drone enter, koto far away in accord, all at one calm level. Hushed, balanced, settled, unchanging. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: five seconds of soft air over still water, a single faint distant water drip, no instruments]
-[section A: a warm singing bowl and a soft drone enter softly]
-[section B: a koto answers far away, never a repeating pattern, blending in accord]
-[section C: the instruments thin out, only the air over still water and the drone remain]
+[section A: a warm singing bowl and a soft drone enter softly at a low even level]
+[section B: a koto answers far away, never a repeating pattern, blending in accord, nothing grows louder]
+[section C: the instruments thin out, only the air over still water and the even drone remain]
+[loop point: the calm level never changes from start to end]
 [mood: a mirror pond at dawn, sky and water in perfect balance]
-[texture: airy, still, warm, blended]
+[texture: airy, still, warm, blended, unchanging]
 ```
 
 ### Variant 7 — harp-led
 **STYLE**
 ```
-Harmonious Japanese zen ambient. A soft harp plays single warm notes with long gaps, never a pattern, a warm string pad swells beneath and a distant flute answers in accord. Slow, gentle, balanced. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative, harmonious Japanese zen ambient, for sleep. A soft harp plays single warm notes with long gaps, never a pattern, a warm even string pad resting beneath and a distant flute answering in accord. Slow, gentle, balanced, unchanging. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: a soft harp, single warm notes with long gaps, never a repeating pattern]
-[section A: a warm string pad swells slowly beneath the harp, blending]
-[section B: a distant flute drifts over the top in accord, long held notes]
-[section C: the harp slows, the pad glows warm and wide, holding the balance]
-[loop point: the last harp note dissolves into the opening pad]
+[section A: a warm string pad rests beneath the harp at a low even level, steady, never swelling]
+[section B: a distant flute drifts over the top in accord, long held notes at the same soft level]
+[section C: the harp slows, the even pad glows warm and calm, holding the balance]
+[loop point: the last harp note dissolves into the opening pad with no change in volume]
 [mood: soft warm light settling evenly across a quiet room]
-[texture: soft, warm, blended, weightless]
+[texture: soft, warm, blended, weightless, unchanging]
 ```
 
 ### Variant 8 — soft-strings-led
 **STYLE**
 ```
-Harmonious Japanese zen ambient. Soft sustained warm strings swell in slowly like a long shared breath, a distant shakuhachi and koto answer in accord, a faint bowl shimmer. Deeply slow, balanced, settled. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative, harmonious Japanese zen ambient, for sleep. Soft sustained warm strings resting at a low even level from the first second like a long steady held breath, a distant shakuhachi and koto drift in on top in accord, a faint bowl shimmer. Deeply slow, balanced, settled, unchanging. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
-[opening: soft sustained warm strings swell in slowly, like a long shared breath]
-[section A: a distant shakuhachi answers the strings, blending in accord]
-[section B: a soft koto and a faint bowl shimmer join, all in balance]
-[section C: the strings settle warm and low, the others fade into them]
-[loop point: the strings' swell returns seamlessly to the start]
-[mood: many things becoming one calm whole, in harmony]
-[texture: warm, deep, blended, slow]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
+[opening: soft sustained warm strings already at a low even level, calm and steady, not swelling]
+[section A: a distant shakuhachi drifts in over the strings, blending in accord at the same soft level]
+[section B: a soft koto and a faint bowl shimmer join, all in balance, nothing grows louder]
+[section C: the shakuhachi and koto fade into the strings, which stay warm, low and even]
+[loop point: the strings return seamlessly to the start with no change in volume]
+[mood: many things resting together as one calm whole, in harmony]
+[texture: warm, deep, blended, slow, unchanging]
 ```
 
 ### Variant 9 — felt-piano-led
 **STYLE**
 ```
-Harmonious Japanese zen ambient. A soft felt piano plays single warm notes with long silences, never a repeating pattern, a warm drone pad and distant koto answer in gentle accord. Intimate, slow, balanced. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative, harmonious Japanese zen ambient, for sleep. A soft felt piano plays single warm notes with long silences, never a repeating pattern, a warm even drone pad and distant koto resting beneath in gentle accord. Intimate, slow, balanced, unchanging. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: a soft felt piano, single warm notes with long silences between, never a repeating pattern]
-[section A: a warm drone pad glows beneath the piano, blending]
-[section B: a distant koto answers, sparse and slow, in accord]
-[section C: the piano notes spread further apart, the pad holds the balance]
+[section A: a warm drone pad rests beneath the piano at a low even level, steady and calm]
+[section B: a distant koto answers, sparse and slow, in accord, all at the same soft level]
+[section C: the piano notes spread further apart, the even pad holds the balance]
 [loop point: the last piano note decays into the opening silence]
 [mood: warm even light, everything in its right place]
-[texture: intimate, warm, soft-hammered, blended]
+[texture: intimate, warm, soft-hammered, blended, unchanging]
 ```
 
 ### Variant 10 — rin-bell + drone-led
 **STYLE**
 ```
-Harmonious Japanese zen ambient. A small rin bell shimmers softly, a deep warm drone rises, koto and shakuhachi drift far away with long gaps, all in gentle accord. Hushed, balanced, settled. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, a long slowly unfolding piece that keeps developing gently for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative, harmonious Japanese zen ambient, for sleep. A small rin bell shimmers softly, a deep warm even drone resting beneath, koto and shakuhachi drift far away with long gaps, all in gentle accord at one calm level. Hushed, balanced, settled, unchanging. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
-[opening: a small rin bell shimmer, a deep warm drone rising slowly beneath it]
-[section A: koto and shakuhachi drift far away, never a repeating pattern, long gaps, blending]
-[section B: the drone widens, the rin returns once, everything floats in accord]
-[section C: the instruments fade, only the warm drone and a last rin shimmer remain]
-[loop point: the rin decay dissolves back into the opening drone]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
+[opening: a small rin bell shimmer, a deep warm drone already resting beneath it at a low even level]
+[section A: koto and shakuhachi drift far away, never a repeating pattern, long gaps, blending at the same soft level]
+[section B: the rin returns once, the even drone stays exactly as it was, everything floating in accord]
+[section C: the instruments fade, only the warm even drone and a last rin shimmer remain]
+[loop point: the rin decay dissolves back into the opening drone with no change in volume]
 [mood: a still garden holding stone, water and sky in balance]
-[texture: warm, blended, shimmering, weightless]
+[texture: warm, blended, shimmering, weightless, unchanging]
 ```
 
 ---
