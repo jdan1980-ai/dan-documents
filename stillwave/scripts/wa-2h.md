@@ -333,6 +333,15 @@ A cinemagraph. The entire image is a completely frozen still photograph and NOTH
 ```
 **🇺🇦** Это **Veo 3 (Flow)**, не Kling. Рябь не вышла дважды — Veo всегда рисует круги ОТ монаха. Решение: описываем как **cinemagraph** — всё застывшее фото, живёт только туман; вода — идеальное замороженное зеркало. Veo 3 хорошо слушается слова «cinemagraph». Кругов не будет, а для 和 неподвижное зеркало даже лучше. Монах, камень, клён, фонарь и вся вода — намертво; двигается только туман. Камера статична, последний кадр = первый.
 
+### §4b — Optional: ONE falling leaf, once per video (separate accent clip)
+
+The base loop (§4) stays a still mirror. To have a single maple leaf fall **once** across the whole video (not every 8-sec loop), make a SEPARATE Veo 3 clip from the same clean hero and drop it into CapCut **one time** (or 2–3×) over the base loop, cross-dissolved in/out. Because both share the identical hero framing and the ripple settles back to a still mirror by the end, the cut is invisible. Here the leaf's single ripple is fine — it happens once, it is not looped.
+
+```
+A mostly-frozen cinemagraph that plays once. It begins as a completely still photograph of the scene — the monk, stone, maple, lantern, far bank and the mirror-still water are all frozen, a thin low mist already drifting over the water. Then a SINGLE autumn maple leaf, warm orange, gently detaches from the maple on the right and drifts slowly and softly down through the air in a calm, unhurried arc, landing delicately on the still water near the far bank. Where it touches, ONE small soft ripple ring spreads once, very gently, and then the water settles completely back to a perfect frozen glass mirror. Only this one leaf moves through the air, only this one gentle ripple appears, and the thin mist keeps drifting — EVERYTHING else stays completely frozen like a photograph, camera locked and static, no pan or zoom. Warm, balanced, meditative, deeply calm. By the end the water is a perfectly still mirror again, matching the opening frame. Just one leaf, one ripple, the whole clip.
+```
+**🇺🇦** Базовый луп — зеркало (§4). Для «одного листа за видео» делаем ОТДЕЛЬНЫЙ клип по промту выше и в CapCut кладём его **один раз** (или 2–3) поверх базового лупа, с кросс-дизолвом на входе/выходе. Кадрирование то же, вода в конце снова зеркало → склейка незаметна. Здесь единичная рябь от листа — это ок, она не зациклена.
+
 ---
 
 ## §6a — Wisdom Overlay
