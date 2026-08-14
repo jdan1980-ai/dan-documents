@@ -7,7 +7,7 @@
 - **Concept:** 和 (wa) — harmony, balance, accord, peace; also the character for "Japanese-ness" itself. The quiet agreement of things that belong together.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** ~2H full album (unique Suno tracks, CapCut laydown)
-- **Status:** 🟡 IN PROGRESS — generate hero (§3) + 10 Suno variants (§1), then master → select → §8.
+- **Status:** 🟢 Hero + thumbnail + wisdom overlay done · album selected (31 tracks, 1:57:13, §2 as-built + §8 timestamps). ⏳ Left: CapCut laydown + loop regen (§4 fixed) + Short (§3c 6 frames).
 
 ---
 
@@ -222,6 +222,52 @@ Deeply meditative, harmonious Japanese zen ambient, for sleep. A small rin bell 
 `master-album.py "<SUNO-WA folder>"` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) → prints length + TOTAL + flags dupes. Generate ~4 per variant (~40), keep the calmest set ≤ 2:00 (score = LUFS + TP, drop loudest/peakiest + dupes), reorder anti-Content-ID (round-robin over the 10 variants, no two adjacent from the same variant), rename `01 - … NN -`, then I build §8 timestamps + poetic tracklist.
 **🇺🇦** Прогони через `master-album.py`, скинь таблицу — отберу спокойный сет под 2:00, раунд-робин по 10 вариантам, соберу §8 + раскладку `WA-ALBUM`.
 
+### As-built (2026-08-14) — 34 rendered → **31 kept · 1:57:13**
+
+Dropped 3: `WA_4 (3)` (⧉ dup of `WA_4 (2)`), `WA_9 (2)` (−15.9) + `WA_8.wav` (−16.1) — the two loudest/peakiest by score (LUFS+TP), removed to fit under the 2:00 cap (32 tracks = 2:00:27, over). All 10 variants represented (min 2 each), round-robin order, no two adjacent from the same variant.
+
+**PowerShell — build the ordered album folder `WA-ALBUM`:**
+```powershell
+$src = "C:\Users\jdan1\OneDrive\Desktop\SUNO-WA-mastered"
+$dst = "C:\Users\jdan1\OneDrive\Desktop\WA-ALBUM"
+New-Item -ItemType Directory -Force -Path $dst | Out-Null
+$map = @(
+ @("WA_1 (1).wav","01 - Still Water at First Light.wav"),
+ @("WA_2 (1).wav","02 - The Sky Rests in the Pond.wav"),
+ @("WA_3 (1).wav","03 - Two Worlds, One Surface.wav"),
+ @("WA_4 (1).wav","04 - Mist Over the Mirror.wav"),
+ @("WA_5 (1).wav","05 - Breath of the Morning Bell.wav"),
+ @("WA_6 (1).wav","06 - Where Stone and Water Meet.wav"),
+ @("WA_7 (1).wav","07 - The Maple Holds the Dawn.wav"),
+ @("WA_8 (1).wav","08 - Nothing Out of Place.wav"),
+ @("WA_9 (1).wav","09 - A Single Lantern, Softly Lit.wav"),
+ @("WA_10 (1).wav","10 - The Reflection Answers.wav"),
+ @("WA_1 (2).wav","11 - Everything in Accord.wav"),
+ @("WA_2 (2).wav","12 - The Water Does Not Move.wav"),
+ @("WA_3.wav","13 - Warmth Along the Far Bank.wav"),
+ @("WA_4 (2).wav","14 - One Ripple, Then Stillness.wav"),
+ @("WA_5 (2).wav","15 - Gold on the Quiet Lake.wav"),
+ @("WA_6.wav","16 - The Sun Sits on the Horizon.wav"),
+ @("WA_7 (2).wav","17 - Balance Without Effort.wav"),
+ @("WA_8 (2).wav","18 - The Morning Holds Its Breath.wav"),
+ @("WA_9 (3).wav","19 - Reeds and Their Shadows.wav"),
+ @("WA_10 (2).wav","20 - The Pond Remembers the Sky.wav"),
+ @("WA_1.wav","21 - A Calm That Asks Nothing.wav"),
+ @("WA_2 (3).wav","22 - Between the Bank and the Blur.wav"),
+ @("WA_4.wav","23 - Soft Light on Old Stone.wav"),
+ @("WA_5 (3).wav","24 - The Garden in Agreement.wav"),
+ @("WA_7 (3).wav","25 - Where the Mist Thins.wav"),
+ @("WA_8 (3).wav","26 - Harmony of Small Things.wav"),
+ @("WA_9.wav","27 - The Lantern and Its Twin.wav"),
+ @("WA_10.wav","28 - Dawn Settles on the Water.wav"),
+ @("WA_2.wav","29 - All Things Resting Together.wav"),
+ @("WA_5.wav","30 - The Last of the Morning Fog.wav"),
+ @("WA_7.wav","31 - Stillness Meets Stillness.wav")
+)
+foreach ($m in $map) { Copy-Item -LiteralPath (Join-Path $src $m[0]) -Destination (Join-Path $dst $m[1]) -Force }
+Write-Host "Done -> $dst  (31 tracks, 1:57:13)"
+```
+
 ---
 
 ## §3 — NanoBanana 16:9 (PRIMARY — hero) — mirror-pond symmetry
@@ -320,7 +366,37 @@ sky and water, stone and moss, breath and silence.
 At dawn a still pond becomes a mirror, and the world meets its own reflection in perfect balance. Wa is the harmony the Japanese place above all else — nothing forced, nothing out of place, each thing resting in accord with the rest. Slow koto, warm shakuhachi, the long decay of a singing bowl — two hours to let everything settle into balance.
 
 Tracklist:
-[added after mastering — mood-poetic names, warm and balanced]
+0:00 Still Water at First Light
+3:48 The Sky Rests in the Pond
+8:00 Two Worlds, One Surface
+11:59 Mist Over the Mirror
+15:32 Breath of the Morning Bell
+19:21 Where Stone and Water Meet
+23:15 The Maple Holds the Dawn
+27:15 Nothing Out of Place
+30:35 A Single Lantern, Softly Lit
+34:45 The Reflection Answers
+38:29 Everything in Accord
+42:28 The Water Does Not Move
+46:18 Warmth Along the Far Bank
+50:51 One Ripple, Then Stillness
+54:29 Gold on the Quiet Lake
+58:37 The Sun Sits on the Horizon
+1:02:27 Balance Without Effort
+1:06:50 The Morning Holds Its Breath
+1:10:30 Reeds and Their Shadows
+1:14:00 The Pond Remembers the Sky
+1:18:09 A Calm That Asks Nothing
+1:21:09 Between the Bank and the Blur
+1:24:24 Soft Light on Old Stone
+1:28:19 The Garden in Agreement
+1:32:14 Where the Mist Thins
+1:35:38 Harmony of Small Things
+1:39:16 The Lantern and Its Twin
+1:42:41 Dawn Settles on the Water
+1:47:00 All Things Resting Together
+1:50:05 The Last of the Morning Fog
+1:53:49 Stillness Meets Stillness
 
 🌀 Let each thing rest in accord with the rest.
 🍃 Nothing forced. Only harmony, and the still water.
