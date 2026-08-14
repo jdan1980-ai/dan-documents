@@ -12,7 +12,8 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
 SRC = "/home/user/dan-documents/stillwave/assets/wa-2h-source.jpg"
 KANJI = "/home/user/dan-documents/stillwave/assets/fonts/YujiBoku-Regular.ttf"
 SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
-SERIF2 = "/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf"  # elegant classic serif for WA
+SERIF2 = "/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf"  # elegant classic serif
+SERIF3 = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"  # wider + solid serif for WA
 OUT = "/home/user/dan-documents/stillwave/assets/wa-2h-thumb.jpg"
 W, H = 1920, 1080
 CREAM = (245, 234, 210, 255)
@@ -104,11 +105,9 @@ def wa_left_edge(cx_centre, size, ls, font, text="WA"):
 
 
 im = base()
-# reference: where the "W" started in the previous render (Liberation, cx=440, size=205, ls=24)
-W_START = wa_left_edge(440, 205, 24, SERIF)
-# 和 — LARGE dark sumi, same height as before, LEFT edge aligned to the old W start
-ink(im, "和", 470, W_START, 100, halo=46)
-# WA — LARGE gold serif (FreeSerif Bold), centred over the pier the monk sits on
-spaced_centre(im, "WA", 175, 560, 738, fill=GOLD, ls=22, font=SERIF2)
+# 和 — LARGE dark sumi, shifted further left (with an edge margin, not touching the border)
+ink(im, "和", 470, 160, 100, halo=46)
+# WA — wider + solid gold serif (DejaVu Serif Bold, extra spacing), over the pier, shifted left too
+spaced_centre(im, "WA", 188, 430, 735, fill=GOLD, ls=30, font=SERIF3)
 im.convert("RGB").save(OUT, quality=94)
-print("saved", OUT, "W_START=", round(W_START))
+print("saved", OUT)
