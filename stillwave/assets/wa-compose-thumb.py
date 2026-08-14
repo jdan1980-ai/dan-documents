@@ -12,6 +12,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
 SRC = "/home/user/dan-documents/stillwave/assets/wa-2h-source.jpg"
 KANJI = "/home/user/dan-documents/stillwave/assets/fonts/YujiBoku-Regular.ttf"
 SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
+SERIF2 = "/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf"  # elegant classic serif for WA
 OUT = "/home/user/dan-documents/stillwave/assets/wa-2h-thumb.jpg"
 W, H = 1920, 1080
 CREAM = (245, 234, 210, 255)
@@ -57,13 +58,14 @@ def _lerp_gold(f):
     return GOLD_STOPS[-1][1]
 
 
-def ink(im, char, size, cx, top_y, halo=44):
-    """LARGE dark sumi kanji with a soft cream halo — reads as brushed ink on a bright sky."""
+def ink(im, char, size, left_x, top_y, halo=44):
+    """LARGE dark sumi kanji with a soft cream halo — reads as brushed ink on a bright sky.
+    left_x = desired visible LEFT edge of the glyph."""
     f = ImageFont.truetype(KANJI, size)
     mask = Image.new("L", (W, H), 0)
     md = ImageDraw.Draw(mask)
     l, t, r, b = f.getbbox(char)
-    md.text((cx - (l + (r - l) / 2), top_y - t), char, font=f, fill=255)
+    md.text((left_x - l, top_y - t), char, font=f, fill=255)
     # cream halo (light aura lifts the ink off the peach sky)
     halo_l = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     halo_l.paste((248, 238, 216, 255), (0, 0),
@@ -93,10 +95,20 @@ def spaced_centre(im, text, size, cx_centre, y, fill=GOLD, ls=20, font=SERIF, sc
         cx += w + ls
 
 
+def wa_left_edge(cx_centre, size, ls, font, text="WA"):
+    f = ImageFont.truetype(font, size)
+    d = ImageDraw.Draw(Image.new("RGB", (10, 10)))
+    widths = [d.textlength(c, font=f) for c in text]
+    total = sum(widths) + ls * (len(text) - 1)
+    return cx_centre - total / 2
+
+
 im = base()
-# 和 — LARGE dark sumi, upper-left over the clean dawn sky (clear of sun + maple)
-ink(im, "和", 470, 560, 100, halo=46)
-# WA — LARGE gold serif, low-left on the dark foreground stone
-spaced_centre(im, "WA", 205, 440, 852, fill=GOLD, ls=24, font=SERIF)
+# reference: where the "W" started in the previous render (Liberation, cx=440, size=205, ls=24)
+W_START = wa_left_edge(440, 205, 24, SERIF)
+# 和 — LARGE dark sumi, same height as before, LEFT edge aligned to the old W start
+ink(im, "和", 470, W_START, 100, halo=46)
+# WA — LARGE gold serif (FreeSerif Bold), centred over the pier the monk sits on
+spaced_centre(im, "WA", 175, 560, 738, fill=GOLD, ls=22, font=SERIF2)
 im.convert("RGB").save(OUT, quality=94)
-print("saved", OUT)
+print("saved", OUT, "W_START=", round(W_START))
