@@ -98,9 +98,9 @@ def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=14, font=SERIF, scrim=Tru
 
 im = base()
 CENTRE = 960
-# 一期一会 — horizontal dark sumi, top-centre, over the blossom canopy
-sumi_h(im, ["一", "期", "一", "会"], 210, CENTRE, 70, pitch=300, halo=42)
-# ICHIGO ICHIE — gold serif, low-centre on the darkened foreground
-spaced_centre(im, "ICHIGO ICHIE", 96, CENTRE, 936, fill=GOLD, ls=14, font=SERIF)
+# 一期一会 — horizontal dark sumi, top-centre, over the blossom canopy (wider spacing)
+sumi_h(im, ["一", "期", "一", "会"], 214, CENTRE, 66, pitch=352, halo=42)
+# ICHIGO ICHIE — gold serif, low-centre on the darkened foreground (larger)
+spaced_centre(im, "ICHIGO ICHIE", 122, CENTRE, 906, fill=GOLD, ls=18, font=SERIF)
 im.convert("RGB").save(OUT, quality=94)
 print("saved", OUT)
