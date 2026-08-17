@@ -16,7 +16,7 @@ CREAM = (245, 234, 210, 255)
 GOLD = (232, 197, 120, 255)
 INK = (20, 15, 13, 255)
 GOLD_STOPS = [(0.00, (250, 231, 170)), (0.45, (232, 196, 108)), (1.00, (180, 132, 58))]
-CROP_IN = 0.86  # keep central 86% → trims the dark shoji doorframe on the sides
+CROP_IN = 0.97  # edgeless hero already — trim only the thin left strip
 
 
 def base():
