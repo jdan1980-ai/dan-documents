@@ -7,7 +7,7 @@
 - **Concept:** 一期一会 (ichigo ichie) — "one time, one meeting." Every encounter, every moment, happens once and never again — so meet it fully, now. Rooted in the tea ceremony (chanoyu).
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** ~2H full album (unique Suno tracks, CapCut laydown)
-- **Status:** 🟡 IN PROGRESS — generate hero (§3) + 10 Suno variants (§1), then master → select → §8.
+- **Status:** 🟢 Album selected (32 tracks, 1:56:18, §2 as-built + §8 timestamps) + 7 reserved for Vol. 2. Hero direction = sakura-tea (god rays + glowing steam). ⏳ Left: pick hero → thumbnail + wisdom overlay, loop (§4), Short (§3c), CapCut laydown.
 
 ---
 
@@ -222,6 +222,62 @@ Deeply meditative Japanese zen ambient, for sleep. A small rin bell shimmers sof
 `master-album.py "<SUNO-ICHIGO folder>"` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) → prints length + TOTAL + flags dupes. Generate ~4 per variant (~40), keep the calmest set ≤ 2:00 (score = LUFS + TP, drop loudest/peakiest + dupes), reorder anti-Content-ID (round-robin over the 10 variants, no two adjacent from the same variant), rename `01 - … NN -`, then I build §8 timestamps + poetic tracklist.
 **🇺🇦** Прогони через `master-album.py`, скинь таблицу — отберу спокойный сет под 2:00, раунд-робин по 10 вариантам, соберу §8 + раскладку `ICHIGO-ALBUM`.
 
+### As-built (2026-08-15) — 39 rendered → **32 kept · 1:56:18** + 7 reserved for Vol. 2
+
+No duplicates flagged. Kept the calmest 32 (score = LUFS+TP), round-robin over all 10 variants, no two adjacent from the same variant. **7 louder/peakier renders (incl. the short 8(2) 2:39) moved to a RESERVE folder for ICHIGO ICHIE Vol. 2** — not deleted.
+
+**PowerShell — build `ICHIGO-ALBUM` (32 tracks, in order):**
+```powershell
+$src = "C:\Users\jdan1\OneDrive\Desktop\SUNO-ICHIGO ICHIE-mastered"
+$dst = "C:\Users\jdan1\OneDrive\Desktop\ICHIGO-ALBUM"
+New-Item -ItemType Directory -Force -Path $dst | Out-Null
+$map = @(
+ @("ICHIGO_ICHIE_1 (1).wav","01 - This Morning, Only Once.wav"),
+ @("ICHIGO_ICHIE_2 (2).wav","02 - The First Cup.wav"),
+ @("ICHIGO_ICHIE_3 (2).wav","03 - Steam Rising, Never the Same.wav"),
+ @("ICHIGO_ICHIE_4 (1).wav","04 - One Meeting, One Lifetime.wav"),
+ @("ICHIGO_ICHIE_5 (1).wav","05 - The Kettle's Quiet Breath.wav"),
+ @("ICHIGO_ICHIE_6 (2).wav","06 - A Moment That Will Not Return.wav"),
+ @("ICHIGO_ICHIE_7 (1).wav","07 - Dawn Through the Paper Screen.wav"),
+ @("ICHIGO_ICHIE_8 (1).wav","08 - The Whisk Turns Once.wav"),
+ @("ICHIGO_ICHIE_9 (1).wav","09 - Warmth Held in Two Hands.wav"),
+ @("ICHIGO_ICHIE_10 (1).wav","10 - Here, Now, and Gone.wav"),
+ @("ICHIGO_ICHIE_1 (2).wav","11 - The Guest Arrives at Dawn.wav"),
+ @("ICHIGO_ICHIE_2 (3).wav","12 - Nothing Comes Twice.wav"),
+ @("ICHIGO_ICHIE_3 (3).wav","13 - A Single Bloom in the Alcove.wav"),
+ @("ICHIGO_ICHIE_4 (2).wav","14 - The Bowl Passed Between Us.wav"),
+ @("ICHIGO_ICHIE_5 (2).wav","15 - Light on the Tatami.wav"),
+ @("ICHIGO_ICHIE_6 (3).wav","16 - The Tea Cools Slowly.wav"),
+ @("ICHIGO_ICHIE_7 (2).wav","17 - One Breath, Then the Next.wav"),
+ @("ICHIGO_ICHIE_8.wav","18 - The Silence Before Pouring.wav"),
+ @("ICHIGO_ICHIE_9 (2).wav","19 - Petals on the Windowsill.wav"),
+ @("ICHIGO_ICHIE_10 (2).wav","20 - This Meeting, Unrepeatable.wav"),
+ @("ICHIGO_ICHIE_2.wav","21 - The Long Afternoon of Tea.wav"),
+ @("ICHIGO_ICHIE_3.wav","22 - A Kindness Offered Once.wav"),
+ @("ICHIGO_ICHIE_4.wav","23 - The Garden Holds Its Breath.wav"),
+ @("ICHIGO_ICHIE_5 (3).wav","24 - Every Day a Good Day.wav"),
+ @("ICHIGO_ICHIE_6.wav","25 - The Last Warmth of the Cup.wav"),
+ @("ICHIGO_ICHIE_7 (3).wav","26 - Morning Mist in the Courtyard.wav"),
+ @("ICHIGO_ICHIE_9 (3).wav","27 - What Passes, Passes Gently.wav"),
+ @("ICHIGO_ICHIE_10 (3).wav","28 - The Quiet of an Empty Room.wav"),
+ @("ICHIGO_ICHIE_5.wav","29 - One Season, One Blossom.wav"),
+ @("ICHIGO_ICHIE_7.wav","30 - The Cup Set Down.wav"),
+ @("ICHIGO_ICHIE_9.wav","31 - We Will Not Meet This Way Again.wav"),
+ @("ICHIGO_ICHIE_10.wav","32 - Then the Steam Is Gone.wav")
+)
+foreach ($m in $map) { Copy-Item -LiteralPath (Join-Path $src $m[0]) -Destination (Join-Path $dst $m[1]) -Force }
+Write-Host "Done -> $dst  (32 tracks, 1:56:18)"
+```
+
+**PowerShell — build `ICHIGO-RESERVE` (7 tracks, for Vol. 2):**
+```powershell
+$src = "C:\Users\jdan1\OneDrive\Desktop\SUNO-ICHIGO ICHIE-mastered"
+$dst = "C:\Users\jdan1\OneDrive\Desktop\ICHIGO-RESERVE"
+New-Item -ItemType Directory -Force -Path $dst | Out-Null
+"ICHIGO_ICHIE_1 (3).wav","ICHIGO_ICHIE_1.wav","ICHIGO_ICHIE_2 (1).wav","ICHIGO_ICHIE_3 (1).wav","ICHIGO_ICHIE_4 (3).wav","ICHIGO_ICHIE_6 (1).wav","ICHIGO_ICHIE_8 (2).wav" | ForEach-Object { Copy-Item -LiteralPath (Join-Path $src $_) -Destination (Join-Path $dst $_) -Force }
+Write-Host "Reserve -> $dst  (7 tracks for Vol. 2)"
+```
+
 ---
 
 ## §3 — NanoBanana 16:9 (PRIMARY — hero) — the tea ceremony
@@ -320,7 +376,38 @@ so meet this one fully, now.
 Born in the tea ceremony, ichigo ichie is the quiet reminder that this gathering, this cup, this breath will never come exactly this way again. At dawn a single bowl steams and the steam is never the same twice. Slow koto, warm shakuhachi, the long decay of a singing bowl — two hours to rest inside the present moment and let each one pass gently into the next.
 
 Tracklist:
-[added after mastering — mood-poetic names, warm and present]
+0:00 This Morning, Only Once
+3:35 The First Cup
+6:43 Steam Rising, Never the Same
+10:07 One Meeting, One Lifetime
+14:17 The Kettle's Quiet Breath
+18:11 A Moment That Will Not Return
+21:40 Dawn Through the Paper Screen
+25:01 The Whisk Turns Once
+28:36 Warmth Held in Two Hands
+32:49 Here, Now, and Gone
+35:57 The Guest Arrives at Dawn
+39:22 Nothing Comes Twice
+43:07 A Single Bloom in the Alcove
+46:26 The Bowl Passed Between Us
+50:40 Light on the Tatami
+54:14 The Tea Cools Slowly
+57:38 One Breath, Then the Next
+1:01:12 The Silence Before Pouring
+1:05:27 Petals on the Windowsill
+1:09:22 This Meeting, Unrepeatable
+1:12:31 The Long Afternoon of Tea
+1:15:54 A Kindness Offered Once
+1:19:28 The Garden Holds Its Breath
+1:23:28 Every Day a Good Day
+1:27:11 The Last Warmth of the Cup
+1:30:51 Morning Mist in the Courtyard
+1:34:04 What Passes, Passes Gently
+1:37:17 The Quiet of an Empty Room
+1:40:54 One Season, One Blossom
+1:44:38 The Cup Set Down
+1:48:42 We Will Not Meet This Way Again
+1:52:40 Then the Steam Is Gone
 
 🌀 This moment, once. Never again.
 🍃 Meet it fully — then let it pass.
