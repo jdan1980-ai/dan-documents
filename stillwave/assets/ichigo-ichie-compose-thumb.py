@@ -59,8 +59,9 @@ def _lerp_gold(f):
     return GOLD_STOPS[-1][1]
 
 
-def sumi_h(im, chars, size, cx, top_y, pitch, halo=40):
-    """horizontal dark-sumi kanji with a soft cream halo (reads over bright blossoms)."""
+def sumi_h(im, chars, size, cx, top_y, pitch, halo=40, bold=9):
+    """horizontal dark-sumi kanji with a soft cream halo (reads over bright blossoms).
+    bold = MaxFilter kernel (odd) that fattens the brush strokes without touching spacing."""
     f = ImageFont.truetype(KANJI, size)
     mask = Image.new("L", (W, H), 0)
     md = ImageDraw.Draw(mask)
@@ -69,6 +70,8 @@ def sumi_h(im, chars, size, cx, top_y, pitch, halo=40):
     for i, ch in enumerate(chars):
         l, t, r, b = f.getbbox(ch)
         md.text((x0 + i * pitch - (l + (r - l) / 2), top_y - t), ch, font=f, fill=255)
+    if bold and bold >= 3:
+        mask = mask.filter(ImageFilter.MaxFilter(bold))  # thicken strokes
     halo_l = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     halo_l.paste((248, 238, 216, 255), (0, 0),
                  mask.filter(ImageFilter.GaussianBlur(halo)).point(lambda p: int(p * 0.9)))
@@ -98,8 +101,8 @@ def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=14, font=SERIF, scrim=Tru
 
 im = base()
 CENTRE = 960
-# 一期一会 — horizontal dark sumi, top-centre, over the blossom canopy (wider spacing)
-sumi_h(im, ["一", "期", "一", "会"], 214, CENTRE, 66, pitch=352, halo=42)
+# 一期一会 — horizontal dark sumi, top-centre; original spacing, BOLDER strokes
+sumi_h(im, ["一", "期", "一", "会"], 214, CENTRE, 66, pitch=300, halo=42, bold=11)
 # ICHIGO ICHIE — gold serif, low-centre on the darkened foreground (larger)
 spaced_centre(im, "ICHIGO ICHIE", 122, CENTRE, 906, fill=GOLD, ls=18, font=SERIF)
 im.convert("RGB").save(OUT, quality=94)
