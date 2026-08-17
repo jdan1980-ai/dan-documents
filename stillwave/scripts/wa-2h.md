@@ -7,7 +7,7 @@
 - **Concept:** 和 (wa) — harmony, balance, accord, peace; also the character for "Japanese-ness" itself. The quiet agreement of things that belong together.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** ~2H full album (unique Suno tracks, CapCut laydown)
-- **Status:** 🟢 Hero + thumbnail + wisdom overlay done · album selected (31 tracks, 1:57:13, §2 as-built + §8 timestamps). ⏳ Left: CapCut laydown + loop regen (§4 fixed) + Short (§3c 6 frames).
+- **Status:** ✅ PUBLISHED 2026-08-17 (long-form + Short both live). Loop used the mist-only mirror cinemagraph (§4). Post-publish: verify Topic Categories = Music via VidIQ ~48h after.
 
 ---
 

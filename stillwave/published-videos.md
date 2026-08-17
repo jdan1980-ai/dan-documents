@@ -35,6 +35,12 @@ Pulled live via VidIQ on **2026-07-08** (channel UC188FjOT6tivjPOPfZ69s7Q, handl
 - **Jul 5-8:** MUSHIN doubles again — 2,198 → 6,846 views (+4,648 in 72 hours)
 - **Jul 8:** GAMAN published — 348 views at D2 vs MUSHIN's ~20 views at D2. Kanji-Concept flywheel confirmed.
 
+## Recently published (awaiting stats)
+
+| Date | Title | Length | Video ID | Notes |
+|------|-------|--------|----------|-------|
+| 2026-08-17 | WA — 和 \| Japanese Zen Music for Harmony, Balance & Inner Peace | 1:57:13 | TBD | Kanji-Concept. Long-form + Short live. Mirror-pond hero, wisdom 和顔愛語. Verify Topic Categories = Music ~48h after. |
+
 ## All long-form videos — sorted by views (VidIQ, July 8)
 
 | Date | Title | Length | Views | Video ID |
