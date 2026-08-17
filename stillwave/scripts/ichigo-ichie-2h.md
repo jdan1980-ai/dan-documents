@@ -7,7 +7,7 @@
 - **Concept:** 一期一会 (ichigo ichie) — "one time, one meeting." Every encounter, every moment, happens once and never again — so meet it fully, now. Rooted in the tea ceremony (chanoyu).
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** ~2H full album (unique Suno tracks, CapCut laydown)
-- **Status:** 🟢 Album selected (32 tracks, 1:56:18, §2 as-built + §8 timestamps) + 7 reserved for Vol. 2. Hero direction = sakura-tea (god rays + glowing steam). ⏳ Left: pick hero → thumbnail + wisdom overlay, loop (§4), Short (§3c), CapCut laydown.
+- **Status:** 🟢 Album = **33 tracks · 2:00:00** (32 selected + 1 reserve track re-added in CapCut to fill to exactly 2H; last track starts 1:56:18). Thumbnail ✅ + wisdom overlay 日々是好日 ✅. ⏳ Left: loop (§4, male-figure locked), Short (§3c), publish.
 
 ---
 
@@ -408,6 +408,7 @@ Tracklist:
 1:44:38 The Cup Set Down
 1:48:42 We Will Not Meet This Way Again
 1:52:40 Then the Steam Is Gone
+1:56:18 One More Meeting, One Last Time
 
 🌀 This moment, once. Never again.
 🍃 Meet it fully — then let it pass.
