@@ -383,7 +383,21 @@ Then run **Step 1 once more on `master-loop.mp4`** so the master's own ends meet
 
 ### CapCut equivalent (no CLI)
 
-Lay the five clips on one track, overlap each pair by ~1.2 s, apply a plain **Dissolve** on every overlap, then overlap the last with the first by the same amount and dissolve. Export. Same result, slower to tune.
+Lay the five clips on one track, overlap each pair by ~1.2 s, apply an opacity-blend transition on every overlap, then overlap the last with the first by the same amount and blend it too. Export. Same result, slower to tune.
+
+🔒 **Only opacity-blend transitions.** CapCut's **Микс / Mix** and **Растворение / Dissolve** both qualify — the name does not matter, the behaviour does: both clips visible at once, blended by transparency, nothing else touched.
+
+Everything else destroys the shot, because the background here is a frozen photograph and any transition that moves or flashes moves and flashes **the whole room**:
+
+| Transition | What it breaks |
+|---|---|
+| Slide, push, wipe, spin | The entire room slides. The frozen-photograph illusion dies instantly |
+| White or black flash | A pulse repeated ~900 times across two hours — fatal on a sleep video |
+| Zoom, glitch, blur | Same problem: they act on the whole frame, not on the smoke |
+
+**Verification:** park the playhead in the middle of a transition and look at the tatami, the sword rack and the screen. They must be perfectly still, with **only the smoke doubled**. If anything in the room shifts or flickers, the transition is the wrong kind.
+
+**🇺🇦** Годится **только смешивание по прозрачности** — Микс и Растворение оба подходят, название неважно, важно поведение: оба клипа видны одновременно и смешиваются прозрачностью, больше ничего не трогается. Всё остальное (сдвиг, шторка, вспышка, зум, глитч) двигает или засвечивает **всю комнату**, а она у нас замороженная фотография. Проверка: поставить плейхед в середину перехода и смотреть на татами, подставку и ширму — они обязаны стоять намертво, двоиться должен **только дым**.
 
 ### Step 3 — mandatory seam check
 
