@@ -53,7 +53,7 @@ Two differences explain the gap, and this series fixes both:
 
 The whole point of the series is that the viewer recognises the frame in half a second. These five elements never change:
 
-1. **The warrior, seated, bare-headed.** A male samurai in seiza, **back to camera** (channel signature), armour on but **helmet removed** — the moment after the fighting, not during it. Short dark cropped hair, broad shoulders. 🔒 Veo feminises unspecified figures (ICHIGO ICHIE §4 lesson) — every prompt must say **MALE / a man / short cropped hair / broad shoulders** and repeat it in the freeze clause.
+1. **The warrior, seated, bare-headed.** A male samurai in seiza, **back to camera** (channel signature), armour on but **helmet removed** — the moment after the fighting, not during it. **Long dark hair drawn back and tied in a high tail that falls behind his shoulders** (locked from the GARYŪ hero generation, 2026-08-20 — the tail reads more distinctly samurai than cropped hair and is now the series look). 🔒 Veo feminises unspecified figures (ICHIGO ICHIE §4 lesson), and long hair pushes it further that way — so the male signal rides on the **build**, not the haircut: every prompt must say **MALE / a grown man / broad square shoulders / a thick neck** and repeat *clearly a grown man* in the freeze clause. 🔒 And the tail must be named in the freeze list: tied hair invites Veo to add sway, and any movement in the figure breaks the frozen-photograph contract the loop depends on.
 2. **The helmet, facing the viewer.** The **kabuto** on a lacquered helmet stand beside him at roughly eye height, turned to camera, wearing its **menpō** — the iron face mask with a snarling grimace, hooked nose, bared teeth and a horsehair moustache. This is the frightening object in the frame and it is entirely historical. Rust-red silk lacing on the neck plates, swept-back fukigaeshi wings, and the episode's **maedate** crest above the brow.
 3. **The swords, at rest.** Katana + wakizashi (the **daishō**) sheathed on a two-tier **katana-kake** rack, black lacquer scabbards, rust-red sageo cords.
 4. **The sleeping dragon — painted, frozen.** A **gold-leaf byōbu folding screen** behind him carrying a sumi-e ink dragon. It is a painting. It never moves, in any episode.
@@ -69,11 +69,11 @@ And the two dragons carry the idea: **the painted dragon sleeps, the smoke drago
 
 ### Locked motion contract (every episode's Veo prompt)
 
-**Frozen:** the man, the kabuto, the swords and rack, the byōbu and its painted dragon, the tatami, the walls, and the camera (no pan, no zoom, no push-in, no dolly).
+**Frozen:** the man **and his tied hair**, the kabuto, the swords and rack, the byōbu and its painted dragon, the tatami, the walls, and the camera (no pan, no zoom, no push-in, no dolly).
 
 **Animated — exactly three:**
 1. the smoke column coils and undulates slowly along its length, the dragon shape holding as it moves;
-2. the lantern light breathes almost imperceptibly;
+2. the warm off-frame light breathes almost imperceptibly (🔒 **no lamp or lantern is ever visible in frame** — a visible light source lands in the bottom-right logo corner and steals the eye from the mask; state that the light comes from off-frame);
 3. the gold leaf on the screen shifts its sheen faintly.
 
 **Positive air guard** (never name particles even negatively — the KOMOREBI/ICHIGO petal lesson): *"apart from the single smoke column the air stays completely clear and empty."*
