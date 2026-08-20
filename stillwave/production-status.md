@@ -31,6 +31,23 @@ See `published-videos.md` for the full table with metrics.
 | `mono-no-aware-2h` | **MONO NO AWARE — 物の哀れ** \| Japanese Zen Music for Healing, Letting Go & Inner Peace | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `garyu-2h` | **GARYŪ — 臥龍** \| Zen Music for Deep Focus, Discipline & Japanese Samurai Stillness | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+
+### 🐉 龍 — The Dragon Cycle (new series, opened 2026-08-20)
+
+Series bible: `stillwave/series/dragon-cycle.md` · research basis: `analytics/2026-08-20-samurai-niche-research.md`
+
+Five episodes, one locked recurring hero (samurai at rest · bare head · menpō helmet facing the viewer · racked swords · painted dragon asleep on gold leaf · smoke dragon awake). Built to fix the two things that held MAKOTO to 69 views while a competitor runs the same formula at 120K–588K: **it is a series, not a one-off**, and **every concept is drawable**.
+
+| # | Episode | Kanji | Slug | Status |
+|---|---------|-------|------|--------|
+| 1 | **GARYŪ** | 臥龍 | `garyu-2h` | 📝 script complete — Suno next |
+| 2 | **UNRYŪ** | 雲龍 | — | ⏳ planned |
+| 3 | **SUIRYŪ** | 水龍 | — | ⏳ planned |
+| 4 | **KARYŪ** | 火龍 | — | ⏳ planned |
+| 5 | **SEIRYŪ** | 青龍 | — | ⏳ planned |
+
+🔒 Series rules: `samurai` never leads a title (it rides the tail after the pipe); `dragon` is never an SEO tag (keyword scores 6.4/100); PT/ES tags mandatory (Brazil is the #1 market for `samurai music` at 30%); no `hans zimmer` / `last samurai` inside Suno prompts (Content ID — tag only).
 
 > **GAMAN published 2026-07-08.** Monitor D3 (Jul 11) / D7 (Jul 15) / D14 (Jul 22). Tokyo Rain & Vinyl D14 also due Jul 15.
 
