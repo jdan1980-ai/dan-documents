@@ -328,6 +328,84 @@ A cinemagraph on a photorealistic dark night scene: a lone MALE samurai — a gr
 
 ---
 
+## §5 — Loop assembly (the smoke seam)
+
+The hardest part of the episode. An 8-second loop under a 2-hour album repeats about **900 times**, so any seam is seen 900 times.
+
+**Why smoke cannot simply loop:** rising is monotonic. Smoke never returns to its starting state, so there is no true cycle to find, and Veo's "last frame matches the first" instruction will not hold on its own.
+
+**Why we can cheat, and cheat invisibly:** every other pixel in the frame is a frozen photograph. A crossfade therefore blends only the smoke against an identical background — no parallax, no light shift, no doubled subject. This is the one subject and the one composition where a crossfade leaves nothing to catch.
+
+**🇺🇦** Луп повторится около **900 раз** за два часа, поэтому шов увидят 900 раз. Дым не зацикливается физически — подъём необратим, и обещание Veo «последний кадр = первый» само по себе не работает. Но весь кадр, кроме дыма, — замороженная фотография, значит кроссфейд смешивает **только дым на идентичном фоне**: ни параллакса, ни смены света, ни двоящегося объекта. Это ровно тот случай, когда кроссфейд не виден.
+
+### 🔒 Do NOT ping-pong
+
+Playing the clip forward then reversed is seamless by construction and **wrong here** — reversed smoke sinks back down into the burner, and smoke physics are familiar enough that everyone notices. Only consider it if a generation comes back where the column barely rises and the motion is almost purely lateral coil; then check the top of the column frame by frame, and if any smoke descends, discard it.
+
+**🇺🇦** Пинг-понг (вперёд-назад) не использовать: обратный дым втягивается в курильницу, и это замечают все. Исключение — если генерация вышла почти без подъёма, одним боковым извивом; тогда проверить верх струи покадрово, и при малейшем оседании — в брак.
+
+### The plan: five loops, not one
+
+Generate **5 separate Veo runs from the same clean still** (§4 prompt, unchanged). The background comes back pixel-identical every time because it is frozen; only the smoke differs. Crossfade-chain them into one master of roughly 35–40 seconds, then loop that.
+
+The repeat interval goes from 8 s to ~40 s — below what a listener notices on ambient playback — and it costs five generations instead of one.
+
+**🇺🇦** Генерим **5 прогонов Veo с одного и того же чистого кадра**. Фон возвращается идентичным (он заморожен), меняется только дым. Сшиваем кроссфейдами в мастер ~35–40 сек и зацикливаем его: интервал повтора вырастает с 8 сек до сорока, что уже ниже порога замечаемости. Цена — пять генераций вместо одной.
+
+### Step 1 — make each clip self-seamless
+
+For a clip of duration `D` with crossfade `X` (start with `X = 1.2`), the output is `D − X` long and its ends match:
+
+```bash
+ffmpeg -i loop1.mp4 -filter_complex "\
+[0:v]trim=0:6.8,setpts=PTS-STARTPTS[base];\
+[0:v]trim=6.8:8,setpts=PTS-STARTPTS,format=yuva420p,fade=t=out:st=0:d=1.2:alpha=1[tail];\
+[base][tail]overlay=shortest=1[v]" \
+-map "[v]" -an -c:v libx264 -preset slow -crf 16 -pix_fmt yuv420p seam1.mp4
+```
+
+The tail is laid over the head and faded out, so the clip dissolves from its own end into its own beginning. Repeat for `loop2…loop5` → `seam2…seam5.mp4`.
+
+### Step 2 — chain the five into one master
+
+```bash
+ffmpeg -i seam1.mp4 -i seam2.mp4 -i seam3.mp4 -i seam4.mp4 -i seam5.mp4 -filter_complex "\
+[0:v][1:v]xfade=transition=fade:duration=1.2:offset=5.6[a];\
+[a][2:v]xfade=transition=fade:duration=1.2:offset=11.2[b];\
+[b][3:v]xfade=transition=fade:duration=1.2:offset=16.8[c];\
+[c][4:v]xfade=transition=fade:duration=1.2:offset=22.4[v]" \
+-map "[v]" -an -c:v libx264 -preset slow -crf 16 -pix_fmt yuv420p master-loop.mp4
+```
+
+> `offset` = cumulative output length minus the crossfade. With 6.8 s clips and a 1.2 s fade each join adds 5.6 s. Recompute if the clip length differs.
+
+Then run **Step 1 once more on `master-loop.mp4`** so the master's own ends meet, and that file is what gets looped under the album in CapCut.
+
+### CapCut equivalent (no CLI)
+
+Lay the five clips on one track, overlap each pair by ~1.2 s, apply a plain **Dissolve** on every overlap, then overlap the last with the first by the same amount and dissolve. Export. Same result, slower to tune.
+
+### Step 3 — mandatory seam check
+
+Play the master **three times through** and watch only the smoke, then only the top edge of the column. Two failure modes to catch:
+
+- **A visible pop at a join** — the smoke was too sharp and dense at that moment. Raise `duration` to 1.6–2.0 and re-run.
+- **Density stepping** — one generation's smoke is thicker than its neighbour's, so the column pulses thinner/fatter across the join. Reorder the clips so similar densities sit together, or drop the odd one and regenerate.
+
+**🇺🇦** Прогнать мастер **три раза подряд** и смотреть только на дым, потом только на верх струи. Хлопок на стыке → увеличить `duration` до 1.6–2.0. Пульсация плотности → переставить клипы так, чтобы похожие по плотности стояли рядом, либо выбросить выпадающий и перегенерировать.
+
+### Veo-side addendum for loop-friendly smoke
+
+Append to the §4 prompt when generating the five runs. Dense, slow, evenly-lit smoke crossfades far better than thin wispy smoke, and a column that ends near where it began needs less fade to hide:
+
+```
+The smoke column stays equally dense and equally bright from the first frame to the last, never thinning, never fading out, never drifting off the top of the frame, and by the end of the clip its coils have returned to almost the same position and thickness they held at the start.
+```
+
+**🇺🇦** Плотный, медленный, ровно освещённый дым склеивается заметно лучше тонкого и рваного, а струя, пришедшая в конце примерно туда же, откуда начала, требует более короткого фейда.
+
+---
+
 ## §6a — Wisdom Overlay
 
 - Line 1 (kanji): **静中動**
@@ -497,7 +575,8 @@ Settings: Not for kids = Yes · playlist **StillWave Shorts — Japanese Zen & F
 - [ ] Every generation shows **exactly two sheathed swords on the rack** — no third blade, none drawn, none in hand
 - [ ] No airborne particles anywhere except the one smoke column
 - [ ] Lower-left dark (text) · bottom-right dark and calm (logo) on every 16:9
-- [ ] Loop renders as a seamless 8s cinemagraph; painted dragon confirmed motionless; figure still reads male
+- [ ] Loop renders as a seamless cinemagraph; painted dragon confirmed motionless; figure and tied hair still frozen; figure still reads male
+- [ ] Master loop built per §5 from five generations, self-seamed, and watched three times through with no pop and no density stepping
 
 **Packaging**
 - [ ] Thumbnail legible at 168px — mask snarl and moustache survive; 臥龍 vertical gold left, GARYŪ low
