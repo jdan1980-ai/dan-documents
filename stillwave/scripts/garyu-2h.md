@@ -25,23 +25,23 @@
 
 ---
 
-## §1 — Suno prompts (8 copy-paste variants — meditative, FLAT dynamics)
+## §1 — Suno prompts (10 copy-paste variants — meditative, FLAT dynamics)
 
 > 🔒 **The music must NEVER build.** One soft even unchanging level from the first second to the last: no crescendo, no swell, no climax, no "section B deepens." Instruments drift in and out and change colour; volume never grows. Each variant has a DIFFERENT opening (anti-Content-ID). Tempo in words only.
 >
-> 🔒 **Two tails, and they are not interchangeable.** Variants 1–5 use **Tail A** (percussion-free, sleep-safe). Variants 6–8 use **Tail B**, which permits *one* low taiko heartbeat at a constant, unchanging level — the drum is the samurai genre signal, and dropping it entirely costs the series its identity. Tail B still forbids every kind of build. **Rotation: run 1–5 across roughly two-thirds of the album and 6–8 across the rest, never two same-variant tracks adjacent.**
+> 🔒 **Two tails, and they are not interchangeable.** Variants 1–6 use **Tail A** (percussion-free, sleep-safe). Variants 7–10 use **Tail B**, which permits *one* low taiko heartbeat at a constant, unchanging level — the drum is the samurai genre signal, and dropping it entirely costs the series its identity. Tail B still forbids every kind of build. **Rotation: run 1–6 across roughly 60% of the album and 7–10 across the rest, never two same-variant tracks adjacent.**
 >
 > 🔒 **Never write `hans zimmer` or `last samurai` in a Suno prompt for this series** — Content ID risk against the Sony Classical / Decca catalogue (`makoto-the-last-samurai.md` §12). It stays a text tag only.
 >
 > **🇺🇦** Музыка **никогда не нарастает** — один ровный тихий уровень от первой секунды до последней. У каждого варианта своё вступление (против Content ID). **Два хвоста:** варианты 1–5 — Хвост A, совсем без ударных (безопасно для сна); варианты 6–8 — Хвост B, где разрешён **один низкий удар тайко на постоянном неизменном уровне** — барабан это жанровый признак самурайской темы, без него серия теряет лицо, но нарастания запрещены и там. Ротация: 1–5 примерно на две трети альбома, 6–8 на остальное, одинаковые варианты не ставить подряд. 🔒 В промпты **не писать** `hans zimmer` / `last samurai`.
 
-### 🔒 Tail A (variants 1–5) — paste at the end of every STYLE
+### 🔒 Tail A (variants 1–6) — paste at the end of every STYLE
 
 ```
 no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 
-### 🔒 Tail B (variants 6–8) — paste at the end of every STYLE
+### 🔒 Tail B (variants 7–10) — paste at the end of every STYLE
 
 ```
 one single low taiko drum heartbeat only, struck very softly and very far away, always at the same quiet unchanging level, never louder, never faster, never closer, no drum fills, no drum rolls, no rhythmic layering, no arpeggios, free floating time with no fixed tempo elsewhere, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
@@ -144,7 +144,26 @@ Deeply meditative Japanese zen ambient for stillness and deep focus, for sleep. 
 [texture: round, bronze, warm, weightless]
 ```
 
-### Variant 6 — distant taiko heartbeat (Tail B)
+### Variant 6 — night-wind-led
+**STYLE**
+```
+Deeply meditative Japanese zen ambient for stillness and deep focus, for sleep. Opens with several seconds of low night wind moving around a large empty wooden hall — air under the eaves, nothing else — before a breathy shakuhachi drifts in far away at a low even level, a warm drone settling beneath it, a koto answering with a few sparse notes much later. Dark, hollow, spacious, unchanging. no drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+**LYRICS**
+```
+[no lyrics, no vocals, instrumental only]
+[no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax]
+[opening: six seconds of low night wind moving around a large empty wooden hall, air under the eaves, no instrument at all]
+[section A: a breathy shakuhachi drifts in far away at a low even level, the wind continuing underneath unchanged]
+[section B: a warm drone settles beneath them both, still at the same softness]
+[section C: a koto answers with a few sparse notes, long gaps, never a repeating pattern, nothing grows]
+[loop point: the instruments thin away and the wind carries straight through the seam unchanged]
+[mood: a great dark hall at night, empty except for one man and the things he set down]
+[texture: hollow air, dark wood, distant breath]
+```
+
+### Variant 7 — distant taiko heartbeat (Tail B)
 **STYLE**
 ```
 Deeply meditative Japanese cinematic zen ambient for stillness and deep focus. One low taiko drum beats very softly and very far away like a slow resting heartbeat, always at the same quiet level; a breathy shakuhachi drifts above it, a warm low drone rests underneath, a koto answers occasionally with long gaps. Dark, patient, disciplined, unchanging. one single low taiko drum heartbeat only, struck very softly and very far away, always at the same quiet unchanging level, never louder, never faster, never closer, no drum fills, no drum rolls, no rhythmic layering, no arpeggios, free floating time with no fixed tempo elsewhere, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
@@ -163,7 +182,7 @@ Deeply meditative Japanese cinematic zen ambient for stillness and deep focus. O
 [texture: dark, wooden, deep, distant]
 ```
 
-### Variant 7 — biwa-led (Tail B)
+### Variant 8 — biwa-led (Tail B)
 **STYLE**
 ```
 Deeply meditative Japanese cinematic zen ambient for stillness and deep focus. A biwa lute opens alone with a few sparse struck notes and their characteristic buzzing decay, long silences between them; a low taiko heartbeat enters far away and very soft and stays at that one level, a warm drone resting underneath, a shakuhachi drifting in much later. Dark, austere, old, unchanging. one single low taiko drum heartbeat only, struck very softly and very far away, always at the same quiet unchanging level, never louder, never faster, never closer, no drum fills, no drum rolls, no rhythmic layering, no arpeggios, free floating time with no fixed tempo elsewhere, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
@@ -182,7 +201,7 @@ Deeply meditative Japanese cinematic zen ambient for stillness and deep focus. A
 [texture: buzzing silk string, dry wood, dark air]
 ```
 
-### Variant 8 — low bowed strings-led (Tail B)
+### Variant 9 — low bowed strings-led (Tail B)
 **STYLE**
 ```
 Deeply meditative Japanese cinematic zen ambient for stillness and deep focus. Deep bowed cello and viola open alone, very legato with no vibrato, moving slowly like deep breathing at one even level; a low taiko heartbeat enters far away and very soft and never changes, a shakuhachi and a faint koto drift above much later. Dark, wide, restrained, unchanging. one single low taiko drum heartbeat only, struck very softly and very far away, always at the same quiet unchanging level, never louder, never faster, never closer, no drum fills, no drum rolls, no rhythmic layering, no arpeggios, free floating time with no fixed tempo elsewhere, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
@@ -201,12 +220,32 @@ Deeply meditative Japanese cinematic zen ambient for stillness and deep focus. D
 [texture: dark, wide, wooden, breathing]
 ```
 
+
+### Variant 10 — felt-piano-led (Tail B)
+**STYLE**
+```
+Deeply meditative Japanese cinematic zen ambient for stillness and deep focus. A soft felt piano opens alone with a few single muted notes and long silences between them, never a repeating pattern; a low taiko heartbeat enters far away and very soft and stays at that one level, a warm drone rests underneath, a breathy shakuhachi drifts in much later. Dark, intimate, restrained, unchanging. one single low taiko drum heartbeat only, struck very softly and very far away, always at the same quiet unchanging level, never louder, never faster, never closer, no drum fills, no drum rolls, no rhythmic layering, no arpeggios, free floating time with no fixed tempo elsewhere, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+```
+**LYRICS**
+```
+[no lyrics, no vocals, instrumental only]
+[one low taiko heartbeat only, very soft, very distant, always the same quiet level — never louder, never faster, never closer; no fills, no rolls]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax]
+[opening: a soft felt piano alone, three single muted notes with long silence between each]
+[section A: the distant taiko heartbeat enters very softly underneath and stays at that one level]
+[section B: a warm drone rests beneath them, the piano keeps its long silences, never a pattern]
+[section C: a breathy shakuhachi drifts in far away, the piano thins out, everything staying even]
+[loop point: the last piano note decays into the opening silence, the heartbeat unbroken]
+[mood: the quiet of a man who has stopped, and is not in a hurry to start again]
+[texture: felt, dark wood, warm air, distance]
+```
+
 ---
 
 ## §2 — Mastering
 
 - Target **~2:00:00**. Render ~36–40 tracks in Suno, keep the calmest ~33.
-- **Round-robin the variants** so no two same-variant tracks sit adjacent (Content ID + listener fatigue).
+- **Round-robin all ten variants** so no two same-variant tracks sit adjacent (Content ID + listener fatigue). Ten variants over ~38 renders is roughly 4 per variant — enough spread that no opening pattern repeats anywhere near itself.
 - Distribute Tail-B (taiko) tracks evenly rather than clustering them — the album should never feel like it changes gear.
 - Cull anything that swells, brightens or ends abruptly. A track that builds is a track that wakes a sleeping listener.
 - Lay down in CapCut, pull final timestamps from the export, then fill §8's tracklist.
@@ -403,7 +442,7 @@ GARYŪ (臥龍) in Japanese Culture: A Concise Overview
 | 0:20–0:26 | `fr4` kanji frame, gold screen | *The power is simply not in use.* |
 | 0:26–0:32 | `fr6` wide room, dissolving | *2 hours · Japanese Samurai Ambience* → subscribe |
 
-- **Audio:** pull the calmest Variant 6 track (distant taiko heartbeat) — the pulse gives the Short a spine the flat variants can't.
+- **Audio:** pull the calmest Variant 7 track (distant taiko heartbeat) — the pulse gives the Short a spine the flat variants can't.
 - **Font/colour:** Liberation Serif Bold, cream `#F5EAD2` — the one locked channel font, no glow, no shadow, no box.
 - **Playlist:** StillWave Shorts — Japanese Zen & Frequencies (all Shorts, always).
 
