@@ -420,6 +420,60 @@ The smoke column stays equally dense and equally bright from the first frame to 
 
 ---
 
+## §5b — The ring variant (proposed upgrade, awaiting a generation)
+
+> **Status:** not yet generated. §4 + §5 above remain the shipped spec until a ring generation proves out. Recorded here so the reasoning is not lost.
+
+**The idea (user's, 2026-08-20):** instead of a rising column, the smoke dragon curls into a **closed ring** — the dragon coiled into a circle, its horned head meeting the tip of its own tail — turning slowly in place.
+
+### Why it attacks the problem at the root
+
+§5 exists because rising is monotonic: smoke never returns to its start state, so there is no cycle to find and the seam has to be hidden. **Rotation is periodic.** A ring that completes one full revolution is genuinely back where it began, which gives the clip a real loop condition rather than a disguised cut.
+
+It does not abolish the crossfade, but it makes it near-trivial. Today we blend two *differently-shaped formless plumes* and the fade has to guess. A ring is topologically identical at every instant — a circle is a circle — so ring-to-ring blends hide roughly three times more easily.
+
+### Why it is also on-brand
+
+The StillWave channel description carries the line **"The brush completes the circle."** The Kanji-Concept spec names **ENSO (円相**, the zen circle drawn in one stroke**)** as a valid symbolic hero. ICHIGO ICHIE's tracklist includes *The Brush Completes the Circle*.
+
+A dragon coiled into a ring of smoke is an ensō drawn in smoke — the channel's own established symbol, arrived at from a technical problem. And 臥龍 means *the reclining dragon*: a coil suits the concept better than a vertical plume ever did.
+
+### The one required refinement
+
+The ring must not float unexplained. Keep a **thin steady stem from the burner** feeding into it — laminar smoke at constant density reads as motionless, so the stem costs the loop nothing and gives the ring its cause. All motion lives in the ring.
+
+### Cost
+
+**One hero regeneration.** The ring has to be present in frame 1 — if Veo *forms* it during the clip, start and end diverge worse than they do now. The current column hero stays as the fallback.
+
+**🇺🇦** Идея: вместо поднимающейся струи дым сворачивается в **замкнутое кольцо** — дракон, свернувшийся в круг, рогатая голова встречает кончик хвоста, кольцо медленно проворачивается. Подъём необратим, а **вращение периодично** — полный оборот честно возвращает кадр в исходное состояние, и появляется настоящее условие петли вместо замаскированного реза. Кроссфейд не отменяется, но круг топологически одинаков в любой момент, поэтому склейка круга с кругом прячется втрое легче. Плюс это символ канала: в описании StillWave стоит «The brush completes the circle», а ENSO (円相) прямо назван вариантом героя в спеке Kanji-Concept. Обязательная поправка: оставить **тонкий ровный стебель от курильницы**, иначе кольцо висит без причины; ровный дым постоянной плотности выглядит неподвижным и петле не мешает. Цена — одна перегенерация героя: кольцо обязано быть в кадре с первой секунды.
+
+### Hero — replace the smoke sentence with this
+
+```
+Between the man and the helmet stands a small bronze incense burner; one single thin column of pale smoke rises from it and, at about the height of the man's head, curls over into one great slow closed ring — a dragon coiled into a perfect circle, its horned head coming round to meet the tip of its own tail, hanging in the dark air like an ensō drawn in smoke, while the thin steady stem still feeds it from below. The ring is unbroken and clearly circular, pale silver-warm against the deep shadow, its body reading unmistakably as a dragon's — scaled coils, a horned head, a whiskered snout.
+```
+
+### Veo loop prompt — ring version
+
+```
+A cinemagraph on a photorealistic dark night scene: a lone MALE samurai — a grown man with broad square shoulders and a thick neck, his long dark hair drawn back and tied in a high tail that falls behind his shoulders — sits in seiza from behind, bare-headed, in a black-lacquered armour room; his kabuto helmet with its snarling iron face mask rests on a stand at his right, facing the camera; exactly two sheathed swords lie on a low wooden rack at his left; a tall gold-leaf folding screen with an old painted ink dragon fills the wall behind; the room is lit from far off-frame, with no lamp or lantern visible. Rising from a small bronze incense burner, a thin steady column of pale smoke feeds one great closed ring of smoke hanging at the height of the man's head — a dragon coiled into a circle, its horned head meeting the tip of its own tail. Treat the man, his armour, his silhouette, his broad square shoulders, and his tied-back hair — every strand of it, including the tail hanging behind his shoulders — the helmet, the iron face mask, the sword rack, the swords, the folding screen and the painted dragon on it, the tatami and the walls as a completely frozen still photograph — the man stays exactly as in the still and never moves, his tied hair completely frozen and never lifting, stirring or swaying, clearly a grown man throughout, and the dragon on the screen is a painted image on a flat surface that stays completely motionless the entire time. Camera completely locked and static — no pan, no zoom, no push-in, no dolly, no shake; the frame never moves. Animate ONLY these three, all slow and continuous: (1) the great smoke ring turns slowly and steadily in place, rotating as one closed circle, the horned head travelling all the way round the ring and back to where it began — the circle stays unbroken and stays exactly the same size and position throughout, never opening, never drifting, never dissolving; (2) the thin stem of smoke feeding it from the burner stays completely steady and unchanging, the same thickness and brightness the whole time; (3) the aged gold leaf on the screen shifts its faint sheen very slightly. Apart from the smoke the air stays completely clear and empty the entire time, and everything else is a completely frozen photograph. The light does not change colour or overall brightness, does not shift time of day. Slow, dark, meditative, hypnotic, heavy with restrained power. The ring completes exactly one full slow revolution over the length of the clip, ending in precisely the position it started, so the last frame matches the first frame exactly for a perfectly seamless 8-second loop.
+```
+
+### What to reject on the output
+
+- **Mechanical rotation.** A perfectly even spin reads as a loading spinner. Wanted: slow, faintly irregular, alive. Fix by appending `the rotation is slow and slightly irregular, alive rather than mechanical`.
+- **The ring falling apart in the last second.** Smoke wants to disperse; the prompt forbids it three ways (`never opening, never drifting, never dissolving`) but check the tail of the clip specifically.
+- **More than one revolution.** Above one turn per clip the motion stops being meditative and starts being busy.
+
+**🇺🇦** Брак: (1) слишком ровное механическое вращение — читается как спиннер загрузки, лечится строкой про «slightly irregular, alive rather than mechanical»; (2) кольцо разваливается в последнюю секунду — проверять именно хвост клипа; (3) больше одного оборота за клип — движение перестаёт быть медитативным.
+
+### If it works
+
+Promote it: the ring becomes the §3 hero and the §4 loop for GARYŪ and for all four remaining episodes, and §5 drops from five generations to two or three, since a true revolution needs far less hiding.
+
+---
+
 ## §6a — Wisdom Overlay
 
 - Line 1 (kanji): **静中動**
