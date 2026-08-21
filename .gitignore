@@ -1,2 +1,6 @@
 stillwave/assets/*-work/
 stillwave/assets/*-web.mp4
+
+# Python bytecode cache (build artifact, never committed)
+__pycache__/
+*.pyc
