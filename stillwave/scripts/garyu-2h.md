@@ -248,8 +248,69 @@ Deeply meditative Japanese cinematic zen ambient for stillness and deep focus. A
 - **Round-robin all ten variants** so no two same-variant tracks sit adjacent (Content ID + listener fatigue). Ten variants over ~38 renders is roughly 4 per variant — enough spread that no opening pattern repeats anywhere near itself.
 - Distribute Tail-B (taiko) tracks evenly rather than clustering them — the album should never feel like it changes gear.
 - Cull anything that swells, brightens or ends abruptly. A track that builds is a track that wakes a sleeping listener.
-- Lay down in CapCut, pull final timestamps from the export, then fill §8's tracklist.
-- **🇺🇦** Цель ~2:00:00. Генерим 36–40, оставляем спокойные ~33. Варианты чередуем по кругу, одинаковые подряд не ставим. Треки с тайко (хвост B) равномерно размазываем по альбому, не кучей. Всё, что нарастает, светлеет или резко обрывается — в брак. Таймкоды берём из экспорта CapCut и вставляем в §8.
+- Lay down in CapCut in the chosen order, then generate §8's tracklist from the files (below).
+- **🇺🇦** Цель ~2:00:00. Генерим 36–40, оставляем спокойные ~33. Варианты чередуем по кругу, одинаковые подряд не ставим. Треки с тайко (хвост B) равномерно размазываем по альбому, не кучей. Всё, что нарастает, светлеет или резко обрывается — в брак.
+
+### Use the existing tools — do not do this by hand
+
+Both already live in `stillwave/tools/` and cover the whole job:
+
+```
+python3 stillwave/tools/master-album.py "SUNO-GARYU"
+```
+Two-pass EBU R128 loudnorm to one level across the album, 28 Hz low-cut for Suno's sub-rumble, −1.5 dB shelf at 9k for its high shimmer, 1 s fades to hide abrupt endings, 48 kHz/24-bit out. Prints **length per track, album TOTAL, duplicate detection** (Suno does return the same render twice) and flags anything clipped upstream. Use the TOTAL to decide what to cull down to ~2:00:00.
+
+```
+python3 stillwave/tools/tracklist-timestamps.py "SUNO-GARYU-mastered" --names names.txt
+```
+Emits the `0:00 Title` lines for §8 directly. `names.txt` is one title per line **in final playing order**, so build it from the pool below after the order is fixed.
+
+⚠️ The timestamps are computed from the source files, so they are only correct if CapCut lays the tracks down **in that exact order, butt-jointed, with no crossfades and no gaps**. Any dissolve between tracks shifts everything after it.
+
+**🇺🇦** Оба инструмента уже написаны, руками ничего не считать. Первый — мастеринг в один уровень по всему альбому плюс длины, ОБЩЕЕ ВРЕМЯ и поиск дублей (Suno иногда отдаёт один и тот же рендер дважды). Второй — сразу выдаёт строки `0:00 Название` для §8; `names.txt` — по одному названию на строку **в финальном порядке**. ⚠️ Таймкоды считаются по файлам, поэтому верны только если в CapCut треки лежат встык, **без кроссфейдов и без зазоров**. Любое растворение между треками сдвинет всё, что после него.
+
+### Track-name pool
+
+House style: 3–6 words, an image or a small koan, never a technical term, never a number. Pick 33 in the order the album will play; the rest are spares.
+
+```
+The Helmet Set Down
+A Dragon Lying Still
+The Weight He Puts Aside
+Smoke Finds Its Own Shape
+Nothing Is Being Guarded
+The Long Hour After
+Two Swords, Not Drawn
+The Room Holds Its Breath
+Gold Leaf in Low Light
+What the Mask Remembers
+Power With Nowhere to Go
+The Coil Loosens
+He Does Not Reach for It
+Sleeping in the Gold
+One Ember in the Burner
+The Iron Cools Slowly
+A Stillness That Is Not Rest
+Lacquer and Quiet
+The Dragon Above the Sleeper
+Breath Under the Eaves
+Nothing Asked of Him Tonight
+The Cord Untied
+Far Off, a Bell
+Strength That Chooses Silence
+The Smoke Turns Once
+Hands Open on His Knees
+Old Ink, Older Gold
+The Night Does Not Move
+A Blade That Stays Sheathed
+What Waits Without Waiting
+The Lamp Beyond the Door
+He Will Rise, But Not Now
+The Last Coil Fades
+Morning Is Still Far
+Where the Dragon Sleeps
+Before the Armour Comes Off
+```
 
 ---
 
