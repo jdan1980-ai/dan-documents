@@ -14,7 +14,8 @@ Usage:
 
 Output: <folder>-mastered/ with the same file names + a summary table
 (length per track, album TOTAL, and duplicate detection — Suno sometimes
-returns the same render twice; identical length + LUFS + TP flags it).
+returns the same render twice; duplicates are found by hashing the decoded
+audio, so a match is exact rather than a guess from length/LUFS/TP).
 Tracks whose input true peak exceeds 0 dB (clipped upstream) are flagged — consider regenerating those.
 """
 
@@ -40,6 +41,20 @@ def probe_duration(path):
     r = run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
              "-of", "csv=p=0", str(path)])
     return float(r.stdout.strip())
+
+
+def audio_md5(path):
+    """MD5 of the DECODED audio stream — exact, container-agnostic, no false positives.
+
+    Suno hands back the same render twice often enough to matter, and the browser
+    silently names the second copy "X (1).wav". Hashing the decoded samples catches
+    that whether or not the files are byte-identical."""
+    r = run(["ffmpeg", "-v", "error", "-i", str(path), "-map", "0:a",
+             "-c:a", "pcm_s16le", "-f", "hash", "-hash", "md5", "-"])
+    out = r.stdout.strip()
+    # ffmpeg prints "md5=<hex>"; decoding is pinned to pcm_s16le so the hash is
+    # of the raw samples and cannot depend on a default encoder choice.
+    return out.split("=", 1)[1] if "=" in out else None
 
 
 def hms(sec):
@@ -118,13 +133,17 @@ def main():
             if float(meas["input_tp"]) > 0:
                 note = "⚠ clipped input — consider regenerating"
                 clipped.append(f.name)
-            # Suno occasionally hands back the same render twice — identical
-            # length + LUFS + TP is the signature. Flag it before track selection.
-            sig = (round(dur), round(float(meas["input_i"]), 1), round(float(meas["input_tp"]), 1))
-            if sig in seen:
+            # Duplicate detection is by DECODED-AUDIO HASH, not by numbers.
+            # The old signature was (rounded length, LUFS, TP), which collides
+            # constantly on an album whose tracks are deliberately the same
+            # length and character — it once flagged a variant-9 render as a
+            # copy of a variant-3 render, which have different prompts and
+            # cannot be identical. A hash is exact and never false-positives.
+            sig = audio_md5(f)
+            if sig is not None and sig in seen:
                 note = (note + "  " if note else "") + f"⧉ duplicate of {seen[sig]}"
                 dups.append((f.name, seen[sig]))
-            else:
+            elif sig is not None:
                 seen[sig] = f.name
             master(f, out_dir / (f.stem + ".wav"), prefilter, args.lufs, args.fade, meas)
             print(f"{f.name[:39]:<40} {hms(dur):>7} {float(meas['input_i']):>8.1f} "
@@ -136,7 +155,7 @@ def main():
     print(f"{'TOTAL':<40} {hms(total):>7}   ({len(files)} tracks)")
     print(f"Done → {out_dir}")
     if dups:
-        print(f"\n⧉ {len(dups)} likely duplicate(s) — same length, LUFS and true peak:")
+        print(f"\n⧉ {len(dups)} duplicate(s) — identical decoded audio:")
         for a, b in dups:
             print(f"   {a}  ==  {b}")
         print("Keep one of each pair before building the album.")
