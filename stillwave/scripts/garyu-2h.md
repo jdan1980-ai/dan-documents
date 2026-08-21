@@ -31,6 +31,13 @@
 >
 > 🔒 **Two tails, and they are not interchangeable.** Variants 1–6 use **Tail A** (percussion-free, sleep-safe). Variants 7–10 use **Tail B**, which permits *one* low taiko heartbeat at a constant, unchanging level — the drum is the samurai genre signal, and dropping it entirely costs the series its identity. Tail B still forbids every kind of build. **Rotation: run 1–6 across roughly 60% of the album and 7–10 across the rest, never two same-variant tracks adjacent.**
 >
+> 🔒 **The STYLE lead is fixed and the word `cinematic` is banned.** Every variant, Tail A and Tail B alike, opens with `Deeply meditative Japanese zen ambient for stillness and deep focus, for sleep.` — the same lead the shipped albums use (ICHIGO ICHIE, WA, KOMOREBI, SHOSHIN: 10/10 variants each, all with `for sleep`). `cinematic japanese ambient` is the MAKOTO formula — MAKOTO also carried `emotional but restrained dynamics, slow swelling and falling` and `taiko at 50 BPM entering around 0:30`, and it did 69 views. Cinematic scoring *is* a dynamic arc; the word alone tells Suno to build. Dropping `for sleep` removes the one cue that holds the floor down. **Both defects were present in GARYŪ variants 7–10 on the first pass and are the likely cause of variant 7 rendering wrong. Fixed 2026-08-21. Tracks already generated from 7–10 must be spot-checked, not trusted.**
+>
+> 🔒 **Three lines are template, not prose — copy them character-for-character from a shipped album:**
+> 1. `[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]` — the clause after the semicolon binds the *sections*, and sections are exactly where Suno builds. Truncating at `no climax]` removes the only per-section brake.
+> 2. every `[texture: …]` line ends in `, unchanging]`.
+> 3. every `[section …]` line restates the level (`at the same soft level` / `at a low even level` / `nothing grows louder` / `never swelling`). ICHIGO ICHIE does this on 30/30 section lines.
+>
 > 🔒 **Never write `hans zimmer` or `last samurai` in a Suno prompt for this series** — Content ID risk against the Sony Classical / Decca catalogue (`makoto-the-last-samurai.md` §12). It stays a text tag only.
 >
 > **🇺🇦** Музыка **никогда не нарастает** — один ровный тихий уровень от первой секунды до последней. У каждого варианта своё вступление (против Content ID). **Два хвоста:** варианты 1–5 — Хвост A, совсем без ударных (безопасно для сна); варианты 6–8 — Хвост B, где разрешён **один низкий удар тайко на постоянном неизменном уровне** — барабан это жанровый признак самурайской темы, без него серия теряет лицо, но нарастания запрещены и там. Ротация: 1–5 примерно на две трети альбома, 6–8 на остальное, одинаковые варианты не ставить подряд. 🔒 В промпты **не писать** `hans zimmer` / `last samurai`.
@@ -61,7 +68,7 @@ Deeply meditative Japanese zen ambient for stillness and deep focus, for sleep. 
 [dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: a solitary shakuhachi alone, one long bending note with audible breath, nothing underneath it for several seconds]
 [section A: a warm low drone settles in beneath at a low even level, the flute continues at the same softness]
-[section B: a koto answers far away with a few sparse notes, never a repeating pattern, long gaps between them]
+[section B: a koto answers far away with a few sparse notes, never a repeating pattern, long gaps between them, all at the same soft level]
 [section C: the flute thins to breath alone over the drone, still at the same soft level]
 [loop point: the last breath dissolves back into the opening drone with no change in volume]
 [mood: a warrior sitting alone at night with his helmet set down beside him, the danger resting, not gone]
@@ -77,14 +84,14 @@ Deeply meditative Japanese zen ambient for stillness and deep focus, for sleep. 
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
-[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: one deep bronze temple bell strike, six full seconds of decay, nothing else]
 [section A: a warm string pad rests in underneath at a low even level as the bell fades]
-[section B: sparse koto notes drift in far away, never a repeating pattern, long silences between]
+[section B: sparse koto notes drift in far away, never a repeating pattern, long silences between, all at the same soft level, nothing grows louder]
 [section C: the bell returns once, struck just as softly, everything else stays where it is]
 [loop point: the final decay dissolves into the opening resonance with no change in volume]
 [mood: a temple hall at night, armour set aside, one lamp burning]
-[texture: bronze, vast, dark, weightless]
+[texture: bronze, vast, dark, weightless, unchanging]
 ```
 
 ### Variant 3 — koto-led
@@ -96,14 +103,14 @@ Deeply meditative Japanese zen ambient for stillness and deep focus, for sleep. 
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
-[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: koto alone, four plucked notes with long gaps, like a thought half-finished]
 [section A: a warm drone eases in underneath at a low even level, the koto keeps its long silences]
-[section B: a distant shakuhachi answers with one soft phrase, then leaves again]
+[section B: a distant shakuhachi answers with one soft phrase at the same soft level, then leaves again, nothing grows]
 [section C: koto and drone alone, the plucks growing further apart, never louder]
 [loop point: the last pluck decays into the opening silence with no change in volume]
 [mood: waiting without impatience, the way a coiled thing waits]
-[texture: silk string, dark air, long empty space]
+[texture: silk string, dark air, long empty space, unchanging]
 ```
 
 ### Variant 4 — drone-pad-only opening
@@ -115,14 +122,14 @@ Deeply meditative Japanese zen ambient for stillness and deep focus, for sleep. 
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
-[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: a warm low drone alone, deep and unmoving, holding by itself for ten seconds]
 [section A: a breathy shakuhachi drifts in at the same soft level, adding colour but no volume]
 [section B: a faint bowed string layer joins underneath, the whole thing staying flat and even]
 [section C: the flute and strings thin away, the drone continues exactly as it began]
 [loop point: seamless — the drone never actually stops]
 [mood: a dark room that has been quiet for hours]
-[texture: deep, warm, enveloping, motionless]
+[texture: deep, warm, enveloping, motionless, unchanging]
 ```
 
 ### Variant 5 — singing-bowl-led
@@ -134,14 +141,14 @@ Deeply meditative Japanese zen ambient for stillness and deep focus, for sleep. 
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
-[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: one bronze singing bowl struck softly, a long shimmering decay, a calm drone already underneath]
 [section A: koto and shakuhachi drift in far away at the same soft level, blending gently]
-[section B: the instruments change colour slightly, the bowl returns once just as softly]
+[section B: the instruments change colour slightly, the bowl returns once just as softly, everything stays even and calm]
 [section C: everything thins to the drone and an occasional bowl shimmer, still at the same level]
 [loop point: the final shimmer dissolves back into the opening drone with no change in volume]
 [mood: the room after the armour is set down]
-[texture: round, bronze, warm, weightless]
+[texture: round, bronze, warm, weightless, unchanging]
 ```
 
 ### Variant 6 — night-wind-led
@@ -153,91 +160,91 @@ Deeply meditative Japanese zen ambient for stillness and deep focus, for sleep. 
 ```
 [no lyrics, no vocals, instrumental only]
 [no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
-[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: six seconds of low night wind moving around a large empty wooden hall, air under the eaves, no instrument at all]
 [section A: a breathy shakuhachi drifts in far away at a low even level, the wind continuing underneath unchanged]
 [section B: a warm drone settles beneath them both, still at the same softness]
 [section C: a koto answers with a few sparse notes, long gaps, never a repeating pattern, nothing grows]
 [loop point: the instruments thin away and the wind carries straight through the seam unchanged]
 [mood: a great dark hall at night, empty except for one man and the things he set down]
-[texture: hollow air, dark wood, distant breath]
+[texture: hollow air, dark wood, distant breath, unchanging]
 ```
 
 ### Variant 7 — distant taiko heartbeat (Tail B)
 **STYLE**
 ```
-Deeply meditative Japanese cinematic zen ambient for stillness and deep focus. One low taiko drum beats very softly and very far away like a slow resting heartbeat, always at the same quiet level; a breathy shakuhachi drifts above it, a warm low drone rests underneath, a koto answers occasionally with long gaps. Dark, patient, disciplined, unchanging. one single low taiko drum heartbeat only, struck very softly and very far away, always at the same quiet unchanging level, never louder, never faster, never closer, no drum fills, no drum rolls, no rhythmic layering, no arpeggios, free floating time with no fixed tempo elsewhere, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative Japanese zen ambient for stillness and deep focus, for sleep. One low taiko drum beats very softly and very far away like a slow resting heartbeat, always at the same quiet level; a breathy shakuhachi drifts above it, a warm low drone rests underneath, a koto answers occasionally with long gaps. Dark, patient, disciplined, unchanging. one single low taiko drum heartbeat only, struck very softly and very far away, always at the same quiet unchanging level, never louder, never faster, never closer, no drum fills, no drum rolls, no rhythmic layering, no arpeggios, free floating time with no fixed tempo elsewhere, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [one low taiko heartbeat only, very soft, very distant, always the same quiet level — never louder, never faster, never closer; no fills, no rolls]
-[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: the distant taiko heartbeat alone for several beats, soft and far away]
 [section A: a warm low drone settles underneath, the heartbeat continues unchanged]
 [section B: a breathy shakuhachi drifts above at the same soft level, the drum never grows]
 [section C: a koto answers with a few sparse notes, long gaps, everything staying flat]
 [loop point: the heartbeat carries straight through the seam without changing]
 [mood: a sleeping dragon's slow pulse — enormous, and completely at rest]
-[texture: dark, wooden, deep, distant]
+[texture: dark, wooden, deep, distant, unchanging]
 ```
 
 ### Variant 8 — biwa-led (Tail B)
 **STYLE**
 ```
-Deeply meditative Japanese cinematic zen ambient for stillness and deep focus. A biwa lute opens alone with a few sparse struck notes and their characteristic buzzing decay, long silences between them; a low taiko heartbeat enters far away and very soft and stays at that one level, a warm drone resting underneath, a shakuhachi drifting in much later. Dark, austere, old, unchanging. one single low taiko drum heartbeat only, struck very softly and very far away, always at the same quiet unchanging level, never louder, never faster, never closer, no drum fills, no drum rolls, no rhythmic layering, no arpeggios, free floating time with no fixed tempo elsewhere, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative Japanese zen ambient for stillness and deep focus, for sleep. A biwa lute opens alone with a few sparse struck notes and their characteristic buzzing decay, long silences between them; a low taiko heartbeat enters far away and very soft and stays at that one level, a warm drone resting underneath, a shakuhachi drifting in much later. Dark, austere, old, unchanging. one single low taiko drum heartbeat only, struck very softly and very far away, always at the same quiet unchanging level, never louder, never faster, never closer, no drum fills, no drum rolls, no rhythmic layering, no arpeggios, free floating time with no fixed tempo elsewhere, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [one low taiko heartbeat only, very soft, very distant, always the same quiet level — never louder, never faster, never closer; no fills, no rolls]
-[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: a biwa alone, three struck notes with their buzzing decay, long silence between each]
 [section A: the distant taiko heartbeat enters very softly and stays at that one level]
-[section B: a warm drone rests underneath, the biwa keeps its long silences, never a pattern]
+[section B: a warm drone rests underneath at a low even level, the biwa keeps its long silences, never a pattern, nothing grows louder]
 [section C: a shakuhachi drifts in far away, the biwa thins out, nothing grows]
 [loop point: the last biwa decay dissolves into the opening silence, the heartbeat unbroken]
 [mood: an old tale told quietly, centuries after the fighting ended]
-[texture: buzzing silk string, dry wood, dark air]
+[texture: buzzing silk string, dry wood, dark air, unchanging]
 ```
 
 ### Variant 9 — low bowed strings-led (Tail B)
 **STYLE**
 ```
-Deeply meditative Japanese cinematic zen ambient for stillness and deep focus. Deep bowed cello and viola open alone, very legato with no vibrato, moving slowly like deep breathing at one even level; a low taiko heartbeat enters far away and very soft and never changes, a shakuhachi and a faint koto drift above much later. Dark, wide, restrained, unchanging. one single low taiko drum heartbeat only, struck very softly and very far away, always at the same quiet unchanging level, never louder, never faster, never closer, no drum fills, no drum rolls, no rhythmic layering, no arpeggios, free floating time with no fixed tempo elsewhere, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative Japanese zen ambient for stillness and deep focus, for sleep. Deep bowed cello and viola open alone, very legato with no vibrato, moving slowly like deep breathing at one even level; a low taiko heartbeat enters far away and very soft and never changes, a shakuhachi and a faint koto drift above much later. Dark, wide, restrained, unchanging. one single low taiko drum heartbeat only, struck very softly and very far away, always at the same quiet unchanging level, never louder, never faster, never closer, no drum fills, no drum rolls, no rhythmic layering, no arpeggios, free floating time with no fixed tempo elsewhere, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [one low taiko heartbeat only, very soft, very distant, always the same quiet level — never louder, never faster, never closer; no fills, no rolls]
-[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: deep bowed cello and viola alone, very legato, no vibrato, moving like slow breathing]
 [section A: the distant taiko heartbeat enters very softly underneath and stays at that one level]
 [section B: a shakuhachi drifts above at the same soft level, the strings continue unchanged]
 [section C: a faint koto adds a few sparse notes, everything staying wide and flat]
 [loop point: the strings carry straight through the seam with no change in volume]
 [mood: restraint held for a very long time without effort]
-[texture: dark, wide, wooden, breathing]
+[texture: dark, wide, wooden, breathing, unchanging]
 ```
 
 
 ### Variant 10 — felt-piano-led (Tail B)
 **STYLE**
 ```
-Deeply meditative Japanese cinematic zen ambient for stillness and deep focus. A soft felt piano opens alone with a few single muted notes and long silences between them, never a repeating pattern; a low taiko heartbeat enters far away and very soft and stays at that one level, a warm drone rests underneath, a breathy shakuhachi drifts in much later. Dark, intimate, restrained, unchanging. one single low taiko drum heartbeat only, struck very softly and very far away, always at the same quiet unchanging level, never louder, never faster, never closer, no drum fills, no drum rolls, no rhythmic layering, no arpeggios, free floating time with no fixed tempo elsewhere, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
+Deeply meditative Japanese zen ambient for stillness and deep focus, for sleep. A soft felt piano opens alone with a few single muted notes and long silences between them, never a repeating pattern; a low taiko heartbeat enters far away and very soft and stays at that one level, a warm drone rests underneath, a breathy shakuhachi drifts in much later. Dark, intimate, restrained, unchanging. one single low taiko drum heartbeat only, struck very softly and very far away, always at the same quiet unchanging level, never louder, never faster, never closer, no drum fills, no drum rolls, no rhythmic layering, no arpeggios, free floating time with no fixed tempo elsewhere, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental
 ```
 **LYRICS**
 ```
 [no lyrics, no vocals, instrumental only]
 [one low taiko heartbeat only, very soft, very distant, always the same quiet level — never louder, never faster, never closer; no fills, no rolls]
-[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax]
+[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
 [opening: a soft felt piano alone, three single muted notes with long silence between each]
 [section A: the distant taiko heartbeat enters very softly underneath and stays at that one level]
-[section B: a warm drone rests beneath them, the piano keeps its long silences, never a pattern]
+[section B: a warm drone rests beneath them at a low even level, the piano keeps its long silences, never a pattern, nothing grows louder]
 [section C: a breathy shakuhachi drifts in far away, the piano thins out, everything staying even]
 [loop point: the last piano note decays into the opening silence, the heartbeat unbroken]
 [mood: the quiet of a man who has stopped, and is not in a hurry to start again]
-[texture: felt, dark wood, warm air, distance]
+[texture: felt, dark wood, warm air, distance, unchanging]
 ```
 
 ---

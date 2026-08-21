@@ -122,3 +122,27 @@ The Dragon Cycle is built on **public-domain cultural material** — historical 
 Standard pre-publish check still applies: upload **Unlisted** → wait 30–60 min for the Content ID scan → Studio → Copyright → if claimed, **Erase song** (never *Trim out*, it shifts every tracklist timestamp) → only then schedule Public.
 
 **🇺🇦** Серия стоит на общественном достоянии — историческая броня, идиома «спящий дракон», храмовая живопись. Ни фильма, ни композитора, ни франшизы. 🔒 В промпты Suno **не писать** `hans zimmer last samurai inspired` — по §12 MAKOTO это риск Content ID против каталога Sony Classical / Decca. Текстовые теги фингерпринт не триггерят, поэтому `hans zimmer` остаётся **только тегом**. Предпубликация как обычно: Unlisted → 30–60 мин → Copyright → при клейме **Erase song** (никогда *Trim out*).
+
+---
+
+## §6 — 🔒 Suno formula (locked for all five episodes)
+
+The channel has **two** Suno formulas in its history and they are not interchangeable. Every episode of this cycle uses the second one, without exception.
+
+| | Old formula (MAKOTO) | Current formula (ICHIGO ICHIE, WA, KOMOREBI, SHOSHIN, NAGOMI…) |
+|---|---|---|
+| STYLE lead | `cinematic japanese ambient` | `Deeply meditative Japanese zen ambient …, for sleep.` |
+| Dynamics | `emotional but restrained dynamics, slow swelling and falling` | flat, `no crescendo, no swell, no build … no climax` |
+| Percussion | `taiko heartbeat at 50 BPM entering around 0:30` | none, or one unchanging heartbeat with no BPM and no timed entry |
+| Result | **69 views** | the albums the channel actually runs on |
+
+🔒 **`cinematic` is banned from every Suno STYLE line in this series.** Cinematic scoring *is* a dynamic arc — the word alone instructs Suno to build, which is the one thing this channel's music must never do. `for sleep` is mandatory in the lead; it is the cue that holds the floor down. Both were violated in GARYŪ variants 7–10 on the first pass (fixed 2026-08-21) and are the likely cause of variant 7 rendering wrong.
+
+🔒 **Three lines are template, not prose.** Copy them character-for-character out of a shipped album rather than rewriting them from the concept:
+1. `[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]` — the clause after the semicolon is what binds the *sections*, and sections are where Suno builds. Truncating at `no climax]` removes the only per-section brake.
+2. every `[texture: …]` line ends `, unchanging]`.
+3. every `[section …]` line restates the level. ICHIGO ICHIE: 30/30 section lines do.
+
+**Method note — the actual lesson.** GARYŪ §1 was written fresh from the episode's concept instead of being diffed against the shipped scripts. Every one of the four defects above is invisible when you read the new prompts on their own and obvious the moment you put them next to `ichigo-ichie-2h.md`. **Before generating any episode's music, diff its §1 against the most recent shipped album's §1.** Do not write Suno prompts from scratch.
+
+**🇺🇦** У канала две формулы Suno, и они не взаимозаменяемы. MAKOTO — `cinematic` + нарастания + taiko на 50 BPM = 69 просмотров. Текущая — `Deeply meditative … for sleep`, ровная динамика, без BPM. 🔒 Слово `cinematic` в этой серии **запрещено** (кинематографическая партитура — это и есть динамическая дуга), `for sleep` обязателен. Три строки — шаблон, а не проза: полная строка `[dynamics: …]` со второй половиной после точки с запятой, `[texture: …, unchanging]`, и уровень повторён в каждой `[section …]`. **Главный вывод: перед генерацией музыки любого эпизода сверять его §1 с §1 последнего вышедшего альбома, а не писать промты с нуля.**
