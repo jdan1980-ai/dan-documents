@@ -283,8 +283,10 @@ Get-FileHash "<folder>\*.wav" -Algorithm MD5 | Group-Object Hash | Where-Object 
 | Foreign files removed | 4 × ICHIGO ICHIE (14:17) |
 | Clipped input (TP > 0 dB) | none — nothing needs regenerating on that count |
 | **Usable** | **29 tracks · 1:47:04** |
-| Short of 2:00:00 by | 12:56 → ~4 more tracks |
-| Thin variants to top up | 6 (×1), 7 (×1), 2 (×2), 4 (×2) |
+| Short of 2:00:00 by | 12:56 → topped up with 4 more generations (8 tracks, 28:49) from the **corrected** §1 prompts |
+| After the top-up | 37 tracks · 2:15:53 — over the 2H cap by 15:53 |
+| Cut on suspicion of building | `GARYŪ_7` (taiko-led, pre-fix prompt) + `8 (2)`, `10 (3)`, `9`, `9 (1)` |
+| **Final album** | **32 tracks · 1:58:05** — order locked below |
 
 Input loudness spanned −12.8 to −16.6 LUFS. Mastering flattens that, but the figure is a useful hint about character: the quietest arrivals with the most headroom (all four variant-1 renders came in at ≈ −16 LUFS / −4.7 dB TP) are the calmest material, and the hottest (`GARYŪ_9.wav`, −12.8 LUFS / −1.0 dB TP) is the densest. When two candidates are otherwise equal, drop the hotter one.
 
@@ -307,6 +309,121 @@ Emits the `0:00 Title` lines for §8 directly. `names.txt` is one title per line
 ⚠️ The timestamps are computed from the source files, so they are only correct if CapCut lays the tracks down **in that exact order, butt-jointed, with no crossfades and no gaps**. Any dissolve between tracks shifts everything after it.
 
 **🇺🇦** Оба инструмента уже написаны, руками ничего не считать. Первый — мастеринг в один уровень по всему альбому плюс длины, ОБЩЕЕ ВРЕМЯ и поиск дублей (Suno иногда отдаёт один и тот же рендер дважды). Второй — сразу выдаёт строки `0:00 Название` для §8; `names.txt` — по одному названию на строку **в финальном порядке**. ⚠️ Таймкоды считаются по файлам, поэтому верны только если в CapCut треки лежат встык, **без кроссфейдов и без зазоров**. Любое растворение между треками сдвинет всё, что после него.
+
+### 🔒 Final order — locked 2026-08-21
+
+**32 tracks · 1:58:05.** Not round-robin: the rotation was visible as a pattern, so the order is a constrained random shuffle (seed 1729) under three rules — no two tracks of the same variant adjacent, no two Tail-B (taiko) tracks adjacent, and no variant confined to one half of the album. Track 1 is a variant-1 render on purpose: a solitary shakuhachi is identifiable from the first second, and the wisdom overlay lands over it.
+
+`V*` = Suno variant from §1. `E*` = the four re-generated pairs from the corrected prompts (see the §1 fix note) — their variant mapping was not recorded at generation time, so they are tracked as four distinct pairs.
+
+| # | var | file mask | title |
+|---|---|---|---|
+| 1 | V1 | `02_*_1 (4).wav` | The Helmet Set Down |
+| 2 | E2 | `01_*_extra_2 (1).wav` | A Dragon Lying Still |
+| 3 | V9 | `02_*_9 (3).wav` | The Weight He Puts Aside |
+| 4 | V3 | `02_*_3 (2).wav` | Smoke Finds Its Own Shape |
+| 5 | V10 | `02_*_10 (2).wav` | Nothing Is Being Guarded |
+| 6 | V5 | `02_*_5 (2).wav` | Two Swords, Not Drawn |
+| 7 | E0 | `01_*_extra.wav` | The Room Holds Its Breath |
+| 8 | E1 | `01_*_extra_1.wav` | Gold Leaf in Low Light |
+| 9 | V2 | `02_*_2 (1).wav` | Far Off, a Bell |
+| 10 | E1 | `01_*_extra_1 (1).wav` | Power With Nowhere to Go |
+| 11 | V8 | `02_*_8 (3).wav` | The Coil Loosens |
+| 12 | V5 | `02_*_5.wav` | He Does Not Reach for It |
+| 13 | E3 | `01_*_extra_3 (1).wav` | Sleeping in the Gold |
+| 14 | E0 | `01_*_extra (1).wav` | One Ember in the Burner |
+| 15 | V4 | `02_*_4 (1).wav` | The Iron Cools Slowly |
+| 16 | V10 | `02_*_10 (1).wav` | A Stillness That Is Not Rest |
+| 17 | V3 | `02_*_3.wav` | Lacquer and Quiet |
+| 18 | V2 | `02_*_2.wav` | The Dragon Above the Sleeper |
+| 19 | V5 | `02_*_5 (3).wav` | Breath Under the Eaves |
+| 20 | V8 | `02_*_8 (1).wav` | Nothing Asked of Him Tonight |
+| 21 | V5 | `02_*_5 (1).wav` | The Cord Untied |
+| 22 | V1 | `02_*_1.wav` | What the Mask Remembers |
+| 23 | V9 | `02_*_9 (2).wav` | Strength That Chooses Silence |
+| 24 | V1 | `02_*_1 (2).wav` | The Smoke Turns Once |
+| 25 | V4 | `02_*_4.wav` | Hands Open on His Knees |
+| 26 | E2 | `01_*_extra_2.wav` | Old Ink, Older Gold |
+| 27 | E3 | `01_*_extra_3.wav` | The Night Does Not Move |
+| 28 | V3 | `02_*_3 (1).wav` | A Blade That Stays Sheathed |
+| 29 | V6 | `02_*_6.wav` | What Waits Without Waiting |
+| 30 | V10 | `02_*_10.wav` | The Lamp Beyond the Door |
+| 31 | V1 | `02_*_1 (3).wav` | He Will Rise, But Not Now |
+| 32 | V8 | `02_*_8.wav` | Morning Is Still Far |
+
+Cut from the batch before ordering: `GARYŪ_7` (taiko-led, from the pre-fix prompt) and `8 (2)`, `10 (3)`, `9`, `9 (1)` — the four highest true peaks (−0.8 to −1.0 dBTP) against −4.6 to −5.2 on the known-flat variant-1 group. Loudness is a proxy for "this one builds", not proof; `3 (2)` sits in the same range on a clean Tail-A prompt and stayed in.
+
+Spare titles, unused: `The Long Hour After` · `The Last Coil Fades` · `Where the Dragon Sleeps` · `Before the Armour Comes Off`
+
+#### names.txt (final playing order — feed to `tracklist-timestamps.py`)
+
+```
+The Helmet Set Down
+A Dragon Lying Still
+The Weight He Puts Aside
+Smoke Finds Its Own Shape
+Nothing Is Being Guarded
+Two Swords, Not Drawn
+The Room Holds Its Breath
+Gold Leaf in Low Light
+Far Off, a Bell
+Power With Nowhere to Go
+The Coil Loosens
+He Does Not Reach for It
+Sleeping in the Gold
+One Ember in the Burner
+The Iron Cools Slowly
+A Stillness That Is Not Rest
+Lacquer and Quiet
+The Dragon Above the Sleeper
+Breath Under the Eaves
+Nothing Asked of Him Tonight
+The Cord Untied
+What the Mask Remembers
+Strength That Chooses Silence
+The Smoke Turns Once
+Hands Open on His Knees
+Old Ink, Older Gold
+The Night Does Not Move
+A Blade That Stays Sheathed
+What Waits Without Waiting
+The Lamp Beyond the Door
+He Will Rise, But Not Now
+Morning Is Still Far
+```
+
+#### Lay the mastered files out in this order
+
+`master-album.py` writes `<folder>-mastered/` with the same names. This copies them into a numbered folder so CapCut imports in order; masks avoid having to type `Ū`.
+
+```powershell
+$Src = "$env:USERPROFILE\OneDrive\Desktop\SUNO-GARYU-FINAL-mastered"
+$Out = "$env:USERPROFILE\OneDrive\Desktop\GARYU-ALBUM"
+$Order = @(
+ "02_*_1 (4).wav", "01_*_extra_2 (1).wav", "02_*_9 (3).wav", "02_*_3 (2).wav",
+ "02_*_10 (2).wav", "02_*_5 (2).wav", "01_*_extra.wav", "01_*_extra_1.wav",
+ "02_*_2 (1).wav", "01_*_extra_1 (1).wav", "02_*_8 (3).wav", "02_*_5.wav",
+ "01_*_extra_3 (1).wav", "01_*_extra (1).wav", "02_*_4 (1).wav", "02_*_10 (1).wav",
+ "02_*_3.wav", "02_*_2.wav", "02_*_5 (3).wav", "02_*_8 (1).wav",
+ "02_*_5 (1).wav", "02_*_1.wav", "02_*_9 (2).wav", "02_*_1 (2).wav",
+ "02_*_4.wav", "01_*_extra_2.wav", "01_*_extra_3.wav", "02_*_3 (1).wav",
+ "02_*_6.wav", "02_*_10.wav", "02_*_1 (3).wav", "02_*_8.wav"
+)
+Remove-Item $Out -Recurse -Force -ErrorAction SilentlyContinue
+New-Item -ItemType Directory -Path $Out | Out-Null
+$i = 0; $err = 0
+foreach ($p in $Order) {
+  $i++
+  $m = @(Get-ChildItem $Src -Filter *.wav | Where-Object { $_.Name -like $p })
+  if ($m.Count -ne 1) { Write-Host ("{0:d2}  !! {1} -> {2} matches" -f $i,$p,$m.Count) -ForegroundColor Red; $err++; continue }
+  Copy-Item $m[0].FullName (Join-Path $Out ("{0:d2} - {1}" -f $i, $m[0].Name))
+}
+Write-Host ("`n{0} files, errors: {1}" -f (Get-ChildItem $Out -Filter *.wav).Count, $err)
+```
+
+Expect `32 files, errors: 0`. Each mask must match exactly one file — the script stops and reports if any matches zero or more than one.
+
+**🇺🇦** Порядок случайный (сид 1729) при трёх ограничениях: одинаковые варианты не подряд, тайко не подряд, ни один вариант не зажат в одной половине. Первый трек — вариант 1: одинокая сякухати опознаётся с первой секунды, под неё же ложится wisdom-плашка. Снято перед сборкой: `GARYŪ_7` и четыре самых горячих по пику из вариантов 8/9/10. Громкость — косвенный признак нарастания, не доказательство.
 
 ### Track-name pool
 
