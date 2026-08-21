@@ -251,6 +251,38 @@ Deeply meditative Japanese cinematic zen ambient for stillness and deep focus. A
 - Lay down in CapCut in the chosen order, then generate §8's tracklist from the files (below).
 - **🇺🇦** Цель ~2:00:00. Генерим 36–40, оставляем спокойные ~33. Варианты чередуем по кругу, одинаковые подряд не ставим. Треки с тайко (хвост B) равномерно размазываем по альбому, не кучей. Всё, что нарастает, светлеет или резко обрывается — в брак.
 
+### 🔒 Pre-flight before mastering — two checks that cost nothing
+
+Both of these came out of the GARYŪ batch and both would have shipped silently.
+
+**1. Purge foreign albums from the folder.** Four `ICHIGO_ICHIE_*.wav` files were sitting in `SUNO-GARYŪ` — 14:17 of the previous album's music, which would have been mastered and laid into this one. Sort by name and delete anything whose prefix is not this episode's before doing anything else.
+
+**2. Find duplicates by hash, never by ear or by numbers.** Suno returns the same render twice often enough to matter, and the browser names the second copy `X (1).wav`.
+
+```powershell
+Get-FileHash "<folder>\*.wav" -Algorithm MD5 | Group-Object Hash | Where-Object Count -gt 1 | ForEach-Object { $_.Group.Path }
+```
+
+`master-album.py` now does the same check internally (MD5 of decoded PCM). It used to guess from rounded length + LUFS + true peak and false-positived on this batch — flagging a variant-9 render as a copy of a variant-3 render, which have different prompts and cannot be the same audio. On an album whose tracks are deliberately the same length and character, that heuristic collides by chance; a hash cannot.
+
+**🇺🇦** Обе проверки — из партии GARYŪ, и обе прошли бы незамеченными. (1) В папке лежали четыре файла `ICHIGO_ICHIE_*` — 14:17 музыки прошлого альбома, которая ушла бы в мастеринг и в этот. Сначала отсортировать по имени и удалить всё, что не с префиксом текущего эпизода. (2) Дубли искать **хешем**, не на слух и не по числам: Suno регулярно отдаёт один рендер дважды, а браузер называет вторую копию `X (1).wav`. Старая эвристика по округлённым длине/LUFS/пику дала ложное срабатывание на этой же партии.
+
+### As built (2026-08-21)
+
+| | |
+|---|---|
+| Rendered | 30 GARYŪ tracks |
+| Real duplicates (hash-confirmed) | 1 — `GARYŪ_1.wav` == `GARYŪ_1 (1).wav` |
+| Foreign files removed | 4 × ICHIGO ICHIE (14:17) |
+| Clipped input (TP > 0 dB) | none — nothing needs regenerating on that count |
+| **Usable** | **29 tracks · 1:47:04** |
+| Short of 2:00:00 by | 12:56 → ~4 more tracks |
+| Thin variants to top up | 6 (×1), 7 (×1), 2 (×2), 4 (×2) |
+
+Input loudness spanned −12.8 to −16.6 LUFS. Mastering flattens that, but the figure is a useful hint about character: the quietest arrivals with the most headroom (all four variant-1 renders came in at ≈ −16 LUFS / −4.7 dB TP) are the calmest material, and the hottest (`GARYŪ_9.wav`, −12.8 LUFS / −1.0 dB TP) is the densest. When two candidates are otherwise equal, drop the hotter one.
+
+**🇺🇦** Разброс входной громкости −12.8…−16.6 LUFS. Мастеринг это выравнивает, но цифра — подсказка о характере: пришедшие тихо и с запасом (все четыре варианта 1, ≈ −16 LUFS / −4.7 дБ) — самый спокойный материал, а самый горячий (`GARYŪ_9.wav`) — самый плотный. При прочих равных выкидывать более горячий.
+
 ### Use the existing tools — do not do this by hand
 
 Both already live in `stillwave/tools/` and cover the whole job:
