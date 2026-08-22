@@ -292,6 +292,25 @@ Input loudness spanned −12.8 to −16.6 LUFS. Mastering flattens that, but the
 
 **🇺🇦** Разброс входной громкости −12.8…−16.6 LUFS. Мастеринг это выравнивает, но цифра — подсказка о характере: пришедшие тихо и с запасом (все четыре варианта 1, ≈ −16 LUFS / −4.7 дБ) — самый спокойный материал, а самый горячий (`GARYŪ_9.wav`) — самый плотный. При прочих равных выкидывать более горячий.
 
+### 🔒 Check for builds with numbers, not by ear
+
+The channel's first rule is that the music must never build, and it is the one rule that cannot be verified by listening — nobody re-listens to two hours of ambient. `stillwave/tools/check-build.py` answers it directly:
+
+```
+python3 stillwave/tools/check-build.py "SUNO-GARYU-FINAL-mastered"
+python3 stillwave/tools/check-build.py "SUNO-GARYU-FINAL-mastered" --quiet
+```
+
+It prints, per track, the mean RMS of each third, the linear trend, the quietest and loudest 30-second window, and a one-line sparkline. **The number that matters is second third → third third.** A rise inside the *first* third is normal and usually scripted — many variants open on silence, wind or a single strike and let instruments arrive. A rise in the back half is a build. Over +1.5 dB flags for a listen, over +3 dB is a reject.
+
+Two readings that look alarming and are not:
+- **1-second RMS spread of 12–18 dB** is normal for sparse ambient — one koto pluck against a gap. Judge the trend, never the spread.
+- **peak above 0 dBFS on an mp3.** Suno's mp3 export is louder than its own wav export of the same render: `GARYŪ_extra_1.mp3` decodes to **+2.04 dBFS** while the wav measured **−3.1 dBTP**. That is an export artefact, not a problem with the music. 🔒 **Only wavs from the `-mastered` folder go into CapCut; mp3s are listening copies.**
+
+This replaces the loudness proxy used during the GARYŪ cull. Input LUFS and true peak hint at density, but they do not distinguish a dense-and-flat track from one that builds — only the envelope does. Run this before culling on the next episode.
+
+**🇺🇦** Главное правило канала — музыка не нарастает — единственное, что нельзя проверить на слух: два часа эмбиента никто не переслушает. Скрипт печатает по каждому треку средний RMS по третям, тренд, самое тихое и громкое 30-секундное окно и форму одной строкой. **Смотреть на переход вторая треть → третья.** Подъём в первой трети — норма, так задуманы вступления. Больше +1.5 дБ во второй половине — переслушать, больше +3 дБ — брак. Не пугаться: разброс односекундного RMS 12–18 дБ для разреженного эмбиента нормален, а пик выше 0 у mp3 — это особенность экспорта Suno (mp3 громче своего же wav: +2.04 dBFS против −3.1 dBTP), в монтаж берём только wav.
+
 ### Use the existing tools — do not do this by hand
 
 Both already live in `stillwave/tools/` and cover the whole job:
