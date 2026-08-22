@@ -757,13 +757,56 @@ The power is all still there — it is simply not being used.
 The phrase has always described the master who has not yet risen: the strategist called the Sleeping Dragon long before he took the field, the swordsman who never reaches for the blade. Here it is the hour after the fighting — the helmet set down, the swords laid on their rack, the room quiet and still full of what the man is capable of. Two hours of shakuhachi, koto, distant temple bell and a slow resting drum, to work, think or sleep inside that kind of stillness.
 
 Tracklist:
-0:00 [fill from CapCut export after mastering]
+0:00 The Helmet Set Down
+4:17 A Dragon Lying Still
+8:02 The Weight He Puts Aside
+11:32 Smoke Finds Its Own Shape
+15:12 Nothing Is Being Guarded
+18:46 Two Swords, Not Drawn
+22:24 The Room Holds Its Breath
+25:52 Gold Leaf in Low Light
+29:16 Far Off, a Bell
+32:16 Power With Nowhere to Go
+35:55 The Coil Loosens
+39:40 He Does Not Reach for It
+43:18 Sleeping in the Gold
+46:53 One Ember in the Burner
+50:07 The Iron Cools Slowly
+54:00 A Stillness That Is Not Rest
+58:10 Lacquer and Quiet
+1:02:10 The Dragon Above the Sleeper
+1:05:43 Breath Under the Eaves
+1:09:33 Nothing Asked of Him Tonight
+1:12:47 The Cord Untied
+1:16:22 What the Mask Remembers
+1:20:12 Strength That Chooses Silence
+1:24:07 The Smoke Turns Once
+1:28:12 Hands Open on His Knees
+1:32:40 Old Ink, Older Gold
+1:37:09 The Night Does Not Move
+1:40:24 A Blade That Stays Sheathed
+1:43:48 What Waits Without Waiting
+1:47:07 The Lamp Beyond the Door
+1:50:50 He Will Rise, But Not Now
+1:55:00 Morning Is Still Far
 
 🐉 The dragon is not asleep because it is weak.
 ⚔️ Rest is what strength looks like when it is not needed.
 
 Subscribe for more Japanese ambient meditation journeys 🌿
 ```
+
+---
+
+⚠️ **These timestamps are computed from the mastering table's rounded per-track lengths.** Summed, they give 1:58:05 against the real album total of **1:58:03** — two seconds of accumulated rounding across 32 tracks, so the last few entries can sit up to ~2 s late. Good enough to publish, but regenerate exactly from the laid-out files before the final upload:
+
+```
+python3 stillwave/tools/tracklist-timestamps.py "GARYU-ALBUM" --names names.txt
+```
+
+They are only correct if CapCut lays the tracks down **butt-jointed, in this order, with no crossfades and no gaps** — any dissolve shifts everything after it.
+
+**🇺🇦** Таймкоды посчитаны по округлённым длинам из таблицы мастеринга: в сумме 1:58:05 против реальных 1:58:03, то есть к концу набегает пара секунд. Публиковать можно, но перед финальной загрузкой пересчитать точно по разложенным файлам командой выше. Верны только если в CapCut треки лежат встык, в этом порядке, без кроссфейдов и зазоров.
 
 ---
 
