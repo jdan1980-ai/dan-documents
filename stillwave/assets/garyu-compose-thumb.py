@@ -40,7 +40,7 @@ JP_CANDIDATES = [
     "/usr/share/fonts/truetype/fonts-japanese-gothic.ttf",  # запасной, гротеск
 ]
 
-CROP = (900, 90, 1494)          # x, y, ширина в координатах героя; высота = 9/16
+CROP = None                     # кадр героя не режем — только текст поверх
 KANJI, ROMAJI, GLOSS = "臥龍", "Seichū no dō", "MOVEMENT  WITHIN  STILLNESS"
 WISDOM_KANJI = "静中動"
 
@@ -62,33 +62,36 @@ def opaque_bbox(img, pct=True):
 
 
 def build_thumb(hero, out):
-    x, y, w = CROP
-    h = round(w * 9 / 16)
-    y = min(y, hero.size[1] - h)
-    th = hero.crop((x, y, x + w, y + h)).resize((1280, 720), Image.LANCZOS)
+    if CROP:
+        x, y, w = CROP
+        h = round(w * 9 / 16)
+        y = min(y, hero.size[1] - h)
+        hero = hero.crop((x, y, x + w, y + h))
+    th = hero.resize((1280, 720), Image.LANCZOS)
     TW, TH = th.size
     layer = Image.new("RGBA", (TW, TH), (0, 0, 0, 0))
 
     # 臥龍 縦書き слева, тёмный ореол — золото по золоту иначе тонет
-    size = 124
+    # тёмная вертикальная полоса на стыке панелей ширмы: x 20–28%, яркость 22–27
+    size = 118
     fk = jp_font(size)
-    kx, ky = int(TW * 0.042), int(TH * 0.09)
+    kx, ky = int(TW * 0.205), int(TH * 0.06)
     halo = Image.new("RGBA", (TW, TH), (0, 0, 0, 0))
     dh = ImageDraw.Draw(halo)
     for i, c in enumerate(KANJI):
-        dh.text((kx, ky + i * int(size * 1.17)), c, font=fk, fill=(0, 0, 0, 195))
+        dh.text((kx, ky + i * int(size * 1.18)), c, font=fk, fill=(0, 0, 0, 190))
     layer = Image.alpha_composite(layer, halo.filter(ImageFilter.GaussianBlur(28)))
     dl = ImageDraw.Draw(layer)
     for i, c in enumerate(KANJI):
-        dl.text((kx, ky + i * int(size * 1.17)), c, font=fk, fill=GOLD + (255,))
+        dl.text((kx, ky + i * int(size * 1.18)), c, font=fk, fill=GOLD + (255,))
 
     # GARYŪ низом по тёмному переднему плану, мягкий скрим вместо обводки
-    fg = ImageFont.truetype(LS, 84)
+    fg = ImageFont.truetype(LS, 76)
     tw = dl.textlength("GARYŪ", font=fg)
-    gx, gy = int(TW * 0.042), int(TH * 0.80)
+    gx, gy = int(TW * 0.055), int(TH * 0.835)
     scr = Image.new("RGBA", (TW, TH), (0, 0, 0, 0))
     ImageDraw.Draw(scr).rounded_rectangle(
-        [gx - 34, gy - 24, gx + tw + 34, gy + 100], 30, fill=(0, 0, 0, 125))
+        [gx - 30, gy - 20, gx + tw + 30, gy + 92], 28, fill=(0, 0, 0, 115))
     layer = Image.alpha_composite(scr.filter(ImageFilter.GaussianBlur(30)), layer)
     ImageDraw.Draw(layer).text((gx, gy), "GARYŪ", font=fg, fill=GOLD + (255,))
 
@@ -98,8 +101,7 @@ def build_thumb(hero, out):
 
     g = np.asarray(res.convert("L"), dtype=np.float32)
     corner = g[int(TH * 0.78):, int(TW * 0.80):].mean()
-    print(f"thumb   шлем {(2393 - 1484) / w * 100:.0f}% ширины -> {(2393 - 1484) / w * 168:.0f}px в ленте")
-    print(f"        угол логотипа: яркость {corner:.0f} {'ok' if corner < 60 else 'СВЕТЛО'}")
+    print(f"thumb   угол логотипа: яркость {corner:.0f} {'ok' if corner < 60 else 'СВЕТЛО'}")
     print("        текст: x {:.1f}–{:.1f}%  y {:.1f}–{:.1f}%".format(*opaque_bbox(layer)))
 
 
