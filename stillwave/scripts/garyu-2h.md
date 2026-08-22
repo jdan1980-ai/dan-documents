@@ -804,6 +804,18 @@ GARYŪ (臥龍) in Japanese Culture: A Concise Overview
 
 **🇺🇦** Два правила, которые нельзя пропустить: (1) **безопасная зона** — интерфейс Shorts съедает низ ~24%, правый край ~17%, верх ~7%; весь текст обязан лежать в `y 150–1450`, `x 60–880`, то есть в средне-нижней трети, а не у самого низа; перед отправкой **замерить bounding box и вывести числа**, на глаз не проверять. (2) **Никакого `zoompan`** — он даёт рывки; кадры рендерить в PIL по дробным координатам (LANCZOS), потом энкодить; перед отправкой взять ~25 подряд идущих кадров из готового файла: замерших 0, CV < 0.25.
 
+### As generated (2026-08-21) — what the six frames actually came back as
+
+All six usable, no regenerations. Recorded so the remaining four episodes inherit it:
+
+- **fr1, fr3, fr4, fr6 landed on spec.** fr1 in particular: the menpō reads as the brightest, highest-contrast object and survives thumbnail width, which is the whole job of that frame.
+- **fr6's smoke is the correct reference, fr2's is not.** In fr6 the column reads as a thin believable wisp. In fr2, asking for smoke that coils "in the unmistakable serpentine shape of a dragon" *beside a seated figure* produced a small hard-outlined white dragon that reads as a pasted sticker. The literal-dragon wording works when the smoke is the subject of the frame (fr5) and fails when it is a background element. **For a frame where the figure is the subject, describe the smoke as smoke — one thin column drifting upward — and let fr5 carry the dragon shape.**
+- **fr5 overshot in a useful direction.** The generator gave a fully articulated dragon — scales, claws, a defined head — rather than smoke suggesting one. As a still it is the strongest frame after fr1. 🔒 **Do not carry that wording into the Veo prompt (§4/§5b):** the loop depends on the smoke being smoke, because that is the only reason the model's instability reads as correct behaviour. A rendered creature at that detail will morph and break the seam.
+- **Aspect:** the generator returns 768×1376 (0.558), not a true 9:16 (0.5625). Matched to 1080 wide that is 1080×1935 — 15 px of vertical excess to crop. Harmless under Ken Burns, but do not assume the file is already 9:16.
+- **Safe zone in source pixels.** `y 150–1450 / x 60–880` of 1080×1920 maps to **y 112–1036, x 43–626** of a 768×1376 source. Two frames sit against it: fr1's helmet crest tops out at y≈110 (crop inward or the horns clip), and fr5's incense burner sits at y≈1150–1290, entirely under the UI — raise the crop so its upper rim stays visible, otherwise the smoke rises from nothing.
+
+**🇺🇦** Все шесть годные, перегенерации не потребовалось. fr1/fr3/fr4/fr6 — по спеке. Дым: в fr6 правильный (тонкая струйка), в fr2 — нет: формулировка «дым в форме дракона» рядом с фигурой даёт маленького белого дракона-наклейку. Там, где субъект кадра — человек, дым описывать как дым; форму дракона несёт fr5. fr5 перевыполнил — полноценный дракон с чешуёй; 🔒 в промпт Veo это не переносить, луп держится именно на том, что дым остаётся дымом. Формат файлов 768×1376, а не честные 9:16. Безопасная зона в координатах исходника — y 112–1036, x 43–626; у fr1 гребень на y≈110 (подрезать внутрь), у fr5 курильница целиком под интерфейсом (поднять кадр).
+
 ### Storyboard (≈30s)
 
 | Time | Frame | Overlay (inside safe zone) |
@@ -815,7 +827,7 @@ GARYŪ (臥龍) in Japanese Culture: A Concise Overview
 | 0:20–0:26 | `fr4` kanji frame, gold screen | *The power is simply not in use.* |
 | 0:26–0:32 | `fr6` wide room, dissolving | *2 hours · Japanese Samurai Ambience* → subscribe |
 
-- **Audio:** pull the calmest Variant 7 track (distant taiko heartbeat) — the pulse gives the Short a spine the flat variants can't.
+- **Audio:** a Tail-B track — the taiko pulse gives the Short a spine the flat variants can't. ⚠️ Variant 7 was cut from the album (taiko-led, generated from the pre-fix `cinematic` prompt), so the pick is **variant 10** — felt piano over a distant heartbeat. `GARYŪ_10 (1)` (−16.4 LUFS / −1.6 dBTP) and `GARYŪ_10` (−16.1 / −1.7) arrived quietest of the whole Tail-B group and are the two calmest candidates.
 - **Font/colour:** Liberation Serif Bold, cream `#F5EAD2` — the one locked channel font, no glow, no shadow, no box.
 - **Playlist:** StillWave Shorts — Japanese Zen & Frequencies (all Shorts, always).
 
