@@ -337,77 +337,77 @@ Emits the `0:00 Title` lines for §8 directly. `names.txt` is one title per line
 
 | # | var | file mask | title |
 |---|---|---|---|
-| 1 | V1 | `02_*_1 (4).wav` | The Helmet Set Down |
-| 2 | E2 | `01_*_extra_2 (1).wav` | A Dragon Lying Still |
-| 3 | V9 | `02_*_9 (3).wav` | The Weight He Puts Aside |
-| 4 | V3 | `02_*_3 (2).wav` | Smoke Finds Its Own Shape |
-| 5 | V10 | `02_*_10 (2).wav` | Nothing Is Being Guarded |
-| 6 | V5 | `02_*_5 (2).wav` | Two Swords, Not Drawn |
-| 7 | E0 | `01_*_extra.wav` | The Room Holds Its Breath |
-| 8 | E1 | `01_*_extra_1.wav` | Gold Leaf in Low Light |
+| 1 | V1 | `02_*_1 (4).wav` | Where the Helmet Rests |
+| 2 | E2 | `01_*_extra_2 (1).wav` | A Dragon, Lying Down |
+| 3 | V9 | `02_*_9 (3).wav` | Strength Left Unspent |
+| 4 | V3 | `02_*_3 (2).wav` | Smoke Learns Its Shape |
+| 5 | V10 | `02_*_10 (2).wav` | Nothing Guards This Room |
+| 6 | V5 | `02_*_5 (2).wav` | Two Sheaths, One Rack |
+| 7 | E0 | `01_*_extra.wav` | Breath Under the Eaves |
+| 8 | E1 | `01_*_extra_1.wav` | Gold Older Than the Man |
 | 9 | V2 | `02_*_2 (1).wav` | Far Off, a Bell |
-| 10 | E1 | `01_*_extra_1 (1).wav` | Power With Nowhere to Go |
-| 11 | V8 | `02_*_8 (3).wav` | The Coil Loosens |
-| 12 | V5 | `02_*_5.wav` | He Does Not Reach for It |
-| 13 | E3 | `01_*_extra_3 (1).wav` | Sleeping in the Gold |
-| 14 | E0 | `01_*_extra (1).wav` | One Ember in the Burner |
-| 15 | V4 | `02_*_4 (1).wav` | The Iron Cools Slowly |
-| 16 | V10 | `02_*_10 (1).wav` | A Stillness That Is Not Rest |
-| 17 | V3 | `02_*_3.wav` | Lacquer and Quiet |
-| 18 | V2 | `02_*_2.wav` | The Dragon Above the Sleeper |
-| 19 | V5 | `02_*_5 (3).wav` | Breath Under the Eaves |
-| 20 | V8 | `02_*_8 (1).wav` | Nothing Asked of Him Tonight |
-| 21 | V5 | `02_*_5 (1).wav` | The Cord Untied |
-| 22 | V1 | `02_*_1.wav` | What the Mask Remembers |
-| 23 | V9 | `02_*_9 (2).wav` | Strength That Chooses Silence |
-| 24 | V1 | `02_*_1 (2).wav` | The Smoke Turns Once |
-| 25 | V4 | `02_*_4.wav` | Hands Open on His Knees |
-| 26 | E2 | `01_*_extra_2.wav` | Old Ink, Older Gold |
-| 27 | E3 | `01_*_extra_3.wav` | The Night Does Not Move |
+| 10 | E1 | `01_*_extra_1 (1).wav` | Power With No Errand |
+| 11 | V8 | `02_*_8 (3).wav` | Coils That Do Not Tighten |
+| 12 | V5 | `02_*_5.wav` | He Does Not Reach |
+| 13 | E3 | `01_*_extra_3 (1).wav` | The Old Ink Sleeps |
+| 14 | E0 | `01_*_extra (1).wav` | Ember in the Bronze |
+| 15 | V4 | `02_*_4 (1).wav` | Iron Cooling on Its Stand |
+| 16 | V10 | `02_*_10 (1).wav` | At Ease, and Enormous |
+| 17 | V3 | `02_*_3.wav` | Lacquer and Long Silence |
+| 18 | V2 | `02_*_2.wav` | Painted Scales, Faded Gold |
+| 19 | V5 | `02_*_5 (3).wav` | Waiting Without Impatience |
+| 20 | V8 | `02_*_8 (1).wav` | Nothing Is Asked Tonight |
+| 21 | V5 | `02_*_5 (1).wav` | The Cord Hangs Loose |
+| 22 | V1 | `02_*_1.wav` | What the Mask Keeps |
+| 23 | V9 | `02_*_9 (2).wav` | Quiet That Was Earned |
+| 24 | V1 | `02_*_1 (2).wav` | One Slow Turn of Smoke |
+| 25 | V4 | `02_*_4.wav` | Hands Open on the Knees |
+| 26 | E2 | `01_*_extra_2.wav` | Older Than Anyone Here |
+| 27 | E3 | `01_*_extra_3.wav` | Night Holds Its Place |
 | 28 | V3 | `02_*_3 (1).wav` | A Blade That Stays Sheathed |
-| 29 | V6 | `02_*_6.wav` | What Waits Without Waiting |
-| 30 | V10 | `02_*_10.wav` | The Lamp Beyond the Door |
-| 31 | V1 | `02_*_1 (3).wav` | He Will Rise, But Not Now |
+| 29 | V6 | `02_*_6.wav` | Wind Finds the Doorway |
+| 30 | V10 | `02_*_10.wav` | A Lamp Beyond the Wall |
+| 31 | V1 | `02_*_1 (3).wav` | He Will Rise Later |
 | 32 | V8 | `02_*_8.wav` | Morning Is Still Far |
 
 Cut from the batch before ordering: `GARYŪ_7` (taiko-led, from the pre-fix prompt) and `8 (2)`, `10 (3)`, `9`, `9 (1)` — the four highest true peaks (−0.8 to −1.0 dBTP) against −4.6 to −5.2 on the known-flat variant-1 group. Loudness is a proxy for "this one builds", not proof; `3 (2)` sits in the same range on a clean Tail-A prompt and stayed in.
 
-Spare titles, unused: `The Long Hour After` · `The Last Coil Fades` · `Where the Dragon Sleeps` · `Before the Armour Comes Off`
+Spare titles, unused: `The Hour After` · `Dust on the Iron` · `Armour Without a Battle` · `Something Enormous, Resting`
 
 #### names.txt (final playing order — feed to `tracklist-timestamps.py`)
 
 ```
-The Helmet Set Down
-A Dragon Lying Still
-The Weight He Puts Aside
-Smoke Finds Its Own Shape
-Nothing Is Being Guarded
-Two Swords, Not Drawn
-The Room Holds Its Breath
-Gold Leaf in Low Light
-Far Off, a Bell
-Power With Nowhere to Go
-The Coil Loosens
-He Does Not Reach for It
-Sleeping in the Gold
-One Ember in the Burner
-The Iron Cools Slowly
-A Stillness That Is Not Rest
-Lacquer and Quiet
-The Dragon Above the Sleeper
+Where the Helmet Rests
+A Dragon, Lying Down
+Strength Left Unspent
+Smoke Learns Its Shape
+Nothing Guards This Room
+Two Sheaths, One Rack
 Breath Under the Eaves
-Nothing Asked of Him Tonight
-The Cord Untied
-What the Mask Remembers
-Strength That Chooses Silence
-The Smoke Turns Once
-Hands Open on His Knees
-Old Ink, Older Gold
-The Night Does Not Move
+Gold Older Than the Man
+Far Off, a Bell
+Power With No Errand
+Coils That Do Not Tighten
+He Does Not Reach
+The Old Ink Sleeps
+Ember in the Bronze
+Iron Cooling on Its Stand
+At Ease, and Enormous
+Lacquer and Long Silence
+Painted Scales, Faded Gold
+Waiting Without Impatience
+Nothing Is Asked Tonight
+The Cord Hangs Loose
+What the Mask Keeps
+Quiet That Was Earned
+One Slow Turn of Smoke
+Hands Open on the Knees
+Older Than Anyone Here
+Night Holds Its Place
 A Blade That Stays Sheathed
-What Waits Without Waiting
-The Lamp Beyond the Door
-He Will Rise, But Not Now
+Wind Finds the Doorway
+A Lamp Beyond the Wall
+He Will Rise Later
 Morning Is Still Far
 ```
 
@@ -449,42 +449,42 @@ Expect `32 files, errors: 0`. Each mask must match exactly one file — the scri
 House style: 3–6 words, an image or a small koan, never a technical term, never a number. Pick 33 in the order the album will play; the rest are spares.
 
 ```
-The Helmet Set Down
-A Dragon Lying Still
-The Weight He Puts Aside
-Smoke Finds Its Own Shape
-Nothing Is Being Guarded
-The Long Hour After
-Two Swords, Not Drawn
-The Room Holds Its Breath
-Gold Leaf in Low Light
-What the Mask Remembers
-Power With Nowhere to Go
-The Coil Loosens
-He Does Not Reach for It
-Sleeping in the Gold
-One Ember in the Burner
-The Iron Cools Slowly
-A Stillness That Is Not Rest
-Lacquer and Quiet
-The Dragon Above the Sleeper
+Where the Helmet Rests
+A Dragon, Lying Down
+Strength Left Unspent
+Smoke Learns Its Shape
+Nothing Guards This Room
+Two Sheaths, One Rack
 Breath Under the Eaves
-Nothing Asked of Him Tonight
-The Cord Untied
+Gold Older Than the Man
 Far Off, a Bell
-Strength That Chooses Silence
-The Smoke Turns Once
-Hands Open on His Knees
-Old Ink, Older Gold
-The Night Does Not Move
+Power With No Errand
+Coils That Do Not Tighten
+He Does Not Reach
+The Old Ink Sleeps
+Ember in the Bronze
+Iron Cooling on Its Stand
+At Ease, and Enormous
+Lacquer and Long Silence
+Painted Scales, Faded Gold
+Waiting Without Impatience
+Nothing Is Asked Tonight
+The Cord Hangs Loose
+What the Mask Keeps
+Quiet That Was Earned
+One Slow Turn of Smoke
+Hands Open on the Knees
+Older Than Anyone Here
+Night Holds Its Place
 A Blade That Stays Sheathed
-What Waits Without Waiting
-The Lamp Beyond the Door
-He Will Rise, But Not Now
-The Last Coil Fades
+Wind Finds the Doorway
+A Lamp Beyond the Wall
+He Will Rise Later
 Morning Is Still Far
-Where the Dragon Sleeps
-Before the Armour Comes Off
+The Hour After
+Dust on the Iron
+Armour Without a Battle
+Something Enormous, Resting
 ```
 
 ---
@@ -757,37 +757,37 @@ The power is all still there — it is simply not being used.
 The phrase has always described the master who has not yet risen: the strategist called the Sleeping Dragon long before he took the field, the swordsman who never reaches for the blade. Here it is the hour after the fighting — the helmet set down, the swords laid on their rack, the room quiet and still full of what the man is capable of. Two hours of shakuhachi, koto, distant temple bell and a slow resting drum, to work, think or sleep inside that kind of stillness.
 
 Tracklist:
-0:00 The Helmet Set Down
-4:17 A Dragon Lying Still
-8:02 The Weight He Puts Aside
-11:32 Smoke Finds Its Own Shape
-15:12 Nothing Is Being Guarded
-18:46 Two Swords, Not Drawn
-22:24 The Room Holds Its Breath
-25:52 Gold Leaf in Low Light
+0:00 Where the Helmet Rests
+4:17 A Dragon, Lying Down
+8:02 Strength Left Unspent
+11:32 Smoke Learns Its Shape
+15:12 Nothing Guards This Room
+18:46 Two Sheaths, One Rack
+22:24 Breath Under the Eaves
+25:52 Gold Older Than the Man
 29:16 Far Off, a Bell
-32:16 Power With Nowhere to Go
-35:55 The Coil Loosens
-39:40 He Does Not Reach for It
-43:18 Sleeping in the Gold
-46:53 One Ember in the Burner
-50:07 The Iron Cools Slowly
-54:00 A Stillness That Is Not Rest
-58:10 Lacquer and Quiet
-1:02:10 The Dragon Above the Sleeper
-1:05:43 Breath Under the Eaves
-1:09:33 Nothing Asked of Him Tonight
-1:12:47 The Cord Untied
-1:16:22 What the Mask Remembers
-1:20:12 Strength That Chooses Silence
-1:24:07 The Smoke Turns Once
-1:28:12 Hands Open on His Knees
-1:32:40 Old Ink, Older Gold
-1:37:09 The Night Does Not Move
+32:16 Power With No Errand
+35:55 Coils That Do Not Tighten
+39:40 He Does Not Reach
+43:18 The Old Ink Sleeps
+46:53 Ember in the Bronze
+50:07 Iron Cooling on Its Stand
+54:00 At Ease, and Enormous
+58:10 Lacquer and Long Silence
+1:02:10 Painted Scales, Faded Gold
+1:05:43 Waiting Without Impatience
+1:09:33 Nothing Is Asked Tonight
+1:12:47 The Cord Hangs Loose
+1:16:22 What the Mask Keeps
+1:20:12 Quiet That Was Earned
+1:24:07 One Slow Turn of Smoke
+1:28:12 Hands Open on the Knees
+1:32:40 Older Than Anyone Here
+1:37:09 Night Holds Its Place
 1:40:24 A Blade That Stays Sheathed
-1:43:48 What Waits Without Waiting
-1:47:07 The Lamp Beyond the Door
-1:50:50 He Will Rise, But Not Now
+1:43:48 Wind Finds the Doorway
+1:47:07 A Lamp Beyond the Wall
+1:50:50 He Will Rise Later
 1:55:00 Morning Is Still Far
 
 🐉 The dragon is not asleep because it is weak.
