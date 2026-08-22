@@ -35,6 +35,7 @@ JP_CANDIDATES = ["/tmp/NotoSerifJP-Bold.otf", "NotoSerifJP-Bold.otf",
                  "/usr/share/fonts/truetype/fonts-japanese-gothic.ttf"]
 
 SAFE = dict(x0=60, x1=880, y0=150, y1=1450)
+TEXT_Y = 0.20                   # центр блока по высоте безопасной зоны: 0 — верх, 1 — низ
 XFADE = 0.6                     # секунд, только растворение — сдвиг двигает всю комнату
 
 # кадр, длительность, зум (старт→конец), пан (dx, dy в долях лишнего поля), текст
@@ -93,7 +94,7 @@ def text_layer(lines):
     rendered = [(txt, font(kind, size), size) for txt, kind, size in lines]
     gaps = [int(s * 0.42) for _, _, s in rendered]
     total = sum(s * 1.25 for _, _, s in rendered) + sum(gaps[:-1])
-    cy = SAFE["y0"] + (SAFE["y1"] - SAFE["y0"]) * 0.62 - total / 2
+    cy = SAFE["y0"] + (SAFE["y1"] - SAFE["y0"]) * TEXT_Y - total / 2
     cx = (SAFE["x0"] + SAFE["x1"]) / 2
     y = cy
     for i, (txt, f, size) in enumerate(rendered):
@@ -129,6 +130,11 @@ def main():
     ap.add_argument("--frames", type=Path, required=True,
                     help="папка с garyu-shorts-fr1.jpg … fr6.jpg")
     ap.add_argument("--out", type=Path, default=Path("garyu-short.mp4"))
+    ap.add_argument("--audio", type=Path, default=None,
+                    help="mp3/wav под видео; берётся окно с --audio-start, "
+                         "выравнивается к -16 LUFS / TP -1.5 и получает фейды")
+    ap.add_argument("--audio-start", type=float, default=0.0,
+                    help="с какой секунды исходника брать окно")
     ap.add_argument("--ffmpeg", default=None)
     a = ap.parse_args()
 
@@ -202,6 +208,22 @@ def main():
         proc.stdin.write(render(n / FPS).tobytes())
     proc.stdin.close()
     proc.wait()
+    if a.audio:
+        silent = a.out.with_suffix(".silent.mp4")
+        a.out.rename(silent)
+        fade_out = max(0.0, total - 2.0)
+        af = (f"afade=t=in:d=1.5,afade=t=out:st={fade_out:.2f}:d=2.0,"
+              f"loudnorm=I=-16:TP=-1.5:LRA=11")
+        subprocess.run([ff, "-y", "-v", "error",
+                        "-i", str(silent),
+                        "-ss", str(a.audio_start), "-t", f"{total:.3f}", "-i", str(a.audio),
+                        "-filter:a", af,
+                        "-c:v", "copy", "-c:a", "aac", "-b:a", "256k",
+                        "-shortest", "-movflags", "+faststart", str(a.out)], check=True)
+        silent.unlink()
+        print(f"звук: {a.audio.name} с {a.audio_start:.0f} с, "
+              f"фейд-ин 1.5 с / фейд-аут 2 с, выровнено к -16 LUFS")
+
     print(f"готово -> {a.out}  ({a.out.stat().st_size/1e6:.1f} MB)")
 
     # проверка плавности по ГОТОВОМУ файлу, внутри одного плана без растворения
