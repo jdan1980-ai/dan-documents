@@ -841,6 +841,8 @@ Use Canva ONLY when a special variant is needed (e.g., text overlay for a viral 
 - `content-ideas.md` — backlog (output of `GAP:` and `CAL:` runs)
 - `production-status.md` — pipeline tracker per video
 - `scripts/<slug>.md` — one file per video
+- `tools/master-album.py` — batch-masters raw Suno WAVs (loudnorm, low-cut, fades) → `<folder>-mastered/` + prints a raw per-track table
+- `tools/select-album.py` — **(LOCKED 2026-08-17, standard flow for every new album from here on)** run right after `master-album.py`: `python3 select-album.py <raw-folder> <mastered-folder> --slug NAME`. Reads both folders itself, anchors the calmest 2 tracks per Suno variant, greedily fills the rest up to the length cap (`--cap` minutes, default 120), orders the result round-robin (anti-Content-ID, no two adjacent from the same variant), and copies straight into `NAME-ALBUM/` (ready for CapCut) + leftover good tracks into `NAME-RESERVE/` (future Vol. 2) — no more pasting the mastering table into chat by hand. Prints the final track order with cumulative timestamps for §8; poetic track naming stays a manual/creative step afterward.
 
 ### 🔒 Copy-paste packs — one field per fenced block (LOCKED 2026-08-01)
 

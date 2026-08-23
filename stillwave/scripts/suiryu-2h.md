@@ -219,8 +219,13 @@ Deeply meditative Japanese zen ambient, for sleep. A small rin bell shimmers sof
 
 ## §2 — Mastering
 
-`master-album.py "<SUNO-SUIRYU folder>"` (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) → prints length + TOTAL + flags dupes. Generate ~4 per variant (~40), keep the calmest set ≤ 2:00 (score = LUFS + TP, drop loudest/peakiest + dupes), reorder anti-Content-ID (round-robin over the 10 variants, no two adjacent from the same variant), rename `01 - … NN -`, then I build §8 timestamps + poetic tracklist.
-**🇺🇦** Прогони через `master-album.py`, скинь таблицу — отберу спокойный сет под 2:00, раунд-робин по 10 вариантам, соберу §8 + раскладку `SUIRYU-ALBUM`.
+🔒 **Automated flow (locked 2026-08-17) — replaces the old "paste the table into chat" step:**
+```
+python3 master-album.py "<SUNO-SUIRYU folder>"
+python3 select-album.py "<SUNO-SUIRYU folder>" "<SUNO-SUIRYU folder>-mastered" --slug SUIRYU
+```
+`master-album.py` masters everything (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) and prints the raw table. `select-album.py` then reads BOTH folders itself and, in one pass: anchors the calmest 2 tracks per Suno variant, greedily fills the rest of the calmest tracks up to the 2:00 cap, orders the result round-robin (anti-Content-ID, no two adjacent from the same variant), and copies everything straight into `SUIRYU-ALBUM/` (numbered, ready for CapCut) + leftover good tracks into `SUIRYU-RESERVE/` (for a future Vol. 2) — printing a table with cumulative timestamps. Paste that printed table back here and I'll write the mood-poetic track names for §8 and finish the description.
+**🇺🇦** Прогони обе команды по очереди — второй скрипт сам отберёт спокойный сет, разложит раунд-робином и соберёт папки `SUIRYU-ALBUM` + `SUIRYU-RESERVE`. Пришли распечатанную таблицу — допишу поэтичные названия треков и соберу §8.
 
 ---
 
