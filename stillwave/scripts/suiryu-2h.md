@@ -13,10 +13,10 @@
 
 ## §0 — Positioning & pre-production
 
-- **Series thread:** RYŪ (龍) — a lone samurai, back to camera, before a massive painted dragon mural, each video its own location/palette/season. UNRYŪ = mountain peak / cloud sea / cool silver-jade. SUIRYŪ = waterfall / deep teal-black. KARYŪ = night shrine courtyard / ember-gold. SEIRYŪ = east-facing dawn terrace / pale cyan-gold.
-- **SUIRYŪ (水龍) = Water Dragon.** Visual hook: a lone samurai stands before a towering waterfall at dusk, where an ancient stone dragon-gate (ryūmon) arch frames the falls; a weathered stone or wood dragon carving coils along the gate, echoing the shape the falling water itself seems to take. Deep teal-blue-black palette, wet stone, fine mist off the falls.
-- **Wisdom phrase is NOT 水龍 itself** (overlay ≠ title concept, same rule as WA/ICHIGO/UNRYŪ). Chosen: **柔よく剛を制す** (jū yoku gō o seisu — "softness overcomes hardness"), a classic budō/water-philosophy proverb. See §6a.
-- **🇺🇦** 水龍 (суйрю:) — «водяной дракон». Отсылка к легенде о «драконьих воротах» (登竜門): карп, поднявшийся против течения водопада, становится драконом. Визуал: водопад на закате, каменная арка-«ворота дракона» с резным драконом на камне; настоящая вода вторит форме резьбы. Тёмно-бирюзово-чёрная палитра — отличается от UNRYŪ (холодный горный) и KARYŪ/SEIRYŪ.
+- **🔒 Series template (locked from GARYŪ 臥龍, the published reference — corrected 2026-08-17):** a lone samurai KNEELS in seiza, back to camera, before a large gilded folding screen (byōbu) bearing a painted dragon mural that fills the upper two-thirds of the frame. Hair in a simple topknot, NO helmet worn. In front of him a small incense burner sends up a thin trail of smoke that curls, unmistakably, into the shape of a small dragon rising toward the mural — the series' recurring signature (same device as GARYŪ). Beside him, a low wooden sword rack (katanakake) holds his daishō — a katana and a shorter wakizashi, both fully sheathed, resting horizontally (seated figures do NOT wear swords at the hip — that's for standing figures only). On a stand to the other side, a kabuto helmet mask sits on display, unworn — a set-dressing prop, echoing GARYŪ's. Each video varies ONLY the screen mural's dragon (type/ink colour) + one small themed accent + the room's light quality — never the core composition (kneeling figure / screen / smoke-dragon / sword rack / kabuto prop).
+- **SUIRYŪ (水龍) = Water Dragon.** The screen is painted in black ink and deep indigo — a water dragon coiling among stylized waves and mist. A shallow black-lacquer water basin sits near him, its surface perfectly still (reinforces the water theme without adding motion/ripple risk). Deep teal-black-and-gold palette, warm low lamplight.
+- **Wisdom phrase is NOT 水龍 itself** (overlay ≠ title concept, same rule as WA/ICHIGO). Chosen: **柔よく剛を制す** (jū yoku gō o seisu — "softness overcomes hardness"), a classic budō/water-philosophy proverb. See §6a.
+- **🇺🇦** 水龍 (суйрю:) — «водяной дракон». **Эталон серии — по опубликованному GARYŪ:** самурай сидит в сэйдза (не стоит!) спиной к камере, простой пучок волос без каски, на фоне золотой ширмы с росписью дракона; дым от курильницы сворачивается в силуэт дракона (фирменный приём серии); мечи — на подставке рядом (сидя мечи на поясе не носят); кабуто-шлем — отдельный экспонат на стойке. Меняется только роспись/цвет туши + один тематический акцент + свет в комнате. Для SUIRYŪ: чёрная тушь + индиго, дракон среди волн; рядом плоская чаша с неподвижной водой (тема воды без риска анимированной ряби). Тёмно-бирюзово-золотая палитра, тёплый свет лампы.
 
 ---
 
@@ -229,66 +229,65 @@ python3 select-album.py "<SUNO-SUIRYU folder>" "<SUNO-SUIRYU folder>-mastered" -
 
 ---
 
-## §3 — NanoBanana 16:9 (PRIMARY — hero) — the dragon gate falls
+## §3 — NanoBanana 16:9 (PRIMARY — hero) — the water-dragon screen
 
-**Direction:** a lone samurai stands before a towering waterfall at dusk, framed by an ancient stone dragon-gate arch; a weathered carved dragon coils along the stone, echoing the shape of the falling water.
+**Direction (locked series template from GARYŪ):** a lone samurai kneels in seiza, back to camera, before a gilded folding screen painted with a water dragon; incense smoke curls into a small dragon shape between him and the mural; his daishō rest on a sword rack beside him.
 
 ```
-Photorealistic cinematic still, 16:9, 4K. A lone samurai in dark weathered armor stands from behind, back to the camera, centered in the lower third before a towering waterfall at dusk, framed by an ancient moss-covered stone arch — a dragon-gate (ryūmon). A weathered stone-carved dragon coils along the arch, worn smooth by centuries of spray, its form echoing the shape of the falling water beside it. EXACTLY TWO swords — a katana and a shorter wakizashi (the daishō pair) — both fully sheathed inside the obi belt at his LEFT hip, hilts pointing forward. NO third sword. NO sword drawn. NO sword in his hands. Hands hang empty and relaxed at his sides. Fine cool mist drifts off the falls, deep teal-blue-black dusk palette, wet dark stone, profound patient stillness. Keep the lower-left corner dark and low-detail for a text overlay, keep the bottom-right corner calm and dark (logo). No airborne particles, no text, no letters, no watermark.
+Photorealistic cinematic still, 16:9, 4K. A lone samurai in dark lacquered armor kneels in seiza from behind, back to the camera, hair tied in a simple topknot, no helmet, centered in the lower third of a dim traditional room. Filling the upper two-thirds of the frame, a large gilded folding screen (byōbu) is painted in black ink and deep indigo with a great water dragon coiling among stylized waves and mist. Between him and the screen, a small bronze incense burner sends up a thin trail of smoke that curls, unmistakably, into the shape of a small dragon rising toward the mural. Beside him on one side, a low wooden sword rack (katanakake) holds EXACTLY TWO sheathed swords — a katana and a shorter wakizashi (the daishō pair) — resting horizontally. NO third sword. NO sword drawn. NO sword in his hands — his hands rest empty on his thighs. On a stand to the other side, a kabuto helmet mask sits on display, unworn. A shallow black-lacquer water basin rests near him, its surface perfectly still and glassy. Deep teal-black-and-gold palette, warm low lamplight, profound patient stillness. Keep the lower-left corner dark and low-detail for a text overlay, keep the bottom-right corner calm and dark (logo). No airborne particles, no text, no letters, no watermark.
 ```
-> Chosen generation → save as `suiryu-2h-source.jpg`. 水龍 kanji goes upper-center over the falls (per Kanji-Concept canon), SUIRYŪ romaji low on the dark foreground stone.
-> **Alt direction — dragon shape in the falling water itself (no carving):** `Photorealistic cinematic still, 16:9, 4K. A lone samurai in dark weathered armor stands from behind before a towering waterfall at dusk; the falling water itself, in the play of spray and current, seems to coil into the unmistakable shape of a great dragon descending the rock face. EXACTLY TWO swords — a katana and a shorter wakizashi — both fully sheathed at his LEFT hip, hilts forward. NO third sword. NO sword drawn. Hands empty at his sides. Deep teal-black dusk palette, cool mist, profound stillness. Keep the lower-left corner dark for a text overlay, bottom-right calm and dark (logo). No airborne particles, no text, no letters, no watermark.`
+> Chosen generation → save as `suiryu-2h-source.jpg`. 水龍 kanji goes upper-center over the screen mural (per Kanji-Concept canon), SUIRYŪ romaji low on the dark foreground tatami.
 
 ## §3b — NanoBanana 9:16 (Shorts)
 
 ```
-Photorealistic cinematic vertical still 9:16, 4K. A lone samurai in dark weathered armor stands from behind, lower third, before a towering waterfall at dusk framed by an ancient moss-covered stone dragon-gate arch. A weathered stone-carved dragon coils along the arch, its form echoing the falling water. EXACTLY TWO swords — a katana and a shorter wakizashi — both fully sheathed at his LEFT hip, hilts forward. NO third sword. NO sword drawn. Hands empty at his sides. Deep teal-blue-black dusk palette, fine cool mist, profound stillness. Keep the centre-left band calm and low-detail (a text overlay sits there). No airborne particles, no text, no letters, no watermark.
+Photorealistic cinematic vertical still 9:16, 4K. A lone samurai in dark lacquered armor kneels in seiza from behind, hair in a simple topknot, no helmet, lower third, in a dim traditional room before a gilded folding screen painted with a water dragon in black ink and indigo among waves and mist. A small incense burner between him and the screen sends up smoke curling into a small dragon shape. Beside him a low sword rack holds EXACTLY TWO sheathed swords (the daishō), resting horizontally — NO third sword, NO sword drawn, hands empty on his thighs. Deep teal-black-and-gold palette, warm low lamplight, profound stillness. Keep the centre-left band calm and low-detail (a text overlay sits there). No airborne particles, no text, no letters, no watermark.
 ```
 
 ## §3c — Shorts image set (9:16 — 6 frames · FULL standalone prompts)
 
-Save `suiryu-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm zone for the 水龍 kanji overlay. No airborne particles. Every samurai frame: EXACTLY TWO sheathed swords at the LEFT hip, hands empty.
+Save `suiryu-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm zone for the 水龍 kanji overlay. No airborne particles. Every samurai frame: seated in seiza, EXACTLY TWO sheathed swords on a rack beside him (never worn/drawn), hands empty on his thighs.
 
-**1. HOOK — samurai at the dragon gate**
+**1. HOOK — samurai before the water-dragon screen**
 ```
-Photorealistic cinematic vertical still, 9:16, 4K, deep teal-blue dusk palette, dramatic scale. A lone samurai in dark weathered armor stands from behind, a calm still silhouette, centered in the lower third before a towering waterfall at dusk, framed by an ancient moss-covered stone dragon-gate arch. A weathered stone-carved dragon coils along the arch. EXACTLY TWO swords — a katana and a shorter wakizashi (the daishō pair) — both fully sheathed at his LEFT hip, hilts forward. NO third sword. NO sword drawn. NO sword in his hands. Hands hang empty at his sides. Fine cool mist off the falls, wet dark stone, profound patient stillness. No text, no letters, no watermark.
-```
-
-**2. Falling water macro (breather)**
-```
-Photorealistic cinematic vertical close-up, 9:16, 4K, high contrast, deep teal-black palette. A close-up of falling water cascading over dark wet stone at dusk, fine mist rising softly at the base, a faint cool light catching the spray, moss on the surrounding rock. Deep, patient, serene, timeless. No text, no letters, no watermark.
+Photorealistic cinematic vertical still, 9:16, 4K, deep teal-black-and-gold palette, warm low lamplight. A lone samurai in dark lacquered armor kneels in seiza from behind, hair in a simple topknot, no helmet, a calm still silhouette, centered in the lower third of a dim traditional room before a gilded folding screen painted with a water dragon coiling among waves in black ink and indigo. A small incense burner before him sends up smoke curling into a small dragon shape rising toward the mural. Beside him a low wooden sword rack holds EXACTLY TWO sheathed swords (the daishō), resting horizontally — NO third sword, NO sword drawn, hands empty on his thighs. Profound patient stillness. No text, no letters, no watermark.
 ```
 
-**3. The carved dragon detail**
+**2. Incense-smoke dragon macro (breather)**
 ```
-Photorealistic cinematic vertical still, 9:16, 4K, cool dusk light against dark stone. A close view of an ancient moss-covered stone arch bearing a weathered carved dragon, worn smooth by centuries of waterfall spray, deep grooves still visible in the old stone, water droplets clinging to the carving. Reverent, detailed, timeless, deep teal palette. No text, no letters, no watermark.
-```
-
-**4. KANJI frame — the falls and open dusk sky**
-```
-Photorealistic cinematic vertical still, 9:16, 4K. An open, calm dusk sky above a distant waterfall, soft gradient of deep teal and pale grey, the upper half quiet and empty (clean space for a large kanji), a faint dark silhouette of the falls and surrounding cliff at the bottom of frame. Minimal, serene, deep, atmospheric. No text, no letters, no watermark.
+Photorealistic cinematic vertical close-up, 9:16, 4K, high contrast, deep teal-black-and-gold palette. A close-up of a thin trail of incense smoke rising from a small bronze burner in a dim room, curling gracefully into the unmistakable shape of a small coiling dragon, warm lamplight catching the smoke against a dark background. Delicate, intimate, serene. No text, no letters, no watermark.
 ```
 
-**5. Moss and wet stone steps (detail)**
+**3. The screen mural detail**
 ```
-Photorealistic cinematic vertical still, 9:16, 4K, cool dusk light. A weathered set of ancient stone steps leading up beside the waterfall, deep green moss covering the wet stone, fine mist settling on the surface, soft cool light from the dusk sky above. Quiet, deep, patient, timeless. No text, no letters, no watermark.
+Photorealistic cinematic vertical still, 9:16, 4K, warm low lamplight against gold leaf. A close view of an ancient gilded folding screen painted in black ink and deep indigo with a water dragon coiling among stylized waves and mist, fine brushwork and cracked gold leaf visible with age, warm light grazing the surface from one side. Reverent, detailed, timeless. No text, no letters, no watermark.
 ```
 
-**6. Samurai at the falls, wide (wisdom)**
+**4. KANJI frame — the open gold screen**
 ```
-Photorealistic cinematic vertical still, 9:16, 4K, deep teal-blue dusk palette, dramatic scale. A lone samurai in dark weathered armor stands from behind, a calm still silhouette, centered in the lower third before a towering waterfall at dusk — only this one figure, no other people. Behind him the ancient stone dragon-gate arch and the carved dragon along it. EXACTLY TWO swords — a katana and a shorter wakizashi — both fully sheathed at his LEFT hip, hilts forward. NO third sword. NO sword drawn. Hands empty at his sides. Deep teal-black dusk light, fine cool mist, profound patient stillness. No text, no letters, no watermark.
+Photorealistic cinematic vertical still, 9:16, 4K. A calm, empty expanse of an aged gilded folding screen, softly lit in warm low lamplight, the upper half quiet and uncluttered (clean space for a large kanji), the faintest hint of painted mist and wave motifs near the bottom edge of frame. Minimal, serene, warm, atmospheric. No text, no letters, no watermark.
+```
+
+**5. Still water basin (detail)**
+```
+Photorealistic cinematic vertical still, 9:16, 4K, warm low lamplight. A shallow black-lacquer water basin resting on dark tatami in a dim traditional room, its surface perfectly still and glassy, faintly reflecting warm lamplight above. Quiet, deep, patient, timeless. No text, no letters, no watermark.
+```
+
+**6. Samurai before the screen, wide (wisdom)**
+```
+Photorealistic cinematic vertical still, 9:16, 4K, deep teal-black-and-gold palette, warm low lamplight. A lone samurai in dark lacquered armor kneels in seiza from behind, hair in a simple topknot, no helmet, a calm still silhouette, centered in the lower third of a dim traditional room — only this one figure, no other people. Behind him the gilded folding screen with its painted water dragon, before him the incense burner with its rising smoke-dragon. Beside him a low sword rack holds EXACTLY TWO sheathed swords, resting horizontally — NO third sword, NO sword drawn, hands empty on his thighs. Profound patient stillness. No text, no letters, no watermark.
 ```
 
 ---
 
 ## §4 — Flow (Veo 3) loop prompt (16:9)
 
-Feed the CLEAN hero (no text). Frame it as a **cinemagraph** (Veo 3 responds strongly to the word). **🔒 The waterfall is the one element allowed to genuinely flow** (unlike our still-mirror lessons, a waterfall's motion IS the whole point of the scene — but keep it a smooth, unchanging, endless cascade, not a dramatic surge). **🔒 The carved dragon is stone — it must stay completely frozen and never appear to move.** **🔒 No radiating rings on any still pool at the base** (WA lesson) — if a pool is visible, it stays a flat, calm mirror.
+Feed the CLEAN hero (no text). Frame it as a **cinemagraph** (Veo 3 responds strongly to the word). **🔒 The screen mural is a PAINTING — it must stay flat and never appear to move.** **🔒 The samurai's build, posture and silhouette never change** (ICHIGO ICHIE lesson). **🔒 The still water basin stays a flat, glassy mirror — no ripples, no rings** (WA lesson).
 
 ```
-A cinemagraph on a photorealistic deep teal-blue dusk scene: a lone samurai in dark weathered armor stands from behind before a towering waterfall, framed by an ancient stone dragon-gate arch with a carved dragon coiling along it. Treat the samurai, his armor, his swords, the stone arch and the carved dragon as a completely frozen still photograph — the carved dragon is stone and never appears to move, and the samurai's build, posture and silhouette stay exactly as in the still throughout. Camera completely locked and static — no pan, no zoom, no push-in, no dolly, no shake; the frame never moves. Animate ONLY these, all extremely subtle: (1) the waterfall itself flows continuously and smoothly down the rock face at an even, unchanging rate, exactly the same volume and speed from first frame to last; (2) a fine, faint mist drifts slowly off the base of the falls; (3) if any still pool is visible, its surface stays perfectly flat and glassy, with no rings, no ripples, no circles anywhere; (4) the cool dusk light breathes almost imperceptibly, never changing colour or overall brightness. Everything solid — the samurai, the stone arch, the carved dragon, the surrounding rock — stays a completely frozen photograph. Slow, deep, patient, meditative. The falling water and the mist move in a smooth continuous cycle so the last frame matches the first frame exactly for a perfectly seamless 8-second loop.
+A cinemagraph on a photorealistic dim-room scene, warm low lamplight: a lone samurai in dark lacquered armor kneels in seiza from behind before a gilded folding screen painted with a coiling water dragon, a small incense burner between him and the screen, his daishō resting on a sword rack beside him. Treat the samurai, his armor, the sword rack, the kabuto stand, the screen and the mural painting as a completely frozen still photograph — the mural stays a flat, static painting and never appears to move, and the samurai's build, posture and silhouette stay exactly as in the still throughout. Camera completely locked and static — no pan, no zoom, no push-in, no dolly, no shake; the frame never moves. Animate ONLY these, all extremely subtle: (1) the thin trail of incense smoke rises continuously from the burner, curling slowly and gracefully into the shape of a small dragon that dissolves gently and is renewed in a smooth cycle; (2) the warm lamplight breathes almost imperceptibly, never changing colour or overall brightness. The shallow water basin, if visible, stays a perfectly flat, glassy mirror with no ripples or rings. Everything else stays a completely frozen photograph. Slow, warm, patient, meditative. The smoke moves in a smooth continuous cycle so the last frame matches the first frame exactly for a perfectly seamless 8-second loop.
 ```
-**🇺🇦** Луп через **cinemagraph**: живёт **сам водопад** (единственное движение здесь — это его суть, но ровное, без всплесков), плюс тонкий туман у основания. Резной дракон — камень, не оживает. Если в кадре есть спокойный водоём — он остаётся плоским зеркалом, БЕЗ колец (урок WA). Самурай и арка — намертво. Камера статична, последний кадр = первый.
+**🇺🇦** Луп через **cinemagraph**: живёт только **дым от курильницы**, сворачивающийся в силуэт дракона (плавный цикл — исчезает и появляется снова), плюс едва заметное дыхание тёплого света лампы. Роспись на ширме — плоская картина, не оживает. Чаша с водой — плоское зеркало, без ряби/колец (урок WA). Самурай, стойка мечей, подставка с кабуто — намертво. Камера статична, последний кадр = первый.
 
 ---
 
