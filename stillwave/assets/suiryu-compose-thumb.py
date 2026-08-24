@@ -52,19 +52,19 @@ def _lerp_gold(f):
     return GOLD_STOPS[-1][1]
 
 
-def gold_kanji_h(im, chars, size, cx, top_y, pitch, halo=26):
+def gold_kanji_h(im, chars, size, x0, top_y, pitch, halo=26):
+    """x0 = LEFT edge of the glyph run (not centred)."""
     f = ImageFont.truetype(KANJI, size)
     mask = Image.new("L", (W, H), 0)
     md = ImageDraw.Draw(mask)
     total = (len(chars) - 1) * pitch
-    x0 = cx - total / 2
     top, bot = H, 0
     for i, ch in enumerate(chars):
         l, t, r, b = f.getbbox(ch)
         md.text((x0 + i * pitch - (l + (r - l) / 2), top_y - t), ch, font=f, fill=255)
         top, bot = min(top, top_y + t), max(bot, top_y + b)
     sc = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(sc).rounded_rectangle((cx - total / 2 - 70, top - 40, cx + total / 2 + 70, bot + 50),
+    ImageDraw.Draw(sc).rounded_rectangle((x0 - 70, top - 40, x0 + total + 70, bot + 50),
                                          radius=110, fill=(6, 6, 9, 140))
     im.alpha_composite(sc.filter(ImageFilter.GaussianBlur(80)))
     glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -98,8 +98,8 @@ def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=16, font=SERIF, scrim=Tru
 
 im = base()
 CENTRE = 960
-# 水龍 — horizontal gold, top-centre, over the luminous dragon
-gold_kanji_h(im, ["水", "龍"], 220, CENTRE, 60, pitch=260, halo=28)
+# 水龍 — horizontal gold, upper-LEFT corner (clear of the dragon on the right)
+gold_kanji_h(im, ["水", "龍"], 190, 90, 50, pitch=225, halo=26)
 # SUIRYU — large gold serif, low-centre on the dark foreground rock
 spaced_centre(im, "SUIRYU", 128, CENTRE, 900, fill=GOLD, ls=18, font=SERIF)
 im.convert("RGB").save(OUT, quality=94)
