@@ -98,9 +98,9 @@ def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=16, font=SERIF, scrim=Tru
 
 im = base()
 CENTRE = 960
-# 水龍 — horizontal gold, upper-LEFT corner (clear of the dragon on the right)
-gold_kanji_h(im, ["水", "龍"], 190, 90, 50, pitch=225, halo=26)
+# 水龍 — horizontal gold, upper-left with breathing room from the edge
+gold_kanji_h(im, ["水", "龍"], 250, 130, 55, pitch=295, halo=30)
 # SUIRYU — large gold serif, low-centre on the dark foreground rock
-spaced_centre(im, "SUIRYU", 128, CENTRE, 900, fill=GOLD, ls=18, font=SERIF)
+spaced_centre(im, "SUIRYU", 160, CENTRE, 880, fill=GOLD, ls=22, font=SERIF)
 im.convert("RGB").save(OUT, quality=94)
 print("saved", OUT)
