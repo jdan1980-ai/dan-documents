@@ -7,7 +7,7 @@
 - **Concept:** 水龍 (suiryū) — "water dragon." Tied to the legend of the Dragon Gate (登竜門 tōryūmon): a carp that climbs a waterfall against the current becomes a dragon. Water yields to nothing yet shapes everything through patience.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** ~2H full album (unique Suno tracks, CapCut laydown)
-- **Status:** 🟡 IN PROGRESS — generate hero (§3) + 10 Suno variants (§1), then master → select → §8.
+- **Status:** 🟡 IN PROGRESS — music mastered/selected (32 tracks, ~2:02:28, §8 tracklist done). Remaining: hero image loop fixes verification, thumbnail rebuild from newer hero (if resent), 6 Shorts frames (§3c) + Shorts build, CapCut assembly.
 
 ---
 
@@ -324,7 +324,38 @@ becomes a dragon — not by force, but by never stopping.
 At an old stone gate, water has fallen the same patient way for a thousand years, wearing dragon shapes into the rock beside it. Slow koto, deep shakuhachi, the long decay of a singing bowl — two hours to rest in the strength that yields without breaking, and the patience that outlasts the stone.
 
 Tracklist:
-[added after mastering — mood-poetic names, deep and flowing]
+0:00 Where the Falls Begin
+3:19 Mist Over the Basin
+6:58 The Carp Climbs Higher
+11:03 Scales Beneath the Foam
+14:41 Moonlight on Wet Stone
+19:36 Breath of the Cascade
+23:29 Silver Thread Through Fog
+26:58 Swords Rest by the Falls
+30:53 Whispers of Falling Water
+34:26 Jade Light Beneath the Surface
+38:05 The River Remembers
+42:38 Eyes Beneath the Foam
+46:17 Stillness Between Two Cascades
+50:07 Water Over Ancient Stone
+54:05 The Dragon's Slow Breath
+57:15 Fog on the Black Pool
+1:01:03 Cold Spray, Warm Moon
+1:04:08 The Current Holds Its Shape
+1:07:51 Where the Mist Never Lifts
+1:11:35 A Single Ripple, Held
+1:15:50 The Falls at Midnight
+1:19:58 Blue Fire Beneath the Water
+1:23:32 Stone Steps to the Basin
+1:27:11 The Long Fall of Silver
+1:30:25 Silence Deep in the Gorge
+1:34:05 The Water Dragon Sleeps
+1:37:42 Moon Caught in the Spray
+1:42:27 Echoes of the Cascade
+1:46:07 The Gate at the Waterfall
+1:50:05 Where Two Rivers Meet
+1:53:57 The Dragon Returns to the Deep
+1:56:51 One Breath Before Dawn
 
 🌀 Yield like water. Outlast like stone.
 🍃 Nothing forced. Only patience, and the falling water.
