@@ -113,7 +113,8 @@ def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=16, font=SERIF, scrim=Tru
 im = base()
 CENTRE = 960
 # 雲龍 — VERTICAL calligraphic brush ink + cream halo, left corner, up in the cloud/sky band
-sumi_v(im, ["雲", "龍"], 200, 150, 140, pitch=240, halo=40, bold=11)
+# Yuji Syuku is already a thick brush face — NO extra MaxFilter bolding (it blobs the strokes)
+sumi_v(im, ["雲", "龍"], 220, 150, 130, pitch=250, halo=36, bold=0)
 # UNRYU — large gold serif, low-centre on the dark foreground rock
 spaced_centre(im, "UNRYU", 150, CENTRE, 880, fill=GOLD, ls=20, font=SERIF)
 im.convert("RGB").save(OUT, quality=94)
