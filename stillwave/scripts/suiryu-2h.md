@@ -7,7 +7,7 @@
 - **Concept:** 水龍 (suiryū) — "water dragon." Tied to the legend of the Dragon Gate (登竜門 tōryūmon): a carp that climbs a waterfall against the current becomes a dragon. Water yields to nothing yet shapes everything through patience.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** ~2H full album (unique Suno tracks, CapCut laydown)
-- **Status:** 🟡 IN PROGRESS — music mastered/selected (32 tracks, ~2:02:28, §8 tracklist done). Remaining: hero image loop fixes verification, thumbnail rebuild from newer hero (if resent), 6 Shorts frames (§3c) + Shorts build, CapCut assembly.
+- **Status:** 🟡 IN PROGRESS — music mastered/selected (32 tracks, ~2:02:28, §8 tracklist done). Shorts video built (35s, jitter-free, QA passed — `suiryu-shorts-35s.mp4`). Remaining: hero image loop fixes verification, thumbnail rebuild from newer hero (if resent), CapCut long-form assembly.
 
 ---
 
