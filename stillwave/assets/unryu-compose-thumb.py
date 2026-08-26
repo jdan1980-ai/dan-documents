@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """UNRYU thumbnail — 雲龍 dark sumi ink + cream halo (bright cloud-sea sky needs
-dark ink for contrast, same lesson as SHOSHIN/ICHIGO), upper-centre over the
-cloud-dragon/sky. UNRYU large gold serif low-centre on the dark foreground rock.
+dark ink for contrast, same lesson as SHOSHIN/ICHIGO), VERTICAL stack in the
+left corner, positioned right where the dragon's tail curl ends (user redirect
+2026-08-26). UNRYU large gold serif low-centre on the dark foreground rock.
 """
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageChops
 
@@ -50,6 +51,26 @@ def _lerp_gold(f):
     return GOLD_STOPS[-1][1]
 
 
+def sumi_v(im, chars, size, cx, top_y, pitch, halo=42, bold=9):
+    """vertical (top-to-bottom) dark-sumi kanji with a soft cream halo."""
+    f = ImageFont.truetype(KANJI, size)
+    mask = Image.new("L", (W, H), 0)
+    md = ImageDraw.Draw(mask)
+    for i, ch in enumerate(chars):
+        l, t, r, b = f.getbbox(ch)
+        md.text((cx - (l + (r - l) / 2), top_y + i * pitch - t), ch, font=f, fill=255)
+    if bold and bold >= 3:
+        mask = mask.filter(ImageFilter.MaxFilter(bold))
+    halo_l = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    halo_l.paste((248, 238, 216, 255), (0, 0),
+                 mask.filter(ImageFilter.GaussianBlur(halo)).point(lambda p: int(p * 0.9)))
+    im.alpha_composite(halo_l)
+    im.alpha_composite(halo_l)
+    ink_l = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ink_l.paste(INK, (0, 0), mask)
+    im.alpha_composite(ink_l)
+
+
 def sumi_h(im, chars, size, cx, top_y, pitch, halo=42, bold=9):
     """horizontal dark-sumi kanji with a soft cream halo (reads over bright sky)."""
     f = ImageFont.truetype(KANJI, size)
@@ -91,8 +112,8 @@ def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=16, font=SERIF, scrim=Tru
 
 im = base()
 CENTRE = 960
-# 雲龍 — horizontal dark sumi ink + cream halo, upper-centre over the cloud-dragon/sky
-sumi_h(im, ["雲", "龍"], 240, CENTRE, 60, pitch=300, halo=44, bold=11)
+# 雲龍 — VERTICAL dark sumi ink + cream halo, left corner, right after the dragon's tail
+sumi_v(im, ["雲", "龍"], 190, 150, 480, pitch=230, halo=40, bold=11)
 # UNRYU — large gold serif, low-centre on the dark foreground rock
 spaced_centre(im, "UNRYU", 150, CENTRE, 880, fill=GOLD, ls=20, font=SERIF)
 im.convert("RGB").save(OUT, quality=94)
