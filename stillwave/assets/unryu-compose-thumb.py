@@ -7,7 +7,7 @@ left corner, positioned right where the dragon's tail curl ends (user redirect
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageChops
 
 SRC = "/home/user/dan-documents/stillwave/assets/unryu-2h-source.jpg"
-KANJI = "/home/user/dan-documents/stillwave/assets/fonts/YujiBoku-Regular.ttf"
+KANJI = "/home/user/dan-documents/stillwave/assets/fonts/YujiSyuku-Regular.ttf"
 SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 OUT = "/home/user/dan-documents/stillwave/assets/unryu-2h-thumb.jpg"
 W, H = 1920, 1080
@@ -112,8 +112,8 @@ def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=16, font=SERIF, scrim=Tru
 
 im = base()
 CENTRE = 960
-# 雲龍 — VERTICAL dark sumi ink + cream halo, left corner, right after the dragon's tail
-sumi_v(im, ["雲", "龍"], 190, 150, 480, pitch=230, halo=40, bold=11)
+# 雲龍 — VERTICAL calligraphic brush ink + cream halo, left corner, up in the cloud/sky band
+sumi_v(im, ["雲", "龍"], 200, 150, 140, pitch=240, halo=40, bold=11)
 # UNRYU — large gold serif, low-centre on the dark foreground rock
 spaced_centre(im, "UNRYU", 150, CENTRE, 880, fill=GOLD, ls=20, font=SERIF)
 im.convert("RGB").save(OUT, quality=94)
