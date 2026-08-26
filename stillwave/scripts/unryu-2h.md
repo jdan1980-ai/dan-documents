@@ -7,7 +7,7 @@
 - **Concept:** 雲龍 (unryū) — "cloud dragon." A dragon that has found its clouds rises without effort; a hero who has found the moment rises above circumstance. The image of clarity found above the clouds.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** ~2H full album (unique Suno tracks, CapCut laydown)
-- **Status:** 🟡 IN PROGRESS — music mastered/selected (32 tracks, 1:59:00, §8 tracklist done). Remaining: hero image regeneration (mountain summit + cloud-dragon, redirected), thumbnail, 6 Shorts frames (§3c) + Shorts build, CapCut assembly.
+- **Status:** 🟡 IN PROGRESS — music mastered/selected (32 tracks, 1:59:00, §8 done). Hero image approved (`unryu-2h-source.jpg`), thumbnail built, wisdom overlay built, Shorts video built (35s, with UNRYU_5 track, QA passed). Remaining: CapCut long-form assembly.
 
 ---
 
