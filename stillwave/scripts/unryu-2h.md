@@ -7,7 +7,7 @@
 - **Concept:** 雲龍 (unryū) — "cloud dragon." A dragon that has found its clouds rises without effort; a hero who has found the moment rises above circumstance. The image of clarity found above the clouds.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** ~2H full album (unique Suno tracks, CapCut laydown)
-- **Status:** 🟡 IN PROGRESS — generate hero (§3) + 10 Suno variants (§1), then master → select → §8.
+- **Status:** 🟡 IN PROGRESS — music mastered/selected (32 tracks, 1:59:00, §8 tracklist done). Remaining: hero image regeneration (mountain summit + cloud-dragon, redirected), thumbnail, 6 Shorts frames (§3c) + Shorts build, CapCut assembly.
 
 ---
 
@@ -324,7 +324,38 @@ rises without effort — so does a mind that has found stillness.
 At the edge of a mountain gate, above a sea of cloud, a lone figure watches a colossal dragon take shape out of the mist itself, rising and dissolving back into the clouds it is made of. Slow koto, high clear shakuhachi, the long decay of a singing bowl — two hours to rise, gently, above whatever has been clouding the mind, until only clear sky remains.
 
 Tracklist:
-[added after mastering — mood-poetic names, cool and clear]
+0:00 Above the First Cloud
+3:57 Where the Peak Breaks Through
+7:51 The Dragon Gathers Its Clouds
+11:47 Mist Over the Summit
+15:36 Stone Steps Toward Dawn
+19:11 The Sky Begins to Clear
+23:10 Silver Light on the Ridge
+27:14 A Sea of Cloud Below
+30:09 The Gate at the Edge of Sky
+33:58 Breath of Thin Mountain Air
+38:01 Where Cloud Becomes Dragon
+42:05 The Peak Holds Still
+45:25 First Light on Silver Stone
+49:08 The Long Climb Behind
+53:01 Clouds Part, Then Gather Again
+56:46 The Eye of Pale Gold
+1:00:24 Standing Above the World
+1:03:50 A Ridge of Ancient Stone
+1:06:45 The Dragon Sleeps in the Mist
+1:10:27 Clear Air, Clearer Mind
+1:14:42 Where the Mountain Meets the Sky
+1:18:31 Silence at the Summit
+1:22:46 The Cloud Sea Never Ends
+1:26:33 Dawn Without a Single Sound
+1:30:16 The Weight the Mind Set Down
+1:33:31 Rising Above the Noise
+1:36:39 A Single Bell on the Wind
+1:40:07 The Dragon Returns to Mist
+1:44:16 Nothing Below But Cloud
+1:47:49 The Sky Remembers Its Blue
+1:51:43 Stillness at This Height
+1:55:37 Only Clear Sky Remains
 
 🌀 Rise above the clouds. Find the clear sky.
 🍃 Nothing forced. Only clarity, and the open air.
