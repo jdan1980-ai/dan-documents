@@ -8,6 +8,12 @@ at this isolated scale (confirmed in both fonts' raw glyphs, survives blur
 softening); plain IPA Gothic fixed that but read as too plain/sans. Noto Serif
 JP gives calligraphic weight AND a complete, unambiguous shape. KARYU large
 gold serif low-centre on the dark foreground stone.
+
+2026-08-28 round 2: user reported 龍 still looked "cut off" even with a
+complete glyph — root cause was the gradient's dark bottom stop (near-brown)
+losing contrast against the night sky, not the glyph shape. Lightened
+GOLD_STOPS' bottom stop and lowered the kanji block to the frame's vertical
+middle per user request ("опусти иероглиф ниже в середину").
 """
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageChops
 
@@ -17,7 +23,7 @@ SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
 OUT = "/home/user/dan-documents/stillwave/assets/karyu-2h-thumb.jpg"
 W, H = 1920, 1080
 GOLD = (232, 197, 120, 255)
-GOLD_STOPS = [(0.00, (250, 200, 130)), (0.45, (232, 140, 60)), (1.00, (180, 80, 30))]
+GOLD_STOPS = [(0.00, (250, 205, 135)), (0.45, (238, 160, 80)), (1.00, (222, 130, 60))]
 
 
 def base():
@@ -101,8 +107,8 @@ def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=16, font=SERIF, scrim=Tru
 
 im = base()
 CENTRE = 960
-# 火龍 — VERTICAL calligraphic gold, left corner, well clear of the top edge
-gold_kanji_v(im, ["火", "龍"], 200, 150, 140, pitch=240, halo=30)
+# 火龍 — VERTICAL calligraphic gold, left corner, centred on the frame's vertical middle
+gold_kanji_v(im, ["火", "龍"], 200, 150, 326, pitch=240, halo=34)
 # KARYU — large gold serif, low-centre on the dark foreground stone
 spaced_centre(im, "KARYU", 160, CENTRE, 880, fill=GOLD, ls=22, font=SERIF)
 im.convert("RGB").save(OUT, quality=94)
