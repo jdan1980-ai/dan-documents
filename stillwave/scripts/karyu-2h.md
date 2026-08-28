@@ -325,7 +325,39 @@ but the one that holds its shape through the longest night.
 At a stone shrine gate at night, two braziers hold their warmth without ever wavering, and a colossal dragon takes shape out of their fire, rising and dissolving back into the flame it is made of. Slow koto, warm shakuhachi, the long decay of a singing bowl — two hours to rest in a resolve that does not need to be loud to be unbreakable.
 
 Tracklist:
-[added after mastering — mood-poetic names, warm and steady]
+0:00 Ember at the Gate
+3:35 The Brazier Remembers
+6:55 A Flame That Does Not Flicker
+10:50 Stone Warmed by Fire
+14:34 The Dragon Beneath the Coals
+18:23 Steady Heart, Steady Flame
+21:08 Smoke Rising Without Wind
+24:42 Torii in the Firelight
+28:36 The Shape the Fire Holds
+32:03 Watching the Coals Breathe
+35:33 What the Fire Remembers
+39:23 A Vow Kept in Embers
+43:41 The Long Night's Warmth
+47:33 Sparks That Do Not Scatter
+51:13 The Samurai's Silent Watch
+54:46 Fire Without Fear
+57:34 The Dragon's Patient Coil
+1:00:38 Ashes That Still Glow
+1:04:53 Held Flame, Unshaken
+1:08:51 The Shrine at Midnight
+1:13:15 Where the Fire Sleeps
+1:16:59 A Resolve Like Embers
+1:20:48 The Quiet Between Sparks
+1:24:43 Warmth That Does Not Fade
+1:28:31 The Dragon's Slow Breath
+1:31:21 Coals Beneath the Frost
+1:35:11 The Fire That Waits
+1:38:51 A Heart Like Burning Stone
+1:42:14 The Gate Holds Its Light
+1:45:49 Stillness in the Blaze
+1:49:22 The Last Ember of Night
+1:52:50 Fire Bound to Its Shape
+1:56:20 Dawn Finds the Flame Still Burning
 
 🌀 Hold your flame. Let it never waver.
 🍃 Nothing forced. Only resolve, and the steady fire.
