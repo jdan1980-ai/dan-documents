@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 """KARYU thumbnail — 火龍 molten gold, VERTICAL stack in the left corner.
-Font switched to IPA Gothic (2026-08-28) — the Yuji brush fonts (both Boku and
-Syuku) draw 火's top strokes as flat-cut brush tips that read as "clipped" at
-this isolated scale (confirmed: identical flat shape in both fonts' raw glyphs,
-survives blur softening); Gothic renders it unambiguously whole. KARYU large
+Font switched to Noto Serif JP Bold (2026-08-28) — matches the serif spirit of
+the English KARYU wordmark (a Mincho serif, the CJK equivalent of a Western
+serif) with classic complete brush-serif strokes. The Yuji brush fonts (both
+Boku and Syuku) draw 火's top strokes as flat-cut tips that read as "clipped"
+at this isolated scale (confirmed in both fonts' raw glyphs, survives blur
+softening); plain IPA Gothic fixed that but read as too plain/sans. Noto Serif
+JP gives calligraphic weight AND a complete, unambiguous shape. KARYU large
 gold serif low-centre on the dark foreground stone.
 """
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageChops
 
 SRC = "/home/user/dan-documents/stillwave/assets/karyu-2h-source.jpg"
-KANJI = "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf"
+KANJI = "/home/user/dan-documents/stillwave/assets/fonts/NotoSerifJP-Bold.ttf"
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
 OUT = "/home/user/dan-documents/stillwave/assets/karyu-2h-thumb.jpg"
 W, H = 1920, 1080
