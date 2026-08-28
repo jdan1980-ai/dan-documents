@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""KARYU thumbnail — 火龍 molten gold calligraphic brush (Yuji Syuku), VERTICAL
-stack in the left corner (was horizontal and clipping off the top edge — fixed
-2026-08-28, same vertical treatment as UNRYU). KARYU large gold serif low-centre
-on the dark foreground stone.
+"""KARYU thumbnail — 火龍 molten gold, VERTICAL stack in the left corner.
+Font switched to IPA Gothic (2026-08-28) — the Yuji brush fonts (both Boku and
+Syuku) draw 火's top strokes as flat-cut brush tips that read as "clipped" at
+this isolated scale (confirmed: identical flat shape in both fonts' raw glyphs,
+survives blur softening); Gothic renders it unambiguously whole. KARYU large
+gold serif low-centre on the dark foreground stone.
 """
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageChops
 
 SRC = "/home/user/dan-documents/stillwave/assets/karyu-2h-source.jpg"
-KANJI = "/home/user/dan-documents/stillwave/assets/fonts/YujiSyuku-Regular.ttf"
+KANJI = "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf"
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
 OUT = "/home/user/dan-documents/stillwave/assets/karyu-2h-thumb.jpg"
 W, H = 1920, 1080
