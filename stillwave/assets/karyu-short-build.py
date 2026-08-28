@@ -2,7 +2,8 @@
 """KARYU Short builder — 6 vertical shots, jitter-free Ken Burns (PIL float crop).
 
 fr1 samurai + fire dragon at the brazier (hook) · fr2 brazier flame macro (breather)
-fr3 fire-dragon head close, glowing eyes (reveal) · fr4 torii + starry sky (concept 火龍 + KARYU)
+fr3 fire-dragon head close, glowing eyes (reveal) · fr1 (reused) dragon shot (concept 火龍 + KARYU
+— moved onto the dragon photo per user request 2026-08-28, was the empty torii+sky frame)
 fr5 stone lantern detail (scene) · fr6 wide samurai + dragon (wisdom / close)
 """
 from PIL import Image
@@ -21,7 +22,7 @@ SHOTS = [
     ("karyu-shorts-fr1.jpg", True),
     ("karyu-shorts-fr2.jpg", False),
     ("karyu-shorts-fr3.jpg", True),
-    ("karyu-shorts-fr4.jpg", False),
+    ("karyu-shorts-fr1.jpg", False),
     ("karyu-shorts-fr5.jpg", True),
     ("karyu-shorts-fr6.jpg", False),
 ]

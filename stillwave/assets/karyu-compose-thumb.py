@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""KARYU thumbnail — 火龍 molten gold with a dark halo (dark night scene, gold
-reads cleanly here — same case as SUIRYU), upper-left over the fire-dragon.
-KARYU large gold serif low-centre on the dark foreground stone.
+"""KARYU thumbnail — 火龍 molten gold calligraphic brush (Yuji Syuku), VERTICAL
+stack in the left corner (was horizontal and clipping off the top edge — fixed
+2026-08-28, same vertical treatment as UNRYU). KARYU large gold serif low-centre
+on the dark foreground stone.
 """
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageChops
 
 SRC = "/home/user/dan-documents/stillwave/assets/karyu-2h-source.jpg"
-KANJI = "/home/user/dan-documents/stillwave/assets/fonts/YujiBoku-Regular.ttf"
+KANJI = "/home/user/dan-documents/stillwave/assets/fonts/YujiSyuku-Regular.ttf"
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
 OUT = "/home/user/dan-documents/stillwave/assets/karyu-2h-thumb.jpg"
 W, H = 1920, 1080
@@ -48,18 +49,20 @@ def _lerp_gold(f):
     return GOLD_STOPS[-1][1]
 
 
-def gold_kanji_h(im, chars, size, x0, top_y, pitch, halo=26):
+def gold_kanji_v(im, chars, size, cx, top_y, pitch, halo=26):
+    """vertical (top-to-bottom) gold kanji stack, centred on cx."""
     f = ImageFont.truetype(KANJI, size)
     mask = Image.new("L", (W, H), 0)
     md = ImageDraw.Draw(mask)
-    total = (len(chars) - 1) * pitch
     top, bot = H, 0
     for i, ch in enumerate(chars):
         l, t, r, b = f.getbbox(ch)
-        md.text((x0 + i * pitch - (l + (r - l) / 2), top_y - t), ch, font=f, fill=255)
-        top, bot = min(top, top_y + t), max(bot, top_y + b)
+        y = top_y + i * pitch
+        md.text((cx - (l + (r - l) / 2), y - t), ch, font=f, fill=255)
+        top, bot = min(top, y + t), max(bot, y + b)
+    total = bot - top
     sc = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(sc).rounded_rectangle((x0 - 70, top - 40, x0 + total + 70, bot + 50),
+    ImageDraw.Draw(sc).rounded_rectangle((cx - 140, top - 40, cx + 140, bot + 50),
                                          radius=110, fill=(6, 5, 5, 150))
     im.alpha_composite(sc.filter(ImageFilter.GaussianBlur(80)))
     glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -93,8 +96,8 @@ def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=16, font=SERIF, scrim=Tru
 
 im = base()
 CENTRE = 960
-# 火龍 — horizontal gold, upper-left with breathing room from the edge
-gold_kanji_h(im, ["火", "龍"], 250, 175, 55, pitch=295, halo=30)
+# 火龍 — VERTICAL calligraphic gold, left corner, well clear of the top edge
+gold_kanji_v(im, ["火", "龍"], 200, 150, 140, pitch=240, halo=30)
 # KARYU — large gold serif, low-centre on the dark foreground stone
 spaced_centre(im, "KARYU", 160, CENTRE, 880, fill=GOLD, ls=22, font=SERIF)
 im.convert("RGB").save(OUT, quality=94)

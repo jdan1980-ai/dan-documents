@@ -374,7 +374,7 @@ KARYŪ (火龍) in Japanese Culture: A Concise Overview
 
 Built from the 6 frames (§3c) via `karyu-short-build.py` + `karyu-short-overlays.py` (Ken Burns float-precision PIL, crossfades, gold beats) — same pipeline as WA/ICHIGO/UNRYŪ/SUIRYŪ. Three gold beats, all inside the safe zone (y 150-1450, x 60-880 of 1080×1920):
 - **Beat 1 (hook):** `The flame that never wavers` (cream)
-- **Beat 2 (concept, frame 4):** `火龍` + `KARYŪ` (gold)
+- **Beat 2 (concept):** `火龍` + `KARYŪ` (gold) — moved onto the dragon photo (frame 1, reused) per user request 2026-08-28, was the empty torii+sky frame 4
 - **Beat 3 (wisdom):** `不撓不屈` + `Futō fukutsu` + `Indomitable, never yielding` (gold)
 
 ### 📋 Shorts — copy-paste pack
