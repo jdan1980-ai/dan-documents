@@ -250,16 +250,16 @@ Photorealistic cinematic vertical still 9:16, 4K. A lone samurai in dark weather
 
 ## §3c — Shorts image set (9:16 — 6 frames · FULL standalone prompts)
 
-Save `seiryu-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm zone for the 青龍 kanji overlay. No airborne particles — the plum branch is described as still and in bloom; **never mention petals, falling or otherwise, even to forbid them.** Every samurai frame: EXACTLY TWO sheathed swords at the LEFT hip, hands empty.
+Save `seiryu-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm zone for the 青龍 kanji overlay. No vase/plum branch and no terrace railing anywhere (dropped 2026-08-30, see §0) — the samurai frames show him alone on an open terrace. No airborne particles anywhere in the set. Every samurai frame: EXACTLY TWO sheathed swords, thrust through the obi edge-up at the LEFT hip only, hilts forward, hands empty.
 
 **1. HOOK — samurai at the dawn terrace**
 ```
 Photorealistic cinematic vertical still, 9:16, 4K, pale cyan-gold dawn palette, dramatic scale. A lone samurai in dark weathered armor stands from behind, hair in a simple topknot, no helmet, a calm still silhouette, centered in the lower third of an open east-facing temple terrace at the very first light of a spring dawn — bare stone/wood flooring with NO railing or fence at its edge, no vase or plum branch, nothing beside him. Above and behind him a colossal dragon takes shape directly out of the dawn sky itself, at the seam where the fading night's deep indigo meets the first pale gold light — its head and one visible coil clearly made of swirling star-flecked indigo cloud-light thickening into solid form, eyes glowing a vivid cyan, holding its shape steady and sculptural, the rest of its body dissolving back into the ordinary sky. A living presence woven from the sky, never a flat painting or mural. EXACTLY TWO swords — a katana and a shorter wakizashi (the daishō pair) — both fully sheathed at his LEFT hip only, thrust through the obi with the blade edge upward, both hilts angled forward and up across the front of his body toward his right hand — the historically correct daishō carry, not a shoulder-slung baldric — clearly visible past his left side from behind in this exact fixed position, never swapped to the right hip, never hidden behind his back or body, never appearing in front of him. NO third sword. NO sword drawn. NO sword in his hands. Hands hang empty at his sides. Profound clear stillness, the sense of a new beginning. No text, no letters, no watermark.
 ```
 
-**2. Plum blossom macro (breather)**
+**2. Dew on moss macro (breather)**
 ```
-Photorealistic cinematic vertical close-up, 9:16, 4K, high contrast, pale cyan-gold palette. A close-up of a single flowering plum branch, fully in bloom, completely still, caught in the first pale light of dawn, soft cool background bokeh. Delicate, clear, serene, intimate. No text, no letters, no watermark.
+Photorealistic cinematic vertical close-up, 9:16, 4K, high contrast, pale cyan-gold palette. A close-up of fresh spring moss on old stone at the edge of a temple terrace, tiny beads of dew catching the very first pale light of dawn, completely still, soft cool background bokeh of the brightening horizon beyond. Delicate, clear, serene, intimate — a small sign of renewal at first light. No text, no letters, no watermark.
 ```
 
 **3. The living sky-dragon detail (head + coil, glowing cyan eyes)**
