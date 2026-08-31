@@ -1,7 +1,8 @@
-import type { PlanSettings } from '../types'
+import type { PlanBlock, PlanSettings } from '../types'
 
 const SETTINGS_KEY = 'day-planner:settings'
 const DONE_KEY = 'day-planner:done'
+const BLOCKS_KEY = 'day-planner:blocks'
 
 export function loadSettings(): PlanSettings | null {
   try {
@@ -24,6 +25,7 @@ export function clearSettings() {
   try {
     localStorage.removeItem(SETTINGS_KEY)
     localStorage.removeItem(DONE_KEY)
+    localStorage.removeItem(BLOCKS_KEY)
   } catch {
     // ignore
   }
@@ -41,6 +43,23 @@ export function loadDone(): Record<string, boolean> {
 export function saveDone(done: Record<string, boolean>) {
   try {
     localStorage.setItem(DONE_KEY, JSON.stringify(done))
+  } catch {
+    // ignore
+  }
+}
+
+export function loadBlocks(): PlanBlock[] | null {
+  try {
+    const raw = localStorage.getItem(BLOCKS_KEY)
+    return raw ? (JSON.parse(raw) as PlanBlock[]) : null
+  } catch {
+    return null
+  }
+}
+
+export function saveBlocks(blocks: PlanBlock[]) {
+  try {
+    localStorage.setItem(BLOCKS_KEY, JSON.stringify(blocks))
   } catch {
     // ignore
   }

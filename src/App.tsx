@@ -1,20 +1,35 @@
 import { useMemo, useState } from 'react'
+import AddTaskForm from './components/AddTaskForm'
 import Onboarding from './components/Onboarding'
 import Timeline from './components/Timeline'
 import { getChronotype } from './data/chronotypes'
 import { getNeed } from './data/needs'
 import { getRole } from './data/roles'
 import { generateSchedule } from './lib/schedule'
-import { clearSettings, loadDone, loadSettings, saveDone, saveSettings } from './lib/storage'
+import {
+  clearSettings,
+  loadBlocks,
+  loadDone,
+  loadSettings,
+  saveBlocks,
+  saveDone,
+  saveSettings,
+} from './lib/storage'
 import { toMin } from './lib/time'
 import type { PlanBlock, PlanSettings } from './types'
 
 type View = 'onboarding' | 'plan'
 
+const CUSTOM_COLOR = '#7c3aed'
+
 export default function App() {
   const [settings, setSettings] = useState<PlanSettings | null>(() => loadSettings())
   const [view, setView] = useState<View>(() => (loadSettings() ? 'plan' : 'onboarding'))
-  const [blocks, setBlocks] = useState<PlanBlock[]>(() => (settings ? buildPlan(settings) : []))
+  const [blocks, setBlocks] = useState<PlanBlock[]>(() => {
+    const saved = loadBlocks()
+    if (saved && saved.length > 0) return saved
+    return settings ? buildPlan(settings) : []
+  })
   const [done, setDone] = useState<Record<string, boolean>>(() => loadDone())
 
   const chronotype = settings ? getChronotype(settings.chronotypeId) : null
@@ -26,9 +41,11 @@ export default function App() {
   )
 
   function handleOnboardingComplete(next: PlanSettings) {
+    const nextBlocks = buildPlan(next)
     setSettings(next)
     saveSettings(next)
-    setBlocks(buildPlan(next))
+    setBlocks(nextBlocks)
+    saveBlocks(nextBlocks)
     setDone({})
     saveDone({})
     setView('plan')
@@ -36,7 +53,9 @@ export default function App() {
 
   function regenerate() {
     if (!settings) return
-    setBlocks(buildPlan(settings))
+    const nextBlocks = buildPlan(settings)
+    setBlocks(nextBlocks)
+    saveBlocks(nextBlocks)
     setDone({})
     saveDone({})
   }
@@ -45,6 +64,43 @@ export default function App() {
     setDone((prev) => {
       const next = { ...prev, [id]: !prev[id] }
       saveDone(next)
+      return next
+    })
+  }
+
+  function updateBlockTime(id: string, startRel: number, endRel: number) {
+    setBlocks((prev) => {
+      const next = prev
+        .map((b) => (b.id === id ? { ...b, startRel, endRel } : b))
+        .sort((a, b) => a.startRel - b.startRel)
+      saveBlocks(next)
+      return next
+    })
+  }
+
+  function deleteBlock(id: string) {
+    setBlocks((prev) => {
+      const next = prev.filter((b) => b.id !== id)
+      saveBlocks(next)
+      return next
+    })
+  }
+
+  function addTask(label: string, emoji: string, startRel: number, endRel: number) {
+    setBlocks((prev) => {
+      const next = [
+        ...prev,
+        {
+          id: crypto.randomUUID(),
+          label,
+          emoji,
+          startRel,
+          endRel,
+          kind: 'custom' as const,
+          color: CUSTOM_COLOR,
+        },
+      ].sort((a, b) => a.startRel - b.startRel)
+      saveBlocks(next)
       return next
     })
   }
@@ -131,7 +187,18 @@ export default function App() {
           </div>
         </header>
 
-        <Timeline blocks={blocks} wakeMin={wakeMin} done={done} onToggleDone={toggleDone} />
+        <Timeline
+          blocks={blocks}
+          wakeMin={wakeMin}
+          done={done}
+          onToggleDone={toggleDone}
+          onUpdateTime={updateBlockTime}
+          onDelete={deleteBlock}
+        />
+
+        <div className="print:hidden">
+          <AddTaskForm wakeMin={wakeMin} blocks={blocks} onAdd={addTask} />
+        </div>
       </div>
     </div>
   )
