@@ -1,0 +1,100 @@
+import type { Need } from '../types'
+
+export const NEEDS: Need[] = [
+  {
+    id: 'deep_work',
+    label: 'Глубокая работа / фокус',
+    emoji: '🎯',
+    idealEnergy: 'high',
+    weight: 3,
+    minSession: 45,
+    maxSession: 120,
+    color: '#6d28d9',
+  },
+  {
+    id: 'study',
+    label: 'Учёба / подготовка',
+    emoji: '📚',
+    idealEnergy: 'high',
+    weight: 3,
+    minSession: 40,
+    maxSession: 100,
+    color: '#1d4ed8',
+  },
+  {
+    id: 'sport',
+    label: 'Спорт и тело',
+    emoji: '🏃',
+    idealEnergy: 'medium',
+    weight: 2,
+    minSession: 30,
+    maxSession: 90,
+    color: '#16a34a',
+  },
+  {
+    id: 'family',
+    label: 'Семья и дети',
+    emoji: '👨‍👩‍👧',
+    idealEnergy: 'medium',
+    weight: 2.5,
+    minSession: 40,
+    maxSession: 150,
+    color: '#ea580c',
+  },
+  {
+    id: 'creativity',
+    label: 'Творчество / проекты для души',
+    emoji: '🎨',
+    idealEnergy: 'high',
+    weight: 2,
+    minSession: 30,
+    maxSession: 100,
+    color: '#db2777',
+  },
+  {
+    id: 'rest',
+    label: 'Отдых и восстановление',
+    emoji: '🛋️',
+    idealEnergy: 'low',
+    weight: 2,
+    minSession: 20,
+    maxSession: 90,
+    color: '#0891b2',
+  },
+  {
+    id: 'social',
+    label: 'Общение и нетворкинг',
+    emoji: '💬',
+    idealEnergy: 'medium',
+    weight: 1.5,
+    minSession: 20,
+    maxSession: 80,
+    color: '#ca8a04',
+  },
+  {
+    id: 'chores',
+    label: 'Быт и организационные дела',
+    emoji: '🧺',
+    idealEnergy: 'low',
+    weight: 1.5,
+    minSession: 15,
+    maxSession: 60,
+    color: '#65758c',
+  },
+  {
+    id: 'learning',
+    label: 'Новый навык / саморазвитие',
+    emoji: '🌱',
+    idealEnergy: 'medium',
+    weight: 1.5,
+    minSession: 20,
+    maxSession: 70,
+    color: '#059669',
+  },
+]
+
+export function getNeed(id: string): Need {
+  const found = NEEDS.find((n) => n.id === id)
+  if (!found) throw new Error(`Unknown need: ${id}`)
+  return found
+}
