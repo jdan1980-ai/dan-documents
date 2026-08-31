@@ -100,8 +100,8 @@ def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=16, font=SERIF, scrim=Tru
 
 im = base()
 CENTRE = 960
-# 青龍 — VERTICAL calligraphic gold, left corner, in the dark starlit sky band
-gold_kanji_v(im, ["青", "龍"], 200, 150, 140, pitch=240, halo=30)
+# 青龍 — VERTICAL calligraphic gold, left corner, in the dark starlit sky band (size +20% per user request)
+gold_kanji_v(im, ["青", "龍"], 240, 150, 140, pitch=288, halo=32)
 # SEIRYU — large gold serif, low-centre on the dark foreground terrace stone
 spaced_centre(im, "SEIRYU", 160, CENTRE, 880, fill=GOLD, ls=22, font=SERIF)
 im.convert("RGB").save(OUT, quality=94)
