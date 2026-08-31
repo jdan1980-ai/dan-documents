@@ -7,7 +7,7 @@
 - **Concept:** 青龍 (seiryū) — "Azure Dragon." One of the Four Celestial Guardians (四神 shijin) of Japanese and Chinese cosmology, guardian of the East, spring, and the dawn. The turning point where the deepest dark gives way to new light.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** ~2H full album (unique Suno tracks, CapCut laydown)
-- **Status:** 🟡 IN PROGRESS — hero image chosen + Veo3 loop confirmed seamless (§4). Next: 10 Suno variants (§1) → master → select → §8, then thumbnail (§10), wisdom overlay, Shorts (§3c/§14).
+- **Status:** 🟢 PRODUCTION-READY — hero + Veo3 loop (§4), album mastered/selected + §8 tracklist (33 tracks, 1:59:05), thumbnail (§10), wisdom overlay (§6a), outro overlay, and Shorts (§3c/§14, `seiryu-shorts-35s.mp4`) all done and approved. Remaining: CapCut long-form assembly (lay the album under the Veo3 loop) once the loop is generated, then upload both.
 
 ---
 
