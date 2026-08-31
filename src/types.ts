@@ -71,7 +71,7 @@ export interface Role {
   weightOverrides?: Partial<Record<NeedId, number>>
 }
 
-export type BlockKind = 'routine' | 'meal' | 'commitment' | 'need' | 'buffer'
+export type BlockKind = 'routine' | 'meal' | 'commitment' | 'need' | 'buffer' | 'custom'
 
 export interface PlanBlock {
   id: string
