@@ -30,11 +30,11 @@ s = Image.new("RGBA", (W, H), (0, 0, 0, 0))
 ImageDraw.Draw(s).rounded_rectangle((-200, 636, 900, 1060), radius=170, fill=(6, 6, 9, 165))
 img.alpha_composite(s.filter(ImageFilter.GaussianBlur(100)))
 
-# 一陽来復 — brush kanji (4 chars), cream, faint warm glow
-f = ImageFont.truetype(KANJI, 108)
+# 一陽来復 — brush kanji (4 chars), cream, faint warm glow (size +20% per user request)
+f = ImageFont.truetype(KANJI, 130)
 mask = Image.new("L", (W, H), 0)
 md = ImageDraw.Draw(mask)
-chars, pitch, y0 = ["一", "陽", "来", "復"], 128, 692
+chars, pitch, y0 = ["一", "陽", "来", "復"], 154, 662
 l0, _, r0, _ = f.getbbox(chars[0])
 c0 = X + (r0 - l0) / 2
 for i, ch in enumerate(chars):
