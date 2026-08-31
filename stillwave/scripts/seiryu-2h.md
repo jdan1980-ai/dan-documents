@@ -333,7 +333,39 @@ the turning point where the deepest dark gives way.
 At the edge of an open east-facing terrace, a lone figure waits for the sun as a colossal dragon takes shape out of the meeting point of night and dawn itself, rising and dissolving back into the sky it is made of. Slow koto, clear shakuhachi, the long decay of a singing bowl — two hours to rest at the exact turning point, where whatever has ended quietly becomes whatever begins next.
 
 Tracklist:
-[added after mastering — mood-poetic names, pale and clear]
+0:00 The Sky Before Sunrise
+3:57 Where Night Loosens Its Hold
+7:31 A Single Star Still Burning
+10:34 The Terrace Faces East
+14:24 Indigo Turning to Gold
+17:29 The Dragon Wakes in the Clouds
+20:48 Stillness at the Edge of Dawn
+23:43 The First Breath of Spring
+27:01 Light Gathers at the Horizon
+31:12 A Sky Not Yet Decided
+34:16 The Long Night Loosens
+38:11 Dawn Without a Single Sound
+41:35 The Azure Dragon Stirs
+45:18 Waiting for the First Ray
+48:48 Where Dark and Light Meet
+52:47 The Quiet Before the Sun
+56:11 A New Season Arrives Unhurried
+1:00:25 The Sky Remembers Spring
+1:04:09 Gold Spreading Through Indigo
+1:08:12 The Dragon Holds the Dawn
+1:12:21 Stars Fading One by One
+1:15:35 The East Keeps Its Promise
+1:19:28 A Beginning Without Ceremony
+1:22:56 Light That Was Always Coming
+1:26:24 The Terrace Holds Its Breath
+1:29:46 Where the Night Surrenders
+1:33:20 The First Warmth of Morning
+1:37:15 A Sky Turning Toward Spring
+1:41:24 The Dragon's Last Watch
+1:44:56 Dawn Arrives Unannounced
+1:48:40 The Stillness That Precedes Light
+1:52:15 One Yang Returns
+1:55:55 The Sun Finds the Terrace
 
 🌀 The dark turns. The light returns.
 🍃 Nothing forced. Only the first light, and a new beginning.
