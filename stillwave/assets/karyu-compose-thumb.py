@@ -70,7 +70,7 @@ def gold_kanji_v(im, chars, size, cx, top_y, pitch, halo=26):
         l, t, r, b = f.getbbox(ch)
         y = top_y + i * pitch
         md.text((cx - (l + (r - l) / 2), y - t), ch, font=f, fill=255)
-        top, bot = min(top, y + t), max(bot, y + b)
+        top, bot = min(top, y), max(bot, y + (b - t))
     total = bot - top
     sc = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(sc).rounded_rectangle((cx - 140, top - 40, cx + 140, bot + 50),
