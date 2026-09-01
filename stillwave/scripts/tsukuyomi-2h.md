@@ -274,11 +274,11 @@ Photorealistic cinematic vertical close-up, 9:16, 4K, pale moonlit light. A clos
 Photorealistic cinematic vertical still, 9:16, 4K. A calm, open night sky over a still lake, a full moon high and clear, soft gradient of pale silver-blue fading into deep indigo, the upper half quiet and empty (clean space for a large kanji), a faint dark silhouette of distant mountains at the bottom of frame, the moon's reflection just visible on the glass-still water. Minimal, serene, clear, atmospheric. No text, no letters, no watermark.
 ```
 
-**5. White lotus flower on the water (detail)**
+**5. Luminous lotus of moonlight on the water (detail)**
 ```
-Photorealistic cinematic vertical close-up, 9:16, 4K, pale moonlit light. A single white lotus flower floating on the glass-still surface of a lake at night, fully open, its petals catching the moon's pale light, a few broad lotus leaves resting flat on the water around it, soft cool background bokeh of the moon's reflection beyond. Delicate, clear, serene, intimate — a still echo of the lotus the moon god himself holds. No text, no letters, no watermark.
+Photorealistic cinematic vertical close-up, 9:16, 4K, pale silver-blue palette. A single lotus flower resting on the glass-still surface of a lake at night, fully open, formed of dense pale moonlight and drifting mist exactly like the manifestation of Tsukuyomi itself — the same faintly luminous silver-blue glow, its petals suggested by light rather than solid petal texture, never a real solid flower — echoed perfectly in its own reflection on the water below. Soft cool background bokeh, distant mountain silhouettes barely visible. Delicate, clear, serene, intimate — a living echo of the lotus the moon god himself holds, made of the same light he is made of. No text, no letters, no watermark.
 ```
-> **🔒 Detail-shot variety (locked 2026-09-01, user feedback):** the Shorts "breather/detail" slot (frame 2 or 5) must NOT default to the same weathered stone lantern every video — that had become a stale repeat across the whole channel's Shorts sets. Pick an object tied to THIS god/video specifically (here: the lotus he holds) and vary it every time going forward.
+> **🔒 Detail-shot variety (locked 2026-09-01, user feedback):** the Shorts "breather/detail" slot (frame 2 or 5) should not default to the same weathered stone lantern every video regardless of fit — pick an object tied to THIS video specifically. **🔒 Style match (locked 2026-09-01):** this lotus must render in the same "living light/mist" treatment as the god and the moon rabbits (glowing, made of moonlight — never a literal photoreal flower) so all three living-light elements in the video read as one consistent visual language.
 
 **6. Monk before the fully-risen moon god, wide, brighter (wisdom)**
 ```
