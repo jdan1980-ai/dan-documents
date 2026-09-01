@@ -879,6 +879,10 @@ Because Shorts (teaser AND concept) are built from a sequence of vertical stills
 
 **🇺🇦** Так как Shorts (тизер И концепт) собираются из набора вертикальных кадров, в каждом скрипте — отдельный раздел **набора картинок для Shorts** (напр. `§3c`) с **6 разными 9:16 промтами** (по одному на кадр раскадровки), а не один. Кадр 4 — «под иероглиф» (спокойная/пустая зона). Все — по локнутым правилам, сохранять как `<slug>-shorts-fr1.jpg … fr6.jpg`.
 
+**🔒 Vary the "detail/breather" object every video (LOCKED 2026-09-01, user feedback on TSUKUYOMI):** the breather/detail shot (usually frame 2 or 5) had defaulted to the same weathered stone lantern (ishidōrō) on nearly every Shorts set across the whole channel — user flagged it as stale ("невозможно пользоваться одним фонарем"). Pick an object tied to THIS specific video's theme/props instead (e.g. TSUKUYOMI used the white lotus the god himself holds, instead of the lantern) — never default to the lantern automatically again. **🇺🇦** Деталь-кадр (обычно 2 или 5) не должен по умолчанию быть тем же каменным фонарём каждый раз — выбирать объект по теме конкретного видео.
+
+**🔒 Character/subject consistency across the 3+ frames showing the same figure (LOCKED 2026-09-01):** when a video's visual hook (dragon, god, spirit) appears in multiple Shorts frames (typically 1, 3, 6), independent NanoBanana text-to-image generations do NOT reliably keep the same face/proportions/design between them — user caught this drift on TSUKUYOMI. Feed the already-approved hero image as a visual reference alongside the text prompt (image + text, not text-only) for every subsequent frame showing that same figure. **🇺🇦** Когда ключевой образ (дракон/бог/дух) появляется в нескольких кадрах Shorts, независимые текстовые генерации не гарантируют одинаковую внешность — подавать уже одобренный герой-кадр как референс-картинку вместе с текстом при генерации остальных кадров с этим же персонажем.
+
 ---
 
 ## 🔑 YouTube Data API v3 access

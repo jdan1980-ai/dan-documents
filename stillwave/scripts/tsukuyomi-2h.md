@@ -252,6 +252,7 @@ Photorealistic cinematic vertical still 9:16, 4K. A lone Buddhist monk in simple
 
 Save `tsukuyomi-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm zone for the 月読 kanji overlay. No airborne particles. Every monk frame: seated zazen, back to camera, calm.
 **🔒 Frame 1 vs frame 6 — deliberately NOT the same shot:** frame 1 = the manifestation just beginning to take shape, the moon lower and dimmer; frame 6 = later, the manifestation fully resolved and brighter, the moon higher and its light fuller — a sense of the night deepening into full stillness, not a repeat of the opener.
+**🔒 Character consistency across frames (locked 2026-09-01, user feedback):** frames 1, 3, and 6 all show Tsukuyomi's manifestation, generated independently — text prompts alone do NOT guarantee the same face/robe/proportions across separate NanoBanana generations, and the user flagged this drift on the delivered set. When generating these three frames, feed the already-approved hero image (`tsukuyomi-2h-source.jpg`) into NanoBanana as a visual reference alongside the text prompt (image + text, not text-only) so the god's design carries over consistently. Do this for every future KAMI-series video too.
 
 **1. HOOK — monk before the rising moon god**
 ```
@@ -273,10 +274,11 @@ Photorealistic cinematic vertical close-up, 9:16, 4K, pale moonlit light. A clos
 Photorealistic cinematic vertical still, 9:16, 4K. A calm, open night sky over a still lake, a full moon high and clear, soft gradient of pale silver-blue fading into deep indigo, the upper half quiet and empty (clean space for a large kanji), a faint dark silhouette of distant mountains at the bottom of frame, the moon's reflection just visible on the glass-still water. Minimal, serene, clear, atmospheric. No text, no letters, no watermark.
 ```
 
-**5. Weathered stone lantern at the water's edge (detail)**
+**5. White lotus flower on the water (detail)**
 ```
-Photorealistic cinematic vertical still, 9:16, 4K, pale moonlit light. A single weathered stone lantern (ishidōrō) at the edge of a still lake at night, moss at its base, the moon's pale light catching one edge, the water glass-still beyond. Quiet, clear, serene, timeless. No text, no letters, no watermark.
+Photorealistic cinematic vertical close-up, 9:16, 4K, pale moonlit light. A single white lotus flower floating on the glass-still surface of a lake at night, fully open, its petals catching the moon's pale light, a few broad lotus leaves resting flat on the water around it, soft cool background bokeh of the moon's reflection beyond. Delicate, clear, serene, intimate — a still echo of the lotus the moon god himself holds. No text, no letters, no watermark.
 ```
+> **🔒 Detail-shot variety (locked 2026-09-01, user feedback):** the Shorts "breather/detail" slot (frame 2 or 5) must NOT default to the same weathered stone lantern every video — that had become a stale repeat across the whole channel's Shorts sets. Pick an object tied to THIS god/video specifically (here: the lotus he holds) and vary it every time going forward.
 
 **6. Monk before the fully-risen moon god, wide, brighter (wisdom)**
 ```
