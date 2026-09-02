@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """TSUKUYOMI Short builder — 6 vertical shots, jitter-free Ken Burns (PIL float crop).
 
-fr1 monk + full symmetric moon-god manifestation, reflection (hook)
-fr2 moon rabbit macro (breather) · fr3 moon-god close portrait, lotus + gohei (reveal)
-fr4 moonlight beam over clean night sky (concept 月読 + TSUKUYOMI — the "kanji frame")
-fr5 luminous lotus macro on the water (scene) · fr6 extreme wide, tiny monk + tiny
-distant god across the lake (wisdom / close — deliberately different scale than fr1)
+fr1 = the long-form THUMBNAIL itself (title already baked in, letterboxed into
+9:16 with a blurred cover-fit background) — no text overlay needed on it.
+fr2 moon rabbit macro · fr3 moon-god close portrait, lotus + gohei
+fr4 moonlight beam over clean night sky · fr5 luminous lotus macro on the water
+fr6 extreme wide, tiny monk + tiny distant god across the lake
+
+Per user feedback (2026-09-01): the wisdom phrase 明月清風 (Meigetsu seifu / "a
+bright moon, a clear wind") is now broken into ONE PIECE PER FRAME 2-6 instead
+of one caption stretched across the whole video — shot 2->明, 3->月, 4->清,
+5->風, 6->romaji+gloss (phrase resolves on the last shot).
 """
 from PIL import Image
 from pathlib import Path
@@ -29,14 +34,16 @@ SHOTS = [
 ]
 ZOOM = 0.10
 
-# step = 5.7, total = 5.7*5 + 6.5 = 35.0s
-# Wisdom now stays on screen from right after the hook fades through to the
-# end (shots 2-6) per user request — "каждое изображение сопровождалось
-# мудростью" — instead of only flashing briefly over the final shot.
+# step = 5.7, total = 5.7*5 + 6.5 = 35.0s. Shot 1 = the thumbnail (no overlay,
+# title already baked in). One piece of 明月清風 per remaining shot, each
+# timed to its shot's stable (post-crossfade) window so it never collides
+# with the crossfade transitions or with another beat.
 OVERLAYS = [
-    ("tsukv_hook.png", 3.0, 8.4),        # shot 1
-    ("tsukv_wisdom.png", 9.5, 34.0),    # shots 2-6, persistent
-    ("tsukv_concept.png", 18.0, 23.0),  # shot 4 (starts 17.1), layers on top
+    ("tsukv_c1.png", 7.0, 10.9),    # shot 2 -> 明
+    ("tsukv_c2.png", 12.7, 16.6),   # shot 3 -> 月
+    ("tsukv_c3.png", 18.4, 22.3),   # shot 4 -> 清
+    ("tsukv_c4.png", 24.1, 28.0),   # shot 5 -> 風
+    ("tsukv_c5.png", 29.8, 34.0),   # shot 6 -> Meigetsu seifu / gloss
 ]
 FADE = 0.9
 END_FADE = 1.0
