@@ -248,11 +248,10 @@ Photorealistic cinematic still, 16:9, 4K. A lone Buddhist monk in simple dark ro
 Photorealistic cinematic vertical still 9:16, 4K. A lone Buddhist monk in simple dark robes sits from behind in quiet zazen meditation, lower third, on a flat rock at the edge of a still lake at night, facing a full moon perfectly reflected on the water. Above and beyond the water a colossal seated figure of Tsukuyomi takes shape out of the moonlight and drifting mist — cross-legged, robed in flowing dark blue-silver fabric, haloed in radiant pale silver-blue glow, one hand holding a white lotus, the other a slender gohei wand, two pale luminous moon rabbits resting calmly at his base — a living presence of moonlight, never a statue or mural. Distant mountain silhouettes. Pale silver-blue palette, glass-still water. Keep the centre-left band calm and low-detail (a text overlay sits there). No airborne particles, no text, no letters, no watermark, no other people.
 ```
 
-## §3c — Shorts image set (9:16 — 6 frames · FULL standalone prompts)
+## §3c — Shorts image set (9:16 — 10 candidates, pick 6 · FULL standalone prompts)
 
-Save `tsukuyomi-shorts-fr1.jpg … fr6.jpg`. No in-image text; bottom-right calm for logo. Frame 4 = calm zone for the 月読 kanji overlay. No airborne particles. Every monk frame: seated zazen, back to camera, calm.
-**🔒 Frame 1 vs frame 6 — deliberately NOT the same shot:** frame 1 = the manifestation just beginning to take shape, the moon lower and dimmer; frame 6 = later, the manifestation fully resolved and brighter, the moon higher and its light fuller — a sense of the night deepening into full stillness, not a repeat of the opener.
-**🔒 Character consistency across frames (locked 2026-09-01, user feedback):** frames 1, 3, and 6 all show Tsukuyomi's manifestation, generated independently — text prompts alone do NOT guarantee the same face/robe/proportions across separate NanoBanana generations, and the user flagged this drift on the delivered set. When generating these three frames, feed the already-approved hero image (`tsukuyomi-2h-source.jpg`) into NanoBanana as a visual reference alongside the text prompt (image + text, not text-only) so the god's design carries over consistently. Do this for every future KAMI-series video too.
+🔒 **Deliver 10, user picks 6 (locked 2026-09-01):** generate all 10 candidates below, the user selects the best 6 and those get saved/renumbered as `tsukuyomi-shorts-fr1.jpg … fr6.jpg`. Whichever 6 are chosen, at least one must serve as the "kanji frame" (candidate 4 is written for that role, but any calm/empty candidate can substitute). No in-image text; bottom-right calm for logo. No airborne particles. Every monk frame: seated zazen, back to camera, calm.
+**🔒 Character consistency across frames showing the god (candidates 1, 3, 6, 9, 10):** independent NanoBanana text-to-image generations do NOT guarantee the same face/robe/proportions across separate generations — user flagged this drift on the first delivered set. Feed the already-approved hero image (`tsukuyomi-2h-source.jpg`) into NanoBanana as a visual reference alongside the text prompt (image + text, not text-only) for all of these. Do this for every future KAMI-series video too.
 
 **1. HOOK — monk before the rising moon god**
 ```
@@ -283,6 +282,26 @@ Photorealistic cinematic vertical close-up, 9:16, 4K, pale silver-blue palette. 
 **6. Monk before the fully-risen moon god, wide, brighter (wisdom)**
 ```
 Photorealistic cinematic vertical still, 9:16, 4K, pale silver-blue night palette, dramatic scale. A lone Buddhist monk in simple dark robes sits from behind in quiet zazen meditation, centered in the lower third, on a flat rock at the edge of a still lake at night — only this one figure, no other people — facing a full moon now high and at its brightest, fully reflected on the glass-still water. Above and beyond the water, the seated figure of Tsukuyomi is now fully resolved, robed in richer, brighter silver-blue light than before, one hand holding a white lotus, the other a gohei wand, two pale luminous moon rabbits resting calmly at his base — a living presence of moonlight, never a statue or mural. Distant mountain silhouettes. Profound serene stillness, the sense of the night settling into complete calm. No text, no letters, no watermark.
+```
+
+**7. Low silhouette — monk against the huge horizon moon (no manifestation)**
+```
+Photorealistic cinematic vertical still, 9:16, 4K, extreme low camera angle from just above the water's surface, pale silver-blue night palette. A lone Buddhist monk in simple dark robes, seen only as a still silhouette from behind, seated in zazen on a low rock at the very edge of a still lake, framed against an enormous full moon sitting low on the horizon directly behind him, its light spilling in a long straight path across the water toward the camera. No manifestation, no rabbits, no lotus — just the monk and the vast moon. Distant flat mountain silhouette. Profound minimal stillness. No text, no letters, no watermark.
+```
+
+**8. Extreme wide — monk and god both tiny against the lake and sky**
+```
+Photorealistic cinematic vertical still, 9:16, 4K, extreme wide shot, pale silver-blue night palette. A vast still lake fills almost the entire frame, ringed by faint distant mountain silhouettes, a full moon high in a star-scattered sky. In the lower corner, a lone Buddhist monk in dark robes sits from behind in zazen meditation on a small rock, rendered very small against the scale of the water and sky. Far across the lake, small and distant, the seated manifestation of Tsukuyomi glows faintly above the water, barely larger than the monk himself. Overwhelming scale, profound smallness of the human figure against the night. No text, no letters, no watermark.
+```
+
+**9. Mist over the water (pure atmosphere, no figures)**
+```
+Photorealistic cinematic vertical still, 9:16, 4K, pale silver-blue palette. A thin layer of drifting night mist crosses the glass-still surface of a lake, the full moon's reflection cutting a bright unbroken line straight through the mist toward the camera, faint mountain silhouettes barely visible at the edges. No figures, no manifestation — pure atmosphere, the moon's light and the water's stillness alone. Delicate, clear, serene. No text, no letters, no watermark.
+```
+
+**10. God's hand and gohei wand (alternate detail)**
+```
+Photorealistic cinematic vertical close-up, 9:16, 4K, pale silver-blue palette. A close view of a large hand formed of moonlight and drifting mist, holding a slender Shinto gohei wand — its white zigzag paper streamers glowing softly, catching an unhurried, barely perceptible drift — the rest of the god's form softening into pale silver-blue light and shadow behind it, out of focus. A living presence made of moonlight, reverent and still. No text, no letters, no watermark.
 ```
 
 ---
