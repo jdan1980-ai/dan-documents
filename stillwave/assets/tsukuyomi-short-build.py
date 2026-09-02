@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 """TSUKUYOMI Short builder — 6 vertical shots, jitter-free Ken Burns (PIL float crop).
 
-fr1 = the long-form THUMBNAIL itself (title already baked in, letterboxed into
-9:16 with a blurred cover-fit background) — no text overlay needed on it.
+fr1 = native 9:16 title card (tsukuyomi-shorts-cover.py — one of the existing
+source images with 月読 + TSUKUYOMI added in the upper-left corner clear of
+the deity) — no further text overlay needed on it.
 fr2 moon rabbit macro · fr3 moon-god close portrait, lotus + gohei
 fr4 moonlight beam over clean night sky · fr5 luminous lotus macro on the water
 fr6 extreme wide, tiny monk + tiny distant god across the lake
 
-Per user feedback (2026-09-01): the wisdom phrase 明月清風 (Meigetsu seifu / "a
-bright moon, a clear wind") is now broken into ONE PIECE PER FRAME 2-6 instead
-of one caption stretched across the whole video — shot 2->明, 3->月, 4->清,
-5->風, 6->romaji+gloss (phrase resolves on the last shot).
+Per final user rule: the wisdom text is SHORT (a few words), so each of the
+5 remaining frames (2-6) carries a DIFFERENT short Japanese wisdom/phrase —
+never the same one repeated, never one phrase stretched across frames.
+Built by tsukuyomi-short-overlays.py -> tsukv_w1..w5.png.
 """
 from PIL import Image
 from pathlib import Path
@@ -34,16 +35,16 @@ SHOTS = [
 ]
 ZOOM = 0.10
 
-# step = 5.7, total = 5.7*5 + 6.5 = 35.0s. Shot 1 = the thumbnail (no overlay,
-# title already baked in). One piece of 明月清風 per remaining shot, each
-# timed to its shot's stable (post-crossfade) window so it never collides
-# with the crossfade transitions or with another beat.
+# step = 5.7, total = 5.7*5 + 6.5 = 35.0s. Shot 1 = the title card (no
+# overlay, title already baked in). One DIFFERENT short wisdom per
+# remaining shot, each timed to its shot's stable (post-crossfade) window
+# so it never collides with the crossfade transitions or another beat.
 OVERLAYS = [
-    ("tsukv_c1.png", 7.0, 10.9),    # shot 2 -> 明
-    ("tsukv_c2.png", 12.7, 16.6),   # shot 3 -> 月
-    ("tsukv_c3.png", 18.4, 22.3),   # shot 4 -> 清
-    ("tsukv_c4.png", 24.1, 28.0),   # shot 5 -> 風
-    ("tsukv_c5.png", 29.8, 34.0),   # shot 6 -> Meigetsu seifu / gloss
+    ("tsukv_w1.png", 7.0, 10.9),    # shot 2 -> Seijaku / Silence is a teacher
+    ("tsukv_w2.png", 12.7, 16.6),   # shot 3 -> Mushin / No mind, no burden
+    ("tsukv_w3.png", 18.4, 22.3),   # shot 4 -> Meikyo shisui / A clear mirror, still water
+    ("tsukv_w4.png", 24.1, 28.0),   # shot 5 -> Ichigo ichie / One moment, never again
+    ("tsukv_w5.png", 29.8, 34.0),   # shot 6 -> Meigetsu seifu / A bright moon, a clear wind
 ]
 FADE = 0.9
 END_FADE = 1.0
