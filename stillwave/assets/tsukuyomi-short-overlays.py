@@ -56,7 +56,7 @@ def gold_kanji(img, chars, size, x0, y0, pitch, cx0=None):
     for i, ch in enumerate(chars):
         l, t, r, b = f.getbbox(ch)
         md.text((c0 + i * pitch - (l + (r - l) / 2), y0), ch, font=f, fill=255)
-        top, bot = min(top, y0 + t), max(bot, y0 + (b - t))
+        top, bot = min(top, y0 + t), max(bot, y0 + b)
     glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     glow.paste((250, 170, 90, 255), (0, 0),
                mask.filter(ImageFilter.GaussianBlur(22)).point(lambda p: int(p * 0.6)))

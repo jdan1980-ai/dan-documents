@@ -30,10 +30,13 @@ SHOTS = [
 ZOOM = 0.10
 
 # step = 5.7, total = 5.7*5 + 6.5 = 35.0s
+# Wisdom now stays on screen from right after the hook fades through to the
+# end (shots 2-6) per user request — "каждое изображение сопровождалось
+# мудростью" — instead of only flashing briefly over the final shot.
 OVERLAYS = [
     ("tsukv_hook.png", 3.0, 8.4),        # shot 1
-    ("tsukv_concept.png", 18.0, 23.0),  # shot 4 (starts 17.1)
-    ("tsukv_wisdom.png", 29.6, 34.0),   # shot 6 (starts 28.5)
+    ("tsukv_wisdom.png", 9.5, 34.0),    # shots 2-6, persistent
+    ("tsukv_concept.png", 18.0, 23.0),  # shot 4 (starts 17.1), layers on top
 ]
 FADE = 0.9
 END_FADE = 1.0
