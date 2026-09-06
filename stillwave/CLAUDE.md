@@ -247,6 +247,11 @@ Every StillWave long-form video opens with a Japanese wisdom phrase overlay in t
 - **Timing — retention-safe (Karena #7):** 0:00–0:03 = scene + sound ONLY, NO text → Fade In 2s → hold ~5s → Fade Out 2s → clip ends at 0:14. Total on-screen: ~11 seconds.
 - **CapCut:** add as a TEXT layer on the TOP track. Start at 0:03, end at 0:14. Apply Fade-In 2s + Fade-Out 2s transitions. No glow, no shadow, no box.
 
+### 🔒 Delivering overlay assets — transparent PNG only (LOCKED 2026-09-02)
+
+When sending a wisdom overlay (or any text-overlay PNG — Shorts wisdom captions included) to the user, send **only the transparent `.png` file itself** — never a composited/flattened `.jpg` "preview" render. A JPG preview caused real confusion on AMATERASU (user asked "оверлей не прозрачный?" after being sent the composited preview instead of the actual asset) — it looks opaque because JPG cannot hold an alpha channel at all, so it reads as a bug even though the real `.png` was fine all along. Composited previews are fine to generate and *look at* for your own QA (zooming in to verify kanji aren't clipped, checking safe-zone placement, etc.), but they must stay internal — only the transparent PNG gets delivered as the deliverable.
+**🇺🇦** Оверлей всегда отдаём пользователю ТОЛЬКО прозрачным `.png` — никогда JPG-превью с композитом поверх кадра. JPG не умеет хранить прозрачность и выглядит как баг, хотя реальный файл в порядке. Превью-композит можно и нужно делать для собственной проверки (зум на иероглифы, safe zone), но пользователю уходит только сам прозрачный файл.
+
 ### Series phrase guide
 
 | Series | Phrase theme | Example direction |
