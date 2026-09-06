@@ -346,7 +346,7 @@ AMATERASU — 天照 | Japanese Zen Music for Morning Meditation & Sunrise Calm
 
 ---
 
-## §8 — Description (Hikari 5-block; tracklist pending mastering)
+## §8 — Description (Hikari 5-block; tracklist final — 27 tracks, 1:50:10)
 
 ```
 japanese zen music, meditation music, zen music, morning meditation music, calming music, relaxing music, healing music, ambient music, amaterasu, japanese sun goddess music, music for morning meditation, koto music, shakuhachi flute, singing bowls — a two-hour Japanese zen session for morning meditation and sunrise calm.
@@ -355,10 +355,36 @@ japanese zen music, meditation music, zen music, morning meditation music, calmi
 warmth returning after darkness,
 a light that asks only to be let back in.
 
-At the edge of a open stone outcrop at a cliff edge, a lone monk sits facing a mist-filled valley, as the sun goddess herself takes shape out of the sunrise and golden mist above — a mirror in one hand, a sheaf of rice in the other, two sacred roosters resting at her feet. Warm strings, pale koto, the long decay of a temple bell — two hours to sit as still and open as a valley waiting for first light.
+At the edge of an open stone outcrop at a cliff edge, a lone monk sits facing a mist-filled valley, as the sun goddess herself takes shape out of the sunrise and golden mist above — a mirror in one hand, a sheaf of rice in the other, two sacred roosters resting at her feet. Warm strings, pale koto, the long decay of a temple bell — two hours to sit as still and open as a valley waiting for first light.
 
 Tracklist:
-TBD — paste the mastered/selected track order here after running §2.
+0:00 The Light Before Waking
+4:20 Mist Over the Rice Terraces
+8:15 A Valley Waiting for Dawn
+12:03 The Sun Climbs Slowly
+15:18 Where Warmth Begins
+19:08 A Mirror Catching Morning
+22:41 The Distant Call at Dawn
+26:00 Gold Settling on Still Water
+30:10 The Goddess Steps From Shadow
+34:19 Light Returning to the World
+42:19 A Monk Facing the Horizon
+46:21 Rice Fields Waking Slowly
+50:35 The Mist Begins to Lift
+54:08 Warmth Without Hurry
+58:02 The Sun Held in a Mirror
+1:02:31 A Quiet Valley Brightening
+1:06:35 The Long Climb of Morning
+1:10:55 Stillness Meeting the Light
+1:14:58 Golden Bands Across the Terraces
+1:18:38 The Shrine at First Light
+1:22:08 A Sheaf of Morning Rice
+1:25:18 The Goddess Fully Risen
+1:30:01 Two Sacred Roosters at Dawn
+1:33:59 The Valley Wakes to Gold
+1:38:04 A Torii in the Mist
+1:42:12 Light That Asks Nothing Back
+1:45:56 The Morning Holds Its Warmth
 
 🌀 The light always returns.
 🍃 Nothing forced. Only warmth, and a whole morning to sit in it.
