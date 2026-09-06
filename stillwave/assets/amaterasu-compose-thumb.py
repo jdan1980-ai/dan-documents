@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
-"""AMATERASU thumbnail — 天照 gold calligraphic, VERTICAL stack in the left
+"""AMATERASU thumbnail — 天照 calligraphic, VERTICAL stack in the left
 corner, matching the KAMI series treatment. Uses the ALREADY-FIXED
 gold_kanji_v bounds formula (top, bot = min(top, y), max(bot, y + (b - t)))
 cloned from tsukuyomi-compose-thumb.py — this is the formula that fixed the
 KARYU/SEIRYU/TSUKUYOMI kanji-clipping bug, so it must never be "corrected"
 back to the old min(top, y+t) / max(bot, y+b) version.
 
-Warm golden-dawn palette (like KARYU, not TSUKUYOMI's cold night), so the
-GOLD_STOPS and bottom-darkening vignette are cloned from karyu-compose-thumb.py
-instead. AMATERASU large gold serif low-centre on the dark foreground rock.
+🔧 Revised 2026-09-02: user reported gold text didn't stand out against
+this hero's already-golden sky — switched both the kanji and the
+AMATERASU wordmark to WHITE (was gold, matching KARYU), and sized both
+up 20% (kanji 220->264 / pitch 260->312, wordmark 110->132) for more
+punch as a thumbnail. The bottom-darkening vignette + dark scrim behind
+each text block are kept — they're what gives the white text contrast,
+not the fill colour.
 """
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageChops
 
@@ -17,8 +21,8 @@ KANJI = "/home/user/dan-documents/stillwave/assets/fonts/YujiSyuku-Regular.ttf"
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
 OUT = "/home/user/dan-documents/stillwave/assets/amaterasu-2h-thumb.jpg"
 W, H = 1920, 1080
-GOLD = (232, 197, 120, 255)
-GOLD_STOPS = [(0.00, (250, 205, 135)), (0.45, (238, 160, 80)), (1.00, (222, 130, 60))]
+WHITE = (255, 255, 255, 255)
+WHITE_STOPS = [(0.00, (255, 255, 255)), (0.5, (250, 249, 246)), (1.00, (238, 235, 228))]
 
 
 def base():
@@ -44,15 +48,15 @@ def base():
     return im.convert("RGBA")
 
 
-def _lerp_gold(f):
+def _lerp_white(f):
     f = max(0.0, min(1.0, f))
-    for i in range(len(GOLD_STOPS) - 1):
-        f0, c0 = GOLD_STOPS[i]
-        f1, c1 = GOLD_STOPS[i + 1]
+    for i in range(len(WHITE_STOPS) - 1):
+        f0, c0 = WHITE_STOPS[i]
+        f1, c1 = WHITE_STOPS[i + 1]
         if f <= f1:
             t = (f - f0) / (f1 - f0)
             return tuple(int(c0[k] + (c1[k] - c0[k]) * t) for k in range(3))
-    return GOLD_STOPS[-1][1]
+    return WHITE_STOPS[-1][1]
 
 
 def gold_kanji_v(im, chars, size, cx, top_y, pitch, halo=30):
@@ -74,12 +78,12 @@ def gold_kanji_v(im, chars, size, cx, top_y, pitch, halo=30):
                                          radius=110, fill=(6, 5, 4, 150))
     im.alpha_composite(sc.filter(ImageFilter.GaussianBlur(80)))
     glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    glow.paste((250, 220, 170, 255), (0, 0), mask.filter(ImageFilter.GaussianBlur(halo)).point(lambda p: int(p * 0.6)))
+    glow.paste((255, 255, 255, 255), (0, 0), mask.filter(ImageFilter.GaussianBlur(halo)).point(lambda p: int(p * 0.6)))
     im.alpha_composite(glow)
     span = max(1, int(bot - top))
     col = Image.new("RGB", (1, span))
     for yy in range(span):
-        col.putpixel((0, yy), _lerp_gold(yy / span))
+        col.putpixel((0, yy), _lerp_white(yy / span))
     grad = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     grad.paste(col.resize((W, span)).convert("RGBA"), (0, int(top)))
     im.alpha_composite(Image.composite(grad, Image.new("RGBA", (W, H), (0, 0, 0, 0)), mask))
@@ -87,7 +91,7 @@ def gold_kanji_v(im, chars, size, cx, top_y, pitch, halo=30):
     return top, bot
 
 
-def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=16, font=SERIF, scrim=True):
+def spaced_centre(im, text, size, cx, y, fill=WHITE, ls=16, font=SERIF, scrim=True):
     f = ImageFont.truetype(font, size)
     d = ImageDraw.Draw(im)
     widths = [d.textlength(c, font=f) for c in text]
@@ -106,10 +110,12 @@ def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=16, font=SERIF, scrim=Tru
 
 im = base()
 CENTRE = 960
-# 天照 — VERTICAL calligraphic gold, left corner (clear of the shrine/torii,
-# which sit further right and lower in this composition)
-top, bot = gold_kanji_v(im, ["天", "照"], 220, 140, 130, pitch=260, halo=30)
-# AMATERASU — large gold serif, low-centre on the dark foreground rock
-spaced_centre(im, "AMATERASU", 110, CENTRE, 900, fill=GOLD, ls=14, font=SERIF)
+# 天照 — VERTICAL calligraphic white, left corner (clear of the shrine/torii,
+# which sit further right and lower in this composition). Sized +20% (was
+# 220/pitch 260) for more thumbnail punch.
+top, bot = gold_kanji_v(im, ["天", "照"], 264, 140, 130, pitch=312, halo=30)
+# AMATERASU — large white serif, low-centre on the dark foreground rock.
+# Sized +20% (was 110).
+spaced_centre(im, "AMATERASU", 132, CENTRE, 880, fill=WHITE, ls=14, font=SERIF)
 im.convert("RGB").save(OUT, quality=94)
 print("saved", OUT)
