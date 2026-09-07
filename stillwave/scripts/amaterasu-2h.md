@@ -7,7 +7,7 @@
 - **Concept:** 天照 (Amaterasu Ōmikami), goddess of the sun and ruler of Takamagahara (the heavenly plain), born from Izanagi's left eye (Tsukuyomi from the right eye, Susanoo from the nose — the three siblings). After a conflict with her storm-god brother Susanoo, she withdrew into the Ama-no-Iwato cave, plunging the world into darkness; the other gods lured her back out with Ame-no-Uzume's dance and the sacred mirror Yata no Kagami, which reflected her own radiance back at her — the light returned, and the world with it. Ancestor of the Imperial line, patron of warmth, life, weaving, and rice cultivation.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** ~2H full album (unique Suno tracks, CapCut laydown)
-- **Status:** 🟡 IN PROGRESS — generate hero (§3) + 10 Suno variants (§1), then master → select → §8.
+- **Status:** 🟡 IN PROGRESS — ✅ hero & tracklist done. **Next: generate 10 Suno variants → master → select-album.py → assemble in CapCut**.
 
 ---
 
