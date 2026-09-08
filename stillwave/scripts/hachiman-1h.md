@@ -3,11 +3,12 @@
 ## Meta
 
 - **Series:** Kanji-Concept — **KAMI (神) "Gods of Japan" sub-series (1 of many)** — new series launched 2026-09-01, sibling to the completed RYŪ (5 dragons) sub-series. Each video = one Shinto/Buddhist deity, manifesting as a colossal LIVING figure of light (never a statue, never a painted mural — same lesson as RYŪ), with one signature sacred creature/symbol tied to that god.
-- **Slug:** hachiman-2h
+- **Slug:** hachiman-1h
 - **Concept:** 八幡 (Hachiman) — god of war, archery and divination, guardian of Japan and patron deity of the samurai class and the bushi warrior spirit. Historically syncretized with Emperor Ōjin; principal shrines Usa Jingū, Iwashimizu Hachimangū, and Tsurugaoka Hachimangū (built by the Minamoto shogunate — the historical root of everything "samurai" on this channel). Sacred messenger: the white dove (hato) — Hachiman shrines use dove guardian-statues instead of the usual komainu lion-dogs.
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Length target:** ~2H full album (unique Suno tracks, CapCut laydown)
-- **Status:** 🟡 IN PROGRESS — generate hero (§3) + 10 Suno variants (§1), then master → select → §8.
+- **Length target:** ~1H full album — **shortened from the series-standard 2H, deliberate pilot** (locked 2026-09-08): average watch time on the channel runs ~30 min, and CLAUDE.md already validates 1H as the sweet spot for Healing Hour/standard Power Hour, so this cuts unproven extra length rather than cutting quality.
+- **Music source — PILOT (locked 2026-09-08):** **Google Lyria** (via Gemini API/Vertex AI), not Suno. Reason: Suno capped downloads (Free 7 lifetime / Pro 20/mo / Premier 60/mo, effective 2026-09-03) — far below what this channel's volume needs, and no confirmed workaround exists. Lyria tested well on instrumental/ambient fidelity (independent reviews rate it the strongest of the major models specifically for instrumental/ambient output) and has no download cap — pay-per-generation via API (~$0.04–0.08/track). §1 below carries both the new Lyria-structured prompts (primary, use these first) and the original Suno prompts (kept as fallback in §1-Suno in case Lyria's Japanese-instrument timbre doesn't hold up over a full album — Stable Audio failed this test, Lyria has not yet been validated at album scale).
+- **Status:** 🟡 IN PROGRESS — generate hero (§3) + 10 Lyria variants (§1), then master → select → §8. **This is the KAMI series' first Lyria-pilot video — if it lands, convert the format's default source from Suno to Lyria going forward.**
 
 ---
 
@@ -23,7 +24,69 @@
 
 ---
 
-## §1 — Suno prompts (10 copy-paste variants — deeply meditative, FLAT dynamics, ametric)
+## §1 — Lyria prompts (PRIMARY — 10 copy-paste variants, structured format)
+
+> 🔒 **Pilot format (locked 2026-09-08).** Lyria's prompt structure is different from Suno's Style+Lyrics pair: ONE descriptive prompt + a separate `negative_prompt` field. Google's own docs demonstrate Lyria CAN build to a crescendo if asked — so our flat-dynamics requirement must be stated explicitly in the prompt AND reinforced in `negative_prompt`, not left to inference. Access via Gemini app (30-sec test clips, free/cheap) or the Gemini API / Vertex AI (full length up to ~3 min, ~$0.04–0.08/generation, no download cap). Each variant below keeps the SAME opening-idea/instrument-lead as its Suno counterpart (for anti-Content-ID opening variety once selected into the album) but is reformatted for Lyria's structure.
+> **🇺🇦** Формат Lyria отличается от Suno: один описательный промт + отдельное поле `negative_prompt`. Google сама показывает, что Lyria умеет наращивать динамику, если её не остановить — поэтому плоскую динамику нужно прописывать явно и в тексте, и в negative_prompt. Доступ — через приложение Gemini (тест на 30 сек) или через Gemini API/Vertex AI (полная длина ~3 мин, без лимита на скачивание).
+
+**negative_prompt — same for all 10 variants:**
+```
+drums, percussion, beat, rhythmic pulse, arpeggios, crescendo, build, swell, climax, rising intensity, dramatic change, vocals, singing, chanting, spoken word
+```
+
+### Lyria Variant 1 — temple-bell-led
+```
+Deeply meditative Japanese zen ambient for inner strength and calm resolve, for sleep. Mood: resolute but calm, warm dusk light, quiet inner strength rather than martial drama. Instrumentation: a distant temple bell (bonshō) that tolls once and resonates a long time, warm koto answering softly with single notes and long gaps between them, a low even string pad resting beneath. Tempo & rhythm: extremely slow, free tempo, no fixed beat, completely ametric — every note floats and decays on its own, koto never falls into a repeating pattern. Arrangement: stays at one soft, steady, unchanging level from the first second to the last — no build, no crescendo, no climax; the bell tolls once more near the end at the exact same soft level as the opening. Soundscape: a lone figure kneeling before a shrine at dusk, the last warm light settling, profound resolute stillness.
+```
+
+### Lyria Variant 2 — shakuhachi-led
+```
+Deeply meditative Japanese zen ambient for quiet resolve, for sleep. Mood: settled, unshaken, quiet strength held without needing to be shown. Instrumentation: a breathy shakuhachi flute leading from the start with long steady tones, a warm even drone pad and a distant koto resting beneath in gentle accord. Tempo & rhythm: deeply slow, free tempo, no fixed beat, completely ametric — the flute's tones float and decay on their own. Arrangement: stays at one soft, steady, unchanging level from the first second to the last — no build, no crescendo, no climax; the flute softens near the end to almost nothing while the pad holds exactly as it was. Soundscape: quiet strength held in stillness, warm dusk air over a mountain shrine.
+```
+
+### Lyria Variant 3 — drone-pad-opening
+```
+Deeply meditative Japanese zen ambient, warm and grounded, for sleep. Mood: enveloping, warm, settled, the stillness before a vow. Instrumentation: a warm even drone pad resting at a low level from the very first second with no melody for the first eight seconds, then a soft koto and a distant flute drifting in gently on top, a faint bell shimmer appearing later. Tempo & rhythm: extremely slow, free tempo, no fixed beat, completely ametric. Arrangement: stays at one soft, steady, unchanging level throughout — no build, no crescendo, no climax; koto and flute recede near the end leaving the warm even pad drifting alone. Soundscape: the stillness before a vow, unshaken, a quiet mountain shrine at dusk.
+```
+
+### Lyria Variant 4 — koto-led
+```
+Deeply meditative Japanese zen ambient, clear and steady, for sleep. Mood: a single note ringing out like a quiet, unbroken vow. Instrumentation: sparse warm koto with each note ringing alone and long silence between notes, a soft even drone pad and a distant shakuhachi resting beneath in gentle accord. Tempo & rhythm: slow, free tempo, no fixed beat, completely ametric — the koto never falls into a repeating pattern, notes spread further apart as the piece continues. Arrangement: stays at one soft, steady, unchanging level from the first second to the last — no build, no crescendo, no climax. Soundscape: intimate clear wood tones over blended silence, a mountain shrine at dusk.
+```
+
+### Lyria Variant 5 — rin-bell-and-drone-led
+```
+Deeply meditative Japanese zen ambient, hushed and steadfast, for sleep. Mood: a guardian keeping watch, calm and unmoved. Instrumentation: a small rin bell shimmering softly at the opening, a warm even drone resting beneath it, koto and shakuhachi drifting far away with long gaps between phrases. Tempo & rhythm: extremely slow, free tempo, no fixed beat, completely ametric. Arrangement: stays at one soft, steady, unchanging level throughout — no build, no crescendo, no climax; the rin bell returns once more near the end at the same soft level, then only the clear even drone remains. Soundscape: shimmering and weightless, a guardian spirit watching over a quiet shrine at dusk.
+```
+
+### Lyria Variant 6 — dusk-air-led
+```
+Deeply meditative Japanese zen ambient, for sleep. Mood: a mountain shrine terrace, the last light of day settling, hushed and warm. Instrumentation: several seconds of soft still dusk air with the faintest distant birdsong before any instrument enters, then a warm singing bowl and a soft even drone, a koto answering far away. Tempo & rhythm: extremely slow, free tempo, no fixed beat, completely ametric. Arrangement: stays at one soft, steady, unchanging level throughout — no build, no crescendo, no climax; instruments thin out near the end until only the dusk air and the even drone remain. Soundscape: airy, still, warm, a mountain shrine terrace at the last light of day.
+```
+
+### Lyria Variant 7 — harp-led
+```
+Deeply meditative Japanese zen ambient, for sleep. Mood: steady light settling evenly over a quiet shrine terrace, gentle and resolute. Instrumentation: a soft harp playing single clear notes with long gaps and never a repeating pattern, a warm even string pad resting beneath, a distant flute answering in accord. Tempo & rhythm: slow, free tempo, no fixed beat, completely ametric. Arrangement: stays at one soft, steady, unchanging level throughout — no build, no crescendo, no climax; the harp slows near the end while the even pad holds steady. Soundscape: soft, clear, weightless light over a quiet shrine terrace.
+```
+
+### Lyria Variant 8 — soft-strings-led
+```
+Deeply meditative Japanese zen ambient, for sleep. Mood: resolve that does not need to be loud to be unbreakable. Instrumentation: soft sustained warm strings resting at a low even level from the first second like a long steady held breath, a distant shakuhachi and koto drifting in on top, a faint bell shimmer. Tempo & rhythm: deeply slow, free tempo, no fixed beat, completely ametric. Arrangement: stays at one soft, steady, unchanging level throughout — no build, no crescendo, no climax; shakuhachi and koto fade near the end back into the warm even strings. Soundscape: warm, deep, blended stillness, an unshaken resolve.
+```
+
+### Lyria Variant 9 — felt-piano-led
+```
+Deeply meditative Japanese zen ambient, for sleep. Mood: quiet devotion, a whole vow held without a sound. Instrumentation: a soft felt piano playing single clear notes with long silences and never a repeating pattern, a warm even drone pad and a distant koto resting beneath in gentle accord. Tempo & rhythm: slow, free tempo, no fixed beat, completely ametric. Arrangement: stays at one soft, steady, unchanging level throughout — no build, no crescendo, no climax; piano notes spread further apart near the end while the even pad holds steady. Soundscape: intimate, soft-hammered, clear stillness at a mountain shrine.
+```
+
+### Lyria Variant 10 — wind-led
+```
+Deeply meditative Japanese zen ambient, for sleep. Mood: a mountain shrine at dusk, wind carrying an old vow, deeply grounded. Instrumentation: several seconds of mountain wind through pine and cedar before any instrument enters, then a warm koto entering softly, a low even drone and a distant shakuhachi resting beneath. Tempo & rhythm: deeply slow, free tempo, no fixed beat, completely ametric. Arrangement: stays at one soft, steady, unchanging level throughout — no build, no crescendo, no climax; the wind returns alone for a moment near the end before the even instruments settle back in. Soundscape: airy, grounded, blended wind over a mountain shrine at dusk.
+```
+
+---
+
+## §1-Suno — fallback prompts (10 copy-paste variants — deeply meditative, FLAT dynamics, ametric)
 
 > 🔒 ALL variants: **no percussion, no BPM, free time** + the locked length cue AND the locked **flat-dynamics cue** (both in the tail). **🛌 The music must stay MEDITATIVE and NEVER build** — one soft even unchanging level from first second to last, no crescendo, no swell, no climax. Instruments drift in/out and change colour, volume never grows. Tempo in words only. Plucked/струнные — `never a repeating pattern`, long gaps. Each variant a DIFFERENT opening (anti-Content-ID). Tone: resolute but calm, warm dusk light, quiet inner strength rather than martial drama — courage as stillness, not as a battle cry.
 > **🇺🇦** Все 10 — глубоко медитативные, ровная динамика без нарастаний. Тон: спокойная решимость, тёплый закатный свет, внутренняя сила как тишина, а не воинственный клич.
@@ -222,13 +285,13 @@ Deeply meditative Japanese zen ambient, for sleep. Several seconds of mountain w
 
 ## §2 — Mastering
 
-🔒 **Automated flow (locked 2026-08-17):**
+🔒 **Automated flow, adjusted for the 1H pilot cap (locked 2026-09-08 — was 2:00/120 min):**
 ```
-python3 master-album.py "<HACHIMAN-SUNO folder>"
-python3 select-album.py "<HACHIMAN-SUNO folder>" "<HACHIMAN-SUNO folder>-mastered" --slug HACHIMAN
+python3 master-album.py "<HACHIMAN-LYRIA folder>"
+python3 select-album.py "<HACHIMAN-LYRIA folder>" "<HACHIMAN-LYRIA folder>-mastered" --slug HACHIMAN --cap 60
 ```
-`master-album.py` masters everything (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) and prints the raw table. `select-album.py` reads both folders, anchors the calmest 2 tracks per Suno variant, greedily fills the rest up to the 2:00 cap, orders round-robin (anti-Content-ID), and copies into `HACHIMAN-ALBUM/` (ready for CapCut) + `HACHIMAN-RESERVE/`. Paste the printed table back here for §8. **🔒 After the album is selected, rename the files inside `HACHIMAN-ALBUM/` to the poetic track names (numeric prefix kept) before importing into CapCut** — mandatory step, see `CLAUDE.md`.
-**🇺🇦** Прогони обе команды по очереди, пришли распечатанную таблицу — допишу поэтичные названия треков, соберу §8 и дам скрипт переименования файлов.
+Name the downloaded Lyria WAVs `HACHIMAN_1.wav` … `HACHIMAN_10.wav` (one per §1 variant; generate a few takes per variant, same as Suno, so `select-album.py` has options to anchor from) before running these. `master-album.py` masters everything (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) and prints the raw table. `select-album.py` reads both folders, anchors the calmest 2 tracks per variant, greedily fills the rest up to the **60-minute cap**, orders round-robin (anti-Content-ID), and copies into `HACHIMAN-ALBUM/` (ready for CapCut) + `HACHIMAN-RESERVE/`. Paste the printed table back here for §8. **🔒 After the album is selected, rename the files inside `HACHIMAN-ALBUM/` to the poetic track names (numeric prefix kept) before importing into CapCut** — mandatory step, see `CLAUDE.md`.
+**🇺🇦** 1H пилот — кап уменьшен с 120 до **60 минут** (`--cap 60`). Скачанные WAV с Lyria называть `HACHIMAN_1.wav` … `HACHIMAN_10.wav` по номеру варианта, по несколько дублей на вариант — так же как раньше с Suno. Дальше прогони обе команды, пришли таблицу — допишу §8 и дам скрипт переименования.
 
 ---
 
@@ -319,13 +382,13 @@ HACHIMAN — 八幡 | Japanese Zen Music for Courage, Protection & Inner Strengt
 ## §8 — Description (Hikari 5-block; tracklist after mastering)
 
 ```
-japanese zen music, meditation music, zen music, samurai music, courage music, calming music, relaxing music, healing music, sleep music, ambient music, hachiman, japanese god of war music, music for courage and inner strength, koto music, shakuhachi flute, singing bowls — a two-hour Japanese zen session for courage, protection and quiet inner strength.
+japanese zen music, meditation music, zen music, samurai music, courage music, calming music, relaxing music, healing music, sleep music, ambient music, hachiman, japanese god of war music, music for courage and inner strength, koto music, shakuhachi flute, singing bowls — a one-hour Japanese zen session for courage, protection and quiet inner strength.
 
 🌀 HACHIMAN (八幡) is the guardian of warriors —
 god of war, archery, and quiet resolve,
 strength that never needs to raise its voice.
 
-At the edge of a mountain shrine at dusk, a lone figure kneels as a colossal spirit of light takes shape above the roofline, a bow of gold in one hand, white doves circling in the fading warmth of day. Slow koto, warm shakuhachi, the long decay of a temple bell — two hours to rest in a courage that holds steady, quietly, without needing to be shown.
+At the edge of a mountain shrine at dusk, a lone figure kneels as a colossal spirit of light takes shape above the roofline, a bow of gold in one hand, white doves circling in the fading warmth of day. Slow koto, warm shakuhachi, the long decay of a temple bell — one hour to rest in a courage that holds steady, quietly, without needing to be shown.
 
 Tracklist:
 [added after mastering — mood-poetic names, warm and resolute]
@@ -397,7 +460,7 @@ What Is Hachiman? Japan's God of War and Quiet Strength 🏹 #shorts
 
 質実剛健 — sincere and robust; plain, unadorned strength.
 
-Full 2-hour Japanese zen session on the channel 🌿
+Full one-hour Japanese zen session on the channel 🌿
 
 #hachiman #japanese #zen #samurai #shorts
 ```
@@ -407,7 +470,7 @@ hachiman, japanese god of war, shinto gods, japanese mythology, samurai, bushido
 ```
 **Pinned comment**
 ```
-🌀 八幡 HACHIMAN — guardian of warriors. Full 2-hour session on the channel 🌿
+🌀 八幡 HACHIMAN — guardian of warriors. Full one-hour session on the channel 🌿
 ```
 
 Settings: **Not for kids** · playlist **StillWave Shorts** · Related video → long-form HACHIMAN.

@@ -35,6 +35,19 @@ Five-video sub-series: a lone samurai (back to camera, daishō sheathed at LEFT 
 
 **Next step per video:** generate hero image (§3) → thumbnail + wisdom overlay → generate 10 Suno variants (§1) → master → select/order → §8 → generate 6 Shorts frames (§3c) → Short → generate Veo3 loop (§4) → CapCut laydown → publish. Suggested release order: UNRYŪ → SUIRYŪ → KARYŪ → SEIRYŪ (series closer, spring/dawn).
 
+## ⛩️ KAMI (神) — Gods of Japan sub-series (Kanji-Concept)
+
+Sibling series to RYŪ: each video = one Shinto deity manifesting as a colossal LIVING figure of light (never a statue/mural), own signature light colour + sacred creature, lone samurai/worshipper for scale. **🔬 `hachiman-1h` is the channel's first Google Lyria pilot (locked 2026-09-08)** — Suno's new download caps (Pro 20/mo, Premier 60/mo, no confirmed unlimited workaround) can't cover this channel's volume, so Hachiman tests Lyria (strong reviews on instrumental/ambient fidelity, no download cap, ~$0.04-0.08/track via API) at a shortened **1H** length (channel avg watch time ~30 min; 1H already validated as the format sweet spot). If Lyria's Japanese-instrument timbre holds up over a full album, convert the series default from Suno to Lyria going forward — the original Suno prompts stay in each script as `§1-Suno` fallback either way.
+
+| Slug | Title | Signature colour / creature | Wisdom overlay | Music source | 📝 | 🎵 | 🎨 | 🎬 | 🎞️ | ⏰ | 📤 |
+|------|-------|------------------------------|-----------------|---------------|----|----|----|----|-----|-----|-----|
+| `tsukuyomi-2h` | TSUKUYOMI — 月読 \| flagship | pale silver-blue · moon rabbits | (see script) | Suno | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ | ⏳ |
+| `amaterasu-2h` | AMATERASU — 天照 \| Japanese Zen Music for Morning Meditation & Sunrise Calm | warm golden-amber sunrise · sacred roosters | 一陽来復 (Ichiyō raifuku) | Suno | ✅ | ⏳ | ✅ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `hachiman-1h` | HACHIMAN — 八幡 \| Japanese Zen Music for Courage, Protection & Inner Strength | warm white-gold · white doves | 質実剛健 (Shitsujitsu gōken) | **Lyria (pilot)** | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| — | **BENZAITEN — 弁財天** (proposed 2026-09-08) | goddess of music, water & eloquence — koto/biwa + flowing water motif, "Deep Focus" angle | — | TBD | — | — | — | — | — | — | — |
+
+**Next step:** HACHIMAN — generate hero (§3), then 10 Lyria variants (§1), master with `--cap 60`, select/order → §8. AMATERASU — generate the 10 Suno variants (§1), hero/tracklist already done. BENZAITEN is a proposed next-in-queue after Hachiman, not yet scripted — needs a full package (visual hook, §0-§14) before production.
+
 ## In production / next up
 
 > Pipeline для long-form full-album: 📝 script → 🎵 suno generated → 🎨 image generated → 🎬 video loop → 🎞️ assembled in CapCut → ⏰ scheduled → 📤 published.
