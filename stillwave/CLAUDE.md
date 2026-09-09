@@ -128,6 +128,25 @@ Reason: locks the post to a specific clock time → dates the copy, breaks if th
 
 **Don't:** post too often (daily fatigue), don't write long tutorials, don't target external reach (the channel is too small for it). The point is brand signal + sub activation.
 
+### 🔒 Concept Short — pair every Kanji-Concept video with a standalone teaching Short (RELOCKED 2026-09-09)
+
+**Every Kanji-Concept long-form gets its own Concept Short** — a standalone Shorts video that teaches the video's concept, built directly from the **§12 Community Post text** (same essay, adapted to a spoken/on-screen script). This is SEPARATE from the teaser/cross-promo Short (which shows footage from the long-form to drive clicks to it) — the Concept Short stands alone as a piece of cultural education that can go viral independent of the long-form's own performance, since Shorts reach non-subscribers the Community Post never will.
+
+**This already worked** on ZANSHIN, YUGEN, SHINRIN-YOKU, WABI-SABI and MIZU (see their scripts' "Concept Short — SEO pack" sections) — built as a 6-frame Ken Burns still-sequence via `concept-shorts-build.py`, white titles, teaching text lifted straight from §12. **It quietly stopped being produced starting with the RYŪ sub-series** (GARYŪ onward) and continued lapsing through KAMI (TSUKUYOMI, AMATERASU, HACHIMAN) — those scripts only built a combined teaser+wisdom Short, not a standalone concept-teaching one. Re-locking it now so it doesn't drop again.
+
+**Required per script — a dedicated `Concept Short — SEO pack` subsection** (can share the §14 header with the teaser Short, but keep its own copy-paste block) with:
+- **Title** (≤60 chars, hook-first: `What Is [CONCEPT]? [outcome/hook] #shorts`)
+- **A/B Title**
+- **Description** (2-3 sentences distilled from §12 + `Full [length] session on the channel 🌿` + long-form link + hashtag block)
+- **Tags** (10-15, concept-specific)
+- **Hashtags**
+- **Pinned comment**
+- **Upload settings line**: Related video → long-form · Playlist **StillWave Shorts** · Not for kids
+
+**Build:** reuse the 6 already-generated `<slug>-shorts-fr1..fr6.jpg` frames (§3c) — no separate image set needed — via `concept-shorts-build.py` (add a `<slug>` config block), same jitter-free Ken Burns pipeline as the teaser Short.
+
+**🇺🇦** Каждое видео серии Kanji-Concept получает СВОЙ отдельный обучающий Short, собранный из текста §12 (Community Post) — отдельно от тизера, который рекламирует лонг. Формат уже работал на ZANSHIN/YUGEN/SHINRIN-YOKU/WABI-SABI/MIZU, но незаметно перестал делаться начиная с серии RYŪ и через всю KAMI (TSUKUYOMI, AMATERASU, HACHIMAN) — там остался только тизер. Фиксирую правило заново: обязательный отдельный блок «Concept Short — SEO pack» в каждом скрипте (тайтл, A/B, описание из §12, теги, хэштеги, закреп), собирается из уже готовых 6 кадров §3c через `concept-shorts-build.py`.
+
 ### 🚨 Pre-publish checklist — verify before scheduling EVERY new video
 
 Before any new upload goes live, confirm:

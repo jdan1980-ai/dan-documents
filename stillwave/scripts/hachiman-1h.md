@@ -474,3 +474,42 @@ hachiman, japanese god of war, shinto gods, japanese mythology, samurai, bushido
 ```
 
 Settings: **Not for kids** · playlist **StillWave Shorts** · Related video → long-form HACHIMAN.
+
+---
+
+## §15 — Concept Short (standalone, built from §12 — RELOCKED 2026-09-09)
+
+Separate from the teaser Short above — a standalone cultural-education Short teaching 八幡 from the §12 Community Post text, not footage from the long-form. Build via `concept-shorts-build.py` (add a `hachiman` config), reusing the same 6 `hachiman-shorts-fr1..fr6.jpg` frames (§3c), white titles, jitter-free Ken Burns (same pipeline as ZANSHIN/YUGEN/SHINRIN-YOKU).
+**🇺🇦** Отдельный от тизера обучающий Short — тема 八幡 из текста §12, не кадры из лонга. Собирается из тех же 6 кадров §3c через `concept-shorts-build.py`.
+
+### Concept Short — SEO pack (copy-paste)
+
+**Title (≤60):**
+```
+What Is Hachiman? Japan's Most Worshipped War God 🏹 #shorts
+```
+A/B: `八幡 HACHIMAN — Japan's Guardian God of War and Courage #shorts`
+
+**Description:**
+```
+HACHIMAN (八幡) — more shrines are dedicated to him than to any other kami in Japan. God of war, archery, and divination, patron deity of the samurai, his sacred messenger is the white dove. His strength is resolute, protective, and unshowy.
+
+Full one-hour HACHIMAN zen session on the channel 🌿
+▶ [long-form link]
+
+#shorts #hachiman #samurai #japanesemythology #shinto #zen
+```
+
+**Tags:**
+```
+hachiman, what is hachiman, hachiman meaning, japanese god of war, shinto gods, japanese mythology, samurai, bushido, usa jingu, white dove symbolism, japanese culture, zen, meditation, stillwave
+```
+
+**Hashtags:** `#shorts #hachiman #samurai #japanesemythology #shinto #zen`
+
+**Pinned:**
+```
+🌀 八幡 HACHIMAN — more shrines honor him than any other kami in Japan. Strength that never needs to raise its voice. The full one-hour session is on the channel 🌿
+```
+
+**Upload:** Related video → long-form HACHIMAN · Playlist **StillWave Shorts — Japanese Zen & Frequencies** · Not for kids.
