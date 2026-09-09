@@ -471,6 +471,18 @@ Settings: **Not for kids** · playlist **StillWave Shorts** · Related video →
 Separate from the teaser Short above — a standalone cultural-education Short teaching 月読 from the §12 Community Post text, not footage from the long-form. Frames already exist (`tsukuyomi-shorts-fr1..fr6.jpg`, teaser already rendered as `tsukuyomi-shorts-35s.mp4`) — reuse the same 6 for this build via `concept-shorts-build.py` (add a `tsukuyomi` config), white titles, jitter-free Ken Burns (same pipeline as ZANSHIN/YUGEN/SHINRIN-YOKU).
 **🇺🇦** Отдельный от тизера обучающий Short — тема 月読 из текста §12. Кадры уже готовы, тизер уже собран — те же 6 кадров идут и на этот Short через `concept-shorts-build.py`.
 
+### On-screen caption script (RELOCKED 2026-09-09 — full teaching text, not sparse hook beats)
+
+> One full sentence per existing frame (fr1→beat 1 … fr6→beat 6), lifted/adapted from §12 — not the sparse hook+kanji+wisdom pattern used on the teaser. Cream `#F5EAD2` Liberation Serif, safe zone `y 150-1450 / x 60-880`. ~6-8 sec per beat ≈ 40-48s total.
+> **🇺🇦** По одной полной фразе из §12 на каждый из уже существующих кадров (fr1→реплика 1 … fr6→реплика 6) — не скупой хук+иероглиф+мудрость, как в тизере.
+
+1. `月読 (Tsukuyomi-no-Mikoto) — god of the moon, born from the right eye of the primordial god Izanagi.`
+2. `Brother to Amaterasu, goddess of the sun, and Susanoo, god of storms and sea.`
+3. `Where his siblings are vivid and active in Japanese myth, Tsukuyomi is famously quiet and withdrawn.`
+4. `After one disagreement with the goddess Uke Mochi, he and Amaterasu are said to have separated forever.`
+5. `The old stories give this as the reason day and night never meet.`
+6. `He shares the sky with the moon rabbit — tsuki no usagi — still visible pounding rice cakes in the moon's own markings.`
+
 ### Concept Short — SEO pack (copy-paste)
 
 **Title (≤60):**

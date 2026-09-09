@@ -482,6 +482,18 @@ Settings: **Not for kids** · playlist **StillWave Shorts** · Related video →
 Separate from the teaser Short above — a standalone cultural-education Short teaching 八幡 from the §12 Community Post text, not footage from the long-form. Build via `concept-shorts-build.py` (add a `hachiman` config), reusing the same 6 `hachiman-shorts-fr1..fr6.jpg` frames (§3c), white titles, jitter-free Ken Burns (same pipeline as ZANSHIN/YUGEN/SHINRIN-YOKU).
 **🇺🇦** Отдельный от тизера обучающий Short — тема 八幡 из текста §12, не кадры из лонга. Собирается из тех же 6 кадров §3c через `concept-shorts-build.py`.
 
+### On-screen caption script (RELOCKED 2026-09-09 — full teaching text, not sparse hook beats)
+
+> One full sentence per frame (fr1→beat 1 … fr6→beat 6), lifted/adapted from §12 — not the sparse hook+kanji+wisdom pattern used on the teaser (§14). Cream `#F5EAD2` Liberation Serif, safe zone `y 150-1450 / x 60-880`. ~6-8 sec per beat ≈ 40-48s total.
+> **🇺🇦** По одной полной фразе из §12 на каждый из 6 кадров — не скупой хук+иероглиф+мудрость, как в тизере §14.
+
+1. `八幡 (Hachiman) — god of war, archery, and divination, one of the most widely venerated kami in Japan.`
+2. `More shrines are dedicated to him than to any other deity — Usa, Iwashimizu, and Tsurugaoka among the most historically significant.`
+3. `Long syncretized with Emperor Ōjin, he became the patron deity of the samurai class under the Minamoto shogunate.`
+4. `His strength is resolute, protective, and unshowy — never needing to be loud.`
+5. `His sacred messenger is the white dove, still preserved in the guardian statues at his shrines today.`
+6. `質実剛健 (Shitsujitsu gōken) — sincere and robust; strength that needs no display.`
+
 ### Concept Short — SEO pack (copy-paste)
 
 **Title (≤60):**

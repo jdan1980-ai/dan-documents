@@ -477,8 +477,20 @@ Settings: **Not for kids** · playlist **StillWave Shorts** · Related video →
 
 ## §15 — Concept Short (standalone, built from §12 — RELOCKED 2026-09-09)
 
-Separate from the teaser Short above — a standalone cultural-education Short teaching 天照 from the §12 Community Post text, not footage from the long-form. **⚠️ Blocked on §3c** — AMATERASU's 10 Shorts-frame candidates haven't been generated yet (unlike TSUKUYOMI/HACHIMAN), so there are no `amaterasu-shorts-fr1..fr6.jpg` to build from. The SEO pack below is ready now; generate §3c → pick 6 → then build via `concept-shorts-build.py` (add an `amaterasu` config), same pipeline as ZANSHIN/YUGEN/SHINRIN-YOKU/TSUKUYOMI.
-**🇺🇦** Отдельный от тизера обучающий Short — тема 天照 из §12. **Заблокировано на §3c** — 10 кандидатов кадров для AMATERASU ещё не сгенерированы, значит собирать пока не из чего. Текст пакета готов, но сначала нужно сделать §3c → выбрать 6 → потом сборка.
+Separate from the teaser Short above — a standalone cultural-education Short teaching 天照 from the §12 Community Post text, not footage from the long-form. **No new frames needed** — build straight from the existing `amaterasu-2h-source.jpg` hero (clean, no thumbnail text baked in) via `concept-shorts-build.py`'s Ken Burns, drifting/cropping across different regions of that ONE image (monk → rising goddess → mirror/rice-sheaf detail → roosters → full wide) for each caption beat below, instead of needing 6 separately-generated `§3c` frames.
+**🇺🇦** Отдельный от тизера обучающий Short — тема 天照 из §12. **Новые кадры не нужны** — собираем прямо из уже готового `amaterasu-2h-source.jpg` через Ken Burns с разными кропами ОДНОГО изображения (монах → богиня → деталь зеркала/риса → петухи → общий план) под каждую реплику ниже — 6 отдельных кадров §3c для этого не требуются.
+
+### On-screen caption script (RELOCKED 2026-09-09 — full teaching text, not sparse hook beats)
+
+> Previous Concept Shorts on this channel drifted toward 2-3 sparse "gold beat" lines (a hook phrase + the kanji + one wisdom phrase) — too thin to actually TEACH the myth, which is the whole point of a Concept Short vs. the teaser. Each beat below is a full sentence lifted/adapted from §12, timed one per Ken-Burns crop, cream `#F5EAD2` Liberation Serif, safe zone `y 150-1450 / x 60-880`. ~6-8 sec per beat ≈ 40-48s total.
+> **🇺🇦** Прежние Concept Shorts скатывались к 2-3 скупым фразам (хук + иероглиф + мудрость) — этого мало, чтобы реально ОБУЧИТЬ мифу, в чём весь смысл Concept Short в отличие от тизера. Ниже — полноценные фразы из §12, по одной на кроп, ~6-8 сек на реплику.
+
+1. `天照 (Amaterasu Ōmikami) — goddess of the sun, born from the left eye of the primordial god Izanagi.`
+2. `Sister to Tsukuyomi, god of the moon, and Susanoo, god of storms and sea.`
+3. `Ruler of Takamagahara, the heavenly plain — Shinto's most revered deity, ancestor of Japan's Imperial line.`
+4. `After a bitter conflict with her brother Susanoo, she withdrew into the cave Ama-no-Iwato — and the world was plunged into darkness.`
+5. `The other gods lured her out with a wild dance and the sacred mirror Yata no Kagami, which reflected her own radiance back at her.`
+6. `She stepped out to look — and light returned to the world. She remains tied to warmth, rice, and weaving to this day.`
 
 ### Concept Short — SEO pack (copy-paste)
 
