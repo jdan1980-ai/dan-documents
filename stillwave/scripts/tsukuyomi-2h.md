@@ -463,3 +463,42 @@ tsukuyomi, japanese moon god, shinto gods, japanese mythology, moon rabbit, zen,
 ```
 
 Settings: **Not for kids** · playlist **StillWave Shorts** · Related video → long-form TSUKUYOMI.
+
+---
+
+## §15 — Concept Short (standalone, built from §12 — RELOCKED 2026-09-09)
+
+Separate from the teaser Short above — a standalone cultural-education Short teaching 月読 from the §12 Community Post text, not footage from the long-form. Frames already exist (`tsukuyomi-shorts-fr1..fr6.jpg`, teaser already rendered as `tsukuyomi-shorts-35s.mp4`) — reuse the same 6 for this build via `concept-shorts-build.py` (add a `tsukuyomi` config), white titles, jitter-free Ken Burns (same pipeline as ZANSHIN/YUGEN/SHINRIN-YOKU).
+**🇺🇦** Отдельный от тизера обучающий Short — тема 月読 из текста §12. Кадры уже готовы, тизер уже собран — те же 6 кадров идут и на этот Short через `concept-shorts-build.py`.
+
+### Concept Short — SEO pack (copy-paste)
+
+**Title (≤60):**
+```
+What Is Tsukuyomi? Why Day and Night Never Meet 🌙 #shorts
+```
+A/B: `月読 TSUKUYOMI — Japan's Silent God of the Moon #shorts`
+
+**Description:**
+```
+TSUKUYOMI (月読) — god of the moon, born from Izanagi's right eye. So quiet and withdrawn that after one quarrel with the sun goddess Amaterasu, the two are said to have parted forever — the old reason day and night never meet. He shares the sky with the moon rabbit, still visible pounding rice cakes in the moon's own markings.
+
+Full 2-hour Japanese zen session on the channel 🌿
+▶ [long-form link]
+
+#shorts #tsukuyomi #japanesemythology #shinto #moon #zen
+```
+
+**Tags:**
+```
+tsukuyomi, what is tsukuyomi, tsukuyomi meaning, japanese moon god, shinto gods, japanese mythology, moon rabbit, tsuki no usagi, japanese culture, zen, meditation, sleep music, stillwave
+```
+
+**Hashtags:** `#shorts #tsukuyomi #japanesemythology #shinto #moon #zen`
+
+**Pinned:**
+```
+🌀 月読 TSUKUYOMI — so quiet that day and night are said to have parted because of him. The full 2-hour session is on the channel 🌿
+```
+
+**Upload:** Related video → long-form TSUKUYOMI · Playlist **StillWave Shorts — Japanese Zen & Frequencies** · Not for kids.

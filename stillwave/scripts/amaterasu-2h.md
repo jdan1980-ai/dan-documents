@@ -472,3 +472,42 @@ amaterasu, japanese sun goddess, shinto gods, japanese mythology, sacred mirror,
 ```
 
 Settings: **Not for kids** · playlist **StillWave Shorts** · Related video → long-form AMATERASU.
+
+---
+
+## §15 — Concept Short (standalone, built from §12 — RELOCKED 2026-09-09)
+
+Separate from the teaser Short above — a standalone cultural-education Short teaching 天照 from the §12 Community Post text, not footage from the long-form. **⚠️ Blocked on §3c** — AMATERASU's 10 Shorts-frame candidates haven't been generated yet (unlike TSUKUYOMI/HACHIMAN), so there are no `amaterasu-shorts-fr1..fr6.jpg` to build from. The SEO pack below is ready now; generate §3c → pick 6 → then build via `concept-shorts-build.py` (add an `amaterasu` config), same pipeline as ZANSHIN/YUGEN/SHINRIN-YOKU/TSUKUYOMI.
+**🇺🇦** Отдельный от тизера обучающий Short — тема 天照 из §12. **Заблокировано на §3c** — 10 кандидатов кадров для AMATERASU ещё не сгенерированы, значит собирать пока не из чего. Текст пакета готов, но сначала нужно сделать §3c → выбрать 6 → потом сборка.
+
+### Concept Short — SEO pack (copy-paste)
+
+**Title (≤60):**
+```
+What Is Amaterasu? The Goddess Who Hid the Sun ☀️ #shorts
+```
+A/B: `天照 AMATERASU — Japan's Sun Goddess and the Sacred Mirror #shorts`
+
+**Description:**
+```
+AMATERASU (天照) — goddess of the sun, ancestor of Japan's Imperial line. After a conflict with her brother Susanoo she withdrew into a cave, plunging the world into darkness — the gods lured her back out with a wild dance and the sacred mirror Yata no Kagami, which reflected her own light back at her, and the sun returned to the world.
+
+Full two-hour Japanese zen session on the channel 🌿
+▶ [long-form link]
+
+#shorts #amaterasu #japanesemythology #shinto #sungoddess #zen
+```
+
+**Tags:**
+```
+amaterasu, what is amaterasu, amaterasu meaning, japanese sun goddess, shinto gods, japanese mythology, sacred mirror, yata no kagami, ama no iwato, japanese culture, zen, meditation, stillwave
+```
+
+**Hashtags:** `#shorts #amaterasu #japanesemythology #shinto #sungoddess #zen`
+
+**Pinned:**
+```
+🌀 天照 AMATERASU — she once hid the sun inside a cave. A mirror brought it back. The full two-hour session is on the channel 🌿
+```
+
+**Upload:** Related video → long-form AMATERASU · Playlist **StillWave Shorts — Japanese Zen & Frequencies** · Not for kids.
