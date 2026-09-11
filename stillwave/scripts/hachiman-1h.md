@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** ~1H full album — **shortened from the series-standard 2H, deliberate pilot** (locked 2026-09-08): average watch time on the channel runs ~30 min, and CLAUDE.md already validates 1H as the sweet spot for Healing Hour/standard Power Hour, so this cuts unproven extra length rather than cutting quality.
 - **Music source — PILOT (locked 2026-09-08):** **Google Lyria** (via Gemini API/Vertex AI), not Suno. Reason: Suno capped downloads (Free 7 lifetime / Pro 20/mo / Premier 60/mo, effective 2026-09-03) — far below what this channel's volume needs, and no confirmed workaround exists. Lyria tested well on instrumental/ambient fidelity (independent reviews rate it the strongest of the major models specifically for instrumental/ambient output) and has no download cap — pay-per-generation via API (~$0.04–0.08/track). §1 below carries both the new Lyria-structured prompts (primary, use these first) and the original Suno prompts (kept as fallback in §1-Suno in case Lyria's Japanese-instrument timbre doesn't hold up over a full album — Stable Audio failed this test, Lyria has not yet been validated at album scale).
-- **Status:** 🟡 IN PROGRESS — generate hero (§3) + 10 Lyria variants (§1), then master → select → §8. **This is the KAMI series' first Lyria-pilot video — if it lands, convert the format's default source from Suno to Lyria going forward.**
+- **Status:** 🟡 IN PROGRESS — ✅ 38 Lyria tracks generated, mastered, selected (21 tracks, 59:34) → `HACHIMAN-ALBUM/`, §8 tracklist written. **Next: generate hero (§3), rename the 2 flagged files (see rename script below), then CapCut laydown.** Lyria pilot validated well on volume/no download cap — the real listening-quality verdict is still pending user review of the final album.
 
 ---
 
@@ -293,6 +293,21 @@ python3 select-album.py "<HACHIMAN-LYRIA folder>" "<HACHIMAN-LYRIA folder>-maste
 Name the downloaded Lyria WAVs `HACHIMAN_1.wav` … `HACHIMAN_10.wav` (one per §1 variant; generate a few takes per variant, same as Suno, so `select-album.py` has options to anchor from) before running these. `master-album.py` masters everything (−16 LUFS, TP −1.5, 28 Hz low-cut, 48 kHz/24-bit) and prints the raw table. `select-album.py` reads both folders, anchors the calmest 2 tracks per variant, greedily fills the rest up to the **60-minute cap**, orders round-robin (anti-Content-ID), and copies into `HACHIMAN-ALBUM/` (ready for CapCut) + `HACHIMAN-RESERVE/`. Paste the printed table back here for §8. **🔒 After the album is selected, rename the files inside `HACHIMAN-ALBUM/` to the poetic track names (numeric prefix kept) before importing into CapCut** — mandatory step, see `CLAUDE.md`.
 **🇺🇦** 1H пилот — кап уменьшен с 120 до **60 минут** (`--cap 60`). Скачанные WAV с Lyria называть `HACHIMAN_1.wav` … `HACHIMAN_10.wav` по номеру варианта, по несколько дублей на вариант — так же как раньше с Suno. Дальше прогони обе команды, пришли таблицу — допишу §8 и дам скрипт переименования.
 
+### ✅ Mastering result (2026-09-11) — 21 tracks, 59:34 → `HACHIMAN-ALBUM/`
+
+The Lyria/Producer tool named its own exports descriptively (`Dissolving Silence.wav`, `Mountain Shrine at Dusk.wav`, etc.) — no `_<variant>` numeric suffix like Suno, so `select-album.py` treated all 38 raw tracks as one group and picked the 21 calmest by loudness score up to the 60-min cap (anti-Content-ID variant-spreading doesn't apply to this source, which is fine — that protection was specific to Suno's shared-preset opening problem). `select-album.py` already copies files into `HACHIMAN-ALBUM/` as `NN - <original name>.wav`, and most of those names are already usable poetic titles as-is. Only 2 of the 21 needed a fix for thematic consistency — they came out named for dawn/morning even though every HACHIMAN track is a **dusk** scene:
+- `04 - First Light Morning Zen.wav` → `04 - Fading Light Zen.wav`
+- `06 - Golden Dawn Awakening (1).wav` → `06 - Golden Dusk Awakening.wav`
+
+**PowerShell — run inside `HACHIMAN-ALBUM/`:**
+```powershell
+cd "C:\Users\jdan1\OneDrive\Desktop\HACHIMAN-ALBUM"
+Rename-Item "04 - First Light Morning Zen.wav" "04 - Fading Light Zen.wav"
+Rename-Item "06 - Golden Dawn Awakening (1).wav" "06 - Golden Dusk Awakening.wav"
+```
+The other 19 files need no action — `select-album.py` already saved them with their final poetic names and correct numeric prefix, ready to import into CapCut in filename order.
+**🇺🇦** Инструмент сам назвал файлы почти поэтично — переименовать нужно только 2 из 21 (были названы под рассвет/утро, хотя вся тема HACHIMAN — сумерки). Остальные 19 уже готовы, ничего делать не надо.
+
 ---
 
 ## §3 — NanoBanana 16:9 (PRIMARY — hero) — the Hachiman shrine at dusk
@@ -391,7 +406,27 @@ strength that never needs to raise its voice.
 At the edge of a mountain shrine at dusk, a lone figure kneels as a colossal spirit of light takes shape above the roofline, a bow of gold in one hand, white doves circling in the fading warmth of day. Slow koto, warm shakuhachi, the long decay of a temple bell — one hour to rest in a courage that holds steady, quietly, without needing to be shown.
 
 Tracklist:
-[added after mastering — mood-poetic names, warm and resolute]
+0:00 Dissolving Silence
+2:54 Dusk Air & Singing Bowl
+5:51 Felt Piano & Zen Drone
+8:44 Fading Light Zen
+11:38 Fog Over Mountain Shrine
+14:15 Golden Dusk Awakening
+17:07 Intimate Decay
+20:00 Mountain Shrine at Dusk
+22:58 Patience Before the Shrine
+25:58 Pine Terrace Wind
+28:53 Resolute Decay
+31:47 Resolute Harp & String Pad
+34:45 Serene Mind Zen
+37:43 Spacious Zen Ambient
+40:31 Sparse Koto Silence
+43:21 Still Dusk Sanctuary
+46:18 Sustained Stillness
+49:03 Temple Bell Decay
+51:29 Unchanging Bowed Breath
+54:01 Unhurried Breath Shrine
+56:38 Unmoving Stillness
 
 🌀 Strength does not need to be loud.
 🍃 Nothing forced. Only resolve, and the steady light.
