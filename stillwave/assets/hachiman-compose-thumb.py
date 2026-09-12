@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""HACHIMAN thumbnail — 八幡 gold calligraphic, VERTICAL stack in the left
-corner, matching the KAMI/RYU series treatment (cloned from the FIXED
-tsukuyomi-compose-thumb.py, so the corrected gold_kanji_v bounds formula
-is used from the start). HACHIMAN large gold serif low-centre on the dark
-foreground stone courtyard.
+"""HACHIMAN thumbnail — 八幡 WHITE calligraphic (gold text disappeared into
+this hero's own golden-spirit glow, same lesson as AMATERASU), VERTICAL
+stack in the left corner, matching the KAMI/RYU series treatment (cloned
+from the FIXED tsukuyomi-compose-thumb.py, so the corrected gold_kanji_v
+bounds formula is used from the start). HACHIMAN large white serif
+low-centre on the dark foreground stone courtyard.
 """
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageChops
 
@@ -12,8 +13,8 @@ KANJI = "/home/user/dan-documents/stillwave/assets/fonts/YujiSyuku-Regular.ttf"
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
 OUT = "/home/user/dan-documents/stillwave/assets/hachiman-2h-thumb.jpg"
 W, H = 1920, 1080
-GOLD = (232, 197, 120, 255)
-GOLD_STOPS = [(0.00, (250, 231, 170)), (0.45, (232, 196, 108)), (1.00, (180, 132, 58))]
+WHITE = (255, 255, 255, 255)
+WHITE_STOPS = [(0.00, (255, 255, 255)), (0.5, (250, 249, 246)), (1.00, (238, 235, 228))]
 
 
 def base():
@@ -39,15 +40,15 @@ def base():
     return im.convert("RGBA")
 
 
-def _lerp_gold(f):
+def _lerp_white(f):
     f = max(0.0, min(1.0, f))
-    for i in range(len(GOLD_STOPS) - 1):
-        f0, c0 = GOLD_STOPS[i]
-        f1, c1 = GOLD_STOPS[i + 1]
+    for i in range(len(WHITE_STOPS) - 1):
+        f0, c0 = WHITE_STOPS[i]
+        f1, c1 = WHITE_STOPS[i + 1]
         if f <= f1:
             t = (f - f0) / (f1 - f0)
             return tuple(int(c0[k] + (c1[k] - c0[k]) * t) for k in range(3))
-    return GOLD_STOPS[-1][1]
+    return WHITE_STOPS[-1][1]
 
 
 def gold_kanji_v(im, chars, size, cx, top_y, pitch, halo=30):
@@ -69,12 +70,12 @@ def gold_kanji_v(im, chars, size, cx, top_y, pitch, halo=30):
                                          radius=110, fill=(4, 5, 8, 150))
     im.alpha_composite(sc.filter(ImageFilter.GaussianBlur(80)))
     glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    glow.paste((250, 235, 190, 255), (0, 0), mask.filter(ImageFilter.GaussianBlur(halo)).point(lambda p: int(p * 0.6)))
+    glow.paste((255, 255, 255, 255), (0, 0), mask.filter(ImageFilter.GaussianBlur(halo)).point(lambda p: int(p * 0.6)))
     im.alpha_composite(glow)
     span = max(1, int(bot - top))
     col = Image.new("RGB", (1, span))
     for yy in range(span):
-        col.putpixel((0, yy), _lerp_gold(yy / span))
+        col.putpixel((0, yy), _lerp_white(yy / span))
     grad = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     grad.paste(col.resize((W, span)).convert("RGBA"), (0, int(top)))
     im.alpha_composite(Image.composite(grad, Image.new("RGBA", (W, H), (0, 0, 0, 0)), mask))
@@ -82,7 +83,7 @@ def gold_kanji_v(im, chars, size, cx, top_y, pitch, halo=30):
     return top, bot
 
 
-def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=16, font=SERIF, scrim=True):
+def spaced_centre(im, text, size, cx, y, fill=WHITE, ls=16, font=SERIF, scrim=True):
     f = ImageFont.truetype(font, size)
     d = ImageDraw.Draw(im)
     widths = [d.textlength(c, font=f) for c in text]
@@ -101,10 +102,10 @@ def spaced_centre(im, text, size, cx, y, fill=GOLD, ls=16, font=SERIF, scrim=Tru
 
 im = base()
 CENTRE = 960
-# 八幡 — VERTICAL calligraphic gold, left corner, clear of the doves (which sit
+# 八幡 — VERTICAL calligraphic white, left corner, clear of the doves (which sit
 # further right in this composition)
 gold_kanji_v(im, ["八", "幡"], 240, 150, 140, pitch=288, halo=32)
-# HACHIMAN — large gold serif, low-centre on the dark foreground stone courtyard
-spaced_centre(im, "HACHIMAN", 130, CENTRE, 890, fill=GOLD, ls=18, font=SERIF)
+# HACHIMAN — large white serif, low-centre on the dark foreground stone courtyard
+spaced_centre(im, "HACHIMAN", 130, CENTRE, 890, fill=WHITE, ls=18, font=SERIF)
 im.convert("RGB").save(OUT, quality=94)
 print("saved", OUT)
