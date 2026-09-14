@@ -26,7 +26,14 @@ Output:
   <SLUG>-ALBUM/     — selected tracks, copied in final round-robin play
                        order as `NN - <original name>.wav`, printed table
                        with cumulative timestamps (paste straight into §8).
+                       🔒 Wiped and rebuilt fresh on every run (fixed
+                       2026-09-15, BENZAITEN lesson) — re-running after
+                       adding more raw tracks used to leave stale files
+                       from the previous selection mixed in, since track
+                       order/numbering shifts between runs and old
+                       differently-named files were never cleaned up.
   <SLUG>-RESERVE/   — the good tracks that didn't make the cut (for Vol. 2).
+                       Also wiped and rebuilt fresh on every run.
   Exact duplicates (same length + LUFS + TP as an earlier file) are
   dropped entirely, not reserved.
 """
@@ -213,6 +220,8 @@ def main():
             last_variant = v
             remaining -= 1
 
+    if out_dir.exists():
+        shutil.rmtree(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     print(f"\n{'#':<4} {'variant':>7}  {'start':>9}  {'length':>7}  source")
     print("-" * 70)
@@ -227,6 +236,8 @@ def main():
 
     reserve = dropped_for_length
     if reserve:
+        if reserve_dir.exists():
+            shutil.rmtree(reserve_dir)
         reserve_dir.mkdir(parents=True, exist_ok=True)
         for t in reserve:
             shutil.copyfile(t["mastered"], reserve_dir / t["mastered"].name)
