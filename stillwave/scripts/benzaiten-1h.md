@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 1H (matches the HACHIMAN pilot format — validated sweet spot for this channel's ~30min avg watch time).
 - **Music source:** **Google Lyria** ("Flow"/Producer tool), same pilot as HACHIMAN. **🔒 Explicit goal this time (locked 2026-09-14): HACHIMAN's album sounded good but drifted into generic Western ambient instruments (felt piano, harp, string pad) instead of staying distinctly Japanese.** Benzaiten is the one god whose entire identity is music, so §1 below leans hard into koto and biwa specifically, names the unwanted Western alternatives explicitly (same technique that fixed the image-prompt regressions on HACHIMAN), and weaves flowing water as a constant textural bed — she IS the water, so this is authentic to the myth, not just decoration.
-- **Status:** 🟡 IN PROGRESS — §1 written, ready to generate. Hero (§3) not yet generated.
+- **Status:** 🟡 IN PROGRESS — ✅ 21 tracks mastered/selected (57:50 → `BENZAITEN-ALBUM/`), §8 tracklist written; ✅ hero approved (active-playing pose, white snake, torii reflection), thumbnail + wisdom overlay done. **Next: rename the 3 flagged dawn→dusk files, generate the §4 Flow loop, generate §3c Shorts frames, then CapCut laydown.**
 
 ---
 
@@ -96,6 +96,20 @@ python3 select-album.py "<BENZAITEN-Flow folder>" "<BENZAITEN-Flow folder>-maste
 ```
 Generate 2-3 takes per variant (≈20-30 files total) so `select-album.py` has options to anchor the calmest per variant. Paste the printed selection table back here for §8.
 **🇺🇦** Та же схема, что с HACHIMAN — 2-3 дубля на вариант, дальше обе команды, таблицу сюда для §8.
+
+### ✅ Mastering result (2026-09-15) — 21 tracks, 57:50 → `BENZAITEN-ALBUM/`
+
+23 raw tracks generated (18 first pass + 5 extra to reach the 1H target), 2 failed loudnorm measurement (`Koto & Biwa Shallow Stream Duet.wav`, `Koto & Mountain Stream Calm.wav` — likely corrupted/silent downloads, correctly skipped) and were not included. The remaining 21 all fit under the 60-min cap — no reserve this time. Names came out already close to poetic; **3 of 21 said "Dawn" though the whole scene is blue-hour DUSK** (same mismatch pattern as HACHIMAN) — fixed to Dusk below.
+
+**PowerShell — run inside `BENZAITEN-ALBUM/`:**
+```powershell
+cd "C:\Users\jdan1\OneDrive\Desktop\BENZAITEN-ALBUM"
+Rename-Item "06 - Dawn Water Koto & Biwa.wav" "06 - Dusk Water Koto & Biwa.wav"
+Rename-Item "12 - Still Dawn Ambient Meditation.wav" "12 - Still Dusk Ambient Meditation.wav"
+Rename-Item "17 - Zen Dawn Water Reflection.wav" "17 - Zen Dusk Water Reflection.wav"
+```
+The other 18 files need no action.
+**🇺🇦** 3 из 21 файла назвались под "рассвет", хотя вся сцена — сумерки (та же путаница, что была с HACHIMAN). Остальные 18 не трогать.
 
 ---
 
@@ -194,7 +208,27 @@ the one god whose own voice is a song.
 At the edge of still water, a lone traveling musician bows his head as the goddess herself takes shape from the mist, a glowing biwa resting across her lap, a torii gate reflected in the water, a white snake resting silently nearby. Slow koto, warm biwa, the endless sound of flowing water — one hour to let the mind drift and flow like water over stone.
 
 Tracklist:
-[added after mastering — mood-poetic names, cool and flowing]
+0:00 Biwa & Still Water Meditation
+2:53 Biwa Sawari Meditation
+5:47 Bonsho Zen Reflection
+8:35 Breathy Shakuhachi Zen Stream
+11:30 Breathy Zen Flow
+14:15 Dusk Water Koto & Biwa
+16:54 Distant Waterfall Zen Meditation
+19:46 Koto & Biwa Zen Duet
+22:35 Rain on Still Water Zen
+25:25 Shakuhachi & Koto Stream Focus
+28:22 Shakuhachi & Stream Meditation
+30:17 Still Dusk Ambient Meditation
+32:55 Still Water Zen Meditation
+35:38 Stream & Strings Meditation
+38:33 Temple Bell & Lapping Water
+41:24 Waterfall & Koto Solitude
+44:12 Zen Dusk Water Reflection
+47:05 Zen Garden Flow with Shakuhachi
+49:48 Zen Garden Flow
+52:36 Zen Rain & Koto Meditation
+55:07 Zen Stream Duet Meditation
 
 🌀 The mind moves best when it stops forcing the current.
 🍃 Nothing forced. Only flow, and the quiet sound of water.
