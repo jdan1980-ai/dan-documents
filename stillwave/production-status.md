@@ -43,10 +43,10 @@ Sibling series to RYŪ: each video = one Shinto deity manifesting as a colossal 
 |------|-------|------------------------------|-----------------|---------------|----|----|----|----|-----|-----|-----|
 | `tsukuyomi-2h` | TSUKUYOMI — 月読 \| flagship | pale silver-blue · moon rabbits | (see script) | Suno | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ | ⏳ |
 | `amaterasu-2h` | AMATERASU — 天照 \| Japanese Zen Music for Morning Meditation & Sunrise Calm | warm golden-amber sunrise · sacred roosters | 一陽来復 (Ichiyō raifuku) | Suno | ✅ | ⏳ | ✅ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `hachiman-1h` | HACHIMAN — 八幡 \| Japanese Zen Music for Courage, Protection & Inner Strength | warm white-gold · white doves | 質実剛健 (Shitsujitsu gōken) | **Lyria (pilot)** | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| — | **BENZAITEN — 弁財天** (proposed 2026-09-08) | goddess of music, water & eloquence — koto/biwa + flowing water motif, "Deep Focus" angle | — | TBD | — | — | — | — | — | — | — |
+| `hachiman-1h` | HACHIMAN — 八幡 \| Japanese Zen Music for Courage, Protection & Inner Strength | warm white-gold · white doves (perched, not flying) | 質実剛健 (Shitsujitsu gōken) | **Lyria (pilot)** | ✅ | ✅ | ✅ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `benzaiten-1h` | BENZAITEN — 弁財天 \| Japanese Zen Music for Deep Focus, Creativity & Flowing Calm | cool aquamarine-teal · white snake | 行雲流水 (Kōun ryūsui) | **Lyria** | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
-**Next step:** HACHIMAN — generate hero (§3), then 10 Lyria variants (§1), master with `--cap 60`, select/order → §8. AMATERASU — generate the 10 Suno variants (§1), hero/tracklist already done. BENZAITEN is a proposed next-in-queue after Hachiman, not yet scripted — needs a full package (visual hook, §0-§14) before production.
+**Next step:** HACHIMAN — 38 Lyria tracks generated/mastered/selected (21 tracks, 59:34 → `HACHIMAN-ALBUM/`), hero approved after 7 prompt rounds, thumbnail + wisdom overlay done — next: §4 Flow loop, §3c Shorts frames, CapCut laydown. BENZAITEN — full package written (§0-§15), music prompts (§1) lean hard on koto/biwa + explicit anti-genericization language (lesson from HACHIMAN's Western-instrument drift) — next: generate the 10 Lyria variants, then hero (§3). AMATERASU — still needs its 10 Suno variants generated (hero/tracklist already done).
 
 ## In production / next up
 
