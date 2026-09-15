@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 1H (continues the HACHIMAN/BENZAITEN Lyria-pilot format).
 - **Music source:** **Google Lyria**, same anti-genericization approach as BENZAITEN. Kannon's signature sound is **soft, multiple small bells** (suzu hand-bells / furin wind-bells) — deliberately NOT the single deep bonshō already used for HACHIMAN, so the series doesn't repeat its bell sound. §1 below names the bells explicitly and rules out generic chimes/wind-pad substitutes, and weaves the Otowa Waterfall's water sound throughout (authentic to her most famous shrine).
-- **Status:** 🟡 IN PROGRESS — ✅ hero approved (round 3, asymmetric living pose), thumbnail + wisdom overlay done, ✅ music mastered/selected (21 tracks, 58:06 → §8). **Next: rename files per §2 script, generate the §4 Flow loop, and §3c Shorts frames.**
+- **Status:** 🟡 IN PROGRESS — ✅ hero approved (round 3, asymmetric living pose), thumbnail + wisdom overlay done, ✅ music mastered/selected (21 tracks, 58:06 → §8). **Shorts (teaser + Concept Short) deliberately SKIPPED for this video, per user 2026-09-15** — deviation from the channel's Concept Short rule, a one-off call for KANNON, not a change to the standing rule. **Next: rename files per §2 script, generate the §4 Flow loop, CapCut laydown.**
 
 ---
 
@@ -303,6 +303,8 @@ KANNON (観音) in Japanese Culture: A Concise Overview
 
 ## §14 — Shorts (concept + teaser)
 
+**🚫 SKIPPED for this video (per user, 2026-09-15).** Kept below for reference/reuse if reconsidered later — not built for KANNON's launch.
+
 Built from the 6 selected frames (§3c) via `kannon-short-build.py` + `kannon-short-overlays.py` (Ken Burns float-precision PIL, crossfades) — same pipeline as the rest of the KAMI series. Three beats, all inside the safe zone (y 150-1450, x 60-880 of 1080×1920):
 - **Beat 1 (hook):** `Compassion asks nothing in return` (cream)
 - **Beat 2 (concept, frame 4):** `観音` + `KANNON` (white/cream)
@@ -342,6 +344,8 @@ Settings: **Not for kids** · playlist **StillWave Shorts** · Related video →
 ---
 
 ## §15 — Concept Short (standalone, built from §12 — per the RELOCKED rule)
+
+**🚫 SKIPPED for this video (per user, 2026-09-15).** Kept below for reference/reuse if reconsidered later — not built for KANNON's launch.
 
 Separate from the teaser Short above — a standalone cultural-education Short teaching 観音 from the §12 Community Post text, not footage from the long-form. Build via `concept-shorts-build.py` (add a `kannon` config) once §3c frames are selected.
 
