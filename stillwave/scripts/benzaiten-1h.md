@@ -111,6 +111,9 @@ Rename-Item "17 - Zen Dawn Water Reflection.wav" "17 - Zen Dusk Water Reflection
 The other 18 files need no action.
 **🇺🇦** 3 из 21 файла назвались под "рассвет", хотя вся сцена — сумерки (та же путаница, что была с HACHIMAN). Остальные 18 не трогать.
 
+**➕ Manual addition (2026-09-15):** `Misty Dawn Meditation` (from HACHIMAN's reserve — one of the 4 flagged as thematically compatible) added as track 22, appended at the end (57:50) rather than re-run through `select-album.py`'s ordering — user call. Copy it into `BENZAITEN-ALBUM/` as `22 - Misty Dawn Meditation.wav`. **Total is now ≈1:00:43, 22 tracks.**
+**🇺🇦** Добавлен вручную последним треком (57:50), не через пересчёт `select-album.py` — по прямому решению пользователя. Скопировать в `BENZAITEN-ALBUM/` как `22 - Misty Dawn Meditation.wav`. Итог — ≈1:00:43, 22 трека.
+
 ---
 
 ## §3 — NanoBanana 16:9 (PRIMARY — hero) — Benzaiten at the water shrine
@@ -229,6 +232,7 @@ Tracklist:
 49:48 Zen Garden Flow
 52:36 Zen Rain & Koto Meditation
 55:07 Zen Stream Duet Meditation
+57:50 Misty Dawn Meditation
 
 🌀 The mind moves best when it stops forcing the current.
 🍃 Nothing forced. Only flow, and the quiet sound of water.
