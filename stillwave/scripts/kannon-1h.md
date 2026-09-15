@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 1H (continues the HACHIMAN/BENZAITEN Lyria-pilot format).
 - **Music source:** **Google Lyria**, same anti-genericization approach as BENZAITEN. Kannon's signature sound is **soft, multiple small bells** (suzu hand-bells / furin wind-bells) — deliberately NOT the single deep bonshō already used for HACHIMAN, so the series doesn't repeat its bell sound. §1 below names the bells explicitly and rules out generic chimes/wind-pad substitutes, and weaves the Otowa Waterfall's water sound throughout (authentic to her most famous shrine).
-- **Status:** 🟡 IN PROGRESS — full package written, ready to generate.
+- **Status:** 🟡 IN PROGRESS — ✅ hero approved (round 3, asymmetric living pose), thumbnail + wisdom overlay done. **Next: generate the 10 Lyria tracks (§1), the §4 Flow loop, and §3c Shorts frames.**
 
 ---
 
