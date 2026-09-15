@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 1H (continues the HACHIMAN/BENZAITEN Lyria-pilot format).
 - **Music source:** **Google Lyria**, same anti-genericization approach as BENZAITEN. Kannon's signature sound is **soft, multiple small bells** (suzu hand-bells / furin wind-bells) — deliberately NOT the single deep bonshō already used for HACHIMAN, so the series doesn't repeat its bell sound. §1 below names the bells explicitly and rules out generic chimes/wind-pad substitutes, and weaves the Otowa Waterfall's water sound throughout (authentic to her most famous shrine).
-- **Status:** 🟡 IN PROGRESS — ✅ hero approved (round 3, asymmetric living pose), thumbnail + wisdom overlay done. **Next: generate the 10 Lyria tracks (§1), the §4 Flow loop, and §3c Shorts frames.**
+- **Status:** 🟡 IN PROGRESS — ✅ hero approved (round 3, asymmetric living pose), thumbnail + wisdom overlay done, ✅ music mastered/selected (21 tracks, 58:06 → §8). **Next: rename files per §2 script, generate the §4 Flow loop, and §3c Shorts frames.**
 
 ---
 
@@ -96,6 +96,42 @@ python3 select-album.py "<KANNON-Flow folder>" "<KANNON-Flow folder>-mastered" -
 ```
 Generate 2-3 takes per variant (≈20-30 files total). Paste the printed selection table back here for §8.
 **🇺🇦** Та же схема — 2-3 дубля на вариант, обе команды, таблицу сюда для §8. (`select-album.py` теперь сам чистит папку `ALBUM/` перед каждым запуском — можно спокойно перезапускать после добавления треков.)
+
+**✅ Done 2026-09-15.** 28 raw tracks generated (10 variants × 2-3 takes), 1 failed mastering (`Biwa & Furin Meditation (Take 1).wav` — loudnorm measurement failed, likely a corrupted/silent render; its Take 2 covers the variant fine). `select-album.py --slug KANNON --cap 60` selected **21 tracks, 58:06 total** → `KANNON-ALBUM/`, 6 tracks held in `KANNON-RESERVE/` for a future Vol. 2. Final tracklist + poetic names in §8; rename script below.
+
+```powershell
+cd "C:\Users\jdan1\OneDrive\Desktop\KANNON-ALBUM"
+$names = @(
+  "The Pilgrim's First Bow",
+  "Mist Over the Temple Steps",
+  "Where the Mist Remembers",
+  "Small Bells at the Water's Edge",
+  "A Cluster of Soft Rings",
+  "One Bowl, One Breath",
+  "The Sound That Holds Still",
+  "Notes That Ask Nothing",
+  "Mercy Without Measure",
+  "The Bells Remember Kindness",
+  "The Crane at Rest",
+  "Stone Steps, Quiet Garden",
+  "Where the Pilgrim Kneels",
+  "Rain on the Healing Pool",
+  "The Pool That Never Empties",
+  "Otowa's Endless Fall",
+  "Three Streams, One Water",
+  "Held in Perfect Stillness",
+  "The Unmoving Hour",
+  "The Willow Does Not Resist",
+  "Compassion Settles Like Mist"
+)
+Get-ChildItem -File | Sort-Object Name | ForEach-Object {
+    if ($_.Name -match '^(\d{2}) - ') {
+        $idx = [int]$matches[1] - 1
+        Rename-Item $_.FullName -NewName "$($matches[1]) - $($names[$idx]).wav"
+    }
+}
+```
+**🇺🇦** Готово — 21 трек, 58:06, в `KANNON-ALBUM/`, 6 в резерве. Скрипт выше переименует файлы по номеру префикса в поэтичные названия перед импортом в CapCut.
 
 ---
 
@@ -200,7 +236,27 @@ mercy that asks nothing in return.
 At the edge of a misty waterfall, a lone pilgrim bows his head as the goddess herself takes shape from the mist, pouring healing water from a small vase, a willow branch resting still in her other hand, white cranes standing quietly at the water's edge. Soft temple bells, gentle koto, the endless sound of falling water — one hour to let compassion settle over you like mist.
 
 Tracklist:
-[added after mastering — mood-poetic names, soft and healing]
+00:00 — The Pilgrim's First Bow
+02:49 — Mist Over the Temple Steps
+05:41 — Where the Mist Remembers
+08:40 — Small Bells at the Water's Edge
+11:24 — A Cluster of Soft Rings
+14:11 — One Bowl, One Breath
+17:05 — The Sound That Holds Still
+20:00 — Notes That Ask Nothing
+22:58 — Mercy Without Measure
+25:44 — The Bells Remember Kindness
+28:21 — The Crane at Rest
+31:15 — Stone Steps, Quiet Garden
+34:06 — Where the Pilgrim Kneels
+36:46 — Rain on the Healing Pool
+39:39 — The Pool That Never Empties
+42:28 — Otowa's Endless Fall
+45:13 — Three Streams, One Water
+46:48 — Held in Perfect Stillness
+49:33 — The Unmoving Hour
+52:24 — The Willow Does Not Resist
+55:20 — Compassion Settles Like Mist
 
 🌀 Compassion asks nothing in return.
 🍃 Nothing forced. Only mercy, and the sound of falling water.
