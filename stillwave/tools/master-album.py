@@ -5,12 +5,13 @@ StillWave album mastering — batch-prepare Suno WAVs for CapCut assembly.
 Per track (two-pass EBU R128 loudnorm — accurate, dynamics preserved):
   1. low-cut 28 Hz            — removes generative sub-rumble
   2. high-shelf −1.5 dB @ 9k  — tames Suno high-frequency shimmer (--no-shelf to skip)
-  3. loudness → one LUFS target across the whole album (default −16 LUFS, TP −1.5 dB)
-  4. fade-in / fade-out       — hides abrupt Suno endings (default 1.0 s, --fade 0 to skip)
-  5. resample 48 kHz, 24-bit WAV — matches the CapCut/YouTube pipeline
+  3. FFT noise reduction      — optional, off by default (--denoise, tune with --nr)
+  4. loudness → one LUFS target across the whole album (default −16 LUFS, TP −1.5 dB)
+  5. fade-in / fade-out       — hides abrupt Suno endings (default 1.0 s, --fade 0 to skip)
+  6. resample 48 kHz, 24-bit WAV — matches the CapCut/YouTube pipeline
 
 Usage:
-  python3 master-album.py <folder-with-suno-wavs> [-o out-folder] [--lufs -16] [--fade 1.0] [--no-shelf]
+  python3 master-album.py <folder-with-suno-wavs> [-o out-folder] [--lufs -16] [--fade 1.0] [--no-shelf] [--denoise] [--nr 12]
 
 Output: <folder>-mastered/ with the same file names + a summary table
 (length per track, album TOTAL, and duplicate detection — Suno sometimes
@@ -85,6 +86,11 @@ def main():
                     help="fade in/out seconds per track, 0 = off (default 1.0)")
     ap.add_argument("--no-shelf", action="store_true",
                     help="skip the -1.5 dB high-shelf at 9 kHz")
+    ap.add_argument("--denoise", action="store_true",
+                    help="apply FFT noise reduction (ffmpeg afftdn) before mastering — off by default, "
+                         "since it can dull soft ambient textures if overused")
+    ap.add_argument("--nr", type=float, default=12.0,
+                    help="denoise strength in dB, 0.01-97, only with --denoise (default 12, gentle)")
     args = ap.parse_args()
 
     if not args.folder.is_dir():
@@ -100,8 +106,11 @@ def main():
     prefilter = "highpass=f=28,"
     if not args.no_shelf:
         prefilter += "highshelf=g=-1.5:f=9000,"
+    if args.denoise:
+        prefilter += f"afftdn=nr={args.nr},"
 
-    print(f"{len(files)} tracks → {out_dir}   (target {args.lufs} LUFS, TP -1.5 dB, 48 kHz/24-bit)\n")
+    denoise_note = f", denoise nr={args.nr}" if args.denoise else ""
+    print(f"{len(files)} tracks → {out_dir}   (target {args.lufs} LUFS, TP -1.5 dB, 48 kHz/24-bit{denoise_note})\n")
     print(f"{'track':<40} {'length':>7} {'in LUFS':>8} {'in TP':>7}  note")
     print("-" * 78)
 
