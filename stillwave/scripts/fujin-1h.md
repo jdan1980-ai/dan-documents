@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 1H (continues the HACHIMAN/BENZAITEN/KANNON Lyria-pilot format).
 - **Music source:** **Google Lyria**, same anti-genericization approach as BENZAITEN/KANNON. Fujin's signature sound is the **shakuhachi** — the flute literally shaped and played like captured breath/wind — leading every variant, with koto/biwa/furin as sparse secondary answers and open silence between phrases (deliberately NOT a bell-based signature — bonshō = HACHIMAN, suzu/furin = KANNON already claimed those). **Wind itself is NOT described in the §1 prompts (per user 2026-09-16)** — it's added afterward as a separate real SFX bed under the finished album in CapCut, same technique as MIZU/KANNON's water.
-- **Status:** 🟡 IN PROGRESS — ✅ hero approved (first generation, no revision rounds needed), ✅ thumbnail + wisdom overlay done. **Next: generate the 15 Lyria tracks (§1), then the §4 Flow loop.**
+- **Status:** 🟡 IN PROGRESS — ✅ hero approved (first generation, no revision rounds needed), ✅ thumbnail + wisdom overlay done, ✅ music mastered/selected (21 tracks, 59:25 → §8). **Next: rename files per §2 script, generate the §4 Flow loop, §3c Shorts frames.**
 
 ---
 
@@ -125,6 +125,42 @@ python3 select-album.py "<FUJIN-Flow folder>" "<FUJIN-Flow folder>-mastered" --s
 Generate 2-3 takes per variant (≈20-30 files total). Paste the printed selection table back here for §8.
 **🇺🇦** Та же схема — 2-3 дубля на вариант, обе команды, таблицу сюда для §8.
 
+**✅ Done 2026-09-16.** 30 raw tracks generated, 29 mastered (1 failed — a stray non-English-named file `Японский эмбиент с флейтой.wav` left over in the folder, not one of the 15 §1 variants; also exposed and fixed a real `master-album.py`/`select-album.py` bug — see the tools commit — where ffmpeg output containing non-Latin filenames crashed under the user's Windows locale). 2 tracks flagged with clipped input (`Single Furin Bell & Shakuhachi (Take 2)`, `Solo Koto & Silence`) — mastered versions are safe per the tool's note, but `select-album.py --slug FUJIN --cap 60` selected **21 tracks, 59:25 total** → `FUJIN-ALBUM/`, and the clipped `Solo Koto & Silence.wav` (non-Take-2) did land in the final selection (#14) purely on its calmness score — swap it for a RESERVE track if the clipping is audible. 8 tracks held in `FUJIN-RESERVE/` for a future Vol. 2. Final tracklist + poetic names in §8; rename script below.
+
+```powershell
+cd "C:\Users\jdan1\OneDrive\Desktop\FUJIN-ALBUM"
+$names = @(
+  "The First Breath Released",
+  "Where the Sound Lets Go",
+  "A Bell Rings Once, Then Silence",
+  "Stillness Before the Ridge",
+  "The Last Light Lets Go",
+  "Carried Without Resistance",
+  "Nothing Left to Hold",
+  "A Thin Chime, Far Away",
+  "Notes That Ask to Leave",
+  "The Weight Sets Down",
+  "Three Voices, One Release",
+  "One Ring Fading Into Wind",
+  "The String Falls Still",
+  "What Remains After the Note",
+  "Breath Becomes Silence",
+  "The Flute Sets It Free",
+  "Held Only by Open Sky",
+  "Nothing to Carry Forward",
+  "The Ridge Remembers Nothing",
+  "Release Without Return",
+  "The Wind Takes What It Will"
+)
+Get-ChildItem -File | Sort-Object Name | ForEach-Object {
+    if ($_.Name -match '^(\d{2}) - ') {
+        $idx = [int]$matches[1] - 1
+        Rename-Item $_.FullName -NewName "$($matches[1]) - $($names[$idx]).wav"
+    }
+}
+```
+**🇺🇦** Готово — 21 трек, 59:25, в `FUJIN-ALBUM/`, 8 в резерве. Один трек с клиппингом на входе (`Solo Koto & Silence.wav`, #14) всё же попал в финальный отбор по баллу "спокойствия" — мастер-версия безопасна, но если на слух заметно, замени на трек из RESERVE. Заодно нашёл и починил реальный баг в `master-album.py`/`select-album.py` — падение из-за кодировки Windows на нелатинских именах файлов.
+
 ### Ambient SFX bed — separate wind track (planned)
 
 Per user 2026-09-16: lay a **continuous, steady wind SFX track** under the whole album in CapCut (same pattern as MIZU/KANNON's water bed) — highly on-theme here since wind is the video's subject, not just atmosphere. Since none of the §1 prompts describe wind anymore (removed per the same 2026-09-16 decision — see §1 note), this SFX bed can go under the entire album uniformly, no need to pick specific tracks to avoid doubling up.
@@ -229,7 +265,27 @@ the oldest breath moving over the oldest land.
 On a windswept ridge at dusk, a lone monk plays the shakuhachi as the wind god himself takes shape from the moving air, the great bag of winds open at his hands, a hawk resting quiet on the rock beside him, a sea of grass bending toward the horizon. Breath-like flute, distant wind, the endless sound of letting go — one hour to release what you have been carrying.
 
 Tracklist:
-[added after mastering — mood-poetic names, soft and elemental]
+00:00 — The First Breath Released
+02:58 — Where the Sound Lets Go
+05:56 — A Bell Rings Once, Then Silence
+08:50 — Stillness Before the Ridge
+11:43 — The Last Light Lets Go
+13:37 — Carried Without Resistance
+16:31 — Nothing Left to Hold
+19:06 — A Thin Chime, Far Away
+21:55 — Notes That Ask to Leave
+24:42 — The Weight Sets Down
+27:37 — Three Voices, One Release
+30:30 — One Ring Fading Into Wind
+33:21 — The String Falls Still
+35:57 — What Remains After the Note
+38:45 — Breath Becomes Silence
+41:44 — The Flute Sets It Free
+44:43 — Held Only by Open Sky
+47:40 — Nothing to Carry Forward
+50:34 — The Ridge Remembers Nothing
+53:31 — Release Without Return
+56:27 — The Wind Takes What It Will
 
 🌀 Nothing is meant to be held forever.
 🍃 Let the wind take what it will.
