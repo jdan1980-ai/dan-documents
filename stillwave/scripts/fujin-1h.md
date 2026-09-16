@@ -99,6 +99,14 @@ python3 select-album.py "<FUJIN-Flow folder>" "<FUJIN-Flow folder>-mastered" --s
 Generate 2-3 takes per variant (≈20-30 files total). Paste the printed selection table back here for §8.
 **🇺🇦** Та же схема — 2-3 дубля на вариант, обе команды, таблицу сюда для §8.
 
+### Ambient SFX bed — separate wind track (planned)
+
+Per user 2026-09-16: lay a **continuous, steady wind SFX track** under the album in CapCut (same pattern as MIZU/KANNON's water bed) — highly on-theme here since wind is the video's subject, not just atmosphere.
+- **🔒 Must be CC0 / royalty-free** (Pixabay, Freesound CC0) per the channel's water/nature-bed Content ID lesson — verify the license BEFORE laying it under the album.
+- Steady, unchanging breeze — no dramatic gusts or audible swells (matches the album's flat-dynamics rule); mix quiet under the music (~-20 to -25 dB), fade in/out at any seams if looping multiple files.
+- Several §1 variants (4, 6, 9, 10) already carry wind as part of the Lyria-generated texture — if the external SFX layer sounds doubled against those, prefer laying it mainly under variants 1/3/5/7/8 (lighter wind presence in the source music).
+**🇺🇦** Отдельная дорожка ветра поверх альбома — обязательно CC0/royalty-free, ровный без порывов, тише музыки. Варианты 4/6/9/10 уже содержат ветер в самой музыке — если наложение звучит "двойным", клади SFX-ветер в основном под 1/3/5/7/8.
+
 ---
 
 ## §3 — NanoBanana 16:9 (PRIMARY — hero) — Fujin on the Windswept Ridge
