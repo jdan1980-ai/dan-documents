@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 1H (continues the HACHIMAN/BENZAITEN/KANNON Lyria-pilot format).
 - **Music source:** **Google Lyria**, same anti-genericization approach as BENZAITEN/KANNON. Fujin's signature sound is the **shakuhachi** — the flute literally shaped and played like captured breath/wind — leading every variant, with koto/biwa/furin as sparse secondary answers and open silence between phrases (deliberately NOT a bell-based signature — bonshō = HACHIMAN, suzu/furin = KANNON already claimed those). **Wind itself is NOT described in the §1 prompts (per user 2026-09-16)** — it's added afterward as a separate real SFX bed under the finished album in CapCut, same technique as MIZU/KANNON's water.
-- **Status:** 🟡 IN PROGRESS — package drafted, no assets generated yet. **Next: generate hero (§3), then the 10 Lyria tracks (§1).**
+- **Status:** 🟡 IN PROGRESS — ✅ hero approved (first generation, no revision rounds needed), ✅ thumbnail + wisdom overlay done. **Next: generate the 15 Lyria tracks (§1), then the §4 Flow loop.**
 
 ---
 
