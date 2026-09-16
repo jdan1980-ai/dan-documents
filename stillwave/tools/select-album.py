@@ -51,7 +51,7 @@ VARIANT_RE = re.compile(r"_(\d+)(?:\s*\(\d+\))?$")
 
 
 def run(cmd):
-    return subprocess.run(cmd, capture_output=True, text=True)
+    return subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="replace")
 
 
 def natural_key(p: Path):

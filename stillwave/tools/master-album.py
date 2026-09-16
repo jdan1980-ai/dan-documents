@@ -30,7 +30,7 @@ AUDIO_EXT = {".wav", ".mp3", ".flac", ".m4a", ".ogg"}
 
 
 def run(cmd):
-    return subprocess.run(cmd, capture_output=True, text=True)
+    return subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="replace")
 
 
 def natural_key(p: Path):
