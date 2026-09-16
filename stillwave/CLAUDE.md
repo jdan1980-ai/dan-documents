@@ -731,6 +731,14 @@ Add to Suno Prompt B (Lyrics field) explicit `[opening: ...]` line per variant. 
 - **Alternative = Dispute.** Our music is genuinely ours (Suno v5.5, we hold the rights), so a dispute with "I own the rights / original content" is legitimate — but slower and the claimant can reject, so for a small channel trimming a few seconds is usually faster/safer. Trim when it's a short match; dispute only if the match is long or repeated.
 - **🆕 Water/nature-bed videos (MIZU onward) — extra Content ID vector:** the ambient SFX bed (water fountain, rain, etc.) must be **CC0 / royalty-free** (Pixabay, freesound CC0). A rogue SFX clip can trigger a claim even when the Suno music is clean. Verify the SFX license BEFORE laying it under the album.
 
+### 🔒 Background ambience (water, wind, rain) — describe SEPARATELY, never baked into the Suno/Lyria prompt (LOCKED 2026-09-16)
+
+If a video's atmosphere calls for a natural background texture (running water, wind, rain, etc.), do **NOT** describe that sound inside the Suno/Lyria STYLE or LYRICS prompt itself. Write it up as its own separate note (near §2 Mastering, an "Ambient SFX bed" subsection) instead, and add the real sound as a **separate CC0/royalty-free track** laid under the finished album in CapCut — same technique already used for MIZU/KANNON's water bed.
+
+**Why:** caught on FUJIN — wind was originally baked into most of the §1 Lyria prompts as the textural bed, then the user separately planned a real wind SFX layer for CapCut (following the MIZU/KANNON water-bed pattern). Having wind described in BOTH the generated music AND the manual SFX layer risks a doubled-up, muddy sound and makes per-track volume balance harder to reason about — a generated instrumental's own attempt at an ambient texture is also far less controllable (character, volume, seamless looping) than a real chosen SFX file. Simpler and cleaner: keep the generated music purely about the named instruments (shakuhachi, koto, biwa, bells, etc.) with open silence between phrases, and add any environmental bed as its own separate layer.
+
+**🇺🇦** Если фоновая атмосфера видео — природная текстура (вода, ветер, дождь), НЕ описывай её звук внутри промта Suno/Lyria. Прописывай отдельным разделом (рядом с §2 Mastering) — реальный звук добавляется отдельной CC0-дорожкой поверх готового альбома в CapCut, как уже делалось с водой у MIZU/KANNON. Пойман на FUJIN: ветер был встроен почти во все музыкальные промты, а затем пользователь отдельно решил добавить SFX-дорожку ветра — двойной звук и сложный баланс громкости. Проще держать сгенерированную музыку только про инструменты, а фон — отдельным слоем.
+
 ---
 
 ## 📝 Title format (3-phase evolution)
