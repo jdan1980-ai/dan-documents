@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 1H (continues the HACHIMAN/BENZAITEN/KANNON/FUJIN Lyria-pilot format).
 - **Music source:** **Google Lyria**, same anti-genericization approach as the rest of the KAMI series. Raijin's signature sound is the **hichiriki** — a real Japanese court double-reed instrument with a warm, piercing, slightly buzzing tone — with biwa/koto as sparse secondary answers. **🔒 Taiko/percussion and thunder are visual-only, never described in the music itself** — see §0 and §1 notes; this channel's ambient prompts never name a percussive instrument (it turns into an actual beat), and per the 2026-09-16 rule (established on FUJIN) background nature sounds like thunder/rain are added later as a separate SFX bed, not baked into the Lyria prompt.
-- **Status:** 🟡 IN PROGRESS — ✅ hero approved (round 3, after fixing bodybuilder anatomy, lightning-vein texture, pale color, and locking the raiju to a wolf), ✅ thumbnail + wisdom overlay done, music mastering in progress. **Next: finish §2 mastering/selection (§8), then the §4 Flow loop, §3c Shorts frames.**
+- **Status:** 🟡 IN PROGRESS — ✅ hero approved (round 3), ✅ thumbnail + wisdom overlay done, ✅ music mastered/selected (20 tracks, 57:13 → §8), ✅ Community Post published. **Next: rename files per §2 script, generate the §4 Flow loop, §3c Shorts frames.**
 
 ---
 
@@ -125,6 +125,41 @@ python3 select-album.py "<RAIJIN-Flow folder>" "<RAIJIN-Flow folder>-mastered" -
 Generate 2-3 takes per variant (≈20-30 files total). Paste the printed selection table back here for §8.
 **🇺🇦** Та же схема — 2-3 дубля на вариант, обе команды, таблицу сюда для §8.
 
+**✅ Done 2026-09-21.** 30 raw tracks generated, all 30 mastered cleanly (no crashes — the UTF-8 fix held). 4 tracks flagged for input clipping (`Distant Thunder Drifting`, `Grounded Pulse & Breath`, `Scattered Light Quiet Air`, `Storm Recedes to Calm`) — mastered versions are safe per the tool's note. `select-album.py --slug RAIJIN --cap 60` selected **20 tracks, 57:13 total** → `RAIJIN-ALBUM/`, 10 in `RAIJIN-RESERVE/`. Two of the four clipped tracks (`Scattered Light Quiet Air` #14, `Storm Recedes to Calm` #18) landed in the final selection on calmness score — swap from RESERVE if audible. Final tracklist + poetic names in §8; rename script below.
+
+```powershell
+cd "C:\Users\jdan1\OneDrive\Desktop\RAIJIN-ALBUM"
+$names = @(
+  "The Breath Beyond the Storm",
+  "Held Steady, Held Gently",
+  "One Note Beneath the Clouds",
+  "The Water Remembers Stillness",
+  "Thunder Far Beyond the Ridge",
+  "The Last Echo of Thunder",
+  "The Slow Heartbeat of Rain",
+  "Light Settles on the Water",
+  "Peace Where the Storm Has Passed",
+  "Rain That No Longer Startles",
+  "An Unhurried Horizon",
+  "Stillness With Nothing to Prove",
+  "Rain That Restores the Water",
+  "Scattered Light, Quiet Air",
+  "One Breath, One Ripple",
+  "A Spacious, Unmoved Reflection",
+  "Water That Holds No Ripple",
+  "The Storm Recedes, the Core Remains",
+  "A Whisper Over Still Water",
+  "The Stillness That Does Not Shake"
+)
+Get-ChildItem -File | Sort-Object Name | ForEach-Object {
+    if ($_.Name -match '^(\d{2}) - ') {
+        $idx = [int]$matches[1] - 1
+        Rename-Item $_.FullName -NewName "$($matches[1]) - $($names[$idx]).wav"
+    }
+}
+```
+**🇺🇦** Готово — 20 треков, 57:13, в `RAIJIN-ALBUM/`, 10 в резерве. Два трека с клиппингом на входе (#14, #18) всё же попали в финал по баллу спокойствия — если на слух заметно, замени на трек из RESERVE.
+
 ### Ambient SFX bed — distant thunder / rain-after-storm (optional)
 
 Per the §0 concept ("🌧️ Дождь после грозы"), if you want the thunder/storm atmosphere audible, add it as a **separate real SFX track** under the album in CapCut — same technique as FUJIN's wind and MIZU/KANNON's water, per the channel's 2026-09-16 rule (background ambience never goes inside the Suno/Lyria prompt).
@@ -235,7 +270,26 @@ it never has to prove itself.
 In a rain-slicked shrine courtyard, a lone kagura musician plays the hichiriki as the thunder god himself takes shape in the retreating storm clouds, a ring of ancient drums resting still across his shoulders, a thunder-beast calm at the musician's feet. A warm reed tone, a deep plucked lute, the quiet after the storm — one hour to find the strength that never trembles.
 
 Tracklist:
-[added after mastering — mood-poetic names, grounded and steady]
+00:00 — The Breath Beyond the Storm
+03:00 — Held Steady, Held Gently
+05:58 — One Note Beneath the Clouds
+08:38 — The Water Remembers Stillness
+11:36 — Thunder Far Beyond the Ridge
+14:24 — The Last Echo of Thunder
+17:16 — The Slow Heartbeat of Rain
+20:06 — Light Settles on the Water
+23:00 — Peace Where the Storm Has Passed
+25:57 — Rain That No Longer Startles
+28:37 — An Unhurried Horizon
+31:33 — Stillness With Nothing to Prove
+34:31 — Rain That Restores the Water
+37:24 — Scattered Light, Quiet Air
+40:17 — One Breath, One Ripple
+43:05 — A Spacious, Unmoved Reflection
+45:58 — Water That Holds No Ripple
+48:52 — The Storm Recedes, the Core Remains
+51:42 — A Whisper Over Still Water
+54:18 — The Stillness That Does Not Shake
 
 🌀 Real strength never needs to shout.
 🍃 Let it settle. Let it hold.
