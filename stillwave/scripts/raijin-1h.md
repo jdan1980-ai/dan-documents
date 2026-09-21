@@ -272,6 +272,8 @@ stillwave, japanese zen music, meditation music, zen music, ambient music, calmi
 
 ## §12 — Community Post (day-of)
 
+**✅ Published 2026-09-21** (with the classical Rinpa-style Raijin image below).
+
 **🔒 Image override (per user, 2026-09-21):** unlike the channel default of reusing the long-form thumbnail, this post uses a NEW classical-style image — Raijin in his real traditional Japanese-art iconography (oni-like, Rinpa/Sōtatsu screen style) rather than the video's own "living light" reinterpretation. Appropriate here specifically because the post is a factual cultural overview; the main video keeps the series' own visual language throughout.
 
 ```
