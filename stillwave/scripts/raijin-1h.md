@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 1H (continues the HACHIMAN/BENZAITEN/KANNON/FUJIN Lyria-pilot format).
 - **Music source:** **Google Lyria**, same anti-genericization approach as the rest of the KAMI series. Raijin's signature sound is the **hichiriki** — a real Japanese court double-reed instrument with a warm, piercing, slightly buzzing tone — with biwa/koto as sparse secondary answers. **🔒 Taiko/percussion and thunder are visual-only, never described in the music itself** — see §0 and §1 notes; this channel's ambient prompts never name a percussive instrument (it turns into an actual beat), and per the 2026-09-16 rule (established on FUJIN) background nature sounds like thunder/rain are added later as a separate SFX bed, not baked into the Lyria prompt.
-- **Status:** 🟡 IN PROGRESS — ✅ hero approved (round 3), ✅ thumbnail + wisdom overlay done, ✅ music mastered/selected (20 tracks, 57:13 → §8), ✅ Community Post published. **Next: rename files per §2 script, generate the §4 Flow loop, §3c Shorts frames.**
+- **Status:** 🟡 IN PROGRESS — ✅ hero approved (round 3), ✅ thumbnail + wisdom overlay done, ✅ music mastered/selected (21 tracks, 1:00:07 → §8), ✅ Community Post published. **Next: rename files per §2 script, generate the §4 Flow loop, §3c Shorts frames.**
 
 ---
 
@@ -125,9 +125,11 @@ python3 select-album.py "<RAIJIN-Flow folder>" "<RAIJIN-Flow folder>-mastered" -
 Generate 2-3 takes per variant (≈20-30 files total). Paste the printed selection table back here for §8.
 **🇺🇦** Та же схема — 2-3 дубля на вариант, обе команды, таблицу сюда для §8.
 
-**✅ Done 2026-09-21.** 30 raw tracks generated, all 30 mastered cleanly (no crashes — the UTF-8 fix held). 4 tracks flagged for input clipping (`Distant Thunder Drifting`, `Grounded Pulse & Breath`, `Scattered Light Quiet Air`, `Storm Recedes to Calm`) — mastered versions are safe per the tool's note. `select-album.py --slug RAIJIN --cap 60` selected **20 tracks, 57:13 total** → `RAIJIN-ALBUM/`, 10 in `RAIJIN-RESERVE/`. Two of the four clipped tracks (`Scattered Light Quiet Air` #14, `Storm Recedes to Calm` #18) landed in the final selection on calmness score — swap from RESERVE if audible. Final tracklist + poetic names in §8; rename script below.
+**✅ Done 2026-09-21.** 30 raw tracks generated, all 30 mastered cleanly (no crashes — the UTF-8 fix held). 4 tracks flagged for input clipping (`Distant Thunder Drifting`, `Grounded Pulse & Breath`, `Scattered Light Quiet Air`, `Storm Recedes to Calm`) — mastered versions are safe per the tool's note. `select-album.py --slug RAIJIN --cap 60` selected 20 tracks, 57:13 total → `RAIJIN-ALBUM/`, 10 in `RAIJIN-RESERVE/`. Two of the four clipped tracks (`Scattered Light Quiet Air` #14, `Storm Recedes to Calm` #18) landed in the final selection on calmness score — swap from RESERVE if audible. **Manually appended a 21st track** (`Calm River Inner Strength.wav`, calmest clean track in RESERVE) per user request to round the album closer to 1 hour → **21 tracks, 1:00:07 total**. Final tracklist + poetic names in §8; rename script below.
 
 ```powershell
+Copy-Item "C:\Users\jdan1\OneDrive\Desktop\RAIJIN-RESERVE\Calm River Inner Strength.wav" "C:\Users\jdan1\OneDrive\Desktop\RAIJIN-ALBUM\21 - The River That Runs Steady.wav"
+
 cd "C:\Users\jdan1\OneDrive\Desktop\RAIJIN-ALBUM"
 $names = @(
   "The Breath Beyond the Storm",
@@ -152,13 +154,13 @@ $names = @(
   "The Stillness That Does Not Shake"
 )
 Get-ChildItem -File | Sort-Object Name | ForEach-Object {
-    if ($_.Name -match '^(\d{2}) - ') {
+    if ($_.Name -match '^(\d{2}) - ' -and [int]$matches[1] -le 20) {
         $idx = [int]$matches[1] - 1
         Rename-Item $_.FullName -NewName "$($matches[1]) - $($names[$idx]).wav"
     }
 }
 ```
-**🇺🇦** Готово — 20 треков, 57:13, в `RAIJIN-ALBUM/`, 10 в резерве. Два трека с клиппингом на входе (#14, #18) всё же попали в финал по баллу спокойствия — если на слух заметно, замени на трек из RESERVE.
+**🇺🇦** Готово — 20 треков (57:13) в `RAIJIN-ALBUM/`, 10 в резерве. Два трека с клиппингом на входе (#14, #18) всё же попали в финал — если на слух заметно, замени на трек из RESERVE. По просьбе добавлен 21-й трек (`Calm River Inner Strength.wav`, самый спокойный чистый трек резерва) — итог 1:00:07.
 
 ### Ambient SFX bed — distant thunder / rain-after-storm (optional)
 
@@ -290,6 +292,7 @@ Tracklist:
 48:52 — The Storm Recedes, the Core Remains
 51:42 — A Whisper Over Still Water
 54:18 — The Stillness That Does Not Shake
+57:13 — The River That Runs Steady
 
 🌀 Real strength never needs to shout.
 🍃 Let it settle. Let it hold.
