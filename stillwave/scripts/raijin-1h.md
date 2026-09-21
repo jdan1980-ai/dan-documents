@@ -270,7 +270,13 @@ stillwave, japanese zen music, meditation music, zen music, ambient music, calmi
 
 ---
 
-## §12 — Community Post (day-of; reuse thumbnail)
+## §12 — Community Post (day-of)
+
+**🔒 Image override (per user, 2026-09-21):** unlike the channel default of reusing the long-form thumbnail, this post uses a NEW classical-style image — Raijin in his real traditional Japanese-art iconography (oni-like, Rinpa/Sōtatsu screen style) rather than the video's own "living light" reinterpretation. Appropriate here specifically because the post is a factual cultural overview; the main video keeps the series' own visual language throughout.
+
+```
+A traditional Japanese Rinpa-school painting in the style of Tawaraya Sōtatsu's famous 17th-century folding screen "Wind God and Thunder God" (Fūjin Raijin-zu), depicting ONLY Raijin, the thunder god, isolated on his own gilded panel. Flat, brilliant gold-leaf background filling the entire frame, no landscape, no perspective depth — pure flat gold surface in the authentic Rinpa style. Raijin is rendered as a wild, dynamic oni-like demon figure with pale white-grey skin, floating and leaping among stylized flat dark grey storm clouds rendered as bold sumi-ink cloud shapes with soft outlines. He has wild, windswept white hair standing out in all directions, bulging wide fierce eyes, an open snarling mouth showing sharp fangs, and a muscular but slightly rounded, folk-art body typical of Edo-period painting — not photorealistic, not anatomically idealized. His hands and feet end in only three clawed digits each, per the traditional oni convention. He wears only a minimal tiger-print loincloth around his waist, the rest of his body bare. A large ring of small taiko drums, connected by red cords, encircles his entire body from behind his shoulders — in each hand he holds a wooden drumstick (bachi), captured mid-motion as if striking the drums to create thunder. His dynamic pose is caught in mid-leap, dramatic and energetic, limbs bent and active, entirely unlike a calm standing figure. Bold, confident black ink outlines define every form in the traditional Rinpa/Kanō painting style, with flat mineral-pigment color fields (white-grey skin, dark storm-grey clouds, red cord accents) and no photorealistic shading or gradients — a genuine historical Japanese painting aesthetic, mounted as if on a gold folding screen panel. No modern text, no signature seal.
+```
 
 ```
 RAIJIN (雷神) in Japanese Culture: A Concise Overview
