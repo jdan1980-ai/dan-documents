@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 1H (continues the HACHIMAN/BENZAITEN/KANNON/FUJIN Lyria-pilot format).
 - **Music source:** **Google Lyria**, same anti-genericization approach as the rest of the KAMI series. Raijin's signature sound is the **hichiriki** — a real Japanese court double-reed instrument with a warm, piercing, slightly buzzing tone — with biwa/koto as sparse secondary answers. **🔒 Taiko/percussion and thunder are visual-only, never described in the music itself** — see §0 and §1 notes; this channel's ambient prompts never name a percussive instrument (it turns into an actual beat), and per the 2026-09-16 rule (established on FUJIN) background nature sounds like thunder/rain are added later as a separate SFX bed, not baked into the Lyria prompt.
-- **Status:** 🟡 IN PROGRESS — package drafted, no assets generated yet. **Next: generate hero (§3), then the 15 Lyria tracks (§1).**
+- **Status:** 🟡 IN PROGRESS — ✅ hero approved (round 3, after fixing bodybuilder anatomy, lightning-vein texture, pale color, and locking the raiju to a wolf), ✅ thumbnail + wisdom overlay done, music mastering in progress. **Next: finish §2 mastering/selection (§8), then the §4 Flow loop, §3c Shorts frames.**
 
 ---
 
