@@ -794,6 +794,7 @@ StillWave — Lantern Glow Focus | 3H Late Night Coding
   - ~~Reserve the lower-RIGHT corner for the channel LOGO — EVERY generation.~~
   - ~~Reserve the lower-left for text WHEN GENERATING the image — 16:9 ONLY.~~
 - **No in-image AI text** — NanoBanana prompts forbid letters (avoids garbled artifacts); text is added in post only.
+- **🔒 Drop "no watermark" from prompts (LOCKED 2026-09-21, user-confirmed).** A watermark never appears in NanoBanana output regardless of whether the prompt mentions it — the user tested this directly. Keep "No text, no letters" (garbled-text is a real, observed failure mode) but stop adding "no watermark" to new prompts; it's dead weight that does nothing. No need to retroactively scrub it from already-written scripts.
 - **All YouTube copy in English** (descriptions, titles, tags, hashtags)
 
 ---
