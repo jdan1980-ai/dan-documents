@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 1H (continues the Lyria-pilot format).
 - **Production note:** 🔒 **Built outside the usual package workflow** — the user generated hero image, thumbnail, long-form animated loop, and Shorts independently this time (not via the channel's usual §1–§4 NanoBanana/Lyria/Flow prompt-drafting process). This script exists to hold the SEO pack (title, description, tags, wisdom overlay, pinned, Community Post) and the §8 tracklist once mastering is done — §0 documents the concept retroactively from the delivered assets rather than prescribing it.
-- **Status:** 🟡 IN PROGRESS — ✅ hero/thumbnail/loop/Shorts already made by user, music mastering in progress. **Next: finish §2 mastering/selection → §8.**
+- **Status:** 🟡 IN PROGRESS — ✅ hero/thumbnail/loop/Shorts already made by user, ✅ music mastered/selected (21 tracks, 58:47 → §8). **Next: rename files per §2 script, confirm Concept Short vs teaser Short (§14), CapCut laydown.**
 
 ---
 
@@ -21,6 +21,46 @@
 - **Human anchor:** a lone silhouetted figure in seated meditation (seiza), no visible detail beyond silhouette — devotional stillness rather than a named role (monk/musician/pilgrim).
 - **Wisdom phrase is NOT 稲荷 itself** (overlay ≠ title concept, series rule). Chosen: **五穀豊穣** (gokoku hōjō — "abundant harvest of the five grains"), the classical shrine-blessing phrase for agricultural abundance and prosperity — directly Inari's own domain without naming him, in the same spirit as the other KAMI overlays. See §6a.
 - **🇺🇦** Восьмая запись серии KAMI, но собрана по-другому: пользователь сам сделал герой-кадр, тумбу, анимированный луп и Shorts — без обычного процесса прогонки через промты §1-§4. Этот файл нужен для SEO-пакета (тайтл, описание, теги, оверлей, закреп, Community Post) и треклиста §8. Тумба — драматичная (колоссальный огненно-золотой лис за тоннелем тории), а сам ролик спокойнее — обычный светящийся лис-кицунэ рядом с медитирующей фигурой на фоне тории и полной луны в тумане рисового поля. Мудрость — 五穀豊穣 (обильный урожай пяти злаков) — прямая связь с темой Инари без называния его по имени.
+
+---
+
+## §2 — Mastering
+
+**✅ Done 2026-09-23.** 29 raw tracks generated (already titled by the user's own process — no §1 prompt list this time, see Meta note), all 29 mastered cleanly. 4 tracks flagged for input clipping (`Fox Under the Moon (1)`, `Fox Under the Moon`, `Red Torii in Fog (1)`, `The Fox Watches the Fields (1)`) — mastered versions are safe per the tool's note. `select-album.py --slug INARI --cap 60` selected **21 tracks, 58:47 total** → `INARI-ALBUM/`, 8 in `INARI-RESERVE/`. Two clipped tracks (`Fox Under the Moon` #7, `Red Torii in Fog (1)` #13, `The Fox Watches the Fields (1)` #16) landed in the final selection on calmness score — swap from RESERVE if audible. Final tracklist + poetic names in §8; rename script below.
+
+```powershell
+cd "C:\Users\jdan1\OneDrive\Desktop\INARI-ALBUM"
+$names = @(
+  "A Bell for the Harvest",
+  "The Bell Rings Once More",
+  "A Fox Sits in the Moonlight",
+  "Moonlight Settles on the Fox",
+  "Evening Incense",
+  "The Last Curl of Incense",
+  "Fox Under the Moon",
+  "Hushed Rice Fields",
+  "The Fields Grow Quiet",
+  "Lantern Field",
+  "Nine Tails, One Breath",
+  "One Breath, Nine Tails Still",
+  "Red Torii in Fog",
+  "Stone Path at Dusk",
+  "The Path Remembers Dusk",
+  "The Fox Watches the Fields",
+  "The Gate at the Edge",
+  "The Quiet Abundance",
+  "Abundance Without Asking",
+  "Water Over Stones",
+  "Wisteria Wind"
+)
+Get-ChildItem -File | Sort-Object Name | ForEach-Object {
+    if ($_.Name -match '^(\d{2}) - ') {
+        $idx = [int]$matches[1] - 1
+        Rename-Item $_.FullName -NewName "$($matches[1]) - $($names[$idx]).wav"
+    }
+}
+```
+**🇺🇦** Готово — 21 трек, 58:47, в `INARI-ALBUM/`, 8 в резерве. Часть треков с клиппингом на входе всё же попала в финал по баллу спокойствия — если на слух заметно, замени на трек из RESERVE. Названия у части треков совпадали (генератор дублировал имя) — дал вторым версиям отдельные поэтичные варианты, чтобы в треклисте не было повторов.
 
 ---
 
@@ -57,7 +97,27 @@ but abundance that is given and returned.
 Beneath a rising moon, a lone figure sits in silent meditation at the edge of a misted rice paddy, a fox spirit — Inari's own sacred messenger — resting calm in the grass beside a distant torii gate. Soft strings, a breathy flute, the hush of mist over still water — one hour to sit with gratitude for what is already enough.
 
 Tracklist:
-[added after mastering — mood-poetic names, warm and grateful]
+00:00 — A Bell for the Harvest
+02:58 — The Bell Rings Once More
+04:54 — A Fox Sits in the Moonlight
+07:46 — Moonlight Settles on the Fox
+10:44 — Evening Incense
+13:18 — The Last Curl of Incense
+16:04 — Fox Under the Moon
+18:56 — Hushed Rice Fields
+21:52 — The Fields Grow Quiet
+24:26 — Lantern Field
+27:14 — Nine Tails, One Breath
+30:11 — One Breath, Nine Tails Still
+32:53 — Red Torii in Fog
+35:39 — Stone Path at Dusk
+38:28 — The Path Remembers Dusk
+41:21 — The Fox Watches the Fields
+44:18 — The Gate at the Edge
+47:17 — The Quiet Abundance
+50:08 — Abundance Without Asking
+53:01 — Water Over Stones
+55:51 — Wisteria Wind
 
 🌀 Enough is its own kind of abundance.
 🍃 Sit with what has already been given.
