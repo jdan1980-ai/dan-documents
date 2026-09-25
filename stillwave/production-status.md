@@ -12,28 +12,33 @@ See `published-videos.md` for the full table with metrics.
 
 ## Recently published
 
-| Slug | Title | Published | Views (D) | Notes |
-|------|-------|-----------|-----------|-------|
-| `gaman-2h` | GAMAN — 我慢 \| Japanese Zen Music for Endurance, Deep Focus & Inner Strength | 2026-07-08 | — (D0) | Kanji-Concept — monitor D3/D7/D14 |
-| `tokyo-cafe-rain-1h` | Tokyo Rain & Vinyl \| Late Night Café Ambience Music for Productivity | 2026-07-01 | **10** (D4) | Café format — monitor at D14 (Jul 15) |
-| `makoto-the-last-samurai` | MAKOTO — 誠 \| Japanese Cinematic Zen for Honor, Bushido & Spirit · 1H | 2026-06-25 | ~43 (D10) | — |
-| `satori-sudden-awakening` | SATORI — 悟り \| Zen Japanese Music for Meditation, Healing & Spiritual Enlightenment | 2026-06-21 | ~170 (D14) | — |
-| `mushin-no-mind` | MUSHIN — 無心 \| Japanese Zen Music for No-Mind State, Deep Focus & Inner Stillness | 2026-06-16 | **2,198** (D19) 🔥 | VIRAL — 31 VPH on Jul 5, still in algo push |
-| `tokyo-apartment-rain-1h` | Power Hour Focus Music — Tokyo Apartment Rain | 2026-05-10 | ~275 (D56) | 3rd all-time, productivity pillar |
+**🔒 Live-checked via VidIQ 2026-09-25** (this table had gone stale since ~July 8 while dozens of videos shipped in between — RYŪ and KAMI series both fully published without this file being updated; see the two sub-series tables below, now corrected). `published-videos.md`'s deeper analysis (format performance, patterns) still only covers through GAMAN/MUSHIN and needs its own full refresh — flagged separately, ask before doing that bigger pass.
+
+| Slug | Title | Published | Views | Notes |
+|------|-------|-----------|-------|-------|
+| `raijin-1h` | RAIJIN — 雷神 \| Japanese Zen Music for Calm & Deep Sleep | 2026-09-25 | 2 (just live) | — |
+| `fujin-1h` | FUJIN — 風神 \| Japanese Zen Music for Letting Go | 2026-09-22 | 118 | — |
+| `kannon-1h` | KANNON — 観音 \| Finding Mercy & Stillness | 2026-09-19 | 133 | — |
+| `benzaiten-1h` | BENZAITEN (弁財天) — Deep Focus, the Water Goddess's Flow | 2026-09-16 | 151 | — |
+| `hachiman-1h` | HACHIMAN (八幡) — Warrior Focus, the God of War's Silence | 2026-09-13 | 115 | — |
+| `amaterasu-2h` | AMATERASU (天照) — Returning to Warmth | 2026-09-10 | 111 | — |
+| `inari-1h` | INARI (稲荷) — 1 Hour for Abundance & Stillness | uploaded, private | 0 | **Scheduled 2026-09-28 14:00** — not live yet |
+
+**Older standout performers worth noting** (from the same VidIQ pull, outside the KAMI/RYŪ series): `gaman-2h` GAMAN — 2,456 views, 43 likes, 15 comments — still the channel's clear outlier. `nagomi-2h` NAGOMI — 827 views. `ikigai-2h` IKIGAI — 638 views. `wabi-sabi-2h` WABI-SABI — 560 views (the "45:47 avg / 38%" retention video that prompted this check — genuinely strong for a 2H video). `kokoro-2h` KOKORO — 386 views.
 
 ## 🐉 RYŪ (龍) — Samurai Dragon sub-series (Kanji-Concept)
 
-Five-video sub-series: a lone samurai (back to camera, daishō sheathed at LEFT hip) before a massive painted dragon mural, each video its own element/location/palette so none repeat. **GARYŪ (臥龍) already produced/ready.** The 4 remaining full packages (10 Suno variants + hero + 6 Shorts frame prompts + Veo3 cinemagraph loop + wisdom overlay + full copy-paste pack) are written and committed — awaiting image/music generation.
+**✅ COMPLETE — all 5 published** (verified live via VidIQ 2026-09-25; this table had gone stale and was still showing 4 of them as unstarted). Five-video sub-series: a lone samurai before a massive painted dragon mural, each video its own element/location/palette.
 
 | Slug | Title | Element / Location | Wisdom overlay | 📝 | 🎵 | 🎨 | 🎬 | 🎞️ | ⏰ | 📤 |
 |------|-------|---------------------|-----------------|----|----|----|----|-----|-----|-----|
-| `garyu` (untracked slug) | GARYŪ — 臥龍 \| Crouching Dragon | — | — | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ (per user, ready) |
-| `unryu-2h` | **UNRYŪ — 雲龍** \| Japanese Zen Music for Rising Above, Clarity & Inner Power | Cloud dragon · mountain-peak gate above a cloud sea · cool silver-jade | 雲外蒼天 (Ungai sōten) | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `suiryu-2h` | **SUIRYŪ — 水龍** \| Japanese Zen Music for Perseverance, Flow & Quiet Strength | Water dragon · dragon-gate waterfall at dusk · deep teal-black | 柔よく剛を制す (Jū yoku gō o seisu) | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `karyu-2h` | **KARYŪ — 火龍** \| Japanese Zen Music for Inner Fire, Focus & Unshakable Resolve | Fire dragon · night shrine courtyard, braziers · ember-gold | 不撓不屈 (Futō fukutsu) | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `seiryu-2h` | **SEIRYŪ — 青龍** \| Japanese Zen Music for New Beginnings, Renewal & Inner Clarity | Azure dragon (East guardian) · spring dawn terrace · pale cyan-gold | 一陽来復 (Ichiyō raifuku) | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `garyu` (untracked slug) | GARYŪ — 臥龍 \| Crouching Dragon | — | — | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `unryu-2h` | **UNRYŪ — 雲龍** \| Japanese Zen Music for Rising Above, Clarity & Inner Power | Cloud dragon · mountain-peak gate above a cloud sea · cool silver-jade | 雲外蒼天 (Ungai sōten) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `suiryu-2h` | **SUIRYŪ — 水龍** \| Japanese Zen Music for Perseverance, Flow & Quiet Strength | Water dragon · dragon-gate waterfall at dusk · deep teal-black | 柔よく剛を制す (Jū yoku gō o seisu) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `karyu-2h` | **KARYŪ — 火龍** \| Japanese Zen Music for Inner Fire, Focus & Unshakable Resolve | Fire dragon · night shrine courtyard, braziers · ember-gold | 不撓不屈 (Futō fukutsu) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `seiryu-2h` | **SEIRYŪ — 青龍** \| Japanese Zen Music for New Beginnings, Renewal & Inner Clarity | Azure dragon (East guardian) · spring dawn terrace · pale cyan-gold | 一陽来復 (Ichiyō raifuku) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
-**Next step per video:** generate hero image (§3) → thumbnail + wisdom overlay → generate 10 Suno variants (§1) → master → select/order → §8 → generate 6 Shorts frames (§3c) → Short → generate Veo3 loop (§4) → CapCut laydown → publish. Suggested release order: UNRYŪ → SUIRYŪ → KARYŪ → SEIRYŪ (series closer, spring/dawn).
+All five have both long-form and Shorts live (published 2026-08-23 → 2026-09-05).
 
 ## ⛩️ KAMI (神) — Gods of Japan sub-series (Kanji-Concept)
 
@@ -41,25 +46,27 @@ Sibling series to RYŪ: each video = one Shinto deity manifesting as a colossal 
 
 | Slug | Title | Signature colour / creature | Wisdom overlay | Music source | 📝 | 🎵 | 🎨 | 🎬 | 🎞️ | ⏰ | 📤 |
 |------|-------|------------------------------|-----------------|---------------|----|----|----|----|-----|-----|-----|
-| `tsukuyomi-2h` | TSUKUYOMI — 月読 \| flagship | pale silver-blue · moon rabbits | (see script) | Suno | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ | ⏳ |
-| `amaterasu-2h` | AMATERASU — 天照 \| Japanese Zen Music for Morning Meditation & Sunrise Calm | warm golden-amber sunrise · sacred roosters | 一陽来復 (Ichiyō raifuku) | Suno | ✅ | ⏳ | ✅ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `hachiman-1h` | HACHIMAN — 八幡 \| Japanese Zen Music for Courage, Protection & Inner Strength | warm white-gold · white doves (perched, not flying) | 質実剛健 (Shitsujitsu gōken) | **Lyria (pilot)** | ✅ | ✅ | ✅ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `benzaiten-1h` | BENZAITEN — 弁財天 \| Japanese Zen Music for Deep Focus, Creativity & Flowing Calm | cool aquamarine-teal · white snake | 行雲流水 (Kōun ryūsui) | **Lyria** | ✅ | ✅ | ✅ | ✅ | 🟡 | ⏳ | ⏳ |
-| `kannon-1h` | KANNON — 観音 \| Japanese Zen Music for Healing, Compassion & Deep Calm | soft rose-pink / pearl-white · white cranes | 一視同仁 (Isshi dōjin) | **Lyria** | ✅ | ✅ | ✅ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `fujin-1h` | FUJIN — 風神 \| Japanese Zen Music for Letting Go, Release & Inner Peace | storm-grey / pale jade-green · hawk | 諸行無常 (Shogyō mujō) | **Lyria** | ✅ | ✅ | ✅ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `raijin-1h` | RAIJIN — 雷神 \| Japanese Zen Music for Inner Strength, Calm Power & Deep Focus | deep indigo-violet / electric white-blue · raiju (wolf) | 泰然自若 (Taizen jijaku) | **Lyria** | ✅ | ✅ | ✅ | ⏳ | ⏳ | ⏳ | ⏳ |
-| `inari-1h` | INARI — 稲荷 \| Japanese Zen Music for Abundance, Gratitude & Inner Prosperity | fire-gold (thumb) / warm amber moonlit (video) · kitsune | 五穀豊穣 (Gokoku hōjō) | **Lyria (user-produced visuals)** | ✅ | ✅ | ✅ | ✅ | ⏳ | ⏳ | ⏳ |
+| `tsukuyomi-2h` | TSUKUYOMI — 月読 \| flagship | pale silver-blue · moon rabbits | (see script) | Suno | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `amaterasu-2h` | AMATERASU — 天照 \| Japanese Zen Music for Morning Meditation & Sunrise Calm | warm golden-amber sunrise · sacred roosters | 一陽来復 (Ichiyō raifuku) | Suno | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `hachiman-1h` | HACHIMAN — 八幡 \| Japanese Zen Music for Courage, Protection & Inner Strength | warm white-gold · white doves (perched, not flying) | 質実剛健 (Shitsujitsu gōken) | **Lyria (pilot)** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `benzaiten-1h` | BENZAITEN — 弁財天 \| Japanese Zen Music for Deep Focus, Creativity & Flowing Calm | cool aquamarine-teal · white snake | 行雲流水 (Kōun ryūsui) | **Lyria** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `kannon-1h` | KANNON — 観音 \| Japanese Zen Music for Healing, Compassion & Deep Calm | soft rose-pink / pearl-white · white cranes | 一視同仁 (Isshi dōjin) | **Lyria** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `fujin-1h` | FUJIN — 風神 \| Japanese Zen Music for Letting Go, Release & Inner Peace | storm-grey / pale jade-green · hawk | 諸行無常 (Shogyō mujō) | **Lyria** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `raijin-1h` | RAIJIN — 雷神 \| Japanese Zen Music for Inner Strength, Calm Power & Deep Focus | deep indigo-violet / electric white-blue · raiju (wolf) | 泰然自若 (Taizen jijaku) | **Lyria** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `inari-1h` | INARI — 稲荷 \| Japanese Zen Music for Abundance, Gratitude & Inner Prosperity | fire-gold (thumb) / warm amber moonlit (video) · kitsune | 五穀豊穣 (Gokoku hōjō) | **Lyria (user-produced visuals)** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⏳ |
 
-**Next step:** INARI — 29 tracks generated/mastered/selected (21 tracks, 58:47 → `INARI-ALBUM/`, 8 in `INARI-RESERVE/`), full SEO pack written — next: rename files (§2 script), confirm whether a standalone Concept Short exists alongside the teaser Short, CapCut laydown. RAIJIN — full package written (§0-§15), seventh KAMI entry, Fujin's canonical sibling deity (thunder/lightning), human anchor is a kagura ritual musician playing hichiriki (mirrors Fujin's komusō+shakuhachi pairing), signature instrument hichiriki with taiko/thunder kept strictly visual-only per the channel's no-percussion rule — next: generate hero (§3), then the 15 Lyria variants (§1). FUJIN — 30 Lyria tracks generated/mastered/selected (21 tracks, 59:25 → `FUJIN-ALBUM/`, 8 in `FUJIN-RESERVE/`), hero/thumbnail/overlay done — next: rename files (§2 script), §4 Flow loop, §3c Shorts frames. KANNON — 28 Lyria tracks generated/mastered/selected (21 tracks, 58:06 → `KANNON-ALBUM/`, 6 in `KANNON-RESERVE/`), hero approved after 3 prompt rounds, thumbnail + wisdom overlay done — next: rename files to poetic names (§2 script), §4 Flow loop, §3c Shorts frames, CapCut laydown. HACHIMAN — 38 Lyria tracks generated/mastered/selected (21 tracks, 59:34 → `HACHIMAN-ALBUM/`), hero approved after 7 prompt rounds, thumbnail + wisdom overlay done — next: §4 Flow loop, §3c Shorts frames, CapCut laydown. BENZAITEN — full package written (§0-§15), music prompts (§1) lean hard on koto/biwa + explicit anti-genericization language (lesson from HACHIMAN's Western-instrument drift) — next: generate the 10 Lyria variants, then hero (§3). AMATERASU — still needs its 10 Suno variants generated (hero/tracklist already done).
+**Status (live-checked via VidIQ 2026-09-25):** TSUKUYOMI through RAIJIN are all fully published — this table had gone stale, still showing most of them as mid-pipeline. **INARI is uploaded and scheduled for 2026-09-28 14:00** (currently private) — only remaining open items are confirming the rename script ran cleanly in `INARI-ALBUM/` and whether a standalone Concept Short exists alongside its teaser Short (see `inari-1h.md` §14 open question). Next KAMI entry after Inari: none currently drafted — the sub-series has run TSUKUYOMI/AMATERASU/HACHIMAN/BENZAITEN/KANNON/FUJIN/RAIJIN/INARI (8 gods); decide whether to continue (e.g. Susanoo, Ame-no-Uzume, Ryūjin) or close the arc here.
 
 ## In production / next up
 
 > Pipeline для long-form full-album: 📝 script → 🎵 suno generated → 🎨 image generated → 🎬 video loop → 🎞️ assembled in CapCut → ⏰ scheduled → 📤 published.
 
+**🔒 Live-checked via VidIQ 2026-09-25:** GAMAN and MONO NO AWARE are both published (this table still had MONO NO AWARE marked mid-pipeline — it actually went live 2026-07-12, 154 views). Only `bonsai-desk-night-2h` and `lantern-glow-study-3h` are genuinely still unproduced.
+
 | Slug | Title | Length | 📝 | 🎵 | 🎨 | 🎬 | 🎞️ | ⏰ | 📤 |
 |------|-------|--------|----|----|----|----|-----|-----|-----|
 | `gaman-2h` | **GAMAN — 我慢** \| Japanese Zen Music for Endurance, Deep Focus & Inner Strength | 2H | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| `mono-no-aware-2h` | **MONO NO AWARE — 物の哀れ** \| Japanese Zen Music for Healing, Letting Go & Inner Peace | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| `mono-no-aware-2h` | **MONO NO AWARE — 物の哀れ** \| Japanese Zen Music for Healing, Letting Go & Inner Peace | 2H | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
