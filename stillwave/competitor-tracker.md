@@ -4,6 +4,32 @@ Channels we monitor for content gaps, format ideas, trending topics, and tag pat
 
 ## Tracked channels
 
+### 🎋 Japanese zen / water-garden niche — DIRECT MIZU competitor (VidIQ, 2026-07-20)
+
+| Channel | Channel ID | Concept | Notes |
+|---|---|---|---|
+| **Serene Bamboo Meditation** | UCP9T9KHd_xyl9uQwFMmeh6A | Shakuhachi + bamboo water fountain zen, 2H | Exactly MIZU's concept. Daily uploads (~31 videos in ~1 month), all 2H. |
+
+**Model = volume + lottery (faceless):** posts ~1/day, most videos flop (20–150 views), but 1–2/month break out huge and carry the channel. Power-law distribution.
+
+**Top videos (VidIQ 2026-07-20):**
+
+| Views | Published | Title (near-identical formula) |
+|-------|-----------|--------------------------------|
+| 89 564 | 2026-07-04 | Japanese Zen Music \| Shakuhachi Meditation & Bamboo Water Fountain Zen |
+| 82 957 | 2026-06-23 | Japanese Zen Music \| Shakuhachi Meditation & Bamboo Water Fountain Zen for Soul Balance |
+| 30 387 | 2026-06-17 | Japanese Zen Garden Serenity ~ Bamboo Fountain & Koto Music for Deep Relaxation |
+| 24 503 | 2026-06-26 | …Bamboo Water Fountain Zen for Deep Sleep |
+| 11 533 | 2026-06-30 | …Shakuhachi Flute for Deep Meditation & Soul Balance |
+
+**Lessons for MIZU:**
+1. **Concept validated hard** — bamboo water fountain + shakuhachi pulls 80–90K per breakout. We're entering a proven-hot niche.
+2. **Winning title tokens (both mega-hits):** `Shakuhachi Meditation` + `Bamboo Water Fountain Zen`. Bake these into MIZU's title/tags.
+3. **They target "Asian" not just "Japanese"** — tags `asian relaxing music`, `relaxing asian music`, instruments `erhu / guzheng / koto`. Wider tent.
+4. **Slow-burn confirmed AGAIN** — the 89K hit sat at 858 views on D5, only accelerated after D10, still climbing at D16 (VPH 664). Don't judge before D19.
+5. **Our edge over them:** their titles/thumbnails are all near-identical & generic. Our kanji-concept branding (水 MIZU, wisdom overlay, koi/kanji thumbnail) gives an identity they lack — ride the same demand with a face.
+6. Topic categories correctly = Music + Music of Asia (title front-loads `Japanese Zen Music`).
+
 ### Deep work / focus music niche (live API data — May 9, 2026)
 
 | # | Channel | Channel ID | Subs | Total views | Videos | Started | Top video |
