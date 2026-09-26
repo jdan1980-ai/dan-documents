@@ -7,8 +7,8 @@
 - **Concept:** 無我 (muga) — "no-self," the Zen state of total absorption where the boundary between the self and the task dissolves entirely (true flow state — you forget you are doing the thing, because there is no longer a "you" separate from the doing). Where MUSHIN (無心) is the mind emptied of thought, MUGA is one level deeper: the *self* itself dissolves into the act. Same emotional territory that made MUSHIN work (a named state of consciousness, not just background sound), one concept further into the same well.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 2H (matches MUSHIN/GAMAN/KIRI/SATORI — the format that has repeatedly outperformed 1H in this specific template; do NOT shorten to 1H).
-- **Music source:** **Suno**, not Lyria. Deliberate choice — MUGA is built to replicate MUSHIN's exact winning formula, and MUSHIN/GAMAN/KIRI/NAGOMI (the four best-performing Kanji-Concept videos) were all Suno, not Lyria. The KAMI sub-series (Lyria pilot) is currently the weakest-performing cohort on the channel (~126 avg views, see `published-videos.md` 2026-09-26 refresh) — Lyria vs. Suno is one of several untested variables in that underperformance, so this video should NOT introduce it as a confound. If Suno's download cap becomes a blocker mid-album, fall back to Lyria and note the deviation explicitly, but start with Suno.
-- **Status:** 🟡 IN PROGRESS — package drafted, no assets generated yet. **Next: generate hero (§3), then the Suno variants (§1).**
+- **Music source:** **Google Lyria** — updated 2026-09-26, per user: **Suno is no longer usable at all** (its download caps have made it a non-option, not just a constraint), so the earlier plan to use Suno here specifically to avoid confounding MUGA's test of "does the classic template still work" is moot — Lyria is now the only option for every video on the channel, KAMI included. This actually turns MUGA into a useful natural experiment: if MUGA (Lyria + classic monk+ENSO template) performs close to MUSHIN's level, that's evidence the KAMI sub-series' underperformance (~126 avg views) is driven by its visual template (colossal light-spirit) rather than by Lyria itself. If MUGA also underperforms on Lyria, that points the other way. Same anti-genericization approach as the KAMI series (name real instruments explicitly, rule out generic substitutes), same no-percussion/flat-dynamics/no-background-ambience-baked-in rules as every StillWave album.
+- **Status:** 🟡 IN PROGRESS — package drafted, no assets generated yet. **Next: generate hero (§3), then the 15 Lyria variants (§1).**
 
 ---
 
@@ -21,82 +21,109 @@
 - **Palette:** muted cool grey-blue pre-dawn tones across most of the frame, with ONE warm amber light source — a sliver of dawn glow on the horizon reflected in the water — as the single warm accent per the spec.
 - **🔒 Standard channel rules apply:** no in-image AI text, no airborne particles (mist rising/drifting is fine — it's not a discrete object like a leaf/bird; the ink-mist dissolving off the scroll should read as continuous vapor, never as distinct floating ink-blobs), no watermark language needed in prompts (confirmed to do nothing either way, per the 2026-09-21 rule).
 - **Wisdom phrase is NOT 無我 itself** (overlay ≠ title concept, series rule). Chosen: **物我一如** (butsuga ichinyo — "self and the world, one and the same"), a classical Zen/aesthetic idiom describing exactly the muga state — the dissolution of the boundary between subject and object — without naming the concept directly. See §6a.
-- **🇺🇦** Прямое тематическое продолжение MUSHIN (無心, топ-1 видео канала, 41.8К просмотров) — то же «состояние сознания», на один концепт глубже: MUSHIN — ум без мыслей, MUGA — растворение самого «я» в действии (истинный поток). Музыка — Suno, не Lyria: MUGA специально копирует именно ту формулу, которая уже сработала (MUSHIN/GAMAN/KIRI/NAGOMI все на Suno), а не переносит непроверенный пайплайн KAMI (сейчас самая слабая когорта канала). Визуальный крюк — гигантский энсо на свитке над горным озером на рассвете, но в момент растворения нижней дуги в тумане (в отличие от целого энсо у MUSHIN) — буквализирует именно «не-я», а не «не-ум». Мудрость — не сам 無我, а 物我一如 («я и мир — одно и то же»).
+- **🇺🇦** Прямое тематическое продолжение MUSHIN (無心, топ-1 видео канала, 41.8К просмотров) — то же «состояние сознания», на один концепт глубже: MUSHIN — ум без мыслей, MUGA — растворение самого «я» в действии (истинный поток). Музыка — Lyria (Suno больше недоступен из-за лимитов, план использовать именно Suno для чистоты эксперимента отменяется сам собой — теперь Lyria используется везде, включая KAMI). Это превращает MUGA в полезный естественный эксперимент: если MUGA (Lyria + классический шаблон монах+энсо) выступит на уровне, близком к MUSHIN, значит слабость KAMI — в визуальном шаблоне, а не в Lyria. Визуальный крюк — гигантский энсо на свитке над горным озером на рассвете, но в момент растворения нижней дуги в тумане (в отличие от целого энсо у MUSHIN) — буквализирует именно «не-я», а не «не-ум». Мудрость — не сам 無我, а 物我一如 («я и мир — одно и то же»).
 
 ---
 
-## §1 — Suno prompts (3 opening variants × Style/Lyrics, per the channel's MANDATORY opening-variety rule)
+## §1 — Lyria prompts (15 copy-paste variants — shakuhachi, explicitly Japanese)
 
-> 🔒 Rotate these 3 across the album tracklist (Variant A tracks 1-7, B tracks 8-14, C tracks 15-20ish) so no two adjacent tracks share an intro pattern — prevents the Content ID hit SATORI took. All three share the same locked STYLE tail (flat dynamics, no percussion, length cue) and LYRICS opening lines per the channel rules below.
+> 🔒 **Anti-genericization rule (carried from the KAMI series).** Every variant names the real **shakuhachi** by its actual character — breathy, airy, key-less, with soft pitch-bends and audible breath noise at the edge of each tone — and explicitly rules out Western concert flute, recorder, pan flute, or a synth flute/pad substitute. Koto (pentatonic bent-note slides, never a repeating pattern) and biwa (deep plucked notes with natural buzzing sawari resonance) answer rarely as secondary voices; a single temple bell may appear as a rare distant accent, never the lead.
+> **🔒 No lake/water ambience described in the music prompt (per the 2026-09-16 background-ambience rule).** The still lake and rising mist are visual only — if you want the sound of water audible, add it afterward as a separate real SFX bed in CapCut (see §2), not baked into the Lyria prompt.
+> **🇺🇦** Тот же приём против "обезличивания": каждый вариант называет настоящую сякухати, кото и биву исключают дженерик-замены. Озеро/вода — только визуально; если нужен звук воды, добавляй отдельной SFX-дорожкой в CapCut, не в промт музыки.
 
-### Variant A — Bell-led (Style)
+### Lyria Variant 1 — shakuhachi solo, open space
 ```
-Deeply meditative Japanese zen ambient, built around a single low temple bell (bonshō) strike opening each phrase, shakuhachi flute entering with long breathy tones after the bell's resonance fades, sparse koto answering with pentatonic bent notes, never a repeating pattern. For total absorption, flow state, and the dissolving of self into stillness. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
-```
-
-### Variant A — Lyrics
-```
-[no lyrics, no vocals, instrumental only]
-[no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
-[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
-[opening: single low temple bell strike, 4 seconds of resonance, then shakuhachi enters quietly]
-[section A: shakuhachi holds long breathy tones over still silence, a lake at first light, mist rising off flat water]
-[section B: sparse koto answers with pentatonic bent notes, never a repeating pattern, long gaps between phrases]
-[section C: shakuhachi and koto rest together, already at a low even level, nothing building]
-[loop point: the bell's resonance returns once, faint, then fades into silence]
-[mood: a giant ink circle on a scroll dissolving into mist over still water, the self dissolving into the act]
-[texture: breathy flute, sparse plucked string, temple bell resonance, wide open silence]
+Deeply meditative Japanese zen ambient built around the real, specific breathy tone of a shakuhachi — key-less, airy, with soft audible breath noise at the edge of each note and gentle pitch-bends — for total absorption and losing the self in the act. Explicitly NOT a Western concert flute, NOT a recorder, NOT a pan flute, NOT a synth flute or pad — only a real shakuhachi, playing long, unhurried phrases with wide open silences between them. Extremely slow, free tempo, no fixed beat, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
 ```
 
-### Variant B — Wind-led (Style)
+### Lyria Variant 2 — shakuhachi and distant koto
 ```
-Deeply meditative Japanese zen ambient, opening with several seconds of soft mountain-lake air and distant water sound before any instrument enters, shakuhachi then holding long breathy tones, biwa answering rarely with a single plucked note and its natural buzzing sawari resonance. For total absorption, flow state, and the dissolving of self into stillness. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
-```
-
-### Variant B — Lyrics
-```
-[no lyrics, no vocals, instrumental only]
-[no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
-[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
-[opening: 5-6 seconds of soft lake air and distant still water, no instrument yet]
-[section A: shakuhachi enters with long, breathy, unhurried tones]
-[section B: a biwa answers rarely, a single plucked note with its natural buzzing resonance, never a repeating pattern]
-[section C: both instruments rest, already at a low even level, long silences between phrases]
-[loop point: the lake air returns alone for a few seconds before the cycle repeats]
-[mood: a lone monk at the water's edge, his outline softening into the rising mist]
-[texture: breathy flute, deep plucked lute resonance, soft open-air hush, wide silence]
+Deeply meditative Japanese zen ambient, spacious and quiet, for total absorption and flow. A real shakuhachi leads with long, breathy, key-less tones and soft pitch-bends, explicitly NOT a Western flute, NOT a recorder, NOT a synth pad. A distant koto occasionally answers with a single pentatonic bent note, never a repeating pattern. Long open silences sit between every phrase. Extremely slow, free tempo, no fixed beat, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
 ```
 
-### Variant C — Koto-led (Style)
+### Lyria Variant 3 — koto and shakuhachi duet
 ```
-Deeply meditative Japanese zen ambient, opening with sparse koto plucks (pentatonic bent-note slides, clear plucked wooden string tone, never a repeating pattern), shakuhachi entering after with long breathy tones. For total absorption, flow state, and the dissolving of self into stillness. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios, free time with no fixed tempo, stays at one soft even gentle level the whole way through, no crescendo, no swell, no build, no rise in intensity, no climax, no dramatic change, a long slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early, instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
+Deeply meditative Japanese zen ambient — a duet between a real shakuhachi (breathy, key-less, airy tone with soft pitch-bends) and a real koto (pentatonic bent-note slides, clear plucked wooden string tone, never a repeating pattern) — for dissolving the self into the act. Explicitly NOT piano, NOT harp, NOT a Western flute, NOT a synth pad — these two specific Japanese sounds only, with wide open space and silence between phrases. Extremely slow, free tempo, no fixed beat, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
 ```
 
-### Variant C — Lyrics
+### Lyria Variant 4 — shakuhachi and distant temple bell
 ```
-[no lyrics, no vocals, instrumental only]
-[no drums, no percussion, no beat, no tempo — free time, every note floats and decays on its own]
-[dynamics: perfectly flat and even from the first second to the last — no swell, no build, no crescendo, no climax; every section stays equally soft, calm and unchanging]
-[opening: sparse koto plucks, 3-5 notes, wide silence between each]
-[section A: shakuhachi holds long breathy tones over the koto's silence]
-[section B: koto and shakuhachi answer each other rarely, never overlapping into a busy texture]
-[section C: both rest, already at a low even level, nothing building]
-[loop point: a single koto note returns alone, then fades into silence]
-[mood: an ink circle bleeding into mist over a mirror-still lake at first light]
-[texture: clear plucked string, breathy flute, wide open silence]
+Deeply meditative Japanese zen ambient, quiet and spacious, for total absorption. A real shakuhachi plays long, breathy, key-less tones with soft pitch-bends, explicitly NOT a Western concert flute or synth flute. A single low temple bell (bonshō) rings once, very rarely and distantly, its resonance decaying slowly into silence — never a repeating pattern, never the lead voice. Extremely slow, free tempo, no fixed beat, completely ametric — notes float and decay on their own, long gaps between phrases. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
+```
+
+### Lyria Variant 5 — distant bell, secondary texture
+```
+Deeply meditative Japanese zen ambient for total absorption and flow. A real shakuhachi leads from the start with long, breathy, key-less tones and soft pitch-bends, explicitly NOT a Western flute, NOT a recorder, NOT a synth pad. Very occasionally, far in the distance, a single low temple bell rings once and fades — a rare secondary detail, never the lead, never repeating in a pattern. Wide open silence surrounds every phrase. Extremely slow, free tempo, no fixed beat, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
+```
+
+### Lyria Variant 6 — quiet dawn, shakuhachi and koto
+```
+Deeply meditative Japanese zen ambient, soft and spacious, for losing the self in the act. Opens with several seconds of quiet, open stillness, no instruments yet. A real shakuhachi then enters with sparse, breathy, key-less phrases, wide silences between them, explicitly NOT a Western flute or synth substitute. A sparse koto occasionally answers with a single bent pentatonic note. Extremely slow, free tempo, no fixed beat, completely ametric, long gaps between phrases. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
+```
+
+### Lyria Variant 7 — shakuhachi solo, breath and silence
+```
+Deeply meditative Japanese zen ambient, clear and intimate, for total absorption. A solo shakuhachi plays alone with long silences between phrases, its real, specific breathy, key-less tone with audible breath noise and soft pitch-bends fully exposed — explicitly NOT a Western concert flute, NOT a recorder, NOT a synth flute. Nothing else is present — just the instrument and open silence. Extremely slow, free tempo, no fixed beat, completely ametric, very long gaps between phrases. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
+```
+
+### Lyria Variant 8 — biwa and koto duet
+```
+Deeply meditative Japanese zen ambient — a duet between a real biwa lute (deep plucked notes with natural buzzing sawari resonance) and a real koto (pentatonic bent-note slides, clear plucked wooden string tone, never a repeating pattern) — for dissolving into stillness. Explicitly NOT guitar, NOT harp, NOT piano, NOT a synth pad — these two specific Japanese sounds only, with wide open space between phrases. Extremely slow, free tempo, no fixed beat, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
+```
+
+### Lyria Variant 9 — temple stillness, shakuhachi
+```
+Deeply meditative Japanese zen ambient, soft and clear, for total absorption and flow. Opens with several seconds of quiet, still silence, no instruments yet. A real shakuhachi enters gently with a long, breathy tone, explicitly NOT an oboe, NOT a synth pad. A real biwa answers rarely with a single plucked note. Extremely slow, free tempo, no fixed beat, completely ametric, long gaps between phrases. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
+```
+
+### Lyria Variant 10 — shakuhachi and biwa, wide silence
+```
+Deeply meditative Japanese zen ambient, for dissolving the self into the act. A real shakuhachi plays long, breathy, key-less tones with soft pitch-bends, explicitly NOT a Western concert flute or synth flute. A sparse biwa occasionally plucks a single note with its natural buzzing resonance. Wide open silence surrounds every phrase, nothing else present. Extremely slow, free tempo, no fixed beat, completely ametric, long gaps between phrases. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
+```
+
+### Lyria Variant 11 — shakuhachi, low and steady
+```
+Deeply meditative Japanese zen ambient, warm and unwavering, for total absorption. A real shakuhachi holds long, low, steady tones with a faint natural breath, explicitly NOT an oboe, NOT a bagpipe chanter, NOT a synth pad — each tone completely even from start to finish. Wide open silence follows every phrase. Extremely slow, free tempo, no fixed beat, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
+```
+
+### Lyria Variant 12 — biwa solo, sparse and grounded
+```
+Deeply meditative Japanese zen ambient, sparse and grounded, for losing the self in the act. A solo biwa plays alone with very long silences between phrases, its real, deep, buzzing sawari resonance fully exposed, explicitly NOT a guitar, NOT a harp, NOT a synth pluck. No other instrument answers; only the biwa and open silence. Extremely slow, free tempo, no fixed beat, completely ametric, very long gaps between phrases. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
+```
+
+### Lyria Variant 13 — shakuhachi and biwa, near-silence
+```
+Extremely minimal, deeply meditative Japanese zen ambient built almost entirely from silence, for total absorption. A real shakuhachi holds one long, breathy tone, then falls silent for a long stretch before a real biwa answers with a single plucked note and its natural buzzing resonance, explicitly NOT an oboe, NOT a guitar or harp. The silences between sounds are as important as the sounds themselves, sometimes twenty seconds or longer. Extremely slow, free tempo, no fixed beat, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
+```
+
+### Lyria Variant 14 — shakuhachi, biwa and koto together
+```
+Deeply meditative Japanese zen ambient, spacious and full, for total absorption and flow. A real shakuhachi leads with long, breathy tones, explicitly NOT an oboe or synth substitute. A real biwa answers rarely with a single plucked note and its natural buzzing resonance, and a real koto occasionally adds one pentatonic bent note — three real Japanese instruments only, explicitly NOT oboe, NOT guitar, NOT harp, NOT a synth pad, each entering with wide open silence around it, never overlapping into a busy texture. Extremely slow, free tempo, no fixed beat, completely ametric, long gaps between phrases. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
+```
+
+### Lyria Variant 15 — shakuhachi solo, dissolving into silence
+```
+Deeply meditative Japanese zen ambient, warm and unhurried, for losing the self entirely in the act. A solo shakuhachi plays long, breathy, key-less phrases that fade like a slow exhale, its faint natural breath fully present, explicitly NOT an oboe, NOT an English horn, NOT a synth reed. Each phrase dissolves completely into silence before the next begins, exactly as if the sound itself were disappearing into the surrounding stillness. Extremely slow, free tempo, no fixed beat, completely ametric, very long gaps between phrases. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax. No drums, no percussion, no beat, no rhythmic pulse, no arpeggios. A long, slowly drifting piece that stays calm and unchanging for several minutes, unhurried and extended, do not end early. Instrumental only, no vocals, no singing, no chanting, no spoken word, pure instrumental.
 ```
 
 ---
 
 ## §2 — Mastering
 
-Same flow as the KAMI series: generate ~18-24 tracks (2-3 takes × 3 opening variants), then:
+Same flow as the KAMI series, but capped for the full 2H target (this video does NOT use the 1H KAMI-pilot cap):
 ```
-python3 master-album.py "<MUGA-Suno folder>"
-python3 select-album.py "<MUGA-Suno folder>" "<MUGA-Suno folder>-mastered" --slug MUGA --cap 120
+python3 master-album.py "<MUGA-Flow folder>"
+python3 select-album.py "<MUGA-Flow folder>" "<MUGA-Flow folder>-mastered" --slug MUGA --cap 120
 ```
-`--cap 120` for the full 2H target (this video does NOT use the 1H KAMI-pilot cap). Paste the printed selection table back here for §8.
+Generate 2-3 takes per variant (≈30-45 files total, given 15 variants). Paste the printed selection table back here for §8.
 **🇺🇦** Та же схема, что у KAMI, но cap 120 (не 60) — формат 2H, как у MUSHIN/GAMAN.
+
+### Ambient SFX bed — still lake water (optional)
+
+If you want the lake audible, add it as a **separate real SFX track** under the album in CapCut — same technique as the rest of the channel (background ambience never goes inside the Lyria prompt, per the 2026-09-16 rule).
+- **🔒 Must be CC0 / royalty-free** (Pixabay, Freesound CC0) — verify the license BEFORE laying it under the album.
+- Use a very quiet, still-water/lake-shore ambience (soft lapping, distant birdsong at most) — nothing that reads as active weather or rain. Mix quiet under the music (~-20 to -25 dB).
+**🇺🇦** Если хочешь слышать озеро — добавляй отдельной CC0-дорожкой в CapCut, не в промт музыки. Очень тихое, почти неподвижное, без явной погоды.
 
 ---
 
