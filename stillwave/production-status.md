@@ -67,8 +67,11 @@ Sibling series to RYŪ: each video = one Shinto deity manifesting as a colossal 
 |------|-------|--------|----|----|----|----|-----|-----|-----|
 | `gaman-2h` | **GAMAN — 我慢** \| Japanese Zen Music for Endurance, Deep Focus & Inner Strength | 2H | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `mono-no-aware-2h` | **MONO NO AWARE — 物の哀れ** \| Japanese Zen Music for Healing, Letting Go & Inner Peace | 2H | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `muga-2h` | **MUGA — 無我** \| Japanese Zen Music for Flow State, Deep Focus & Losing the Self | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `bonsai-desk-night-2h` | Deep Focus Music — Bonsai Desk Late Night | 2H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | `lantern-glow-study-3h` | Quiet Hours Focus Music — Lantern Glow Study | 3H | ✅ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+
+**MUGA (2026-09-26):** direct thematic sequel to MUSHIN (無心, channel's #1 video, 41.8K views), one concept deeper ("no-self" vs "no-mind"). Deliberately reuses MUSHIN's exact winning formula from `published-videos.md`'s analysis: classic monk+ENSO photoreal template, 2H length, **Suno** (not Lyria — KAMI's Lyria pipeline is the current weakest cohort, avoid introducing it as a confound here). Visual hook is a giant ENSO circle caught mid-dissolution (ink feathering into mist) rather than MUSHIN's intact circle, to literalize "no-self" distinctly. Full package written (§0-§15) — next: generate hero (§3), then the Suno variants (§1).
 
 > **GAMAN published 2026-07-08.** Monitor D3 (Jul 11) / D7 (Jul 15) / D14 (Jul 22). Tokyo Rain & Vinyl D14 also due Jul 15.
 
