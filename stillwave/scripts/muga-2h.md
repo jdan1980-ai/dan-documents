@@ -171,7 +171,11 @@ Photorealistic cinematic vertical still, 9:16, 4K, muted and restrained, NOT sty
 
 ## §4 — Flow / Kling loop prompt (16:9, optional — this template historically shipped as a full-album CapCut static/Ken-Burns build, not always a Flow loop; generate if a subtle loop is wanted)
 
-Feed the CLEAN hero (no text). Lock the monk, the lake, the mountains, and the enso's overall shape as a frozen still photograph. Animate ONLY: (1) the mist rising off the lake drifts very faintly and continuously; (2) the ink-mist feathering off the enso's dissolving lower arc drifts very slowly, an unbroken continuous vapor, never resolving into distinct falling droplets; (3) the reflected dawn light on the water shimmers with the faintest continuous ripple. Camera completely locked — no pan, no zoom, no dolly. Perfectly seamless 8-second loop, last frame matches first frame exactly.
+> **⚠️ Adjusted (2026-09-26) to match the actual delivered hero** — the generated enso came back as a fully intact, evenly glowing ring rather than the "dissolving lower arc" originally specced (see the §3 note above), so item (2) below was rewritten from "ink-mist feathering off the dissolving arc" to a soft living-glow pulse along the ring itself, which is what the real image actually shows.
+
+```
+Feed the CLEAN hero (no text). Lock the monk, the lake, the mountains, bamboo, and the enso's exact position and shape as a frozen still photograph — nothing moves, appears, or disappears. Animate ONLY: (1) the mist rising off the lake and drifting low around the monk's silhouette, very faint and continuous, never resolving into distinct clumps; (2) the golden glow along the enso's brushstroke breathes almost imperceptibly, the faintest continuous soft pulse in brightness, never a flicker or flare, never changing the ring's shape or thickness; (3) the reflected glow on the water's surface shimmers with the faintest continuous ripple. Camera completely locked — no pan, no zoom, no dolly. Perfectly seamless 8-second loop, last frame matches first frame exactly.
+```
 
 ---
 
