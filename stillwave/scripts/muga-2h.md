@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 2H (matches MUSHIN/GAMAN/KIRI/SATORI — the format that has repeatedly outperformed 1H in this specific template; do NOT shorten to 1H).
 - **Music source:** **Google Lyria** — updated 2026-09-26, per user: **Suno is no longer usable at all** (its download caps have made it a non-option, not just a constraint), so the earlier plan to use Suno here specifically to avoid confounding MUGA's test of "does the classic template still work" is moot — Lyria is now the only option for every video on the channel, KAMI included. This actually turns MUGA into a useful natural experiment: if MUGA (Lyria + classic monk+ENSO template) performs close to MUSHIN's level, that's evidence the KAMI sub-series' underperformance (~126 avg views) is driven by its visual template (colossal light-spirit) rather than by Lyria itself. If MUGA also underperforms on Lyria, that points the other way. Same anti-genericization approach as the KAMI series (name real instruments explicitly, rule out generic substitutes), same no-percussion/flat-dynamics/no-background-ambience-baked-in rules as every StillWave album.
-- **Status:** 🟡 IN PROGRESS — hero image generated (`muga-2h-source.jpg`), thumbnail and wisdom overlay built. **Next: generate the 20 Lyria variants (§1), then the Flow loop (§4).**
+- **Status:** 🟡 IN PROGRESS — hero image generated, thumbnail/overlay built, music mastered (42 tracks, 1:58:11, §2/§8). **Next: generate the Flow loop (§4), then assemble in CapCut.**
 
 ---
 
@@ -143,6 +143,47 @@ python3 select-album.py "<MUGA-Flow folder>" "<MUGA-Flow folder>-mastered" --slu
 Generate 2-3 takes per variant (≈40-60 files total, given 20 variants). Paste the printed selection table back here for §8.
 **🇺🇦** Та же схема, что у KAMI, но cap 120 (не 60) — формат 2H, как у MUSHIN/GAMAN.
 
+### ✅ Mastering results (2026-09-27)
+
+44 raw tracks mastered → 42 selected into `MUGA-ALBUM/` (1 to `MUGA-RESERVE/` for a future Vol. 2), **1:58:11 total** — right at the 2H target. Tracklist with poetic names is in §8 above.
+
+- **⚠️ 1 track dropped entirely — same old cp1255 crash, but on a STALE local copy of the tools.** `Тихий шепот сякухати (Remix).wav` failed with `UnicodeDecodeError: 'charmap' codec can't decode byte... cp1255` inside `master-album.py`. This is the exact bug fixed in commit `3877296` (both tools' `run()` helper now pass `encoding="utf-8", errors="replace"`) — the crash reappearing means the copy of `master-album.py`/`select-album.py` on your Windows machine predates that fix. **Pull the latest `stillwave/tools/` from the repo before the next mastering run**, or this will keep happening on any Cyrillic-named file. The track itself is otherwise fine — regenerate/re-master it separately later if you want it in the album (there's still ~2 min of headroom before the 2H cap).
+- **⚠️ `Mountain Breath.wav` (track 20) flagged clipped input (TP 0.0 dB)** — the mastered version is safe (loudnorm handles it), but the clipping happened inside Suno/Lyria itself. Kept in the album since it's a minor flag, not a hard skip; regenerate this one variant later if you hear audible distortion.
+- **🇺🇦** 42 из 44 треков вошли в альбом (1:58:11, почти ровно 2 часа). Один трек с кириллическим именем упал с той же ошибкой cp1255, что чинили раньше — значит, на твоей машине СТАРАЯ копия `master-album.py`/`select-album.py` без фикса. Подтяни свежую версию инструментов из репозитория перед следующим мастерингом. Второй момент — `Mountain Breath.wav` помечен как клиппинг на входе (не критично, мастерная версия в порядке).
+
+**🔒 Mandatory rename step** — run this in PowerShell inside `MUGA-ALBUM/` before importing to CapCut (renames the raw Suno filenames to the poetic titles above, keeping the `NN - ` numeric prefix so CapCut's filename sort stays correct):
+
+```powershell
+cd "C:\Users\jdan1\OneDrive\Desktop\MUGA-ALBUM"
+
+$titles = @(
+  "Ancient Stillness", "First Breath of Bamboo", "Breath Through Green Stalks",
+  "Wind Between the Canes", "Quiet Grove Exhale", "The Grove at Rest",
+  "Bamboo Breath", "Mist Among the Bamboo", "Stillness in the Grove",
+  "The Bent Pine", "Silk Bent by Wind", "The Empty Mountain",
+  "Mountain Without Echo", "Where the Mountain Empties", "The Sky Holds Nothing",
+  "One Petal Adrift", "The Hollow Reed", "Breath of the Peak",
+  "The Mountain Exhales", "Mountain Breath", "A Single Breath Held",
+  "One Breath, Then Nothing", "The Silent Stalks", "The Silent Peak",
+  "Silk Against Bamboo", "The Breath Before Thought", "A Breath, Unwatched",
+  "The Stone Garden", "Raked Sand at Dawn", "Stones Without Names",
+  "The Garden Forgets Itself", "Between the Stones", "Stone Garden at Rest",
+  "Mist at the Temple Gate", "The Temple Holds Its Breath", "The Empty Valley",
+  "The Lone Resonance", "The Silent Reed", "The Single Toll",
+  "The Waning Moon", "White Sand, No Footprints", "Wood and Silk"
+)
+
+Get-ChildItem -Filter "*.wav" | ForEach-Object {
+    if ($_.Name -match '^(\d{2}) - ') {
+        $n = [int]$matches[1]
+        $newName = "{0:D2} - {1}.wav" -f $n, $titles[$n - 1]
+        Rename-Item $_.FullName $newName
+        Write-Host "$($_.Name)  ->  $newName"
+    }
+}
+```
+**🇺🇦** Запусти этот PowerShell-скрипт внутри `MUGA-ALBUM/` перед импортом в CapCut — заменяет сырые имена Suno на поэтичные названия, сохраняя числовой префикс для правильной сортировки.
+
 ### Ambient SFX bed — still lake water (optional)
 
 If you want the lake audible, add it as a **separate real SFX track** under the album in CapCut — same technique as the rest of the channel (background ambience never goes inside the Lyria prompt, per the 2026-09-16 rule).
@@ -212,7 +253,48 @@ but the self dissolved entirely into what it's doing.
 Above a still mountain lake at first light, a giant ink circle hangs on a silk scroll — its lower edge already dissolving into mist, disappearing into the same stillness where a lone monk sits at the water's edge. Breathy flute, sparse koto, temple bell resonance, the endless hush of a lake at dawn — two hours to lose yourself so completely in the work that there is no longer a "you" apart from it.
 
 Tracklist:
-[added after mastering — mood-poetic names, dissolving and still]
+1. Ancient Stillness (0:00)
+2. First Breath of Bamboo (2:51)
+3. Breath Through Green Stalks (5:47)
+4. Wind Between the Canes (8:39)
+5. Quiet Grove Exhale (11:15)
+6. The Grove at Rest (14:01)
+7. Bamboo Breath (16:56)
+8. Mist Among the Bamboo (19:53)
+9. Stillness in the Grove (22:49)
+10. The Bent Pine (25:21)
+11. Silk Bent by Wind (28:17)
+12. The Empty Mountain (31:07)
+13. Mountain Without Echo (33:58)
+14. Where the Mountain Empties (36:36)
+15. The Sky Holds Nothing (39:30)
+16. One Petal Adrift (42:25)
+17. The Hollow Reed (45:18)
+18. Breath of the Peak (48:18)
+19. The Mountain Exhales (51:16)
+20. Mountain Breath (53:58)
+21. A Single Breath Held (56:51)
+22. One Breath, Then Nothing (59:30)
+23. The Silent Stalks (1:01:31)
+24. The Silent Peak (1:04:22)
+25. Silk Against Bamboo (1:07:17)
+26. The Breath Before Thought (1:10:13)
+27. A Breath, Unwatched (1:12:56)
+28. The Stone Garden (1:15:52)
+29. Raked Sand at Dawn (1:18:51)
+30. Stones Without Names (1:21:25)
+31. The Garden Forgets Itself (1:24:18)
+32. Between the Stones (1:27:03)
+33. Stone Garden at Rest (1:29:57)
+34. Mist at the Temple Gate (1:32:54)
+35. The Temple Holds Its Breath (1:35:47)
+36. The Empty Valley (1:38:40)
+37. The Lone Resonance (1:41:28)
+38. The Silent Reed (1:44:24)
+39. The Single Toll (1:47:22)
+40. The Waning Moon (1:49:18)
+41. White Sand, No Footprints (1:52:16)
+42. Wood and Silk (1:55:11)
 
 🌀 There is no you left to notice you've arrived.
 🍃 Only the work, and the doing of it.
