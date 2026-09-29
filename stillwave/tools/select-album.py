@@ -20,7 +20,7 @@ Variant = the last underscore-separated number before an optional
 
 Usage:
   python3 select-album.py <raw-folder> <mastered-folder> --slug SUIRYU
-      [--cap 120] [--min-per-variant 2] [--out DIR] [--reserve-dir DIR]
+      [--cap 120] [--min-length 2.5] [--min-per-variant 2] [--out DIR] [--reserve-dir DIR]
 
 Output:
   <SLUG>-ALBUM/     — selected tracks, copied in final round-robin play
@@ -92,6 +92,8 @@ def main():
     ap.add_argument("mastered_folder", type=Path, help="output of master-album.py (files actually copied)")
     ap.add_argument("--slug", required=True, help="e.g. SUIRYU — used for output folder names")
     ap.add_argument("--cap", type=float, default=120.0, help="max album length in minutes (default 120)")
+    ap.add_argument("--min-length", type=float, default=0.0,
+                    help="drop tracks shorter than this many minutes before selection (default 0, no filter)")
     ap.add_argument("--min-per-variant", type=int, default=2,
                     help="don't drop a variant below this count while others remain (default 2)")
     ap.add_argument("--out", type=Path, default=None, help="output ALBUM folder (default: <slug>-ALBUM)")
@@ -148,6 +150,16 @@ def main():
         for t in dupes:
             print(f"   {t['name']}  ==  {t['dup_of']}")
         print()
+
+    if args.min_length > 0:
+        min_sec = args.min_length * 60.0
+        too_short = [t for t in kept if t["dur"] < min_sec]
+        kept = [t for t in kept if t["dur"] >= min_sec]
+        if too_short:
+            print(f"Dropping {len(too_short)} track(s) under {args.min_length:.1f} min:")
+            for t in too_short:
+                print(f"   {t['name']}  ({hms(t['dur'])})")
+            print()
 
     # Anchor first, fill second — deterministic, no thrash:
     #   1) unconditionally keep each variant's `min_per_variant` calmest tracks
