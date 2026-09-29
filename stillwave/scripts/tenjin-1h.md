@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 1H (continues the KAMI 1H format).
 - **Production note:** 🔒 **Built outside the usual package workflow** — the user generated the hero image independently (not via the channel's usual §3 NanoBanana prompt-drafting process). This script holds the SEO pack (title, description, tags, wisdom overlay, pinned, Community Post) and the §2/§8 tracklist — §0 documents the concept and visuals retroactively from the delivered hero image, same pattern as `inari-1h.md`.
-- **Status:** 🟡 IN PROGRESS — ✅ hero image delivered, ✅ thumbnail composited, ✅ wisdom overlay built, ✅ music mastered (21 tracks, 57:58 → §8). **Next: rename files per §2 script, generate Flow loop + Shorts frames (not yet produced), CapCut laydown.**
+- **Status:** 🟡 IN PROGRESS — ✅ hero image delivered, ✅ thumbnail composited, ✅ wisdom overlay built, ✅ music mastered (22 tracks, 1:00:37 → §8). **Next: rename files per §2 script, generate Flow loop + Shorts frames (not yet produced), CapCut laydown.**
 
 ---
 
@@ -25,7 +25,7 @@
 
 ## §2 — Mastering
 
-**✅ Done 2026-09-29.** 41 raw tracks generated (already titled by the user's own process — no §1 prompt list this time, see Meta note). `master-album.py` flagged 9 tracks for input clipping and 1 exact duplicate (`Bamboo Drift (8)` == `Bamboo Drift (7)`, dropped). `select-album.py --slug TENJIN --cap 60 --min-length 2.5` (the `--min-length` filter was added to the tool this session, to drop three short outlier tracks under 2:30 — `Bamboo Breath (1)` 1:56, `Bamboo Drift (3)` 2:18, `Quiet Pulse` 2:19) selected **21 tracks, 57:58 total** → `TENJIN-ALBUM/`, 14 in `TENJIN-RESERVE/`. Some clipped-input tracks landed in the final selection on calmness score — mastered versions are safe per the tool, swap from RESERVE if audible. Final tracklist + poetic names in §8; rename script below.
+**✅ Done 2026-09-29.** 41 raw tracks generated (already titled by the user's own process — no §1 prompt list this time, see Meta note). `master-album.py` flagged 9 tracks for input clipping and 1 exact duplicate (`Bamboo Drift (8)` == `Bamboo Drift (7)`, dropped). `select-album.py --slug TENJIN --cap 60 --min-length 2.5` (the `--min-length` filter was added to the tool this session, to drop three short outlier tracks under 2:30 — `Bamboo Breath (1)` 1:56, `Bamboo Drift (3)` 2:18, `Quiet Pulse` 2:19) selected 21 tracks, 57:58 total. **User manually appended `Silk Echo.wav` (2:39) as track 22 from RESERVE, rounding the album to 1:00:37** — same "add one more from reserve to round out the hour" pattern as RAIJIN. Final tracklist + poetic names in §8; rename script below.
 
 ```powershell
 cd "C:\Users\jdan1\OneDrive\Desktop\TENJIN-ALBUM"
@@ -37,7 +37,8 @@ $titles = @(
   "The Scholar's Reverie", "A Bell Beyond the Grove", "Mist Over the Shrine Steps",
   "Kyoto at First Light", "The Quiet Between Words", "Silk Sleeves, Still Hands",
   "The Weight of a Single Word", "Robes at Rest", "The Last Candle of Study",
-  "A Thought Takes Root", "Stillness Before Dawn", "What the Old Books Remember"
+  "A Thought Takes Root", "Stillness Before Dawn", "What the Old Books Remember",
+  "An Echo Before Sleep"
 )
 
 Get-ChildItem -Filter "*.wav" | ForEach-Object {
@@ -49,7 +50,7 @@ Get-ChildItem -Filter "*.wav" | ForEach-Object {
     }
 }
 ```
-**🇺🇦** Готово — 21 трек, 57:58, в `TENJIN-ALBUM/`, 14 в резерве. В этой сессии в `select-album.py` добавлен флаг `--min-length`, чтобы отсекать слишком короткие треки (< 2:30) ещё до отбора.
+**🇺🇦** Готово — 22 трека (добавлен Silk Echo вручную из резерва), 1:00:37, в `TENJIN-ALBUM/`. Если файл `Silk Echo.wav` ещё не переименован в `22 - Silk Echo.wav` (с префиксом номера), переименуй его вручную перед запуском скрипта, иначе он не попадёт под regex.
 
 ---
 
@@ -107,6 +108,7 @@ Tracklist:
 49:24 — A Thought Takes Root
 52:19 — Stillness Before Dawn
 55:06 — What the Old Books Remember
+57:58 — An Echo Before Sleep
 
 🌀 Study the old to understand the new.
 🍃 Let one page be enough for tonight.
