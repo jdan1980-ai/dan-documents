@@ -147,7 +147,7 @@ Pour something warm, dim the room, put on your headphones, let the Tokyo rain ha
 
 ▶ Subscribe for new Tokyo apartment, lantern, and quiet city focus sessions every week.
 
-🔔 New Power Hour focus sessions every Tuesday and Friday. Tap the bell so you don't miss the next one.
+🔔 New Power Hour focus sessions every week. Tap the bell so you don't miss the next one.
 
 #powerhour #1hourfocus #deepfocus #deepfocusmusic #focusmusic #studymusic #workmusic #productivitymusic #flowstate #codingmusic #pomodoro #tokyomusic #rainmusic #ambientfocus #musicforwork #concentrationmusic #studywithme #nodistractions #lofistudy #japaneseambient
 ```
