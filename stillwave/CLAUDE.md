@@ -494,6 +494,29 @@ Karena's 20/20/40-50 brand-heavy rule is **overridden** for Kanji-Concept series
 - Channel keywords (Studio → Settings → Channel → Basic info): `zen music, japanese zen music, ambient music, meditation music, focus music, study music, sleep music, japanese ambient music, shakuhachi music, zazen meditation, mindfulness`
 - Create dedicated playlist: `Kanji-Concept Series — Japanese Zen Music` and add each video. Algorithm uses playlists as topic signal.
 
+### 🔒 Prefer recognizable icons over named obscure deities (LOCKED 2026-10-08, VidIQ research)
+
+**Americans barely search "Japanese" anything — the whole niche rides on recommendation/browse, not search.** Keyword research on `japanese zen music`: ~130K searches/month globally, but the **US isn't even in the top-5 markets** (Japan, Vietnam, Indonesia, Brazil, Canada all rank above it — only 8,333/month from the US). Compare the generic wellness terms: `meditation music` is 2.1M searches/month and the **US is the #1 market** (484K/month); `sleep music` (US #2, 207K/month); `relaxing music` (US #3, 285K/month). Conclusion: our audience isn't typing "Japanese" into the search bar — they search generic wellness/focus terms and *discover* Japan-themed videos via the browse/suggested feed, where this channel's own traffic data already shows 58% browse + 28% suggested + only 0.6% search. The "Japan" aesthetic is a **thumbnail/packaging layer riding on top of generic demand**, not something people hunt for by name.
+
+**Pulled the actual top English-language `japanese zen music` breakout videos (VidIQ outliers, past year) to see what wins on that packaging layer:**
+
+| Video | Channel | Views |
+|---|---|---|
+| KUMAMICHI（熊道）— "Japanese Zen Music Along the Bear's Path" | Aether Journey (US) | **1.67M** |
+| KITSUNEMICHI（狐道）— "...Along the Fox's Path" | Aether Journey (US) | **240K** |
+| SATORI (悟) — generic awakening concept, no named figure | Haruka (JP, 1.2K subs) | 116K |
+| KAMI (神) used as a generic word, NOT a named god | Ronin Zen Ambience | 162K |
+| KAMI (神), different small channel, also generic | Samurai Zen Music | 27.5K |
+| TAO (道) | Ronin Zen Ambience | 82K |
+
+The single biggest hit (1.67M views) isn't a named Shinto deity at all — it's a bear spirit on a path. Fox and bear are instantly recognizable animals; zero prior mythology knowledge required. Critically, **every one of these competitor channels reuses the identical tag block — `ronin`, `samurai meditation`, `ancient Japan ambience`, `Japanese warrior music` — regardless of which kanji the video is nominally about.** The specific concept barely matters; the recognizable samurai/warrior/ancient-Japan *icon* is the actual product.
+
+**What this means for our own catalog:** the KAMI sub-series (Tsukuyomi, Hachiman, Benzaiten, Kannon, Fujin, Raijin, Inari, Tenjin) names real but obscure Shinto deities — exactly the pattern that underperforms even among direct competitors in the same niche, not just on our own channel (KAMI sub-series ~126 avg views vs ~306 for the classic monk+ENSO template, per `published-videos.md`). ENSO and MUGA — a universally recognizable symbol (the circle) paired with a real kanji word, not a named figure — are structurally identical to what's actually winning (TAO, SATORI, KINTSUGI are all abstract-but-visually-legible concepts, never named deities).
+
+**🔒 Going forward: favor a recognizable icon (an animal, a symbol like ENSO, a universal mood-word) over naming another specific, obscure kami.** A validated untested opportunity: the `[Animal] no Michi` ("Path of the [Animal]") format — same production pipeline already in use (a colossal glowing spirit-creature + a lone human figure for scale), swapping "name of an obscure god" for a recognizable animal (fox, bear, wolf, crane, tiger) + 道 (michi, "path/way") — a real, serious Japanese spiritual term, not an invented one. One small competitor channel pulled 1.67M and 240K views on exactly two videos built this way.
+
+**🇺🇦** Американцы почти не ищут «японское» в поисковике — вся ниша держится на рекомендациях/ленте, не на поиске. У запроса "japanese zen music" США даже не входит в топ-5 стран (всего 8 333 запроса/мес из США), а у обычных wellness-запросов ("meditation music", "sleep music", "relaxing music") США — страна №1-3 с сотнями тысяч запросов в месяц. Значит, «японская» эстетика — это слой упаковки превью поверх обычного спроса на медитацию/сон/фокус, а не то, что реально ищут по названию. Реальные топовые англоязычные хиты в нише ("Путь медведя" — 1.67 млн, "Путь лисы" — 240 тыс.) не называют конкретных синтоистских богов — используют узнаваемых животных. Конкурентные каналы используют один и тот же набор тегов ("ronin", "samurai meditation", "ancient Japan") независимо от иероглифа — важен узнаваемый образ, не точность мифологии. Наша серия KAMI (конкретные малоизвестные боги) проигрывает по этой же причине, что и у конкурентов. Вперёд — предпочитать узнаваемый образ (животное, символ вроде ENSO, общее понятие) вместо имени ещё одного малоизвестного ками. Непроверенная, но подтверждённая конкурентами возможность: формат «Путь [животного]» (道, michi) — тот же пайплайн, что уже есть, но с узнаваемым животным вместо имени бога.
+
 ---
 
 ## 🛠️ Pipeline
