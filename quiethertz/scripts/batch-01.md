@@ -24,7 +24,7 @@ Photorealistic 3D digital art, 16:9, 4K, dark cinematic background. A golden-amb
 
 **Lyria prompt**
 ```
-Deeply meditative healing-frequency ambient — a single warm, low, sustained drone pad at the center of the mix, glowing and steady like a held breath, with the faintest slow inner shimmer that never resolves into a melody. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Warm, soft, womb-like tone — nothing bright or piercing. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
+Deeply meditative healing-frequency ambient — a single warm, low, sustained drone pad at the center of the mix, glowing and steady like a held breath, with the faintest slow inner shimmer that never resolves into a melody. Over this, a real piano plays rare, single, isolated notes — long silences between each one, never a phrase or a repeating pattern, just one note left to ring and fade before the next. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Warm, soft, womb-like tone — nothing bright or piercing. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
 ```
 
 **Tags**
@@ -65,7 +65,7 @@ Photorealistic 3D digital art, 16:9, 4K, dark cinematic background. A golden-amb
 
 **Lyria prompt**
 ```
-Deeply meditative healing-frequency ambient — a warm, golden-toned sustained drone, slightly richer and fuller than a plain sine tone, with a very faint slow pulse of overtones breathing in and out like a living organism regenerating. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
+Deeply meditative healing-frequency ambient — a warm, golden-toned sustained drone, slightly richer and fuller than a plain sine tone, with a very faint slow pulse of overtones breathing in and out like a living organism regenerating. Over this, a real piano plays rare, single, isolated notes — long silences between each one, never a phrase or a repeating pattern, just one note left to ring and fade before the next. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
 ```
 
 **Tags**
@@ -106,7 +106,7 @@ Photorealistic 3D digital art, 16:9, 4K, dark cinematic background. A golden-amb
 
 **Lyria prompt**
 ```
-Deeply meditative healing-frequency ambient — two sustained drone layers held together, one slightly lower and warmer, one slightly higher and clearer, blended into a single calm resonance with no beating or dissonance. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Clean, uncluttered, spacious — a mind settling into quiet. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
+Deeply meditative healing-frequency ambient — two sustained drone layers held together, one slightly lower and warmer, one slightly higher and clearer, blended into a single calm resonance with no beating or dissonance. Over this, a real piano plays rare, single, isolated notes — long silences between each one, never a phrase or a repeating pattern, just one note left to ring and fade before the next. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Clean, uncluttered, spacious — a mind settling into quiet. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
 ```
 
 **Tags**
@@ -147,7 +147,7 @@ Photorealistic 3D digital art, 16:9, 4K, dark cinematic background. A golden-amb
 
 **Lyria prompt**
 ```
-Deeply meditative healing-frequency ambient — a cool, clear sustained drone with a faint watery shimmer woven through it, like light moving through deep water, never resolving into a melody. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Cleansing, spacious, unhurried. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
+Deeply meditative healing-frequency ambient — a cool, clear sustained drone with a faint watery shimmer woven through it, like light moving through deep water, never resolving into a melody. Over this, a real piano plays rare, single, isolated notes — long silences between each one, never a phrase or a repeating pattern, just one note left to ring and fade before the next. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Cleansing, spacious, unhurried. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
 ```
 
 **Tags**
@@ -188,7 +188,7 @@ Photorealistic 3D digital art, 16:9, 4K, dark cinematic background. A golden-amb
 
 **Lyria prompt**
 ```
-Deeply meditative healing-frequency ambient — a high, clear, luminous sustained tone, bright but never harsh, with a faint distant shimmer like starlight, held perfectly steady. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Vast, open, cosmic stillness. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
+Deeply meditative healing-frequency ambient — a high, clear, luminous sustained tone, bright but never harsh, with a faint distant shimmer like starlight, held perfectly steady. Over this, a real piano plays rare, single, isolated notes — long silences between each one, never a phrase or a repeating pattern, just one note left to ring and fade before the next. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Vast, open, cosmic stillness. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
 ```
 
 **Tags**
@@ -229,7 +229,7 @@ Photorealistic 3D digital art, 16:9, 4K, dark cinematic background. A golden-amb
 
 **Lyria prompt**
 ```
-Deeply meditative healing-frequency ambient — a soft, rounded sustained drone with a gentle slow undulation in brightness, like breathing waves of brainwave activity settling, never sharp or bright. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
+Deeply meditative healing-frequency ambient — a soft, rounded sustained drone with a gentle slow undulation in brightness, like breathing waves of brainwave activity settling, never sharp or bright. Over this, a real piano plays rare, single, isolated notes — long silences between each one, never a phrase or a repeating pattern, just one note left to ring and fade before the next. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
 ```
 
 **Tags**
@@ -270,7 +270,7 @@ Photorealistic 3D digital art, 16:9, 4K, dark cinematic background. A golden-amb
 
 **Lyria prompt**
 ```
-Deeply meditative healing-frequency ambient — two sustained drones, one warm and golden, one cool and clear, blended into a single calm resonance with a faint slow shimmer where they meet, never dissonant. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
+Deeply meditative healing-frequency ambient — two sustained drones, one warm and golden, one cool and clear, blended into a single calm resonance with a faint slow shimmer where they meet, never dissonant. Over this, a real piano plays rare, single, isolated notes — long silences between each one, never a phrase or a repeating pattern, just one note left to ring and fade before the next. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
 ```
 
 **Tags**
@@ -311,7 +311,7 @@ Photorealistic 3D digital art, 16:9, 4K, dark cinematic background. A golden-amb
 
 **Lyria prompt**
 ```
-Deeply meditative healing-frequency ambient — a low, warm, sustained drone, soft and rounded, with the faintest slow inner glow of overtone that never becomes a melody. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Heavy-lidded, unhurried, drifting toward sleep. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
+Deeply meditative healing-frequency ambient — a low, warm, sustained drone, soft and rounded, with the faintest slow inner glow of overtone that never becomes a melody. Over this, a real piano plays rare, single, isolated notes — long silences between each one, never a phrase or a repeating pattern, just one note left to ring and fade before the next. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Heavy-lidded, unhurried, drifting toward sleep. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
 ```
 
 **Tags**
@@ -352,7 +352,7 @@ Photorealistic 3D digital art, 16:9, 4K, dark cinematic background. A golden-amb
 
 **Lyria prompt**
 ```
-Deeply meditative healing-frequency ambient — a low, tender sustained drone with a soft, slow swell of warmth at its very center, held gently, never sharp. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Gentle, releasing, quietly emotional without being sad. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
+Deeply meditative healing-frequency ambient — a low, tender sustained drone with a soft, slow swell of warmth at its very center, held gently, never sharp. Over this, a real piano plays rare, single, isolated notes — long silences between each one, never a phrase or a repeating pattern, just one note left to ring and fade before the next. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Gentle, releasing, quietly emotional without being sad. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
 ```
 
 **Tags**
@@ -393,7 +393,7 @@ Photorealistic 3D digital art, 16:9, 4K, dark cinematic background. A golden-amb
 
 **Lyria prompt**
 ```
-Deeply meditative healing-frequency ambient — a clear, bright, sustained tone with a faint crystalline shimmer at its edges, held with total stillness, like a single held note from a singing bowl stretched into infinity. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
+Deeply meditative healing-frequency ambient — a clear, bright, sustained tone with a faint crystalline shimmer at its edges, held with total stillness, like a single held note from a singing bowl stretched into infinity. Over this, a real piano plays rare, single, isolated notes — long silences between each one, never a phrase or a repeating pattern, just one note left to ring and fade before the next. No percussion, no rhythmic pulse. Extremely slow, free tempo, completely ametric. Stays at one soft, even, unchanging level throughout — no crescendo, no swell, no build, no climax.
 ```
 
 **Tags**

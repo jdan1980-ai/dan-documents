@@ -50,7 +50,7 @@ Camera locked, no pan/zoom. Animate: (1) **the healing wave** — a bright pulse
 
 ## 🛠️ Pipeline (lightweight — no CapCut required)
 
-1. **Music:** Lyria, batch-generate per §1 prompts in `scripts/batch-01.md`. 2-3 takes per variant.
+1. **Music:** Lyria, batch-generate per §1 prompts in `scripts/batch-01.md`. 2-3 takes per variant. **🔒 Composition locked 2026-10-08 (user confirmed from the real competitor's music):** a continuous background drone/pad, with a real piano playing rare, isolated single notes over it — long silences between notes, never a phrase or repeating pattern. Not drone-only. Every prompt in `batch-01.md` already carries this.
 2. **Mastering:** reuse StillWave's tools (copied into `quiethertz/tools/`):
    ```
    python master-album.py "<raw-folder>"
