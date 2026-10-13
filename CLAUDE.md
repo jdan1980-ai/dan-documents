@@ -85,15 +85,15 @@ If editing the script's title, scenes, or VO, **re-verify tags reflect the new t
 - Scientist/doctor/detective/etc. costume scenes — see `style-guide.md` §2 thematic costumes table. Wardrobe must keep collar + heart tag visible at the V-cut neckline.
 - **Visualize the VO literally — show, don't pose.** If the VO names a concrete thing or action, the visual must literally show it (Brain licking the hair, holographic mother+kitten, thought-bubble of clumsy kitten, etc.). Generic "Brain sits with X expression" wastes Veo 3 credits. See `style-guide.md` §5d for tools (holograms, thought-bubbles, off-frame humans, costumes).
 
-### Chakra Sleep (`/chakra-sleep`) — working title, channel not created yet
+### Seven Lights (`/seven-lights`)
 
-Planned YouTube channel — dark-screen sleep music built around the seven chakras (English). Style reference: Tibetan Meditation Music.
+YouTube channel — **Seven Lights — Chakra Healing Music**. Handle: [@SevenLightsSleep](https://www.youtube.com/@SevenLightsSleep) (created October 13, 2026, same Google account as StillWave; no videos yet). Dark-screen chakra healing music for sleep, in English. Style reference: Tibetan Meditation Music.
 
 **Pipeline (planned):** Flow Music (AI music) → audio editor assembly → AI still or slow scene fading to dark.
 
 **Source of truth files:**
-- `chakra-sleep/launch-kit.md` — channel name options, channel and video description templates, tags, first 10 videos (titles, sound and image prompts), assembly steps, 5-week schedule
-- `chakra-sleep/competitor-tracker.md` — niche research snapshot (October 13, 2026)
+- `seven-lights/launch-kit.md` — channel name, channel and video description templates, tags, first 10 videos (titles, sound and image prompts), assembly steps, 5-week schedule
+- `seven-lights/competitor-tracker.md` — niche research snapshot (October 13, 2026)
 
 ## Notes
 

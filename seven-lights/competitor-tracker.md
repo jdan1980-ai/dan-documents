@@ -1,4 +1,4 @@
-# Chakra Sleep — Competitor Tracker
+# Seven Lights — Competitor Tracker
 
 Research snapshot from October 13, 2026. Sources: vidIQ (channel stats, keywords, outliers) and Nexlev (revenue and RPM estimates). Revenue and RPM are model estimates, not real reporting.
 
@@ -10,6 +10,31 @@ Research snapshot from October 13, 2026. Sources: vidIQ (channel stats, keywords
 
 - Reference video: "Balance Chakras While Sleeping, Aura Cleansing, Release Negative Energy, 7 Chakras Healing [528 Hz]" — published 2025-05-04, 3H 28min, 1.01M views.
 - New uploads get little: two September 2026 videos sit at 2.9K and 4.9K views. The channel earns from its catalogue, not from new releases.
+
+## Fastest-growing young channel in this exact style
+
+| Channel | Channel ID | Subs | Total views | Videos | Started | Last 30 days |
+|---------|------------|------|-------------|--------|---------|--------------|
+| **Chakra Healing Frequencies** | UCOGvFez3ZMIG-OYmaGakMtw | 189K | 34.6M | 425 | 2025-03-21 | +2.2M views, 15 videos |
+
+- Keyword-built name, about 19 months old, views up ~300% year over year, vidIQ earnings estimate ~$10.4K / month.
+- Shares the same "COPYRIGHT © & FAQ" description block as Tibetan Meditation Music, Relaxed Mind and Spiritual Awakening Meditation — possibly one operator running several channels (inference, not confirmed).
+- **To do:** full breakdown of this channel (top videos, titles, lengths, upload rhythm).
+
+## Chakra keyword demand (vidIQ, October 13, 2026)
+
+| Keyword | Searches / month | Competition (0–100) |
+|---------|------------------|---------------------|
+| sleep meditation music | 28K | 36 |
+| heart chakra healing | 28K | 50 |
+| chakra healing | 24K (−60% vs prior month) | 50 |
+| chakra meditation balancing & healing | 19K | 41 |
+| chakra healing music | 19K | 46 |
+| 7 chakra healing music | 15K | 48 |
+| chakra healing sleep music | 4.2K | 36 |
+| chakra sleep music | <750 | 33 |
+
+The working phrase in this niche is "chakra healing", not "chakra sleep" — titles are built on it.
 
 ## Large channels in the niche (6 months: Apr 13 – Oct 13, 2026)
 
