@@ -51,6 +51,17 @@ YouTube channel — Japanese ambient · meditation · sleep · focus music. Hand
 - `CAL: [месяц]` → analytics + monthly calendar (4 videos / week)
 - `THUMB: [тема]` → 4 Canva variants
 
+### Seven Lights (`/sevenlights`)
+
+YouTube channel — calm space ambient for sleep & meditation, no vocals, true A = 432 Hz tuning.
+
+**Pipeline:** own synthesizer (PowerShell + C#, `sevenlights/tools/space_ambient_432.ps1`) → WAV → analyzer / click check → (planned) long render → MP3.
+
+**Source of truth files:**
+- `sevenlights/CLAUDE.md` — how to render, generator parameters, version history, **lessons learned (read before changing the sound)**, next steps
+- `sevenlights/analysis/references.md` — analysis of reference YouTube tracks
+- `sevenlights/demos/` — best 1-minute demos
+
 #### MANDATORY rules (do not skip)
 
 **Every time a script is created OR meaningfully edited, ALWAYS update the full SEO Pack — never skip tags.** The user has flagged this as a recurring miss. The SEO Pack must include:
