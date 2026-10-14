@@ -21,21 +21,25 @@
 ## 2. Описание канала
 
 ```
-Seven Lights makes slow, dark-screen chakra healing music for sleep — one light and one frequency for each of the seven chakras.
+Hi, and welcome to Seven Lights.
 
-Every video is built around a single Solfeggio frequency — 396, 417, 528, 639, 741, 852 or 963 Hz — played softly under singing bowls, warm drones and gentle pads, made to help you wind down and stay asleep. No sudden sounds. No mid-roll ads.
+I make chakra healing music for sleep. Seven chakras, seven frequencies, one light for each. I started this channel because I fall asleep to this kind of music myself, and I wanted versions that stay calm all night: no sudden sounds, no ads in the middle, a screen that goes dark.
 
-New music every week:
-• 3-hour chakra healing sleep sessions, one frequency per chakra
-• 8–10 hour dark screen versions for the whole night
-• Singing bowl sessions for meditation and rest
+Each video is built around one Solfeggio frequency (396, 417, 528, 639, 741, 852 or 963 Hz). You'll hear it as a soft tone under singing bowls, low drones and slow pads.
 
-The music on this channel is created with the help of AI tools and then arranged, layered and mixed by hand.
+What you'll find here:
+3-hour sleep sessions, one for each chakra
+8–10 hour dark screen versions for the whole night
+singing bowl sessions for meditation
 
-This music is for relaxation and sleep. It is not medical advice or treatment. If you have epilepsy, check with your doctor before listening to frequency music. Please do not listen while driving or operating machinery.
+I use AI tools to generate the sounds, then I pick the best parts and arrange, layer and mix them by hand.
+
+New music every week. Put it on low, close your eyes, and sleep well.
+
+This is music for relaxing and sleeping, not medical treatment. If you have epilepsy, ask your doctor before listening to frequency music. Don't listen while driving.
 ```
 
-907 символов при лимите 1000. Частоты названы прямо, потому что каждое видео строится вокруг одной частоты (см. §6, шаг 3).
+987 символов при лимите 1000. Написано от первого лица, простым языком. Частоты названы прямо, потому что каждое видео строится вокруг одной частоты (см. §6, шаг 3).
 
 **Ключевые слова канала** (Studio → «Настройки» → «Канал» → «Ключевые слова»):
 

@@ -1,12 +1,39 @@
 # Seven Lights — переводы названия и описания канала
 
-Куда вставлять: YouTube Studio → «Настройка канала» → «Основные сведения» → «Добавить язык» (раздел переводов названия и описания). Основной язык канала — английский.
+Куда вставлять: YouTube Studio → «Настройка канала» → «Основные сведения» → «Перевод» → выбрать язык перевода → вставить название и описание → «Готово». Исходный язык — английский.
 
-Зритель видит перевод, если язык его YouTube совпадает с языком перевода; поиск по каналам на этом языке тоже начинает находить канал.
+Тексты написаны от первого лица, простым языком, как от автора канала. Все укладываются в лимит YouTube в 1000 символов. Бренд «Seven Lights» не переводится, переводится только хвост названия.
 
-Почему эти языки: испанский и португальский — крупнейшие рынки после английского в поиске «sleep music» и «meditation music»; немецкий и французский — дорогая реклама; русский — вы можете проверить его сами.
+Почему эти языки: испанский и португальский — крупнейшие рынки после английского в поиске «sleep music» и «meditation music»; немецкий и французский — дорогая реклама; русский вы можете проверить сами. Остальные языки, кроме русского, лучше показать носителю.
 
-Бренд «Seven Lights» не переводится, переводится только хвост названия. Тексты, кроме русского, проверить сами вы не сможете — если есть знакомый носитель языка, дайте ему взглянуть.
+---
+
+## Русский (ru)
+
+**Название:**
+```
+Seven Lights — Музыка для исцеления чакр
+```
+
+**Описание** (973 символов):
+```
+Привет и добро пожаловать в Seven Lights.
+
+Я делаю музыку для исцеления чакр и сна. Семь чакр, семь частот, по одному свету на каждую. Канал появился, потому что я сам засыпаю под такую музыку и хотел версии, которые остаются спокойными всю ночь: без резких звуков, без рекламы посередине, с тёмным экраном.
+
+Каждое видео построено вокруг одной сольфеджио-частоты (396, 417, 528, 639, 741, 852 или 963 Гц). Она звучит тихим тоном под поющими чашами, низкими дронами и медленными пэдами.
+
+Что здесь есть:
+3-часовые сессии для сна, по одной на каждую чакру
+версии на 8–10 часов с тёмным экраном на всю ночь
+сессии с поющими чашами для медитации
+
+Звуки я генерирую с помощью ИИ, потом выбираю лучшее и сам выстраиваю, наслаиваю и свожу.
+
+Новая музыка каждую неделю. Включите потише, закройте глаза — и спокойной ночи.
+
+Важно: это музыка для отдыха и сна, а не лечение. Если у вас эпилепсия, перед прослушиванием музыки с частотами посоветуйтесь с врачом. Не слушайте за рулём.
+```
 
 ---
 
@@ -17,20 +44,24 @@
 Seven Lights — Música de Sanación de Chakras
 ```
 
-**Описание:**
+**Описание** (983 символов):
 ```
-Seven Lights crea música lenta de sanación de chakras para dormir, con pantalla oscura: una luz y una frecuencia para cada uno de los siete chakras.
+Hola, bienvenido a Seven Lights.
 
-Cada video gira en torno a una sola frecuencia Solfeggio — 396, 417, 528, 639, 741, 852 o 963 Hz — que suena suavemente bajo cuencos tibetanos, drones cálidos y pads suaves, para ayudarte a relajarte y dormir toda la noche. Sin sonidos bruscos. Sin anuncios a mitad del video.
+Hago música de sanación de chakras para dormir. Siete chakras, siete frecuencias, una luz para cada uno. Empecé el canal porque yo mismo me duermo con esta música y quería versiones tranquilas toda la noche: sin sonidos bruscos, sin anuncios a mitad del video, con la pantalla a oscuras.
 
-Música nueva cada semana:
-• Sesiones de 3 horas para dormir, una frecuencia por chakra
-• Versiones de 8–10 horas con pantalla negra para toda la noche
-• Sesiones de cuencos tibetanos para meditar y descansar
+Cada video gira en torno a una frecuencia Solfeggio (396, 417, 528, 639, 741, 852 o 963 Hz). La oirás como un tono suave bajo cuencos tibetanos, drones graves y pads lentos.
 
-La música se crea con ayuda de herramientas de IA y después se arregla, se superpone y se mezcla a mano.
+Qué encontrarás aquí:
+sesiones de 3 horas para dormir, una por chakra
+versiones de 8–10 horas con pantalla oscura para toda la noche
+sesiones de cuencos para meditar
 
-Esta música es para relajarse y dormir. No es consejo ni tratamiento médico. Si tienes epilepsia, consulta a tu médico antes de escuchar música con frecuencias. No la escuches mientras conduces o manejas maquinaria.
+Genero los sonidos con IA, elijo lo mejor y lo mezclo a mano.
+
+Música nueva cada semana. Ponla bajito, cierra los ojos y que duermas bien.
+
+Es música para relajarse y dormir, no un tratamiento médico. Si tienes epilepsia, consulta a tu médico antes de escuchar música con frecuencias. No la escuches mientras conduces.
 ```
 
 ---
@@ -42,20 +73,24 @@ Esta música es para relajarse y dormir. No es consejo ni tratamiento médico. S
 Seven Lights — Música de Cura dos Chakras
 ```
 
-**Описание:**
+**Описание** (937 символов):
 ```
-Seven Lights cria música lenta de cura dos chakras para dormir, com tela escura: uma luz e uma frequência para cada um dos sete chakras.
+Oi, seja bem-vindo ao Seven Lights.
 
-Cada vídeo é construído em torno de uma única frequência Solfeggio — 396, 417, 528, 639, 741, 852 ou 963 Hz — tocada suavemente sob taças tibetanas, drones quentes e pads suaves, para ajudar você a relaxar e dormir a noite toda. Sem sons bruscos. Sem anúncios no meio do vídeo.
+Eu faço música de cura dos chakras para dormir. Sete chakras, sete frequências, uma luz para cada um. Comecei o canal porque eu mesmo durmo com essa música e queria versões calmas a noite toda: sem sons bruscos, sem anúncios no meio, com a tela apagada.
 
-Música nova toda semana:
-• Sessões de 3 horas para dormir, uma frequência por chakra
-• Versões de 8–10 horas com tela preta para a noite inteira
-• Sessões de taças tibetanas para meditar e descansar
+Cada vídeo gira em torno de uma frequência Solfeggio (396, 417, 528, 639, 741, 852 ou 963 Hz). Você vai ouvi-la como um tom suave por baixo de taças tibetanas, drones graves e pads lentos.
 
-A música é criada com a ajuda de ferramentas de IA e depois arranjada, sobreposta e mixada à mão.
+O que você encontra aqui:
+sessões de 3 horas para dormir, uma para cada chakra
+versões de 8–10 horas com tela escura para a noite toda
+sessões de taças para meditar
 
-Esta música é para relaxar e dormir. Não é orientação nem tratamento médico. Se você tem epilepsia, consulte seu médico antes de ouvir música com frequências. Não ouça enquanto dirige ou opera máquinas.
+Gero os sons com IA, escolho o melhor e mixo tudo à mão.
+
+Música nova toda semana. Coloque baixinho, feche os olhos e durma bem.
+
+É música para relaxar e dormir, não um tratamento médico. Se você tem epilepsia, fale com seu médico antes de ouvir música com frequências. Não ouça dirigindo.
 ```
 
 ---
@@ -67,20 +102,24 @@ Esta música é para relaxar e dormir. Não é orientação nem tratamento médi
 Seven Lights — Chakra-Heilmusik zum Schlafen
 ```
 
-**Описание:**
+**Описание** (969 символов):
 ```
-Seven Lights macht langsame Chakra-Heilmusik zum Einschlafen mit dunklem Bildschirm: ein Licht und eine Frequenz für jedes der sieben Chakren.
+Hallo und willkommen bei Seven Lights.
 
-Jedes Video baut auf einer einzigen Solfeggio-Frequenz auf — 396, 417, 528, 639, 741, 852 oder 963 Hz —, leise gespielt unter Klangschalen, warmen Drones und sanften Flächen, damit du zur Ruhe kommst und durchschläfst. Keine plötzlichen Geräusche. Keine Werbung mitten im Video.
+Ich mache Chakra-Heilmusik zum Einschlafen. Sieben Chakren, sieben Frequenzen, ein Licht für jedes. Ich schlafe selbst mit solcher Musik ein und wollte Versionen, die die ganze Nacht ruhig bleiben: keine plötzlichen Geräusche, keine Werbung mittendrin, ein Bildschirm, der dunkel wird.
 
-Jede Woche neue Musik:
-• 3-stündige Chakra-Schlafsessions, eine Frequenz pro Chakra
-• 8–10-stündige Versionen mit schwarzem Bildschirm für die ganze Nacht
-• Klangschalen-Sessions zum Meditieren und Entspannen
+Jedes Video baut auf einer Solfeggio-Frequenz auf (396, 417, 528, 639, 741, 852 oder 963 Hz). Du hörst sie als leisen Ton unter Klangschalen, tiefen Drones und langsamen Flächen.
 
-Die Musik entsteht mit Hilfe von KI-Werkzeugen und wird danach von Hand arrangiert, geschichtet und abgemischt.
+Was du hier findest:
+3-stündige Schlafsessions, eine pro Chakra
+8–10-stündige Versionen mit dunklem Bildschirm für die ganze Nacht
+Klangschalen-Sessions zum Meditieren
 
-Diese Musik dient der Entspannung und dem Schlaf. Sie ist keine medizinische Beratung oder Behandlung. Bei Epilepsie sprich bitte vor dem Hören von Frequenzmusik mit deinem Arzt. Nicht beim Autofahren oder Bedienen von Maschinen hören.
+Die Klänge erzeuge ich mit KI, wähle das Beste aus und mische es von Hand.
+
+Jede Woche neue Musik. Mach sie leise an, schließ die Augen und schlaf gut.
+
+Das ist Musik zum Entspannen und Schlafen, keine medizinische Behandlung. Bei Epilepsie vorher den Arzt fragen. Nicht beim Autofahren hören.
 ```
 
 ---
@@ -92,43 +131,23 @@ Diese Musik dient der Entspannung und dem Schlaf. Sie ist keine medizinische Ber
 Seven Lights — Musique de Guérison des Chakras
 ```
 
-**Описание:**
+**Описание** (980 символов):
 ```
-Seven Lights crée une musique lente de guérison des chakras pour dormir, sur écran sombre : une lumière et une fréquence pour chacun des sept chakras.
+Bonjour et bienvenue sur Seven Lights.
 
-Chaque vidéo est construite autour d'une seule fréquence Solfège — 396, 417, 528, 639, 741, 852 ou 963 Hz — jouée doucement sous des bols chantants et des nappes chaudes, pour vous aider à vous détendre et à dormir toute la nuit. Aucun son brusque. Aucune publicité en milieu de vidéo.
+Je fais de la musique de guérison des chakras pour dormir. Sept chakras, sept fréquences, une lumière pour chacun. Je m'endors moi-même avec cette musique et je voulais des versions calmes toute la nuit : pas de sons brusques, pas de pub au milieu, un écran qui s'éteint.
 
-Nouvelle musique chaque semaine :
-• Séances de sommeil de 3 heures, une fréquence par chakra
-• Versions de 8 à 10 heures sur écran noir pour toute la nuit
-• Séances de bols chantants pour méditer et se reposer
+Chaque vidéo tourne autour d'une fréquence Solfège (396, 417, 528, 639, 741, 852 ou 963 Hz). On l'entend en douceur sous des bols chantants et des nappes lentes.
 
-La musique est créée à l'aide d'outils d'IA, puis arrangée, superposée et mixée à la main.
+Ce que vous trouverez ici :
+des séances de 3 heures pour dormir, une par chakra
+des versions de 8 à 10 heures sur écran noir pour toute la nuit
+des séances de bols chantants pour méditer
 
-Musique pour la relaxation et le sommeil. Elle ne remplace pas un avis ou un traitement médical. Si vous êtes épileptique, consultez votre médecin avant d'écouter de la musique à fréquences. Ne l'écoutez pas au volant ni en utilisant des machines.
-```
+Je génère les sons avec l'IA, je garde le meilleur et je mixe à la main.
 
----
+Nouvelle musique chaque semaine. Mettez-la doucement, fermez les yeux et bonne nuit.
 
-## Русский (ru)
-
-**Название:**
-```
-Seven Lights — Музыка для исцеления чакр
+C'est de la musique pour se détendre et dormir, pas un traitement médical. En cas d'épilepsie, demandez l'avis d'un médecin. Ne l'écoutez pas en conduisant.
 ```
 
-**Описание:**
-```
-Seven Lights создаёт медленную музыку для исцеления чакр и сна на тёмном экране: один свет и одна частота для каждой из семи чакр.
-
-Каждое видео построено вокруг одной сольфеджио-частоты — 396, 417, 528, 639, 741, 852 или 963 Гц, — которая тихо звучит под поющими чашами, тёплыми дронами и мягкими пэдами, чтобы помочь расслабиться и спокойно спать всю ночь. Без резких звуков. Без рекламы посреди видео.
-
-Новая музыка каждую неделю:
-• 3-часовые сессии для сна, одна частота на каждую чакру
-• Версии на 8–10 часов с чёрным экраном на всю ночь
-• Сессии с поющими чашами для медитации и отдыха
-
-Музыка создаётся с помощью инструментов ИИ, а затем аранжируется, наслаивается и сводится вручную.
-
-Эта музыка предназначена для расслабления и сна. Она не является медицинской консультацией или лечением. Если у вас эпилепсия, перед прослушиванием музыки с частотами посоветуйтесь с врачом. Не слушайте за рулём или при работе с механизмами.
-```
