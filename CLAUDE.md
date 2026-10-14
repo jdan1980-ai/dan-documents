@@ -31,38 +31,7 @@ curl -s "https://www.googleapis.com/youtube/v3/channels?key=$KEY&id=UCMKcrIw1l1u
 curl -s "https://www.googleapis.com/youtube/v3/playlistItems?key=$KEY&playlistId=UUMKcrIw1l1u_WU0M9Cv-DKw&maxResults=50&part=contentDetails" | jq
 ```
 
-### StillWave (`/stillwave`)
-
-YouTube channel — Japanese ambient · meditation · sleep · focus music. Handle: @stillwavezen.
-
-**Pipeline:** Suno AI v5.5 (music) → NanoBanana (image 16:9 + 9:16) → Flow / Kling (video loop) → CapCut + ffmpeg (edit) → Canva MCP (thumbnail).
-
-**Source of truth files:**
-- `stillwave/CLAUDE.md` — project rules + 5 triggers (`SW:`, `SWS:`, `GAP: SW`, `CAL:`, `THUMB:`)
-- `stillwave/published-videos.md` — every published video with stats
-- `stillwave/competitor-tracker.md` — 5 tracked competitors
-- `stillwave/content-ideas.md` — backlog (output of GAP/CAL runs)
-- `stillwave/production-status.md` — pipeline tracker
-
-**Trigger summary** (full spec in `stillwave/CLAUDE.md`):
-- `SW: [тема]` → 11-item long-video package (Suno + Nano + Flow + YouTube copy)
-- `SWS: [тема]` → 11-item Shorts package
-- `GAP: SW` → top 10 unused themes + top 3 recommendations
-- `CAL: [месяц]` → analytics + monthly calendar (4 videos / week)
-- `THUMB: [тема]` → 4 Canva variants
-
-### Seven Lights (`/sevenlights`)
-
-YouTube channel — calm space ambient for sleep & meditation, no vocals, true A = 432 Hz tuning.
-
-**Pipeline:** own synthesizer (PowerShell + C#, `sevenlights/tools/space_ambient_432.ps1`) → 1-min demo WAV → analyzer / click check → long render (`-Hours N`, streamed to disk; RF64 above 4 GB) → MP3.
-
-**Source of truth files:**
-- `sevenlights/CLAUDE.md` — how to render, generator parameters, version history, **lessons learned (read before changing the sound)**, next steps
-- `sevenlights/analysis/references.md` — analysis of reference YouTube tracks
-- `sevenlights/demos/` — best 1-minute demos
-
-#### MANDATORY rules (do not skip)
+#### BrainCatAI MANDATORY rules (do not skip)
 
 **Every time a script is created OR meaningfully edited, ALWAYS update the full SEO Pack — never skip tags.** The user has flagged this as a recurring miss. The SEO Pack must include:
 
@@ -95,6 +64,37 @@ If editing the script's title, scenes, or VO, **re-verify tags reflect the new t
 - VO must work for kids AND adults — no jargon, no scary words. See `style-guide.md` §9 swap table.
 - Scientist/doctor/detective/etc. costume scenes — see `style-guide.md` §2 thematic costumes table. Wardrobe must keep collar + heart tag visible at the V-cut neckline.
 - **Visualize the VO literally — show, don't pose.** If the VO names a concrete thing or action, the visual must literally show it (Brain licking the hair, holographic mother+kitten, thought-bubble of clumsy kitten, etc.). Generic "Brain sits with X expression" wastes Veo 3 credits. See `style-guide.md` §5d for tools (holograms, thought-bubbles, off-frame humans, costumes).
+
+### StillWave (`/stillwave`)
+
+YouTube channel — Japanese ambient · meditation · sleep · focus music. Handle: @stillwavezen.
+
+**Pipeline:** Suno AI v5.5 (music) → NanoBanana (image 16:9 + 9:16) → Flow / Kling (video loop) → CapCut + ffmpeg (edit) → Canva MCP (thumbnail).
+
+**Source of truth files:**
+- `stillwave/CLAUDE.md` — project rules + 5 triggers (`SW:`, `SWS:`, `GAP: SW`, `CAL:`, `THUMB:`)
+- `stillwave/published-videos.md` — every published video with stats
+- `stillwave/competitor-tracker.md` — 5 tracked competitors
+- `stillwave/content-ideas.md` — backlog (output of GAP/CAL runs)
+- `stillwave/production-status.md` — pipeline tracker
+
+**Trigger summary** (full spec in `stillwave/CLAUDE.md`):
+- `SW: [тема]` → 11-item long-video package (Suno + Nano + Flow + YouTube copy)
+- `SWS: [тема]` → 11-item Shorts package
+- `GAP: SW` → top 10 unused themes + top 3 recommendations
+- `CAL: [месяц]` → analytics + monthly calendar (4 videos / week)
+- `THUMB: [тема]` → 4 Canva variants
+
+### Seven Lights (`/sevenlights`)
+
+YouTube channel — calm space ambient for sleep & meditation, no vocals, true A = 432 Hz tuning.
+
+**Pipeline:** own synthesizer (PowerShell + C#, `sevenlights/tools/space_ambient_432.ps1`) → 1-min demo WAV → analyzer / click check → long render (`-Hours N`, streamed to disk; RF64 above 4 GB) → MP3.
+
+**Source of truth files:**
+- `sevenlights/CLAUDE.md` — how to render, generator parameters, version history, **lessons learned (read before changing the sound)**, next steps
+- `sevenlights/analysis/references.md` — analysis of reference YouTube tracks
+- `sevenlights/demos/` — best 1-minute demos
 
 ## Notes
 
