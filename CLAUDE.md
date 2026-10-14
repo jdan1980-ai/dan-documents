@@ -55,7 +55,7 @@ YouTube channel — Japanese ambient · meditation · sleep · focus music. Hand
 
 YouTube channel — calm space ambient for sleep & meditation, no vocals, true A = 432 Hz tuning.
 
-**Pipeline:** own synthesizer (PowerShell + C#, `sevenlights/tools/space_ambient_432.ps1`) → WAV → analyzer / click check → (planned) long render → MP3.
+**Pipeline:** own synthesizer (PowerShell + C#, `sevenlights/tools/space_ambient_432.ps1`) → 1-min demo WAV → analyzer / click check → long render (`-Hours N`, streamed to disk; RF64 above 4 GB) → MP3.
 
 **Source of truth files:**
 - `sevenlights/CLAUDE.md` — how to render, generator parameters, version history, **lessons learned (read before changing the sound)**, next steps
