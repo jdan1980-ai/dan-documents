@@ -44,7 +44,7 @@ This is music for relaxing and sleeping, not medical treatment. If you have epil
 **Ключевые слова канала** (Studio → «Настройки» → «Канал» → «Ключевые слова»):
 
 ```
-chakra healing music, sleep music, chakra healing, 7 chakras, solfeggio frequencies, 528 hz, deep sleep music, meditation music, singing bowls, dark screen sleep music, seven lights
+sleep music, meditation music, chakra healing music, chakra healing, 7 chakra healing music, chakra meditation, 7 chakra meditation, chakra music, black screen sleep music, dark screen sleep music, deep sleep music, solfeggio frequencies, 528 hz healing frequency, 528 hz music, sound healing, aura cleansing, singing bowl sleep, seven lights
 ```
 
 ---
@@ -85,8 +85,36 @@ Music created with AI tools, then arranged and mixed by Seven Lights.
 ## 4. Теги (общий набор)
 
 ```
-chakra healing music, 7 chakra healing music, chakra healing, sleep music, deep sleep music, chakra balancing, sleep meditation music, dark screen sleep music, black screen sleep music, no ads sleep music, singing bowls, tibetan singing bowls, meditation music, calm music, aura cleansing
+chakra healing music, 7 chakra healing music, chakra healing, chakra meditation, chakra music, sleep music, deep sleep music, black screen sleep music, sleep music black screen, dark screen sleep music, meditation music, solfeggio frequencies, solfeggio frequencies healing, sound healing, singing bowl sleep, aura cleansing, seven lights
 ```
+
+**Откуда эти слова** (исследование vidIQ, 13–14 октября 2026; объём — поисков в месяц на YouTube, конкуренция 0–100):
+
+| Запрос | Объём | Конкуренция | Зачем в наборе |
+|---|---|---|---|
+| meditation music | 2,02M | 39 | Крупнейший запрос ниши, конкуренция средняя |
+| sleep music | 1,78M | 37 | Главный запрос про сон |
+| deep sleep music | 619K | 48 | Высокий объём |
+| 528 hz healing frequency | 145K | 44 | Самая искомая частота, конкуренция ниже, чем у «528 hz» (63) |
+| black screen sleep music | 91K | 30 | Лучшее соотношение объёма и конкуренции для формата канала |
+| sound healing | 89K | 47 | Широкая тема, близкая к каналу |
+| solfeggio frequencies | 60K | 64 | Описывает частоты канала; конкуренция высокая, поэтому только в ключевых словах и тегах |
+| chakra meditation | 48K | 44 | Крупнейший запрос про чакры |
+| 7 chakra meditation | 44K | 40 | 69% спроса из Индии |
+| dark screen sleep music | 32K | 46 | Половина спроса из США |
+| 528 hz music | 29K | 36 | Низкая конкуренция |
+| sleep music black screen | 25K | 38 | Вариант того же запроса |
+| chakra healing | 24K | 50 | Ядро темы, спрос за месяц упал на 56% |
+| solfeggio frequencies healing | 20K | 52 | |
+| chakra healing music | 19K | 46 | Хвост названия канала |
+| 7 chakra healing music | 15K | 48 | |
+| aura cleansing | 11K | 47 | Растёт: +45% за месяц |
+| chakra music | 9,5K | 37 | Низкая конкуренция |
+| singing bowl sleep | 7K | 44 | Формат видео 10 |
+
+Сознательно не взяты: «insomnia», «528 hz dna repair» (медицинские обещания), «tibetan singing bowls» и «sleep meditation» (конкуренция 67–69), «aura» и «black screen» без уточнения (слишком общие).
+
+Частоты 396, 417, 639, 741, 852 и 963 Гц отдельно не измерялись; их добавляйте в теги конкретного видео.
 
 К каждому видео добавляйте 3–5 своих: название чакры со словом healing (например `root chakra healing`), частоту (`396 hz`), главный инструмент.
 
@@ -122,7 +150,7 @@ Beatless ambient, no drums, no percussion, no vocals, no lyrics, no sudden chang
 - **Картинка:** `Dark still water at night with a soft orange glow reflected on slow ripples, very dark, no text`
 - **Обложка:** SACRAL · 417 Hz
 
-### 4. Solar Plexus Chakra Healing • Sleep Music for Calm Confidence [528 Hz]
+### 4. Solar Plexus Chakra Healing • 528 Hz Healing Frequency for Deep Sleep
 - **Тон:** 528 Гц · **основа:** E
 - **Звук:** `Warm steady ambient in E, golden soft pads, slow sustained strings pad, medium singing bowls, calm and reassuring.`
 - **Картинка:** `A small warm golden light low on a dark horizon, like the last glow after sunset, dark sky, no text`
@@ -152,13 +180,13 @@ Beatless ambient, no drums, no percussion, no vocals, no lyrics, no sudden chang
 - **Картинка:** `A soft violet-white glow high above dark clouds at night, weightless, very dim, no text`
 - **Обложка:** CROWN · 963 Hz
 
-### 9. Aura Cleansing While You Sleep • 7 Chakra Healing Music [Dark Screen, 8 Hours]
+### 9. Aura Cleansing While You Sleep • 7 Chakra Healing Music [Black Screen, 8 Hours]
 - **Длина:** 8 часов, экран полностью чёрный с первой минуты
 - **Звук:** `Gentle night rain on leaves with soft Tibetan singing bowls every 30–40 seconds, warm low drone, very calm.`
 - **Картинка (только обложка):** `Thin silver outline of a seated figure surrounded by a faint glow, on pure black, minimal, no text`
-- **Обложка:** AURA · 8 HOURS · DARK SCREEN
+- **Обложка:** AURA · 8 HOURS · BLACK SCREEN
 
-### 10. Tibetan Singing Bowls for Sleep • 7 Chakra Healing [Dark Screen, 10 Hours]
+### 10. Tibetan Singing Bowls for Sleep • 7 Chakra Healing [Black Screen, 10 Hours]
 - **Длина:** 10 часов, чёрный экран
 - **Звук:** `Solo Tibetan singing bowls only, seven different pitches from low to high, each struck softly and left to ring fully, long silence between strikes, natural room reverb.`
 - **Картинка (только обложка):** `Seven bronze singing bowls in a row lit by one candle in a dark room, shallow depth of field, no text`
