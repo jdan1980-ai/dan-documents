@@ -21,18 +21,26 @@
 ## 2. Описание канала
 
 ```
-Seven Lights makes slow, dark-screen chakra healing music for sleep — one light for each of the seven chakras.
+Seven Lights makes slow, dark-screen chakra healing music for sleep — one light and one frequency for each of the seven chakras.
 
-Each video is a long, unhurried soundscape — singing bowls, soft drones and warm pads — made to help you wind down and stay asleep. No sudden sounds. No mid-roll ads.
+Every video is built around a single Solfeggio frequency — 396, 417, 528, 639, 741, 852 or 963 Hz — played softly under singing bowls, warm drones and gentle pads, made to help you wind down and stay asleep. No sudden sounds. No mid-roll ads.
 
 New music every week:
-• 3-hour chakra healing sleep sessions, one for each chakra
+• 3-hour chakra healing sleep sessions, one frequency per chakra
 • 8–10 hour dark screen versions for the whole night
 • Singing bowl sessions for meditation and rest
 
 The music on this channel is created with the help of AI tools and then arranged, layered and mixed by hand.
 
-This music is for relaxation and sleep. It is not medical advice or treatment. Please do not listen while driving or operating machinery.
+This music is for relaxation and sleep. It is not medical advice or treatment. If you have epilepsy, check with your doctor before listening to frequency music. Please do not listen while driving or operating machinery.
+```
+
+907 символов при лимите 1000. Частоты названы прямо, потому что каждое видео строится вокруг одной частоты (см. §6, шаг 3).
+
+**Ключевые слова канала** (Studio → «Настройки» → «Канал» → «Ключевые слова»):
+
+```
+chakra healing music, sleep music, chakra healing, 7 chakras, solfeggio frequencies, 528 hz, deep sleep music, meditation music, singing bowls, dark screen sleep music, seven lights
 ```
 
 ---
