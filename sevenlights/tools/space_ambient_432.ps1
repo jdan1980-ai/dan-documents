@@ -1,7 +1,7 @@
 # Космический амбиент в строе A = 432 Гц (без вокала, для сна и медитации)
 # Запуск:  pwsh -File space_ambient_432.ps1 [-Seconds 150] [-Seed 7] [-Out space_ambient_432.wav] [-NoStars] [-NoBowls] [-NoWhales] [-NoPiano] [-NoBinaural] [-Dark] [-Calm]
 #          [-PianoGain 1.0] [-PianoMin 3.5] [-PianoMax 7.5] [-Bright] [-KeyC] [-Hours 0] [-Threads 0] [-TwoPass]
-#          [-Chakra 1] [-Tonic 396]
+#          [-Chakra 1] [-Tonic 396] [-Segments "528,432,396"] [-SegmentFade 30]
 #
 # Трек считается блоками по 10 с и сразу пишется на диск, поэтому длина не ограничена памятью (1–10 ч и больше).
 # Состояние ревербератора и фильтров переносится между блоками: результат тот же, что у прежней версии,
@@ -29,6 +29,8 @@ param(
     [switch]$KeyC,         # до мажор по etalon1: аккорды F → C → Am → G, тёплый бас, тета 5 Гц (без -Dark/-Calm)
     [int]$Chakra = 0,      # пресет чакры: 1 = муладхара (до мажор, как v9; см. sevenlights/CLAUDE.md)
     [double]$Tonic = 0,    # тоника (нота до) в Гц, например 396: вся высота сдвигается, строй перестаёт быть 432
+    [string]$Segments = "",       # части с разной частотой по очереди, например "528,432,396" (432 = строй A = 432, другое — тоника)
+    [double]$SegmentFade = 30,    # длина затухания/появления на стыке частей, с
     [int]$Threads = 0,     # число потоков (0 = все ядра)
     [switch]$TwoPass       # без промежуточного файла: два прохода рендера
 )
@@ -52,6 +54,10 @@ public static class AmbientSynth
     public static int Threads = 0;
     // Высота строя: A4 = 432 Гц; другое значение (через -Tonic) сдвигает все звуковысотные слои
     public static double A4 = 432.0;
+    // Части трека: своя высота строя (A4) у каждой, стыки — затухание одной части поверх появления следующей
+    public static double[] SegA4 = null;
+    public static double SegFade = 30;
+    static double FadeInSec = 10, FadeOutSec = 15;
 
     // ---------- План трека: все случайные события выбираются заранее, в том же порядке, что и раньше ----------
 
@@ -93,10 +99,10 @@ public static class AmbientSynth
 
     static double Note432(double s) { return A4 * Math.Pow(2, s / 12.0); }
 
-    static Plan MakePlan(double seconds, int seed, bool stars_on, bool bowls_on, bool whales_on, bool piano_on, bool binaural_on, bool dark, bool calm, bool keyC)
+    static Plan MakePlan(double seconds, int seed, bool stars_on, bool bowls_on, bool whales_on, bool piano_on, bool binaural_on, bool dark, bool calm, bool keyC, long nSamples = -1)
     {
         var p = new Plan();
-        p.seconds = seconds; p.n = (long)(seconds * SR);
+        p.seconds = seconds; p.n = nSamples >= 0 ? nSamples : (long)(seconds * SR);
         p.stars_on = stars_on; p.bowls_on = bowls_on; p.whales_on = whales_on; p.piano_on = piano_on; p.binaural_on = binaural_on;
         p.dark = dark; p.calm = calm; p.keyC = keyC;
         long n = p.n;
@@ -536,7 +542,7 @@ public static class AmbientSynth
 
         int threads = Threads > 0 ? Threads : Environment.ProcessorCount;
         int padFrom = 0, bowlFrom = 0, callFrom = 0, noteFrom = 0;
-        long fadeIn = 10L * SR, fadeOut = 15L * SR;
+        long fadeIn = (long)(FadeInSec * SR), fadeOut = (long)(FadeOutSec * SR);
         double peak = 1e-9;
         var sw = Stopwatch.StartNew(); double lastLog = 0;
 
@@ -646,11 +652,60 @@ public static class AmbientSynth
 
     static short Pcm(double v, double norm) { return (short)Math.Round(Math.Max(-1, Math.Min(1, v * norm)) * 32767); }
 
+    // Весь трек: одна часть (как раньше) или несколько частей с разной высотой строя (SegA4).
+    // Стык частей: последние SegFade секунд части k (затухание) складываются с первыми SegFade секундами части k+1 (появление).
+    static double RenderAll(double seconds, int seed, bool stars_on, bool bowls_on, bool whales_on, bool piano_on, bool binaural_on, bool dark, bool calm, bool keyC,
+                            Action<double[], double[], int> sink, string label)
+    {
+        if (SegA4 == null || SegA4.Length < 2)
+        {
+            if (SegA4 != null) A4 = SegA4[0];
+            FadeInSec = 10; FadeOutSec = 15;
+            return RenderPass(MakePlan(seconds, seed, stars_on, bowls_on, whales_on, piano_on, binaural_on, dark, calm, keyC), sink, label);
+        }
+        int k = SegA4.Length;
+        long N = (long)(seconds * SR), ov = (long)(SegFade * SR);
+        long segN = (N + (k - 1) * ov) / k;
+        if (segN < 2 * ov + SR) throw new Exception("Части слишком короткие для затухания " + SegFade + " с: увеличьте длину или уменьшите -SegmentFade");
+        double[] outL = new double[Block], outR = new double[Block]; int outCnt = 0;
+        double[] tailL = new double[ov], tailR = new double[ov], nextL = new double[ov], nextR = new double[ov];
+        double peak = 1e-9;
+        Action<double, double> emit = (l, r) =>
+        {
+            outL[outCnt] = l; outR[outCnt] = r; outCnt++;
+            peak = Math.Max(peak, Math.Max(Math.Abs(l), Math.Abs(r)));
+            if (outCnt == Block) { if (sink != null) sink(outL, outR, outCnt); outCnt = 0; }
+        };
+        for (int s = 0; s < k; s++)
+        {
+            long n = s < k - 1 ? segN : N + (k - 1) * ov - (k - 1) * segN;
+            A4 = SegA4[s];
+            FadeInSec = s == 0 ? 10 : SegFade;
+            FadeOutSec = s == k - 1 ? 15 : SegFade;
+            var p = MakePlan((double)n / SR, seed + s, stars_on, bowls_on, whales_on, piano_on, binaural_on, dark, calm, keyC, n);
+            long j = 0;   // позиция внутри части
+            bool first = s == 0, last = s == k - 1;
+            RenderPass(p, (L, R, cnt) =>
+            {
+                for (int i = 0; i < cnt; i++, j++)
+                {
+                    if (!last && j >= n - ov) { nextL[j - (n - ov)] = L[i]; nextR[j - (n - ov)] = R[i]; }   // хвост — сложится со следующей частью
+                    else if (!first && j < ov) emit(L[i] + tailL[j], R[i] + tailR[j]);                      // стык с хвостом предыдущей
+                    else emit(L[i], R[i]);
+                }
+            }, string.Format("{0}, часть {1}/{2} (A4 = {3:F1} Гц)", label, s + 1, k, SegA4[s]));
+            var t = tailL; tailL = nextL; nextL = t; t = tailR; tailR = nextR; nextR = t;
+        }
+        if (outCnt > 0 && sink != null) sink(outL, outR, outCnt);
+        return peak;
+    }
+
     public static void Render(string path, double seconds, int seed, bool stars_on, bool bowls_on, bool whales_on, bool piano_on, bool binaural_on, bool dark, bool calm, bool keyC, bool twoPass)
     {
-        var p = MakePlan(seconds, seed, stars_on, bowls_on, whales_on, piano_on, binaural_on, dark, calm, keyC);
-        long n = p.n;
+        long n = (long)(seconds * SR);
         byte[] pcm = new byte[Block * 4];
+        Func<Action<double[], double[], int>, string, double> pass = (sink, label) =>
+            RenderAll(seconds, seed, stars_on, bowls_on, whales_on, piano_on, binaural_on, dark, calm, keyC, sink, label);
 
         using (var bw = new BinaryWriter(new FileStream(path, FileMode.Create, FileAccess.Write, FileShare.None, 1 << 20)))
         {
@@ -658,10 +713,9 @@ public static class AmbientSynth
             double norm;
             if (twoPass)
             {
-                double peak = RenderPass(p, null, "проход 1/2 (поиск пика)");
+                double peak = pass(null, "проход 1/2 (поиск пика)");
                 norm = 0.63 / peak;   // ≈ −4 дБ: запас, чтобы не перегружать динамики на низах
-                foreach (var w in p.calls) w.samples = null;
-                RenderPass(p, (L, R, cnt) =>
+                pass((L, R, cnt) =>
                 {
                     for (int i = 0; i < cnt; i++)
                     {
@@ -681,7 +735,7 @@ public static class AmbientSynth
                 {
                     using (var fs = new FileStream(tmp, FileMode.Create, FileAccess.Write, FileShare.None, 1 << 20))
                     {
-                        peak = RenderPass(p, (L, R, cnt) =>
+                        peak = pass((L, R, cnt) =>
                         {
                             for (int i = 0; i < cnt; i++) { fb[2 * i] = (float)L[i]; fb[2 * i + 1] = (float)R[i]; }
                             Buffer.BlockCopy(fb, 0, raw, 0, cnt * 8);
@@ -726,14 +780,27 @@ if ($Chakra -eq 1) {
     if (-not $PSBoundParameters.ContainsKey('PianoMax')) { $PianoMax = 6 }
 } elseif ($Chakra -ne 0) { throw "Пресет готов только для -Chakra 1 (муладхара)" }
 
-# -Tonic: сдвиг высоты так, чтобы до совпала с заданной частотой (в ближайшей октаве к C4 = 256.9 Гц, сдвиг не больше ±6 полутонов)
-$a4 = 432.0
-if ($Tonic -gt 0) {
-    $shift = 12 * [math]::Log($Tonic / (432 * [math]::Pow(2, -9 / 12)), 2)
+# Частота -> высота строя A4. 432 = обычный строй A = 432 Гц.
+# Другое значение = тоника: высота сдвигается так, чтобы до совпала с этой частотой
+# (в ближайшей октаве к C4 = 256.9 Гц, сдвиг не больше ±6 полутонов).
+function Get-A4([double]$hz) {
+    if ($hz -eq 432) { "  432 Гц: строй A4 = 432 Гц, C4 = 256.87 Гц"; return 432.0 }
+    $shift = 12 * [math]::Log($hz / (432 * [math]::Pow(2, -9 / 12)), 2)
     while ($shift -gt 6) { $shift -= 12 }
     while ($shift -le -6) { $shift += 12 }
-    $a4 = 432 * [math]::Pow(2, $shift / 12)
-    "Тоника: C4 = $([math]::Round($a4 * [math]::Pow(2, -9 / 12), 2)) Гц, сдвиг $([math]::Round($shift, 2)) полутона, A4 = $([math]::Round($a4, 2)) Гц (строй уже не 432)"
+    $r = 432 * [math]::Pow(2, $shift / 12)
+    "  $hz Гц: тоника C4 = $([math]::Round($r * [math]::Pow(2, -9 / 12), 2)) Гц, сдвиг $([math]::Round($shift, 2)) полутона, A4 = $([math]::Round($r, 2)) Гц"
+    return $r
+}
+$a4 = 432.0
+$segA4 = $null
+if ($Segments) {
+    $hzList = $Segments -split '[,; ]+' | Where-Object { $_ } | ForEach-Object { [double]$_ }
+    "Части ($($hzList.Count)), стык $SegmentFade с:"
+    $list = foreach ($hz in $hzList) { if ($hz -le 0) { throw "Частота части должна быть больше 0: $hz" }; $res = Get-A4 $hz; Write-Host $res[0]; $res[-1] }
+    $segA4 = [double[]]@($list)
+} elseif ($Tonic -gt 0) {
+    $res = Get-A4 $Tonic; $res[0..($res.Count - 2)]; $a4 = $res[-1]
 }
 $path = [IO.Path]::GetFullPath($Out, (Get-Location).Path)
 $wavGb = $Seconds * 44100 * 4 / 1GB
@@ -747,5 +814,7 @@ $sw = [Diagnostics.Stopwatch]::StartNew()
 [AmbientSynth]::Bright = [bool]$Bright
 [AmbientSynth]::Threads = $Threads
 [AmbientSynth]::A4 = $a4
+[AmbientSynth]::SegA4 = $segA4
+[AmbientSynth]::SegFade = $SegmentFade
 [AmbientSynth]::Render($path, $Seconds, $Seed, -not $NoStars, -not $NoBowls, -not $NoWhales, -not $NoPiano, -not $NoBinaural, [bool]($Dark -or $Calm), [bool]$Calm, [bool]$KeyC, [bool]$TwoPass)
 "Готово: $path ($([TimeSpan]::FromSeconds($sw.Elapsed.TotalSeconds).ToString('h\:mm\:ss')))"
