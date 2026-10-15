@@ -1,6 +1,7 @@
 # Космический амбиент в строе A = 432 Гц (без вокала, для сна и медитации)
 # Запуск:  pwsh -File space_ambient_432.ps1 [-Seconds 150] [-Seed 7] [-Out space_ambient_432.wav] [-NoStars] [-NoBowls] [-NoWhales] [-NoPiano] [-NoBinaural] [-Dark] [-Calm]
 #          [-PianoGain 1.0] [-PianoMin 3.5] [-PianoMax 7.5] [-Bright] [-KeyC] [-Hours 0] [-Threads 0] [-TwoPass]
+#          [-Chakra 1] [-Tonic 396]
 #
 # Трек считается блоками по 10 с и сразу пишется на диск, поэтому длина не ограничена памятью (1–10 ч и больше).
 # Состояние ревербератора и фильтров переносится между блоками: результат тот же, что у прежней версии,
@@ -26,6 +27,8 @@ param(
     [double]$PianoMax = 7.5,
     [switch]$Bright,       # чуть светлее: ярче пэды, верх открыт до ~3.5 кГц
     [switch]$KeyC,         # до мажор по etalon1: аккорды F → C → Am → G, тёплый бас, тета 5 Гц (без -Dark/-Calm)
+    [int]$Chakra = 0,      # пресет чакры: 1 = муладхара (до мажор, как v9; см. sevenlights/CLAUDE.md)
+    [double]$Tonic = 0,    # тоника (нота до) в Гц, например 396: вся высота сдвигается, строй перестаёт быть 432
     [int]$Threads = 0,     # число потоков (0 = все ядра)
     [switch]$TwoPass       # без промежуточного файла: два прохода рендера
 )
@@ -47,6 +50,8 @@ public static class AmbientSynth
     public static double PianoGain = 1.0, PianoMin = 3.5, PianoMax = 7.5;
     public static bool Bright = false;
     public static int Threads = 0;
+    // Высота строя: A4 = 432 Гц; другое значение (через -Tonic) сдвигает все звуковысотные слои
+    public static double A4 = 432.0;
 
     // ---------- План трека: все случайные события выбираются заранее, в том же порядке, что и раньше ----------
 
@@ -86,7 +91,7 @@ public static class AmbientSynth
         new double[] { -26, -19, -10, -5, -2 },  // G6:    G2 D3 B3 E4 G4
     };
 
-    static double Note432(double s) { return 432.0 * Math.Pow(2, s / 12.0); }
+    static double Note432(double s) { return A4 * Math.Pow(2, s / 12.0); }
 
     static Plan MakePlan(double seconds, int seed, bool stars_on, bool bowls_on, bool whales_on, bool piano_on, bool binaural_on, bool dark, bool calm, bool keyC)
     {
@@ -220,7 +225,7 @@ public static class AmbientSynth
         // 8. Бинауральные биения: светлый — альфа 10 Гц от A3 = 216 Гц; тёмный — альфа 10 Гц от Ab3;
         // спокойный и до мажор — тета 5 Гц от C4 ≈ 256.9 Гц
         bool soft = calm || keyC;
-        p.carrier = soft ? note(-9) : dark ? note(-13) : 216.0;
+        p.carrier = soft ? note(-9) : dark ? note(-13) : A4 / 2;
         p.beatHz = soft ? 5.0 : 10.0; p.binLvl = soft ? 0.025 : 0.035;
         return p;
     }
@@ -251,7 +256,7 @@ public static class AmbientSynth
             {
                 double t = (double)(g0 + i) / SR;
                 double breath = 0.8 + 0.2 * Math.Sin(TAU * t / 40.0);
-                double s = breath * (0.30 * Math.Sin(TAU * 54.0 * t) + 0.15 * Math.Sin(TAU * 108.0 * t + 1.3));
+                double s = breath * (0.30 * Math.Sin(TAU * (A4 / 8) * t) + 0.15 * Math.Sin(TAU * (A4 / 4) * t + 1.3));
                 L[off + i] += s; R[off + i] += s;
             }
         }
@@ -274,7 +279,9 @@ public static class AmbientSynth
                     else if (u < seg + xf) env = 0.5 + 0.5 * Math.Cos(Math.PI * (u - seg) / xf);
                     else env = 0;
                     if (q == 0 && u < xf) env = 1;   // первая нота звучит сразу (общее появление трека и так плавное)
-                    double f = 54.0 * Math.Pow(2, p.bass[q % p.bass.Length] / 12.0);
+                    double f = A4 / 8 * Math.Pow(2, p.bass[q % p.bass.Length] / 12.0);
+                    // При сдвиге строя вниз бас не уходит в суб-бас: нота ниже 50 Гц поднимается на октаву
+                    if (A4 != 432.0) while (f < 50) f *= 2;
                     // Суб-бас умеренный: при 0.65 небольшие динамики/наушники хрипели ("как пластинка")
                     s += env * (p.fundLvl * Math.Sin(TAU * f * t) + p.octLvl * Math.Sin(TAU * 2 * f * t + 1.3));
                 }
@@ -707,7 +714,28 @@ public static class AmbientSynth
 "@
 
 if ($Hours -gt 0) { $Seconds = $Hours * 3600 }
-$path = Join-Path (Get-Location) $Out
+
+# Пресеты чакр. Явно заданные параметры не перезаписываются.
+if ($Chakra -eq 1) {
+    # Муладхара: до мажор, тёплый бас без суб-баса, тета 5 Гц — звук v9
+    $KeyC = $true
+    if (-not $PSBoundParameters.ContainsKey('NoStars')) { $NoStars = $true }
+    if (-not $PSBoundParameters.ContainsKey('NoBowls')) { $NoBowls = $true }
+    if (-not $PSBoundParameters.ContainsKey('PianoGain')) { $PianoGain = 2.4 }
+    if (-not $PSBoundParameters.ContainsKey('PianoMin')) { $PianoMin = 3 }
+    if (-not $PSBoundParameters.ContainsKey('PianoMax')) { $PianoMax = 6 }
+} elseif ($Chakra -ne 0) { throw "Пресет готов только для -Chakra 1 (муладхара)" }
+
+# -Tonic: сдвиг высоты так, чтобы до совпала с заданной частотой (в ближайшей октаве к C4 = 256.9 Гц, сдвиг не больше ±6 полутонов)
+$a4 = 432.0
+if ($Tonic -gt 0) {
+    $shift = 12 * [math]::Log($Tonic / (432 * [math]::Pow(2, -9 / 12)), 2)
+    while ($shift -gt 6) { $shift -= 12 }
+    while ($shift -le -6) { $shift += 12 }
+    $a4 = 432 * [math]::Pow(2, $shift / 12)
+    "Тоника: C4 = $([math]::Round($a4 * [math]::Pow(2, -9 / 12), 2)) Гц, сдвиг $([math]::Round($shift, 2)) полутона, A4 = $([math]::Round($a4, 2)) Гц (строй уже не 432)"
+}
+$path = [IO.Path]::GetFullPath($Out, (Get-Location).Path)
 $wavGb = $Seconds * 44100 * 4 / 1GB
 "Длина: $([TimeSpan]::FromSeconds($Seconds).ToString('h\:mm\:ss')), WAV ≈ $([math]::Round($wavGb, 2)) ГБ" +
     $(if ($TwoPass) { ", два прохода" } else { ", промежуточный файл ≈ $([math]::Round(2 * $wavGb, 2)) ГБ" }) +
@@ -718,5 +746,6 @@ $sw = [Diagnostics.Stopwatch]::StartNew()
 [AmbientSynth]::PianoMax = $PianoMax
 [AmbientSynth]::Bright = [bool]$Bright
 [AmbientSynth]::Threads = $Threads
+[AmbientSynth]::A4 = $a4
 [AmbientSynth]::Render($path, $Seconds, $Seed, -not $NoStars, -not $NoBowls, -not $NoWhales, -not $NoPiano, -not $NoBinaural, [bool]($Dark -or $Calm), [bool]$Calm, [bool]$KeyC, [bool]$TwoPass)
 "Готово: $path ($([TimeSpan]::FromSeconds($sw.Elapsed.TotalSeconds).ToString('h\:mm\:ss')))"
