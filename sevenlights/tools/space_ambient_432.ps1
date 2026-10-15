@@ -1,7 +1,7 @@
 # Космический амбиент в строе A = 432 Гц (без вокала, для сна и медитации)
 # Запуск:  pwsh -File space_ambient_432.ps1 [-Seconds 150] [-Seed 7] [-Out space_ambient_432.wav] [-NoStars] [-NoBowls] [-NoWhales] [-NoPiano] [-NoBinaural] [-Dark] [-Calm]
 #          [-PianoGain 1.0] [-PianoMin 3.5] [-PianoMax 7.5] [-Bright] [-KeyC] [-Hours 0] [-Threads 0] [-TwoPass]
-#          [-Chakra 1] [-Tonic 396] [-Segments "528,432,396"] [-SegmentFade 30]
+#          [-Celestial] [-Chakra 1] [-Tonic 396] [-Segments "528,432,396"] [-SegmentFade 30]
 #
 # Трек считается блоками по 10 с и сразу пишется на диск, поэтому длина не ограничена памятью (1–10 ч и больше).
 # Состояние ревербератора и фильтров переносится между блоками: результат тот же, что у прежней версии,
@@ -27,6 +27,7 @@ param(
     [double]$PianoMax = 7.5,
     [switch]$Bright,       # чуть светлее: ярче пэды, верх открыт до ~3.5 кГц
     [switch]$KeyC,         # до мажор по etalon1: аккорды F → C → Am → G, тёплый бас, тета 5 Гц (без -Dark/-Calm)
+    [switch]$Celestial,    # по эталону Celestial Spirit: ре минор Dm → Bb → C → Am, тёмный (верх до 1.1 кГц), широкое стерео, пульсация 1 Гц
     [int]$Chakra = 0,      # пресет чакры: 1 = муладхара (до мажор, как v9; см. sevenlights/CLAUDE.md)
     [double]$Tonic = 0,    # тоника (нота до) в Гц, например 396: вся высота сдвигается, строй перестаёт быть 432
     [string]$Segments = "",       # части с разной частотой по очереди, например "528,432,396" (432 = строй A = 432, другое — тоника)
@@ -57,6 +58,12 @@ public static class AmbientSynth
     // Части трека: своя высота строя (A4) у каждой, стыки — затухание одной части поверх появления следующей
     public static double[] SegA4 = null;
     public static double SegFade = 30;
+    // Настройки пресета -Celestial (по умолчанию выключены: прежние пресеты не меняются)
+    public static int ChordSet = 0;              // 0 = до мажор, 1 = ре минор
+    public static bool WidePads = false;         // голоса пэдов разведены по каналам: L и R почти независимы
+    public static double LowPassHz = 0;          // срез верхов для пресета с аккордами (0 = 3500 Гц, как у до мажора)
+    public static double PulseHz = 0, PulseDepth = 0;   // мягкая пульсация громкости (изохронный ритм)
+    public static double BassDetune = 0;         // бас слева ниже, справа выше на эту долю (0.005 = ±0.5%): широкий бас, медленные биения
     static double FadeInSec = 10, FadeOutSec = 15;
 
     // ---------- План трека: все случайные события выбираются заранее, в том же порядке, что и раньше ----------
@@ -97,6 +104,14 @@ public static class AmbientSynth
         new double[] { -26, -19, -10, -5, -2 },  // G6:    G2 D3 B3 E4 G4
     };
 
+    // Ре минор (по эталону Celestial Spirit: сильнейшие ноты A, Bb, C, D)
+    static readonly double[][] ChordsDm = {
+        new double[] { -19, -12, -9, -5, -4 },   // Dm9:    D3 A3 C4 E4 F4
+        new double[] { -23, -16, -12, -7, -4 },  // Bbmaj7: Bb2 F3 A3 D4 F4
+        new double[] { -21, -14, -7, -5, -2 },   // Cadd9:  C3 G3 D4 E4 G4
+        new double[] { -24, -17, -14, -9, -5 },  // Am7:    A2 E3 G3 C4 E4
+    };
+
     static double Note432(double s) { return A4 * Math.Pow(2, s / 12.0); }
 
     static Plan MakePlan(double seconds, int seed, bool stars_on, bool bowls_on, bool whales_on, bool piano_on, bool binaural_on, bool dark, bool calm, bool keyC, long nSamples = -1)
@@ -110,9 +125,9 @@ public static class AmbientSynth
         Func<double, double> note = Note432;
 
         // 1. Бас: медленная басовая линия (тёмный / спокойный / до мажор), полутоны от A1 = 54 Гц
-        p.bass = keyC ? new double[] { 8, 3, 0, 10 } : calm ? new double[] { 11, 6 } : new double[] { -1, 1, 3, -2 };
+        p.bass = keyC ? (ChordSet == 1 ? new double[] { 5, 1, 3, 0 } : new double[] { 8, 3, 0, 10 }) : calm ? new double[] { 11, 6 } : new double[] { -1, 1, 3, -2 };
         p.seg = keyC ? ChordSeg : calm ? 20.0 : 16.0; p.xf = keyC ? ChordXf : calm ? 7.0 : 5.0;
-        p.fundLvl = keyC ? 0.45 : calm ? 0.35 : 0.40; p.octLvl = keyC ? 0.28 : calm ? 0.12 : 0.24;
+        p.fundLvl = keyC ? (ChordSet == 1 ? 0.30 : 0.45) : calm ? 0.35 : 0.40; p.octLvl = keyC ? (ChordSet == 1 ? 0.30 : 0.28) : calm ? 0.12 : 0.24;
 
         // 2. Пэды
         double[] pad = calm ? new double[] { -25, -18, -13, -9, -6, 1 }
@@ -123,7 +138,8 @@ public static class AmbientSynth
         {
             for (int k = 0; k * ChordSeg < seconds; k++)
             {
-                var chord = Chords[k % Chords.Length];
+                var table = ChordSet == 1 ? ChordsDm : Chords;
+                var chord = table[k % table.Length];
                 long i0 = (long)(k * ChordSeg * SR), i1 = Math.Min(n, (long)(((k + 1) * ChordSeg + ChordXf) * SR));
                 foreach (double semi in chord)
                 {
@@ -135,6 +151,13 @@ public static class AmbientSynth
                         var pv = new PadVoice { chord = true, k = k, i0 = i0, i1 = i1, level = level, ampPeriod = ampPeriod, ampPhase = ampPhase };
                         pv.fv = f * Math.Pow(2, v * 5 / 1200.0);
                         pv.panL = Math.Sqrt(0.5 - v * 0.3); pv.panR = Math.Sqrt(0.5 + v * 0.3);
+                        if (WidePads)
+                        {
+                            // Крайние голоса (−5 и +5 центов) — каждый только в своём канале, средний тише:
+                            // каналы почти независимы, стерео очень широкое (как у эталона, корреляция L/R ≈ 0)
+                            pv.panL = v < 0 ? 1 : v == 0 ? 0.35 : 0;
+                            pv.panR = v > 0 ? 1 : v == 0 ? 0.35 : 0;
+                        }
                         pv.ph0 = rnd.NextDouble() * TAU;
                         p.pads.Add(pv);
                     }
@@ -212,9 +235,10 @@ public static class AmbientSynth
 
         // 6. "Фетровое" фортепиано: редкие ноты пентатоники, мелодия ходит маленькими шагами
         // светлый: A3 C4 D4 E4 G4 A4 C5 E5;  тёмный: Ab3 Bb3 C4 Eb4 F4 Ab4 Bb4 C5;  до мажор: C4 D4 E4 G4 A4 C5 D5 E5
-        double[] scale = keyC ? new double[] { -9, -7, -5, -2, 0, 3, 5, 7 }
+        // ре минор: ре-минорная пентатоника A3 C4 D4 F4 G4 A4 C5 D5
+        double[] scale = keyC ? (ChordSet == 1 ? new double[] { -12, -9, -7, -4, -2, 0, 3, 5 } : new double[] { -9, -7, -5, -2, 0, 3, 5, 7 })
                        : dark ? new double[] { -13, -11, -9, -6, -4, -1, 1, 3 } : new double[] { -12, -9, -7, -5, -2, 0, 3, 7 };
-        double pianoTop = keyC ? 4000 : calm ? (Bright ? 4000 : 3000) : dark ? 1500 : 5000;
+        double pianoTop = keyC ? (ChordSet == 1 ? 1500 : 4000) : calm ? (Bright ? 4000 : 3000) : dark ? 1500 : 5000;
         int pos = 4;
         double tn = 8.0;
         while (piano_on && tn < seconds - 12)
@@ -231,7 +255,7 @@ public static class AmbientSynth
         // 8. Бинауральные биения: светлый — альфа 10 Гц от A3 = 216 Гц; тёмный — альфа 10 Гц от Ab3;
         // спокойный и до мажор — тета 5 Гц от C4 ≈ 256.9 Гц
         bool soft = calm || keyC;
-        p.carrier = soft ? note(-9) : dark ? note(-13) : A4 / 2;
+        p.carrier = soft ? note(keyC && ChordSet == 1 ? -7 : -9) : dark ? note(-13) : A4 / 2;
         p.beatHz = soft ? 5.0 : 10.0; p.binLvl = soft ? 0.025 : 0.035;
         return p;
     }
@@ -275,7 +299,7 @@ public static class AmbientSynth
                 double t = (double)(g0 + i) / SR;
                 double breath = 0.85 + 0.15 * Math.Sin(TAU * t / 12.0);   // "дыхание" ~12 с, как у эталона
                 int j = (int)(t / seg);
-                double s = 0;
+                double s = 0, sR = 0;
                 for (int q = j - 1; q <= j; q++)
                 {
                     if (q < 0) continue;
@@ -289,10 +313,18 @@ public static class AmbientSynth
                     // При сдвиге строя вниз бас не уходит в суб-бас: нота ниже 50 Гц поднимается на октаву
                     if (A4 != 432.0) while (f < 50) f *= 2;
                     // Суб-бас умеренный: при 0.65 небольшие динамики/наушники хрипели ("как пластинка")
-                    s += env * (p.fundLvl * Math.Sin(TAU * f * t) + p.octLvl * Math.Sin(TAU * 2 * f * t + 1.3));
+                    if (BassDetune > 0)
+                    {
+                        // Широкий бас: слева чуть ниже, справа чуть выше — медленные биения ~0.5 Гц, высота ровная
+                        double fl = f * (1 - BassDetune), fr = f * (1 + BassDetune);
+                        s += env * (p.fundLvl * Math.Sin(TAU * fl * t) + p.octLvl * Math.Sin(TAU * 2 * fl * t + 1.3));
+                        sR += env * (p.fundLvl * Math.Sin(TAU * fr * t) + p.octLvl * Math.Sin(TAU * 2 * fr * t + 1.3));
+                    }
+                    else s += env * (p.fundLvl * Math.Sin(TAU * f * t) + p.octLvl * Math.Sin(TAU * 2 * f * t + 1.3));
                 }
                 s *= breath;
-                L[off + i] += s; R[off + i] += s;
+                if (BassDetune > 0) { sR *= breath; L[off + i] += s; R[off + i] += sR; }
+                else { L[off + i] += s; R[off + i] += s; }
             }
         }
 
@@ -536,7 +568,7 @@ public static class AmbientSynth
         LowPass lpL = null, lpR = null; HighPass hpL = null, hpR = null;
         // до мажор: тёплый бас без суб-баса, верх до ~3.5 кГц; спокойный: верх ~2.5 (3.5) кГц, всё ниже ~65 Гц убрано;
         // тёмный: срез верхов ~1100 Гц, как у эталона, где выше 1 кГц почти ничего нет
-        if (p.keyC) { lpL = new LowPass(3500); lpR = new LowPass(3500); hpL = new HighPass(45); hpR = new HighPass(45); }
+        if (p.keyC) { double lp = LowPassHz > 0 ? LowPassHz : 3500; lpL = new LowPass(lp); lpR = new LowPass(lp); hpL = new HighPass(45); hpR = new HighPass(45); }
         else if (p.calm) { double lp = Bright ? 3500 : 2500; lpL = new LowPass(lp); lpR = new LowPass(lp); hpL = new HighPass(65); hpR = new HighPass(65); }
         else if (p.dark) { lpL = new LowPass(1100); lpR = new LowPass(1100); }
 
@@ -591,6 +623,9 @@ public static class AmbientSynth
                 (c == 0 ? revL : revR).Process(x, cnt);
                 var lp = c == 0 ? lpL : lpR; if (lp != null) lp.Process(x, cnt);
                 var hp = c == 0 ? hpL : hpR; if (hp != null) hp.Process(x, cnt);
+                // Мягкая пульсация громкости (изохронный ритм, слышен и в колонках)
+                if (PulseDepth > 0)
+                    for (int i = 0; i < cnt; i++) { double t = (double)(g0 + i) / SR; x[i] *= 1 - PulseDepth * (0.5 + 0.5 * Math.Sin(TAU * PulseHz * t)); }
                 // Бинауральные биения (только в наушниках) — после реверберации, чтобы каналы не смешивались
                 if (p.binaural_on)
                 {
@@ -780,6 +815,18 @@ if ($Chakra -eq 1) {
     if (-not $PSBoundParameters.ContainsKey('PianoMax')) { $PianoMax = 6 }
 } elseif ($Chakra -ne 0) { throw "Пресет готов только для -Chakra 1 (муладхара)" }
 
+# Пресет по эталону Celestial Spirit: ре минор, тёмный (верх до 1.4 кГц), широкое стерео и бас, пульсация 1 Гц, ноты раз в 5–9 с
+$celestialSet = @{ ChordSet = 0; WidePads = $false; LowPassHz = 0; PulseHz = 0; PulseDepth = 0; BassDetune = 0 }
+if ($Celestial) {
+    $KeyC = $true
+    $celestialSet = @{ ChordSet = 1; WidePads = $true; LowPassHz = 1400; PulseHz = 1.0; PulseDepth = 0.12; BassDetune = 0.005 }
+    if (-not $PSBoundParameters.ContainsKey('NoStars')) { $NoStars = $true }
+    if (-not $PSBoundParameters.ContainsKey('NoBowls')) { $NoBowls = $true }
+    if (-not $PSBoundParameters.ContainsKey('PianoGain')) { $PianoGain = 3.0 }
+    if (-not $PSBoundParameters.ContainsKey('PianoMin')) { $PianoMin = 5 }
+    if (-not $PSBoundParameters.ContainsKey('PianoMax')) { $PianoMax = 9 }
+}
+
 # Частота -> высота строя A4. 432 = обычный строй A = 432 Гц.
 # Другое значение = тоника: высота сдвигается так, чтобы до совпала с этой частотой
 # (в ближайшей октаве к C4 = 256.9 Гц, сдвиг не больше ±6 полутонов).
@@ -816,5 +863,6 @@ $sw = [Diagnostics.Stopwatch]::StartNew()
 [AmbientSynth]::A4 = $a4
 [AmbientSynth]::SegA4 = $segA4
 [AmbientSynth]::SegFade = $SegmentFade
+foreach ($k in $celestialSet.Keys) { [AmbientSynth]::$k = $celestialSet[$k] }
 [AmbientSynth]::Render($path, $Seconds, $Seed, -not $NoStars, -not $NoBowls, -not $NoWhales, -not $NoPiano, -not $NoBinaural, [bool]($Dark -or $Calm), [bool]$Calm, [bool]$KeyC, [bool]$TwoPass)
 "Готово: $path ($([TimeSpan]::FromSeconds($sw.Elapsed.TotalSeconds).ToString('h\:mm\:ss')))"
