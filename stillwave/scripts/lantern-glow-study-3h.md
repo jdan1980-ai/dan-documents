@@ -146,6 +146,113 @@ focus music, study music, deep focus music, ambient music, work music, productiv
 Andon Lantern Focus — 3 Hours Quiet Study Music for Coding & Writing
 ```
 
+## 13. 🌍 Translations (YouTube Studio → Subtitles → Title & description)
+
+> Rules + keyword bank: `../localization.md`.
+
+| Lang | Title |
+|------|-------|
+| ja | 静かな勉強用BGM — 行灯の灯りで集中 \| 3時間 深夜の勉強・読書・執筆 |
+| es | Música para Estudiar — Luz de Linterna Japonesa \| 3H para Estudiar, Leer y Escribir |
+| pt-BR | Música para Estudar — Luz de Lanterna Japonesa \| 3H para Estudar, Ler e Escrever |
+| ko | 조용한 공부할때 듣는 음악 — 종이 등불 아래에서 \| 3시간 밤샘 공부 · 독서 · 글쓰기 |
+| de | Ruhige Musik zum Lernen — Laternenlicht bei Nacht \| 3 Std. Lernen, Lesen & Schreiben |
+| fr | Musique pour Étudier — Lueur de Lanterne Japonaise \| 3H pour Réviser, Lire et Écrire |
+| ru | Тихая музыка для учёбы — Свет бумажного фонаря \| 3 часа для учёбы, чтения и письма |
+| id | Musik untuk Belajar — Cahaya Lentera Jepang \| 3 Jam Belajar, Membaca & Menulis |
+
+**Descriptions:**
+
+```
+[ja]
+🏮 ひとつの行灯、遠くの山々、考えるための3時間の静けさ。
+
+じっくり長く勉強するための3時間の勉強用BGM。アンビエントの持続音に繊細なピアノが重なり、2分ごとに尺八がひと息。リズムも盛り上がりもなく、紙とインクと灯りの静かな時間だけが流れます。
+
+おすすめ:深夜の勉強・読書/長時間の執筆/静かな時間のプログラミング/リサーチ・ノート作り/作業の合間の瞑想
+
+▶ チャンネル登録で、毎週新しい行灯・茶室・盆栽デスクの作業用BGMをお届けします。
+
+#勉強用BGM #作業用BGM #studywithme #focusmusic
+
+[es]
+🏮 Una sola lámpara de papel. Montañas a lo lejos. Tres horas de silencio para pensar.
+
+3 horas de música para estudiar con calma: un drone ambiental suave bajo notas delicadas de piano y una respiración de shakuhachi cada dos minutos. Sin ritmo, sin subidas — solo papel, tinta y luz de linterna.
+
+Ideal para: estudiar y leer de noche · sesiones largas de escritura · programar en silencio · investigar y tomar apuntes · meditar entre bloques de trabajo
+
+▶ Suscríbete para nuevas sesiones de linterna, casa de té y bonsái cada semana.
+
+#musicaparaestudiar #musicaparaconcentrarse #studywithme #focusmusic
+
+[pt-BR]
+🏮 Uma única lanterna de papel. Montanhas ao longe. Três horas de silêncio para pensar.
+
+3 horas de música para estudar com calma: um drone ambiente suave sob notas delicadas de piano e um sopro de shakuhachi a cada dois minutos. Sem ritmo, sem viradas — só papel, tinta e a luz da lanterna.
+
+Perfeito para: estudar e ler à noite · longas sessões de escrita · programar em silêncio · pesquisa e anotações · meditar entre blocos de trabalho
+
+▶ Inscreva-se para novas sessões de lanterna, casa de chá e bonsai toda semana.
+
+#musicaparaestudar #musicaparaconcentracao #studywithme #focusmusic
+
+[ko]
+🏮 종이 등불 하나, 멀리 보이는 산, 생각하기 위한 세 시간의 고요.
+
+길고 차분하게 공부하기 위한 3시간 공부 음악. 잔잔한 앰비언트 드론 위로 섬세한 피아노가 흐르고, 2분마다 샤쿠하치 숨소리가 한 번. 리듬도, 고조되는 부분도 없이 종이와 잉크, 등불의 조용한 시간만 이어집니다.
+
+추천: 밤 공부 · 독서 · 긴 글쓰기 · 조용한 코딩 · 리서치와 필기 · 작업 사이 명상
+
+▶ 구독하시면 매주 새로운 등불 · 다실 · 분재 책상 세션을 들으실 수 있어요.
+
+#공부할때듣는음악 #집중음악 #studywithme #focusmusic
+
+[de]
+🏮 Eine einzelne Papierlaterne. Ferne Berge. Drei Stunden Stille zum Nachdenken.
+
+3 Stunden Musik zum Lernen für lange, ruhige Sessions: ein sanfter Ambient-Drone unter zarten Klaviertönen, alle zwei Minuten ein Atemzug der Shakuhachi-Flöte. Kein Rhythmus, keine Steigerungen — nur Papier, Tinte und Laternenlicht.
+
+Ideal zum: Lernen & Lesen am Abend · langen Schreibsessions · Programmieren in der Stille · Recherchieren & Notizen machen · Meditieren zwischen Arbeitsblöcken
+
+▶ Abonniere den Kanal für neue Laternen-, Teehaus- und Bonsai-Sessions jede Woche.
+
+#musikzumlernen #konzentrationsmusik #studywithme #focusmusic
+
+[fr]
+🏮 Une seule lanterne en papier. Des montagnes au loin. Trois heures de calme pour réfléchir.
+
+3 heures de musique pour étudier longuement et sereinement : un drone ambient doux sous de délicates notes de piano, et un souffle de shakuhachi toutes les deux minutes. Pas de rythme, pas de montée — juste le papier, l'encre et la lueur de la lanterne.
+
+Idéal pour : réviser et lire le soir · les longues sessions d'écriture · coder au calme · la recherche et la prise de notes · méditer entre deux sessions de travail
+
+▶ Abonnez-vous pour de nouvelles sessions lanterne, maison de thé et bonsaï chaque semaine.
+
+#musiquepouretudier #musiqueconcentration #studywithme #focusmusic
+
+[ru]
+🏮 Один бумажный фонарь. Далёкие горы. Три часа тишины, чтобы подумать.
+
+3 часа музыки для долгой и спокойной учёбы: мягкий эмбиент-дрон под нежные ноты фортепиано и дыхание флейты сякухати раз в две минуты. Без ритма и нарастаний — только бумага, чернила и свет фонаря.
+
+Подходит для: учёбы и чтения вечером · долгих сессий письма · программирования в тишине · исследований и конспектов · медитации между рабочими блоками
+
+▶ Подписывайтесь — новые сессии с фонарём, чайным домиком и бонсаем каждую неделю.
+
+#музыкадляучебы #музыкадляконцентрации #studywithme #focusmusic
+
+[id]
+🏮 Satu lentera kertas. Pegunungan di kejauhan. Tiga jam keheningan untuk berpikir.
+
+3 jam musik belajar untuk sesi panjang yang tenang: drone ambient lembut di bawah denting piano yang halus, dengan satu tiupan seruling shakuhachi setiap dua menit. Tanpa ritme, tanpa klimaks — hanya kertas, tinta, dan cahaya lentera.
+
+Cocok untuk: belajar & membaca malam hari · sesi menulis panjang · coding dalam hening · riset & mencatat · meditasi di sela pekerjaan
+
+▶ Subscribe untuk sesi lentera, rumah teh, dan meja bonsai baru setiap minggu.
+
+#musikbelajar #musikfokus #studywithme #focusmusic
+```
+
 ---
 
 ## Post-publish metrics

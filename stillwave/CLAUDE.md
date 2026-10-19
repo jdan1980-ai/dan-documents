@@ -205,7 +205,8 @@ StillWave — Lantern Glow Focus | 3H Late Night Coding
 - **Photorealistic cinematic** style (NOT sumi-e / illustration)
 - **No text on thumbnail image** — the title handles itself in YouTube UI
 - **No glow / effects on text anywhere** — plain solid colors only when text is needed
-- **All YouTube copy in English** (descriptions, titles, tags, hashtags)
+- **Default YouTube copy in English** (descriptions, titles, tags, hashtags, pinned comment)
+- **Every long-form video also gets localized title + short description** in 8 languages (ja, es, pt-BR, ko, de, fr, ru, id), added via YouTube Studio → Subtitles → Title & description — never as a multi-language wall in the main description. Rules, keyword bank and channel About translations: `localization.md`
 
 ---
 
@@ -221,7 +222,7 @@ When the user types one of these in chat, follow the trigger spec exactly.
 2. Search top 3 competitor videos on the same topic
 3. Identify content gap before proceeding
 
-**Deliver this 11-item package:**
+**Deliver this 12-item package:**
 
 1. **Suno Prompt A** — Style field (instruments / atmosphere / BPM + locked tail)
 2. **Suno Prompt B** — Lyrics field ([no lyrics, no vocals, instrumental only] + scene structure)
@@ -234,12 +235,13 @@ When the user types one of these in chat, follow the trigger spec exactly.
 9. **Hashtags** (3-5)
 10. **Pinned Comment** (subscription CTA + engagement question)
 11. **A/B Title Variant**
+12. **🌍 Translations** — title + short description in 8 languages per `localization.md` (native keyword first, not literal translation)
 
 ### `SWS: [тема]` → SHORTS package
 
 **Pre-production:** Google Trends + competitor Shorts check, identify gap.
 
-**Deliver this 11-item package:**
+**Deliver this 11-item package** (no translations for Shorts — long-form only):
 
 1. **Concept & Hook** (first 2 seconds)
 2. **NanoBanana prompt 9:16** (vertical, 4K, hybrid aesthetic)
@@ -289,6 +291,8 @@ Use Canva ONLY when a special variant is needed (e.g., text overlay for a viral 
 - `competitor-tracker.md` — tracked competitors (Hikari Zen, RollinSound, MERSO, Power Hour Focus, etc.)
 - `content-ideas.md` — backlog (output of `GAP:` and `CAL:` runs)
 - `production-status.md` — pipeline tracker per video
+- `localization.md` — multi-language titles/descriptions: rules, languages, keyword bank, channel About translations
+- `translations-long-videos.md` — translated titles for every long-form video (most viewed first) + description templates
 - `scripts/<slug>.md` — one file per video
 
 ---
