@@ -1,0 +1,136 @@
+#!/usr/bin/env python3
+"""NAGOMI Short builder — jitter-free Ken Burns rendered in PIL with FLOAT crop boxes.
+
+Why not ffmpeg zoompan: zoompan rounds its crop rectangle to whole pixels, so a slow
+zoom advances in 1-px steps -> visible stutter. Here every frame is resampled
+(LANCZOS) from a float-precision crop of the full-res source, so motion is smooth by
+construction. Crossfades and text-overlay fades are blended in PIL too.
+
+Also respects the locked SHORTS SAFE ZONE (glyphs inside y 150-1450, x 60-880 of
+1080x1920) — the player hides the bottom ~24% and right ~17%.
+
+Output: raw frames -> ffmpeg (h264, music muxed separately).
+"""
+from PIL import Image
+from pathlib import Path
+import numpy as np
+
+A = Path("/home/user/dan-documents/stillwave/assets")
+SP = Path("/tmp/claude-0/-home-user-dan-documents/48780e4d-ee5f-5a8f-92df-523468e19c72/scratchpad")
+OUTDIR = SP / "nframes"
+W, H = 1080, 1920
+FPS = 30
+SHOT = 7.4          # seconds per shot (including the outgoing crossfade)
+XF = 0.8            # crossfade duration
+
+# shot list: (image, zoom-in?)
+# hands+tea (hook) -> garden -> empty room (kanji frame) -> hearth -> man at rest (loop point)
+SHOTS = [
+    ("nagomi-shorts-fr2.jpg", True),
+    ("nagomi-shorts-fr5.jpg", False),
+    ("nagomi-shorts-fr4.jpg", True),
+    ("nagomi-shorts-fr3.jpg", False),
+    ("nagomi-shorts-fr6.jpg", True),
+]
+ZOOM = 0.10         # 10% travel
+
+# text overlays: (png, fade-in start, fade-out end)  ~0.9s fades
+OVERLAYS = [
+    ("nov_hook.png", 2.6, 9.4),
+    ("nov_concept.png", 14.2, 19.6),
+    ("nov_wisdom.png", 28.4, 32.2),
+]
+FADE = 0.9
+END_FADE = 0.9      # fade to black at the tail for a clean loop
+
+
+def load_cover(p):
+    """load source, centre-crop to exactly 9:16 so no stretching is needed"""
+    im = Image.open(p).convert("RGB")
+    tw = im.height * W / H
+    if im.width > tw:                       # too wide -> crop sides
+        x = (im.width - tw) / 2
+        im = im.crop((int(x), 0, int(x + tw), im.height))
+    else:                                   # too tall -> crop top/bottom
+        th = im.width * H / W
+        y = (im.height - th) / 2
+        im = im.crop((0, int(y), im.width, int(y + th)))
+    return im
+
+
+def kb_frame(src, prog, zoom_in):
+    """one Ken Burns frame at progress 0..1 — FLOAT crop box, centred"""
+    z = (1.0 + ZOOM * prog) if zoom_in else (1.0 + ZOOM * (1.0 - prog))
+    cw, ch = src.width / z, src.height / z
+    x0, y0 = (src.width - cw) / 2.0, (src.height - ch) / 2.0
+    return src.resize((W, H), Image.LANCZOS, box=(x0, y0, x0 + cw, y0 + ch))
+
+
+def main():
+    OUTDIR.mkdir(parents=True, exist_ok=True)
+    for old in OUTDIR.glob("*.jpg"):
+        old.unlink()
+
+    srcs = [load_cover(A / f) for f, _ in SHOTS]
+    n = len(SHOTS)
+    step = SHOT - XF
+    total = step * (n - 1) + SHOT
+    nframes = int(round(total * FPS))
+    ovs = [(Image.open(SP / p).convert("RGBA"), a, b) for p, a, b in OVERLAYS]
+
+    print(f"total {total:.2f}s -> {nframes} frames")
+    for i in range(nframes):
+        t = i / FPS
+        layers = []
+        for s in range(n):
+            s0 = s * step
+            s1 = s0 + SHOT
+            if s0 - 1e-6 <= t < s1:
+                prog = (t - s0) / SHOT
+                w = 1.0
+                if s > 0 and t < s0 + XF:                    # incoming half of a crossfade
+                    w = (t - s0) / XF
+                if s < n - 1 and t > s0 + step:              # outgoing half
+                    w = 1.0 - (t - (s0 + step)) / XF
+                layers.append((s, prog, max(0.0, min(1.0, w))))
+        if not layers:
+            layers = [(n - 1, 1.0, 1.0)]
+
+        if len(layers) == 1:
+            s, prog, _ = layers[0]
+            frame = kb_frame(srcs[s], prog, SHOTS[s][1])
+        else:
+            (sa, pa, wa), (sb, pb, wb) = layers[0], layers[1]
+            A_ = np.asarray(kb_frame(srcs[sa], pa, SHOTS[sa][1]), dtype=np.float32)
+            B_ = np.asarray(kb_frame(srcs[sb], pb, SHOTS[sb][1]), dtype=np.float32)
+            f = wb / max(1e-6, wa + wb)
+            frame = Image.fromarray(np.clip(A_ * (1 - f) + B_ * f, 0, 255).astype(np.uint8))
+
+        for ov, a, b in ovs:
+            if a - FADE <= t <= b + FADE:
+                if t < a:
+                    al = (t - (a - FADE)) / FADE
+                elif t > b:
+                    al = 1.0 - (t - b) / FADE
+                else:
+                    al = 1.0
+                al = max(0.0, min(1.0, al))
+                if al > 0.003:
+                    layer = ov if al >= 0.999 else Image.fromarray(
+                        np.dstack([np.asarray(ov)[:, :, :3],
+                                   (np.asarray(ov)[:, :, 3] * al).astype(np.uint8)]))
+                    frame = Image.alpha_composite(frame.convert("RGBA"), layer).convert("RGB")
+
+        if t > total - END_FADE:
+            k = 1.0 - (t - (total - END_FADE)) / END_FADE
+            frame = Image.fromarray((np.asarray(frame, dtype=np.float32) * max(0.0, k)).astype(np.uint8))
+
+        frame.save(OUTDIR / f"f_{i:05d}.jpg", quality=95)
+        if i % 150 == 0:
+            print(f"  {i}/{nframes}", flush=True)
+
+    print("frames done:", len(list(OUTDIR.glob('*.jpg'))))
+
+
+if __name__ == "__main__":
+    main()
