@@ -42,7 +42,7 @@ Re-check after 30 days in **Studio → Analytics → Audience → Top geographie
 
 **Video:** Studio → Content → video → *Details* → check **Video language = English** → left menu **Subtitles** (Languages) → *Add language* → pick language → in the **Title & description** column click *Add* → paste title + description → *Publish*.
 
-Do it for every new upload, and back-fill the top 5 existing videos (KIRI, 852 Hz, Shakuhachi, Ancient Japan, 528 Hz DNA Repair) first — they already have watch history.
+Do it for every new upload. For existing videos, ready-made titles for all 104 videos (most viewed first) plus description templates are in `translations-all-videos.md` — work from the top, they already have watch history.
 
 ---
 

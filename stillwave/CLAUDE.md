@@ -293,6 +293,7 @@ Use Canva ONLY when a special variant is needed (e.g., text overlay for a viral 
 - `content-ideas.md` — backlog (output of `GAP:` and `CAL:` runs)
 - `production-status.md` — pipeline tracker per video
 - `localization.md` — multi-language titles/descriptions: rules, languages, keyword bank, channel About translations
+- `translations-all-videos.md` — translated titles for every published video (most viewed first) + description templates
 - `scripts/<slug>.md` — one file per video
 
 ---
