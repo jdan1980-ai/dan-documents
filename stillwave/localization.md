@@ -16,7 +16,7 @@ Not a magic switch — it widens the funnel; retention and thumbnails still deci
 1. **Use YouTube Studio's Translations feature, NOT a multi-language wall in the main description.** One description stuffed with 8 languages looks spammy, pushes the English hook below the fold, and only the first ~150 chars show anyway.
 2. **Main (default) language stays English.** Set video language = English, then add translations.
 3. **Localize, don't translate literally.** Every translated title must start with the *native search phrase* from the keyword bank below, not a word-for-word copy of the English title.
-4. **Keep "StillWave" untranslated** (brand), and keep it in the title when the current Phase format has it.
+4. **Keep "StillWave" / "StillWave Zen" untranslated** (brand), and keep it in the title when the current Phase format has it.
 5. **Translated description = short version** (hook + 2 sentences + use cases + CTA + 2 local hashtags + 2 English hashtags). No need to translate timestamps or tracklists.
 6. **Tags stay in one set** (YouTube has no per-language tags). Add 2–3 top native keywords (e.g. `música para concentrarse`, `作業用BGM`) to the English tag list if space allows.
 7. **Pinned comment stays English.**
@@ -38,7 +38,7 @@ Re-check after 30 days in **Studio → Analytics → Audience → Top geographie
 
 ## How to add (YouTube Studio)
 
-**Channel:** Studio → Customization → Basic info → *Add language* → pick language → paste name (`StillWave`) + translated description from §Channel description below.
+**Channel:** Studio → Customization → Basic info → *Add language* → pick language → paste name (`StillWave Zen`) + translated description from §Channel description below.
 
 **Video:** Studio → Content → video → *Details* → check **Video language = English** → left menu **Subtitles** (Languages) → *Add language* → pick language → in the **Title & description** column click *Add* → paste title + description → *Publish*.
 
@@ -69,112 +69,168 @@ Start translated titles with one of these.
 
 ## Channel description (About)
 
+> Paste into Studio → Customization → Basic info → Add language. Channel name stays `StillWave Zen` in every language. Hashtags dropped on purpose: in the channel About they aren't clickable and don't help search.
+
 ### 🇬🇧 English (default)
 
 ```
-StillWave — quiet music for deep work, study, sleep and meditation.
+StillWave Zen: Japanese Zen music for sleep, meditation and focus 🌊
 
-Late-night Tokyo windows, rain on glass, a bonsai on the desk, a paper lantern glowing — every video is a calm, Japanese-inspired space to focus or rest in. Instrumental only: no vocals, no sudden sounds.
+Quiet Japanese music for the times you need it most: falling asleep, sitting in meditation, or getting real work done.
 
-Perfect for coding, studying, writing, reading, meditation and falling asleep.
+Each track grows out of one idea from Zen. Mushin (無心), the calm, empty mind. Wabi-sabi (侘寂), beauty in things that are imperfect. Mono no aware (物の哀れ), the soft sadness of things passing. Yūgen (幽玄), a quiet sense of mystery. We turn them into sound with Japanese instruments like the shakuhachi flute, singing bowls, soft piano, rain and wind. No vocals, no sudden noises.
 
-New sessions every week. Subscribe and leave StillWave on while you work.
+Put it on for:
+• deep sleep and restless nights
+• meditation, yoga and mindfulness
+• studying, coding and deep work
+• winding down after a long day
+
+New music every week. Subscribe, and let the wave carry you to stillness.
 ```
 
 ### 🇯🇵 日本語 (ja)
 
 ```
-StillWave — 作業・勉強・睡眠・瞑想のための静かな音楽。
+StillWave Zen|睡眠・瞑想・集中のための和の禅音楽 🌊
 
-夜の東京の窓、ガラスを伝う雨、机の上の盆栽、やわらかく灯る行灯 — すべての動画は、集中したり休んだりするための和の空間です。ボーカルなしのインストゥルメンタルのみ、急な音もありません。
+眠りたい夜、瞑想の時間、仕事や勉強に集中したいときに。静かな和の音楽をお届けしています。
 
-プログラミング、勉強、執筆、読書、瞑想、睡眠用BGMにおすすめです。
+どの曲も、無心(とらわれのない静かな心)、侘寂(不完全なものの美しさ)、物の哀れ(移ろいゆくものへのしみじみとした想い)、幽玄(言葉にならない奥深さ)といった禅の考え方から生まれています。尺八などの和楽器、シンギングボウル、やわらかなピアノ、雨や風の音で表現しました。ボーカルなし、急に大きな音が入ることもありません。
 
-毎週新しい作業用BGMを公開中。チャンネル登録して、作業のおともに StillWave をどうぞ。
+こんなときに:
+・ぐっすり眠りたい夜、なかなか寝つけない夜
+・瞑想、ヨガ、マインドフルネス
+・勉強、プログラミング、作業用BGMとして
+・一日の終わりにひと息つきたいとき
+
+毎週新しい曲を公開しています。チャンネル登録して、波に身をまかせ、静けさの中へ。
 ```
 
 ### 🇪🇸 Español (es)
 
 ```
-StillWave — música tranquila para concentrarse, estudiar, dormir y meditar.
+StillWave Zen: música zen japonesa para dormir, meditar y concentrarse 🌊
 
-Ventanas de Tokio de noche, lluvia en el cristal, un bonsái sobre el escritorio, una lámpara de papel encendida: cada video es un espacio sereno de inspiración japonesa para concentrarte o descansar. Solo instrumental: sin voces ni sonidos repentinos.
+Música japonesa tranquila para cuando más la necesitas: para dormir, para meditar o para sacar adelante el trabajo.
 
-Ideal para programar, estudiar, escribir, leer, meditar y dormir.
+Cada pieza nace de una idea del zen. Mushin (無心), la mente en calma, sin apegos. Wabi-sabi (侘寂), la belleza de lo imperfecto. Mono no aware (物の哀れ), esa nostalgia suave por lo que pasa. Yūgen (幽玄), un misterio sereno. Las convertimos en sonido con instrumentos japoneses como la flauta shakuhachi, cuencos tibetanos, piano suave, lluvia y viento. Sin voces y sin sonidos repentinos.
 
-Nuevas sesiones cada semana. Suscríbete y deja StillWave sonando mientras trabajas.
+Ponla para:
+• dormir profundo, también esas noches en que cuesta
+• meditar, hacer yoga o practicar mindfulness
+• estudiar, programar o concentrarte en el trabajo
+• desconectar después de un día largo
+
+Música nueva cada semana. Suscríbete y deja que la ola te lleve a la calma.
 ```
 
 ### 🇧🇷 Português (pt-BR)
 
 ```
-StillWave — música calma para focar, estudar, dormir e meditar.
+StillWave Zen: música zen japonesa para dormir, meditar e focar 🌊
 
-Janelas de Tóquio à noite, chuva no vidro, um bonsai na mesa, uma lanterna de papel acesa: cada vídeo é um espaço sereno de inspiração japonesa para você se concentrar ou descansar. Só instrumental: sem vozes e sem sons repentinos.
+Música japonesa tranquila para as horas em que você mais precisa: na hora de dormir, de meditar ou de focar no trabalho.
 
-Perfeito para programar, estudar, escrever, ler, meditar e dormir.
+Cada faixa nasce de uma ideia do zen. Mushin (無心), a mente tranquila e livre. Wabi-sabi (侘寂), a beleza do imperfeito. Mono no aware (物の哀れ), aquela saudade suave das coisas que passam. Yūgen (幽玄), um mistério sereno. A gente transforma essas ideias em som com instrumentos japoneses como a flauta shakuhachi, tigelas tibetanas, piano suave, chuva e vento. Sem vozes e sem sons repentinos.
 
-Novas sessões toda semana. Inscreva-se e deixe o StillWave tocando enquanto você trabalha.
+Coloque para:
+• dormir bem, mesmo naquelas noites difíceis
+• meditação, yoga e mindfulness
+• estudar, programar e trabalhar com foco
+• relaxar depois de um dia longo
+
+Música nova toda semana. Inscreva-se e deixe a onda te levar até a calma.
 ```
 
 ### 🇰🇷 한국어 (ko)
 
 ```
-StillWave — 집중, 공부, 수면, 명상을 위한 잔잔한 음악.
+StillWave Zen | 수면, 명상, 집중을 위한 일본 선(禪) 음악 🌊
 
-밤의 도쿄 창가, 유리창을 타고 흐르는 빗방울, 책상 위 분재, 은은하게 빛나는 종이 등불 — 모든 영상은 집중하거나 쉬기 위한 일본풍의 고요한 공간입니다. 보컬 없는 연주곡만, 갑작스러운 소리도 없습니다.
+잠들고 싶은 밤, 명상하는 시간, 일이나 공부에 집중해야 할 때 틀어 두기 좋은 잔잔한 일본 음악입니다.
 
-코딩, 공부, 글쓰기, 독서, 명상, 수면에 추천합니다.
+모든 곡은 선(禪)의 생각 하나에서 시작합니다. 무심(無心), 집착 없이 고요한 마음. 와비사비(侘寂), 불완전함 속의 아름다움. 모노노아와레(物の哀れ), 지나가는 것들에 대한 잔잔한 아쉬움. 유겐(幽玄), 말로 다 할 수 없는 깊이. 이것을 샤쿠하치 같은 일본 악기, 싱잉볼, 부드러운 피아노, 빗소리와 바람 소리로 표현합니다. 보컬도, 갑자기 커지는 소리도 없습니다.
 
-매주 새로운 세션이 올라옵니다. 구독하고 작업할 때 StillWave를 틀어 두세요.
+이럴 때 들어 보세요:
+• 푹 자고 싶을 때, 잠이 잘 안 오는 밤
+• 명상, 요가, 마음챙김
+• 공부, 코딩, 집중이 필요한 작업
+• 긴 하루를 마치고 쉬고 싶을 때
+
+매주 새로운 음악이 올라옵니다. 구독하고, 물결에 몸을 맡겨 고요함 속으로 들어가 보세요.
 ```
 
 ### 🇩🇪 Deutsch (de)
 
 ```
-StillWave — ruhige Musik zum Konzentrieren, Lernen, Schlafen und Meditieren.
+StillWave Zen: japanische Zen-Musik zum Schlafen, Meditieren und Konzentrieren 🌊
 
-Nächtliche Fenster in Tokio, Regen auf dem Glas, ein Bonsai auf dem Schreibtisch, eine leuchtende Papierlaterne — jedes Video ist ein ruhiger, japanisch inspirierter Ort zum Fokussieren oder Entspannen. Rein instrumental: kein Gesang, keine plötzlichen Geräusche.
+Ruhige japanische Musik für die Momente, in denen du sie brauchst: zum Einschlafen, zum Meditieren oder wenn die Arbeit einfach fertig werden muss.
 
-Ideal zum Programmieren, Lernen, Schreiben, Lesen, Meditieren und Einschlafen.
+Jedes Stück geht von einem Gedanken aus dem Zen aus. Mushin (無心), der leere, ruhige Geist. Wabi-Sabi (侘寂), die Schönheit des Unvollkommenen. Mono no aware (物の哀れ), die leise Wehmut über alles, was vergeht. Yūgen (幽玄), ein stilles Geheimnis. Daraus machen wir Klang, mit japanischen Instrumenten wie der Shakuhachi-Flöte, Klangschalen, sanftem Klavier, Regen und Wind. Kein Gesang, keine plötzlichen Geräusche.
 
-Jede Woche neue Sessions. Abonniere den Kanal und lass StillWave beim Arbeiten laufen.
+Gut für:
+• tiefen Schlaf und unruhige Nächte
+• Meditation, Yoga und Achtsamkeit
+• Lernen, Programmieren und konzentriertes Arbeiten
+• Abschalten nach einem langen Tag
+
+Jede Woche neue Musik. Abonniere den Kanal und lass dich von der Welle in die Stille tragen.
 ```
 
 ### 🇫🇷 Français (fr)
 
 ```
-StillWave — musique calme pour se concentrer, étudier, dormir et méditer.
+StillWave Zen : musique zen japonaise pour dormir, méditer et se concentrer 🌊
 
-Fenêtres de Tokyo la nuit, pluie sur la vitre, un bonsaï sur le bureau, une lanterne en papier allumée : chaque vidéo est un espace paisible d'inspiration japonaise pour vous concentrer ou vous reposer. Uniquement instrumental : pas de voix, pas de sons soudains.
+De la musique japonaise apaisante pour les moments où vous en avez besoin : pour vous endormir, pour méditer ou pour avancer dans votre travail.
 
-Idéal pour coder, étudier, écrire, lire, méditer et s'endormir.
+Chaque morceau part d'une idée du zen. Mushin (無心), l'esprit libre et calme. Wabi-sabi (侘寂), la beauté de l'imparfait. Mono no aware (物の哀れ), cette douce mélancolie des choses qui passent. Yūgen (幽玄), un mystère tranquille. Nous les traduisons en sons avec des instruments japonais comme la flûte shakuhachi, des bols chantants, un piano doux, la pluie et le vent. Pas de voix, pas de bruits soudains.
 
-Nouvelles sessions chaque semaine. Abonnez-vous et laissez StillWave en fond pendant que vous travaillez.
+À écouter pour :
+• bien dormir, même les nuits agitées
+• la méditation, le yoga et la pleine conscience
+• étudier, coder et travailler concentré
+• décompresser après une longue journée
+
+De la nouvelle musique chaque semaine. Abonnez-vous et laissez la vague vous porter vers le calme.
 ```
 
 ### 🇷🇺 Русский (ru)
 
 ```
-StillWave — спокойная музыка для концентрации, учёбы, сна и медитации.
+StillWave Zen: японская дзен-музыка для сна, медитации и концентрации 🌊
 
-Ночные окна Токио, дождь на стекле, бонсай на столе, мягко светящийся бумажный фонарь — каждое видео это тихое пространство в японском стиле, чтобы сосредоточиться или отдохнуть. Только инструментал: без вокала и резких звуков.
+Спокойная японская музыка для тех моментов, когда она действительно нужна: чтобы уснуть, помедитировать или наконец сесть за работу.
 
-Идеально для программирования, учёбы, письма, чтения, медитации и сна.
+Каждый трек вырастает из одной идеи дзен. Мусин (無心) — ясный, спокойный ум. Ваби-саби (侘寂) — красота несовершенного. Моно-но аварэ (物の哀れ) — тихая грусть о том, что проходит. Югэн (幽玄) — глубина, которую трудно выразить словами. Мы превращаем их в звук: японские инструменты вроде флейты сякухати, поющие чаши, мягкое фортепиано, дождь и ветер. Без вокала и резких звуков.
 
-Новые сессии каждую неделю. Подписывайтесь и включайте StillWave во время работы.
+Включайте, чтобы:
+• крепко выспаться, даже если сон не идёт
+• помедитировать, позаниматься йогой
+• учиться, программировать и работать без отвлечений
+• отдохнуть после долгого дня
+
+Новая музыка каждую неделю. Подписывайтесь, и пусть волна унесёт вас в тишину.
 ```
 
 ### 🇮🇩 Bahasa Indonesia (id)
 
 ```
-StillWave — musik tenang untuk fokus, belajar, tidur, dan meditasi.
+StillWave Zen: musik zen Jepang untuk tidur, meditasi, dan fokus 🌊
 
-Jendela Tokyo di malam hari, hujan di kaca, bonsai di meja, lentera kertas yang menyala — setiap video adalah ruang tenang bernuansa Jepang untuk fokus atau beristirahat. Hanya instrumental: tanpa vokal, tanpa suara mendadak.
+Musik Jepang yang tenang untuk saat-saat kamu paling butuh: waktu mau tidur, saat meditasi, atau ketika harus fokus menyelesaikan pekerjaan.
 
-Cocok untuk coding, belajar, menulis, membaca, meditasi, dan tidur.
+Setiap lagu berangkat dari satu gagasan Zen. Mushin (無心), pikiran yang kosong dan tenang. Wabi-sabi (侘寂), keindahan dalam ketidaksempurnaan. Mono no aware (物の哀れ), rasa haru yang lembut pada hal-hal yang berlalu. Yūgen (幽玄), misteri yang hening. Semua itu kami ubah jadi suara lewat alat musik Jepang seperti seruling shakuhachi, singing bowl, piano lembut, suara hujan, dan angin. Tanpa vokal, tanpa suara yang mengagetkan.
 
-Sesi baru setiap minggu. Subscribe dan putar StillWave saat kamu bekerja.
+Cocok untuk:
+• tidur nyenyak, juga di malam yang susah tidur
+• meditasi, yoga, dan mindfulness
+• belajar, coding, dan kerja yang butuh fokus
+• bersantai setelah hari yang panjang
+
+Musik baru setiap minggu. Subscribe dan biarkan gelombang membawamu ke ketenangan.
 ```
 
 ---
