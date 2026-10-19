@@ -113,7 +113,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 1. Japanese Zen Music for Deep Focus — 2H of MUSHIN (無心) for No-Mind & Inner Stillness
 
-44,429 views · Long · https://youtu.be/Musik Zen Jepang untuk Fokus — 2 Jam MUSHIN (無心), Pikiran Kosong & Ketenangan Batin
+44,429 views · Long · https://youtu.be/CamT9sohYQM
 
 - **🇯🇵 ja:** 無心(MUSHIN)— 集中できる和の禅音楽 2時間|作業用BGM・瞑想
 - **🇪🇸 es:** Música Zen Japonesa para Concentrarse — 2 Horas de MUSHIN (無心), Mente Vacía y Calma Interior
@@ -126,7 +126,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 2. GAMAN — 我慢 | 2H Japanese Zen Music for Mental Strength, Endurance & Focus
 
-2,631 views · Long · https://youtu.be/GAMAN (我慢) — 2 Jam Musik Zen Jepang untuk Mental Kuat, Daya Tahan & Fokus
+2,631 views · Long · https://youtu.be/8t8QiNw4rEg
 
 - **🇯🇵 ja:** 我慢(GAMAN)— 心を強くする和の禅音楽 2時間|集中・作業用BGM
 - **🇪🇸 es:** GAMAN (我慢) — 2 Horas de Música Zen Japonesa para Fortaleza Mental, Resistencia y Concentración
@@ -139,7 +139,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 3. KIRI — 霧 | Dissolve Your Stress with Japanese Bamboo Flute
 
-1,077 views · Long · https://youtu.be/KIRI (霧) — Hilangkan Stres dengan Seruling Bambu Jepang
+1,077 views · Long · https://youtu.be/5DgN_T5TaLs
 
 - **🇯🇵 ja:** 霧(KIRI)— 尺八の音色でストレスを溶かす|癒しの和の音楽
 - **🇪🇸 es:** KIRI (霧) — Deja Ir el Estrés con la Flauta de Bambú Japonesa
@@ -152,7 +152,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 4. NAGOMI — 和み | Calming Japanese Zen Music for Peaceful Mind & Relaxation
 
-844 views · Long · https://youtu.be/NAGOMI (和み) — Musik Zen Jepang yang Menenangkan untuk Pikiran Damai & Relaksasi
+844 views · Long · https://youtu.be/nnrqkIsmVjs
 
 - **🇯🇵 ja:** 和み(NAGOMI)— 心が落ち着く和の禅音楽|リラックス・癒しBGM
 - **🇪🇸 es:** NAGOMI (和み) — Música Zen Japonesa Relajante para una Mente en Paz
@@ -165,7 +165,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 5. 852 Hz | Monks' Secret to Unlock Intuition | 2-Hour Deep Meditation
 
-740 views · Long · https://youtu.be/852 Hz | Rahasia Para Biksu untuk Membuka Intuisi | 2 Jam Meditasi Mendalam
+740 views · Long · https://youtu.be/uJjutWmnImc
 
 - **🇯🇵 ja:** 852Hz|僧侶が使う直感を開く周波数|2時間の深い瞑想音楽
 - **🇪🇸 es:** 852 Hz | El Secreto de los Monjes para Despertar la Intuición | 2 Horas de Meditación Profunda
@@ -178,7 +178,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 6. SATORI — 悟り | 3 Hours of Uninterrupted Zen for Deep Calm
 
-739 views · Long · https://youtu.be/SATORI (悟り) — 3 Jam Musik Zen Tanpa Jeda untuk Ketenangan Mendalam
+739 views · Long · https://youtu.be/mG57SVU4kgo
 
 - **🇯🇵 ja:** 悟り(SATORI)— 途切れない禅の音楽 3時間|深いリラックス・瞑想BGM
 - **🇪🇸 es:** SATORI (悟り) — 3 Horas de Música Zen sin Interrupciones para una Calma Profunda
@@ -191,7 +191,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 7. WABI-SABI (侘寂) | 2H of Japanese Zen Music for Letting Go & Finding Peace
 
-673 views · Long · https://youtu.be/WABI-SABI (侘寂) — 2 Jam Musik Zen Jepang untuk Melepaskan & Menemukan Kedamaian
+673 views · Long · https://youtu.be/YE8jEtZMoxA
 
 - **🇯🇵 ja:** 侘寂(WABI-SABI)— 手放して心穏やかに 和の禅音楽 2時間
 - **🇪🇸 es:** WABI-SABI (侘寂) — 2 Horas de Música Zen Japonesa para Soltar y Encontrar la Paz
@@ -204,7 +204,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 8. IKIGAI — 生き甲斐 | 2 Hours of Morning Focus Music to Find Your Purpose
 
-660 views · Long · https://youtu.be/IKIGAI (生き甲斐) — 2 Jam Musik Fokus Pagi untuk Menemukan Tujuan Hidup
+660 views · Long · https://youtu.be/uzQvbpJnbtg
 
 - **🇯🇵 ja:** 生き甲斐(IKIGAI)— 朝の集中用BGM 2時間|自分の目的を見つける和の音楽
 - **🇪🇸 es:** IKIGAI (生き甲斐) — 2 Horas de Música para Concentrarse por la Mañana y Encontrar tu Propósito
@@ -217,7 +217,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 9. 528 Hz to Stop Overthinking 🌿
 
-449 views · Shorts · https://youtu.be/528 Hz untuk Berhenti Overthinking 🌿
+449 views · Shorts · https://youtu.be/QoeDvBuFYe4
 
 - **🇯🇵 ja:** 考えすぎを止める528Hz 🌿
 - **🇪🇸 es:** 528 Hz para Dejar de Pensar Demasiado 🌿
@@ -230,7 +230,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 10. ICHIGO ICHIE (一期一会) — Japanese Zen Music for Living in the Present Moment
 
-417 views · Long · https://youtu.be/ICHIGO ICHIE (一期一会) — Musik Zen Jepang untuk Hidup di Saat Ini
+417 views · Long · https://youtu.be/ettv02P8u0U
 
 - **🇯🇵 ja:** 一期一会(ICHIGO ICHIE)— 今この瞬間を生きるための和の禅音楽
 - **🇪🇸 es:** ICHIGO ICHIE (一期一会) — Música Zen Japonesa para Vivir el Momento Presente
@@ -243,7 +243,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 11. 霧 KIRI | Japanese Zen Music for Deep Focus & Meditation
 
-417 views · Shorts · https://youtu.be/KIRI (霧) | Musik Zen Jepang untuk Fokus & Meditasi
+417 views · Shorts · https://youtu.be/dUhxQ9OE10k
 
 - **🇯🇵 ja:** 霧(KIRI)|集中と瞑想のための和の禅音楽
 - **🇪🇸 es:** KIRI (霧) | Música Zen Japonesa para Concentrarse y Meditar
@@ -256,7 +256,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 12. KOKORO (心) — A Quiet Place to Rest Your Emotions
 
-409 views · Long · https://youtu.be/KOKORO (心) — Tempat Tenang untuk Mengistirahatkan Perasaan | Musik Zen Jepang
+409 views · Long · https://youtu.be/8KvXRGCmucc
 
 - **🇯🇵 ja:** 心(KOKORO)— 気持ちを休める静かな場所|癒しの和の禅音楽
 - **🇪🇸 es:** KOKORO (心) — Un Lugar Tranquilo para Descansar tus Emociones | Música Zen Japonesa
@@ -269,7 +269,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 13. ZANSHIN (残心) — Japanese Zen Music for Inner Strength & Quiet Focus
 
-303 views · Long · https://youtu.be/ZANSHIN (残心) — Musik Zen Jepang untuk Kekuatan Batin & Fokus yang Tenang
+303 views · Long · https://youtu.be/rkdYDrXNOSY
 
 - **🇯🇵 ja:** 残心(ZANSHIN)— 内なる強さと静かな集中のための和の禅音楽
 - **🇪🇸 es:** ZANSHIN (残心) — Música Zen Japonesa para Fuerza Interior y Concentración Tranquila
@@ -282,7 +282,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 14. Tokyo Rain Deep Work Marathon | 1 Hour Uninterrupted
 
-294 views · Long · https://youtu.be/Hujan di Tokyo — Musik Deep Work | 1 Jam Tanpa Jeda
+294 views · Long · https://youtu.be/aUujtRQZGaw
 
 - **🇯🇵 ja:** 東京の雨と作業用BGM|1時間ノンストップ ディープワーク
 - **🇪🇸 es:** Lluvia en Tokio — Música para Concentrarse | 1 Hora sin Interrupciones
@@ -295,7 +295,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 15. The Sleeping Dragon 臥龍 — GARYŪ | Japanese Samurai Zen Music for Sleep
 
-289 views · Shorts · https://youtu.be/Naga yang Tertidur 臥龍 GARYŪ | Musik Zen Samurai untuk Tidur
+289 views · Shorts · https://youtu.be/LYT7hQQg1Oo
 
 - **🇯🇵 ja:** 眠れる龍 臥龍(GARYŪ)|侍の禅音楽で眠る
 - **🇪🇸 es:** El Dragón Dormido (臥龍 GARYŪ) | Música Zen Samurái para Dormir
@@ -308,7 +308,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 16. 青龍 Seiryū — the Azure Dragon of the East
 
-279 views · Shorts · https://youtu.be/SEIRYŪ (青龍) — Naga Biru dari Timur
+279 views · Shorts · https://youtu.be/7-iY78pgqAg
 
 - **🇯🇵 ja:** 青龍(SEIRYŪ)— 東を守る青き龍
 - **🇪🇸 es:** SEIRYŪ (青龍) — el Dragón Azul del Este
@@ -321,7 +321,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 17. Your Brain Won't Stop? This Shakuhachi Flute Will Help
 
-259 views · Long · https://youtu.be/Pikiran Tak Bisa Berhenti? Seruling Shakuhachi Ini Akan Membantu | Musik Zen Jepang
+259 views · Long · https://youtu.be/CEZEXRsYEeA
 
 - **🇯🇵 ja:** 頭が休まらない夜に。尺八の音色が心を静めてくれる|和の瞑想音楽
 - **🇪🇸 es:** ¿Tu Mente No Para? Esta Flauta Shakuhachi te Ayudará | Música Zen Japonesa
@@ -334,7 +334,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 18. Monks use THIS frequency to unlock intuition 🎵 #Shorts
 
-255 views · Shorts · https://youtu.be/Para Biksu Pakai Frekuensi INI untuk Membuka Intuisi 🎵
+255 views · Shorts · https://youtu.be/-SXFCmYsYpg
 
 - **🇯🇵 ja:** 僧侶が直感を開くために使う周波数 🎵
 - **🇪🇸 es:** Los Monjes Usan ESTA Frecuencia para Despertar la Intuición 🎵
@@ -347,7 +347,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 19. SEIRYŪ (青龍) — Japanese Zen Music for Deep Sleep — Azure Dragon of the East
 
-249 views · Long · https://youtu.be/SEIRYŪ (青龍) — Musik Zen Jepang untuk Tidur Nyenyak | Naga Biru dari Timur
+249 views · Long · https://youtu.be/Y8XNe-8BfkQ
 
 - **🇯🇵 ja:** 青龍(SEIRYŪ)— 東の守り神|ぐっすり眠れる和の禅音楽 睡眠用BGM
 - **🇪🇸 es:** SEIRYŪ (青龍) — Música Zen Japonesa para Dormir Profundamente | El Dragón Azul del Este
@@ -360,7 +360,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 20. MIZU (水) Stone and Slow Water | Koto & Shakuhachi Zen Garden Ambience
 
-215 views · Long · https://youtu.be/MIZU (水) — Batu dan Air yang Mengalir Pelan | Koto & Shakuhachi di Taman Zen
+215 views · Long · https://youtu.be/30KJI5VZm9E
 
 - **🇯🇵 ja:** 水(MIZU)— 石と静かな水の流れ|琴と尺八の日本庭園BGM
 - **🇪🇸 es:** MIZU (水) — Piedra y Agua Lenta | Koto y Shakuhachi en un Jardín Zen
@@ -373,7 +373,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 21. JAPANESE ZEN MUSIC for Beginner's Mind Clarity — Shoshin (初心) Deep Focus Session
 
-209 views · Long · https://youtu.be/Musik Zen Jepang untuk Pikiran Pemula — Shoshin (初心), Sesi Fokus Mendalam
+209 views · Long · https://youtu.be/Rn_1SL9ahp4
 
 - **🇯🇵 ja:** 初心(SHOSHIN)— 初心に返る集中用BGM|和の禅音楽
 - **🇪🇸 es:** Música Zen Japonesa para la Mente de Principiante — Shoshin (初心), Sesión de Concentración
@@ -386,7 +386,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 22. Fudoshin — The Mind the Storm Cannot Move 🗻
 
-207 views · Shorts · https://youtu.be/Fudoshin — Pikiran yang Tak Tergoyahkan Badai 🗻
+207 views · Shorts · https://youtu.be/SMB3lC8p2qE
 
 - **🇯🇵 ja:** 不動心 — 嵐にも揺るがない心 🗻
 - **🇪🇸 es:** Fudoshin — La Mente que la Tormenta No Puede Mover 🗻
@@ -399,7 +399,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 23. What happens when you sleep to 528 Hz? 🌸 #sleepmusic#zenmusic#sakura #japanesesleepmusic #528hz
 
-205 views · Shorts · https://youtu.be/Apa yang Terjadi Jika Tidur dengan 528 Hz? 🌸
+205 views · Shorts · https://youtu.be/gVTyooguJU0
 
 - **🇯🇵 ja:** 528Hzを聴きながら眠るとどうなる? 🌸
 - **🇪🇸 es:** ¿Qué Pasa si Duermes con 528 Hz? 🌸
@@ -412,7 +412,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 24. SUIRYŪ (水龍) — Japanese Water Zen Music for Deep Sleep
 
-203 views · Long · https://youtu.be/SUIRYŪ (水龍) — Musik Zen Jepang Bernuansa Air untuk Tidur Nyenyak
+203 views · Long · https://youtu.be/44PHVTwg4Vk
 
 - **🇯🇵 ja:** 水龍(SUIRYŪ)— 水の音とともに眠る和の禅音楽|睡眠用BGM
 - **🇪🇸 es:** SUIRYŪ (水龍) — Música Zen Japonesa con Agua para Dormir Profundamente
@@ -425,7 +425,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 25. KINTSUGI (金継ぎ) — Japanese Zen Music for Healing & Embracing Imperfection
 
-202 views · Long · https://youtu.be/KINTSUGI (金継ぎ) — Musik Zen Jepang untuk Pulih & Menerima Ketidaksempurnaan
+202 views · Long · https://youtu.be/Sa3lkcmeUBk
 
 - **🇯🇵 ja:** 金継ぎ(KINTSUGI)— 不完全さを受け入れる癒しの和の禅音楽
 - **🇪🇸 es:** KINTSUGI (金継ぎ) — Música Zen Japonesa para Sanar y Aceptar la Imperfección
@@ -438,7 +438,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 26. UNRYŪ (雲龍) — Japanese Zen Music for Deep Sleep — Cloud & Mountain Air
 
-201 views · Long · https://youtu.be/UNRYŪ (雲龍) — Musik Zen Jepang untuk Tidur Nyenyak | Awan & Udara Pegunungan
+201 views · Long · https://youtu.be/GyGWArlZ6ow
 
 - **🇯🇵 ja:** 雲龍(UNRYŪ)— 雲と山の空気|ぐっすり眠れる和の禅音楽
 - **🇪🇸 es:** UNRYŪ (雲龍) — Música Zen Japonesa para Dormir | Nubes y Aire de Montaña
@@ -451,7 +451,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 27. KARYŪ (火龍) — 2 Hours of Japanese Zen Music to Find Your Inner Fire
 
-196 views · Long · https://youtu.be/KARYŪ (火龍) — 2 Jam Musik Zen Jepang untuk Menemukan Api dalam Dirimu
+196 views · Long · https://youtu.be/3gEs15njujE
 
 - **🇯🇵 ja:** 火龍(KARYŪ)— 内なる炎を見つける和の禅音楽 2時間
 - **🇪🇸 es:** KARYŪ (火龍) — 2 Horas de Música Zen Japonesa para Encontrar tu Fuego Interior
@@ -464,7 +464,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 28. This Ancient Japanese Music Will Put You To Sleep Instantly 🌙
 
-194 views · Shorts · https://youtu.be/Musik Jepang Kuno Ini Bikin Kamu Langsung Tertidur 🌙
+194 views · Shorts · https://youtu.be/dNy6PZ6Pk7o
 
 - **🇯🇵 ja:** すぐに眠くなる古の日本の音楽 🌙
 - **🇪🇸 es:** Esta Música Japonesa Antigua te Hará Dormir al Instante 🌙
@@ -477,7 +477,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 29. The Strongest Weapon - Inner Peace ⚔️
 
-188 views · Shorts · https://youtu.be/Senjata Terkuat: Kedamaian Batin ⚔️
+188 views · Shorts · https://youtu.be/eL1nsmwoV60
 
 - **🇯🇵 ja:** 最強の武器は、心の平穏 ⚔️
 - **🇪🇸 es:** El Arma Más Poderosa: la Paz Interior ⚔️
@@ -490,7 +490,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 30. Overthinking Gets Worse Without This 528 Hz Technique
 
-187 views · Long · https://youtu.be/Terlalu Banyak Pikiran? Coba Teknik 528 Hz Ini | Musik untuk Menenangkan Pikiran
+187 views · Long · https://youtu.be/po4jmYdX2_w
 
 - **🇯🇵 ja:** 考えすぎが止まらない時に。528Hzで心を静める方法|瞑想・睡眠用BGM
 - **🇪🇸 es:** Si Piensas Demasiado, Prueba Esta Técnica de 528 Hz | Música para Calmar la Mente
@@ -503,7 +503,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 31. KOMOREBI (木漏れ日) — 30 Seconds of Japanese Sunlight & Calm
 
-178 views · Shorts · https://youtu.be/KOMOREBI (木漏れ日) — 30 Detik Cahaya & Ketenangan Jepang
+178 views · Shorts · https://youtu.be/V24wOZzprSE
 
 - **🇯🇵 ja:** 木漏れ日(KOMOREBI)— 30秒の日本の光とやすらぎ
 - **🇪🇸 es:** KOMOREBI (木漏れ日) — 30 Segundos de Luz y Calma Japonesa
@@ -516,7 +516,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 32. Rainy Night in Kyoto 🌧️ 432 Hz Deep Sleep Music
 
-177 views · Shorts · https://youtu.be/Malam Hujan di Kyoto 🌧️ Musik Tidur 432 Hz
+177 views · Shorts · https://youtu.be/kT3YFvnG2RY
 
 - **🇯🇵 ja:** 雨の京都の夜 🌧️ 432Hz 睡眠用BGM
 - **🇪🇸 es:** Noche de Lluvia en Kioto 🌧️ 432 Hz para Dormir Profundamente
@@ -529,7 +529,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 33. Ancient Japan Meditation Music • 2 Hours Zen Ambient for Deep Focus & Inner Peace
 
-168 views · Long · https://youtu.be/Musik Meditasi Jepang Kuno • 2 Jam Ambient Zen untuk Fokus & Kedamaian Batin
+168 views · Long · https://youtu.be/-G-4BTCyoK4
 
 - **🇯🇵 ja:** 古の日本の瞑想音楽 2時間|集中と心の平穏のための禅アンビエント
 - **🇪🇸 es:** Música de Meditación del Japón Antiguo • 2 Horas de Ambient Zen para Concentración y Paz Interior
@@ -542,7 +542,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 34. 3 Hours of 528 Hz: Restore Balance & Activate Your Heart Chakra
 
-168 views · Long · https://youtu.be/3 Jam 528 Hz: Pulihkan Keseimbangan & Aktifkan Cakra Jantung
+168 views · Long · https://youtu.be/2wnhymtzUAA
 
 - **🇯🇵 ja:** 528Hz 3時間|心のバランスを整えるハートチャクラ瞑想音楽
 - **🇪🇸 es:** 3 Horas de 528 Hz: Recupera el Equilibrio y Activa tu Chakra del Corazón
@@ -555,7 +555,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 35. BENZAITEN (弁財天) — Japanese Zen Music for Deep Focus — The Water Goddess's Flow
 
-164 views · Long · https://youtu.be/BENZAITEN (弁財天) — Musik Zen Jepang untuk Fokus | Aliran Sang Dewi Air
+164 views · Long · https://youtu.be/CWhus0UqoME
 
 - **🇯🇵 ja:** 弁財天(BENZAITEN)— 水の女神の流れ|集中できる作業用BGM
 - **🇪🇸 es:** BENZAITEN (弁財天) — Música Zen Japonesa para Concentrarse | El Fluir de la Diosa del Agua
@@ -568,7 +568,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 36. KANNON — 観音 | Finding Mercy & Stillness in the Music
 
-158 views · Long · https://youtu.be/KANNON (観音) — Welas Asih & Keheningan dalam Musik | Musik Zen Jepang
+158 views · Long · https://youtu.be/e6UqLAHdVzE
 
 - **🇯🇵 ja:** 観音(KANNON)— 慈しみと静けさに包まれる和の禅音楽
 - **🇪🇸 es:** KANNON (観音) — Compasión y Quietud en la Música | Música Zen Japonesa
@@ -581,7 +581,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 37. TSUKUYOMI (月読) —2 Hours of Japanese Zen Music for Deep Sleep — The Night That Asks No Questions
 
-158 views · Long · https://youtu.be/TSUKUYOMI (月読) — 2 Jam Musik Zen Jepang untuk Tidur | Malam Tanpa Pertanyaan
+158 views · Long · https://youtu.be/_odcC0KapJw
 
 - **🇯🇵 ja:** 月読(TSUKUYOMI)— 何も問わない夜|ぐっすり眠れる和の禅音楽 2時間
 - **🇪🇸 es:** TSUKUYOMI (月読) — 2 Horas de Música Zen Japonesa para Dormir | La Noche que No Pregunta
@@ -594,7 +594,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 38. FUJIN (風神) — Japanese Zen Music for Letting Go — The Wind God's Release
 
-157 views · Long · https://youtu.be/FUJIN (風神) — Musik Zen Jepang untuk Melepaskan | Kelegaan dari Dewa Angin
+157 views · Long · https://youtu.be/wJb3Wywxhns
 
 - **🇯🇵 ja:** 風神(FUJIN)— 風の神とともに手放す|和の禅音楽
 - **🇪🇸 es:** FUJIN (風神) — Música Zen Japonesa para Soltar | La Liberación del Dios del Viento
@@ -607,7 +607,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 39. ENSO (円相) — Japanese Zen Music for Mindfulness and Breathwork (2 Hours)
 
-157 views · Long · https://youtu.be/ENSO (円相) — Musik Zen Jepang untuk Mindfulness & Latihan Napas (2 Jam)
+157 views · Long · https://youtu.be/X4-wXrf2tD8
 
 - **🇯🇵 ja:** 円相(ENSO)— マインドフルネスと呼吸のための和の禅音楽 2時間
 - **🇪🇸 es:** ENSO (円相) — Música Zen Japonesa para Mindfulness y Respiración (2 Horas)
@@ -620,7 +620,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 40. MONO NO AWARE (物の哀れ)  | 2 Hours of Zen Meditation Music
 
-155 views · Long · https://youtu.be/MONO NO AWARE (物の哀れ) — 2 Jam Musik Meditasi Zen
+155 views · Long · https://youtu.be/Ba9AMBpvc_A
 
 - **🇯🇵 ja:** 物の哀れ(MONO NO AWARE)— 2時間の禅瞑想音楽
 - **🇪🇸 es:** MONO NO AWARE (物の哀れ) — 2 Horas de Música Zen para Meditar
@@ -633,7 +633,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 41. Japanese Zen Music for Presence - MUGA — The Sound of No-Self
 
-149 views · Long · https://youtu.be/MUGA (無我) — Suara Tanpa Diri | Musik Zen Jepang untuk Hadir Sepenuhnya
+149 views · Long · https://youtu.be/AC-zpqmwols
 
 - **🇯🇵 ja:** 無我(MUGA)— 「わたし」が消える音|今ここにいるための和の禅音楽
 - **🇪🇸 es:** MUGA (無我) — El Sonido del No-Yo | Música Zen Japonesa para Estar Presente
@@ -646,7 +646,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 42. YORU 夜 | Zen Sleep Music That Actually Works
 
-148 views · Long · https://youtu.be/YORU (夜) — Musik Tidur Zen yang Benar-Benar Ampuh
+148 views · Long · https://youtu.be/92vRcSamYXY
 
 - **🇯🇵 ja:** 夜(YORU)— 本当に眠れる禅の睡眠用BGM
 - **🇪🇸 es:** YORU (夜) — Música Zen para Dormir que Realmente Funciona
@@ -659,7 +659,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 43. Zen Ambient: Samurai Silence & Rain for 2 Hours of Peace
 
-139 views · Long · https://youtu.be/Ambient Zen: Keheningan Samurai & Hujan | 2 Jam Ketenangan
+139 views · Long · https://youtu.be/S76a_2Z-D9c
 
 - **🇯🇵 ja:** 侍の静寂と雨音|2時間の禅アンビエント 癒し・睡眠用BGM
 - **🇪🇸 es:** Ambient Zen: Silencio Samurái y Lluvia | 2 Horas de Paz
@@ -672,7 +672,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 44. FUDOSHIN (不動心) — Deep Zen Music for an Unshakable Mind
 
-139 views · Long · https://youtu.be/FUDOSHIN (不動心) — Musik Zen Mendalam untuk Pikiran yang Tak Tergoyahkan
+139 views · Long · https://youtu.be/7Qw1JLDBCZ4
 
 - **🇯🇵 ja:** 不動心(FUDOSHIN)— 揺るがない心をつくる禅音楽
 - **🇪🇸 es:** FUDOSHIN (不動心) — Música Zen Profunda para una Mente Inquebrantable
@@ -685,7 +685,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 45. GARYŪ — 臥龍 | Zen Music for Sleep & Deep Rest — Japanese Samurai Ambience
 
-133 views · Long · https://youtu.be/GARYŪ (臥龍) — Musik Zen untuk Tidur & Istirahat | Suasana Samurai Jepang
+133 views · Long · https://youtu.be/4Ma4VDkc4AE
 
 - **🇯🇵 ja:** 臥龍(GARYŪ)— 眠りと深い休息のための禅音楽|侍のアンビエント
 - **🇪🇸 es:** GARYŪ (臥龍) — Música Zen para Dormir y Descansar | Ambiente Samurái Japonés
@@ -698,7 +698,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 46. SEIJAKU 静寂 — Find Silence in the Noise
 
-131 views · Shorts · https://youtu.be/SEIJAKU (静寂) — Temukan Hening di Tengah Bising
+131 views · Shorts · https://youtu.be/SH8UCsjK36M
 
 - **🇯🇵 ja:** 静寂(SEIJAKU)— 騒がしさの中に静けさを
 - **🇪🇸 es:** SEIJAKU (静寂) — Encuentra el Silencio en Medio del Ruido
@@ -711,7 +711,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 47. 誠 MAKOTO  | Japanese Ambient Music for Honor, Bushido & Spirit · 1H
 
-130 views · Long · https://youtu.be/MAKOTO (誠) — Musik Ambient Jepang tentang Kehormatan, Bushido & Semangat · 1 Jam
+130 views · Long · https://youtu.be/OzDfAf0bwU0
 
 - **🇯🇵 ja:** 誠(MAKOTO)— 武士道と誇りの和のアンビエント音楽 1時間
 - **🇪🇸 es:** MAKOTO (誠) — Música Ambiental Japonesa de Honor, Bushido y Espíritu · 1 Hora
@@ -724,7 +724,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 48. HACHIMAN (八幡) — Japanese Zen Music for Warrior Focus — The God of War's Silence
 
-130 views · Long · https://youtu.be/HACHIMAN (八幡) — Musik Zen Jepang untuk Fokus Seorang Pejuang | Hening Sang Dewa Perang
+130 views · Long · https://youtu.be/jkKiSuRTmZE
 
 - **🇯🇵 ja:** 八幡(HACHIMAN)— 武神の静けさ|戦士の集中力を高める和の禅音楽
 - **🇪🇸 es:** HACHIMAN (八幡) — Música Zen Japonesa para Concentrarse como un Guerrero
@@ -737,7 +737,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 49. AMATERASU (天照) - Returning to Warmth | Japanese Ambient for a Quiet Morning
 
-124 views · Long · https://youtu.be/AMATERASU (天照) — Kembali ke Kehangatan | Ambient Jepang untuk Pagi yang Tenang
+124 views · Long · https://youtu.be/fem64VDGWqI
 
 - **🇯🇵 ja:** 天照(AMATERASU)— ぬくもりに還る|静かな朝のための和のアンビエント
 - **🇪🇸 es:** AMATERASU (天照) — Volver a la Calidez | Música Ambiental Japonesa para una Mañana Tranquila
@@ -750,7 +750,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 50. What Is Kokoro? The Japanese Word for the Heart-Mind 🕯️
 
-121 views · Shorts · https://youtu.be/Apa Itu Kokoro? Kata Jepang untuk Hati dan Pikiran 🕯️
+121 views · Shorts · https://youtu.be/JKQQ9wZ_cq8
 
 - **🇯🇵 ja:** 「心」とは?日本語の「こころ」の意味 🕯️
 - **🇪🇸 es:** ¿Qué es Kokoro? La Palabra Japonesa para Corazón y Mente 🕯️
@@ -763,7 +763,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 51. YUGEN 幽玄 — Silence Between Mountains | Japanese Zen Music for Deep Relaxation
 
-119 views · Long · https://youtu.be/YUGEN (幽玄) — Hening di Antara Gunung | Musik Zen Jepang untuk Relaksasi Mendalam
+119 views · Long · https://youtu.be/uMXFXKCovsU
 
 - **🇯🇵 ja:** 幽玄(YUGEN)— 山あいの静けさ|深くリラックスできる和の禅音楽
 - **🇪🇸 es:** YUGEN (幽玄) — Silencio entre Montañas | Música Zen Japonesa para Relajarse Profundamente
@@ -776,7 +776,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 52. 間 (MA) — The art of doing absolutely nothing
 
-117 views · Shorts · https://youtu.be/MA (間) — Seni Tidak Melakukan Apa Pun
+117 views · Shorts · https://youtu.be/cftORfS_bF4
 
 - **🇯🇵 ja:** 間(MA)— 何もしないという技
 - **🇪🇸 es:** MA (間) — El Arte de No Hacer Absolutamente Nada
@@ -789,7 +789,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 53. INARI (稲荷) — 1 Hour of Japanese Zen Music for Abundance & Stillness
 
-116 views · Long · https://youtu.be/INARI (稲荷) — 1 Jam Musik Zen Jepang untuk Kelimpahan & Ketenangan
+116 views · Long · https://youtu.be/pVdGyXq9uMk
 
 - **🇯🇵 ja:** 稲荷(INARI)— 豊かさと静けさのための和の禅音楽 1時間
 - **🇪🇸 es:** INARI (稲荷) — 1 Hora de Música Zen Japonesa para la Abundancia y la Calma
@@ -802,7 +802,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 54. Two Hours of Japanese Zen Music for Relaxation and Calm
 
-111 views · Long · https://youtu.be/2 Jam Musik Zen Jepang untuk Relaksasi & Ketenangan
+111 views · Long · https://youtu.be/QojE3Jveh1Q
 
 - **🇯🇵 ja:** リラックスと癒しのための和の禅音楽 2時間
 - **🇪🇸 es:** 2 Horas de Música Zen Japonesa para Relajarse y Calmarse
@@ -815,7 +815,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 55. Experience Emotional Balance with 639 Hz Frequency 🌊 #stressrelief #meditation
 
-104 views · Shorts · https://youtu.be/Keseimbangan Emosi dengan Frekuensi 639 Hz 🌊
+104 views · Shorts · https://youtu.be/4FdPwiRTOEM
 
 - **🇯🇵 ja:** 639Hzで心のバランスを取り戻す 🌊
 - **🇪🇸 es:** Equilibrio Emocional con la Frecuencia 639 Hz 🌊
@@ -828,7 +828,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 56. 2.5 Hours of Stillness | Japanese Zen Forest for Deep Sleep & Mindfulness
 
-102 views · Long · https://youtu.be/2,5 Jam Keheningan | Hutan Zen Jepang untuk Tidur Nyenyak & Mindfulness
+102 views · Long · https://youtu.be/HTM4HeRY9QY
 
 - **🇯🇵 ja:** 2.5時間の静けさ|日本の森の禅音楽 睡眠用BGM・瞑想
 - **🇪🇸 es:** 2,5 Horas de Calma | Bosque Zen Japonés para Dormir Profundamente y Mindfulness
@@ -841,7 +841,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 57. Just One Minute of Peace... Try It. 🤫
 
-100 views · Shorts · https://youtu.be/Cuma Satu Menit Tenang... Coba Deh 🤫
+100 views · Shorts · https://youtu.be/mQ0i8WbWBOo
 
 - **🇯🇵 ja:** たった1分の静けさ…試してみて 🤫
 - **🇪🇸 es:** Solo Un Minuto de Paz... Pruébalo 🤫
@@ -854,7 +854,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 58. ZANSHIN: How to Maintain Calm After the Storm
 
-98 views · Shorts · https://youtu.be/ZANSHIN: Cara Tetap Tenang Setelah Badai
+98 views · Shorts · https://youtu.be/bVuhFRhhBwk
 
 - **🇯🇵 ja:** 残心(ZANSHIN)— 嵐のあとも心を乱さない方法
 - **🇪🇸 es:** ZANSHIN: Cómo Mantener la Calma Después de la Tormenta
@@ -867,7 +867,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 59. 528 Hz DNA Healing 💖 Love Frequency
 
-96 views · Shorts · https://youtu.be/528 Hz Frekuensi Cinta 💖
+96 views · Shorts · https://youtu.be/BzZmeToJKUE
 
 - **🇯🇵 ja:** 528Hz 愛の周波数 💖
 - **🇪🇸 es:** 528 Hz, la Frecuencia del Amor 💖
@@ -880,7 +880,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 60. RAIJIN (雷神) — 1 Hour of Japanese Zen Music for Calm & Deep Sleep — The God of Thunder's Stillness
 
-94 views · Long · https://youtu.be/RAIJIN (雷神) — 1 Jam Musik Zen Jepang untuk Tidur Nyenyak | Ketenangan Dewa Petir
+94 views · Long · https://youtu.be/FnqtDHdkAEU
 
 - **🇯🇵 ja:** 雷神(RAIJIN)— 雷神の静けさ|ぐっすり眠れる和の禅音楽 1時間
 - **🇪🇸 es:** RAIJIN (雷神) — 1 Hora de Música Zen Japonesa para Dormir | La Calma del Dios del Trueno
@@ -893,7 +893,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 61. MAKOTO — The One Kanji Every Samurai Died For 誠
 
-93 views · Shorts · https://youtu.be/MAKOTO (誠) — Satu Kanji yang Dibela Setiap Samurai Sampai Mati
+93 views · Shorts · https://youtu.be/0VT9qjAfjII
 
 - **🇯🇵 ja:** 誠(MAKOTO)— 侍たちが命をかけた一文字
 - **🇪🇸 es:** MAKOTO (誠) — El Kanji por el que Todo Samurái Daba la Vida
@@ -906,7 +906,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 62. 3 Hours of 639 Hz Solfeggio • Heal, Relax, and Sleep Deeply
 
-90 views · Long · https://youtu.be/3 Jam 639 Hz Solfeggio • Pulihkan Diri, Rileks & Tidur Nyenyak
+90 views · Long · https://youtu.be/G9yoIFuGtIs
 
 - **🇯🇵 ja:** 639Hz ソルフェジオ 3時間|癒し・リラックス・深い眠り
 - **🇪🇸 es:** 3 Horas de 639 Hz Solfeggio • Sana, Relájate y Duerme Profundamente
@@ -919,7 +919,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 63. TAKUMI — 匠 | Deep Focus Music — Japanese Bamboo Flute for Concentration
 
-89 views · Long · https://youtu.be/TAKUMI (匠) — Musik Fokus Mendalam | Seruling Bambu Jepang untuk Konsentrasi
+89 views · Long · https://youtu.be/6FhN4K09Lm8
 
 - **🇯🇵 ja:** 匠(TAKUMI)— 尺八で集中できる作業用BGM
 - **🇪🇸 es:** TAKUMI (匠) — Música para Concentrarse | Flauta de Bambú Japonesa
@@ -932,7 +932,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 64. 963 Hz — The Frequency of God 🌌
 
-84 views · Shorts · https://youtu.be/963 Hz — Frekuensi Tuhan 🌌
+84 views · Shorts · https://youtu.be/064w64sDt_c
 
 - **🇯🇵 ja:** 963Hz — 神の周波数 🌌
 - **🇪🇸 es:** 963 Hz — La Frecuencia de Dios 🌌
@@ -945,7 +945,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 65. Tokyo Rain 25/5 — 2H Deep Focus Music for Coding & Study
 
-78 views · Long · https://youtu.be/Hujan di Tokyo 25/5 — 2 Jam Musik Fokus untuk Coding & Belajar
+78 views · Long · https://youtu.be/zjtGEZISKbg
 
 - **🇯🇵 ja:** 東京の雨 25/5 ポモドーロ|2時間 勉強・プログラミング用BGM
 - **🇪🇸 es:** Lluvia en Tokio 25/5 — 2 Horas de Música para Programar y Estudiar
@@ -958,7 +958,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 66. Bamboo Rain | 2.5 Hours Japanese Focus Music | Deep Work & Study | 528Hz Concentration
 
-76 views · Long · https://youtu.be/Hujan di Hutan Bambu | 2,5 Jam Musik Fokus Jepang untuk Kerja & Belajar | 528 Hz
+76 views · Long · https://youtu.be/Gr6RGpPGSd0
 
 - **🇯🇵 ja:** 竹林の雨|2.5時間 集中できる和の作業用BGM・勉強用BGM 528Hz
 - **🇪🇸 es:** Lluvia en el Bambú | 2,5 Horas de Música Japonesa para Concentrarse y Estudiar | 528 Hz
@@ -971,7 +971,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 67. Tokyo Sound Bath: 528 Hz Deep Sleep Music for Anxiety Relief & Healing | 1H
 
-74 views · Long · https://youtu.be/Sound Bath Tokyo: Musik Tidur 528 Hz untuk Meredakan Cemas | 1 Jam
+74 views · Long · https://youtu.be/-1RE1P98_u8
 
 - **🇯🇵 ja:** 東京サウンドバス 528Hz|不安をやわらげる睡眠用BGM 1時間
 - **🇪🇸 es:** Baño de Sonido en Tokio: 528 Hz para Dormir y Calmar la Ansiedad | 1 Hora
@@ -984,7 +984,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 68. YUGEN (幽玄) — The Beauty You Can Feel But Never See | Japanese Zen
 
-73 views · Shorts · https://youtu.be/YUGEN (幽玄) — Keindahan yang Terasa tapi Tak Terlihat | Zen Jepang
+73 views · Shorts · https://youtu.be/g4HF7OCMwr0
 
 - **🇯🇵 ja:** 幽玄(YUGEN)— 見えないけれど感じる美しさ
 - **🇪🇸 es:** YUGEN (幽玄) — La Belleza que Sientes pero Nunca Ves | Zen Japonés
@@ -997,7 +997,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 69. Temple Bells & Whispers — SEIJAKU 静寂 | Deep Sleep in Complete Silence
 
-72 views · Long · https://youtu.be/SEIJAKU (静寂) — Lonceng Kuil & Bisikan | Tidur Nyenyak dalam Hening Sempurna
+72 views · Long · https://youtu.be/JyLQonXM6RM
 
 - **🇯🇵 ja:** 静寂(SEIJAKU)— 寺の鐘とささやき|完全な静けさの中で眠る睡眠用BGM
 - **🇪🇸 es:** SEIJAKU (静寂) — Campanas de Templo y Susurros | Dormir Profundamente en Silencio Total
@@ -1010,7 +1010,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 70. KOMOREBI (木漏れ日) — Zen Music for Sunlight, Serenity & Deep Relaxation
 
-72 views · Long · https://youtu.be/KOMOREBI (木漏れ日) — Musik Zen tentang Cahaya, Ketenangan & Relaksasi Mendalam
+72 views · Long · https://youtu.be/-p3uwdasws8
 
 - **🇯🇵 ja:** 木漏れ日(KOMOREBI)— 光とやすらぎの禅音楽|深いリラックス
 - **🇪🇸 es:** KOMOREBI (木漏れ日) — Música Zen de Luz, Serenidad y Relajación Profunda
@@ -1023,7 +1023,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 71. TENJIN (天神) — Deep Focus Music for Your Most Difficult Work
 
-71 views · Long · https://youtu.be/TENJIN (天神) — Musik Fokus untuk Pekerjaan Tersulitmu
+71 views · Long · https://youtu.be/TSB5Xc_2olk
 
 - **🇯🇵 ja:** 天神(TENJIN)— いちばん難しい仕事のための集中用BGM
 - **🇪🇸 es:** TENJIN (天神) — Música para Concentrarte en tu Trabajo Más Difícil
@@ -1036,7 +1036,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 72. 水龍 Suiryū —The truth behind the Dragon Gate legend 🐉 #myth #japanese #shorts
 
-68 views · Shorts · https://youtu.be/SUIRYŪ (水龍) — Kisah Sebenarnya di Balik Legenda Gerbang Naga 🐉
+68 views · Shorts · https://youtu.be/9hEzlZz30ro
 
 - **🇯🇵 ja:** 水龍(SUIRYŪ)— 登竜門伝説の本当の意味 🐉
 - **🇪🇸 es:** SUIRYŪ (水龍) — La Verdad Detrás de la Leyenda de la Puerta del Dragón 🐉
@@ -1049,7 +1049,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 73. Ancient Temple Stillness: 963 Hz Pineal Gland Activation
 
-65 views · Long · https://youtu.be/Keheningan Kuil Kuno: 963 Hz untuk Aktivasi Kelenjar Pineal
+65 views · Long · https://youtu.be/pwnoQYJjgOo
 
 - **🇯🇵 ja:** 古寺の静寂 963Hz|松果体を目覚めさせる瞑想音楽
 - **🇪🇸 es:** Quietud de un Templo Antiguo: 963 Hz para Activar la Glándula Pineal
@@ -1062,7 +1062,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 74. Japanese Ambient Percussion for Focus  — Water Memories—水の記憶
 
-64 views · Long · https://youtu.be/Kenangan Air (水の記憶) — Perkusi Ambient Jepang untuk Fokus
+64 views · Long · https://youtu.be/3f1UiDlkMSY
 
 - **🇯🇵 ja:** 水の記憶 — 集中できる和のアンビエント・パーカッション
 - **🇪🇸 es:** Memorias del Agua (水の記憶) — Percusión Ambiental Japonesa para Concentrarse
@@ -1075,7 +1075,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 75. ZAZEN (坐禅) — Japanese Zen Music for Mindfulness, Breath & Quiet Focus
 
-62 views · Long · https://youtu.be/ZAZEN (坐禅) — Musik Zen Jepang untuk Mindfulness, Napas & Fokus yang Tenang
+62 views · Long · https://youtu.be/78xVosjVNnk
 
 - **🇯🇵 ja:** 坐禅(ZAZEN)— 呼吸とマインドフルネス、静かな集中のための和の禅音楽
 - **🇪🇸 es:** ZAZEN (坐禅) — Música Zen Japonesa para Mindfulness, Respiración y Concentración
@@ -1088,7 +1088,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 76. DNA Repair & Heart Activation 🌸 528 Hz Love Frequency
 
-61 views · Long · https://youtu.be/528 Hz Frekuensi Cinta 🌸 Meditasi 20 Menit untuk Membuka Hati
+61 views · Long · https://youtu.be/kOoa3a41TzA
 
 - **🇯🇵 ja:** 528Hz 愛の周波数 🌸 心をひらく20分の朝の瞑想
 - **🇪🇸 es:** 528 Hz, la Frecuencia del Amor 🌸 Meditación de 20 Minutos para Abrir el Corazón
@@ -1101,7 +1101,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 77. SATORI — 悟り | Sudden Awakening 🌅
 
-61 views · Shorts · https://youtu.be/SATORI (悟り) — Pencerahan yang Datang Tiba-Tiba 🌅
+61 views · Shorts · https://youtu.be/bGg5kvqmnx0
 
 - **🇯🇵 ja:** 悟り(SATORI)— ふいに訪れる目覚め 🌅
 - **🇪🇸 es:** SATORI (悟り) — El Despertar Repentino 🌅
@@ -1114,7 +1114,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 78. 雲龍 UNRYŪ —When You Become the Dragon 🐉 #mythology #aesthetic #shorts
 
-60 views · Shorts · https://youtu.be/UNRYŪ (雲龍) — Saat Kamu Menjadi Sang Naga 🐉
+60 views · Shorts · https://youtu.be/k-rRTLdqcn8
 
 - **🇯🇵 ja:** 雲龍(UNRYŪ)— あなたが龍になるとき 🐉
 - **🇪🇸 es:** UNRYŪ (雲龍) — Cuando Te Conviertes en el Dragón 🐉
@@ -1127,7 +1127,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 79. Tokyo Snowfall Coding Marathon | 1 Hour Uninterrupted
 
-59 views · Long · https://youtu.be/Salju di Tokyo — Musik untuk Coding | 1 Jam Tanpa Jeda
+59 views · Long · https://youtu.be/K1QEy3hRIEA
 
 - **🇯🇵 ja:** 雪の東京でプログラミング|1時間ノンストップ作業用BGM
 - **🇪🇸 es:** Nieve en Tokio — Música para Programar | 1 Hora sin Interrupciones
@@ -1140,7 +1140,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 80. HI 火 — The Fire That Burns Inside Every Samurai | 2H Japanese Zen & Shakuhachi
 
-58 views · Long · https://youtu.be/HI (火) — Api yang Menyala dalam Setiap Samurai | 2 Jam Zen Jepang & Shakuhachi
+58 views · Long · https://youtu.be/HPe_TUNPJt8
 
 - **🇯🇵 ja:** 火(HI)— 侍の心に燃える炎|尺八と和の禅音楽 2時間
 - **🇪🇸 es:** HI (火) — El Fuego que Arde en Cada Samurái | 2 Horas de Zen Japonés y Shakuhachi
@@ -1153,7 +1153,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 81. Deep Sleep in 8 Hours | 528 Hz Sakura Rain & Japanese Koto
 
-53 views · Long · https://youtu.be/8 Jam Tidur Nyenyak | 528 Hz, Hujan Sakura & Koto Jepang
+53 views · Long · https://youtu.be/8aVXNamOLJM
 
 - **🇯🇵 ja:** 8時間 ぐっすり眠れる|528Hz 桜の雨と琴の睡眠用BGM
 - **🇪🇸 es:** 8 Horas para Dormir Profundamente | 528 Hz, Lluvia de Sakura y Koto Japonés
@@ -1166,7 +1166,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 82. Who is Inari? The Secret Behind the Fox God #mythology #japan #shorts
 
-51 views · Shorts · https://youtu.be/Siapa Inari? Rahasia di Balik Dewa Rubah
+51 views · Shorts · https://youtu.be/3K0VszyASpw
 
 - **🇯🇵 ja:** 稲荷とは?キツネの神さまの秘密
 - **🇪🇸 es:** ¿Quién es Inari? El Secreto del Dios Zorro
@@ -1179,7 +1179,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 83. 間 — MA | The Space Between Sounds — Deep Focus & Sleep
 
-50 views · Long · https://youtu.be/MA (間) — Ruang di Antara Suara | Musik untuk Fokus & Tidur
+50 views · Long · https://youtu.be/0k7DyP9SWv4
 
 - **🇯🇵 ja:** 間(MA)— 音と音のあいだ|集中・睡眠のための和の音楽
 - **🇪🇸 es:** MA (間) — El Espacio entre los Sonidos | Música para Concentrarse y Dormir
@@ -1192,7 +1192,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 84. AMAOTO 雨音 — The Sound of Rain & Stillness
 
-43 views · Long · https://youtu.be/AMAOTO (雨音) — Suara Hujan & Keheningan | Suara Hujan untuk Tidur
+43 views · Long · https://youtu.be/fzP3Xo_PF74
 
 - **🇯🇵 ja:** 雨音(AMAOTO)— 雨の音と静けさ|睡眠用BGM・作業用BGM
 - **🇪🇸 es:** AMAOTO (雨音) — El Sonido de la Lluvia y la Calma | Lluvia para Dormir
@@ -1205,7 +1205,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 85. WABI-SABI (侘寂) — Find Beauty in Imperfection 🌿
 
-43 views · Shorts · https://youtu.be/WABI-SABI (侘寂) — Temukan Keindahan dalam Ketidaksempurnaan 🌿
+43 views · Shorts · https://youtu.be/LpqAUjYDxCI
 
 - **🇯🇵 ja:** 侘寂(WABI-SABI)— 不完全さの中に美を見つける 🌿
 - **🇪🇸 es:** WABI-SABI (侘寂) — Encuentra Belleza en la Imperfección 🌿
@@ -1218,7 +1218,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 86. Tokyo Rain 50/10 Focus Session | 2 Hours of Deep Work
 
-42 views · Long · https://youtu.be/Hujan di Tokyo 50/10 — Sesi Fokus | 2 Jam Deep Work
+42 views · Long · https://youtu.be/V4xwN0RRdpw
 
 - **🇯🇵 ja:** 東京の雨 50/10 集中セッション|2時間 作業用BGM
 - **🇪🇸 es:** Lluvia en Tokio 50/10 — Sesión de Concentración | 2 Horas de Trabajo Profundo
@@ -1231,7 +1231,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 87. 432 Hz Shakuhachi — Ancient Bamboo Flute for Deep Focus 🎋 #shorts
 
-41 views · Shorts · https://youtu.be/Shakuhachi 432 Hz — Seruling Bambu Kuno untuk Fokus 🎋
+41 views · Shorts · https://youtu.be/2WHqRuPf_BE
 
 - **🇯🇵 ja:** 432Hz 尺八 — 集中できる古の竹笛 🎋
 - **🇪🇸 es:** Shakuhachi a 432 Hz — Antigua Flauta de Bambú para Concentrarse 🎋
@@ -1244,7 +1244,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 88. What Is Shoshin? The Zen Idea of a Beginner's Mind 🌅
 
-40 views · Shorts · https://youtu.be/Apa Itu Shoshin? Konsep Zen tentang Pikiran Pemula 🌅
+40 views · Shorts · https://youtu.be/27OM6J1Pva4
 
 - **🇯🇵 ja:** 「初心」とは?禅が教える初心者の心 🌅
 - **🇪🇸 es:** ¿Qué es Shoshin? La Idea Zen de la Mente de Principiante 🌅
@@ -1257,7 +1257,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 89. Broken, Then Filled With Gold — 金継ぎ Kintsugi 🌿
 
-40 views · Shorts · https://youtu.be/Pecah, Lalu Diisi Emas — Kintsugi (金継ぎ) 🌿
+40 views · Shorts · https://youtu.be/4wjVA4kHGJk
 
 - **🇯🇵 ja:** 割れて、金で満たされる — 金継ぎ 🌿
 - **🇪🇸 es:** Roto y Luego Lleno de Oro — Kintsugi (金継ぎ) 🌿
@@ -1270,7 +1270,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 90. Late Night in Tokyo: Focus, Rain, and Espresso
 
-35 views · Long · https://youtu.be/Larut Malam di Tokyo: Fokus, Hujan & Espresso
+35 views · Long · https://youtu.be/ftWgpiEq-rs
 
 - **🇯🇵 ja:** 深夜の東京:雨とエスプレッソと集中|作業用BGM
 - **🇪🇸 es:** Noche en Tokio: Concentración, Lluvia y Espresso
@@ -1283,7 +1283,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 91. NAGOMI (和) — The Japanese Art of Inner Harmony | Zen Moment
 
-34 views · Shorts · https://youtu.be/NAGOMI (和) — Seni Jepang Menemukan Harmoni Batin
+34 views · Shorts · https://youtu.be/arkcFZ_64hA
 
 - **🇯🇵 ja:** 和み(NAGOMI)— 心の調和という日本の知恵
 - **🇪🇸 es:** NAGOMI (和) — El Arte Japonés de la Armonía Interior
@@ -1296,7 +1296,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 92. What Is Wa? The Japanese Secret of Harmony 🍃
 
-33 views · Shorts · https://youtu.be/Apa Itu Wa? Rahasia Harmoni ala Jepang 🍃
+33 views · Shorts · https://youtu.be/RmXxzu6LmHQ
 
 - **🇯🇵 ja:** 「和」とは?日本人が大切にする調和の心 🍃
 - **🇪🇸 es:** ¿Qué es Wa? El Secreto Japonés de la Armonía 🍃
@@ -1309,7 +1309,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 93. The Japanese Secret to Never Giving Up — GAMAN 我慢
 
-31 views · Shorts · https://youtu.be/Rahasia Jepang untuk Tak Pernah Menyerah — GAMAN (我慢)
+31 views · Shorts · https://youtu.be/8DVZ-GBGip0
 
 - **🇯🇵 ja:** 決してあきらめない日本の心 — 我慢(GAMAN)
 - **🇪🇸 es:** El Secreto Japonés para No Rendirse Nunca — GAMAN (我慢)
@@ -1322,7 +1322,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 94. MUSHIN — 無心 | The Mind Without Mind 🌀
 
-31 views · Shorts · https://youtu.be/MUSHIN (無心) — Pikiran Tanpa Pikiran 🌀
+31 views · Shorts · https://youtu.be/Rrwb_BBDMuM
 
 - **🇯🇵 ja:** 無心(MUSHIN)— 心にとらわれない心 🌀
 - **🇪🇸 es:** MUSHIN (無心) — La Mente sin Mente 🌀
@@ -1335,7 +1335,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 95. Japanese Ambience for Deep Focus
 
-31 views · Shorts · https://youtu.be/Suasana Jepang untuk Fokus Mendalam
+31 views · Shorts · https://youtu.be/Xvo3gyRzb9M
 
 - **🇯🇵 ja:** 集中できる和のアンビエント
 - **🇪🇸 es:** Ambiente Japonés para Concentrarse
@@ -1348,7 +1348,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 96. Kayru The secret of the Japanese Fire Dragon 🐉 #karyu #zen #discipline
 
-30 views · Shorts · https://youtu.be/KARYŪ (火龍) — Rahasia Naga Api Jepang 🐉
+30 views · Shorts · https://youtu.be/d0735DthM9c
 
 - **🇯🇵 ja:** 火龍(KARYŪ)— 日本の炎の龍の秘密 🐉
 - **🇪🇸 es:** KARYŪ (火龍) — El Secreto del Dragón de Fuego Japonés 🐉
@@ -1361,7 +1361,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 97. MIZU (水) The Japanese Bamboo Water Fountain That Calms the Mind
 
-29 views · Shorts · https://youtu.be/MIZU (水) — Pancuran Bambu Jepang yang Menenangkan Pikiran
+29 views · Shorts · https://youtu.be/MK9ERYx4VhU
 
 - **🇯🇵 ja:** 水(MIZU)— 心を静める日本の竹の水音
 - **🇪🇸 es:** MIZU (水) — La Fuente de Bambú Japonesa que Calma la Mente
@@ -1374,7 +1374,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 98. Gentle Kyoto Downpour | 432 Hz Deep Rest & Recovery 🌧️
 
-29 views · Long · https://youtu.be/Hujan Lembut di Kyoto | 432 Hz untuk Istirahat & Pemulihan 🌧️
+29 views · Long · https://youtu.be/SjFUA28aG3k
 
 - **🇯🇵 ja:** 京都のやさしい雨|432Hz 深い休息と回復 睡眠用BGM 🌧️
 - **🇪🇸 es:** Lluvia Suave en Kioto | 432 Hz para Descansar Profundamente 🌧️
@@ -1387,7 +1387,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 99. This moment will never come again  — Ichigo Ichie 🍵
 
-27 views · Shorts · https://youtu.be/Momen Ini Tak Akan Terulang — Ichigo Ichie 🍵
+27 views · Shorts · https://youtu.be/a8R_joIRMkI
 
 - **🇯🇵 ja:** この瞬間は二度と来ない — 一期一会 🍵
 - **🇪🇸 es:** Este Momento No Volverá Jamás — Ichigo Ichie 🍵
@@ -1400,7 +1400,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 100. HI 火 — Forest Ambience for Samurai Focus 🔥 #focus #samurai #forest
 
-24 views · Shorts · https://youtu.be/HI (火) — Suasana Hutan untuk Fokus ala Samurai 🔥
+24 views · Shorts · https://youtu.be/iJc3_7YLBRU
 
 - **🇯🇵 ja:** 火(HI)— 侍の集中力 森のアンビエント 🔥
 - **🇪🇸 es:** HI (火) — Ambiente de Bosque para la Concentración Samurái 🔥
@@ -1413,7 +1413,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 101. POV: You're escaping to a Tokyo cafe tonight ☕️🌧️ #tokyocafe #slowliving #aesthetic
 
-24 views · Shorts · https://youtu.be/POV: Malam Ini Kamu Kabur ke Kafe di Tokyo ☕️🌧️
+24 views · Shorts · https://youtu.be/tznrhxe7ttc
 
 - **🇯🇵 ja:** POV:今夜、東京のカフェに逃げ込む ☕️🌧️
 - **🇪🇸 es:** POV: Esta Noche te Escapas a un Café de Tokio ☕️🌧️
@@ -1426,7 +1426,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 102. The Japanese Secret to Waking Up Happy — IKIGAI 生き甲斐
 
-20 views · Shorts · https://youtu.be/Rahasia Jepang untuk Bangun dengan Bahagia — IKIGAI (生き甲斐)
+20 views · Shorts · https://youtu.be/COuI_3pH9_E
 
 - **🇯🇵 ja:** 幸せに目覚める日本の秘密 — 生き甲斐(IKIGAI)
 - **🇪🇸 es:** El Secreto Japonés para Despertar Feliz — IKIGAI (生き甲斐)
@@ -1439,7 +1439,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 103. Get more done with this 50/10 focus timer
 
-18 views · Shorts · https://youtu.be/Lebih Produktif dengan Timer Fokus 50/10 Ini
+18 views · Shorts · https://youtu.be/t_valshIMi4
 
 - **🇯🇵 ja:** 50/10タイマーで作業がはかどる
 - **🇪🇸 es:** Haz Más con Este Temporizador de Concentración 50/10
@@ -1452,7 +1452,7 @@ Musik baru setiap minggu. Subscribe biar nggak ketinggalan.
 
 ### 104. Need to Focus? Try This 25 Min Rainy Tokyo Session
 
-16 views · Shorts · https://youtu.be/Butuh Fokus? Coba Sesi 25 Menit Hujan di Tokyo Ini
+16 views · Shorts · https://youtu.be/9_nAWLAhInY
 
 - **🇯🇵 ja:** 集中したい?雨の東京で25分セッション
 - **🇪🇸 es:** ¿Necesitas Concentrarte? Prueba Esta Sesión de 25 Min con Lluvia en Tokio
