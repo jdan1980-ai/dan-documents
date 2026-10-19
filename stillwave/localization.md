@@ -14,12 +14,13 @@ Not a magic switch — it widens the funnel; retention and thumbnails still deci
 ## Rules
 
 1. **Use YouTube Studio's Translations feature, NOT a multi-language wall in the main description.** One description stuffed with 8 languages looks spammy, pushes the English hook below the fold, and only the first ~150 chars show anyway.
-2. **Main (default) language stays English.** Set video language = English, then add translations.
-3. **Localize, don't translate literally.** Every translated title must start with the *native search phrase* from the keyword bank below, not a word-for-word copy of the English title.
-4. **Keep "StillWave" / "StillWave Zen" untranslated** (brand), and keep it in the title when the current Phase format has it.
-5. **Translated description = short version** (hook + 2 sentences + use cases + CTA + 2 local hashtags + 2 English hashtags). No need to translate timestamps or tracklists.
-6. **Tags stay in one set** (YouTube has no per-language tags). Add 2–3 top native keywords (e.g. `música para concentrarse`, `作業用BGM`) to the English tag list if space allows.
-7. **Pinned comment stays English.**
+2. **Long-form videos only.** Shorts are not translated.
+3. **Main (default) language stays English.** Set video language = English, then add translations.
+4. **Localize, don't translate literally.** Every translated title must start with the *native search phrase* from the keyword bank below, not a word-for-word copy of the English title.
+5. **Keep "StillWave" / "StillWave Zen" untranslated** (brand), and keep it in the title when the current Phase format has it.
+6. **Translated description = short version** (hook + 2 sentences + use cases + CTA + 2 local hashtags + 2 English hashtags). No need to translate timestamps or tracklists.
+7. **Tags stay in one set** (YouTube has no per-language tags). Add 2–3 top native keywords (e.g. `música para concentrarse`, `作業用BGM`) to the English tag list if space allows.
+8. **Pinned comment stays English.**
 
 ## Target languages (priority order)
 
@@ -42,7 +43,7 @@ Re-check after 30 days in **Studio → Analytics → Audience → Top geographie
 
 **Video:** Studio → Content → video → *Details* → check **Video language = English** → left menu **Subtitles** (Languages) → *Add language* → pick language → in the **Title & description** column click *Add* → paste title + description → *Publish*.
 
-Do it for every new upload. For existing videos, ready-made titles for all 104 videos (most viewed first) plus description templates are in `translations-all-videos.md` — work from the top, they already have watch history.
+Do it for every new upload. For existing videos, ready-made titles for all 62 long-form videos (most viewed first) plus description templates are in `translations-long-videos.md` — work from the top, they already have watch history.
 
 ---
 

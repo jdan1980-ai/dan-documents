@@ -206,7 +206,7 @@ StillWave — Lantern Glow Focus | 3H Late Night Coding
 - **No text on thumbnail image** — the title handles itself in YouTube UI
 - **No glow / effects on text anywhere** — plain solid colors only when text is needed
 - **Default YouTube copy in English** (descriptions, titles, tags, hashtags, pinned comment)
-- **Every video also gets localized title + short description** in 8 languages (ja, es, pt-BR, ko, de, fr, ru, id), added via YouTube Studio → Subtitles → Title & description — never as a multi-language wall in the main description. Rules, keyword bank and channel About translations: `localization.md`
+- **Every long-form video also gets localized title + short description** in 8 languages (ja, es, pt-BR, ko, de, fr, ru, id), added via YouTube Studio → Subtitles → Title & description — never as a multi-language wall in the main description. Rules, keyword bank and channel About translations: `localization.md`
 
 ---
 
@@ -241,7 +241,7 @@ When the user types one of these in chat, follow the trigger spec exactly.
 
 **Pre-production:** Google Trends + competitor Shorts check, identify gap.
 
-**Deliver this 12-item package:**
+**Deliver this 11-item package** (no translations for Shorts — long-form only):
 
 1. **Concept & Hook** (first 2 seconds)
 2. **NanoBanana prompt 9:16** (vertical, 4K, hybrid aesthetic)
@@ -254,7 +254,6 @@ When the user types one of these in chat, follow the trigger spec exactly.
 9. **Hashtags** (5-7, `#shorts` last)
 10. **Pinned Comment** (engagement question CTA)
 11. **A/B Title Variant**
-12. **🌍 Translations** — Shorts title + 1–2 line description in 8 languages per `localization.md`
 
 ### `GAP: SW` → CONTENT GAP analysis
 
@@ -293,7 +292,7 @@ Use Canva ONLY when a special variant is needed (e.g., text overlay for a viral 
 - `content-ideas.md` — backlog (output of `GAP:` and `CAL:` runs)
 - `production-status.md` — pipeline tracker per video
 - `localization.md` — multi-language titles/descriptions: rules, languages, keyword bank, channel About translations
-- `translations-all-videos.md` — translated titles for every published video (most viewed first) + description templates
+- `translations-long-videos.md` — translated titles for every long-form video (most viewed first) + description templates
 - `scripts/<slug>.md` — one file per video
 
 ---
