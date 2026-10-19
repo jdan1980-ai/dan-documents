@@ -143,6 +143,113 @@ deep focus music, deep work music, focus music, late night music, coding music, 
 Lo-Fi Focus Music — Bonsai & Rain at 3 AM | 2H Late Night Coding & Writing
 ```
 
+## 13. 🌍 Translations (YouTube Studio → Subtitles → Title & description)
+
+> Rules + keyword bank: `../localization.md`.
+
+| Lang | Title |
+|------|-------|
+| ja | 深い集中のための作業用BGM — 深夜の盆栽デスク \| 2時間 プログラミング・執筆 |
+| es | Música para Concentrarse — Bonsái de Madrugada \| 2H para Programar, Escribir y Enfocarte |
+| pt-BR | Música para Concentração — Bonsai na Madrugada \| 2H para Programar, Escrever e Focar |
+| ko | 깊은 집중 음악 — 한밤의 분재 책상 \| 2시간 코딩 · 글쓰기 노동요 |
+| de | Konzentrationsmusik — Bonsai-Schreibtisch bei Nacht \| 2 Std. Programmieren & Schreiben |
+| fr | Musique de Concentration — Bonsaï de Nuit \| 2H pour Coder, Écrire et se Concentrer |
+| ru | Музыка для концентрации — Бонсай глубокой ночью \| 2 часа для программирования и письма |
+| id | Musik Fokus — Meja Bonsai Larut Malam \| 2 Jam untuk Coding & Menulis |
+
+**Descriptions:**
+
+```
+[ja]
+🌃 深夜3時。街は眠り、机の上の盆栽だけがあなたを見守っている。
+
+夜型のエンジニア、ライター、クリエイターのための2時間の作業用BGM。ゆったりしたローファイピアノ、静かな鼓動のような低音、窓を打つやさしい雨音。ドラムも盛り上がりもなく、深い集中だけが続きます。
+
+おすすめ:プログラミング・デバッグ/執筆・日記/トレード/深夜の勉強/ディープワーク
+
+▶ チャンネル登録で、毎週新しい作業用BGMをお届けします。
+
+#作業用BGM #勉強用BGM #deepwork #focusmusic
+
+[es]
+🌃 Son las 3 AM. La ciudad duerme. Solo tu bonsái te acompaña mientras trabajas.
+
+2 horas de música para concentrarse, creada para programadores, escritores y creadores nocturnos. Piano lo-fi lento, un bajo suave como un latido tranquilo y lluvia ligera en la ventana. Sin batería, sin subidas: solo concentración profunda.
+
+Ideal para: programar y depurar · escribir · trading · estudiar de madrugada · trabajo profundo
+
+▶ Suscríbete para nuevas sesiones nocturnas de concentración cada semana.
+
+#musicaparaconcentrarse #musicaparaestudiar #deepwork #focusmusic
+
+[pt-BR]
+🌃 São 3 da manhã. A cidade dorme. Só o seu bonsai te faz companhia enquanto você trabalha.
+
+2 horas de música para concentração, feita para programadores, escritores e criadores noturnos. Piano lo-fi lento, um grave suave como um batimento tranquilo e chuva leve na janela. Sem bateria, sem viradas — só foco profundo.
+
+Perfeito para: programar e depurar · escrever · trading · estudar de madrugada · trabalho focado
+
+▶ Inscreva-se para novas sessões de foco toda semana.
+
+#musicaparaestudar #musicaparaconcentracao #deepwork #focusmusic
+
+[ko]
+🌃 새벽 3시. 도시는 잠들고, 책상 위 분재만이 당신의 작업을 지켜봅니다.
+
+밤에 일하는 개발자, 작가, 크리에이터를 위한 2시간 집중 음악. 느린 로파이 피아노, 고요한 심장 박동 같은 저음, 창문에 내리는 잔잔한 빗소리. 드럼도, 고조되는 부분도 없이 깊은 집중만 이어집니다.
+
+추천: 코딩 · 디버깅 · 글쓰기 · 트레이딩 · 새벽 공부 · 딥워크
+
+▶ 구독하시면 매주 새로운 심야 집중 세션을 들으실 수 있어요.
+
+#공부할때듣는음악 #노동요 #deepwork #focusmusic
+
+[de]
+🌃 Es ist 3 Uhr nachts. Die Stadt schläft. Nur dein Bonsai leistet dir beim Arbeiten Gesellschaft.
+
+2 Stunden Konzentrationsmusik für Nachteulen: Entwickler, Autoren und Kreative. Langsames Lo-Fi-Piano, ein sanfter Bass wie ein ruhiger Herzschlag, leiser Regen am Fenster. Keine Drums, keine Steigerungen — nur tiefer Fokus.
+
+Ideal zum: Programmieren & Debuggen · Schreiben · Trading · Lernen nach Mitternacht · Deep Work
+
+▶ Abonniere den Kanal für neue nächtliche Fokus-Sessions jede Woche.
+
+#musikzumlernen #konzentrationsmusik #deepwork #focusmusic
+
+[fr]
+🌃 Il est 3 h du matin. La ville dort. Seul votre bonsaï veille pendant que vous travaillez.
+
+2 heures de musique de concentration pour les développeurs, écrivains et créateurs nocturnes. Piano lo-fi lent, une basse douce comme un battement de cœur apaisé, une pluie légère sur la vitre. Pas de batterie, pas de montée — juste une concentration profonde.
+
+Idéal pour : coder et déboguer · écrire · le trading · réviser tard le soir · le travail en profondeur
+
+▶ Abonnez-vous pour de nouvelles sessions de concentration chaque semaine.
+
+#musiquepourtravailler #musiqueconcentration #deepwork #focusmusic
+
+[ru]
+🌃 3 часа ночи. Город спит. Только бонсай на столе составляет вам компанию.
+
+2 часа музыки для концентрации — для ночных разработчиков, авторов и креаторов. Медленное lo-fi пианино, мягкий бас, похожий на спокойное сердцебиение, тихий дождь за окном. Без ударных и нарастаний — только глубокий фокус.
+
+Подходит для: программирования и отладки · письма · трейдинга · учёбы после полуночи · глубокой работы
+
+▶ Подписывайтесь — новые ночные сессии для концентрации каждую неделю.
+
+#музыкадляконцентрации #музыкадляучебы #deepwork #focusmusic
+
+[id]
+🌃 Jam 3 pagi. Kota sudah tidur. Hanya bonsai di meja yang menemanimu bekerja.
+
+2 jam musik fokus untuk programmer, penulis, dan kreator yang bekerja larut malam. Piano lo-fi yang pelan, bass lembut seperti detak jantung yang tenang, dan rintik hujan di jendela. Tanpa drum, tanpa klimaks — hanya fokus yang dalam.
+
+Cocok untuk: coding & debugging · menulis · trading · belajar tengah malam · deep work
+
+▶ Subscribe untuk sesi fokus malam baru setiap minggu.
+
+#musikbelajar #musikfokus #deepwork #focusmusic
+```
+
 ---
 
 ## Post-publish metrics

@@ -43,10 +43,11 @@ YouTube channel — Japanese ambient · meditation · sleep · focus music. Hand
 - `stillwave/competitor-tracker.md` — 5 tracked competitors
 - `stillwave/content-ideas.md` — backlog (output of GAP/CAL runs)
 - `stillwave/production-status.md` — pipeline tracker
+- `stillwave/localization.md` — titles/descriptions in 8 languages (ja, es, pt-BR, ko, de, fr, ru, id)
 
 **Trigger summary** (full spec in `stillwave/CLAUDE.md`):
-- `SW: [тема]` → 11-item long-video package (Suno + Nano + Flow + YouTube copy)
-- `SWS: [тема]` → 11-item Shorts package
+- `SW: [тема]` → 12-item long-video package (Suno + Nano + Flow + YouTube copy + translations)
+- `SWS: [тема]` → 12-item Shorts package
 - `GAP: SW` → top 10 unused themes + top 3 recommendations
 - `CAL: [месяц]` → analytics + monthly calendar (4 videos / week)
 - `THUMB: [тема]` → 4 Canva variants

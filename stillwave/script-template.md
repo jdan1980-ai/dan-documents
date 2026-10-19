@@ -114,6 +114,41 @@ ffmpeg -loop 1 -i thumbnail.jpg -i music.mp3 \
 
 ```
 
+## 12. 🌍 Translations (YouTube Studio → Subtitles → Title & description)
+
+> Rules + keyword bank: `localization.md`. Title starts with the native search phrase. Description = hook + 2 sentences + use cases + CTA + 2 local + 2 English hashtags.
+
+| Lang | Title |
+|------|-------|
+| ja | |
+| es | |
+| pt-BR | |
+| ko | |
+| de | |
+| fr | |
+| ru | |
+| id | |
+
+**Descriptions:**
+
+```
+[ja]
+
+[es]
+
+[pt-BR]
+
+[ko]
+
+[de]
+
+[fr]
+
+[ru]
+
+[id]
+```
+
 ---
 
 ## Post-publish metrics
