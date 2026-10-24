@@ -289,6 +289,7 @@ Use Canva ONLY when a special variant is needed (e.g., text overlay for a viral 
 - `competitor-tracker.md` — tracked competitors (Hikari Zen, RollinSound, MERSO, Power Hour Focus, etc.)
 - `content-ideas.md` — backlog (output of `GAP:` and `CAL:` runs)
 - `production-status.md` — pipeline tracker per video
+- `digital-products.md` — Gumroad wallpaper packs (product line, file specs, promo, launch checklist)
 - `scripts/<slug>.md` — one file per video
 
 ---

@@ -43,6 +43,7 @@ YouTube channel — Japanese ambient · meditation · sleep · focus music. Hand
 - `stillwave/competitor-tracker.md` — 5 tracked competitors
 - `stillwave/content-ideas.md` — backlog (output of GAP/CAL runs)
 - `stillwave/production-status.md` — pipeline tracker
+- `stillwave/digital-products.md` — Gumroad wallpaper packs (product line, file specs, launch plan)
 
 **Trigger summary** (full spec in `stillwave/CLAUDE.md`):
 - `SW: [тема]` → 11-item long-video package (Suno + Nano + Flow + YouTube copy)
