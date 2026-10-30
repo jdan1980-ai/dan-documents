@@ -8,7 +8,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 2H (channel cap, locked).
 - **Music source:** Google Lyria (Suno no longer usable). Shakuhachi + Japanese temple bells (rin, bonshō) + a low even drone.
-- **Status:** 📝 script ready. Next: hero image (§3), Lyria batch (§1), mastering (§2).
+- **Status:** 🟡 music mastered (42 tracks, 1:58:14, §2/§8), overlay built (`assets/karesansui-jakunen-fudo-overlay.png`). Next: hero image check + thumbnail, CapCut assembly.
 
 ---
 
@@ -108,6 +108,71 @@ python select-album.py "C:\Users\jdan1\OneDrive\Desktop\KARESANSUI" "C:\Users\jd
 
 Target ~42–44 raw tracks to land near 2:00 after the 2:30 filter. Then poetic names + rename script.
 
+### ✅ Mastering results (2026-10-30)
+
+- `master-album.py`: 52 raw tracks → `KARESANSUI-mastered`.
+- `select-album.py --cap 120 --min-length 2.5`: 2 exact duplicates dropped (`Bamboo and Silk (2)`, `Soft Currents`) → **ALBUM: 42 tracks, 1:58:14** → `karesansui-ALBUM`. RESERVE: 8 tracks.
+- Clipped input still in the album: #2 `Bamboo Dialogue`, #6 `Crystal Echoes`, #28 `Soft Tides`. Regenerate or swap if audible; cleanest RESERVE swaps: `Bamboo Mist` (TP -0.5), `Breathing Space (1)` (-0.3), `Tidal Drift` (-0.1).
+
+**🇺🇦 RU:** В альбоме 42 трека, 1:58:14, два дубля выкинуты автоматически. Клиппинг остался в треках №2, №6, №28 — если слышно, замени на `Bamboo Mist`, `Breathing Space (1)` или `Tidal Drift` из RESERVE.
+
+### Rename script (run once; keyed on the numeric prefix)
+
+```powershell
+$folder = "C:\Users\jdan1\OneDrive\Desktop\karesansui-ALBUM"
+$names = @{
+  '01' = 'Raked Sand at First Light'
+  '02' = 'Two Stones in Conversation'
+  '03' = 'Echo Across the White Gravel'
+  '04' = 'The Space Between the Stones'
+  '05' = 'The Garden Breathes'
+  '06' = 'Clear Notes Over Still Sand'
+  '07' = 'A Bell Fades Over the Garden'
+  '08' = 'The Stone That Does Not Move'
+  '09' = 'Stillness Beneath the Moss'
+  '10' = 'Deeper Than the Raked Lines'
+  '11' = 'Two Breaths, One Garden'
+  '12' = 'A Gentle Breath on the Veranda'
+  '13' = 'Exhale Toward the Clay Wall'
+  '14' = 'The Rake Rests'
+  '15' = 'A Lotus in a Garden of Sand'
+  '16' = 'Lines Drifting Like Water'
+  '17' = 'Quiet Breath at Dawn'
+  '18' = 'Sitting Until the Sun Rises'
+  '19' = 'Sand That Flows Without Moving'
+  '20' = 'Repose Beside the Island Stone'
+  '21' = 'One Tone in the Mist'
+  '22' = 'Resonance Over the Temple Wall'
+  '23' = 'A Sacred Pause'
+  '24' = 'The Stillness of Ryoan-ji'
+  '25' = 'A Slow Exhale Over Gravel'
+  '26' = 'Soft Exhale, Pale Sun'
+  '27' = 'Resting in the Circle'
+  '28' = 'Tides Drawn in Sand'
+  '29' = 'The Ripple Around the Stone'
+  '30' = 'Stillness Within the Circle'
+  '31' = 'Moss and Morning Dew'
+  '32' = 'The Sand Ocean at Low Tide'
+  '33' = 'Dusk Over the Stone Garden'
+  '34' = 'Warm Light on the Rake Lines'
+  '35' = 'Repose in the Temple Shade'
+  '36' = 'The Monk Does Not Move'
+  '37' = 'Fifteen Stones, One Hidden'
+  '38' = 'A Warm Tone Beneath the Silence'
+  '39' = 'The Garden Falls Asleep'
+  '40' = 'Sleep Beside the Still Stone'
+  '41' = 'Warm Stillness, Empty Veranda'
+  '42' = 'Only the Stone Remains'
+}
+Get-ChildItem -LiteralPath $folder -Filter '*.wav' | ForEach-Object {
+  if ($_.Name -match '^(\d{2}) - ') {
+    $n = $Matches[1]
+    Rename-Item -LiteralPath $_.FullName -NewName ("$n - " + $names[$n] + ".wav")
+  }
+}
+Write-Host "Done."
+```
+
 ### Ambient SFX bed — soft rain on gravel (optional)
 
 Rain is the audience's strongest trigger. If you use hero variant B (§3, wet gravel after rain), lay a **separate CC0 rain track** under the album in CapCut — soft, steady, no thunder, ~-20 to -25 dB under the music. Verify the CC0 / royalty-free license first. Never describe rain inside the Lyria prompts.
@@ -192,7 +257,48 @@ and a single stone becomes a mountain that never moves.
 
 At dawn in an old Kyoto temple, a monk sits on the wooden veranda above a garden of raked white gravel. The lines in the sand curve into one wide circle around a single moss-covered stone, like ripples around an island. Beyond the clay wall the mist hangs still and a pale sun rises slowly through it. A breathy flute, a temple bell fading into silence, a low and steady tone beneath it all — two hours to sit like the stone while everything else flows around you.
 
-[TRACKLIST — paste after mastering]
+0:00 Raked Sand at First Light
+2:50 Two Stones in Conversation
+5:37 Echo Across the White Gravel
+8:28 The Space Between the Stones
+11:22 The Garden Breathes
+14:17 Clear Notes Over Still Sand
+16:58 A Bell Fades Over the Garden
+19:52 The Stone That Does Not Move
+22:39 Stillness Beneath the Moss
+25:28 Deeper Than the Raked Lines
+28:19 Two Breaths, One Garden
+31:05 A Gentle Breath on the Veranda
+34:00 Exhale Toward the Clay Wall
+36:42 The Rake Rests
+39:12 A Lotus in a Garden of Sand
+41:50 Lines Drifting Like Water
+44:31 Quiet Breath at Dawn
+47:24 Sitting Until the Sun Rises
+50:25 Sand That Flows Without Moving
+53:22 Repose Beside the Island Stone
+56:14 One Tone in the Mist
+59:07 Resonance Over the Temple Wall
+1:02:03 A Sacred Pause
+1:04:56 The Stillness of Ryoan-ji
+1:07:48 A Slow Exhale Over Gravel
+1:10:47 Soft Exhale, Pale Sun
+1:13:21 Resting in the Circle
+1:15:58 Tides Drawn in Sand
+1:18:36 The Ripple Around the Stone
+1:21:26 Stillness Within the Circle
+1:24:15 Moss and Morning Dew
+1:27:03 The Sand Ocean at Low Tide
+1:30:02 Dusk Over the Stone Garden
+1:32:54 Warm Light on the Rake Lines
+1:35:50 Repose in the Temple Shade
+1:38:35 The Monk Does Not Move
+1:41:25 Fifteen Stones, One Hidden
+1:44:04 A Warm Tone Beneath the Silence
+1:46:49 The Garden Falls Asleep
+1:49:43 Sleep Beside the Still Stone
+1:52:38 Warm Stillness, Empty Veranda
+1:55:30 Only the Stone Remains
 
 🌀 Let the sand be the ocean. Let the stone be still.
 🍃 Nothing to reach for. Only this.
