@@ -15,9 +15,7 @@ Cream #F5EAD2 (channel default), Liberation Serif Bold (locked channel font).
 """
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-# YujiBoku (brush) is not in the repo or this environment; Japanese gothic
-# substitute keeps the correct Japanese kanji forms. Swap back if YujiBoku is restored.
-KANJI = "/usr/share/fonts/truetype/fonts-japanese-gothic.ttf"
+KANJI = "/home/user/dan-documents/stillwave/assets/fonts/YujiBoku-Regular.ttf"
 SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 OUT = "/home/user/dan-documents/stillwave/assets/nara-shinzanyukoku-overlay.png"
 W, H = 1920, 1080

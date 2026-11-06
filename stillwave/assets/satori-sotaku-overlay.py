@@ -13,13 +13,10 @@ In CapCut: TEXT layer on the top track, start 0:03, end 0:14, fade-in 2s /
 fade-out 2s, no glow/shadow/box.
 Cream #F5EAD2 (channel default), Liberation Serif Bold (locked channel font).
 4 kanji, horizontal — same layout as the rest of the channel's overlays.
-
-Kanji font: a Japanese gothic substitute, because YujiBoku (brush) is not in
-the repo or this environment. Swap back if YujiBoku is restored.
 """
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-KANJI = "/usr/share/fonts/truetype/fonts-japanese-gothic.ttf"
+KANJI = "/home/user/dan-documents/stillwave/assets/fonts/YujiBoku-Regular.ttf"
 SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 OUT = "/home/user/dan-documents/stillwave/assets/satori-sotaku-overlay.png"
 W, H = 1920, 1080
