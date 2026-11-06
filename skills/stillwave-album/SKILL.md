@@ -1,24 +1,27 @@
 ---
 name: stillwave-album
-description: Builds a long-form album video for the user's StillWave YouTube channel (@stillwavezen, 2-hour Japanese zen ambient music) from raw Lyria/Suno tracks to an upload-ready package. Covers the mastering and selection commands, the wisdom overlay PNG, fixing the track order, poetic track names, YouTube timestamps, the PowerShell rename script, and saving everything to the dan-documents repo. Use this whenever the user announces a new album or video ("новый альбом", "делаем альбом X", "муз тут C:\...\Desktop\...", "сделай оверлей"), pastes master-album.py or select-album.py output, asks for a tracklist, timestamps, track names or a rename script, says the album is short of 2 hours, or wants reserve tracks added — even if they never say "album".
+description: Builds a long-form album video for the user's two YouTube music channels — StillWave (@stillwavezen, 2-hour Japanese zen ambient) and Seven Lights (3-hour chakra/Solfeggio sleep music) — from raw Lyria/Suno tracks to an upload-ready package. Covers the mastering and selection commands, the wisdom overlay PNG, fixing the track order, poetic track names, YouTube timestamps, the PowerShell rename script, and saving everything to the dan-documents repo. Use this whenever the user announces a new album or video ("новый альбом", "делаем альбом X", "муз тут C:\...\Desktop\...", "сделай оверлей"), pastes master-album.py or select-album.py output, asks for a tracklist, timestamps, track names or a rename script, says the album is short of 2 hours, or wants reserve tracks added — even if they never say "album".
 ---
 
-# StillWave album builder
+# Album builder — StillWave and Seven Lights
 
-The user runs the StillWave channel from the `jdan1980-ai/dan-documents` repo and makes a new
-long-form album every few days. The steps below are the routine that has worked across
+The user runs two music channels from the `jdan1980-ai/dan-documents` repo, StillWave and
+Seven Lights, and makes a new long-form album every few days. The steps below are the routine that has worked across
 ZAZEN, NARA, SATORI, KARESANSUI, MUSASHI, Autumn Leaves and others. Most of the effort the
 user notices is in small things going right every time: the correct font, a sensible track
 order, names that fit, timestamps that match, and a rename script that just works.
 
-## Before you start
+## First: which channel?
 
-Read `references/stillwave.md`: it condenses the channel rules this routine depends on. The
-repo's own `stillwave/CLAUDE.md` is the source of truth; if they disagree, follow the repo file.
+Japanese concepts, temples, samurai, kanji → **StillWave**. Hz numbers, Solfeggio, chakras,
+"deep healing sleep" → **Seven Lights**. Ask only if it is genuinely unclear. Then read the
+matching reference before anything channel-specific:
 
-The repo also holds `quiethertz/`, a plan for a possible second channel modelled on a competitor
-("Healing Quiet Tonight"). It is not a channel the user runs, so do not apply its rules to
-StillWave albums.
+- StillWave → `references/stillwave.md` (source of truth: `stillwave/CLAUDE.md`)
+- Seven Lights → `references/sevenlights.md` (source of truth: `sevenlights/CLAUDE.md`)
+
+The repo also holds `quiethertz/`, the planning draft for Seven Lights under an old working name.
+It is not a separate channel.
 
 ## How to talk to the user
 
@@ -41,7 +44,7 @@ python master-album.py "C:\Users\jdan1\OneDrive\Desktop\<FOLDER>"
 python select-album.py "C:\Users\jdan1\OneDrive\Desktop\<FOLDER>" "C:\Users\jdan1\OneDrive\Desktop\<FOLDER>-mastered" --slug <slug> --cap <CAP> --min-length 2.5
 ```
 
-`<CAP>` is 120: the channel cap is 2 hours. `--min-length 2.5` is the
+`<CAP>` is 120 for StillWave (2-hour cap) and 180 for Seven Lights. `--min-length 2.5` is the
 user's rule: tracks shorter than 2:30 never go in. Do not offer to lower it.
 
 If the user adds new tracks to an existing album, they want only the new ones mastered:
@@ -50,7 +53,7 @@ overwriting, copy the raw files into `<FOLDER>`, then re-run `select-album.py`. 
 same name are not necessarily the same track — when a copy reports `SKIPPED (name exists)`,
 compare file sizes before assuming they are duplicates.
 
-## Step 2 — the wisdom overlay
+## Step 2 — the wisdom overlay (StillWave only; Seven Lights has none)
 
 Every StillWave long-form opens with a wisdom phrase: kanji, romaji, short English gloss,
 lower-left, cream. Pick a **real** Japanese phrase (yojijukugo, kotowaza or Zen line) that fits
@@ -109,7 +112,7 @@ From the output also report:
 
 ## Step 4 — names, timestamps, rename script
 
-Write one poetic name per track in the planner's order (style in `references/stillwave.md`).
+Write one poetic name per track in the planner's order (style in the channel reference).
 You have not heard the tracks, so say the names come from the theme and invite corrections.
 Keep names unique, plain ASCII where possible (no `<>:"/\|?*`), 3–6 words.
 
@@ -124,21 +127,22 @@ reorder; say so and suggest spot-checking a couple in CapCut.
 
 ## Step 5 — save and push
 
-Save the package to `stillwave/scripts/<slug>.md` (meta, overlay, order note, rename script,
-tracklist, and the description once written), add or update the row in
-`stillwave/production-status.md`, commit, and push to the working branch:
+Save the package to `stillwave/scripts/<slug>.md` or `sevenlights/scripts/<slug>.md` (meta,
+overlay if any, order note, rename script, tracklist, and the description once written), update
+the channel's `production-status.md` if it has one, commit, and push to the working branch:
 
 ```bash
 git pull --rebase -q origin <branch> && git push -q -u origin <branch>
 ```
 
 Retry the push on network errors; if the remote has moved on, rebase rather than force.
-Copy files the user sent (hero frames) into `stillwave/assets/` before committing.
+Copy files the user sent (hero frames) into the channel's `assets/` folder before committing.
 
 ## Checklist before replying
 
 - Russian-only chat, code blocks for anything to copy.
-- Overlay: real phrase, unused, brush font, PNG only, placement checked or flagged.
+- Right channel's rules (cap, overlay or none, naming style).
+- StillWave overlay: real phrase, unused, brush font, PNG only, placement checked or flagged.
 - Track count and total under the cap; clipping and gaps reported with numbers.
 - Same-group neighbours: 0, or explained if unavoidable.
 - Names count matches tracks; rename script and tracklist come from the same run.

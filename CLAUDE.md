@@ -85,6 +85,14 @@ If editing the script's title, scenes, or VO, **re-verify tags reflect the new t
 - Scientist/doctor/detective/etc. costume scenes — see `style-guide.md` §2 thematic costumes table. Wardrobe must keep collar + heart tag visible at the V-cut neckline.
 - **Visualize the VO literally — show, don't pose.** If the VO names a concrete thing or action, the visual must literally show it (Brain licking the hair, holographic mother+kitten, thought-bubble of clumsy kitten, etc.). Generic "Brain sits with X expression" wastes Veo 3 credits. See `style-guide.md` §5d for tools (holograms, thought-bubbles, off-frame humans, costumes).
 
+### Seven Lights (`/sevenlights`)
+
+Second music channel (launched 2026-11-06): 3-hour Solfeggio/chakra sleep music, 3 videos a week, modelled on Healing Quiet Tonight. Rules in `sevenlights/CLAUDE.md`. `quiethertz/` is its earlier planning draft.
+
+### Skills (`/skills`)
+
+- `skills/stillwave-album/` — album routine for both music channels (mastering commands, overlay, track order, names, timestamps, rename script). Packaged as a `.skill` for the user's profile.
+
 ## 📋 Upload playbook — Karena Roshaian (applies to ALL channels)
 
 Locked YouTube upload rules. Check every video against these before publishing — both StillWave and BrainCatAI.

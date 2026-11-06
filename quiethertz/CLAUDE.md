@@ -1,5 +1,7 @@
 # Quiet Hertz — Project Instructions
 
+> **2026-11-06:** this was the planning draft. The real channel launched as **Seven Lights** — see `../sevenlights/CLAUDE.md`. Keep this file for the music and visual research only.
+
 New channel, built to replicate the validated "Healing Quiet Tonight" format (see `stillwave/competitor-tracker.md` for the teardown this is based on — channel UCSJmN2W_LRf8Qa8uK3J1dtg, 1,840 subs, 2.37M views, +2.19M views in 30 days). **Separate channel from StillWave on purpose** — keeps StillWave's Japanese-zen Topic Category clean, lets this one post daily without diluting either brand.
 
 ## Channel info
