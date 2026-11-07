@@ -1,4 +1,4 @@
-# Видео 2 — 432 Hz Deep Healing Sleep (3 часа), только английский
+# План: 432 Hz Deep Healing Sleep (3 часа) — пакет на будущее, пока не выпущено
 
 Звук: `pwsh -File tools/space_ambient_432.ps1 -Celestial -Hours 3 -Out v2_432.wav`. Строй A = 432 Гц (анализатор: A4 ≈ 431.9 Гц), поэтому фраза про «true 432 tuning» верна.
 Обложка: `visuals/thumbs/thumb_432_deep_healing_sleep.jpg`. Плейлисты: A (все ночи) и C (432 Hz).
