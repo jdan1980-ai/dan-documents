@@ -171,11 +171,16 @@ pwsh -File .\make_long_track.ps1 -In "528 Drift.mp3,528 Drift (1).mp3,Miracle To
 python tools/make_thumb.py --hz "432 HZ" --out thumb.jpg
 python tools/make_thumb.py --hz "528 · 432 · 396 HZ" --size-hz 112 --out thumb_descent.jpg
 python tools/make_loop.py --image visuals/base_chakra_body.webp --out loop.mp4
+# видео 3 (поза на боку, visuals/base_side_sleep.jpg): свои координаты чакр + колыхание цветной ленты (--ribbon)
+python tools/make_thumb.py --image visuals/base_side_sleep.jpg --hz "528 HZ" --out visuals/thumbs/thumb_side_sleep_528.jpg
+python tools/make_loop.py --image visuals/base_side_sleep.jpg --out loop_side.mp4 --chakras "673,504;738,495;820,482;900,456;1028,446;1140,426;1214,391" --ribbon "0,425;600,425;800,360;900,322;1000,318;1100,330;1250,340;1376,320"
 # петля на нужную длину вместе с треком:
 ffmpeg -stream_loop -1 -i loop.mp4 -i track.wav -shortest -c:v copy -c:a aac -b:a 320k video.mp4
 ```
 
 Готовые обложки: `visuals/thumbs/`.
+
+**Позы по видео** (чередуем, чтобы ролики отличались, стиль один): видео 1 — сидит (медитация), видео 2 — лежит на спине (`base_chakra_body.webp`), видео 3 — спит на боку под цветной лентой из 7 цветов чакр (`base_side_sleep.jpg`, промпты `visuals/prompts/video-03-side-sleep.md`). Nano Banana любит рисовать лишние чакры — всегда пересчитывать: ровно 7.
 
 **Оверлей в начале видео** (`tools/make_overlay.py`). Основной (выбран): `visuals/overlays/overlay_intro_welcome.png` — «Welcome to Seven Lights» + «Thank you for listening. May tonight bring you deep, peaceful sleep» + «If this music helps you, please subscribe» с колокольчиком; шрифт уменьшен, чтобы не было нагромождения. Запасной: `overlay_intro_thank_you.png`. Левый верхний угол, стиль обложек. Появляется на 0:02 за 1.5 с, исчезает к 0:11.
 Видео целиком за один проход (петля видео + 3-часовой звук + оверлей; видео перекодируется, петля любого размера масштабируется до 1080p):
