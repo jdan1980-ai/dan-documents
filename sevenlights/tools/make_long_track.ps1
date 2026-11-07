@@ -258,12 +258,12 @@ public static class Splice
     $report
     if ($unit -lt 600) { Write-Warning "Круг короче 10 минут: он повторится $([math]::Round($total / $unit)) раз, повторы будут слышны. Добавьте ещё треки (-In a.mp3,b.mp3,...)" }
 
-    $script = Join-Path $tmp 'filter.txt'
-    [IO.File]::WriteAllText($script, $sb.ToString(), (New-Object Text.UTF8Encoding($false)))
+    # Фильтр передаётся прямо в команде, одной строкой: -filter_complex_script устарел с ffmpeg 7 и в новых версиях может не работать
+    $filter = ($sb.ToString() -replace "`r?`n", '')
     $unitWav = Join-Path $tmp 'unit.wav'
     $args1 = @('-y', '-loglevel', 'error')
     foreach ($f in $ffInputs) { $args1 += @('-i', $f) }
-    $args1 += @('-filter_complex_script', $script, '-map', '[unit]', '-c:a', 'pcm_f32le', $unitWav)
+    $args1 += @('-filter_complex', $filter, '-map', '[unit]', '-c:a', 'pcm_f32le', $unitWav)
     & ffmpeg @args1
     if ($LASTEXITCODE -ne 0) { throw "ffmpeg не смог собрать круг (нужен ffmpeg 4.4 или новее)" }
 
