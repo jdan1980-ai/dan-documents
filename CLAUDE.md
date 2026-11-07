@@ -96,6 +96,8 @@ YouTube channel — calm space ambient for sleep & meditation, no vocals, true A
 - `sevenlights/analysis/references.md` — analysis of reference YouTube tracks
 - `sevenlights/demos/` — best 1-minute demos
 
+**Seven Lights MANDATORY rule:** before building any multi-hour track from AI-generated tracks (Musicful, Suno), first build ONE cycle of the splice (`make_long_track.ps1 ... -Check`) and have the user check it on YouTube (Unlisted upload → Checks → Copyright), with a timecode table of where each track starts. Only build the 3-hour file after the check is clean. Tracks of one album are intentionally made from the same prompt — similarity between them is expected; only exact copies (similarity ≈ 0.95+) are a problem. Details: `sevenlights/CLAUDE.md` → «ПРАВИЛО: сначала проверка одного круга».
+
 ## Notes
 
 - Add project-specific conventions, commands, and context here as the repository grows.

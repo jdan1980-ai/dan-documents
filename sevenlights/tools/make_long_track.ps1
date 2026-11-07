@@ -21,6 +21,8 @@
 #                похоже (0.6–0.8) — 3 с, разная музыка — 8 с. Crossfade по умолчанию 20 с
 #   -Search      как далеко от краёв искать точки стыка, с (30)
 #   -FadeIn / -FadeOut   появление и затухание всего итога, с (10 и 15)
+#   -Check       собрать ровно ОДИН круг (те же стыки, что в длинной версии) — для проверки авторских прав на YouTube
+#                до сборки многочасового файла. -Hours игнорируется
 #
 # Нужны ffmpeg 4.4+ и ffprobe в PATH. Проверено в PowerShell 7 (pwsh); десятичная точка не зависит от локали.
 # В Windows PowerShell 5.1 скрипт не проверялся: русские сообщения могут отображаться кракозябрами.
@@ -35,7 +37,8 @@ param(
     [double]$Fade = 0,
     [double]$Search = 30,
     [double]$FadeIn = 10,
-    [double]$FadeOut = 15
+    [double]$FadeOut = 15,
+    [switch]$Check
 )
 
 $ErrorActionPreference = 'Stop'
@@ -263,6 +266,7 @@ public static class Splice
         }
     }
 
+    if ($Check) { $total = $unit }   # один круг для проверки (Content ID), длинный файл не нужен
     "Режим: $Mode; треков: $n; длина круга: $(T $unit); повторов круга: $([math]::Round($total / $unit, 1)); итог: $(T $total); срез баса: $(if ($HighPass -gt 0) { "$HighPass Гц" } else { 'нет' })"
     $report
     if ($unit -lt 600) { Write-Warning "Круг короче 10 минут: он повторится $([math]::Round($total / $unit)) раз, повторы будут слышны. Добавьте ещё треки (-In a.mp3,b.mp3,...)" }
