@@ -10,7 +10,7 @@
 «528 Hz Drift Mashup (1)», «528 Hz Drift Mashup» (фа мажор / ре минор), затем круг повторяется.
 Повторов с видео 2 нет: максимальное сходство с треками видео 2 — 0.82 (копия дала бы 0.95+).
 ```
-pwsh -File .\make_long_track.ps1 -In "528 Hz Drift (4).mp3,Miracle Drift.mp3,Miracle Drift (1).mp3,528 Hz Drift (3).mp3,528 Hz Drift Mashup (1).mp3,528 Hz Drift Mashup.mp3" -TrimStart 8 -TrimEnd 6 -Hours 3 -Out SevenLights3_3h.flac
+pwsh -File .\make_long_track.ps1 -In "528 Hz Drift (4).mp3,Miracle Drift.mp3,Miracle Drift (1).mp3,528 Hz Drift (3).mp3,528 Hz Drift (Mashup) (1).mp3,528 Hz Drift (Mashup).mp3" -TrimStart 8 -TrimEnd 6 -Hours 3 -Out SevenLights3_3h.flac
 ```
 
 Отличие от видео 1–2: в названии и на обложке нет частоты в Hz — главная тема «7 чакр», а не 528.
