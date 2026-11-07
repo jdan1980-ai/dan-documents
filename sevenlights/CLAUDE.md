@@ -172,7 +172,7 @@ python tools/make_thumb.py --hz "432 HZ" --out thumb.jpg
 python tools/make_thumb.py --hz "528 · 432 · 396 HZ" --size-hz 112 --out thumb_descent.jpg
 python tools/make_loop.py --image visuals/base_chakra_body.webp --out loop.mp4
 # видео 3 (поза на боку, visuals/base_side_sleep.jpg): свои координаты чакр + колыхание цветной ленты (--ribbon)
-python tools/make_thumb.py --image visuals/base_side_sleep.jpg --hz "528 HZ" --out visuals/thumbs/thumb_side_sleep_528.jpg
+python tools/make_thumb.py --image visuals/base_side_sleep.jpg --hz "ALL 7 CHAKRAS" --size-hz 118 --sub "HEAL WHILE YOU SLEEP" --out visuals/thumbs/thumb_all_7_chakras.jpg
 python tools/make_loop.py --image visuals/base_side_sleep.jpg --out loop_side.mp4 --chakras "673,504;738,495;820,482;900,456;1028,446;1140,426;1214,391" --ribbon "0,425;600,425;800,360;900,322;1000,318;1100,330;1250,340;1376,320"
 # петля на нужную длину вместе с треком:
 ffmpeg -stream_loop -1 -i loop.mp4 -i track.wav -shortest -c:v copy -c:a aac -b:a 320k video.mp4

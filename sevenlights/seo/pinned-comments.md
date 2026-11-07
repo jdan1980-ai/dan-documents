@@ -18,6 +18,12 @@
 🌙 Did you drift off before the first hour ended? Tell us below, and where you are listening from tonight. If this helped you sleep, a like and a subscribe help us bring you more nights like this. Sweet dreams ✨
 ```
 
+## 3. All 7 Chakras Healing While You Sleep (`video-03-all-7-chakras.md`)
+
+```
+🌈 Which chakra do you feel the most tonight: root, heart or crown? Tell us below, and where you are listening from. If this helped you rest, a like and a subscribe help us bring you more nights like this. Sweet dreams ✨
+```
+
 ## План: 432 Hz Deep Healing Sleep (`plan-432hz.md`, ещё не выпущено)
 
 ```
