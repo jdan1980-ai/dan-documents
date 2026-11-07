@@ -51,7 +51,16 @@ if ($Fade -le 0) { $Fade = if ($Mode -eq 'Smart') { 8 } else { 20 } }   # в а�
 if ($Fade -gt 60) { throw "-Fade должен быть не больше 60 секунд" }
 
 # При запуске через `pwsh -File ... -In a.wav,b.wav` список приходит одной строкой «a.wav,b.wav»: разбираем по запятым
-$files = @($In | ForEach-Object { $_ -split ',' } | Where-Object { $_.Trim() } | ForEach-Object { (Resolve-Path $_.Trim()).Path })
+$names = @($In | ForEach-Object { $_ -split ',' } | Where-Object { $_.Trim() } | ForEach-Object { $_.Trim() })
+$missing = @($names | Where-Object { -not (Test-Path -LiteralPath $_) })
+if ($missing.Count) {
+    Write-Host "Не найдены файлы (папка: $((Get-Location).Path)):" -ForegroundColor Red
+    $missing | ForEach-Object { Write-Host "  $_" -ForegroundColor Red }
+    Write-Host "Аудиофайлы в этой папке:" -ForegroundColor Yellow
+    Get-ChildItem -File | Where-Object { $_.Extension -match '^\.(mp3|wav|flac|m4a|ogg)$' } | ForEach-Object { Write-Host "  $($_.Name)" }
+    exit 1
+}
+$files = @($names | ForEach-Object { (Resolve-Path -LiteralPath $_).Path })
 $n = $files.Count
 $len = @()
 foreach ($f in $files) {
