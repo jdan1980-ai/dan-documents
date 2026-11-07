@@ -177,11 +177,11 @@ ffmpeg -stream_loop -1 -i loop.mp4 -i track.wav -shortest -c:v copy -c:a aac -b:
 
 Готовые обложки: `visuals/thumbs/`.
 
-**Оверлей в начале видео** (`tools/make_overlay.py`, готовый файл `visuals/overlays/overlay_intro_thank_you.png`): «Thank you for being here» + «Sweet dreams, and subscribe for more nights like this», левый верхний угол, стиль обложек. Появляется на 0:02 за 1.5 с, исчезает к 0:11.
+**Оверлей в начале видео** (`tools/make_overlay.py`). Основной (выбран): `visuals/overlays/overlay_intro_welcome.png` — «Welcome to Seven Lights» + «Thank you for listening. May tonight bring you deep, peaceful sleep» + «If this music helps you, please subscribe» с колокольчиком; шрифт уменьшен, чтобы не было нагромождения. Запасной: `overlay_intro_thank_you.png`. Левый верхний угол, стиль обложек. Появляется на 0:02 за 1.5 с, исчезает к 0:11.
 Видео целиком за один проход (петля видео + 3-часовой звук + оверлей; видео перекодируется, петля любого размера масштабируется до 1080p):
 
 ```powershell
-ffmpeg -stream_loop -1 -i loop.mp4 -i SevenLights_3h.flac -loop 1 -t 11 -i overlay_intro_thank_you.png -filter_complex "[0:v]scale=1920:1080,setsar=1[bg];[2:v]format=rgba,fade=t=in:st=2:d=1.5:alpha=1,fade=t=out:st=8.5:d=2:alpha=1[o];[bg][o]overlay=0:0:eof_action=pass[v]" -map "[v]" -map 1:a -shortest -c:v libx264 -preset veryfast -crf 20 -pix_fmt yuv420p -c:a aac -b:a 320k SevenLights_3h.mp4
+ffmpeg -stream_loop -1 -i loop.mp4 -i SevenLights_3h.flac -loop 1 -t 11 -i overlay_intro_welcome.png -filter_complex "[0:v]scale=1920:1080,setsar=1[bg];[2:v]format=rgba,fade=t=in:st=2:d=1.5:alpha=1,fade=t=out:st=8.5:d=2:alpha=1[o];[bg][o]overlay=0:0:eof_action=pass[v]" -map "[v]" -map 1:a -shortest -c:v libx264 -preset veryfast -crf 20 -pix_fmt yuv420p -c:a aac -b:a 320k SevenLights_3h.mp4
 ```
 
  Текст на обложке должен совпадать со звуком: «432 HZ» только для трека в строе 432, «528 HZ» — для `-Tonic 528`, три частоты — для `-Segments "528,432,396"`.

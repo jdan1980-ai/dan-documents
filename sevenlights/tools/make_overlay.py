@@ -39,16 +39,38 @@ def crescent(size, color):
     return lay
 
 
+def bell(size, color):
+    """Колокольчик: купол, раструб и язычок, с мягким свечением."""
+    from PIL import ImageFilter
+    s = size * 3
+    m = Image.new('L', (s, s), 0)
+    d = ImageDraw.Draw(m)
+    cx, top, bot = s // 2, s // 2 - size // 2, s // 2 + size // 2
+    w = size * 0.42
+    d.ellipse((cx - w, top, cx + w, top + 2 * w), fill=255)                       # купол
+    d.polygon([(cx - w, top + w), (cx + w, top + w), (cx + size * 0.55, bot - size * 0.12),
+               (cx - size * 0.55, bot - size * 0.12)], fill=255)                  # раструб
+    d.rounded_rectangle((cx - size * 0.58, bot - size * 0.2, cx + size * 0.58, bot - size * 0.06), radius=size * 0.05, fill=255)
+    d.ellipse((cx - size * 0.11, bot - size * 0.08, cx + size * 0.11, bot + size * 0.12), fill=255)   # язычок
+    d.ellipse((cx - size * 0.07, top - size * 0.12, cx + size * 0.07, top + size * 0.02), fill=255)   # петелька
+    glow = m.filter(ImageFilter.GaussianBlur(size * 0.35))
+    lay = Image.new('RGBA', (s, s), (0, 0, 0, 0))
+    lay.paste(Image.new('RGBA', (s, s), (255, 170, 40, 0)), mask=glow.point(lambda v: int(v * 0.7)))
+    lay.paste(Image.new('RGBA', (s, s), color + (255,)), mask=m)
+    return lay
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--title', default='Thank you for being here')
-    ap.add_argument('--sub', default='Sweet dreams, and subscribe for more nights like this')
+    ap.add_argument('--title', default='Welcome to Seven Lights')
+    ap.add_argument('--sub', default='Thank you for listening. May tonight bring you deep, peaceful sleep')
+    ap.add_argument('--sub2', default='If this music helps you, please subscribe', help='третья строка с колокольчиком; пусто — без неё')
     ap.add_argument('--out', required=True)
     ap.add_argument('--preview', help='jpg с оверлеем поверх кадра сцены (для проверки)')
     ap.add_argument('--x', type=int, default=80)
     ap.add_argument('--y', type=int, default=64)
-    ap.add_argument('--size-title', type=int, default=92)
-    ap.add_argument('--size-sub', type=int, default=46)
+    ap.add_argument('--size-title', type=int, default=74)
+    ap.add_argument('--size-sub', type=int, default=36)
     args = ap.parse_args()
 
     canvas = Image.new('RGBA', (W, H), (0, 0, 0, 0))
@@ -61,7 +83,15 @@ def main():
     moon = crescent(int(args.size_title * 0.62), (255, 226, 120))
     canvas.alpha_composite(moon, (args.x + title_w + 14 - moon.size[0] // 3, args.y + title_h // 2 - moon.size[1] // 2 + 4))
     lay2, _ = text_layer(args.sub, f2, (255, 255, 255), (214, 228, 255), (10, 18, 60), (90, 120, 230), 3)
-    canvas.alpha_composite(lay2, (args.x - 90, args.y + title_h + 22 - 90))
+    y2 = args.y + title_h + 20
+    canvas.alpha_composite(lay2, (args.x - 90, y2 - 90))
+    if args.sub2:
+        lay3, _ = text_layer(args.sub2, f2, (255, 255, 255), (214, 228, 255), (10, 18, 60), (90, 120, 230), 3)
+        y3 = y2 + (lay2.size[1] - 180) + 14
+        canvas.alpha_composite(lay3, (args.x - 90, y3 - 90))
+        b = bell(int(args.size_sub * 0.95), (255, 226, 120))
+        h3 = lay3.size[1] - 180
+        canvas.alpha_composite(b, (args.x + lay3.size[0] - 180 + 16 - b.size[0] // 3, y3 + h3 // 2 - b.size[1] // 2 + 2))
     canvas.save(args.out)
     print(f'Готово: {args.out} ({W}x{H}, прозрачный)')
 
