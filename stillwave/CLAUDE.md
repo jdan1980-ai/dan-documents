@@ -540,6 +540,12 @@ Sweet spot per format:
 
 Drop any 3H / 6H / 8H ambitions from the backlog. If a theme calls for length, ship a **series of 1-2H volumes** instead.
 
+### 🔁 Short album, looped — allowed from 2026-11-12 (user decision, replaces "looping is forbidden")
+
+The user switched to the format already used on Seven Lights: **6–8 unique tracks (~3 min each) looped to fill the 2 hours**, instead of ~40 unique tracks. Reason: generation limits have become expensive and the channel is not earning yet. The 2-hour cap stays. Vary the opening of every track so the cycle does not sound like one repeated piece; the description carries one tracklist (first round) with a note that the cycle repeats. Tracks may be generated through the VidIQ music tool (25 credits each, up to 3 min, positive phrasing only in prompts) or Lyria.
+
+**🇺🇦** С 2026-11-12 разрешён короткий альбом по кругу: 6–8 уникальных треков по ~3 минуты, зацикленных на 2 часа, вместо ~40 треков. Причина — дорогие лимиты генерации при отсутствии дохода. Кап 2 часа остаётся. У каждого трека своё начало; в описании один треклист (первый круг) с пометкой о повторе.
+
 ### Mode A — Static image + audio (LEGACY — cheapest, no Flow/Kling)
 
 | Stage | Long-form |
