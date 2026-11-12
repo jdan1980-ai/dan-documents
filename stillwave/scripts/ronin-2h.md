@@ -5,7 +5,7 @@
 - **Slug:** ronin-2h
 - **Concept:** a ronin is a samurai with no master: no banner, no orders, only the work in front of you and the breath that carries it. Deep-focus album.
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Length target:** 2H, built from **8 Musicful tracks (~3:15 each) stitched into one cycle and looped to 2 hours** — the short-album format the user switched to on 2026-11-12 (see `CLAUDE.md`).
+- **Length target:** 2H, built from **6 Musicful tracks (~3:15 each) stitched into one cycle and looped to 2 hours** — the short-album format the user switched to on 2026-11-12 (see `CLAUDE.md`).
 - **Status:** 📝 title + description drafted by the user, overlay built, image prompts and the Musicful music prompt written (§1, §3, §4). Hero frame chosen, overlay placed, thumbnail built (§5). Waiting for: track generation in the "dan-documents" environment.
 
 **🇺🇦 RU:** Ронин — самурай без господина: ни знамени, ни приказов, только работа перед тобой и дыхание. Альбом для глубокой концентрации. Ждём папку с треками и кадр.
@@ -15,19 +15,20 @@
 Per the user's instruction of 2026-11-12: music comes from the **Musicful API** with the tools in `sevenlights/tools/` (`musicful_album.py`, `make_long_track.py`), the same way Seven Lights albums are built. One prompt for the whole album (similarity between tracks is intended), 1 request = 2 tracks (~3:15) = 6 units of the Starter plan shared by both channels.
 
 - Prompt: `stillwave/scripts/ronin-musicful-prompt.txt`
-- Plan: 4 requests = 8 tracks = 24 units. Check `--balance` first.
+- Plan (updated 2026-11-12): **6 tracks = 3 requests = 18 units**, to save credits. First ONE test request (2 tracks, 6 units); if the user likes the sound, 2 more requests. Check `--balance` first.
+- Sound brief from the user: very quiet, calm, meditative, no bursts, Japanese. The prompt therefore has **no percussion** (the earlier draft had soft wooden taps); if the test confirms this, change "soft wooden percussion" in the description to match.
 - **Must run in the cloud environment "dan-documents"** — the API key is injected there by the proxy. The session that wrote this file ran in "Default", where `api.musicful.ai` is blocked and the session could not be moved.
 
 ```bash
 python sevenlights/tools/musicful_album.py --balance
-python sevenlights/tools/musicful_album.py --prompt-file stillwave/scripts/ronin-musicful-prompt.txt --requests 4 --out <work>/ronin/
-python sevenlights/tools/make_long_track.py --in <8 mp3> --trim-start 8 --trim-end 6 --check --out <work>/ronin_check_1cycle.wav
+python sevenlights/tools/musicful_album.py --prompt-file stillwave/scripts/ronin-musicful-prompt.txt --requests 1 --out <work>/ronin/   # test; then --requests 2
+python sevenlights/tools/make_long_track.py --in <6 mp3> --trim-start 8 --trim-end 6 --check --out <work>/ronin_check_1cycle.wav
 # one-cycle video with the hero image -> user uploads as Unlisted -> YouTube copyright check
 # only after a clean check (StillWave cap is 2 hours, not 3):
-python sevenlights/tools/make_long_track.py --in <8 mp3> --trim-start 8 --trim-end 6 --hours 2 --out <work>/ronin_2h.flac
+python sevenlights/tools/make_long_track.py --in <6 mp3> --trim-start 8 --trim-end 6 --hours 2 --out <work>/ronin_2h.flac
 ```
 
-**🇺🇦 RU:** Музыка — через Musicful API инструментами из `sevenlights/tools/`, один промт на весь альбом. 4 запроса = 8 треков = 24 единицы общего тарифа; сначала проверить остаток. Запускать только в облачной среде «dan-documents»: ключ подставляется там. Порядок: треки → один круг (`--check`) → видео с картинкой → проверка авторских прав на YouTube (ограниченный доступ) → только потом 2 часа (`--hours 2`, у StillWave кап 2 часа).
+**🇺🇦 RU:** Музыка — через Musicful API инструментами из `sevenlights/tools/`, один промт на весь альбом. 6 треков = 3 запроса = 18 единиц общего тарифа; сначала один пробный запрос (2 трека, 6 единиц) и проверка остатка. По просьбе пользователя музыка очень тихая и медитативная, поэтому в промте нет перкуссии. Запускать только в облачной среде «dan-documents»: ключ подставляется там. Порядок: треки → один круг (`--check`) → видео с картинкой → проверка авторских прав на YouTube (ограниченный доступ) → только потом 2 часа (`--hours 2`, у StillWave кап 2 часа).
 
 ## §3 — Hero image (NanoBanana 16:9)
 
