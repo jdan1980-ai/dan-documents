@@ -5,61 +5,29 @@
 - **Slug:** ronin-2h
 - **Concept:** a ronin is a samurai with no master: no banner, no orders, only the work in front of you and the breath that carries it. Deep-focus album.
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Length target:** 2H, built from **8 tracks (~3 min each, ~24 min) looped 5 times** — the short-album format the user switched to on 2026-11-12 (see `CLAUDE.md`).
-- **Status:** 📝 title + description drafted by the user, overlay built, image and music prompts written (§1, §3, §4). Waiting for: hero frame, tracks.
+- **Length target:** 2H, built from **8 Musicful tracks (~3:15 each) stitched into one cycle and looped to 2 hours** — the short-album format the user switched to on 2026-11-12 (see `CLAUDE.md`).
+- **Status:** 📝 title + description drafted by the user, overlay built, image prompts and the Musicful music prompt written (§1, §3, §4). Waiting for: hero frame; track generation in the "dan-documents" environment.
 
 **🇺🇦 RU:** Ронин — самурай без господина: ни знамени, ни приказов, только работа перед тобой и дыхание. Альбом для глубокой концентрации. Ждём папку с треками и кадр.
 
-## §1 — Music prompts (8 tracks; positive phrasing only, so they work in the VidIQ generator and in Lyria)
+## §1 — Music (Musicful API, one prompt for the whole album)
 
-Sound per the user's description: shakuhachi breath, low koto strings, soft wooden percussion, a slow even tempo that never rises. Each track opens differently (flute / koto / bell / wood / drone / duet / biwa / sparse) so the loop does not feel like one repeated piece.
+Per the user's instruction of 2026-11-12: music comes from the **Musicful API** with the tools in `sevenlights/tools/` (`musicful_album.py`, `make_long_track.py`), the same way Seven Lights albums are built. One prompt for the whole album (similarity between tracks is intended), 1 request = 2 tracks (~3:15) = 6 units of the Starter plan shared by both channels.
 
-**🇺🇦 RU:** Звук по описанию: сякухати, низкое кото, мягкая деревянная перкуссия, ровный медленный темп. Каждый трек начинается по-своему, чтобы круг не звучал как один повторяющийся кусок. В промтах только утвердительные формулировки (генератор VidIQ не понимает «no drums»).
+- Prompt: `stillwave/scripts/ronin-musicful-prompt.txt`
+- Plan: 4 requests = 8 tracks = 24 units. Check `--balance` first.
+- **Must run in the cloud environment "dan-documents"** — the API key is injected there by the proxy. The session that wrote this file ran in "Default", where `api.musicful.ai` is blocked and the session could not be moved.
 
-### Track 1 — shakuhachi opens alone
-```
-Calm Japanese zen music for deep focus. It opens with a solo shakuhachi bamboo flute: one long, breathy, airy tone with a gentle bend and audible breath. After a while low koto strings answer with single plucked notes, and a very soft wooden percussion taps slowly and evenly underneath, like a monk's wooden block heard from the next room. Instrumental. Very slow, steady and unhurried. Soft and even from the first second to the last, holding the same quiet level throughout. Spacious, with long pauses between phrases. Warm, dry and close, like a small wooden room at night.
-```
-
-### Track 2 — low koto opens
-```
-Calm Japanese zen music for deep focus. It opens with a few low koto notes, plucked one at a time and left to ring. A breathy shakuhachi bamboo flute enters with long, quiet phrases. Soft wooden percussion keeps a slow, even pulse far in the background, dry and gentle. Instrumental. Very slow, steady and unhurried. Soft and even from the first second to the last, holding the same quiet level throughout. Spacious, with long pauses between phrases. Warm, dry and close, like a small wooden room at night.
-```
-
-### Track 3 — temple bell opens
-```
-Calm Japanese zen music for deep focus. It opens with a single low Japanese temple bell, left to ring out fully. Then a warm low drone settles in, and a shakuhachi bamboo flute plays long, breathy tones over it. Low koto strings add a rare single note. Instrumental. Very slow, steady and unhurried. Soft and even from the first second to the last, holding the same quiet level throughout. Spacious, with long pauses between phrases. Warm, dry and close, like a small wooden room at night.
+```bash
+python sevenlights/tools/musicful_album.py --balance
+python sevenlights/tools/musicful_album.py --prompt-file stillwave/scripts/ronin-musicful-prompt.txt --requests 4 --out <work>/ronin/
+python sevenlights/tools/make_long_track.py --in <8 mp3> --trim-start 8 --trim-end 6 --check --out <work>/ronin_check_1cycle.wav
+# one-cycle video with the hero image -> user uploads as Unlisted -> YouTube copyright check
+# only after a clean check (StillWave cap is 2 hours, not 3):
+python sevenlights/tools/make_long_track.py --in <8 mp3> --trim-start 8 --trim-end 6 --hours 2 --out <work>/ronin_2h.flac
 ```
 
-### Track 4 — wooden taps open
-```
-Calm Japanese zen music for deep focus. It opens with soft, dry wooden percussion: slow, even, widely spaced taps on a wooden block. Low koto strings join with single plucked notes, and a shakuhachi bamboo flute drifts in with quiet, breathy phrases. Instrumental. Very slow, steady and unhurried. Soft and even from the first second to the last, holding the same quiet level throughout. Spacious, with long pauses between phrases. Warm, dry and close, like a small wooden room at night.
-```
-
-### Track 5 — drone opens, low flute
-```
-Calm Japanese zen music for deep focus. It opens with a warm, low, steady drone alone. A shakuhachi bamboo flute enters in its lowest, darkest register with long, breathy tones. Low koto strings mark a slow note now and then, and soft wooden percussion taps very quietly in the distance. Instrumental. Very slow, steady and unhurried. Soft and even from the first second to the last, holding the same quiet level throughout. Spacious, with long pauses between phrases. Warm, dry and close, like a small wooden room at night.
-```
-
-### Track 6 — koto and shakuhachi duet
-```
-Calm Japanese zen music for deep focus. A quiet duet from the first second: low koto strings and a breathy shakuhachi bamboo flute take turns, one short phrase each, with wide silence between them. A soft low drone rests underneath. Instrumental. Very slow, steady and unhurried. Soft and even from the first second to the last, holding the same quiet level throughout. Spacious, with long pauses between phrases. Warm, dry and close, like a small wooden room at night.
-```
-
-### Track 7 — biwa and shakuhachi
-```
-Calm Japanese zen music for deep focus. It opens with one deep plucked note on a Japanese biwa lute, with its natural buzzing resonance, left to fade. A shakuhachi bamboo flute answers with a long, breathy tone. Soft wooden percussion taps slowly and evenly, very far back. Instrumental. Very slow, steady and unhurried. Soft and even from the first second to the last, holding the same quiet level throughout. Spacious, with long pauses between phrases. Warm, dry and close, like a small wooden room at night.
-```
-
-### Track 8 — sparsest, closing
-```
-Calm Japanese zen music for deep focus, the most sparse and still of all. A shakuhachi bamboo flute plays single long breaths over a warm low drone, each one followed by a long silence. One low koto note sounds rarely. The feeling of a lone traveller resting at night. Instrumental. Very slow, steady and unhurried. Soft and even from the first second to the last, holding the same quiet level throughout. Spacious, with long pauses between phrases. Warm, dry and close, like a small wooden room at night.
-```
-
-### Loop plan
-8 tracks × ~3:00 ≈ 24 min; 5 rounds ≈ 2:00. In CapCut: lay the 8 tracks once, then copy the block four more times. Optional: reverse or shuffle the order in rounds 2 and 4 so the repeat is less noticeable. The description gets ONE tracklist (the first round) with a note that the cycle repeats.
-
-**🇺🇦 RU:** 8 треков по ~3 минуты = ~24 минуты, 5 кругов ≈ 2 часа. В CapCut выложить 8 треков, затем скопировать блок ещё 4 раза. По желанию во 2-м и 4-м круге поменять порядок. В описании один треклист (первый круг) с пометкой, что цикл повторяется.
+**🇺🇦 RU:** Музыка — через Musicful API инструментами из `sevenlights/tools/`, один промт на весь альбом. 4 запроса = 8 треков = 24 единицы общего тарифа; сначала проверить остаток. Запускать только в облачной среде «dan-documents»: ключ подставляется там. Порядок: треки → один круг (`--check`) → видео с картинкой → проверка авторских прав на YouTube (ограниченный доступ) → только потом 2 часа (`--hours 2`, у StillWave кап 2 часа).
 
 ## §3 — Hero image (NanoBanana 16:9)
 
