@@ -1,5 +1,7 @@
 # Видео 3 — All 7 Chakras Healing While You Sleep (3 часа)
 
+**Опубликовано 11.11.2026** под основным названием.
+
 Картинка: `visuals/base_side_sleep.jpg` (спит на боку, цветная лента из 7 цветов чакр).
 Обложка: `visuals/thumbs/thumb_all_7_chakras.jpg` — «ALL 7 CHAKRAS / HEAL WHILE YOU SLEEP».
 Луп 8 с: `make_loop.py ... --ribbon ...` (команда в `sevenlights/CLAUDE.md`).
