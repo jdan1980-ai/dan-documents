@@ -57,6 +57,10 @@ def main():
     ap.add_argument("--preview", type=Path, help="where to write the composited QA preview JPG")
     ap.add_argument("--scrim", type=int, default=165,
                     help="scrim opacity 0-255; raise to ~200 when the lower-left is bright")
+    ap.add_argument("--dx", type=int, default=0, help="shift the whole block right (px)")
+    ap.add_argument("--dy", type=int, default=0,
+                    help="shift the whole block down (px); negative moves it up, e.g. -470 for upper-left "
+                         "when the figure stands in the lower-left")
     ap.add_argument("--repo", type=Path, default=Path.cwd(), help="repo root (for the brush font)")
     a = ap.parse_args()
 
@@ -75,14 +79,15 @@ def main():
 
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     s = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(s).rounded_rectangle((-200, 636, 950, 1060), radius=170, fill=(8, 6, 4, a.scrim))
+    ImageDraw.Draw(s).rounded_rectangle((-200 + a.dx, 636 + a.dy, 950 + a.dx, 1060 + a.dy), radius=170,
+                                        fill=(8, 6, 4, a.scrim))
     img.alpha_composite(s.filter(ImageFilter.GaussianBlur(100)))
 
     mask = Image.new("L", (W, H), 0)
     md = ImageDraw.Draw(mask)
-    pitch, y0 = 128, 692
+    pitch, y0 = 128, 692 + a.dy
     l0, _, r0, _ = f.getbbox(chars[0])
-    c0 = X + (r0 - l0) / 2
+    c0 = X + a.dx + (r0 - l0) / 2
     for i, ch in enumerate(chars):
         l, t, r, b = f.getbbox(ch)
         md.text((c0 + i * pitch - (l + (r - l) / 2), y0), ch, font=f, fill=255)
@@ -93,8 +98,8 @@ def main():
     img.alpha_composite(Image.composite(Image.new("RGBA", (W, H), CREAM),
                                         Image.new("RGBA", (W, H), (0, 0, 0, 0)), mask))
     d = ImageDraw.Draw(img)
-    d.text((X + 4, 866), a.romaji, font=ImageFont.truetype(sfont_path, 54), fill=CREAM)
-    d.text((X + 4, 940), a.gloss, font=ImageFont.truetype(sfont_path, 34), fill=SUB)
+    d.text((X + 4 + a.dx, 866 + a.dy), a.romaji, font=ImageFont.truetype(sfont_path, 54), fill=CREAM)
+    d.text((X + 4 + a.dx, 940 + a.dy), a.gloss, font=ImageFont.truetype(sfont_path, 34), fill=SUB)
 
     a.out.parent.mkdir(parents=True, exist_ok=True)
     img.save(a.out)
@@ -106,7 +111,8 @@ def main():
     if a.hero:
         hero = Image.open(a.hero).convert("RGB").resize((W, H), Image.LANCZOS)
         g = hero.convert("L")
-        for name, box in {"kanji row": (96, 692, 608, 790), "romaji+gloss": (96, 860, 608, 980),
+        for name, box in {"kanji row": (96 + a.dx, 692 + a.dy, 608 + a.dx, 790 + a.dy),
+                          "romaji+gloss": (96 + a.dx, 860 + a.dy, 608 + a.dx, 980 + a.dy),
                           "full frame": (0, 0, W, H)}.items():
             print(f"brightness {name}: {ImageStat.Stat(g.crop(box)).mean[0]:.0f}")
         if a.preview:

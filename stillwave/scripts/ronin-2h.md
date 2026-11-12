@@ -6,7 +6,7 @@
 - **Concept:** a ronin is a samurai with no master: no banner, no orders, only the work in front of you and the breath that carries it. Deep-focus album.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 2H, built from **8 Musicful tracks (~3:15 each) stitched into one cycle and looped to 2 hours** — the short-album format the user switched to on 2026-11-12 (see `CLAUDE.md`).
-- **Status:** 📝 title + description drafted by the user, overlay built, image prompts and the Musicful music prompt written (§1, §3, §4). Waiting for: hero frame; track generation in the "dan-documents" environment.
+- **Status:** 📝 title + description drafted by the user, overlay built, image prompts and the Musicful music prompt written (§1, §3, §4). Hero frame chosen, overlay placed, thumbnail built (§5). Waiting for: track generation in the "dan-documents" environment.
 
 **🇺🇦 RU:** Ронин — самурай без господина: ни знамени, ни приказов, только работа перед тобой и дыхание. Альбом для глубокой концентрации. Ждём папку с треками и кадр.
 
@@ -50,15 +50,29 @@ Photorealistic cinematic still, 16:9, 4K, muted and restrained like a frame from
 Feed the clean hero (no text). Camera completely locked: no pan, no zoom, no dolly. Keep the ronin, his hat, cloak and swords, the path and the mountains exactly as they are, as a frozen photograph. The ronin does not move. Animate ONLY: (1) the valley mist drifting very slowly sideways, soft and continuous; (2) the pampas grass swaying gently in a light breeze; (3) the glow of the sun breathing almost imperceptibly in brightness; (4) the hem of the cloak stirring very slightly. Everything is slow and calm. Perfectly seamless 8-second loop, last frame matches first frame exactly.
 ```
 
+## §4b — Flow loop (for variant B, the chosen frame)
+```
+Feed the clean hero (no text). Camera completely locked: no pan, no zoom, no dolly. Keep the ronin, his hat, cloak and swords, the cedars, the stone road, the mountain and the moon exactly as they are, as a frozen photograph. The ronin does not move. Animate ONLY: (1) the low mist between the trees drifting very slowly sideways, soft and continuous; (2) the small flame inside the stone lantern flickering gently, a calm candle-like glow; (3) the ragged hem of the cloak stirring very slightly; (4) the faintest shimmer of moonlight on the wet stones of the road. Everything is slow and calm. Perfectly seamless 8-second loop, last frame matches first frame exactly.
+```
+
+## §5 — Chosen frame, overlay placement, thumbnail (2026-11-12)
+
+- **Frame:** the user generated variant B (night road, giant moon, stone lantern). Saved as `assets/ronin-2h-source.jpg`. The original is only 1376x768, so it is upscaled ~1.4x for 1080p; re-download at a higher resolution if the generator allows.
+- **Hat:** a woven travelling kasa, closest to an ajirogasa / sandogasa type — historically plausible for a ronin on the road.
+- **Overlay:** the figure stands in the lower-left, where the standard overlay would cover the swords, so the overlay sits in the **upper-left** over the dark cedars (`make_overlay.py --dy -600`).
+- **Thumbnail:** `assets/ronin-2h-thumb.jpg` (`ronin-compose-thumb.py`): 浪人 in black brush on the moon, RONIN in bold white upper-left, small `SAMURAI ZEN MUSIC` under it.
+
+**🇺🇦 RU:** Выбран вариант B (ночная дорога, луна, фонарь). Исходник маленький (1376x768), для 1080p он растягивается в 1,4 раза. Фигура стоит слева внизу, поэтому оверлей перенесён в левый верхний угол. Превью: 浪人 чёрной кистью на луне, RONIN белым слева вверху.
+
 ## §6a — Wisdom Overlay
 
 - Line 1 (kanji): **独立独歩**
 - Line 2 (romaji): *Dokuritsu doppo*
 - Line 3 (gloss): Stand alone, walk your own path
-- File: `assets/ronin-dokuritsu-doppo-overlay.png` (YujiBoku brush font, cream, lower-left, own scrim). Built before the hero frame arrived; re-check placement on the frame.
+- File: `assets/ronin-dokuritsu-doppo-overlay.png` (YujiBoku brush font, cream, lower-left, own scrim). Placed upper-left on the chosen frame (`--dy -600`), clear of the figure and the moon.
 - CapCut: text layer on the top track, 0:03 → 0:14, fade in 2 s, fade out 2 s, no glow/box.
 
-**🇺🇦 RU:** 独立独歩 — «стоять самому, идти своим путём»: классический четырёхзнак про самостоятельность, точно про ронина, но само слово 浪人 не называет. Оверлей собран до получения кадра, расположение нужно проверить по кадру.
+**🇺🇦 RU:** 独立独歩 — «стоять самому, идти своим путём»: классический четырёхзнак про самостоятельность, точно про ронина, но само слово 浪人 не называет. На выбранном кадре оверлей стоит слева вверху, не задевая фигуру и луну.
 
 ## §7 — Title
 
