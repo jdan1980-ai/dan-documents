@@ -6,7 +6,7 @@
 - **Concept:** a ronin is a samurai with no master: no banner, no orders, only the work in front of you and the breath that carries it. Deep-focus album.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 2H, built from **6 Musicful tracks (~3:15 each) stitched into one cycle and looped to 2 hours** — the short-album format the user switched to on 2026-11-12 (see `CLAUDE.md`).
-- **Status:** 📝 title + description drafted by the user, overlay built, image prompts and the Musicful music prompt written (§1, §3, §4). Hero frame chosen, overlay placed, thumbnail built (§5). Album of 6 tracks stitched, one-cycle check video sent (§2). Waiting for: YouTube copyright check in the "dan-documents" environment.
+- **Status:** 📝 title + description drafted by the user, overlay built, image prompts and the Musicful music prompt written (§1, §3, §4). Hero frame chosen, overlay placed, thumbnail built (§5). Album of 6 tracks stitched, one-cycle check video sent (§2). YouTube copyright check passed (user, 2026-11-12). **2-hour track built:** `RONIN_2h.mp3` (320 kbps, 7 cycles, exactly 2:00:00, −15.6 LUFS, LRA 5.5, peak −0.3 dBFS) sent to the user. Next: CapCut assembly with the Flow loop and overlay, upload in the "dan-documents" environment.
 
 **🇺🇦 RU:** Ронин — самурай без господина: ни знамени, ни приказов, только работа перед тобой и дыхание. Альбом для глубокой концентрации. Ждём папку с треками и кадр.
 
@@ -53,7 +53,9 @@ python3 sevenlights/tools/make_long_track.py --in 1605188.mp3,1605193.mp3,160519
 python3 sevenlights/tools/make_long_track.py --in <same order> --trim-start 8 --trim-end 6 --hours 2 --out ronin_2h.flac
 ```
 
-**🇺🇦 RU:** 6 треков, круг 17:04, все в одной тональной группе. Стыки без щелчков. Самый громкий перепад (+14 дБ) на 5:40 — внутри трека, не на стыке. Проверочное видео отдано пользователю для проверки авторских прав.
+**Copyright check: clean (2026-11-12).** 2-hour track: 7 cycles, exactly 2:00:00.
+
+**🇺🇦 RU:** Проверка авторских прав пройдена. Финальный трек 2:00:00 (7 кругов) отдан пользователю. 6 треков, круг 17:04, все в одной тональной группе. Стыки без щелчков. Самый громкий перепад (+14 дБ) на 5:40 — внутри трека, не на стыке. Проверочное видео отдано пользователю для проверки авторских прав.
 
 ## §3 — Hero image (NanoBanana 16:9)
 
