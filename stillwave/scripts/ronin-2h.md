@@ -57,12 +57,12 @@ Feed the clean hero (no text). Camera completely locked: no pan, no zoom, no dol
 
 ## §5 — Chosen frame, overlay placement, thumbnail (2026-11-12)
 
-- **Frame:** the user generated variant B (night road, giant moon, stone lantern). Saved as `assets/ronin-2h-source.jpg`. The original is only 1376x768, so it is upscaled ~1.4x for 1080p; re-download at a higher resolution if the generator allows.
+- **Frame:** the user generated variant B (night road, giant moon, stone lantern). Saved as `assets/ronin-2h-source.jpg`. Replaced the same day with the larger version: it reached the chat at 2000x1116 (chat compresses uploads), cropped to 1984x1116 for exact 16:9 — enough for 1080p. The true 4K original stays on the user's PC in `StillWaveZen\RONIN` for Flow and CapCut.
 - **Hat:** a woven travelling kasa, closest to an ajirogasa / sandogasa type — historically plausible for a ronin on the road.
 - **Overlay:** the figure stands in the lower-left, where the standard overlay would cover the swords, so the overlay sits in the **upper-left** over the dark cedars (`make_overlay.py --dy -600`).
 - **Thumbnail:** `assets/ronin-2h-thumb.jpg` (`ronin-compose-thumb.py`): 浪人 in black brush on the moon, RONIN in bold white upper-left, small `SAMURAI ZEN MUSIC` under it.
 
-**🇺🇦 RU:** Выбран вариант B (ночная дорога, луна, фонарь). Исходник маленький (1376x768), для 1080p он растягивается в 1,4 раза. Фигура стоит слева внизу, поэтому оверлей перенесён в левый верхний угол. Превью: 浪人 чёрной кистью на луне, RONIN белым слева вверху.
+**🇺🇦 RU:** Выбран вариант B (ночная дорога, луна, фонарь). Кадр заменён на версию побольше (в чат дошёл как 2000x1116, обрезан до 1984x1116 под 16:9), для 1080p хватает; настоящий 4K-оригинал лежит у пользователя в `StillWaveZen\RONIN`. Фигура стоит слева внизу, поэтому оверлей перенесён в левый верхний угол. Превью: 浪人 чёрной кистью на луне, RONIN белым слева вверху.
 
 ## §6a — Wisdom Overlay
 
