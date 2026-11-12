@@ -24,7 +24,7 @@
 🌈 Which chakra do you feel the most tonight: root, heart or crown? Tell us below, and where you are listening from. If this helped you rest, a like and a subscribe help us bring you more nights like this. Sweet dreams ✨
 ```
 
-## 4. 396 Hz Release Fear & Anxiety (`video-04-396hz.md`, дата TBD)
+## 4. 396 Hz Release Fear & Anxiety (`video-04-396hz.md`, 13.11.2026)
 
 ```
 🔴 What would you like to let go of tonight? Write one word below, and leave it here. Then tell us where you are listening from. If this helped you rest, a like and a subscribe help us bring you more nights like this. Sweet dreams ✨
