@@ -6,7 +6,7 @@
 - **Concept:** a ronin is a samurai with no master: no banner, no orders, only the work in front of you and the breath that carries it. Deep-focus album.
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Length target:** 2H, built from **6 Musicful tracks (~3:15 each) stitched into one cycle and looped to 2 hours** — the short-album format the user switched to on 2026-11-12 (see `CLAUDE.md`).
-- **Status:** 📝 title + description drafted by the user, overlay built, image prompts and the Musicful music prompt written (§1, §3, §4). Hero frame chosen, overlay placed, thumbnail built (§5). Waiting for: track generation in the "dan-documents" environment.
+- **Status:** 📝 title + description drafted by the user, overlay built, image prompts and the Musicful music prompt written (§1, §3, §4). Hero frame chosen, overlay placed, thumbnail built (§5). Album of 6 tracks stitched, one-cycle check video sent (§2). Waiting for: YouTube copyright check in the "dan-documents" environment.
 
 **🇺🇦 RU:** Ронин — самурай без господина: ни знамени, ни приказов, только работа перед тобой и дыхание. Альбом для глубокой концентрации. Ждём папку с треками и кадр.
 
@@ -29,6 +29,31 @@ python sevenlights/tools/make_long_track.py --in <6 mp3> --trim-start 8 --trim-e
 ```
 
 **🇺🇦 RU:** Музыка — через Musicful API инструментами из `sevenlights/tools/`, один промт на весь альбом. 6 треков = 3 запроса = 18 единиц общего тарифа; сначала один пробный запрос (2 трека, 6 единиц) и проверка остатка. По просьбе пользователя музыка очень тихая и медитативная, поэтому в промте нет перкуссии. Запускать только в облачной среде «dan-documents»: ключ подставляется там. Порядок: треки → один круг (`--check`) → видео с картинкой → проверка авторских прав на YouTube (ограниченный доступ) → только потом 2 часа (`--hours 2`, у StillWave кап 2 часа).
+
+## §2 — Album and one-cycle check (2026-11-12)
+
+6 Musicful tracks (branch `claude/ronin-musicful-test`, `stillwave/audio-test/ronin/`), 18 units in total (280 → 262). All are in G minor / D minor / F major on the same notes (chroma similarity 0.88–1.00), so the cycle stays in one harmonic world. Sub-bass below 60 Hz: none.
+
+Cycle order (chosen for the closest-sounding neighbours; four of six seams got the shortest 0.5 s join):
+
+| # | Track | Starts in the cycle |
+|---|---|---|
+| 1 | 1605188 | 0:00 |
+| 2 | 1605193 | 2:30 |
+| 3 | 1605195 | 5:28 |
+| 4 | 1605192 | 8:40 |
+| 5 | 1605194 | 11:29 |
+| 6 | 1605189 | 14:09 |
+
+Cycle length 17:04, −15.7 LUFS, LRA 5.7 LU, peak −0.3 dBFS. No clicks at any seam (sample jumps at seams below the track-wide 99.99th percentile). The largest level change in the cycle (+14 dB) is at 5:40, inside track 1605195 (its first loud note), not at a seam.
+
+```bash
+python3 sevenlights/tools/make_long_track.py --in 1605188.mp3,1605193.mp3,1605195.mp3,1605192.mp3,1605194.mp3,1605189.mp3 --trim-start 8 --trim-end 6 --check --out ronin_check_1cycle.wav
+# after a clean YouTube check (2 hours = ~7 cycles):
+python3 sevenlights/tools/make_long_track.py --in <same order> --trim-start 8 --trim-end 6 --hours 2 --out ronin_2h.flac
+```
+
+**🇺🇦 RU:** 6 треков, круг 17:04, все в одной тональной группе. Стыки без щелчков. Самый громкий перепад (+14 дБ) на 5:40 — внутри трека, не на стыке. Проверочное видео отдано пользователю для проверки авторских прав.
 
 ## §3 — Hero image (NanoBanana 16:9)
 
