@@ -30,6 +30,16 @@ Cinematic digital art, vertical 9:16. A translucent glass-like human body lying 
 
 Правило: перед работой пересчитать чакры — ровно 7. Скачивать оригинал (⋮ → Download), не скриншот.
 
+## Правка v1 (первая картинка: женская фигура, мало космоса)
+
+Первая картинка удачная по позе и чакрам (ровно 7, красные корни), но фигура женская и фон пустой. Правка той же картинки:
+
+```
+Edit this image. Keep the pose, the seven chakra orbs and their colors and positions, the golden spine and nerves, the red-gold roots, the golden rings, the pillow and the composition exactly the same. Make the body clearly MALE: broader shoulders, a straight masculine torso without a waist curve, narrow hips, flat chest, muscular back and calves, short-haired or shaved head silhouette. Add much more cosmos to the background: a large soft spiral galaxy and blue-violet nebula clouds in the upper right and behind the head, denser bright stars across the whole sky, a warm red-violet nebula glowing below the body under the roots, faint star dust. Keep the upper-left area darker for a title. Still exactly seven chakra orbs. High resolution 16:9, no text.
+```
+
+Если поза или чакры «уехали» — добавить: `keep exactly seven chakra orbs: red, orange, yellow, green, blue, indigo, violet` и `same pose, lying face down`.
+
 ## Дальше
 1. Положить картинку в `sevenlights/visuals/base_prone_396.jpg` (или прислать в чат).
 2. Обложка: `python tools/make_thumb.py --image visuals/base_prone_396.jpg --hz "396 HZ" --sub "RELEASE FEAR & SLEEP" --out visuals/thumbs/thumb_396_release_fear.jpg`.
