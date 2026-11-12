@@ -546,6 +546,8 @@ The user switched to the format already used on Seven Lights: **6–8 unique tra
 
 **🇺🇦** С 2026-11-12 разрешён короткий альбом по кругу: 6–8 уникальных треков по ~3 минуты, зацикленных на 2 часа, вместо ~40 треков. Причина — дорогие лимиты генерации при отсутствии дохода. Кап 2 часа остаётся. У каждого трека своё начало; в описании один треклист (первый круг) с пометкой о повторе.
 
+**Working folder on the user's PC (from 2026-11-12):** `C:\Users\jdan1\OneDrive\Desktop\StillWaveZen\`, laid out like the Seven Lights folder — the stitching script (`make_long_track.ps1`) at the top level and one subfolder per album (`StillWaveZen\RONIN\` holds that album's tracks, picture, one-cycle check and final file). Commands run from inside the album folder with `..\make_long_track.ps1`. **🇺🇦** Рабочая папка на ПК — `Desktop\StillWaveZen\`, устроена как папка Seven Lights: скрипт склейки наверху, каждому альбому своя подпапка.
+
 ### Mode A — Static image + audio (LEGACY — cheapest, no Flow/Kling)
 
 | Stage | Long-form |
