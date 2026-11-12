@@ -136,3 +136,10 @@ New Japanese Zen music every week. Subscribe if you want it in your feed.
 ```
 
 Both links verified via VidIQ on 2026-11-12 (they point to the right StillWave videos).
+
+
+## §9 — Tags
+
+```
+stillwave, ronin, samurai zen music, japanese zen music, samurai meditation music, japanese music for focus, deep focus music, focus music, study music, deep work music, meditation music, zen music, ambient music, calming music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, samurai music, japanese warrior music, ancient japan ambience, lone samurai under the full moon on a misty cedar forest road with a stone lantern, joe hisaishi
+```
