@@ -205,7 +205,7 @@ python tools/make_thumb.py --image visuals/base_side_sleep.jpg --hz "ALL 7 CHAKR
 python tools/make_loop.py --image visuals/base_side_sleep.jpg --out loop_side.mp4 --chakras "673,504;738,495;820,482;900,456;1028,446;1140,426;1214,391" --ribbon "0,425;600,425;800,360;900,322;1000,318;1100,330;1250,340;1376,320"
 # видео 4 (на животе, 396 Hz, visuals/base_prone_396.jpg)
 python tools/make_thumb.py --image visuals/base_prone_396.jpg --hz "396 HZ" --sub "RELEASE FEAR & SLEEP" --out visuals/thumbs/thumb_396_release_fear.jpg
-python tools/make_loop.py --image visuals/base_prone_396.jpg --out loop_prone_396.mp4 --chakras "695,464;774,442;872,414;953,384;1042,364;1125,324;1188,301"
+python tools/make_loop.py --image visuals/base_prone_396.jpg --out loop_prone_396.mp4 --chakras "695,464;774,442;872,414;953,384;1042,364;1125,324;1188,301" --roots "590,470,840,700"
 # петля на нужную длину вместе с треком:
 ffmpeg -stream_loop -1 -i loop.mp4 -i track.wav -shortest -c:v copy -c:a aac -b:a 320k video.mp4
 ```

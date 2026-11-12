@@ -5,7 +5,9 @@
   2. расходящиеся от сердца кольца волн («звук»);
   3. мерцание звёзд, у каждой своя фаза;
   4. лёгкая виньетка: взгляд к центру, края (кисти рук внизу) в тени;
-  5. (необязательно, --ribbon) цветная лента над телом колышется бегущей волной и переливается.
+  5. (необязательно, --ribbon) цветная лента над телом колышется бегущей волной и переливается;
+  6. (необязательно, --roots) светящиеся «корни» под корневой чакрой: по ним вниз бегут импульсы света
+     («страх стекает в землю»), корни мягко «дышат» и чуть покачиваются кончиками.
 
 Нужны Python 3 с numpy и Pillow и ffmpeg в PATH.
 Запуск:
@@ -57,6 +59,7 @@ def main():
     ap.add_argument('--no-autocrop', action='store_true')
     ap.add_argument('--seed', type=int, default=7)
     ap.add_argument('--ribbon', help='нижняя граница ленты: "x,y;x,y;..." в пикселях исходной картинки')
+    ap.add_argument('--roots', help='прямоугольник с корнями под корневой чакрой: "x0,y0,x1,y1" в пикселях исходной картинки')
     ap.add_argument('--ribbon-amp', type=float, default=9, help='размах колыхания ленты, px при 1920x1080')
     args = ap.parse_args()
 
@@ -140,6 +143,29 @@ def main():
         amp = args.ribbon_amp * (w / 1920)
         lam1, lam2 = w * 0.55, w * 0.9
 
+    # 6. Корни: тонкие тёплые светлые линии ниже корневой чакры (в конусе вниз от неё)
+    roots = None
+    if args.roots:
+        from PIL import ImageFilter as _IF
+        q = [float(v) for v in args.roots.split(',')]
+        X0, X1 = [int(np.clip((v - crop_off[0] - off[0]) * sx, 0, w)) for v in (q[0], q[2])]
+        Y0, Y1 = [int(np.clip((v - crop_off[1] - off[1]) * sy, 0, h)) for v in (q[1], q[3])]
+        lumr = base.mean(2)
+        blr = np.asarray(Image.fromarray((lumr * 255).astype(np.uint8)).filter(_IF.BoxBlur(max(2, int(round(5 * s))))), float) / 255
+        line = np.clip((lumr - blr - 0.02) / 0.06, 0, 1) * np.clip((base[..., 0] - base[..., 2] - 0.02) / 0.10, 0, 1)
+        rcx, rcy = pts[0]
+        ddx, ddy = xx - rcx, yy - rcy
+        dist = np.sqrt(ddx ** 2 + ddy ** 2)
+        cone = np.clip((ddy - 0.8 * np.abs(ddx) + 20 * s) / (20 * s), 0, 1)     # только вниз от чакры
+        excl = np.clip((dist - 22 * s) / (10 * s), 0, 1)                         # без самого шара чакры
+        M = (line * cone * excl)[Y0:Y1, X0:X1].astype(np.float32)
+        roots = (base[Y0:Y1, X0:X1] * M[..., None]).astype(np.float32)
+        rd = dist[Y0:Y1, X0:X1].astype(np.float32)
+        rxl = np.arange(X1 - X0, dtype=np.float32)[None, :]
+        rrows = np.arange(Y1 - Y0)[:, None]
+        rlam = 110 * s
+        rtip = np.clip(rd / (200 * s), 0, 1)                                      # кончики качаются сильнее
+
     n = int(round(args.seconds * args.fps))
     # Сама анимация бесшовная (без сжатия шов = обычной разнице соседних кадров). После сжатия на шве
     # остаётся скачок ~1 уровень яркости из 255 (опорный кадр против предсказанного) — на глаз не виден;
@@ -177,6 +203,18 @@ def main():
             fb[ytop:ybot] = np.clip(fb[ytop:ybot] - rib + moved * shimmer[None, :, None], 0, 1)
         else:
             fb = base32
+        if roots is not None:
+            sway = 1.5 * s * np.sin(2 * np.pi * (yy[Y0:Y1, X0:X1] / (300 * s) - ph)) * rtip
+            src = rxl - sway
+            j0 = np.clip(np.floor(src).astype(np.int32), 0, X1 - X0 - 1)
+            j1 = np.clip(j0 + 1, 0, X1 - X0 - 1)
+            fr_ = np.clip(src - np.floor(src), 0, 1)[..., None]
+            moved = roots[rrows, j0] * (1 - fr_) + roots[rrows, j1] * fr_
+            pulse = np.maximum(0, np.cos(2 * np.pi * (rd / rlam - 2 * ph))) ** 6     # 2 волны вниз за петлю
+            gain = (1 + 0.15 * np.sin(2 * np.pi * ph)) + 1.6 * pulse
+            if fb is base32:
+                fb = base32.copy()
+            fb[Y0:Y1, X0:X1] = np.clip(fb[Y0:Y1, X0:X1] - roots + moved * gain[..., None], 0, 1)
         frame = fb * (1 + tw[..., None])
         frame = 1 - (1 - frame) * (1 - np.clip(light, 0, 1))   # «экран»: свет только добавляется
         frame = np.clip(frame * vign, 0, 1)
