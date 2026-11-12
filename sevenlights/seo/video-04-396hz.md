@@ -1,7 +1,7 @@
 # Видео 4 — 396 Hz Release Fear & Anxiety (3 часа)
 
 Тема: 396 Hz — отпустить страх, тревогу и вину перед сном; корневая чакра. Поза 4: лежит на животе (промпты `visuals/prompts/video-04-prone-396.md`).
-Обложка (после картинки): «396 HZ» + «RELEASE FEAR & SLEEP» → `visuals/thumbs/thumb_396_release_fear.jpg`.
+Картинка: `visuals/base_prone_396.jpg` (v2: галактика, корни оставлены — про заземление в описании). Обложка: `visuals/thumbs/thumb_396_release_fear.jpg`. Луп 8 с: `make_loop.py --chakras "695,464;774,442;872,414;953,384;1042,364;1125,324;1188,301"`.
 Плейлисты: A (все ночи), E (396 Hz).
 Звук: новый альбом из 6 треков Musicful по одному промпту (ниже). Строй будет 440 Гц — в описании частота «inspired by».
 Порядок: треки → анализ и порядок (Claude) → **проверка одного круга на авторские права** → 3 часа → CapCut → загрузка.
@@ -34,6 +34,9 @@ Deep sleep ambient for releasing fear and anxiety, inspired by the 396 Hz Solfeg
 🔴 ABOUT THIS VIDEO
 Tonight's soundscape is inspired by 396 Hz, the Solfeggio frequency traditionally linked to the root chakra, grounding and letting go of fear. Slow warm pads, a gentle bass and soft piano notes flow for 3 hours without breaks, so nothing pulls you out of sleep.
 
+🌳 GROUNDING
+The glowing roots in the picture flow from the root chakra at the base of the spine. They are a symbol of grounding: feeling the support beneath you and letting heavy feelings flow out of the body, down into the earth, like roots. As you fall asleep, imagine fear and tension slowly draining down through these roots, leaving you light, safe and calm.
+
 🎧 HOW TO LISTEN
 • Lie down, close your eyes and let your body feel heavy
 • With every slow breath out, imagine a worry leaving your body
@@ -63,7 +66,7 @@ Sleep and meditation soundscapes along the seven chakras. New videos every week.
 ## Теги (до 500 символов)
 
 ```
-396 hz, 396hz, 396 hz sleep music, release fear, release fear and anxiety, anxiety relief music, sleep music for anxiety, let go of fear, release guilt, root chakra, root chakra healing, solfeggio frequency, healing frequency, deep sleep music, sleep music, 3 hour sleep music, calm your mind, stop overthinking, meditation music, ambient sleep music, seven lights
+396 hz, 396hz, 396 hz sleep music, release fear, release fear and anxiety, anxiety relief music, sleep music for anxiety, let go of fear, release guilt, root chakra, root chakra healing, solfeggio frequency, healing frequency, deep sleep music, sleep music, 3 hour sleep music, grounding, grounding meditation, calm your mind, meditation music, ambient sleep music, seven lights
 ```
 
 ## Закреплённый комментарий
@@ -87,6 +90,9 @@ Sleep and meditation soundscapes along the seven chakras. New videos every week.
 
 🔴 ОБ ЭТОМ ВИДЕО
 Эта музыка вдохновлена частотой 396 Гц — частотой Сольфеджио, которую в традиции связывают с корневой чакрой, заземлением и освобождением от страха. Медленные тёплые пэды, мягкий бас и тихое фортепиано звучат 3 часа без пауз, чтобы ничто не вырвало вас из сна.
+
+🌳 ЗАЗЕМЛЕНИЕ
+Светящиеся корни на картинке идут от корневой чакры у основания позвоночника. Это символ заземления: почувствовать опору под собой и позволить тяжёлым чувствам уйти из тела вниз, в землю, как по корням. Засыпая, представьте, как страх и напряжение медленно стекают вниз по этим корням, а вам становится легко, спокойно и безопасно.
 
 🎧 КАК СЛУШАТЬ
 • Лягте, закройте глаза и позвольте телу стать тяжёлым
@@ -127,6 +133,9 @@ Música para dormir profundamente a 396 Hz para liberar el miedo, la culpa y la 
 🔴 SOBRE ESTE VIDEO
 Esta música está inspirada en 396 Hz, la frecuencia Solfeggio que la tradición asocia al chakra raíz, al enraizamiento y a soltar el miedo. Pads cálidos y lentos, un bajo suave y notas tranquilas de piano fluyen durante 3 horas sin pausas, para que nada te despierte.
 
+🌳 ENRAIZAMIENTO
+Las raíces luminosas de la imagen nacen del chakra raíz, en la base de la columna. Son un símbolo de enraizamiento: sentir el apoyo bajo tu cuerpo y dejar que los sentimientos pesados salgan del cuerpo hacia la tierra, como raíces. Al dormirte, imagina que el miedo y la tensión bajan lentamente por estas raíces y te dejan ligero, seguro y en calma.
+
 🎧 CÓMO ESCUCHAR
 • Acuéstate, cierra los ojos y deja que tu cuerpo se sienta pesado
 • Con cada exhalación lenta, imagina que una preocupación sale de tu cuerpo
@@ -165,6 +174,9 @@ Música para sono profundo em 396 Hz para liberar o medo, a culpa e a ansiedade:
 
 🔴 SOBRE ESTE VÍDEO
 Esta música é inspirada em 396 Hz, a frequência Solfeggio que a tradição associa ao chakra raiz, ao aterramento e a deixar o medo ir embora. Pads quentes e lentos, um grave suave e notas calmas de piano fluem por 3 horas sem pausas, para que nada te acorde.
+
+🌳 ATERRAMENTO
+As raízes luminosas da imagem nascem do chakra raiz, na base da coluna. Elas simbolizam o aterramento: sentir o apoio sob o seu corpo e deixar que os sentimentos pesados saiam do corpo em direção à terra, como raízes. Ao adormecer, imagine o medo e a tensão descendo devagar por essas raízes, deixando você leve, seguro e calmo.
 
 🎧 COMO OUVIR
 • Deite-se, feche os olhos e deixe o corpo ficar pesado
@@ -205,6 +217,9 @@ Musik für tiefen Schlaf mit 396 Hz, um Angst, Schuld und Unruhe loszulassen: 3 
 🔴 ÜBER DIESES VIDEO
 Diese Musik ist inspiriert von 396 Hz, der Solfeggio-Frequenz, die traditionell mit dem Wurzelchakra, Erdung und dem Loslassen von Angst verbunden wird. Langsame warme Flächen, ein sanfter Bass und leise Klaviertöne fließen 3 Stunden ohne Pausen, damit dich nichts aus dem Schlaf reißt.
 
+🌳 ERDUNG
+Die leuchtenden Wurzeln im Bild entspringen dem Wurzelchakra am unteren Ende der Wirbelsäule. Sie sind ein Symbol für Erdung: den Halt unter dir spüren und schwere Gefühle aus dem Körper nach unten in die Erde fließen lassen, wie durch Wurzeln. Stell dir beim Einschlafen vor, wie Angst und Anspannung langsam durch diese Wurzeln abfließen und du dich leicht, sicher und ruhig fühlst.
+
 🎧 SO HÖRST DU
 • Leg dich hin, schließe die Augen und lass deinen Körper schwer werden
 • Stell dir bei jedem langsamen Ausatmen vor, wie eine Sorge deinen Körper verlässt
@@ -243,6 +258,9 @@ Musique de sommeil profond à 396 Hz pour libérer la peur, la culpabilité et l
 
 🔴 À PROPOS DE CETTE VIDÉO
 Cette musique est inspirée de 396 Hz, la fréquence Solfeggio que la tradition associe au chakra racine, à l'ancrage et au lâcher-prise de la peur. Des nappes chaudes et lentes, une basse douce et de calmes notes de piano s'écoulent pendant 3 heures sans pause, pour que rien ne vous réveille.
+
+🌳 ANCRAGE
+Les racines lumineuses de l'image partent du chakra racine, à la base de la colonne. Elles symbolisent l'ancrage : sentir le soutien sous votre corps et laisser les émotions lourdes quitter le corps vers la terre, comme par des racines. En vous endormant, imaginez la peur et les tensions qui s'écoulent lentement par ces racines, et vous vous sentez léger, en sécurité et calme.
 
 🎧 COMMENT ÉCOUTER
 • Allongez-vous, fermez les yeux et laissez votre corps devenir lourd
