@@ -7,7 +7,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Format:** 6 Musicful tracks (one prompt, 3 requests = 18 units) stitched into one cycle with `sevenlights/tools/make_long_track.py`, looped to 2:00:00. One-cycle copyright check on YouTube before the 2 hours (same routine as RONIN).
 - **Working folder on the PC:** `Desktop\StillWaveZen\BUSHIDO\`
-- **Status:** 📝 title/description (user), overlay, image, Flow, music prompt, tags and pinned ready. Frame, overlay and thumbnail done (§5). One-cycle check video sent (§2). Waiting for: YouTube copyright check.
+- **Status:** 📝 title/description (user), overlay, image, Flow, music prompt, tags and pinned ready. Frame, overlay and thumbnail done (§5). **2-hour track built** (2026-11-13): `BUSHIDO_2h.mp3`, 320 kbps, exactly 2:00:00, −15.5 LUFS, peak −0.9 dBFS after a −1 dB limiter. Next: CapCut, upload.
 
 **🇺🇦 RU:** Бусидо как повседневная дисциплина: искренность, сдержанность, простые дела, сделанные как следует, даже когда никто не видит. Формат как у RONIN: 6 треков Musicful, круг, проверка на YouTube, затем 2 часа.
 
@@ -98,7 +98,12 @@ Best for:
 - reading and study
 - quiet evenings when the mind is still moving
 
-[TRACKLIST — one cycle, then "(the cycle repeats until 2:00:00)"]
+0:00 Dawn in the Hall of the Tiger
+2:54 The Armor Rests
+5:16 Incense Before the First Lesson
+7:56 A Plain Thing, Done Properly
+10:43 Light Across the Wooden Floor
+(the cycle repeats until 2:00:00)
 
 More from StillWave Zen:
 Miyamoto Musashi — Samurai Meditation for Stress Relief: https://youtu.be/mJ3RMn3J4B8
