@@ -15,15 +15,15 @@ W, H = 1280, 720
 WHITE, CREAM = (250, 247, 240, 255), (232, 222, 200, 255)
 
 img = Image.open(SRC).convert("RGB").resize((W, H), Image.LANCZOS)
-img = ImageEnhance.Contrast(img).enhance(1.22)
-img = ImageEnhance.Color(img).enhance(1.3)
+img = ImageEnhance.Contrast(img).enhance(1.12)
+img = ImageEnhance.Color(img).enhance(1.15)
 r, g, b = img.split()
 img = Image.merge("RGB", (r.point(lambda v: min(255, int(v * 1.05))), g, b.point(lambda v: int(v * 0.93))))
 bg = img.convert("RGBA")
 
 # darken the whole left third so white type reads
 sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-ImageDraw.Draw(sh).rectangle((-100, -100, 470, H + 100), fill=(5, 4, 3, 200))
+ImageDraw.Draw(sh).rectangle((-100, -100, 470, H + 100), fill=(5, 4, 3, 120))
 bg.alpha_composite(sh.filter(ImageFilter.GaussianBlur(70)))
 d = ImageDraw.Draw(bg)
 CX = 215

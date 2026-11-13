@@ -63,10 +63,21 @@ Feed the clean hero (no text). Camera completely locked: no pan, no zoom, no dol
 
 **🇺🇦 RU:** Подставка с мечами слева внизу, поэтому оверлей слева вверху на сёдзи, с плотной подложкой, которая не заходит на солнце. Превью: контраст и тепло подняты только на превью, BUSHIDO белым слева вверху, 武士道 крупнее, сверху вниз на левой сёдзи (по просьбе пользователя).
 
+## §5b — Final frame: armored samurai before the tiger mural (2026-11-13)
+
+The user generated the §3b prompt. It replaces the shoji frame (kept as `assets/bushido-2h-source-v1-shoji.jpg`): `assets/bushido-2h-source.jpg`, 1984x1116. Huge tiger, red armor cords, gold light beam, dark empty left third. Two swords on the floor, both sheathed. The standard lower-left overlay sits on the dark floor and wall (brightness 18–24), clear of the swords. Thumbnail: `bushido-2h-thumb-v2.jpg` (white brush 武士道, serif BUSHIDO, rule, JAPANESE ZEN MUSIC).
+
+### Flow loop for this frame
+```
+Feed the clean hero (no text). Camera completely locked: no pan, no zoom, no dolly. Keep the armored samurai, his helmet, the two swords on the floor, the hall and the tiger mural exactly as they are, as a frozen photograph. The samurai and the tiger do not move. Animate ONLY: (1) the thin ribbon of incense smoke rising and curling slowly; (2) fine dust drifting very slowly inside the beam of light from the high window; (3) the beam's brightness breathing almost imperceptibly; (4) the faintest shimmer of light on the polished floor. Everything is slow and calm. Perfectly seamless 8-second loop, last frame matches first frame exactly.
+```
+
+**🇺🇦 RU:** Новый кадр (самурай в доспехах перед огромным тигром) заменил кадр с сёдзи. Оверлей стоит в стандартном месте слева внизу на тёмном полу, мечей не касается. Превью — v2 на новом кадре.
+
 ## §6a — Wisdom Overlay
 
 - **至誠一貫** / *Shisei ikkan* / Sincere all the way through
-- File: `assets/bushido-shisei-ikkan-overlay.png` (brush font, upper-left on the chosen frame — see §5).
+- File: `assets/bushido-shisei-ikkan-overlay.png` (brush font, standard lower-left on the final tiger frame — see §5b).
 
 **🇺🇦 RU:** 至誠一貫 — «искренность от начала до конца». Прямо о сути бусидо (честность и постоянство), но само слово 武士道 не называет. На канале не использовалось.
 
