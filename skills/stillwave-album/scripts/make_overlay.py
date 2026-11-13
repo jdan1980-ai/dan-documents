@@ -57,6 +57,8 @@ def main():
     ap.add_argument("--preview", type=Path, help="where to write the composited QA preview JPG")
     ap.add_argument("--scrim", type=int, default=165,
                     help="scrim opacity 0-255; raise to ~200 when the lower-left is bright")
+    ap.add_argument("--scrim-right", type=int, default=950,
+                    help="right edge of the dark scrim before --dx (px); lower it to keep a bright focal point clear")
     ap.add_argument("--dx", type=int, default=0, help="shift the whole block right (px)")
     ap.add_argument("--dy", type=int, default=0,
                     help="shift the whole block down (px); negative moves it up, e.g. -470 for upper-left "
@@ -79,7 +81,7 @@ def main():
 
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     s = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(s).rounded_rectangle((-200 + a.dx, 636 + a.dy, 950 + a.dx, 1060 + a.dy), radius=170,
+    ImageDraw.Draw(s).rounded_rectangle((-200 + a.dx, 636 + a.dy, a.scrim_right + a.dx, 1060 + a.dy), radius=170,
                                         fill=(8, 6, 4, a.scrim))
     img.alpha_composite(s.filter(ImageFilter.GaussianBlur(100)))
 

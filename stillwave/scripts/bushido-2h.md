@@ -7,7 +7,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Format:** 6 Musicful tracks (one prompt, 3 requests = 18 units) stitched into one cycle with `sevenlights/tools/make_long_track.py`, looped to 2:00:00. One-cycle copyright check on YouTube before the 2 hours (same routine as RONIN).
 - **Working folder on the PC:** `Desktop\StillWaveZen\BUSHIDO\`
-- **Status:** 📝 title/description (user), overlay, image, Flow, music prompt, tags and pinned ready. Waiting for: hero frame, music generation.
+- **Status:** 📝 title/description (user), overlay, image, Flow, music prompt, tags and pinned ready. Frame, overlay and thumbnail done (§5). Waiting for: music check.
 
 **🇺🇦 RU:** Бусидо как повседневная дисциплина: искренность, сдержанность, простые дела, сделанные как следует, даже когда никто не видит. Формат как у RONIN: 6 треков Musicful, круг, проверка на YouTube, затем 2 часа.
 
@@ -25,10 +25,18 @@ Photorealistic cinematic still, 16:9, 4K, muted and restrained like a frame from
 Feed the clean hero (no text). Camera completely locked: no pan, no zoom, no dolly. Keep the samurai, his swords, the room, the garden and the mountains exactly as they are, as a frozen photograph. The samurai does not move. Animate ONLY: (1) thin steam rising slowly from the tea cup; (2) the morning mist drifting very slowly across the distant mountains; (3) the glow of the sun breathing almost imperceptibly in brightness; (4) the faintest shimmer of light on the polished floor. Everything is slow and calm. Perfectly seamless 8-second loop, last frame matches first frame exactly.
 ```
 
+## §5 — Chosen frame, overlay, thumbnail (2026-11-13)
+
+- Frame saved as `assets/bushido-2h-source.jpg` (1984x1116, cropped to 16:9). The sword rack sits in the lower-left, so the overlay is **upper-left** over the left shoji, with a heavy scrim that stops short of the sun (`make_overlay.py --dy -600 --scrim 215 --scrim-right 640`).
+- Thumbnail `assets/bushido-2h-thumb.jpg` (`bushido-compose-thumb.py`): contrast and warmth lifted (thumbnail only), BUSHIDO bold white upper-left, 武士道 in black brush on the sun.
+- For a stronger click, the frame itself could be regenerated warmer and with more contrast (see chat 2026-11-13).
+
+**🇺🇦 RU:** Подставка с мечами слева внизу, поэтому оверлей слева вверху на сёдзи, с плотной подложкой, которая не заходит на солнце. Превью: контраст и тепло подняты только на превью, BUSHIDO белым слева вверху, 武士道 кистью на солнце.
+
 ## §6a — Wisdom Overlay
 
 - **至誠一貫** / *Shisei ikkan* / Sincere all the way through
-- File: `assets/bushido-shisei-ikkan-overlay.png` (brush font, standard lower-left; re-check on the frame).
+- File: `assets/bushido-shisei-ikkan-overlay.png` (brush font, upper-left on the chosen frame — see §5).
 
 **🇺🇦 RU:** 至誠一貫 — «искренность от начала до конца». Прямо о сути бусидо (честность и постоянство), но само слово 武士道 не называет. На канале не использовалось.
 
