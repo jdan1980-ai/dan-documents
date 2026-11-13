@@ -2,8 +2,8 @@
 """BUSHIDO thumbnail — 1280x720.
 
 The source frame is soft and muted, so the thumbnail lifts contrast and warmth a
-little (only here, not in the video). 武士道 in black brush (YujiBoku) sits on the
-sun; BUSHIDO in bold white on a darkened left shoji panel. Source:
+little (only here, not in the video). 武士道 in black brush (YujiBoku) runs top to
+bottom on the left shoji panel; BUSHIDO in bold white on a darkened left shoji panel. Source:
 bushido-2h-source.jpg (clean frame, no text).
 """
 from pathlib import Path
@@ -24,25 +24,23 @@ bg = img.convert("RGBA")
 
 # darken the left panel behind the title
 sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-ImageDraw.Draw(sh).rectangle((-80, -80, 470, 300), fill=(6, 5, 4, 175))
+ImageDraw.Draw(sh).rectangle((-80, -80, 470, 190), fill=(6, 5, 4, 175))
 bg.alpha_composite(sh.filter(ImageFilter.GaussianBlur(60)))
 
-# 武士道 across the sun
-f = ImageFont.truetype(KANJI, 54)
+# 武士道 top-to-bottom on the left shoji panel, black brush like ink on paper
+f = ImageFont.truetype(KANJI, 92)
 mask = Image.new("L", (W, H), 0)
 md = ImageDraw.Draw(mask)
-text, cx, cy = "武士道", 640, 140
-widths = [f.getbbox(c)[2] - f.getbbox(c)[0] for c in text]
-gap = 6
-x = cx - (sum(widths) + gap * (len(text) - 1)) / 2
-for ch, wdt in zip(text, widths):
+cx, y = 108, 236
+for ch in "武士道":
     l, t, rr, bb = f.getbbox(ch)
-    md.text((x - l, cy - (t + bb) / 2), ch, font=f, fill=255)
-    x += wdt + gap
+    md.text((cx - (l + rr) / 2, y - t), ch, font=f, fill=255)
+    y += (bb - t) + 22
 halo = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-halo.paste((255, 236, 200, 255), (0, 0), mask.filter(ImageFilter.GaussianBlur(5)).point(lambda p: min(255, int(p * 1.4))))
+halo.paste((250, 244, 230, 255), (0, 0), mask.filter(ImageFilter.GaussianBlur(6)).point(lambda p: min(255, int(p * 1.3))))
 bg.alpha_composite(halo)
 bg.alpha_composite(Image.composite(Image.new("RGBA", (W, H), (14, 10, 8, 255)), Image.new("RGBA", (W, H), (0, 0, 0, 0)), mask))
+print("kanji column bottom", int(y))
 
 # BUSHIDO + subtitle, upper-left
 d = ImageDraw.Draw(bg)

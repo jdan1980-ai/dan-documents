@@ -7,13 +7,31 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Format:** 6 Musicful tracks (one prompt, 3 requests = 18 units) stitched into one cycle with `sevenlights/tools/make_long_track.py`, looped to 2:00:00. One-cycle copyright check on YouTube before the 2 hours (same routine as RONIN).
 - **Working folder on the PC:** `Desktop\StillWaveZen\BUSHIDO\`
-- **Status:** 📝 title/description (user), overlay, image, Flow, music prompt, tags and pinned ready. Frame, overlay and thumbnail done (§5). Waiting for: music check.
+- **Status:** 📝 title/description (user), overlay, image, Flow, music prompt, tags and pinned ready. Frame, overlay and thumbnail done (§5). One-cycle check video sent (§2). Waiting for: YouTube copyright check.
 
 **🇺🇦 RU:** Бусидо как повседневная дисциплина: искренность, сдержанность, простые дела, сделанные как следует, даже когда никто не видит. Формат как у RONIN: 6 треков Musicful, круг, проверка на YouTube, затем 2 часа.
 
 ## §1 — Music (Musicful)
 
 Prompt file: `stillwave/scripts/bushido-musicful-prompt.txt` (no percussion, same quiet brief as RONIN).
+
+## §2 — Album and one-cycle check (2026-11-13)
+
+6 Musicful tracks (branch `claude/bushido-musicful`), 18 units (262 → 244). Musicful has no length parameter (docs checked): MFV3.0 caps at 8 min but sets no target, so the prompt's length cue is the only lever; tracks came out 3:13–3:45.
+
+Track `1606611` is in **G major** while the other five sit in D minor / G minor (chroma similarity 0.50 vs 0.96–0.99), and it has the album's biggest jump (+19.5 dB at 0:18). It is **left out** of the cycle so the album stays in one key.
+
+| # | Track | Starts in the cycle |
+|---|---|---|
+| 1 | 1606610 | 0:00 |
+| 2 | 1606614 | 2:54 |
+| 3 | 1606612 | 5:16 |
+| 4 | 1606613 | 7:56 |
+| 5 | 1606615 | 10:43 |
+
+Cycle 13:42 (≈ 9 repeats in 2 hours), −15.5 LUFS, LRA 6.2. Peak reaches 0.0 dBFS, so the 2-hour build gets a −1 dB true-peak limit.
+
+**🇺🇦 RU:** Трек 1606611 в другой тональности (соль мажор) и с самым резким скачком, поэтому в круг не взят: 5 треков, круг 13:42. В документации Musicful параметра длины нет, только подсказка в промте.
 
 ## §3 — Hero image (NanoBanana 16:9)
 ```
@@ -28,10 +46,10 @@ Feed the clean hero (no text). Camera completely locked: no pan, no zoom, no dol
 ## §5 — Chosen frame, overlay, thumbnail (2026-11-13)
 
 - Frame saved as `assets/bushido-2h-source.jpg` (1984x1116, cropped to 16:9). The sword rack sits in the lower-left, so the overlay is **upper-left** over the left shoji, with a heavy scrim that stops short of the sun (`make_overlay.py --dy -600 --scrim 215 --scrim-right 640`).
-- Thumbnail `assets/bushido-2h-thumb.jpg` (`bushido-compose-thumb.py`): contrast and warmth lifted (thumbnail only), BUSHIDO bold white upper-left, 武士道 in black brush on the sun.
+- Thumbnail `assets/bushido-2h-thumb.jpg` (`bushido-compose-thumb.py`): contrast and warmth lifted (thumbnail only), BUSHIDO bold white upper-left, 武士道 in larger black brush running top to bottom on the left shoji (moved off the sun at the user's request).
 - For a stronger click, the frame itself could be regenerated warmer and with more contrast (see chat 2026-11-13).
 
-**🇺🇦 RU:** Подставка с мечами слева внизу, поэтому оверлей слева вверху на сёдзи, с плотной подложкой, которая не заходит на солнце. Превью: контраст и тепло подняты только на превью, BUSHIDO белым слева вверху, 武士道 кистью на солнце.
+**🇺🇦 RU:** Подставка с мечами слева внизу, поэтому оверлей слева вверху на сёдзи, с плотной подложкой, которая не заходит на солнце. Превью: контраст и тепло подняты только на превью, BUSHIDO белым слева вверху, 武士道 крупнее, сверху вниз на левой сёдзи (по просьбе пользователя).
 
 ## §6a — Wisdom Overlay
 
