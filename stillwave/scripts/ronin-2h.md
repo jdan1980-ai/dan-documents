@@ -73,6 +73,18 @@ Photorealistic cinematic still, 16:9, 4K, muted and restrained like a frame from
 
 **🇺🇦 RU:** A — рассвет на горном перевале, огромное солнце в тумане (основной). B — ночная дорога под гигантской луной, тёплый акцент — огонь в каменном фонаре. Текст превью добавляется после, скриптом.
 
+## §3c — Stronger hero for the thumbnail (2026-11-13, same analysis as BUSHIDO §3b)
+
+The current frame has no big icon: the moon is the only large element and the figure is small. Breakout competitors put one huge icon next to the human. For a ronin the natural icon is the **lone wolf** — an idiom every American viewer knows.
+
+```
+Photorealistic cinematic still, 16:9, 4K, like a frame from a Kurosawa film. Night on an old stone road through a cedar forest. A lone ronin in a wide woven straw hat, worn dark indigo kimono and ragged travelling cloak stands on the road, back to camera, face never visible, placed right of center, filling the lower half of the frame. EXACTLY TWO swords, a katana and a shorter wakizashi, both fully sheathed inside the obi belt at his LEFT hip, hilts pointing forward. His hands hang empty at his sides. Beside him, walking with him on the road, is a colossal white wolf made of pale moonlit mist and soft light, its shoulder far taller than the man, its head turned slightly toward him, calm and protective, its fur dissolving into the fog at the edges. Behind them a huge full moon fills the top of the frame. The left third of the frame is dark cedar trunks and empty shadow. Deep black and cold silver-blue tones, with ONE warm accent: a single stone lantern with a small orange flame beside the road. High contrast, solitude, a lone wanderer and his silent guardian, profound stillness. No text, no letters.
+```
+
+Typography v2 on the current frame: `assets/ronin-compose-thumb-v2.py` → `ronin-2h-thumb-v2.jpg` (text above the figure).
+
+**🇺🇦 RU:** В текущем кадре нет крупного образа: только луна и маленькая фигура. Для ронина естественный образ — «одинокий волк», это выражение понятно любому американцу. Промт: огромный белый волк из лунного тумана идёт рядом с ронином.
+
 ## §4 — Flow loop (for variant A)
 ```
 Feed the clean hero (no text). Camera completely locked: no pan, no zoom, no dolly. Keep the ronin, his hat, cloak and swords, the path and the mountains exactly as they are, as a frozen photograph. The ronin does not move. Animate ONLY: (1) the valley mist drifting very slowly sideways, soft and continuous; (2) the pampas grass swaying gently in a light breeze; (3) the glow of the sun breathing almost imperceptibly in brightness; (4) the hem of the cloak stirring very slightly. Everything is slow and calm. Perfectly seamless 8-second loop, last frame matches first frame exactly.
