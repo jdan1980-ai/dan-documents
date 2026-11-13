@@ -143,3 +143,9 @@ Both links verified via VidIQ on 2026-11-12 (they point to the right StillWave v
 ```
 stillwave, ronin, samurai zen music, japanese zen music, samurai meditation music, japanese music for focus, deep focus music, focus music, study music, deep work music, meditation music, zen music, ambient music, calming music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, samurai music, japanese warrior music, ancient japan ambience, lone samurai under the full moon on a misty cedar forest road with a stone lantern, joe hisaishi
 ```
+
+## §11 — Pinned comment
+
+```
+🌀 浪人 RONIN — a samurai with no master, only the work in front of him and the breath that carries it. 🍃 What are you working on today, alone and without distractions? Subscribe for more Japanese zen focus sessions every week 🌿
+```
