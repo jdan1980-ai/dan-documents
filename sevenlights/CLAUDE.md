@@ -256,13 +256,16 @@ python tools/make_loop.py --image visuals/base_side_sleep.jpg --out loop_side.mp
 # видео 4 (на животе, 396 Hz, visuals/base_prone_396.jpg)
 python tools/make_thumb.py --image visuals/base_prone_396.jpg --hz "396 HZ" --sub "RELEASE FEAR & SLEEP" --out visuals/thumbs/thumb_396_release_fear.jpg
 python tools/make_loop.py --image visuals/base_prone_396.jpg --out loop_prone_396.mp4 --chakras "695,464;774,442;872,414;953,384;1042,364;1125,324;1188,301" --roots "590,470,840,700"
+# видео 5 (на спине по центру, 963 Hz, visuals/base_back_963.jpg)
+python tools/make_thumb.py --image visuals/base_back_963.jpg --hz "963 HZ" --sub "SPIRITUAL AWAKENING" --out visuals/thumbs/thumb_963_awakening.jpg
+python tools/make_loop.py --image visuals/base_back_963.jpg --out loop_963.mp4 --chakras "948,578;1052,557;1168,540;1340,520;1512,558;1693,468;1795,470"
 # петля на нужную длину вместе с треком:
 ffmpeg -stream_loop -1 -i loop.mp4 -i track.wav -shortest -c:v copy -c:a aac -b:a 320k video.mp4
 ```
 
 Готовые обложки: `visuals/thumbs/`.
 
-**Позы по видео** (чередуем, чтобы ролики отличались, стиль один): видео 1 — сидит (медитация), видео 2 — лежит на спине (`base_chakra_body.webp`), видео 3 — спит на боку под цветной лентой из 7 цветов чакр (`base_side_sleep.jpg`, промпты `visuals/prompts/video-03-side-sleep.md`), видео 4 — лежит на животе, тема 396 Hz / отпустить страх, красный «корень»-свет (промпты `visuals/prompts/video-04-prone-396.md`, пакет `seo/video-04-396hz.md`), видео 5 — вид сверху, голова к зрителю, тема 963 Hz / коронная чакра (промпты `visuals/prompts/video-05-top-963.md`, пакет `seo/video-05-963hz.md`). Nano Banana любит рисовать лишние чакры — всегда пересчитывать: ровно 7.
+**Позы по видео** (чередуем, чтобы ролики отличались, стиль один): видео 1 — сидит (медитация), видео 2 — лежит на спине (`base_chakra_body.webp`), видео 3 — спит на боку под цветной лентой из 7 цветов чакр (`base_side_sleep.jpg`, промпты `visuals/prompts/video-03-side-sleep.md`), видео 4 — лежит на животе, тема 396 Hz / отпустить страх, красный «корень»-свет (промпты `visuals/prompts/video-04-prone-396.md`, пакет `seo/video-04-396hz.md`), видео 5 — лежит на спине по центру в фиолетовой гамме, луч от коронной чакры, тема 963 Hz (вид сверху «головой к зрителю» пробовали — фигура выглядит перевёрнутой, не использовать; картинка `base_back_963.jpg` — у Nano Banana было 6 чакр, индиго и коронная дорисованы кодом; промпты `visuals/prompts/video-05-top-963.md`, пакет `seo/video-05-963hz.md`). Nano Banana любит рисовать лишние чакры — всегда пересчитывать: ровно 7.
 
 **Сборка готового видео без CapCut (`tools/make_video.py` / `tools/make_video.ps1`) — основной путь с видео 5.**
 Петля перекодируется один раз, интро (2 круга петли = 16 с) — с оверлеем, остальные 3 часа склеиваются без перекодирования
