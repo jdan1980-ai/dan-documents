@@ -161,3 +161,13 @@ stillwave, ronin, samurai zen music, japanese zen music, samurai meditation musi
 ```
 🌀 浪人 RONIN — a samurai with no master, only the work in front of him and the breath that carries it. 🍃 What are you working on today, alone and without distractions? Subscribe for more Japanese zen focus sessions every week 🌿
 ```
+
+## §12 — Content ID claim on the published video (2026-11-14)
+
+Claimant: Timberton Records. Six matched segments: 0:14:29–0:14:43, 0:31:33–0:31:48, 1:22:50–1:23:01, 1:39:49–1:40:03, 1:43:01–1:43:11, 1:56:51–1:57:31.
+
+Mapped onto the 17:04.4 cycle, five of the six land on the **same spot of track `1605189`** (its own ~0:32–0:51; cycle position ~14:25–14:45). The sixth lands on `1605188` at its own ~0:55–1:05 — the sister track from the same Musicful request (chroma similarity 1.00 with 1605189). So the match is one musical phrase, repeated in every cycle; Content ID listed only some of the repeats.
+
+The one-cycle check had come back clean, so a check on one cycle is **not** a guarantee: the final upload can still be claimed. Fix chosen: trim the claimed segments in Studio (ambient, gaps are inaudible). **Do not reuse 1605189 or 1605188** in any future album.
+
+**🇺🇦 RU:** Заявка Timberton Records. Пять из шести совпадений — одно и то же место трека 1605189 (около 0:32–0:51), шестое — трек 1605188 из того же запроса. Это одна музыкальная фраза, повторяющаяся в каждом круге. Проверка одного круга была чистой, значит она не гарантирует, что заявки не будет на финальном видео. Решение — обрезать фрагменты в Studio. Эти два трека больше не использовать.
