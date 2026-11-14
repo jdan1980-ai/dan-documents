@@ -7,7 +7,10 @@
   4. лёгкая виньетка: взгляд к центру, края (кисти рук внизу) в тени;
   5. (необязательно, --ribbon) цветная лента над телом колышется бегущей волной и переливается;
   6. (необязательно, --roots) светящиеся «корни» под корневой чакрой: по ним вниз бегут импульсы света
-     («страх стекает в землю»), корни мягко «дышат» и чуть покачиваются кончиками.
+     («страх стекает в землю»), корни мягко «дышат» и чуть покачиваются кончиками;
+  7. (необязательно, --galaxy) галактика медленно поворачивается туда-обратно (ядро сильнее, край неподвижен) и «дышит»;
+  8. (необязательно, --focus N, --beam) главная чакра темы ярче всех и мягко «дышит» на месте, луч над ней светлеет и гаснет;
+     --star-lum ниже 0.62 — мерцает больше звёзд.
 
 Нужны Python 3 с numpy и Pillow и ffmpeg в PATH.
 Запуск:
@@ -59,6 +62,11 @@ def main():
     ap.add_argument('--no-autocrop', action='store_true')
     ap.add_argument('--seed', type=int, default=7)
     ap.add_argument('--ribbon', help='нижняя граница ленты: "x,y;x,y;..." в пикселях исходной картинки')
+    ap.add_argument('--star-lum', type=float, default=0.62, help='порог яркости звезды (меньше — мерцает больше звёзд)')
+    ap.add_argument('--galaxy', help='галактика: "x,y,a,b,угол" — центр, полуоси эллипса (пиксели исходной картинки) и наклон, градусы')
+    ap.add_argument('--galaxy-deg', type=float, default=2.5, help='амплитуда поворота ядра галактики, градусы')
+    ap.add_argument('--focus', type=int, default=0, help='номер главной чакры темы (1 корневая … 7 коронная)')
+    ap.add_argument('--beam', help='луч над главной чакрой: "x0,y0,x1,y1" в пикселях исходной картинки')
     ap.add_argument('--roots', help='прямоугольник с корнями под корневой чакрой: "x0,y0,x1,y1" в пикселях исходной картинки')
     ap.add_argument('--ribbon-amp', type=float, default=9, help='размах колыхания ленты, px при 1920x1080')
     args = ap.parse_args()
@@ -100,7 +108,7 @@ def main():
 
     # 3. Звёзды: яркие ненасыщенные точки фона, разбитые на группы с разной фазой мерцания
     lum = base.mean(2); sat = base.max(2) - base.min(2)
-    loc = lum > 0.62
+    loc = lum > args.star_lum
     loc &= sat < 0.25
     from numpy.lib.stride_tricks import sliding_window_view
     pad = np.pad(lum, 2, mode='edge')
@@ -166,6 +174,37 @@ def main():
         rlam = 110 * s
         rtip = np.clip(rd / (200 * s), 0, 1)                                      # кончики качаются сильнее
 
+    # 7. Галактика: дифференциальный поворот (угол убывает к краю до нуля — шва нет)
+    gal = None
+    if args.galaxy:
+        gx, gy, ga, gb, gdeg = [float(v) for v in args.galaxy.split(',')]
+        gcx, gcy = (gx - crop_off[0] - off[0]) * sx, (gy - crop_off[1] - off[1]) * sy
+        ga, gb = ga * s, gb * s
+        gR = ga
+        GX0, GX1 = int(max(0, gcx - gR)), int(min(w, gcx + gR))
+        GY0, GY1 = int(max(0, gcy - gR)), int(min(h, gcy + gR))
+        gdx = xx[GY0:GY1, GX0:GX1] - gcx
+        gdy = yy[GY0:GY1, GX0:GX1] - gcy
+        grr = np.sqrt(gdx ** 2 + gdy ** 2)
+        gth = np.arctan2(gdy, gdx)
+        c, sn = np.cos(np.deg2rad(gdeg)), np.sin(np.deg2rad(gdeg))
+        u, v = (gdx * c + gdy * sn) / ga, (-gdx * sn + gdy * c) / gb          # эллиптические координаты
+        er = np.sqrt(u ** 2 + v ** 2)
+        gfall = np.clip(1 - er ** 2, 0, 1) ** 2                                # 1 в ядре → 0 на краю эллипса
+        gcore = np.exp(-(er / 0.2) ** 2)[..., None]
+        gal = True
+    # 8. Луч над главной чакрой
+    beam = None
+    if args.beam:
+        q = [float(v) for v in args.beam.split(',')]
+        BX0, BX1 = [int(np.clip((v - crop_off[0] - off[0]) * sx, 0, w)) for v in (q[0], q[2])]
+        BY0, BY1 = [int(np.clip((v - crop_off[1] - off[1]) * sy, 0, h)) for v in (q[1], q[3])]
+        reg = base[BY0:BY1, BX0:BX1]
+        bgv = np.percentile(reg, 30, axis=(0, 1))
+        bh, bw = reg.shape[:2]
+        win = (np.sin(np.pi * (np.arange(bh) + 0.5) / bh) ** 2)[:, None] * (np.sin(np.pi * (np.arange(bw) + 0.5) / bw) ** 2)[None, :]
+        beam = (np.clip(reg - bgv, 0, 1) * win[..., None]).astype(np.float32)   # мягкие края, без прямоугольника
+
     n = int(round(args.seconds * args.fps))
     # Сама анимация бесшовная (без сжатия шов = обычной разнице соседних кадров). После сжатия на шве
     # остаётся скачок ~1 уровень яркости из 255 (опорный кадр против предсказанного) — на глаз не виден;
@@ -182,6 +221,8 @@ def main():
             # Волна поднимается от корневой чакры к макушке за одну петлю
             p = 0.5 + 0.5 * np.cos(2 * np.pi * (ph - k / 7))
             amp = 0.18 + 0.82 * p ** 3
+            if args.focus and k == args.focus - 1:      # главная чакра: ярче и дышит медленно, на месте
+                amp = 1.1 + 0.6 * (0.5 + 0.5 * np.cos(2 * np.pi * ph))
             light += g[..., None] * (COLORS[k] * amp).astype(np.float32)
         # Кольца: два круга волн уходят наружу за петлю
         rings = np.maximum(0, np.cos(2 * np.pi * (r / lam - 2 * ph))) ** 10 * ring_fade * 0.10
@@ -203,6 +244,23 @@ def main():
             fb[ytop:ybot] = np.clip(fb[ytop:ybot] - rib + moved * shimmer[None, :, None], 0, 1)
         else:
             fb = base32
+        if gal is not None:
+            ang = np.deg2rad(args.galaxy_deg) * np.sin(2 * np.pi * ph) * gfall
+            sxp = gcx + grr * np.cos(gth - ang) - GX0
+            syp = gcy + grr * np.sin(gth - ang) - GY0
+            x0 = np.clip(np.floor(sxp).astype(np.int32), 0, GX1 - GX0 - 2); y0 = np.clip(np.floor(syp).astype(np.int32), 0, GY1 - GY0 - 2)
+            fx = np.clip(sxp - x0, 0, 1)[..., None]; fy = np.clip(syp - y0, 0, 1)[..., None]
+            src = base32[GY0:GY1, GX0:GX1]
+            rot = (src[y0, x0] * (1 - fx) * (1 - fy) + src[y0, x0 + 1] * fx * (1 - fy) +
+                   src[y0 + 1, x0] * (1 - fx) * fy + src[y0 + 1, x0 + 1] * fx * fy)
+            rot = rot * (1 + 0.18 * np.sin(2 * np.pi * ph + 1.0) * gcore)
+            if fb is base32:
+                fb = base32.copy()
+            fb[GY0:GY1, GX0:GX1] = np.clip(rot, 0, 1)
+        if beam is not None:
+            if fb is base32:
+                fb = base32.copy()
+            fb[BY0:BY1, BX0:BX1] = np.clip(fb[BY0:BY1, BX0:BX1] + beam * (0.45 * np.cos(2 * np.pi * ph)), 0, 1)
         if roots is not None:
             sway = 1.5 * s * np.sin(2 * np.pi * (yy[Y0:Y1, X0:X1] / (300 * s) - ph)) * rtip
             src = rxl - sway

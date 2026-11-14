@@ -258,7 +258,7 @@ python tools/make_thumb.py --image visuals/base_prone_396.jpg --hz "396 HZ" --su
 python tools/make_loop.py --image visuals/base_prone_396.jpg --out loop_prone_396.mp4 --chakras "695,464;774,442;872,414;953,384;1042,364;1125,324;1188,301" --roots "590,470,840,700"
 # видео 5 (на спине по центру, 963 Hz, visuals/base_back_963.jpg)
 python tools/make_thumb.py --image visuals/base_back_963.jpg --hz "963 HZ" --sub "SPIRITUAL AWAKENING" --out visuals/thumbs/thumb_963_awakening.jpg
-python tools/make_loop.py --image visuals/base_back_963.jpg --out loop_963.mp4 --chakras "948,578;1052,557;1168,540;1340,520;1512,558;1693,468;1795,470"
+python tools/make_loop.py --image visuals/base_back_963.jpg --out loop_963.mp4 --chakras "948,578;1052,557;1168,540;1340,520;1512,558;1693,468;1795,470" --star-lum 0.35 --galaxy "735,385,390,140,-22" --focus 7 --beam "1630,80,1830,450"
 # петля на нужную длину вместе с треком:
 ffmpeg -stream_loop -1 -i loop.mp4 -i track.wav -shortest -c:v copy -c:a aac -b:a 320k video.mp4
 ```
