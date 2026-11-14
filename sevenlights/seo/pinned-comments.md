@@ -30,6 +30,12 @@
 🔴 What would you like to let go of tonight? Write one word below, and leave it here. Then tell us where you are listening from. If this helped you rest, a like and a subscribe help us bring you more nights like this. Sweet dreams ✨
 ```
 
+## 5. 963 Hz Spiritual Awakening (`video-05-963hz.md`, дата TBD)
+
+```
+🟣 What did you feel or dream tonight with 963 Hz? Share it below, and tell us where you are listening from. If this helped you rest, a like and a subscribe help us bring you more nights like this. Sweet dreams ✨
+```
+
 ## План: 432 Hz Deep Healing Sleep (`plan-432hz.md`, ещё не выпущено)
 
 ```

@@ -195,6 +195,11 @@ python tools/musicful_album.py --prompt-file prompt.txt --requests 3 --out album
 python tools/musicful_album.py --balance
 ```
 
+### Проверка альбома (`tools/album_check.py`)
+Строй, тональность, бас < 60 Гц, RMS, сходство треков внутри альбома и с прошлыми альбомами (копия ≈ 0.95+),
+порядок по кругу квинт. `python tools/album_check.py album5/*.mp3 --compare album4/*.mp3 --order`.
+Треки Musicful можно скачать заново по id: `musicful_album.py --ids ... --out dir` (бесплатно) — временная папка облака чистится.
+
 ### ПРАВИЛО: сначала проверка одного круга на авторские права (обязательно)
 
 Перед сборкой многочасового файла и перед публикацией **всегда** проверяем один круг склейки через YouTube Content ID.
@@ -243,7 +248,7 @@ ffmpeg -stream_loop -1 -i loop.mp4 -i track.wav -shortest -c:v copy -c:a aac -b:
 
 Готовые обложки: `visuals/thumbs/`.
 
-**Позы по видео** (чередуем, чтобы ролики отличались, стиль один): видео 1 — сидит (медитация), видео 2 — лежит на спине (`base_chakra_body.webp`), видео 3 — спит на боку под цветной лентой из 7 цветов чакр (`base_side_sleep.jpg`, промпты `visuals/prompts/video-03-side-sleep.md`), видео 4 — лежит на животе, тема 396 Hz / отпустить страх, красный «корень»-свет (промпты `visuals/prompts/video-04-prone-396.md`, пакет `seo/video-04-396hz.md`). Nano Banana любит рисовать лишние чакры — всегда пересчитывать: ровно 7.
+**Позы по видео** (чередуем, чтобы ролики отличались, стиль один): видео 1 — сидит (медитация), видео 2 — лежит на спине (`base_chakra_body.webp`), видео 3 — спит на боку под цветной лентой из 7 цветов чакр (`base_side_sleep.jpg`, промпты `visuals/prompts/video-03-side-sleep.md`), видео 4 — лежит на животе, тема 396 Hz / отпустить страх, красный «корень»-свет (промпты `visuals/prompts/video-04-prone-396.md`, пакет `seo/video-04-396hz.md`), видео 5 — вид сверху, голова к зрителю, тема 963 Hz / коронная чакра (промпты `visuals/prompts/video-05-top-963.md`, пакет `seo/video-05-963hz.md`). Nano Banana любит рисовать лишние чакры — всегда пересчитывать: ровно 7.
 
 **Оверлей в начале видео** (`tools/make_overlay.py`). Основной (выбран): `visuals/overlays/overlay_intro_welcome.png` — «Welcome to Seven Lights» + «Thank you for listening. May tonight bring you deep, peaceful sleep» + «If this music helps you, please subscribe» с колокольчиком; шрифт уменьшен, чтобы не было нагромождения. Запасной: `overlay_intro_thank_you.png`. Левый верхний угол, стиль обложек. Появляется на 0:02 за 1.5 с, исчезает к 0:11.
 Видео целиком за один проход (петля видео + 3-часовой звук + оверлей; видео перекодируется, петля любого размера масштабируется до 1080p):
