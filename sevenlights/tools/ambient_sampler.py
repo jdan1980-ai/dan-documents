@@ -32,6 +32,15 @@ CHORDS_COSMIC = [
     (33, [45, 52, 55, 60, 64]),   # Am7:   A2 E3 G3 C4 E4
 ]
 PENTA_COSMIC = [57, 60, 62, 65, 67, 69, 72, 74, 77]  # ре-минорная пентатоника, ниже
+# «drone» (по эталону «Элан Космическая Музыка», 14.11.2026): ля минор, аккорды по 18 с, сплошной тёплый пэд,
+# низкий органный/контрабасовый бурдон «ля» под всем, колокольчики-искры, огромный зал, широкое «кружащее» стерео, без мелодии
+CHORDS_DRONE = [
+    (33, [45, 52, 55, 59, 60, 64]),   # Am9:   A2 E3 G3 B3 C4 E4
+    (29, [45, 53, 57, 60, 64, 67]),   # Fmaj9: A2 F3 A3 C4 E4 G4
+    (36, [48, 52, 55, 59, 64, 67]),   # Cmaj7: C3 E3 G3 B3 E4 G4
+    (31, [47, 50, 55, 59, 62, 64]),   # Em7/G: B2 D3 G3 B3 D4 E4
+]
+PENTA_DRONE = [69, 72, 74, 76, 79, 81, 84, 86, 88]  # ля-минорная пентатоника, высоко — для колокольчиков
 
 
 def load(path):
@@ -155,7 +164,7 @@ def main():
     ap.add_argument('--seed', type=int, default=11)
     ap.add_argument('--piano-gain', type=float, default=0.55)
     ap.add_argument('--pad-gain', type=float, default=1.0)
-    ap.add_argument('--preset', choices=['warm', 'cosmic'], default='warm',
+    ap.add_argument('--preset', choices=['warm', 'cosmic', 'drone'], default='warm',
                     help='warm — до мажор, светлый; cosmic — ре минор, темнее, контрабас, орган, колокольчики, гонг, шиммер, мелодия-мотивы')
     ap.add_argument('--organ-gain', type=float, default=1.0)
     ap.add_argument('--bells-gain', type=float, default=1.0)
@@ -177,8 +186,9 @@ def main():
     pmap = {f: chart[int(os.path.basename(f)[-7:-4])] for f in pf if int(os.path.basename(f)[-7:-4]) in chart}
     piano = Instrument([f for f in pf if f in pmap and 48 <= pmap[f] <= 88], keymap=pmap)
     harp = named(f'{L}/Strings/Harp/*.wav')
-    cosmic = a.preset == 'cosmic'
-    chords, penta = (CHORDS_COSMIC, PENTA_COSMIC) if cosmic else (CHORDS, PENTA)
+    drone = a.preset == 'drone'
+    cosmic = a.preset in ('cosmic', 'drone')
+    chords, penta = ((CHORDS_DRONE, PENTA_DRONE) if drone else (CHORDS_COSMIC, PENTA_COSMIC)) if cosmic else (CHORDS, PENTA)
     if cosmic:
         cbass = named(f'{L}/Strings/Solo Contrabass/SusVib/*.wav')
         of = glob.glob(f'{L}/Keys/Organ/Quiet/NT5_Man3Quiet_*_rr1.wav')
@@ -193,18 +203,27 @@ def main():
     total = int((a.seconds + 10) * SR)
     pads = np.zeros((total, 2)); keys = np.zeros((total, 2))
 
-    def add(buf, y, t, g):
+    def add(buf, y, t, g, swirl=False):
         i = int(t * SR); j = min(len(buf), i + len(y))
         if j > i:
-            buf[i:j] += y[:j - i] * g
+            y = y[:j - i] * g
+            if swirl:   # медленное «кружение» по панораме: свой период 20–40 с у каждого голоса
+                per = rng.uniform(20, 40); ph0 = rng.uniform(0, 2 * np.pi)
+                tt = (np.arange(len(y)) / SR + t)
+                pan = 0.55 * np.sin(2 * np.pi * tt / per + ph0)
+                y = y * np.stack([np.sqrt(0.5 * (1 - pan)), np.sqrt(0.5 * (1 + pan))], 1) * np.sqrt(2)
+            buf[i:j] += y
 
-    chord_len = 20.0 if cosmic else 16.0
+    chord_len = 18.0 if drone else (20.0 if cosmic else 16.0)
+    if drone:   # бурдон «ля» под всей пьесой: контрабас A1 + орган A2, непрерывно
+        add(pads, cbass.render(33, a.seconds + 6, attack=8, release=6, loop=True), 0, 0.34)
+        add(pads, organ.render(45, a.seconds + 6, attack=8, release=6, loop=True), 0, 0.12 * a.organ_gain)
     t = 0.0; k = 0
     while t < a.seconds:
         bass, notes = chords[k % len(chords)]
         dur = chord_len + 3
         add(pads, cello.render(bass + 12, dur, attack=3.5, release=4, loop=True), t, 0.32)
-        if cosmic:
+        if cosmic and not drone:
             add(pads, cbass.render(bass, dur, attack=5, release=5, loop=True), t, 0.30)          # глубокий низ
             for iv, g in ((12, 0.10), (19, 0.07), (24, 0.06)):                                   # тихий орган: основа, квинта, октава
                 add(pads, organ.render(bass + iv, dur, attack=6, release=6, loop=True), t + 0.5, g * a.organ_gain)
@@ -214,12 +233,13 @@ def main():
                 add(keys, g, max(0, t - 6.5), 0.22)
         for n in notes:
             inst = viola if n < 60 else violin
-            if cosmic and n >= 62 and rng.random() < 0.4:      # темнее: верхние голоса реже
+            if cosmic and not drone and n >= 62 and rng.random() < 0.4:      # темнее: верхние голоса реже
                 continue
-            add(pads, inst.render(n, dur, attack=(6.0 if cosmic else 4.0) + rng.random(), release=5 if cosmic else 4, loop=True),
-                t + rng.random() * 0.8, 0.16)
+            add(pads, inst.render(n, dur, attack=(7.0 if drone else 6.0 if cosmic else 4.0) + rng.random(),
+                                  release=6 if drone else 5 if cosmic else 4, loop=True),
+                t + rng.random() * 0.8, 0.16, swirl=drone)
         # арфа: тихое арпеджио раз в аккорд
-        for j, n in enumerate(sorted(rng.choice(notes, 3, replace=False))):
+        for j, n in enumerate([] if drone else sorted(rng.choice(notes, 3, replace=False))):
             add(keys, harp.render(n + 12, 6, release=3), t + 2 + j * 0.45, 0.10)
         t += chord_len; k += 1
     if cosmic:
@@ -232,7 +252,7 @@ def main():
             return r, steps
         motifs = [motif(), motif()]
         t0 = 0.0; k = 0
-        while t0 < a.seconds:
+        while t0 < a.seconds and not drone:
             bass, notes = chords[k % len(chords)]
             r, steps = motifs[k % 2]
             if k % 8 in (6, 7):            # каждые 8 аккордов — пауза, мелодия «дышит»
@@ -264,8 +284,8 @@ def main():
             y = b[i] * (1 - f) + b[i + 1] * f
             pan = rng.uniform(-0.6, 0.6)
             y = y * np.array([1 - max(0, pan), 1 + min(0, pan)])
-            add(keys, y, t, 0.16 * a.bells_gain)
-            t += rng.uniform(12, 26)
+            add(keys, y, t, 0.16 * a.bells_gain, swirl=drone)
+            t += rng.uniform(6, 16) if drone else rng.uniform(12, 26)
     # пианино: редкие ноты пентатоники, мелодия ходит маленькими шагами
     t = 3.0 if not cosmic else a.seconds + 1; idx = 4
     while t < a.seconds:
@@ -274,7 +294,7 @@ def main():
         t += rng.uniform(4.0, 8.0) if cosmic else rng.uniform(3.0, 6.0)
 
     mix = pads * a.pad_gain + lowpass(keys, 2600 if cosmic else 3200)  # приглушённое «фетровое» пианино
-    mix = highpass(lowpass(mix, 4200 if cosmic else 7000), 40)
+    mix = highpass(lowpass(mix, 5200 if drone else 4200 if cosmic else 7000), 40)
     n_out = int(a.seconds * SR)
     if cosmic:
         # шиммер: октава вверх, только в реверберации — «свечение звёзд» над звуком
@@ -283,8 +303,8 @@ def main():
         i = pos.astype(int); f = (pos - i)[:, None]
         oct_up = np.zeros_like(mix); oct_up[:len(i)] = mix[i] * (1 - f) + mix[i + 1] * f
         oct_up = lowpass(highpass(oct_up, 600), 6000)
-        shimmer = reverb(oct_up, rt60=12.0, wet=1.0, seed=9)[:n_out] * 0.10
-        mix = reverb(mix, rt60=11.0, wet=0.55)[:n_out] + shimmer[:n_out]
+        shimmer = reverb(oct_up, rt60=14.0 if drone else 12.0, wet=1.0, seed=9)[:n_out] * (0.15 if drone else 0.10)
+        mix = reverb(mix, rt60=14.0 if drone else 11.0, wet=0.7 if drone else 0.55)[:n_out] + shimmer[:n_out]
     else:
         mix = reverb(mix, rt60=7.0, wet=0.45)[:n_out]
     fade = int(6 * SR)
