@@ -265,6 +265,7 @@ def master(mix):
     mix = np.fft.irfft(np.fft.rfft(mix, N, axis=0) * (10 ** (gdb / 20))[:, None], N, axis=0)[:n]
     M = (mix[:, 0] + mix[:, 1]) / 2; S = (mix[:, 0] - mix[:, 1]) / 2
     S = S + 0.26 * highpass(S[:, None], 300)[:, 0]
+    S *= min(1.0, np.sqrt(0.7 * np.mean(M ** 2) / (np.mean(S ** 2) + 1e-12)))   # не шире S/M ≈ −1.5 дБ: в моно (телефон) звук не пропадает
     mix = np.stack([M + S, M - S], 1)
     env = np.sqrt(movavg((mix ** 2).mean(1), int(0.5 * SR)) + 1e-12)
     thr = np.sqrt(np.mean(mix ** 2)) * 1.4
