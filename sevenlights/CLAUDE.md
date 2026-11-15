@@ -164,6 +164,24 @@ pwsh -File ..\make_long_track.ps1 -In "528 Hz Drift (4).mp3,Miracle Drift.mp3,Mi
 - Строй чужого трека почти всегда 440 Гц. Если в названии «432 Hz» или «528 Hz», проверьте `analyze_audio.ps1` (на минуте записи) и не обещайте в названии лишнего.
 - Итог WAV на 3 часа ≈ 1.9 ГБ. Для YouTube можно сразу `-Out long.flac` или `-Out long.mp3` (320 кбит/с).
 
+### Генератор на живых сэмплах (`tools/ambient_sampler.py`) — с 15.11.2026
+
+Старый синтезатор (`space_ambient_432.ps1`) пользователю не нравится по звуку («шляпа»). Новый собирает музыку из записей
+живых инструментов библиотеки **VSCO 2 Community Edition** (CC0, `git clone https://github.com/sgossner/vsco-2-ce`, ~5 ГБ):
+струнные ансамбли, соло контрабас, пианино, арфа, орган (тихие регистры), непальские колокольчики, гонг. Строй A = 432 Гц.
+Партитуру пишет наш код → заявок Content ID быть не должно. Ноты сэмплов — из имён файлов (нотация VSCO: C3 = MIDI 60),
+пианино — по MappingChart, орган — номер в имени минус 86. Пресеты:
+- `warm` — до мажор, светлый (первое демо);
+- `cosmic` — ре минор, контрабас, орган, гонг задом наперёд, шиммер, зал 11 с, мелодия-мотивы (A/B) у пианино, колокольчики;
+- `drone` — по эталону «Элан Космическая Музыка» (analysis/references.md, эталон 4): ля минор, сплошной пэд, бурдон,
+  колокольчики-искры, кружение по панораме, зал 14 с, без мелодии.
+`--midi out.mid` — партитура в MIDI (`tools/midi_write.py`, без зависимостей): дорожки Contrabass, Cello, Strings, Organ,
+Piano, Harp, Bells, FX; темп 60 (1 доля = 1 с). В DAW поставить настройку A = 432 Гц (MIDI-ноты стандартные, 440).
+```bash
+python tools/ambient_sampler.py --preset drone --seconds 180 --seed 5 --out v_drone.wav --midi v_drone.mid
+python tools/ambient_sampler.py --preset cosmic --seed 37 --piano-gain 0.9 --organ-gain 0.6 --bells-gain 1.6 --pad-gain 0.8 --seconds 160 --out v_dreamy.wav --midi v_dreamy.mid
+```
+
 ### Склейка на Python (`tools/make_long_track.py`) — основной вариант в облаке
 
 Перенос режима Smart из `make_long_track.ps1` (те же параметры и отчёт), нужны только Python 3 + numpy + ffmpeg.

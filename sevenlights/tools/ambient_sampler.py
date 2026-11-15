@@ -167,6 +167,7 @@ def main():
     ap.add_argument('--preset', choices=['warm', 'cosmic', 'drone'], default='warm',
                     help='warm — до мажор, светлый; cosmic — ре минор, темнее, контрабас, орган, колокольчики, гонг, шиммер, мелодия-мотивы')
     ap.add_argument('--organ-gain', type=float, default=1.0)
+    ap.add_argument('--midi', help='сохранить партитуру в MIDI (темп 60: 1 доля = 1 с; в DAW поставить A = 432 Гц)')
     ap.add_argument('--bells-gain', type=float, default=1.0)
     a = ap.parse_args()
     rng = np.random.default_rng(a.seed)
@@ -203,6 +204,11 @@ def main():
     total = int((a.seconds + 10) * SR)
     pads = np.zeros((total, 2)); keys = np.zeros((total, 2))
 
+    ev = {}   # партитура для экспорта в MIDI: дорожка → [(нота, старт, длительность, velocity)]
+
+    def rec(track, m, t, d, g):
+        ev.setdefault(track, []).append((m, t, d, int(np.clip(40 + 220 * g, 1, 127))))
+
     def add(buf, y, t, g, swirl=False):
         i = int(t * SR); j = min(len(buf), i + len(y))
         if j > i:
@@ -218,29 +224,37 @@ def main():
     if drone:   # бурдон «ля» под всей пьесой: контрабас A1 + орган A2, непрерывно
         add(pads, cbass.render(33, a.seconds + 6, attack=8, release=6, loop=True), 0, 0.34)
         add(pads, organ.render(45, a.seconds + 6, attack=8, release=6, loop=True), 0, 0.12 * a.organ_gain)
+        rec('Contrabass', 33, 0, a.seconds, 0.34); rec('Organ', 45, 0, a.seconds, 0.12 * a.organ_gain)
     t = 0.0; k = 0
     while t < a.seconds:
         bass, notes = chords[k % len(chords)]
         dur = chord_len + 3
         add(pads, cello.render(bass + 12, dur, attack=3.5, release=4, loop=True), t, 0.32)
+        rec('Cello', bass + 12, t, dur, 0.32)
         if cosmic and not drone:
             add(pads, cbass.render(bass, dur, attack=5, release=5, loop=True), t, 0.30)          # глубокий низ
+            rec('Contrabass', bass, t, dur, 0.30)
             for iv, g in ((12, 0.10), (19, 0.07), (24, 0.06)):                                   # тихий орган: основа, квинта, октава
                 add(pads, organ.render(bass + iv, dur, attack=6, release=6, loop=True), t + 0.5, g * a.organ_gain)
+                rec('Organ', bass + iv, t + 0.5, dur, g * a.organ_gain)
             if k % 2 == 0:   # гонг задом наперёд: мягкое нарастание «вдоха» в смену аккорда
                 g = gong[::-1][-int(7 * SR):]
                 g = g * np.linspace(0, 1, len(g))[:, None] ** 2
                 add(keys, g, max(0, t - 6.5), 0.22)
+                rec('FX (reverse gong)', 38, max(0, t - 6.5), 7, 0.22)
         for n in notes:
             inst = viola if n < 60 else violin
             if cosmic and not drone and n >= 62 and rng.random() < 0.4:      # темнее: верхние голоса реже
                 continue
+            dt = rng.random() * 0.8
             add(pads, inst.render(n, dur, attack=(7.0 if drone else 6.0 if cosmic else 4.0) + rng.random(),
                                   release=6 if drone else 5 if cosmic else 4, loop=True),
-                t + rng.random() * 0.8, 0.16, swirl=drone)
+                t + dt, 0.16, swirl=drone)
+            rec('Strings', n, t + dt, dur, 0.16)
         # арфа: тихое арпеджио раз в аккорд
         for j, n in enumerate([] if drone else sorted(rng.choice(notes, 3, replace=False))):
             add(keys, harp.render(n + 12, 6, release=3), t + 2 + j * 0.45, 0.10)
+            rec('Harp', n + 12, t + 2 + j * 0.45, 3, 0.10)
         t += chord_len; k += 1
     if cosmic:
         # мелодия: два мотива (A и B) по 4–5 нот, A на 1-м и 3-м аккорде, B на 2-м и 4-м; каждый раз с небольшой вариацией.
@@ -271,6 +285,7 @@ def main():
                     cands = [n for n in [x + 12 for x in notes] + notes if 57 <= n <= 79]
                     note = min(cands, key=lambda n: abs(n - note)) if cands else note
                 add(keys, piano.render(note, d + 3, release=4), tt, a.piano_gain * (0.85 if j == 0 else 0.7))
+                rec('Piano', note, tt, d, a.piano_gain * (0.85 if j == 0 else 0.7))
                 tt += d
             t0 += chord_len; k += 1
         # тибетские (непальские) колокольчики: редкие удары, каждый подстроен к ближайшей ноте пентатоники
@@ -285,12 +300,15 @@ def main():
             pan = rng.uniform(-0.6, 0.6)
             y = y * np.array([1 - max(0, pan), 1 + min(0, pan)])
             add(keys, y, t, 0.16 * a.bells_gain, swirl=drone)
+            rec('Bells', target, t, 4, 0.16 * a.bells_gain)
             t += rng.uniform(6, 16) if drone else rng.uniform(12, 26)
     # пианино: редкие ноты пентатоники, мелодия ходит маленькими шагами
     t = 3.0 if not cosmic else a.seconds + 1; idx = 4
     while t < a.seconds:
         idx = int(np.clip(idx + rng.choice([-2, -1, 1, 2]), 0, len(penta) - 1))
-        add(keys, piano.render(penta[idx], 8, release=4), t, a.piano_gain * (0.7 + 0.3 * rng.random()))
+        gp = a.piano_gain * (0.7 + 0.3 * rng.random())
+        add(keys, piano.render(penta[idx], 8, release=4), t, gp)
+        rec('Piano', penta[idx], t, 4, gp)
         t += rng.uniform(4.0, 8.0) if cosmic else rng.uniform(3.0, 6.0)
 
     mix = pads * a.pad_gain + lowpass(keys, 2600 if cosmic else 3200)  # приглушённое «фетровое» пианино
@@ -315,6 +333,14 @@ def main():
     subprocess.run(['ffmpeg', '-y', '-v', 'error', '-f', 's16le', '-ar', str(SR), '-ac', '2', '-i', '-', a.out],
                    input=y.tobytes(), check=True)
     print(f'Готово: {a.out} ({a.seconds:.0f} с)')
+    if a.midi:
+        import sys
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from midi_write import write_midi
+        gm = {'Contrabass': 43, 'Cello': 42, 'Strings': 48, 'Organ': 19, 'Piano': 0, 'Harp': 46, 'Bells': 14,
+              'FX (reverse gong)': 99}
+        write_midi(a.midi, {k: (gm.get(k, 0), v) for k, v in ev.items()})
+        print(f'MIDI: {a.midi} — дорожки: ' + ', '.join(f'{k} ({len(v)})' for k, v in ev.items()))
 
 
 if __name__ == '__main__':
