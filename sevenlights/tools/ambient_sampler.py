@@ -93,9 +93,13 @@ class Instrument:
             x /= (np.abs(x).max() + 1e-9)
             self.samples.append((keymap[f] if keymap and f in keymap else est_midi(x), x))
         self.samples.sort(key=lambda t: t[0])
+        self.rng = None   # если задан — среди записей одной ноты (v1/v2/v3) выбирается случайная: звук живее
+
 
     def render(self, midi, dur, attack=0.02, release=1.5, loop=False):
-        m0, x = min(self.samples, key=lambda t: abs(t[0] - midi))
+        best = min(abs(t[0] - midi) for t in self.samples)
+        takes = [t for t in self.samples if abs(abs(t[0] - midi) - best) < 0.01]
+        m0, x = takes[self.rng.integers(len(takes))] if self.rng is not None else takes[0]
         ratio = 2 ** ((midi - m0) / 12) * (A4 / 440.0)      # перенос на нужную ноту + строй 432
         n_out = int((dur + release) * SR)
         if loop:   # длинная нота: склеиваем середину сэмпла с перекрытием, чтобы держать звук сколько нужно
@@ -156,6 +160,128 @@ def reverb(x, rt60=7.0, wet=0.5, seed=3):
     return dry * (1 - wet) + wetsig * wet * 1.6
 
 
+def _fftconv_size(n):
+    return 1 << int(np.ceil(np.log2(n)))
+
+
+def reverb_stereo(x, rt60=13.0, wet=0.7, seed=3, send=None):
+    """«Объёмный» зал: true-stereo (L и R отдельно + перекрёстные пути), ранние отражения 12–90 мс,
+    верх затухает быстрее низа, хвост медленно «плывёт» (две разные IR плавно смешиваются, период 37 с).
+    send — сигнал, который идёт ТОЛЬКО в зал (гранулы, шиммер)."""
+    rng = np.random.default_rng(seed)
+    L = int(rt60 * 1.15 * SR)
+    t = np.arange(L) / SR
+    def one_ir():
+        nz = rng.standard_normal(L)
+        ir = lowpass(nz[:, None], 1500)[:, 0] * np.exp(-6.91 * t / rt60) \
+            + highpass(nz[:, None], 1500)[:, 0] * np.exp(-6.91 * t / (rt60 * 0.5))
+        ir[:int(0.02 * SR)] = 0                          # предзадержка 20 мс
+        ir[:int(0.09 * SR)] *= np.linspace(0, 1, int(0.09 * SR)) ** 2 * 0.5
+        for _ in range(9):                               # ранние отражения: свои у каждого пути
+            d = int(rng.uniform(0.012, 0.09) * SR)
+            ir[d] += rng.uniform(0.3, 0.8) * rng.choice([-1, 1]) * np.sqrt((ir ** 2).sum() / SR) * 3
+        ir = lowpass(ir[:, None], 7000)[:, 0]
+        return ir / np.sqrt((ir ** 2).sum())
+    n = len(x) + L
+    N = _fftconv_size(n)
+    src = x if send is None else x + send[:len(x)]
+    XL, XR = np.fft.rfft(src[:, 0], N), np.fft.rfft(src[:, 1], N)
+    tt = np.arange(n) / SR
+    m = 0.5 + 0.5 * np.sin(2 * np.pi * tt / 37.0)
+    out = np.zeros((n, 2))
+    for w in (1 - m, m):                                  # две IR, плавно сменяют друг друга
+        hLL, hRR, hLR, hRL = (np.fft.rfft(one_ir(), N) for _ in range(4))
+        out[:, 0] += w * np.fft.irfft(XL * hLL + 0.35 * XR * hRL, N)[:n]
+        out[:, 1] += w * np.fft.irfft(XR * hRR + 0.35 * XL * hLR, N)[:n]
+    dry = np.zeros((n, 2)); dry[:len(x)] = x
+    return dry * (1 - wet) + out * wet * 1.6
+
+
+def synth_pad(notes, dur, rng, attack=6.0, release=6.0):
+    """Тёплый синт-пэд: на каждую ноту 3 голоса с расстройкой ±7–12 центов, разведены по панораме;
+    «фильтр» открывается за ~8 с и медленно дышит (LFO 0.05 Гц) — сделано аддитивно, без алиасинга."""
+    n = int((dur + release) * SR)
+    out = np.zeros((n, 2))
+    tt = np.arange(n) / SR
+    env = np.minimum(1, tt / attack) ** 2
+    rs = int(dur * SR); env[rs:] *= np.linspace(1, 0, n - rs)
+    ph = rng.uniform(0, 2 * np.pi)
+    fc = (250 + 1100 * (1 - np.exp(-tt / 8))) * (0.8 + 0.2 * np.sin(2 * np.pi * 0.05 * tt + ph))
+    for midi in notes:
+        for det, pan in ((-rng.uniform(7, 12), -0.7), (rng.uniform(-2, 2), 0.0), (rng.uniform(7, 12), 0.7)):
+            f0 = 440 * 2 ** ((midi - 69 + det / 100) / 12) * (A4 / 440.0)
+            K = int(min(3500, SR / 2 - 1000) // f0)
+            phi = 2 * np.pi * f0 * tt + rng.uniform(0, 2 * np.pi)
+            y = np.zeros(n)
+            for k in range(1, K + 1):
+                y += np.sin(k * phi) * np.exp(-k * f0 / fc) / k ** 1.2
+            y *= env
+            out[:, 0] += y * np.sqrt(0.5 * (1 - pan)); out[:, 1] += y * np.sqrt(0.5 * (1 + pan))
+    return out
+
+
+def chorus(x, rng):
+    """Хорус: на каждый канал — своя медленно «плавающая» задержка 15–25 мс."""
+    n = len(x); tt = np.arange(n) / SR
+    out = x.copy()
+    for c, (rate, ph) in enumerate(((0.13, 0.0), (0.17, 1.7))):
+        d = (0.020 + 0.005 * np.sin(2 * np.pi * rate * tt + ph + rng.uniform(0, 1))) * SR
+        pos = np.arange(n) - d
+        pos = np.clip(pos, 0, n - 2); i = pos.astype(int); f = pos - i
+        out[:, c] = 0.7 * x[:, c] + 0.5 * (x[i, 1 - c] * (1 - f) + x[i + 1, 1 - c] * f)
+    return out
+
+
+def grains(src, rng, seconds, rate=20.0):
+    """Гранулярное облако: короткие кусочки (80–300 мс) уже сыгранного звука, иногда на октаву выше,
+    случайная панорама. Идёт только в зал — даёт «мерцающий» объём."""
+    out = np.zeros_like(src)
+    t = 1.0
+    while t < seconds:
+        ln = int(rng.uniform(0.08, 0.3) * SR)
+        r = 2.0 if rng.random() < 0.3 else 1.0
+        s0 = int(max(0, t - rng.uniform(0.2, 3.0)) * SR)
+        idx = s0 + (np.arange(ln) * r).astype(int)
+        idx = idx[idx < len(src)]
+        g = src[idx].mean(1) * np.hanning(len(idx))
+        pan = rng.uniform(-0.9, 0.9)
+        i = int(t * SR); j = min(len(out), i + len(g))
+        out[i:j, 0] += g[:j - i] * np.sqrt(0.5 * (1 - pan)); out[i:j, 1] += g[:j - i] * np.sqrt(0.5 * (1 + pan))
+        t += rng.exponential(1 / rate)
+    return out
+
+
+def movavg(x, w):
+    c = np.cumsum(np.concatenate([[0], x]))
+    y = (c[w:] - c[:-w]) / w
+    return np.concatenate([np.full(w // 2, y[0]), y, np.full(len(x) - len(y) - w // 2, y[-1])])
+
+
+def master(mix):
+    """Мастер: тёплый наклон EQ, мягкая компрессия, M/S-расширение (сторона +2 дБ выше 300 Гц), лёгкое насыщение."""
+    n = len(mix); N = _fftconv_size(n)
+    fr = np.fft.rfftfreq(N, 1 / SR)
+    gdb = 1.5 / (1 + (fr / 200) ** 2) - 2.0 * (fr / 5000) ** 2 / (1 + (fr / 5000) ** 2)
+    mix = np.fft.irfft(np.fft.rfft(mix, N, axis=0) * (10 ** (gdb / 20))[:, None], N, axis=0)[:n]
+    M = (mix[:, 0] + mix[:, 1]) / 2; S = (mix[:, 0] - mix[:, 1]) / 2
+    S = S + 0.26 * highpass(S[:, None], 300)[:, 0]
+    mix = np.stack([M + S, M - S], 1)
+    env = np.sqrt(movavg((mix ** 2).mean(1), int(0.5 * SR)) + 1e-12)
+    thr = np.sqrt(np.mean(mix ** 2)) * 1.4
+    gain = np.where(env > thr, (env / thr) ** (1 / 2.0 - 1), 1.0)       # 2:1 выше порога
+    mix *= movavg(gain, int(1.0 * SR))[:, None]
+    mix *= 0.12 / (np.sqrt(np.mean(mix ** 2)) + 1e-9)
+    return np.tanh(mix / 0.6) * 0.6
+
+
+def loudness(path):
+    r = subprocess.run(['ffmpeg', '-nostats', '-i', path, '-af', 'ebur128=peak=true', '-f', 'null', '-'],
+                       capture_output=True, text=True).stderr
+    import re
+    I = float(re.findall(r'I:\s+(-?[\d.]+) LUFS', r)[-1]); tp = float(re.findall(r'Peak:\s+(-?[\d.]+) dBFS', r)[-1])
+    return I, tp
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--lib', default='/home/user/sgossner/vsco-2-ce')
@@ -169,15 +295,24 @@ def main():
     ap.add_argument('--organ-gain', type=float, default=1.0)
     ap.add_argument('--midi', help='сохранить партитуру в MIDI (темп 60: 1 доля = 1 с; в DAW поставить A = 432 Гц)')
     ap.add_argument('--bells-gain', type=float, default=1.0)
+    ap.add_argument('--depth', action='store_true',
+                    help='«объём»: стерео-зал с отражениями, синт-пэд с хорусом, гранулярное облако, живые дубли, мастеринг до −16 LUFS')
+    ap.add_argument('--synth-gain', type=float, default=0.55, help='синт-пэд относительно струнных (с --depth)')
+    ap.add_argument('--grain-gain', type=float, default=0.4, help='гранулярное облако (с --depth)')
     a = ap.parse_args()
     rng = np.random.default_rng(a.seed)
+    rng2 = np.random.default_rng(a.seed + 1000)   # всё случайное для --depth: партитура та же, что без него
     L = a.lib
     def named(pat):
         fs = glob.glob(pat)
         return Instrument(fs, keymap={f: name_midi(f) for f in fs if name_midi(f) is not None})
-    cello = named(f'{L}/Strings/Cello Section/susvib/*v1*.wav')
-    viola = named(f'{L}/Strings/Viola Section/susvib/*v1*.wav')
-    violin = named(f'{L}/Strings/Violin Section/susVib/*v1.wav')
+    vv = '*' if a.depth else '*v1'
+    cello = named(f'{L}/Strings/Cello Section/susvib/{vv}*.wav')
+    viola = named(f'{L}/Strings/Viola Section/susvib/{vv}*.wav')
+    violin = named(f'{L}/Strings/Violin Section/susVib/{vv}.wav')
+    if a.depth:
+        for ins in (cello, viola, violin):
+            ins.rng = rng2
     pf = sorted(glob.glob(f'{L}/Keys/Upright Piano/Player_dyn1_rr1_*.wav'))
     chart = {}
     for line in open(f'{L}/Keys/Upright Piano/MappingChart.txt'):
@@ -202,7 +337,7 @@ def main():
         gong = gong / (np.abs(gong).max() + 1e-9)
 
     total = int((a.seconds + 10) * SR)
-    pads = np.zeros((total, 2)); keys = np.zeros((total, 2))
+    pads = np.zeros((total, 2)); keys = np.zeros((total, 2)); syn = np.zeros((total, 2))
 
     ev = {}   # партитура для экспорта в MIDI: дорожка → [(нота, старт, длительность, velocity)]
 
@@ -213,6 +348,9 @@ def main():
         i = int(t * SR); j = min(len(buf), i + len(y))
         if j > i:
             y = y[:j - i] * g
+            if a.depth and buf is pads:   # живость: ±2 дБ и медленная волна громкости у каждого голоса
+                tt = np.arange(len(y)) / SR
+                y = y * 10 ** (rng2.uniform(-2, 2) / 20) * (1 + 0.18 * np.sin(2 * np.pi * tt / rng2.uniform(9, 17) + rng2.uniform(0, 6.3)))[:, None]
             if swirl:   # медленное «кружение» по панораме: свой период 20–40 с у каждого голоса
                 per = rng.uniform(20, 40); ph0 = rng.uniform(0, 2 * np.pi)
                 tt = (np.arange(len(y)) / SR + t)
@@ -231,6 +369,9 @@ def main():
         dur = chord_len + 3
         add(pads, cello.render(bass + 12, dur, attack=3.5, release=4, loop=True), t, 0.32)
         rec('Cello', bass + 12, t, dur, 0.32)
+        if a.depth:
+            add(syn, synth_pad(sorted(notes)[:4] if cosmic else notes[:4], dur, rng2,
+                               attack=7.0 if cosmic else 5.0, release=6.0 if cosmic else 4.0), t, 1.0)
         if cosmic and not drone:
             add(pads, cbass.render(bass, dur, attack=5, release=5, loop=True), t, 0.30)          # глубокий низ
             rec('Contrabass', bass, t, dur, 0.30)
@@ -311,6 +452,10 @@ def main():
         rec('Piano', penta[idx], t, 4, gp)
         t += rng.uniform(4.0, 8.0) if cosmic else rng.uniform(3.0, 6.0)
 
+    if a.depth:
+        rp = np.sqrt(np.mean(pads ** 2)) + 1e-12
+        syn = chorus(syn, rng2)
+        pads = pads + syn * (a.synth_gain * rp / (np.sqrt(np.mean(syn ** 2)) + 1e-12))
     mix = pads * a.pad_gain + lowpass(keys, 2600 if cosmic else 3200)  # приглушённое «фетровое» пианино
     mix = highpass(lowpass(mix, 5200 if drone else 4200 if cosmic else 7000), 40)
     n_out = int(a.seconds * SR)
@@ -321,17 +466,37 @@ def main():
         i = pos.astype(int); f = (pos - i)[:, None]
         oct_up = np.zeros_like(mix); oct_up[:len(i)] = mix[i] * (1 - f) + mix[i + 1] * f
         oct_up = lowpass(highpass(oct_up, 600), 6000)
-        shimmer = reverb(oct_up, rt60=14.0 if drone else 12.0, wet=1.0, seed=9)[:n_out] * (0.15 if drone else 0.10)
-        mix = reverb(mix, rt60=14.0 if drone else 11.0, wet=0.7 if drone else 0.55)[:n_out] + shimmer[:n_out]
+        if a.depth:
+            wet = 0.7 if drone else 0.55
+            gr = grains(mix, rng2, a.seconds)
+            gr *= a.grain_gain * np.sqrt(np.mean(mix ** 2)) / (np.sqrt(np.mean(gr ** 2)) + 1e-12)
+            send = gr + oct_up * ((0.15 if drone else 0.10) / wet)
+            mix = reverb_stereo(mix, rt60=14.0 if drone else 12.0, wet=wet, send=send)[:n_out]
+        else:
+            shimmer = reverb(oct_up, rt60=14.0 if drone else 12.0, wet=1.0, seed=9)[:n_out] * (0.15 if drone else 0.10)
+            mix = reverb(mix, rt60=14.0 if drone else 11.0, wet=0.7 if drone else 0.55)[:n_out] + shimmer[:n_out]
+    elif a.depth:
+        mix = reverb_stereo(mix, rt60=8.0, wet=0.45, send=grains(mix, rng2, a.seconds) * a.grain_gain)[:n_out]
     else:
         mix = reverb(mix, rt60=7.0, wet=0.45)[:n_out]
     fade = int(6 * SR)
     mix[:fade] *= np.linspace(0, 1, fade)[:, None]; mix[-fade:] *= np.linspace(1, 0, fade)[:, None]
-    mix *= 0.12 / (np.sqrt(np.mean(mix ** 2)) + 1e-9)                   # громкость ≈ −16 LUFS
-    mix = np.tanh(mix / 0.7) * 0.7                                    # мягкий лимитер, пик ≤ −3 дБ
-    y = (np.clip(mix, -1, 1) * 32767).astype(np.int16)
-    subprocess.run(['ffmpeg', '-y', '-v', 'error', '-f', 's16le', '-ar', str(SR), '-ac', '2', '-i', '-', a.out],
-                   input=y.tobytes(), check=True)
+    if a.depth:
+        mix = master(mix)
+    else:
+        mix *= 0.12 / (np.sqrt(np.mean(mix ** 2)) + 1e-9)                   # громкость ≈ −16 LUFS
+        mix = np.tanh(mix / 0.7) * 0.7                                    # мягкий лимитер, пик ≤ −3 дБ
+    def write(m):
+        y = (np.clip(m, -1, 1) * 32767).astype(np.int16)
+        subprocess.run(['ffmpeg', '-y', '-v', 'error', '-f', 's16le', '-ar', str(SR), '-ac', '2', '-i', '-', a.out],
+                       input=y.tobytes(), check=True)
+    write(mix)
+    if a.depth:   # точная громкость: −16 LUFS, истинный пик не выше −1 дБ
+        I, tp = loudness(a.out)
+        g = min(-16 - I, -1 - tp)
+        write(mix * 10 ** (g / 20))
+        I, tp = loudness(a.out)
+        print(f'Громкость: {I:.1f} LUFS, пик {tp:.1f} дБ')
     print(f'Готово: {a.out} ({a.seconds:.0f} с)')
     if a.midi:
         import sys
