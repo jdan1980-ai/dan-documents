@@ -24,6 +24,14 @@ CHORDS = [
     (43, [55, 59, 62, 64, 67]),   # G6: G3 B3 D4 E4 G4
 ]
 PENTA = [60, 62, 64, 67, 69, 72, 74, 76, 79, 81]   # до-мажорная пентатоника для пианино
+# «cosmic»: ре минор, как у эталона Celestial: Dm9 → B♭maj7 → Cadd9 → Am7, ниже и темнее
+CHORDS_COSMIC = [
+    (38, [50, 53, 57, 60, 64]),   # Dm9:   D3 F3 A3 C4 E4
+    (34, [46, 50, 53, 57, 60]),   # B♭maj7: B♭2 D3 F3 A3 C4
+    (36, [48, 55, 60, 62, 64]),   # Cadd9: C3 G3 C4 D4 E4
+    (33, [45, 52, 55, 60, 64]),   # Am7:   A2 E3 G3 C4 E4
+]
+PENTA_COSMIC = [57, 60, 62, 65, 67, 69, 72, 74, 77]  # ре-минорная пентатоника, ниже
 
 
 def load(path):
@@ -147,6 +155,8 @@ def main():
     ap.add_argument('--seed', type=int, default=11)
     ap.add_argument('--piano-gain', type=float, default=0.55)
     ap.add_argument('--pad-gain', type=float, default=1.0)
+    ap.add_argument('--preset', choices=['warm', 'cosmic'], default='warm',
+                    help='warm — до мажор, светлый; cosmic — ре минор, темнее, контрабас, гонг, шиммер, зал 11 с')
     a = ap.parse_args()
     rng = np.random.default_rng(a.seed)
     L = a.lib
@@ -165,6 +175,12 @@ def main():
     pmap = {f: chart[int(os.path.basename(f)[-7:-4])] for f in pf if int(os.path.basename(f)[-7:-4]) in chart}
     piano = Instrument([f for f in pf if f in pmap and 48 <= pmap[f] <= 88], keymap=pmap)
     harp = named(f'{L}/Strings/Harp/*.wav')
+    cosmic = a.preset == 'cosmic'
+    chords, penta = (CHORDS_COSMIC, PENTA_COSMIC) if cosmic else (CHORDS, PENTA)
+    if cosmic:
+        cbass = named(f'{L}/Strings/Solo Contrabass/SusVib/*.wav')
+        gong = load(f'{L}/Miscellania Raw/Misc 1/cymbgong_pp.wav')
+        gong = gong / (np.abs(gong).max() + 1e-9)
 
     total = int((a.seconds + 10) * SR)
     pads = np.zeros((total, 2)); keys = np.zeros((total, 2))
@@ -174,15 +190,24 @@ def main():
         if j > i:
             buf[i:j] += y[:j - i] * g
 
-    chord_len = 16.0
+    chord_len = 20.0 if cosmic else 16.0
     t = 0.0; k = 0
     while t < a.seconds:
-        bass, notes = CHORDS[k % len(CHORDS)]
+        bass, notes = chords[k % len(chords)]
         dur = chord_len + 3
         add(pads, cello.render(bass + 12, dur, attack=3.5, release=4, loop=True), t, 0.32)
+        if cosmic:
+            add(pads, cbass.render(bass, dur, attack=5, release=5, loop=True), t, 0.30)          # глубокий низ
+            if k % 2 == 0:   # гонг задом наперёд: мягкое нарастание «вдоха» в смену аккорда
+                g = gong[::-1][-int(7 * SR):]
+                g = g * np.linspace(0, 1, len(g))[:, None] ** 2
+                add(keys, g, max(0, t - 6.5), 0.22)
         for n in notes:
             inst = viola if n < 60 else violin
-            add(pads, inst.render(n, dur, attack=4.0 + rng.random(), release=4, loop=True), t + rng.random() * 0.8, 0.16)
+            if cosmic and n >= 62 and rng.random() < 0.4:      # темнее: верхние голоса реже
+                continue
+            add(pads, inst.render(n, dur, attack=(6.0 if cosmic else 4.0) + rng.random(), release=5 if cosmic else 4, loop=True),
+                t + rng.random() * 0.8, 0.16)
         # арфа: тихое арпеджио раз в аккорд
         for j, n in enumerate(sorted(rng.choice(notes, 3, replace=False))):
             add(keys, harp.render(n + 12, 6, release=3), t + 2 + j * 0.45, 0.10)
@@ -190,13 +215,24 @@ def main():
     # пианино: редкие ноты пентатоники, мелодия ходит маленькими шагами
     t = 3.0; idx = 4
     while t < a.seconds:
-        idx = int(np.clip(idx + rng.choice([-2, -1, 1, 2]), 0, len(PENTA) - 1))
-        add(keys, piano.render(PENTA[idx], 8, release=4), t, a.piano_gain * (0.7 + 0.3 * rng.random()))
-        t += rng.uniform(3.0, 6.0)
+        idx = int(np.clip(idx + rng.choice([-2, -1, 1, 2]), 0, len(penta) - 1))
+        add(keys, piano.render(penta[idx], 8, release=4), t, a.piano_gain * (0.7 + 0.3 * rng.random()))
+        t += rng.uniform(4.0, 8.0) if cosmic else rng.uniform(3.0, 6.0)
 
-    mix = pads * a.pad_gain + lowpass(keys, 3200)                     # приглушённое «фетровое» пианино
-    mix = highpass(lowpass(mix, 7000), 45)
-    mix = reverb(mix, rt60=7.0, wet=0.45)[:int(a.seconds * SR)]
+    mix = pads * a.pad_gain + lowpass(keys, 2600 if cosmic else 3200)  # приглушённое «фетровое» пианино
+    mix = highpass(lowpass(mix, 4200 if cosmic else 7000), 40)
+    n_out = int(a.seconds * SR)
+    if cosmic:
+        # шиммер: октава вверх, только в реверберации — «свечение звёзд» над звуком
+        up = mix[::2]; up = np.concatenate([up, up])[:len(mix)] * 0
+        pos = np.arange(len(mix)) * 2.0; pos = pos[pos < len(mix) - 1]
+        i = pos.astype(int); f = (pos - i)[:, None]
+        oct_up = np.zeros_like(mix); oct_up[:len(i)] = mix[i] * (1 - f) + mix[i + 1] * f
+        oct_up = lowpass(highpass(oct_up, 600), 6000)
+        shimmer = reverb(oct_up, rt60=12.0, wet=1.0, seed=9)[:n_out] * 0.10
+        mix = reverb(mix, rt60=11.0, wet=0.55)[:n_out] + shimmer[:n_out]
+    else:
+        mix = reverb(mix, rt60=7.0, wet=0.45)[:n_out]
     fade = int(6 * SR)
     mix[:fade] *= np.linspace(0, 1, fade)[:, None]; mix[-fade:] *= np.linspace(1, 0, fade)[:, None]
     mix *= 0.12 / (np.sqrt(np.mean(mix ** 2)) + 1e-9)                   # громкость ≈ −16 LUFS
