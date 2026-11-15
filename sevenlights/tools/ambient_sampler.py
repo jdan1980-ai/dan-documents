@@ -156,7 +156,9 @@ def main():
     ap.add_argument('--piano-gain', type=float, default=0.55)
     ap.add_argument('--pad-gain', type=float, default=1.0)
     ap.add_argument('--preset', choices=['warm', 'cosmic'], default='warm',
-                    help='warm — до мажор, светлый; cosmic — ре минор, темнее, контрабас, гонг, шиммер, зал 11 с')
+                    help='warm — до мажор, светлый; cosmic — ре минор, темнее, контрабас, орган, колокольчики, гонг, шиммер, мелодия-мотивы')
+    ap.add_argument('--organ-gain', type=float, default=1.0)
+    ap.add_argument('--bells-gain', type=float, default=1.0)
     a = ap.parse_args()
     rng = np.random.default_rng(a.seed)
     L = a.lib
@@ -179,6 +181,12 @@ def main():
     chords, penta = (CHORDS_COSMIC, PENTA_COSMIC) if cosmic else (CHORDS, PENTA)
     if cosmic:
         cbass = named(f'{L}/Strings/Solo Contrabass/SusVib/*.wav')
+        of = glob.glob(f'{L}/Keys/Organ/Quiet/NT5_Man3Quiet_*_rr1.wav')
+        organ = Instrument(of, keymap={f: int(os.path.basename(f).split('_')[2]) - 86 for f in of})
+        bf = [f for f in glob.glob(f'{L}/Miscellania Raw/Misc 2/NepaleseBells/*.wav')
+              if 'fx_long' in f or 'fx_med' in f or 'fx2_short_r0' in f or 'fx3_short_r02' in f]
+        bells = [load(f) for f in bf]
+        bells = [(b / (np.abs(b).max() + 1e-9), est_midi(b)) for b in bells]
         gong = load(f'{L}/Miscellania Raw/Misc 1/cymbgong_pp.wav')
         gong = gong / (np.abs(gong).max() + 1e-9)
 
@@ -198,6 +206,8 @@ def main():
         add(pads, cello.render(bass + 12, dur, attack=3.5, release=4, loop=True), t, 0.32)
         if cosmic:
             add(pads, cbass.render(bass, dur, attack=5, release=5, loop=True), t, 0.30)          # глубокий низ
+            for iv, g in ((12, 0.10), (19, 0.07), (24, 0.06)):                                   # тихий орган: основа, квинта, октава
+                add(pads, organ.render(bass + iv, dur, attack=6, release=6, loop=True), t + 0.5, g * a.organ_gain)
             if k % 2 == 0:   # гонг задом наперёд: мягкое нарастание «вдоха» в смену аккорда
                 g = gong[::-1][-int(7 * SR):]
                 g = g * np.linspace(0, 1, len(g))[:, None] ** 2
@@ -212,8 +222,52 @@ def main():
         for j, n in enumerate(sorted(rng.choice(notes, 3, replace=False))):
             add(keys, harp.render(n + 12, 6, release=3), t + 2 + j * 0.45, 0.10)
         t += chord_len; k += 1
+    if cosmic:
+        # мелодия: два мотива (A и B) по 4–5 нот, A на 1-м и 3-м аккорде, B на 2-м и 4-м; каждый раз с небольшой вариацией.
+        # Ноты — из пентатоники; первая и последняя ноты фразы — звуки текущего аккорда, поэтому мелодия всегда в гармонии.
+        rhythms = [[2.0, 2.0, 4.0, 6.0], [1.5, 1.5, 1.0, 4.0, 6.0], [3.0, 1.0, 4.0, 6.0]]
+        def motif():
+            r = rhythms[rng.integers(len(rhythms))]
+            steps = [int(rng.choice([-2, -1, 1, 1, 2])) for _ in r[1:]]
+            return r, steps
+        motifs = [motif(), motif()]
+        t0 = 0.0; k = 0
+        while t0 < a.seconds:
+            bass, notes = chords[k % len(chords)]
+            r, steps = motifs[k % 2]
+            if k % 8 in (6, 7):            # каждые 8 аккордов — пауза, мелодия «дышит»
+                t0 += chord_len; k += 1; continue
+            top = [n + 12 for n in notes if 57 <= n + 12 <= 76]
+            start = min(top, key=lambda n: abs(n - 67)) if top else 67
+            idx = int(np.argmin([abs(p - start) for p in penta]))
+            tt = t0 + 1.5
+            seq = [idx] + [None] * len(steps)
+            for j, st in enumerate(steps):
+                v = st if rng.random() > 0.25 else -st            # вариация: иногда шаг в другую сторону
+                seq[j + 1] = int(np.clip(seq[j] + v, 0, len(penta) - 1))
+            for j, (ni, d) in enumerate(zip(seq, r)):
+                note = penta[ni]
+                if j == len(seq) - 1:                              # последняя нота — звук аккорда
+                    cands = [n for n in [x + 12 for x in notes] + notes if 57 <= n <= 79]
+                    note = min(cands, key=lambda n: abs(n - note)) if cands else note
+                add(keys, piano.render(note, d + 3, release=4), tt, a.piano_gain * (0.85 if j == 0 else 0.7))
+                tt += d
+            t0 += chord_len; k += 1
+        # тибетские (непальские) колокольчики: редкие удары, каждый подстроен к ближайшей ноте пентатоники
+        t = 9.0
+        while t < a.seconds:
+            b, m0 = bells[rng.integers(len(bells))]
+            target = min(penta + [p + 12 for p in penta], key=lambda p: abs(p - m0))
+            ratio = 2 ** ((target - m0) / 12) * (A4 / 440.0)
+            pos = np.arange(int(len(b) / ratio)) * ratio; pos = pos[pos < len(b) - 1]
+            i = pos.astype(int); f = (pos - i)[:, None]
+            y = b[i] * (1 - f) + b[i + 1] * f
+            pan = rng.uniform(-0.6, 0.6)
+            y = y * np.array([1 - max(0, pan), 1 + min(0, pan)])
+            add(keys, y, t, 0.16 * a.bells_gain)
+            t += rng.uniform(12, 26)
     # пианино: редкие ноты пентатоники, мелодия ходит маленькими шагами
-    t = 3.0; idx = 4
+    t = 3.0 if not cosmic else a.seconds + 1; idx = 4
     while t < a.seconds:
         idx = int(np.clip(idx + rng.choice([-2, -1, 1, 2]), 0, len(penta) - 1))
         add(keys, piano.render(penta[idx], 8, release=4), t, a.piano_gain * (0.7 + 0.3 * rng.random()))
