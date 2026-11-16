@@ -31,3 +31,9 @@ Cinematic digital art, vertical 9:16. A translucent glass-like female human body
 
 Правило: пересчитать чакры — ровно 7. Скачивать оригинал (⋮ → Download), не скриншот.
 Картинка → `sevenlights/visuals/base_female_432_528.jpg`, дальше обложка `make_thumb.py` и луп `make_loop.py`.
+
+## Результат (16.11.2026)
+`visuals/base_female_432_528.jpg` (пришла в чат 2000x1116 — для 4K-петли нужен оригинал из Google). 7 чакр, ок.
+Координаты чакр (пиксели этой картинки): `1035,569;1138,520;1238,477;1363,425;1489,424;1647,321;1699,310`.
+Обложка (`--boost 1.0`: с усилением по умолчанию тело пересвечено, чакры теряются):
+`python tools/make_thumb.py --image visuals/base_female_432_528.jpg --hz "432 + 528 HZ" --sub "DEEP SLEEP IN 3 MINUTES" --size-hz 118 --boost 1.0 --out visuals/thumbs/thumb_432_528_deep_sleep_3min.jpg`
