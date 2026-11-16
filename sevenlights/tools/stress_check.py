@@ -28,11 +28,24 @@ def main():
     ap.add_argument('--image', required=True)
     ap.add_argument('--out', required=True)
     ap.add_argument('--repeats', type=int, default=3)
+    ap.add_argument('--label', help='крупная надпись на картинке, например "ВИДЕО 6 · ПРОВЕРКА 2" — чтобы в Студии было видно, что это')
     a = ap.parse_args()
     files = [f.strip() for f in a.inp.split(',') if f.strip()]
     rows = []
     t = 0.0
     with tempfile.TemporaryDirectory() as tmp:
+        image = a.image
+        if a.label:
+            from PIL import Image, ImageDraw, ImageFont
+            im = Image.open(a.image).convert('RGB').resize((1280, 720))
+            d = ImageDraw.Draw(im)
+            try:
+                f = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', 64)
+            except OSError:
+                f = ImageFont.load_default()
+            d.rectangle([0, 600, 1280, 720], fill=(160, 0, 0))
+            d.text((640, 660), a.label, font=f, fill='white', anchor='mm')
+            image = os.path.join(tmp, 'label.jpg'); im.save(image, quality=92)
         lst = os.path.join(tmp, 'list.txt')
         with open(lst, 'w') as f:
             for p in files:
@@ -44,7 +57,7 @@ def main():
         audio = os.path.join(tmp, 'a.m4a')
         subprocess.run(['ffmpeg', '-y', '-v', 'error', '-f', 'concat', '-safe', '0', '-i', lst,
                         '-c:a', 'aac', '-b:a', '256k', audio], check=True)
-        subprocess.run(['ffmpeg', '-y', '-v', 'error', '-loop', '1', '-framerate', '1', '-i', a.image, '-i', audio,
+        subprocess.run(['ffmpeg', '-y', '-v', 'error', '-loop', '1', '-framerate', '1', '-i', image, '-i', audio,
                         '-vf', 'scale=1280:720,setsar=1,format=yuv420p', '-c:v', 'libx264', '-tune', 'stillimage',
                         '-r', '1', '-c:a', 'copy', '-shortest', '-movflags', '+faststart', a.out], check=True)
     lines = [f'Проверочное видео: {os.path.basename(a.out)} — {ts(t)}, каждый трек × {a.repeats}', '']
