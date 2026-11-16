@@ -67,7 +67,7 @@ Write-Host "Done."
 
 ---
 
-## §8 — Description (copy-paste)
+## §8 — Description (copy-paste; 2026-11-16: MUSHIN and BUSHIDO links added, replaces the duplicated text on the live video)
 
 ```
 Japanese zen music for samurai meditation, deep focus and sleep — two hours of stillness inspired by Miyamoto Musashi.
@@ -112,6 +112,10 @@ There are no battles in this music. No percussion, no rise and fall, no dramatic
 1:56:30 The Cave at Reigando
 
 Listen at a comfortable, low volume. This music is designed to sit underneath your attention, not on top of it.
+
+More from StillWave Zen:
+MUSHIN — Japanese Zen Music for Deep Focus: https://youtu.be/CamT9sohYQM
+BUSHIDO — Japanese Samurai Music for Calm & Quiet Discipline: https://youtu.be/pxjc2GIyvBY
 
 Subscribe for new Japanese zen music every week 🌿
 https://www.youtube.com/@stillwavezen
