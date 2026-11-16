@@ -318,6 +318,11 @@ ffmpeg -stream_loop -1 -i loop.mp4 -i track.wav -shortest -c:v copy -c:a aac -b:
 pwsh -File ..\make_video.ps1 -Loop loop.mp4 -Audio SevenLights5_3h.flac -Overlay ..\overlay_intro_welcome.png -Out C:\SevenLightsUpload\video5.mp4
 ```
 
+**4K (с 16.11.2026):** картинку пользователь делает в Google (Nano Banana) сразу в 4K. Тогда петля и видео тоже 4K, без CapCut:
+`make_loop.py --width 3840 --height 2160 ...` (координаты чакр — в пикселях 4K-картинки; в облаке ~6 мин на 8 с) и
+`make_video.py --4k` / `make_video.ps1 -UHD` (уровень H.264 5.1, оверлей растягивается до 4K). Проверено: 3840x2160, звук, оверлей.
+Нейросетевое «дорисовывание» до 4K у Claude нет — только честное растягивание, поэтому исходник лучше брать 4K из Google.
+
 **Оверлей в начале видео** (`tools/make_overlay.py`). Основной (выбран): `visuals/overlays/overlay_intro_welcome.png` — «Welcome to Seven Lights» + «Thank you for listening. May tonight bring you deep, peaceful sleep» + «If this music helps you, please subscribe» с колокольчиком; шрифт уменьшен, чтобы не было нагромождения. Запасной: `overlay_intro_thank_you.png`. Левый верхний угол, стиль обложек. Появляется на 0:02 за 1.5 с, исчезает к 0:11.
 Видео целиком за один проход (петля видео + 3-часовой звук + оверлей; видео перекодируется, петля любого размера масштабируется до 1080p):
 

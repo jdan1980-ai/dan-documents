@@ -10,11 +10,14 @@ param(
     [Parameter(Mandatory)][string]$Audio,
     [string]$Overlay = '',
     [Parameter(Mandatory)][string]$Out,
-    [int]$Crf = 20
+    [int]$Crf = 20,
+    [switch]$UHD   # 4K 3840x2160 (петля из 4K-картинки: make_loop --width 3840 --height 2160)
 )
 $ErrorActionPreference = 'Stop'
 $inv = [Globalization.CultureInfo]::InvariantCulture
 $fps = 30
+$W, $H = if ($UHD) { 3840, 2160 } else { 1920, 1080 }
+$level = if ($UHD) { '5.1' } else { '4.1' }
 function Dur([string]$p) { [double]::Parse((& ffprobe -v error -show_entries format=duration -of csv=p=0 $p | Select-Object -First 1).Trim(), $inv) }
 function Ff { & ffmpeg -y -loglevel error @args; if ($LASTEXITCODE -ne 0) { throw "ffmpeg завершился с ошибкой" } }
 
@@ -28,11 +31,11 @@ $tmp = Join-Path ([IO.Path]::GetTempPath()) ("makevideo_" + [Guid]::NewGuid().To
 New-Item -ItemType Directory -Path $tmp | Out-Null
 try {
     $enc = @('-c:v', 'libx264', '-preset', 'medium', '-crf', "$Crf", '-pix_fmt', 'yuv420p', '-r', "$fps",
-        '-g', "$frames", '-keyint_min', "$frames", '-sc_threshold', '0', '-profile:v', 'high', '-level', '4.1',
+        '-g', "$frames", '-keyint_min', "$frames", '-sc_threshold', '0', '-profile:v', 'high', '-level', $level,
         '-video_track_timescale', '15360', '-an')
     $loopReady = Join-Path $tmp 'loop.mp4'
     "1/3 Петля…"
-    Ff -i $Loop -vf "scale=1920:1080,setsar=1,fps=$fps" -frames:v "$frames" @enc $loopReady
+    Ff -i $Loop -vf "scale=${W}:${H},setsar=1,fps=$fps" -frames:v "$frames" @enc $loopReady
 
     $parts = @()
     $introLoops = 0
@@ -40,7 +43,7 @@ try {
         $introLoops = [math]::Max(1, [math]::Ceiling(11 * $fps / $frames))
         $n = $introLoops * $frames
         $intro = Join-Path $tmp 'intro.mp4'
-        $flt = "[0:v]scale=1920:1080,setsar=1,fps=$fps[bg];[1:v]format=rgba,fade=t=in:st=2:d=1.5:alpha=1,fade=t=out:st=8.5:d=2:alpha=1[o];[bg][o]overlay=0:0:eof_action=pass[v]"
+        $flt = "[0:v]scale=${W}:${H},setsar=1,fps=$fps[bg];[1:v]scale=${W}:${H},format=rgba,fade=t=in:st=2:d=1.5:alpha=1,fade=t=out:st=8.5:d=2:alpha=1[o];[bg][o]overlay=0:0:eof_action=pass[v]"
         "2/3 Интро с оверлеем…"
         Ff -stream_loop ($introLoops - 1) -i $loopReady -loop 1 -t (($n / $fps).ToString($inv)) -i $Overlay -filter_complex $flt -map '[v]' -frames:v "$n" @enc $intro
         $parts += $intro
