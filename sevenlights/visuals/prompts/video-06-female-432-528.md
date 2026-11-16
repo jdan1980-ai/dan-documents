@@ -37,3 +37,5 @@ Cinematic digital art, vertical 9:16. A translucent glass-like female human body
 Координаты чакр (пиксели этой картинки): `1035,569;1138,520;1238,477;1363,425;1489,424;1647,321;1699,310`.
 Обложка (`--boost 1.0`: с усилением по умолчанию тело пересвечено, чакры теряются):
 `python tools/make_thumb.py --image visuals/base_female_432_528.jpg --hz "432 + 528 HZ" --sub "DEEP SLEEP IN 3 MINUTES" --size-hz 118 --boost 1.0 --out visuals/thumbs/thumb_432_528_deep_sleep_3min.jpg`
+Анимация 4K для CapCut (пользователь сам дублирует до 3 ч): петля 8 с `make_loop.py --width 3840 --height 2160 --chakras "<как выше>" --star-lum 0.35`
+(~7 мин в облаке, crf 12), затем 15 повторов без перекодирования (`ffmpeg -f concat ... -c copy`) → 2 мин, 14.7 Мбит/с, 220 МБ.
