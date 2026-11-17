@@ -37,10 +37,12 @@ Prompt: `stillwave/scripts/mushin-ii-musicful-prompt.txt` (917 characters; quiet
 Photorealistic cinematic still, 16:9, 4K, like a frame from a Kurosawa film. Night in an old Japanese temple garden. A perfectly still black pond fills the lower half of the frame, its surface like a mirror. A colossal full moon, enormous and pale silver-white, rises above a distant line of dark pine trees and a temple roof silhouette, and the whole moon is reflected perfectly in the still water below. A lone samurai in a plain dark hakama and dark kimono kneels in seiza on a flat stone at the edge of the pond, back to camera, face never visible, placed slightly right of center, small against the moon. EXACTLY TWO sheathed swords, a katana and a shorter wakizashi, rest on the stone beside him. NO third sword. NO drawn sword. NO sword in his hands. His hands rest on his thighs. The left third of the frame is calm, dark night sky and dark water. Deep blue-black night palette with ONE strong accent: the cold silver light of the moon and its reflection. High contrast, emptiness, profound stillness. No text, no letters.
 ```
 
-## §4 — Flow loop (8 s, camera locked)
+## §4 — Flow loop (8 s, camera locked) — v2, motion also in the empty left half
 ```
-Camera completely locked, no pan, no zoom, no movement of the frame. Keep the image exactly as it is. Only three subtle motions: very slow, gentle ripples drift across the moon's reflection on the pond and settle again; a thin layer of night mist drifts slowly over the water surface from left to right; the pine trees in the distance sway almost imperceptibly. The samurai stays perfectly still, the moon stays perfectly still, the swords do not move. Calm, hypnotic, seamless loop: the last frame matches the first frame.
+Camera completely locked, no pan, no zoom, no movement of the frame. Keep the image exactly as it is. Subtle motion only: a thin, low layer of silver night mist drifts very slowly across the dark water from the left edge of the frame toward the island, thicker on the left side, softly catching the moonlight; slow, wide, gentle ripples spread across the whole dark pond, including the empty left side, and the moon's reflection shimmers softly as they pass and then settles; the pine trees on the island sway almost imperceptibly. The samurai stays perfectly still, the moon stays perfectly still, the swords and the stone do not move. Calm, hypnotic, seamless loop: the last frame matches the first frame.
 ```
+
+**🇺🇦 RU:** Левая половина пустая нарочно: там текст оверлея и превью. Чтобы она не была мёртвой в анимации, туман и рябь идут именно по левой воде.
 
 ## §6a — Wisdom overlay
 
