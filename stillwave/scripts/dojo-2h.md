@@ -7,7 +7,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music
 - **Format:** 8 Musicful tracks generated (4 requests = 24 units), best 6 used, one cycle, YouTube copyright check, then 2 hours — same routine as RONIN and BUSHIDO.
 - **Working folder on the PC:** `Desktop\StillWaveZen\DOJO\`
-- **Status:** music done: 8-track check passed, **2-hour track built 2026-11-17** (`DOJO_2h.mp3`). Waiting for: hero frame, CapCut.
+- **Status:** music done: 8-track check passed, **2-hour track built 2026-11-17** (`DOJO_2h.mp3`). Frame, overlay and thumbnail done (§5). Next: Flow loop, CapCut.
 
 **🇺🇦 RU:** Додзё как пустая комната для одного простого дела: всё лишнее оставь за дверью. Формат тот же, что у RONIN и BUSHIDO.
 
@@ -42,10 +42,16 @@ Photorealistic cinematic still, 16:9, 4K, like a frame from a Kurosawa film. A v
 Feed the clean hero (no text). Camera completely locked: no pan, no zoom, no dolly. Keep the samurai, the sword rack, the dojo and the dragon mural exactly as they are, as a frozen photograph. The samurai and the dragon do not move. Animate ONLY: (1) fine dust drifting very slowly inside the beam of light from the high window; (2) the beam's brightness breathing almost imperceptibly; (3) the faintest shimmer of light on the polished floor. Everything is slow and calm. Perfectly seamless 8-second loop, last frame matches first frame exactly.
 ```
 
+## §5 — Final frame, overlay, thumbnail (2026-11-17)
+
+Frame `assets/dojo-2h-source.jpg` (1984x1116): samurai in keikogi and hakama in seiza before a colossal gold dragon mural, light beam from the high window, two sheathed swords on a rack. Overlay at the standard lower-left on the dark floor (brightness 10–27), clear of the figure. Thumbnail `assets/dojo-2h-thumb-v2.jpg` (`dojo-compose-thumb-v2.py`): white brush 道場, serif DOJO, rule, JAPANESE ZEN MUSIC on the dark left.
+
+**🇺🇦 RU:** Кадр с драконом принят. Оверлей стоит слева внизу на тёмном полу. Превью в новом стиле: 道場 белой кистью и DOJO слева на тёмной стене.
+
 ## §6a — Wisdom Overlay
 
 - **一意専心** / *Ichii senshin* / One mind, one purpose
-- File: `assets/dojo-ichii-senshin-overlay.png` (brush font, standard lower-left; re-check on the frame).
+- File: `assets/dojo-ichii-senshin-overlay.png` (brush font, standard lower-left, checked on the final frame — §5).
 
 **🇺🇦 RU:** 一意専心 — «один ум, одна цель», полная сосредоточенность на одном деле. Само слово 道場 не называет, на канале не использовалось.
 
