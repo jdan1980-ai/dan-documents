@@ -37,12 +37,16 @@ Prompt: `stillwave/scripts/mushin-ii-musicful-prompt.txt` (917 characters; quiet
 Photorealistic cinematic still, 16:9, 4K, like a frame from a Kurosawa film. Night in an old Japanese temple garden. A perfectly still black pond fills the lower half of the frame, its surface like a mirror. A colossal full moon, enormous and pale silver-white, rises above a distant line of dark pine trees and a temple roof silhouette, and the whole moon is reflected perfectly in the still water below. A lone samurai in a plain dark hakama and dark kimono kneels in seiza on a flat stone at the edge of the pond, back to camera, face never visible, placed slightly right of center, small against the moon. EXACTLY TWO sheathed swords, a katana and a shorter wakizashi, rest on the stone beside him. NO third sword. NO drawn sword. NO sword in his hands. His hands rest on his thighs. The left third of the frame is calm, dark night sky and dark water. Deep blue-black night palette with ONE strong accent: the cold silver light of the moon and its reflection. High contrast, emptiness, profound stillness. No text, no letters.
 ```
 
-## §4 — Flow loop (8 s, camera locked) — v2, motion also in the empty left half
-```
-Camera completely locked, no pan, no zoom, no movement of the frame. Keep the image exactly as it is. Subtle motion only: a thin, low layer of silver night mist drifts very slowly across the dark water from the left edge of the frame toward the island, thicker on the left side, softly catching the moonlight; slow, wide, gentle ripples spread across the whole dark pond, including the empty left side, and the moon's reflection shimmers softly as they pass and then settles; the pine trees on the island sway almost imperceptibly. The samurai stays perfectly still, the moon stays perfectly still, the swords and the stone do not move. Calm, hypnotic, seamless loop: the last frame matches the first frame.
-```
+## §3b — Stars added to the frame (2026-11-17)
 
-**🇺🇦 RU:** Левая половина пустая нарочно: там текст оверлея и превью. Чтобы она не была мёртвой в анимации, туман и рябь идут именно по левой воде.
+The left half was empty. A starfield (denser on the left, fading out near the moon, with a faint Milky Way band) and its reflection in the water were composited onto the approved frame by `stillwave/assets/mushin-ii-add-stars.py`. Main frame: `mushin-ii-2h-source.jpg`; the version without stars: `mushin-ii-2h-source-v1-nostars.jpg`.
+
+**🇺🇦 RU:** Левую половину заполнили звёздным небом и его отражением в воде. Звёзды наложены скриптом на одобренный кадр, поэтому луна, самурай и мечи не изменились.
+
+## §4 — Flow loop (8 s, camera locked) — v3, starry left half
+```
+Camera completely locked, no pan, no zoom, no movement of the frame. Keep the image exactly as it is, every star stays in its exact place. Subtle motion only: the stars in the night sky twinkle very softly and slowly, a few at a time; their reflections in the dark water on the left shimmer gently as slow, wide ripples pass across the pond and settle again; the moon's reflection shimmers softly as the ripples pass; a thin, low layer of silver mist drifts very slowly over the water from the left edge toward the island. The samurai stays perfectly still, the moon stays perfectly still, the swords and the stone do not move, no new objects appear. Calm, hypnotic, seamless loop: the last frame matches the first frame.
+```
 
 ## §6a — Wisdom overlay
 
