@@ -7,7 +7,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music (+ "Samurai Zen Music")
 - **Format:** 8 Musicful tracks (4 requests = 24 units), best 6 used, one cycle, YouTube copyright check, then 2 hours.
 - **Working folder on the PC:** `Desktop\StillWaveZen\MUSHIN II\`
-- **Status (2026-11-17):** VidIQ check done, prompts written, overlay rendered, music generation launched.
+- **Status (2026-11-17):** VidIQ check done, frame approved (`stillwave/assets/mushin-ii-2h-source.jpg`, black bars cropped, 3840x2160), overlay placed lower-left (zone brightness 8 / 4), music generation launched (branch `claude/mushin-ii-musicful`).
 
 **🇺🇦 RU:** Продолжение MUSHIN — единственного видео канала, которое реально работает. Образ мусина — ум как тихая вода, в которой отражается луна. Одинокий самурай у неподвижного пруда под огромной луной.
 
