@@ -5,15 +5,32 @@
 - **Slug:** dojo-2h
 - **Concept:** the dojo as an empty room for one plain practice; leave everything at the door.
 - **Playlist (add to in Studio):** Japanese Zen Music
-- **Format:** 6 Musicful tracks (one prompt, 3 requests = 18 units), one cycle, YouTube copyright check, then 2 hours — same routine as RONIN and BUSHIDO.
+- **Format:** 8 Musicful tracks generated (4 requests = 24 units), best 6 used, one cycle, YouTube copyright check, then 2 hours — same routine as RONIN and BUSHIDO.
 - **Working folder on the PC:** `Desktop\StillWaveZen\DOJO\`
-- **Status:** 📝 package ready, music generation started 2026-11-13. Waiting for: hero frame.
+- **Status:** music done: 8-track check passed, **2-hour track built 2026-11-17** (`DOJO_2h.mp3`). Waiting for: hero frame, CapCut.
 
 **🇺🇦 RU:** Додзё как пустая комната для одного простого дела: всё лишнее оставь за дверью. Формат тот же, что у RONIN и BUSHIDO.
 
 ## §1 — Music (Musicful)
 
 Prompt: `stillwave/scripts/dojo-musicful-prompt.txt` (quiet, no percussion, length cue).
+
+## §2 — Album (2026-11-17)
+
+8 tracks generated (branch `claude/dojo-musicful-2`, 178 → 154 units). One 27-minute check video with all 8 tracks passed YouTube's copyright check. Dropped: `1618769` (C minor, least similar to the rest) and `1618768` (G minor). Order keeps tracks from the same request apart.
+
+| # | Track | Starts in the cycle |
+|---|---|---|
+| 1 | 1618767 | 0:00 |
+| 2 | 1618770 | 2:14 |
+| 3 | 1618773 | 5:20 |
+| 4 | 1618771 | 8:02 |
+| 5 | 1618774 | 10:44 |
+| 6 | 1618772 | 13:53 |
+
+Cycle 16:49, ~7 repeats, exactly 2:00:00, −15.7 LUFS, peak −0.9 dBFS (−1 dB limiter).
+
+**🇺🇦 RU:** Проверка 8 треков прошла чисто. Убраны 1618769 и 1618768 (другие тональности). Треки из одной пары не стоят рядом. Круг 16:49, итог ровно 2 часа.
 
 ## §3 — Hero image (big-icon pattern: a colossal dragon mural; tiger is already used on BUSHIDO)
 ```
@@ -49,7 +66,13 @@ Use it for:
 - yoga, stretching and slow movement
 - any room you want to turn into a quiet one
 
-[TRACKLIST — one cycle, then "(the cycle repeats until 2:00:00)"]
+0:00 The Empty Hall at Dawn
+2:14 Leave Everything at the Door
+5:20 One Breath, One Bow
+8:02 Polished Wood, Quiet Feet
+10:44 The Dragon Watches the Floor
+13:53 The Practice Begins Again
+(the cycle repeats until 2:00:00)
 
 More from StillWave Zen:
 Miyamoto Musashi — Samurai Meditation for Stress Relief: https://youtu.be/mJ3RMn3J4B8
