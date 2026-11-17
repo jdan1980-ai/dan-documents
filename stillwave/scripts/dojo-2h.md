@@ -81,8 +81,9 @@ Use it for:
 (the cycle repeats until 2:00:00)
 
 More from StillWave Zen:
+MUSHIN — Japanese Zen Music for Deep Focus: https://youtu.be/CamT9sohYQM
+BUSHIDO — Japanese Samurai Music for Calm & Quiet Discipline: https://youtu.be/pxjc2GIyvBY
 Miyamoto Musashi — Samurai Meditation for Stress Relief: https://youtu.be/mJ3RMn3J4B8
-Enso — Japanese Zen Music for Mindfulness and Breathwork: https://youtu.be/X4-wXrf2tD8
 
 Where is your dojo? A desk, a corner, a chair by a window. Tell me in the comments, I am curious how small they get.
 
