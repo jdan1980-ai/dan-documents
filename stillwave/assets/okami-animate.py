@@ -23,7 +23,7 @@ def pnoise(t, ks, amp=1.0):
     return lambda t: amp * sum(wi * np.sin(2 * np.pi * k * t / T + p) for k, p, wi in zip(ks, ph, w)) / sum(w)
 def gauss(cx, cy, s): return np.exp(-((xx - cx) ** 2 + (yy - cy) ** 2) / (2 * s * s))
 
-FLAMES = [(745, 562, 582), (1653, 562, 580)]   # x, flame centre y, flame base y
+FLAMES = [(721, 502, 525), (1733, 502, 525)]   # x, flame centre y, flame base y (frame recropped 2026-11-18)
 # flameless background for each flame patch
 bg = B.copy()
 core = np.zeros((H, W), np.uint8)
@@ -33,24 +33,28 @@ bg = cv2.inpaint(B.astype(np.uint8), cv2.dilate(core, np.ones((5, 5))), 5, cv2.I
 lum = B.mean(2)
 flame_alpha = np.clip((lum - 120) / 100, 0, 1) * (cv2.GaussianBlur(core.astype(np.float32), (0, 0), 3) / 255 > 0.05)
 for fx, fy, fb in FLAMES:   # the wax below the flame is not part of the flame
-    flame_alpha[fb - 2:, fx - 30:fx + 30] = 0
+    flame_alpha[fb - 1:, fx - 30:fx + 30] = 0
 flame_alpha = cv2.GaussianBlur(flame_alpha.astype(np.float32), (0, 0), 1.2)
 
 flick = [pnoise(None, [5, 7, 11, 13, 17]), pnoise(None, [6, 9, 12, 15, 19])]
 sway = [pnoise(None, [3, 4, 7]), pnoise(None, [2, 5, 8])]
-light = [gauss(fx, fy, 330) for fx, fy, _ in FLAMES]
+light = [gauss(fx, fy, 367) for fx, fy, _ in FLAMES]
 
-EYES = [(1027, 412), (1078, 410)]
-eye_glow = sum(gauss(x, y, 5) + 0.35 * gauss(x, y, 16) for x, y in EYES)
+EYES = [(1035, 336), (1091, 334)]
+eye_glow = sum(1.0 * gauss(x, y, 5) + 0.55 * gauss(x, y, 14) + 0.22 * gauss(x, y, 34) for x, y in EYES)
 eye_pulse = pnoise(None, [1, 2])
 
 # ink clouds on the left doors: soft mask, kept away from the left candle
 cloud = np.zeros((H, W), np.float32)
-cv2.rectangle(cloud, (0, 140), (640, 720), 1, -1)
-cv2.rectangle(cloud, (640, 140), (900, 330), 1, -1)
+cv2.rectangle(cloud, (0, 60), (650, 680), 1, -1)
+cv2.rectangle(cloud, (650, 60), (900, 250), 1, -1)
 cloud = cv2.GaussianBlur(cloud, (0, 0), 40)
+# the wooden door frames must not bend: no displacement near the vertical rails or the top rail
+RAILS = [196, 574, 959, 1336, 1708]
+dist = np.min(np.abs(xx[None] - np.array(RAILS, np.float32)[:, None, None]), axis=0)
+cloud *= np.clip((dist - 10) / 30, 0, 1) * np.clip((yy - 45) / 30, 0, 1)
 # wolf torso for the breath
-torso = gauss(1380, 380, 150) * (xx > 1120)
+torso = gauss(1428, 301, 167) * (xx > 1180)
 torso = cv2.GaussianBlur(torso.astype(np.float32), (0, 0), 20)
 
 ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{W}x{H}",
@@ -63,8 +67,8 @@ for i in range(N):
     dx = cloud * (6 * np.sin(ph + yy / 90) + 3 * np.sin(2 * ph + xx / 140))
     dy = cloud * (2.5 * np.cos(ph + xx / 120))
     br = 0.006 * np.sin(2 * ph)                       # two breaths per loop
-    dy += torso * br * (yy - 470)                      # swell up from the belly line
-    dx += torso * br * 0.5 * (xx - 1380)
+    dy += torso * br * (yy - 401)                      # swell up from the belly line
+    dx += torso * br * 0.5 * (xx - 1428)
     frame = cv2.remap(bg, xx - dx, yy - dy, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
     # flames: scale/sway around their base, then lay over the flameless background
     for k, (fx, fy, fb) in enumerate(FLAMES):
@@ -79,8 +83,8 @@ for i in range(N):
     gain = 1 + 0.055 * (flick[0](t) * light[0] + flick[1](t) * light[1])
     frame = frame * gain[..., None]
     # eyes glimmer
-    e = 0.55 + 0.45 * (0.5 + 0.5 * eye_pulse(t))
-    frame += (eye_glow * e)[..., None] * np.array([40, 140, 230], np.float32) * 0.32
+    e = 0.65 + 0.35 * (0.5 + 0.5 * eye_pulse(t))
+    frame += (eye_glow * e)[..., None] * np.array([45, 150, 240], np.float32) * 0.6
     ff.stdin.write(np.clip(frame, 0, 255).astype(np.uint8).tobytes())
 ff.stdin.close(); ff.wait()
 print("saved", out, N, "frames")
