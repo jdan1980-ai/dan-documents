@@ -24,3 +24,14 @@ Photorealistic cinematic still, 16:9, 4K, like a frame from a Kurosawa film. Nig
 ```
 
 **🇺🇦 RU:** Вариант A — огромная катана, воткнутая в скалу на вершине горы, на рассвете; самурай сидит маленький у её подножия. Это схема «один огромный образ», как у тигра и дракона. Вариант B — обнажённая катана на подставке в храме, лунный луч идёт ровно по клинку, самурай сидит перед ней. Он камернее и ближе к MUSHIN. В обоих вариантах самурай без меча в руках, левая треть пустая под текст.
+
+### Variant C — slow kata before battle (chosen frame, 2026-11-18)
+
+Frame: `stillwave/assets/katana-2h-source.jpg` (black bars cropped, 3840x2160). The samurai on a mountain ledge above a sea of clouds, bare katana in a forward middle guard, empty scabbard at the hip. The left third is bright mist (mean brightness ~110–160, the old frames were 8–20), so text there must be **dark ink**, not cream.
+
+**🇺🇦 RU:** Выбран кадр с тренировкой. Левая треть светлая (туман), поэтому текст там будет тёмный, как тушь на бумаге, а не кремовый.
+
+## §4 — Flow loop (8 s) — for the chosen kata frame
+```
+Camera completely locked, no pan, no zoom, no movement of the frame. The samurai performs one slow, controlled kata movement and returns exactly to where he began: over four seconds he slowly lowers the katana from this forward guard until the blade points down at the rock in front of him, and over the next four seconds he slowly raises it back to exactly the same forward guard as in the first frame. Both hands stay on the handle the whole time. The movement is smooth, continuous and very slow, like a breath out and a breath in. His feet stay planted, his body stays balanced, the blade stays straight, rigid and keeps its exact shape and length; the empty scabbard stays at his hip. As the angle of the blade changes, the soft light glints slowly along its edge. The mist drifts gently in the valleys and around the rocks, the hem of his hakama stirs slightly in the mountain wind. The mountains and the clouds stay still. Seamless loop: the last frame matches the first frame exactly.
+```
