@@ -21,3 +21,65 @@ Camera completely locked, no pan, no zoom, no movement of the frame. The painted
 ```
 
 **🇺🇦 RU:** Волк остаётся картиной на стене, но будто дышит: грудь медленно поднимается, шерсть-тушь чуть шевелится, облака на дверях плывут, золотые глаза мерцают в свете свечей.
+
+## §4b — Animation without Flow (2026-11-18)
+
+`stillwave/assets/okami-animate.py` animates the still itself (no Flow credits): candles flicker and sway, their light trembles on the gold leaf and floor, the wolf's eyes glow and pulse, the ink clouds on the left doors undulate (the door rails and the top rail are held still), the painted wolf breathes twice per loop. 12 s seamless loop; native 4K with `python3 okami-animate.py SRC OUT 12 3840`. Frame recropped from the top edge of the doors (the beam above them looked badly cropped).
+
+**🇺🇦 RU:** Анимация сделана скриптом, без Flow: свечи, свет на золоте, светящиеся глаза, колыхание туши (рейки дверей неподвижны), дыхание волка. Цикл 12 секунд, есть рендер в 4K. Верх кадра обрезан по краю полотна.
+
+## §6a — Wisdom overlay
+
+- **一匹狼** · *Ippiki ōkami* · "The lone wolf walks its own path" — the lone wolf: someone who walks his own way without needing the pack, the image of the solitary samurai.
+- File: `stillwave/assets/okami-ippiki-okami-overlay.png`, lower-left over the dark floor (zone brightness 37 / 28).
+- CapCut: top track, 0:03 → 0:14, fade in 2 s / fade out 2 s.
+
+**🇺🇦 RU:** 一匹狼 — «волк-одиночка», тот, кто идёт своим путём без стаи. Образ одинокого самурая.
+
+## §7 — Title
+```
+OKAMI — 狼 | Samurai Meditation Music for Deep Focus, Night Calm & Inner Strength
+```
+A/B:
+```
+Samurai Meditation Music — OKAMI 狼, the Wolf Guardian of the Mountains (2 Hours)
+```
+
+## §8 — Description ([TRACKLIST] is filled in after the album is chosen)
+```
+Ōkami (狼), the wolf. In old Japan the wolf was not feared but worshipped. Its name sounds like "great god," and in the mountain shrines of Mitsumine and Musashi-Mitake it was honoured as the guardian of the mountains: the one who watches over travellers walking alone at night.
+
+Two hours of samurai meditation music in an empty temple hall at night, before a giant wolf painted in ink and gold. A low shakuhachi flute, warm koto plucked one note at a time, a deep dark drone underneath like slow breathing, and long silences between the phrases. Candlelight on the gold. No drums, no beats, nothing that rises or builds. One quiet level from the first minute to the last.
+
+Use it for:
+- deep focus, study and long work sessions
+- seated meditation and breathwork
+- falling asleep with a calm, protected mind
+- a quiet hour alone at night
+
+[TRACKLIST]
+(the cycle repeats until 2:00:00)
+
+More from StillWave Zen:
+MUSHIN — Japanese Zen Music for Deep Focus: https://youtu.be/CamT9sohYQM
+BUSHIDO — Japanese Samurai Music for Calm & Quiet Discipline: https://youtu.be/pxjc2GIyvBY
+Miyamoto Musashi — Samurai Meditation for Stress Relief: https://youtu.be/mJ3RMn3J4B8
+
+一匹狼 — ippiki ōkami: the lone wolf walks its own path.
+
+New Japanese Zen music every week. Subscribe if you want it in your feed.
+
+#samuraimusic #okami #wolf #samuraimeditation #zenmusic
+```
+
+## §9 — Tags (24 tags, 465 characters)
+```
+stillwave, okami, wolf music, wolf meditation music, japanese wolf, lone wolf, samurai music, samurai meditation music, samurai relaxing music, japanese zen music, zen music, meditation music, focus music, deep focus music, sleep music, study music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, ancient japan ambience, candlelight meditation, samurai meditating before a giant wolf painting in a candlelit temple hall, joe hisaishi
+```
+
+## §11 — Pinned comment
+```
+🌀 狼 ŌKAMI — in old Japan the wolf was the guardian of the mountains, watching over those who walk alone at night. 🍃 What helps you stay calm when you have to walk your own path? Subscribe for more Japanese zen focus sessions every week 🌿
+```
+
+**Upload settings:** Not for kids · Playlists "Japanese Zen Music" + "Samurai Meditation Music — Japanese Zen for Focus & Sleep" · first publish Scheduled/Unlisted · end screen → MUSHIN.
