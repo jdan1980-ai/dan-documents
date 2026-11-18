@@ -11,6 +11,23 @@
 
 **🇺🇦 RU:** Катана не как оружие в бою, а как душа самурая: обнажённый клинок в покое, перед которым сидят в тишине. По решению пользователя в этом видео клинок обнажён, но его никто не держит и не поднимает.
 
+## §2 — Album (2026-11-18)
+
+8 tracks generated (branch `claude/katana-musicful`, 118 → 94 units). The 22-minute check video with all 8 tracks was cleared by the user. Dropped: `1622094` (G minor; the other seven are in D minor) and `1622097` (the widest loudness range of the batch, 17.5 dB). Order keeps tracks from the same request apart, including across the loop point.
+
+| # | Track | Starts in the cycle |
+|---|---|---|
+| 1 | 1622093 | 0:00 |
+| 2 | 1622095 | 2:31 |
+| 3 | 1622099 | 5:03 |
+| 4 | 1622096 | 8:05 |
+| 5 | 1622098 | 10:35 |
+| 6 | 1622100 | 13:59 |
+
+Cycle 16:31, 7.3 repeats, exactly 2:00:00, −15.8 LUFS, peak −1.0 dBFS. Delivered as WAV in four 30-minute parts (`KATANA_2h_part1..4.wav`).
+
+**🇺🇦 RU:** Убраны 1622094 (соль минор, остальные в ре миноре) и 1622097 (самая неровная громкость). Треки из одной пары рядом не стоят, в том числе на стыке круга. Круг 16:31, итог ровно 2 часа.
+
 ## §3 — Hero image (NanoBanana 16:9), two variants
 
 ### Variant A — the colossal blade (big-icon pattern, recommended)
@@ -87,7 +104,7 @@ A/B:
 Samurai Meditation Music — KATANA 刀 | The Sword and Zen Are One (2 Hours)
 ```
 
-## §8 — Description (timestamps and track names are filled in after the album is chosen)
+## §8 — Description
 ```
 Ken zen ichinyo (剣禅一如): the sword and Zen are one. For the old masters, practice with the katana was never only about cutting. Every slow movement was a way to train the mind: the same calm attention, the same breath, again and again, until nothing else was left.
 
@@ -99,7 +116,12 @@ Use it for:
 - seated meditation and breathwork
 - a calm mind before sleep
 
-[TRACKLIST]
+0:00 First Light on the Blade
+2:31 One Breath Before the Move
+5:03 The Sea of Clouds Below
+8:05 Steel Returns to Stillness
+10:35 Wind Across the Ridge
+13:59 The Form Begins Again
 (the cycle repeats until 2:00:00)
 
 More from StillWave Zen:
