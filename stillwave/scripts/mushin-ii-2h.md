@@ -136,3 +136,9 @@ stillwave, mushin, mushin no mind, empty mind, no mind meditation, samurai music
 ```
 
 **Upload settings:** Not for kids · Playlist "Japanese Zen Music" (+ "Samurai Zen Music") · first publish Scheduled/Unlisted · end screen → MUSHIN (`CamT9sohYQM`), and set MUSHIN's end screen → MUSHIN II.
+
+## §5 — Thumbnail v2 (2026-11-18)
+
+`stillwave/assets/mushin-ii-2h-thumb-v2.jpg` (1280x720), built by `mushin-ii-compose-thumb-v2.py`: white brush 無心, tracked serif "MUSHIN II", thin rules with a circle, "SAMURAI MEDITATION MUSIC" (the title keyword) in the starry left third. Cool moonlight grade, no warm tint.
+
+**🇺🇦 RU:** Превью в стиле v2, как у BUSHIDO и DOJO. Нижняя строка — ключ из названия «Samurai Meditation Music». Цвет холодный, лунный, без тёплой тонировки.
