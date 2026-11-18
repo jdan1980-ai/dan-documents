@@ -91,7 +91,7 @@ Samurai Meditation Music — KATANA 刀 | The Sword and Zen Are One (2 Hours)
 ```
 Ken zen ichinyo (剣禅一如): the sword and Zen are one. For the old masters, practice with the katana was never only about cutting. Every slow movement was a way to train the mind: the same calm attention, the same breath, again and again, until nothing else was left.
 
-Two hours of samurai meditation music for that kind of practice. A low shakuhachi flute, warm koto plucked one note at a time, a deep string drone underneath like steady breathing, and long silences between the phrases. No drums, no beats, nothing that rises or builds. One quiet level from the first minute to the last.
+Two hours of samurai meditation music for that kind of practice. A low shakuhachi flute, warm koto plucked one note at a time, a deep string drone underneath like steady breathing, long silences between the phrases, and a soft mountain wind moving across the ridge. No drums, no beats, nothing that rises or builds. One quiet level from the first minute to the last.
 
 Use it for:
 - deep focus, study and long work sessions
@@ -114,9 +114,9 @@ New Japanese Zen music every week. Subscribe if you want it in your feed.
 #samuraimusic #katana #samuraimeditation #zenmusic #deepfocus
 ```
 
-## §9 — Tags (24 tags, 478 characters)
+## §9 — Tags (24 tags)
 ```
-stillwave, katana, katana music, samurai music, samurai meditation music, samurai sword, samurai training music, samurai relaxing music, japanese zen music, zen music, meditation music, focus music, deep focus music, study music, sleep music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, ancient japan ambience, bushido, ken zen ichinyo, samurai practicing a slow kata with a katana on a misty mountain ridge above a sea of clouds, joe hisaishi
+stillwave, katana, katana music, samurai music, samurai meditation music, samurai sword, samurai training music, samurai relaxing music, japanese zen music, zen music, meditation music, focus music, deep focus music, study music, sleep music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, ancient japan ambience, bushido, mountain wind sounds, samurai practicing a slow kata with a katana on a misty mountain ridge above a sea of clouds, joe hisaishi
 ```
 
 ## §11 — Pinned comment
@@ -125,3 +125,9 @@ stillwave, katana, katana music, samurai music, samurai meditation music, samura
 ```
 
 **Upload settings:** Not for kids · Playlists "Japanese Zen Music" + "Samurai Meditation Music — Japanese Zen for Focus & Sleep" · first publish Scheduled/Unlisted · end screen → MUSHIN.
+
+## §10 — Ambient SFX bed (2026-11-18)
+
+The user will lay a mountain-wind track under the album in CapCut (separate layer, per the 2026-09-16 rule: never baked into the music prompt). Wind must be steady and soft, without gusts (a gust is a swell and wakes the listener), CC0 / royalty-free, about 12-18 dB under the music. Description and tags mention it.
+
+**🇺🇦 RU:** Ветер в горах — отдельной дорожкой в CapCut. Ровный и мягкий, без порывов (порыв — то же нарастание, будит слушателя), CC0, на 12–18 дБ тише музыки. В описание и теги ветер добавлен.

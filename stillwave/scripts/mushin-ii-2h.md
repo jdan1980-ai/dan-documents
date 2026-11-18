@@ -95,7 +95,7 @@ Samurai Meditation Music for an Empty Mind — MUSHIN II 無心 (2 Hours of Moon
 ```
 Mushin (無心) is the samurai's "mind without mind." Old masters described it with one image: a mind like still water. When the surface is calm, it reflects the moon exactly as it is. When thoughts stir it, the moon breaks into pieces.
 
-Two hours of samurai meditation music for an empty mind. A low shakuhachi flute, warm koto plucked one note at a time, a soft drone underneath like slow breathing, and long silences between the phrases. No drums, no beats, nothing that rises or builds. One quiet level from the first minute to the last.
+Two hours of samurai meditation music for an empty mind. A low shakuhachi flute, warm koto plucked one note at a time, a soft drone underneath like slow breathing, long silences between the phrases, and crickets singing softly in the night garden. No drums, no beats, nothing that rises or builds. One quiet level from the first minute to the last.
 
 The sequel to MUSHIN, the most-listened session on this channel.
 
@@ -127,7 +127,7 @@ New Japanese Zen music every week. Subscribe if you want it in your feed.
 
 ## §9 — Tags (24 tags, 462 characters)
 ```
-stillwave, mushin, mushin no mind, empty mind, no mind meditation, samurai music, samurai meditation music, samurai relaxing music, japanese zen music, zen music, meditation music, focus music, deep focus music, sleep music, study music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, ancient japan ambience, moonlight meditation music, the unattached mind, samurai meditating by a still pond under a giant full moon, joe hisaishi
+stillwave, mushin, mushin no mind, empty mind, no mind meditation, samurai music, samurai meditation music, samurai relaxing music, japanese zen music, zen music, meditation music, focus music, deep focus music, sleep music, study music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, ancient japan ambience, moonlight meditation music, crickets at night, the unattached mind, samurai meditating by a still pond under a giant full moon, joe hisaishi
 ```
 
 ## §11 — Pinned comment
@@ -142,3 +142,9 @@ stillwave, mushin, mushin no mind, empty mind, no mind meditation, samurai music
 `stillwave/assets/mushin-ii-2h-thumb-v2.jpg` (1280x720), built by `mushin-ii-compose-thumb-v2.py`: white brush 無心, tracked serif "MUSHIN II", thin rules with a circle, "SAMURAI MEDITATION MUSIC" (the title keyword) in the starry left third. Cool moonlight grade, no warm tint.
 
 **🇺🇦 RU:** Превью в стиле v2, как у BUSHIDO и DOJO. Нижняя строка — ключ из названия «Samurai Meditation Music». Цвет холодный, лунный, без тёплой тонировки.
+
+## §10 — Ambient SFX bed (2026-11-18)
+
+The user laid a crickets track under the album in CapCut. Description and tags now mention it ("crickets singing softly in the night garden", tag `crickets at night`). The SFX must be CC0 / royalty-free.
+
+**🇺🇦 RU:** Пользователь наложил звук сверчков в CapCut. В описание и теги добавлены сверчки. Звук должен быть CC0 / без роялти.
