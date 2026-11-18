@@ -62,3 +62,66 @@ Camera completely locked, no pan, no zoom. Throughout the entire clip, from the 
 **Lesson 2 (2026-11-18):** in the same clip a small puff of mist appeared under the blade during the cut. Cause: the prompt put "thick mist across the whole frame", so Flow tied the mist to the blade's motion. Fix: the mist now lives only in the valleys and low around the foot of the rocks, the air around the samurai is described as clear, and the cut is a slow practice stroke, not a strong one.
 
 **🇺🇦 RU:** Под клинком при разрезе появлялось облачко. Причина — в промпте туман был «по всему кадру», и Flow связал его с движением меча. Теперь туман только внизу, в долинах и у подножия скал, воздух вокруг самурая чистый, а разрез — медленное тренировочное движение, а не сильный удар.
+
+## §5 — Video loop, overlay, thumbnail (2026-11-18)
+
+- **Loop:** `KATANA_loop_19s_v2.mp4` — the reworked cut clip + the lowering clip, joined with 0.5 s dissolves, seamless (seam diff 0.73 vs median 0.36 per frame). Repeat in CapCut for 2 hours.
+- **Overlay:** `stillwave/assets/katana-ken-zen-ichinyo-overlay.png`, placed UPPER-LEFT over the sky (`--dy -560`, scrim 140). Placement checked on a frame of the Flow loop, which is darker and bluer than the still.
+- **Thumbnail:** `stillwave/assets/katana-2h-thumb-v2.jpg` (built by `katana-compose-thumb-v2.py`): same v2 layout as BUSHIDO / DOJO / MUSHIN II, but in **dark ink** (black brush 刀, dark serif KATANA) because the left third of the still is bright mist.
+
+**🇺🇦 RU:** Оверлей стоит слева вверху, на небе, проверен на кадре из самого видео (оно темнее картинки). Превью в том же стиле v2, но тёмной тушью: слева на кадре светлый туман, белый текст там не читается.
+
+## §6a — Wisdom overlay
+
+- **剣禅一如** · *Ken zen ichinyo* · "The sword and Zen are one" — the teaching of Yagyū Munenori and Takuan: the swordsman's skill and the Zen mind are a single practice.
+- CapCut: top track, 0:03 → 0:14, fade in 2 s / fade out 2 s.
+
+**🇺🇦 RU:** 剣禅一如 — «меч и дзэн едины». Учение Ягю Мунэнори и монаха Такуана: мастерство меча и дзэнский ум — одна практика.
+
+## §7 — Title
+```
+KATANA — 刀 | Samurai Meditation Music for Focus, Discipline & Inner Strength
+```
+A/B:
+```
+Samurai Meditation Music — KATANA 刀 | The Sword and Zen Are One (2 Hours)
+```
+
+## §8 — Description (timestamps and track names are filled in after the album is chosen)
+```
+Ken zen ichinyo (剣禅一如): the sword and Zen are one. For the old masters, practice with the katana was never only about cutting. Every slow movement was a way to train the mind: the same calm attention, the same breath, again and again, until nothing else was left.
+
+Two hours of samurai meditation music for that kind of practice. A low shakuhachi flute, warm koto plucked one note at a time, a deep string drone underneath like steady breathing, and long silences between the phrases. No drums, no beats, nothing that rises or builds. One quiet level from the first minute to the last.
+
+Use it for:
+- deep focus, study and long work sessions
+- training, stretching and slow movement
+- seated meditation and breathwork
+- a calm mind before sleep
+
+[TRACKLIST]
+(the cycle repeats until 2:00:00)
+
+More from StillWave Zen:
+MUSHIN — Japanese Zen Music for Deep Focus: https://youtu.be/CamT9sohYQM
+BUSHIDO — Japanese Samurai Music for Calm & Quiet Discipline: https://youtu.be/pxjc2GIyvBY
+Miyamoto Musashi — Samurai Meditation for Stress Relief: https://youtu.be/mJ3RMn3J4B8
+
+"The mind must always be in a state of flow." — Takuan Sōhō, The Unfettered Mind
+
+New Japanese Zen music every week. Subscribe if you want it in your feed.
+
+#samuraimusic #katana #samuraimeditation #zenmusic #deepfocus
+```
+
+## §9 — Tags (24 tags, 478 characters)
+```
+stillwave, katana, katana music, samurai music, samurai meditation music, samurai sword, samurai training music, samurai relaxing music, japanese zen music, zen music, meditation music, focus music, deep focus music, study music, sleep music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, ancient japan ambience, bushido, ken zen ichinyo, samurai practicing a slow kata with a katana on a misty mountain ridge above a sea of clouds, joe hisaishi
+```
+
+## §11 — Pinned comment
+```
+🌀 刀 KATANA — 剣禅一如, the sword and Zen are one: every slow movement trains the mind, not only the hand. 🍃 What is the one thing you practise again and again until it becomes calm? Subscribe for more Japanese zen focus sessions every week 🌿
+```
+
+**Upload settings:** Not for kids · Playlists "Japanese Zen Music" + "Samurai Meditation Music — Japanese Zen for Focus & Sleep" · first publish Scheduled/Unlisted · end screen → MUSHIN.
