@@ -4,7 +4,7 @@
 Motions: two candle flames flicker and sway, their warm light trembles on the gold leaf and the
 floor, the wolf's gold eyes glimmer, the painted ink clouds on the left doors undulate slowly,
 and the painted wolf's body "breathes" (a sub-percent swell of the torso).
-Usage: python3 okami-animate.py SRC.jpg OUT.mp4 [seconds=12]
+Usage: python3 okami-animate.py SRC.jpg OUT.mp4 [seconds=12] [output width, e.g. 3840]
 """
 import sys, subprocess
 import numpy as np, cv2
@@ -13,9 +13,13 @@ src, out = sys.argv[1], sys.argv[2]
 T = float(sys.argv[3]) if len(sys.argv) > 3 else 12.0
 FPS = 24; N = int(T * FPS)
 B = cv2.imread(src).astype(np.float32)  # BGR
+if len(sys.argv) > 4:                      # optional output width, e.g. 3840 for 4K
+    ow = int(sys.argv[4]); B = cv2.resize(B, (ow, round(ow * B.shape[0] / B.shape[1])), interpolation=cv2.INTER_LANCZOS4)
 H, W = B.shape[:2]
+S = W / 1920.0                             # all positions below are given for a 1920x1080 frame
 rng = np.random.default_rng(5)
-yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+Yp, Xp = np.mgrid[0:H, 0:W].astype(np.float32)   # pixel grid
+yy, xx = Yp / S, Xp / S                            # design grid (1920x1080 units)
 
 def pnoise(t, ks, amp=1.0):
     """smooth periodic noise in [-1,1]-ish, integer cycles per loop -> seamless"""
@@ -28,13 +32,13 @@ FLAMES = [(721, 502, 525), (1733, 502, 525)]   # x, flame centre y, flame base y
 bg = B.copy()
 core = np.zeros((H, W), np.uint8)
 for fx, fy, fb in FLAMES:
-    cv2.ellipse(core, (fx, fy - 2), (9, 21), 0, 0, 360, 255, -1)
-bg = cv2.inpaint(B.astype(np.uint8), cv2.dilate(core, np.ones((5, 5))), 5, cv2.INPAINT_TELEA).astype(np.float32)
+    cv2.ellipse(core, (round(fx * S), round((fy - 2) * S)), (round(9 * S), round(21 * S)), 0, 0, 360, 255, -1)
+bg = cv2.inpaint(B.astype(np.uint8), cv2.dilate(core, np.ones((round(5 * S), round(5 * S)))), 5, cv2.INPAINT_TELEA).astype(np.float32)
 lum = B.mean(2)
-flame_alpha = np.clip((lum - 120) / 100, 0, 1) * (cv2.GaussianBlur(core.astype(np.float32), (0, 0), 3) / 255 > 0.05)
+flame_alpha = np.clip((lum - 120) / 100, 0, 1) * (cv2.GaussianBlur(core.astype(np.float32), (0, 0), 3 * S) / 255 > 0.05)
 for fx, fy, fb in FLAMES:   # the wax below the flame is not part of the flame
-    flame_alpha[fb - 1:, fx - 30:fx + 30] = 0
-flame_alpha = cv2.GaussianBlur(flame_alpha.astype(np.float32), (0, 0), 1.2)
+    flame_alpha[round((fb - 1) * S):, round((fx - 30) * S):round((fx + 30) * S)] = 0
+flame_alpha = cv2.GaussianBlur(flame_alpha.astype(np.float32), (0, 0), 1.2 * S)
 
 flick = [pnoise(None, [5, 7, 11, 13, 17]), pnoise(None, [6, 9, 12, 15, 19])]
 sway = [pnoise(None, [3, 4, 7]), pnoise(None, [2, 5, 8])]
@@ -45,17 +49,17 @@ eye_glow = sum(1.0 * gauss(x, y, 5) + 0.55 * gauss(x, y, 14) + 0.22 * gauss(x, y
 eye_pulse = pnoise(None, [1, 2])
 
 # ink clouds on the left doors: soft mask, kept away from the left candle
-cloud = np.zeros((H, W), np.float32)
+cloud = np.zeros((1080, 1920), np.float32)
 cv2.rectangle(cloud, (0, 60), (650, 680), 1, -1)
 cv2.rectangle(cloud, (650, 60), (900, 250), 1, -1)
-cloud = cv2.GaussianBlur(cloud, (0, 0), 40)
+cloud = cv2.resize(cv2.GaussianBlur(cloud, (0, 0), 40), (W, H), interpolation=cv2.INTER_LINEAR)
 # the wooden door frames must not bend: no displacement near the vertical rails or the top rail
 RAILS = [196, 574, 959, 1336, 1708]
 dist = np.min(np.abs(xx[None] - np.array(RAILS, np.float32)[:, None, None]), axis=0)
 cloud *= np.clip((dist - 10) / 30, 0, 1) * np.clip((yy - 45) / 30, 0, 1)
 # wolf torso for the breath
 torso = gauss(1428, 301, 167) * (xx > 1180)
-torso = cv2.GaussianBlur(torso.astype(np.float32), (0, 0), 20)
+torso = cv2.GaussianBlur(torso.astype(np.float32), (0, 0), 20 * S)
 
 ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{W}x{H}",
                        "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-crf", "16", "-preset", "slow",
@@ -69,12 +73,13 @@ for i in range(N):
     br = 0.006 * np.sin(2 * ph)                       # two breaths per loop
     dy += torso * br * (yy - 401)                      # swell up from the belly line
     dx += torso * br * 0.5 * (xx - 1428)
-    frame = cv2.remap(bg, xx - dx, yy - dy, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+    frame = cv2.remap(bg, Xp - dx * S, Yp - dy * S, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
     # flames: scale/sway around their base, then lay over the flameless background
     for k, (fx, fy, fb) in enumerate(FLAMES):
         f = flick[k](t); s = 1 + 0.12 * f; sw = 1.6 * sway[k](t)
         sh = 0.03 * sway[k](t)   # lean around the flame base, not around y=0
-        M = np.float32([[1 - 0.04 * f, sh, fx * 0.04 * f + sw - sh * fb], [0, s, fb * (1 - s)]])
+        X0, Y0 = fx * S, fb * S
+        M = np.float32([[1 - 0.04 * f, sh, X0 * 0.04 * f + sw * S - sh * Y0], [0, s, Y0 * (1 - s)]])
         Mf = cv2.warpAffine(B, M, (W, H), flags=cv2.INTER_LINEAR)
         Ma = cv2.warpAffine(flame_alpha, M, (W, H), flags=cv2.INTER_LINEAR)
         Ma = Ma * (np.abs(xx - fx) < 40) * (np.abs(yy - fy) < 60)
