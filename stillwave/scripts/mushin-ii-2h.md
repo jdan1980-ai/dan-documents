@@ -72,3 +72,61 @@ Camera completely locked, no pan, no zoom, no movement of the frame. Keep the im
 - CapCut: top track, 0:03 → 0:14, fade in 2 s / fade out 2 s.
 
 **🇺🇦 RU:** 無念無想 — «ни мысли, ни образа»: состояние мусин, ум пустой, как тихая вода. Положение уточню по готовому кадру.
+
+## §7 — Title (VidIQ title score, 2026-11-18)
+```
+MUSHIN II — 無心 | Samurai Meditation Music for an Empty Mind & Deep Focus
+```
+Score 76. A/B (score 73):
+```
+Samurai Meditation Music for an Empty Mind — MUSHIN II 無心 (2 Hours of Moonlit Zen)
+```
+(Third variant "MUSHIN II — Samurai Music for an Empty Mind | Moonlit Zen Meditation (2 Hours)" scored 71.)
+
+**🇺🇦 RU:** Основное название получило 76 баллов в VidIQ, запасное — 73. В обоих есть «Samurai Meditation Music» (28,6 тыс. запросов) и растущее «empty mind».
+
+## §8 — Description
+```
+Mushin (無心) is the samurai's "mind without mind." Old masters described it with one image: a mind like still water. When the surface is calm, it reflects the moon exactly as it is. When thoughts stir it, the moon breaks into pieces.
+
+Two hours of samurai meditation music for an empty mind. A low shakuhachi flute, warm koto plucked one note at a time, a soft drone underneath like slow breathing, and long silences between the phrases. No drums, no beats, nothing that rises or builds. One quiet level from the first minute to the last.
+
+The sequel to MUSHIN, the most-listened session on this channel.
+
+Use it for:
+- seated meditation and zazen
+- deep focus, study and long work sessions
+- falling asleep with a quiet mind
+- letting go of the day before bed
+
+0:00 Still Water Under the Moon
+2:55 The Moon Does Not Hold the Pond
+5:38 One Thought Sinks Like a Stone
+8:18 Stars on the Dark Surface
+10:47 Nothing to Hold, Nothing to Chase
+13:18 The Surface Settles Again
+(the cycle repeats until 2:00:00)
+
+More from StillWave Zen:
+MUSHIN — Japanese Zen Music for Deep Focus: https://youtu.be/CamT9sohYQM
+BUSHIDO — Japanese Samurai Music for Calm & Quiet Discipline: https://youtu.be/pxjc2GIyvBY
+Miyamoto Musashi — Samurai Meditation for Stress Relief: https://youtu.be/mJ3RMn3J4B8
+
+無念無想 — munen musō: no thought, no imagining. Just the moon on still water.
+
+New Japanese Zen music every week. Subscribe if you want it in your feed.
+
+#samuraimusic #mushin #zenmusic #samuraimeditation #deepfocus
+```
+
+## §9 — Tags (24 tags, 462 characters)
+```
+stillwave, mushin, mushin no mind, empty mind, no mind meditation, samurai music, samurai meditation music, samurai relaxing music, japanese zen music, zen music, meditation music, focus music, deep focus music, sleep music, study music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, ancient japan ambience, moonlight meditation music, the unattached mind, samurai meditating by a still pond under a giant full moon, joe hisaishi
+```
+
+## §11 — Pinned comment
+```
+🌀 無心 MUSHIN — a mind like still water: calm enough to reflect the moon exactly as it is. 🍃 What stirs your water the most: thoughts about yesterday, or thoughts about tomorrow? Subscribe for more Japanese zen focus sessions every week 🌿
+```
+
+**Upload settings:** Not for kids · Playlist "Japanese Zen Music" (+ "Samurai Zen Music") · first publish Scheduled/Unlisted · end screen → MUSHIN (`CamT9sohYQM`), and set MUSHIN's end screen → MUSHIN II.
