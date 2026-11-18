@@ -15,6 +15,7 @@ FPS = 24; N = int(T * FPS)
 B = cv2.imread(src).astype(np.float32)  # BGR
 if len(sys.argv) > 4:                      # optional output width, e.g. 3840 for 4K
     ow = int(sys.argv[4]); B = cv2.resize(B, (ow, ow * 9 // 16), interpolation=cv2.INTER_LANCZOS4)   # exact 16:9, even height
+    B = np.clip(B, 0, 255)   # Lanczos overshoot would wrap around in the uint8 inpaint step
 H, W = B.shape[:2]
 S = W / 1920.0                             # all positions below are given for a 1920x1080 frame
 rng = np.random.default_rng(5)
