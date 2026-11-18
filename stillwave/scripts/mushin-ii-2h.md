@@ -7,7 +7,7 @@
 - **Playlist (add to in Studio):** Japanese Zen Music (+ "Samurai Zen Music")
 - **Format:** 8 Musicful tracks (4 requests = 24 units), best 6 used, one cycle, YouTube copyright check, then 2 hours.
 - **Working folder on the PC:** `Desktop\StillWaveZen\MUSHIN II\`
-- **Status (2026-11-17):** VidIQ check done, frame approved (`stillwave/assets/mushin-ii-2h-source.jpg`, black bars cropped, 3840x2160), overlay placed lower-left (zone brightness 8 / 4), music generation launched (branch `claude/mushin-ii-musicful`).
+- **Status (2026-11-17):** VidIQ check done, frame approved (`stillwave/assets/mushin-ii-2h-source.jpg`, black bars cropped, 3840x2160), overlay placed lower-left (zone brightness 8 / 4), 2-hour track built 2026-11-18 (§2).
 
 **🇺🇦 RU:** Продолжение MUSHIN — единственного видео канала, которое реально работает. Образ мусина — ум как тихая вода, в которой отражается луна. Одинокий самурай у неподвижного пруда под огромной луной.
 
@@ -31,6 +31,23 @@ Outliers (samurai meditation, last 6 months): the top breakout is "Samurai under
 ## §1 — Music (Musicful)
 
 Prompt: `stillwave/scripts/mushin-ii-musicful-prompt.txt` (917 characters; quiet, no percussion, length cue).
+
+## §2 — Album (2026-11-18)
+
+8 tracks generated (branch `claude/mushin-ii-musicful`, 142 → 118 units). The 22-minute check video with all 8 tracks was cleared by the user. Dropped: `1621035` (F minor) and `1621040` (G minor); the other six sit in D minor / F major. Order keeps tracks from the same request apart, including across the loop point.
+
+| # | Track | Starts in the cycle |
+|---|---|---|
+| 1 | 1621034 | 0:00 |
+| 2 | 1621036 | 2:55 |
+| 3 | 1621038 | 5:38 |
+| 4 | 1621041 | 8:18 |
+| 5 | 1621037 | 10:47 |
+| 6 | 1621039 | 13:18 |
+
+Cycle 15:56, 7.5 repeats, exactly 2:00:00, −15.6 LUFS, peak −1.0 dBFS. Delivered as WAV in four 30-minute parts (`MUSHIN_II_2h_part1..4.wav`), to be joined into one file before CapCut.
+
+**🇺🇦 RU:** Убраны 1621035 (фа минор) и 1621040 (соль минор), остальные шесть в ре миноре / фа мажоре. Треки из одной пары рядом не стоят, в том числе на стыке круга. Круг 15:56, итог ровно 2 часа. Отдано WAV в 4 частях по 30 минут.
 
 ## §3 — Hero image (NanoBanana 16:9)
 ```
