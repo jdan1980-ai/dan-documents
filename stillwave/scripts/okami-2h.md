@@ -83,3 +83,9 @@ stillwave, okami, wolf music, wolf meditation music, japanese wolf, lone wolf, s
 ```
 
 **Upload settings:** Not for kids · Playlists "Japanese Zen Music" + "Samurai Meditation Music — Japanese Zen for Focus & Sleep" · first publish Scheduled/Unlisted · end screen → MUSHIN.
+
+## §5 — Thumbnail v2 (2026-11-18)
+
+`stillwave/assets/okami-2h-thumb-v2.jpg` (built by `okami-compose-thumb-v2.py`): white brush 狼, tracked serif OKAMI, thin rules with a circle, "SAMURAI MEDITATION MUSIC" over the dark ink clouds; the wolf's eyes glow as in the video.
+
+**🇺🇦 RU:** Превью v2: белый 狼, OKAMI и строка-ключ на тёмных облаках туши слева. Глаза волка светятся, как в видео.
