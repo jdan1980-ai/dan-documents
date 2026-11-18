@@ -86,6 +86,7 @@ Subscribe for new Japanese zen and focus sessions every week 🌿
 | **Tokyo Rain Deep Work — Focus Music** | Tokyo Rain Marathon + Tokyo Snowfall Coding + Tokyo Rain & Vinyl Café + Pomodoro 25/5 + Pomodoro 50/10 |
 | **Solfeggio Frequencies** (528Hz, 852Hz, …) | All Hz videos: 528 Hz (Overthinking, Sound Bath, DNA Repair, 3H, 8H) + 852 Hz Monks' Secret + 963 Hz + 639 Hz + 432 Hz |
 | **StillWave Shorts — Japanese Zen & Frequencies** | ALL Shorts videos regardless of long-form parent |
+| **Samurai Meditation Music — Japanese Zen for Focus & Sleep** (added 2026-11-18) | The samurai lane, MUSHIN first: MUSHIN, MUSHIN II, GAMAN, BUSHIDO, DOJO, RONIN, KATANA, Miyamoto Musashi, ZANSHIN, FUDOSHIN, GARYŪ, HACHIMAN, MAKOTO, Samurai Silence & Rain, HI. Videos stay in **Japanese Zen Music** too (a video can sit in several playlists). Every new samurai video goes into BOTH. |
 
 **Shorts rule:** every Shorts video goes into **StillWave Shorts — Japanese Zen & Frequencies** regardless of the long-form parent playlist.
 
