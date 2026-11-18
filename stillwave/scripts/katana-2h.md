@@ -67,7 +67,7 @@ Camera completely locked, no pan, no zoom. Throughout the entire clip, from the 
 
 - **Loop:** `KATANA_loop_19s_v2.mp4` — the reworked cut clip + the lowering clip, joined with 0.5 s dissolves, seamless (seam diff 0.73 vs median 0.36 per frame). Repeat in CapCut for 2 hours.
 - **Overlay:** `stillwave/assets/katana-ken-zen-ichinyo-overlay.png`, placed UPPER-LEFT over the sky (`--dy -560`, scrim 140). Placement checked on a frame of the Flow loop, which is darker and bluer than the still.
-- **Thumbnail:** `stillwave/assets/katana-2h-thumb-v2.jpg` (built by `katana-compose-thumb-v2.py`): same v2 layout as BUSHIDO / DOJO / MUSHIN II, but in **dark ink** (black brush 刀, dark serif KATANA) because the left third of the still is bright mist.
+- **Thumbnail:** two variants for the user to pick: `katana-2h-thumb-v2.jpg` (dark ink) and `katana-2h-thumb-v2-white.jpg` (white type on a darkened left third, `--white`), both built by `katana-compose-thumb-v2.py`: same v2 layout as BUSHIDO / DOJO / MUSHIN II, but in **dark ink** (black brush 刀, dark serif KATANA) because the left third of the still is bright mist.
 
 **🇺🇦 RU:** Оверлей стоит слева вверху, на небе, проверен на кадре из самого видео (оно темнее картинки). Превью в том же стиле v2, но тёмной тушью: слева на кадре светлый туман, белый текст там не читается.
 
