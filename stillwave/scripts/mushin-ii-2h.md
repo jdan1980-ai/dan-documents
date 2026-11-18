@@ -60,10 +60,16 @@ The left half was empty. A starfield (denser on the left, fading out near the mo
 
 **🇺🇦 RU:** Левую половину заполнили звёздным небом и его отражением в воде. Звёзды наложены скриптом на одобренный кадр, поэтому луна, самурай и мечи не изменились.
 
-## §4 — Flow loop (8 s, camera locked) — v3, starry left half
+## §4 — Flow loop v4 (2026-11-18, after the first Flow test)
+
+Problem with v3: ripples started at frame 1 as waves travelling left to right, and the mist only appeared once the clip began. Fix: the mist is now painted into the start frame (`stillwave/assets/mushin-ii-2h-source-mist.jpg`, made by `mushin-ii-add-mist.py`), and the prompt asks for one constant fine shimmer from the first frame to the last.
+
+Start frame: `mushin-ii-2h-source-mist.jpg`
 ```
-Camera completely locked, no pan, no zoom, no movement of the frame. Keep the image exactly as it is, every star stays in its exact place. Subtle motion only: the stars in the night sky twinkle very softly and slowly, a few at a time; their reflections in the dark water on the left shimmer gently as slow, wide ripples pass across the pond and settle again; the moon's reflection shimmers softly as the ripples pass; a thin, low layer of silver mist drifts very slowly over the water from the left edge toward the island. The samurai stays perfectly still, the moon stays perfectly still, the swords and the stone do not move, no new objects appear. Calm, hypnotic, seamless loop: the last frame matches the first frame.
+Camera completely locked, no pan, no zoom, no movement of the frame. The image starts exactly as given and keeps the same calm state from the very first frame to the very last frame. The whole pond surface has a constant, very fine, delicate shimmer: tiny soft ripples everywhere at once, evenly spread over the entire water, the same gentle texture in every frame, so the reflections of the moon, the trees and the stars tremble very slightly in place. The thin low mist that already lies over the water stays where it is and only breathes very slowly in place, softly thickening and thinning. The stars twinkle very softly. The samurai, the moon, the stone, the swords and the trees stay perfectly still. Nothing enters the frame and nothing leaves it. Seamless loop: the last frame matches the first frame.
 ```
+
+**🇺🇦 RU:** В первом тесте круги шли слева направо, а туман появлялся только с началом ролика. Теперь туман уже нарисован в стартовом кадре, а в промпте с первого кадра до последнего одна и та же мелкая рябь по всей воде. Слова «волны» и «круги» в промпте нарочно не упоминаются, даже с запретом.
 
 ## §6a — Wisdom overlay
 
