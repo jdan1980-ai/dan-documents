@@ -31,7 +31,26 @@ Frame: `stillwave/assets/katana-2h-source.jpg` (black bars cropped, 3840x2160). 
 
 **🇺🇦 RU:** Выбран кадр с тренировкой. Левая треть светлая (туман), поэтому текст там будет тёмный, как тушь на бумаге, а не кремовый.
 
-## §4 — Flow loop (8 s) — for the chosen kata frame
+## §4 — Flow loops v2 (2026-11-18): living atmosphere + three kata moves
+
+First Flow test: only the blade moved, the mist and the clothes stood still. Fix: the wind, mist and cloth motion go FIRST in the prompt and are stated for the whole clip. Each move is a separate 8 s clip that starts AND ends on the same frame (Flow: Frames to video, first frame = last frame = `katana-2h-source.jpg`), so the three clips can be joined in any order without a jump: 1 → 2 → 3 = 24 s, repeated ~300 times in 2 hours instead of ~900.
+
+Do not generate fast and slow it down in CapCut: Flow renders 24 fps, a 3x slow-down leaves 8 fps (stutter) or optical-flow artefacts on the thin blade and the mist. Ask for slow motion in the prompt instead.
+
+**🇺🇦 RU:** В первом тесте двигался только клинок. Теперь ветер, туман и одежда стоят в начале промпта и заданы на весь клип. Три разных движения — три клипа по 8 секунд, у каждого первый и последний кадр одинаковые, поэтому их можно склеить в любом порядке. Быстро снимать и замедлять в CapCut не советую: будет дёргаться или клинок поплывёт.
+
+### Move 1 — lower and return
 ```
-Camera completely locked, no pan, no zoom, no movement of the frame. The samurai performs one slow, controlled kata movement and returns exactly to where he began: over four seconds he slowly lowers the katana from this forward guard until the blade points down at the rock in front of him, and over the next four seconds he slowly raises it back to exactly the same forward guard as in the first frame. Both hands stay on the handle the whole time. The movement is smooth, continuous and very slow, like a breath out and a breath in. His feet stay planted, his body stays balanced, the blade stays straight, rigid and keeps its exact shape and length; the empty scabbard stays at his hip. As the angle of the blade changes, the soft light glints slowly along its edge. The mist drifts gently in the valleys and around the rocks, the hem of his hakama stirs slightly in the mountain wind. The mountains and the clouds stay still. Seamless loop: the last frame matches the first frame exactly.
+Camera completely locked, no pan, no zoom. Throughout the entire clip, from the first frame to the last, a steady mountain wind blows from left to right: thick mist flows continuously across the whole frame and through the valleys, wisps of cloud stream past the rocks, the sleeves of his kimono and the wide hakama ripple and flutter constantly in the wind, loose strands of his hair stir, the small pine bushes on the ledge sway. The samurai slowly lowers the katana from this forward guard until the blade points down at the rock in front of him, then slowly raises it back to exactly the same forward guard as in the first frame, like a breath out and a breath in. His feet stay planted, both hands stay on the handle, the blade stays straight, rigid and keeps its exact shape and length, the empty scabbard stays at his hip. Real-time slow, graceful motion. The last frame matches the first frame exactly.
 ```
+
+### Move 2 — side guard and return
+```
+Camera completely locked, no pan, no zoom. Throughout the entire clip, from the first frame to the last, a steady mountain wind blows from left to right: thick mist flows continuously across the whole frame and through the valleys, wisps of cloud stream past the rocks, the sleeves of his kimono and the wide hakama ripple and flutter constantly in the wind, loose strands of his hair stir, the small pine bushes on the ledge sway. The samurai slowly draws the katana down and back to his right side, the blade low behind his right hip pointing back, his body turning slightly, holds for a moment, then slowly brings it forward again to exactly the same forward guard as in the first frame. His feet stay planted, both hands stay on the handle, the blade stays straight, rigid and keeps its exact shape and length, the empty scabbard stays at his hip. Real-time slow, graceful motion. The last frame matches the first frame exactly.
+```
+
+### Move 3 — one slow cut and return
+```
+Camera completely locked, no pan, no zoom. Throughout the entire clip, from the first frame to the last, a steady mountain wind blows from left to right: thick mist flows continuously across the whole frame and through the valleys, wisps of cloud stream past the rocks, the sleeves of his kimono and the wide hakama ripple and flutter constantly in the wind, loose strands of his hair stir, the small pine bushes on the ledge sway. The samurai slowly raises the katana a little higher, then performs one slow, controlled diagonal cut downward through the air from upper right to lower left, holds the finished position for a moment, then slowly returns the blade to exactly the same forward guard as in the first frame. His feet stay planted, both hands stay on the handle, the blade stays straight, rigid and keeps its exact shape and length, the empty scabbard stays at his hip. Real-time slow, graceful motion. The last frame matches the first frame exactly.
+```
+
