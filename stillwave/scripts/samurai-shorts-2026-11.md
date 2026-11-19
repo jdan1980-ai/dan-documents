@@ -39,7 +39,7 @@ Description:
 ```
 Dojo (道場), the place of the way. An empty room, a wooden floor, and one rule: leave everything at the door.
 
-Full 2-hour samurai meditation music on the channel: [DOJO link]
+Full 2-hour samurai meditation music on the channel: https://youtu.be/sV1xoJKKIw0
 
 #shorts #dojo #samurai #samuraimusic #zenmusic #meditationmusic
 ```
@@ -61,7 +61,7 @@ Description:
 ```
 Ronin (浪人), a "wave man": a samurai with no lord and no home, free as the sea. Only the road.
 
-Full 2-hour samurai zen music on the channel: [RONIN link]
+Full 2-hour samurai zen music on the channel: https://youtu.be/GNe88uwbsFg
 
 #shorts #ronin #samurai #samuraimusic #zenmusic #meditationmusic
 ```
