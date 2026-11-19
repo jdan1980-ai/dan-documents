@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """ŌKAMI — animate the still frame without Flow (seamless loop, every motion is periodic).
 
-Motions: two candle flames flicker and sway, their warm light trembles on the gold leaf and the
+Motions: gold dust motes drift up through the hall; two candle flames flicker and sway, their warm light trembles on the gold leaf and the
 floor, the wolf's gold eyes glimmer, the painted ink clouds on the left doors undulate slowly,
 and the painted wolf's body "breathes" (a sub-percent swell of the torso).
 Usage: python3 okami-animate.py SRC.jpg OUT.mp4 [seconds=12] [output width, e.g. 3840]
@@ -62,8 +62,28 @@ cloud *= np.clip((dist - 10) / 30, 0, 1) * np.clip((yy - 45) / 30, 0, 1)
 torso = gauss(1428, 301, 167) * (xx > 1180)
 torso = cv2.GaussianBlur(torso.astype(np.float32), (0, 0), 20 * S)
 
+# gold dust motes drifting up through the hall (seamless: each mote rises k full heights per loop)
+NM = 55
+m_x = rng.uniform(0, 1920, NM); m_y = rng.uniform(0, 1080, NM)
+m_k = rng.choice([1, 1, 2], NM)                    # loop-heights per loop (slow / a bit faster)
+m_r = rng.uniform(1.4, 4.2, NM) * np.where(m_k == 2, 1.25, 1.0)
+m_ph = rng.uniform(0, 2 * np.pi, NM); m_sw = rng.integers(1, 3, NM)
+m_a = rng.uniform(0.35, 0.9, NM)
+GOLD = np.array([80, 178, 236], np.float32)        # BGR
+def add_dust(frame, t):
+    for i in range(NM):
+        x = (m_x[i] + 22 * np.sin(2 * np.pi * m_sw[i] * t / T + m_ph[i])) % 1920
+        y = (m_y[i] - 1080 * m_k[i] * t / T) % 1080
+        b = m_a[i] * (0.55 + 0.45 * np.sin(2 * np.pi * 3 * t / T + 3 * m_ph[i]))
+        r = m_r[i] * S; X, Y = x * S, y * S; R = int(r * 3) + 2
+        x0, x1, y0, y1 = max(int(X) - R, 0), min(int(X) + R + 1, W), max(int(Y) - R, 0), min(int(Y) + R + 1, H)
+        if x0 >= x1 or y0 >= y1: continue
+        g = np.exp(-((Xp[y0:y1, x0:x1] - X) ** 2 + (Yp[y0:y1, x0:x1] - Y) ** 2) / (2 * r * r)) * b
+        frame[y0:y1, x0:x1] += g[..., None] * GOLD
+    return frame
+
 ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{W}x{H}",
-                       "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-crf", "16", "-preset", "slow",
+                       "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-crf", "12", "-preset", "slow", "-profile:v", "high", "-tune", "film",
                        "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
 for i in range(N):
     t = i / FPS
@@ -91,6 +111,7 @@ for i in range(N):
     # eyes glimmer
     e = 0.65 + 0.35 * (0.5 + 0.5 * eye_pulse(t))
     frame += (eye_glow * e)[..., None] * np.array([45, 150, 240], np.float32) * 0.6
+    frame = add_dust(frame, t)
     ff.stdin.write(np.clip(frame, 0, 255).astype(np.uint8).tobytes())
 ff.stdin.close(); ff.wait()
 print("saved", out, N, "frames")
