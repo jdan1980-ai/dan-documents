@@ -119,3 +119,25 @@ Pinned:
 ```
 🌀 What is the one thing you practise again and again until it becomes calm? Full 2 hours of KATANA on the channel 🌿
 ```
+
+## ŌKAMI (version B — motion graphics, built by `okami-short-motion.py`)
+Title:
+```
+In Old Japan, the Wolf Was a God
+```
+Description (insert the long-form link):
+```
+Ōkami (狼), the wolf. In old Japan it was not feared but worshipped: its name sounds like "great god," and the mountain shrines honoured it as the guardian of the mountains, watching over those who walk alone at night.
+
+Full 2-hour samurai meditation music on the channel: [OKAMI link]
+
+#shorts #okami #wolf #samurai #samuraimusic #zenmusic
+```
+Tags:
+```
+okami, wolf, japanese wolf, wolf god, lone wolf, samurai, samurai music, samurai meditation music, japanese zen music, meditation music, wolf painting, shorts
+```
+Pinned:
+```
+🌀 What helps you stay calm when you have to walk your own path? Full 2 hours of ŌKAMI on the channel 🌿
+```
