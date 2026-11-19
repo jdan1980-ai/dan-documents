@@ -43,7 +43,12 @@ Under everything runs the video's own seamless loop (`<slug>-animate.py` output)
 
 **🇺🇦 RU:** 1) Отрендерить петлю видео. 2) Скачать файл черт иероглифа из KanjiVG. 3) Под каждое видео поменять: точку свечения для хука (глаза животного; если глаз нет — луна, клинок, фонарь), центры и зум трёх кадров, файл иероглифа, тексты, точки старта клякс. 4) Рендер ~4–5 минут. 5) Проверить кадры: вспышка не «фары», самурай не обрезан, текст в безопасной зоне. 6) Музыка из альбома, не трек с клеймом.
 
-## A/B test (ŌKAMI)
+## ~~A/B test (ŌKAMI)~~ — cancelled 2026-11-19
+
+**User decision: no A/B. Version B is the standard Shorts format from now on; version A is retired.** (Original plan kept below for reference.)
+
+**🇺🇦 RU:** Решение пользователя: A/B не делаем. Версия B — стандарт для всех Shorts, версия A больше не используется.
+
 
 Publish version A (template) and version B 2–3 days apart at the same hour, same title formula, Related video = the long-form. After 7 days compare in Studio: **"Viewed vs swiped away"** and **average view duration**. If B wins, B becomes the standard Shorts format and `samurai-short-build.py` is replaced by a per-slug motion builder.
 
