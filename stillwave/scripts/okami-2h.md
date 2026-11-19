@@ -10,6 +10,23 @@
 
 **🇺🇦 RU:** Огромный волк, написанный тушью и золотом на раздвижных дверях-фусума тёмного храмового зала, как будто оживает, пока перед ним сидит самурай. В Японии волк — «великий бог», хранитель гор. Тигр и дракон у нас уже были, волк — нет.
 
+## §2 — Album (2026-11-19)
+
+8 tracks generated (branch `claude/okami-musicful`, 94 → 70 units). The 21-minute check video with all 8 tracks was cleared by the user. Dropped: `1622174` (A♯ major, the widest loudness range of the batch, 17.2 dB) and `1622169` (G minor; its pair `1622170` is kept as the one G-minor colour among five D-minor tracks). Order keeps tracks from the same request apart, including across the loop point.
+
+| # | Track | Starts in the cycle |
+|---|---|---|
+| 1 | 1622167 | 0:00 |
+| 2 | 1622171 | 2:40 |
+| 3 | 1622173 | 5:06 |
+| 4 | 1622168 | 7:39 |
+| 5 | 1622172 | 10:28 |
+| 6 | 1622170 | 13:14 |
+
+Cycle 16:11, 7.4 repeats, exactly 2:00:00, −15.7 LUFS, peak −1.0 dBFS. Delivered as WAV in four 30-minute parts (`OKAMI_2h_part1..4.wav`).
+
+**🇺🇦 RU:** Убраны 1622174 (си-бемоль мажор, самая неровная громкость) и 1622169 (соль минор; его пара 1622170 оставлена как единственный соль-минорный цвет среди пяти ре-минорных). Треки из одной пары рядом не стоят. Круг 16:11, итог ровно 2 часа.
+
 ## §3 — Hero image (NanoBanana 16:9)
 ```
 Photorealistic cinematic still, 16:9, 4K, like a frame from a Kurosawa film. Night in a vast, dark old Japanese temple hall. The entire back wall is a row of tall sliding doors (fusuma) painted as one colossal ancient artwork: a giant Japanese wolf in black sumi ink and aged gold leaf, standing on a rocky mountain ridge among swirling ink clouds, its head lowered, calm and watchful, the wolf many times larger than a man. The painting looks almost alive: the brushstrokes of the fur feel soft and deep, and the wolf's eyes, painted in gold, catch the light and seem to look straight down at the hall. A lone samurai in a plain dark hakama and dark kimono kneels in seiza on the polished wooden floor before the painting, back to camera, face never visible, small against the wolf, slightly right of center, his hands resting on his thighs. EXACTLY TWO sheathed swords, a katana and a shorter wakizashi, rest on a low wooden sword rack beside him. NO third sword. NO drawn sword. NO sword in his hands. Two tall candle stands on either side of him give warm flickering light that glows on the gold leaf and reflects on the floor. The left third of the frame is calm, dark painted clouds on the fusuma. Deep charcoal and black-ink palette with ONE strong accent: the warm gold of the wolf's eyes and the gold leaf. High contrast, reverence, mystery, profound stillness. No text, no letters.
@@ -45,7 +62,12 @@ A/B:
 Samurai Meditation Music — OKAMI 狼, the Wolf Guardian of the Mountains (2 Hours)
 ```
 
-## §8 — Description ([TRACKLIST] is filled in after the album is chosen)
+## §8 — Description (0:00 Candlelight in the Empty Hall
+2:40 The Guardian of the Mountains
+5:06 Gold Eyes in the Dark
+7:39 One Breath Before the Wolf
+10:28 Ink Clouds Over the Ridge
+13:14 Walking Alone at Night is filled in after the album is chosen)
 ```
 Ōkami (狼), the wolf. In old Japan the wolf was not feared but worshipped. Its name sounds like "great god," and in the mountain shrines of Mitsumine and Musashi-Mitake it was honoured as the guardian of the mountains: the one who watches over travellers walking alone at night.
 
@@ -57,7 +79,12 @@ Use it for:
 - falling asleep with a calm, protected mind
 - a quiet hour alone at night
 
-[TRACKLIST]
+0:00 Candlelight in the Empty Hall
+2:40 The Guardian of the Mountains
+5:06 Gold Eyes in the Dark
+7:39 One Breath Before the Wolf
+10:28 Ink Clouds Over the Ridge
+13:14 Walking Alone at Night
 (the cycle repeats until 2:00:00)
 
 More from StillWave Zen:
