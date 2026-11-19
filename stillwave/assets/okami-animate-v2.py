@@ -43,13 +43,13 @@ flame_alpha = cv2.GaussianBlur(flame_alpha.astype(np.float32), (0, 0), 1.2 * S)
 
 # --- incense smoke layer ---
 smoke_box = np.zeros((H, W), np.float32)
-cv2.rectangle(smoke_box, (round(740 * S), round(470 * S)), (round(900 * S), round(872 * S)), 1, -1)
+cv2.rectangle(smoke_box, (round(740 * S), round(520 * S)), (round(890 * S), round(872 * S)), 1, -1)   # starts below the wolf's muzzle (nose at ~845,488)
 loc = cv2.GaussianBlur(B.mean(2), (0, 0), 14 * S)
 smask = (np.clip((B.mean(2) - loc - 3) / 18, 0, 1) * smoke_box).astype(np.float32)
 smask = cv2.GaussianBlur(smask, (0, 0), 1.5 * S)
 bg = cv2.inpaint(np.clip(bg, 0, 255).astype(np.uint8), (cv2.dilate((smask > 0.05).astype(np.uint8), np.ones((round(7 * S), round(7 * S)))) * 255), 6, cv2.INPAINT_TELEA).astype(np.float32)
 smoke = np.clip(B - bg, 0, None) * cv2.GaussianBlur(smoke_box, (0, 0), 10 * S)[..., None]
-smoke_h = np.clip((872 - yy) / 400, 0, 1)                 # 0 at the burner, 1 at the top of the plume
+smoke_h = np.clip((872 - yy) / 350, 0, 1)                 # 0 at the burner, 1 at the top of the plume
 
 flick = [pnoise(None, [5, 7, 11, 13, 17]), pnoise(None, [6, 9, 12, 15, 19])]
 sway = [pnoise(None, [3, 4, 7]), pnoise(None, [2, 5, 8])]
