@@ -39,6 +39,8 @@ Musicful balance: 70 units (~2 more albums). Next album: decide after the 2026-1
 - Frame the 16:9 so nothing has to be cropped later (e.g. start at the top edge of the painted doors), so all the pixels go into the 4K render.
 - ŌKAMI: no 9:16 frame this time (user is saving credits); its Shorts use crops of the 16:9 loop.
 
+- **Lesson (2026-11-19, ŌKAMI v2 frame):** smoke cannot be animated well in code. Separating the incense smoke from the painting left the wall behind it moving with the smoke, and the user rejected the result; ŌKAMI uses the old candle-stand loop (`okami-animate.py`). For frames meant for code animation, choose elements that work: flames/candles, light on gold, glowing eyes, ink clouds with frozen rails, breathing, gold dust, water ripples. Smoke, steam and anything that must move over a detailed background → Flow, or leave it out of the frame.
+
 ## Open decisions
 - TV master: if the user approves ŌKAMI's on headphones, it becomes the standard for every album.
 - DOJO: keep, or re-upload with the TV master.
