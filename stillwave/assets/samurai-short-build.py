@@ -44,6 +44,10 @@ CFG = {
         hook=["Every slow movement", "trains the mind."],
         kanji="刀", romaji="Katana", gloss="the soul of the samurai",
         line3=["The sword and Zen", "are one."]),
+    "okami": dict(video="okami-loop.mp4", video_cx=0.66, music_at=40, text_y=380,
+        hook=["In old Japan,", "the wolf was a god."],
+        kanji="狼", romaji="Okami", gloss="the great god of the mountains",
+        line3=["It watched over", "those who walk alone."]),
 }
 SHOT, XF = 8.6, 0.9                     # seconds per shot, crossfade
 DUR = SHOT * 3 - XF * 2                 # ~24 s

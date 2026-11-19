@@ -15,6 +15,7 @@
 9. **SEO**: title with Music in the first half and no hashtags; description with poetic tracklist + "(the cycle repeats until 2:00:00)" + links to other series videos; ~24 tags under 500 chars; pinned comment with a question.
 10. **Upload**: user assembles in CapCut, schedules, Not for kids, playlists "Japanese Zen Music" + "Samurai Meditation Music — Japanese Zen for Focus & Sleep".
 11. **Shorts**: one per published long-form, 24 s vertical (`stillwave/assets/samurai-short-build.py`), published the day after the long-form, Related video = the long-form. Copy in `stillwave/scripts/samurai-shorts-2026-11.md`.
+12. **NEW (2026-11-19) — motion-graphics Shorts, version B**: everything animated in code, no Flow — eyes already glowing at frame 1, kinetic words, the kanji written stroke by stroke with a brush (KanjiVG order), ink-bleed transitions, gold dust, the video's own loop underneath. Full method: **`stillwave/motion-shorts.md`**. Script: `stillwave/assets/okami-short-motion.py` (tuned for ŌKAMI; adapt per slug). ŌKAMI is the A/B pilot: version A (template, `samurai-short-build.py okami ...`) vs version B, published 2–3 days apart; compare "viewed vs swiped" and average view duration after 7 days. The user liked B.
 
 ## Current state (2026-11-19)
 
