@@ -4,7 +4,7 @@
 Three slow shots cut out of the same frame (float-precision crop boxes, LANCZOS -> jitter-free
 Ken Burns, per the 2026-07-26 rule), crossfaded; three text beats (hook / kanji concept / CTA)
 inside the Shorts safe zone (glyphs within x 60-880, y 150-1450 of 1080x1920); ~24 s of the
-album's own music. Usage: python3 samurai-short-build.py <slug> <music.mp3> <out.mp4>
+album's own music. Usage: python3 samurai-short-build.py <slug> <music.mp3> <out.mp4> [loop.mp4 for animated slugs]
 """
 import sys, subprocess
 from pathlib import Path
@@ -40,14 +40,28 @@ CFG = {
         hook=["Old masters said", "the mind should be like water."],
         kanji="無心", romaji="Mushin", gloss="the mind without mind",
         line3=["Calm enough", "to reflect the moon."]),
+    "katana": dict(video="KATANA_loop_19s_v2.mp4", video_cx=0.66, music_at=40, text_y=380,
+        hook=["Every slow movement", "trains the mind."],
+        kanji="刀", romaji="Katana", gloss="the soul of the samurai",
+        line3=["The sword and Zen", "are one."]),
 }
 SHOT, XF = 8.6, 0.9                     # seconds per shot, crossfade
 DUR = SHOT * 3 - XF * 2                 # ~24 s
 
 slug, music, out = sys.argv[1], sys.argv[2], sys.argv[3]
 c = CFG[slug]
-src = Image.open(HERE / c["src"]).convert("RGB")
-SW, SH = src.size
+if "video" in c:          # animated source: a seamless 16:9 loop, cropped to 9:16 and looped
+    vpath = Path(sys.argv[4]) if len(sys.argv) > 4 else HERE / c["video"]
+    probe = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
+                            "-of", "csv=p=0", str(vpath)], capture_output=True, text=True).stdout.strip().split(",")
+    VW, VH = int(probe[0]), int(probe[1]); cw = VH * 9 / 16
+    vx = int(min(max(c["video_cx"] * VW - cw / 2, 0), VW - cw))
+    vproc = subprocess.Popen(["ffmpeg", "-v", "error", "-stream_loop", "-1", "-i", str(vpath), "-vf",
+        f"crop={int(cw)}:{VH}:{vx}:0,scale={W}:{H}:flags=lanczos,fps={FPS}", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+        stdout=subprocess.PIPE)
+else:
+    src = Image.open(HERE / c["src"]).convert("RGB")
+    SW, SH = src.size
 
 def shot_frame(cx, z, ):
     ch = SH / z; cw = ch * 9 / 16
@@ -88,7 +102,7 @@ f_kanji = ImageFont.truetype(KANJI, 230)
 f_rom = ImageFont.truetype(SERIF_R, 74)
 f_gloss = fit([c["gloss"]], SERIF_R, 44)
 f_cta = ImageFont.truetype(SERIF_R, 46)
-Y = 620                                   # upper-middle: over the mural, above the figure
+Y = c.get("text_y", 620)                  # upper-middle: over the mural / sky, above the figure
 T1 = text_layer([(s, f_hook, WHITE, Y + i * int(f_hook.size * 1.25), 0) for i, s in enumerate(c["hook"])])
 T2 = text_layer([(c["kanji"], f_kanji, WHITE, Y - 200, 8),
                  (c["romaji"].upper(), f_rom, WHITE, Y + 90, 16),
@@ -110,6 +124,13 @@ ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fm
 N = int(DUR * FPS)
 for i in range(N):
     t = i / FPS
+    if "video" in c:
+        fr = Image.frombytes("RGB", (W, H), vproc.stdout.read(W * H * 3)).convert("RGBA")
+        for L, ti, to in BEATS:
+            a = min(1, (t - ti) / 0.8, (to - t) / 0.8)
+            if a > 0:
+                La = L.copy(); La.putalpha(L.getchannel("A").point(lambda p: int(p * a))); fr.alpha_composite(La)
+        ff.stdin.write(fr.convert("RGB").tobytes()); continue
     k = min(int(t // (SHOT - XF)), 2)
     def at(k):
         cx, z0, z1 = c["shots"][k]; u = min(max((t - k * (SHOT - XF)) / SHOT, 0), 1)
@@ -126,4 +147,5 @@ for i in range(N):
             La = L.copy(); La.putalpha(L.getchannel("A").point(lambda p: int(p * a))); fr.alpha_composite(La)
     ff.stdin.write(fr.convert("RGB").tobytes())
 ff.stdin.close(); ff.wait()
+if "video" in c: vproc.kill()
 print("saved", out, f"{DUR:.1f}s")

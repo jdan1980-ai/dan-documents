@@ -83,7 +83,7 @@ Description:
 ```
 Mushin (無心), the mind without mind. Old masters said: a calm mind is like still water, it reflects the moon exactly as it is.
 
-Full 2-hour samurai meditation music on the channel: [MUSHIN II link]
+Full 2-hour samurai meditation music on the channel: https://youtu.be/aleEGL01VO4
 
 #shorts #mushin #samurai #samuraimusic #zenmusic #meditationmusic
 ```
@@ -94,4 +94,28 @@ mushin, mushin no mind, empty mind, samurai, samurai music, samurai meditation m
 Pinned:
 ```
 🌀 What stirs your water the most: yesterday or tomorrow? Full 2 hours of MUSHIN II on the channel 🌿
+```
+
+## KATANA (animated: the 19 s kata loop cropped to 9:16, text over the sky)
+Long-form `_fDIyyxtpWQ` goes live 2026-11-22 16:00; the Short is scheduled for the day after. MUSHIN II `aleEGL01VO4` goes live 2026-11-20 16:00, its Short the day after.
+
+Title:
+```
+Every Slow Movement Trains the Mind
+```
+Description:
+```
+Katana (刀), the soul of the samurai. For the old masters, every slow movement with the sword trained the mind, not only the hand: 剣禅一如, the sword and Zen are one.
+
+Full 2-hour samurai meditation music on the channel: https://youtu.be/_fDIyyxtpWQ
+
+#shorts #katana #samurai #samuraimusic #zenmusic #meditationmusic
+```
+Tags:
+```
+katana, samurai sword, samurai training, kata, samurai, samurai music, samurai meditation music, japanese zen music, meditation music, focus music, shorts
+```
+Pinned:
+```
+🌀 What is the one thing you practise again and again until it becomes calm? Full 2 hours of KATANA on the channel 🌿
 ```
