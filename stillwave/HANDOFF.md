@@ -34,6 +34,11 @@ Shorts ready: BUSHIDO, DOJO, RONIN, MUSHIN II, KATANA (plan: 2 a day, 5–6 h ap
 
 Musicful balance: 70 units (~2 more albums). Next album: decide after the 2026-11-29 review (CTR of the thumbnails, end-screen clicks from MUSHIN, subscribers from Shorts). Candidates: another animal on fusuma (crane, bear, koi); SHOGUN has almost no search demand.
 
+## Agreed for the next videos (2026-11-19)
+- Every hero prompt comes as a pair: 16:9 for the long-form + 9:16 for the Shorts (generated with the approved 16:9 as reference, at the highest resolution NanoBanana offers). Shorts are then built from the native vertical frame, not from a crop of the 16:9 one.
+- Frame the 16:9 so nothing has to be cropped later (e.g. start at the top edge of the painted doors), so all the pixels go into the 4K render.
+- ŌKAMI: no 9:16 frame this time (user is saving credits); its Shorts use crops of the 16:9 loop.
+
 ## Open decisions
 - TV master: if the user approves ŌKAMI's on headphones, it becomes the standard for every album.
 - DOJO: keep, or re-upload with the TV master.
