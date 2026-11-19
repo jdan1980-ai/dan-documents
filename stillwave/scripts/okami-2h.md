@@ -117,3 +117,14 @@ stillwave, okami, wolf music, wolf meditation music, japanese wolf, lone wolf, s
 `stillwave/assets/okami-2h-thumb-v2.jpg` (built by `okami-compose-thumb-v2.py`): white brush 狼, tracked serif OKAMI, thin rules with a circle, "SAMURAI MEDITATION MUSIC" over the dark ink clouds; the wolf's eyes glow as in the video.
 
 **🇺🇦 RU:** Превью v2: белый 狼, OKAMI и строка-ключ на тёмных облаках туши слева. Глаза волка светятся, как в видео.
+
+## §2b — TV-friendly master (2026-11-19, on trial)
+
+After DOJO sounded muddy on the user's TV (analysis: ~50% of the energy at 150–400 Hz, under 3% above 1 kHz, −15.7 LUFS), ŌKAMI got a second, "universal" master for headphones AND TV speakers: high-pass 40 Hz, −2 dB at 250 Hz (Q 1), +2.5 dB high shelf from 3.5 kHz, then gain to −14 LUFS and the −1 dB limiter. Result: −14.0 LUFS, LRA 6.4, peak −0.7 dBFS. Files `OKAMI_2h_TV_part1..4.wav`. If the user approves it on headphones, this becomes the standard for every album.
+
+```bash
+EQ="highpass=f=40:poles=2,equalizer=f=250:t=q:w=1.0:g=-2,treble=g=2.5:f=3500:t=s"
+# measure I after EQ, then: volume=(-14 - I)dB, alimiter=limit=0.891:level=disabled
+```
+
+**🇺🇦 RU:** Вторая, «универсальная» версия звука для наушников и ТВ: срез ниже 40 Гц, −2 дБ на 250 Гц, +2,5 дБ сверху от 3,5 кГц, громкость −14 LUFS. Если пользователь одобрит в наушниках — делаем так все альбомы.
