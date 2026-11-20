@@ -125,11 +125,11 @@ Title:
 ```
 In Old Japan, the Wolf Was a God
 ```
-Description (insert the long-form link):
+Description:
 ```
 Ōkami (狼), the wolf. In old Japan it was not feared but worshipped: its name sounds like "great god," and the mountain shrines honoured it as the guardian of the mountains, watching over those who walk alone at night.
 
-Full 2-hour samurai meditation music on the channel: [OKAMI link]
+Full 2-hour samurai meditation music on the channel: https://youtu.be/ujYOkplvF-k
 
 #shorts #okami #wolf #samurai #samuraimusic #zenmusic
 ```

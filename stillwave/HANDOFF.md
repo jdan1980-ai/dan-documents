@@ -28,9 +28,9 @@
 | Miyamoto Musashi | published | https://youtu.be/mJ3RMn3J4B8 |
 | MUSHIN II | scheduled 2026-11-20 16:00 | https://youtu.be/aleEGL01VO4 |
 | KATANA | scheduled 2026-11-22 16:00 | https://youtu.be/_fDIyyxtpWQ |
-| ŌKAMI | everything ready (4K animation, overlay, thumbnail, SEO, 2 h in normal + TV master); user is checking the TV master on headphones | — |
+| ŌKAMI | uploaded (old candle loop, overlay, thumbnail, SEO); Short uploaded from the old frame | https://youtu.be/ujYOkplvF-k |
 
-Shorts ready: BUSHIDO, DOJO, RONIN, MUSHIN II, KATANA (plan: 2 a day, 5–6 h apart, never before their long-form). ŌKAMI Short: after its link and date.
+Shorts ready: BUSHIDO, DOJO, RONIN, MUSHIN II, KATANA (plan: 2 a day, 5–6 h apart, never before their long-form). ŌKAMI Short: uploaded; its description now has the long-form link.
 
 Musicful balance: 70 units (~2 more albums). Next album: decide after the 2026-11-29 review (CTR of the thumbnails, end-screen clicks from MUSHIN, subscribers from Shorts). Candidates: another animal on fusuma (crane, bear, koi); SHOGUN has almost no search demand.
 
