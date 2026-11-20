@@ -14,7 +14,8 @@ The template Short (`samurai-short-build.py`, "version A") is a static frame wit
 
 | Time | Beat | What happens |
 |---|---|---|
-| 0–8 s | HOOK | Tight on the painted animal's face. Its eyes **already glowing at frame 1**, the hall exposes up from darkness, slow pull-back. Hook words appear one by one (rise + fade). |
+| 0–2 s | COVER | Wide scene in motion, kanji + name large over it (see Cover rule). |
+| 2–8 s | HOOK | Tight on the painted animal's face. Its eyes **already glowing at frame 1**, the hall exposes up from darkness, slow pull-back. Hook words appear one by one (rise + fade). |
 | 8–9 s | transition | **Ink bleed**: the next shot soaks through a spreading ink blot with a dark wet rim. |
 | 9–16 s | KANJI | The kanji is **written stroke by stroke** with a tapered brush in the correct stroke order (KanjiVG data), dry-brush edge, a wet gold point at the brush tip. Then romaji + gloss. |
 | 16–17 s | transition | Ink bleed again. |
@@ -46,10 +47,10 @@ Under everything runs the video's own seamless loop (`<slug>-animate.py` output)
 ## Cover rule (user, 2026-11-20)
 
 The Short's cover (the frame picked on upload) must show **the scene with the samurai + the big kanji + the name in Latin letters** (e.g. 武士道 / BUSHIDO over the samurai), as the version A Shorts did. A bare kanji on a dark background (the ŌKAMI B cover) draws less attention in the Shorts grid. So every version B Short gets:
-- a **cover beat** in the WIDE shot: for the last ~2 s the kanji + name sit large over the wide scene (samurai + animal in frame), so this frame can be chosen as the cover;
+- a **cover beat at the very start (0–2 s)**: the Short opens on the wide scene (samurai + animal, music from frame 1, already in motion) with the kanji + name large over it; at ~2 s the text fades and the camera moves into the hook (glowing eyes / moon / blade). Frame 1 = the cover, so the Shorts grid and the first second show the same picture. No black, no fade-in — the scene and sound are there at 0:00 (upload playbook rule 7);
 - a separate **cover JPG** 1080×1920 with the same layout, to upload as a custom thumbnail where the app allows it.
 
-**🇺🇦 RU:** На заставке Short — кадр со сценой и самураем, большой иероглиф и название латиницей, как у версии A. Голый иероглиф на тёмном фоне (заставка ŌKAMI B) привлекает меньше внимания. В каждом Short версии B: в конце общего плана ~2 с иероглиф + название крупно поверх сцены (этот кадр выбирать заставкой) + отдельный JPG обложки.
+**🇺🇦 RU:** На заставке Short — кадр со сценой и самураем, большой иероглиф и название латиницей, как у версии A. Голый иероглиф на тёмном фоне (заставка ŌKAMI B) привлекает меньше внимания. В каждом Short версии B: первые ~2 с — общий план со сценой и самураем, иероглиф + название крупно поверх (первый кадр = заставка), потом текст уходит и камера едет в хук + отдельный JPG обложки.
 
 ## ~~A/B test (ŌKAMI)~~ — cancelled 2026-11-19
 

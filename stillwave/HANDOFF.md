@@ -41,7 +41,7 @@ Musicful balance: 70 units (~2 more albums). Next album: decide after the 2026-1
 
 - **Lesson (2026-11-19, ŌKAMI v2 frame):** smoke cannot be animated well in code. Separating the incense smoke from the painting left the wall behind it moving with the smoke, and the user rejected the result; ŌKAMI uses the old candle-stand loop (`okami-animate.py`). For frames meant for code animation, choose elements that work: flames/candles, light on gold, glowing eyes, ink clouds with frozen rails, breathing, gold dust, water ripples. Smoke, steam and anything that must move over a detailed background → Flow, or leave it out of the frame.
 
-- **Shorts cover (user, 2026-11-20):** cover = scene with the samurai + big kanji + name in Latin letters, as in version A — never a bare kanji on dark (ŌKAMI B). See `stillwave/motion-shorts.md` "Cover rule".
+- **Shorts cover (user, 2026-11-20):** cover = scene with the samurai + big kanji + name in Latin letters, shown in the first ~2 s (frame 1 = cover), then into the hook — never a bare kanji on dark (ŌKAMI B). See `stillwave/motion-shorts.md` "Cover rule".
 
 ## Open decisions
 - TV master: if the user approves ŌKAMI's on headphones, it becomes the standard for every album.
