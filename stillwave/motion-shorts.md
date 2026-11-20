@@ -43,6 +43,14 @@ Under everything runs the video's own seamless loop (`<slug>-animate.py` output)
 
 **🇺🇦 RU:** 1) Отрендерить петлю видео. 2) Скачать файл черт иероглифа из KanjiVG. 3) Под каждое видео поменять: точку свечения для хука (глаза животного; если глаз нет — луна, клинок, фонарь), центры и зум трёх кадров, файл иероглифа, тексты, точки старта клякс. 4) Рендер ~4–5 минут. 5) Проверить кадры: вспышка не «фары», самурай не обрезан, текст в безопасной зоне. 6) Музыка из альбома, не трек с клеймом.
 
+## Cover rule (user, 2026-11-20)
+
+The Short's cover (the frame picked on upload) must show **the scene with the samurai + the big kanji + the name in Latin letters** (e.g. 武士道 / BUSHIDO over the samurai), as the version A Shorts did. A bare kanji on a dark background (the ŌKAMI B cover) draws less attention in the Shorts grid. So every version B Short gets:
+- a **cover beat** in the WIDE shot: for the last ~2 s the kanji + name sit large over the wide scene (samurai + animal in frame), so this frame can be chosen as the cover;
+- a separate **cover JPG** 1080×1920 with the same layout, to upload as a custom thumbnail where the app allows it.
+
+**🇺🇦 RU:** На заставке Short — кадр со сценой и самураем, большой иероглиф и название латиницей, как у версии A. Голый иероглиф на тёмном фоне (заставка ŌKAMI B) привлекает меньше внимания. В каждом Short версии B: в конце общего плана ~2 с иероглиф + название крупно поверх сцены (этот кадр выбирать заставкой) + отдельный JPG обложки.
+
 ## ~~A/B test (ŌKAMI)~~ — cancelled 2026-11-19
 
 **User decision: no A/B. Version B is the standard Shorts format from now on; version A is retired.** (Original plan kept below for reference.)
