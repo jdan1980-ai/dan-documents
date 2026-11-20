@@ -43,6 +43,8 @@ Musicful balance: 70 units (~2 more albums). Next album: decide after the 2026-1
 
 - **Shorts cover (user, 2026-11-20):** cover = scene with the samurai + big kanji + name in Latin letters, shown in the first ~2 s (frame 1 = cover), then into the hook — never a bare kanji on dark (ŌKAMI B). See `stillwave/motion-shorts.md` "Cover rule". For a Short that is already built, give only the cover JPG (the user puts it at the start in CapCut) — do not re-render the video. Save credits.
 
+- **Costs (user, 2026-11-20):** NanoBanana frames are free for the user — only video generation (Flow) costs credits. Regenerate frames as many times as needed until the frame is ideal for code animation; never compromise a frame to save on images.
+
 ## Open decisions
 - TV master: if the user approves ŌKAMI's on headphones, it becomes the standard for every album.
 - DOJO: keep, or re-upload with the TV master.
