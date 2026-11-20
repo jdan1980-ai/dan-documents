@@ -141,3 +141,25 @@ Pinned:
 ```
 🌀 What helps you stay calm when you have to walk your own path? Full 2 hours of ŌKAMI on the channel 🌿
 ```
+
+## MUSASHI (version B — `musashi-short-motion.py`, Flow clip ping-pong, track 1621040, 26 s)
+Title:
+```
+He Won Sixty Duels, Then Chose Stillness
+```
+Description:
+```
+Miyamoto Musashi, the swordsman who was never defeated in more than sixty duels. In his last years he put down the sword, withdrew to a cave and wrote of banri ikkū (万理一空): ten thousand truths, one emptiness.
+
+Full 2-hour samurai meditation music on the channel: https://youtu.be/mJ3RMn3J4B8
+
+#shorts #musashi #miyamotomusashi #samurai #samuraimusic #zenmusic
+```
+Tags:
+```
+miyamoto musashi, musashi, book of five rings, samurai, samurai wisdom, samurai music, samurai meditation music, japanese zen music, meditation music, moonlight, zen, shorts
+```
+Pinned:
+```
+🌀 What would you put down tonight to find a little stillness? Full 2 hours of MUSASHI on the channel 🌿
+```

@@ -52,6 +52,11 @@ The Short's cover (the frame picked on upload) must show **the scene with the sa
 
 **🇺🇦 RU:** На заставке Short — кадр со сценой и самураем, большой иероглиф и название латиницей, как у версии A. Голый иероглиф на тёмном фоне (заставка ŌKAMI B) привлекает меньше внимания. В каждом Short версии B: первые ~2 с — общий план со сценой и самураем, иероглиф + название крупно поверх (первый кадр = заставка), потом текст уходит и камера едет в хук + отдельный JPG обложки.
 
+## Feedback (user, 2026-11-20, MUSASHI)
+The ink-bleed transitions feel too abrupt. Next Shorts: make them softer and longer (~1.5–2 s, a wider soft edge, a lighter rim, or a slow cross-dissolve through the ink instead of a hard wipe).
+
+**🇺🇦 RU:** Переходы тушью слишком резкие. В следующих Shorts — мягче и длиннее (1.5–2 с, мягкий край, светлее кайма или плавное растворение).
+
 ## ~~A/B test (ŌKAMI)~~ — cancelled 2026-11-19
 
 **User decision: no A/B. Version B is the standard Shorts format from now on; version A is retired.** (Original plan kept below for reference.)
