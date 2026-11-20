@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""ŌKAMI Short — motion-graphics version (B) for an A/B test against samurai-short-build.py (A).
+"""ŌKAMI Short — motion-graphics version (B). 0-2 s COVER beat (wide scene + 狼 + OKAMI, frame 1 = cover), then the beats below shifted by 2 s (26 s total).
 
 Beats (~24 s, 1080x1920, 30 fps), all on top of the living 16:9 loop (okami-animate.py output):
   0.0-8.0   HOOK: tight on the wolf's face, its gold eyes already blazing at frame 1 and cooling as the
@@ -21,7 +21,7 @@ from svgpathtools import parse_path
 HERE = Path(__file__).parent
 loop, music, out = sys.argv[1], sys.argv[2], sys.argv[3]
 MUSIC_AT = float(sys.argv[4]) if len(sys.argv) > 4 else 40
-W, H, FPS, DUR = 1080, 1920, 30, 24.0
+W, H, FPS, DUR = 1080, 1920, 30, 26.0
 SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 SERIF_R = "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf"
 WHITE, CREAM, GOLD = (250, 247, 240), (232, 222, 200), (236, 178, 80)
@@ -87,11 +87,14 @@ def ink_mix(a, b, u, seed_xy):
 svg = (HERE / "kanjivg" / "072fc.svg").read_text()
 paths = [parse_path(d) for d in re.findall(r'<path[^>]*\sd="([^"]+)"', svg)]
 KS, KX, KY = 7.0, 540 - 54.5 * 7.0, 330              # 109-unit KanjiVG box -> 763 px, top at y=330
-strokes = []
-for p in paths:
-    L = p.length(); n = max(int(L * KS / 1.6), 20)
-    pts = [p.point(i / (n - 1)) for i in range(n)]
-    strokes.append((L, [(KX + q.real * KS, KY + q.imag * KS) for q in pts]))
+def build_strokes(ks, kx, ky):
+    out = []
+    for p in paths:
+        L = p.length(); n = max(int(L * ks / 1.6), 20)
+        pts = [p.point(i / (n - 1)) for i in range(n)]
+        out.append((L, [(kx + q.real * ks, ky + q.imag * ks) for q in pts]))
+    return out
+strokes = build_strokes(KS, KX, KY)
 W0, W1 = 9.6, 13.0                                     # writing window (s)
 tot = sum(L ** 0.7 for L, _ in strokes); gap = 0.07
 avail = (W1 - W0) - gap * (len(strokes) - 1)
@@ -100,7 +103,7 @@ for L, _ in strokes:
     d = avail * L ** 0.7 / tot; times.append((t0, t0 + d)); t0 += d + gap
 
 PAPER = np.clip(0.5 + 0.18 * fbm((H, W), 4, seed=11), 0, 1)
-def brush_mask(t):
+def brush_mask(t, strokes=strokes, ks=KS):
     m = Image.new("L", (W, H), 0); dr = ImageDraw.Draw(m); tip = None
     for (L, pts), (s0, s1) in zip(strokes, times):
         if t <= s0: break
@@ -109,7 +112,7 @@ def brush_mask(t):
         for i in range(k):
             s = i / (len(pts) - 1)
             prof = (0.55 + 0.45 * ease(s / 0.12)) * (1 - 0.65 * ease((s - 0.72) / 0.28))
-            r = 3.3 * KS * prof * (1 + 0.05 * np.sin(i * 0.9))
+            r = 3.3 * ks * prof * (1 + 0.05 * np.sin(i * 0.9))
             x, y = pts[i]; dr.ellipse((x - r, y - r, x + r, y + r), fill=255)
         if u < 1: tip = pts[k - 1]
     a = np.asarray(m.filter(ImageFilter.GaussianBlur(2.2)), np.float32) / 255
@@ -184,6 +187,29 @@ def dust(fr, t):
     lay = lay.filter(ImageFilter.GaussianBlur(1.6))
     return Image.fromarray(np.clip(np.asarray(fr, np.int16) + np.asarray(lay, np.int16) * 0.8, 0, 255).astype(np.uint8))
 
+# ---------- COVER beat (0-2 s): wide scene + big kanji + name; frame 1 = the Short's cover ----------
+OFF = 2.0                                               # everything after the cover is shifted by OFF
+CKS = 3.3                                               # kanji ~360 px, top-centre over the wolf's back
+CSTR = build_strokes(CKS, 540 - 54.5 * CKS, 150)
+CMASK, _ = brush_mask(99.0, CSTR, CKS)
+CGLOW = np.asarray(Image.fromarray((CMASK * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(18)), np.float32)[..., None] / 255
+SCRIM = (np.clip(1 - (YY - 120) / 700, 0, 1) ** 1.5 * 0.55)[..., None]   # darker sky behind the title
+f_cname = ImageFont.truetype(SERIF, 92); f_csub = ImageFont.truetype(SERIF_R, 36)
+def cover_text():
+    lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    for txt, f, y, col in (("O K A M I", f_cname, 545, WHITE), ("SAMURAI MEDITATION MUSIC", f_csub, 662, CREAM)):
+        x = W / 2 - f.getlength(txt) / 2
+        d.text((x + 2, y + 3), txt, font=f, fill=(0, 0, 0, 170)); d.text((x, y), txt, font=f, fill=col + (255,))
+    return lay
+CTEXT = cover_text()
+def shot_cover(t):
+    F = np.asarray(crop(Image.fromarray(next_src.cur), 1290, 540, 1.0), np.float32)
+    F *= 1 - SCRIM
+    F = F * (1 - 0.35 * CGLOW) + CGLOW * 0.6 * np.array(GOLD, np.float32)
+    F = F * (1 - CMASK[..., None]) + CMASK[..., None] * np.array(WHITE, np.float32)
+    im = Image.fromarray(np.clip(F, 0, 255).astype(np.uint8)).convert("RGBA")
+    im.alpha_composite(CTEXT); return im.convert("RGB")
+
 # ---------- render ----------
 def shot_kanji(t): return draw_kanji(shot_clouds(t), t + 8.0)          # kanji timed in absolute seconds
 SEGS = [(0.0, shot_face), (8.0, shot_kanji), (16.0, shot_wide)]       # shot k starts (its local t=0) here
@@ -194,14 +220,18 @@ ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fm
     "-map", "0:v", "-map", "[a]", "-c:v", "libx264", "-crf", "17", "-preset", "slow", "-pix_fmt", "yuv420p",
     "-c:a", "aac", "-b:a", "192k", "-shortest", out], stdin=subprocess.PIPE)
 for i in range(int(DUR * FPS)):
-    t = i / FPS
+    T = i / FPS; t = T - OFF
     next_src.cur = next_src()
+    if t < 0:                                           # cover beat
+        fr = dust(shot_cover(T), T).convert("RGBA"); ff.stdin.write(fr.convert("RGB").tobytes()); continue
     k = 0 if t < 8.0 else (1 if t < 16.0 else 2)
     fr = SEGS[k][1](t - SEGS[k][0])
     for j, (s0, s1, seed) in enumerate(TRANS):
         if s0 <= t < s1:   # outgoing shot j keeps running under the spreading blot of shot j+1
             fr = ink_mix(SEGS[j][1](t - SEGS[j][0]), fr, (t - s0) / (s1 - s0), seed)
-    fr = dust(fr, t).convert("RGBA")
+    if t < 0.9:                                         # cover -> hook: the face soaks through an ink blot
+        fr = ink_mix(shot_cover(T), fr, t / 0.9, (760, 620))
+    fr = dust(fr, T).convert("RGBA")
     for L in TXT: fr.alpha_composite(L(t))
     ff.stdin.write(fr.convert("RGB").tobytes())
     if i % 90 == 0: print(f"{t:5.1f}s", flush=True)
