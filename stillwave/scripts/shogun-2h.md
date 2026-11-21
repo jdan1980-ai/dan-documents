@@ -1,7 +1,7 @@
 # SHOGUN — Samurai Meditation Music (2 Hours)
 
 ## Meta
-- **Status (2026-11-20):** hero 16:9 + 9:16 approved, 4K loop rendered, album built (awaiting the user's Content ID check of the 8 tracks), Short B rendered. Next: overlay, thumbnail, SEO.
+- **Status (2026-11-20):** hero 16:9 + 9:16 approved, 4K loop rendered, album built, Content ID check clean (2026-11-21), Short B rendered. Next: overlay, thumbnail, SEO.
 - **Concept:** the shogun, ruler of all samurai, sits alone in his castle's audience hall, facing us, his face hidden behind a black iron mask, a slender golden crescent on his helmet. Behind him the gold-leaf doors carry a giant painted tiger (as in the shogun's Nijō Castle): the tiger is the shogun's power. First front-facing figure in the series (user's idea, for CTR).
 - **Frames:** `assets/shogun-2h-source.jpg` (1984×1116, cropped), `assets/shogun-916-source.jpg` (1116×2000). Frames are free; only Flow video costs credits.
 
