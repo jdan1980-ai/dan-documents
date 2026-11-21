@@ -4,6 +4,44 @@ Channels we monitor for content gaps, format ideas, trending topics, and tag pat
 
 ## Tracked channels
 
+### 🦊 Aether Journey — "[Animal] no Michi" volume factory (VidIQ, 2026-10-08)
+
+Channel ID `UC5q5r9IvGXREGJw0VPp65uQ`. The channel behind the KUMAMICHI/KITSUNEMICHI outliers flagged in `CLAUDE.md`'s 2026-10-08 audience-research lock. US-based, started 2025-06-18 — **982 videos published in ~16 months**, currently **31.9K subs, 5.7M total views**. Pulled 30-day growth (2026-09-08 → 2026-10-08): **+18,100 subs, +3.46M views, +85 videos** — genuinely fast-growing right now, not a stale channel.
+
+**Cadence confirmed: ~3 uploads/day, every single one ~6 hours long** (checked 50 consecutive uploads, durations ranged `5H51M`–`6H26M`, zero exceptions — this is a structural format choice, not our 2H cap). Three uploads/day × ~6h each only works with a heavily automated pipeline (AI music + AI image/video generation, likely templated end-to-end) — this is a different operational model from our curated 1-2 videos/week, not something to copy wholesale.
+
+**Naming formula is broader than just "[animal] no michi"** — same romaji+kanji / "Japanese Zen Music of [English gloss]" title shape, but the second half varies freely: animal + walk/stroll/path (`TORA TO SANPO` — walk with tiger), animal + companion (`KIKU NEKO` — chrysanthemum cat), animal + season/flower (`YUKITORA` — tiger of snow, `HANAŌKAMI` — wolf among flowers), elder/wanderer/journey words with no animal at all (`TABIBITO` — the wanderer, `HIRUNE` — afternoon nap). The throughline isn't strictly "animal," it's **always a single warm, concrete, universally-legible image** (an animal, a nap, a flower, an elder) — never an abstract theological concept.
+
+**Classic volume + lottery model, same pattern as Serene Bamboo Meditation below:** most individual uploads sit at 800–15K views a day or two after publish; a small fraction spike hard (`YUKITORA` 32K, `KUMAMICHI` 1.67M as an extreme outlier among ~982 videos — well under 1% hit rate). The channel's real growth is carried by those rare breakouts, not by the median video.
+
+**🇺🇦** Канал за хитами KUMAMICHI/KITSUNEMICHI — США, 982 видео за ~16 месяцев, 31.9K подписчиков, быстро растёт (+18 100 подписчиков за 30 дней). Публикует **~3 видео в день, каждое ~6 часов** — это требует полностью автоматизированного пайплайна, не наш формат (1-2 видео/неделю вручную). Схема названий шире, чем просто «животное + michi» — общий принцип: всегда один тёплый, конкретный, узнаваемый образ (животное, сон, цветок, старик), никогда не абстрактное богословское понятие. Модель — классический «объём + лотерея»: большинство видео собирают немного, но редкие прорывы (1.67 млн) тащат весь рост канала.
+
+### 🎋 Japanese zen / water-garden niche — DIRECT MIZU competitor (VidIQ, 2026-07-20)
+
+| Channel | Channel ID | Concept | Notes |
+|---|---|---|---|
+| **Serene Bamboo Meditation** | UCP9T9KHd_xyl9uQwFMmeh6A | Shakuhachi + bamboo water fountain zen, 2H | Exactly MIZU's concept. Daily uploads (~31 videos in ~1 month), all 2H. |
+
+**Model = volume + lottery (faceless):** posts ~1/day, most videos flop (20–150 views), but 1–2/month break out huge and carry the channel. Power-law distribution.
+
+**Top videos (VidIQ 2026-07-20):**
+
+| Views | Published | Title (near-identical formula) |
+|-------|-----------|--------------------------------|
+| 89 564 | 2026-07-04 | Japanese Zen Music \| Shakuhachi Meditation & Bamboo Water Fountain Zen |
+| 82 957 | 2026-06-23 | Japanese Zen Music \| Shakuhachi Meditation & Bamboo Water Fountain Zen for Soul Balance |
+| 30 387 | 2026-06-17 | Japanese Zen Garden Serenity ~ Bamboo Fountain & Koto Music for Deep Relaxation |
+| 24 503 | 2026-06-26 | …Bamboo Water Fountain Zen for Deep Sleep |
+| 11 533 | 2026-06-30 | …Shakuhachi Flute for Deep Meditation & Soul Balance |
+
+**Lessons for MIZU:**
+1. **Concept validated hard** — bamboo water fountain + shakuhachi pulls 80–90K per breakout. We're entering a proven-hot niche.
+2. **Winning title tokens (both mega-hits):** `Shakuhachi Meditation` + `Bamboo Water Fountain Zen`. Bake these into MIZU's title/tags.
+3. **They target "Asian" not just "Japanese"** — tags `asian relaxing music`, `relaxing asian music`, instruments `erhu / guzheng / koto`. Wider tent.
+4. **Slow-burn confirmed AGAIN** — the 89K hit sat at 858 views on D5, only accelerated after D10, still climbing at D16 (VPH 664). Don't judge before D19.
+5. **Our edge over them:** their titles/thumbnails are all near-identical & generic. Our kanji-concept branding (水 MIZU, wisdom overlay, koi/kanji thumbnail) gives an identity they lack — ride the same demand with a face.
+6. Topic categories correctly = Music + Music of Asia (title front-loads `Japanese Zen Music`).
+
 ### Deep work / focus music niche (live API data — May 9, 2026)
 
 | # | Channel | Channel ID | Subs | Total views | Videos | Started | Top video |
