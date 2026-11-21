@@ -45,6 +45,8 @@ Musicful balance: 70 units (~2 more albums). Next album: decide after the 2026-1
 
 - **Costs (user, 2026-11-20):** NanoBanana frames are free for the user — only video generation (Flow) costs credits. Regenerate frames as many times as needed until the frame is ideal for code animation; never compromise a frame to save on images.
 
+- **Shorts results (2026-11-21):** MUSASHI Short (version B, cover beat 武蔵 + moon hook, Flow clip) reached ~380 views — the best Short so far (BUSHIDO version A ~302 in a day). Early signal for version B + cover rule + a recognizable historical figure.
+
 ## Open decisions
 - TV master: if the user approves ŌKAMI's on headphones, it becomes the standard for every album.
 - DOJO: keep, or re-upload with the TV master.
