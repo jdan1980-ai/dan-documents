@@ -25,3 +25,80 @@ Loop 17:22.8, ×6.9 = exactly 2:00:00, seams 3 s. Same-request pairs (119/120, 1
 
 ## Short (version B) — `assets/shogun-short-motion.py`, track 1627123
 Cover 将軍 / SHOGUN · hook "He ruled every samurai. / Only the tiger watched him." on the blazing eyes · 虎 TORA brush-written · "True power / is perfect stillness." · soft, slow ink transitions (1.6 s).
+
+## §6a — Wisdom overlay
+- **泰然自若** · *Taizen jijaku* · "Calm and unshaken": composed and unmoved whatever happens — the calm of someone who carries great power.
+- File: `stillwave/assets/shogun-taizen-jijaku-overlay.png`, lower-left over the bamboo and the dark floor (zone brightness 64 / 48), checked on a frame of the 4K loop.
+- CapCut: top track, 0:03 → 0:14, fade in 2 s / fade out 2 s.
+
+## §7 — Title
+```
+SHOGUN — 将軍 | Samurai Meditation Music for Deep Focus, Calm Power & Inner Strength
+```
+
+## §8 — Description
+```
+Shōgun (将軍), the military ruler of Japan and the master of every samurai. In the castles of the shoguns, visitors walked past giant tigers painted in ink on gold leaf before they reached the audience hall: the tiger was the image of the shogun's power. And the one who held that power sat in perfect stillness.
+
+Two hours of samurai meditation music in a golden castle hall at night, before a giant tiger painted in ink and gold. A low shakuhachi flute, warm koto plucked one note at a time, a deep dark drone underneath like slow breathing, and long silences between the phrases. Candlelight on the gold. No drums, no beats, nothing that rises or builds. One quiet level from the first minute to the last.
+
+Use it for:
+- deep focus, study and long work sessions
+- seated meditation and breathwork
+- calm strength before a hard decision
+- falling asleep with a quiet, steady mind
+
+0:00 Candlelight in the Castle Hall
+3:17 The Tiger on the Golden Doors
+5:45 Behind the Iron Mask
+8:38 A Crescent of Gold
+12:12 The Weight of Command
+14:57 Stillness Before the Decision
+(the cycle repeats until 2:00:00)
+
+More from StillWave Zen:
+OKAMI — Samurai Meditation Music, the Wolf Guardian: https://youtu.be/ujYOkplvF-k
+KATANA — Samurai Meditation Music: https://youtu.be/_fDIyyxtpWQ
+MUSHIN II — Samurai Meditation Music: https://youtu.be/aleEGL01VO4
+MUSHIN — Japanese Zen Music for Deep Focus: https://youtu.be/CamT9sohYQM
+
+泰然自若 — taizen jijaku: calm and unshaken.
+
+New Japanese Zen music every week. Subscribe if you want it in your feed.
+
+#samuraimusic #shogun #samurai #samuraimeditation #zenmusic
+```
+
+## §9 — Tags (23 tags, 470 characters)
+```
+stillwave, shogun, shogun music, samurai music, samurai meditation music, samurai relaxing music, japanese zen music, zen music, meditation music, focus music, deep focus music, sleep music, study music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, ancient japan ambience, tiger meditation music, japanese tiger painting, samurai armor, candlelight meditation, masked shogun sitting before a giant tiger painting in a golden castle hall
+```
+
+## §11 — Pinned comment
+```
+🌀 将軍 SHOGUN — he ruled every samurai, yet his true power was stillness. 🍃 What helps you stay calm and unshaken when everything depends on you? Subscribe for more Japanese zen focus sessions every week 🌿
+```
+
+**Upload settings:** Not for kids · Playlists "Japanese Zen Music" + "Samurai Meditation Music — Japanese Zen for Focus & Sleep" · first publish Scheduled/Unlisted · end screen → MUSHIN.
+
+## Short copy
+Title:
+```
+He Ruled Every Samurai, But One Thing Watched Him
+```
+Description (add the long-form link):
+```
+Shōgun (将軍), the military ruler of Japan. In his castle, giant tigers painted in ink on gold watched over every visitor: the tiger (虎, tora) was the image of the shogun's power. And the shogun himself sat in perfect stillness.
+
+Full 2-hour samurai meditation music on the channel: [SHOGUN link]
+
+#shorts #shogun #samurai #tiger #samuraimusic #zenmusic
+```
+Tags:
+```
+shogun, samurai, tiger, japanese tiger painting, samurai armor, samurai music, samurai meditation music, japanese zen music, meditation music, zen, shorts
+```
+Pinned:
+```
+🌀 True power is perfect stillness. Where do you find yours? Full 2 hours of SHOGUN on the channel 🌿
+```
