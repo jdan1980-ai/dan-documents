@@ -102,3 +102,8 @@ Pinned:
 ```
 🌀 True power is perfect stillness. Where do you find yours? Full 2 hours of SHOGUN on the channel 🌿
 ```
+
+## §5 — Thumbnail v2 (2026-11-21)
+`assets/shogun-compose-thumb-v2.py` → `assets/shogun-2h-thumb-v2.jpg`: the same layout as BUSHIDO / DOJO / OKAMI v2 (white brush 将軍, tracked SHOGUN, rules + circle, SAMURAI MEDITATION MUSIC) over a dark scrim on the left bamboo doors; the tiger's eyes glow as in the video.
+
+**🇺🇦** Обложка в том же стиле, что у BUSHIDO / DOJO / OKAMI: слева 将軍 и SHOGUN на затемнении, глаза тигра светятся, как в видео.
