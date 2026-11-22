@@ -30,6 +30,7 @@
 | KATANA | scheduled 2026-11-22 16:00 | https://youtu.be/_fDIyyxtpWQ |
 | ŌKAMI | scheduled 2026-11-24 (old candle loop, overlay, thumbnail, SEO); Short uploaded from the old frame | https://youtu.be/ujYOkplvF-k |
 | SHOGUN | scheduled 2026-11-26 (tiger + masked shogun, 4K code loop, Short B ready) | https://youtu.be/zH_eo09q7EA |
+| TAKA | in production: hero 16:9 approved, 4K loop done, 10-track album (Content ID check pending), 9:16 frame chosen | — |
 
 Shorts ready: BUSHIDO, DOJO, RONIN, MUSHIN II, KATANA (plan: 2 a day, 5–6 h apart, never before their long-form). ŌKAMI Short: uploaded; its description now has the long-form link.
 
@@ -49,6 +50,8 @@ Musicful balance: 70 units (~2 more albums). Next album: decide after the 2026-1
 - **Shorts results (2026-11-21):** MUSASHI Short (version B, cover beat 武蔵 + moon hook, Flow clip) reached ~380 views — the best Short so far (BUSHIDO version A ~302 in a day). Early signal for version B + cover rule + a recognizable historical figure.
 
 - **Working rule (user, 2026-11-22): be skeptical of everything we make.** The user wants a 100% result, not reassurance. Lead with problems and risks, say plainly when something is weak or unproven, never call a result good on one data point, and do not soften a critique to please. Praise only what the numbers support.
+
+- **SHISHI → TAKA (2026-11-22):** the lion (karajishi) was dropped after review; its Musicful batch (`claude/shishi-musicful`, ids 1631203–1631210) is used for TAKA. Musicful balance: 22 units (not enough for an 8-track album: needs 24; a 10-track album needs 30).
 
 ## Open decisions
 - TV master: if the user approves ŌKAMI's on headphones, it becomes the standard for every album.
