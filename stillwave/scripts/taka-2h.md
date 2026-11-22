@@ -30,3 +30,13 @@ Loop 26:20.9 × 4.6 = exactly 2:00:00, seams 3 s, −15.8 LUFS. Check video: the
 ## Short (version B) — `assets/taka-short-motion.py`, track 1622097 (unused KATANA spare)
 Vertical frame `assets/taka-916-source.jpg` (1116×2000, a separate generation: the hawk is larger and symmetric, its plumage differs from the 16:9 frame). Living loop: `VERT=1 python3 taka-animate.py taka-916-source.jpg loop.mp4 24 1080` (the first render showed a pale patch above the right candle, where the flame-removal zone reached the dark branch; fixed with a tighter flame zone).
 Cover 鷹 / TAKA in the gap between the wings · hook "Only the shogun / could hunt with hawks." on the blazing eyes · 鷹 brush-written (24 strokes) · "Calm eyes / see everything." · soft 1.6 s ink transitions.
+
+## §6a — Wisdom overlay
+- **能ある鷹は爪を隠す** · *Nō aru taka wa tsume o kakusu* · "The skilled hawk hides its talons": true strength does not show off.
+- File: `stillwave/assets/taka-noaru-taka-overlay.png`, lower-left (zone brightness 62 / 35), checked on a 4K-loop frame. A 9-glyph proverb, so smaller glyphs (`make_overlay.py --kanji-size 80 --pitch 84`, options added for long proverbs); the text ends at x 832, just left of the samurai.
+- CapCut: top track, 0:03 → 0:14, fade in 2 s / fade out 2 s.
+
+**🇺🇦 RU:** «Умелый ястреб прячет когти» — настоящая сила не выставляет себя напоказ. Оверлей внизу слева, текст заканчивается у самурая, но его не задевает.
+
+## §5 — Thumbnail v2
+`assets/taka-compose-thumb-v2.py` → `assets/taka-2h-thumb-v2.jpg`: the series layout (white 鷹, tracked TAKA, rules + circle, SAMURAI MEDITATION MUSIC) on the left; the hawk's eyes glow. Checked at 320×180: 鷹, TAKA and the hawk's eyes stay readable; the small subtitle does not (as on every v2 thumbnail).

@@ -50,6 +50,8 @@ def first_font(candidates, repo_root):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--kanji", required=True, help="the phrase, normally 4 kanji")
+    ap.add_argument("--kanji-size", type=int, default=108, help="glyph size; lower it for a longer proverb")
+    ap.add_argument("--pitch", type=int, default=128, help="distance between glyph centres; lower it for a longer proverb")
     ap.add_argument("--romaji", required=True)
     ap.add_argument("--gloss", required=True, help="short English gloss, 2-6 words")
     ap.add_argument("--out", required=True, type=Path)
@@ -73,7 +75,7 @@ def main():
     if "YujiBoku" not in kfont_path:
         print(f"note: brush font not found, using {Path(kfont_path).name} for the kanji")
 
-    f = ImageFont.truetype(kfont_path, 108)
+    f = ImageFont.truetype(kfont_path, a.kanji_size)
     chars = list(a.kanji)
     for ch in chars:  # a missing glyph renders as an empty box: refuse instead
         if f.getmask(ch).getbbox() is None:
@@ -87,7 +89,7 @@ def main():
 
     mask = Image.new("L", (W, H), 0)
     md = ImageDraw.Draw(mask)
-    pitch, y0 = 128, 692 + a.dy
+    pitch, y0 = a.pitch, 692 + a.dy + (108 - a.kanji_size) // 2
     l0, _, r0, _ = f.getbbox(chars[0])
     c0 = X + a.dx + (r0 - l0) / 2
     for i, ch in enumerate(chars):
