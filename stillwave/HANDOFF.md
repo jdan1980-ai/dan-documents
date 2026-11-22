@@ -47,6 +47,8 @@ Musicful balance: 70 units (~2 more albums). Next album: decide after the 2026-1
 
 - **Shorts results (2026-11-21):** MUSASHI Short (version B, cover beat 武蔵 + moon hook, Flow clip) reached ~380 views — the best Short so far (BUSHIDO version A ~302 in a day). Early signal for version B + cover rule + a recognizable historical figure.
 
+- **Working rule (user, 2026-11-22): be skeptical of everything we make.** The user wants a 100% result, not reassurance. Lead with problems and risks, say plainly when something is weak or unproven, never call a result good on one data point, and do not soften a critique to please. Praise only what the numbers support.
+
 ## Open decisions
 - TV master: if the user approves ŌKAMI's on headphones, it becomes the standard for every album.
 - DOJO: keep, or re-upload with the TV master.
