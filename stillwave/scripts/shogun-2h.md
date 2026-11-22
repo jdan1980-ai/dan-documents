@@ -1,6 +1,7 @@
 # SHOGUN — Samurai Meditation Music (2 Hours)
 
 ## Meta
+- **Long-form:** https://youtu.be/zH_eo09q7EA · scheduled 2026-11-26.
 - **Status (2026-11-20):** hero 16:9 + 9:16 approved, 4K loop rendered, album built, Content ID check clean (2026-11-21), Short B rendered. Next: overlay, thumbnail, SEO.
 - **Concept:** the shogun, ruler of all samurai, sits alone in his castle's audience hall, facing us, his face hidden behind a black iron mask, a slender golden crescent on his helmet. Behind him the gold-leaf doors carry a giant painted tiger (as in the shogun's Nijō Castle): the tiger is the shogun's power. First front-facing figure in the series (user's idea, for CTR).
 - **Frames:** `assets/shogun-2h-source.jpg` (1984×1116, cropped), `assets/shogun-916-source.jpg` (1116×2000). Frames are free; only Flow video costs credits.
@@ -86,11 +87,11 @@ Title:
 ```
 He Ruled Every Samurai, But One Thing Watched Him
 ```
-Description (add the long-form link):
+Description:
 ```
 Shōgun (将軍), the military ruler of Japan. In his castle, giant tigers painted in ink on gold watched over every visitor: the tiger (虎, tora) was the image of the shogun's power. And the shogun himself sat in perfect stillness.
 
-Full 2-hour samurai meditation music on the channel: [SHOGUN link]
+Full 2-hour samurai meditation music on the channel: https://youtu.be/zH_eo09q7EA
 
 #shorts #shogun #samurai #tiger #samuraimusic #zenmusic
 ```
