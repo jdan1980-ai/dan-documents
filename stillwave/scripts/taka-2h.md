@@ -26,3 +26,7 @@ Loop 26:20.9 × 4.6 = exactly 2:00:00, seams 3 s, −15.8 LUFS. Check video: the
 
 ## §4b — Animation without Flow
 `assets/taka-animate.py` (adapted from `shogun-animate.py`): candles, light on gold and floor, glowing eyes, candle sheen, the hawk breathes, gold dust. Checked on a draft: samurai and rack change ≤ 5/255 (light only).
+
+## Short (version B) — `assets/taka-short-motion.py`, track 1622097 (unused KATANA spare)
+Vertical frame `assets/taka-916-source.jpg` (1116×2000, a separate generation: the hawk is larger and symmetric, its plumage differs from the 16:9 frame). Living loop: `VERT=1 python3 taka-animate.py taka-916-source.jpg loop.mp4 24 1080` (the first render showed a pale patch above the right candle, where the flame-removal zone reached the dark branch; fixed with a tighter flame zone).
+Cover 鷹 / TAKA in the gap between the wings · hook "Only the shogun / could hunt with hawks." on the blazing eyes · 鷹 brush-written (24 strokes) · "Calm eyes / see everything." · soft 1.6 s ink transitions.

@@ -33,10 +33,10 @@ def gauss(cx, cy, s, sy=None):
     return np.exp(-((xx - cx) ** 2 / (2 * s * s) + (yy - cy) ** 2 / (2 * sy * sy)))
 
 # ---------- candle flames ----------
-FLAMES = [(83, 530, 548), (1835, 530, 548)]   # x, flame centre y, base y
+FLAMES = [(63, 1222, 1236), (1016, 1222, 1236)] if VERT else [(83, 530, 548), (1835, 530, 548)]   # x, flame centre y, base y
 core = np.zeros((H, W), np.uint8)
 for fx, fy, fb in FLAMES:
-    cv2.ellipse(core, (round(fx * S), round((fy - 1) * S)), (round(9 * S), round(24 * S)), 0, 0, 360, 255, -1)
+    cv2.ellipse(core, (round(fx * S), round((fy - 1) * S)), (round((7 if VERT else 9) * S), round((16 if VERT else 24) * S)), 0, 0, 360, 255, -1)
 bg = cv2.inpaint(B.astype(np.uint8), cv2.dilate(core, np.ones((round(5 * S), round(5 * S)))), 5, cv2.INPAINT_TELEA).astype(np.float32)
 lum = B.mean(2)
 flame_alpha = np.clip((lum - 120) / 100, 0, 1) * (cv2.GaussianBlur(core.astype(np.float32), (0, 0), 3 * S) / 255 > 0.05)
@@ -45,25 +45,29 @@ for fx, fy, fb in FLAMES:
 flame_alpha = cv2.GaussianBlur(flame_alpha.astype(np.float32), (0, 0), 1.2 * S)
 flick = [pnoise([5, 7, 11, 13, 17]), pnoise([6, 9, 12, 15, 19])]
 sway = [pnoise([3, 4, 7]), pnoise([2, 5, 8])]
-FLOOR_Y = 960
+FLOOR_Y = 1800 if VERT else 960
 light = [gauss(fx, fy, 380) + 0.8 * gauss(fx, FLOOR_Y, 120, 70) for fx, fy, _ in FLAMES]   # wall + floor reflection
 
 # ---------- tiger eyes ----------
-EYES = [(917, 277), (975, 277)]
+EYES = [(503, 740), (565, 740)] if VERT else [(917, 277), (975, 277)]
 eye_glow = sum(1.0 * gauss(x, y, 6) + 0.5 * gauss(x, y, 14) + 0.2 * gauss(x, y, 32) for x, y in EYES)
 eye_pulse = pnoise([1, 2])
 
 # ---------- areas that must never move: door rails, the door bottom, the shogun and his crest, the sword rack ----------
-DOOR_BOTTOM = 846                                   # floor line; the mural is one seamless wall
-still = np.clip((DOOR_BOTTOM - yy) / 30, 0, 1) * np.clip((xx - 70) / 30, 0, 1) * np.clip((1850 - xx) / 30, 0, 1)
+DOOR_BOTTOM = 1660 if VERT else 846                                   # floor line; the mural is one seamless wall
+still = np.clip((DOOR_BOTTOM - yy) / 30, 0, 1) * (1 if VERT else np.clip((xx - 70) / 30, 0, 1) * np.clip((1850 - xx) / 30, 0, 1))
 shog = np.zeros((BH, BW), np.float32)
-cv2.ellipse(shog, (970, 820), (150, 230), 0, 0, 360, 1, -1)           # samurai
-cv2.rectangle(shog, (1075, 790), (1420, 930), 1, -1)                   # sword rack
+if VERT:
+    cv2.ellipse(shog, (542, 1510), (150, 250), 0, 0, 360, 1, -1)
+    cv2.rectangle(shog, (650, 1470), (940, 1620), 1, -1)
+else:
+    cv2.ellipse(shog, (970, 820), (150, 230), 0, 0, 360, 1, -1)       # samurai
+    cv2.rectangle(shog, (1075, 790), (1420, 930), 1, -1)               # sword rack
 shog = cv2.resize(cv2.GaussianBlur(shog, (0, 0), 25), (W, H), interpolation=cv2.INTER_LINEAR)
 still *= np.clip(1 - 1.6 * shog, 0, 1)
 
 # tiger body breath (two breaths per loop)
-TC = (960, 390, 330, 170, 560)   # torso centre x, y, sigmas, belly line
+TC = (560, 880, 380, 260, 1060) if VERT else (960, 390, 330, 170, 560)   # torso centre x, y, sigmas, belly line
 torso = (gauss(TC[0], TC[1], TC[2], TC[3]) * still).astype(np.float32)
 
 # candle sheen passing over the tiger's stripes: a soft diagonal band crosses the doors once per loop
@@ -107,7 +111,7 @@ for i in range(min(N, LIMIT)):
         Ma = cv2.warpAffine(flame_alpha, M, (W, H), flags=cv2.INTER_LINEAR) * (np.abs(xx - fx) < 40) * (np.abs(yy - fy) < 60)
         frame = frame * (1 - Ma[..., None]) + Mf * (1 + 0.08 * f) * Ma[..., None]
     # candle sheen: a soft diagonal band sweeps left -> right once per loop (off-frame at both loop ends)
-    cx = -700 + 3300 * t / T
+    cx = (-500 + 3000 * t / T) if VERT else (-700 + 3300 * t / T)
     band = np.exp(-(((xx + 0.45 * yy) - cx) / 260) ** 2)
     gain = 1 + 0.055 * (flick[0](t) * light[0] + flick[1](t) * light[1]) + 0.07 * band * sheen_w
     frame = frame * gain[..., None]
