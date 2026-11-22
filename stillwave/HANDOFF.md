@@ -51,7 +51,7 @@ Musicful balance: 70 units (~2 more albums). Next album: decide after the 2026-1
 
 - **Working rule (user, 2026-11-22): be skeptical of everything we make.** The user wants a 100% result, not reassurance. Lead with problems and risks, say plainly when something is weak or unproven, never call a result good on one data point, and do not soften a critique to please. Praise only what the numbers support.
 
-- **SHISHI → TAKA (2026-11-22):** the lion (karajishi) was dropped after review; its Musicful batch (`claude/shishi-musicful`, ids 1631203–1631210) is used for TAKA. Musicful balance: 22 units (not enough for an 8-track album: needs 24; a 10-track album needs 30).
+- **SHISHI → TAKA (2026-11-22):** the lion (karajishi) was dropped after review; its Musicful batch (`claude/shishi-musicful`, ids 1631203–1631210) is used for TAKA. Musicful balance: 22 units (not enough for an 8-track album: needs 24; a 10-track album needs 30). Seven Lights is paused (its content kept matching), so the whole Musicful balance goes to StillWave: 300 units = 10 albums of 10 tracks.
 
 ## Open decisions
 - TV master: if the user approves ŌKAMI's on headphones, it becomes the standard for every album.
