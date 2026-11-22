@@ -57,6 +57,11 @@ The ink-bleed transitions feel too abrupt. Next Shorts: make them softer and lon
 
 **🇺🇦 RU:** Переходы тушью слишком резкие. В следующих Shorts — мягче и длиннее (1.5–2 с, мягкий край, светлее кайма или плавное растворение).
 
+## Kanji rendering rule (2026-11-22, TAKA)
+The stroke-by-stroke brush (KanjiVG) works only for simple kanji (狼 10 strokes, 虎 8). On 鷹 (24 strokes) the same brush width merged the strokes into white blobs, on the cover too — the user saw it at once. For a kanji with more than ~12 strokes: set it in the brush-style calligraphy font `assets/fonts/YujiBoku-Regular.ttf` and let it **emerge** (fade in while coming into focus, gold glow), as in `taka-short-motion.py`. The user prefers this reveal. Always check the kanji at full size on the cover frame and on the finished-kanji frame before sending.
+
+**🇺🇦 RU:** Написание кистью по чертам годится только для простых иероглифов. На 鷹 (24 черты) черты слиплись в пятна. Для сложных иероглифов — шрифт-кисть YujiBoku и плавное проявление; пользователю так больше нравится. Перед отправкой всегда смотреть иероглиф в полном размере.
+
 ## ~~A/B test (ŌKAMI)~~ — cancelled 2026-11-19
 
 **User decision: no A/B. Version B is the standard Shorts format from now on; version A is retired.** (Original plan kept below for reference.)

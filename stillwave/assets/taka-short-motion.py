@@ -54,7 +54,7 @@ def shot_face(t):
     return crop(img, 534 + 6 * u, 745 + 255 * u, 2.6 - 1.45 * u, ypos=0.40)
 
 def shot_clouds(t):
-    f = next_src.cur.astype(np.float32) * 0.5            # the bamboo wall, dimmed under the kanji
+    f = next_src.cur.astype(np.float32) * 0.38           # dimmed under the kanji
     return crop(Image.fromarray(f.astype(np.uint8)), 540, 1150, 1.7 - 0.1 * ease(t / 8.0), ypos=0.5)
 
 def shot_wide(t):
@@ -90,8 +90,9 @@ def build_strokes(chars, ks, kx, ky, step):
             pts = [p.point(i / (n - 1)) for i in range(n)]
             out.append((L, [(kx + q.real * ks, ky + j * step + q.imag * ks) for q in pts]))
     return out
-KS = 6.4                                               # 109 units -> 700 px
-strokes = build_strokes(["09df9"], KS, 540 - 54.5 * KS, 300, 0)
+KS = 5.6                                               # 109 units -> 700 px
+strokes = build_strokes(["09df9"], KS, 540 - 54.5 * KS, 340, 0)
+WF = 3.3 * min(1.0, (8 / len(strokes)) ** 0.5)       # thinner brush for a many-stroke kanji (鷹: 24 strokes -> 1.9)
 W0, W1 = 9.7, 13.9                                     # writing window (s)
 tot = sum(L ** 0.7 for L, _ in strokes); gap = 0.07
 avail = (W1 - W0) - gap * (len(strokes) - 1)
@@ -100,7 +101,7 @@ for L, _ in strokes:
     d = avail * L ** 0.7 / tot; times.append((t0, t0 + d)); t0 += d + gap
 
 PAPER = np.clip(0.5 + 0.18 * fbm((H, W), 4, seed=11), 0, 1)
-def brush_mask(t, strokes=strokes, ks=KS, tms=None):
+def brush_mask(t, strokes=strokes, ks=KS, tms=None, wf=None):
     m = Image.new("L", (W, H), 0); dr = ImageDraw.Draw(m); tip = None
     for (L, pts), (s0, s1) in zip(strokes, tms or times):
         if t <= s0: break
@@ -109,24 +110,31 @@ def brush_mask(t, strokes=strokes, ks=KS, tms=None):
         for i in range(k):
             s = i / (len(pts) - 1)
             prof = (0.55 + 0.45 * ease(s / 0.12)) * (1 - 0.65 * ease((s - 0.72) / 0.28))
-            r = 3.3 * ks * prof * (1 + 0.05 * np.sin(i * 0.9))
+            r = (wf or WF) * ks * prof * (1 + 0.05 * np.sin(i * 0.9))
             x, y = pts[i]; dr.ellipse((x - r, y - r, x + r, y + r), fill=255)
         if u < 1: tip = pts[k - 1]
     a = np.asarray(m.filter(ImageFilter.GaussianBlur(2.2)), np.float32) / 255
     a = np.clip((a - 0.5 + 0.35 * (PAPER - 0.5)) / 0.12 + 0.5, 0, 1)   # ragged dry-brush edge
     return a, tip
 
+# The kanji is NOT brush-written here (鷹 has 24 strokes: a stroke-by-stroke brush merges them into blobs).
+# It is set in a brush-style calligraphy font and slowly emerges: fades in while coming into focus, with a gold glow.
+KFONT = ImageFont.truetype(str(HERE / "fonts" / "YujiBoku-Regular.ttf"), 600)
+def font_mask(ch, font, cx, top):
+    m = Image.new("L", (W, H), 0); l, tp, r, bt = font.getbbox(ch)
+    ImageDraw.Draw(m).text((cx - (l + r) / 2, top - tp), ch, font=font, fill=255)
+    return m
+KMASK = font_mask("鷹", KFONT, 540, 330)
+KGLOW = np.asarray(KMASK.filter(ImageFilter.GaussianBlur(26)), np.float32)[..., None] / 255
 def draw_kanji(fr, t):
     if t < W0: return fr
-    a, tip = brush_mask(t)
+    u = ease((t - W0) / 2.2)
+    blur = 7 * (1 - u)
+    m = KMASK.filter(ImageFilter.GaussianBlur(blur)) if blur > 0.3 else KMASK
+    a = (np.asarray(m, np.float32) / 255 * u)[..., None]
     F = np.asarray(fr, np.float32)
-    glow = np.asarray(Image.fromarray((a * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(22)), np.float32)[..., None] / 255
-    F = F * (1 - 0.35 * glow) + 0.0                                    # darken behind for contrast
-    F += glow * 0.55 * np.array(GOLD, np.float32)
-    F = F * (1 - a[..., None]) + a[..., None] * np.array(WHITE, np.float32)
-    if tip is not None:                                                # wet gold point at the brush tip
-        g = np.exp(-((XX - tip[0]) ** 2 + (YY - tip[1]) ** 2) / (2 * 26 ** 2))[..., None]
-        F += g * np.array(GOLD, np.float32) * 0.9
+    F = F * (1 - 0.45 * KGLOW * u) + KGLOW * u * 0.5 * np.array(GOLD, np.float32)
+    F = F * (1 - a) + a * np.array(WHITE, np.float32)
     return Image.fromarray(np.clip(F, 0, 255).astype(np.uint8))
 
 # ---------- kinetic type ----------
@@ -165,8 +173,8 @@ f_gloss = ImageFont.truetype(SERIF_R, 44)
 f_cta = ImageFont.truetype(SERIF_R, 46)
 TXT = [
     words_layer(["Only the shogun", "could hunt with hawks."], f_hook, 1240, WHITE, 0.6, t_out=7.2),
-    words_layer(["T A K A"], f_rom, 1110, WHITE, 14.1, step=0.0, t_out=15.5, band=False),
-    words_layer(["the hawk, the shogun's eye"], f_gloss, 1220, CREAM, 14.4, step=0.12, t_out=15.5, band=False),
+    words_layer(["T A K A"], f_rom, 1110, WHITE, 12.2, step=0.0, t_out=15.5, band=False),
+    words_layer(["the hawk, the shogun's eye"], f_gloss, 1220, CREAM, 12.6, step=0.12, t_out=15.5, band=False),
     words_layer(["Calm eyes", "see everything."], f_line, 1150, WHITE, 18.0, t_out=None),
     words_layer(["Full 2 hours on the channel"], f_cta, 1350, CREAM, 20.0, step=0.1, band=False),
 ]
@@ -187,8 +195,7 @@ def dust(fr, t):
 # ---------- COVER beat (0-2 s): wide scene + big kanji + name; frame 1 = the Short's cover ----------
 OFF = 2.0
 CKS = 2.8                                               # ~305 px kanji, top centre
-CSTR = build_strokes(["09df9"], CKS, 540 - 54.5 * CKS, 150, 0)
-CMASK, _ = brush_mask(99.0, CSTR, CKS, [(0, 1e-3)] * len(CSTR))
+CMASK = np.asarray(font_mask("鷹", ImageFont.truetype(str(HERE / "fonts" / "YujiBoku-Regular.ttf"), 300), 540, 150), np.float32) / 255
 CGLOW = np.asarray(Image.fromarray((CMASK * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(18)), np.float32)[..., None] / 255
 SCRIM = (np.exp(-(((XX - 540) / 300) ** 2 + ((YY - 400) / 300) ** 2)) * 0.6)[..., None]
 f_cname = ImageFont.truetype(SERIF, 88); f_csub = ImageFont.truetype(SERIF_R, 36)
