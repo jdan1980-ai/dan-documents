@@ -100,11 +100,11 @@ Title:
 ```
 Only the Shogun Could Hunt With Hawks
 ```
-Description (add the long-form link):
+Description:
 ```
 Taka (鷹), the hawk. In old Japan, hunting with hawks was a privilege of the shogun, and giant hawks painted in ink on gold watched over his castle halls. A hawk waits on the branch in perfect calm, and sees everything.
 
-Full 2-hour samurai meditation music on the channel: [TAKA link]
+Full 2-hour samurai meditation music on the channel: https://youtu.be/WxqidZzyv4M
 
 #shorts #taka #hawk #samurai #samuraimusic #zenmusic
 ```
