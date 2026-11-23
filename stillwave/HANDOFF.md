@@ -30,7 +30,7 @@
 | KATANA | scheduled 2026-11-22 16:00 | https://youtu.be/_fDIyyxtpWQ |
 | ŌKAMI | scheduled 2026-11-24 (old candle loop, overlay, thumbnail, SEO); Short uploaded from the old frame | https://youtu.be/ujYOkplvF-k |
 | SHOGUN | scheduled 2026-11-26 (tiger + masked shogun, 4K code loop, Short B ready) | https://youtu.be/zH_eo09q7EA |
-| TAKA | in production: hero 16:9 approved, 4K loop done, 10-track album (Content ID check pending), 9:16 frame chosen | — |
+| TAKA | ready to upload: 4K loop, 10-track album (Content ID clean, MP3 parts), overlay 能ある鷹は爪を隠す, thumbnail, SEO, Short B | — |
 
 Shorts ready: BUSHIDO, DOJO, RONIN, MUSHIN II, KATANA (plan: 2 a day, 5–6 h apart, never before their long-form). ŌKAMI Short: uploaded; its description now has the long-form link.
 
