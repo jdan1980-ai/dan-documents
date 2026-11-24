@@ -27,3 +27,27 @@ Pinned:
 ```
 🌀 The strongest warrior guards the peace. What do you protect in your life? Full hour of HACHIMAN on the channel 🌿
 ```
+
+## ENSO — `assets/enso-short-motion.py` (loop: `enso-animate.py`), track 1621035
+Long-form: https://youtu.be/X4-wXrf2tD8 (1:59). Cover 円相 / ENSŌ · hook on the burning circle, "One brushstroke. / No beginning, no end." · 円相 emerges · "Draw it once. / Let it be enough." Animation: the circle breathes, the moon glows, lanterns flicker, the reflection ripples (rocks and monk still, ≤3/255), fireflies; the mist is left still.
+
+Title:
+```
+One Brushstroke With No Beginning and No End
+```
+Description:
+```
+Ensō (円相), the zen circle. A Zen monk draws it in a single breath, with one stroke of the brush, and never corrects it. Whatever the circle looks like is exactly how the mind was in that moment.
+
+Full 2-hour Japanese zen music on the channel: https://youtu.be/X4-wXrf2tD8
+
+#shorts #enso #zen #zencircle #japanesezen #zenmusic
+```
+Tags:
+```
+enso, enso circle, zen circle, zen, japanese zen, zen meditation, calligraphy, brush painting, japanese zen music, meditation music, mindfulness, shorts
+```
+Pinned:
+```
+🌀 Draw it once, let it be enough. What would you stop correcting today? Full 2 hours of ENSO on the channel 🌿
+```
