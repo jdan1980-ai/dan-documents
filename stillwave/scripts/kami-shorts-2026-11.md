@@ -51,3 +51,27 @@ Pinned:
 ```
 🌀 Draw it once, let it be enough. What would you stop correcting today? Full 2 hours of ENSO on the channel 🌿
 ```
+
+## RAIJIN — `assets/raijin-short-motion.py` (loop: `raijin-animate.py`), track 1622174 (unused OKAMI spare)
+Long-form: https://youtu.be/FnqtDHdkAEU (1:00). The first 9:16 had the god's eyes closed; regenerated with eyes open and glowing (glow on closed lids would read as a bug). Cover 雷神 / RAIJIN placed over the cloud body, below the face (first version covered the face). Hook on the glowing eyes, "Only one sound / can calm the storm." (the priestess plays the flute) · 雷神 emerges · "Even thunder / listens to stillness." Animation: lightning bursts 4× per loop with cloud flashes, eyes breathe, slanted rain; no warping, so figures never move. Silver motes instead of gold dust.
+
+Title:
+```
+Only One Sound Can Calm the Thunder God
+```
+Description:
+```
+Raijin (雷神), the Japanese god of thunder and storms, beats his ring of drums to call the lightning. In the old shrines, a single quiet flute was played to calm him: even thunder listens to stillness.
+
+Full 1-hour Japanese zen music on the channel: https://youtu.be/FnqtDHdkAEU
+
+#shorts #raijin #thundergod #japanesemythology #zenmusic #samurai
+```
+Tags:
+```
+raijin, thunder god, japanese god, storm, lightning, shrine maiden, japanese flute, japanese mythology, japanese zen music, meditation music, sleep music, shorts
+```
+Pinned:
+```
+🌀 Even thunder listens to stillness. What calms the storm inside you? Full hour of RAIJIN on the channel 🌿
+```
