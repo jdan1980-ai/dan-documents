@@ -39,14 +39,14 @@ Order keeps same-request pairs apart, incl. across the loop. Loop 27:28.9 × 4.4
 
 ## §7 — Title
 ```
-YUKI — 雪 | Samurai Meditation Music for Winter Calm, Deep Focus & Sleep
+YUKI — 雪 | Samurai Meditation Music with Snowstorm Sounds for Deep Focus & Sleep
 ```
 
 ## §8 — Description
 ```
 Yuki (雪), snow. A lone samurai stands in a mountain storm, the wind pulling at his scarf and robe, and in front of him an old temple gate with one warm lantern. For the samurai, winter was the season of endurance: the pine stays green under the snow, and a calm mind stays calm in any storm.
 
-Two hours of samurai meditation music for a winter night. A low shakuhachi flute, warm koto plucked one note at a time, a deep dark drone underneath like slow breathing, and long silences between the phrases. No drums, no beats, nothing that rises or builds. One quiet level from the first minute to the last.
+Two hours of samurai meditation music for a winter night, with the soft sound of a snowstorm underneath. A low shakuhachi flute, warm koto plucked one note at a time, a deep dark drone underneath like slow breathing, and long silences between the phrases. No drums, no beats, nothing that rises or builds. One quiet level from the first minute to the last.
 
 Use it for:
 - deep focus, study and long work sessions
@@ -81,7 +81,7 @@ New Japanese Zen music every week. Subscribe if you want it in your feed.
 
 ## §9 — Tags (22 tags, 450 characters)
 ```
-stillwave, yuki, snow, winter, samurai music, samurai meditation music, samurai relaxing music, japanese zen music, zen music, meditation music, focus music, deep focus music, sleep music, study music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, winter meditation music, snow ambience, winter night music, samurai in a snowstorm walking toward a temple gate under the full moon
+stillwave, yuki, snow, winter, samurai music, samurai meditation music, samurai relaxing music, japanese zen music, zen music, meditation music, focus music, deep focus music, sleep music, study music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, snowstorm sounds, blizzard sounds for sleeping, winter meditation music, samurai in a snowstorm walking toward a temple gate under the full moon
 ```
 
 ## §11 — Pinned comment
