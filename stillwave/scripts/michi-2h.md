@@ -49,3 +49,70 @@ Order keeps same-request pairs apart, incl. across the loop. Loop 27:51.6 × 4.3
 | 8 | 1635851 | 19:35 |
 | 9 | 1635853 | 22:11 |
 | 10 | 1635855 | 25:08 |
+
+## §6a — Wisdom overlay
+- **千里の道も一歩から** · *Senri no michi mo ippo kara* · "A thousand miles begin with one step".
+- File: `assets/michi-senri-no-michi-overlay.png`, UPPER-LEFT over the dark sky (`make_overlay.py --kanji-size 80 --pitch 84 --dy -600 --scrim 150`), the kanji row ends just left of the pagoda; the lower-left is bright snow.
+- CapCut: top track, 0:03 → 0:14, fade 2 s / 2 s.
+
+**🇺🇦 RU:** «Путь в тысячу ри начинается с одного шага». Вверху слева над тёмным небом, строка иероглифов заканчивается чуть левее пагоды.
+
+## §5 — Thumbnail v2
+`assets/michi-compose-thumb-v2.py` → `assets/michi-2h-thumb-v2.jpg`: 道 / MICHI on the left over the dark sky and the shadowed snow; the samurai, the trail and the pagoda under the moon on the right.
+
+## Sound bed
+User's plan: a CC0 snowstorm bed under the music, maybe the Veo footsteps. Measured on the Veo clip: −37.5 LUFS, mostly wind; footstep transients only 3 times per 7.9 s loop and not in sync with the visible steps; a fixed 8-s repeat is easy to hear. Advice: footsteps in the Short yes; in the long-form only very low or none (rhythmic sound vs sleep).
+
+## §7 — Title
+```
+MICHI — 道 | Samurai Meditation Music for the Long Path — Deep Focus, Calm & Sleep
+```
+
+## §8 — Description
+```
+Michi (道), the path. A lone samurai walks across an endless snowfield toward a distant temple, leaving a line of footprints behind him. The temple stays on the horizon, and that is the point: for the samurai, the way was never about arriving. Every step through the snow is the practice itself.
+
+Two hours of samurai meditation music for the long walk, with the soft sound of wind and snow underneath. A low shakuhachi flute, warm koto plucked one note at a time, a deep dark drone like slow breathing, and long silences between the phrases. No drums, no beats, nothing that rises or builds. One quiet level from the first minute to the last.
+
+Use it for:
+- deep focus, study and long work sessions
+- walking meditation and breathwork
+- patience on a long project
+- falling asleep on a cold winter night
+
+0:00 The First Step Into the Snow
+2:32 A Temple on the Horizon
+5:29 Footprints Behind Him
+8:37 The Wind Across the Field
+11:44 One Step, Then the Next
+14:37 The Moon Walks With Him
+16:46 No Hurry on the White Road
+19:35 The Path Is the Practice
+22:11 Snow Fills the Old Tracks
+25:08 Still Walking at Dawn
+(the cycle repeats until 2:00:00)
+
+More from StillWave Zen:
+YUKI — Samurai Meditation Music with Snowstorm Sounds: [YUKI link]
+TAKA — Samurai Meditation Music: https://youtu.be/WxqidZzyv4M
+SHOGUN — Samurai Meditation Music: https://youtu.be/zH_eo09q7EA
+MUSHIN — Japanese Zen Music for Deep Focus: https://youtu.be/CamT9sohYQM
+
+千里の道も一歩から — senri no michi mo ippo kara: a thousand miles begin with one step.
+
+New Japanese Zen music every week. Subscribe if you want it in your feed.
+
+#samuraimusic #michi #samuraipath #samuraimeditation #zenmusic
+```
+
+## §9 — Tags (22 tags, 448 characters)
+```
+stillwave, michi, the way, samurai path, samurai walking in snow, samurai music, samurai meditation music, samurai relaxing music, japanese zen music, zen music, meditation music, focus music, deep focus music, sleep music, study music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, snowstorm sounds, footsteps in snow, lone samurai walking across an endless snowfield toward a distant temple
+```
+
+## §11 — Pinned comment
+```
+🌀 道 MICHI — a thousand miles begin with one step, and the path itself is the destination. 🍃 What is the one step you are taking today? Subscribe for more Japanese zen focus sessions every week 🌿
+```
+
+**Upload settings:** Not for kids · Playlists "Japanese Zen Music" + "Samurai Meditation Music — Japanese Zen for Focus & Sleep" · first publish Scheduled/Unlisted · end screen → MUSHIN. Publish after YUKI (the description links to it); insert the YUKI link before publishing.
