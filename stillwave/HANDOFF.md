@@ -57,6 +57,8 @@ Musicful balance: 70 units (~2 more albums). Next album: decide after the 2026-1
 
 - **Order of work for animation (user, 2026-11-25):** first the user sends the final chosen image (file), THEN I write the Flow/animation prompt for that exact image — never in advance. Prompts written before the image is chosen do not match what the model drew and lead to paid re-generations.
 
+- **Album loop length (user, 2026-11-25):** aim for a ~30-minute loop per 2-hour video (≈4 repeats), so it does not get boring. With the music bank that means 9–10 good tracks per album; a theme with fewer good tracks borrows from another bank theme (same sound).
+
 ## Open decisions
 - TV master: if the user approves ŌKAMI's on headphones, it becomes the standard for every album.
 - DOJO: keep, or re-upload with the TV master.
