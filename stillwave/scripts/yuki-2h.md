@@ -20,3 +20,19 @@ Check: the samurai must not walk or turn; camera still; snow from frame 1 to the
 
 ## §5 — Thumbnail v2
 `assets/yuki-compose-thumb-v2.py` → `assets/yuki-2h-thumb-v2.jpg`: series layout (雪, YUKI, rules, SAMURAI MEDITATION MUSIC) on the left over the dark sky. Known flaw: the subtitle line ends over the sword hilt; readable, but tighter than other thumbnails.
+
+## §2 — Album (music bank: yuki, 10 of the 11 good tracks; 1635769 left out as the shortest)
+Order keeps same-request pairs apart, incl. across the loop. Loop 27:28.9 × 4.4 = exactly 2:00:00, seams 3 s, MP3 320 kbps 4 × 30:00.
+
+| # | Track | Start |
+|---|---|---|
+| 1 | 1635764 | 0:00 |
+| 2 | 1635768 | 2:50 |
+| 3 | 1635772 | 5:31 |
+| 4 | 1635872 | 7:57 |
+| 5 | 1635766 | 10:42 |
+| 6 | 1635765 | 13:44 |
+| 7 | 1635770 | 16:25 |
+| 8 | 1635773 | 19:29 |
+| 9 | 1635875 | 22:11 |
+| 10 | 1635873 | 24:20 |

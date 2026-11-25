@@ -33,3 +33,19 @@ Pinned:
 ```
 🌀 The path itself is the destination. Which step are you taking today? Full 2 hours of MICHI on the channel 🌿
 ```
+
+## §2 — Album (music bank: tsuru, all 10 tracks passed)
+Order keeps same-request pairs apart, incl. across the loop. Loop 27:51.6 × 4.3 = exactly 2:00:00, seams 3 s, −15.8 LUFS, MP3 320 kbps 4 × 30:00.
+
+| # | Track | Start |
+|---|---|---|
+| 1 | 1635846 | 0:00 |
+| 2 | 1635848 | 2:32 |
+| 3 | 1635850 | 5:29 |
+| 4 | 1635852 | 8:37 |
+| 5 | 1635854 | 11:44 |
+| 6 | 1635847 | 14:37 |
+| 7 | 1635849 | 16:46 |
+| 8 | 1635851 | 19:35 |
+| 9 | 1635853 | 22:11 |
+| 10 | 1635855 | 25:08 |
