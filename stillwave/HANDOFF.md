@@ -53,6 +53,8 @@ Musicful balance: 70 units (~2 more albums). Next album: decide after the 2026-1
 
 - **SHISHI → TAKA (2026-11-22):** the lion (karajishi) was dropped after review; its Musicful batch (`claude/shishi-musicful`, ids 1631203–1631210) is used for TAKA. Musicful balance: 22 units (not enough for an 8-track album: needs 24; a 10-track album needs 30). Seven Lights is paused (its content kept matching), so the whole Musicful balance goes to StillWave: 300 units = 10 albums of 10 tracks.
 
+- **Music style is locked (user, 2026-11-25):** keep the proven Musicful sound of DOJO / BUSHIDO / KATANA / SHOGUN (shakuhachi + koto + warm drone, no percussion, one quiet level). Viewers are leaving positive comments on the music. New prompts change only the scene sentence and mood, never the instruments. Every new track is still checked (key, loudness, no swells) and goes through Content ID. Music bank of 10 future themes: `stillwave/scripts/music-bank/`, branch `claude/music-bank-2026-11`.
+
 ## Open decisions
 - TV master: if the user approves ŌKAMI's on headphones, it becomes the standard for every album.
 - DOJO: keep, or re-upload with the TV master.
