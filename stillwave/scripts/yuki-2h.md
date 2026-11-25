@@ -36,3 +36,57 @@ Order keeps same-request pairs apart, incl. across the loop. Loop 27:28.9 × 4.4
 | 8 | 1635773 | 19:29 |
 | 9 | 1635875 | 22:11 |
 | 10 | 1635873 | 24:20 |
+
+## §7 — Title
+```
+YUKI — 雪 | Samurai Meditation Music for Winter Calm, Deep Focus & Sleep
+```
+
+## §8 — Description
+```
+Yuki (雪), snow. A lone samurai stands in a mountain storm, the wind pulling at his scarf and robe, and in front of him an old temple gate with one warm lantern. For the samurai, winter was the season of endurance: the pine stays green under the snow, and a calm mind stays calm in any storm.
+
+Two hours of samurai meditation music for a winter night. A low shakuhachi flute, warm koto plucked one note at a time, a deep dark drone underneath like slow breathing, and long silences between the phrases. No drums, no beats, nothing that rises or builds. One quiet level from the first minute to the last.
+
+Use it for:
+- deep focus, study and long work sessions
+- seated meditation and breathwork
+- staying calm through a hard season
+- falling asleep on a cold winter night
+
+0:00 Snow on the Mountain Pass
+2:50 The Wind Pulls at the Scarf
+5:31 One Lantern at the Gate
+7:57 Footsteps Fill With Snow
+10:42 The Moon Behind the Storm
+13:44 Evergreen Under the Snow
+16:25 A Straw Hat White With Frost
+19:29 The Storm Passes Through
+22:11 Breath in the Cold Air
+24:20 The Gate Is Still Open
+(the cycle repeats until 2:00:00)
+
+More from StillWave Zen:
+TAKA — Samurai Meditation Music: https://youtu.be/WxqidZzyv4M
+SHOGUN — Samurai Meditation Music: https://youtu.be/zH_eo09q7EA
+OKAMI — Samurai Meditation Music, the Wolf Guardian: https://youtu.be/ujYOkplvF-k
+MUSHIN — Japanese Zen Music for Deep Focus: https://youtu.be/CamT9sohYQM
+
+雪中松柏 — setchū no shōhaku: the pine stays green in the snow.
+
+New Japanese Zen music every week. Subscribe if you want it in your feed.
+
+#samuraimusic #yuki #winter #samuraimeditation #zenmusic
+```
+
+## §9 — Tags (22 tags, 450 characters)
+```
+stillwave, yuki, snow, winter, samurai music, samurai meditation music, samurai relaxing music, japanese zen music, zen music, meditation music, focus music, deep focus music, sleep music, study music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, winter meditation music, snow ambience, winter night music, samurai in a snowstorm walking toward a temple gate under the full moon
+```
+
+## §11 — Pinned comment
+```
+🌀 雪 YUKI — the pine stays green in the snow: a calm mind stays calm in any storm. 🍃 What helps you stay steady through a hard season? Subscribe for more Japanese zen focus sessions every week 🌿
+```
+
+**Upload settings:** Not for kids · Playlists "Japanese Zen Music" + "Samurai Meditation Music — Japanese Zen for Focus & Sleep" · first publish Scheduled/Unlisted · end screen → MUSHIN. Publish after TAKA (1.12): the description links to TAKA.
