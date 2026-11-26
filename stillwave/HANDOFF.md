@@ -59,6 +59,8 @@ Musicful balance: 70 units (~2 more albums). Next album: decide after the 2026-1
 
 - **Album loop length (user, 2026-11-25):** aim for a ~30-minute loop per 2-hour video (≈4 repeats), so it does not get boring. With the music bank that means 9–10 good tracks per album; a theme with fewer good tracks borrows from another bank theme (same sound).
 
+- **Questions get a direct answer (user, 2026-11-26):** when the user asks a question ("did you check X?"), answer it directly first (yes / no) and do not start checks, renders or other work on your own. Offer the check in one line and wait for the go-ahead.
+
 ## Open decisions
 - TV master: if the user approves ŌKAMI's on headphones, it becomes the standard for every album.
 - DOJO: keep, or re-upload with the TV master.
