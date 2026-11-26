@@ -1,0 +1,92 @@
+# YUKI — Samurai Meditation Music (2 Hours)
+
+## Meta
+- **Status (2026-11-25):** hero 16:9 approved (`assets/yuki-2h-source.jpg`, 2000×1124 crop); animation by Google Flow (the still has snow already flying, a code loop would freeze it — Flow moves it); thumbnail + overlay done; music: `music-bank/yuki` (11 good tracks) after the Content ID check; optional CC0 blizzard SFX bed under the music.
+- **Concept:** a lone samurai in a straw kasa stands in a mountain blizzard, scarf and robe streaming in the wind, facing a snow-covered temple gate with one warm lantern under the full moon. Replaces the first (calm courtyard) frame, which the user found not clickable.
+- **Playlist:** Japanese Zen Music + Samurai Meditation Music — Japanese Zen for Focus & Sleep.
+
+## §4 — Flow loop (8 s, camera locked)
+```
+Animate this exact image as a calm, seamless 8-second loop. The camera is completely locked: no pan, no zoom, no dolly, no shake; the frame stays identical to the image from the first second to the last. A steady, strong winter wind blows from left to right for the WHOLE clip: fine snow drifts and streams across the entire frame at a constant pace from the first frame to the last, and thin veils of powder snow lift gently off the ground. The samurai stands perfectly still in the same place, only breathing slowly; his long scarf, the hem of his kimono, his hakama and the cords of his straw hat flutter continuously in the wind. The warm paper lantern under the temple gate flickers softly. The moon, the mountains, the gate and the pine trees stay still, only the snow on the pine branches trembles slightly. Slow, quiet, hypnotic motion, no sudden gusts. The last frame matches the first frame.
+```
+Check: the samurai must not walk or turn; camera still; snow from frame 1 to the end; if the seam shows, crossfade two passes (as KATANA).
+
+## §6a — Wisdom overlay
+- **雪中松柏** · *Setchū no shōhaku* · "Evergreen in the snow": the pine and cypress stay green under snow — integrity that hardship cannot change.
+- File: `assets/yuki-setchu-shohaku-overlay.png`, UPPER-LEFT over the dark storm sky (`make_overlay.py --kanji-size 88 --pitch 100 --dx -40 --dy -600 --scrim 150`), text ends at x 494, clear of the hat. The lower-left is bright snow and could not hold cream text.
+- CapCut: top track, 0:03 → 0:14, fade 2 s / 2 s.
+
+**🇺🇦 RU:** «Сосна зеленеет и под снегом» — стойкость, которую не меняют трудности. Оверлей вверху слева над тёмным небом: внизу слева яркий снег.
+
+## §5 — Thumbnail v2
+`assets/yuki-compose-thumb-v2.py` → `assets/yuki-2h-thumb-v2.jpg`: series layout (雪, YUKI, rules, SAMURAI MEDITATION MUSIC) on the left over the dark sky. Known flaw: the subtitle line ends over the sword hilt; readable, but tighter than other thumbnails.
+
+## §2 — Album (music bank: yuki, 10 of the 11 good tracks; 1635769 left out as the shortest)
+Order keeps same-request pairs apart, incl. across the loop. Loop 27:28.9 × 4.4 = exactly 2:00:00, seams 3 s, MP3 320 kbps 4 × 30:00.
+
+| # | Track | Start |
+|---|---|---|
+| 1 | 1635764 | 0:00 |
+| 2 | 1635768 | 2:50 |
+| 3 | 1635772 | 5:31 |
+| 4 | 1635872 | 7:57 |
+| 5 | 1635766 | 10:42 |
+| 6 | 1635765 | 13:44 |
+| 7 | 1635770 | 16:25 |
+| 8 | 1635773 | 19:29 |
+| 9 | 1635875 | 22:11 |
+| 10 | 1635873 | 24:20 |
+
+## §7 — Title
+```
+YUKI — 雪 | Samurai Meditation Music with Snowstorm Sounds for Deep Focus & Sleep
+```
+
+## §8 — Description
+```
+Yuki (雪), snow. A lone samurai stands in a mountain storm, the wind pulling at his scarf and robe, and in front of him an old temple gate with one warm lantern. For the samurai, winter was the season of endurance: the pine stays green under the snow, and a calm mind stays calm in any storm.
+
+Two hours of samurai meditation music for a winter night, with the soft sound of a snowstorm underneath. A low shakuhachi flute, warm koto plucked one note at a time, a deep dark drone underneath like slow breathing, and long silences between the phrases. No drums, no beats, nothing that rises or builds. One quiet level from the first minute to the last.
+
+Use it for:
+- deep focus, study and long work sessions
+- seated meditation and breathwork
+- staying calm through a hard season
+- falling asleep on a cold winter night
+
+0:00 Snow on the Mountain Pass
+2:50 The Wind Pulls at the Scarf
+5:31 One Lantern at the Gate
+7:57 Footsteps Fill With Snow
+10:42 The Moon Behind the Storm
+13:44 Evergreen Under the Snow
+16:25 A Straw Hat White With Frost
+19:29 The Storm Passes Through
+22:11 Breath in the Cold Air
+24:20 The Gate Is Still Open
+(the cycle repeats until 2:00:00)
+
+More from StillWave Zen:
+TAKA — Samurai Meditation Music: https://youtu.be/WxqidZzyv4M
+SHOGUN — Samurai Meditation Music: https://youtu.be/zH_eo09q7EA
+OKAMI — Samurai Meditation Music, the Wolf Guardian: https://youtu.be/ujYOkplvF-k
+MUSHIN — Japanese Zen Music for Deep Focus: https://youtu.be/CamT9sohYQM
+
+雪中松柏 — setchū no shōhaku: the pine stays green in the snow.
+
+New Japanese Zen music every week. Subscribe if you want it in your feed.
+
+#samuraimusic #yuki #winter #samuraimeditation #zenmusic
+```
+
+## §9 — Tags (22 tags, 450 characters)
+```
+stillwave, yuki, snow, winter, samurai music, samurai meditation music, samurai relaxing music, japanese zen music, zen music, meditation music, focus music, deep focus music, sleep music, study music, relaxing music, shakuhachi flute music, koto music, japanese meditation music, snowstorm sounds, blizzard sounds for sleeping, winter meditation music, samurai in a snowstorm walking toward a temple gate under the full moon
+```
+
+## §11 — Pinned comment
+```
+🌀 雪 YUKI — the pine stays green in the snow: a calm mind stays calm in any storm. 🍃 What helps you stay steady through a hard season? Subscribe for more Japanese zen focus sessions every week 🌿
+```
+
+**Upload settings:** Not for kids · Playlists "Japanese Zen Music" + "Samurai Meditation Music — Japanese Zen for Focus & Sleep" · first publish Scheduled/Unlisted · end screen → MUSHIN. Publish after TAKA (1.12): the description links to TAKA.

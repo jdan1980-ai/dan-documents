@@ -72,6 +72,23 @@ ffmpeg -loop 1 -i thumbnail.jpg -i music.mp3 \
 
 ---
 
+## 5a. 🈴 Wisdom Overlay — kanji / romaji / gloss
+
+> Every long-form video (except Pomodoro timer) opens with this. See `CLAUDE.md` §Wisdom Overlay for full spec. Pick a REAL Japanese phrase matched to THIS video's theme — never reuse.
+> *CapCut: TEXT → верхний трек. 0:00–0:03 = сцена без текста → Fade In 2s → 5s hold → Fade Out 2s → clip end 0:14. Шрифт Liberation Serif Bold, cream #F5EAD2, слева над тёмной зоной.*
+
+```
+[KANJI — large]
+[romaji — medium]
+"[English gloss — 2-5 words]"
+```
+
+**Placement in this video's frame:** [describe: e.g. "upper-left, over the dark interior wall"]
+
+**Why this phrase:** [1 sentence — why it fits this video's theme]
+
+---
+
 ## 6. 📝 YouTube Title
 
 > Per current Phase format (see `CLAUDE.md` §Title format).

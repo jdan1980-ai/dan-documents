@@ -103,48 +103,64 @@ Does YOUR cat chirp or chatter at birds? 🐦 Try recording it next time — it'
 
 ```
 How many times did this happen to you TODAY? 🚪 Drop your number — bet you can't beat 5 😂
+
+If Brain taught you something new — subscribe. New shorts every week 💚
 ```
 
 ### 16. The "Stop Stress" Button Inside Your Body (7 мая) — Brain Hacks
 
 ```
 Did you just try the slow exhale? 🌬️ Drop a 🟢 if you feel calmer, 🔴 if not. I read every comment.
+
+If Brain taught you something new — subscribe. New shorts every week 💚
 ```
 
 ### 17. Your Cat's COLOR Tells You Its Gender (8 мая) — Cat Psychology
 
 ```
 What color is YOUR cat — and is it a boy or a girl? 🐱 Did the science match? Comment below 👇
+
+If Brain taught you something new — subscribe. New shorts every week 💚
 ```
 
 ### 18. Why Cats Slow Blink — "I Love You" (9 мая) — Cat Psychology
 
 ```
 Did you try the slow blink with your cat? 👁️💚 Did they blink back? Tell me — I'll heart every reply!
+
+If Brain taught you something new — subscribe. New shorts every week 💚
 ```
 
 ### 19. What's Inside a Black Hole? (TBD) — Brain Hacks
 
 ```
 Would YOU go into a black hole if you could? 🕳️ Drop a 🚀 if yes, 💀 if absolutely not 👇
+
+If Brain taught you something new — subscribe. New shorts every week 💚
 ```
 
 ### 20. Why Your Cat Licks Your Hair (TBD) — Cat Psychology
 
 ```
 Does YOUR cat lick your hair? 🐱 Drop a 💚 if yes — apparently you've been adopted. Tell me what your cat thinks you are below 👇
+
+If Brain taught you something new — subscribe. New shorts every week 💚
 ```
 
 ### 21. Why Music Gives You Goosebumps (TBD) — Brain Hacks
 
 ```
 What song gives YOU goosebumps every time? 🎶 Drop the title below — let me build the ultimate frisson playlist 💚
+
+If Brain taught you something new — subscribe. New shorts every week 💚
 ```
 
 ### 22. Why Your Kid Won't Stop Saying 6-7 (TBD) — Brain Hacks / Kids Trend
 
 ```
 Be honest — did you Google "6-7" before clicking this? 🤣 Drop a 🤚 if yes. And tell me what OTHER kid words confuse you 👇
+
+If Brain taught you something new — subscribe. New shorts every week 💚
 ```
 
 ---
@@ -158,6 +174,7 @@ Be honest — did you Google "6-7" before clicking this? 🤣 Drop a 🤚 if yes
 5. **Confess / Be honest / No judgment** — снимает барьер делиться неловким
 6. **Туториальные видео (Vagus Nerve, Slow Blink)** — закреп подтверждает что они только что попробовали → отвечать естественно
 7. **Country/local angle** (9 Lives) — мировая аудитория Shorts любит узнавать "у вас тоже?"
+8. **Subscribe CTA в конце** — одна строка, мягкая: `If Brain taught you something new — subscribe. New shorts every week 💚`. Всегда последней строкой, никогда в начале.
 
 ## Когда писать закреп
 
